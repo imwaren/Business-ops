@@ -1,0 +1,306 @@
+-- Shared-master accounting only. No backfill. Install schema.sql first.
+SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+DELIMITER $$
+DROP PROCEDURE IF EXISTS gl_shared_clear$$
+CREATE PROCEDURE gl_shared_clear(IN src VARCHAR(250), IN sid INT)
+BEGIN
+ UPDATE journal_entry_item i JOIN journal_entry j ON j.id=i.journal_entry_id
+ SET i.is_deleted=1,i.updated_on=NOW()
+ WHERE j.source=src AND j.source_id=sid AND COALESCE(j.is_migrated,0)=0 AND i.type='Automated' AND i.is_deleted=0;
+ UPDATE journal_entry SET is_deleted=1,updated_on=NOW()
+ WHERE source=src AND source_id=sid AND COALESCE(is_migrated,0)=0 AND is_deleted=0;
+ UPDATE general_ledger SET is_deleted=1,updated_on=NOW()
+ WHERE source=src AND source_id=sid AND COALESCE(is_migrated,0)=0 AND is_deleted=0;
+END$$
+DROP PROCEDURE IF EXISTS gl_shared_je$$
+CREATE PROCEDURE gl_shared_je(IN src VARCHAR(250), IN sid INT)
+BEGIN
+ DECLARE jid INT;
+ IF EXISTS (SELECT 1 FROM general_ledger WHERE source=src AND source_id=sid
+  AND is_deleted=0 AND COALESCE(is_migrated,0)=0) THEN
+  INSERT INTO journal_entry(cost_center_id,date,type,remarks,total_debit,total_credit,status,
+   source,source_id,added_by,added_on,is_deleted,is_migrated)
+  SELECT MIN(branch_id),MIN(date),src,gl_master_apv_context(src,sid,CONCAT(src,' #',sid)),SUM(debit),SUM(credit),'approved',src,sid,
+   COALESCE(MIN(added_by),0),NOW(),0,0 FROM general_ledger
+   WHERE source=src AND source_id=sid AND is_deleted=0 AND COALESCE(is_migrated,0)=0;
+  SET jid=LAST_INSERT_ID();
+  INSERT INTO journal_entry_item(journal_entry_id,account_type_id,debit,credit,remarks,type,added_by,added_on,is_deleted)
+  SELECT jid,account_type_id,debit,credit,remark,'Automated',COALESCE(added_by,0),NOW(),0
+  FROM general_ledger WHERE source=src AND source_id=sid AND is_deleted=0 AND COALESCE(is_migrated,0)=0;
+ END IF;
+END$$
+DROP PROCEDURE IF EXISTS gl_shared_post_change_fund$$
+CREATE PROCEDURE gl_shared_post_change_fund(IN p_id INT)
+BEGIN
+    -- Compatibility no-op: fund accounting posts through the APV lifecycle only.
+    DO 0;
+END$$
+DROP PROCEDURE IF EXISTS gl_shared_post_cash_advance$$
+CREATE PROCEDURE gl_shared_post_cash_advance(IN p_id INT)
+BEGIN
+    -- Compatibility no-op: cash-advance accounting is posted by the APV lifecycle.
+    DO 0;
+END$$
+DROP PROCEDURE IF EXISTS gl_shared_post_petty_cash$$
+CREATE PROCEDURE gl_shared_post_petty_cash(IN p_id INT)
+BEGIN
+    -- Compatibility no-op: fund accounting posts through the APV lifecycle only.
+    DO 0;
+END$$
+DROP PROCEDURE IF EXISTS gl_shared_post_liquidation$$
+CREATE PROCEDURE gl_shared_post_liquidation(IN p_id INT)
+BEGIN
+    -- Compatibility no-op: fund accounting posts through the APV lifecycle only.
+    DO 0;
+END$$
+DROP PROCEDURE IF EXISTS gl_shared_post_reimbursement$$
+CREATE PROCEDURE gl_shared_post_reimbursement(IN p_id INT)
+BEGIN
+    -- Compatibility no-op: fund accounting posts through the APV lifecycle only.
+    DO 0;
+END$$
+DROP PROCEDURE IF EXISTS gl_shared_post_replenishment$$
+CREATE PROCEDURE gl_shared_post_replenishment(IN p_id INT)
+BEGIN
+    -- Compatibility no-op: fund accounting posts through the APV lifecycle only.
+    DO 0;
+END$$
+DROP FUNCTION IF EXISTS gl_master_apv_context$$
+CREATE FUNCTION gl_master_apv_context(p_src VARCHAR(250),p_id INT,p_base LONGTEXT)
+RETURNS LONGTEXT READS SQL DATA
+BEGIN
+ DECLARE rid INT DEFAULT NULL;
+ DECLARE bid INT DEFAULT NULL;
+ DECLARE tid INT DEFAULT NULL;
+ DECLARE patient_name LONGTEXT DEFAULT NULL;
+ DECLARE CONTINUE HANDLER FOR NOT FOUND SET rid=NULL;
+ IF p_src='receipt_note_item' THEN
+  SELECT receipt_note_id INTO rid FROM receipt_note_item WHERE id=p_id LIMIT 1;
+  IF rid IS NULL OR LOCATE(CONCAT('receipt_note #',rid),IFNULL(p_base,''))>0 THEN RETURN p_base; END IF;
+  RETURN CONCAT_WS(' | ',NULLIF(p_base,''),CONCAT('receipt_note #',rid));
+ END IF;
+ IF p_src='accounts_payable_voucher' THEN
+  SELECT r.id,r.branch_id,r.transaction_id,gl_patient_display_name(p.last_name,p.first_name,p.middle_name,p.suffix) INTO rid,bid,tid,patient_name
+  FROM accounts_payable_voucher v JOIN refund r ON r.id=v.type_id AND r.branch_id=v.cost_center_id
+  LEFT JOIN patient p ON p.id=r.patient_id AND p.is_deleted=0
+  WHERE v.id=p_id AND v.type='refund' LIMIT 1;
+ ELSEIF p_src='accounts_payable_voucher_payment_detail' THEN
+  SELECT r.id,r.branch_id,r.transaction_id,gl_patient_display_name(p.last_name,p.first_name,p.middle_name,p.suffix) INTO rid,bid,tid,patient_name
+  FROM accounts_payable_voucher_payment_detail d JOIN accounts_payable_voucher v ON v.id=d.accounts_payable_voucher_id
+  JOIN refund r ON r.id=v.type_id AND r.branch_id=v.cost_center_id
+  LEFT JOIN patient p ON p.id=r.patient_id AND p.is_deleted=0
+  WHERE d.id=p_id AND v.type='refund' LIMIT 1;
+ END IF;
+ RETURN IF(rid IS NULL,p_base,CONCAT(p_base,' | refund #',rid,' | branch #',bid,
+  ' | transaction #',COALESCE(gl_billing_transaction_no(bid,tid),CAST(tid AS CHAR)),
+  IF(patient_name IS NULL,'',CONCAT(' / Patient: ',patient_name))));
+END$$
+DROP FUNCTION IF EXISTS gl_apv_is_legacy$$
+CREATE FUNCTION gl_apv_is_legacy(p_id INT)
+RETURNS TINYINT READS SQL DATA
+BEGIN
+    RETURN EXISTS (SELECT 1 FROM apv_accounting_cutover
+        WHERE id=1 AND p_id<=legacy_max_apv_id)
+        AND NOT EXISTS (SELECT 1 FROM accounts_payable_voucher_entry
+            WHERE accounts_payable_voucher_id=p_id);
+END$$
+DROP PROCEDURE IF EXISTS gl_post_apv$$
+CREATE PROCEDURE gl_post_apv(IN p_id INT)
+proc: BEGIN
+    DECLARE v_amount DECIMAL(13,4);
+    DECLARE v_debit DECIMAL(20,4);
+    DECLARE v_credit DECIMAL(20,4);
+    DECLARE v_payable DECIMAL(20,4);
+    DECLARE v_count INT;
+    DECLARE v_invalid INT;
+
+    IF NOT EXISTS (SELECT 1 FROM accounts_payable_voucher s JOIN branch b ON b.id=s.cost_center_id
+        WHERE s.id=p_id AND (b.type='shared' OR s.type='refund') AND b.is_deleted=0) THEN LEAVE proc; END IF;
+    IF IFNULL(@apv_entry_sync, 0) = 1 THEN LEAVE proc; END IF;
+    IF gl_apv_is_legacy(p_id)=1 THEN
+        IF NOT EXISTS (SELECT 1 FROM accounts_payable_voucher WHERE id=p_id
+            AND is_deleted=0 AND status IN ('approved','open','closed')) THEN
+            CALL gl_shared_clear('accounts_payable_voucher',p_id);
+        END IF;
+        LEAVE proc;
+    END IF;
+    IF EXISTS (SELECT 1 FROM accounts_payable_voucher
+        WHERE id = p_id AND is_deleted = 0 AND status IN ('approved','open','closed')) THEN
+        SELECT amount INTO v_amount FROM accounts_payable_voucher WHERE id = p_id;
+        SELECT COUNT(*), COALESCE(SUM(e.debit),0), COALESCE(SUM(e.credit),0),
+            COALESCE(SUM(CASE WHEN a.code = '201-111' THEN e.credit-e.debit ELSE 0 END),0),
+            COALESCE(SUM(CASE WHEN a.id IS NULL OR a.is_deleted <> 0 OR a.status <> 'active'
+                OR e.debit IS NULL OR e.credit IS NULL OR e.debit < 0 OR e.credit < 0
+                OR ((e.debit > 0) = (e.credit > 0)) THEN 1 ELSE 0 END),0)
+        INTO v_count, v_debit, v_credit, v_payable, v_invalid
+        FROM accounts_payable_voucher_entry e
+        LEFT JOIN account_type a ON a.id = e.account_type_id
+        WHERE e.accounts_payable_voucher_id = p_id AND e.is_deleted = 0;
+        IF v_count = 0 OR v_invalid > 0 OR v_debit <= 0 OR v_debit <> v_credit
+            OR v_amount <= 0 OR v_payable <> v_amount THEN
+            SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Invalid APV entries: balance or payable mismatch';
+        END IF;
+    END IF;
+
+    CALL gl_shared_clear('accounts_payable_voucher', p_id);
+    INSERT INTO general_ledger (branch_id, source, source_id, account_type_id, date,
+        debit, credit, remark, added_by, added_on, is_deleted)
+    SELECT CASE WHEN EXISTS (SELECT 1 FROM branch WHERE id=v.cost_center_id AND type='shared') THEN 0 ELSE v.cost_center_id END, 'accounts_payable_voucher', v.id, e.account_type_id,
+        COALESCE(DATE(v.approved_on), DATE(v.added_on)), e.debit, e.credit,
+        COALESCE(NULLIF(e.remarks,''), CONCAT('APV #',v.id,' entry #',e.id)),
+        COALESCE(v.updated_by,v.added_by), NOW(), 0
+    FROM accounts_payable_voucher v
+    INNER JOIN accounts_payable_voucher_entry e ON e.accounts_payable_voucher_id = v.id
+        AND e.is_deleted = 0
+    WHERE v.id = p_id AND v.is_deleted = 0 AND v.status IN ('approved','open','closed');
+    IF EXISTS (SELECT 1 FROM accounts_payable_voucher v WHERE v.id=p_id
+        AND v.type='direct_payment' AND v.is_deleted=0 AND v.status IN ('approved','open','closed')) THEN
+        CALL gl_shared_clear('direct_payment',(SELECT type_id FROM accounts_payable_voucher WHERE id=p_id));
+    END IF;
+    CALL gl_shared_je('accounts_payable_voucher',p_id);
+    BEGIN
+        DECLARE done INT DEFAULT 0;
+        DECLARE did INT;
+        DECLARE c CURSOR FOR SELECT id FROM accounts_payable_voucher_payment_detail WHERE accounts_payable_voucher_id=p_id;
+        DECLARE CONTINUE HANDLER FOR NOT FOUND SET done=1;
+        OPEN c;
+        refresh_payments: LOOP
+            FETCH c INTO did;
+            IF done=1 THEN LEAVE refresh_payments; END IF;
+            CALL gl_shared_post_apvpd(did);
+        END LOOP;
+        CLOSE c;
+    END;
+END$$
+DROP PROCEDURE IF EXISTS gl_shared_post_apvpd$$
+CREATE PROCEDURE gl_shared_post_apvpd(IN p_id INT)
+proc: BEGIN
+ IF NOT EXISTS (SELECT 1 FROM accounts_payable_voucher_payment_detail d
+ JOIN accounts_payable_voucher v ON v.id=d.accounts_payable_voucher_id
+ JOIN branch b ON b.id=v.cost_center_id WHERE d.id=p_id AND (b.type='shared' OR v.type='refund') AND b.is_deleted=0)
+ THEN LEAVE proc; END IF;
+ CALL gl_shared_clear('accounts_payable_voucher_payment_detail',p_id);
+ INSERT INTO general_ledger(branch_id,source,source_id,account_type_id,date,debit,credit,remark,added_by,added_on,is_deleted)
+ SELECT CASE WHEN b.type='shared' THEN 0 ELSE v.cost_center_id END,'accounts_payable_voucher_payment_detail',d.id,
+ CASE n.side WHEN 0 THEN gl_account_id('201-111') ELSE COALESCE(p.account_type_id,gl_account_id('100-004')) END,
+ COALESCE(d.date,DATE(d.added_on)),IF(n.side=0,d.amount,0),IF(n.side=1,d.amount,0),
+ CONCAT('APV payment #',d.id),COALESCE(d.added_by,0),NOW(),0
+ FROM accounts_payable_voucher_payment_detail d JOIN accounts_payable_voucher v ON v.id=d.accounts_payable_voucher_id
+ JOIN branch b ON b.id=v.cost_center_id AND b.is_deleted=0
+ JOIN accounts_payable_voucher_payment p ON p.id=d.accounts_payable_voucher_payment_id AND p.is_deleted=0
+ CROSS JOIN (SELECT 0 AS side UNION ALL SELECT 1) n
+ WHERE d.id=p_id AND d.is_deleted=0 AND d.amount>0 AND v.is_deleted=0 AND v.status IN ('approved','open','closed');
+ CALL gl_shared_je('accounts_payable_voucher_payment_detail',p_id);
+END$$
+DROP PROCEDURE IF EXISTS gl_shared_post_payment$$
+CREATE PROCEDURE gl_shared_post_payment(IN p_id INT)
+BEGIN
+ DECLARE done INT DEFAULT 0;
+ DECLARE did INT;
+ DECLARE c CURSOR FOR SELECT d.id FROM accounts_payable_voucher_payment_detail d
+ JOIN accounts_payable_voucher v ON v.id=d.accounts_payable_voucher_id
+ JOIN branch b ON b.id=v.cost_center_id AND (b.type='shared' OR v.type='refund') AND b.is_deleted=0
+ WHERE d.accounts_payable_voucher_payment_id=p_id;
+ DECLARE CONTINUE HANDLER FOR NOT FOUND SET done=1;
+ OPEN c;
+ payment_details: LOOP
+  FETCH c INTO did;
+  IF done=1 THEN LEAVE payment_details; END IF;
+  CALL gl_shared_post_apvpd(did);
+ END LOOP;
+ CLOSE c;
+END$$
+DROP TRIGGER IF EXISTS trg_gl_shared_apvp_au$$
+CREATE TRIGGER trg_gl_shared_apvp_au AFTER UPDATE ON accounts_payable_voucher_payment
+FOR EACH ROW BEGIN CALL gl_shared_post_payment(NEW.id); END$$
+DROP PROCEDURE IF EXISTS gl_shared_post_direct_payment$$
+CREATE PROCEDURE gl_shared_post_direct_payment(IN p_id INT)
+proc: BEGIN
+ IF NOT EXISTS (SELECT 1 FROM direct_payment s JOIN branch b ON b.id=s.cost_center_id
+ WHERE s.id=p_id AND b.type='shared' AND b.is_deleted=0) THEN LEAVE proc; END IF;
+ IF EXISTS (SELECT 1 FROM apv_accounting_cutover WHERE id=1 AND p_id<=legacy_max_direct_payment_id)
+ AND EXISTS (SELECT 1 FROM direct_payment WHERE id=p_id AND is_deleted=0 AND status='approved') THEN LEAVE proc; END IF;
+ CALL gl_shared_clear('direct_payment',p_id);
+END$$
+DROP TRIGGER IF EXISTS trg_gl_petty_cash_ai$$
+DROP TRIGGER IF EXISTS trg_gl_petty_cash_au$$
+DROP TRIGGER IF EXISTS trg_gl_cash_advance_ai$$
+DROP TRIGGER IF EXISTS trg_gl_cash_advance_au$$
+DROP TRIGGER IF EXISTS trg_gl_liquidation_ai$$
+DROP TRIGGER IF EXISTS trg_gl_liquidation_au$$
+DROP TRIGGER IF EXISTS trg_gl_reimbursement_ai$$
+DROP TRIGGER IF EXISTS trg_gl_reimbursement_au$$
+DROP TRIGGER IF EXISTS trg_gl_replenishment_ai$$
+DROP TRIGGER IF EXISTS trg_gl_replenishment_au$$
+DROP TRIGGER IF EXISTS trg_gl_change_fund_ai$$
+DROP TRIGGER IF EXISTS trg_gl_change_fund_ad$$
+DROP TRIGGER IF EXISTS trg_gl_petty_cash_ad$$
+DROP TRIGGER IF EXISTS trg_gl_liquidation_ad$$
+DROP TRIGGER IF EXISTS trg_gl_reimbursement_ad$$
+DROP TRIGGER IF EXISTS trg_gl_replenishment_ad$$
+
+DROP TRIGGER IF EXISTS trg_gl_change_fund_au$$
+DROP TRIGGER IF EXISTS trg_gl_direct_payment_ai$$
+CREATE TRIGGER trg_gl_direct_payment_ai AFTER INSERT ON direct_payment
+FOR EACH ROW BEGIN IF EXISTS (SELECT 1 FROM branch WHERE id=NEW.cost_center_id AND type='shared' AND is_deleted=0) THEN CALL gl_shared_post_direct_payment(NEW.id); ELSE CALL gl_post_direct_payment(NEW.id); END IF; END$$
+DROP TRIGGER IF EXISTS trg_gl_direct_payment_au$$
+CREATE TRIGGER trg_gl_direct_payment_au AFTER UPDATE ON direct_payment
+FOR EACH ROW BEGIN IF EXISTS (SELECT 1 FROM branch WHERE id=NEW.cost_center_id AND type='shared' AND is_deleted=0) THEN CALL gl_shared_post_direct_payment(NEW.id); ELSE CALL gl_post_direct_payment(NEW.id); END IF; END$$
+DROP TRIGGER IF EXISTS trg_gl_apv_ai$$
+CREATE TRIGGER trg_gl_apv_ai AFTER INSERT ON accounts_payable_voucher
+FOR EACH ROW BEGIN CALL gl_post_apv(NEW.id); END$$
+DROP TRIGGER IF EXISTS trg_gl_apv_au$$
+CREATE TRIGGER trg_gl_apv_au AFTER UPDATE ON accounts_payable_voucher
+FOR EACH ROW BEGIN CALL gl_post_apv(NEW.id); END$$
+DROP TRIGGER IF EXISTS trg_gl_liquidation_detail_ai$$
+DROP TRIGGER IF EXISTS trg_gl_liquidation_detail_au$$
+DROP TRIGGER IF EXISTS trg_gl_liquidation_detail_ad$$
+DROP TRIGGER IF EXISTS trg_gl_reimbursement_item_ai$$
+DROP TRIGGER IF EXISTS trg_gl_reimbursement_item_au$$
+DROP TRIGGER IF EXISTS trg_gl_reimbursement_item_ad$$
+DROP TRIGGER IF EXISTS trg_gl_replenishment_item_ai$$
+DROP TRIGGER IF EXISTS trg_gl_replenishment_item_au$$
+DROP TRIGGER IF EXISTS trg_gl_replenishment_item_ad$$
+DROP TRIGGER IF EXISTS trg_gl_apv_entry_ai$$
+CREATE TRIGGER trg_gl_apv_entry_ai AFTER INSERT ON accounts_payable_voucher_entry
+FOR EACH ROW BEGIN CALL gl_post_apv(NEW.accounts_payable_voucher_id); END$$
+DROP TRIGGER IF EXISTS trg_gl_apv_entry_au$$
+CREATE TRIGGER trg_gl_apv_entry_au AFTER UPDATE ON accounts_payable_voucher_entry
+FOR EACH ROW BEGIN CALL gl_post_apv(NEW.accounts_payable_voucher_id); IF OLD.accounts_payable_voucher_id<>NEW.accounts_payable_voucher_id THEN CALL gl_post_apv(OLD.accounts_payable_voucher_id); END IF; END$$
+DROP TRIGGER IF EXISTS trg_gl_apv_entry_ad$$
+CREATE TRIGGER trg_gl_apv_entry_ad AFTER DELETE ON accounts_payable_voucher_entry
+FOR EACH ROW BEGIN CALL gl_post_apv(OLD.accounts_payable_voucher_id); END$$
+DROP TRIGGER IF EXISTS trg_gl_apvpd_ai$$
+CREATE TRIGGER trg_gl_apvpd_ai AFTER INSERT ON accounts_payable_voucher_payment_detail
+FOR EACH ROW BEGIN IF EXISTS (SELECT 1 FROM accounts_payable_voucher v JOIN branch b ON b.id=v.cost_center_id WHERE v.id=NEW.accounts_payable_voucher_id AND (b.type='shared' OR v.type='refund') AND b.is_deleted=0) THEN CALL gl_shared_post_apvpd(NEW.id); ELSEIF EXISTS (SELECT 1 FROM information_schema.ROUTINES WHERE ROUTINE_SCHEMA=DATABASE() AND ROUTINE_NAME='gl_post_apv_payment_detail') THEN CALL gl_post_apv_payment_detail(NEW.id); END IF; END$$
+DROP TRIGGER IF EXISTS trg_gl_apvpd_au$$
+CREATE TRIGGER trg_gl_apvpd_au AFTER UPDATE ON accounts_payable_voucher_payment_detail
+FOR EACH ROW BEGIN IF EXISTS (SELECT 1 FROM accounts_payable_voucher v JOIN branch b ON b.id=v.cost_center_id WHERE v.id=NEW.accounts_payable_voucher_id AND (b.type='shared' OR v.type='refund') AND b.is_deleted=0) THEN CALL gl_shared_post_apvpd(NEW.id); ELSEIF EXISTS (SELECT 1 FROM information_schema.ROUTINES WHERE ROUTINE_SCHEMA=DATABASE() AND ROUTINE_NAME='gl_post_apv_payment_detail') THEN CALL gl_post_apv_payment_detail(NEW.id); END IF; END$$
+DROP TRIGGER IF EXISTS trg_gl_apvpd_ad$$
+CREATE TRIGGER trg_gl_apvpd_ad AFTER DELETE ON accounts_payable_voucher_payment_detail
+FOR EACH ROW BEGIN CALL gl_shared_clear('accounts_payable_voucher_payment_detail',OLD.id); END$$
+DROP TRIGGER IF EXISTS trg_gl_apv_legacy_bu$$
+CREATE TRIGGER trg_gl_apv_legacy_bu BEFORE UPDATE ON accounts_payable_voucher
+FOR EACH ROW
+BEGIN
+    IF IFNULL(@apv_entry_sync,0)<>1 AND gl_apv_is_legacy(OLD.id)=1 AND (
+        NOT (NEW.amount <=> OLD.amount) OR NOT (NEW.withholding_tax <=> OLD.withholding_tax)
+        OR NOT (NEW.type <=> OLD.type) OR NOT (NEW.type_id <=> OLD.type_id)
+        OR NOT (NEW.due_date <=> OLD.due_date) OR NOT (NEW.added_on <=> OLD.added_on)
+        OR (NEW.status IN ('approved','open','closed') AND OLD.status NOT IN ('approved','open','closed'))
+    ) THEN
+        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='Legacy APV needs entries before approval or financial changes';
+    END IF;
+END$$
+
+DROP PROCEDURE IF EXISTS gl_post_direct_payment$$
+CREATE PROCEDURE gl_post_direct_payment(IN p_id INT)
+BEGIN
+ IF EXISTS (SELECT 1 FROM direct_payment s JOIN branch b ON b.id=s.cost_center_id
+  WHERE s.id=p_id AND b.type='shared' AND b.is_deleted=0) THEN
+  CALL gl_shared_post_direct_payment(p_id);
+ ELSEIF NOT EXISTS (SELECT 1 FROM apv_accounting_cutover WHERE id=1 AND p_id<=legacy_max_direct_payment_id) THEN
+  CALL gl_shared_clear('direct_payment',p_id);
+ END IF;
+END$$
+DELIMITER ;

@@ -1,0 +1,39 @@
+{
+  "info": {
+    "_postman_id": "b2c3d4e5-f6a7-8901-bcde-f01234567890",
+    "name": "Reports Insert Bank",
+    "description": "# Insert Bank from CASH IN BANK accounts\n\nDestructive seed: truncates `bank` on master and all 5 clinic DBs if not empty, then inserts one row per bank brand mapped from master `account_type` leaves named `CASH IN BANK%`.\n\nExample: `CASH IN BANK - BPI OPEX` → `bank.name = BPI`. Multiple accounts for the same brand are grouped; `account_type_ids` is a comma-separated list of leaf ids.\n\nDoes **not** truncate `bank_service_fee`. Existing fee `bank_id` values may become stale.\n\n## Auth\n- Header: `API-KEY` (required)\n- Body: `token`, `requester` (required)\n",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "base_url", "value": "http://localhost/cpci-business-ops-api" },
+    { "key": "api_key", "value": "clinicaRiKOYqlwdTJ-lNedqS0k-it!395!-6ls1JXM7Vcc" },
+    { "key": "token", "value": "{{token}}" },
+    { "key": "requester", "value": "1" }
+  ],
+  "item": [
+    {
+      "name": "Insert bank",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "token", "value": "{{token}}", "type": "text" },
+            { "key": "requester", "value": "{{requester}}", "type": "text" }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/reports/insert_bank",
+          "host": ["{{base_url}}"],
+          "path": ["reports", "insert_bank"]
+        },
+        "description": "## POST `/reports/insert_bank`\n\nSeeds `bank` on master, mobile, oakridge, mactan, consolacion, and mantlewood.\n\n### Response\n`truncated` counts per DB, `inserted` rows `{id, name, account_type_ids}`, optional `warnings`.\n"
+      }
+    }
+  ]
+}

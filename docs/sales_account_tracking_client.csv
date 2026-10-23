@@ -1,0 +1,137 @@
+Tab,Section,Field,What it means,Example,When blank
+dashboard,Sales person,sales_person_id,Internal ID of the sales person who created the request.,42,Not expected to be blank
+dashboard,Sales person,sales_person_name,Display name of the sales person.,Jane Doe,Blank if the user record is missing
+dashboard,Sales person,companies,List of companies under this sales person. Each item has its own company metrics.,"[{company_id: 10, company_name: ACME, ...}]",Empty list if the person has no matching companies
+dashboard,Sales person,inquiry_count,How many requests this sales person received in the date range.,12,0 when none
+dashboard,Sales person,inquiry_headcount,Estimated number of people on those inquiry requests.,350,0 when none
+dashboard,Sales person,inquiry_revenue,Estimated revenue of those inquiry requests (latest costing).,1250000.00,0 when none
+dashboard,Sales person,endorsement_count,How many of those requests were endorsed in the date range.,8,0 when none
+dashboard,Sales person,endorsement_headcount,Guaranteed headcount on endorsed requests.,280,0 when none
+dashboard,Sales person,endorsement_revenue,Estimated revenue of endorsed requests (latest costing).,980000.00,0 when none
+dashboard,Sales person,delivered_count,How many endorsements already have a clinic or mobile transaction.,5,0 when none
+dashboard,Sales person,delivered_headcount,Actual unique patients booked on delivered endorsements.,210,0 when none
+dashboard,Sales person,delivered_revenue,Estimated revenue of requests that already have a delivered endorsement.,720000.00,0 when none
+dashboard,Sales person,cancelled_count,"How many requests were cancelled or returned (based on the latest costing, or the request if there is no costing).",2,0 when none
+dashboard,Sales person,cancelled_headcount,Estimated headcount on cancelled requests.,40,0 when none
+dashboard,Sales person,cancelled_revenue,Estimated revenue on cancelled requests.,85000.00,0 when none
+dashboard,Sales person,average_lapse_time,Average days from inquiry to first endorsement.,3.25,0 if nothing was endorsed
+dashboard,Company,company_id,Internal ID of the company.,10,Not expected to be blank
+dashboard,Company,company_name,Company name.,ACME Manufacturing,Blank if the company record is missing
+dashboard,Company,average_lapse_time,Average days from inquiry to first endorsement for this company.,2.5,0 if nothing was endorsed
+dashboard,Company,inquiry_request_ids,"IDs of inquiry requests for this company, comma-separated.","11, 14, 22",Blank if none
+dashboard,Company,endorsement_request_ids,"IDs of endorsed requests for this company, comma-separated.","11, 22",Blank if none
+dashboard,Company,delivered_request_ids,"IDs of requests that already have a delivered endorsement, comma-separated.",11,Blank if none
+dashboard,Company,cancelled_request_ids,"IDs of cancelled or returned requests, comma-separated.",14,Blank if none
+dashboard,Company,inquiry_count,How many requests this company had in the date range.,4,0 when none
+dashboard,Company,inquiry_headcount,Estimated people on those inquiry requests.,120,0 when none
+dashboard,Company,inquiry_revenue,Estimated revenue of those inquiry requests.,400000.00,0 when none
+dashboard,Company,endorsement_count,How many of those requests were endorsed in the date range.,3,0 when none
+dashboard,Company,endorsement_headcount,Guaranteed headcount on endorsed requests.,90,0 when none
+dashboard,Company,endorsement_revenue,Estimated revenue of endorsed requests.,310000.00,0 when none
+dashboard,Company,delivered_count,How many endorsements already have a clinic or mobile transaction.,2,0 when none
+dashboard,Company,delivered_headcount,Actual unique patients booked on delivered endorsements.,75,0 when none
+dashboard,Company,delivered_revenue,Estimated revenue of requests that already have a delivered endorsement.,210000.00,0 when none
+dashboard,Company,cancelled_count,How many requests were cancelled or returned.,1,0 when none
+dashboard,Company,cancelled_headcount,Estimated headcount on cancelled requests.,15,0 when none
+dashboard,Company,cancelled_revenue,Estimated revenue on cancelled requests.,35000.00,0 when none
+tracker,Package line,line_id,Internal ID of this package or service line.,88,Not expected to be blank
+tracker,Package line,line_source,Whether the line came from an endorsement or from the original request.,endorsement_service,Not expected to be blank
+tracker,Package line,request_id,Internal ID of the parent request.,11,Not expected to be blank
+tracker,Package line,endorsement_id,Internal ID of the endorsement.,7,Blank on inquiry or cancelled lines that were never endorsed
+tracker,Package line,inq_year,Calendar year of the inquiry date.,2026,0 if the inquiry date is missing
+tracker,Package line,inq_month,Calendar month of the inquiry date (1–12).,3,0 if the inquiry date is missing
+tracker,Package line,inquiry_date,When the request was created.,2026-03-04 09:12:00,Blank if missing
+tracker,Package line,cancelled,When the request or endorsement was cancelled or returned.,2026-03-20 14:00:00,Blank if still active
+tracker,Package line,endorsed_date,When the request was endorsed.,2026-03-06 10:00:00,Blank if not yet endorsed
+tracker,Package line,lapse_time,Days from inquiry to endorsement.,1.75,Blank if not yet endorsed
+tracker,Package line,clinic_transaction_delivered,First clinic activity or first branch transaction date.,2026-03-15,Blank if no clinic activity and no transaction yet
+tracker,Package line,start_of_mobile_date,Planned start of the mobile activity.,2026-03-18,Blank if not a mobile job or not set
+tracker,Package line,end_of_mobile_date,Planned end of the mobile activity.,2026-03-20,Blank if not a mobile job or not set
+tracker,Package line,mobile_agreed_tat,Agreed turnaround for mobile APE results.,2026-04-01,Blank if not set
+tracker,Package line,mobile_actual_tat,Actual mobile completion / result date.,2026-03-28,Blank if not completed
+tracker,Package line,agreed_tat,Agreed date to deliver results to the client.,2026-04-05,Blank if not set
+tracker,Package line,actual_tat,Actual demographics / results report date.,2026-04-03,Blank if not set
+tracker,Package line,tat_status,Whether results were delivered on time.,MET,Blank if cancelled or the dates cannot be compared
+tracker,Package line,status,"Current stage of the line: Inquiry, Endorsed, Delivered, or Cancelled.",Delivered,Not expected to be blank
+tracker,Package line,sae,First name of the sales account executive in charge.,Keith,Blank if none assigned
+tracker,Package line,clinic_management_provider,Company charged when the line is billed to a company (clinic management).,Clinic Partner Inc.,Blank if not charged to a company
+tracker,Package line,hmo_provider,HMO account name when the line is charged to an HMO.,Maxicare,Blank if not an HMO charge
+tracker,Package line,area,City or municipality of the company.,Cebu City,Blank if not set
+tracker,Package line,classification,Account classification on the request.,New,Blank if not set
+tracker,Package line,industry,Industry of the company.,Manufacturing,Blank if not set
+tracker,Package line,company_name,Company name.,ACME Manufacturing,Blank if the company record is missing
+tracker,Package line,charge_to,"Who is billed: company, HMO, or the request payment mode.",COMPANY,Blank if not set
+tracker,Package line,preferred_branch,Preferred branch for the request.,Oakridge,Blank if not set
+tracker,Package line,transaction_type,Type of transaction on the request (for example APE or clinic).,APE,Blank if not set
+tracker,Package line,description_of_service,Service category or package type.,Laboratory,Blank if the package or test has no category
+tracker,Package line,package_name,Package or lab test name.,Executive Check-up,Blank if unnamed
+tracker,Package line,est_headcount,Estimated number of people for this package.,50,0 if not set
+tracker,Package line,package_cost,Cost per person of the package.,850.00,0 if not set
+tracker,Package line,package_price,Selling price per person of the package.,1200.00,0 if not set
+tracker,Package line,est_cost,"Estimated total cost (headcount x cost, stored total).",42500.00,0 if not set
+tracker,Package line,est_gross_sales,Estimated total sales.,60000.00,0 if not set
+tracker,Package line,gross_margin,Estimated profit (sales minus cost).,17500.00,0 if not set
+tracker,Package line,gross_margin_pct,Estimated profit as a share of estimated sales.,0.2917,0 if estimated sales is 0
+tracker,Package line,average_check,Same as package price — expected spend per person.,1200.00,0 if not set
+tracker,Package line,act_headcount,Actual unique patients already booked for this endorsement.,42,0 if no transactions yet
+tracker,Package line,cost,Actual estimated cost: actual headcount times package cost.,35700.00,0 if no actual headcount or no package cost
+tracker,Package line,gross_sales,Actual billed sales from branch transactions.,50400.00,0 if nothing billed yet
+tracker,Package line,gross_margin_actual,Actual profit: actual sales minus actual cost.,14700.00,0 if no actual sales and cost
+tracker,Package line,gross_margin_pct_actual,Actual profit as a share of actual sales.,0.2917,0 if no actual sales
+tracker,Package line,average_check_actual,Actual spend per booked person.,1200.00,0 if no actual headcount
+tracker,Package line,compliance_php,Actual billed sales in pesos (same amount as gross_sales).,50400.00,0 if nothing billed yet
+tracker,Package line,compliance_pct,Actual sales versus estimated sales.,0.84,0 if estimated sales is 0
+tracker,Package line,remarks,Notes from the request or endorsement.,Pending site confirmation,Blank if none
+running,Package line,line_id,Internal ID of this endorsed package or service line.,88,Not expected to be blank
+running,Package line,line_source,Always endorsement_service — running shows endorsed lines only.,endorsement_service,Not expected to be blank
+running,Package line,request_id,Internal ID of the parent request.,11,Not expected to be blank
+running,Package line,endorsement_id,Internal ID of the endorsement.,7,Not expected to be blank
+running,Package line,endorsed_date,When the request was endorsed. Running filters use this date.,2026-03-06 10:00:00,Blank if missing
+running,Package line,clinic_transaction_delivered,First clinic activity or first branch transaction date.,2026-03-15,Blank if no clinic activity and no transaction yet
+running,Package line,start_of_mobile_date,Planned start of the mobile activity.,2026-03-18,Blank if not a mobile job or not set
+running,Package line,end_of_mobile_date,Planned end of the mobile activity.,2026-03-20,Blank if not a mobile job or not set
+running,Package line,internal_tat,Internal results / demographics report date.,2026-04-03,Blank if not set
+running,Package line,client_agreed_tat,Date the client was promised results.,2026-04-05,Blank if not set
+running,Package line,mobile_result_delivered_date,When mobile results were actually completed.,2026-03-28,Blank if not completed
+running,Package line,status_of_delivery,Whether results were delivered on time.,MET,Blank if cancelled or the dates cannot be compared
+running,Package line,company_name,Company name.,ACME Manufacturing,Blank if the company record is missing
+running,Package line,package_name,Package or lab test name.,Executive Check-up,Blank if unnamed
+running,Package line,transaction_type,Type of transaction on the request.,APE,Blank if not set
+running,Package line,description_of_service,Service category or package type.,Laboratory,Blank if the package or test has no category
+running,Package line,status,"Current stage: Inquiry, Endorsed, Delivered, or Cancelled.",Delivered,Not expected to be blank
+running,Package line,est_headcount,Estimated number of people for this package.,50,0 if not set
+running,Package line,package_cost,Cost per person of the package.,850.00,0 if not set
+running,Package line,package_price,Selling price per person of the package.,1200.00,0 if not set
+running,Package line,updated_package_price,Renegotiated rate if one exists; otherwise the original package price.,1150.00,0 if neither rate is set
+running,Package line,est_cost,Estimated total cost.,42500.00,0 if not set
+running,Package line,est_gross_sales,Estimated total sales.,60000.00,0 if not set
+running,Package line,gross_margin,Estimated profit.,17500.00,0 if not set
+running,Package line,census,Actual unique patients already booked for this endorsement.,42,0 if no transactions yet
+running,Package line,amount,Actual billed sales from branch transactions.,50400.00,0 if nothing billed yet
+running,Package line,compliance_in_sales,Actual sales versus estimated sales.,0.84,0 if estimated sales is 0
+running,Package line,monthly_census,Actual unique patients booked per calendar month (January to December).,"{jan: 10, feb: 8, ...}",Each month is 0 when none
+running,Package line,monthly_census.jan,Unique patients booked in January.,10,0 when none
+running,Package line,monthly_census.feb,Unique patients booked in February.,8,0 when none
+running,Package line,monthly_census.mar,Unique patients booked in March.,12,0 when none
+running,Package line,monthly_census.apr,Unique patients booked in April.,5,0 when none
+running,Package line,monthly_census.may,Unique patients booked in May.,0,0 when none
+running,Package line,monthly_census.jun,Unique patients booked in June.,0,0 when none
+running,Package line,monthly_census.jul,Unique patients booked in July.,4,0 when none
+running,Package line,monthly_census.aug,Unique patients booked in August.,0,0 when none
+running,Package line,monthly_census.sep,Unique patients booked in September.,0,0 when none
+running,Package line,monthly_census.oct,Unique patients booked in October.,0,0 when none
+running,Package line,monthly_census.nov,Unique patients booked in November.,0,0 when none
+running,Package line,monthly_census.dec,Unique patients booked in December.,3,0 when none
+running,Package line,monthly_amount,Actual billed sales per calendar month (January to December).,"{jan: 12000.00, feb: 9600.00, ...}",Each month is 0 when none
+running,Package line,monthly_amount.jan,Billed sales in January.,12000.00,0 when none
+running,Package line,monthly_amount.feb,Billed sales in February.,9600.00,0 when none
+running,Package line,monthly_amount.mar,Billed sales in March.,14400.00,0 when none
+running,Package line,monthly_amount.apr,Billed sales in April.,6000.00,0 when none
+running,Package line,monthly_amount.may,Billed sales in May.,0.00,0 when none
+running,Package line,monthly_amount.jun,Billed sales in June.,0.00,0 when none
+running,Package line,monthly_amount.jul,Billed sales in July.,4800.00,0 when none
+running,Package line,monthly_amount.aug,Billed sales in August.,0.00,0 when none
+running,Package line,monthly_amount.sep,Billed sales in September.,0.00,0 when none
+running,Package line,monthly_amount.oct,Billed sales in October.,0.00,0 when none
+running,Package line,monthly_amount.nov,Billed sales in November.,0.00,0 when none
+running,Package line,monthly_amount.dec,Billed sales in December.,3600.00,0 when none

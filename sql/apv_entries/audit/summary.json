@@ -1,0 +1,60 @@
+{
+  "exceptions": 18,
+  "by_kind": {
+    "apv": 14,
+    "direct_payment_entries": 3,
+    "direct_payment": 1
+  },
+  "schemas": {
+    "mytemr_diagnostic_mobile_uat": {
+      "active_apvs": 0,
+      "active_direct_payments": 0,
+      "old_entry_table_present": true
+    },
+    "mytemr_diagnostic_uat": {
+      "active_apvs": 8,
+      "active_direct_payments": 3,
+      "old_entry_table_present": true
+    },
+    "mytemr_diagnostic_mactan_uat": {
+      "active_apvs": 6,
+      "active_direct_payments": 2,
+      "old_entry_table_present": true
+    },
+    "mytemr_diagnostic_conso_uat": {
+      "active_apvs": 2,
+      "active_direct_payments": 1,
+      "old_entry_table_present": true
+    },
+    "mytemr_diagnostic_mantlewood_uat": {
+      "active_apvs": 0,
+      "active_direct_payments": 0,
+      "old_entry_table_present": true
+    },
+    "mytemr_diagnostic_mobile": {
+      "active_apvs": 0,
+      "active_direct_payments": 0,
+      "old_entry_table_present": true
+    },
+    "mytemr_diagnostic": {
+      "active_apvs": 3,
+      "active_direct_payments": 0,
+      "old_entry_table_present": true
+    },
+    "mytemr_diagnostic_mactan": {
+      "active_apvs": 3,
+      "active_direct_payments": 0,
+      "old_entry_table_present": true
+    },
+    "mytemr_diagnostic_conso": {
+      "active_apvs": 1,
+      "active_direct_payments": 0,
+      "old_entry_table_present": true
+    },
+    "mytemr_diagnostic_mantlewood": {
+      "active_apvs": 0,
+      "active_direct_payments": 1,
+      "old_entry_table_present": true
+    }
+  }
+}

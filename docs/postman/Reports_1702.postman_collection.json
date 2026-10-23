@@ -1,0 +1,95 @@
+{
+  "info": {
+    "_postman_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "name": "Reports 1702-RT / 1702Q",
+    "description": "# BIR 1702-RT / 1702Q\n\nClosing a month queues background PDF generation (does not wait for the files).\n\n- **1702-RT** is queued only when the month is **12**: calendar year `Jan 1` through `Dec 31`.\n- **1702Q** is queued when the month is **3, 6, 9, or 12** (Q1–Q4).\n- Default `branch_id` is **2** (Oakridge). TIN, registered name, and address come from master `branch`.\n- P&L totals overlay the RAW BIR templates. RCIT tax due is 25% of positive net income.\n\n## Auth\n- Header: `API-KEY` (required)\n- Query/body: `token`, `requester` (required)\n\n## GET behavior\n- `pending` / `processing` / `failed` → JSON `{ status, type, year, month|quarter, branch_id, tin, file_url, error_message }`\n- `ready` → streams PDF (`Content-Type: application/pdf`) and `X-File-Url`\n- If no row exists for that branch/period, a `pending` row is inserted, generation is spawned, and JSON is returned immediately.\n\n## Prerequisite\nRun `sql/bir_return_file.sql` on the **master** database.\n",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "base_url", "value": "http://localhost/cpci-business-ops-api" },
+    { "key": "api_key", "value": "clinicaRiKOYqlwdTJ-lNedqS0k-it!395!-6ls1JXM7Vcc" },
+    { "key": "token", "value": "{{token}}" },
+    { "key": "requester", "value": "1" },
+    { "key": "closed_month_id", "value": "1" },
+    { "key": "month", "value": "3" },
+    { "key": "year", "value": "2026" },
+    { "key": "quarter", "value": "1" },
+    { "key": "branch_id", "value": "2" }
+  ],
+  "item": [
+    {
+      "name": "Create closed month (queues 1702)",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "token", "value": "{{token}}", "type": "text" },
+            { "key": "requester", "value": "{{requester}}", "type": "text" },
+            { "key": "month", "value": "{{month}}", "type": "text" },
+            { "key": "year", "value": "{{year}}", "type": "text" }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/closed_months/create",
+          "host": ["{{base_url}}"],
+          "path": ["closed_months", "create"]
+        },
+        "description": "## POST `/closed_months/create`\n\nCreates the closed month, inserts `bir_return_file` row(s) as `pending`, and spawns `php spark bir:generate {id}` in the background.\n\nResponse includes `closed_month_id`, `queued` types, and a message that PDF generation is running in the background.\n\n- Queues **1702-RT** only when `month` is 12 (Jan 1–Dec 31)\n- Queues **1702Q** when `month` is 3, 6, 9, or 12\n"
+      }
+    },
+    {
+      "name": "Get 1702-RT",
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "url": {
+          "raw": "{{base_url}}/reports/get_1702_rt?token={{token}}&requester={{requester}}&year={{year}}",
+          "host": ["{{base_url}}"],
+          "path": ["reports", "get_1702_rt"],
+          "query": [
+            { "key": "token", "value": "{{token}}" },
+            { "key": "requester", "value": "{{requester}}" },
+            { "key": "year", "value": "{{year}}" },
+            { "key": "month", "value": "12", "disabled": true },
+            { "key": "closed_month_id", "value": "{{closed_month_id}}", "disabled": true },
+            { "key": "branch_id", "value": "{{branch_id}}", "disabled": true }
+          ]
+        },
+        "description": "## GET `/reports/get_1702_rt`\n\nPass `year` (month defaults to 12), or `closed_month_id` for December. `month` other than 12 is rejected. Optional `branch_id` (default 2).\n\nPoll until `status` is `ready`, then the response is the PDF stream.\n"
+      }
+    },
+    {
+      "name": "Get 1702Q",
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "url": {
+          "raw": "{{base_url}}/reports/get_1702q?token={{token}}&requester={{requester}}&year={{year}}&quarter={{quarter}}",
+          "host": ["{{base_url}}"],
+          "path": ["reports", "get_1702q"],
+          "query": [
+            { "key": "token", "value": "{{token}}" },
+            { "key": "requester", "value": "{{requester}}" },
+            { "key": "year", "value": "{{year}}" },
+            { "key": "quarter", "value": "{{quarter}}" },
+            { "key": "month", "value": "{{month}}", "disabled": true },
+            { "key": "closed_month_id", "value": "{{closed_month_id}}", "disabled": true },
+            { "key": "branch_id", "value": "{{branch_id}}", "disabled": true }
+          ]
+        },
+        "description": "## GET `/reports/get_1702q`\n\nPass `year` + `quarter` (1–4), or `year` + `month` (3/6/9/12), or `closed_month_id`. Optional `branch_id` (default 2).\n"
+      }
+    }
+  ]
+}

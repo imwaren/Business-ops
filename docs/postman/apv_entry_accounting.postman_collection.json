@@ -1,0 +1,1145 @@
+{
+  "info": {
+    "name": "APV entry accounting",
+    "description": "APV entry accounting with forward-only legacy compatibility. New APVs require balanced four-decimal entries and payable reconciliation, except liquidation (including the excess alias) creation accepts omitted entries or []. Liquidation updates always require a supplied nonempty valid entries array, including legacy vouchers. Null/string entries are invalid; approval still requires valid accounting entries. Existing approved/open/closed vouchers without entry history remain payable; first approval or financial changes require explicit entries. No historical backfill or rebuild is part of deployment. Write examples are documentation and must not be used as live rollout tests. Aged-payables JSON and Excel use the same complete approved, active, positive-balance voucher population as get_all?screen=for_payment, including active shared centers. Reports use current balances; as_of_date controls ageing only, not historical balances. Patient names follow branch-aware APV decryption; missing names remain null.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "https://zuat-accounting-back.myt-emr.com",
+      "type": "string"
+    },
+    {
+      "key": "token",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "api_key",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "requester",
+      "value": "67",
+      "type": "string"
+    },
+    {
+      "key": "branch_id",
+      "value": "2",
+      "type": "string"
+    },
+    {
+      "key": "apv_id",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "receipt_note_id",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "direct_payment_id",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "supplier_id",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "requested_by_id",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "ap_transitory_account_id",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "ewt_account_id",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "ap_account_id",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "expense_account_id",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "expense_account_2_id",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "prepaid_account_id",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "liquidation_id",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "liquidated_by_id",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "report_supplier_id",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "report_supplier_type",
+      "value": "",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "Create receipt-note APV — gross1120, net1110",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "api-key",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/accounts_payable_vouchers/create",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "accounts_payable_vouchers",
+            "create"
+          ]
+        },
+        "description": "Required nonempty entries; balanced debit1120/credit1120. Net credit to account code201-111 equals header1110. Populate account placeholders with active master IDs. JSON or multipart entries[n][field] supported; optional attachments[] retain existing behavior.",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": \"{{requester}}\",\n  \"cost_center_id\": \"{{branch_id}}\",\n  \"supplier_id\": \"{{supplier_id}}\",\n  \"supplier_type\": \"supplier\",\n  \"type\": \"receipt_note\",\n  \"type_id\": \"{{receipt_note_id}}\",\n  \"amount\": \"1110.0000\",\n  \"withholding_tax\": \"10.0000\",\n  \"entries\": [\n    {\n      \"account_type_id\": \"{{ap_transitory_account_id}}\",\n      \"debit\": \"1120.0000\",\n      \"credit\": \"0.0000\",\n      \"remarks\": \"Receipt-note items: AP transitory cleared\"\n    },\n    {\n      \"account_type_id\": \"{{ewt_account_id}}\",\n      \"debit\": \"0.0000\",\n      \"credit\": \"10.0000\",\n      \"remarks\": \"Expanded withholding tax\"\n    },\n    {\n      \"account_type_id\": \"{{ap_account_id}}\",\n      \"debit\": \"0.0000\",\n      \"credit\": \"1110.0000\",\n      \"remarks\": \"Accounts payable\"\n    }\n  ]\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Replace APV entries",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "api-key",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/accounts_payable_vouchers/update",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "accounts_payable_vouchers",
+            "update"
+          ]
+        },
+        "description": "Supplied entries replace all active lines atomically. Prior lines remain soft deleted. Header/source fields retain existing update requirements.",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": \"{{requester}}\",\n  \"cost_center_id\": \"{{branch_id}}\",\n  \"supplier_id\": \"{{supplier_id}}\",\n  \"supplier_type\": \"supplier\",\n  \"type\": \"receipt_note\",\n  \"type_id\": \"{{receipt_note_id}}\",\n  \"amount\": \"1110.0000\",\n  \"withholding_tax\": \"10.0000\",\n  \"entries\": [\n    {\n      \"account_type_id\": \"{{ap_transitory_account_id}}\",\n      \"debit\": \"1120.0000\",\n      \"credit\": \"0.0000\",\n      \"remarks\": \"Receipt-note items: AP transitory cleared\"\n    },\n    {\n      \"account_type_id\": \"{{ewt_account_id}}\",\n      \"debit\": \"0.0000\",\n      \"credit\": \"10.0000\",\n      \"remarks\": \"Expanded withholding tax\"\n    },\n    {\n      \"account_type_id\": \"{{ap_account_id}}\",\n      \"debit\": \"0.0000\",\n      \"credit\": \"1110.0000\",\n      \"remarks\": \"Accounts payable\"\n    }\n  ],\n  \"accounts_payable_voucher_id\": \"{{apv_id}}\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Update APV — omit entries",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "api-key",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/accounts_payable_vouchers/update",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "accounts_payable_vouchers",
+            "update"
+          ]
+        },
+        "description": "Omitted entries keep active lines. Changing amount must still match their net Accounts Payable credit.",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": \"{{requester}}\",\n  \"cost_center_id\": \"{{branch_id}}\",\n  \"supplier_id\": \"{{supplier_id}}\",\n  \"supplier_type\": \"supplier\",\n  \"type\": \"receipt_note\",\n  \"type_id\": \"{{receipt_note_id}}\",\n  \"amount\": \"1110.0000\",\n  \"withholding_tax\": \"10.0000\",\n  \"accounts_payable_voucher_id\": \"{{apv_id}}\",\n  \"due_date\": \"2026-10-31\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Create prepaid direct-payment APV — multiple allocations",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "api-key",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/accounts_payable_vouchers/create",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "accounts_payable_vouchers",
+            "create"
+          ]
+        },
+        "description": "Linked approved direct payment must have duration_from/to and amount1000. Explicit amortization allocations sum its amount; expense/prepaid accounts are never inferred from payable credits. Monthly journals wait for closed APV, preserve historical periods, and deduplicate by direct payment/date.",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": \"{{requester}}\",\n  \"cost_center_id\": \"{{branch_id}}\",\n  \"supplier_id\": \"{{supplier_id}}\",\n  \"supplier_type\": \"payor\",\n  \"type\": \"direct_payment\",\n  \"type_id\": \"{{direct_payment_id}}\",\n  \"amount\": \"1000.0000\",\n  \"withholding_tax\": \"0.0000\",\n  \"entries\": [\n    {\n      \"account_type_id\": \"{{prepaid_account_id}}\",\n      \"debit\": \"1000.0000\",\n      \"credit\": \"0.0000\",\n      \"remarks\": \"Prepaid expense\"\n    },\n    {\n      \"account_type_id\": \"{{ap_account_id}}\",\n      \"debit\": \"0.0000\",\n      \"credit\": \"1000.0000\",\n      \"remarks\": \"Payable\"\n    }\n  ],\n  \"amortization_entries\": [\n    {\n      \"expense_account_type_id\": \"{{expense_account_id}}\",\n      \"prepaid_account_type_id\": \"{{prepaid_account_id}}\",\n      \"amount\": \"600.0000\"\n    },\n    {\n      \"expense_account_type_id\": \"{{expense_account_2_id}}\",\n      \"prepaid_account_type_id\": \"{{prepaid_account_id}}\",\n      \"amount\": \"400.0000\"\n    }\n  ]\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Create direct payment — header amount only",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "api-key",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/direct_payments/create",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "direct_payments",
+            "create"
+          ]
+        },
+        "description": "No entries on this endpoint. Ordinary direct-payment approval produces no GL/JE. Accounting lines belong to its APV. Optional attachments[] remain supported as multipart files.",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": \"{{requester}}\",\n  \"cost_center_id\": \"{{branch_id}}\",\n  \"branch_id\": \"{{branch_id}}\",\n  \"requested_by_id\": \"{{requested_by_id}}\",\n  \"amount\": \"1000.0000\",\n  \"date\": \"2026-10-08\",\n  \"due_date\": \"2026-10-31\",\n  \"duration_from\": \"2026-11-01\",\n  \"duration_to\": \"2027-01-01\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GET APVs — branch scoped",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "api-key",
+            "value": "{{api_key}}"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/accounts_payable_vouchers/get?token={{token}}&requester={{requester}}&cost_center_id={{branch_id}}&accounts_payable_voucher_id={{apv_id}}&page=1&data_size=10",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "accounts_payable_vouchers",
+            "get"
+          ],
+          "query": [
+            {
+              "key": "token",
+              "value": "{{token}}"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}"
+            },
+            {
+              "key": "cost_center_id",
+              "value": "{{branch_id}}"
+            },
+            {
+              "key": "accounts_payable_voucher_id",
+              "value": "{{apv_id}}"
+            },
+            {
+              "key": "page",
+              "value": "1"
+            },
+            {
+              "key": "data_size",
+              "value": "10"
+            }
+          ]
+        },
+        "description": ""
+      },
+      "response": [
+        {
+          "name": "Illustrative response (not a captured live result)",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "api-key",
+                "value": "{{api_key}}"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/accounts_payable_vouchers/get?token={{token}}&requester={{requester}}&cost_center_id={{branch_id}}&accounts_payable_voucher_id={{apv_id}}&page=1&data_size=10",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "accounts_payable_vouchers",
+                "get"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}"
+                },
+                {
+                  "key": "cost_center_id",
+                  "value": "{{branch_id}}"
+                },
+                {
+                  "key": "accounts_payable_voucher_id",
+                  "value": "{{apv_id}}"
+                },
+                {
+                  "key": "page",
+                  "value": "1"
+                },
+                {
+                  "key": "data_size",
+                  "value": "10"
+                }
+              ]
+            },
+            "description": ""
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"size\": 1,\n  \"data\": [\n    {\n      \"id\": \"{{apv_id}}\",\n      \"branch_id\": \"{{branch_id}}\",\n      \"branch_name\": \"Clinica Prime Oakridge\",\n      \"amount\": \"1110.0000\",\n      \"entries\": [\n        {\n          \"account_type_id\": \"{{ap_transitory_account_id}}\",\n          \"debit\": \"1120.0000\",\n          \"credit\": \"0.0000\",\n          \"remarks\": \"Receipt-note items: AP transitory cleared\"\n        },\n        {\n          \"account_type_id\": \"{{ewt_account_id}}\",\n          \"debit\": \"0.0000\",\n          \"credit\": \"10.0000\",\n          \"remarks\": \"Expanded withholding tax\"\n        },\n        {\n          \"account_type_id\": \"{{ap_account_id}}\",\n          \"debit\": \"0.0000\",\n          \"credit\": \"1110.0000\",\n          \"remarks\": \"Accounts payable\"\n        }\n      ],\n      \"amortization_entries\": [],\n      \"journal_entries\": []\n    }\n  ]\n}"
+        }
+      ]
+    },
+    {
+      "name": "GET APVs — all branches",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "api-key",
+            "value": "{{api_key}}"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/accounts_payable_vouchers/get?token={{token}}&requester={{requester}}&page=1&data_size=10",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "accounts_payable_vouchers",
+            "get"
+          ],
+          "query": [
+            {
+              "key": "token",
+              "value": "{{token}}"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}"
+            },
+            {
+              "key": "page",
+              "value": "1"
+            },
+            {
+              "key": "data_size",
+              "value": "10"
+            }
+          ]
+        },
+        "description": "Child entries and movements resolve by source branch; duplicate APV IDs in different branches remain separate."
+      },
+      "response": []
+    },
+    {
+      "name": "Invalid — unbalanced lines",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "api-key",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/accounts_payable_vouchers/create",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "accounts_payable_vouchers",
+            "create"
+          ]
+        },
+        "description": "Must fail before writing: debit1120, credit1110.",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": \"{{requester}}\",\n  \"cost_center_id\": \"{{branch_id}}\",\n  \"supplier_id\": \"{{supplier_id}}\",\n  \"supplier_type\": \"supplier\",\n  \"type\": \"receipt_note\",\n  \"type_id\": \"{{receipt_note_id}}\",\n  \"amount\": \"1110.0000\",\n  \"withholding_tax\": \"10.0000\",\n  \"entries\": [\n    {\n      \"account_type_id\": \"{{ap_transitory_account_id}}\",\n      \"debit\": \"1120.0000\",\n      \"credit\": \"0.0000\",\n      \"remarks\": \"Receipt-note items: AP transitory cleared\"\n    },\n    {\n      \"account_type_id\": \"{{ap_account_id}}\",\n      \"debit\": \"0.0000\",\n      \"credit\": \"1110.0000\",\n      \"remarks\": \"Accounts payable\"\n    }\n  ]\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Invalid — payable mismatch",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "api-key",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/accounts_payable_vouchers/create",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "accounts_payable_vouchers",
+            "create"
+          ]
+        },
+        "description": "Balanced gross1120 does not equal net payable1110; must fail.",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": \"{{requester}}\",\n  \"cost_center_id\": \"{{branch_id}}\",\n  \"supplier_id\": \"{{supplier_id}}\",\n  \"supplier_type\": \"supplier\",\n  \"type\": \"receipt_note\",\n  \"type_id\": \"{{receipt_note_id}}\",\n  \"amount\": \"1120.0000\",\n  \"withholding_tax\": \"10.0000\",\n  \"entries\": [\n    {\n      \"account_type_id\": \"{{ap_transitory_account_id}}\",\n      \"debit\": \"1120.0000\",\n      \"credit\": \"0.0000\",\n      \"remarks\": \"Receipt-note items: AP transitory cleared\"\n    },\n    {\n      \"account_type_id\": \"{{ewt_account_id}}\",\n      \"debit\": \"0.0000\",\n      \"credit\": \"10.0000\",\n      \"remarks\": \"Expanded withholding tax\"\n    },\n    {\n      \"account_type_id\": \"{{ap_account_id}}\",\n      \"debit\": \"0.0000\",\n      \"credit\": \"1110.0000\",\n      \"remarks\": \"Accounts payable\"\n    }\n  ]\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Invalid — missing entries",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "api-key",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/accounts_payable_vouchers/create",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "accounts_payable_vouchers",
+            "create"
+          ]
+        },
+        "description": "Must fail: create requires nonempty entries.",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": \"{{requester}}\",\n  \"cost_center_id\": \"{{branch_id}}\",\n  \"supplier_id\": \"{{supplier_id}}\",\n  \"supplier_type\": \"supplier\",\n  \"type\": \"receipt_note\",\n  \"type_id\": \"{{receipt_note_id}}\",\n  \"amount\": \"1110.0000\",\n  \"withholding_tax\": \"10.0000\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Invalid — two positive sides",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "api-key",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/accounts_payable_vouchers/create",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "accounts_payable_vouchers",
+            "create"
+          ]
+        },
+        "description": "Must fail: one positive debit or credit per line.",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": \"{{requester}}\",\n  \"cost_center_id\": \"{{branch_id}}\",\n  \"supplier_id\": \"{{supplier_id}}\",\n  \"supplier_type\": \"supplier\",\n  \"type\": \"receipt_note\",\n  \"type_id\": \"{{receipt_note_id}}\",\n  \"amount\": \"1110.0000\",\n  \"withholding_tax\": \"10.0000\",\n  \"entries\": [\n    {\n      \"account_type_id\": \"{{ap_account_id}}\",\n      \"debit\": \"1.0000\",\n      \"credit\": \"1111.0000\",\n      \"remarks\": \"Invalid\"\n    }\n  ]\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Create liquidation APV — omit entries",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "api-key",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/accounts_payable_vouchers/create",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "accounts_payable_vouchers",
+            "create"
+          ]
+        },
+        "description": "Liquidation-only exception: create accepts omitted entries or []; populated arrays must be valid and balanced. Every update, including legacy vouchers, must supply nonempty valid entries. The existing excess alias follows this rule. Use the approved liquidation liquidated_by_id as supplier_id. Pending drafts without entries cannot be approved until accounting entries are supplied. Clinic/shared routing remains unchanged.",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": \"{{requester}}\",\n  \"cost_center_id\": \"{{branch_id}}\",\n  \"supplier_id\": \"{{liquidated_by_id}}\",\n  \"supplier_type\": \"payor\",\n  \"type\": \"liquidation\",\n  \"type_id\": \"{{liquidation_id}}\",\n  \"amount\": \"1110.0000\",\n  \"withholding_tax\": \"10.0000\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Create liquidation APV — empty entries",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "api-key",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/accounts_payable_vouchers/create",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "accounts_payable_vouchers",
+            "create"
+          ]
+        },
+        "description": "Liquidation-only exception: create accepts omitted entries or []; populated arrays must be valid and balanced. Every update, including legacy vouchers, must supply nonempty valid entries. The existing excess alias follows this rule. Use the approved liquidation liquidated_by_id as supplier_id. Pending drafts without entries cannot be approved until accounting entries are supplied. Clinic/shared routing remains unchanged.",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": \"{{requester}}\",\n  \"cost_center_id\": \"{{branch_id}}\",\n  \"supplier_id\": \"{{liquidated_by_id}}\",\n  \"supplier_type\": \"payor\",\n  \"type\": \"liquidation\",\n  \"type_id\": \"{{liquidation_id}}\",\n  \"amount\": \"1110.0000\",\n  \"withholding_tax\": \"10.0000\",\n  \"entries\": []\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Update liquidation APV — required balanced entries",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "api-key",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/accounts_payable_vouchers/update",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "accounts_payable_vouchers",
+            "update"
+          ]
+        },
+        "description": "Liquidation-only exception: create accepts omitted entries or []; populated arrays must be valid and balanced. Every update, including legacy vouchers, must supply nonempty valid entries. The existing excess alias follows this rule. Use the approved liquidation liquidated_by_id as supplier_id. Pending drafts without entries cannot be approved until accounting entries are supplied. Clinic/shared routing remains unchanged.",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": \"{{requester}}\",\n  \"cost_center_id\": \"{{branch_id}}\",\n  \"supplier_id\": \"{{liquidated_by_id}}\",\n  \"supplier_type\": \"payor\",\n  \"type\": \"liquidation\",\n  \"type_id\": \"{{liquidation_id}}\",\n  \"amount\": \"1110.0000\",\n  \"withholding_tax\": \"10.0000\",\n  \"entries\": [\n    {\n      \"account_type_id\": \"{{ap_transitory_account_id}}\",\n      \"debit\": \"1120.0000\",\n      \"credit\": \"0.0000\",\n      \"remarks\": \"Liquidation accounting allocation\"\n    },\n    {\n      \"account_type_id\": \"{{ewt_account_id}}\",\n      \"debit\": \"0.0000\",\n      \"credit\": \"10.0000\",\n      \"remarks\": \"Expanded withholding tax\"\n    },\n    {\n      \"account_type_id\": \"{{ap_account_id}}\",\n      \"debit\": \"0.0000\",\n      \"credit\": \"1110.0000\",\n      \"remarks\": \"Accounts payable\"\n    }\n  ],\n  \"accounts_payable_voucher_id\": \"{{apv_id}}\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Invalid liquidation update — omitted entries",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "api-key",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/accounts_payable_vouchers/update",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "accounts_payable_vouchers",
+            "update"
+          ]
+        },
+        "description": "Liquidation-only exception: create accepts omitted entries or []; populated arrays must be valid and balanced. Every update, including legacy vouchers, must supply nonempty valid entries. The existing excess alias follows this rule. Use the approved liquidation liquidated_by_id as supplier_id. Pending drafts without entries cannot be approved until accounting entries are supplied. Clinic/shared routing remains unchanged.",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": \"{{requester}}\",\n  \"cost_center_id\": \"{{branch_id}}\",\n  \"supplier_id\": \"{{liquidated_by_id}}\",\n  \"supplier_type\": \"payor\",\n  \"type\": \"liquidation\",\n  \"type_id\": \"{{liquidation_id}}\",\n  \"amount\": \"1110.0000\",\n  \"withholding_tax\": \"10.0000\",\n  \"accounts_payable_voucher_id\": \"{{apv_id}}\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Invalid liquidation update — empty entries",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "api-key",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/accounts_payable_vouchers/update",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "accounts_payable_vouchers",
+            "update"
+          ]
+        },
+        "description": "Liquidation-only exception: create accepts omitted entries or []; populated arrays must be valid and balanced. Every update, including legacy vouchers, must supply nonempty valid entries. The existing excess alias follows this rule. Use the approved liquidation liquidated_by_id as supplier_id. Pending drafts without entries cannot be approved until accounting entries are supplied. Clinic/shared routing remains unchanged.",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": \"{{requester}}\",\n  \"cost_center_id\": \"{{branch_id}}\",\n  \"supplier_id\": \"{{liquidated_by_id}}\",\n  \"supplier_type\": \"payor\",\n  \"type\": \"liquidation\",\n  \"type_id\": \"{{liquidation_id}}\",\n  \"amount\": \"1110.0000\",\n  \"withholding_tax\": \"10.0000\",\n  \"entries\": [],\n  \"accounts_payable_voucher_id\": \"{{apv_id}}\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Invalid liquidation create — null entries",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "api-key",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/accounts_payable_vouchers/create",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "accounts_payable_vouchers",
+            "create"
+          ]
+        },
+        "description": "Liquidation-only exception: create accepts omitted entries or []; populated arrays must be valid and balanced. Every update, including legacy vouchers, must supply nonempty valid entries. The existing excess alias follows this rule. Use the approved liquidation liquidated_by_id as supplier_id. Pending drafts without entries cannot be approved until accounting entries are supplied. Clinic/shared routing remains unchanged.",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": \"{{requester}}\",\n  \"cost_center_id\": \"{{branch_id}}\",\n  \"supplier_id\": \"{{liquidated_by_id}}\",\n  \"supplier_type\": \"payor\",\n  \"type\": \"liquidation\",\n  \"type_id\": \"{{liquidation_id}}\",\n  \"amount\": \"1110.0000\",\n  \"withholding_tax\": \"10.0000\",\n  \"entries\": null\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Aged payables — summary (all clinics/shared centers)",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "api-key",
+            "value": "{{api_key}}"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/reports/get_accounts_payable?tab=summary&as_of_date=2026-10-23&token={{token}}&requester={{requester}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "reports",
+            "get_accounts_payable"
+          ],
+          "query": [
+            {
+              "key": "tab",
+              "value": "summary"
+            },
+            {
+              "key": "as_of_date",
+              "value": "2026-10-23"
+            },
+            {
+              "key": "branch_id",
+              "value": "{{branch_id}}",
+              "disabled": true
+            },
+            {
+              "key": "token",
+              "value": "{{token}}"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}"
+            },
+            {
+              "key": "supplier_id",
+              "value": "{{report_supplier_id}}",
+              "disabled": true
+            },
+            {
+              "key": "supplier_type",
+              "value": "{{report_supplier_type}}",
+              "disabled": true
+            }
+          ]
+        },
+        "description": "Reconcile against every page of accounts_payable_vouchers/get_all?screen=for_payment (not just its first page). Active approved vouchers with positive stored balance only. Master queried once for all active shared centers; optional branch_id isolates a clinic or actual shared ID. No pagination on the report. as_of_date changes ageing buckets only, never reconstructs historical balances. Existing fields/formatting are retained. Detail includes branch-qualified voucher identities; patients with identical numeric IDs in different branches remain separate. Analysis has no current field, so its first 1_month bucket includes current plus 1_month amounts. Excel uses this same report dataset. Optional supplier_type=supplier|payor|patient filters all payees of that type. supplier_id must be a positive integer and requires supplier_type; empty filters are ignored. Filters affect all report tabs, totals, percentages, and Excel. Summary suppliers now include supplier_type; detail retains it, while analysis stays category-grouped."
+      },
+      "response": []
+    },
+    {
+      "name": "Aged payables — detail (all clinics/shared centers)",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "api-key",
+            "value": "{{api_key}}"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/reports/get_accounts_payable?tab=detail&as_of_date=2026-10-23&token={{token}}&requester={{requester}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "reports",
+            "get_accounts_payable"
+          ],
+          "query": [
+            {
+              "key": "tab",
+              "value": "detail"
+            },
+            {
+              "key": "as_of_date",
+              "value": "2026-10-23"
+            },
+            {
+              "key": "branch_id",
+              "value": "{{branch_id}}",
+              "disabled": true
+            },
+            {
+              "key": "token",
+              "value": "{{token}}"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}"
+            },
+            {
+              "key": "supplier_id",
+              "value": "{{report_supplier_id}}",
+              "disabled": true
+            },
+            {
+              "key": "supplier_type",
+              "value": "{{report_supplier_type}}",
+              "disabled": true
+            }
+          ]
+        },
+        "description": "Reconcile against every page of accounts_payable_vouchers/get_all?screen=for_payment (not just its first page). Active approved vouchers with positive stored balance only. Master queried once for all active shared centers; optional branch_id isolates a clinic or actual shared ID. No pagination on the report. as_of_date changes ageing buckets only, never reconstructs historical balances. Existing fields/formatting are retained. Detail includes branch-qualified voucher identities; patients with identical numeric IDs in different branches remain separate. Analysis has no current field, so its first 1_month bucket includes current plus 1_month amounts. Excel uses this same report dataset. Optional supplier_type=supplier|payor|patient filters all payees of that type. supplier_id must be a positive integer and requires supplier_type; empty filters are ignored. Filters affect all report tabs, totals, percentages, and Excel. Summary suppliers now include supplier_type; detail retains it, while analysis stays category-grouped."
+      },
+      "response": []
+    },
+    {
+      "name": "Aged payables — analysis (all clinics/shared centers)",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "api-key",
+            "value": "{{api_key}}"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/reports/get_accounts_payable?tab=analysis&as_of_date=2026-10-23&token={{token}}&requester={{requester}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "reports",
+            "get_accounts_payable"
+          ],
+          "query": [
+            {
+              "key": "tab",
+              "value": "analysis"
+            },
+            {
+              "key": "as_of_date",
+              "value": "2026-10-23"
+            },
+            {
+              "key": "branch_id",
+              "value": "{{branch_id}}",
+              "disabled": true
+            },
+            {
+              "key": "token",
+              "value": "{{token}}"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}"
+            },
+            {
+              "key": "supplier_id",
+              "value": "{{report_supplier_id}}",
+              "disabled": true
+            },
+            {
+              "key": "supplier_type",
+              "value": "{{report_supplier_type}}",
+              "disabled": true
+            }
+          ]
+        },
+        "description": "Reconcile against every page of accounts_payable_vouchers/get_all?screen=for_payment (not just its first page). Active approved vouchers with positive stored balance only. Master queried once for all active shared centers; optional branch_id isolates a clinic or actual shared ID. No pagination on the report. as_of_date changes ageing buckets only, never reconstructs historical balances. Existing fields/formatting are retained. Detail includes branch-qualified voucher identities; patients with identical numeric IDs in different branches remain separate. Analysis has no current field, so its first 1_month bucket includes current plus 1_month amounts. Excel uses this same report dataset. Optional supplier_type=supplier|payor|patient filters all payees of that type. supplier_id must be a positive integer and requires supplier_type; empty filters are ignored. Filters affect all report tabs, totals, percentages, and Excel. Summary suppliers now include supplier_type; detail retains it, while analysis stays category-grouped."
+      },
+      "response": []
+    },
+    {
+      "name": "Aged payables — one payor",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "api-key",
+            "value": "{{api_key}}"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/reports/get_accounts_payable?tab=summary&as_of_date=2026-10-23&token={{token}}&requester={{requester}}&supplier_id={{report_supplier_id}}&supplier_type=payor",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "reports",
+            "get_accounts_payable"
+          ],
+          "query": [
+            {
+              "key": "tab",
+              "value": "summary"
+            },
+            {
+              "key": "as_of_date",
+              "value": "2026-10-23"
+            },
+            {
+              "key": "branch_id",
+              "value": "{{branch_id}}",
+              "disabled": true
+            },
+            {
+              "key": "token",
+              "value": "{{token}}"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}"
+            },
+            {
+              "key": "supplier_id",
+              "value": "{{report_supplier_id}}"
+            },
+            {
+              "key": "supplier_type",
+              "value": "payor"
+            }
+          ]
+        },
+        "description": "Reconcile against every page of accounts_payable_vouchers/get_all?screen=for_payment (not just its first page). Active approved vouchers with positive stored balance only. Master queried once for all active shared centers; optional branch_id isolates a clinic or actual shared ID. No pagination on the report. as_of_date changes ageing buckets only, never reconstructs historical balances. Existing fields/formatting are retained. Detail includes branch-qualified voucher identities; patients with identical numeric IDs in different branches remain separate. Analysis has no current field, so its first 1_month bucket includes current plus 1_month amounts. Excel uses this same report dataset. Optional supplier_type=supplier|payor|patient filters all payees of that type. supplier_id must be a positive integer and requires supplier_type; empty filters are ignored. Filters affect all report tabs, totals, percentages, and Excel. Summary suppliers now include supplier_type; detail retains it, while analysis stays category-grouped."
+      },
+      "response": []
+    },
+    {
+      "name": "Aged payables — patients only",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "api-key",
+            "value": "{{api_key}}"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/reports/get_accounts_payable?tab=summary&as_of_date=2026-10-23&token={{token}}&requester={{requester}}&supplier_type=patient",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "reports",
+            "get_accounts_payable"
+          ],
+          "query": [
+            {
+              "key": "tab",
+              "value": "summary"
+            },
+            {
+              "key": "as_of_date",
+              "value": "2026-10-23"
+            },
+            {
+              "key": "branch_id",
+              "value": "{{branch_id}}",
+              "disabled": true
+            },
+            {
+              "key": "token",
+              "value": "{{token}}"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}"
+            },
+            {
+              "key": "supplier_type",
+              "value": "patient"
+            }
+          ]
+        },
+        "description": "Reconcile against every page of accounts_payable_vouchers/get_all?screen=for_payment (not just its first page). Active approved vouchers with positive stored balance only. Master queried once for all active shared centers; optional branch_id isolates a clinic or actual shared ID. No pagination on the report. as_of_date changes ageing buckets only, never reconstructs historical balances. Existing fields/formatting are retained. Detail includes branch-qualified voucher identities; patients with identical numeric IDs in different branches remain separate. Analysis has no current field, so its first 1_month bucket includes current plus 1_month amounts. Excel uses this same report dataset. Optional supplier_type=supplier|payor|patient filters all payees of that type. supplier_id must be a positive integer and requires supplier_type; empty filters are ignored. Filters affect all report tabs, totals, percentages, and Excel. Summary suppliers now include supplier_type; detail retains it, while analysis stays category-grouped."
+      },
+      "response": []
+    },
+    {
+      "name": "Invalid aged payables — supplier ID without type",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "api-key",
+            "value": "{{api_key}}"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/reports/get_accounts_payable?tab=summary&as_of_date=2026-10-23&token={{token}}&requester={{requester}}&supplier_id={{report_supplier_id}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "reports",
+            "get_accounts_payable"
+          ],
+          "query": [
+            {
+              "key": "tab",
+              "value": "summary"
+            },
+            {
+              "key": "as_of_date",
+              "value": "2026-10-23"
+            },
+            {
+              "key": "branch_id",
+              "value": "{{branch_id}}",
+              "disabled": true
+            },
+            {
+              "key": "token",
+              "value": "{{token}}"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}"
+            },
+            {
+              "key": "supplier_id",
+              "value": "{{report_supplier_id}}"
+            }
+          ]
+        },
+        "description": "Reconcile against every page of accounts_payable_vouchers/get_all?screen=for_payment (not just its first page). Active approved vouchers with positive stored balance only. Master queried once for all active shared centers; optional branch_id isolates a clinic or actual shared ID. No pagination on the report. as_of_date changes ageing buckets only, never reconstructs historical balances. Existing fields/formatting are retained. Detail includes branch-qualified voucher identities; patients with identical numeric IDs in different branches remain separate. Analysis has no current field, so its first 1_month bucket includes current plus 1_month amounts. Excel uses this same report dataset. Optional supplier_type=supplier|payor|patient filters all payees of that type. supplier_id must be a positive integer and requires supplier_type; empty filters are ignored. Filters affect all report tabs, totals, percentages, and Excel. Summary suppliers now include supplier_type; detail retains it, while analysis stays category-grouped."
+      },
+      "response": []
+    }
+  ]
+}

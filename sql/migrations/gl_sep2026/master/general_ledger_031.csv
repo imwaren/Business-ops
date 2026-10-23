@@ -1,0 +1,501 @@
+branch_id,source,source_id,account_type_id,date,debit,credit,remark,is_migrated,added_by,added_on,is_deleted
+\N,journal_entry,17314,245,2026-09-29,0.0000,3482.1800,DYNAMICS IT SOLUTION - 2% EWT on Full payment of Structured Cabling (Data-CCTV) | PO no. CAPEX-26-0167 SI No. 007473 — 0926-001085,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17327,245,2026-09-29,0.0000,14.7100,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - 2% EWT on Payment for Janitorial Services - Utility Reliever (Mañago, Jean) Ftp Sep 1-15, 2026| SI No.# 4846 — RFP No.# 7244",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17309,1633,2026-09-29,0.0000,26240.0000,"Sales Branches September 29, 2026 - Health services — #81055",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17309,1633,2026-09-29,0.0000,1800.0000,"Sales Branches September 29, 2026 - Health services — #81055",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17309,1633,2026-09-29,0.0000,11290.0000,"Sales Branches September 29, 2026 - Health services — #81055",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17309,1633,2026-09-29,0.0000,400.0000,"Sales Branches September 29, 2026 - Health services — #81055",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17326,713,2026-09-29,35491.9200,0.0000,"LAPU LAPU GRAND REALTY VENTURES, INC. - Vat: Payment for electricity ftp Aug 21- Sept 20, 2026 — RFP No.# 7241",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17327,725,2026-09-29,88.2900,0.0000,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - Vat: Payment for Janitorial Services - Utility Reliever (Mañago, Jean) Ftp Sep 1-15, 2026| SI No.# 4846 — RFP No.# 7244",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17311,197,2026-09-29,2250.0000,0.0000,CEBU FEDCO MARKETING CORPORATION - Vat: Payment for Reagents - MDX Hplcline HBA1C| OPEX-26-0268 SI no. 23095 — 0926-001080,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17312,197,2026-09-29,2057.1400,0.0000,CEBU FEDCO MARKETING CORPORATION - Vat: Payment for Transpore 1/2| OPEX-26-0328 SI no. 205723 — 0926-001081,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17313,197,2026-09-29,30000.0000,0.0000,CEBU FEDCO MARKETING CORPORATION - Vat: Payment for Reagents - MDX HPLCLINE| OPEX-26-0268 SI no. 23063 — 0926-001082,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17325,197,2026-09-29,2338.2900,0.0000,MEDGISTIX CORPORATION - Vat: Payment for Reagents - Fuji Dri-chem| OPEX-26-0370 SI no. CEB-8489 — 0926-001121,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17324,197,2026-09-29,1035.8600,0.0000,MEDGISTIX CORPORATION - Vat: Payment for Reagents - Fuji Dri-chem| OPEX-26-0200 SI no. CEB-8491 — 0926-001120,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17323,197,2026-09-29,1339.2900,0.0000,MEDGISTIX CORPORATION - Vat: Payment for Reagents - XN-L Check| OPEX-26-0370 SI no. CEB-8478 — 0926-001119,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17322,197,2026-09-29,2142.8600,0.0000,MEDGISTIX CORPORATION - Vat: Payment for Reagents - Sample Cup Conical| OPEX-26-0249 SI no. CEB-8140 — 0926-001118,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17321,197,2026-09-29,1821.4300,0.0000,MEDGISTIX CORPORATION - Vat: Payment for Reagents - Meditape UC| OPEX-25-1083 SI no. CEB-7073 — 0926-001117,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17320,197,2026-09-29,4625.1400,0.0000,MEDGISTIX CORPORATION - Vat: Payment for Reagents - Cholesterol FS & Creatinine FS| OPEX-26-0194 SI no. CEB-8137 — 0926-001116,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17319,197,2026-09-29,22682.5700,0.0000,MEDGISTIX CORPORATION - Vat: Payment for Reagents - HDL C Direct| OPEX-26-0223 SI no. CEB-8138 — 0926-001115,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17318,197,2026-09-29,17011.9300,0.0000,MEDGISTIX CORPORATION - Vat: Payment for Reagents - HDL C Direct | OPEX-25-1081 SI no. CEB-4705 — 0926-001114,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17310,529,2026-09-29,2089.2900,0.0000,"BEROVAN MARKETING, INC. - Vat: Payment for Lab Supplies - Detecto Weighing Scale| CAPEX-26-0199 SI no. 018689 — 0926-001069",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17317,741,2026-09-29,246.4300,0.0000,DG'S INK TRADING - Vat: Payment for Service Printer with Unlimited Ink Supply | SI no. 1338 — 0926-001113,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17316,741,2026-09-29,492.8600,0.0000,DG'S INK TRADING - Vat: Payment for 2 Service Printers with Unlimited Ink Supply | SI no. 1602 — 0926-001110,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17315,741,2026-09-29,1232.1400,0.0000,DG'S INK TRADING - Vat: Payment for 5 Service Printers with Unlimited Ink Supply | SI no. 1474 — 0926-001108,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17326,781,2026-09-29,423.6000,0.0000,"LAPU LAPU GRAND REALTY VENTURES, INC. - Vat: Payment for pest control ftp Aug 21- Sept 20, 2026 — RFP No.# 7241",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17326,785,2026-09-29,1055.8500,0.0000,"LAPU LAPU GRAND REALTY VENTURES, INC. - Vat: Payment for water ftp Aug 21- Sept 20, 2026 — RFP No.# 7241",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17308,1585,2026-09-29,6264.7200,0.0000,"Treasury posting September 29 - Auto Loan Int - September 29, 2026 — #81048",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17308,1585,2026-09-29,12186.2800,0.0000,"Treasury posting September 29 - Auto Loan Prin - September 29, 2026 — #81048",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17327,813,2026-09-29,735.7300,0.0000,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - Vatable: Payment for Janitorial Services - Utility Reliever (Mañago, Jean) Ftp Sep 1-15, 2026| SI No.# 4846 — RFP No.# 7244",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17311,141,2026-09-29,18750.0000,0.0000,CEBU FEDCO MARKETING CORPORATION - Vatable: Payment for Reagents - MDX Hplcline HBA1C| OPEX-26-0268 SI no. 23095 — 0926-001080,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17312,141,2026-09-29,17142.8600,0.0000,CEBU FEDCO MARKETING CORPORATION - Vatable: Payment for Transpore 1/2| OPEX-26-0328 SI no. 205723 — 0926-001081,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17313,141,2026-09-29,250000.0000,0.0000,CEBU FEDCO MARKETING CORPORATION - Vatable: Payment for Reagents - MDX HPLCLINE| OPEX-26-0268 SI no. 23063 — 0926-001082,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17325,141,2026-09-29,19485.7100,0.0000,MEDGISTIX CORPORATION - Vatable: Payment for Reagents - Fuji Dri-chem| OPEX-26-0370 SI no. CEB-8489 — 0926-001121,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17324,141,2026-09-29,8632.1400,0.0000,MEDGISTIX CORPORATION - Vatable: Payment for Reagents - Fuji Dri-chem| OPEX-26-0200 SI no. CEB-8491 — 0926-001120,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17323,141,2026-09-29,11160.7100,0.0000,MEDGISTIX CORPORATION - Vatable: Payment for Reagents - XN-L Check| OPEX-26-0370 SI no. CEB-8478 — 0926-001119,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17322,141,2026-09-29,17857.1400,0.0000,MEDGISTIX CORPORATION - Vatable: Payment for Reagents - Sample Cup Conical| OPEX-26-0249 SI no. CEB-8140 — 0926-001118,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17321,141,2026-09-29,15178.5700,0.0000,MEDGISTIX CORPORATION - Vatable: Payment for Reagents - Meditape UC| OPEX-25-1083 SI no. CEB-7073 — 0926-001117,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17320,141,2026-09-29,38542.8600,0.0000,MEDGISTIX CORPORATION - Vatable: Payment for Reagents - Cholesterol FS & Creatinine FS| OPEX-26-0194 SI no. CEB-8137 — 0926-001116,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17319,141,2026-09-29,189021.4300,0.0000,MEDGISTIX CORPORATION - Vatable: Payment for Reagents - HDL C Direct| OPEX-26-0223 SI no. CEB-8138 — 0926-001115,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17318,141,2026-09-29,141766.0700,0.0000,MEDGISTIX CORPORATION - Vatable: Payment for Reagents - HDL C Direct | OPEX-25-1081 SI no. CEB-4705 — 0926-001114,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17309,1645,2026-09-29,0.0000,38590.0000,"Sales Branches September 29, 2026 - Laboratory/Diagnostics — #81055",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17309,1645,2026-09-29,0.0000,38110.0000,"Sales Branches September 29, 2026 - Laboratory/Diagnostics — #81055",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17309,1645,2026-09-29,0.0000,25093.0000,"Sales Branches September 29, 2026 - Laboratory/Diagnostics — #81055",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17309,1645,2026-09-29,0.0000,31060.0000,"Sales Branches September 29, 2026 - Laboratory/Diagnostics — #81055",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17309,1645,2026-09-29,0.0000,33345.0000,"Sales Branches September 29, 2026 - Laboratory/Diagnostics — #81055",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17309,1645,2026-09-29,0.0000,22441.0000,"Sales Branches September 29, 2026 - Laboratory/Diagnostics — #81055",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17309,1645,2026-09-29,0.0000,51800.0000,"Sales Branches September 29, 2026 - Laboratory/Diagnostics — #81055",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17309,1645,2026-09-29,0.0000,50445.0000,"Sales Branches September 29, 2026 - Laboratory/Diagnostics — #81055",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17309,1645,2026-09-29,0.0000,37774.0000,"Sales Branches September 29, 2026 - Laboratory/Diagnostics — #81055",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17309,1645,2026-09-29,0.0000,46800.0000,"Sales Branches September 29, 2026 - Laboratory/Diagnostics — #81055",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17309,1645,2026-09-29,0.0000,13020.0000,"Sales Branches September 29, 2026 - Laboratory/Diagnostics — #81055",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17309,1645,2026-09-29,0.0000,5890.0000,"Sales Branches September 29, 2026 - Laboratory/Diagnostics — #81055",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17309,1645,2026-09-29,0.0000,600.0000,"Sales Branches September 29, 2026 - Laboratory/Diagnostics — #81055",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17309,1657,2026-09-29,0.0000,13495.0000,"Sales Branches September 29, 2026 - Laboratory/Diagnostics - Send Outs — #81055",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17309,1657,2026-09-29,0.0000,16175.0000,"Sales Branches September 29, 2026 - Laboratory/Diagnostics - Send Outs — #81055",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17309,1657,2026-09-29,0.0000,8145.0000,"Sales Branches September 29, 2026 - Laboratory/Diagnostics - Send Outs — #81055",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17309,1657,2026-09-29,0.0000,915.0000,"Sales Branches September 29, 2026 - Laboratory/Diagnostics - Send Outs — #81055",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17310,413,2026-09-29,17410.7100,0.0000,"BEROVAN MARKETING, INC. - Vatable: Payment for Lab Supplies - Detecto Weighing Scale| CAPEX-26-0199 SI no. 018689 — 0926-001069",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17317,849,2026-09-29,2053.5700,0.0000,DG'S INK TRADING - Vatable: Payment for Service Printer with Unlimited Ink Supply | SI no. 1338 — 0926-001113,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17316,849,2026-09-29,4107.1400,0.0000,DG'S INK TRADING - Vatable: Payment for 2 Service Printers with Unlimited Ink Supply | SI no. 1602 — 0926-001110,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17315,849,2026-09-29,10267.8600,0.0000,DG'S INK TRADING - Vatable: Payment for 5 Service Printers with Unlimited Ink Supply | SI no. 1474 — 0926-001108,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17308,325,2026-09-29,6264.7200,0.0000,"Treasury posting September 29 - Auto Loan Int - September 29, 2026 — #81048",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17308,325,2026-09-29,12186.2800,0.0000,"Treasury posting September 29 - Auto Loan Prin - September 29, 2026 — #81048",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17309,1713,2026-09-29,0.0000,9400.0000,"Sales Branches September 29, 2026 - Third-Party Partnership — #81055",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17308,1777,2026-09-29,0.0000,470356.6300,Treasury posting September 29 - Unidentified Deposit — #81048,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17308,1777,2026-09-29,470356.6300,0.0000,Treasury posting September 29 - Unidentified Deposit — #81048,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17309,1777,2026-09-29,0.0000,639728.0000,"Sales Branches September 29, 2026 - Cash Sales - September, 29 — #81055",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17309,1777,2026-09-29,639728.0000,0.0000,"Sales Branches September 29, 2026 - Laboratory/Diagnostics — #81055",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17326,957,2026-09-29,3530.0000,0.0000,"LAPU LAPU GRAND REALTY VENTURES, INC. - Vatable: Payment for pest control ftpAug 21- Sept 20, 2026 — RFP No.# 7241",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17326,961,2026-09-29,8798.6800,0.0000,"LAPU LAPU GRAND REALTY VENTURES, INC. - Vatable: Payment for Water ftp Aug 21- Sept 20, 2026 — RFP No.# 7241",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17432,581,2026-09-30,66509.5300,0.0000,to accrue mancom 13th month september — #81540,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17478,581,2026-09-30,52257.8100,0.0000,To record the accrual of the 13th Month Pay for 2026 september 16-30 — #81820,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17478,581,2026-09-30,28288.7600,0.0000,To record the accrual of the 13th Month Pay for 2026 september 16-30 — #81820,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17478,581,2026-09-30,29209.2100,0.0000,To record the accrual of the 13th Month Pay for 2026 september 16-30 — #81820,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17478,581,2026-09-30,14526.9000,0.0000,To record the accrual of the 13th Month Pay for 2026 september 16-30 — #81820,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17478,581,2026-09-30,21406.2800,0.0000,To record the accrual of the 13th Month Pay for 2026 september 16-30 — #81820,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17478,581,2026-09-30,14125.0000,0.0000,To record the accrual of the 13th Month Pay for 2026 september 16-30 — #81820,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17478,581,2026-09-30,11104.1700,0.0000,To record the accrual of the 13th Month Pay for 2026 september 16-30 — #81820,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17478,581,2026-09-30,4476.0500,0.0000,To record the accrual of the 13th Month Pay for 2026 september 16-30 — #81820,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17478,581,2026-09-30,1045.0100,0.0000,To record the accrual of the 13th Month Pay for 2026 september 16-30 — #81820,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17478,581,2026-09-30,1752.8600,0.0000,To record the accrual of the 13th Month Pay for 2026 september 16-30 - YA clinic — #81820,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17478,581,2026-09-30,1704.7700,0.0000,To record the accrual of the 13th Month Pay for 2026 september 16-30 - YA clinic — #81820,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17478,581,2026-09-30,2207.5300,0.0000,To record the accrual of the 13th Month Pay for 2026 september 16-30 - YA clinic — #81820,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17478,581,2026-09-30,5145.5300,0.0000,To record the accrual of the 13th Month Pay for 2026 september 16-30 - mall & admin — #81820,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17478,581,2026-09-30,493.1500,0.0000,To record the accrual of the 13th Month Pay for 2026 september 16-30 - fixed term — #81820,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17479,581,2026-09-30,52923.4200,0.0000,To record the accrual of the 13th Month Pay for 2026 september 1-15 — #81821,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17479,581,2026-09-30,27669.1500,0.0000,To record the accrual of the 13th Month Pay for 2026 september 1-15 — #81821,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17479,581,2026-09-30,29445.7500,0.0000,To record the accrual of the 13th Month Pay for 2026 september 1-15 — #81821,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17479,581,2026-09-30,16784.2400,0.0000,To record the accrual of the 13th Month Pay for 2026 september 1-15 — #81821,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17479,581,2026-09-30,21458.3300,0.0000,To record the accrual of the 13th Month Pay for 2026 september 1-15 — #81821,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17479,581,2026-09-30,14123.9900,0.0000,To record the accrual of the 13th Month Pay for 2026 september 1-15 — #81821,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17479,581,2026-09-30,9202.1900,0.0000,To record the accrual of the 13th Month Pay for 2026 september 1-15 — #81821,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17479,581,2026-09-30,4182.3500,0.0000,To record the accrual of the 13th Month Pay for 2026 september 1-15 — #81821,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17479,581,2026-09-30,21986.7900,0.0000,To record the accrual of the 13th Month Pay for 2026 september 1-15 — #81821,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17479,581,2026-09-30,776.2500,0.0000,To record the accrual of the 13th Month Pay for 2026 september 1-15 - YA finance — #81821,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17479,581,2026-09-30,1489.7800,0.0000,To record the accrual of the 13th Month Pay for 2026 september 1-15 - YA clinic — #81821,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17479,581,2026-09-30,1437.8100,0.0000,To record the accrual of the 13th Month Pay for 2026 september 1-15 - YA clinic — #81821,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17479,581,2026-09-30,2100.0400,0.0000,To record the accrual of the 13th Month Pay for 2026 september 1-15 - YA clinic — #81821,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17479,581,2026-09-30,5754.4300,0.0000,To record the accrual of the 13th Month Pay for 2026 september 1-15 - mall & admin — #81821,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17479,581,2026-09-30,564.9200,0.0000,To record the accrual of the 13th Month Pay for 2026 september 1-15 - YA — #81821,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17478,1737,2026-09-30,7107.5300,0.0000,"To record the accrual of the 13th Month Pay for 2026 september 16-30 - YA's 13th month accrual COGS  mobile yakap, logistics, FT — #81820",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17479,1737,2026-09-30,6558.6400,0.0000,"To record the accrual of the 13th Month Pay for 2026 september 1-15 - YA's 13th month accrual COGS  mobile yakap, logistics, FT — #81821",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17572,217,2026-09-30,5421.1600,0.0000,Payment: NEW KEEN'S TRADING — 0726-000738,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17594,217,2026-09-30,12883.9300,0.0000,Payment: NEW KEEN'S TRADING — 0826-000963,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17573,217,2026-09-30,14017.7100,0.0000,Payment: NEW KEEN'S TRADING — 0726-000752,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17579,217,2026-09-30,15160.4200,0.0000,Payment: NEW KEEN'S TRADING — 0726-000819,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17582,217,2026-09-30,17779.8200,0.0000,Payment: NEW KEEN'S TRADING — 0826-000849,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17583,217,2026-09-30,31575.5400,0.0000,Payment: NEW KEEN'S TRADING — 0826-000874,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17571,217,2026-09-30,45453.5100,0.0000,Payment: NEW KEEN'S TRADING — 0626-000665,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17574,217,2026-09-30,23250.5400,0.0000,Payment: NEW KEEN'S TRADING — 0726-000753,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17578,217,2026-09-30,22982.9500,0.0000,Payment: NEW KEEN'S TRADING — 0726-000818,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17580,217,2026-09-30,7517.2800,0.0000,Payment: NEW KEEN'S TRADING — 0726-000820,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17593,217,2026-09-30,5141.6800,0.0000,Payment: NEW KEEN'S TRADING — 0826-000962,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17598,217,2026-09-30,9134.7100,0.0000,Payment: NEW KEEN'S TRADING — 0826-001021,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17581,217,2026-09-30,147500.0000,0.0000,Payment: VALERO PAMATMAT DEVELOPMENT CORP. — 0726-000838,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17577,217,2026-09-30,46629.0000,0.0000,Payment: ZEPHANIAH MEDLAB SUPPLIES AND EQUIPMENT INC. — 0726-000816,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17585,217,2026-09-30,22098.2100,0.0000,Payment: HDP PRINTING — 0826-000895,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17586,217,2026-09-30,39642.8600,0.0000,Payment: AO BIOMED & INDUSTRIAL MARKETING — 0826-000902,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17576,217,2026-09-30,1169464.2900,0.0000,Payment: RIC ENGINEERING SERVICES — 0726-000790,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17587,217,2026-09-30,3270.5400,0.0000,Payment: GALAXY TRADERS — 0826-000903,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17575,217,2026-09-30,14955.2700,0.0000,Payment: SUREBRIGHT MANUFACTURING INDUSTRIES INCORPORATED — 0726-000776,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17584,217,2026-09-30,21607.1400,0.0000,Payment: ALEDAN MKTG CORP — 0826-000878,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17588,217,2026-09-30,274681.5500,0.0000,Payment: GRETHEL FURNITURE SUB-CONTRACTING SERVICES — 0826-000905,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17591,217,2026-09-30,27928.5700,0.0000,Payment: GRETHEL FURNITURE SUB-CONTRACTING SERVICES — 0826-000908,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17592,217,2026-09-30,24839.2900,0.0000,Payment: GRETHEL FURNITURE SUB-CONTRACTING SERVICES — 0826-000909,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17589,217,2026-09-30,305714.2900,0.0000,Payment: PALMAX SOLUTIONS INC. — 0826-000906,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17590,217,2026-09-30,241071.4300,0.0000,Payment: PALMAX SOLUTIONS INC. — 0826-000907,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17595,217,2026-09-30,19821.4300,0.0000,"Payment: BEROVAN MARKETING, INC. — 0826-000971",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17596,217,2026-09-30,17839.2900,0.0000,"Payment: BEROVAN MARKETING, INC. — 0826-000983",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17597,217,2026-09-30,9415.1800,0.0000,"Payment: BEROVAN MARKETING, INC. — 0826-000984",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17536,217,2026-09-30,0.0000,1193789.4500,BUREAU OF INTERNAL REVENUE — RFP No.# 7252,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17537,217,2026-09-30,0.0000,335121.6100,BUREAU OF INTERNAL REVENUE — RFP No.# 7253,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17601,217,2026-09-30,335121.6100,0.0000,Payment: BUREAU OF INTERNAL REVENUE — RFP No.# 7253,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17600,217,2026-09-30,1193789.4500,0.0000,Payment: BUREAU OF INTERNAL REVENUE — RFP No.# 7252,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17525,217,2026-09-30,0.0000,3600.0000,"GARGAR, MARY CHRIS SHIVANI — RFP No.# 7239",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17524,217,2026-09-30,0.0000,12800.0000,LLOYD DELINA — RFP No.# 7238,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17526,217,2026-09-30,0.0000,7200.0000,Gerardine P. Paculanang — RFP No.# 7240,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17523,217,2026-09-30,0.0000,10400.0000,Jade Cloie Tul-id — RFP No.# 7237,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17522,217,2026-09-30,0.0000,3600.0000,KLEAN JEE TRAZO — RFP No.# 7236,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17521,217,2026-09-30,0.0000,10800.0000,MIKHAELA ALESNA — RFP No.# 7235,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17520,217,2026-09-30,0.0000,3600.0000,GWENDEL JOSHUA SANCHEZ — RFP No.# 7234,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17519,217,2026-09-30,0.0000,14400.0000,KIMBERLY JOYCE MANUBAG — RFP No.# 7232,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17518,217,2026-09-30,0.0000,3600.0000,KAYE DOMINIQUE UY — RFP No.# 7231,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17517,217,2026-09-30,0.0000,13200.0000,ALISSAH SIGAYA — RFP No.# 7230,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17516,217,2026-09-30,0.0000,4400.0000,Dan Samuel Burgos — RFP No.# 7229,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17515,217,2026-09-30,0.0000,3600.0000,ELLEN FATIMA CINCO — RFP No.# 7224,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17513,217,2026-09-30,0.0000,3200.0000,CARLYLE F. ABINUMAN — RFP No.# 7221,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17512,217,2026-09-30,0.0000,3600.0000,CHEYENNE LOIS CADAYONA — RFP No.# 7220,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17511,217,2026-09-30,0.0000,7704.7700,John Neslie M. Habajab — RFP No.# 7219,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17528,217,2026-09-30,0.0000,4500.0000,PLDT INC — RFP No.# 7243,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17527,217,2026-09-30,0.0000,3600.0000,"BONTIA, MARGAUX KATE — RFP No.# 7242",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17535,217,2026-09-30,0.0000,3600.0000,AMIRA MASLAMAMA — RFP No.# 7251,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17531,217,2026-09-30,0.0000,4000.0000,ANSON TOLENTINO GUO — RFP No.# 7247,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17530,217,2026-09-30,0.0000,1600.0000,CARLYLE F. ABINUMAN — RFP No.# 7246,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17529,217,2026-09-30,0.0000,7200.0000,"CABAJAR, RAZEL — RFP No.# 7245",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17502,217,2026-09-30,0.0000,30910.0000,RIC ENGINEERING SERVICES — RFP No.# 7197,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17499,217,2026-09-30,0.0000,903.7800,"NORTH & SOUTH BUILDERS SUPPLY, INC. — 0926-001122",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17497,217,2026-09-30,0.0000,991.0700,LYNOLDS MARKETING — 0926-001071,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17538,217,2026-09-30,0.0000,35830.4300,"SMART COMMUNICATIONS, INC. — RFP No.# 7254",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17500,217,2026-09-30,0.0000,1612500.0000,MANDAUE ECO GLASS INC. — 0926-001123,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17599,217,2026-09-30,1612500.0000,0.0000,Payment: MANDAUE ECO GLASS INC. — 0926-001123,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17534,217,2026-09-30,0.0000,13366.0000,"BEBITA, CHERYL ESTRELLA — RFP No.# 7250",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17533,217,2026-09-30,0.0000,7332.9200,Angeline Muñoz — RFP No.# 7249,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17532,217,2026-09-30,0.0000,25000.0000,Mary Ann Emphasis — RFP No.# 7248,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17503,217,2026-09-30,0.0000,13280.8400,OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 7202,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17506,217,2026-09-30,0.0000,92812.5000,"APEX MEDICAL DEVICES AND DIAGNOSTICS, INC. — RFP No.# 7207",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17504,217,2026-09-30,0.0000,45514.7300,"CENTURION SECURITY AGENCY, INC. — RFP No.# 7205",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17557,217,2026-09-30,0.0000,5400.0000,Shanesse Angelee Cortes — RFP No.# 7281,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17556,217,2026-09-30,0.0000,5850.0000,Shanesse Angelee Cortes — RFP No.# 7280,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17555,217,2026-09-30,0.0000,10775.0000,Shanesse Angelee Cortes — RFP No.# 7279,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17554,217,2026-09-30,0.0000,10800.0000,Shanesse Angelee Cortes — RFP No.# 7278,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17539,217,2026-09-30,0.0000,28285.7100,Biotek Medical & Laboratory Supplies — RFP No.# 7260,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17544,217,2026-09-30,0.0000,29169.6400,Biotek Medical & Laboratory Supplies — RFP No.# 7265,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17543,217,2026-09-30,0.0000,82303.5700,Biotek Medical & Laboratory Supplies — RFP No.# 7264,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17542,217,2026-09-30,0.0000,25732.1400,Biotek Medical & Laboratory Supplies — RFP No.# 7263,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17541,217,2026-09-30,0.0000,19446.4300,Biotek Medical & Laboratory Supplies — RFP No.# 7262,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17498,217,2026-09-30,0.0000,11397.3200,DG'S INK TRADING — 0926-001106,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17507,217,2026-09-30,0.0000,9910.0200,Medclean Management Solutions Inc. — RFP No.# 7209,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17558,217,2026-09-30,0.0000,5610.0000,ALEJANDRO DE LA CRUZ III — RFP No.# 7282,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17510,217,2026-09-30,0.0000,68214.6500,"CENTURION SECURITY AGENCY, INC. — RFP No.# 7216",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17545,217,2026-09-30,0.0000,9387.9100,CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 7266,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17540,217,2026-09-30,0.0000,21527.5100,CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 7261,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17505,217,2026-09-30,0.0000,13141.0500,CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 7206,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17550,217,2026-09-30,0.0000,137410.5700,OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 7271,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17549,217,2026-09-30,0.0000,11924.5500,OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 7270,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17548,217,2026-09-30,0.0000,52086.2000,OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 7269,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17547,217,2026-09-30,0.0000,248173.4900,OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 7268,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17551,217,2026-09-30,0.0000,76336.9900,OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 7272,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17552,217,2026-09-30,0.0000,2563.3900,OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 7273,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17546,217,2026-09-30,0.0000,51812.1700,OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 7267,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17501,217,2026-09-30,0.0000,24776.7900,TRULABORATORIES CORPORATION — 0926-001132,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17565,217,2026-09-30,0.0000,3815.0000,ARBIE AGUSTIN REDONA JR. — RFP No.# 7301,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17563,217,2026-09-30,0.0000,24119.7000,CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 7299,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17562,217,2026-09-30,0.0000,14314.5200,CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 7298,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17561,217,2026-09-30,0.0000,30333.6000,ADULT AND CHILD EYEWEAR CENTER — RFP No.# 7297,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17514,217,2026-09-30,0.0000,56000.0000,JONAS CLYDE ALMOCERA — RFP No.# 7223,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17564,217,2026-09-30,0.0000,19878.6900,Greentree Food Solutions Inc — RFP No.# 7300,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17559,217,2026-09-30,0.0000,48613.5700,Sharlene Mae Elarcosa — RFP No.# 7289,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17560,217,2026-09-30,0.0000,28787.5000,Angelica F. Garcia — RFP No.# 7290,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17553,217,2026-09-30,0.0000,7200.0000,Leonor Alessandra Solamillo — RFP No.# 7276,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17566,217,2026-09-30,0.0000,7200.0000,Leonor Alessandra Solamillo — RFP No.# 7305,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17569,217,2026-09-30,0.0000,900.0000,Shanesse Angelee Cortes — RFP No.# 7312,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17568,217,2026-09-30,0.0000,1750.0000,Shanesse Angelee Cortes — RFP No.# 7311,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17567,217,2026-09-30,0.0000,7200.0000,Shanesse Angelee Cortes — RFP No.# 7310,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17509,217,2026-09-30,0.0000,14002.2100,Medclean Management Solutions Inc. — RFP No.# 7212,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17508,217,2026-09-30,0.0000,18267.8600,Medclean Management Solutions Inc. — RFP No.# 7210,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17570,217,2026-09-30,0.0000,1908.9000,OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 7326,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17407,237,2026-09-30,0.0000,9998.9900,To accrue PLDT Internet Services/Data Line Mantlewood for September -  08/17/26 - 09/16/26 — #81016,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17407,237,2026-09-30,0.0000,8547.2700,To accrue PLDT Internet Services/Data Line Mantlewood for September -  07/22/26 - 08/16/26 — #81016,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17407,237,2026-09-30,0.0000,2500.0000,To accrue PLDT Internet Services/Data Line Mantlewood for September - activation charge — #81016,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17408,237,2026-09-30,0.0000,25000.0000,Smart - Enterprise Postpaid Messaging Plan for the month of 2026 september Shared — #81017,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17409,237,2026-09-30,0.0000,11700.0000,to accrue converge flexibiz 120mbps Biz Edge 500MBPS| Account no. 1393902217187 september — #81020,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17410,237,2026-09-30,4500.0000,0.0000,Reversal of: To accrue PLDT -Enterprise Broadband Static 200 Bundle for Account number 6005975865 SEPTEMBER 2026 consolacion — #81119,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17411,237,2026-09-30,0.0000,22400.0000,to accrue received first billing of MYT On-site Support Fee july 27 - august 26 — #81122,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17412,237,2026-09-30,44301.9600,0.0000,Reversal of: to accrue Responsible Internet Sustainability Effort Inc. (RISE) Internet Gold in Shared Office july — #81125,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17413,237,2026-09-30,25000.0000,0.0000,Reversal of: Smart - Enterprise Postpaid Messaging Plan for the month of 2026 july Shared — #81142,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17414,237,2026-09-30,25000.0000,0.0000,Reversal of: Smart - Enterprise Postpaid Messaging Plan for the month of 2026 august Shared — #81144,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17415,237,2026-09-30,0.0000,11000.0000,to accrue Converge Biz Edge 500MBPS| Account no. 1393902218662 september — #81146,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17416,237,2026-09-30,1711064.8000,0.0000,Reversal of: To accrue Doctors PF Mactan for the period 2026 august — #81337,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17417,237,2026-09-30,1056683.6000,0.0000,Reversal of: To accrue Doctors PF Consolacion for the period august — #81338,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17418,237,2026-09-30,1575973.0300,0.0000,Reversal of: To accrue Doctors PF Oakridge for the period 2026 august — #81339,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17419,237,2026-09-30,84732.0000,0.0000,Reversal of: To accrue TPP cost for the month of 2026 august — #81341,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17420,237,2026-09-30,42382.9800,0.0000,"Reversal of: To accrue: CENTURION SECURITY AGENCY, INC Oakridge ftp 2026 august — #81347",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17422,237,2026-09-30,12088.1600,0.0000,Reversal of: to accrue: Medclean Management Solutions Inc. Collection of Infectious Waste Disposal  2026 july — #81377,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17423,237,2026-09-30,83789.0100,0.0000,Reversal of: To accrue: SS7 SECURITY SERVICES CORPORATION for Mantlewood month of august — #81383,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17425,237,2026-09-30,0.0000,886027.2000,To accrue send out cost for the period 2026 september — #81396,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17426,237,2026-09-30,824.0200,0.0000,Reversal of: To accrue: CEBU SPIC & SPAN JANITORIAL SERVICES INC. ftp 2026 consolacion september — #81406,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17427,237,2026-09-30,31715.4000,0.0000,Reversal of: To accrue: CEBU SPIC & SPAN - Janitorial Services for the period 2026 Oakridge august — #81415,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17428,237,2026-09-30,0.0000,311181.0000,to record payroll of EO mancom payroll september 16-30 — #81500,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17429,237,2026-09-30,0.0000,130612.4000,"To record Executive Fees for the period september 1-30, to LH Paragon Inc. — #81516",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17430,237,2026-09-30,0.0000,66352.4000,TO RECORD SL SICK LEAVE CONVERSION 2026 Mancom september — #81523,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17431,237,2026-09-30,66352.4000,0.0000,Reversal of: TO RECORD SL SICK LEAVE CONVERSION 2026 Mancom september — #81524,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17432,237,2026-09-30,0.0000,66509.5300,to accrue mancom 13th month september — #81540,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17433,237,2026-09-30,0.0000,706019.3700,to accrue medicines - konsulta La Nueva 2026 september — #81541,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17434,237,2026-09-30,0.0000,205092.0000,To accrue TPP cost for the month of 2026 september — #81556,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17435,237,2026-09-30,0.0000,30640.0000,to accrue 80% under health services OPTA september — #81557,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17437,237,2026-09-30,125663.0800,0.0000,Reversal of: To accrue ORDC: OAKRIDGE clinic signage (Electricity) 2026 august — #81580,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17438,237,2026-09-30,12141.3600,0.0000,"Reversal of: To accrue ORDC: OAKRIDGE clinic utilities (Electricity) 2026 JULY add: Additional, meter1, 2, ACU 3f, mwtc -  ADDITIONAL — #81586",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17439,237,2026-09-30,60302.0900,0.0000,Reversal of: To accrue ORDC: OAKRIDGE clinic extension utilities ELectricity and water for 2026 august — #81587,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17439,237,2026-09-30,360.5600,0.0000,Reversal of: To accrue ORDC: OAKRIDGE clinic extension utilities ELectricity and water for 2026 august — #81587,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17440,237,2026-09-30,259825.1000,0.0000,Reversal of: To accrue ORDC: OAKRIDGE aclinic utilities ELectricity and water for 2026 august — #81589,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17440,237,2026-09-30,7030.9500,0.0000,Reversal of: To accrue ORDC: OAKRIDGE aclinic utilities ELectricity and water for 2026 august — #81589,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17441,237,2026-09-30,74683.2500,0.0000,Reversal of: To accrue ORDC: OAKRIDGE clinic utilities ext.2 (Electricity) 2026 august — #81592,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17442,237,2026-09-30,2144.5500,0.0000,Reversal of: To accrue ORDC garbage collection for august — #81594,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17445,237,2026-09-30,16188.0000,0.0000,Reversal of: to accrue repairs and maintenance august — #81733,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17447,237,2026-09-30,0.0000,1610345.4800,To accrue Doctors PF Mactan for the period 2026 september — #81761,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17448,237,2026-09-30,0.0000,930424.6000,To accrue Doctors PF Consolacion for the period september — #81762,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17454,237,2026-09-30,0.0000,20969.6200,"CPCI Payroll for september 16-30, 2026 - Consolacion - Finance — #81792",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17455,237,2026-09-30,0.0000,82927.9000,"CPCI Payroll for september 16-30, 2026 - Consolacion Medical Affairs — #81793",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17456,237,2026-09-30,0.0000,247923.8700,"CPCI Payroll for september 16-30, 2026 - Consolacion Operations — #81796",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17457,237,2026-09-30,0.0000,65385.3200,"CPCI Payroll for september 16-30, 2026 - Mobile Medical Affairs — #81797",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17458,237,2026-09-30,0.0000,113462.9300,"CPCI Payroll for september 16-30, 2026 - Mobile Operations — #81798",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17459,237,2026-09-30,0.0000,8964.4100,"CPCI Payroll for september 16-30, 2026 - Mactan - Finance — #81799",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17460,237,2026-09-30,0.0000,67274.7500,CPCI Payroll for september 16-30 - Mactan Medical Affairs — #81800,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17461,237,2026-09-30,0.0000,303137.5900,CPCI Payroll for september 16-30 - Mactan  Operations — #81801,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17462,237,2026-09-30,0.0000,61013.3200,"CPCI Payroll for september 16-30, 2026 - Mantle Wood Medical Affairs — #81802",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17463,237,2026-09-30,0.0000,205225.1100,"CPCI Payroll for september 16-30, 2026 - Operations - Mantlewood — #81803",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17464,237,2026-09-30,0.0000,19078.6000,"CPCI Payroll for september 16-30, 2026 - Oakridge - Finance — #81804",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17465,237,2026-09-30,0.0000,207335.8800,"CPCI Payroll for september 16-30, 2026 - Oakridge Medical Affairs — #81805",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17466,237,2026-09-30,0.0000,376441.3000,"CPCI Payroll for september 16-30, 2026 - Oakridge Operations — #81806",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17467,237,2026-09-30,0.0000,116318.0400,"CPCI Payroll for september 16-30, 2026 - Shared finance — #81807",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17468,237,2026-09-30,0.0000,49367.5200,"CPCI Payroll for september 16-30, 2026 - Shared IT — #81808",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17469,237,2026-09-30,0.0000,155414.0400,"CPCI Payroll for september 16-30, 2026 - Shared - LHRA — #81809",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17470,237,2026-09-30,0.0000,220154.2400,"CPCI Payroll for september 16-30, 2026 - Shared Sales Services — #81810",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17471,237,2026-09-30,0.0000,5000.2000,"CPCI Payroll for september 16-30, 2026 - mobile fixed term — #81811",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17472,237,2026-09-30,0.0000,90367.3800,"to record KA/YA payroll Operations, FT support, logistics- Mobile september 16-30 — #81812",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17473,237,2026-09-30,0.0000,19206.4300,"CPCI Payroll for september 16-30, 2026 - KA/YA - Consolacion — #81813",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17474,237,2026-09-30,0.0000,18679.3000,"CPCI Payroll for september 16-30, 2026 - KA/YA - Mactan — #81814",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17475,237,2026-09-30,0.0000,11371.5300,"CPCI Payroll for september 16-30, 2026 - KA/YA - Mantlewood — #81815",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17476,237,2026-09-30,0.0000,24053.1500,"CPCI Payroll for september, 2026 - KA/YA - Oakridge — #81816",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17477,237,2026-09-30,0.0000,56212.5200,to record KA/YA payroll MALL & ADMIN september 16-30 — #81817,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17478,237,2026-09-30,0.0000,52257.8100,To record the accrual of the 13th Month Pay for 2026 september 16-30 — #81820,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17478,237,2026-09-30,0.0000,28288.7600,To record the accrual of the 13th Month Pay for 2026 september 16-30 — #81820,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17478,237,2026-09-30,0.0000,29209.2100,To record the accrual of the 13th Month Pay for 2026 september 16-30 — #81820,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17478,237,2026-09-30,0.0000,14526.9000,To record the accrual of the 13th Month Pay for 2026 september 16-30 — #81820,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17478,237,2026-09-30,0.0000,21406.2800,To record the accrual of the 13th Month Pay for 2026 september 16-30 — #81820,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17478,237,2026-09-30,0.0000,14125.0000,To record the accrual of the 13th Month Pay for 2026 september 16-30 — #81820,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17478,237,2026-09-30,0.0000,11104.1700,To record the accrual of the 13th Month Pay for 2026 september 16-30 — #81820,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17478,237,2026-09-30,0.0000,4476.0500,To record the accrual of the 13th Month Pay for 2026 september 16-30 — #81820,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17478,237,2026-09-30,0.0000,1045.0100,To record the accrual of the 13th Month Pay for 2026 september 16-30 — #81820,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17478,237,2026-09-30,0.0000,7107.5300,"To record the accrual of the 13th Month Pay for 2026 september 16-30 - YA's 13th month accrual COGS  mobile yakap, logistics, FT — #81820",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17478,237,2026-09-30,0.0000,1752.8600,To record the accrual of the 13th Month Pay for 2026 september 16-30 - YA clinic — #81820,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17478,237,2026-09-30,0.0000,1704.7700,To record the accrual of the 13th Month Pay for 2026 september 16-30 - YA clinic — #81820,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17478,237,2026-09-30,0.0000,2207.5300,To record the accrual of the 13th Month Pay for 2026 september 16-30 - YA clinic — #81820,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17478,237,2026-09-30,0.0000,5145.5300,To record the accrual of the 13th Month Pay for 2026 september 16-30 - mall & admin — #81820,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17478,237,2026-09-30,0.0000,493.1500,To record the accrual of the 13th Month Pay for 2026 september 16-30 - fixed term — #81820,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17479,237,2026-09-30,0.0000,52923.4200,To record the accrual of the 13th Month Pay for 2026 september 1-15 — #81821,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17479,237,2026-09-30,0.0000,27669.1500,To record the accrual of the 13th Month Pay for 2026 september 1-15 — #81821,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17479,237,2026-09-30,0.0000,29445.7500,To record the accrual of the 13th Month Pay for 2026 september 1-15 — #81821,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17479,237,2026-09-30,0.0000,16784.2400,To record the accrual of the 13th Month Pay for 2026 september 1-15 — #81821,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17479,237,2026-09-30,0.0000,21458.3300,To record the accrual of the 13th Month Pay for 2026 september 1-15 — #81821,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17479,237,2026-09-30,0.0000,14123.9900,To record the accrual of the 13th Month Pay for 2026 september 1-15 — #81821,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17479,237,2026-09-30,0.0000,9202.1900,To record the accrual of the 13th Month Pay for 2026 september 1-15 — #81821,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17479,237,2026-09-30,0.0000,4182.3500,To record the accrual of the 13th Month Pay for 2026 september 1-15 — #81821,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17479,237,2026-09-30,0.0000,21986.7900,To record the accrual of the 13th Month Pay for 2026 september 1-15 — #81821,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17479,237,2026-09-30,0.0000,6558.6400,"To record the accrual of the 13th Month Pay for 2026 september 1-15 - YA's 13th month accrual COGS  mobile yakap, logistics, FT — #81821",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17479,237,2026-09-30,0.0000,776.2500,"To record the accrual of the 13th Month Pay for 2026 september 1-15 - YA BOC, sales/admin, finance, clinic, malls — #81821",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17479,237,2026-09-30,0.0000,1489.7800,To record the accrual of the 13th Month Pay for 2026 september 1-15 - YA clinic — #81821,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17479,237,2026-09-30,0.0000,1437.8100,To record the accrual of the 13th Month Pay for 2026 september 1-15 - YA clinic — #81821,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17479,237,2026-09-30,0.0000,2100.0400,To record the accrual of the 13th Month Pay for 2026 september 1-15 - YA clinic — #81821,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17479,237,2026-09-30,0.0000,5754.4300,To record the accrual of the 13th Month Pay for 2026 september 1-15 - mall & admin — #81821,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17479,237,2026-09-30,0.0000,564.9200,To record the accrual of the 13th Month Pay for 2026 september 1-15 - YA — #81821,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17481,237,2026-09-30,0.0000,76345.0000,to accrue sales incentives .5% september 15.269m collections — #81823,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17483,237,2026-09-30,14574.7800,0.0000,Reversal of: To accrue CEBU SPIC & SPAN - Janitorial Services for the period — #81846,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17484,237,2026-09-30,30640.0000,0.0000,Reversal of: to accrue 80% under health services OPTA september — #81849,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17486,237,2026-09-30,52951.0000,0.0000,Reversal of: To accrue Doctors PF Mantlewood for the period 2026 august — #81857,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17487,237,2026-09-30,0.0000,69226.8000,To accrue Doctors PF Mantlewood for the period 2026 september — #81859,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17488,237,2026-09-30,0.0000,15000.0000,additional booking 15k for payroll mancom as advised — #81860,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17491,237,2026-09-30,0.0000,1530871.2400,To accrue Doctors PF Oakridge for the period 2026 september — #81973,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17492,237,2026-09-30,139908.9400,0.0000,"Reversal of: To accrue ORDC payables utilities : clinic, mwtc xray van, mwtc clinic, extension, signage, extension 2, garbage collection mwtc and oakridge, it services, - electricity for clinic signage — #81982",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17492,237,2026-09-30,53033.2200,0.0000,"Reversal of: To accrue ORDC payables utilities : clinic, mwtc xray van, mwtc clinic, extension, signage, extension 2, garbage collection mwtc and oakridge, it services, - clinic extension utilities ELectricity — #81982",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17492,237,2026-09-30,360.5600,0.0000,"Reversal of: To accrue ORDC payables utilities : clinic, mwtc xray van, mwtc clinic, extension, signage, extension 2, garbage collection mwtc and oakridge, it services, - clinic extension utilities water — #81982",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17492,237,2026-09-30,238780.0800,0.0000,"Reversal of: To accrue ORDC payables utilities : clinic, mwtc xray van, mwtc clinic, extension, signage, extension 2, garbage collection mwtc and oakridge, it services, - clinic utilities (electricity) — #81982",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17492,237,2026-09-30,13905.6600,0.0000,"Reversal of: To accrue ORDC payables utilities : clinic, mwtc xray van, mwtc clinic, extension, signage, extension 2, garbage collection mwtc and oakridge, it services, - clinic utilities (Water) — #81982",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17492,237,2026-09-30,77724.9400,0.0000,"Reversal of: To accrue ORDC payables utilities : clinic, mwtc xray van, mwtc clinic, extension, signage, extension 2, garbage collection mwtc and oakridge, it services, - Clinic ext. 2 utilities (Electricity) — #81982",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17492,237,2026-09-30,2610.0000,0.0000,"Reversal of: To accrue ORDC payables utilities : clinic, mwtc xray van, mwtc clinic, extension, signage, extension 2, garbage collection mwtc and oakridge, it services, - garbage collection fee — #81982",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17492,237,2026-09-30,406869.1200,0.0000,"Reversal of: To accrue ORDC payables utilities : clinic, mwtc xray van, mwtc clinic, extension, signage, extension 2, garbage collection mwtc and oakridge, it services, - utilities electricity — #81982",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17492,237,2026-09-30,3916.1300,0.0000,"Reversal of: To accrue ORDC payables utilities : clinic, mwtc xray van, mwtc clinic, extension, signage, extension 2, garbage collection mwtc and oakridge, it services, - utilities water — #81982",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17492,237,2026-09-30,196.2800,0.0000,"Reversal of: To accrue ORDC payables utilities : clinic, mwtc xray van, mwtc clinic, extension, signage, extension 2, garbage collection mwtc and oakridge, it services, - xray van electricity — #81982",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17492,237,2026-09-30,560.0000,0.0000,"Reversal of: To accrue ORDC payables utilities : clinic, mwtc xray van, mwtc clinic, extension, signage, extension 2, garbage collection mwtc and oakridge, it services, - garbage collection fee — #81982",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17492,237,2026-09-30,25760.0000,0.0000,"Reversal of: To accrue ORDC payables utilities : clinic, mwtc xray van, mwtc clinic, extension, signage, extension 2, garbage collection mwtc and oakridge, it services, - IT services — #81982",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,489,2026-09-30,0.0000,1324.8300,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,409,2026-09-30,0.0000,3291.6500,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,409,2026-09-30,0.0000,162.9700,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,409,2026-09-30,0.0000,87.9700,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,409,2026-09-30,0.0000,282.8100,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,409,2026-09-30,0.0000,5893.5900,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,409,2026-09-30,0.0000,130.3400,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,409,2026-09-30,0.0000,4685.8700,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,409,2026-09-30,0.0000,89.2000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,409,2026-09-30,0.0000,296.4100,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,401,2026-09-30,0.0000,4510.6500,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,401,2026-09-30,0.0000,1303.4800,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,401,2026-09-30,0.0000,5573.1400,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,401,2026-09-30,0.0000,8985.9600,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,401,2026-09-30,0.0000,257.4800,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,401,2026-09-30,0.0000,86134.0100,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,445,2026-09-30,0.0000,4889.6700,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,445,2026-09-30,0.0000,4774.4000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,445,2026-09-30,0.0000,3097.6700,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,445,2026-09-30,0.0000,4128.4600,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,445,2026-09-30,0.0000,113.8400,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,445,2026-09-30,0.0000,41145.9100,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,453,2026-09-30,0.0000,104.2400,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,453,2026-09-30,0.0000,91.9900,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,453,2026-09-30,0.0000,178.3100,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,453,2026-09-30,0.0000,71.3800,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,453,2026-09-30,0.0000,421.8800,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,453,2026-09-30,0.0000,12.1400,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,453,2026-09-30,0.0000,14.1400,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,453,2026-09-30,0.0000,184.9100,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,389,2026-09-30,0.0000,2133.9300,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,389,2026-09-30,0.0000,1242.5200,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,389,2026-09-30,0.0000,635.3500,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,389,2026-09-30,0.0000,98.7900,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,389,2026-09-30,0.0000,1618.9100,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,389,2026-09-30,0.0000,1743.6000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,389,2026-09-30,0.0000,79.6700,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,389,2026-09-30,0.0000,7755.2000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,437,2026-09-30,0.0000,0.0900,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,437,2026-09-30,0.0000,158.1400,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,437,2026-09-30,0.0000,4043.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,405,2026-09-30,0.0000,98318.9100,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,405,2026-09-30,0.0000,31221.5700,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,405,2026-09-30,0.0000,35074.6300,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,405,2026-09-30,0.0000,21424.0800,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,405,2026-09-30,0.0000,1105.6500,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,405,2026-09-30,0.0000,132654.5700,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,405,2026-09-30,0.0000,1419.4900,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,405,2026-09-30,0.0000,867.8200,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,405,2026-09-30,0.0000,39898.4800,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,405,2026-09-30,0.0000,743.3000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,405,2026-09-30,0.0000,2470.0900,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,397,2026-09-30,0.0000,831140.5700,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,397,2026-09-30,0.0000,74916.8800,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,397,2026-09-30,0.0000,714786.4900,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,397,2026-09-30,0.0000,74953.0100,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,397,2026-09-30,0.0000,4291.3700,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,397,2026-09-30,0.0000,746067.9000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,441,2026-09-30,0.0000,171838.9200,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,441,2026-09-30,0.0000,72855.5800,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,441,2026-09-30,0.0000,161041.5200,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,441,2026-09-30,0.0000,55626.5900,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,441,2026-09-30,0.0000,344965.9200,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,449,2026-09-30,0.0000,2333.4900,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,449,2026-09-30,0.0000,1539.9700,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,449,2026-09-30,0.0000,3718.4500,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,449,2026-09-30,0.0000,1546.8500,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,449,2026-09-30,0.0000,3062.9000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,449,2026-09-30,0.0000,101.1900,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,449,2026-09-30,0.0000,530.7300,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,449,2026-09-30,0.0000,1540.9200,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,385,2026-09-30,0.0000,67849.8700,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,385,2026-09-30,0.0000,28105.6200,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,385,2026-09-30,0.0000,43467.8000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,385,2026-09-30,0.0000,4538.1600,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,385,2026-09-30,0.0000,31161.6200,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,385,2026-09-30,0.0000,4181.0500,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,385,2026-09-30,0.0000,1008.9700,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,385,2026-09-30,0.0000,63273.9400,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,433,2026-09-30,0.0000,7362.2400,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,433,2026-09-30,0.0000,133597.3400,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,433,2026-09-30,0.0000,33691.6700,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17532,85,2026-09-30,25000.0000,0.0000,Mary Ann Emphasis - Payment for Cash advance for Quarter 3 General Assembly | CA-0327 — RFP No.# 7248,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17421,85,2026-09-30,0.0000,3000.0000,Liquidation of Cash Advance for Priest Stipend | CA- 0309| Neil Francis Bryan Patria - Liquidation of Cash Advance for Priest Stipend | CA- 0309| Neil Francis Bryan Patria — #81376,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17424,85,2026-09-30,0.0000,3900.0000,Liquidation of Cash Advance for Parasitology- NEQAS 2026| CA-0323| VIRLEN T. MAHINAY - Liquidation of Cash Advance for Parasitology- NEQAS 2026| CA-0323| VIRLEN T. MAHINAY — #81394,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17446,85,2026-09-30,0.0000,4737.4300,Liquidation of cash advance to employee for 26TH NADTI Philippines Trade Exhibit and Scientific Sessions | CA-0326 | Mary Abigail Gomez - Liquidation of cash advance to employee for 26TH NADTI Philippines Trade Exhibit and Scientific Sessions | CA-0326 | Mary Abigail Gomez — #81736,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17449,85,2026-09-30,0.0000,10150.0000,Liquidation of Cash Advance for DT confirmatory send-outs to the confirmatory laboratory under the mobile account (LF PHIL) | CA-0316 | CHERYL E. BEBITA - Liquidation of Cash Advance for DT confirmatory send-outs to the confirmatory laboratory under the mobile account (LF PHIL) | CA-0316 | CHERYL E. BEBITA — #81773,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17454,85,2026-09-30,0.0000,1041.6700,"CPCI Payroll for september 16-30, 2026 - Consolacion - Finance - MAHINAY, CLAVEL TTHE Loan sept 16-30 — #81792",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17456,85,2026-09-30,0.0000,784.7500,"CPCI Payroll for september 16-30, 2026 - Consolacion Operations — #81796",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17456,85,2026-09-30,0.0000,666.6700,"CPCI Payroll for september 16-30, 2026 - Consolacion Operations - CPCI Payroll for september 16-30, 2026 - Consolacion TTHE Moreno, Meldrid C. — #81796",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17458,85,2026-09-30,0.0000,500.0000,"CPCI Payroll for september 16-30, 2026 - Mobile Operations — #81798",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17458,85,2026-09-30,0.0000,2083.3400,"CPCI Payroll for september 16-30, 2026 - Mobile Operations - september 16-30, TTHE LOAN Rio, Mae — #81798",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17459,85,2026-09-30,0.0000,425.8300,"CPCI Payroll for september 16-30, 2026 - Mactan - Finance — #81799",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17460,85,2026-09-30,0.0000,443.3300,CPCI Payroll for september 16-30 - Mactan Medical Affairs — #81800,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17461,85,2026-09-30,0.0000,4520.0000,CPCI Payroll for september 16-30 - Mactan  Operations — #81801,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17464,85,2026-09-30,0.0000,833.3400,"CPCI Payroll for september 16-30, 2026 - Oakridge - Finance - september 16-30, TTHE LOAN Quimbo, May Frances — #81804",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17466,85,2026-09-30,0.0000,666.6600,"CPCI Payroll for september 16-30, 2026 - Oakridge Operations — #81806",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17466,85,2026-09-30,0.0000,2083.3400,"CPCI Payroll for september 16-30, 2026 - Oakridge Operations - CPCI Payroll for september 16-30, - Oakridge Operations TTHE LOAN Bebita, Cheryl — #81806",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17466,85,2026-09-30,0.0000,833.3400,"CPCI Payroll for september 16-30, 2026 - Oakridge Operations - CPCI Payroll for  september 16-30, - Oakridge Operations  TTHE LOAN Macatol, Lovely Joie — #81806",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17466,85,2026-09-30,0.0000,833.3400,"CPCI Payroll for september 16-30, 2026 - Oakridge Operations - CPCI Payroll for september 16-30, 2026 - Oakridge Operations TTHE LOAN Debuayan, Miriam — #81806",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17466,85,2026-09-30,0.0000,3541.6700,"CPCI Payroll for september 16-30, 2026 - Oakridge Operations - CPCI Payroll for september 16-30, 2026 - Oakridge Operations TTHE LOAN Agosila, Jaconah Theresa — #81806",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17467,85,2026-09-30,0.0000,448.3300,"CPCI Payroll for september 16-30, 2026 - Shared finance — #81807",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17468,85,2026-09-30,0.0000,445.0000,"CPCI Payroll for september 16-30, 2026 - Shared IT — #81808",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17469,85,2026-09-30,0.0000,667.5000,"CPCI Payroll for september 16-30, 2026 - Shared - LHRA — #81809",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17470,85,2026-09-30,0.0000,6870.8200,"CPCI Payroll for september 16-30, 2026 - Shared Sales Services — #81810",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17514,93,2026-09-30,56000.0000,0.0000,JONAS CLYDE ALMOCERA - Payment for 40% Downpayment for New Patient Feedback System | OPEX-26-0587 SI No. CPCI-2026-01 — RFP No.# 7223,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,585,2026-09-30,54256.7100,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,585,2026-09-30,168517.8600,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,597,2026-09-30,1324.8300,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17500,213,2026-09-30,2100000.0000,0.0000,MANDAUE ECO GLASS INC. - Vatable: Payment for 40% Progress Billing for Sliding Glass Doors & Glass Windows| PO No. CAPEX-26-0063 SI No. 00040 — 0926-001123,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17493,213,2026-09-30,0.0000,10803.5700,Treasury posting : Unsuccessful - Revert Back to Payable (RFP No.# 6255 & 6241) Converge ICT Solutions Inc. - Unsuccessful - Revert Back to Payable (RFP No.# 6241) Converge ICT Solutions Inc. — #82019,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17493,213,2026-09-30,0.0000,10803.5700,Treasury posting : Unsuccessful - Revert Back to Payable (RFP No.# 6255 & 6241) Converge ICT Solutions Inc. - Unsuccessful - Revert Back to Payable (RFP No.# 6255) Converge ICT Solutions Inc. — #82019,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17443,77,2026-09-30,20287.0000,0.0000,"Sales Branches September 30, 2026 - Gcash Sales - September, 30 — #81641",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17443,77,2026-09-30,3863.0000,0.0000,"Sales Branches September 30, 2026 - Gcash Sales - September, 30 — #81641",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17443,77,2026-09-30,5350.0000,0.0000,"Sales Branches September 30, 2026 - Gcash Sales - September, 30 — #81641",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17443,77,2026-09-30,2600.0000,0.0000,"Sales Branches September 30, 2026 - Gcash Sales - September, 30 — #81641",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17452,77,2026-09-30,0.0000,3133.0000,Treasury posting September 30 - Gcash — #81782,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17559,109,2026-09-30,21386.4400,0.0000,Sharlene Mae Elarcosa - Full Payment for Maternity Benefit — RFP No.# 7289,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17560,109,2026-09-30,16129.1700,0.0000,Angelica F. Garcia - Full Payment for Maternity Benefit — RFP No.# 7290,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17775,61,2026-09-30,830.0000,0.0000,Payment: Mehitabel Inc. — O24514,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17774,61,2026-09-30,830.0000,0.0000,Payment: Mehitabel Inc. — O24410,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17773,61,2026-09-30,5184.2000,0.0000,"Payment: Philhealthcare, Inc — M3525",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17772,61,2026-09-30,24490.2000,0.0000,"Payment: Philhealthcare, Inc — M3511",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17776,61,2026-09-30,490.0000,0.0000,"Payment: Avega Managed Care, Inc — O5087",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17443,61,2026-09-30,56693.0000,0.0000,"Sales Branches September 30, 2026 - Credit Card Sales - September, 30 — #81641",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17443,61,2026-09-30,24190.0000,0.0000,"Sales Branches September 30, 2026 - Credit Card Sales - September, 30 — #81641",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17443,61,2026-09-30,2550.0000,0.0000,"Sales Branches September 30, 2026 - Credit Card Sales - September, 30 — #81641",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17443,61,2026-09-30,6500.0000,0.0000,"Sales Branches September 30, 2026 - Debit Card Sales - September, 30 — #81641",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17443,61,2026-09-30,600.0000,0.0000,"Sales Branches September 30, 2026 - Debit Card Sales - September, 30 — #81641",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17452,61,2026-09-30,0.0000,102949.0000,Treasury posting September 30 - AR-Terms RESULTS MANILA — #81782,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17452,61,2026-09-30,0.0000,29000.0000,Treasury posting September 30 - AR-Terms RDAK TRANSPORT EQUIPMENT — #81782,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17452,61,2026-09-30,0.0000,7889.0000,Treasury posting September 30 - Debit Card — #81782,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17452,61,2026-09-30,0.0000,21188.1800,Treasury posting September 30 - Credit Card — #81782,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17452,61,2026-09-30,0.0000,46975.6600,Treasury posting September 30 - AR-Terms MAXICARE HEALTHCARE CORP — #81782,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17452,61,2026-09-30,0.0000,600.0000,Treasury posting September 30 - AR-Terms ADVANCED MEDICAL ACCESS PHILIPPINES — #81782,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17452,61,2026-09-30,0.0000,2940.0000,Treasury posting September 30 - AR-Terms INLIFE BENEFITS INSURANCE COMPANY I — #81782,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17452,61,2026-09-30,0.0000,10650.0000,Treasury posting September 30 - AR-Terms PHILIPPINE BRITISH LIFE AND GENERAL — #81782,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17452,61,2026-09-30,0.0000,50000.0000,Treasury posting September 30 - Unidentified Check Deposit  - 09/30/2026 — #81782,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17452,61,2026-09-30,0.0000,68713.9900,Treasury posting September 30 - Credit Cards — #81782,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17452,61,2026-09-30,0.0000,33664.9900,Treasury posting September 30 - Credit Cards — #81782,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17602,65,2026-09-30,39.8000,0.0000,"Tamiya Philippines, Inc - CWT 2% - TAMIYA PHILIPPINES, INC. — CN-7431",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17603,65,2026-09-30,48.0000,0.0000,"Tamiya Philippines, Inc - CWT 2% - TAMIYA PHILIPPINES, INC. — CN-7432",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17604,65,2026-09-30,16.0000,0.0000,"Tamiya Philippines, Inc - CWT 2% - TAMIYA PHILIPPINES, INC. — CN-7433",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17605,65,2026-09-30,32.0000,0.0000,"Tamiya Philippines, Inc - CWT 2% - TAMIYA PHILIPPINES, INC. — CN-7434",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17706,65,2026-09-30,0.0000,500.0000,"Avega Managed Care, Inc - DABASOL, MADHIE ZAVRIANA OBREGON | 09/29/2026 |Avega Managed Care, Inc| 500- — M4443",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17706,65,2026-09-30,0.0000,1832.0000,"Avega Managed Care, Inc - DABASOL, MADHIE ZAVRIANA OBREGON | 09/29/2026 |Avega Managed Care, Inc| 1832- — M4443",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17707,65,2026-09-30,0.0000,270.0000,"Cooperative Health Management Federation - RAPADA, VINCE ANDRIE PRECIADO | 09/29/2026 |Cooperative Health Management Federation| 270- — M4444",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17707,65,2026-09-30,0.0000,400.0000,"Cooperative Health Management Federation - CATADMAN, RODETHA PADAYOGDOG | 09/29/2026 |FICCO| 400- — M4444",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17707,65,2026-09-30,0.0000,400.0000,"Cooperative Health Management Federation - ENCIPIDO, MELODY OMPAD | 09/29/2026 |Cooperative Health Management Federation| 400- — M4444",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17707,65,2026-09-30,0.0000,1450.0000,"Cooperative Health Management Federation - MATURAN, JEMA RUBY CANCERAN | 09/29/2026 |Cooperative Health Management Federation| 1450- — M4444",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17708,65,2026-09-30,0.0000,500.0000,"Etiqa Life and General Assurance Phillipines, Inc - LOPENA, JOHN DAVE PESTAÑO | 09/29/2026 |Etiqa Life and General Assurance Phillipines, Inc| 500- — M4445",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17708,65,2026-09-30,0.0000,500.0000,"Etiqa Life and General Assurance Phillipines, Inc - QUIZEL, ROXANNE TRADIO | 09/29/2026 |Etiqa Life and General Assurance Phillipines, Inc| 500- — M4445",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17708,65,2026-09-30,0.0000,7520.0000,"Etiqa Life and General Assurance Phillipines, Inc - QUIZEL, ROXANNE TRADIO | 09/29/2026 |Etiqa Life and General Assurance Phillipines, Inc| 5750- — M4445",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17708,65,2026-09-30,0.0000,6780.0000,"Etiqa Life and General Assurance Phillipines, Inc - TAPERLA, EDGAR BASCO | 09/29/2026 |Etiqa Life and General Assurance Phillipines, Inc| 6780- — M4445",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17708,65,2026-09-30,0.0000,500.0000,"Etiqa Life and General Assurance Phillipines, Inc - DAÑO, RENLEIGH DALE LUMONGSOD | 09/29/2026 |Etiqa Life and General Assurance Phillipines, Inc| 500- — M4445",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17708,65,2026-09-30,0.0000,1200.0000,"Etiqa Life and General Assurance Phillipines, Inc - DAÑO, RENLEIGH DALE LUMONGSOD | 09/29/2026 |Etiqa Life and General Assurance Phillipines, Inc| 1200- — M4445",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17709,65,2026-09-30,0.0000,650.0000,"Eurekahedge PTE, LTD - AMARADO, ANIKA THEA YUAN DADULA | 09/29/2026 |EUREKAHEDGE PTE, LTD.| 650- — M4446",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17709,65,2026-09-30,0.0000,650.0000,"Eurekahedge PTE, LTD - CAÑETE, CRISTINA VENICE CALAGOS | 09/29/2026 |EUREKAHEDGE PTE, LTD.| 650- — M4446",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17678,65,2026-09-30,0.0000,500.0000,"Avega Managed Care, Inc - LEOPARDEZ, RICHIE CAGA-ANAN | 09/29/2026 | Avega Managed Care, Inc | 500- — C4180",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17678,65,2026-09-30,0.0000,140.0000,"Avega Managed Care, Inc - LEOPARDEZ, RICHIE CAGA-ANAN | 09/29/2026 | Avega Managed Care, Inc | 140- — C4180",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17678,65,2026-09-30,0.0000,500.0000,"Avega Managed Care, Inc - SIMEON, MARIA ALISA AUSTRIA | 09/29/2026 | Avega Managed Care, Inc | 500- — C4180",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17679,65,2026-09-30,0.0000,400.0000,"Cooperative Health Management Federation - APAS, RAHYAN CAPAROSO | 09/29/2026 | Cooperative Health Management Federation | 400- — C4181",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17680,65,2026-09-30,0.0000,3190.0000,"Health Plan Philippines, Inc - SANCHEZ, MONIQUE MAYOL | 09/29/2026 | HEALTH PLAN PHILIPPINES, INC | 3190- — C4182",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17681,65,2026-09-30,0.0000,390.0000,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) - LOYOLA, MARIA PHOEBE ESTENZO | 09/29/2026 | INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) | 390- — C4183",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17682,65,2026-09-30,0.0000,600.0000,"Insular Healthcare Inc - AMARILLO, JENNIELOU OYANGURIN | 09/29/2026 | Insular Healthcare Inc | 600- — C4184",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17682,65,2026-09-30,0.0000,2650.0000,"Insular Healthcare Inc - AMARILLO, JENNIELOU OYANGURIN | 09/29/2026 | Insular Healthcare Inc | 2650- — C4184",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17682,65,2026-09-30,0.0000,500.0000,"Insular Healthcare Inc - BIHAG, JANELLE RAIZEL GURREA | 09/29/2026 | Insular Healthcare Inc | 500- — C4184",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17682,65,2026-09-30,0.0000,450.0000,"Insular Healthcare Inc - BIHAG, JANELLE RAIZEL GURREA | 09/29/2026 | Insular Healthcare Inc | 450- — C4184",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17682,65,2026-09-30,0.0000,600.0000,"Insular Healthcare Inc - CABRERA, CHARMAINE BERNADETTE CASTRO | 09/29/2026 | Insular Healthcare Inc | 600- — C4184",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17682,65,2026-09-30,0.0000,620.0000,"Insular Healthcare Inc - ESCALANTE, RICK DANIEL BONOTAN | 09/29/2026 | Insular Healthcare Inc | 620- — C4184",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17682,65,2026-09-30,0.0000,500.0000,"Insular Healthcare Inc - GOVE, SHARMIN LOQUINARIO | 09/29/2026 | Insular Healthcare Inc | 500- — C4184",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17682,65,2026-09-30,0.0000,600.0000,"Insular Healthcare Inc - NATINGA, JAN MICHOL MONTAYRE | 09/29/2026 | Insular Healthcare Inc | 600- — C4184",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17682,65,2026-09-30,0.0000,8060.0000,"Insular Healthcare Inc - NATINGA, JAN MICHOL MONTAYRE | 09/29/2026 | Insular Healthcare Inc | 8060- — C4184",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17682,65,2026-09-30,0.0000,500.0000,"Insular Healthcare Inc - NATOR, RHIAN MAE ALMODIEL | 09/29/2026 | Insular Healthcare Inc | 500- — C4184",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17682,65,2026-09-30,0.0000,100.0000,"Insular Healthcare Inc - NATOR, RHIAN MAE ALMODIEL | 09/29/2026 | Insular Healthcare Inc | 100- — C4184",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17682,65,2026-09-30,0.0000,600.0000,"Insular Healthcare Inc - PAHID, RICO ORNOPIA | 09/29/2026 | Insular Healthcare Inc | 600- — C4184",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17682,65,2026-09-30,0.0000,10990.0000,"Insular Healthcare Inc - PAHID, RICO ORNOPIA | 09/29/2026 | Insular Healthcare Inc | 10990- — C4184",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17682,65,2026-09-30,0.0000,600.0000,"Insular Healthcare Inc - PEPITO, JEWEL PASPIE | 09/29/2026 | Insular Healthcare Inc | 600- — C4184",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17682,65,2026-09-30,0.0000,660.0000,"Insular Healthcare Inc - PEPITO, JEWEL PASPIE | 09/29/2026 | Insular Healthcare Inc | 660- — C4184",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17682,65,2026-09-30,0.0000,600.0000,"Insular Healthcare Inc - RAMIREZ, LEEJANE REGISTRADO | 09/29/2026 | Insular Healthcare Inc | 600- — C4184",1,0,2026-09-30 23:59:59,0

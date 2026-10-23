@@ -1,0 +1,81 @@
+CREATE TABLE `send_out` (
+ `id` int(11) NOT NULL AUTO_INCREMENT,
+ `branch_id` int(11) NOT NULL,
+ `facility_id` int(11) NOT NULL,
+ `due_date` date DEFAULT NULL,
+ `date_from` date NOT NULL,
+ `date_to` date NOT NULL,
+ `grand_total` decimal(13,4) NOT NULL DEFAULT 0.0000,
+ `balance` decimal(13,4) NOT NULL DEFAULT 0.0000,
+ `status` enum('pending','open_bill','closed_bill','cancelled') NOT NULL DEFAULT 'pending',
+ `is_for_cancellation` int(11) NOT NULL DEFAULT 0,
+ `cancel_reason` varchar(255) DEFAULT NULL,
+ `for_cancellation_by` int(11) DEFAULT NULL,
+ `for_cancellation_on` datetime DEFAULT NULL,
+ `cancelled_by` int(11) DEFAULT NULL,
+ `cancelled_on` datetime DEFAULT NULL,
+ `invoice_id` int(11) DEFAULT NULL,
+ `invoice_status` varchar(250) DEFAULT NULL,
+ `added_by` int(11) NOT NULL,
+ `added_on` timestamp NOT NULL DEFAULT current_timestamp(),
+ `updated_by` int(11) DEFAULT NULL,
+ `updated_on` timestamp NULL DEFAULT NULL ON UPDATE current_timestamp(),
+ `is_deleted` tinyint(1) DEFAULT 0,
+ PRIMARY KEY (`id`)
+);
+
+CREATE TABLE `send_out_entry` (
+ `id` int(11) NOT NULL AUTO_INCREMENT,
+ `send_out_id` int(11) NOT NULL,
+ `facility_id` int(11) NOT NULL,
+ `booking_id` int(11) NOT NULL,
+ `transaction_id` int(11) NOT NULL,
+ `amount` decimal(13,4) DEFAULT 0.0000,
+ `balance` decimal(13,4) NOT NULL DEFAULT 0.0000,
+ `status` enum('pending','open_bill','closed_bill') NOT NULL DEFAULT 'pending',
+ `added_by` int(11) NOT NULL,
+ `added_on` timestamp NOT NULL DEFAULT current_timestamp(),
+ `updated_by` int(11) DEFAULT NULL,
+ `updated_on` timestamp NULL DEFAULT NULL ON UPDATE current_timestamp(),
+ `is_deleted` tinyint(1) DEFAULT 0,
+ PRIMARY KEY (`id`)
+);
+
+CREATE TABLE `send_out_payment` (
+ `id` int(11) NOT NULL AUTO_INCREMENT,
+ `facility_id` int(11) NOT NULL,
+ `mop` enum('cash','bank','check','online_payment','others') NOT NULL DEFAULT 'cash',
+ `date` date NOT NULL,
+ `reference_no` varchar(255) DEFAULT NULL,
+ `check_no` varchar(255) DEFAULT NULL,
+ `check_date` date DEFAULT NULL,
+ `bank_name` varchar(255) DEFAULT NULL,
+ `others` varchar(255) DEFAULT NULL,
+ `paid_date` date NOT NULL,
+ `remarks` varchar(255) DEFAULT NULL,
+ `account_type_id` int(11) DEFAULT NULL,
+ `bank_check` varchar(250) DEFAULT NULL,
+ `wht_amount` decimal(13,2) DEFAULT 0.00,
+ `wht_percent` decimal(13,2) DEFAULT 0.00,
+ `wht_account` varchar(250) DEFAULT NULL,
+ `grand_total` decimal(13,4) NOT NULL DEFAULT 0.0000,
+ `added_by` int(11) NOT NULL,
+ `added_on` timestamp NOT NULL DEFAULT current_timestamp(),
+ `updated_by` int(11) DEFAULT NULL,
+ `updated_on` timestamp NULL DEFAULT NULL ON UPDATE current_timestamp(),
+ `is_deleted` tinyint(1) DEFAULT 0,
+ PRIMARY KEY (`id`)
+);
+
+CREATE TABLE `send_out_payment_entry` (
+ `id` int(11) NOT NULL AUTO_INCREMENT,
+ `send_out_payment_id` int(11) NOT NULL,
+ `send_out_entry_id` int(11) NOT NULL,
+ `amount` decimal(13,4) DEFAULT NULL,
+ `added_by` int(11) NOT NULL,
+ `added_on` timestamp NOT NULL DEFAULT current_timestamp(),
+ `updated_by` int(11) DEFAULT NULL,
+ `updated_on` timestamp NULL DEFAULT NULL ON UPDATE current_timestamp(),
+ `is_deleted` tinyint(1) DEFAULT 0,
+ PRIMARY KEY (`id`)
+);

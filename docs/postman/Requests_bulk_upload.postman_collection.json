@@ -1,0 +1,168 @@
+{
+  "info": {
+    "_postman_id": "b8e7f6a5-d4c3-2b1a-9876-543210fedcba",
+    "name": "Requests - Bulk Excel Upload",
+    "description": "# Requests bulk Excel upload\n\nCreates **one approved** Request → Costing → Quotation → Endorsement chain from a single multi-sheet `.xlsx` workbook.\n\n## Auth\n- Header: `API-KEY` (required)\n- Query (GET) or form-data (POST): `token`, `requester` (required)\n- Roles allowed: Admin `4`, Sales `19`, Sales Manager `20`, Sales Director `21`\n\n## Flow\n1. `GET /requests/download_bulk_template` — download encoder template\n2. Fill sheets (see sheet guide below)\n3. `POST /requests/upload_bulk` — multipart `file` + auth fields\n\n## Sheets\n| Sheet | Rows | Purpose |\n|-------|------|--------|\n| Instructions | — | How to fill |\n| Request | 1 data row | Request parent fields |\n| Costing | 1 data row | Costing-only overrides (shared blanks copy from Request) |\n| Quotation | 1 data row | `version_no`, effectivity dates, note/remarks |\n| Endorsement | 1 data row | Branch, dates, TAT, package, etc. |\n| Services | N rows | Shared services for all four entities |\n| Details | N rows | Lab-test details (request + costing/quotation price fields) |\n| Shifts | N rows | Shifts |\n| Consultations | Prefilled | EMR specializations; fill only rows you need |\n\n## Consultations sheet\nPrefilled columns from the same source as `GET /doctors/get_specilization`:\n- `specialization_id` (do not change)\n- `specialization_name` (do not change)\n- `company_id` — encoder fills\n- `fee_amount` — encoder fills; **empty fee_amount rows are skipped on upload**\n- `doctor_share` — encoder fills (optional; default `0`)\n\nOn insert: `charge_to = company`, `charge_to_ids = company_id`.\n\n## Status\nBulk path **forces `status = approved`** on Request, Costing, Quotation, and Endorsement (bypasses normal change_status / finance pipeline). No create emails are sent on this path.\n\n## Dependency\nRequires `phpoffice/phpspreadsheet` (`composer require phpoffice/phpspreadsheet:^1.29`). Without it, both endpoints return a JSON error.\n\n## Save / Send\n- Download: Save Response → file as `.xlsx`\n- Upload: Body → form-data → `file` type **File**; do **not** set `Content-Type` manually\n",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost/cpci-business-ops-api/public"
+    },
+    {
+      "key": "api_key",
+      "value": "clinicaRiKOYqlwdTJ-lNedqS0k-it!395!-6ls1JXM7Vcc"
+    },
+    {
+      "key": "token",
+      "value": "{{token}}"
+    },
+    {
+      "key": "requester",
+      "value": "1"
+    }
+  ],
+  "item": [
+    {
+      "name": "Download bulk template",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/requests/download_bulk_template?token={{token}}&requester={{requester}}",
+          "host": ["{{base_url}}"],
+          "path": ["requests", "download_bulk_template"],
+          "query": [
+            { "key": "token", "value": "{{token}}" },
+            { "key": "requester", "value": "{{requester}}" }
+          ]
+        },
+        "description": "## GET `/requests/download_bulk_template`\n\nStreams an Excel workbook (`request_bulk_template.xlsx`) for encoders.\n\n### Auth\n- Header `API-KEY`\n- Query: `token`, `requester`\n\n### Sheets generated\n1. **Instructions** — fill guide\n2. **Request** — header row + 1 empty data row (`company_id`, `customer_account_id`, `date`, `sae_in_charge_id`, contact fields, headcount, etc. — all Request `allowedFields`)\n3. **Costing** — `package_name`, `service_package`, `ape_date`, `hours_per_day`, totals-related notes, duration dates, `remarks`, …\n4. **Quotation** — `version_no`, `effectivity_date_from` / `to`, `quotation_no` (optional; auto-generated if blank), `remarks`, `note`, signatory fields\n5. **Endorsement** — `branch_id`, `type`, `endorsement_date`, releasing/TAT/dates/package fields\n6. **Services** — `type`, `type_id`, `type_price`, `type_cost`, `branch_id`, `charge_to`, `charge_to_ids`, headcount/margins/costs/…\n7. **Details** — `lab_test_id`, `branch_id`, `quantity`, `unit_price`, `total_amount`, discount/margin/cost\n8. **Shifts** — `name`, `start_shift`, `end_shift`, cutoffs, `total_hours`, `break`, `ingress`\n9. **Consultations** — prefilled `specialization_id` + `specialization_name` from EMR; empty `company_id`, `fee_amount`, `doctor_share`\n\n### Success\nBinary body with headers:\n- `Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet`\n- `Content-Disposition: attachment; filename=\"request_bulk_template.xlsx\"`\n\nIn Postman: **Send and Download** / Save Response as `.xlsx`.\n\n### Failure (PhpSpreadsheet missing)\nJSON error asking to run `composer require phpoffice/phpspreadsheet:^1.29`."
+      },
+      "response": [
+        {
+          "name": "Success (binary xlsx)",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "text",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+            },
+            {
+              "key": "Content-Disposition",
+              "value": "attachment; filename=\"request_bulk_template.xlsx\""
+            }
+          ],
+          "body": "(binary Excel workbook — use Send and Download in Postman)"
+        },
+        {
+          "name": "PhpSpreadsheet missing",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            { "key": "Content-Type", "value": "application/json" }
+          ],
+          "body": "[\n  \"PhpSpreadsheet is not installed. Run: composer require phpoffice/phpspreadsheet:^1.29\"\n]"
+        }
+      ]
+    },
+    {
+      "name": "Upload bulk",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "description": "Filled request_bulk_template.xlsx",
+              "type": "file",
+              "src": []
+            },
+            {
+              "key": "token",
+              "value": "{{token}}",
+              "type": "text"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}",
+              "type": "text"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/requests/upload_bulk",
+          "host": ["{{base_url}}"],
+          "path": ["requests", "upload_bulk"]
+        },
+        "description": "## POST `/requests/upload_bulk`\n\nParses the uploaded workbook and, in **one DB transaction**, creates:\n1. Request (`status=approved`)\n2. Costing (`status=approved` + SM/SD stamps)\n3. Quotation (`status=approved` + sales/SM/SD/finance stamps; `quotation_no` auto `QT-YYYYMMDD-…` if blank)\n4. Endorsement (`status=approved`)\n\nNested rows from **Services**, **Details**, **Shifts**, and filtered **Consultations** are written to each entity as applicable (endorsement skips Details/patients in v1).\n\n### Body (multipart form-data)\n| Field | Type | Required |\n|-------|------|----------|\n| `file` | file (`.xlsx` / `.xls`) | yes |\n| `token` | text | yes |\n| `requester` | text | yes |\n\nDo **not** set `Content-Type` manually — Postman sets the multipart boundary.\n\n### Consultation filter\nOnly Consultations rows where `fee_amount` is non-empty are inserted. `specialization_id` comes from the sheet; `charge_to` forced to `company`; `charge_to_ids` = `company_id`.\n\n### Roles\n`role_id` must be in `{4, 19, 20, 21}`.\n\n### Success response\n```json\n{\n  \"request_id\": 1,\n  \"costing_id\": 2,\n  \"quotation_id\": 3,\n  \"endorsement_id\": 4,\n  \"message\": \"Bulk upload created and approved successfully.\"\n}\n```\n\n### Common failures\n- Missing/invalid `file`\n- Wrong extension (not xlsx/xls)\n- PhpSpreadsheet not installed\n- Role not allowed\n- Sheet/parse/DB insert error (full transaction rolled back)"
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            { "key": "Content-Type", "value": "application/json" }
+          ],
+          "body": "{\n  \"request_id\": 101,\n  \"costing_id\": 202,\n  \"quotation_id\": 303,\n  \"endorsement_id\": 404,\n  \"message\": \"Bulk upload created and approved successfully.\"\n}"
+        },
+        {
+          "name": "Missing file",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            { "key": "Content-Type", "value": "application/json" }
+          ],
+          "body": "[\n  \"Valid Excel file (.xlsx) is required in field \\\"file\\\".\"\n]"
+        },
+        {
+          "name": "Role denied",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            { "key": "Content-Type", "value": "application/json" }
+          ],
+          "body": "[\n  \"Only Sales, Sales Manager, Sales Director, or Admin users can bulk upload.\"\n]"
+        },
+        {
+          "name": "PhpSpreadsheet missing",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            { "key": "Content-Type", "value": "application/json" }
+          ],
+          "body": "[\n  \"PhpSpreadsheet is not installed. Run: composer require phpoffice/phpspreadsheet:^1.29\"\n]"
+        }
+      ]
+    }
+  ]
+}

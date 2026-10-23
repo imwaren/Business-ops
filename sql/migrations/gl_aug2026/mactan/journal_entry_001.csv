@@ -1,0 +1,501 @@
+id,cost_center_id,date,type,remarks,total_debit,total_credit,status,is_migrated,added_by,added_on,is_deleted
+182540,3,2026-08-01,journal_entry,"Sales Branches August 1, 2026 - Gcash Sales - August, 01 — #72905",337270.0000,337270.0000,approved,1,0,2026-08-31 23:59:59,0
+182541,3,2026-08-01,payable_invoice,"NPK MEDICAL TRADING, INC. — 0826-000008",127500.0000,127500.0000,approved,1,0,2026-08-31 23:59:59,0
+182542,3,2026-08-01,payable_invoice,"LAPU LAPU GRAND REALTY VENTURES, INC. — RFP No.# 3845-11",332102.4000,332102.4000,approved,1,0,2026-08-31 23:59:59,0
+182543,3,2026-08-01,payable_invoice,"LAPU LAPU GRAND REALTY VENTURES, INC. — RFP No.# 3845-23",71229.2000,71229.2000,approved,1,0,2026-08-31 23:59:59,0
+182544,3,2026-08-01,payable_invoice,"LAPU LAPU GRAND REALTY VENTURES, INC. — RFP No.# 6620",15680.0000,15680.0000,approved,1,0,2026-08-31 23:59:59,0
+182545,3,2026-08-01,payable_invoice,"CONVERGE INFORMATION AND COMMUNICATIONS TECHNOLOGY SOLUTIONS, INC. — RFP No.# 6622",15700.0000,15700.0000,approved,1,0,2026-08-31 23:59:59,0
+182546,3,2026-08-01,payable_invoice,"SMART COMMUNICATIONS, INC. - VAT: Smart Communications Inc. FTP 06/01-06/30/2026; Mactan — RFP No.# 6631",2825.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182547,3,2026-08-01,payable_payment,"Payment: LAPU LAPU GRAND REALTY VENTURES, INC. — 6000396821",0.0000,317276.4000,approved,1,0,2026-08-31 23:59:59,0
+182548,3,2026-08-01,payable_payment,"Payment: LAPU LAPU GRAND REALTY VENTURES, INC. — 6000396846",0.0000,69957.2500,approved,1,0,2026-08-31 23:59:59,0
+182549,3,2026-08-01,payable_payment,"Payment: LAPU LAPU GRAND REALTY VENTURES, INC. — RFP No.# 3845-11",317276.4000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182550,3,2026-08-01,payable_payment,"Payment: LAPU LAPU GRAND REALTY VENTURES, INC. — RFP No.# 3845-23",69957.2500,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182551,3,2026-08-01,receivable_invoice,PHILHEALTH - KONSULTA - FPE YAKAP JUNE 2026 MACTAN 596 PAX — M-PK0012,405280.0000,405280.0000,approved,1,0,2026-08-31 23:59:59,0
+182552,3,2026-08-01,receivable_invoice,PHILHEALTH - KONSULTA - FPE YAKAP JULY 2026 MACTAN 722 PAX — M-PK0013,490960.0000,490960.0000,approved,1,0,2026-08-31 23:59:59,0
+182553,3,2026-08-03,journal_entry,"to record cash sales July 31, august 1 - 31 — #71961",76676.0000,76676.0000,approved,1,0,2026-08-31 23:59:59,0
+182554,3,2026-08-03,journal_entry,"Sales Branches August 3, 2026 - Gcash Sales - August, 03 — #77845",273148.0000,273148.0000,approved,1,0,2026-08-31 23:59:59,0
+182555,3,2026-08-03,receivable_credit_note,Life & Health Hmp Inc — CN-6357,454.0000,454.0000,approved,1,0,2026-08-31 23:59:59,0
+182556,3,2026-08-03,receivable_credit_note,Life & Health Hmp Inc — CN-6358,37.0000,37.0000,approved,1,0,2026-08-31 23:59:59,0
+182557,3,2026-08-03,receivable_credit_note,Life & Health Hmp Inc — CN-6359,8.0000,8.0000,approved,1,0,2026-08-31 23:59:59,0
+182558,3,2026-08-03,receivable_credit_note,Life & Health Hmp Inc — CN-6360,121.8000,121.8000,approved,1,0,2026-08-31 23:59:59,0
+182559,3,2026-08-03,receivable_credit_note,Life & Health Hmp Inc — CN-6361,8.0000,8.0000,approved,1,0,2026-08-31 23:59:59,0
+182560,3,2026-08-03,receivable_credit_note,Life & Health Hmp Inc — CN-6362,61.7000,61.7000,approved,1,0,2026-08-31 23:59:59,0
+182561,3,2026-08-03,receivable_credit_note,Life & Health Hmp Inc — CN-6363,282.6000,282.6000,approved,1,0,2026-08-31 23:59:59,0
+182562,3,2026-08-03,receivable_credit_note,Life & Health Hmp Inc — CN-6364,71.8000,71.8000,approved,1,0,2026-08-31 23:59:59,0
+182563,3,2026-08-03,receivable_credit_note,Life & Health Hmp Inc — CN-6365,102.0000,102.0000,approved,1,0,2026-08-31 23:59:59,0
+182564,3,2026-08-03,receivable_credit_note,Life & Health Hmp Inc — CN-6366,175.0000,175.0000,approved,1,0,2026-08-31 23:59:59,0
+182565,3,2026-08-03,receivable_credit_note,Life & Health Hmp Inc — CN-6367,8.0000,8.0000,approved,1,0,2026-08-31 23:59:59,0
+182566,3,2026-08-03,receivable_credit_note,Life & Health Hmp Inc — CN-6368,8.0000,8.0000,approved,1,0,2026-08-31 23:59:59,0
+182567,3,2026-08-03,receivable_credit_note,Life & Health Hmp Inc — CN-6369,8.0000,8.0000,approved,1,0,2026-08-31 23:59:59,0
+182568,3,2026-08-03,receivable_credit_note,Life & Health Hmp Inc — CN-6370,1148.3000,1148.3000,approved,1,0,2026-08-31 23:59:59,0
+182569,3,2026-08-03,receivable_credit_note,Life & Health Hmp Inc — CN-6371,638.0000,638.0000,approved,1,0,2026-08-31 23:59:59,0
+182570,3,2026-08-03,receivable_credit_note,Life & Health Hmp Inc — CN-6372,320.4000,320.4000,approved,1,0,2026-08-31 23:59:59,0
+182571,3,2026-08-03,receivable_credit_note,Life & Health Hmp Inc — CN-6373,658.6000,658.6000,approved,1,0,2026-08-31 23:59:59,0
+182572,3,2026-08-03,receivable_credit_note,Life & Health Hmp Inc — CN-6374,1169.4000,1169.4000,approved,1,0,2026-08-31 23:59:59,0
+182573,3,2026-08-03,receivable_credit_note,Life & Health Hmp Inc — CN-6375,1745.3000,1745.3000,approved,1,0,2026-08-31 23:59:59,0
+182574,3,2026-08-03,receivable_credit_note,Asalus Corporation — CN-6377,343.8000,343.8000,approved,1,0,2026-08-31 23:59:59,0
+182575,3,2026-08-03,receivable_credit_note,Asalus Corporation — CN-6379,173.6000,173.6000,approved,1,0,2026-08-31 23:59:59,0
+182576,3,2026-08-03,receivable_credit_note,Asalus Corporation — CN-6388,367.2200,367.2200,approved,1,0,2026-08-31 23:59:59,0
+182577,3,2026-08-03,receivable_credit_note,Asalus Corporation — CN-6389,641.3000,641.3000,approved,1,0,2026-08-31 23:59:59,0
+182578,3,2026-08-03,receivable_credit_note,Asalus Corporation — CN-6393,549.8000,549.8000,approved,1,0,2026-08-31 23:59:59,0
+182579,3,2026-08-03,receivable_credit_note,Asalus Corporation — CN-6394,209.2000,209.2000,approved,1,0,2026-08-31 23:59:59,0
+182580,3,2026-08-03,receivable_credit_note,Asalus Corporation — CN-6395,258.7000,258.7000,approved,1,0,2026-08-31 23:59:59,0
+182581,3,2026-08-03,receivable_credit_note,Asalus Corporation — CN-6396,1102.7000,1102.7000,approved,1,0,2026-08-31 23:59:59,0
+182582,3,2026-08-03,receivable_credit_note,Asalus Corporation — CN-6401,208.3000,208.3000,approved,1,0,2026-08-31 23:59:59,0
+182583,3,2026-08-03,receivable_credit_note,Asalus Corporation — CN-6405,798.1000,798.1000,approved,1,0,2026-08-31 23:59:59,0
+182584,3,2026-08-03,receivable_credit_note,Asalus Corporation — CN-6410,428.2800,428.2800,approved,1,0,2026-08-31 23:59:59,0
+182585,3,2026-08-03,receivable_credit_note,Asalus Corporation — CN-6411,123.2000,123.2000,approved,1,0,2026-08-31 23:59:59,0
+182586,3,2026-08-03,receivable_credit_note,Asalus Corporation — CN-6412,365.1000,365.1000,approved,1,0,2026-08-31 23:59:59,0
+182587,3,2026-08-03,receivable_credit_note,Asalus Corporation — CN-6415,586.4000,586.4000,approved,1,0,2026-08-31 23:59:59,0
+182588,3,2026-08-03,receivable_credit_note,Asalus Corporation — CN-6416,1070.4200,1070.4200,approved,1,0,2026-08-31 23:59:59,0
+182589,3,2026-08-03,receivable_credit_note,Asalus Corporation — CN-6417,417.3000,417.3000,approved,1,0,2026-08-31 23:59:59,0
+182590,3,2026-08-03,receivable_credit_note,Asalus Corporation — CN-6431,189.4000,189.4000,approved,1,0,2026-08-31 23:59:59,0
+182591,3,2026-08-03,receivable_credit_note,Asalus Corporation — CN-6432,368.3000,368.3000,approved,1,0,2026-08-31 23:59:59,0
+182592,3,2026-08-03,receivable_credit_note,Asalus Corporation — CN-6433,1023.5800,1023.5800,approved,1,0,2026-08-31 23:59:59,0
+182593,3,2026-08-03,receivable_credit_note,Asalus Corporation — CN-6435,241.6000,241.6000,approved,1,0,2026-08-31 23:59:59,0
+182594,3,2026-08-03,receivable_credit_note,Asalus Corporation — CN-6439,646.1000,646.1000,approved,1,0,2026-08-31 23:59:59,0
+182595,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6357,454.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182596,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6358,37.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182597,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6359,8.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182598,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6360,121.8000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182599,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6361,8.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182600,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6362,61.7000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182601,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6363,282.6000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182602,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6364,71.8000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182603,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6365,102.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182604,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6366,175.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182605,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6367,8.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182606,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6368,8.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182607,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6369,8.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182608,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6370,1148.3000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182609,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6371,638.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182610,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6372,320.4000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182611,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6373,658.6000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182612,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6374,1169.4000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182613,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6375,1745.3000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182614,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — CN-6377,343.8000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182615,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — CN-6379,173.6000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182616,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — CN-6388,367.2200,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182617,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — CN-6389,641.3000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182618,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — CN-6393,549.8000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182619,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — CN-6394,209.2000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182620,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — CN-6395,258.7000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182621,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — CN-6396,1102.7000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182622,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — CN-6401,208.3000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182623,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — CN-6405,798.1000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182624,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — CN-6410,428.2800,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182625,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — CN-6411,123.2000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182626,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — CN-6412,365.1000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182627,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — CN-6415,586.4000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182628,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — CN-6416,1070.4200,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182629,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — CN-6417,417.3000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182630,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — CN-6431,189.4000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182631,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — CN-6432,368.3000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182632,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — CN-6433,1023.5800,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182633,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — CN-6435,241.6000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182634,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — CN-6439,646.1000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182635,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — M2046,0.0000,175.0000,approved,1,0,2026-08-31 23:59:59,0
+182636,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — M2058,0.0000,16.0000,approved,1,0,2026-08-31 23:59:59,0
+182637,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — M2178,0.0000,37.0000,approved,1,0,2026-08-31 23:59:59,0
+182638,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — M2259,0.0000,102.0000,approved,1,0,2026-08-31 23:59:59,0
+182639,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — M2273,0.0000,71.8000,approved,1,0,2026-08-31 23:59:59,0
+182640,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — M2335,0.0000,8.0000,approved,1,0,2026-08-31 23:59:59,0
+182641,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — M2436,0.0000,282.6000,approved,1,0,2026-08-31 23:59:59,0
+182642,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — M2457,0.0000,8.0000,approved,1,0,2026-08-31 23:59:59,0
+182643,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — M2520,0.0000,61.7000,approved,1,0,2026-08-31 23:59:59,0
+182644,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — M2704,0.0000,368.3000,approved,1,0,2026-08-31 23:59:59,0
+182645,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — M2705,0.0000,121.8000,approved,1,0,2026-08-31 23:59:59,0
+182646,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — M2715,0.0000,189.4000,approved,1,0,2026-08-31 23:59:59,0
+182647,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — M2727,0.0000,646.1000,approved,1,0,2026-08-31 23:59:59,0
+182648,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — M2737,0.0000,1023.5800,approved,1,0,2026-08-31 23:59:59,0
+182649,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — M2748,0.0000,241.6000,approved,1,0,2026-08-31 23:59:59,0
+182650,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — M2761,0.0000,1070.4200,approved,1,0,2026-08-31 23:59:59,0
+182651,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — M2777,0.0000,208.3000,approved,1,0,2026-08-31 23:59:59,0
+182652,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — M2788,0.0000,123.2000,approved,1,0,2026-08-31 23:59:59,0
+182653,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — M2801,0.0000,586.4000,approved,1,0,2026-08-31 23:59:59,0
+182654,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — M2814,0.0000,428.2800,approved,1,0,2026-08-31 23:59:59,0
+182655,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — M2825,0.0000,417.3000,approved,1,0,2026-08-31 23:59:59,0
+182656,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — M2837,0.0000,365.1000,approved,1,0,2026-08-31 23:59:59,0
+182657,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — M2846,0.0000,1148.7000,approved,1,0,2026-08-31 23:59:59,0
+182658,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — M2872,0.0000,258.7000,approved,1,0,2026-08-31 23:59:59,0
+182659,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — M2883,0.0000,209.2000,approved,1,0,2026-08-31 23:59:59,0
+182660,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — M2885,0.0000,8.0000,approved,1,0,2026-08-31 23:59:59,0
+182661,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — M2898,0.0000,798.1000,approved,1,0,2026-08-31 23:59:59,0
+182662,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — M2909,0.0000,641.3000,approved,1,0,2026-08-31 23:59:59,0
+182663,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — M2921,0.0000,367.2200,approved,1,0,2026-08-31 23:59:59,0
+182664,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — M2931,0.0000,549.8000,approved,1,0,2026-08-31 23:59:59,0
+182665,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — M2957,0.0000,343.8000,approved,1,0,2026-08-31 23:59:59,0
+182666,3,2026-08-03,receivable_credit_note_allocation,Asalus Corporation — M2971,0.0000,173.6000,approved,1,0,2026-08-31 23:59:59,0
+182667,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — M3039,0.0000,1174.8000,approved,1,0,2026-08-31 23:59:59,0
+182668,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — M3053,0.0000,1148.3000,approved,1,0,2026-08-31 23:59:59,0
+182669,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — M3067,0.0000,454.0000,approved,1,0,2026-08-31 23:59:59,0
+182670,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — M3123,0.0000,658.6000,approved,1,0,2026-08-31 23:59:59,0
+182671,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — M3138,0.0000,1745.3000,approved,1,0,2026-08-31 23:59:59,0
+182672,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — M3211,0.0000,638.0000,approved,1,0,2026-08-31 23:59:59,0
+182673,3,2026-08-03,receivable_credit_note_allocation,Life & Health Hmp Inc — M3224,0.0000,419.4000,approved,1,0,2026-08-31 23:59:59,0
+182674,3,2026-08-04,journal_entry,to record cash sales august 3 — #73034,41007.0000,41007.0000,approved,1,0,2026-08-31 23:59:59,0
+182675,3,2026-08-04,journal_entry,"Sales Branches August 4, 2026 - Gcash Sales - August, 04 — #77857",248628.0000,248628.0000,approved,1,0,2026-08-31 23:59:59,0
+182676,3,2026-08-04,payable_payment,"Payment: LAPU LAPU GRAND REALTY VENTURES, INC. — RFP No.# 6608",235809.2000,235809.2000,approved,1,0,2026-08-31 23:59:59,0
+182677,3,2026-08-04,receivable_credit_note,Cooperative Health Management Federation — CN-6462,62.0000,62.0000,approved,1,0,2026-08-31 23:59:59,0
+182678,3,2026-08-04,receivable_credit_note,Cooperative Health Management Federation — CN-6465,108.2000,108.2000,approved,1,0,2026-08-31 23:59:59,0
+182679,3,2026-08-04,receivable_credit_note,Cooperative Health Management Federation — CN-6468,11.0000,11.0000,approved,1,0,2026-08-31 23:59:59,0
+182680,3,2026-08-04,receivable_credit_note,Cooperative Health Management Federation — CN-6469,226.0000,226.0000,approved,1,0,2026-08-31 23:59:59,0
+182681,3,2026-08-04,receivable_credit_note,Cooperative Health Management Federation — CN-6476,143.0000,143.0000,approved,1,0,2026-08-31 23:59:59,0
+182682,3,2026-08-04,receivable_credit_note,Cooperative Health Management Federation — CN-6477,109.4000,109.4000,approved,1,0,2026-08-31 23:59:59,0
+182683,3,2026-08-04,receivable_credit_note,Cooperative Health Management Federation — CN-6478,23.0000,23.0000,approved,1,0,2026-08-31 23:59:59,0
+182684,3,2026-08-04,receivable_credit_note,Cooperative Health Management Federation — CN-6480,205.4000,205.4000,approved,1,0,2026-08-31 23:59:59,0
+182685,3,2026-08-04,receivable_credit_note,Cooperative Health Management Federation — CN-6481,241.0000,241.0000,approved,1,0,2026-08-31 23:59:59,0
+182686,3,2026-08-04,receivable_credit_note,Cooperative Health Management Federation — CN-6482,186.0000,186.0000,approved,1,0,2026-08-31 23:59:59,0
+182687,3,2026-08-04,receivable_credit_note,Cooperative Health Management Federation — CN-6485,85.0000,85.0000,approved,1,0,2026-08-31 23:59:59,0
+182688,3,2026-08-04,receivable_credit_note,Cooperative Health Management Federation — CN-6486,47.6000,47.6000,approved,1,0,2026-08-31 23:59:59,0
+182689,3,2026-08-04,receivable_credit_note,Cooperative Health Management Federation — CN-6487,41.6000,41.6000,approved,1,0,2026-08-31 23:59:59,0
+182690,3,2026-08-04,receivable_credit_note,Cooperative Health Management Federation — CN-6499,126.6000,126.6000,approved,1,0,2026-08-31 23:59:59,0
+182691,3,2026-08-04,receivable_credit_note,Cooperative Health Management Federation — CN-6502,225.8000,225.8000,approved,1,0,2026-08-31 23:59:59,0
+182692,3,2026-08-04,receivable_credit_note,Cooperative Health Management Federation — CN-6503,6.0000,6.0000,approved,1,0,2026-08-31 23:59:59,0
+182693,3,2026-08-04,receivable_credit_note,Cooperative Health Management Federation — CN-6505,40.8000,40.8000,approved,1,0,2026-08-31 23:59:59,0
+182694,3,2026-08-04,receivable_credit_note,Cooperative Health Management Federation — CN-6506,39.8000,39.8000,approved,1,0,2026-08-31 23:59:59,0
+182695,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — CN-6462,62.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182696,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — CN-6465,108.2000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182697,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — CN-6468,11.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182698,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — CN-6469,226.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182699,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — CN-6476,143.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182700,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — CN-6477,109.4000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182701,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — CN-6478,23.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182702,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — CN-6480,205.4000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182703,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — CN-6481,241.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182704,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — CN-6482,186.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182705,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — CN-6485,85.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182706,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — CN-6486,47.6000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182707,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — CN-6487,41.6000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182708,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — CN-6499,126.6000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182709,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — CN-6502,225.8000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182710,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — CN-6503,6.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182711,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — CN-6505,40.8000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182712,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — CN-6506,39.8000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182713,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — M2528,0.0000,226.0000,approved,1,0,2026-08-31 23:59:59,0
+182714,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — M2536,0.0000,11.0000,approved,1,0,2026-08-31 23:59:59,0
+182715,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — M2592,0.0000,108.2000,approved,1,0,2026-08-31 23:59:59,0
+182716,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — M2608,0.0000,62.0000,approved,1,0,2026-08-31 23:59:59,0
+182717,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — M2636,0.0000,39.8000,approved,1,0,2026-08-31 23:59:59,0
+182718,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — M2648,0.0000,126.6000,approved,1,0,2026-08-31 23:59:59,0
+182719,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — M2662,0.0000,225.8000,approved,1,0,2026-08-31 23:59:59,0
+182720,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — M2672,0.0000,6.0000,approved,1,0,2026-08-31 23:59:59,0
+182721,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — M2687,0.0000,40.8000,approved,1,0,2026-08-31 23:59:59,0
+182722,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — M2853,0.0000,186.0000,approved,1,0,2026-08-31 23:59:59,0
+182723,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — M2857,0.0000,47.6000,approved,1,0,2026-08-31 23:59:59,0
+182724,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — M2868,0.0000,109.4000,approved,1,0,2026-08-31 23:59:59,0
+182725,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — M2878,0.0000,143.0000,approved,1,0,2026-08-31 23:59:59,0
+182726,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — M2905,0.0000,241.0000,approved,1,0,2026-08-31 23:59:59,0
+182727,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — M2916,0.0000,41.6000,approved,1,0,2026-08-31 23:59:59,0
+182728,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — M2926,288.2000,288.2000,approved,1,0,2026-08-31 23:59:59,0
+182729,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — M2940,0.0000,85.0000,approved,1,0,2026-08-31 23:59:59,0
+182730,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — M2952,0.0000,23.0000,approved,1,0,2026-08-31 23:59:59,0
+182731,3,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — M2967,0.0000,205.4000,approved,1,0,2026-08-31 23:59:59,0
+182732,3,2026-08-04,receivable_invoice,"Avega Managed Care, Inc - CAÑO, WILFREDO JR. TATOY | 08/01/2026 |Avega Managed Care, Inc| 500- — M3716",8421.0000,8421.0000,approved,1,0,2026-08-31 23:59:59,0
+182733,3,2026-08-04,receivable_invoice,"Cooperative Health Management Federation - BALO, ERACEL ARIGO | 08/01/2026 |Cooperative Health Management Federation| 300- — M3717",4860.0000,4860.0000,approved,1,0,2026-08-31 23:59:59,0
+182734,3,2026-08-04,receivable_invoice,"Etiqa Life and General Assurance Phillipines, Inc - FERRER, DEMETRIO DE LEON | 08/01/2026 |Etiqa Life and General Assurance Phillipines, Inc| 500- — M3718",500.0000,500.0000,approved,1,0,2026-08-31 23:59:59,0
+182735,3,2026-08-04,receivable_invoice,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) - SAGRADO, GODOFREDA ZAMORA | 08/01/2026 |INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS)| 3680- — M3719",9330.0000,9330.0000,approved,1,0,2026-08-31 23:59:59,0
+182736,3,2026-08-04,receivable_invoice,"Health Delivery Sytem Inc (Flexicare) - BAYARCAL, ROSE ANNE ANG | 08/01/2026 |HEALTH DELIVERY SYSTEM INC FLEXICARE| 600- — M3720",600.0000,600.0000,approved,1,0,2026-08-31 23:59:59,0
+182737,3,2026-08-04,receivable_invoice,"HEALTH MAINTENANCE INC (HMI) - LEONOR, KAYLE CK FERIL | 08/01/2026 |HEALTH MAINTENANCE INC (HMI)| 600- — M3721",600.0000,600.0000,approved,1,0,2026-08-31 23:59:59,0
+182738,3,2026-08-04,receivable_invoice,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) - LACRE, ANACIL - | 08/01/2026 |INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS)| 600- — M3722",4900.0000,4900.0000,approved,1,0,2026-08-31 23:59:59,0
+182739,3,2026-08-04,receivable_invoice,"Insular Healthcare Inc - ACOSTA, DIANNE ROBRIGADO | 08/01/2026 |Insular Healthcare Inc| 2940- — M3723",47500.0000,47500.0000,approved,1,0,2026-08-31 23:59:59,0
+182740,3,2026-08-04,receivable_invoice,"Asalus Corporation - AMISTOSO, ROSE JANE DAJUYA | 08/01/2026 |KUEHNE+NAGEL SERVICES CENTER INC.| 500- — M3724",31900.0000,31900.0000,approved,1,0,2026-08-31 23:59:59,0
+182741,3,2026-08-04,receivable_invoice,"Lacson & Lacson Insurance Brokers Inc - DALANON, KATHERINE LOPEZ | 08/01/2026 |LACSON & LACSON INSURANCE BROKERS INC| 500- — M3725",500.0000,500.0000,approved,1,0,2026-08-31 23:59:59,0
+182742,3,2026-08-04,receivable_invoice,"Life & Health Hmp Inc - ABUZO, RICO MAGSALANG | 08/01/2026 |Life & Health Hmp Inc| 920- — M3726",27970.0000,27970.0000,approved,1,0,2026-08-31 23:59:59,0
+182743,3,2026-08-04,receivable_invoice,"Lh Paragon Inc - VERALLO, VENESSA CASTRO | 08/01/2026 |LH PARAGON INC| 600- — M3727",600.0000,600.0000,approved,1,0,2026-08-31 23:59:59,0
+182744,3,2026-08-04,receivable_invoice,"Maxicare Healthcare Corporation - ALONZO, RUSSELL JANNIE AYING | 08/01/2026 |MANULIFE DATA SERVICES, INC.| 550- — M3728",46905.8000,46905.8000,approved,1,0,2026-08-31 23:59:59,0
+182745,3,2026-08-04,receivable_invoice,"Medicard Philippines Inc - BANUAG, HAZEL ALFEREZ | 08/01/2026 |Medicard Philippines Inc| 2650- — M3729",22810.0000,22810.0000,approved,1,0,2026-08-31 23:59:59,0
+182746,3,2026-08-04,receivable_invoice,"PACIFIC CROSS INSURANCE, INC. - MEDUL, JESSIE REYES | 08/01/2026 |PACIFIC CROSS INSURANCE, INC.| 600- — M3730",600.0000,600.0000,approved,1,0,2026-08-31 23:59:59,0
+182747,3,2026-08-04,receivable_invoice,"Philhealthcare, Inc - ABDON, JONALIN DAQUILOG | 08/01/2026 |Philhealthcare, Inc| 600- — M3731",22780.0000,22780.0000,approved,1,0,2026-08-31 23:59:59,0
+182748,3,2026-08-04,receivable_invoice,"Results Manila Inc. - AMAMENCE, IRENE MAE VISTO | 08/01/2026 |RESULT MANILA, INC.| 700- — M3732",7700.0000,7700.0000,approved,1,0,2026-08-31 23:59:59,0
+182749,3,2026-08-04,receivable_invoice,"Tamiya Philippines, Inc - PLANCO, DIEGO BUSANO | 08/01/2026 |TAMIYA PHILIPPINES, INC.| 800- — M3733",1600.0000,1600.0000,approved,1,0,2026-08-31 23:59:59,0
+182750,3,2026-08-05,journal_entry,to record cash sales august 4 — #73024,38301.0000,38301.0000,approved,1,0,2026-08-31 23:59:59,0
+182751,3,2026-08-05,journal_entry,"Sales Branches August 5, 2026 - Gcash Sales - August, 05 — #77991",261992.0000,261992.0000,approved,1,0,2026-08-31 23:59:59,0
+182752,3,2026-08-05,payable_invoice,VIRLEN T. MAHINAY — RFP No.# 6661,23052.1000,23052.1000,approved,1,0,2026-08-31 23:59:59,0
+182753,3,2026-08-05,payable_invoice,MIKHAELA ALESNA — RFP No.# 6674,3600.0000,3600.0000,approved,1,0,2026-08-31 23:59:59,0
+182754,3,2026-08-05,payable_invoice,KIMBERLY JOYCE MANUBAG — RFP No.# 6675,2400.0000,2400.0000,approved,1,0,2026-08-31 23:59:59,0
+182755,3,2026-08-05,payable_invoice,Jade Cloie Tul-id — RFP No.# 6676,3600.0000,3600.0000,approved,1,0,2026-08-31 23:59:59,0
+182756,3,2026-08-05,payable_invoice,Kim Marie Capilitan — RFP No.# 6677,11000.0000,11000.0000,approved,1,0,2026-08-31 23:59:59,0
+182757,3,2026-08-05,payable_invoice,GABRIEL VINCENT ZOSA — RFP No.# 6678,7600.0000,7600.0000,approved,1,0,2026-08-31 23:59:59,0
+182758,3,2026-08-05,payable_invoice,Gerardine P. Paculanang — RFP No.# 6679,3600.0000,3600.0000,approved,1,0,2026-08-31 23:59:59,0
+182759,3,2026-08-05,payable_invoice,Gerardine P. Paculanang — RFP No.# 6680,3800.0000,3800.0000,approved,1,0,2026-08-31 23:59:59,0
+182760,3,2026-08-05,payable_invoice,JESS MARVIN GO SANCIANGCO — RFP No.# 6681,3600.0000,3600.0000,approved,1,0,2026-08-31 23:59:59,0
+182761,3,2026-08-05,receivable_invoice,"Avega Managed Care, Inc - CAÑO, WILFREDO JR. TATOY | 08/03/2026 |Avega Managed Care, Inc| 950- — M3734",1950.0000,1950.0000,approved,1,0,2026-08-31 23:59:59,0
+182762,3,2026-08-05,receivable_invoice,"Cooperative Health Management Federation - EWICAN, MIGUELA RICAFORT | 08/03/2026 |Cooperative Health Management Federation| 300- — M3735",2870.0000,2870.0000,approved,1,0,2026-08-31 23:59:59,0
+182763,3,2026-08-05,receivable_invoice,"CONNECTIONS OUTSOURCING INC. - DIGNOS, JHEN CLAUDE BANDIOLA | 08/03/2026 |CONNECTIONS OUTSOURCING INC.| 950- — M3736",1900.0000,1900.0000,approved,1,0,2026-08-31 23:59:59,0
+182764,3,2026-08-05,receivable_invoice,"Etiqa Life and General Assurance Phillipines, Inc - BERAME, EDMAR HAZINA ACEBEDO | 08/03/2026 |Etiqa Life and General Assurance Phillipines, Inc| 500- — M3737",1790.0000,1790.0000,approved,1,0,2026-08-31 23:59:59,0
+182765,3,2026-08-05,receivable_invoice,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) - TORREFIEL, CLYDELANE EVE PAÑARES | 08/03/2026 |INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS)| 600- — M3738",10910.0000,10910.0000,approved,1,0,2026-08-31 23:59:59,0
+182766,3,2026-08-05,receivable_invoice,"Insular Healthcare Inc - ALCOVER, KURTHE LUARENZ . | 08/03/2026 |Insular Healthcare Inc| 500- — M3739",30870.0000,30870.0000,approved,1,0,2026-08-31 23:59:59,0
+182767,3,2026-08-05,receivable_invoice,"Asalus Corporation - MAKILAN, NOEL TIHUK | 08/03/2026 |APPLEONE MACTAN, INC.| 500- — M3740",24909.0000,24909.0000,approved,1,0,2026-08-31 23:59:59,0
+182768,3,2026-08-05,receivable_invoice,"Life & Health Hmp Inc - APACIBLE, ASHLEY REGINE FIL MATA | 08/03/2026 |Life & Health Hmp Inc| 4130- — M3741",32320.0000,32320.0000,approved,1,0,2026-08-31 23:59:59,0
+182769,3,2026-08-05,receivable_invoice,"Maxicare Healthcare Corporation - CAPADA, JOLAS BUENAVENTURA | 08/03/2026 |Maxicare Healthcare Corporation| 500- — M3742",30567.0000,30567.0000,approved,1,0,2026-08-31 23:59:59,0
+182770,3,2026-08-05,receivable_invoice,"Medicard Philippines Inc - MONCANO, JOVIE MARGAHA | 08/03/2026 |Medicard Philippines Inc| 600- — M3743",1200.0000,1200.0000,approved,1,0,2026-08-31 23:59:59,0
+182771,3,2026-08-05,receivable_invoice,"PACIFIC CROSS INSURANCE, INC. & PACIFIC CROSS HEALTH CARE, INC. - BALUNGCAS, JAMAYCA BOYOSE | 08/03/2026 |PACIFIC CROSS INSURANCE, INC. & PACIFIC CROSS HEALTH CARE, INC.| 550- — M3744",850.0000,850.0000,approved,1,0,2026-08-31 23:59:59,0
+182772,3,2026-08-05,receivable_invoice,"Philhealthcare, Inc - AYING, AILA ANDRECOSO | 08/03/2026 |Philhealthcare, Inc| 600- — M3745",25190.0000,25190.0000,approved,1,0,2026-08-31 23:59:59,0
+182773,3,2026-08-05,receivable_invoice,"Results Manila Inc. - CAMINOS, SHEILA MAE BATON | 08/03/2026 |RESULT MANILA, INC.| 700- — M3746",2800.0000,2800.0000,approved,1,0,2026-08-31 23:59:59,0
+182774,3,2026-08-05,receivable_invoice,"Tamiya Philippines, Inc - ATON, PIA JANE MONILAR | 08/03/2026 |TAMIYA PHILIPPINES, INC.| 800- — M3747",3200.0000,3200.0000,approved,1,0,2026-08-31 23:59:59,0
+182775,3,2026-08-05,receivable_payment,Payment: Life & Health Hmp Inc — M2863,2832.2000,2832.2000,approved,1,0,2026-08-31 23:59:59,0
+182776,3,2026-08-05,receivable_payment,Payment: Life & Health Hmp Inc — M2945,1489.6000,1489.6000,approved,1,0,2026-08-31 23:59:59,0
+182777,3,2026-08-05,receivable_payment,Payment: Life & Health Hmp Inc — M2960,2931.0000,2931.0000,approved,1,0,2026-08-31 23:59:59,0
+182778,3,2026-08-05,receivable_payment,Payment: Life & Health Hmp Inc — M2972,1568.0000,1568.0000,approved,1,0,2026-08-31 23:59:59,0
+182779,3,2026-08-05,receivable_payment,Payment: Life & Health Hmp Inc — M2995,911.4000,911.4000,approved,1,0,2026-08-31 23:59:59,0
+182780,3,2026-08-05,receivable_payment,Payment: Life & Health Hmp Inc — M3039,264.6000,264.6000,approved,1,0,2026-08-31 23:59:59,0
+182781,3,2026-08-05,receivable_payment,Payment: Life & Health Hmp Inc — M3097,68841.9000,68841.9000,approved,1,0,2026-08-31 23:59:59,0
+182782,3,2026-08-05,receivable_payment,Payment: Life & Health Hmp Inc — M3112,2116.8000,2116.8000,approved,1,0,2026-08-31 23:59:59,0
+182783,3,2026-08-05,receivable_payment,Payment: Life & Health Hmp Inc — M3154,23461.2000,23461.2000,approved,1,0,2026-08-31 23:59:59,0
+182784,3,2026-08-05,receivable_payment,Payment: Life & Health Hmp Inc — M3169,25195.8000,25195.8000,approved,1,0,2026-08-31 23:59:59,0
+182785,3,2026-08-05,receivable_payment,Payment: Life & Health Hmp Inc — M3175,2499.0000,2499.0000,approved,1,0,2026-08-31 23:59:59,0
+182786,3,2026-08-05,receivable_payment,Payment: Life & Health Hmp Inc — M3197,82710.2000,82710.2000,approved,1,0,2026-08-31 23:59:59,0
+182787,3,2026-08-05,receivable_payment,Payment: Life & Health Hmp Inc — M3224,4851.0000,4851.0000,approved,1,0,2026-08-31 23:59:59,0
+182788,3,2026-08-05,receivable_payment,Payment: Life & Health Hmp Inc — M3236,14663.9000,14663.9000,approved,1,0,2026-08-31 23:59:59,0
+182789,3,2026-08-05,receivable_payment,Payment: Life & Health Hmp Inc — M3246,39361.5000,39361.5000,approved,1,0,2026-08-31 23:59:59,0
+182790,3,2026-08-05,receivable_payment,Payment: Life & Health Hmp Inc — M3257,40483.8000,40483.8000,approved,1,0,2026-08-31 23:59:59,0
+182791,3,2026-08-05,receivable_payment,Payment: Life & Health Hmp Inc — M3272,50699.8000,50699.8000,approved,1,0,2026-08-31 23:59:59,0
+182792,3,2026-08-06,journal_entry,"Sales Branches August 6, 2026 - Gcash Sales - August, 06 — #77923",319625.0000,319625.0000,approved,1,0,2026-08-31 23:59:59,0
+182793,3,2026-08-06,receivable_payment,Payment: Life & Health Hmp Inc — M3008,52242.1000,52242.1000,approved,1,0,2026-08-31 23:59:59,0
+182794,3,2026-08-06,receivable_payment,Payment: Life & Health Hmp Inc — M3183,44959.7000,44959.7000,approved,1,0,2026-08-31 23:59:59,0
+182795,3,2026-08-06,receivable_payment,Payment: Life & Health Hmp Inc — M3287,77626.7000,77626.7000,approved,1,0,2026-08-31 23:59:59,0
+182796,3,2026-08-06,receivable_payment,Payment: Life & Health Hmp Inc — M3302,46411.0000,46411.0000,approved,1,0,2026-08-31 23:59:59,0
+182797,3,2026-08-06,receivable_payment,Payment: Life & Health Hmp Inc — M3317,59353.1000,59353.1000,approved,1,0,2026-08-31 23:59:59,0
+182798,3,2026-08-06,receivable_payment,Payment: Life & Health Hmp Inc — M3338,23640.6000,23640.6000,approved,1,0,2026-08-31 23:59:59,0
+182799,3,2026-08-06,receivable_payment,Payment: Life & Health Hmp Inc — M3446,784.0000,784.0000,approved,1,0,2026-08-31 23:59:59,0
+182800,3,2026-08-07,journal_entry,"to record cash sales august 5, 6 - 5 — #72994",63690.0000,63690.0000,approved,1,0,2026-08-31 23:59:59,0
+182801,3,2026-08-07,journal_entry,"Sales Branches August 7, 2026 - Gcash Sales - August, 07 — #77989",253399.0000,253399.0000,approved,1,0,2026-08-31 23:59:59,0
+182802,3,2026-08-07,payable_payment,Payment: MEDGISTIX CORPORATION — 0626-000669,50544.6400,50544.6400,approved,1,0,2026-08-31 23:59:59,0
+182803,3,2026-08-07,payable_payment,Payment: SSEGARINO AIRCONDITIONING TRADING — RFP No.# 6502,9800.0000,9800.0000,approved,1,0,2026-08-31 23:59:59,0
+182804,3,2026-08-07,payable_payment,Payment: VIRLEN T. MAHINAY — RFP No.# 6661,23052.1000,23052.1000,approved,1,0,2026-08-31 23:59:59,0
+182805,3,2026-08-07,payable_payment,Payment: MIKHAELA ALESNA — RFP No.# 6674,3600.0000,3600.0000,approved,1,0,2026-08-31 23:59:59,0
+182806,3,2026-08-07,payable_payment,Payment: KIMBERLY JOYCE MANUBAG — RFP No.# 6675,2400.0000,2400.0000,approved,1,0,2026-08-31 23:59:59,0
+182807,3,2026-08-07,payable_payment,Payment: Jade Cloie Tul-id — RFP No.# 6676,3600.0000,3600.0000,approved,1,0,2026-08-31 23:59:59,0
+182808,3,2026-08-07,payable_payment,Payment: Kim Marie Capilitan — RFP No.# 6677,11000.0000,11000.0000,approved,1,0,2026-08-31 23:59:59,0
+182809,3,2026-08-07,payable_payment,Payment: GABRIEL VINCENT ZOSA — RFP No.# 6678,7600.0000,7600.0000,approved,1,0,2026-08-31 23:59:59,0
+182810,3,2026-08-07,payable_payment,Payment: Gerardine P. Paculanang — RFP No.# 6679,3600.0000,3600.0000,approved,1,0,2026-08-31 23:59:59,0
+182811,3,2026-08-07,payable_payment,Payment: Gerardine P. Paculanang — RFP No.# 6680,3800.0000,3800.0000,approved,1,0,2026-08-31 23:59:59,0
+182812,3,2026-08-07,payable_payment,Payment: JESS MARVIN GO SANCIANGCO — RFP No.# 6681,3600.0000,3600.0000,approved,1,0,2026-08-31 23:59:59,0
+182813,3,2026-08-07,receivable_invoice,"Avega Managed Care, Inc - AUGUSTO, CRISTEL JANE PULVERA | 08/04/2026 |MACTAN GRAIN TERMINAL INC.| 500- — M3748",6100.0000,6100.0000,approved,1,0,2026-08-31 23:59:59,0
+182814,3,2026-08-07,receivable_invoice,"Cooperative Health Management Federation - VERGARA, ALDIE TRAYVILLA | 08/04/2026 |Cooperative Health Management Federation| 300- — M3749",300.0000,300.0000,approved,1,0,2026-08-31 23:59:59,0
+182815,3,2026-08-07,receivable_invoice,"Etiqa Life and General Assurance Phillipines, Inc - FERNANDEZ, MAE ISIDTO | 08/04/2026 |Etiqa Life and General Assurance Phillipines, Inc| 500- — M3750",9390.0000,9390.0000,approved,1,0,2026-08-31 23:59:59,0
+182816,3,2026-08-07,receivable_invoice,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) - CEREZA, REGINE TAMPUS | 08/04/2026 |TAMIYA PHILIPPINES, INC.| 180- — M3751",780.0000,780.0000,approved,1,0,2026-08-31 23:59:59,0
+182817,3,2026-08-07,receivable_invoice,"Insular Healthcare Inc - AGBAY, ANTHONETTE BALDEDOMAR | 08/04/2026 |CONCENTRIX DAKSH SERVICES PHILIPPINES CORPORATION| 500- — M3752",36390.0000,36390.0000,approved,1,0,2026-08-31 23:59:59,0
+182818,3,2026-08-07,receivable_invoice,"Asalus Corporation - MAKILAN, NOEL TIHUK | 08/04/2026 |APPLEONE MACTAN, INC.| 500- — M3753",26656.0000,26656.0000,approved,1,0,2026-08-31 23:59:59,0
+182819,3,2026-08-07,receivable_invoice,"Knowles Electronics Philippines - PUEBLAS, CHRISTHEL MAY MONTAÑEZ | 08/04/2026 |KNOWLES ELECTRONICS PHILIPPINES| 480- — M3754",480.0000,480.0000,approved,1,0,2026-08-31 23:59:59,0
+182820,3,2026-08-07,receivable_invoice,"Life & Health Hmp Inc - IGOT, JEA TORRES | 08/04/2026 |Life & Health Hmp Inc| 3100- — M3755",15515.0000,15515.0000,approved,1,0,2026-08-31 23:59:59,0
+182821,3,2026-08-07,receivable_invoice,"Maxicare Healthcare Corporation - HERNAEZ, GIAN CARLO AMBAGAY | 08/04/2026 |INDIANA AEROSPACE UNIVERSITY| 3320- — M3756",29427.0000,29427.0000,approved,1,0,2026-08-31 23:59:59,0
+182822,3,2026-08-07,receivable_invoice,"Medicard Philippines Inc - SICO, BEN JAYSON YAP | 08/04/2026 |Medicard Philippines Inc| 550- — M3757",1800.0000,1800.0000,approved,1,0,2026-08-31 23:59:59,0
+182823,3,2026-08-07,receivable_invoice,"Philhealthcare, Inc - ALCOS, CARMENCITA PATATAG | 08/04/2026 |SKYGO MARKETING CORPORATION| 600- — M3758",5770.0000,5770.0000,approved,1,0,2026-08-31 23:59:59,0
+182824,3,2026-08-07,receivable_invoice,"Results Manila Inc. - ANDRADE, KATRINA JECEL BEMIL | 08/04/2026 |RESULT MANILA, INC.| 700- — M3759",5600.0000,5600.0000,approved,1,0,2026-08-31 23:59:59,0
+182825,3,2026-08-07,receivable_invoice,"Tamiya Philippines, Inc - NAMOCO, LI ROD MICHAEL RODRIGUEZ | 08/04/2026 |TAMIYA PHILIPPINES, INC.| 800- — M3760",800.0000,800.0000,approved,1,0,2026-08-31 23:59:59,0
+182826,3,2026-08-07,receivable_invoice,"Tytans Leisure and Resort, Inc - AMANCIO, ELMADIN CANUMAY | 08/04/2026 |TYTANS LEISURE AND RESORTS, INC.| 153- — M3761",153.0000,153.0000,approved,1,0,2026-08-31 23:59:59,0
+182827,3,2026-08-07,receivable_invoice,"Avega Managed Care, Inc - OPONDA, ALEX CUTAS | 08/05/2026 |Avega Managed Care, Inc| 787- — M3762",787.0000,787.0000,approved,1,0,2026-08-31 23:59:59,0
+182828,3,2026-08-07,receivable_invoice,"Cooperative Health Management Federation - CAPANGPANGAN, CHERYL FLORES | 08/05/2026 |FICCO| 300- — M3763",3110.0000,3110.0000,approved,1,0,2026-08-31 23:59:59,0
+182829,3,2026-08-07,receivable_invoice,"Insular Healthcare Inc - SEMBLANTE, ALTHEA HANGAD | 08/05/2026 |MODER SOLUTIONS, INC.| 500- — M3764",86800.0000,86800.0000,approved,1,0,2026-08-31 23:59:59,0
+182830,3,2026-08-07,receivable_invoice,"Asalus Corporation - DICTADO, RESTITUTO ESCANILLA | 08/05/2026 |Asalus Corporation| 600- — M3765",12002.0000,12002.0000,approved,1,0,2026-08-31 23:59:59,0
+182831,3,2026-08-07,receivable_invoice,"Life & Health Hmp Inc - ABAD, PRINCE MARLYVIN OYAO | 08/05/2026 |Life & Health Hmp Inc| 400- — M3766",36145.0000,36145.0000,approved,1,0,2026-08-31 23:59:59,0
+182832,3,2026-08-07,receivable_invoice,"Maxicare Healthcare Corporation - OUANO, JOLINA ARRIESGADO | 08/05/2026 |1AVIATION| 250- — M3767",33063.0000,33063.0000,approved,1,0,2026-08-31 23:59:59,0
+182833,3,2026-08-07,receivable_invoice,"Medicard Philippines Inc - JINAYON, NOIME PUTONG | 08/05/2026 |Medicard Philippines Inc| 600- — M3768",4205.0000,4205.0000,approved,1,0,2026-08-31 23:59:59,0
+182834,3,2026-08-07,receivable_invoice,"Philhealthcare, Inc - ALCOS, CARMENCITA PATATAG | 08/05/2026 |Philhealthcare, Inc| 4390- — M3769",7190.0000,7190.0000,approved,1,0,2026-08-31 23:59:59,0
+182835,3,2026-08-07,receivable_invoice,"Results Manila Inc. - LOCANILAO, LUDELYN TABUAY | 08/05/2026 |RESULT MANILA, INC.| 700- — M3770",17500.0000,17500.0000,approved,1,0,2026-08-31 23:59:59,0
+182836,3,2026-08-07,receivable_invoice,"Sunlife Grepa Financial Inc - CASALLAS, JINKY ABING | 08/05/2026 |BROADWATER MARINE, INC.| 650- — M3771",650.0000,650.0000,approved,1,0,2026-08-31 23:59:59,0
+182837,3,2026-08-07,receivable_invoice,"Asalus Corporation - CLAROS, NATHAN KRISTOF SANSAN | 06/29/2026 |Asalus Corporation| 500- — M3772",500.0000,500.0000,approved,1,0,2026-08-31 23:59:59,0
+182838,3,2026-08-07,receivable_invoice,"Health Delivery Sytem Inc (Flexicare) - BAYARCAL, ROSE ANNE ANG | 07/14/2026 |HEALTH DELIVERY SYSTEM INC FLEXICARE| 600- — M3773",600.0000,600.0000,approved,1,0,2026-08-31 23:59:59,0
+182839,3,2026-08-07,receivable_payment,"Payment: INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — M3470",12544.0000,12544.0000,approved,1,0,2026-08-31 23:59:59,0
+182840,3,2026-08-07,receivable_payment,"Payment: INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — M3482",21241.5000,21241.5000,approved,1,0,2026-08-31 23:59:59,0
+182841,3,2026-08-07,receivable_payment,"Payment: INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — M3533",3204.6000,3204.6000,approved,1,0,2026-08-31 23:59:59,0
+182842,3,2026-08-07,receivable_payment,"Payment: INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — M3547",3165.4000,3165.4000,approved,1,0,2026-08-31 23:59:59,0
+182843,3,2026-08-07,receivable_payment,"Payment: INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — M3566",3038.0000,3038.0000,approved,1,0,2026-08-31 23:59:59,0
+182844,3,2026-08-08,journal_entry,"Sales Branches August 8, 2026 - Gcash Sales - August, 08 — #77993",249112.0000,249112.0000,approved,1,0,2026-08-31 23:59:59,0
+182845,3,2026-08-10,journal_entry,"to record cash sales august 7,8 - 7 — #73013",92860.0000,92860.0000,approved,1,0,2026-08-31 23:59:59,0
+182846,3,2026-08-10,journal_entry,"Sales Branches August 10, 2026 - Gcash Sales - August, 10 — #77996",306011.0000,306011.0000,approved,1,0,2026-08-31 23:59:59,0
+182847,3,2026-08-10,payable_invoice,JONATHAN SARTE — RFP No.# 6692-14,82668.6300,82668.6300,approved,1,0,2026-08-31 23:59:59,0
+182848,3,2026-08-10,payable_invoice,DUANE AGUILAR — RFP No.# 6719-1,201825.0000,201825.0000,approved,1,0,2026-08-31 23:59:59,0
+182849,3,2026-08-10,payable_invoice,CELESTE E. QUIJANO — RFP No.# 6719-10,3320.1000,3320.1000,approved,1,0,2026-08-31 23:59:59,0
+182850,3,2026-08-10,payable_invoice,LEMUELA EVA A. ABECIA — RFP No.# 6719-11,17355.1000,17355.1000,approved,1,0,2026-08-31 23:59:59,0
+182851,3,2026-08-10,payable_invoice,JENNIFER JOYCE G. TAN — RFP No.# 6719-12,16514.4000,16514.4000,approved,1,0,2026-08-31 23:59:59,0
+182852,3,2026-08-10,payable_invoice,MARIA SOCORRO PINO LAMOSTE — RFP No.# 6719-13,268194.9500,268194.9500,approved,1,0,2026-08-31 23:59:59,0
+182853,3,2026-08-10,payable_invoice,DIVINE GRACE BALITE — RFP No.# 6719-14,124993.4000,124993.4000,approved,1,0,2026-08-31 23:59:59,0
+182854,3,2026-08-10,payable_invoice,JENNIFER DEL CASTILLO — RFP No.# 6719-15,15219.0000,15219.0000,approved,1,0,2026-08-31 23:59:59,0
+182855,3,2026-08-10,payable_invoice,ADRIAN GODORNES — RFP No.# 6719-16,5574.0000,5574.0000,approved,1,0,2026-08-31 23:59:59,0
+182856,3,2026-08-10,payable_invoice,BERNADETTE S. TABON — RFP No.# 6719-17,7380.0000,7380.0000,approved,1,0,2026-08-31 23:59:59,0
+182857,3,2026-08-10,payable_invoice,ROSE MAY CAMALONGAY — RFP No.# 6719-18,88920.0000,88920.0000,approved,1,0,2026-08-31 23:59:59,0
+182858,3,2026-08-10,payable_invoice,Kathrina Aseanne Acapulco Gomez — RFP No.# 6719-19,21464.6000,21464.6000,approved,1,0,2026-08-31 23:59:59,0
+182859,3,2026-08-10,payable_invoice,LICILLE S. KILANTANG — RFP No.# 6719-2,51210.0000,51210.0000,approved,1,0,2026-08-31 23:59:59,0
+182860,3,2026-08-10,payable_invoice,FITZ PATRICK ROCHE — RFP No.# 6719-20,14223.8000,14223.8000,approved,1,0,2026-08-31 23:59:59,0
+182861,3,2026-08-10,payable_invoice,ANGELI MONTEMOR — RFP No.# 6719-3,50220.0000,50220.0000,approved,1,0,2026-08-31 23:59:59,0
+182862,3,2026-08-10,payable_invoice,MA. SOCORRO DAQUIPA — RFP No.# 6719-4,900.0000,900.0000,approved,1,0,2026-08-31 23:59:59,0
+182863,3,2026-08-10,payable_invoice,MARIA PAULINA A. DIMPAS — RFP No.# 6719-5,42705.0000,42705.0000,approved,1,0,2026-08-31 23:59:59,0
+182864,3,2026-08-10,payable_invoice,MARINI T. ESGUERRA — RFP No.# 6719-6,9810.0000,9810.0000,approved,1,0,2026-08-31 23:59:59,0
+182865,3,2026-08-10,payable_invoice,"CANUBAS, GWENYLYN NIKKA MAE — RFP No.# 6719-7",1980.0000,1980.0000,approved,1,0,2026-08-31 23:59:59,0
+182866,3,2026-08-10,payable_invoice,JENNIFER L. CAMALONGAY — RFP No.# 6719-8,41344.3500,41344.3500,approved,1,0,2026-08-31 23:59:59,0
+182867,3,2026-08-10,payable_invoice,JEANETTE BALAGA — RFP No.# 6719-9,68368.2500,68368.2500,approved,1,0,2026-08-31 23:59:59,0
+182868,3,2026-08-10,payable_payment,"Payment: NPK MEDICAL TRADING, INC. — 0826-000008",126361.6100,126361.6100,approved,1,0,2026-08-31 23:59:59,0
+182869,3,2026-08-10,receivable_credit_note,Life & Health Hmp Inc — CN-6510,181.6000,181.6000,approved,1,0,2026-08-31 23:59:59,0
+182870,3,2026-08-10,receivable_credit_note,Life & Health Hmp Inc — CN-6514,5.4000,5.4000,approved,1,0,2026-08-31 23:59:59,0
+182871,3,2026-08-10,receivable_credit_note,Life & Health Hmp Inc — CN-6515,51.0000,51.0000,approved,1,0,2026-08-31 23:59:59,0
+182872,3,2026-08-10,receivable_credit_note,Life & Health Hmp Inc — CN-6516,99.0000,99.0000,approved,1,0,2026-08-31 23:59:59,0
+182873,3,2026-08-10,receivable_credit_note,Life & Health Hmp Inc — CN-6517,57.8000,57.8000,approved,1,0,2026-08-31 23:59:59,0
+182874,3,2026-08-10,receivable_credit_note,Life & Health Hmp Inc — CN-6518,18.6000,18.6000,approved,1,0,2026-08-31 23:59:59,0
+182875,3,2026-08-10,receivable_credit_note,Life & Health Hmp Inc — CN-6519,32.0000,32.0000,approved,1,0,2026-08-31 23:59:59,0
+182876,3,2026-08-10,receivable_credit_note,Life & Health Hmp Inc — CN-6520,109.0000,109.0000,approved,1,0,2026-08-31 23:59:59,0
+182877,3,2026-08-10,receivable_credit_note,Life & Health Hmp Inc — CN-6521,30.4000,30.4000,approved,1,0,2026-08-31 23:59:59,0
+182878,3,2026-08-10,receivable_credit_note,Life & Health Hmp Inc — CN-6522,8.0000,8.0000,approved,1,0,2026-08-31 23:59:59,0
+182879,3,2026-08-10,receivable_credit_note,Life & Health Hmp Inc — CN-6527,28.0000,28.0000,approved,1,0,2026-08-31 23:59:59,0
+182880,3,2026-08-10,receivable_credit_note,Life & Health Hmp Inc — CN-6528,32.0000,32.0000,approved,1,0,2026-08-31 23:59:59,0
+182881,3,2026-08-10,receivable_credit_note,Life & Health Hmp Inc — CN-6529,137.6000,137.6000,approved,1,0,2026-08-31 23:59:59,0
+182882,3,2026-08-10,receivable_credit_note,Life & Health Hmp Inc — CN-6530,8.0000,8.0000,approved,1,0,2026-08-31 23:59:59,0
+182883,3,2026-08-10,receivable_credit_note,Life & Health Hmp Inc — CN-6531,8.0000,8.0000,approved,1,0,2026-08-31 23:59:59,0
+182884,3,2026-08-10,receivable_credit_note,Life & Health Hmp Inc — CN-6532,66.0000,66.0000,approved,1,0,2026-08-31 23:59:59,0
+182885,3,2026-08-10,receivable_credit_note,Life & Health Hmp Inc — CN-6533,77.0000,77.0000,approved,1,0,2026-08-31 23:59:59,0
+182886,3,2026-08-10,receivable_credit_note,Life & Health Hmp Inc — CN-6534,8.0000,8.0000,approved,1,0,2026-08-31 23:59:59,0
+182887,3,2026-08-10,receivable_credit_note,Life & Health Hmp Inc — CN-6569,1002.9000,1002.9000,approved,1,0,2026-08-31 23:59:59,0
+182888,3,2026-08-10,receivable_credit_note,Life & Health Hmp Inc — CN-6570,266.4000,266.4000,approved,1,0,2026-08-31 23:59:59,0
+182889,3,2026-08-10,receivable_credit_note,Life & Health Hmp Inc — CN-6571,16.0000,16.0000,approved,1,0,2026-08-31 23:59:59,0
+182890,3,2026-08-10,receivable_credit_note,Life & Health Hmp Inc — CN-6572,767.5000,767.5000,approved,1,0,2026-08-31 23:59:59,0
+182891,3,2026-08-10,receivable_credit_note,Life & Health Hmp Inc — CN-6573,1342.5000,1342.5000,approved,1,0,2026-08-31 23:59:59,0
+182892,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6510,181.6000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182893,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6514,5.4000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182894,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6515,51.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182895,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6516,99.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182896,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6517,57.8000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182897,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6518,18.6000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182898,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6519,32.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182899,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6520,109.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182900,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6521,30.4000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182901,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6522,8.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182902,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6527,28.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182903,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6528,32.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182904,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6529,137.6000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182905,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6530,8.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182906,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6531,8.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182907,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6532,66.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182908,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6533,77.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182909,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6534,8.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182910,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6569,1002.9000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182911,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6570,266.4000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182912,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6571,16.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182913,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6572,767.5000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182914,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6573,1342.5000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182915,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — M2863,0.0000,57.8000,approved,1,0,2026-08-31 23:59:59,0
+182916,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — M2945,0.0000,30.4000,approved,1,0,2026-08-31 23:59:59,0
+182917,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — M2960,0.0000,109.0000,approved,1,0,2026-08-31 23:59:59,0
+182918,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — M2972,0.0000,32.0000,approved,1,0,2026-08-31 23:59:59,0
+182919,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — M2995,0.0000,18.6000,approved,1,0,2026-08-31 23:59:59,0
+182920,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — M3097,0.0000,1313.1000,approved,1,0,2026-08-31 23:59:59,0
+182921,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — M3112,0.0000,43.2000,approved,1,0,2026-08-31 23:59:59,0
+182922,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — M3154,0.0000,478.8000,approved,1,0,2026-08-31 23:59:59,0
+182923,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — M3169,0.0000,514.2000,approved,1,0,2026-08-31 23:59:59,0
+182924,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — M3175,0.0000,51.0000,approved,1,0,2026-08-31 23:59:59,0
+182925,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — M3183,0.0000,767.5000,approved,1,0,2026-08-31 23:59:59,0
+182926,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — M3197,0.0000,1679.8000,approved,1,0,2026-08-31 23:59:59,0
+182927,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — M3236,0.0000,291.1000,approved,1,0,2026-08-31 23:59:59,0
+182928,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — M3246,0.0000,773.5000,approved,1,0,2026-08-31 23:59:59,0
+182929,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — M3257,0.0000,826.2000,approved,1,0,2026-08-31 23:59:59,0
+182930,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — M3272,0.0000,1010.2000,approved,1,0,2026-08-31 23:59:59,0
+182931,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — M3287,0.0000,1398.3000,approved,1,0,2026-08-31 23:59:59,0
+182932,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — M3317,0.0000,1151.9000,approved,1,0,2026-08-31 23:59:59,0
+182933,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — M3338,0.0000,266.4000,approved,1,0,2026-08-31 23:59:59,0
+182934,3,2026-08-10,receivable_credit_note_allocation,Life & Health Hmp Inc — M3446,0.0000,16.0000,approved,1,0,2026-08-31 23:59:59,0
+182935,3,2026-08-10,receivable_invoice,"Avega Managed Care, Inc - ORTEGA, CLYDE RONQUILLO | 07/29/2026 |CLINICA PRIME CEBU, INC.| 910- — M3774",910.0000,910.0000,approved,1,0,2026-08-31 23:59:59,0
+182936,3,2026-08-10,receivable_invoice,"Maxicare Healthcare Corporation - VILLACORTE, RENANTE LIAGONO | 07/27/2026 |Life & Health Hmp Inc| 600- — M3775",1100.0000,1100.0000,approved,1,0,2026-08-31 23:59:59,0
+182937,3,2026-08-10,receivable_invoice,"Asalus Corporation - MAKILAN, NOEL TIHUK | 08/03/2026 |APPLEONE MACTAN, INC.| 187- — M3776",187.0000,187.0000,approved,1,0,2026-08-31 23:59:59,0
+182938,3,2026-08-10,receivable_invoice,"Avega Managed Care, Inc - MAGSAYO, LETLYN LACANDULA | 08/06/2026 |Avega Managed Care, Inc| 500- — M3777",4600.0000,4600.0000,approved,1,0,2026-08-31 23:59:59,0
+182939,3,2026-08-10,receivable_invoice,"Cooperative Health Management Federation - CAPANGPANGAN, CHERYL FLORES | 08/06/2026 |FICCO| 6310- — M3778",7360.0000,7360.0000,approved,1,0,2026-08-31 23:59:59,0
+182940,3,2026-08-10,receivable_invoice,"Etiqa Life and General Assurance Phillipines, Inc - CONSARBA, LENELYN MORALLAS | 08/06/2026 |Etiqa Life and General Assurance Phillipines, Inc| 500- — M3779",3930.0000,3930.0000,approved,1,0,2026-08-31 23:59:59,0
+182941,3,2026-08-10,receivable_invoice,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) - ANDO, MATT ASHER AMORIN | 08/06/2026 |INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS)| 600- — M3780",8350.0000,8350.0000,approved,1,0,2026-08-31 23:59:59,0
+182942,3,2026-08-10,receivable_invoice,"Insular Healthcare Inc - CAMPO, DAPHNE MARANGA | 08/06/2026 |CONCENTRIX DAKSH SERVICES PHILIPPINES CORPORATION| 500- — M3781",29460.0000,29460.0000,approved,1,0,2026-08-31 23:59:59,0
+182943,3,2026-08-10,receivable_invoice,"Asalus Corporation - LOZANO, ANN JEAZELL AMOIN | 08/06/2026 |RESULT MANILA, INC.| 600- — M3782",42405.0000,42405.0000,approved,1,0,2026-08-31 23:59:59,0
+182944,3,2026-08-10,receivable_invoice,"Life & Health Hmp Inc - CANE, CLIVE ESPINA | 08/06/2026 |Life & Health Hmp Inc| 2800- — M3783",31700.0000,31700.0000,approved,1,0,2026-08-31 23:59:59,0
+182945,3,2026-08-10,receivable_invoice,"Maxicare Healthcare Corporation - BOILES, MITCHELLE ARELLANO | 08/06/2026 |MANULIFE DATA SERVICES, INC.| 600- — M3784",27165.0000,27165.0000,approved,1,0,2026-08-31 23:59:59,0
+182946,3,2026-08-10,receivable_invoice,"Philhealthcare, Inc - ORCANA, MARA DALALO | 08/06/2026 |Philhealthcare, Inc| 550- — M3785",10800.0000,10800.0000,approved,1,0,2026-08-31 23:59:59,0
+182947,3,2026-08-10,receivable_invoice,"Results Manila Inc. - ACIDO, JOSEVELLE - | 08/06/2026 |RESULT MANILA, INC.| 700- — M3786",14000.0000,14000.0000,approved,1,0,2026-08-31 23:59:59,0
+182948,3,2026-08-10,receivable_invoice,"Sunlife Grepa Financial Inc - BONILLA, PHILIP AYING | 08/06/2026 |BROADWATER MARINE, INC.| 550- — M3787",550.0000,550.0000,approved,1,0,2026-08-31 23:59:59,0
+182949,3,2026-08-10,receivable_invoice,"Tamiya Philippines, Inc - EDOLOVERIO, RYAN BAUTISTA | 08/06/2026 |TAMIYA PHILIPPINES, INC.| 800- — M3788",1600.0000,1600.0000,approved,1,0,2026-08-31 23:59:59,0
+182950,3,2026-08-10,receivable_invoice,"Avega Managed Care, Inc - ARDIENTE, MEZLLY PEDOCHE | 08/07/2026 |Avega Managed Care, Inc| 500- — M3789",3100.0000,3100.0000,approved,1,0,2026-08-31 23:59:59,0
+182951,3,2026-08-10,receivable_invoice,"United Coconut Planters Life Assurance Corporation - ROBLES, KIMBERLY PITOGO | 08/07/2026 |United Coconut Planters Life Assurance Corporation| 400- — M3790",400.0000,400.0000,approved,1,0,2026-08-31 23:59:59,0
+182952,3,2026-08-10,receivable_invoice,"Cooperative Health Management Federation - ABELLANA, NIMPHA VALLE | 08/07/2026 |Cooperative Health Management Federation| 300- — M3791",8740.0000,8740.0000,approved,1,0,2026-08-31 23:59:59,0
+182953,3,2026-08-10,receivable_invoice,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) - POTOT, KATHERINE MIANO | 08/07/2026 |INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS)| 2100- — M3792",2600.0000,2600.0000,approved,1,0,2026-08-31 23:59:59,0
+182954,3,2026-08-10,receivable_invoice,"Insular Healthcare Inc - ALEJANDRO, BLANDINA PILA | 08/07/2026 |CONCENTRIX DAKSH SERVICES PHILIPPINES CORPORATION| 500- — M3793",31945.0000,31945.0000,approved,1,0,2026-08-31 23:59:59,0
+182955,3,2026-08-10,receivable_invoice,"Asalus Corporation - GUATNO, CRISNIE BONTUYAN | 08/07/2026 |TERADYNE PHILIPPINES LIMITED| 500- — M3794",14944.0000,14944.0000,approved,1,0,2026-08-31 23:59:59,0
+182956,3,2026-08-10,receivable_invoice,"Knowles Electronics Philippines - ADLAWAN, JAYSON BACUSA | 08/07/2026 |KNOWLES ELECTRONICS PHILIPPINES| 480- — M3795",480.0000,480.0000,approved,1,0,2026-08-31 23:59:59,0
+182957,3,2026-08-10,receivable_invoice,"Life & Health Hmp Inc - ABONALES, JENEVA BAGAYO | 08/07/2026 |Life & Health Hmp Inc| 2020- — M3796",53075.0000,53075.0000,approved,1,0,2026-08-31 23:59:59,0
+182958,3,2026-08-10,receivable_invoice,"Maxicare Healthcare Corporation - BADOLIS, LIZA ANN MALAAY | 08/07/2026 |Maxicare Healthcare Corporation| 500- — M3797",25540.0000,25540.0000,approved,1,0,2026-08-31 23:59:59,0
+182959,3,2026-08-10,receivable_invoice,"Medicard Philippines Inc - ROLDAN, RENEE CHRISTINE PARAGAS | 08/07/2026 |Medicard Philippines Inc| 10000- — M3798",10000.0000,10000.0000,approved,1,0,2026-08-31 23:59:59,0
+182960,3,2026-08-10,receivable_invoice,"Philhealthcare, Inc - BON, ALDRIN CALMADA | 08/07/2026 |Philhealthcare, Inc| 600- — M3799",2410.0000,2410.0000,approved,1,0,2026-08-31 23:59:59,0
+182961,3,2026-08-10,receivable_invoice,"Results Manila Inc. - BASE, CARYL SUERTE | 08/07/2026 |RESULT MANILA, INC.| 700- — M3800",2800.0000,2800.0000,approved,1,0,2026-08-31 23:59:59,0
+182962,3,2026-08-11,journal_entry,Reversal of: To accrue Doctors PF Mactan for the period 2026 JULY — #72984,1688378.8100,1688378.8100,approved,1,0,2026-08-31 23:59:59,0
+182963,3,2026-08-11,journal_entry,Reversal of: to accrue relievers clinic for JULY 2026 — #72988,0.0000,32200.0000,approved,1,0,2026-08-31 23:59:59,0
+182964,3,2026-08-11,journal_entry,to record cash sales august 10 — #73583,61048.0000,61048.0000,approved,1,0,2026-08-31 23:59:59,0
+182965,3,2026-08-11,journal_entry,"Sales Branches August 11, 2026 - Gcash Sales - August, 11 — #73941",252845.0000,252845.0000,approved,1,0,2026-08-31 23:59:59,0
+182966,3,2026-08-11,payable_invoice,John Neslie M. Habajab — RFP No.# 6719-21,28131.7000,28131.7000,approved,1,0,2026-08-31 23:59:59,0
+182967,3,2026-08-11,payable_invoice,PIERRE OUANO — RFP No.# 6719-22,143943.7000,143943.7000,approved,1,0,2026-08-31 23:59:59,0
+182968,3,2026-08-11,payable_invoice,SEAN SINDO — RFP No.# 6719-23,7387.4000,7387.4000,approved,1,0,2026-08-31 23:59:59,0
+182969,3,2026-08-11,payable_invoice,HAROLD JAMES ESTRADA — RFP No.# 6719-24,54882.0500,54882.0500,approved,1,0,2026-08-31 23:59:59,0
+182970,3,2026-08-11,payable_invoice,JONATHAN SARTE — RFP No.# 6719-25,42229.9000,42229.9000,approved,1,0,2026-08-31 23:59:59,0
+182971,3,2026-08-11,payable_invoice,LLOYD VINCENT M. BASS — RFP No.# 6719-26,63332.1000,63332.1000,approved,1,0,2026-08-31 23:59:59,0
+182972,3,2026-08-11,payable_invoice,CATHLEEN BUSTRILLOS IWAY — RFP No.# 6719-27,64890.0000,64890.0000,approved,1,0,2026-08-31 23:59:59,0
+182973,3,2026-08-11,payable_invoice,JAN LOUIE GATILLO — RFP No.# 6719-28,116172.0000,116172.0000,approved,1,0,2026-08-31 23:59:59,0
+182974,3,2026-08-11,payable_invoice,HARVEY ANGA-ANGAN — RFP No.# 6719-29,30600.0000,30600.0000,approved,1,0,2026-08-31 23:59:59,0
+182975,3,2026-08-11,payable_invoice,CYRIL VILLANUEVA — RFP No.# 6719-30,19053.0000,19053.0000,approved,1,0,2026-08-31 23:59:59,0
+182976,3,2026-08-11,payable_invoice,Ma. Claudine Gresa L Dela Peña — RFP No.# 6719-31,58464.0000,58464.0000,approved,1,0,2026-08-31 23:59:59,0
+182977,3,2026-08-11,payable_invoice,CINDY S. SOLIS — RFP No.# 6719-32,5265.0000,5265.0000,approved,1,0,2026-08-31 23:59:59,0
+182978,3,2026-08-11,payable_invoice,ANDRE LUIS E. NATAVIO — RFP No.# 6719-33,2400.0000,2400.0000,approved,1,0,2026-08-31 23:59:59,0
+182979,3,2026-08-11,payable_invoice,SCHERCHELL L. UBOD — RFP No.# 6719-34,284.2000,284.2000,approved,1,0,2026-08-31 23:59:59,0
+182980,3,2026-08-11,payable_invoice,SEAN SINDO — RFP No.# 6720-32,180.0000,180.0000,approved,1,0,2026-08-31 23:59:59,0
+182981,3,2026-08-11,payable_invoice,MARIA KRIZEL MONDARTE — RFP No.# 6730,1600.0000,1600.0000,approved,1,0,2026-08-31 23:59:59,0
+182982,3,2026-08-11,payable_invoice,Gerardine P. Paculanang — RFP No.# 6731,3600.0000,3600.0000,approved,1,0,2026-08-31 23:59:59,0
+182983,3,2026-08-11,payable_invoice,MIKHAELA ALESNA — RFP No.# 6732,7200.0000,7200.0000,approved,1,0,2026-08-31 23:59:59,0
+182984,3,2026-08-11,payable_invoice,Jade Cloie Tul-id — RFP No.# 6733,2800.0000,2800.0000,approved,1,0,2026-08-31 23:59:59,0
+182985,3,2026-08-11,payable_invoice,Kim Marie Capilitan — RFP No.# 6734,11600.0000,11600.0000,approved,1,0,2026-08-31 23:59:59,0
+182986,3,2026-08-11,receivable_credit_note,Cooperative Health Management Federation — CN-6581,69.4000,69.4000,approved,1,0,2026-08-31 23:59:59,0
+182987,3,2026-08-11,receivable_credit_note,Cooperative Health Management Federation — CN-6582,162.2000,162.2000,approved,1,0,2026-08-31 23:59:59,0
+182988,3,2026-08-11,receivable_credit_note,Cooperative Health Management Federation — CN-6586,6.0000,6.0000,approved,1,0,2026-08-31 23:59:59,0
+182989,3,2026-08-11,receivable_credit_note,Cooperative Health Management Federation — CN-6587,377.2000,377.2000,approved,1,0,2026-08-31 23:59:59,0
+182990,3,2026-08-11,receivable_credit_note,Cooperative Health Management Federation — CN-6590,41.0000,41.0000,approved,1,0,2026-08-31 23:59:59,0
+182991,3,2026-08-11,receivable_credit_note,Cooperative Health Management Federation — CN-6593,75.6000,75.6000,approved,1,0,2026-08-31 23:59:59,0
+182992,3,2026-08-11,receivable_credit_note_allocation,Cooperative Health Management Federation — CN-6581,69.4000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182993,3,2026-08-11,receivable_credit_note_allocation,Cooperative Health Management Federation — CN-6582,162.2000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182994,3,2026-08-11,receivable_credit_note_allocation,Cooperative Health Management Federation — CN-6586,6.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182995,3,2026-08-11,receivable_credit_note_allocation,Cooperative Health Management Federation — CN-6587,377.2000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182996,3,2026-08-11,receivable_credit_note_allocation,Cooperative Health Management Federation — CN-6590,41.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182997,3,2026-08-11,receivable_credit_note_allocation,Cooperative Health Management Federation — CN-6593,75.6000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+182998,3,2026-08-11,receivable_credit_note_allocation,Cooperative Health Management Federation — M0740,0.0000,75.6000,approved,1,0,2026-08-31 23:59:59,0
+182999,3,2026-08-11,receivable_credit_note_allocation,Cooperative Health Management Federation — M1424,0.0000,41.0000,approved,1,0,2026-08-31 23:59:59,0
+183000,3,2026-08-11,receivable_credit_note_allocation,Cooperative Health Management Federation — M1447,0.0000,377.2000,approved,1,0,2026-08-31 23:59:59,0
+183001,3,2026-08-11,receivable_credit_note_allocation,Cooperative Health Management Federation — M1464,0.0000,6.0000,approved,1,0,2026-08-31 23:59:59,0
+183002,3,2026-08-11,receivable_credit_note_allocation,Cooperative Health Management Federation — M1492,0.0000,162.2000,approved,1,0,2026-08-31 23:59:59,0
+183003,3,2026-08-11,receivable_credit_note_allocation,Cooperative Health Management Federation — M1497,0.0000,69.4000,approved,1,0,2026-08-31 23:59:59,0
+183004,3,2026-08-11,receivable_invoice,"Avega Managed Care, Inc - DIONIO, AXL BRYLE ALIÑABO | 08/08/2026 |Avega Managed Care, Inc| 500- — M3801",9817.0000,9817.0000,approved,1,0,2026-08-31 23:59:59,0
+183005,3,2026-08-11,receivable_invoice,"CONNECTIONS OUTSOURCING INC. - FELISARIO, YZCIEL MAE - | 08/08/2026 |CONNECTIONS OUTSOURCING INC.| 950- — M3802",950.0000,950.0000,approved,1,0,2026-08-31 23:59:59,0
+183006,3,2026-08-11,receivable_invoice,"Cooperative Health Management Federation - HIDALGO, MARIA THERESA FUENTES | 08/08/2026 |Cooperative Health Management Federation| 300- — M3803",300.0000,300.0000,approved,1,0,2026-08-31 23:59:59,0
+183007,3,2026-08-11,receivable_invoice,"Etiqa Life and General Assurance Phillipines, Inc - BONGHANOY, HANNAH GRACE DAMPIL | 08/08/2026 |Etiqa Life and General Assurance Phillipines, Inc| 180- — M3804",3330.0000,3330.0000,approved,1,0,2026-08-31 23:59:59,0
+183008,3,2026-08-11,receivable_invoice,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) - HAGUPIT, ANALYN MANSUETO | 08/08/2026 |INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS)| 600- — M3805",4700.0000,4700.0000,approved,1,0,2026-08-31 23:59:59,0
+183009,3,2026-08-11,receivable_invoice,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) - AYENSA, ANNALINDA BAYKER | 08/08/2026 |ASO PHILIPPINES| 860- — M3806",5510.0000,5510.0000,approved,1,0,2026-08-31 23:59:59,0
+183010,3,2026-08-11,receivable_invoice,"Insular Healthcare Inc - CENITA, MARY ROSE HISOLER | 08/08/2026 |CONCENTRIX DAKSH SERVICES PHILIPPINES CORPORATION| 500- — M3807",38890.0000,38890.0000,approved,1,0,2026-08-31 23:59:59,0
+183011,3,2026-08-11,receivable_invoice,"Asalus Corporation - PARADERO, JHONCRIS YBAÑEZ | 08/08/2026 |Asalus Corporation| 500- — M3808",18069.0000,18069.0000,approved,1,0,2026-08-31 23:59:59,0
+183012,3,2026-08-11,receivable_invoice,"Life & Health Hmp Inc - LIPETIN, NELLE KIEFFER CABIGAS | 08/08/2026 |Life & Health Hmp Inc| 400- — M3809",39790.0000,39790.0000,approved,1,0,2026-08-31 23:59:59,0
+183013,3,2026-08-11,receivable_invoice,"Maxicare Healthcare Corporation - DAHUNAN, KLINT BRIAN RAYOSO | 08/08/2026 |Maxicare Healthcare Corporation| 600- — M3810",21419.0000,21419.0000,approved,1,0,2026-08-31 23:59:59,0
+183014,3,2026-08-11,receivable_invoice,"Philhealthcare, Inc - CALIBO, JUSTINE EPONG | 08/08/2026 |Philhealthcare, Inc| 5650- — M3811",20225.0000,20225.0000,approved,1,0,2026-08-31 23:59:59,0
+183015,3,2026-08-11,receivable_invoice,"Results Manila Inc. - EGOT, CATHRINE MAE LINGCOPINES | 08/08/2026 |RESULT MANILA, INC.| 700- — M3812",700.0000,700.0000,approved,1,0,2026-08-31 23:59:59,0
+183016,3,2026-08-11,receivable_invoice,"Sunlife Grepa Financial Inc - ISOGON, OLIVA JARNAIZ | 08/08/2026 |Sunlife Grepa Financial Inc| 2750- — M3813",2750.0000,2750.0000,approved,1,0,2026-08-31 23:59:59,0
+183017,3,2026-08-11,receivable_invoice,"Tamiya Philippines, Inc - CUIZON, WESLY MADRIGAL | 08/08/2026 |TAMIYA PHILIPPINES, INC.| 800- — M3814",800.0000,800.0000,approved,1,0,2026-08-31 23:59:59,0
+183018,3,2026-08-11,receivable_invoice,"Avega Managed Care, Inc - GARA, JAYSON GEFES | 08/10/2026 |Avega Managed Care, Inc| 600- — M3815",3430.0000,3430.0000,approved,1,0,2026-08-31 23:59:59,0
+183019,3,2026-08-11,receivable_invoice,"Cooperative Health Management Federation - FLORES JR, JUANITO AMAM | 08/10/2026 |FICCO| 300- — M3816",1400.0000,1400.0000,approved,1,0,2026-08-31 23:59:59,0
+183020,3,2026-08-11,receivable_invoice,"Etiqa Life and General Assurance Phillipines, Inc - MALINGIN, RIZAH PAQUIBOT | 08/10/2026 |Etiqa Life and General Assurance Phillipines, Inc| 500- — M3817",8880.0000,8880.0000,approved,1,0,2026-08-31 23:59:59,0
+183021,3,2026-08-11,receivable_invoice,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) - LINGO, NOMAR CUTAMORA | 08/10/2026 |INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS)| 600- — M3818",600.0000,600.0000,approved,1,0,2026-08-31 23:59:59,0
+183022,3,2026-08-11,receivable_invoice,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) - AUDITOR, NAMY MACAPOBRE | 08/10/2026 |TAMIYA PHILIPPINES, INC.| 180- — M3819",8540.0000,8540.0000,approved,1,0,2026-08-31 23:59:59,0
+183023,3,2026-08-11,receivable_invoice,"Insular Healthcare Inc - DELOS REYES, VANESSA GUJAR | 08/10/2026 |SHEARWATER HEALTH ADVISORS, INC.| 2550- — M3820",49810.0000,49810.0000,approved,1,0,2026-08-31 23:59:59,0
+183024,3,2026-08-11,receivable_invoice,"Asalus Corporation - SEROT, MYRNA PEPITO | 08/10/2026 |Asalus Corporation| 4902- — M3821",14152.0000,14152.0000,approved,1,0,2026-08-31 23:59:59,0
+183025,3,2026-08-11,receivable_invoice,"Knowles Electronics Philippines - SEGARINO, BRESILDA PEPITO | 08/10/2026 |KNOWLES ELECTRONICS PHILIPPINES| 480- — M3822",480.0000,480.0000,approved,1,0,2026-08-31 23:59:59,0
+183026,3,2026-08-11,receivable_invoice,"Life & Health Hmp Inc - CAPALAC, RESALIE BATUCAN | 08/10/2026 |Life & Health Hmp Inc| 2650- — M3823",40580.0000,40580.0000,approved,1,0,2026-08-31 23:59:59,0
+183027,3,2026-08-11,receivable_invoice,"Maxicare Healthcare Corporation - SECIBAN, RHEAN MARIA IMBONG | 08/10/2026 |Maxicare Healthcare Corporation| 1284- — M3824",30229.0000,30229.0000,approved,1,0,2026-08-31 23:59:59,0
+183028,3,2026-08-11,receivable_invoice,"Medicard Philippines Inc - BUHAWE, LORNA RELLETA | 08/10/2026 |Medicard Philippines Inc| 600- — M3825",3050.0000,3050.0000,approved,1,0,2026-08-31 23:59:59,0
+183029,3,2026-08-11,receivable_invoice,"Philhealthcare, Inc - AYING, GENALYN NESNIA | 08/10/2026 |Philhealthcare, Inc| 600- — M3826",21460.0000,21460.0000,approved,1,0,2026-08-31 23:59:59,0
+183030,3,2026-08-11,receivable_invoice,"Results Manila Inc. - BAYLOSIS, JOVANNE FAJARDO | 08/10/2026 |RESULT MANILA, INC.| 700- — M3827",8400.0000,8400.0000,approved,1,0,2026-08-31 23:59:59,0
+183031,3,2026-08-11,receivable_invoice,"Sunlife Grepa Financial Inc - ISOGON, OLIVA JARNAIZ | 08/10/2026 |Sunlife Grepa Financial Inc| 400- — M3828",400.0000,400.0000,approved,1,0,2026-08-31 23:59:59,0
+183032,3,2026-08-11,receivable_invoice,"Tamiya Philippines, Inc - CAMANZO, ARIEL GARUPEL | 08/10/2026 |TAMIYA PHILIPPINES, INC.| 800- — M3829",800.0000,800.0000,approved,1,0,2026-08-31 23:59:59,0
+183033,3,2026-08-11,receivable_payment,Payment: Cooperative Health Management Federation — 5-6-25,3704.4000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+183034,3,2026-08-11,receivable_payment,Payment: Cooperative Health Management Federation — M0740,0.0000,3704.4000,approved,1,0,2026-08-31 23:59:59,0
+183035,3,2026-08-11,receivable_payment,Payment: Cooperative Health Management Federation — M1424,0.0000,2009.0000,approved,1,0,2026-08-31 23:59:59,0
+183036,3,2026-08-11,receivable_payment,Payment: Cooperative Health Management Federation — M1447,0.0000,18482.8000,approved,1,0,2026-08-31 23:59:59,0
+183037,3,2026-08-11,receivable_payment,Payment: Cooperative Health Management Federation — M1464,0.0000,294.0000,approved,1,0,2026-08-31 23:59:59,0
+183038,3,2026-08-11,receivable_payment,Payment: Cooperative Health Management Federation — M1492,0.0000,7947.8000,approved,1,0,2026-08-31 23:59:59,0
+183039,3,2026-08-11,receivable_payment,Payment: Cooperative Health Management Federation — M1497,0.0000,3400.6000,approved,1,0,2026-08-31 23:59:59,0

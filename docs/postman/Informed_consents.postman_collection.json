@@ -1,0 +1,383 @@
+{
+  "info": {
+    "_postman_id": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+    "name": "Informed Consents CRUD",
+    "description": "# Informed Consents API\n\nFull CRUD for the `informed_consent` table with multipart **signature** file upload on create/update.\n\n## Auth\n- Header: `API-KEY` (required)\n- Body/query: `token`, `requester` (required on all endpoints)\n\n## Signature file (VM4)\n- Field name: `signature`\n- Type: file (form-data)\n- Allowed: PNG, JPEG, JPG, PDF\n- Max size: 5 MB\n- Uploaded via `upload_to_vm4()` to path `assets/informed_consents/{id}/`\n- DB `signature` column stores the **full VM4 URL** (e.g. `https://file.myt-emr.com/assets/informed_consents/1/....png`)\n- GET returns the same value as both `signature` and `signature_url`\n\n## Multi-branch sync\nCreate, update, and delete propagate to all branch databases:\n- `master` (0), `mobile` (1), `oakridge` (2), `mactan` (3), `consolacion` (4), `mantlewood` (7)\n\n- Returned `informed_consent_id` is the **master** insert ID\n- Signature VM4 URL is synced to all branch DB rows with that ID\n- **GET** reads from **master only**\n- Create/update run a consistency check; mismatch returns `400`:\n  `\"Data inconsistency detected between master and {branch}.\"`\n",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost/cpci-business-ops-api"
+    },
+    {
+      "key": "api_key",
+      "value": "clinicaRiKOYqlwdTJ-lNedqS0k-it!395!-6ls1JXM7Vcc"
+    },
+    {
+      "key": "token",
+      "value": "{{token}}"
+    },
+    {
+      "key": "requester",
+      "value": "1"
+    }
+  ],
+  "item": [
+    {
+      "name": "Get informed consents",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/informed_consents/get?token={{token}}&requester={{requester}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "informed_consents",
+            "get"
+          ],
+          "query": [
+            {
+              "key": "token",
+              "value": "{{token}}"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}"
+            },
+            {
+              "key": "informed_consent_id",
+              "value": "",
+              "disabled": true
+            },
+            {
+              "key": "term",
+              "value": "",
+              "disabled": true
+            },
+            {
+              "key": "page",
+              "value": "1",
+              "disabled": true
+            },
+            {
+              "key": "data_size",
+              "value": "10",
+              "disabled": true
+            }
+          ]
+        },
+        "description": "## GET `/informed_consents/get`\n\nReturns informed consent records with optional filters.\n\n### Query params\n| Param | Required | Notes |\n|-------|----------|-------|\n| `token` | yes | Auth token |\n| `requester` | yes | User id |\n| `informed_consent_id` | no | Filter by id |\n| `term` | no | Search first/middle/last name |\n| `page` | no | 1-based page |\n| `data_size` | no | Page size |\n\n### Success response\n```json\n{\n  \"size\": 1,\n  \"data\": [\n    {\n      \"id\": 1,\n      \"first_name\": \"Juan\",\n      \"last_name\": \"Dela Cruz\",\n      \"signature\": \"abc123.png\",\n      \"signature_url\": \"http://localhost/.../assets/informed_consents/1/abc123.png\"\n    }\n  ]\n}\n```\n\n### Multi-branch\nReads from **master database only**.\n\n### Signature URL\n`signature` and `signature_url` are the full VM4 URL (not a local path)."
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"size\": 1,\n  \"data\": [\n    {\n      \"id\": 1,\n      \"first_name\": \"Juan\",\n      \"last_name\": \"Dela Cruz\",\n      \"middle_name\": \"Santos\",\n      \"date_of_birth\": \"1990-05-15\",\n      \"is_pregnant\": 0,\n      \"signature\": \"https://file.myt-emr.com/assets/informed_consents/1/67890abc_1234567890.png\",\n      \"signature_url\": \"https://file.myt-emr.com/assets/informed_consents/1/67890abc_1234567890.png\"\n    }\n  ]\n}"
+        },
+        {
+          "name": "Not Found",
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"error_messages\": [\"No informed consents found.\"]\n}"
+        }
+      ]
+    },
+    {
+      "name": "Create informed consent (with signature file)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "token",
+              "value": "{{token}}",
+              "type": "text"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}",
+              "type": "text"
+            },
+            {
+              "key": "first_name",
+              "value": "Juan",
+              "type": "text"
+            },
+            {
+              "key": "last_name",
+              "value": "Dela Cruz",
+              "type": "text"
+            },
+            {
+              "key": "middle_name",
+              "value": "Santos",
+              "type": "text"
+            },
+            {
+              "key": "date_of_birth",
+              "value": "1990-05-15",
+              "type": "text"
+            },
+            {
+              "key": "is_pregnant",
+              "value": "0",
+              "type": "text"
+            },
+            {
+              "key": "signature",
+              "description": "Patient signature image (png/jpeg/jpg/pdf)",
+              "type": "file",
+              "src": "signature.png"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/informed_consents/create",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "informed_consents",
+            "create"
+          ]
+        },
+        "description": "## POST `/informed_consents/create`\n\nCreates an informed consent record. Use **form-data** (not raw JSON) so the signature can be sent as a file.\n\n### Required form fields\n| Field | Type | Notes |\n|-------|------|-------|\n| `token` | text | Auth token |\n| `requester` | text | User id |\n| `first_name` | text | NOT NULL in DB |\n| `last_name` | text | NOT NULL in DB |\n\n### Optional form fields\n| Field | Type | Notes |\n|-------|------|-------|\n| `middle_name` | text | |\n| `date_of_birth` | text | YYYY-MM-DD |\n| `is_pregnant` | text | 0 or 1 |\n| `signature` | **file** | PNG/JPEG/JPG/PDF, max 5 MB |\n\n### Signature file setup in Postman\n1. Set body type to **form-data**\n2. Add key `signature`, change type from Text to **File**\n3. Click **Select Files** and choose `signature.png` (or your signature image)\n\n### Success response\n```json\n{\n  \"informed_consent_id\": 1,\n  \"message\": \"informed consent added successfully.\"\n}\n```\n\n### Multi-branch\nInserts the same row into master plus mobile, oakridge, mactan, consolacion, and mantlewood. Signature filename is synced to all branch DBs after upload.\n\n### Signature (VM4)\nFile is uploaded to VM4 via `upload_to_vm4()`. The full VM4 URL is stored in `signature` on all branch databases."
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"informed_consent_id\": 1,\n  \"message\": \"informed consent added successfully.\"\n}"
+        },
+        {
+          "name": "Upload Failed",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"error_messages\": [\"Failed to upload signature. Make sure you have the correct file type, and file does not exceed 5 megabytes.\"]\n}"
+        }
+      ]
+    },
+    {
+      "name": "Update informed consent (with signature file)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "token",
+              "value": "{{token}}",
+              "type": "text"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}",
+              "type": "text"
+            },
+            {
+              "key": "informed_consent_id",
+              "value": "1",
+              "type": "text"
+            },
+            {
+              "key": "first_name",
+              "value": "Juan",
+              "type": "text"
+            },
+            {
+              "key": "last_name",
+              "value": "Dela Cruz",
+              "type": "text"
+            },
+            {
+              "key": "middle_name",
+              "value": "Santos",
+              "type": "text"
+            },
+            {
+              "key": "date_of_birth",
+              "value": "1990-05-15",
+              "type": "text"
+            },
+            {
+              "key": "is_pregnant",
+              "value": "0",
+              "type": "text"
+            },
+            {
+              "key": "signature",
+              "description": "Optional new signature file \u2014 replaces existing",
+              "type": "file",
+              "src": "signature.png"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/informed_consents/update",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "informed_consents",
+            "update"
+          ]
+        },
+        "description": "## POST `/informed_consents/update`\n\nUpdates an informed consent record. Use **form-data** when uploading a new signature file.\n\n### Required\n- `token`, `requester`, `informed_consent_id`\n\n### Optional fields\nAny of `first_name`, `last_name`, `middle_name`, `date_of_birth`, `is_pregnant` \u2014 only sent fields are updated.\n\n### Signature file (optional on update)\n- Key: `signature` (type: File)\n- If provided, replaces the existing file on disk and updates the DB filename\n- Allowed: PNG, JPEG, JPG, PDF; max 5 MB\n\n### Success response\n```json\n{\n  \"informed_consent_id\": 1,\n  \"message\": \"informed consent updated successfully.\"\n}\n```\n\n### Multi-branch\nUpdates the same `informed_consent_id` on all branch databases. Optional new signature file replaces the on-disk file and syncs the filename to all branches.\n\n### Signature (VM4)\nOptional new signature file is uploaded to VM4; the new full URL replaces `signature` on all branch databases."
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"informed_consent_id\": 1,\n  \"message\": \"informed consent updated successfully.\"\n}"
+        },
+        {
+          "name": "Not Found",
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"error_messages\": [\"informed consent is not found.\"]\n}"
+        }
+      ]
+    },
+    {
+      "name": "Delete informed consent",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": {{requester}},\n  \"informed_consent_id\": 1\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/informed_consents/delete",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "informed_consents",
+            "delete"
+          ]
+        },
+        "description": "## POST `/informed_consents/delete`\n\nSoft-deletes an informed consent (`is_deleted = 1`).\n\n### Required JSON body\n- `token`, `requester`, `informed_consent_id`\n\n### Success response\n```json\n{\n  \"message\": \"informed consent is deleted.\"\n}\n```\n\n### Multi-branch\nSoft-deletes (`is_deleted = 1`) on all branch databases."
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"message\": \"informed consent is deleted.\"\n}"
+        },
+        {
+          "name": "Unauthorized",
+          "status": "Unauthorized",
+          "code": 401,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"error_messages\": {\n    \"message\": \"Invalid Auth token\"\n  }\n}"
+        }
+      ]
+    }
+  ]
+}

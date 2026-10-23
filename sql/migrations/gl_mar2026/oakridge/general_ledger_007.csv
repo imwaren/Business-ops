@@ -1,0 +1,501 @@
+branch_id,source,source_id,account_type_id,date,debit,credit,remark,is_migrated,added_by,added_on,is_deleted
+2,journal_entry,820,77,2026-03-23,3880.0000,0.0000,"Sales Branches March 23, 2026 - Gcash Sales - March, 23 — #53738",1,0,2026-03-31 23:59:59,0
+2,journal_entry,820,61,2026-03-23,21010.0000,0.0000,"Sales Branches March 23, 2026 - Credit Card Sales - March, 23 — #53738",1,0,2026-03-31 23:59:59,0
+2,journal_entry,820,65,2026-03-23,221083.0000,0.0000,"Sales Branches March 23, 2026 - Term Sales - March, 23 — #53738",1,0,2026-03-31 23:59:59,0
+2,journal_entry,823,65,2026-03-23,0.0000,7350.0000,"HRT People Solutions Inc. - PIZAN, ARLYN A. | HRT PEOPLE SOLUTIONS INC. | 7350 — O4012",1,0,2026-03-31 23:59:59,0
+2,journal_entry,823,65,2026-03-23,0.0000,8800.0000,"HRT People Solutions Inc. - VARGAS, RIOBELLE M. | HRT PEOPLE SOLUTIONS INC. | 8,800 — O4012",1,0,2026-03-31 23:59:59,0
+2,journal_entry,823,57,2026-03-23,16150.0000,0.0000,HRT People Solutions Inc. — O4012,1,0,2026-03-31 23:59:59,0
+2,journal_entry,817,1,2026-03-23,42230.0000,0.0000,to record cash sales 03/19/2026 — #53205,1,0,2026-03-31 23:59:59,0
+2,journal_entry,818,1,2026-03-23,49476.0000,0.0000,to record cash sales 03/20/2026 — #53206,1,0,2026-03-31 23:59:59,0
+2,journal_entry,819,1,2026-03-23,44399.0000,0.0000,to record cash sales 03/20/2026 — #53207,1,0,2026-03-31 23:59:59,0
+2,journal_entry,820,13,2026-03-23,54597.0000,0.0000,"Sales Branches March 23, 2026 - Cash Sales - March, 23 — #53738",1,0,2026-03-31 23:59:59,0
+2,journal_entry,817,13,2026-03-23,0.0000,42230.0000,to record cash sales 03/19/2026 — #53205,1,0,2026-03-31 23:59:59,0
+2,journal_entry,819,13,2026-03-23,0.0000,44399.0000,to record cash sales 03/20/2026 — #53207,1,0,2026-03-31 23:59:59,0
+2,journal_entry,818,13,2026-03-23,0.0000,49476.0000,to record cash sales 03/20/2026 — #53206,1,0,2026-03-31 23:59:59,0
+2,journal_entry,820,1613,2026-03-23,0.0000,53780.0000,"Sales Branches March 23, 2026 - Consultations — #53738",1,0,2026-03-31 23:59:59,0
+2,journal_entry,820,1625,2026-03-23,3023.0000,0.0000,"Sales Branches March 23, 2026 - Sales Discounts - March, 23 — #53738",1,0,2026-03-31 23:59:59,0
+2,journal_entry,820,1633,2026-03-23,0.0000,28470.0000,"Sales Branches March 23, 2026 - Health services — #53738",1,0,2026-03-31 23:59:59,0
+2,journal_entry,815,725,2026-03-23,0.0000,1393.0900,Reversal of: To accrue: CEBU SPIC & SPAN - Janitorial Services for the period 2026 Oakridge FEBRUARY - To accrue: CEBU SPIC & SPAN - Janitorial Services for the period 2026 Oakridge FEBRUARY — #53092,1,0,2026-03-31 23:59:59,0
+2,journal_entry,816,765,2026-03-23,0.0000,654.4000,"Reversal of: To accrue: CENTURION SECURITY AGENCY, INC ftp January 2026 - To accrue: CENTURION SECURITY AGENCY, INC ftp January 2026 — #53123",1,0,2026-03-31 23:59:59,0
+2,journal_entry,815,813,2026-03-23,0.0000,11609.1200,Reversal of: To accrue: CEBU SPIC & SPAN - Janitorial Services for the period 2026 Oakridge FEBRUARY - To accrue: CEBU SPIC & SPAN - Janitorial Services for the period 2026 Oakridge FEBRUARY — #53092,1,0,2026-03-31 23:59:59,0
+2,journal_entry,820,1645,2026-03-23,0.0000,50970.0000,"Sales Branches March 23, 2026 - Laboratory/Diagnostics — #53738",1,0,2026-03-31 23:59:59,0
+2,journal_entry,820,1645,2026-03-23,0.0000,63140.0000,"Sales Branches March 23, 2026 - Laboratory/Diagnostics — #53738",1,0,2026-03-31 23:59:59,0
+2,journal_entry,820,1645,2026-03-23,0.0000,79963.0000,"Sales Branches March 23, 2026 - Laboratory/Diagnostics — #53738",1,0,2026-03-31 23:59:59,0
+2,journal_entry,820,1657,2026-03-23,0.0000,27270.0000,"Sales Branches March 23, 2026 - Laboratory/Diagnostics - Send Outs — #53738",1,0,2026-03-31 23:59:59,0
+2,journal_entry,822,861,2026-03-23,3000.0000,0.0000,CLOJOHN PADILLO - Payment for honorarium for the month of March 2026 — RFP No.# 5504,1,0,2026-03-31 23:59:59,0
+2,journal_entry,821,861,2026-03-23,30000.0000,0.0000,MARK ANTHONY SON - Payment for retainer for the month of March 2026 — RFP No.# 5497,1,0,2026-03-31 23:59:59,0
+2,journal_entry,816,925,2026-03-23,0.0000,5453.3400,"Reversal of: To accrue: CENTURION SECURITY AGENCY, INC ftp January 2026 - To accrue: CENTURION SECURITY AGENCY, INC ftp January 2026 — #53123",1,0,2026-03-31 23:59:59,0
+2,journal_entry,816,925,2026-03-23,0.0000,27266.7200,"Reversal of: To accrue: CENTURION SECURITY AGENCY, INC ftp January 2026 - To accrue: CENTURION SECURITY AGENCY, INC ftp January 2026 — #53123",1,0,2026-03-31 23:59:59,0
+2,journal_entry,816,1777,2026-03-23,33374.4600,0.0000,"Reversal of: To accrue: CENTURION SECURITY AGENCY, INC ftp January 2026 - To accrue: CENTURION SECURITY AGENCY, INC ftp January 2026 — #53123",1,0,2026-03-31 23:59:59,0
+2,journal_entry,830,217,2026-03-24,22111.2000,0.0000,Payment: NIÑA FE V. SYPIECCO — RFP No.# 5475,1,0,2026-03-31 23:59:59,0
+2,journal_entry,827,217,2026-03-24,0.0000,2000.0000,AILEEN COTEJO — RFP No.# 5513,1,0,2026-03-31 23:59:59,0
+2,journal_entry,826,217,2026-03-24,0.0000,9200.0000,MARY ANN VILLONES — RFP No.# 5512,1,0,2026-03-31 23:59:59,0
+2,journal_entry,828,217,2026-03-24,0.0000,13600.0000,JOHN CLYDE LUMAYA — RFP No.# 5515,1,0,2026-03-31 23:59:59,0
+2,journal_entry,825,77,2026-03-24,1850.0000,0.0000,"Sales Branches March 24, 2026 - Gcash Sales - March, 24 — #53739",1,0,2026-03-31 23:59:59,0
+2,journal_entry,863,61,2026-03-24,6059.3400,0.0000,Payment: Lh Paragon Inc — O3980,1,0,2026-03-31 23:59:59,0
+2,journal_entry,861,61,2026-03-24,140925.9600,0.0000,Payment: Lh Paragon Inc — O3852,1,0,2026-03-31 23:59:59,0
+2,journal_entry,862,61,2026-03-24,14700.0000,0.0000,Payment: Lh Paragon Inc — O3917,1,0,2026-03-31 23:59:59,0
+2,journal_entry,825,61,2026-03-24,56305.0000,0.0000,"Sales Branches March 24, 2026 - Credit Card Sales - March, 24 — #53739",1,0,2026-03-31 23:59:59,0
+2,journal_entry,831,65,2026-03-24,898.0000,0.0000,Health Delivery Sytem Inc (Flexicare) - PAID CASH BY CLIENT — CN-4753,1,0,2026-03-31 23:59:59,0
+2,journal_entry,825,65,2026-03-24,224663.0000,0.0000,"Sales Branches March 24, 2026 - Term Sales - March, 24 — #53739",1,0,2026-03-31 23:59:59,0
+2,journal_entry,846,65,2026-03-24,0.0000,100.0000,"Lacson & Lacson Insurance Brokers Inc - ABELLANA, ROLYNE JULY EMBODO | 03/18/2026 |LACSON & LACSON INSURANCE BROKERS INC| 100- — O4025",1,0,2026-03-31 23:59:59,0
+2,journal_entry,834,65,2026-03-24,0.0000,140.0000,"Avega Managed Care, Inc - QUINDAO, BERNAMAE DAYON | 03/20/2026 |Avega Managed Care, Inc| 140- — O4013",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,140.0000,"Asalus Corporation - NAGANHON, SOFIA MALINDOG | 03/17/2026 |Asalus Corporation| 140- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,140.0000,"Asalus Corporation - ESPINA, ROJENN CINDY CANINO | 03/20/2026 |Asalus Corporation| 140- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,150.0000,"Maxicare Healthcare Corporation - MANTALABA, RAGNAR ETHAN BONGCO | 03/17/2026 |MAXICARE HEALTHCARE CORPORATION| 150- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,841,65,2026-03-24,0.0000,150.0000,"Medicard Philippines Inc - RICO, BRIAN LONTOCO | 03/17/2026 |Medicard Philippines Inc| 150- — O4020",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,180.0000,"Philhealthcare, Inc - BRACERO, KAORI OLIVIA ZABALA | 03/17/2026 |Philhealthcare, Inc| 180- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,180.0000,"Life & Health Hmp Inc - SABAYLE, PRINCESS JANNEN CALDERON | 03/16/2026 |Life & Health Hmp Inc| 180- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,182.0000,"Maxicare Healthcare Corporation - NABONG, KATRINA MALACA | 03/21/2026 |MAXICARE HEALTHCARE CORPORATION| 182- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,220.0000,"Generali Life Assurance Philippines Inc - MACASIEB, GERRY GLENN CAYABAN | 03/17/2026 |Generali Life Assurance Philippines Inc| 220- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,247.0000,"Maxicare Healthcare Corporation - DIGNOS, NHERO CHILE ANDREW RUSTIA | 03/17/2026 |MAXICARE HEALTHCARE CORPORATION| 247- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,250.0000,"Philhealthcare, Inc - SUICO, MICHELLE PACHECO | 03/16/2026 |Philhealthcare, Inc| 250- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,260.0000,"Asalus Corporation - LEE, HERBYLYN RUBLICO | 03/19/2026 |Asalus Corporation| 260- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,270.0000,"Philhealthcare, Inc - MARSABA, CRISANTO CONUPIO | 03/16/2026 |Philhealthcare, Inc| 270- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,270.0000,"Asalus Corporation - MALTO, JOCELYN MACABUDBUD | 03/19/2026 |Asalus Corporation| 270- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,850,65,2026-03-24,0.0000,270.0000,"Cooperative Health Management Federation - BARREDO, ODEZA VILANDO | 03/16/2026 |COOPERATIVE HEALTH MANAGEMENT FEDERATION| 270- — O4029",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,280.0000,"Philhealthcare, Inc - BURILA, ZARIAH ELOUISE BULAMBAO | 03/19/2026 |Philhealthcare, Inc| 280- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,843,65,2026-03-24,0.0000,280.0000,"Universal Robina Corporation - BASILISCO, ANTHONY ORBETA | 03/18/2026 |UNIVERSAL ROBINA CORPORATION| 280- — O4022",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,300.0000,"Insular Healthcare Inc - DESAMPARADO, RONALD DESUCATAN | 03/18/2026 |Insular Healthcare Inc| 300- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,300.0000,"Insular Healthcare Inc - MAURILLO, JISSON AVILA | 03/19/2026 |Insular Healthcare Inc| 300- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,842,65,2026-03-24,0.0000,300.0000,"Value Care Health Systems, Inc. - SALVADOR, PRISCILLA JOY TARRAZONA | 03/16/2026 |Value Care Health Systems, Inc.| 300- — O4021",1,0,2026-03-31 23:59:59,0
+2,journal_entry,842,65,2026-03-24,0.0000,300.0000,"Value Care Health Systems, Inc. - PUERTO, JOHN CHRISTOFFE MADRID | 03/20/2026 |Value Care Health Systems, Inc.| 300- — O4021",1,0,2026-03-31 23:59:59,0
+2,journal_entry,850,65,2026-03-24,0.0000,300.0000,"Cooperative Health Management Federation - MAAMBONG, PATRICIA - | 03/17/2026 |COOPERATIVE HEALTH MANAGEMENT FEDERATION| 300- — O4029",1,0,2026-03-31 23:59:59,0
+2,journal_entry,856,65,2026-03-24,0.0000,300.0000,"Results Manila Inc. - REYES, CHARISSE ENRIQUEZ | 03/21/2026 |RESULTS MANILA INC.| 300- — O4035",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,310.0000,"Asalus Corporation - CARBONILLA, IVY JOYCE MILAGROSA DEL CASTILLO | 03/17/2026 |Asalus Corporation| 310- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,310.0000,"Asalus Corporation - REUBAL, VERLYN MAIR BARROT | 03/17/2026 |Asalus Corporation| 310- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,332.0000,"Maxicare Healthcare Corporation - GINGOYON, MARIA BIANCA ROSE GALARAGA | 03/18/2026 |MAXICARE HEALTHCARE CORPORATION| 332- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,852,65,2026-03-24,0.0000,351.0000,"PAGES HOLDINGS, INC. - VILLAMOR, JOHN ROCHE VELASQUEZ | 03/17/2026 |PAGES HOLDINGS, INC.| 351- — O4031",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,390.0000,"Philhealthcare, Inc - KANNO, JANICE OBSIANA | 03/19/2026 |Philhealthcare, Inc| 390- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,390.0000,"Insular Healthcare Inc - PAREDES, MARLYN GENERALAO | 03/17/2026 |Insular Healthcare Inc| 390- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,390.0000,"Insular Healthcare Inc - FORMENTERA, JAYVEE LUCHAVEZ | 03/20/2026 |Insular Healthcare Inc| 390- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,390.0000,"Insular Healthcare Inc - PINO, ROGELIO MISA | 03/20/2026 |Insular Healthcare Inc| 390- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,390.0000,"Asalus Corporation - GARCENIEGO, NICOLE DOMINIQUE DELA VEGA | 03/18/2026 |Asalus Corporation| 390- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,848,65,2026-03-24,0.0000,390.0000,"Etiqa Life and General Assurance Phillipines, Inc - BUTAL, CLYDE VINCENT TORRETA | 03/20/2026 |Etiqa Life and General Assurance Phillipines, Inc| 390- — O4027",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,400.0000,"Life & Health Hmp Inc - ARMAMENTO, SALOME DIVINAGRACIA | 03/16/2026 |Life & Health Hmp Inc| 400- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,400.0000,"Life & Health Hmp Inc - BULOCANO, FIEL BONGO | 03/16/2026 |Life & Health Hmp Inc| 400- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,400.0000,"Life & Health Hmp Inc - BULOCANO, FIEL BONGO | 03/16/2026 |Life & Health Hmp Inc| 400- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,400.0000,"Life & Health Hmp Inc - PINCA, LUCEL ATON | 03/16/2026 |Life & Health Hmp Inc| 400- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,400.0000,"Life & Health Hmp Inc - DONGEL, PERLY ANGEL | 03/17/2026 |Life & Health Hmp Inc| 400- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,400.0000,"Life & Health Hmp Inc - JO, CHERYL EDNA UGAT | 03/17/2026 |Life & Health Hmp Inc| 400- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,400.0000,"Life & Health Hmp Inc - LECEÑA, BLAIRE LORRAINE CASTRO | 03/17/2026 |Life & Health Hmp Inc| 400- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,400.0000,"Life & Health Hmp Inc - OUANO, SARAH MARIE REFUELA | 03/17/2026 |Life & Health Hmp Inc| 400- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,400.0000,"Life & Health Hmp Inc - SUHOT, JOSEPH CABONILLAS | 03/17/2026 |Life & Health Hmp Inc| 400- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,400.0000,"Life & Health Hmp Inc - BARREDO, RONAN DAITO | 03/18/2026 |Life & Health Hmp Inc| 400- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,400.0000,"Life & Health Hmp Inc - ATAMOSA, MAE LUBGUBAN | 03/19/2026 |Life & Health Hmp Inc| 400- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,400.0000,"Life & Health Hmp Inc - CUIZON, JHEA PAO | 03/19/2026 |Life & Health Hmp Inc| 400- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,400.0000,"Life & Health Hmp Inc - LEPITEN, SHENKEE MAE ARMAMENTO | 03/19/2026 |Life & Health Hmp Inc| 400- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,400.0000,"Life & Health Hmp Inc - VILLARIN, AIMEE LAURON | 03/19/2026 |Life & Health Hmp Inc| 400- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,400.0000,"Life & Health Hmp Inc - VISCARA, ELOISA JANE DAMPAS | 03/19/2026 |Life & Health Hmp Inc| 400- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,400.0000,"Life & Health Hmp Inc - FLORES, LOVELY DELA CRUZ | 03/20/2026 |Life & Health Hmp Inc| 400- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,400.0000,"Life & Health Hmp Inc - CABELIÑO, MANOLITO BALBARINO | 03/20/2026 |Life & Health Hmp Inc| 400- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,400.0000,"Life & Health Hmp Inc - DACULA, NILISSA ANITO | 03/20/2026 |Life & Health Hmp Inc| 400- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,400.0000,"Life & Health Hmp Inc - PAUSAL, SHARMIE INCIPIDO | 03/20/2026 |Life & Health Hmp Inc| 400- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,400.0000,"Life & Health Hmp Inc - PIAÑAR, MARY VINZ CABAHUG | 03/20/2026 |Life & Health Hmp Inc| 400- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,400.0000,"Life & Health Hmp Inc - ALUBEN, WILKENT ANTIG | 03/21/2026 |Life & Health Hmp Inc| 400- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,400.0000,"Life & Health Hmp Inc - DESIO, CHERRY MAE - | 03/21/2026 |Life & Health Hmp Inc| 400- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,400.0000,"Life & Health Hmp Inc - DONGEL, JEAH FRESHALEY ANGEL | 03/21/2026 |Life & Health Hmp Inc| 400- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,400.0000,"Life & Health Hmp Inc - DONGEL, PERLY ANGEL | 03/21/2026 |Life & Health Hmp Inc| 400- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,400.0000,"Life & Health Hmp Inc - GILAY, AILYN TERANA | 03/21/2026 |Life & Health Hmp Inc| 400- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,400.0000,"Life & Health Hmp Inc - SABAYLE, ARVENIA CALDERON | 03/21/2026 |Life & Health Hmp Inc| 400- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,400.0000,"Life & Health Hmp Inc - TABAÑAG, JOHB WAYNE - | 03/21/2026 |Life & Health Hmp Inc| 400- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,842,65,2026-03-24,0.0000,400.0000,"Value Care Health Systems, Inc. - SULIVA, MUSOLINE VILLAGANAS | 03/20/2026 |Value Care Health Systems, Inc.| 400- — O4021",1,0,2026-03-31 23:59:59,0
+2,journal_entry,842,65,2026-03-24,0.0000,400.0000,"Value Care Health Systems, Inc. - MEJARES, GISELLE TORREMOCHA | 03/21/2026 |Value Care Health Systems, Inc.| 400- — O4021",1,0,2026-03-31 23:59:59,0
+2,journal_entry,845,65,2026-03-24,0.0000,400.0000,"PACIFIC CROSS INSURANCE, INC. - CRUZ, CASSANDRA MARGUERIT SALAMAT | 03/16/2026 |Pacific Cross Insurance, Inc.| 400- — O4024",1,0,2026-03-31 23:59:59,0
+2,journal_entry,852,65,2026-03-24,0.0000,405.0000,"PAGES HOLDINGS, INC. - MANOS, JOVITGEN POLICAN | 03/17/2026 |PAGES HOLDINGS, INC.| 405- — O4031",1,0,2026-03-31 23:59:59,0
+2,journal_entry,834,65,2026-03-24,0.0000,440.0000,"Avega Managed Care, Inc - KIAMCO, EVA MARIE CALEZA | 03/19/2026 |Avega Managed Care, Inc| 440- — O4013",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,450.0000,"Life & Health Hmp Inc - RALLOS, MARY ROSE FLORES | 03/21/2026 |Life & Health Hmp Inc| 450- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,480.0000,"Asalus Corporation - MUYARGAS, NOEME RUBIO | 03/19/2026 |Asalus Corporation| 480- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,834,65,2026-03-24,0.0000,500.0000,"Avega Managed Care, Inc - DESOACIDO, CARLA MARIE SERENIO | 03/16/2026 |Avega Managed Care, Inc| 500- — O4013",1,0,2026-03-31 23:59:59,0
+2,journal_entry,834,65,2026-03-24,0.0000,500.0000,"Avega Managed Care, Inc - DY, ROSALLE MARIE CORBO | 03/16/2026 |Avega Managed Care, Inc| 500- — O4013",1,0,2026-03-31 23:59:59,0
+2,journal_entry,834,65,2026-03-24,0.0000,500.0000,"Avega Managed Care, Inc - MATULAC, MARITTES BAJAN | 03/16/2026 |Avega Managed Care, Inc| 500- — O4013",1,0,2026-03-31 23:59:59,0
+2,journal_entry,834,65,2026-03-24,0.0000,500.0000,"Avega Managed Care, Inc - SANTOS, MICHELLE KATHLEEN ORILLE | 03/16/2026 |Avega Managed Care, Inc| 500- — O4013",1,0,2026-03-31 23:59:59,0
+2,journal_entry,834,65,2026-03-24,0.0000,500.0000,"Avega Managed Care, Inc - DAMOLE, ROCCI BINGHAY | 03/17/2026 |Avega Managed Care, Inc| 500- — O4013",1,0,2026-03-31 23:59:59,0
+2,journal_entry,834,65,2026-03-24,0.0000,500.0000,"Avega Managed Care, Inc - KIAMCO, EVA MARIE CALEZA | 03/17/2026 |Avega Managed Care, Inc| 500- — O4013",1,0,2026-03-31 23:59:59,0
+2,journal_entry,834,65,2026-03-24,0.0000,500.0000,"Avega Managed Care, Inc - SERING, PRINCESS ANTHEA ROVI PAREJA | 03/17/2026 |Avega Managed Care, Inc| 500- — O4013",1,0,2026-03-31 23:59:59,0
+2,journal_entry,834,65,2026-03-24,0.0000,500.0000,"Avega Managed Care, Inc - ANTIPORTA, SHAYNE SANTILLAN | 03/18/2026 |Avega Managed Care, Inc| 500- — O4013",1,0,2026-03-31 23:59:59,0
+2,journal_entry,834,65,2026-03-24,0.0000,500.0000,"Avega Managed Care, Inc - GOTARDO, ARTHUR DACILLO | 03/18/2026 |Avega Managed Care, Inc| 500- — O4013",1,0,2026-03-31 23:59:59,0
+2,journal_entry,834,65,2026-03-24,0.0000,500.0000,"Avega Managed Care, Inc - VILLARIN, ALEX TABADA | 03/18/2026 |Avega Managed Care, Inc| 500- — O4013",1,0,2026-03-31 23:59:59,0
+2,journal_entry,834,65,2026-03-24,0.0000,500.0000,"Avega Managed Care, Inc - BUENO, MAJELOU DEÑA | 03/19/2026 |Avega Managed Care, Inc| 500- — O4013",1,0,2026-03-31 23:59:59,0
+2,journal_entry,834,65,2026-03-24,0.0000,500.0000,"Avega Managed Care, Inc - CUIZON, GRACIELLE ABING | 03/19/2026 |Avega Managed Care, Inc| 500- — O4013",1,0,2026-03-31 23:59:59,0
+2,journal_entry,834,65,2026-03-24,0.0000,500.0000,"Avega Managed Care, Inc - TAPARRA, AZEL BOOC | 03/19/2026 |Avega Managed Care, Inc| 500- — O4013",1,0,2026-03-31 23:59:59,0
+2,journal_entry,834,65,2026-03-24,0.0000,500.0000,"Avega Managed Care, Inc - EMBRADORA, YOLANDA ALSADO | 03/20/2026 |Avega Managed Care, Inc| 500- — O4013",1,0,2026-03-31 23:59:59,0
+2,journal_entry,834,65,2026-03-24,0.0000,500.0000,"Avega Managed Care, Inc - LAO CUBELO, AUBREY MAY PALACA | 03/20/2026 |Avega Managed Care, Inc| 500- — O4013",1,0,2026-03-31 23:59:59,0
+2,journal_entry,834,65,2026-03-24,0.0000,500.0000,"Avega Managed Care, Inc - MATULAC, MARITTES BAJAN | 03/20/2026 |Avega Managed Care, Inc| 500- — O4013",1,0,2026-03-31 23:59:59,0
+2,journal_entry,834,65,2026-03-24,0.0000,500.0000,"Avega Managed Care, Inc - DAYTIA, MARIA CRISTINA SALON | 03/21/2026 |Avega Managed Care, Inc| 500- — O4013",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,500.0000,"Philhealthcare, Inc - GUIRNELA, LELIOSA LEONGAS | 03/16/2026 |Philhealthcare, Inc| 500- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,500.0000,"Philhealthcare, Inc - SINGSON, DINA GIMENO | 03/16/2026 |Philhealthcare, Inc| 500- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,500.0000,"Philhealthcare, Inc - KANNO, JANICE OBSIANA | 03/16/2026 |Philhealthcare, Inc| 500- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,500.0000,"Philhealthcare, Inc - MENCHAVEZ, XYNNIA PHILLINE CABUSAS | 03/16/2026 |Philhealthcare, Inc| 500- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,500.0000,"Philhealthcare, Inc - SABIDONG, MARY GLOR DE LA CRUZ | 03/16/2026 |Philhealthcare, Inc| 500- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,500.0000,"Philhealthcare, Inc - BONANE, CRISHA MORTEL | 03/18/2026 |Philhealthcare, Inc| 500- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,500.0000,"Philhealthcare, Inc - NOEL, MANOLET BANZON | 03/18/2026 |Philhealthcare, Inc| 500- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,500.0000,"Philhealthcare, Inc - BOLIGAO, ANGEL MAY - | 03/20/2026 |Philhealthcare, Inc| 500- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,500.0000,"Philhealthcare, Inc - MENDOZA, CRISTINA YSULAN | 03/20/2026 |Philhealthcare, Inc| 500- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,500.0000,"Philhealthcare, Inc - QUIJADA, JOSEPH MARUIS CASTOR | 03/20/2026 |Philhealthcare, Inc| 500- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,500.0000,"Philhealthcare, Inc - SARMIENTO, YVONNE GEONZON | 03/20/2026 |Philhealthcare, Inc| 500- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,500.0000,"Philhealthcare, Inc - TUBES, CHARLANE THYER | 03/20/2026 |Philhealthcare, Inc| 500- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,500.0000,"Philhealthcare, Inc - ABANID, MONAH REEN CABRERA | 03/21/2026 |Philhealthcare, Inc| 500- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,500.0000,"Philhealthcare, Inc - CABUCOS, REYNALDO VILLANCA | 03/21/2026 |Philhealthcare, Inc| 500- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,500.0000,"Philhealthcare, Inc - MARSABA, CRISANTO CONUPIO | 03/21/2026 |Philhealthcare, Inc| 500- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,500.0000,"Philhealthcare, Inc - NUEZ, JESSELLE LEE AUGUIS | 03/21/2026 |Philhealthcare, Inc| 500- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - ATON, JENNY DEJITO | 03/16/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - AVILA, JULIANNE AQUINO | 03/16/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - AVILA, YNIA LUXIN AQUINO | 03/16/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - BORDADORA, CHRISTIAN VAL - | 03/16/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - BRAO, RODOLFO GARAY | 03/16/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - CANOLO, JOHN HEZEKIAH MANIGOS | 03/16/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - GO, CHADY N | 03/16/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - GONIDA, MYRA HERRERA | 03/16/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - HAGUIMIT, JAY-ANN PATUAL | 03/16/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - JALA, LYN HEART ALBACETE | 03/16/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - MACAPAGAL, JASMINE ROSE PIA | 03/16/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - OLJOL, ANGELIKA ESPANILLO | 03/16/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - QUEZON, JENIFER DESAMPARADO | 03/16/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - TABASAN, MELANY ALBAÑO | 03/16/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - TABASAN, PRINCE ANTHONY ALBAÑO | 03/16/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - ALVAREZ, RHEA DE LOS REYES | 03/17/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - BASALLO, CATHERINE CANDIDO | 03/17/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - BOHOL, ELTON JOHN LAPASARAN | 03/17/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - CAMPILLO, PRINCESS FRENCILLO | 03/17/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - CARREON, EDEN MARIE CENIZA | 03/17/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - DOLLOSO, RYAN DAVE GENON | 03/17/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - GELSANO, CHRISTIAN PAUL FERRER | 03/17/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - MENDREZ, JUDY ANN - | 03/17/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - PAREDES, MARLYN GENERALAO | 03/17/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - PINGOS, NIKKO BACUS | 03/17/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - RAMIREZ, JERMAINE ABEJUELA | 03/17/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - REDOLOZA, CHRISTIE MANGUBAT | 03/17/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - SALADAGA, CRESSA UROT | 03/17/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - TABERA, KRESTEL AINA MAE PANSACALA | 03/17/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - DOLLOSO, RYAN DAVE GENON | 03/18/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - BULA, EMMANUEL NASIS | 03/18/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - CANALES, HONEY JANE GABATAN | 03/18/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - CONDES, SHAIRA CHRISTELLE GLORIA | 03/18/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - GO, CHADY N | 03/18/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - GULFAN, DAFFODIL ARWEN PUNAY | 03/18/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - HAGUIMIT, JAY-ANN PATUAL | 03/18/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - KILAG, ALAIZA MARIE ELIVERA | 03/18/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - MONZOR, DAVE BELOY | 03/18/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - QUEZON, JENIFER DESAMPARADO | 03/18/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - GELSANO, CHRISTIAN PAUL FERRER | 03/19/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - GO, CHADY N | 03/19/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - ALVAREZ, RHEA DE LOS REYES | 03/19/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - ARDA, WINGMAR JADE - | 03/19/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - BALAOD, JUDITH ABAO | 03/19/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - BOHOL, ELIAS JUANCHO COLINA | 03/19/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - CABRIANA, GRACELLE ACOSTA | 03/19/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - CAPARIDA, ROWENA N/A | 03/19/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - GEROLAGA, JERREME E. | 03/19/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - JADLOCON, LESLEYN ACAIN | 03/19/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - LAUSA, CLARITA GENODIPANON | 03/19/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - LLORCA, GABRIEL ALBARICO | 03/19/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - OFAMIN, KENNETH PAKANAN | 03/19/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - RUPINTA, SAMSON EDGAR COSTONERA | 03/19/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - SALADAGA, CRESSA UROT | 03/19/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - SILAYA, EDIZA TACASAN | 03/19/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - YAUN, ARMIDA CALDINO | 03/19/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - DUARTE, AIABHEN-LYN ANGULO | 03/20/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - FORMENTERA, JAYVEE LUCHAVEZ | 03/20/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - GABAISEN, ABEGYL RANA | 03/20/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - LABADAN, LALAINE MATA | 03/20/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - PINO, KATHLEEN TANUCO | 03/20/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - PINO, ROGELIO MISA | 03/20/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - RANIDO, CHRISTINE ANN DINGCONG | 03/20/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - VELEZ, MARIFEL BULIGAN | 03/20/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - DUARTE, AIABHEN-LYN ANGULO | 03/21/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - AGPALO, DENISE BERNARDO | 03/21/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - CABRIANA, GRACELLE ACOSTA | 03/21/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - CABRIANA, GRACELLE ACOSTA | 03/21/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - CAPARIDA, ROWENA N/A | 03/21/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - DELA CUESTA, MICHELL IGOT | 03/21/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - ENAD, NICOLEAND OYAO | 03/21/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - GAVEN, ALFIE SOLA-SOLA | 03/21/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - LAPINIG, DINDI CHRISTINE - | 03/21/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - LIBRE, JOSEPHINE DELA CALZADA | 03/21/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - SALAS, EDRALANE CUMILING | 03/21/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - SOLIBAGA, BRIDGET EVALCA | 03/21/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,500.0000,"Insular Healthcare Inc - TAGANA, MICHELLE FRANCIS ROBINSON | 03/21/2026 |Insular Healthcare Inc| 500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,500.0000,"Maxicare Healthcare Corporation - OLAER, AIKO KATHERINE LUMACAD | 03/16/2026 |MAXICARE HEALTHCARE CORPORATION| 500- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,500.0000,"Maxicare Healthcare Corporation - ADOLFO, MARIANNE PAGENTE | 03/17/2026 |MAXICARE HEALTHCARE CORPORATION| 500- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,500.0000,"Maxicare Healthcare Corporation - GUNO, AARON ANDAYA | 03/17/2026 |MAXICARE HEALTHCARE CORPORATION| 500- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,500.0000,"Maxicare Healthcare Corporation - MARCIAL, JANINE JANN MONDOY | 03/18/2026 |MAXICARE HEALTHCARE CORPORATION| 500- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,500.0000,"Maxicare Healthcare Corporation - SORIANO, ALBERT MOJICA | 03/18/2026 |MAXICARE HEALTHCARE CORPORATION| 500- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,500.0000,"Maxicare Healthcare Corporation - ESCANER, PERSUS GARCIA | 03/19/2026 |MAXICARE HEALTHCARE CORPORATION| 500- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,500.0000,"Maxicare Healthcare Corporation - SEMENSE, CHRISTIAN JERWIN BARNAYJA | 03/19/2026 |MAXICARE HEALTHCARE CORPORATION| 500- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,500.0000,"Maxicare Healthcare Corporation - SEMENSE, CHRISTIAN JERWIN BARNAYJA | 03/20/2026 |MAXICARE HEALTHCARE CORPORATION| 500- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,500.0000,"Maxicare Healthcare Corporation - QUIMBO, ELISHA DANIELLE CORDERO | 03/21/2026 |MAXICARE HEALTHCARE CORPORATION| 500- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - FERNANDEZ, MARIJOY CHRISTINE SABINO | 03/16/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - HERMANOCHE, TRISTAN JOSEPH CABAHUG | 03/16/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - MAGALSO, MARLOH ABUCAY | 03/16/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - MALTO, JOCELYN MACABUDBUD | 03/16/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - NECESARIO, JULIET ALOYAN | 03/16/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - OMANDAC, MARY HOPE - | 03/16/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - PAYAC, JASON PAGAL | 03/16/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - VASQUEZ, GISELLE MILLAN | 03/16/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - PADAO, VISHEL AN GEVANA | 03/17/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - ARNAIZ, SHAIRA LARIOSA | 03/17/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - CARBONILLA, IVY JOYCE MILAGROSA DEL CASTILLO | 03/17/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - CORDOVA, IRIS BAGUIO | 03/17/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - ESTACIO, FLORABELLE MANGOGTONG | 03/17/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - GUTUAL, GIL ABELLAR | 03/17/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - LAGURA, JOSEPH LISTER PRELE | 03/17/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - LARIOSA, JOHNGAIL MANUGAS | 03/17/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - MATULAC, FRANCES LYNN BARBON | 03/17/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - MONSENDO, PRIMO AMARI LAGAR | 03/17/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - NAGANHON, SOFIA MALINDOG | 03/17/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - REUBAL, VERLYN MAIR BARROT | 03/17/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - MORDENO, NOELLA MIRABEL | 03/18/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - ARADO, CHARITY MONICA CASTOR | 03/18/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - ARIOLA, MARY CRIS OUANO | 03/18/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - CASPE, CHERRY PAREÑO | 03/18/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - CONTA, GERALDINE BULADO | 03/18/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - DIZON, VANESSA GRACE SARAGA | 03/18/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - FERNANDEZ, MARY JOY BOYONAS | 03/18/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - GARCENIEGO, NICOLE DOMINIQUE DELA VEGA | 03/18/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - HERMANOCHE, TRISTAN JOSEPH CABAHUG | 03/18/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - LOPEZ, MAY ANN PEARL BALANDRA | 03/18/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - SISON, PRECIOUS JADE JUDILLA | 03/18/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - SOLIS, DAVID CLARK MONDARES | 03/18/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - TANCINCO, ANNE CABALES | 03/18/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - GARCENIEGO, NICOLE DOMINIQUE DELA VEGA | 03/19/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - ABANES-ANG, SHEENA MAREY ABLEN | 03/19/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - APARIJO, RUFF MARTIN PUSA | 03/19/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - DABON, STEFFI ANGEL RAAGAS | 03/19/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - GULTIANO, MARIE AIZA AUZA | 03/19/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - KING, MESRAEM JR. SOMOSOT | 03/19/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - LEE, HERBYLYN RUBLICO | 03/19/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - MALTO, JOCELYN MACABUDBUD | 03/19/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - MEDECIELO, AMAIKA CHEARA CABUSAS | 03/19/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - MUYARGAS, NOEME RUBIO | 03/19/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - DABON, STEFFI ANGEL RAAGAS | 03/20/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - AMORES, AIVAN KAYE LAGMAN | 03/20/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - ESPINA, ROJENN CINDY CANINO | 03/20/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - MESINA, MEI WEI BUCSIT | 03/20/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - SAMPAN, PATRICIA MAE MAGLASANG | 03/20/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - SIDO, SEAN VINCENT GABOTERO | 03/20/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - ABLAY, FRANCISCO JR. ZAMORA | 03/21/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - ACHUMBRE, JAN STANLEE AGCANG | 03/21/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - LEORAG, JUDITH MANATAD | 03/21/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,500.0000,"Asalus Corporation - PAGALAN, KNIGHT MARKUS LAUREL | 03/21/2026 |Asalus Corporation| 500- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,846,65,2026-03-24,0.0000,500.0000,"Lacson & Lacson Insurance Brokers Inc - MATAÑOZA, DELIA CAPANGPANGAN | 03/16/2026 |LACSON & LACSON INSURANCE BROKERS INC| 500- — O4025",1,0,2026-03-31 23:59:59,0
+2,journal_entry,846,65,2026-03-24,0.0000,500.0000,"Lacson & Lacson Insurance Brokers Inc - BOTOR, NEPTHALI ALGER JAVIER | 03/19/2026 |LACSON & LACSON INSURANCE BROKERS INC| 500- — O4025",1,0,2026-03-31 23:59:59,0
+2,journal_entry,848,65,2026-03-24,0.0000,500.0000,"Etiqa Life and General Assurance Phillipines, Inc - BATOMALAQUE, KRISTINE MAY ROMERO | 03/16/2026 |Etiqa Life and General Assurance Phillipines, Inc| 500- — O4027",1,0,2026-03-31 23:59:59,0
+2,journal_entry,848,65,2026-03-24,0.0000,500.0000,"Etiqa Life and General Assurance Phillipines, Inc - SOON, IAN CLIFF ALINDAJAO | 03/16/2026 |Etiqa Life and General Assurance Phillipines, Inc| 500- — O4027",1,0,2026-03-31 23:59:59,0
+2,journal_entry,848,65,2026-03-24,0.0000,500.0000,"Etiqa Life and General Assurance Phillipines, Inc - NOVAL, EVELYN PAGAYAMAN | 03/17/2026 |Etiqa Life and General Assurance Phillipines, Inc| 500- — O4027",1,0,2026-03-31 23:59:59,0
+2,journal_entry,848,65,2026-03-24,0.0000,500.0000,"Etiqa Life and General Assurance Phillipines, Inc - SOLLANO, MARIA TERESA SAYSON | 03/17/2026 |Etiqa Life and General Assurance Phillipines, Inc| 500- — O4027",1,0,2026-03-31 23:59:59,0
+2,journal_entry,848,65,2026-03-24,0.0000,500.0000,"Etiqa Life and General Assurance Phillipines, Inc - TAN, EDWINA L. | 03/19/2026 |Etiqa Life and General Assurance Phillipines, Inc| 500- — O4027",1,0,2026-03-31 23:59:59,0
+2,journal_entry,848,65,2026-03-24,0.0000,500.0000,"Etiqa Life and General Assurance Phillipines, Inc - BUTAL, CLYDE VINCENT TORRETA | 03/20/2026 |Etiqa Life and General Assurance Phillipines, Inc| 500- — O4027",1,0,2026-03-31 23:59:59,0
+2,journal_entry,848,65,2026-03-24,0.0000,500.0000,"Etiqa Life and General Assurance Phillipines, Inc - AUGUSTO, MARCOS P. | 03/21/2026 |Etiqa Life and General Assurance Phillipines, Inc| 500- — O4027",1,0,2026-03-31 23:59:59,0
+2,journal_entry,848,65,2026-03-24,0.0000,500.0000,"Etiqa Life and General Assurance Phillipines, Inc - ERAN, NORIEL F. | 03/21/2026 |Etiqa Life and General Assurance Phillipines, Inc| 500- — O4027",1,0,2026-03-31 23:59:59,0
+2,journal_entry,848,65,2026-03-24,0.0000,500.0000,"Etiqa Life and General Assurance Phillipines, Inc - MEJIO, MELCHOR G. | 03/21/2026 |Etiqa Life and General Assurance Phillipines, Inc| 500- — O4027",1,0,2026-03-31 23:59:59,0
+2,journal_entry,848,65,2026-03-24,0.0000,500.0000,"Etiqa Life and General Assurance Phillipines, Inc - SILAWAN, ASSIE APA | 03/21/2026 |Etiqa Life and General Assurance Phillipines, Inc| 500- — O4027",1,0,2026-03-31 23:59:59,0
+2,journal_entry,848,65,2026-03-24,0.0000,500.0000,"Etiqa Life and General Assurance Phillipines, Inc - SILAWAN, ELMER D. | 03/21/2026 |Etiqa Life and General Assurance Phillipines, Inc| 500- — O4027",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,550.0000,"Insular Healthcare Inc - ENAD, NICOLEAND OYAO | 03/21/2026 |Insular Healthcare Inc| 550- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,550.0000,"Life & Health Hmp Inc - TABAÑAG, JOHB WAYNE - | 03/21/2026 |Life & Health Hmp Inc| 550- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,550.0000,"Life & Health Hmp Inc - TABAÑAG, JOHB WAYNE - | 03/21/2026 |Life & Health Hmp Inc| 550- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,550.0000,"Maxicare Healthcare Corporation - AURESTILA, MARINEL ALIDO | 03/17/2026 |MAXICARE HEALTHCARE CORPORATION| 550- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,550.0000,"Maxicare Healthcare Corporation - SEÑAS, MARY CHRISTINE - | 03/21/2026 |MAXICARE HEALTHCARE CORPORATION| 550- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,590.0000,"Maxicare Healthcare Corporation - CARVAJAL, ERMELINDA JUGOT | 03/21/2026 |MAXICARE HEALTHCARE CORPORATION| 590- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,600.0000,"Philhealthcare, Inc - LAMPARAS, ANNA MARIE ENDIOLA | 03/16/2026 |Philhealthcare, Inc| 600- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,600.0000,"Philhealthcare, Inc - YBAÑEZ, JOEVIN SEBOGERO | 03/16/2026 |Philhealthcare, Inc| 600- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,600.0000,"Philhealthcare, Inc - YU, BRENDA BESAS | 03/16/2026 |Philhealthcare, Inc| 600- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,600.0000,"Philhealthcare, Inc - BRACERO, KAORI OLIVIA ZABALA | 03/17/2026 |Philhealthcare, Inc| 600- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,600.0000,"Philhealthcare, Inc - BARIMBAO, EUGENE SR ABREA | 03/18/2026 |Philhealthcare, Inc| 600- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,600.0000,"Philhealthcare, Inc - BURILA, ZARIAH ELOUISE BULAMBAO | 03/18/2026 |Philhealthcare, Inc| 600- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,600.0000,"Philhealthcare, Inc - MENDOZA, ANTHONY SEVARE | 03/18/2026 |Philhealthcare, Inc| 600- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,600.0000,"Philhealthcare, Inc - KANNO, JANICE OBSIANA | 03/19/2026 |Philhealthcare, Inc| 600- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,600.0000,"Philhealthcare, Inc - OSIGAN, MARY CHRISTYL PELAYO | 03/19/2026 |Philhealthcare, Inc| 600- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,600.0000,"Philhealthcare, Inc - CATUBIG, ERWIN ANJAO | 03/21/2026 |Philhealthcare, Inc| 600- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,600.0000,"Philhealthcare, Inc - RAMOS, JON CARLITO BRANZUELA | 03/21/2026 |Philhealthcare, Inc| 600- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,600.0000,"Philhealthcare, Inc - TORION, MA. RAYMALYN TAYABAS | 03/21/2026 |Philhealthcare, Inc| 600- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,600.0000,"Life & Health Hmp Inc - CARREDO, LOUISA CONCEPCION AMANTE | 03/19/2026 |Life & Health Hmp Inc| 600- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,600.0000,"Life & Health Hmp Inc - FLORES, LOVELY DELA CRUZ | 03/19/2026 |Life & Health Hmp Inc| 600- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,600.0000,"Life & Health Hmp Inc - GUTIERREZ, STEPHANIE MAE MONTE | 03/19/2026 |Life & Health Hmp Inc| 600- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,600.0000,"Maxicare Healthcare Corporation - LECCIONES, MIGUEL ANTONIO LOON | 03/16/2026 |MAXICARE HEALTHCARE CORPORATION| 600- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,600.0000,"Maxicare Healthcare Corporation - MARATAS, LYNDON JOHN SOSMEÑA | 03/16/2026 |MAXICARE HEALTHCARE CORPORATION| 600- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,600.0000,"Maxicare Healthcare Corporation - TEVES, JUNNEL ANTONIO | 03/16/2026 |MAXICARE HEALTHCARE CORPORATION| 600- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,600.0000,"Maxicare Healthcare Corporation - DIGNOS, NHERO CHILE ANDREW RUSTIA | 03/17/2026 |MAXICARE HEALTHCARE CORPORATION| 600- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,600.0000,"Maxicare Healthcare Corporation - MANTALABA, RAGNAR ETHAN BONGCO | 03/17/2026 |MAXICARE HEALTHCARE CORPORATION| 600- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,600.0000,"Maxicare Healthcare Corporation - PLANDO, DIANA JOY ROLLON | 03/17/2026 |MAXICARE HEALTHCARE CORPORATION| 600- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,600.0000,"Maxicare Healthcare Corporation - CABAHUG, LAURA NIÑA - | 03/18/2026 |MAXICARE HEALTHCARE CORPORATION| 600- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,600.0000,"Maxicare Healthcare Corporation - JASMIN, FLYNN RYDER RANIDO | 03/18/2026 |MAXICARE HEALTHCARE CORPORATION| 600- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,600.0000,"Maxicare Healthcare Corporation - AUTIDA, CONSTANCIO FUENTES | 03/19/2026 |MAXICARE HEALTHCARE CORPORATION| 600- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,600.0000,"Maxicare Healthcare Corporation - GONZAGA, ELMER BINONDO | 03/19/2026 |MAXICARE HEALTHCARE CORPORATION| 600- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,600.0000,"Maxicare Healthcare Corporation - KINAPUNDAN, RUTH RETIZA | 03/19/2026 |MAXICARE HEALTHCARE CORPORATION| 600- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,600.0000,"Maxicare Healthcare Corporation - STANFORTH, RENEE LOUISE CAMPANILLA | 03/19/2026 |MAXICARE HEALTHCARE CORPORATION| 600- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,600.0000,"Maxicare Healthcare Corporation - BARREDO, JOHN MICHAEL SARAUM | 03/20/2026 |MAXICARE HEALTHCARE CORPORATION| 600- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,600.0000,"Maxicare Healthcare Corporation - CHAVEZ, JAYDEN MORDECAI MORALES | 03/21/2026 |MAXICARE HEALTHCARE CORPORATION| 600- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,600.0000,"Maxicare Healthcare Corporation - RICO, RICHER JACKIE RIVACA | 03/21/2026 |MAXICARE HEALTHCARE CORPORATION| 600- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,600.0000,"Maxicare Healthcare Corporation - SUGAROL, JUSTIN RYAN COMPOC | 03/21/2026 |MAXICARE HEALTHCARE CORPORATION| 600- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,600.0000,"Generali Life Assurance Philippines Inc - CLAVERIA, IVY MONTECILLO | 03/16/2026 |Generali Life Assurance Philippines Inc| 600- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,600.0000,"Generali Life Assurance Philippines Inc - GONIDA, MYRA HERRERA | 03/16/2026 |Generali Life Assurance Philippines Inc| 600- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,600.0000,"Generali Life Assurance Philippines Inc - GONIDA, REYNALDO PILA | 03/16/2026 |Generali Life Assurance Philippines Inc| 600- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,600.0000,"Generali Life Assurance Philippines Inc - ALIGWAY, LILIBETH LARGO | 03/18/2026 |Generali Life Assurance Philippines Inc| 600- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,600.0000,"Generali Life Assurance Philippines Inc - ALIGWAY, MICHAEL TIBON | 03/18/2026 |Generali Life Assurance Philippines Inc| 600- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,600.0000,"Generali Life Assurance Philippines Inc - KAIRUZ, MIKAELA KRISTA DELA FUENTE | 03/18/2026 |Generali Life Assurance Philippines Inc| 600- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,600.0000,"Generali Life Assurance Philippines Inc - MACATOL, JEROME NABUAL | 03/18/2026 |Generali Life Assurance Philippines Inc| 600- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,600.0000,"Generali Life Assurance Philippines Inc - DELA CUESTA, MICHELL IGOT | 03/19/2026 |Generali Life Assurance Philippines Inc| 600- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,600.0000,"Generali Life Assurance Philippines Inc - LEPITEN, CHRISTIAN DAVE CASTROVERDE | 03/19/2026 |Generali Life Assurance Philippines Inc| 600- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,600.0000,"Generali Life Assurance Philippines Inc - LIMANA, MARLIE REBONSA | 03/19/2026 |Generali Life Assurance Philippines Inc| 600- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,600.0000,"Generali Life Assurance Philippines Inc - TAN, RHIA BARAFON | 03/19/2026 |Generali Life Assurance Philippines Inc| 600- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,600.0000,"Generali Life Assurance Philippines Inc - BARANDINO, ORVILLE PATRICK GUILLO | 03/20/2026 |Generali Life Assurance Philippines Inc| 600- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,600.0000,"Generali Life Assurance Philippines Inc - MACASIEB, GERRY GLENN CAYABAN | 03/20/2026 |Generali Life Assurance Philippines Inc| 600- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,600.0000,"Generali Life Assurance Philippines Inc - MACATOL, JOE EFESO CABABAHAY | 03/20/2026 |Generali Life Assurance Philippines Inc| 600- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,600.0000,"Generali Life Assurance Philippines Inc - AGOSILA, JUAN MATTEO FERNAN | 03/21/2026 |Generali Life Assurance Philippines Inc| 600- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,600.0000,"Generali Life Assurance Philippines Inc - LAWAS, AL-JANE TITONG | 03/21/2026 |Generali Life Assurance Philippines Inc| 600- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,841,65,2026-03-24,0.0000,600.0000,"Medicard Philippines Inc - CANONIGO, CELIA SAIORSE LUN MOLINA | 03/16/2026 |Medicard Philippines Inc| 600- — O4020",1,0,2026-03-31 23:59:59,0
+2,journal_entry,841,65,2026-03-24,0.0000,600.0000,"Medicard Philippines Inc - PAGARATAN, LESLIE ROTA | 03/18/2026 |Medicard Philippines Inc| 600- — O4020",1,0,2026-03-31 23:59:59,0
+2,journal_entry,849,65,2026-03-24,0.0000,600.0000,"Amaphil-FAO Lawina Company Limited Inc - ALIPIO, SHAUNDYL DE LEON | 03/16/2026 |Amaphil-FAO Lawina Company Limited Inc| 600- — O4028",1,0,2026-03-31 23:59:59,0
+2,journal_entry,849,65,2026-03-24,0.0000,600.0000,"Amaphil-FAO Lawina Company Limited Inc - SEÑAS, MICHELLE ANTOINETTE - | 03/21/2026 |Amaphil-FAO Lawina Company Limited Inc| 600- — O4028",1,0,2026-03-31 23:59:59,0
+2,journal_entry,856,65,2026-03-24,0.0000,600.0000,"Results Manila Inc. - REYES, CHARISSE ENRIQUEZ | 03/21/2026 |RESULTS MANILA INC.| 600- — O4035",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,620.0000,"Insular Healthcare Inc - YONTING, JELYN SENABAN | 03/18/2026 |Insular Healthcare Inc| 620- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,620.0000,"Asalus Corporation - ALENTON, JOE CARLO TICA | 03/16/2026 |Asalus Corporation| 620- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,620.0000,"Generali Life Assurance Philippines Inc - LIMAZA, EMMON JAY CORTES | 03/16/2026 |Generali Life Assurance Philippines Inc| 620- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,620.0000,"Generali Life Assurance Philippines Inc - MALAZARTE, ELMO ARCIETE | 03/16/2026 |Generali Life Assurance Philippines Inc| 620- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,620.0000,"Generali Life Assurance Philippines Inc - NARVASA, JAMES CLARK VELAYO | 03/16/2026 |Generali Life Assurance Philippines Inc| 620- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,620.0000,"Generali Life Assurance Philippines Inc - TALLEDO, BERNARDO ORPELLA | 03/16/2026 |Generali Life Assurance Philippines Inc| 620- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,620.0000,"Generali Life Assurance Philippines Inc - SERENCIO, CARIMAH MACAPODI | 03/17/2026 |Generali Life Assurance Philippines Inc| 620- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,620.0000,"Generali Life Assurance Philippines Inc - MALINAO, MARK KIYAN - | 03/18/2026 |Generali Life Assurance Philippines Inc| 620- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,620.0000,"Generali Life Assurance Philippines Inc - LIDOT, JEROME SILVANO | 03/19/2026 |Generali Life Assurance Philippines Inc| 620- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,845,65,2026-03-24,0.0000,620.0000,"PACIFIC CROSS INSURANCE, INC. - CABALLERO, EUGENE MAHUSAY | 03/17/2026 |Pacific Cross Insurance, Inc.| 620- — O4024",1,0,2026-03-31 23:59:59,0
+2,journal_entry,845,65,2026-03-24,0.0000,620.0000,"PACIFIC CROSS INSURANCE, INC. - RUBIN, JERICHO SIBUGAL | 03/17/2026 |Pacific Cross Insurance, Inc.| 620- — O4024",1,0,2026-03-31 23:59:59,0
+2,journal_entry,845,65,2026-03-24,0.0000,620.0000,"PACIFIC CROSS INSURANCE, INC. - VELASCO, ELPIDIO SUAREZ | 03/18/2026 |Pacific Cross Insurance, Inc.| 620- — O4024",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,650.0000,"Insular Healthcare Inc - CUYOS, EDRUDD RIVERA | 03/19/2026 |Insular Healthcare Inc| 650- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,650.0000,"Insular Healthcare Inc - RUPINTA, SAMSON EDGAR COSTONERA | 03/19/2026 |Insular Healthcare Inc| 650- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,834,65,2026-03-24,0.0000,700.0000,"Avega Managed Care, Inc - MAHINAY, MIGUELA NAVARRO | 03/21/2026 |Avega Managed Care, Inc| 700- — O4013",1,0,2026-03-31 23:59:59,0
+2,journal_entry,843,65,2026-03-24,0.0000,735.0000,"Universal Robina Corporation - EJEDIO, MARIA GUADALUPE . | 03/16/2026 |UNIVERSAL ROBINA CORPORATION| 735- — O4022",1,0,2026-03-31 23:59:59,0
+2,journal_entry,843,65,2026-03-24,0.0000,735.0000,"Universal Robina Corporation - EJEDIO, MARY YOLAND MAGDADARO | 03/16/2026 |UNIVERSAL ROBINA CORPORATION| 735- — O4022",1,0,2026-03-31 23:59:59,0
+2,journal_entry,843,65,2026-03-24,0.0000,735.0000,"Universal Robina Corporation - GONZALES, VIVIAN RADANA | 03/16/2026 |UNIVERSAL ROBINA CORPORATION| 735- — O4022",1,0,2026-03-31 23:59:59,0
+2,journal_entry,843,65,2026-03-24,0.0000,735.0000,"Universal Robina Corporation - GUINTAPA, ERWIN ALCORDO | 03/16/2026 |UNIVERSAL ROBINA CORPORATION| 735- — O4022",1,0,2026-03-31 23:59:59,0
+2,journal_entry,843,65,2026-03-24,0.0000,735.0000,"Universal Robina Corporation - ISAAC, MARIEL DE ASIS | 03/16/2026 |UNIVERSAL ROBINA CORPORATION| 735- — O4022",1,0,2026-03-31 23:59:59,0
+2,journal_entry,843,65,2026-03-24,0.0000,735.0000,"Universal Robina Corporation - ROSALES, SONNY SORENO | 03/16/2026 |UNIVERSAL ROBINA CORPORATION| 735- — O4022",1,0,2026-03-31 23:59:59,0
+2,journal_entry,843,65,2026-03-24,0.0000,735.0000,"Universal Robina Corporation - SITON, JERIEY YEN SUMULONG | 03/16/2026 |UNIVERSAL ROBINA CORPORATION| 735- — O4022",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,750.0000,"Maxicare Healthcare Corporation - PUÑO, JOMAR VIRAY | 03/16/2026 |MAXICARE HEALTHCARE CORPORATION| 750- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,800.0000,"Maxicare Healthcare Corporation - BASILISCO, ANTHONY ORBETA | 03/18/2026 |MAXICARE HEALTHCARE CORPORATION| 800- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,820.0000,"Asalus Corporation - PINAT, ISABELLA DURAN | 03/20/2026 |Asalus Corporation| 820- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,851,65,2026-03-24,0.0000,830.0000,"Mehitabel Inc. - BACALSO, DENNIS ABAPO | 03/17/2026 |MEHITABEL INC.| 830- — O4030",1,0,2026-03-31 23:59:59,0
+2,journal_entry,851,65,2026-03-24,0.0000,830.0000,"Mehitabel Inc. - CAPILITAN, CLINT ANTHONY LAPAY | 03/18/2026 |MEHITABEL INC.| 830- — O4030",1,0,2026-03-31 23:59:59,0
+2,journal_entry,853,65,2026-03-24,0.0000,830.0000,"THE VIRTUAL HUB PHILIPPINES, INC. - COMAHIG, FRENCH DANNIEL LEGASPINO | 03/17/2026 |THE VIRTUAL HUB PHILIPPINES, INC.| 830- — O4032",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,840.0000,"Insular Healthcare Inc - CABRIANA, GRACELLE ACOSTA | 03/19/2026 |Insular Healthcare Inc| 840- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,842,65,2026-03-24,0.0000,900.0000,"Value Care Health Systems, Inc. - SULIVA, MUSOLINE VILLAGANAS | 03/20/2026 |Value Care Health Systems, Inc.| 900- — O4021",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,915.0000,"Asalus Corporation - MADERA, JAKE ORWELL GALON | 03/21/2026 |Asalus Corporation| 915- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,845,65,2026-03-24,0.0000,920.0000,"PACIFIC CROSS INSURANCE, INC. - MAH, MICHAEL ROGER H. | 03/16/2026 |Pacific Cross Insurance, Inc.| 920- — O4024",1,0,2026-03-31 23:59:59,0
+2,journal_entry,845,65,2026-03-24,0.0000,920.0000,"PACIFIC CROSS INSURANCE, INC. - ADRALES, DENNIS DELA TORRE | 03/17/2026 |Pacific Cross Insurance, Inc.| 920- — O4024",1,0,2026-03-31 23:59:59,0
+2,journal_entry,845,65,2026-03-24,0.0000,920.0000,"PACIFIC CROSS INSURANCE, INC. - CABANGCA, BRIAN EVEDIENTE | 03/17/2026 |Pacific Cross Insurance, Inc.| 920- — O4024",1,0,2026-03-31 23:59:59,0
+2,journal_entry,845,65,2026-03-24,0.0000,920.0000,"PACIFIC CROSS INSURANCE, INC. - VILLARTA, RENATO QUILLOBE | 03/17/2026 |Pacific Cross Insurance, Inc.| 920- — O4024",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,950.0000,"Life & Health Hmp Inc - LABORTE, ROSE ANN . | 03/21/2026 |Life & Health Hmp Inc| 950- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,950.0000,"Asalus Corporation - BUAYA, ALELI FE ORONEA | 03/18/2026 |Asalus Corporation| 950- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,844,65,2026-03-24,0.0000,950.0000,"TRESCORE INDUSTRIAL SOLUTION CORP. - CALISO, RYAN ALBATERA | 03/16/2026 |TRESCORE INDUSTRIAL SOLUTION CORP.| 950- — O4023",1,0,2026-03-31 23:59:59,0
+2,journal_entry,855,65,2026-03-24,0.0000,950.0000,"Leslie Corporation - ESTO, FRANCIS SASUTIL | 03/19/2026 |LESLIE CORPORATION| 950- — O4034",1,0,2026-03-31 23:59:59,0
+2,journal_entry,855,65,2026-03-24,0.0000,950.0000,"Leslie Corporation - GARCIA, SEVERO JR. MILAR | 03/19/2026 |LESLIE CORPORATION| 950- — O4034",1,0,2026-03-31 23:59:59,0
+2,journal_entry,855,65,2026-03-24,0.0000,950.0000,"Leslie Corporation - GONZAGA, JOHN KIRCK DILANTE | 03/19/2026 |LESLIE CORPORATION| 950- — O4034",1,0,2026-03-31 23:59:59,0
+2,journal_entry,855,65,2026-03-24,0.0000,950.0000,"Leslie Corporation - PALADERO, AMADOR ALINDAHAO | 03/19/2026 |LESLIE CORPORATION| 950- — O4034",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,1020.0000,"Insular Healthcare Inc - RAMIREZ, JERMAINE ABEJUELA | 03/17/2026 |Insular Healthcare Inc| 1020- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,1020.0000,"Insular Healthcare Inc - ALVAREZ, RHEA DELOS REYES | 03/19/2026 |Insular Healthcare Inc| 1020- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,1020.0000,"Insular Healthcare Inc - OFAMIN, KENNETH PAKANAN | 03/19/2026 |Insular Healthcare Inc| 1020- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,1070.0000,"Insular Healthcare Inc - DANGIN, MARCOS TEDLOS | 03/18/2026 |Insular Healthcare Inc| 1070- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,842,65,2026-03-24,0.0000,1080.0000,"Value Care Health Systems, Inc. - SULIVA, MUSOLINE VILLAGANAS | 03/20/2026 |Value Care Health Systems, Inc.| 1080- — O4021",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,1130.0000,"Maxicare Healthcare Corporation - YAP, AGUSTINUS MATUOD | 03/18/2026 |MAXICARE HEALTHCARE CORPORATION| 1130- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,1130.0000,"Generali Life Assurance Philippines Inc - OPO, RANULFO LUMAPAS | 03/17/2026 |Generali Life Assurance Philippines Inc| 1130- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,1130.0000,"Generali Life Assurance Philippines Inc - ALIGWAY, MICHAEL TIBON | 03/18/2026 |Generali Life Assurance Philippines Inc| 1130- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,1130.0000,"Generali Life Assurance Philippines Inc - OPONE, JONIEL HIBEROLA | 03/18/2026 |Generali Life Assurance Philippines Inc| 1130- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,1130.0000,"Generali Life Assurance Philippines Inc - CAÑETE, SIEGFRED LUCEÑO | 03/19/2026 |Generali Life Assurance Philippines Inc| 1130- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,1130.0000,"Generali Life Assurance Philippines Inc - MIÑOZA, JEROME BERDIN | 03/19/2026 |Generali Life Assurance Philippines Inc| 1130- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,1130.0000,"Generali Life Assurance Philippines Inc - NOVELA, JOSEPH VITO | 03/19/2026 |Generali Life Assurance Philippines Inc| 1130- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,1130.0000,"Generali Life Assurance Philippines Inc - VERALLO, JOVANNI CAÑADA | 03/19/2026 |Generali Life Assurance Philippines Inc| 1130- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,1130.0000,"Generali Life Assurance Philippines Inc - JOSE, JOEL CAYLAN | 03/21/2026 |Generali Life Assurance Philippines Inc| 1130- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,1130.0000,"Generali Life Assurance Philippines Inc - PANSOY, ORLAND BENTING | 03/21/2026 |Generali Life Assurance Philippines Inc| 1130- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,841,65,2026-03-24,0.0000,1160.0000,"Medicard Philippines Inc - RICO, BRIAN LONTOCO | 03/17/2026 |Medicard Philippines Inc| 1160- — O4020",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,1200.0000,"Asalus Corporation - PINO, GILSON YCONG | 03/18/2026 |Asalus Corporation| 1200- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,1230.0000,"Insular Healthcare Inc - DOLLOSO, RYAN DAVE GENON | 03/17/2026 |Insular Healthcare Inc| 1230- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,1270.0000,"Asalus Corporation - DICO, GLENN CARTECIANO | 03/16/2026 |Asalus Corporation| 1270- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,1350.0000,"Maxicare Healthcare Corporation - RUSIANA, PEARL ANN ZAMORA | 03/19/2026 |MAXICARE HEALTHCARE CORPORATION| 1350- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,855,65,2026-03-24,0.0000,1350.0000,"Leslie Corporation - LUARDO, CRISBEN COLONIA | 03/21/2026 |LESLIE CORPORATION| 1350- — O4034",1,0,2026-03-31 23:59:59,0
+2,journal_entry,855,65,2026-03-24,0.0000,1350.0000,"Leslie Corporation - RICAFRENTE, RICHARD IGLORIA | 03/21/2026 |LESLIE CORPORATION| 1350- — O4034",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,1370.0000,"Insular Healthcare Inc - APOSTOL, MERLYN MILITANTE | 03/16/2026 |Insular Healthcare Inc| 1370- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,856,65,2026-03-24,0.0000,1370.0000,"Results Manila Inc. - REYES, CHARISSE ENRIQUEZ | 03/20/2026 |RESULTS MANILA INC.| 1370- — O4035",1,0,2026-03-31 23:59:59,0
+2,journal_entry,847,65,2026-03-24,0.0000,1377.5000,"Homesourced Inc - GALANG, ERIKA SALARDA | 03/16/2026 |HOMESOURCED INC| 1377.5- — O4026",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,1420.0000,"Life & Health Hmp Inc - CATARAJA, JOEL MARMOJADA | 03/19/2026 |Life & Health Hmp Inc| 1420- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,1450.0000,"Philhealthcare, Inc - ANTIGUA, ABIGUEL VALILA | 03/19/2026 |Philhealthcare, Inc| 1450- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,1450.0000,"Insular Healthcare Inc - QUEZON, JENIFER DESAMPARADO | 03/16/2026 |Insular Healthcare Inc| 1450- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,1450.0000,"Insular Healthcare Inc - BALAOD, JUDITH ABAO | 03/19/2026 |Insular Healthcare Inc| 1450- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,1450.0000,"Insular Healthcare Inc - PINO, KATHLEEN TANUCO | 03/20/2026 |Insular Healthcare Inc| 1450- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,1450.0000,"Insular Healthcare Inc - LAPINIG, DINDI CHRISTINE - | 03/21/2026 |Insular Healthcare Inc| 1450- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,1450.0000,"Life & Health Hmp Inc - CALOPEZ, AMELIN CABAHUG | 03/17/2026 |Life & Health Hmp Inc| 1450- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,1450.0000,"Life & Health Hmp Inc - DELA CRUZ, AILYN ORTEGA | 03/17/2026 |Life & Health Hmp Inc| 1450- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,1450.0000,"Life & Health Hmp Inc - INTE, MARIA HILDA RULOMA | 03/17/2026 |Life & Health Hmp Inc| 1450- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,1450.0000,"Life & Health Hmp Inc - MACAWILE, LIEZEL CATACIO | 03/17/2026 |Life & Health Hmp Inc| 1450- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,1450.0000,"Life & Health Hmp Inc - PIQUERO, MA. LOLITA TUTUR | 03/17/2026 |Life & Health Hmp Inc| 1450- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,1450.0000,"Life & Health Hmp Inc - SULAD, DAISY VERALLO | 03/17/2026 |Life & Health Hmp Inc| 1450- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,1450.0000,"Life & Health Hmp Inc - YGOT, KATHERINE TAGHOY | 03/17/2026 |Life & Health Hmp Inc| 1450- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,1450.0000,"Life & Health Hmp Inc - LEPITEN, SHENKEE MAE ARMAMENTO | 03/19/2026 |Life & Health Hmp Inc| 1450- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,1450.0000,"Life & Health Hmp Inc - PEREZ, JUVY CASTRO | 03/19/2026 |Life & Health Hmp Inc| 1450- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,1450.0000,"Life & Health Hmp Inc - SIBI, JELIZA GOC-ONG | 03/20/2026 |Life & Health Hmp Inc| 1450- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,1450.0000,"Asalus Corporation - MORDENO, NOELLA MIRABEL | 03/16/2026 |Asalus Corporation| 1450- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,1450.0000,"Asalus Corporation - CASPE, CHERRY PAREÑO | 03/18/2026 |Asalus Corporation| 1450- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,1450.0000,"Asalus Corporation - DIZON, VANESSA GRACE SARAGA | 03/18/2026 |Asalus Corporation| 1450- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,1450.0000,"Asalus Corporation - SISON, PRECIOUS JADE JUDILLA | 03/18/2026 |Asalus Corporation| 1450- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,1450.0000,"Asalus Corporation - COLONGON, KATHLEEN ANN YBAÑEZ | 03/19/2026 |Asalus Corporation| 1450- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,1450.0000,"Asalus Corporation - DAYTIA, MARIA CRISTINA SALON | 03/21/2026 |Asalus Corporation| 1450- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,1450.0000,"Asalus Corporation - HAMILI, CHAIRMAINE BASCO | 03/21/2026 |Asalus Corporation| 1450- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,1500.0000,"Insular Healthcare Inc - JALA, LYN HEART ALBACETE | 03/16/2026 |Insular Healthcare Inc| 1500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,1500.0000,"Insular Healthcare Inc - PADILLO, EARLIE EDELWISE UY | 03/18/2026 |Insular Healthcare Inc| 1500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,1500.0000,"Insular Healthcare Inc - DUARTE, AIABHEN-LYN ANGULO | 03/20/2026 |Insular Healthcare Inc| 1500- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,1630.0000,"Insular Healthcare Inc - HAGUIMIT, JAY-ANN PATUAL | 03/16/2026 |Insular Healthcare Inc| 1630- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,855,65,2026-03-24,0.0000,1650.0000,"Leslie Corporation - UY, ROBERTO JR. VILLADAR | 03/18/2026 |LESLIE CORPORATION| 1650- — O4034",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,1720.0000,"Insular Healthcare Inc - BASALLO, CATHERINE CANDIDO | 03/17/2026 |Insular Healthcare Inc| 1720- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,834,65,2026-03-24,0.0000,1740.0000,"Avega Managed Care, Inc - VILLARIN, ALEX TABADA | 03/18/2026 |Avega Managed Care, Inc| 1740- — O4013",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,1740.0000,"Generali Life Assurance Philippines Inc - MACASIEB, GERRY GLENN CAYABAN | 03/20/2026 |Generali Life Assurance Philippines Inc| 1740- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,845,65,2026-03-24,0.0000,1800.0000,"PACIFIC CROSS INSURANCE, INC. - DOBLAS, AMELITA CORTES | 03/16/2026 |Pacific Cross Insurance, Inc.| 1800- — O4024",1,0,2026-03-31 23:59:59,0
+2,journal_entry,845,65,2026-03-24,0.0000,1800.0000,"PACIFIC CROSS INSURANCE, INC. - MAH, GAIL DIONELA | 03/16/2026 |Pacific Cross Insurance, Inc.| 1800- — O4024",1,0,2026-03-31 23:59:59,0
+2,journal_entry,845,65,2026-03-24,0.0000,1800.0000,"PACIFIC CROSS INSURANCE, INC. - POLIQUIT, LORNA BACALSO | 03/17/2026 |Pacific Cross Insurance, Inc.| 1800- — O4024",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,1830.0000,"Maxicare Healthcare Corporation - BACUSMO, EMILY ARBAS | 03/19/2026 |MAXICARE HEALTHCARE CORPORATION| 1830- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,842,65,2026-03-24,0.0000,1850.0000,"Value Care Health Systems, Inc. - ERIN, ALMA HIDLAWON | 03/18/2026 |Value Care Health Systems, Inc.| 1850- — O4021",1,0,2026-03-31 23:59:59,0
+2,journal_entry,855,65,2026-03-24,0.0000,1850.0000,"Leslie Corporation - PAGARATAN, LESLIE ROTA | 03/18/2026 |LESLIE CORPORATION| 1850- — O4034",1,0,2026-03-31 23:59:59,0
+2,journal_entry,855,65,2026-03-24,0.0000,1850.0000,"Leslie Corporation - ANDOLONG, MARK TINDOY | 03/21/2026 |LESLIE CORPORATION| 1850- — O4034",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,1870.0000,"Life & Health Hmp Inc - GERMAN, JANICE HUBAHIB | 03/21/2026 |Life & Health Hmp Inc| 1870- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,1870.0000,"Generali Life Assurance Philippines Inc - TABERNERO, MARIVELLE MUÑOZ | 03/17/2026 |Generali Life Assurance Philippines Inc| 1870- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,1870.0000,"Generali Life Assurance Philippines Inc - ALIGWAY, LILIBETH LARGO | 03/18/2026 |Generali Life Assurance Philippines Inc| 1870- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,1870.0000,"Generali Life Assurance Philippines Inc - RUTA, JOZIEL MONTEROLA | 03/19/2026 |Generali Life Assurance Philippines Inc| 1870- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,2000.0000,"Insular Healthcare Inc - GAVEN, ALFIE SOLA-SOLA | 03/21/2026 |Insular Healthcare Inc| 2000- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,2030.0000,"Insular Healthcare Inc - MENDREZ, JUDY ANN - | 03/18/2026 |Insular Healthcare Inc| 2030- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,2050.0000,"Asalus Corporation - VASQUEZ, GISELLE MILLAN | 03/16/2026 |Asalus Corporation| 2050- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,2050.0000,"Asalus Corporation - MADERA, JAKE ORWELL GALON | 03/21/2026 |Asalus Corporation| 2050- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,2050.0000,"Generali Life Assurance Philippines Inc - MACASIEB, GERRY GLENN CAYABAN | 03/17/2026 |Generali Life Assurance Philippines Inc| 2050- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,2070.0000,"Maxicare Healthcare Corporation - OLAER, AIKO KATHERINE LUMACAD | 03/20/2026 |MAXICARE HEALTHCARE CORPORATION| 2070- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,2070.0000,"Asalus Corporation - PINAT, JILL DURAN | 03/20/2026 |Asalus Corporation| 2070- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,2090.0000,"Life & Health Hmp Inc - OUANO, SARAH MARIE REFUELA | 03/17/2026 |Life & Health Hmp Inc| 2090- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,841,65,2026-03-24,0.0000,2110.0000,"Medicard Philippines Inc - PAGARATAN ., LESLIE ROTA | 03/18/2026 |Medicard Philippines Inc| 2110- — O4020",1,0,2026-03-31 23:59:59,0
+2,journal_entry,841,65,2026-03-24,0.0000,2110.0000,"Medicard Philippines Inc - BELLINGAN, MARJORIE ANGANA | 03/19/2026 |Medicard Philippines Inc| 2110- — O4020",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,2150.0000,"Insular Healthcare Inc - ENAD, NICOLEAND OYAO | 03/21/2026 |Insular Healthcare Inc| 2150- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,2160.0000,"Asalus Corporation - CHIN, RICHMOND TANCAWAN | 03/20/2026 |Asalus Corporation| 2160- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,852,65,2026-03-24,0.0000,2160.0000,"PAGES HOLDINGS, INC. - SOLIS, LEAH MAE JAYME | 03/17/2026 |PAGES HOLDINGS, INC.| 2160- — O4031",1,0,2026-03-31 23:59:59,0
+2,journal_entry,846,65,2026-03-24,0.0000,2210.0000,"Lacson & Lacson Insurance Brokers Inc - MONTO, FATIMA PADAPAT | 03/18/2026 |LACSON & LACSON INSURANCE BROKERS INC| 2210- — O4025",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,2230.0000,"Life & Health Hmp Inc - URTEZUELA, ANITA GARBO | 03/20/2026 |Life & Health Hmp Inc| 2230- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,835,65,2026-03-24,0.0000,2250.0000,"Philhealthcare, Inc - ORAIS, MA KRISTAH SALES | 03/16/2026 |Philhealthcare, Inc| 2250- — O4014",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,2250.0000,"Asalus Corporation - APARIJO, RUFF MARTIN PUSA | 03/20/2026 |Asalus Corporation| 2250- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,2300.0000,"Insular Healthcare Inc - TAGANA, MICHELLE FRANCIS ROBINSON | 03/16/2026 |Insular Healthcare Inc| 2300- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,2300.0000,"Asalus Corporation - PADAO, VISHEL AN GEVANA | 03/16/2026 |Asalus Corporation| 2300- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,2300.0000,"Generali Life Assurance Philippines Inc - MANIGO, DAHLIA GEMAO | 03/18/2026 |Generali Life Assurance Philippines Inc| 2300- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,2320.0000,"Insular Healthcare Inc - GELSANO, CHRISTIAN PAUL FERRER | 03/18/2026 |Insular Healthcare Inc| 2320- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,2400.0000,"Insular Healthcare Inc - ATON, JENNY DEJITO | 03/16/2026 |Insular Healthcare Inc| 2400- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,2400.0000,"Asalus Corporation - MORDENO, NOELLA MIRABEL | 03/17/2026 |Asalus Corporation| 2400- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,2440.0000,"Asalus Corporation - FERNANDEZ, MARIJOY CHRISTINE SABINO | 03/16/2026 |Asalus Corporation| 2440- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,2461.0000,"Maxicare Healthcare Corporation - TAN, DIANA CORDERO | 03/16/2026 |MAXICARE HEALTHCARE CORPORATION| 2461- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,2472.0000,"Maxicare Healthcare Corporation - SOLEJON, JOEMARIE CACAYAN | 03/19/2026 |MAXICARE HEALTHCARE CORPORATION| 2472- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,2480.0000,"Insular Healthcare Inc - VELEZ, MARIFEL BULIGAN | 03/18/2026 |Insular Healthcare Inc| 2480- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,2480.0000,"Maxicare Healthcare Corporation - SEMENSE, CHRISTIAN JERWIN BARNAYJA | 03/19/2026 |MAXICARE HEALTHCARE CORPORATION| 2480- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,838,65,2026-03-24,0.0000,2529.0000,"Maxicare Healthcare Corporation - RAMAS, DARTH CASTIEL RIZARRI | 03/19/2026 |MAXICARE HEALTHCARE CORPORATION| 2529- — O4017",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,2550.0000,"Life & Health Hmp Inc - VISCARA, ELOISA JANE DAMPAS | 03/19/2026 |Life & Health Hmp Inc| 2550- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,840,65,2026-03-24,0.0000,2550.0000,"Generali Life Assurance Philippines Inc - AGOSILA, JUAN MATTEO FERNAN | 03/21/2026 |Generali Life Assurance Philippines Inc| 2550- — O4019",1,0,2026-03-31 23:59:59,0
+2,journal_entry,834,65,2026-03-24,0.0000,2650.0000,"Avega Managed Care, Inc - GOTARDO, ARTHUR DACILLO | 03/18/2026 |Avega Managed Care, Inc| 2650- — O4013",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,2650.0000,"Insular Healthcare Inc - LABADAN, LALAINE MATA | 03/18/2026 |Insular Healthcare Inc| 2650- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,2650.0000,"Insular Healthcare Inc - CAPARIDA, ROWENA N/A | 03/19/2026 |Insular Healthcare Inc| 2650- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,837,65,2026-03-24,0.0000,2650.0000,"Life & Health Hmp Inc - AMODIA, EARL SUICO | 03/21/2026 |Life & Health Hmp Inc| 2650- — O4016",1,0,2026-03-31 23:59:59,0
+2,journal_entry,848,65,2026-03-24,0.0000,2650.0000,"Etiqa Life and General Assurance Phillipines, Inc - BATOMALAQUE, KRISTINE MAY ROMERO | 03/21/2026 |Etiqa Life and General Assurance Phillipines, Inc| 2650- — O4027",1,0,2026-03-31 23:59:59,0
+2,journal_entry,850,65,2026-03-24,0.0000,2650.0000,"Cooperative Health Management Federation - VILLANUEVA, JUNIVAN SAMSON | 03/18/2026 |COOPERATIVE HEALTH MANAGEMENT FEDERATION| 2650- — O4029",1,0,2026-03-31 23:59:59,0
+2,journal_entry,848,65,2026-03-24,0.0000,2720.0000,"Etiqa Life and General Assurance Phillipines, Inc - AUTIDA, CONSTANCIO FUENTES | 03/18/2026 |Etiqa Life and General Assurance Phillipines, Inc| 2720- — O4027",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,2730.0000,"Insular Healthcare Inc - TAGANA, NORIEL JOHN GONZALES | 03/16/2026 |Insular Healthcare Inc| 2730- — O4015",1,0,2026-03-31 23:59:59,0
+2,journal_entry,839,65,2026-03-24,0.0000,2860.0000,"Asalus Corporation - BONSUBRE, MERCY ECO | 03/18/2026 |Asalus Corporation| 2860- — O4018",1,0,2026-03-31 23:59:59,0
+2,journal_entry,836,65,2026-03-24,0.0000,2980.0000,"Insular Healthcare Inc - BESINGA, JAMES NICHOLAS SILAGAN | 03/16/2026 |Insular Healthcare Inc| 2980- — O4015",1,0,2026-03-31 23:59:59,0

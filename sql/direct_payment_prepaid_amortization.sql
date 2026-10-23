@@ -1,0 +1,3 @@
+-- Superseded by direct_payment_entries.sql and direct_payment_entries_uat.sql.
+-- Do not run this historical migration: its former header account columns have
+-- been removed from direct_payment and prepaid schedules now use entry rows.

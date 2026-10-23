@@ -1,0 +1,501 @@
+branch_id,source,source_id,account_type_id,date,debit,credit,remark,is_migrated,added_by,added_on,is_deleted
+\N,journal_entry,11941,217,2026-07-01,82300.0000,0.0000,Payment: HOME DEVELOPMENT MUTUAL FUND — RFP No.# 6250,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11936,77,2026-07-01,0.0000,3408.0000,Cash - Security Bank CPCI - OPEX Gcash — #65449,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11932,61,2026-07-01,0.0000,1862.0000,AR-Cebu check deposit BPI OPEX INSYSTIC CORPORATION July 1 — #65434,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11933,61,2026-07-01,0.0000,380028.3200,AR-Cebu check deposit BPI AVEGA MANAGED CARE INC July 1 — #65445,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11934,61,2026-07-01,0.0000,4500.0000,To record receipts sales BPI AR-Cebu Unidentified deposit JULY 1 — #65447,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11934,61,2026-07-01,0.0000,1832.6000,To record receipts sales BPI AR-Cebu Unidentified deposit JULY 1 — #65447,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11934,61,2026-07-01,0.0000,1832.6000,To record receipts sales BPI AR-Cebu Unidentified deposit JULY 1 — #65447,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11934,61,2026-07-01,0.0000,813.4000,To record receipts sales BPI AR-Cebu Unidentified deposit JULY 1 — #65447,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11937,61,2026-07-01,0.0000,700.0000,To record receipts of SBC OPEX Debit Card — #65450,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11938,61,2026-07-01,0.0000,74985.0500,To record receipts of SBC CREDIT CARD — #65451,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11939,61,2026-07-01,0.0000,1256.8500,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP JuLY 1 — #65453,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11939,61,2026-07-01,0.0000,2450.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP JuLY 1 — #65453,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11939,61,2026-07-01,0.0000,426320.0300,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP JuLY 1 — #65453,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11939,61,2026-07-01,0.0000,103145.0400,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP JuLY 1 — #65453,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11939,61,2026-07-01,0.0000,46127.7400,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP JuLY 1 — #65453,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11939,61,2026-07-01,0.0000,8048.7400,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP JuLY 1 — #65453,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11939,61,2026-07-01,0.0000,882.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP JuLY 1 — #65453,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11939,61,2026-07-01,0.0000,13699.4200,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP JuLY 1 — #65453,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11932,1,2026-07-01,1862.0000,0.0000,AR-Cebu check deposit BPI OPEX INSYSTIC CORPORATION July 1 — #65434,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11933,1,2026-07-01,380028.3200,0.0000,AR-Cebu check deposit BPI AVEGA MANAGED CARE INC July 1 — #65445,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11934,1,2026-07-01,4500.0000,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit JULY 1 — #65447,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11934,1,2026-07-01,1832.6000,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit JULY 1 — #65447,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11934,1,2026-07-01,1832.6000,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit JULY 1 — #65447,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11934,1,2026-07-01,813.4000,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit JULY 1 — #65447,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11941,1,2026-07-01,0.0000,49200.0000,Payment: HOME DEVELOPMENT MUTUAL FUND — RFP No.# 6250,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11936,5,2026-07-01,3408.0000,0.0000,Cash - Security Bank CPCI - OPEX Gcash — #65449,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11937,5,2026-07-01,700.0000,0.0000,To record receipts of SBC OPEX Debit Card — #65450,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11938,5,2026-07-01,74985.0500,0.0000,To record receipts of SBC CREDIT CARD — #65451,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11939,5,2026-07-01,1256.8500,0.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP JuLY 1 — #65453,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11939,5,2026-07-01,2450.0000,0.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP JuLY 1 — #65453,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11939,5,2026-07-01,426320.0300,0.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP JuLY 1 — #65453,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11939,5,2026-07-01,103145.0400,0.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP JuLY 1 — #65453,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11939,5,2026-07-01,46127.7400,0.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP JuLY 1 — #65453,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11939,5,2026-07-01,8048.7400,0.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP JuLY 1 — #65453,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11939,5,2026-07-01,882.0000,0.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP JuLY 1 — #65453,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11939,5,2026-07-01,13699.4200,0.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP JuLY 1 — #65453,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11935,1777,2026-07-01,0.0000,99489.0000,to record cash sales June 30 - — #65448,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11935,1777,2026-07-01,99489.0000,0.0000,to record cash sales June 30 - — #65448,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11940,1777,2026-07-01,0.0000,882334.0000,"Sales Branches JuLY 01, 2026 - Cash Sales - July, 01 — #69619",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11940,1777,2026-07-01,882334.0000,0.0000,"Sales Branches JuLY 01, 2026 - Laboratory/Diagnostics — #69619",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11957,217,2026-07-02,0.0000,15068.1700,Lh Paragon Inc — RFP No.# 6440,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11956,217,2026-07-02,0.0000,116476.3900,Lh Paragon Inc — RFP No.# 6438,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11956,585,2026-07-02,7000.0000,0.0000,"Lh Paragon Inc - SAP PO #1002081- Gworks Pro Event Service Provider (LED Wall and Sounds for March 30,2026)- Charged to CPCI — RFP No.# 6438",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11948,77,2026-07-02,0.0000,1840.0000,Cash - Security Bank CPCI - OPEX Gcash — #65607,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11945,61,2026-07-02,0.0000,72632.7000,To record receipts sales BPI AR-Cebu PhilHealth Care — #65604,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11945,61,2026-07-02,0.0000,19472.6000,To record receipts sales BPI AR-Cebu PhilHealth Care — #65604,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11945,61,2026-07-02,0.0000,9839.2000,To record receipts sales BPI AR-Cebu PhilHealth Care — #65604,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11946,61,2026-07-02,0.0000,2851.8000,To record receipts sales BPI AR-Cebu  AR-Terms Virtual Hub Philippines July 2 — #65605,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11949,61,2026-07-02,0.0000,6605.0000,To record receipts of SBC OPEX Debit Card — #65608,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11950,61,2026-07-02,0.0000,62794.4900,To record receipts of SBC CREDIT CARD — #65609,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11951,61,2026-07-02,0.0000,600.0000,To record receipts of SBC AR-Terms for HEALTH DELIVERY SYS INC JULY 2 — #65610,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11952,61,2026-07-02,0.0000,25822.0000,To record Credit Cards mbtc — #65612,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11953,605,2026-07-02,903.7700,0.0000,To record Credit Cards bank charge mbtc — #65613,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11954,605,2026-07-02,50.0000,0.0000,Manadaue City Treasurer - Manager's Check Bank Charge — #65619,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11954,53,2026-07-02,0.0000,50.0000,Manadaue City Treasurer - Manager's Check Bank Charge — #65619,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11942,1,2026-07-02,0.0000,850000.0000,Reversal of: Fund transfer FT from MBTC OPEX TO BPI june 29 — #65413,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11943,1,2026-07-02,1350000.0000,0.0000,Fund transfer FT from MBTC OPEX TO BPI JULY 2 — #65414,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11944,1,2026-07-02,1000000.0000,0.0000,Fund transfer FT from SBC-OpEx TO BPI-OPEX July 2 — #65420,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11945,1,2026-07-02,72632.7000,0.0000,To record receipts sales BPI AR-Cebu PhilHealth Care — #65604,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11945,1,2026-07-02,19472.6000,0.0000,To record receipts sales BPI AR-Cebu PhilHealth Care — #65604,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11945,1,2026-07-02,9839.2000,0.0000,To record receipts sales BPI AR-Cebu PhilHealth Care — #65604,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11946,1,2026-07-02,2851.8000,0.0000,To record receipts sales BPI AR-Cebu  AR-Terms Virtual Hub Philippines July 2 — #65605,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11942,41,2026-07-02,850000.0000,0.0000,Reversal of: Fund transfer FT from MBTC OPEX TO BPI june 29 — #65413,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11943,41,2026-07-02,0.0000,1350000.0000,Fund transfer FT from MBTC OPEX TO BPI JULY 2 — #65414,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11952,41,2026-07-02,25822.0000,0.0000,To record Credit Cards mbtc — #65612,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11953,41,2026-07-02,0.0000,903.7700,To record Credit Cards bank charge mbtc — #65613,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11944,5,2026-07-02,0.0000,1000000.0000,Fund transfer FT from SBC-OpEx TO BPI-OPEX July 2 — #65420,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11948,5,2026-07-02,1840.0000,0.0000,Cash - Security Bank CPCI - OPEX Gcash — #65607,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11949,5,2026-07-02,6605.0000,0.0000,To record receipts of SBC OPEX Debit Card — #65608,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11950,5,2026-07-02,62794.4900,0.0000,To record receipts of SBC CREDIT CARD — #65609,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11951,5,2026-07-02,600.0000,0.0000,To record receipts of SBC AR-Terms for HEALTH DELIVERY SYS INC JULY 2 — #65610,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11957,609,2026-07-02,15068.1700,0.0000,"Lh Paragon Inc - Nondeductible: Payment for CPCI Utilities (Eelectricity, Water & CUSA 1) ftp of May 27 to June 26, 2026 BS no. 1001395 — RFP No.# 6440",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11956,665,2026-07-02,14.4000,0.0000,Lh Paragon Inc - To record April 2025 amortization on HMO — RFP No.# 6438,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11956,665,2026-07-02,24.0000,0.0000,Lh Paragon Inc - To record May 2025 amortization on HMO — RFP No.# 6438,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11956,1773,2026-07-02,100000.0000,0.0000,"Lh Paragon Inc - SAP PO #1002212 - Per diem as CPCI Board Advisor for the month of May 2026 (May 25, 2026) — RFP No.# 6438",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11956,841,2026-07-02,799.0000,0.0000,Lh Paragon Inc - SAP PO #1002139- Globe Payment ftm of March 2026 — RFP No.# 6438,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11956,841,2026-07-02,798.9900,0.0000,Lh Paragon Inc - SAP PO #1002194- Globe Payment ftm of April 2026 — RFP No.# 6438,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11947,1777,2026-07-02,0.0000,89982.0000,to record cash sales July 1 - — #65606,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11947,1777,2026-07-02,89982.0000,0.0000,to record cash sales July 1 - — #65606,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11953,1777,2026-07-02,0.0000,903.7700,To record Credit Cards bank charge mbtc — #65613,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11953,1777,2026-07-02,903.7700,0.0000,To record Credit Cards bank charge mbtc — #65613,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11954,1777,2026-07-02,0.0000,50.0000,Manadaue City Treasurer - Manager's Check Bank Charge — #65619,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11954,1777,2026-07-02,50.0000,0.0000,Manadaue City Treasurer - Manager's Check Bank Charge — #65619,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11955,1777,2026-07-02,0.0000,737182.0000,"Sales Branches JuLY 02, 2026 - Cash Sales - July, 02 — #69620",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11955,1777,2026-07-02,737182.0000,0.0000,"Sales Branches JuLY 02, 2026 - Laboratory/Diagnostics — #69620",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11956,377,2026-07-02,7840.0000,0.0000,Lh Paragon Inc - SAP PO #1002215 - Registrability Report for WELLNESS FOR LIFE — RFP No.# 6438,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11969,217,2026-07-03,68310.0000,0.0000,Payment: BIOLAB MEDICAL SUPPLIES — 0326-000291,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11970,217,2026-07-03,49049.5500,0.0000,Payment: BIOLAB MEDICAL SUPPLIES — 0326-000292,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11967,217,2026-07-03,79285.7100,0.0000,Payment: AO BIOMED & INDUSTRIAL MARKETING — 0126-000103,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11968,217,2026-07-03,76114.2900,0.0000,Payment: AO BIOMED & INDUSTRIAL MARKETING — 0126-000104,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11981,217,2026-07-03,17150.0000,0.0000,Payment: BETTERFIT CLOTHING ALTERATIONS SEWING SERVICES — RFP No.# 5866,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11971,217,2026-07-03,12883.9300,0.0000,Payment: NELLU TRADING INC. — 0526-000548,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11972,217,2026-07-03,37660.7200,0.0000,"Payment: BTL MEDICAL TECHNOLOGIES, INC. — 0526-000603",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11973,217,2026-07-03,47571.4300,0.0000,Payment: BARCOTECH PHILIPPINES INC. — 0526-000606,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11974,217,2026-07-03,2279.4600,0.0000,Payment: DG'S INK TRADING — 0526-000612,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11977,217,2026-07-03,12134.3800,0.0000,Payment: ALEDAN MKTG CORP — 0626-000636,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11975,217,2026-07-03,3241.0700,0.0000,Payment: ALEDAN MKTG CORP — 0626-000633,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11976,217,2026-07-03,3437.5000,0.0000,Payment: ALEDAN MKTG CORP — 0626-000635,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11979,217,2026-07-03,1520.3600,0.0000,Payment: HDP PRINTING — 0626-000648,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11980,217,2026-07-03,21469.6400,0.0000,Payment: HDP PRINTING — 0626-000649,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11978,217,2026-07-03,452.7700,0.0000,Payment: HDP PRINTING — 0626-000647,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11990,217,2026-07-03,6563.5800,0.0000,Payment: Orlando O. Balvez — RFP No.# 6412,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11989,217,2026-07-03,24071.7900,0.0000,Payment: Marc Lyndon M. Tubog — RFP No.# 6411,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11991,217,2026-07-03,10607.2900,0.0000,Payment: Egan R. Vargas — RFP No.# 6413,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11986,217,2026-07-03,202175.4000,0.0000,Payment: Lh Paragon Inc — RFP No.# 6346,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11992,217,2026-07-03,31150.0000,0.0000,"Payment: SMART COMMUNICATIONS, INC. — RFP No.# 6425",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11993,217,2026-07-03,3492.0000,0.0000,Payment: Mary Ann Emphasis — RFP No.# 6437,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11987,217,2026-07-03,5661.0000,0.0000,Payment: JOHN MARL M. ABAPO — RFP No.# 6366,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11988,217,2026-07-03,14000.0000,0.0000,Payment: IRISH F. BURNASAL — RFP No.# 6370,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11985,217,2026-07-03,214147.7000,0.0000,"Payment: Avega Managed Care, Inc — RFP No.# 6311",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11984,217,2026-07-03,320000.0000,0.0000,"Payment: Avega Managed Care, Inc — RFP No.# 6310",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11982,217,2026-07-03,9893.7200,0.0000,Payment: HOME DEVELOPMENT MUTUAL FUND — RFP No.# 6248,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11983,217,2026-07-03,3529.6600,0.0000,Payment: HOME DEVELOPMENT MUTUAL FUND — RFP No.# 6249,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11958,237,2026-07-03,15068.1700,0.0000,"Reversal of: To accrue LHPI: shared utilities block 88Electricity, Water, CUSA 1 June — #65823",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11959,237,2026-07-03,16476.4000,0.0000,"Reversal of: to accrue LHPI charges billing inv 1001389 (LED Wall and Sounds for March 30), Registrability Report for  WELLNESS FOR LIFE, amortization on HMO, Atty Gayle meals — #65830",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11960,237,2026-07-03,100000.0000,0.0000,Reversal of: To record accrual of LHPI Dr. Kenneth Y. Hartigan-Go - Per diem as CPCI Board Advisor for the month of 2026 May — #65832,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11963,237,2026-07-03,2189151.6100,0.0000,to record Payroll payout July 3 - BPI Payroll — #67998,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11963,237,2026-07-03,309295.3700,0.0000,to record Payroll payout July 3 - BPI Payroll — #67998,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11963,237,2026-07-03,234059.2300,0.0000,to record Payroll payout July 3 - BPI Payroll — #67998,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11963,237,2026-07-03,130612.4000,0.0000,"to record Payroll payout July 3 - EXECUTIVE OFFICE FEES FOR THE PERIOD OF JUNE 16-30, 2026 — #67998",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11959,585,2026-07-03,0.0000,7000.0000,"Reversal of: to accrue LHPI charges billing inv 1001389 (LED Wall and Sounds for March 30), Registrability Report for  WELLNESS FOR LIFE, amortization on HMO, Atty Gayle meals — #65830",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11961,61,2026-07-03,0.0000,33119.1000,To record receipts sales BPI AR-Terms - OAKRIDGE REALTY DEV CORP — #67989,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11961,61,2026-07-03,0.0000,173249.3000,To record receipts sales BPI AR-Terms - NITO'S INTERNATIONAL VENTURES INC — #67989,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11961,61,2026-07-03,0.0000,30550.0000,To record receipts sales BPI AR-Terms - HEAD MISSIONARIES OF THE SACRED HEART INC — #67989,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11961,61,2026-07-03,0.0000,931.0000,To record receipts sales BPI AR-Terms - D'LOGO — #67989,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11961,61,2026-07-03,0.0000,931.0000,To record receipts sales BPI AR-Terms - D'LOGO — #67989,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11962,61,2026-07-03,0.0000,27832.0000,To record receipts of SBC AR-Terms July 3 - INLIFE BENEFITS INSURANCE COMPANY — #67991,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11962,61,2026-07-03,0.0000,4018.0000,To record receipts of SBC AR-Terms July 3 - INLIFE BENEFITS INSURANCE COMPANY — #67991,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11962,61,2026-07-03,0.0000,16326.8000,To record receipts of SBC AR-Terms July 3 - INLIFE BENEFITS INSURANCE COMPANY — #67991,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11962,61,2026-07-03,0.0000,2940.0000,To record receipts of SBC AR-Terms July 3 - INLIFE BENEFITS INSURANCE COMPANY — #67991,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11962,61,2026-07-03,0.0000,52213.2000,To record receipts of SBC AR-Terms July 3 - MAXICARE HEALTHCARE CORP — #67991,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11962,61,2026-07-03,0.0000,11546.3100,To record receipts of SBC AR-Terms July 3 - MAXICARE HEALTHCARE CORP — #67991,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11962,61,2026-07-03,0.0000,588.0000,To record receipts of SBC AR-Terms July 3 - MAXICARE HEALTHCARE CORP — #67991,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11962,61,2026-07-03,0.0000,3234.0000,To record receipts of SBC AR-Terms July 3 - MAXICARE HEALTHCARE CORP — #67991,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11962,61,2026-07-03,0.0000,2851.8000,"To record receipts of SBC AR-Terms July 3 - PACIFIC CROSS INSURANCE, INC. — #67991",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11962,61,2026-07-03,0.0000,2557.8000,"To record receipts of SBC AR-Terms July 3 - PACIFIC CROSS INSURANCE, INC. — #67991",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11962,61,2026-07-03,0.0000,1000.0000,To record receipts of SBC AR-Terms July 3 - ADVANCED MEDICAL ACCESS PHILIPPINES — #67991,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11962,61,2026-07-03,0.0000,1440.0000,To record receipts of SBC AR-Terms July 3 - DELFINGEN PH FILIPINAS INC — #67991,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11962,61,2026-07-03,0.0000,1871.8000,"To record receipts of SBC AR-Terms July 3 - MEDICARD PHILIPPINES, INC. — #67991",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11969,53,2026-07-03,0.0000,68310.0000,Payment: BIOLAB MEDICAL SUPPLIES — 0326-000291,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11970,53,2026-07-03,0.0000,49049.5500,Payment: BIOLAB MEDICAL SUPPLIES — 0326-000292,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11967,53,2026-07-03,0.0000,79285.7100,Payment: AO BIOMED & INDUSTRIAL MARKETING — 0126-000103,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11968,53,2026-07-03,0.0000,76114.2900,Payment: AO BIOMED & INDUSTRIAL MARKETING — 0126-000104,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11981,53,2026-07-03,0.0000,17150.0000,Payment: BETTERFIT CLOTHING ALTERATIONS SEWING SERVICES — RFP No.# 5866,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11971,53,2026-07-03,0.0000,12883.9300,Payment: NELLU TRADING INC. — 0526-000548,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11972,53,2026-07-03,0.0000,37660.7200,"Payment: BTL MEDICAL TECHNOLOGIES, INC. — 0526-000603",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11973,53,2026-07-03,0.0000,47571.4300,Payment: BARCOTECH PHILIPPINES INC. — 0526-000606,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11974,53,2026-07-03,0.0000,2279.4600,Payment: DG'S INK TRADING — 0526-000612,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11977,53,2026-07-03,0.0000,12134.3800,Payment: ALEDAN MKTG CORP — 0626-000636,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11975,53,2026-07-03,0.0000,3241.0700,Payment: ALEDAN MKTG CORP — 0626-000633,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11976,53,2026-07-03,0.0000,3437.5000,Payment: ALEDAN MKTG CORP — 0626-000635,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11979,53,2026-07-03,0.0000,1520.3600,Payment: HDP PRINTING — 0626-000648,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11980,53,2026-07-03,0.0000,21469.6400,Payment: HDP PRINTING — 0626-000649,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11978,53,2026-07-03,0.0000,452.7700,Payment: HDP PRINTING — 0626-000647,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11990,1,2026-07-03,0.0000,6563.5800,Payment: Orlando O. Balvez — RFP No.# 6412,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11989,1,2026-07-03,0.0000,24071.7900,Payment: Marc Lyndon M. Tubog — RFP No.# 6411,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11991,1,2026-07-03,0.0000,10607.2900,Payment: Egan R. Vargas — RFP No.# 6413,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11986,1,2026-07-03,0.0000,202175.4000,Payment: Lh Paragon Inc — RFP No.# 6346,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11992,1,2026-07-03,0.0000,24600.0000,"Payment: SMART COMMUNICATIONS, INC. — RFP No.# 6425",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11993,1,2026-07-03,0.0000,1510.0000,Payment: Mary Ann Emphasis — RFP No.# 6437,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11987,1,2026-07-03,0.0000,5661.0000,Payment: JOHN MARL M. ABAPO — RFP No.# 6366,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11988,1,2026-07-03,0.0000,14000.0000,Payment: IRISH F. BURNASAL — RFP No.# 6370,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11985,1,2026-07-03,0.0000,214147.7000,"Payment: Avega Managed Care, Inc — RFP No.# 6311",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11984,1,2026-07-03,0.0000,320000.0000,"Payment: Avega Managed Care, Inc — RFP No.# 6310",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11961,1,2026-07-03,33119.1000,0.0000,To record receipts sales BPI AR-Terms - OAKRIDGE REALTY DEV CORP — #67989,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11961,1,2026-07-03,173249.3000,0.0000,To record receipts sales BPI AR-Terms - NITO'S INTERNATIONAL VENTURES INC — #67989,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11961,1,2026-07-03,30550.0000,0.0000,To record receipts sales BPI AR-Terms - HEAD MISSIONARIES OF THE SACRED HEART INC — #67989,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11961,1,2026-07-03,931.0000,0.0000,To record receipts sales BPI AR-Terms - D'LOGO — #67989,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11961,1,2026-07-03,931.0000,0.0000,To record receipts sales BPI AR-Terms - D'LOGO — #67989,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11963,1,2026-07-03,0.0000,2189151.6100,to record Payroll payout July 3 - BPI Payroll — #67998,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11963,1,2026-07-03,0.0000,309295.3700,to record Payroll payout July 3 - BPI Payroll — #67998,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11963,1,2026-07-03,0.0000,234059.2300,to record Payroll payout July 3 - BPI Payroll — #67998,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11963,1,2026-07-03,0.0000,130612.4000,"to record Payroll payout July 3 - EXECUTIVE OFFICE FEES FOR THE PERIOD OF JUNE 16-30, 2026 — #67998",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11982,1,2026-07-03,0.0000,9893.7200,Payment: HOME DEVELOPMENT MUTUAL FUND — RFP No.# 6248,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11983,1,2026-07-03,0.0000,3529.6600,Payment: HOME DEVELOPMENT MUTUAL FUND — RFP No.# 6249,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11962,5,2026-07-03,27832.0000,0.0000,To record receipts of SBC AR-Terms July 3 - INLIFE BENEFITS INSURANCE COMPANY — #67991,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11962,5,2026-07-03,4018.0000,0.0000,To record receipts of SBC AR-Terms July 3 - INLIFE BENEFITS INSURANCE COMPANY — #67991,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11962,5,2026-07-03,16326.8000,0.0000,To record receipts of SBC AR-Terms July 3 - INLIFE BENEFITS INSURANCE COMPANY — #67991,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11962,5,2026-07-03,2940.0000,0.0000,To record receipts of SBC AR-Terms July 3 - INLIFE BENEFITS INSURANCE COMPANY — #67991,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11962,5,2026-07-03,52213.2000,0.0000,To record receipts of SBC AR-Terms July 3 - MAXICARE HEALTHCARE CORP — #67991,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11962,5,2026-07-03,11546.3100,0.0000,To record receipts of SBC AR-Terms July 3 - MAXICARE HEALTHCARE CORP — #67991,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11962,5,2026-07-03,588.0000,0.0000,To record receipts of SBC AR-Terms July 3 - MAXICARE HEALTHCARE CORP — #67991,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11962,5,2026-07-03,3234.0000,0.0000,To record receipts of SBC AR-Terms July 3 - MAXICARE HEALTHCARE CORP — #67991,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11962,5,2026-07-03,2851.8000,0.0000,"To record receipts of SBC AR-Terms July 3 - PACIFIC CROSS INSURANCE, INC. — #67991",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11962,5,2026-07-03,2557.8000,0.0000,"To record receipts of SBC AR-Terms July 3 - PACIFIC CROSS INSURANCE, INC. — #67991",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11962,5,2026-07-03,1000.0000,0.0000,To record receipts of SBC AR-Terms July 3 - ADVANCED MEDICAL ACCESS PHILIPPINES — #67991,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11962,5,2026-07-03,1440.0000,0.0000,To record receipts of SBC AR-Terms July 3 - DELFINGEN PH FILIPINAS INC — #67991,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11962,5,2026-07-03,1871.8000,0.0000,"To record receipts of SBC AR-Terms July 3 - MEDICARD PHILIPPINES, INC. — #67991",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11964,1761,2026-07-03,19066.6600,0.0000,Time Deposit Interest Income - 07/03/2026 — #68741,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11965,1761,2026-07-03,10019066.6600,0.0000,Time Deposit Placement - Rollover of Principal and Interest - Maturity Date is 07/22/2026 — #68742,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11965,1761,2026-07-03,0.0000,10019066.6600,Time Deposit Placement - Rollover of Principal and Interest - Maturity Date is 07/22/2026 — #68742,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11958,609,2026-07-03,0.0000,15068.1700,"Reversal of: To accrue LHPI: shared utilities block 88Electricity, Water, CUSA 1 June - Electricity, Water, CUSA 1 — #65823",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11959,665,2026-07-03,0.0000,38.4000,"Reversal of: to accrue LHPI charges billing inv 1001389 (LED Wall and Sounds for March 30), Registrability Report for  WELLNESS FOR LIFE, amortization on HMO, Atty Gayle meals - april & may hmo — #65830",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11964,1589,2026-07-03,0.0000,19066.6600,Time Deposit Interest Income - 07/03/2026 — #68741,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11960,1773,2026-07-03,0.0000,100000.0000,Reversal of: To record accrual of LHPI Dr. Kenneth Y. Hartigan-Go - Per diem as CPCI Board Advisor for the month of 2026 May — #65832,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11959,841,2026-07-03,0.0000,799.0000,"Reversal of: to accrue LHPI charges billing inv 1001389 (LED Wall and Sounds for March 30), Registrability Report for  WELLNESS FOR LIFE, amortization on HMO, Atty Gayle meals - march — #65830",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11959,841,2026-07-03,0.0000,799.0000,"Reversal of: to accrue LHPI charges billing inv 1001389 (LED Wall and Sounds for March 30), Registrability Report for  WELLNESS FOR LIFE, amortization on HMO, Atty Gayle meals - april — #65830",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11959,1777,2026-07-03,16476.4000,0.0000,"Reversal of: to accrue LHPI charges billing inv 1001389 (LED Wall and Sounds for March 30), Registrability Report for  WELLNESS FOR LIFE, amortization on HMO, Atty Gayle meals — #65830",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11959,1777,2026-07-03,0.0000,16476.4000,"Reversal of: to accrue LHPI charges billing inv 1001389 (LED Wall and Sounds for March 30), Registrability Report for  WELLNESS FOR LIFE, amortization on HMO, Atty Gayle meals — #65830",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11960,1777,2026-07-03,100000.0000,0.0000,Reversal of: To record accrual of LHPI Dr. Kenneth Y. Hartigan-Go - Per diem as CPCI Board Advisor for the month of 2026 May — #65832,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11960,1777,2026-07-03,0.0000,100000.0000,Reversal of: To record accrual of LHPI Dr. Kenneth Y. Hartigan-Go - Per diem as CPCI Board Advisor for the month of 2026 May — #65832,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11963,1777,2026-07-03,0.0000,2863118.6100,to record Payroll payout July 3 - BPI Payroll — #67998,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11963,1777,2026-07-03,2863118.6100,0.0000,to record Payroll payout July 3 - BPI Payroll — #67998,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11966,1777,2026-07-03,0.0000,714963.0000,"Sales Branches JuLY 03, 2026 - Cash Sales - July, 03 — #69621",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11966,1777,2026-07-03,714963.0000,0.0000,"Sales Branches JuLY 03, 2026 - Laboratory/Diagnostics — #69621",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11959,377,2026-07-03,0.0000,7840.0000,"Reversal of: to accrue LHPI charges billing inv 1001389 (LED Wall and Sounds for March 30), Registrability Report for  WELLNESS FOR LIFE, amortization on HMO, Atty Gayle meals — #65830",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11994,1777,2026-07-04,0.0000,848244.0000,"Sales Branches JuLY 04, 2026 - Cash Sales - July, 04 — #69622",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11994,1777,2026-07-04,848244.0000,0.0000,"Sales Branches JuLY 04, 2026 - Laboratory/Diagnostics — #69622",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12007,217,2026-07-06,0.0000,6446.6700,STEFANIE B. BERNAS — RFP No.# 6451,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12006,217,2026-07-06,0.0000,491.0700,ALEDAN MKTG CORP — 0726-000731,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12008,217,2026-07-06,0.0000,41627.3000,Responsible Internet Sustainability Effort Inc. (RISE) — RFP No.# 6458,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12006,585,2026-07-06,446.4300,0.0000,"ALEDAN MKTG CORP - Vatable: Payment for 1pc Rabies Algorithm Chart, 1pc Animal Bite Management Flow| PO no.OPEX-26-0377 SI no.001337 — 0726-000731",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11998,77,2026-07-06,0.0000,23277.0000,Cash - Security Bank CPCI - OPEX Gcash — #68009,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11999,61,2026-07-06,0.0000,10805.0000,To record receipts of SBC OPEX Debit Card — #68010,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12000,61,2026-07-06,0.0000,147070.8600,To record receipts of SBC CREDIT CARD — #68011,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12001,61,2026-07-06,0.0000,4045.4400,"To record receipts of SBC AR-Terms JuLY 6 - MEDICARD PHILIPPINES, INC. — #68012",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12001,61,2026-07-06,0.0000,9366.3000,To record receipts of SBC AR-Terms JuLY 6 - MAXICARE HEALTHCARE CORP — #68012,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12001,61,2026-07-06,0.0000,13912.5200,To record receipts of SBC AR-Terms JuLY 6 - MAXICARE HEALTHCARE CORP — #68012,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12001,61,2026-07-06,0.0000,15896.0800,To record receipts of SBC AR-Terms JuLY 6 - MAXICARE HEALTHCARE CORP — #68012,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12001,61,2026-07-06,0.0000,82922.2000,To record receipts of SBC AR-Terms JuLY 6 - MAXICARE HEALTHCARE CORP — #68012,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12001,61,2026-07-06,0.0000,30203.7600,To record receipts of SBC AR-Terms JuLY 6 - MAXICARE HEALTHCARE CORP — #68012,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12002,61,2026-07-06,0.0000,23434.9900,To record Credit Cards mbtc — #68015,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12004,61,2026-07-06,0.0000,2352.0000,To record receipts sales BPI AR-Cebu july 6 -  Unidentified deposit 07/06/2026 — #68452,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12004,61,2026-07-06,0.0000,784.0000,"To record receipts sales BPI AR-Cebu july 6 - TAMIYA PHILIPPINES, INC. — #68452",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12004,61,2026-07-06,0.0000,4145.4000,"To record receipts sales BPI AR-Cebu july 6 - CITE TECHNICAL INSTITUTE, INC. — #68452",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12004,61,2026-07-06,0.0000,7301.0000,"To record receipts sales BPI AR-Cebu july 6 - CITE TECHNICAL INSTITUTE, INC. — #68452",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12004,61,2026-07-06,0.0000,208109.8600,To record receipts sales BPI AR-Cebu july 6 - ASALUS CORPORATION — #68452,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12003,605,2026-07-06,820.2200,0.0000,To record Credit Cards bank charge mbtc — #68017,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12004,1,2026-07-06,2352.0000,0.0000,To record receipts sales BPI AR-Cebu july 6 -  Unidentified deposit 07/06/2026 — #68452,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12004,1,2026-07-06,784.0000,0.0000,"To record receipts sales BPI AR-Cebu july 6 - TAMIYA PHILIPPINES, INC. — #68452",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12004,1,2026-07-06,4145.4000,0.0000,"To record receipts sales BPI AR-Cebu july 6 - CITE TECHNICAL INSTITUTE, INC. — #68452",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12004,1,2026-07-06,7301.0000,0.0000,"To record receipts sales BPI AR-Cebu july 6 - CITE TECHNICAL INSTITUTE, INC. — #68452",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12004,1,2026-07-06,208109.8600,0.0000,To record receipts sales BPI AR-Cebu july 6 - ASALUS CORPORATION — #68452,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12002,41,2026-07-06,23434.9900,0.0000,To record Credit Cards mbtc — #68015,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12003,41,2026-07-06,0.0000,820.2200,To record Credit Cards bank charge mbtc — #68017,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11998,5,2026-07-06,23277.0000,0.0000,Cash - Security Bank CPCI - OPEX Gcash — #68009,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11999,5,2026-07-06,10805.0000,0.0000,To record receipts of SBC OPEX Debit Card — #68010,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12000,5,2026-07-06,147070.8600,0.0000,To record receipts of SBC CREDIT CARD — #68011,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12001,5,2026-07-06,4045.4400,0.0000,"To record receipts of SBC AR-Terms JuLY 6 - MEDICARD PHILIPPINES, INC. — #68012",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12001,5,2026-07-06,9366.3000,0.0000,To record receipts of SBC AR-Terms JuLY 6 - MAXICARE HEALTHCARE CORP — #68012,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12001,5,2026-07-06,13912.5200,0.0000,To record receipts of SBC AR-Terms JuLY 6 - MAXICARE HEALTHCARE CORP — #68012,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12001,5,2026-07-06,15896.0800,0.0000,To record receipts of SBC AR-Terms JuLY 6 - MAXICARE HEALTHCARE CORP — #68012,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12001,5,2026-07-06,82922.2000,0.0000,To record receipts of SBC AR-Terms JuLY 6 - MAXICARE HEALTHCARE CORP — #68012,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12001,5,2026-07-06,30203.7600,0.0000,To record receipts of SBC AR-Terms JuLY 6 - MAXICARE HEALTHCARE CORP — #68012,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12007,613,2026-07-06,1000.0000,0.0000,STEFANIE B. BERNAS - Globe Billing (Replenishment) — RFP No.# 6451,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12008,613,2026-07-06,37843.0000,0.0000,"Responsible Internet Sustainability Effort Inc. (RISE) - Vatable: Payment for Internet Gold in Shared Office ftp July 04-Aug 03, 2026 | SI no.0000021571 — RFP No.# 6458",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12006,245,2026-07-06,0.0000,8.9300,"ALEDAN MKTG CORP - 2% EWT:  Payment for 1pc Rabies Algorithm Chart, 1pc Animal Bite Management Flow| PO no.OPEX-26-0377 SI no.001337 — 0726-000731",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12008,245,2026-07-06,0.0000,756.8600,"Responsible Internet Sustainability Effort Inc. (RISE) - 2% EWT on Payment for Internet Gold in Shared Office ftp July 04-Aug 03, 2026 | SI no.0000021571 — RFP No.# 6458",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12006,685,2026-07-06,53.5700,0.0000,"ALEDAN MKTG CORP - Vat:  Payment for 1pc Rabies Algorithm Chart, 1pc Animal Bite Management Flow| PO no.OPEX-26-0377 SI no.001337 — 0726-000731",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12008,709,2026-07-06,4541.1600,0.0000,"Responsible Internet Sustainability Effort Inc. (RISE) - Vat: Payment for Internet Gold in Shared Office ftp July 04-Aug 03, 2026 | SI no.0000021571 — RFP No.# 6458",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12007,753,2026-07-06,79.0700,0.0000,STEFANIE B. BERNAS - Vat: Billing Delivery to Manila (Replenishement) — RFP No.# 6451,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12007,777,2026-07-06,39.3200,0.0000,STEFANIE B. BERNAS - Vat: Transportation (Replenishment) — RFP No.# 6451,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12007,849,2026-07-06,1587.1700,0.0000,"STEFANIE B. BERNAS - Nondeductible: Purchase of Power Supply , Antenna Wifi & Doc Stamp (Replenishment) — RFP No.# 6451",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12007,885,2026-07-06,658.9300,0.0000,STEFANIE B. BERNAS - Vatable: Billing Deilvery to Manila (Replenishement) — RFP No.# 6451,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12007,913,2026-07-06,900.0000,0.0000,STEFANIE B. BERNAS - Meal allowance during inventory count (Replenishment) — RFP No.# 6451,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11995,1777,2026-07-06,0.0000,93262.0000,to record cash sales July 2 - — #68006,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11995,1777,2026-07-06,93262.0000,0.0000,to record cash sales July 2 - — #68006,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11996,1777,2026-07-06,0.0000,86692.0000,to record cash sales July 3 - — #68007,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11996,1777,2026-07-06,86692.0000,0.0000,to record cash sales July 3 - — #68007,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11997,1777,2026-07-06,0.0000,104327.0000,to record cash sales July 4 - — #68008,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,11997,1777,2026-07-06,104327.0000,0.0000,to record cash sales July 4 - — #68008,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12003,1777,2026-07-06,0.0000,820.2200,To record Credit Cards bank charge mbtc — #68017,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12003,1777,2026-07-06,820.2200,0.0000,To record Credit Cards bank charge mbtc — #68017,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12005,1777,2026-07-06,0.0000,717437.0000,"Sales Branches JuLY 06, 2026 - Cash Sales - July, 06 — #72346",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12005,1777,2026-07-06,717437.0000,0.0000,"Sales Branches JuLY 06, 2026 - Laboratory/Diagnostics — #72346",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12007,945,2026-07-06,327.6800,0.0000,STEFANIE B. BERNAS - Vatable: Transportation (Replenishment) — RFP No.# 6451,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12007,945,2026-07-06,1854.5000,0.0000,STEFANIE B. BERNAS - Nondeductible: Transportation Expenses (Replenishment) — RFP No.# 6451,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12020,217,2026-07-07,0.0000,19987.8800,Rhea Mae Gesulga — RFP No.# 6464,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12017,217,2026-07-07,0.0000,99151.5000,ENA COMMERCIAL AND PRINTING SERVICES — 0726-000735,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12018,217,2026-07-07,0.0000,105930.0000,BIOLAB MEDICAL SUPPLIES — 0726-000736,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12019,217,2026-07-07,0.0000,39550.5000,BIOLAB MEDICAL SUPPLIES — 0726-000737,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12010,77,2026-07-07,0.0000,7597.0000,Cash - Security Bank CPCI - OPEX Gcash — #68020,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12011,61,2026-07-07,0.0000,2410.0000,To record receipts of SBC OPEX Debit Card — #68021,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12012,61,2026-07-07,0.0000,41401.8400,To record receipts of SBC CREDIT CARD — #68022,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12013,61,2026-07-07,0.0000,71432.2000,To record receipts of SBC AR-Terms JuLY 7 - INLIFE BENEFITS INSURANCE COMPANY — #68023,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12013,61,2026-07-07,0.0000,26798.3600,To record receipts of SBC AR-Terms JuLY 7 - MAXICARE HEALTHCARE CORP — #68023,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12013,61,2026-07-07,0.0000,10019.5200,To record receipts of SBC AR-Terms JuLY 7 - MAXICARE HEALTHCARE CORP — #68023,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12014,61,2026-07-07,0.0000,115836.9700,To record Credit Cards mbtc — #68026,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12015,605,2026-07-07,4054.2900,0.0000,To record Credit Cards bank charge mbtc — #68027,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12014,41,2026-07-07,115836.9700,0.0000,To record Credit Cards mbtc — #68026,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12015,41,2026-07-07,0.0000,4054.2900,To record Credit Cards bank charge mbtc — #68027,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12010,5,2026-07-07,7597.0000,0.0000,Cash - Security Bank CPCI - OPEX Gcash — #68020,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12011,5,2026-07-07,2410.0000,0.0000,To record receipts of SBC OPEX Debit Card — #68021,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12012,5,2026-07-07,41401.8400,0.0000,To record receipts of SBC CREDIT CARD — #68022,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12013,5,2026-07-07,71432.2000,0.0000,To record receipts of SBC AR-Terms JuLY 7 - INLIFE BENEFITS INSURANCE COMPANY — #68023,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12013,5,2026-07-07,26798.3600,0.0000,To record receipts of SBC AR-Terms JuLY 7 - MAXICARE HEALTHCARE CORP — #68023,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12013,5,2026-07-07,10019.5200,0.0000,To record receipts of SBC AR-Terms JuLY 7 - MAXICARE HEALTHCARE CORP — #68023,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12017,245,2026-07-07,0.0000,2023.5000,ENA COMMERCIAL AND PRINTING SERVICES - 2% EWT on Payment for Office Supplies| PO no.OPEX-26-0304; 0336; 0354 SI no.000127 — 0726-000735,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12018,245,2026-07-07,0.0000,1070.0000,BIOLAB MEDICAL SUPPLIES - 1% EWT on: Payment for Lab Supplies PO no. OPEX-26-0367 SI no.000048 — 0726-000736,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12019,245,2026-07-07,0.0000,399.5000,BIOLAB MEDICAL SUPPLIES - 1% EWT on: ayment for Lab Supplies PO no. OPEX-26-0346 SI no.000047 — 0726-000737,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12020,741,2026-07-07,886.9300,0.0000,Rhea Mae Gesulga - Vat: Various Office Supply (Replenishment) — RFP No.# 6464,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12020,757,2026-07-07,155.3600,0.0000,Rhea Mae Gesulga - Vat: Vehicle Inspection (Replenishment) — RFP No.# 6464,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12018,141,2026-07-07,107000.0000,0.0000,BIOLAB MEDICAL SUPPLIES - Nonvat: Payment for Lab Supplies PO no. OPEX-26-0367 SI no.000048 — 0726-000736,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12019,141,2026-07-07,39950.0000,0.0000,BIOLAB MEDICAL SUPPLIES - Nonvat: Payment for Lab Supplies PO no. OPEX-26-0346 SI no.000047 — 0726-000737,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12017,149,2026-07-07,101175.0000,0.0000,ENA COMMERCIAL AND PRINTING SERVICES - Non-Vat: Payment for Office Supplies| PO no.OPEX-26-0304; 0336; 0354 SI no.000127 — 0726-000735,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12020,849,2026-07-07,7391.0700,0.0000,Rhea Mae Gesulga - Vatable: Various Office Supply (Replenishment) — RFP No.# 6464,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12020,849,2026-07-07,150.0000,0.0000,Rhea Mae Gesulga - Nondeductible: A3 Photo Paper for Mantlewood (Replenishment) — RFP No.# 6464,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12020,1201,2026-07-07,6991.7800,0.0000,"Rhea Mae Gesulga - Messenger Reliever June 19 & June 27, 2026 (Replenishment) — RFP No.# 6464",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12020,909,2026-07-07,1294.6400,0.0000,Rhea Mae Gesulga - Vatable: Vehicle Inspection (Replenishment) — RFP No.# 6464,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12020,937,2026-07-07,1518.1000,0.0000,"Rhea Mae Gesulga - Nondeductible: Cedula, Notary & Plate No. Renewal (Replenishment) — RFP No.# 6464",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12020,937,2026-07-07,1600.0000,0.0000,Rhea Mae Gesulga - Nondeductible: Renewal of Plate No. (Replenishment) — RFP No.# 6464,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12009,1777,2026-07-07,0.0000,99654.0000,to record cash sales July 6 - — #68019,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12009,1777,2026-07-07,99654.0000,0.0000,to record cash sales July 6 - — #68019,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12015,1777,2026-07-07,0.0000,4054.2900,To record Credit Cards bank charge mbtc — #68027,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12015,1777,2026-07-07,4054.2900,0.0000,To record Credit Cards bank charge mbtc — #68027,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12016,1777,2026-07-07,0.0000,918678.0000,"Sales Branches JuLY 07, 2026 - Cash Sales - July, 07 — #72348",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12016,1777,2026-07-07,918678.0000,0.0000,"Sales Branches JuLY 07, 2026 - Laboratory/Diagnostics — #72348",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12030,217,2026-07-08,168.0000,0.0000,JAN ANDREI FLORES — RFP No.# 6478-15,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12029,217,2026-07-08,0.0000,5000.0000,Gayle Ruth Palermo — RFP No.# 6477,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12029,85,2026-07-08,5000.0000,0.0000,Gayle Ruth Palermo - Payment for Cash Advances for Request for Account Reset – NPC Account (Email No Longer Accessible)| CA- 0306 — RFP No.# 6477,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12023,77,2026-07-08,0.0000,1900.0000,Cash - Security Bank CPCI - OPEX Gcash — #68030,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12021,61,2026-07-08,0.0000,13573.0000,To record receipts sales BPI AR-Cebu Unidentified deposit JULY 8 — #68028,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12021,61,2026-07-08,0.0000,11025.0000,To record receipts sales BPI AR-Cebu Unidentified deposit JULY 8 — #68028,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12021,61,2026-07-08,0.0000,8183.0000,To record receipts sales BPI AR-Cebu Unidentified deposit JULY 8 — #68028,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12021,61,2026-07-08,0.0000,7693.0000,To record receipts sales BPI AR-Cebu Unidentified deposit JULY 8 — #68028,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12021,61,2026-07-08,0.0000,6223.0000,To record receipts sales BPI AR-Cebu Unidentified deposit JULY 8 — #68028,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12021,61,2026-07-08,0.0000,5331.2000,To record receipts sales BPI AR-Cebu Unidentified deposit JULY 8 — #68028,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12021,61,2026-07-08,0.0000,3430.0000,To record receipts sales BPI AR-Cebu Unidentified deposit JULY 8 — #68028,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12021,61,2026-07-08,0.0000,1715.0000,To record receipts sales BPI AR-Cebu Unidentified deposit JULY 8 — #68028,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12021,61,2026-07-08,0.0000,980.0000,To record receipts sales BPI AR-Cebu Unidentified deposit JULY 8 — #68028,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12021,61,2026-07-08,0.0000,490.0000,To record receipts sales BPI AR-Cebu Unidentified deposit JULY 8 — #68028,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12021,61,2026-07-08,0.0000,490.0000,To record receipts sales BPI AR-Cebu Unidentified deposit JULY 8 — #68028,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12024,61,2026-07-08,0.0000,3330.0000,To record receipts of SBC OPEX Debit Card — #68031,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12025,61,2026-07-08,0.0000,56010.9900,To record Credit Cards mbtc — #68032,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12026,605,2026-07-08,1960.3800,0.0000,To record Credit Cards bank charge mbtc — #68033,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12027,53,2026-07-08,187500.0000,0.0000,Fund transfer from SBC CAPEX to BDO OPEX — #68034,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12021,1,2026-07-08,13573.0000,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit JULY 8 — #68028,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12021,1,2026-07-08,11025.0000,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit JULY 8 — #68028,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12021,1,2026-07-08,8183.0000,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit JULY 8 — #68028,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12021,1,2026-07-08,7693.0000,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit JULY 8 — #68028,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12021,1,2026-07-08,6223.0000,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit JULY 8 — #68028,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12021,1,2026-07-08,5331.2000,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit JULY 8 — #68028,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12021,1,2026-07-08,3430.0000,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit JULY 8 — #68028,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12021,1,2026-07-08,1715.0000,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit JULY 8 — #68028,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12021,1,2026-07-08,980.0000,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit JULY 8 — #68028,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12021,1,2026-07-08,490.0000,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit JULY 8 — #68028,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12021,1,2026-07-08,490.0000,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit JULY 8 — #68028,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12025,41,2026-07-08,56010.9900,0.0000,To record Credit Cards mbtc — #68032,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12026,41,2026-07-08,0.0000,1960.3800,To record Credit Cards bank charge mbtc — #68033,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12027,9,2026-07-08,0.0000,187500.0000,Fund transfer from SBC CAPEX to BDO OPEX — #68034,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12023,5,2026-07-08,1900.0000,0.0000,Cash - Security Bank CPCI - OPEX Gcash — #68030,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12024,5,2026-07-08,3330.0000,0.0000,To record receipts of SBC OPEX Debit Card — #68031,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12030,245,2026-07-08,0.0000,168.0000,JAN ANDREI FLORES - 10% EWT on Payment for Doctor's PF (Cardio Procedure) for the month of June 2026 — RFP No.# 6478-15,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12022,1777,2026-07-08,0.0000,101564.0000,to record cash sales July 7 - — #68029,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12022,1777,2026-07-08,101564.0000,0.0000,to record cash sales July 7 - — #68029,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12026,1777,2026-07-08,0.0000,1960.3800,To record Credit Cards bank charge mbtc — #68033,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12026,1777,2026-07-08,1960.3800,0.0000,To record Credit Cards bank charge mbtc — #68033,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12027,1777,2026-07-08,187500.0000,0.0000,Fund transfer from SBC CAPEX to BDO OPEX — #68034,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12027,1777,2026-07-08,0.0000,187500.0000,Fund transfer from SBC CAPEX to BDO OPEX — #68034,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12028,1777,2026-07-08,0.0000,654233.0000,"Sales Branches JuLY 08, 2026 - Cash Sales - July, 08 — #69625",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12028,1777,2026-07-08,654233.0000,0.0000,"Sales Branches JuLY 08, 2026 - Laboratory/Diagnostics — #69625",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12045,217,2026-07-09,0.0000,319886.0300,BUREAU OF INTERNAL REVENUE — RFP No.# 6488,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12043,217,2026-07-09,0.0000,3775.0000,ALEJANDRO DE LA CRUZ III — RFP No.# 6482,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12044,217,2026-07-09,0.0000,5840.0000,Jeramel Llaban — RFP No.# 6483,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12042,217,2026-07-09,1600.0000,0.0000,JAN ANDREI FLORES — RFP No.# 6480-47,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12041,217,2026-07-09,0.0000,19821.3000,EASY SERVICES INC. — RFP No.# 6479,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12032,77,2026-07-09,0.0000,1262.0000,Cash - Security Bank CPCI - OPEX Gcash — #68206,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12031,61,2026-07-09,0.0000,11184.7400,To record receipts sales BPI AR-Cebu  PAGES HOLDINGS INC july 9 — #68203,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12033,61,2026-07-09,0.0000,200.0000,To record receipts of SBC OPEX Debit Card — #68207,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12034,61,2026-07-09,0.0000,34874.0000,To record receipts of SBC CREDIT CARD — #68208,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12035,61,2026-07-09,0.0000,1176.0000,To record receipts of SBC AR-Terms july 9 - MAXICARE HEALTHCARE CORP — #68212,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12035,61,2026-07-09,0.0000,42495.8300,To record receipts of SBC AR-Terms july 9 - MAXICARE HEALTHCARE CORP — #68212,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12035,61,2026-07-09,0.0000,15748.6000,To record receipts of SBC AR-Terms july 9 -  COCOLIFE — #68212,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12035,61,2026-07-09,0.0000,24539.0300,To record receipts of SBC AR-Terms july 9 - Unidentified deposit 07/09/2026 — #68212,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12035,61,2026-07-09,0.0000,51732.3800,To record receipts of SBC AR-Terms july 9 - Unidentified deposit 07/09/2026 — #68212,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12035,61,2026-07-09,0.0000,600.0000,To record receipts of SBC AR-Terms july 9 - Unidentified deposit 07/09/2026 — #68212,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12035,61,2026-07-09,0.0000,600.0000,To record receipts of SBC AR-Terms july 9 - Unidentified deposit 07/09/2026 — #68212,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12035,61,2026-07-09,0.0000,600.0000,To record receipts of SBC AR-Terms july 9 - Unidentified deposit 07/09/2026 — #68212,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12035,61,2026-07-09,0.0000,1800.0000,To record receipts of SBC AR-Terms july 9 - Unidentified deposit 07/09/2026 — #68212,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12035,61,2026-07-09,0.0000,2400.0000,To record receipts of SBC AR-Terms july 9 - Unidentified deposit 07/09/2026 — #68212,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12035,61,2026-07-09,0.0000,793.8000,To record receipts of SBC AR-Terms july 9 - Unidentified deposit 07/09/2026 — #68212,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12036,61,2026-07-09,0.0000,65685.9800,To record Credit Cards mbtc — #68217,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12038,61,2026-07-09,0.0000,487804.8000,to record collection received from PHIC PHILHEALTH YAKAP/KONSULTA july 9 — #68222,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12046,57,2026-07-09,0.0000,617.6000,"Avega Managed Care, Inc — CN-5540",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12052,57,2026-07-09,0.0000,617.6000,"Avega Managed Care, Inc — M2356",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12049,57,2026-07-09,617.6000,0.0000,"Avega Managed Care, Inc — CN-5540",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12047,57,2026-07-09,0.0000,57.2000,"Avega Managed Care, Inc — CN-5541",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12053,57,2026-07-09,0.0000,57.2000,"Avega Managed Care, Inc — O3815",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12050,57,2026-07-09,57.2000,0.0000,"Avega Managed Care, Inc — CN-5541",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12048,57,2026-07-09,0.0000,19.8000,"Avega Managed Care, Inc — CN-5553",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12052,57,2026-07-09,0.0000,19.8000,"Avega Managed Care, Inc — M2356",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12051,57,2026-07-09,19.8000,0.0000,"Avega Managed Care, Inc — CN-5553",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12037,605,2026-07-09,2299.0100,0.0000,To record Credit Cards bank charge mbtc — #68218,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12031,1,2026-07-09,11184.7400,0.0000,To record receipts sales BPI AR-Cebu  PAGES HOLDINGS INC july 9 — #68203,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12038,49,2026-07-09,217246.4000,0.0000,to record collection received from PHIC PHILHEALTH YAKAP/KONSULTA july 9 — #68222,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12038,49,2026-07-09,197920.8000,0.0000,to record collection received from PHIC PHILHEALTH YAKAP/KONSULTA july 9 — #68222,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12038,49,2026-07-09,72637.6000,0.0000,to record collection received from PHIC PHILHEALTH YAKAP/KONSULTA july 9 — #68222,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12039,49,2026-07-09,113.5100,0.0000,to record interest income Landbank — #68227,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12036,41,2026-07-09,65685.9800,0.0000,To record Credit Cards mbtc — #68217,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12037,41,2026-07-09,0.0000,2299.0100,To record Credit Cards bank charge mbtc — #68218,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12032,5,2026-07-09,1262.0000,0.0000,Cash - Security Bank CPCI - OPEX Gcash — #68206,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12033,5,2026-07-09,200.0000,0.0000,To record receipts of SBC OPEX Debit Card — #68207,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12034,5,2026-07-09,34874.0000,0.0000,To record receipts of SBC CREDIT CARD — #68208,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12035,5,2026-07-09,1176.0000,0.0000,To record receipts of SBC AR-Terms july 9 - MAXICARE HEALTHCARE CORP — #68212,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12035,5,2026-07-09,42495.8300,0.0000,To record receipts of SBC AR-Terms july 9 - MAXICARE HEALTHCARE CORP — #68212,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12035,5,2026-07-09,15748.6000,0.0000,To record receipts of SBC AR-Terms july 9 -  COCOLIFE — #68212,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12035,5,2026-07-09,24539.0300,0.0000,To record receipts of SBC AR-Terms july 9 - Unidentified deposit 07/09/2026 — #68212,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12035,5,2026-07-09,51732.3800,0.0000,To record receipts of SBC AR-Terms july 9 - Unidentified deposit 07/09/2026 — #68212,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12035,5,2026-07-09,600.0000,0.0000,To record receipts of SBC AR-Terms july 9 - Unidentified deposit 07/09/2026 — #68212,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12035,5,2026-07-09,600.0000,0.0000,To record receipts of SBC AR-Terms july 9 - Unidentified deposit 07/09/2026 — #68212,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12035,5,2026-07-09,600.0000,0.0000,To record receipts of SBC AR-Terms july 9 - Unidentified deposit 07/09/2026 — #68212,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12035,5,2026-07-09,1800.0000,0.0000,To record receipts of SBC AR-Terms july 9 - Unidentified deposit 07/09/2026 — #68212,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12035,5,2026-07-09,2400.0000,0.0000,To record receipts of SBC AR-Terms july 9 - Unidentified deposit 07/09/2026 — #68212,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12035,5,2026-07-09,793.8000,0.0000,To record receipts of SBC AR-Terms july 9 - Unidentified deposit 07/09/2026 — #68212,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12045,249,2026-07-09,319886.0300,0.0000,BUREAU OF INTERNAL REVENUE - Payment for June 2026 Compensation Withholding Tax — RFP No.# 6488,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12046,165,2026-07-09,617.6000,0.0000,"Avega Managed Care, Inc - CWT-2% AVEGA — CN-5540",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12047,165,2026-07-09,57.2000,0.0000,"Avega Managed Care, Inc - CWT-2% AVEGA — CN-5541",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12048,165,2026-07-09,19.8000,0.0000,"Avega Managed Care, Inc - CWT-2% AVEGA — CN-5553",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12042,245,2026-07-09,0.0000,1600.0000,JAN ANDREI FLORES - 10% EWT on Payment for Doctor's PF (Procedure & Reading) for the Month of June 2026 — RFP No.# 6480-47,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12041,245,2026-07-09,0.0000,178.5700,"EASY SERVICES INC. - 1% EWT on Payment for Gasoline ftp June 16-30, 2026 — RFP No.# 6479",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12043,777,2026-07-09,404.4600,0.0000,ALEJANDRO DE LA CRUZ III - Vat: Gasoline (Replenishment) — RFP No.# 6482,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12044,777,2026-07-09,364.2900,0.0000,Jeramel Llaban - Vat: Transportation Expenses (Replenishment) — RFP No.# 6483,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12041,777,2026-07-09,2142.8400,0.0000,"EASY SERVICES INC. - Vat: Payment for Gasoline ftp June 16-30, 2026 — RFP No.# 6479",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12039,1589,2026-07-09,0.0000,113.5100,to record interest income Landbank — #68227,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12037,1777,2026-07-09,0.0000,2299.0100,To record Credit Cards bank charge mbtc — #68218,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12037,1777,2026-07-09,2299.0100,0.0000,To record Credit Cards bank charge mbtc — #68218,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12040,1777,2026-07-09,0.0000,677028.0000,"Sales Branches JuLY 09, 2026 - Cash Sales - July, 09 — #69626",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12040,1777,2026-07-09,677028.0000,0.0000,"Sales Branches JuLY 09, 2026 - Laboratory/Diagnostics — #69626",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12043,945,2026-07-09,3370.5400,0.0000,ALEJANDRO DE LA CRUZ III - Vatable: Gasoline (Replenishment) — RFP No.# 6482,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12044,945,2026-07-09,2440.0000,0.0000,Jeramel Llaban - Nondeductible: Transportation Expenses (Replenishment) — RFP No.# 6483,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12044,945,2026-07-09,3035.7100,0.0000,Jeramel Llaban - Vatable: Transportation Expenses (Replenishment) — RFP No.# 6483,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12041,945,2026-07-09,17857.0300,0.0000,"EASY SERVICES INC. - Vatable: Payment for Gasoline ftp June 16-30, 2026 — RFP No.# 6479",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12063,217,2026-07-10,59266.0700,0.0000,Payment: AO BIOMED & INDUSTRIAL MARKETING — 0226-000234,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12064,217,2026-07-10,52031.2500,0.0000,Payment: AO BIOMED & INDUSTRIAL MARKETING — 0226-000247,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12068,217,2026-07-10,39204.0000,0.0000,Payment: BIOLAB MEDICAL SUPPLIES — 0426-000448,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12071,217,2026-07-10,67320.0000,0.0000,Payment: BIOLAB MEDICAL SUPPLIES — 0526-000475,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12065,217,2026-07-10,64350.0000,0.0000,Payment: BIOLAB MEDICAL SUPPLIES — 0326-000324,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12066,217,2026-07-10,48562.5000,0.0000,Payment: ANDUILLER INT'L. SALES CORPORATION — 0326-000326,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12067,217,2026-07-10,7556.9200,0.0000,Payment: NEW KEEN'S TRADING — 0326-000381,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12069,217,2026-07-10,26283.2100,0.0000,Payment: MEDGISTIX CORPORATION — 0426-000452,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12070,217,2026-07-10,11991.9600,0.0000,Payment: MEDGISTIX CORPORATION — 0426-000453,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12072,217,2026-07-10,24261.4300,0.0000,Payment: RA ESSENTIALS MARKETING — 0526-000543,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12074,217,2026-07-10,75505.0800,0.0000,Payment: ENA COMMERCIAL AND PRINTING SERVICES — 0526-000550,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12077,217,2026-07-10,27440.0000,0.0000,Payment: ENA COMMERCIAL AND PRINTING SERVICES — 0526-000605,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12075,217,2026-07-10,9514.2900,0.0000,"Payment: BEROVAN MARKETING, INC. — 0526-000575",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12076,217,2026-07-10,57915.0000,0.0000,Payment: TONERPRO TRADING — 0526-000581,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12082,217,2026-07-10,15690.4800,0.0000,Payment: EASY SERVICES INC. — RFP No.# 6314,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12078,217,2026-07-10,2973.2200,0.0000,Payment: JHO-ARIS ENTERPRISES — 0626-000692,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12081,217,2026-07-10,18263.4600,0.0000,Payment: GALAXY TRADERS — 0626-000716,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12079,217,2026-07-10,1873.1300,0.0000,Payment: GALAXY TRADERS — 0626-000693,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12080,217,2026-07-10,18326.8900,0.0000,Payment: GALAXY TRADERS — 0626-000694,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12073,217,2026-07-10,18532.8000,0.0000,Payment: ZEPHANIAH MEDLAB SUPPLIES AND EQUIPMENT INC. — 0526-000544,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12084,217,2026-07-10,236991.0900,0.0000,Payment: Lh Paragon Inc — RFP No.# 6362,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12086,217,2026-07-10,1950.0000,0.0000,Payment: Lh Paragon Inc — RFP No.# 6364,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12087,217,2026-07-10,6446.6700,0.0000,Payment: STEFANIE B. BERNAS — RFP No.# 6451,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12090,217,2026-07-10,3775.0000,0.0000,Payment: ALEJANDRO DE LA CRUZ III — RFP No.# 6482,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12092,217,2026-07-10,319886.0300,0.0000,Payment: BUREAU OF INTERNAL REVENUE — RFP No.# 6488,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12083,217,2026-07-10,76571.2200,0.0000,Payment: Lh Paragon Inc — RFP No.# 6361,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12085,217,2026-07-10,12313.2200,0.0000,Payment: Lh Paragon Inc — RFP No.# 6363,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12088,217,2026-07-10,19987.8800,0.0000,Payment: Rhea Mae Gesulga — RFP No.# 6464,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12091,217,2026-07-10,5840.0000,0.0000,Payment: Jeramel Llaban — RFP No.# 6483,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12089,217,2026-07-10,5000.0000,0.0000,Payment: Gayle Ruth Palermo — RFP No.# 6477,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12056,77,2026-07-10,0.0000,10162.0000,Cash - Security Bank CPCI - OPEX Gcash — #68244,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12054,61,2026-07-10,0.0000,7085.4000,AR-Cebu AR terms BPI July 10 - Unidentified deposit 07/10/2026 — #68238,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12054,61,2026-07-10,0.0000,5978.0000,AR-Cebu AR terms BPI July 10 - AVEGA MANAGED CARE INC — #68238,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12054,61,2026-07-10,0.0000,37819.1800,AR-Cebu AR terms BPI July 10 - AVEGA MANAGED CARE INC — #68238,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12054,61,2026-07-10,0.0000,19200.0000,AR-Cebu AR terms BPI July 10 - SHOWA CREATE CEBU INC — #68238,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12054,61,2026-07-10,0.0000,98264.6000,AR-Cebu AR terms BPI July 10 -  LIFE AND HEALTH HMP INC — #68238,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12054,61,2026-07-10,0.0000,7849.8000,AR-Cebu AR terms BPI July 10 -  LIFE AND HEALTH HMP INC — #68238,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12054,61,2026-07-10,0.0000,81707.5000,AR-Cebu AR terms BPI July 10 -  LIFE AND HEALTH HMP INC — #68238,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12054,61,2026-07-10,0.0000,103159.7000,AR-Cebu AR terms BPI July 10 -  LIFE AND HEALTH HMP INC — #68238,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12054,61,2026-07-10,0.0000,97073.9000,AR-Cebu AR terms BPI July 10 -  LIFE AND HEALTH HMP INC — #68238,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12054,61,2026-07-10,0.0000,2616.6000,AR-Cebu AR terms BPI July 10 -  LIFE AND HEALTH HMP INC — #68238,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12054,61,2026-07-10,0.0000,12828.2000,AR-Cebu AR terms BPI July 10 -  LIFE AND HEALTH HMP INC — #68238,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12054,61,2026-07-10,0.0000,21221.9000,AR-Cebu AR terms BPI July 10 -  LIFE AND HEALTH HMP INC — #68238,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12054,61,2026-07-10,0.0000,5700.0000,AR-Cebu AR terms BPI July 10 -  LIFE AND HEALTH HMP INC — #68238,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12054,61,2026-07-10,0.0000,253138.9000,AR-Cebu AR terms BPI July 10 -  LIFE AND HEALTH HMP INC — #68238,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12054,61,2026-07-10,0.0000,2053.1000,AR-Cebu AR terms BPI July 10 -  LIFE AND HEALTH HMP INC — #68238,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12054,61,2026-07-10,0.0000,2590.0000,AR-Cebu AR terms BPI July 10 -  LIFE AND HEALTH HMP INC — #68238,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12054,61,2026-07-10,0.0000,12860.0000,AR-Cebu AR terms BPI July 10 -  LIFE AND HEALTH HMP INC — #68238,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12054,61,2026-07-10,0.0000,2400.0000,AR-Cebu AR terms BPI July 10 -  LIFE AND HEALTH HMP INC — #68238,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12054,61,2026-07-10,0.0000,800.0000,AR-Cebu AR terms BPI July 10 -  LIFE AND HEALTH HMP INC — #68238,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12054,61,2026-07-10,0.0000,9300.0000,AR-Cebu AR terms BPI July 10 -  LIFE AND HEALTH HMP INC — #68238,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12054,61,2026-07-10,0.0000,10466.4000,AR-Cebu AR terms BPI July 10 -  LIFE AND HEALTH HMP INC — #68238,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12054,61,2026-07-10,0.0000,121079.0000,AR-Cebu AR terms BPI July 10 -  LIFE AND HEALTH HMP INC — #68238,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12054,61,2026-07-10,0.0000,45888.5000,AR-Cebu AR terms BPI July 10 -  LIFE AND HEALTH HMP INC — #68238,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12054,61,2026-07-10,0.0000,185910.9000,AR-Cebu AR terms BPI July 10 -  LIFE AND HEALTH HMP INC — #68238,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12054,61,2026-07-10,0.0000,9809.8000,AR-Cebu AR terms BPI July 10 -  LIFE AND HEALTH HMP INC — #68238,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12054,61,2026-07-10,0.0000,588.0000,AR-Cebu AR terms BPI July 10 -  LIFE AND HEALTH HMP INC — #68238,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12057,61,2026-07-10,0.0000,4000.0000,To record receipts of SBC OPEX Debit Card — #68245,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12058,61,2026-07-10,0.0000,56003.9000,To record receipts of SBC CREDIT CARD — #68247,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12059,61,2026-07-10,0.0000,882.0000,To record receipts of SBC AR-Terms juLY 10 - MAXICARE HEALTHCARE CORP — #68251,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12059,61,2026-07-10,0.0000,26776.3200,To record receipts of SBC AR-Terms juLY 10 - MAXICARE HEALTHCARE CORP — #68251,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12059,61,2026-07-10,0.0000,17863.9700,To record receipts of SBC AR-Terms juLY 10 - MAXICARE HEALTHCARE CORP — #68251,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12059,61,2026-07-10,0.0000,4934.3000,To record receipts of SBC AR-Terms juLY 10 - MAXICARE HEALTHCARE CORP — #68251,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12059,61,2026-07-10,0.0000,8831.4700,To record receipts of SBC AR-Terms juLY 10 - MAXICARE HEALTHCARE CORP — #68251,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12059,61,2026-07-10,0.0000,279.3000,To record receipts of SBC AR-Terms juLY 10 - MAXICARE HEALTHCARE CORP — #68251,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12059,61,2026-07-10,0.0000,27501.7400,"To record receipts of SBC AR-Terms juLY 10 - MEDICARD PHILIPPINES, INC. — #68251",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12059,61,2026-07-10,0.0000,36518.1300,"To record receipts of SBC AR-Terms juLY 10 - MEDICARD PHILIPPINES, INC. — #68251",1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12059,61,2026-07-10,0.0000,392.0000,To record receipts of SBC AR-Terms juLY 10 - DISCOVER ASO CORPORATION DOING BUSI — #68251,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12063,53,2026-07-10,0.0000,59266.0700,Payment: AO BIOMED & INDUSTRIAL MARKETING — 0226-000234,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12064,53,2026-07-10,0.0000,52031.2500,Payment: AO BIOMED & INDUSTRIAL MARKETING — 0226-000247,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12068,53,2026-07-10,0.0000,39204.0000,Payment: BIOLAB MEDICAL SUPPLIES — 0426-000448,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12071,53,2026-07-10,0.0000,67320.0000,Payment: BIOLAB MEDICAL SUPPLIES — 0526-000475,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12065,53,2026-07-10,0.0000,64350.0000,Payment: BIOLAB MEDICAL SUPPLIES — 0326-000324,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12066,53,2026-07-10,0.0000,48562.5000,Payment: ANDUILLER INT'L. SALES CORPORATION — 0326-000326,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12067,53,2026-07-10,0.0000,7556.9200,Payment: NEW KEEN'S TRADING — 0326-000381,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12069,53,2026-07-10,0.0000,26283.2100,Payment: MEDGISTIX CORPORATION — 0426-000452,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12070,53,2026-07-10,0.0000,11991.9600,Payment: MEDGISTIX CORPORATION — 0426-000453,1,0,2026-07-31 23:59:59,0
+\N,journal_entry,12072,53,2026-07-10,0.0000,24261.4300,Payment: RA ESSENTIALS MARKETING — 0526-000543,1,0,2026-07-31 23:59:59,0

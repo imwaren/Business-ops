@@ -1,0 +1,184 @@
+id,cost_center_id,date,type,remarks,total_debit,total_credit,status,is_migrated,added_by,added_on,is_deleted
+20479,1,2026-08-01,payable_invoice,LA NUEVA DRUGSTORE CHAINS INC. — RFP No.# 6541,473042.8500,473042.8500,approved,1,0,2026-08-31 23:59:59,0
+20480,1,2026-08-01,payable_invoice,Pacific Mall Corporation — RFP No.# 6624,55574.4000,55574.4000,approved,1,0,2026-08-31 23:59:59,0
+20481,1,2026-08-01,payable_invoice,"SMART COMMUNICATIONS, INC. - VAT: Smart Communications Inc. FTP 06/01-06/30/2026; Mobile — RFP No.# 6631",1875.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+20482,1,2026-08-01,receivable_invoice,PHILHEALTH - KONSULTA - FPE YAKAP JUNE 2026 MOBILE 1815 PAX — MO-PK0012-1,1234200.0000,1234200.0000,approved,1,0,2026-08-31 23:59:59,0
+20483,1,2026-08-01,receivable_invoice,PHILHEALTH - KONSULTA - FPE YAKAP JULY 2026 MOBILE 1784 PAX — MO-PK0013-1,1213120.0000,1213120.0000,approved,1,0,2026-08-31 23:59:59,0
+20484,1,2026-08-04,journal_entry,"Sales Branches August 4, 2026 -  Term Sales - August, 04 — #77857",70120.0000,70120.0000,approved,1,0,2026-08-31 23:59:59,0
+20485,1,2026-08-04,payable_payment,Payment: Pacific Mall Corporation — RFP No.# 6624,53232.0000,53232.0000,approved,1,0,2026-08-31 23:59:59,0
+20486,1,2026-08-06,journal_entry,"Sales Branches August 6, 2026 - Term Sales - August, 06 — #77923",830.0000,830.0000,approved,1,0,2026-08-31 23:59:59,0
+20487,1,2026-08-07,journal_entry,"Sales Branches August 7, 2026 - Term Sales - August, 07 — #77989",18000.0000,18000.0000,approved,1,0,2026-08-31 23:59:59,0
+20488,1,2026-08-07,payable_invoice,Far East Noble House Inc. — RFP No.# 6688,31696.0000,31696.0000,approved,1,0,2026-08-31 23:59:59,0
+20489,1,2026-08-07,payable_invoice,DITO Telecommunity Corporation — RFP No.# 6705,16392.0000,16392.0000,approved,1,0,2026-08-31 23:59:59,0
+20490,1,2026-08-07,payable_invoice,"GLOBE TELECOM, INC. — RFP No.# 6706",9821.4700,9821.4700,approved,1,0,2026-08-31 23:59:59,0
+20491,1,2026-08-07,payable_payment,Payment: Shanesse Angelee Cortes — RFP No.# 6658,3600.0000,3600.0000,approved,1,0,2026-08-31 23:59:59,0
+20492,1,2026-08-07,payable_payment,Payment: Shanesse Angelee Cortes — RFP No.# 6659,750.0000,750.0000,approved,1,0,2026-08-31 23:59:59,0
+20493,1,2026-08-07,payable_payment,Payment: Shanesse Angelee Cortes — RFP No.# 6660,1800.0000,1800.0000,approved,1,0,2026-08-31 23:59:59,0
+20494,1,2026-08-08,journal_entry,"Sales Branches August 8, 2026 - Term Sales - August, 08 — #77993",89930.0000,89930.0000,approved,1,0,2026-08-31 23:59:59,0
+20495,1,2026-08-10,journal_entry,"Sales Branches August 10, 2026 - Term Sales - August, 10 — #77996",16500.0000,16500.0000,approved,1,0,2026-08-31 23:59:59,0
+20496,1,2026-08-10,payable_payment,Payment: DITO Telecommunity Corporation — RFP No.# 6705,16392.0000,16392.0000,approved,1,0,2026-08-31 23:59:59,0
+20497,1,2026-08-10,payable_payment,"Payment: GLOBE TELECOM, INC. — RFP No.# 6706",9821.4700,9821.4700,approved,1,0,2026-08-31 23:59:59,0
+20498,1,2026-08-10,receivable_credit_note,Knowles Electronics Philippines - RANDOM DRUG TESTING  | 07/31/2025 |Innodata Knowledge Services Inc |RANDOM DRUG TESTING  | 83PAX|300 | — CN-6574,30600.0000,30600.0000,approved,1,0,2026-08-31 23:59:59,0
+20499,1,2026-08-10,receivable_credit_note,Knowles Electronics Philippines - RANDOM DRUG TESTING | 09/25/2025 |Innodata Knowledge Services Inc |RANDOM DRUG TESTING | 102PAX|300 | — CN-6575,30600.0000,30600.0000,approved,1,0,2026-08-31 23:59:59,0
+20500,1,2026-08-10,receivable_credit_note_allocation,Knowles Electronics Philippines — CN-6574,30600.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+20501,1,2026-08-10,receivable_credit_note_allocation,Knowles Electronics Philippines — CN-6575,30600.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+20502,1,2026-08-10,receivable_credit_note_allocation,Knowles Electronics Philippines — MO-4824,0.0000,30600.0000,approved,1,0,2026-08-31 23:59:59,0
+20503,1,2026-08-10,receivable_credit_note_allocation,Knowles Electronics Philippines — MO-4825,0.0000,30600.0000,approved,1,0,2026-08-31 23:59:59,0
+20504,1,2026-08-10,receivable_invoice,Knowles Electronics Philippines - RANDOM DRUG TESTING  | 07/31/2025 |Knowles Electronics Philippines |RANDOM DRUG TESTING  | 83PAX|300 | — MO-24324,30600.0000,30600.0000,approved,1,0,2026-08-31 23:59:59,0
+20505,1,2026-08-10,receivable_invoice,Knowles Electronics Philippines - RANDOM DRUG TESTING | 09/25/2025 |Knowles Electronics Philippines |RANDOM DRUG TESTING | 102PAX|300 | — MO-24325,30600.0000,30600.0000,approved,1,0,2026-08-31 23:59:59,0
+20506,1,2026-08-11,payable_invoice,Shanesse Angelee Cortes — RFP No.# 6737,6184.0000,6184.0000,approved,1,0,2026-08-31 23:59:59,0
+20507,1,2026-08-11,payable_invoice,Shanesse Angelee Cortes — RFP No.# 6738,4350.0000,4350.0000,approved,1,0,2026-08-31 23:59:59,0
+20508,1,2026-08-11,payable_invoice,Shanesse Angelee Cortes — RFP No.# 6739,4100.0000,4100.0000,approved,1,0,2026-08-31 23:59:59,0
+20509,1,2026-08-11,payable_invoice,Shanesse Angelee Cortes — RFP No.# 6740,4000.0000,4000.0000,approved,1,0,2026-08-31 23:59:59,0
+20510,1,2026-08-11,payable_payment,Payment: Shanesse Angelee Cortes — RFP No.# 6737,6184.0000,6184.0000,approved,1,0,2026-08-31 23:59:59,0
+20511,1,2026-08-11,payable_payment,Payment: Shanesse Angelee Cortes — RFP No.# 6738,4350.0000,4350.0000,approved,1,0,2026-08-31 23:59:59,0
+20512,1,2026-08-11,payable_payment,Payment: Shanesse Angelee Cortes — RFP No.# 6739,4100.0000,4100.0000,approved,1,0,2026-08-31 23:59:59,0
+20513,1,2026-08-11,payable_payment,Payment: Shanesse Angelee Cortes — RFP No.# 6740,4000.0000,4000.0000,approved,1,0,2026-08-31 23:59:59,0
+20514,1,2026-08-11,receivable_payment,Payment: LF PHILIPPINES INC. — MO-24050,28200.0000,28200.0000,approved,1,0,2026-08-31 23:59:59,0
+20515,1,2026-08-12,payable_invoice,PHILIPPINE HEALTH INSURANCE CORPORATION - Payment for PHIC Contribution for the month of July 2026  (Employer Share) — RFP No.# 6750,17294.5400,0.0000,approved,1,0,2026-08-31 23:59:59,0
+20516,1,2026-08-12,payable_invoice,HOME DEVELOPMENT MUTUAL FUND - Payment for HDMF mandatory contribution for the month of July 2026 (employer share) — RFP No.# 6753,8100.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+20517,1,2026-08-12,payable_invoice,SOCIAL SECURITY SYSTEM - Payment for SSS Contribution for the month of July 2026 (Employeer Share) — RFP No.# 6759,69850.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+20518,1,2026-08-12,payable_invoice,"Golden Great Value Properties, Inc. — RFP No.# 6770",56000.0000,56000.0000,approved,1,0,2026-08-31 23:59:59,0
+20519,1,2026-08-12,payable_payment,Payment: Dharyl A. Comaling — RFP No.# 6638,9270.1900,9270.1900,approved,1,0,2026-08-31 23:59:59,0
+20520,1,2026-08-12,payable_payment,"Payment: Golden Great Value Properties, Inc. — RFP No.# 6770",53500.0000,53500.0000,approved,1,0,2026-08-31 23:59:59,0
+20521,1,2026-08-12,receivable_credit_note,Insular Healthcare Inc — CN-6598,52973.0000,52973.0000,approved,1,0,2026-08-31 23:59:59,0
+20522,1,2026-08-12,receivable_credit_note,Insular Healthcare Inc — CN-6667,8036.0000,8036.0000,approved,1,0,2026-08-31 23:59:59,0
+20523,1,2026-08-12,receivable_credit_note_allocation,Insular Healthcare Inc — CN-6598,52973.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+20524,1,2026-08-12,receivable_credit_note_allocation,Insular Healthcare Inc — CN-6667,8036.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+20525,1,2026-08-12,receivable_credit_note_allocation,Insular Healthcare Inc — MO-3883,0.0000,8036.0000,approved,1,0,2026-08-31 23:59:59,0
+20526,1,2026-08-12,receivable_credit_note_allocation,Insular Healthcare Inc — MO-4111,0.0000,52973.0000,approved,1,0,2026-08-31 23:59:59,0
+20527,1,2026-08-12,receivable_payment,Payment: Insular Healthcare Inc — MO-3883,0.0000,393764.0000,approved,1,0,2026-08-31 23:59:59,0
+20528,1,2026-08-12,receivable_payment,Payment: Insular Healthcare Inc — MO-4111,0.0000,2595677.0000,approved,1,0,2026-08-31 23:59:59,0
+20529,1,2026-08-12,receivable_payment,Payment: Insular Healthcare Inc — PD: 6-15-26,2595677.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+20530,1,2026-08-12,receivable_payment,Payment: Insular Healthcare Inc — PD: 6-19-26,393764.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+20531,1,2026-08-13,journal_entry,"to reclass Rio, Mae - Payment for SSS Maternity Benefit (Start of MAT Leave: May 15, 2025) excess shouldered by employer - sss benefits excess shouldered by employer — #73721",17500.0000,17500.0000,approved,1,0,2026-08-31 23:59:59,0
+20532,1,2026-08-13,journal_entry,Reversal of: to accrue DITO: 9 units of WiFive plan monthly service fee Mobile for the month of 2026 july — #73872,16392.0000,16392.0000,approved,1,0,2026-08-31 23:59:59,0
+20533,1,2026-08-13,journal_entry,Reversal of: Globe - to accrue globe Data line mobile for June — #73874,9821.4700,9821.4700,approved,1,0,2026-08-31 23:59:59,0
+20534,1,2026-08-13,journal_entry,Reversal of: to accrue medicines - konsulta La Nueva 2026 May — #73878,140835.4600,140835.4600,approved,1,0,2026-08-31 23:59:59,0
+20535,1,2026-08-13,journal_entry,Reversal of: to accrue medicines - konsulta La Nueva 2026 JUNE — #73879,103720.7500,103720.7500,approved,1,0,2026-08-31 23:59:59,0
+20536,1,2026-08-13,journal_entry,Reversal of: Smart Comm - To accrue payment for Smart all 2026 June — #73883,1649.9900,1649.9900,approved,1,0,2026-08-31 23:59:59,0
+20537,1,2026-08-13,journal_entry,Reversal of: Globe -To accrue mobile all for the month of july — #73922,2497.0000,2497.0000,approved,1,0,2026-08-31 23:59:59,0
+20538,1,2026-08-13,journal_entry,"Sales Branches August 13, 2026 - Term Sales - August, 13 — #78029",1590.0000,1590.0000,approved,1,0,2026-08-31 23:59:59,0
+20539,1,2026-08-13,payable_invoice,"GLOBE TELECOM, INC. - VAT: Globe bill FTP 06/24-07/23/2026; Mobile — RFP No.# 6786",2497.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+20540,1,2026-08-13,payable_payment,"Payment: GLOBE TELECOM, INC. — RFP No.# 6786",0.0000,2497.0000,approved,1,0,2026-08-31 23:59:59,0
+20541,1,2026-08-13,receivable_invoice,PLANTATION BAY HOLDINGS CORP. - RANDOM DRUG TESTING | 08/07/2026 |PLANTATION BAY HOLDINGS CORP. |RANDOM DRUG TESTING | 60PAX|300 | — MO-24326,18000.0000,18000.0000,approved,1,0,2026-08-31 23:59:59,0
+20542,1,2026-08-13,receivable_invoice,Maxicare Healthcare Corporation - BASIC 5 + FBS | 08/08/2026 |DIALED IN PH SERVICES CORPORATION |BASIC 5 + FBS | 110PAX|800 | — MO-24328,88000.0000,88000.0000,approved,1,0,2026-08-31 23:59:59,0
+20543,1,2026-08-13,receivable_invoice,DIALED IN PH SERVICES CORPORATION - BASIC 5 + FBS | 08/08/2026 |DIALED IN PH SERVICES CORPORATION|BASIC 5 + FBS | 2PAX|800 | — MO-24329,1600.0000,1600.0000,approved,1,0,2026-08-31 23:59:59,0
+20544,1,2026-08-14,journal_entry,"Sales Branches August 14, 2026 - Term Sales - August, 14 — #78092",286500.0000,286500.0000,approved,1,0,2026-08-31 23:59:59,0
+20545,1,2026-08-14,payable_invoice,LUCKY GROUP MANAGEMENT AND DEV. CORP. — RFP No.# 6795,33000.0000,33000.0000,approved,1,0,2026-08-31 23:59:59,0
+20546,1,2026-08-14,payable_payment,Payment: Far East Noble House Inc. — RFP No.# 6688,30380.0000,30380.0000,approved,1,0,2026-08-31 23:59:59,0
+20547,1,2026-08-14,payable_payment,Payment: PHILIPPINE HEALTH INSURANCE CORPORATION — RFP No.# 6750,0.0000,17294.5400,approved,1,0,2026-08-31 23:59:59,0
+20548,1,2026-08-14,payable_payment,Payment: HOME DEVELOPMENT MUTUAL FUND — RFP No.# 6753,0.0000,8100.0000,approved,1,0,2026-08-31 23:59:59,0
+20549,1,2026-08-14,payable_payment,Payment: LUCKY GROUP MANAGEMENT AND DEV. CORP. — RFP No.# 6795,31750.0000,31750.0000,approved,1,0,2026-08-31 23:59:59,0
+20550,1,2026-08-14,receivable_credit_note,Asalus Corporation — CN-6741,22.6000,22.6000,approved,1,0,2026-08-31 23:59:59,0
+20551,1,2026-08-14,receivable_credit_note,Asalus Corporation — CN-6742,545.4000,545.4000,approved,1,0,2026-08-31 23:59:59,0
+20552,1,2026-08-14,receivable_credit_note,Asalus Corporation — CN-6751,274.2000,274.2000,approved,1,0,2026-08-31 23:59:59,0
+20553,1,2026-08-14,receivable_credit_note,Asalus Corporation — CN-6752,4641.0000,4641.0000,approved,1,0,2026-08-31 23:59:59,0
+20554,1,2026-08-14,receivable_credit_note_allocation,Asalus Corporation — CN-6741,22.6000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+20555,1,2026-08-14,receivable_credit_note_allocation,Asalus Corporation — CN-6742,545.4000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+20556,1,2026-08-14,receivable_credit_note_allocation,Asalus Corporation — CN-6751,274.2000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+20557,1,2026-08-14,receivable_credit_note_allocation,Asalus Corporation — CN-6752,4641.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+20558,1,2026-08-14,receivable_credit_note_allocation,Asalus Corporation — MO-3640,0.0000,274.2000,approved,1,0,2026-08-31 23:59:59,0
+20559,1,2026-08-14,receivable_credit_note_allocation,Asalus Corporation — MO-3649,0.0000,4641.0000,approved,1,0,2026-08-31 23:59:59,0
+20560,1,2026-08-14,receivable_credit_note_allocation,Asalus Corporation — MO-3651,0.0000,568.0000,approved,1,0,2026-08-31 23:59:59,0
+20561,1,2026-08-14,receivable_invoice,"Knowles Electronics Philippines - CBC, UA, XRAY | 08/04/2026 |Knowles Electronics Philippines |CBC, UA, XRAY | 55PAX|330 | — MO-24327",69470.0000,69470.0000,approved,1,0,2026-08-31 23:59:59,0
+20562,1,2026-08-14,receivable_payment,Payment: Asalus Corporation — MO-3640,0.0000,13435.8000,approved,1,0,2026-08-31 23:59:59,0
+20563,1,2026-08-14,receivable_payment,Payment: Asalus Corporation — MO-3649,0.0000,227409.0000,approved,1,0,2026-08-31 23:59:59,0
+20564,1,2026-08-14,receivable_payment,Payment: Asalus Corporation — MO-3651,0.0000,27832.0000,approved,1,0,2026-08-31 23:59:59,0
+20565,1,2026-08-14,receivable_payment,Payment: PHILHEALTH - KONSULTA — MO-PK0007-1,0.0000,340000.0000,approved,1,0,2026-08-31 23:59:59,0
+20566,1,2026-08-14,receivable_payment,Payment: PHILHEALTH - KONSULTA — MO-PK0007-2,0.0000,340000.0000,approved,1,0,2026-08-31 23:59:59,0
+20567,1,2026-08-14,receivable_payment,Payment: PHILHEALTH - KONSULTA — MO-PK0007-3,0.0000,340000.0000,approved,1,0,2026-08-31 23:59:59,0
+20568,1,2026-08-14,receivable_payment,Payment: PHILHEALTH - KONSULTA — MO-PK0007-4,0.0000,340000.0000,approved,1,0,2026-08-31 23:59:59,0
+20569,1,2026-08-14,receivable_payment,Payment: PHILHEALTH - KONSULTA — MO-PK0007-5,0.0000,340000.0000,approved,1,0,2026-08-31 23:59:59,0
+20570,1,2026-08-14,receivable_payment,Payment: PHILHEALTH - KONSULTA — MO-PK0007-6,0.0000,145520.0000,approved,1,0,2026-08-31 23:59:59,0
+20571,1,2026-08-14,receivable_payment,Payment: PHILHEALTH - KONSULTA — MO-PK0008-1,0.0000,340000.0000,approved,1,0,2026-08-31 23:59:59,0
+20572,1,2026-08-14,receivable_payment,Payment: PHILHEALTH - KONSULTA — MO-PK0008-2,0.0000,340000.0000,approved,1,0,2026-08-31 23:59:59,0
+20573,1,2026-08-14,receivable_payment,Payment: PHILHEALTH - KONSULTA — MO-PK0008-3,0.0000,340000.0000,approved,1,0,2026-08-31 23:59:59,0
+20574,1,2026-08-14,receivable_payment,Payment: PHILHEALTH - KONSULTA — MO-PK0008-4,0.0000,340000.0000,approved,1,0,2026-08-31 23:59:59,0
+20575,1,2026-08-14,receivable_payment,Payment: PHILHEALTH - KONSULTA — MO-PK0008-5,0.0000,340000.0000,approved,1,0,2026-08-31 23:59:59,0
+20576,1,2026-08-14,receivable_payment,Payment: PHILHEALTH - KONSULTA — MO-PK0008-6,0.0000,360400.0000,approved,1,0,2026-08-31 23:59:59,0
+20577,1,2026-08-14,receivable_payment,Payment: PHILHEALTH - KONSULTA — MO-PK0010-1,0.0000,1957720.0000,approved,1,0,2026-08-31 23:59:59,0
+20578,1,2026-08-14,receivable_payment,Payment: Asalus Corporation — PD: 6-17-26,240844.8000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+20579,1,2026-08-14,receivable_payment,Payment: Asalus Corporation — PD: 6-3-26,27832.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+20580,1,2026-08-14,receivable_payment,"Payment: PHILHEALTH - KONSULTA — credit date June 03, 2026",5863640.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+20581,1,2026-08-17,journal_entry,"Sales Branches August 17, 2026 - Term Sales - August, 17 — #78095",15000.0000,15000.0000,approved,1,0,2026-08-31 23:59:59,0
+20582,1,2026-08-17,payable_invoice,Shanesse Angelee Cortes — RFP No.# 6810,7901.0000,7901.0000,approved,1,0,2026-08-31 23:59:59,0
+20583,1,2026-08-17,payable_invoice,Shanesse Angelee Cortes — RFP No.# 6812,5700.0000,5700.0000,approved,1,0,2026-08-31 23:59:59,0
+20584,1,2026-08-17,payable_invoice,Shanesse Angelee Cortes — RFP No.# 6813,8600.0000,8600.0000,approved,1,0,2026-08-31 23:59:59,0
+20585,1,2026-08-17,receivable_credit_note,Insular Healthcare Inc — CN-6801,8704.0800,8704.0800,approved,1,0,2026-08-31 23:59:59,0
+20586,1,2026-08-17,receivable_credit_note_allocation,Insular Healthcare Inc — CN-6801,8704.0800,0.0000,approved,1,0,2026-08-31 23:59:59,0
+20587,1,2026-08-17,receivable_credit_note_allocation,Insular Healthcare Inc — MO- 3257,0.0000,8704.0800,approved,1,0,2026-08-31 23:59:59,0
+20588,1,2026-08-17,receivable_payment,Payment: Insular Healthcare Inc — MO- 3257,425475.9200,425475.9200,approved,1,0,2026-08-31 23:59:59,0
+20589,1,2026-08-18,payable_payment,Payment: Shanesse Angelee Cortes — RFP No.# 6810,7901.0000,7901.0000,approved,1,0,2026-08-31 23:59:59,0
+20590,1,2026-08-18,payable_payment,Payment: Shanesse Angelee Cortes — RFP No.# 6812,5700.0000,5700.0000,approved,1,0,2026-08-31 23:59:59,0
+20591,1,2026-08-18,payable_payment,Payment: Shanesse Angelee Cortes — RFP No.# 6813,8600.0000,8600.0000,approved,1,0,2026-08-31 23:59:59,0
+20592,1,2026-08-18,receivable_invoice,Maxicare Healthcare Corporation - BASIC 5 | 08/14/2026 |Arch Global Services (Philippines) Inc. |BASIC 5 | 69PAX|600 | — MO-24517,0.0000,130130.0000,approved,1,0,2026-08-31 23:59:59,0
+20593,1,2026-08-18,receivable_payment,Payment: Asalus Corporation — MO-3783,47236.0000,47236.0000,approved,1,0,2026-08-31 23:59:59,0
+20594,1,2026-08-19,journal_entry,"Sales Branches August 19, 2026 - Term Sales - August, 19 — #78102",25010.0000,25010.0000,approved,1,0,2026-08-31 23:59:59,0
+20595,1,2026-08-19,receivable_credit_note,Asalus Corporation — CN-6883,964.0000,964.0000,approved,1,0,2026-08-31 23:59:59,0
+20596,1,2026-08-19,receivable_credit_note,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) - RANDOM DRUG TESTING | 07/01/2026 |Cebu Logitem Inc. |RANDOM DRUG TESTING | 50PAX|300 | — CN-6895",15000.0000,15000.0000,approved,1,0,2026-08-31 23:59:59,0
+20597,1,2026-08-19,receivable_credit_note_allocation,Asalus Corporation — CN-6883,964.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+20598,1,2026-08-19,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6895",15000.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+20599,1,2026-08-19,receivable_credit_note_allocation,Asalus Corporation — MO-3783,0.0000,964.0000,approved,1,0,2026-08-31 23:59:59,0
+20600,1,2026-08-19,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — MO-4828",0.0000,15000.0000,approved,1,0,2026-08-31 23:59:59,0
+20601,1,2026-08-19,receivable_invoice,Arch Global Services (Philippines) Inc. - INFLUVAC TETRA (TRIVALENT) | 08/14/2026 |Arch Global Services (Philippines) Inc. | | 106PAX|1000 | — MO-24518,106000.0000,106000.0000,approved,1,0,2026-08-31 23:59:59,0
+20602,1,2026-08-19,receivable_invoice,Cebu Logitem Inc. - RANDOM DRUG TESTING ( voided) | 07/01/2026 |Cebu Logitem Inc. |RANDOM DRUG TESTING ( voided) | 50PAX|300 | — MO-24520,15000.0000,15000.0000,approved,1,0,2026-08-31 23:59:59,0
+20603,1,2026-08-19,receivable_payment,Payment: Cebu Labor Link Manpower — MO-3331,0.0000,172930.0000,approved,1,0,2026-08-31 23:59:59,0
+20604,1,2026-08-19,receivable_payment,Payment: Cebu Labor Link Manpower — MO-3332,0.0000,119446.0000,approved,1,0,2026-08-31 23:59:59,0
+20605,1,2026-08-19,receivable_payment,Payment: Cebu Labor Link Manpower — MO-3631,0.0000,188278.0000,approved,1,0,2026-08-31 23:59:59,0
+20606,1,2026-08-19,receivable_payment,Payment: Cebu Labor Link Manpower — MO-3632,0.0000,94234.0000,approved,1,0,2026-08-31 23:59:59,0
+20607,1,2026-08-19,receivable_payment,Payment: Cebu Labor Link Manpower — MO-3653,0.0000,14674.0000,approved,1,0,2026-08-31 23:59:59,0
+20608,1,2026-08-19,receivable_payment,Payment: Cebu Labor Link Manpower — PD: 5-29-26,589562.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+20609,1,2026-08-20,journal_entry,"to record KA/YA payroll Operations, FT support, logistics- Mobile AUGUST 1-15 — #77495",174588.8200,174588.8200,approved,1,0,2026-08-31 23:59:59,0
+20610,1,2026-08-20,journal_entry,to record KA/YA payroll MALL & ADMIN AUGUST 1-15 — #77500,180310.7600,180310.7600,approved,1,0,2026-08-31 23:59:59,0
+20611,1,2026-08-20,journal_entry,"CPCI Payroll for August 1-15, 2026 - Mobile Medical Affairs — #77522",200097.2200,200097.2200,approved,1,0,2026-08-31 23:59:59,0
+20612,1,2026-08-20,journal_entry,"CPCI Payroll for August 1-15, 2026 - Mobile Operations — #77523",229143.0800,229143.0800,approved,1,0,2026-08-31 23:59:59,0
+20613,1,2026-08-20,journal_entry,"Sales Branches August 20, 2026 - Term Sales - August, 20 — #78097",103500.0000,103500.0000,approved,1,0,2026-08-31 23:59:59,0
+20614,1,2026-08-20,receivable_payment,Payment: Virginia Food Inc — MO-3643,0.0000,134118.0000,approved,1,0,2026-08-31 23:59:59,0
+20615,1,2026-08-20,receivable_payment,Payment: Virginia Food Inc — MO-3644,0.0000,140842.0000,approved,1,0,2026-08-31 23:59:59,0
+20616,1,2026-08-20,receivable_payment,Payment: Virginia Food Inc — PD: JULY 30,274960.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+20617,1,2026-08-22,journal_entry,"Sales Branches August 22, 2026 - Term Sales - August, 22 — #78105",528360.0000,528360.0000,approved,1,0,2026-08-31 23:59:59,0
+20618,1,2026-08-25,receivable_invoice,TECH BROKERS WASTEWATER SOLUTION - RANDOM DRUG TESTING | 08/17/2026 |TECH BROKERS WASTEWATER SOLUTION | | 50PAX|300 | — MO-24519,15000.0000,15000.0000,approved,1,0,2026-08-31 23:59:59,0
+20619,1,2026-08-26,payable_invoice,"EUGENE TIO - Payment for Mobile van parking fee ftp July 13- Aug 13, 2026 — RFP No.# 6867",3000.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+20620,1,2026-08-26,payable_invoice,Shanesse Angelee Cortes — RFP No.# 6874,12800.0000,12800.0000,approved,1,0,2026-08-31 23:59:59,0
+20621,1,2026-08-26,payable_invoice,Shanesse Angelee Cortes — RFP No.# 6875,1912.5000,1912.5000,approved,1,0,2026-08-31 23:59:59,0
+20622,1,2026-08-26,payable_invoice,Shanesse Angelee Cortes — RFP No.# 6876,7980.0000,7980.0000,approved,1,0,2026-08-31 23:59:59,0
+20623,1,2026-08-26,payable_invoice,Shanesse Angelee Cortes — RFP No.# 6877,5700.0000,5700.0000,approved,1,0,2026-08-31 23:59:59,0
+20624,1,2026-08-27,payable_invoice,LA NUEVA DRUGSTORE CHAINS INC. — RFP No.# 6878,586192.9200,586192.9200,approved,1,0,2026-08-31 23:59:59,0
+20625,1,2026-08-27,receivable_invoice,"Indiana Aerospace University, Inc. - BASIC 5 | 08/20/2026 |Indiana Aerospace University, Inc. |BASIC 5 + ECG | 7PAX|600 | — MO-24521",7590.0000,7590.0000,approved,1,0,2026-08-31 23:59:59,0
+20626,1,2026-08-28,payable_invoice,"SMART COMMUNICATIONS, INC. - VAT: Smart Communications Inc. FTP 07/01-07/31/2026; Mobile — RFP No.# 6896",2400.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+20627,1,2026-08-28,payable_payment,Payment: LA NUEVA DRUGSTORE CHAINS INC. — RFP No.# 6541,467838.8600,467838.8600,approved,1,0,2026-08-31 23:59:59,0
+20628,1,2026-08-28,payable_payment,Payment: SOCIAL SECURITY SYSTEM — RFP No.# 6759,0.0000,69850.0000,approved,1,0,2026-08-31 23:59:59,0
+20629,1,2026-08-28,payable_payment,Payment: EUGENE TIO — RFP No.# 6867,0.0000,3000.0000,approved,1,0,2026-08-31 23:59:59,0
+20630,1,2026-08-28,payable_payment,Payment: Shanesse Angelee Cortes — RFP No.# 6874,12800.0000,12800.0000,approved,1,0,2026-08-31 23:59:59,0
+20631,1,2026-08-28,payable_payment,Payment: Shanesse Angelee Cortes — RFP No.# 6875,1912.5000,1912.5000,approved,1,0,2026-08-31 23:59:59,0
+20632,1,2026-08-28,payable_payment,Payment: Shanesse Angelee Cortes — RFP No.# 6876,7980.0000,7980.0000,approved,1,0,2026-08-31 23:59:59,0
+20633,1,2026-08-28,payable_payment,Payment: Shanesse Angelee Cortes — RFP No.# 6877,5700.0000,5700.0000,approved,1,0,2026-08-31 23:59:59,0
+20634,1,2026-08-28,payable_payment,"Payment: SMART COMMUNICATIONS, INC. — RFP No.# 6896",0.0000,2400.0000,approved,1,0,2026-08-31 23:59:59,0
+20635,1,2026-08-28,receivable_invoice,Mactan Grains Terminal Inc. - RANDOM DRUG TESTING | 08/14/2026 |Mactan Grains Terminal Inc. | | 150PAX|300 | — MO-24522,45000.0000,45000.0000,approved,1,0,2026-08-31 23:59:59,0
+20636,1,2026-08-31,journal_entry,to record depreciation expense for  2026 August - Mobile — #76333,221472.6000,221472.6000,approved,1,0,2026-08-31 23:59:59,0
+20637,1,2026-08-31,journal_entry,To record amortization of prepayments for the month of August 2026 - To record amortization of prepayments for the month of August 2026 — #76629,2367.8400,0.0000,approved,1,0,2026-08-31 23:59:59,0
+20638,1,2026-08-31,journal_entry,Reversal of: Globe - to accrue globe Data line mobile for july — #76867,9821.4700,9821.4700,approved,1,0,2026-08-31 23:59:59,0
+20639,1,2026-08-31,journal_entry,Reversal of: to accrue medicines - konsulta La Nueva 2026 JUNE — #76868,413308.1900,413308.1900,approved,1,0,2026-08-31 23:59:59,0
+20640,1,2026-08-31,journal_entry,Reversal of: Smart Comm - To accrue payment for Smart all 2026 july — #76950,1649.9900,1649.9900,approved,1,0,2026-08-31 23:59:59,0
+20641,1,2026-08-31,journal_entry,Globe -To accrue mobile all for the month of august — #76972,2497.0000,2497.0000,approved,1,0,2026-08-31 23:59:59,0
+20642,1,2026-08-31,journal_entry,Smart Comm - To accrue payment for Smart all 2026 august — #76973,1649.9900,1649.9900,approved,1,0,2026-08-31 23:59:59,0
+20643,1,2026-08-31,journal_entry,to accrue DITO: 9 units of WiFive plan monthly service fee Mobile for the month of 2026 august — #76978,16392.0000,16392.0000,approved,1,0,2026-08-31 23:59:59,0
+20644,1,2026-08-31,journal_entry,to accrue DITO: 5 postpaid plans & units advance payment for Mantlewood august — #76979,3090.0000,3090.0000,approved,1,0,2026-08-31 23:59:59,0
+20645,1,2026-08-31,journal_entry,Globe - to accrue globe Data line mobile for august — #76980,9821.4700,9821.4700,approved,1,0,2026-08-31 23:59:59,0
+20646,1,2026-08-31,journal_entry,to record accrual of the SL sick leave conversion august — #77034,4589.8900,0.0000,approved,1,0,2026-08-31 23:59:59,0
+20647,1,2026-08-31,journal_entry,to accrue repairs and maintenance august — #77042,2083.3300,0.0000,approved,1,0,2026-08-31 23:59:59,0
+20648,1,2026-08-31,journal_entry,Reversal of: to accrue medicines - konsulta La Nueva 2026 JULY — #77397,366857.7300,366857.7300,approved,1,0,2026-08-31 23:59:59,0
+20649,1,2026-08-31,journal_entry,To record inventory consumption 2026 AUGUST — #77524,43146.7600,43146.7600,approved,1,0,2026-08-31 23:59:59,0
+20650,1,2026-08-31,journal_entry,"CPCI Payroll for august 16-31, 2026 - Mobile Medical Affairs — #77548",223416.6800,223416.6800,approved,1,0,2026-08-31 23:59:59,0
+20651,1,2026-08-31,journal_entry,"CPCI Payroll for august 16-31, 2026 - Mobile Operations — #77549",243164.4400,243164.4400,approved,1,0,2026-08-31 23:59:59,0
+20652,1,2026-08-31,journal_entry,"to record KA/YA payroll Operations, FT support, logistics- Mobile AUGUST 16-31 — #77568",167860.4200,167860.4200,approved,1,0,2026-08-31 23:59:59,0
+20653,1,2026-08-31,journal_entry,to record KA/YA payroll MALL & ADMIN AUGUST 16-31 — #77573,177882.7600,177882.7600,approved,1,0,2026-08-31 23:59:59,0
+20654,1,2026-08-31,journal_entry,To record the accrual of the 13th Month Pay for 2026 august 1-15 — #77576,30217.4600,30217.4600,approved,1,0,2026-08-31 23:59:59,0
+20655,1,2026-08-31,journal_entry,To record the accrual of the 13th Month Pay for 2026 august 16-31 — #77577,30912.2100,30912.2100,approved,1,0,2026-08-31 23:59:59,0
+20656,1,2026-08-31,journal_entry,"Sales Branches August 31, 2026 - Term Sales - August, 31 — #78118",692240.0000,692240.0000,approved,1,0,2026-08-31 23:59:59,0
+20657,1,2026-08-31,journal_entry,To reclassify Konsulta FPE revenue 2026 august — #78147,1220600.0000,1220600.0000,approved,1,0,2026-08-31 23:59:59,0
+20658,1,2026-08-31,journal_entry,to record invalid Revenue of Yakap sales duplicates for August — #78158,12240.0000,12240.0000,approved,1,0,2026-08-31 23:59:59,0
+20659,1,2026-08-31,payable_invoice,Shanesse Angelee Cortes — RFP No.# 6926,4050.0000,4050.0000,approved,1,0,2026-08-31 23:59:59,0
+20660,1,2026-08-31,payable_invoice,Shanesse Angelee Cortes — RFP No.# 6928,1511.0000,1511.0000,approved,1,0,2026-08-31 23:59:59,0
+20661,1,2026-08-31,receivable_invoice,Knowles Electronics Philippines - RANDOM DRUG TESTING | 08/19/2026 |Knowles Electronics Philippines | | 95PAX|250 | — MO-24523,23750.0000,23750.0000,approved,1,0,2026-08-31 23:59:59,0

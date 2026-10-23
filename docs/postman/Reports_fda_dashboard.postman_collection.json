@@ -1,0 +1,2491 @@
+{
+  "info": {
+    "_postman_id": "e9fbe9c7-ba8f-40e6-ab1e-e12c064a4c88",
+    "name": "Reports - FDA dashboard, sales and pharmacy doctors",
+    "description": "# FDA dashboard and pharmacy doctors\n\nAll saved responses are illustrative synthetic examples, not captured production results.\n\n## Authentication and environments\nHeader `API-KEY: {{api_key}}`; query parameters `token` and `requester`. Enter your own credentials after import.\nUAT: https://zuat-accounting-back.myt-emr.com\nProduction: https://accounting-back.myt-emr.com\nSet `base_url` to the environment you intend to read. This collection contains GET requests only.\n\n## Branches and IDs\n1 Mobile; 2 Oakridge; 3 Mactan; 4 Consolacion; 7 Mantlewood.\nDoctor `id` is pharmacy_doctor.id, not doctor_id. IDs are local to each branch: keep branch_id together with id. Identical doctor names or IDs in different branches are separate records.\n\n## FDA dashboard\nGET /reports/get_fda_dashboard\nOptional branch_id: omit or leave empty for all available branches.\nOptional pharmacy_doctor_id: one positive integer; requires branch_id. Filters dispense_medicine_details.pharmacy_doctor_id, so different doctors on the same dispensing header are filtered independently.\nOptional date_from/date_to: supply both as valid YYYY-MM-DD dates; inclusive filtering on medicine-detail added_on. Existing date handling is retained; use date_from <= date_to for a meaningful range.\nOptional patient_id/item_id: single numeric IDs; existing branch-local behavior is retained.\nOptional term: searches patient_name, doctor_name and generic.\nPagination: page (default 1), data_size (default 20); page_size remains an alias when data_size is omitted.\nOrder: numeric rx_no ascending, then branch_id ascending, before pagination. rx_no remains the medicine-detail ID; it is not the dispensing-header number.\nResponse: data, size (full filtered count), page, data_size, total_pages. Existing row fields are unchanged.\nWhen a branch lacks the pharmacy_doctor_id source column, a doctor-filtered FDA result is empty for that branch; the filter is never ignored. Unknown positive doctor IDs also return no matching rows.\n\n## Pharmacy-doctor lookup\nGET /reports/get_pharmacy_doctor\nOptional branch_id: omit/empty for all supported branches. Returns all matching non-deleted doctors without pagination, ordered by name, branch_id, id.\nThe master connection checks pharmacy_doctor table existence in the configured diagnostic schemas before querying. Missing tables are skipped. Real metadata/data query failures are errors, not empty successes.\nResponse: data and size. Each doctor retains id, doctor_id, name, lic_no, is_cpci, audit/deletion fields, plus source branch_id/branch_name. No deduplication across branches; leading-zero license numbers remain strings. No doctors or no available tables returns {\"data\": [], \"size\": 0}.\n\n## Workflow\n1. Read the doctor list for all branches or a selected branch.\n2. Copy the selected row's id into pharmacy_doctor_id and its branch_id into branch_id.\n3. Send the selected-branch/doctor FDA request.\nDisabled query parameters can be enabled in Postman; clear unused filter values.\n\n## FDA sales (local implementation only)\nGET /reports/get_fda_sales\nUses existing authenticated report access. This new endpoint is local only; no UAT/production deployment is included. Existing dashboard and pharmacy-doctor requests remain unchanged.\nGroups active dispense_medicine_details by branch, added_by, item_id and DATE(added_on). Branch-local user/item IDs never merge across branches. Omitted/blank branch_id merges available diagnostic sources 1, 2, 3, 4 and 7 through the master connection; a selected branch reads only that source. Missing dispensing tables are skipped, but incompatible required columns and real query failures remain errors.\nOptional filters: branch_id, paired date_from/date_to (inclusive YYYY-MM-DD calendar days), patient_id, item_id, term, brand, generic, dosage, form, kind, page and data_size. IDs/page sizes must be positive integers; branch must be supported. Supply both dates or neither; reversed ranges and invalid dates return HTTP 400. Text filters accept strings or null, trim surrounding whitespace, and skip blank values; string \"0\" is a real filter.\nterm uses case-insensitive substring LIKE matching across branch-local item.name, the branch-local user's full name, and saved detail doctor_name/patient_name. Normal SQL LIKE wildcards remain supported. brand/generic/dosage/form compare the current branch item catalog exactly, not historical detail snapshots. kind uses comma-separated complete-token OR matching. Different filters combine using AND. All filters apply before sums and CSV assembly, so patient/name filters can reduce a group's totals and CSV values.\nquantity, price and amount are independent SUM values, with null numeric inputs treated as zero. price is the sum of the saved prices, not an average or a price multiplied by quantity. These sums are returned as decimal strings without PHP floating-point rounding. added_by/item_id remain scalar; added_on is the calendar day YYYY-MM-DD. Rows also include branch_id/name, item_name and dispense_by_name. Dispenser names come only from user in that source schema (first, middle and last name, skipping blank components). Missing item/user metadata returns null names without removing otherwise valid sales. Soft-deleted detail rows are excluded when is_deleted exists; existing user/item records can still name historical sales.\nEvery remaining detail column is returned as a CSV string of distinct nonblank values, ordered by first contributing detail ID. This includes detail id, dispensing-header IDs, patient/doctor IDs, saved names/medication attributes and audit fields when present. Null-only/blank-only or source-unavailable columns return null. \"0\", case and leading zeros are preserved. CSV quotes fields as needed, including embedded commas, quotes, whitespace and line breaks; parse each CSV field with a CSV parser, not a plain split(','). Each column is independently distinct; positions across different CSV columns do not imply a row relationship. Source-specific optional fields may extend the returned columns. Derived branch/name fields and scalar grouping/sum fields retain their documented meanings.\nGrouped totals and counts are calculated in SQL. CSV assembly reads contributing details in batches for only the selected page, avoiding GROUP_CONCAT truncation. Results return {data,size,page,data_size,total_pages}, ordered by day ASC, branch_id ASC, added_by ASC, item_id ASC. size counts groups before pagination; defaults are page 1/data_size 20. The Core page_size alias is accepted when data_size is omitted and must also be positive. Empty results return HTTP 200 with data=[], size=0 and total_pages=0. A page beyond the last page keeps the matching size and returns data=[].\nSaved sales examples are illustrative synthetic, abridged detail projections. No real patients, users or production results are included. No request execution scripts, writes or automatic retries are added.\n",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "https://zuat-accounting-back.myt-emr.com",
+      "type": "string"
+    },
+    {
+      "key": "api_key",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "token",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "requester",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "branch_id",
+      "value": "2",
+      "type": "string"
+    },
+    {
+      "key": "pharmacy_doctor_id",
+      "value": "7",
+      "type": "string"
+    },
+    {
+      "key": "date_from",
+      "value": "2026-10-01",
+      "type": "string"
+    },
+    {
+      "key": "date_to",
+      "value": "2026-10-31",
+      "type": "string"
+    },
+    {
+      "key": "patient_id",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "item_id",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "term",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "page",
+      "value": "1",
+      "type": "string"
+    },
+    {
+      "key": "data_size",
+      "value": "20",
+      "type": "string"
+    },
+    {
+      "key": "brand",
+      "value": "Acme",
+      "type": "string"
+    },
+    {
+      "key": "generic",
+      "value": "Catalog A",
+      "type": "string"
+    },
+    {
+      "key": "dosage",
+      "value": "10 mg",
+      "type": "string"
+    },
+    {
+      "key": "form",
+      "value": "Tablet",
+      "type": "string"
+    },
+    {
+      "key": "kind",
+      "value": "pharmacy",
+      "type": "string"
+    },
+    {
+      "key": "sales_term",
+      "value": "Doctor Beta",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "FDA dashboard - all branches",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/reports/get_fda_dashboard?token={{token}}&requester={{requester}}&page={{page}}&data_size={{data_size}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "reports",
+            "get_fda_dashboard"
+          ],
+          "query": [
+            {
+              "key": "token",
+              "value": "{{token}}"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}"
+            },
+            {
+              "key": "page",
+              "value": "{{page}}",
+              "description": "Default 1."
+            },
+            {
+              "key": "data_size",
+              "value": "{{data_size}}",
+              "description": "Default 20."
+            },
+            {
+              "key": "branch_id",
+              "value": "{{branch_id}}",
+              "description": "Optional supported branch; required with pharmacy_doctor_id.",
+              "disabled": true
+            },
+            {
+              "key": "pharmacy_doctor_id",
+              "value": "{{pharmacy_doctor_id}}",
+              "description": "Optional positive pharmacy_doctor.id from the selected branch.",
+              "disabled": true
+            },
+            {
+              "key": "date_from",
+              "value": "{{date_from}}",
+              "description": "Optional inclusive start, YYYY-MM-DD; requires date_to.",
+              "disabled": true
+            },
+            {
+              "key": "date_to",
+              "value": "{{date_to}}",
+              "description": "Optional inclusive end, YYYY-MM-DD; requires date_from.",
+              "disabled": true
+            },
+            {
+              "key": "patient_id",
+              "value": "{{patient_id}}",
+              "description": "Optional single numeric patient ID.",
+              "disabled": true
+            },
+            {
+              "key": "item_id",
+              "value": "{{item_id}}",
+              "description": "Optional single numeric item ID.",
+              "disabled": true
+            },
+            {
+              "key": "term",
+              "value": "{{term}}",
+              "description": "Optional patient/doctor/generic search.",
+              "disabled": true
+            }
+          ]
+        },
+        "description": "Unfiltered merged FDA rows, globally sorted by numeric rx_no then branch_id before pagination. Enable both dates together to narrow the date range.\n\nSee collection documentation for authentication, branch rules and response fields."
+      },
+      "response": [
+        {
+          "name": "Success sorted across dates and branches (illustrative)",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/reports/get_fda_dashboard?token={{token}}&requester={{requester}}&page={{page}}&data_size={{data_size}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "reports",
+                "get_fda_dashboard"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}"
+                },
+                {
+                  "key": "page",
+                  "value": "{{page}}",
+                  "description": "Default 1."
+                },
+                {
+                  "key": "data_size",
+                  "value": "{{data_size}}",
+                  "description": "Default 20."
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "description": "Optional supported branch; required with pharmacy_doctor_id.",
+                  "disabled": true
+                },
+                {
+                  "key": "pharmacy_doctor_id",
+                  "value": "{{pharmacy_doctor_id}}",
+                  "description": "Optional positive pharmacy_doctor.id from the selected branch.",
+                  "disabled": true
+                },
+                {
+                  "key": "date_from",
+                  "value": "{{date_from}}",
+                  "description": "Optional inclusive start, YYYY-MM-DD; requires date_to.",
+                  "disabled": true
+                },
+                {
+                  "key": "date_to",
+                  "value": "{{date_to}}",
+                  "description": "Optional inclusive end, YYYY-MM-DD; requires date_from.",
+                  "disabled": true
+                },
+                {
+                  "key": "patient_id",
+                  "value": "{{patient_id}}",
+                  "description": "Optional single numeric patient ID.",
+                  "disabled": true
+                },
+                {
+                  "key": "item_id",
+                  "value": "{{item_id}}",
+                  "description": "Optional single numeric item ID.",
+                  "disabled": true
+                },
+                {
+                  "key": "term",
+                  "value": "{{term}}",
+                  "description": "Optional patient/doctor/generic search.",
+                  "disabled": true
+                }
+              ]
+            },
+            "description": "Unfiltered merged FDA rows, globally sorted by numeric rx_no then branch_id before pagination. Enable both dates together to narrow the date range.\n\nSee collection documentation for authentication, branch rules and response fields."
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"data\": [\n    {\n      \"rx_no\": 2,\n      \"date\": \"2026-10-05\",\n      \"doctor_name\": \"Example Doctor Alpha\",\n      \"patient_name\": \"Synthetic Patient\",\n      \"address\": \"Example Address\",\n      \"age\": 40,\n      \"medications\": \"Example medicine 5 mg once daily\",\n      \"quantity_dispensed\": \"10.00\",\n      \"remarks\": null,\n      \"rx_type\": \"regular\",\n      \"branch_id\": 1,\n      \"branch_name\": \"Mobile\"\n    },\n    {\n      \"rx_no\": 2,\n      \"date\": \"2026-10-12\",\n      \"doctor_name\": \"Example Doctor Alpha\",\n      \"patient_name\": \"Synthetic Patient\",\n      \"address\": \"Example Address\",\n      \"age\": 40,\n      \"medications\": \"Example medicine 5 mg once daily\",\n      \"quantity_dispensed\": \"10.00\",\n      \"remarks\": null,\n      \"rx_type\": \"regular\",\n      \"branch_id\": 2,\n      \"branch_name\": \"Oakridge\"\n    },\n    {\n      \"rx_no\": 10,\n      \"date\": \"2026-10-04\",\n      \"doctor_name\": \"Example Doctor Alpha\",\n      \"patient_name\": \"Synthetic Patient\",\n      \"address\": \"Example Address\",\n      \"age\": 40,\n      \"medications\": \"Example medicine 5 mg once daily\",\n      \"quantity_dispensed\": \"10.00\",\n      \"remarks\": null,\n      \"rx_type\": \"regular\",\n      \"branch_id\": 1,\n      \"branch_name\": \"Mobile\"\n    }\n  ],\n  \"size\": 3,\n  \"page\": 1,\n  \"data_size\": 20,\n  \"total_pages\": 1\n}"
+        },
+        {
+          "name": "No matches (illustrative)",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/reports/get_fda_dashboard?token={{token}}&requester={{requester}}&page={{page}}&data_size={{data_size}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "reports",
+                "get_fda_dashboard"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}"
+                },
+                {
+                  "key": "page",
+                  "value": "{{page}}",
+                  "description": "Default 1."
+                },
+                {
+                  "key": "data_size",
+                  "value": "{{data_size}}",
+                  "description": "Default 20."
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "description": "Optional supported branch; required with pharmacy_doctor_id.",
+                  "disabled": true
+                },
+                {
+                  "key": "pharmacy_doctor_id",
+                  "value": "{{pharmacy_doctor_id}}",
+                  "description": "Optional positive pharmacy_doctor.id from the selected branch.",
+                  "disabled": true
+                },
+                {
+                  "key": "date_from",
+                  "value": "{{date_from}}",
+                  "description": "Optional inclusive start, YYYY-MM-DD; requires date_to.",
+                  "disabled": true
+                },
+                {
+                  "key": "date_to",
+                  "value": "{{date_to}}",
+                  "description": "Optional inclusive end, YYYY-MM-DD; requires date_from.",
+                  "disabled": true
+                },
+                {
+                  "key": "patient_id",
+                  "value": "{{patient_id}}",
+                  "description": "Optional single numeric patient ID.",
+                  "disabled": true
+                },
+                {
+                  "key": "item_id",
+                  "value": "{{item_id}}",
+                  "description": "Optional single numeric item ID.",
+                  "disabled": true
+                },
+                {
+                  "key": "term",
+                  "value": "{{term}}",
+                  "description": "Optional patient/doctor/generic search.",
+                  "disabled": true
+                }
+              ]
+            },
+            "description": "Unfiltered merged FDA rows, globally sorted by numeric rx_no then branch_id before pagination. Enable both dates together to narrow the date range.\n\nSee collection documentation for authentication, branch rules and response fields."
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"data\": [],\n  \"size\": 0,\n  \"page\": 1,\n  \"data_size\": 20,\n  \"total_pages\": 0\n}"
+        },
+        {
+          "name": "Missing date partner (illustrative)",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/reports/get_fda_dashboard?token={{token}}&requester={{requester}}&page={{page}}&data_size={{data_size}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "reports",
+                "get_fda_dashboard"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}"
+                },
+                {
+                  "key": "page",
+                  "value": "{{page}}",
+                  "description": "Default 1."
+                },
+                {
+                  "key": "data_size",
+                  "value": "{{data_size}}",
+                  "description": "Default 20."
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "description": "Optional supported branch; required with pharmacy_doctor_id.",
+                  "disabled": true
+                },
+                {
+                  "key": "pharmacy_doctor_id",
+                  "value": "{{pharmacy_doctor_id}}",
+                  "description": "Optional positive pharmacy_doctor.id from the selected branch.",
+                  "disabled": true
+                },
+                {
+                  "key": "date_from",
+                  "value": "{{date_from}}",
+                  "description": "Optional inclusive start, YYYY-MM-DD; requires date_to.",
+                  "disabled": true
+                },
+                {
+                  "key": "date_to",
+                  "value": "{{date_to}}",
+                  "description": "Optional inclusive end, YYYY-MM-DD; requires date_from.",
+                  "disabled": true
+                },
+                {
+                  "key": "patient_id",
+                  "value": "{{patient_id}}",
+                  "description": "Optional single numeric patient ID.",
+                  "disabled": true
+                },
+                {
+                  "key": "item_id",
+                  "value": "{{item_id}}",
+                  "description": "Optional single numeric item ID.",
+                  "disabled": true
+                },
+                {
+                  "key": "term",
+                  "value": "{{term}}",
+                  "description": "Optional patient/doctor/generic search.",
+                  "disabled": true
+                }
+              ]
+            },
+            "description": "Unfiltered merged FDA rows, globally sorted by numeric rx_no then branch_id before pagination. Enable both dates together to narrow the date range.\n\nSee collection documentation for authentication, branch rules and response fields."
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"Both date_from and date_to are required when filtering by date.\"\n    ]\n  }\n}"
+        },
+        {
+          "name": "Invalid date (illustrative)",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/reports/get_fda_dashboard?token={{token}}&requester={{requester}}&page={{page}}&data_size={{data_size}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "reports",
+                "get_fda_dashboard"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}"
+                },
+                {
+                  "key": "page",
+                  "value": "{{page}}",
+                  "description": "Default 1."
+                },
+                {
+                  "key": "data_size",
+                  "value": "{{data_size}}",
+                  "description": "Default 20."
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "description": "Optional supported branch; required with pharmacy_doctor_id.",
+                  "disabled": true
+                },
+                {
+                  "key": "pharmacy_doctor_id",
+                  "value": "{{pharmacy_doctor_id}}",
+                  "description": "Optional positive pharmacy_doctor.id from the selected branch.",
+                  "disabled": true
+                },
+                {
+                  "key": "date_from",
+                  "value": "{{date_from}}",
+                  "description": "Optional inclusive start, YYYY-MM-DD; requires date_to.",
+                  "disabled": true
+                },
+                {
+                  "key": "date_to",
+                  "value": "{{date_to}}",
+                  "description": "Optional inclusive end, YYYY-MM-DD; requires date_from.",
+                  "disabled": true
+                },
+                {
+                  "key": "patient_id",
+                  "value": "{{patient_id}}",
+                  "description": "Optional single numeric patient ID.",
+                  "disabled": true
+                },
+                {
+                  "key": "item_id",
+                  "value": "{{item_id}}",
+                  "description": "Optional single numeric item ID.",
+                  "disabled": true
+                },
+                {
+                  "key": "term",
+                  "value": "{{term}}",
+                  "description": "Optional patient/doctor/generic search.",
+                  "disabled": true
+                }
+              ]
+            },
+            "description": "Unfiltered merged FDA rows, globally sorted by numeric rx_no then branch_id before pagination. Enable both dates together to narrow the date range.\n\nSee collection documentation for authentication, branch rules and response fields."
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"Dates must be valid and use YYYY-MM-DD format.\"\n    ]\n  }\n}"
+        }
+      ]
+    },
+    {
+      "name": "FDA dashboard - selected branch and doctor",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/reports/get_fda_dashboard?token={{token}}&requester={{requester}}&branch_id={{branch_id}}&pharmacy_doctor_id={{pharmacy_doctor_id}}&page={{page}}&data_size={{data_size}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "reports",
+            "get_fda_dashboard"
+          ],
+          "query": [
+            {
+              "key": "token",
+              "value": "{{token}}"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}"
+            },
+            {
+              "key": "branch_id",
+              "value": "{{branch_id}}",
+              "description": "Optional supported branch; required with pharmacy_doctor_id."
+            },
+            {
+              "key": "pharmacy_doctor_id",
+              "value": "{{pharmacy_doctor_id}}",
+              "description": "Optional positive pharmacy_doctor.id from the selected branch."
+            },
+            {
+              "key": "page",
+              "value": "{{page}}",
+              "description": "Default 1."
+            },
+            {
+              "key": "data_size",
+              "value": "{{data_size}}",
+              "description": "Default 20."
+            },
+            {
+              "key": "date_from",
+              "value": "{{date_from}}",
+              "description": "Optional inclusive start, YYYY-MM-DD; requires date_to.",
+              "disabled": true
+            },
+            {
+              "key": "date_to",
+              "value": "{{date_to}}",
+              "description": "Optional inclusive end, YYYY-MM-DD; requires date_from.",
+              "disabled": true
+            },
+            {
+              "key": "patient_id",
+              "value": "{{patient_id}}",
+              "description": "Optional single numeric patient ID.",
+              "disabled": true
+            },
+            {
+              "key": "item_id",
+              "value": "{{item_id}}",
+              "description": "Optional single numeric item ID.",
+              "disabled": true
+            },
+            {
+              "key": "term",
+              "value": "{{term}}",
+              "description": "Optional patient/doctor/generic search.",
+              "disabled": true
+            }
+          ]
+        },
+        "description": "Use the id and branch_id returned by the pharmacy-doctor lookup. Selects individual detail rows assigned to that doctor, not every row of the same dispensing header.\n\nSee collection documentation for authentication, branch rules and response fields."
+      },
+      "response": [
+        {
+          "name": "Filtered success (illustrative)",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/reports/get_fda_dashboard?token={{token}}&requester={{requester}}&branch_id={{branch_id}}&pharmacy_doctor_id={{pharmacy_doctor_id}}&page={{page}}&data_size={{data_size}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "reports",
+                "get_fda_dashboard"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "description": "Optional supported branch; required with pharmacy_doctor_id."
+                },
+                {
+                  "key": "pharmacy_doctor_id",
+                  "value": "{{pharmacy_doctor_id}}",
+                  "description": "Optional positive pharmacy_doctor.id from the selected branch."
+                },
+                {
+                  "key": "page",
+                  "value": "{{page}}",
+                  "description": "Default 1."
+                },
+                {
+                  "key": "data_size",
+                  "value": "{{data_size}}",
+                  "description": "Default 20."
+                },
+                {
+                  "key": "date_from",
+                  "value": "{{date_from}}",
+                  "description": "Optional inclusive start, YYYY-MM-DD; requires date_to.",
+                  "disabled": true
+                },
+                {
+                  "key": "date_to",
+                  "value": "{{date_to}}",
+                  "description": "Optional inclusive end, YYYY-MM-DD; requires date_from.",
+                  "disabled": true
+                },
+                {
+                  "key": "patient_id",
+                  "value": "{{patient_id}}",
+                  "description": "Optional single numeric patient ID.",
+                  "disabled": true
+                },
+                {
+                  "key": "item_id",
+                  "value": "{{item_id}}",
+                  "description": "Optional single numeric item ID.",
+                  "disabled": true
+                },
+                {
+                  "key": "term",
+                  "value": "{{term}}",
+                  "description": "Optional patient/doctor/generic search.",
+                  "disabled": true
+                }
+              ]
+            },
+            "description": "Use the id and branch_id returned by the pharmacy-doctor lookup. Selects individual detail rows assigned to that doctor, not every row of the same dispensing header.\n\nSee collection documentation for authentication, branch rules and response fields."
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"data\": [\n    {\n      \"rx_no\": 2,\n      \"date\": \"2026-10-05\",\n      \"doctor_name\": \"Example Doctor Alpha\",\n      \"patient_name\": \"Synthetic Patient\",\n      \"address\": \"Example Address\",\n      \"age\": 40,\n      \"medications\": \"Example medicine 5 mg once daily\",\n      \"quantity_dispensed\": \"10.00\",\n      \"remarks\": null,\n      \"rx_type\": \"regular\",\n      \"branch_id\": 2,\n      \"branch_name\": \"Oakridge\"\n    },\n    {\n      \"rx_no\": 21,\n      \"date\": \"2026-10-09\",\n      \"doctor_name\": \"Example Doctor Alpha\",\n      \"patient_name\": \"Synthetic Patient\",\n      \"address\": \"Example Address\",\n      \"age\": 40,\n      \"medications\": \"Example medicine 5 mg once daily\",\n      \"quantity_dispensed\": \"10.00\",\n      \"remarks\": null,\n      \"rx_type\": \"regular\",\n      \"branch_id\": 2,\n      \"branch_name\": \"Oakridge\"\n    }\n  ],\n  \"size\": 2,\n  \"page\": 1,\n  \"data_size\": 20,\n  \"total_pages\": 1\n}"
+        },
+        {
+          "name": "Unknown doctor or unavailable source column (illustrative)",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/reports/get_fda_dashboard?token={{token}}&requester={{requester}}&branch_id={{branch_id}}&pharmacy_doctor_id={{pharmacy_doctor_id}}&page={{page}}&data_size={{data_size}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "reports",
+                "get_fda_dashboard"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "description": "Optional supported branch; required with pharmacy_doctor_id."
+                },
+                {
+                  "key": "pharmacy_doctor_id",
+                  "value": "{{pharmacy_doctor_id}}",
+                  "description": "Optional positive pharmacy_doctor.id from the selected branch."
+                },
+                {
+                  "key": "page",
+                  "value": "{{page}}",
+                  "description": "Default 1."
+                },
+                {
+                  "key": "data_size",
+                  "value": "{{data_size}}",
+                  "description": "Default 20."
+                },
+                {
+                  "key": "date_from",
+                  "value": "{{date_from}}",
+                  "description": "Optional inclusive start, YYYY-MM-DD; requires date_to.",
+                  "disabled": true
+                },
+                {
+                  "key": "date_to",
+                  "value": "{{date_to}}",
+                  "description": "Optional inclusive end, YYYY-MM-DD; requires date_from.",
+                  "disabled": true
+                },
+                {
+                  "key": "patient_id",
+                  "value": "{{patient_id}}",
+                  "description": "Optional single numeric patient ID.",
+                  "disabled": true
+                },
+                {
+                  "key": "item_id",
+                  "value": "{{item_id}}",
+                  "description": "Optional single numeric item ID.",
+                  "disabled": true
+                },
+                {
+                  "key": "term",
+                  "value": "{{term}}",
+                  "description": "Optional patient/doctor/generic search.",
+                  "disabled": true
+                }
+              ]
+            },
+            "description": "Use the id and branch_id returned by the pharmacy-doctor lookup. Selects individual detail rows assigned to that doctor, not every row of the same dispensing header.\n\nSee collection documentation for authentication, branch rules and response fields."
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"data\": [],\n  \"size\": 0,\n  \"page\": 1,\n  \"data_size\": 20,\n  \"total_pages\": 0\n}"
+        },
+        {
+          "name": "Doctor without branch (illustrative)",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/reports/get_fda_dashboard?token={{token}}&requester={{requester}}&branch_id={{branch_id}}&pharmacy_doctor_id={{pharmacy_doctor_id}}&page={{page}}&data_size={{data_size}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "reports",
+                "get_fda_dashboard"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "description": "Optional supported branch; required with pharmacy_doctor_id."
+                },
+                {
+                  "key": "pharmacy_doctor_id",
+                  "value": "{{pharmacy_doctor_id}}",
+                  "description": "Optional positive pharmacy_doctor.id from the selected branch."
+                },
+                {
+                  "key": "page",
+                  "value": "{{page}}",
+                  "description": "Default 1."
+                },
+                {
+                  "key": "data_size",
+                  "value": "{{data_size}}",
+                  "description": "Default 20."
+                },
+                {
+                  "key": "date_from",
+                  "value": "{{date_from}}",
+                  "description": "Optional inclusive start, YYYY-MM-DD; requires date_to.",
+                  "disabled": true
+                },
+                {
+                  "key": "date_to",
+                  "value": "{{date_to}}",
+                  "description": "Optional inclusive end, YYYY-MM-DD; requires date_from.",
+                  "disabled": true
+                },
+                {
+                  "key": "patient_id",
+                  "value": "{{patient_id}}",
+                  "description": "Optional single numeric patient ID.",
+                  "disabled": true
+                },
+                {
+                  "key": "item_id",
+                  "value": "{{item_id}}",
+                  "description": "Optional single numeric item ID.",
+                  "disabled": true
+                },
+                {
+                  "key": "term",
+                  "value": "{{term}}",
+                  "description": "Optional patient/doctor/generic search.",
+                  "disabled": true
+                }
+              ]
+            },
+            "description": "Use the id and branch_id returned by the pharmacy-doctor lookup. Selects individual detail rows assigned to that doctor, not every row of the same dispensing header.\n\nSee collection documentation for authentication, branch rules and response fields."
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"branch_id is required when filtering by pharmacy_doctor_id.\"\n    ]\n  }\n}"
+        },
+        {
+          "name": "Invalid doctor ID (illustrative)",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/reports/get_fda_dashboard?token={{token}}&requester={{requester}}&branch_id={{branch_id}}&pharmacy_doctor_id={{pharmacy_doctor_id}}&page={{page}}&data_size={{data_size}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "reports",
+                "get_fda_dashboard"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "description": "Optional supported branch; required with pharmacy_doctor_id."
+                },
+                {
+                  "key": "pharmacy_doctor_id",
+                  "value": "{{pharmacy_doctor_id}}",
+                  "description": "Optional positive pharmacy_doctor.id from the selected branch."
+                },
+                {
+                  "key": "page",
+                  "value": "{{page}}",
+                  "description": "Default 1."
+                },
+                {
+                  "key": "data_size",
+                  "value": "{{data_size}}",
+                  "description": "Default 20."
+                },
+                {
+                  "key": "date_from",
+                  "value": "{{date_from}}",
+                  "description": "Optional inclusive start, YYYY-MM-DD; requires date_to.",
+                  "disabled": true
+                },
+                {
+                  "key": "date_to",
+                  "value": "{{date_to}}",
+                  "description": "Optional inclusive end, YYYY-MM-DD; requires date_from.",
+                  "disabled": true
+                },
+                {
+                  "key": "patient_id",
+                  "value": "{{patient_id}}",
+                  "description": "Optional single numeric patient ID.",
+                  "disabled": true
+                },
+                {
+                  "key": "item_id",
+                  "value": "{{item_id}}",
+                  "description": "Optional single numeric item ID.",
+                  "disabled": true
+                },
+                {
+                  "key": "term",
+                  "value": "{{term}}",
+                  "description": "Optional patient/doctor/generic search.",
+                  "disabled": true
+                }
+              ]
+            },
+            "description": "Use the id and branch_id returned by the pharmacy-doctor lookup. Selects individual detail rows assigned to that doctor, not every row of the same dispensing header.\n\nSee collection documentation for authentication, branch rules and response fields."
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"pharmacy_doctor_id must be a positive integer.\"\n    ]\n  }\n}"
+        },
+        {
+          "name": "Non-scalar doctor ID (illustrative)",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/reports/get_fda_dashboard?token={{token}}&requester={{requester}}&branch_id={{branch_id}}&pharmacy_doctor_id={{pharmacy_doctor_id}}&page={{page}}&data_size={{data_size}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "reports",
+                "get_fda_dashboard"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "description": "Optional supported branch; required with pharmacy_doctor_id."
+                },
+                {
+                  "key": "pharmacy_doctor_id",
+                  "value": "{{pharmacy_doctor_id}}",
+                  "description": "Optional positive pharmacy_doctor.id from the selected branch."
+                },
+                {
+                  "key": "page",
+                  "value": "{{page}}",
+                  "description": "Default 1."
+                },
+                {
+                  "key": "data_size",
+                  "value": "{{data_size}}",
+                  "description": "Default 20."
+                },
+                {
+                  "key": "date_from",
+                  "value": "{{date_from}}",
+                  "description": "Optional inclusive start, YYYY-MM-DD; requires date_to.",
+                  "disabled": true
+                },
+                {
+                  "key": "date_to",
+                  "value": "{{date_to}}",
+                  "description": "Optional inclusive end, YYYY-MM-DD; requires date_from.",
+                  "disabled": true
+                },
+                {
+                  "key": "patient_id",
+                  "value": "{{patient_id}}",
+                  "description": "Optional single numeric patient ID.",
+                  "disabled": true
+                },
+                {
+                  "key": "item_id",
+                  "value": "{{item_id}}",
+                  "description": "Optional single numeric item ID.",
+                  "disabled": true
+                },
+                {
+                  "key": "term",
+                  "value": "{{term}}",
+                  "description": "Optional patient/doctor/generic search.",
+                  "disabled": true
+                }
+              ]
+            },
+            "description": "Use the id and branch_id returned by the pharmacy-doctor lookup. Selects individual detail rows assigned to that doctor, not every row of the same dispensing header.\n\nSee collection documentation for authentication, branch rules and response fields."
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"pharmacy_doctor_id must be a scalar value.\"\n    ]\n  }\n}"
+        }
+      ]
+    },
+    {
+      "name": "Pharmacy doctors - all branches",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/reports/get_pharmacy_doctor?token={{token}}&requester={{requester}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "reports",
+            "get_pharmacy_doctor"
+          ],
+          "query": [
+            {
+              "key": "token",
+              "value": "{{token}}"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}"
+            },
+            {
+              "key": "branch_id",
+              "value": "{{branch_id}}",
+              "description": "Optional supported branch; required with pharmacy_doctor_id.",
+              "disabled": true
+            }
+          ]
+        },
+        "description": "Returns every active doctor from existing branch tables. Identical IDs/names remain separate and include source branch metadata. No paging parameters are required.\n\nSee collection documentation for authentication, branch rules and response fields."
+      },
+      "response": [
+        {
+          "name": "Merged doctors with duplicate branch-local IDs (illustrative)",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/reports/get_pharmacy_doctor?token={{token}}&requester={{requester}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "reports",
+                "get_pharmacy_doctor"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "description": "Optional supported branch; required with pharmacy_doctor_id.",
+                  "disabled": true
+                }
+              ]
+            },
+            "description": "Returns every active doctor from existing branch tables. Identical IDs/names remain separate and include source branch metadata. No paging parameters are required.\n\nSee collection documentation for authentication, branch rules and response fields."
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"data\": [\n    {\n      \"id\": 7,\n      \"doctor_id\": null,\n      \"name\": \"Example Doctor Alpha\",\n      \"lic_no\": \"00123\",\n      \"is_cpci\": 0,\n      \"added_by\": 3,\n      \"added_on\": \"2026-10-05 09:00:00\",\n      \"updated_by\": null,\n      \"updated_on\": null,\n      \"is_deleted\": 0,\n      \"branch_id\": 1,\n      \"branch_name\": \"Mobile\"\n    },\n    {\n      \"id\": 7,\n      \"doctor_id\": null,\n      \"name\": \"Example Doctor Alpha\",\n      \"lic_no\": \"00123\",\n      \"is_cpci\": 0,\n      \"added_by\": 3,\n      \"added_on\": \"2026-10-05 09:00:00\",\n      \"updated_by\": null,\n      \"updated_on\": null,\n      \"is_deleted\": 0,\n      \"branch_id\": 2,\n      \"branch_name\": \"Oakridge\"\n    }\n  ],\n  \"size\": 2\n}"
+        },
+        {
+          "name": "No doctors or no available tables (illustrative)",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/reports/get_pharmacy_doctor?token={{token}}&requester={{requester}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "reports",
+                "get_pharmacy_doctor"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "description": "Optional supported branch; required with pharmacy_doctor_id.",
+                  "disabled": true
+                }
+              ]
+            },
+            "description": "Returns every active doctor from existing branch tables. Identical IDs/names remain separate and include source branch metadata. No paging parameters are required.\n\nSee collection documentation for authentication, branch rules and response fields."
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"data\": [],\n  \"size\": 0\n}"
+        }
+      ]
+    },
+    {
+      "name": "Pharmacy doctors - selected branch",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/reports/get_pharmacy_doctor?token={{token}}&requester={{requester}}&branch_id={{branch_id}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "reports",
+            "get_pharmacy_doctor"
+          ],
+          "query": [
+            {
+              "key": "token",
+              "value": "{{token}}"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}"
+            },
+            {
+              "key": "branch_id",
+              "value": "{{branch_id}}",
+              "description": "Optional supported branch; required with pharmacy_doctor_id."
+            }
+          ]
+        },
+        "description": "Returns active pharmacy doctors for the selected supported branch through the master database connection. A missing table returns an empty list.\n\nSee collection documentation for authentication, branch rules and response fields."
+      },
+      "response": [
+        {
+          "name": "Selected branch success (illustrative)",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/reports/get_pharmacy_doctor?token={{token}}&requester={{requester}}&branch_id={{branch_id}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "reports",
+                "get_pharmacy_doctor"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "description": "Optional supported branch; required with pharmacy_doctor_id."
+                }
+              ]
+            },
+            "description": "Returns active pharmacy doctors for the selected supported branch through the master database connection. A missing table returns an empty list.\n\nSee collection documentation for authentication, branch rules and response fields."
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"data\": [\n    {\n      \"id\": 7,\n      \"doctor_id\": null,\n      \"name\": \"Example Doctor Alpha\",\n      \"lic_no\": \"00123\",\n      \"is_cpci\": 0,\n      \"added_by\": 3,\n      \"added_on\": \"2026-10-05 09:00:00\",\n      \"updated_by\": null,\n      \"updated_on\": null,\n      \"is_deleted\": 0,\n      \"branch_id\": 2,\n      \"branch_name\": \"Oakridge\"\n    }\n  ],\n  \"size\": 1\n}"
+        },
+        {
+          "name": "Empty or missing table (illustrative)",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/reports/get_pharmacy_doctor?token={{token}}&requester={{requester}}&branch_id={{branch_id}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "reports",
+                "get_pharmacy_doctor"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "description": "Optional supported branch; required with pharmacy_doctor_id."
+                }
+              ]
+            },
+            "description": "Returns active pharmacy doctors for the selected supported branch through the master database connection. A missing table returns an empty list.\n\nSee collection documentation for authentication, branch rules and response fields."
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"data\": [],\n  \"size\": 0\n}"
+        },
+        {
+          "name": "Unsupported branch (illustrative)",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/reports/get_pharmacy_doctor?token={{token}}&requester={{requester}}&branch_id={{branch_id}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "reports",
+                "get_pharmacy_doctor"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "description": "Optional supported branch; required with pharmacy_doctor_id."
+                }
+              ]
+            },
+            "description": "Returns active pharmacy doctors for the selected supported branch through the master database connection. A missing table returns an empty list.\n\nSee collection documentation for authentication, branch rules and response fields."
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"Invalid branch_id. Allowed values: 1 (mobile), 2 (oakridge), 3 (mactan), 4 (consolacion), 7 (mantlewood).\"\n    ]\n  }\n}"
+        }
+      ]
+    },
+    {
+      "name": "FDA sales - all branches",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "description": "Daily sales groups. Filters apply before sums and distinct CSV values. See collection FDA sales documentation. Local only; saved responses are illustrative synthetic examples.",
+        "url": {
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "reports",
+            "get_fda_sales"
+          ],
+          "query": [
+            {
+              "key": "token",
+              "value": "{{token}}"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}"
+            },
+            {
+              "key": "page",
+              "value": "{{page}}"
+            },
+            {
+              "key": "data_size",
+              "value": "{{data_size}}"
+            },
+            {
+              "key": "branch_id",
+              "value": "{{branch_id}}",
+              "disabled": true
+            },
+            {
+              "key": "date_from",
+              "value": "{{date_from}}",
+              "disabled": true
+            },
+            {
+              "key": "date_to",
+              "value": "{{date_to}}",
+              "disabled": true
+            },
+            {
+              "key": "patient_id",
+              "value": "{{patient_id}}",
+              "disabled": true
+            },
+            {
+              "key": "item_id",
+              "value": "{{item_id}}",
+              "disabled": true
+            },
+            {
+              "key": "term",
+              "value": "{{sales_term}}",
+              "disabled": true
+            },
+            {
+              "key": "brand",
+              "value": "{{brand}}",
+              "disabled": true
+            },
+            {
+              "key": "generic",
+              "value": "{{generic}}",
+              "disabled": true
+            },
+            {
+              "key": "dosage",
+              "value": "{{dosage}}",
+              "disabled": true
+            },
+            {
+              "key": "form",
+              "value": "{{form}}",
+              "disabled": true
+            },
+            {
+              "key": "kind",
+              "value": "{{kind}}",
+              "disabled": true
+            }
+          ],
+          "raw": "{{base_url}}/reports/get_fda_sales?token={{token}}&requester={{requester}}&page={{page}}&data_size={{data_size}}"
+        }
+      },
+      "response": [
+        {
+          "name": "Daily groups stay separate across branches (illustrative)",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "description": "Daily sales groups. Filters apply before sums and distinct CSV values. See collection FDA sales documentation. Local only; saved responses are illustrative synthetic examples.",
+            "url": {
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "reports",
+                "get_fda_sales"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}"
+                },
+                {
+                  "key": "page",
+                  "value": "{{page}}"
+                },
+                {
+                  "key": "data_size",
+                  "value": "{{data_size}}"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "disabled": true
+                },
+                {
+                  "key": "date_from",
+                  "value": "{{date_from}}",
+                  "disabled": true
+                },
+                {
+                  "key": "date_to",
+                  "value": "{{date_to}}",
+                  "disabled": true
+                },
+                {
+                  "key": "patient_id",
+                  "value": "{{patient_id}}",
+                  "disabled": true
+                },
+                {
+                  "key": "item_id",
+                  "value": "{{item_id}}",
+                  "disabled": true
+                },
+                {
+                  "key": "term",
+                  "value": "{{sales_term}}",
+                  "disabled": true
+                },
+                {
+                  "key": "brand",
+                  "value": "{{brand}}",
+                  "disabled": true
+                },
+                {
+                  "key": "generic",
+                  "value": "{{generic}}",
+                  "disabled": true
+                },
+                {
+                  "key": "dosage",
+                  "value": "{{dosage}}",
+                  "disabled": true
+                },
+                {
+                  "key": "form",
+                  "value": "{{form}}",
+                  "disabled": true
+                },
+                {
+                  "key": "kind",
+                  "value": "{{kind}}",
+                  "disabled": true
+                }
+              ],
+              "raw": "{{base_url}}/reports/get_fda_sales?token={{token}}&requester={{requester}}&page={{page}}&data_size={{data_size}}"
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"data\": [\n    {\n      \"branch_id\": 1,\n      \"branch_name\": \"Mobile\",\n      \"added_by\": \"1\",\n      \"item_id\": \"10\",\n      \"added_on\": \"2026-10-15\",\n      \"quantity\": \"3.7500\",\n      \"price\": \"5.30\",\n      \"amount\": \"10.63\",\n      \"item_name\": \"Drug A\",\n      \"dispense_by_name\": \"Alice Q Dispenser\",\n      \"id\": \"1,2,8\",\n      \"dispense_medicine_id\": \"100\",\n      \"patient_id\": \"1,2\",\n      \"pharmacy_doctor_id\": \"7\",\n      \"doctor_name\": \"\\\"Doctor Alpha\\\",\\\"Doctor Beta\\\"\",\n      \"patient_name\": \"\\\"Patient A\\\",\\\"Patient B\\\"\",\n      \"generic\": \"\\\"Snapshot A\\\"\",\n      \"brand\": \"\\\"Old brand\\\"\",\n      \"dosage\": \"\\\"5 mg\\\"\",\n      \"form\": \"\\\"Saved tablet\\\"\",\n      \"note\": \"\\\"A, \\\"\\\"quoted\\\"\\\" note\\\"\",\n      \"code\": \"0012,12,0\",\n      \"fs\": \"0\",\n      \"ps\": \"1\",\n      \"updated_by\": null,\n      \"updated_on\": null,\n      \"is_deleted\": \"0\"\n    },\n    {\n      \"branch_id\": 2,\n      \"branch_name\": \"Oakridge\",\n      \"added_by\": \"1\",\n      \"item_id\": \"10\",\n      \"added_on\": \"2026-10-15\",\n      \"quantity\": \"4.0000\",\n      \"price\": \"5.50\",\n      \"amount\": \"22.00\",\n      \"item_name\": \"Drug A\",\n      \"dispense_by_name\": \"Bob Local\",\n      \"id\": \"1\",\n      \"dispense_medicine_id\": \"100\",\n      \"patient_id\": \"1\",\n      \"pharmacy_doctor_id\": \"7\",\n      \"doctor_name\": \"\\\"Doctor Alpha\\\"\",\n      \"patient_name\": \"\\\"Patient A\\\"\",\n      \"generic\": \"\\\"Snapshot A\\\"\",\n      \"brand\": \"\\\"Old brand\\\"\",\n      \"dosage\": \"\\\"5 mg\\\"\",\n      \"form\": \"\\\"Saved tablet\\\"\",\n      \"note\": \"\\\"A, \\\"\\\"quoted\\\"\\\" note\\\"\",\n      \"code\": \"AB123\",\n      \"fs\": \"0\",\n      \"ps\": \"1\",\n      \"updated_by\": null,\n      \"updated_on\": null,\n      \"is_deleted\": \"0\"\n    }\n  ],\n  \"size\": 2,\n  \"page\": 1,\n  \"data_size\": 20,\n  \"total_pages\": 1\n}"
+        },
+        {
+          "name": "No matching sales groups (illustrative)",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "description": "Daily sales groups. Filters apply before sums and distinct CSV values. See collection FDA sales documentation. Local only; saved responses are illustrative synthetic examples.",
+            "url": {
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "reports",
+                "get_fda_sales"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}"
+                },
+                {
+                  "key": "page",
+                  "value": "{{page}}"
+                },
+                {
+                  "key": "data_size",
+                  "value": "{{data_size}}"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "disabled": true
+                },
+                {
+                  "key": "date_from",
+                  "value": "{{date_from}}",
+                  "disabled": true
+                },
+                {
+                  "key": "date_to",
+                  "value": "{{date_to}}",
+                  "disabled": true
+                },
+                {
+                  "key": "patient_id",
+                  "value": "{{patient_id}}",
+                  "disabled": true
+                },
+                {
+                  "key": "item_id",
+                  "value": "{{item_id}}",
+                  "disabled": true
+                },
+                {
+                  "key": "term",
+                  "value": "{{sales_term}}",
+                  "disabled": true
+                },
+                {
+                  "key": "brand",
+                  "value": "{{brand}}",
+                  "disabled": true
+                },
+                {
+                  "key": "generic",
+                  "value": "{{generic}}",
+                  "disabled": true
+                },
+                {
+                  "key": "dosage",
+                  "value": "{{dosage}}",
+                  "disabled": true
+                },
+                {
+                  "key": "form",
+                  "value": "{{form}}",
+                  "disabled": true
+                },
+                {
+                  "key": "kind",
+                  "value": "{{kind}}",
+                  "disabled": true
+                }
+              ],
+              "raw": "{{base_url}}/reports/get_fda_sales?token={{token}}&requester={{requester}}&page={{page}}&data_size={{data_size}}"
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"data\": [],\n  \"size\": 0,\n  \"page\": 1,\n  \"data_size\": 20,\n  \"total_pages\": 0\n}"
+        }
+      ]
+    },
+    {
+      "name": "FDA sales - selected branch and item filters",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "description": "Daily sales groups. Filters apply before sums and distinct CSV values. See collection FDA sales documentation. Local only; saved responses are illustrative synthetic examples.",
+        "url": {
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "reports",
+            "get_fda_sales"
+          ],
+          "query": [
+            {
+              "key": "token",
+              "value": "{{token}}"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}"
+            },
+            {
+              "key": "page",
+              "value": "{{page}}"
+            },
+            {
+              "key": "data_size",
+              "value": "{{data_size}}"
+            },
+            {
+              "key": "branch_id",
+              "value": "{{branch_id}}",
+              "disabled": false
+            },
+            {
+              "key": "date_from",
+              "value": "{{date_from}}",
+              "disabled": false
+            },
+            {
+              "key": "date_to",
+              "value": "{{date_to}}",
+              "disabled": false
+            },
+            {
+              "key": "patient_id",
+              "value": "{{patient_id}}",
+              "disabled": true
+            },
+            {
+              "key": "item_id",
+              "value": "{{item_id}}",
+              "disabled": true
+            },
+            {
+              "key": "term",
+              "value": "{{sales_term}}",
+              "disabled": true
+            },
+            {
+              "key": "brand",
+              "value": "{{brand}}",
+              "disabled": false
+            },
+            {
+              "key": "generic",
+              "value": "{{generic}}",
+              "disabled": false
+            },
+            {
+              "key": "dosage",
+              "value": "{{dosage}}",
+              "disabled": false
+            },
+            {
+              "key": "form",
+              "value": "{{form}}",
+              "disabled": false
+            },
+            {
+              "key": "kind",
+              "value": "{{kind}}",
+              "disabled": false
+            }
+          ],
+          "raw": "{{base_url}}/reports/get_fda_sales?token={{token}}&requester={{requester}}&page={{page}}&data_size={{data_size}}&branch_id={{branch_id}}&date_from={{date_from}}&date_to={{date_to}}&brand={{brand}}&generic={{generic}}&dosage={{dosage}}&form={{form}}&kind={{kind}}"
+        }
+      },
+      "response": [
+        {
+          "name": "Catalog filters keep saved snapshot CSV values (illustrative)",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "description": "Daily sales groups. Filters apply before sums and distinct CSV values. See collection FDA sales documentation. Local only; saved responses are illustrative synthetic examples.",
+            "url": {
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "reports",
+                "get_fda_sales"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}"
+                },
+                {
+                  "key": "page",
+                  "value": "{{page}}"
+                },
+                {
+                  "key": "data_size",
+                  "value": "{{data_size}}"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "disabled": false
+                },
+                {
+                  "key": "date_from",
+                  "value": "{{date_from}}",
+                  "disabled": false
+                },
+                {
+                  "key": "date_to",
+                  "value": "{{date_to}}",
+                  "disabled": false
+                },
+                {
+                  "key": "patient_id",
+                  "value": "{{patient_id}}",
+                  "disabled": true
+                },
+                {
+                  "key": "item_id",
+                  "value": "{{item_id}}",
+                  "disabled": true
+                },
+                {
+                  "key": "term",
+                  "value": "{{sales_term}}",
+                  "disabled": true
+                },
+                {
+                  "key": "brand",
+                  "value": "{{brand}}",
+                  "disabled": false
+                },
+                {
+                  "key": "generic",
+                  "value": "{{generic}}",
+                  "disabled": false
+                },
+                {
+                  "key": "dosage",
+                  "value": "{{dosage}}",
+                  "disabled": false
+                },
+                {
+                  "key": "form",
+                  "value": "{{form}}",
+                  "disabled": false
+                },
+                {
+                  "key": "kind",
+                  "value": "{{kind}}",
+                  "disabled": false
+                }
+              ],
+              "raw": "{{base_url}}/reports/get_fda_sales?token={{token}}&requester={{requester}}&page={{page}}&data_size={{data_size}}&branch_id={{branch_id}}&date_from={{date_from}}&date_to={{date_to}}&brand={{brand}}&generic={{generic}}&dosage={{dosage}}&form={{form}}&kind={{kind}}"
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"data\": [\n    {\n      \"branch_id\": 2,\n      \"branch_name\": \"Oakridge\",\n      \"added_by\": \"1\",\n      \"item_id\": \"10\",\n      \"added_on\": \"2026-10-15\",\n      \"quantity\": \"4.0000\",\n      \"price\": \"5.50\",\n      \"amount\": \"22.00\",\n      \"item_name\": \"Drug A\",\n      \"dispense_by_name\": \"Bob Local\",\n      \"id\": \"1\",\n      \"dispense_medicine_id\": \"100\",\n      \"patient_id\": \"1\",\n      \"pharmacy_doctor_id\": \"7\",\n      \"doctor_name\": \"\\\"Doctor Alpha\\\"\",\n      \"patient_name\": \"\\\"Patient A\\\"\",\n      \"generic\": \"\\\"Snapshot A\\\"\",\n      \"brand\": \"\\\"Old brand\\\"\",\n      \"dosage\": \"\\\"5 mg\\\"\",\n      \"form\": \"\\\"Saved tablet\\\"\",\n      \"note\": \"\\\"A, \\\"\\\"quoted\\\"\\\" note\\\"\",\n      \"code\": \"AB123\",\n      \"fs\": \"0\",\n      \"ps\": \"1\",\n      \"updated_by\": null,\n      \"updated_on\": null,\n      \"is_deleted\": \"0\"\n    }\n  ],\n  \"size\": 1,\n  \"page\": 1,\n  \"data_size\": 20,\n  \"total_pages\": 1\n}"
+        },
+        {
+          "name": "Reversed date range rejected (illustrative)",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "description": "Daily sales groups. Filters apply before sums and distinct CSV values. See collection FDA sales documentation. Local only; saved responses are illustrative synthetic examples.",
+            "url": {
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "reports",
+                "get_fda_sales"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}"
+                },
+                {
+                  "key": "page",
+                  "value": "{{page}}"
+                },
+                {
+                  "key": "data_size",
+                  "value": "{{data_size}}"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "disabled": false
+                },
+                {
+                  "key": "date_from",
+                  "value": "2026-10-16",
+                  "disabled": false
+                },
+                {
+                  "key": "date_to",
+                  "value": "2026-10-15",
+                  "disabled": false
+                },
+                {
+                  "key": "patient_id",
+                  "value": "{{patient_id}}",
+                  "disabled": true
+                },
+                {
+                  "key": "item_id",
+                  "value": "{{item_id}}",
+                  "disabled": true
+                },
+                {
+                  "key": "term",
+                  "value": "{{sales_term}}",
+                  "disabled": true
+                },
+                {
+                  "key": "brand",
+                  "value": "{{brand}}",
+                  "disabled": false
+                },
+                {
+                  "key": "generic",
+                  "value": "{{generic}}",
+                  "disabled": false
+                },
+                {
+                  "key": "dosage",
+                  "value": "{{dosage}}",
+                  "disabled": false
+                },
+                {
+                  "key": "form",
+                  "value": "{{form}}",
+                  "disabled": false
+                },
+                {
+                  "key": "kind",
+                  "value": "{{kind}}",
+                  "disabled": false
+                }
+              ],
+              "raw": "{{base_url}}/reports/get_fda_sales?token={{token}}&requester={{requester}}&page={{page}}&data_size={{data_size}}&branch_id={{branch_id}}&date_from=2026-10-16&date_to=2026-10-15&brand={{brand}}&generic={{generic}}&dosage={{dosage}}&form={{form}}&kind={{kind}}"
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"date_from must not be later than date_to.\"\n    ]\n  }\n}"
+        }
+      ]
+    },
+    {
+      "name": "FDA sales - name search before aggregation",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "description": "Daily sales groups. Filters apply before sums and distinct CSV values. See collection FDA sales documentation. Local only; saved responses are illustrative synthetic examples.",
+        "url": {
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "reports",
+            "get_fda_sales"
+          ],
+          "query": [
+            {
+              "key": "token",
+              "value": "{{token}}"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}"
+            },
+            {
+              "key": "page",
+              "value": "{{page}}"
+            },
+            {
+              "key": "data_size",
+              "value": "{{data_size}}"
+            },
+            {
+              "key": "branch_id",
+              "value": "{{branch_id}}",
+              "disabled": true
+            },
+            {
+              "key": "date_from",
+              "value": "{{date_from}}",
+              "disabled": true
+            },
+            {
+              "key": "date_to",
+              "value": "{{date_to}}",
+              "disabled": true
+            },
+            {
+              "key": "patient_id",
+              "value": "{{patient_id}}",
+              "disabled": true
+            },
+            {
+              "key": "item_id",
+              "value": "{{item_id}}",
+              "disabled": true
+            },
+            {
+              "key": "term",
+              "value": "{{sales_term}}",
+              "disabled": false
+            },
+            {
+              "key": "brand",
+              "value": "{{brand}}",
+              "disabled": true
+            },
+            {
+              "key": "generic",
+              "value": "{{generic}}",
+              "disabled": true
+            },
+            {
+              "key": "dosage",
+              "value": "{{dosage}}",
+              "disabled": true
+            },
+            {
+              "key": "form",
+              "value": "{{form}}",
+              "disabled": true
+            },
+            {
+              "key": "kind",
+              "value": "{{kind}}",
+              "disabled": true
+            }
+          ],
+          "raw": "{{base_url}}/reports/get_fda_sales?token={{token}}&requester={{requester}}&page={{page}}&data_size={{data_size}}&term={{sales_term}}"
+        }
+      },
+      "response": [
+        {
+          "name": "Doctor search totals only matching details (illustrative)",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "description": "Daily sales groups. Filters apply before sums and distinct CSV values. See collection FDA sales documentation. Local only; saved responses are illustrative synthetic examples.",
+            "url": {
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "reports",
+                "get_fda_sales"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}"
+                },
+                {
+                  "key": "page",
+                  "value": "{{page}}"
+                },
+                {
+                  "key": "data_size",
+                  "value": "{{data_size}}"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "disabled": true
+                },
+                {
+                  "key": "date_from",
+                  "value": "{{date_from}}",
+                  "disabled": true
+                },
+                {
+                  "key": "date_to",
+                  "value": "{{date_to}}",
+                  "disabled": true
+                },
+                {
+                  "key": "patient_id",
+                  "value": "{{patient_id}}",
+                  "disabled": true
+                },
+                {
+                  "key": "item_id",
+                  "value": "{{item_id}}",
+                  "disabled": true
+                },
+                {
+                  "key": "term",
+                  "value": "{{sales_term}}",
+                  "disabled": false
+                },
+                {
+                  "key": "brand",
+                  "value": "{{brand}}",
+                  "disabled": true
+                },
+                {
+                  "key": "generic",
+                  "value": "{{generic}}",
+                  "disabled": true
+                },
+                {
+                  "key": "dosage",
+                  "value": "{{dosage}}",
+                  "disabled": true
+                },
+                {
+                  "key": "form",
+                  "value": "{{form}}",
+                  "disabled": true
+                },
+                {
+                  "key": "kind",
+                  "value": "{{kind}}",
+                  "disabled": true
+                }
+              ],
+              "raw": "{{base_url}}/reports/get_fda_sales?token={{token}}&requester={{requester}}&page={{page}}&data_size={{data_size}}&term={{sales_term}}"
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"data\": [\n    {\n      \"branch_id\": 1,\n      \"branch_name\": \"Mobile\",\n      \"added_by\": \"1\",\n      \"item_id\": \"10\",\n      \"added_on\": \"2026-10-15\",\n      \"quantity\": \"2.5000\",\n      \"price\": \"3.20\",\n      \"amount\": \"8.00\",\n      \"item_name\": \"Drug A\",\n      \"dispense_by_name\": \"Alice Q Dispenser\",\n      \"id\": \"2\",\n      \"dispense_medicine_id\": \"100\",\n      \"patient_id\": \"2\",\n      \"pharmacy_doctor_id\": \"7\",\n      \"doctor_name\": \"\\\"Doctor Beta\\\"\",\n      \"patient_name\": \"\\\"Patient B\\\"\",\n      \"generic\": \"\\\"Snapshot A\\\"\",\n      \"brand\": \"\\\"Old brand\\\"\",\n      \"dosage\": \"\\\"5 mg\\\"\",\n      \"form\": \"\\\"Saved tablet\\\"\",\n      \"note\": \"\\\"A, \\\"\\\"quoted\\\"\\\" note\\\"\",\n      \"code\": \"12\",\n      \"fs\": \"0\",\n      \"ps\": \"1\",\n      \"updated_by\": null,\n      \"updated_on\": null,\n      \"is_deleted\": \"0\"\n    }\n  ],\n  \"size\": 1,\n  \"page\": 1,\n  \"data_size\": 20,\n  \"total_pages\": 1\n}"
+        },
+        {
+          "name": "Invalid text filter type (illustrative)",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "description": "Daily sales groups. Filters apply before sums and distinct CSV values. See collection FDA sales documentation. Local only; saved responses are illustrative synthetic examples.",
+            "url": {
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "reports",
+                "get_fda_sales"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}"
+                },
+                {
+                  "key": "page",
+                  "value": "{{page}}"
+                },
+                {
+                  "key": "data_size",
+                  "value": "{{data_size}}"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "disabled": true
+                },
+                {
+                  "key": "date_from",
+                  "value": "{{date_from}}",
+                  "disabled": true
+                },
+                {
+                  "key": "date_to",
+                  "value": "{{date_to}}",
+                  "disabled": true
+                },
+                {
+                  "key": "patient_id",
+                  "value": "{{patient_id}}",
+                  "disabled": true
+                },
+                {
+                  "key": "item_id",
+                  "value": "{{item_id}}",
+                  "disabled": true
+                },
+                {
+                  "key": "term[]",
+                  "value": "Doctor",
+                  "disabled": false
+                },
+                {
+                  "key": "brand",
+                  "value": "{{brand}}",
+                  "disabled": true
+                },
+                {
+                  "key": "generic",
+                  "value": "{{generic}}",
+                  "disabled": true
+                },
+                {
+                  "key": "dosage",
+                  "value": "{{dosage}}",
+                  "disabled": true
+                },
+                {
+                  "key": "form",
+                  "value": "{{form}}",
+                  "disabled": true
+                },
+                {
+                  "key": "kind",
+                  "value": "{{kind}}",
+                  "disabled": true
+                }
+              ],
+              "raw": "{{base_url}}/reports/get_fda_sales?token={{token}}&requester={{requester}}&page={{page}}&data_size={{data_size}}&term[]=Doctor"
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"term must be a string or null.\"\n    ]\n  }\n}"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "backup_root": "/root/gl_remark_names_20261012_010922",
+  "installer_checksums_match": true,
+  "environments": {
+    "uat": {
+      "schemas": [
+        "mytemr_diagnostic_mobile_uat",
+        "mytemr_diagnostic_uat",
+        "mytemr_diagnostic_mactan_uat",
+        "mytemr_diagnostic_conso_uat",
+        "mytemr_diagnostic_mantlewood_uat",
+        "mytemr_master_uat"
+      ],
+      "definitions_verified": 82,
+      "accounting_tables_fingerprinted": 18,
+      "historical_accounting_unchanged": true,
+      "unrelated_definitions_unchanged": true,
+      "readonly_metadata_checks_passed": true,
+      "no_backfill_or_rebuild": true,
+      "backup_path": "/root/gl_remark_names_20261012_010922/uat"
+    },
+    "prod": {
+      "schemas": [
+        "mytemr_diagnostic_mobile",
+        "mytemr_diagnostic",
+        "mytemr_diagnostic_mactan",
+        "mytemr_diagnostic_conso",
+        "mytemr_diagnostic_mantlewood",
+        "mytemr_master"
+      ],
+      "definitions_verified": 82,
+      "accounting_tables_fingerprinted": 18,
+      "historical_accounting_unchanged": true,
+      "unrelated_definitions_unchanged": true,
+      "readonly_metadata_checks_passed": true,
+      "no_backfill_or_rebuild": true,
+      "backup_path": "/root/gl_remark_names_20261012_010922/prod"
+    }
+  },
+  "restored_server_settings": {
+    "read_only": 0,
+    "event_scheduler": "OFF"
+  }
+}

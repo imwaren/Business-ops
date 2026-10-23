@@ -1,0 +1,152 @@
+{
+  "mytemr_diagnostic_mobile": {
+    "accounts_payable_voucher": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "accounts_payable_voucher_entry": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "direct_payment": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "direct_payment_entry": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "general_ledger": {
+      "sha256": "c15af66fb0ece063d58e060cc678168d7bc2c274e0023bb462221de6817651c8",
+      "bytes": 4212650
+    },
+    "journal_entry": {
+      "sha256": "88b18df6af0c3210f2a3f613a8090a8f271aebff47e4ea74f464c9fc3c7344f0",
+      "bytes": 623246
+    },
+    "journal_entry_item": {
+      "sha256": "58969c25e88010231e5bd9c1099ca456e548b31e00ec3166e153dbc55823b6de",
+      "bytes": 4399367
+    }
+  },
+  "mytemr_diagnostic": {
+    "accounts_payable_voucher": {
+      "sha256": "42a90f0132cb79e2c806b1a885eb407a6e50ca70c6d2bb6399edc6ce5fb2b516",
+      "bytes": 544
+    },
+    "accounts_payable_voucher_entry": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "direct_payment": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "direct_payment_entry": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "general_ledger": {
+      "sha256": "3c7c010ed479f27c68d374846409331e80ce9606f82fbe97fdf426e5a0ca7c6d",
+      "bytes": 72831360
+    },
+    "journal_entry": {
+      "sha256": "98203e128a6940226d398aeb522107aac16d40c01ced4b118b65703a1445a59c",
+      "bytes": 43153124
+    },
+    "journal_entry_item": {
+      "sha256": "b0c80dd24fa6a26acb28b823fd7cdc7abfe4516b97cfef4198a4b7b64089a748",
+      "bytes": 79027243
+    }
+  },
+  "mytemr_diagnostic_mactan": {
+    "accounts_payable_voucher": {
+      "sha256": "aa336877b7580bbaa7251b86d09b62d44ea950cc05f9fa92ba941d38c4641045",
+      "bytes": 815
+    },
+    "accounts_payable_voucher_entry": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "direct_payment": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "direct_payment_entry": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "general_ledger": {
+      "sha256": "dbaf70902a67ae0080d843fa2e449bf356b9ada6a43d9afd8c8fc9148529ef0a",
+      "bytes": 53750384
+    },
+    "journal_entry": {
+      "sha256": "8907f29411e04245bb163e32edefc378533cad92301ce486a0bb9ca5bd2862cf",
+      "bytes": 37400575
+    },
+    "journal_entry_item": {
+      "sha256": "720f5fbe2d445fb5ba740ce12fe55b28e27cb6b32f268d6678ac856f40102a41",
+      "bytes": 73768166
+    }
+  },
+  "mytemr_diagnostic_conso": {
+    "accounts_payable_voucher": {
+      "sha256": "73c0648fe1b79cdea67c49038f2b9603b94510c57bccd66472c7062fbfd2efbb",
+      "bytes": 171
+    },
+    "accounts_payable_voucher_entry": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "direct_payment": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "direct_payment_entry": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "general_ledger": {
+      "sha256": "d3e74ba131b69a74aa7f2655f60b39c42259a8672ce125d4e672dc8620ef5f2f",
+      "bytes": 41077770
+    },
+    "journal_entry": {
+      "sha256": "b8bf4a8557cb7633cbac7ab2f528b53fa27b9c8484cba30ca3c65ad9a785d490",
+      "bytes": 29542726
+    },
+    "journal_entry_item": {
+      "sha256": "dea8ce024c2cca2340f8e51d92a93c068154df537ee5471fb54a48fc7317c267",
+      "bytes": 53995427
+    }
+  },
+  "mytemr_diagnostic_mantlewood": {
+    "accounts_payable_voucher": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "accounts_payable_voucher_entry": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "direct_payment": {
+      "sha256": "d94e8292effe436e412be8cbddded5efa1099e0628811fce56497d089c631611",
+      "bytes": 211
+    },
+    "direct_payment_entry": {
+      "sha256": "a12b437823e66e6ba456bc8b6fd320407d0e3ef0313db636d9851872922e374a",
+      "bytes": 83
+    },
+    "general_ledger": {
+      "sha256": "ad2f0615db8e3ce97334f610093f705d8ee96d4ff0bcba37368a58d1fa403611",
+      "bytes": 1790730
+    },
+    "journal_entry": {
+      "sha256": "85d84dbdfdffeed044b7d4eb7c47d10a32629200d47b6eefecebe91cbaf625e0",
+      "bytes": 1148150
+    },
+    "journal_entry_item": {
+      "sha256": "99726e1b1ab8aec07669f4e005a88e392baf8668d162a3d3b9fda8af56e13f57",
+      "bytes": 3802220
+    }
+  }
+}

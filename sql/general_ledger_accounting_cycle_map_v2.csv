@@ -1,0 +1,67 @@
+Action,Description,Debit account,Credit account
+1.1 Goods Received & AP Recognition,Clinic received goods from the supplier (approved receipt note),104-030 — Medical supplies inventory (or the item account if set),201-111 — Accounts payable
+1.1 Goods Received (PO or PR only),Purchase order or purchase request was approved and goods are not yet received,104-030 — Medical supplies inventory (or the item account if set),—
+1.2 Supplier Payment,Clinic paid the supplier voucher,201-111 — Accounts payable,Bank account used on the payment or 100-004 — Cash on hand
+1.3 Purchase Return / Credit / Debit Adjustment,Goods were returned to the supplier,201-111 — Accounts payable,104-030 — Medical supplies inventory or 104-020B — Pharmacy inventory
+2.1 Consultation,Patient paid for consultation at CSR,100-004 — Cash on hand or 102-192 — Cards or 102-193 — GCash / Maya,400-030 — Consultation revenue
+2.2 Laboratory,Patient paid for laboratory or diagnostics at CSR,100-004 — Cash on hand or 102-192 — Cards or 102-193 — GCash / Maya,400-010a — Laboratory revenue or 400-010b — Diagnostic revenue or 400-050 — Send-out revenue
+2.3 Health Services / Procedures,Patient paid for health services at CSR,100-004 — Cash on hand or 102-192 — Cards or 102-193 — GCash / Maya,400-020 — Health services revenue
+2.4 Vaccination,Patient paid for vaccination at CSR,100-004 — Cash on hand or 102-192 — Cards or 102-193 — GCash / Maya,480-030 — Vaccination revenue
+2.5 Pharmacy,Patient paid for pharmacy at CSR,100-004 — Cash on hand or 102-192 — Cards or 102-193 — GCash / Maya,420-000 — Pharmacy revenue
+2.6 Yakap,Patient paid for Yakap at CSR,100-004 — Cash on hand or 102-192 — Cards or 102-193 — GCash / Maya,400-060 — Yakap revenue
+2.7 Other Services / Revenue,Patient paid for other services or eye care at CSR,100-004 — Cash on hand or 102-192 — Cards or 102-193 — GCash / Maya,400-100 — Other services revenue or 400-900 — Eye care revenue
+2.8 Revenue Adjustments,CSR applied a discount on the patient's payment,440-000 — Sales discount,Same revenue account as the service sold
+3.1 Patient Billing,Patient bill was issued for this branch,102-113 — Trade receivables,102-113B — Unbilled receivables
+3.2 HMO Billing,HMO bill was issued for this branch,102-113 — Trade receivables,102-113B — Unbilled receivables
+3.3 Corporate Billing,Corporate bill was issued for this branch,102-113 — Trade receivables,102-113B — Unbilled receivables
+3.4 Yakap Billing,Yakap bill was issued for this branch,102-113 — Trade receivables,102-113B — Unbilled receivables
+3.5 Billing Adjustments / Credit / Debit Memo,No automatic credit or debit memo. Accountant encodes a manual journal entry,Not automatic — encode a manual journal entry,—
+4.1 Cash Collection,Patient paid cash at CSR,100-004 — Cash on hand,Revenue account from 2.1–2.7
+4.2 Cards Collection,Patient paid by card at CSR,102-192 — Cards,Revenue account from 2.1–2.7
+4.3 GCash / Maya Collection,Patient paid by GCash Maya or QR at CSR,102-193 — GCash / Maya,Revenue account from 2.1–2.7
+4.4 HMO Collection,HMO payment was applied to the HMO bill (amount for this branch). If CWT was withheld also debit 105-000,Cash bank or card used on the collection or 105-000 — Creditable withholding tax,102-113 — Trade receivables
+4.5 Corporate Collection,Corporate payment was applied to the corporate bill (amount for this branch). If CWT was withheld also debit 105-000,Cash bank or card used on the collection or 105-000 — Creditable withholding tax,102-113 — Trade receivables
+4.6 Yakap Collection,Yakap payment was applied to the Yakap bill (amount for this branch). If CWT was withheld also debit 105-000,Cash bank or card used on the collection or 105-000 — Creditable withholding tax,102-113 — Trade receivables
+4.7 Collection Adjustments,No automatic collection adjustment. Accountant encodes a manual journal entry,Not automatic — encode a manual journal entry,—
+4 Deposit (bank),Collection on hand was deposited to the bank,Bank account chosen on the deposit,100-004 — Cash on hand
+5 Discounts / Adjustments,CSR applied a discount at payment (billing-level discount is not automatic),440-000 — Sales discount,Same revenue account as the service sold
+6.1 Inventory Consumption / Issuance,Clinic used or issued supplies or pharmacy stock,Item expense account or 500-205 — Supplies expense,104-030 — Medical supplies inventory or 104-020B — Pharmacy inventory
+6.2 Inventory Transfer Out,Stock left this clinic. Only this side is automatic until Finance gives an in-transit account,—,104-030 — Medical supplies inventory or 104-020B — Pharmacy inventory
+6.2 Inventory Transfer In,Stock arrived at this clinic. Only this side is automatic until Finance gives an in-transit account,104-030 — Medical supplies inventory or 104-020B — Pharmacy inventory,—
+6.3 Inventory Adjustment (count up),Physical count is higher than the books,104-030 — Medical supplies inventory or 104-020B — Pharmacy inventory,Item expense account or 500-205 — Supplies expense
+6.3 Inventory Adjustment (count down / write-off / expiry / wastage),Physical count is lower than the books or stock was written off,Item expense account or 500-205 — Supplies expense,104-030 — Medical supplies inventory or 104-020B — Pharmacy inventory
+6.3 Inventory Return to supplier,Stock was returned to the supplier,201-111 — Accounts payable,104-030 — Medical supplies inventory or 104-020B — Pharmacy inventory
+7.1 AR Recognition HMO,HMO charge is first unbilled then moved to billed AR when the HMO bill is issued,102-113B — Unbilled receivables then 102-113 — Trade receivables,Revenue account then 102-113B — Unbilled receivables
+7.2 AR Recognition Corp,Corporate charge is first unbilled then moved to billed AR when the corporate bill is issued,102-113B — Unbilled receivables then 102-113 — Trade receivables,Revenue account then 102-113B — Unbilled receivables
+7.3 AR Recognition Yakap,Yakap charge is first unbilled then moved to billed AR when the Yakap bill is issued,102-113B — Unbilled receivables then 102-113 — Trade receivables,Revenue account then 102-113B — Unbilled receivables
+7.4 AR Collection,HMO corporate or Yakap payment was collected (same as 4.4–4.6),Cash bank or card used on the collection or 105-000 — Creditable withholding tax,102-113 — Trade receivables
+7.5 AR Adjustment / Write-off / Provision,No automatic AR write-off. Accountant encodes a manual journal entry,Not automatic — encode a manual journal entry,—
+8.1 AP Supplier Recognition,Supplier AP is already recorded when goods are received (see 1.1). A later supplier voucher does not credit AP again,—,201-111 — Accounts payable
+8.2 AP Non Trade Recognition,An expense was recorded then a payable voucher was created for it,Expense account on the document,201-111 — Accounts payable
+8.3 AP Payment,Clinic paid the payable voucher (same as 1.2),201-111 — Accounts payable,Bank account used on the payment or 100-004 — Cash on hand
+8.4 AP Adjustment / Write-off,No automatic AP write-off. Accountant encodes a manual journal entry,Not automatic — encode a manual journal entry,—
+9.1 Cash Deposit (BPI & BDO),Clinic cash deposit to BPI or BDO is not automatic,Not automatic — encode a manual journal entry,—
+9.2 Bank Charges,Bank charges are not automatic,Not automatic — encode a manual journal entry,—
+9.3 Bank Interest / Other Bank Transactions,Bank interest and other bank transactions are not automatic,Not automatic — encode a manual journal entry,—
+9.4 Cash & Bank Adjustments,Cash and bank adjustments are not automatic,Not automatic — encode a manual journal entry,—
+10.1 PPE Purchase / Recognition,Fixed asset purchase is not automatic,Not automatic — encode a manual journal entry,—
+10.2 CIP Capitalization,Construction in progress is not automatic,Not automatic — encode a manual journal entry,—
+10.3 Depreciation,Depreciation is not automatic,Not automatic — encode a manual journal entry,—
+10.4 Asset Transfer,Fixed asset transfer is not automatic,Not automatic — encode a manual journal entry,—
+10.5 Asset Disposal,Fixed asset disposal is not automatic,Not automatic — encode a manual journal entry,—
+10.6 Fixed Asset Adjustments,Fixed asset adjustments are not automatic,Not automatic — encode a manual journal entry,—
+11.1 Prepayment Recognition,Prepayment recognition is not automatic,Not automatic — encode a manual journal entry,—
+11.2 Prepayment Amortization,Prepayment amortization is not automatic,Not automatic — encode a manual journal entry,—
+11.3 Expense Accrual,Expense accrual is not automatic,Not automatic — encode a manual journal entry,—
+11.4 Accrual Reversal,Accrual reversal is not automatic,Not automatic — encode a manual journal entry,—
+11.5 Prepayment / Accrual Adjustments,Prepayment and accrual adjustments are not automatic,Not automatic — encode a manual journal entry,—
+12.1 Input / Output VAT,Input and output VAT are not automatic,Not automatic — encode a manual journal entry,—
+12.2 Withholding Tax Recognition Expanded,CWT withheld on an HMO corporate or Yakap collection,105-000 — Creditable withholding tax,—
+12.3 Withholding Tax Recognition Compensation,Payroll withholding tax is not automatic,Not automatic — encode a manual journal entry,—
+12.4 Tax Remittance / Payment,Tax remittance is not automatic,Not automatic — encode a manual journal entry,—
+12.5 Tax Provision,Tax provision is not automatic,Not automatic — encode a manual journal entry,—
+14 Payroll,Payroll is not automatic,Not automatic — encode a manual journal entry,—
+14 Inter-Branch / Intercompany,Due to / due from between branches is not automatic (inventory transfer is only 6.2),Not automatic — encode a manual journal entry,—
+15 General Ledger (manual journal),Accountant encoded and approved a manual journal entry,Account chosen on the debit line,Account chosen on the credit line
+16 Month-End / Year-End Closing,Month-end and year-end closing are not automatic,Not automatic — encode a manual journal entry,—
+17 Financial Reporting,Reports (GL trial balance balance sheet P&L) read the journals above. This is not a journal,—,—

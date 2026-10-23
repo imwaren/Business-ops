@@ -1,0 +1,16 @@
+branch_id,source,source_id,account_type_id,date,debit,credit,remark,is_migrated,added_by,added_on,is_deleted
+\N,journal_entry,11079,1777,2026-05-31,193291.2300,0.0000,"CPCI Payroll for May 16-31, 2026 - Shared - LHRA — #62622",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,11080,1777,2026-05-31,0.0000,340464.0000,To accrue TPP cost for the month of 2026 MAY — #62637,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,11080,1777,2026-05-31,340464.0000,0.0000,To accrue TPP cost for the month of 2026 MAY — #62637,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,11081,1777,2026-05-31,0.0000,2551360.0000,To reclassify Konsulta FPE revenue 2026 May — #62681,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,11081,1777,2026-05-31,2551360.0000,0.0000,To reclassify Konsulta FPE revenue 2026 May — #62681,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,11083,1777,2026-05-31,10955.3000,0.0000,to accrue 80% under health services OPTA MAY — #62749,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,11084,1777,2026-05-31,0.0000,36694.0000,Reversal of: to accrue 80% under health services OPTA — #62750,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,11086,1777,2026-05-31,0.0000,396679.0100,To record the accrual of the 13th Month Pay for 2026 May — #62940,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,11086,1777,2026-05-31,396679.0100,0.0000,To record the accrual of the 13th Month Pay for 2026 May — #62940,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,11089,1777,2026-05-31,0.0000,66394.6900,"to reclass prepayments amortize 2 months OJT allowances - Lopez, Emmelyn — #63127",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,11089,1777,2026-05-31,66394.6900,0.0000,"to reclass prepayments amortize 2 months OJT allowances - Lopez, Emmelyn — #63127",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,11128,945,2026-05-31,13839.2900,0.0000,IRISH F. BURNASAL - Vatable: Gasoline (Replenishment) — RFP No.# 6137,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,11127,945,2026-05-31,258.7500,0.0000,JOHN MARL M. ABAPO - Vatable: Gasoline (Replenishment) — RFP No.# 6136,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,11127,945,2026-05-31,5150.0300,0.0000,JOHN MARL M. ABAPO - Nondeductible: Transportation expenses (Replenishment) — RFP No.# 6136,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,11090,301,2026-05-31,2530205.0000,0.0000,"to reclass nonmoving accounts : Installment payable - current, Deferred Revenue, Unearned Revenue, — #63135",1,0,2026-05-31 23:59:59,0

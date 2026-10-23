@@ -1,0 +1,501 @@
+branch_id,source,source_id,account_type_id,date,debit,credit,remark,is_migrated,added_by,added_on,is_deleted
+1,journal_entry,1,1,2026-01-02,0.0000,2424.9400,"Payment: SMART COMMUNICATIONS, INC. — Online-010226",1,0,2026-01-31 23:59:59,0
+1,journal_entry,2,65,2026-01-05,313990.0000,0.0000,"Sales Branches January 05, 2026 - Term Sales - January, 05 — #48411",1,0,2026-01-31 23:59:59,0
+1,journal_entry,2,1645,2026-01-05,0.0000,313990.0000,"Sales Branches January 05, 2026 - Laboratory/Diagnostics — #48411",1,0,2026-01-31 23:59:59,0
+1,journal_entry,3,65,2026-01-06,189962.0000,0.0000,"Sales Branches January 06, 2026 - Term Sales - January, 06 — #48413",1,0,2026-01-31 23:59:59,0
+1,journal_entry,5,65,2026-01-06,0.0000,14260.0000,"Philhealthcare, Inc - BASIC 5 | 12/17/2025 |Philhealthcare, Inc |BASIC 5 | 23PAX|620 | — MO-3215",1,0,2026-01-31 23:59:59,0
+1,journal_entry,5,65,2026-01-06,0.0000,22500.0000,"Philhealthcare, Inc - BASIC 5 + ECG + PAPS + FBS + CHOLE | 12/17/2025 |Philhealthcare, Inc |BASIC 5 + ECG + PAPS + FBS + CHOLE | 12PAX|1875 | — MO-3215",1,0,2026-01-31 23:59:59,0
+1,journal_entry,6,65,2026-01-06,0.0000,25000.0000,Knowles Electronics Philippines - DRUGTEST | 12/11/2025 |Knowles Electronics Philippines |DRUGTEST | 100PAX|250 | — MO-3217,1,0,2026-01-31 23:59:59,0
+1,journal_entry,4,65,2026-01-06,0.0000,38350.0000,Cebu Home and Builders Centre - BASIC 4 | 12/22/2025 |Cebu Home and Builders Centre |BASIC 4 | 59PAX|650 | — MO-2044,1,0,2026-01-31 23:59:59,0
+1,journal_entry,5,65,2026-01-06,0.0000,40250.0000,"Philhealthcare, Inc - BASIC 5 + ECG + FBS + CHOLE | 12/17/2025 |Philhealthcare, Inc |BASIC 5 + ECG + FBS + CHOLE | 35PAX|1150 | — MO-3215",1,0,2026-01-31 23:59:59,0
+1,journal_entry,5,57,2026-01-06,77010.0000,0.0000,"Philhealthcare, Inc — MO-3215",1,0,2026-01-31 23:59:59,0
+1,journal_entry,6,57,2026-01-06,25000.0000,0.0000,Knowles Electronics Philippines — MO-3217,1,0,2026-01-31 23:59:59,0
+1,journal_entry,3,1645,2026-01-06,0.0000,189962.0000,"Sales Branches January 06, 2026 - Laboratory/Diagnostics — #48413",1,0,2026-01-31 23:59:59,0
+1,journal_entry,7,65,2026-01-07,235012.0000,0.0000,"Sales Branches January 07, 2026 - Term Sales - January, 07 — #48415",1,0,2026-01-31 23:59:59,0
+1,journal_entry,9,65,2026-01-07,0.0000,1830.0000,"Appleone Mactan Inc, - BASIC 5+ECG+PS | 01/03/1905 |Appleone Mactan Inc, |BASIC 5+ECG+PS | 1PAX|1830 | — MO-3218",1,0,2026-01-31 23:59:59,0
+1,journal_entry,9,65,2026-01-07,0.0000,2260.0000,"Appleone Mactan Inc, - BASIC 5 + ECG | 03/09/1906 |Appleone Mactan Inc, |BASIC 5 + ECG | 2PAX|1130 | — MO-3218",1,0,2026-01-31 23:59:59,0
+1,journal_entry,9,65,2026-01-07,0.0000,5580.0000,"Appleone Mactan Inc, - BASIC 5 | 04/11/1915 |Appleone Mactan Inc, |BASIC 5 | 9PAX|620 | — MO-3218",1,0,2026-01-31 23:59:59,0
+1,journal_entry,8,65,2026-01-07,0.0000,38430.0000,Asalus Corporation - BASIC 5+ECG+PS | 12/17/2025 |Asalus Corporation |BASIC 5+ECG+PS | 21PAX|1830 | — MO-3216,1,0,2026-01-31 23:59:59,0
+1,journal_entry,8,65,2026-01-07,0.0000,65100.0000,Asalus Corporation - BASIC 5 | 12/16/2025 |Asalus Corporation |BASIC 5 | 105PAX|620 | — MO-3216,1,0,2026-01-31 23:59:59,0
+1,journal_entry,8,65,2026-01-07,0.0000,67800.0000,Asalus Corporation - BASIC 5+ECG | 12/17/2025 |Asalus Corporation |BASIC 5+ECG | 60PAX|1130 | — MO-3216,1,0,2026-01-31 23:59:59,0
+1,journal_entry,8,57,2026-01-07,171330.0000,0.0000,Asalus Corporation — MO-3216,1,0,2026-01-31 23:59:59,0
+1,journal_entry,9,57,2026-01-07,9670.0000,0.0000,"Appleone Mactan Inc, — MO-3218",1,0,2026-01-31 23:59:59,0
+1,journal_entry,7,1645,2026-01-07,0.0000,235012.0000,"Sales Branches January 07, 2026 - Laboratory/Diagnostics — #48415",1,0,2026-01-31 23:59:59,0
+1,journal_entry,30,217,2026-01-08,43785.5400,0.0000,"Payment: BEROVAN MARKETING, INC. — 1225-000539",1,0,2026-01-31 23:59:59,0
+1,journal_entry,14,217,2026-01-08,0.0000,1650.0000,RHEA LONZAGA — RFP No.# 4670,1,0,2026-01-31 23:59:59,0
+1,journal_entry,24,217,2026-01-08,0.0000,3300.0000,DAN CLIFFORD PALANG — RFP No.# 4682,1,0,2026-01-31 23:59:59,0
+1,journal_entry,21,217,2026-01-08,0.0000,4950.0000,JHOANNA KRISSIAH MAYO — RFP No.# 4677,1,0,2026-01-31 23:59:59,0
+1,journal_entry,22,217,2026-01-08,0.0000,4950.0000,CLAVEL LUCERO — RFP No.# 4678,1,0,2026-01-31 23:59:59,0
+1,journal_entry,15,217,2026-01-08,0.0000,5100.0000,HANNAH MALAIT — RFP No.# 4671,1,0,2026-01-31 23:59:59,0
+1,journal_entry,23,217,2026-01-08,0.0000,5600.0000,ERIC VINCENT AMISOLA — RFP No.# 4680,1,0,2026-01-31 23:59:59,0
+1,journal_entry,25,217,2026-01-08,0.0000,5600.0000,RICA MAE ARIATE — RFP No.# 4684,1,0,2026-01-31 23:59:59,0
+1,journal_entry,26,217,2026-01-08,0.0000,5600.0000,MARY ANN RELLIN — RFP No.# 4685,1,0,2026-01-31 23:59:59,0
+1,journal_entry,18,217,2026-01-08,0.0000,5775.0000,JACK RYAN CABAGNOT — RFP No.# 4674,1,0,2026-01-31 23:59:59,0
+1,journal_entry,28,217,2026-01-08,0.0000,6000.0000,ANDREA EVETTE ANTEPUESTO — RFP No.# 4687,1,0,2026-01-31 23:59:59,0
+1,journal_entry,27,217,2026-01-08,0.0000,6600.0000,ANN MONIQUE AMAZONA — RFP No.# 4686,1,0,2026-01-31 23:59:59,0
+1,journal_entry,29,217,2026-01-08,0.0000,6600.0000,JESSA MEL SINGSON — RFP No.# 4688,1,0,2026-01-31 23:59:59,0
+1,journal_entry,16,217,2026-01-08,0.0000,14850.0000,JAY ANNE CELINA LIM — RFP No.# 4672,1,0,2026-01-31 23:59:59,0
+1,journal_entry,17,217,2026-01-08,0.0000,19800.0000,REX YNAN PATALINGHUG — RFP No.# 4673,1,0,2026-01-31 23:59:59,0
+1,journal_entry,19,217,2026-01-08,0.0000,19800.0000,MARY CHRIS SHIVANII GARGAR — RFP No.# 4675,1,0,2026-01-31 23:59:59,0
+1,journal_entry,20,217,2026-01-08,0.0000,19800.0000,KYLL JOSEPH TRINIDAD — RFP No.# 4676,1,0,2026-01-31 23:59:59,0
+1,journal_entry,10,85,2026-01-08,0.0000,31866.1900,"Liquidation RFP No.# 4600 Advances to employee for Mobile activities ftp December 17, 2025- January 04, 2025 CA- 0264 (For January 2026 only) - Liquidation RFP No.# 4600 Advances to employee for Mobile activities ftp December 17, 2025- January 04, 2025 CA- 0264 (For January 2026 only) — #43749",1,0,2026-01-31 23:59:59,0
+1,journal_entry,11,65,2026-01-08,282586.0000,0.0000,"Sales Branches January 08, 2026 - Term Sales - January, 08 — #48417",1,0,2026-01-31 23:59:59,0
+1,journal_entry,10,605,2026-01-08,50.0000,0.0000,"Liquidation RFP No.# 4600 Advances to employee for Mobile activities ftp December 17, 2025- January 04, 2025 CA- 0264 (For January 2026 only) - Liquidation RFP No.# 4600 Advances to employee for Mobile activities ftp December 17, 2025- January 04, 2025 CA- 0264 (For January 2026 only) — #43749",1,0,2026-01-31 23:59:59,0
+1,journal_entry,31,9,2026-01-08,0.0000,43785.5400,"Payment: BEROVAN MARKETING, INC. — 420658",1,0,2026-01-31 23:59:59,0
+1,journal_entry,11,1645,2026-01-08,0.0000,282586.0000,"Sales Branches January 08, 2026 - Laboratory/Diagnostics — #48417",1,0,2026-01-31 23:59:59,0
+1,journal_entry,13,869,2026-01-08,2800.0000,0.0000,HOME DEVELOPMENT MUTUAL FUND - Payment for HDMF mandatory contribution for the month of December 2025 (employer share) — RFP No.# 4666,1,0,2026-01-31 23:59:59,0
+1,journal_entry,12,877,2026-01-08,9500.0000,0.0000,PHILIPPINE HEALTH INSURANCE CORPORATION - Payment for PHIC Contribution for the month of December 2025  (Employer Share) — RFP No.# 4664,1,0,2026-01-31 23:59:59,0
+1,journal_entry,14,1201,2026-01-08,1650.0000,0.0000,"RHEA LONZAGA - Reliever fee as of January 08, 2025 — RFP No.# 4670",1,0,2026-01-31 23:59:59,0
+1,journal_entry,15,1201,2026-01-08,5100.0000,0.0000,"HANNAH MALAIT - Reliever fee as of January 5,6,7 & 8, 2026 — RFP No.# 4671",1,0,2026-01-31 23:59:59,0
+1,journal_entry,16,1201,2026-01-08,14850.0000,0.0000,"JAY ANNE CELINA LIM - Reliever fee as of January 6,7 & 8, 2026 — RFP No.# 4672",1,0,2026-01-31 23:59:59,0
+1,journal_entry,17,1201,2026-01-08,19800.0000,0.0000,"REX YNAN PATALINGHUG - Reliever fee as of January 5, 6,7 & 8, 2026 — RFP No.# 4673",1,0,2026-01-31 23:59:59,0
+1,journal_entry,18,1201,2026-01-08,5775.0000,0.0000,"JACK RYAN CABAGNOT - Reliever fee as of January 5, 6,7 & 8, 2026 — RFP No.# 4674",1,0,2026-01-31 23:59:59,0
+1,journal_entry,19,1201,2026-01-08,19800.0000,0.0000,"MARY CHRIS SHIVANII GARGAR - Reliever fee as of January 5, 6,7 & 8, 2026 — RFP No.# 4675",1,0,2026-01-31 23:59:59,0
+1,journal_entry,20,1201,2026-01-08,19800.0000,0.0000,"KYLL JOSEPH TRINIDAD - Reliever fee as of January 5, 6,7 & 8, 2026 — RFP No.# 4676",1,0,2026-01-31 23:59:59,0
+1,journal_entry,21,1201,2026-01-08,4950.0000,0.0000,"JHOANNA KRISSIAH MAYO - Reliever fee as of January 5, 2026 — RFP No.# 4677",1,0,2026-01-31 23:59:59,0
+1,journal_entry,22,1201,2026-01-08,4950.0000,0.0000,"CLAVEL LUCERO - Reliever fee as of January 5, 6, 7, & 8, 2026 — RFP No.# 4678",1,0,2026-01-31 23:59:59,0
+1,journal_entry,23,1201,2026-01-08,5600.0000,0.0000,"ERIC VINCENT AMISOLA - Reliever fee as of January 5, 6, 7, & 8, 2026 — RFP No.# 4680",1,0,2026-01-31 23:59:59,0
+1,journal_entry,24,1201,2026-01-08,3300.0000,0.0000,"DAN CLIFFORD PALANG - Reliever fee as of January 6, & 7, 2026 — RFP No.# 4682",1,0,2026-01-31 23:59:59,0
+1,journal_entry,25,1201,2026-01-08,5600.0000,0.0000,"RICA MAE ARIATE - Reliever fee as of January 5, 6, 7, & 8, 2026 — RFP No.# 4684",1,0,2026-01-31 23:59:59,0
+1,journal_entry,26,1201,2026-01-08,5600.0000,0.0000,"MARY ANN RELLIN - Reliever fee as of January 5, 6, 7, & 8, 2026 — RFP No.# 4685",1,0,2026-01-31 23:59:59,0
+1,journal_entry,27,1201,2026-01-08,6600.0000,0.0000,"ANN MONIQUE AMAZONA - Reliever fee as of January 5, 6, 7, & 8, 2026 — RFP No.# 4686",1,0,2026-01-31 23:59:59,0
+1,journal_entry,28,1201,2026-01-08,6000.0000,0.0000,"ANDREA EVETTE ANTEPUESTO - Reliever fee as of January 5, 6, 7, & 8, 2026 — RFP No.# 4687",1,0,2026-01-31 23:59:59,0
+1,journal_entry,29,1201,2026-01-08,6600.0000,0.0000,"JESSA MEL SINGSON - Reliever fee as of January 5, 6, 7, & 8, 2026 — RFP No.# 4688",1,0,2026-01-31 23:59:59,0
+1,journal_entry,10,1201,2026-01-08,4062.5000,0.0000,"Liquidation RFP No.# 4600 Advances to employee for Mobile activities ftp December 17, 2025- January 04, 2025 CA- 0264 (For January 2026 only) - Liquidation RFP No.# 4600 Advances to employee for Mobile activities ftp December 17, 2025- January 04, 2025 CA- 0264 (For January 2026 only) — #43749",1,0,2026-01-31 23:59:59,0
+1,journal_entry,10,913,2026-01-08,25950.0000,0.0000,"Liquidation RFP No.# 4600 Advances to employee for Mobile activities ftp December 17, 2025- January 04, 2025 CA- 0264 (For January 2026 only) - Liquidation RFP No.# 4600 Advances to employee for Mobile activities ftp December 17, 2025- January 04, 2025 CA- 0264 (For January 2026 only) — #43749",1,0,2026-01-31 23:59:59,0
+1,journal_entry,10,945,2026-01-08,1803.6900,0.0000,"Liquidation RFP No.# 4600 Advances to employee for Mobile activities ftp December 17, 2025- January 04, 2025 CA- 0264 (For January 2026 only) - Liquidation RFP No.# 4600 Advances to employee for Mobile activities ftp December 17, 2025- January 04, 2025 CA- 0264 (For January 2026 only) — #43749",1,0,2026-01-31 23:59:59,0
+1,journal_entry,41,217,2026-01-09,19800.0000,0.0000,Payment: KYLL JOSEPH TRINIDAD — RFP No.# 4676,1,0,2026-01-31 23:59:59,0
+1,journal_entry,35,217,2026-01-09,1650.0000,0.0000,Payment: RHEA LONZAGA — RFP No.# 4670,1,0,2026-01-31 23:59:59,0
+1,journal_entry,38,217,2026-01-09,19800.0000,0.0000,Payment: REX YNAN PATALINGHUG — RFP No.# 4673,1,0,2026-01-31 23:59:59,0
+1,journal_entry,40,217,2026-01-09,19800.0000,0.0000,Payment: MARY CHRIS SHIVANII GARGAR — RFP No.# 4675,1,0,2026-01-31 23:59:59,0
+1,journal_entry,45,217,2026-01-09,3300.0000,0.0000,Payment: DAN CLIFFORD PALANG — RFP No.# 4682,1,0,2026-01-31 23:59:59,0
+1,journal_entry,49,217,2026-01-09,6000.0000,0.0000,Payment: ANDREA EVETTE ANTEPUESTO — RFP No.# 4687,1,0,2026-01-31 23:59:59,0
+1,journal_entry,34,217,2026-01-09,16392.0000,0.0000,Payment: DITO Telecommunity Corporation — RFP No.# 4620,1,0,2026-01-31 23:59:59,0
+1,journal_entry,37,217,2026-01-09,14850.0000,0.0000,Payment: JAY ANNE CELINA LIM — RFP No.# 4672,1,0,2026-01-31 23:59:59,0
+1,journal_entry,39,217,2026-01-09,5775.0000,0.0000,Payment: JACK RYAN CABAGNOT — RFP No.# 4674,1,0,2026-01-31 23:59:59,0
+1,journal_entry,43,217,2026-01-09,4950.0000,0.0000,Payment: CLAVEL LUCERO — RFP No.# 4678,1,0,2026-01-31 23:59:59,0
+1,journal_entry,44,217,2026-01-09,5600.0000,0.0000,Payment: ERIC VINCENT AMISOLA — RFP No.# 4680,1,0,2026-01-31 23:59:59,0
+1,journal_entry,47,217,2026-01-09,5600.0000,0.0000,Payment: MARY ANN RELLIN — RFP No.# 4685,1,0,2026-01-31 23:59:59,0
+1,journal_entry,36,217,2026-01-09,5100.0000,0.0000,Payment: HANNAH MALAIT — RFP No.# 4671,1,0,2026-01-31 23:59:59,0
+1,journal_entry,42,217,2026-01-09,4950.0000,0.0000,Payment: JHOANNA KRISSIAH MAYO — RFP No.# 4677,1,0,2026-01-31 23:59:59,0
+1,journal_entry,46,217,2026-01-09,5600.0000,0.0000,Payment: RICA MAE ARIATE — RFP No.# 4684,1,0,2026-01-31 23:59:59,0
+1,journal_entry,48,217,2026-01-09,6600.0000,0.0000,Payment: ANN MONIQUE AMAZONA — RFP No.# 4686,1,0,2026-01-31 23:59:59,0
+1,journal_entry,50,217,2026-01-09,6600.0000,0.0000,Payment: JESSA MEL SINGSON — RFP No.# 4688,1,0,2026-01-31 23:59:59,0
+1,journal_entry,51,61,2026-01-09,14994.0000,0.0000,Payment: ABOITIZ POWER CORPORATION — 0235386235,1,0,2026-01-31 23:59:59,0
+1,journal_entry,52,61,2026-01-09,168459.0000,0.0000,Payment: Arch Global Services (Philippines) Inc. — MO-2629,1,0,2026-01-31 23:59:59,0
+1,journal_entry,32,65,2026-01-09,231300.0000,0.0000,"Sales Branches January 09, 2026 - Term Sales - January, 09 — #48419",1,0,2026-01-31 23:59:59,0
+1,journal_entry,53,57,2026-01-09,0.0000,14994.0000,Payment: ABOITIZ POWER CORPORATION — MO-3124,1,0,2026-01-31 23:59:59,0
+1,journal_entry,52,57,2026-01-09,0.0000,168459.0000,Payment: Arch Global Services (Philippines) Inc. — MO-2629,1,0,2026-01-31 23:59:59,0
+1,journal_entry,33,1,2026-01-09,0.0000,1650.0000,Payment: RHEA LONZAGA — Online-010926,1,0,2026-01-31 23:59:59,0
+1,journal_entry,33,1,2026-01-09,0.0000,3000.0000,Payment: EUGENE TIO — Online-010926,1,0,2026-01-31 23:59:59,0
+1,journal_entry,33,1,2026-01-09,0.0000,3300.0000,Payment: DAN CLIFFORD PALANG — Online-010926,1,0,2026-01-31 23:59:59,0
+1,journal_entry,33,1,2026-01-09,0.0000,4950.0000,Payment: CLAVEL LUCERO — Online-010926,1,0,2026-01-31 23:59:59,0
+1,journal_entry,33,1,2026-01-09,0.0000,4950.0000,Payment: JHOANNA KRISSIAH MAYO — Online-010926,1,0,2026-01-31 23:59:59,0
+1,journal_entry,33,1,2026-01-09,0.0000,5100.0000,Payment: HANNAH MALAIT — Online-010926,1,0,2026-01-31 23:59:59,0
+1,journal_entry,33,1,2026-01-09,0.0000,5600.0000,Payment: ERIC VINCENT AMISOLA — Online-010926,1,0,2026-01-31 23:59:59,0
+1,journal_entry,33,1,2026-01-09,0.0000,5600.0000,Payment: MARY ANN RELLIN — Online-010926,1,0,2026-01-31 23:59:59,0
+1,journal_entry,33,1,2026-01-09,0.0000,5600.0000,Payment: RICA MAE ARIATE — Online-010926,1,0,2026-01-31 23:59:59,0
+1,journal_entry,33,1,2026-01-09,0.0000,5775.0000,Payment: JACK RYAN CABAGNOT — Online-010926,1,0,2026-01-31 23:59:59,0
+1,journal_entry,33,1,2026-01-09,0.0000,6000.0000,Payment: ANDREA EVETTE ANTEPUESTO — Online-010926,1,0,2026-01-31 23:59:59,0
+1,journal_entry,33,1,2026-01-09,0.0000,6600.0000,Payment: ANN MONIQUE AMAZONA — Online-010926,1,0,2026-01-31 23:59:59,0
+1,journal_entry,33,1,2026-01-09,0.0000,6600.0000,Payment: JESSA MEL SINGSON — Online-010926,1,0,2026-01-31 23:59:59,0
+1,journal_entry,33,1,2026-01-09,0.0000,14850.0000,Payment: JAY ANNE CELINA LIM — Online-010926,1,0,2026-01-31 23:59:59,0
+1,journal_entry,33,1,2026-01-09,0.0000,16392.0000,Payment: DITO Telecommunity Corporation — Online-010926,1,0,2026-01-31 23:59:59,0
+1,journal_entry,33,1,2026-01-09,0.0000,19800.0000,Payment: KYLL JOSEPH TRINIDAD — Online-010926,1,0,2026-01-31 23:59:59,0
+1,journal_entry,33,1,2026-01-09,0.0000,19800.0000,Payment: REX YNAN PATALINGHUG — Online-010926,1,0,2026-01-31 23:59:59,0
+1,journal_entry,33,1,2026-01-09,0.0000,19800.0000,Payment: MARY CHRIS SHIVANII GARGAR — Online-010926,1,0,2026-01-31 23:59:59,0
+1,journal_entry,32,1645,2026-01-09,0.0000,231300.0000,"Sales Branches January 09, 2026 - Laboratory/Diagnostics — #48419",1,0,2026-01-31 23:59:59,0
+1,journal_entry,54,65,2026-01-10,123609.0000,0.0000,"Sales Branches January 10, 2026 — #48421",1,0,2026-01-31 23:59:59,0
+1,journal_entry,54,1645,2026-01-10,0.0000,123609.0000,"Sales Branches January 10, 2026 - Sales Branches January 31, 2026 — #48421",1,0,2026-01-31 23:59:59,0
+1,journal_entry,57,217,2026-01-12,13914.6400,0.0000,Payment: CEBU PROGRESS COMMERCIAL — 0126-000003,1,0,2026-01-31 23:59:59,0
+1,journal_entry,59,217,2026-01-12,60000.0000,0.0000,Payment: MAUREEN LICYAYO — RFP No.# 4712,1,0,2026-01-31 23:59:59,0
+1,journal_entry,56,217,2026-01-12,0.0000,13914.6400,CEBU PROGRESS COMMERCIAL — 0126-000003,1,0,2026-01-31 23:59:59,0
+1,journal_entry,55,65,2026-01-12,316947.0000,0.0000,"Sales Branches January 12, 2026 - Term Sales - January, 12 — #48424",1,0,2026-01-31 23:59:59,0
+1,journal_entry,64,65,2026-01-12,0.0000,630.0000,"Philhealthcare, Inc - BASIC 5 | 10/23/2025 |Ttec |BASIC 5 | 1PAX|630 | — MO-3256",1,0,2026-01-31 23:59:59,0
+1,journal_entry,64,65,2026-01-12,0.0000,1100.0000,"Philhealthcare, Inc - BASIC 5 + ECG | 10/23/2025 |Ttec |BASIC 5 + ECG | 1PAX|1100 | — MO-3256",1,0,2026-01-31 23:59:59,0
+1,journal_entry,63,65,2026-01-12,0.0000,2170.0000,"Philhealthcare, Inc - BASIC 5 + ECG + CHEM (FBS, CREATININE, BUA, BUN, TOTAL CHOLE) | 10/16/2025 |Ttec |BASIC 5 + ECG + CHEM (FBS, CREATININE, BUA, BUN, TOTAL CHOLE) | 1PAX|2170 | — MO-3255",1,0,2026-01-31 23:59:59,0
+1,journal_entry,63,65,2026-01-12,0.0000,2300.0000,"Philhealthcare, Inc - BASIC 5+  ECG + PAPS | 10/16/2025 |Ttec |BASIC 5+  ECG + PAPS | 1PAX|2300 | — MO-3255",1,0,2026-01-31 23:59:59,0
+1,journal_entry,63,65,2026-01-12,0.0000,4340.0000,"Philhealthcare, Inc - BASIC 5 + ECG + + CHEM (FBS, CREATININE, BUA, BUN, TOTAL CHOLE) | 10/16/2025 |Ttec |BASIC 5 + ECG + + CHEM (FBS, CREATININE, BUA, BUN, TOTAL CHOLE) | 2PAX|2170 | — MO-3255",1,0,2026-01-31 23:59:59,0
+1,journal_entry,61,65,2026-01-12,0.0000,5440.0000,"Knowles Electronics Philippines - CBC, UA, XRAY, ECG | 10/08/2025 |Knowles Electronics Philippines |CBC, UA, XRAY, ECG | 8PAX|680 | — MO- 3258",1,0,2026-01-31 23:59:59,0
+1,journal_entry,63,65,2026-01-12,0.0000,8500.0000,"Philhealthcare, Inc - BASIC 5 + CHEM (FBS, CREATININE, BUA, BUN, TOTAL CHOLE) | 10/16/2025 |Ttec |BASIC 5 + CHEM (FBS, CREATININE, BUA, BUN, TOTAL CHOLE) | 5PAX|1700 | — MO-3255",1,0,2026-01-31 23:59:59,0
+1,journal_entry,64,65,2026-01-12,0.0000,10000.0000,"Philhealthcare, Inc - Mobile Van Parking Fee for 8 days | 10/23/2025 |Ttec |Mobile Van Parking Fee for 8 days | |10000 | — MO-3256",1,0,2026-01-31 23:59:59,0
+1,journal_entry,61,65,2026-01-12,0.0000,10230.0000,"Knowles Electronics Philippines - CBC, UA, XRAY, ECG, PAPS | 10/08/2025 |Knowles Electronics Philippines |CBC, UA, XRAY, ECG, PAPS | 11PAX|930 | — MO- 3258",1,0,2026-01-31 23:59:59,0
+1,journal_entry,62,65,2026-01-12,0.0000,10980.0000,Maxicare Healthcare Corporation - BASIC 5 + ECG + PAP SMEAR | 01/07/2025 |Guesty Philippines Corporation |BASIC 5 + ECG + PAP SMEAR | 6PAX|1830 | — MO-3254,1,0,2026-01-31 23:59:59,0
+1,journal_entry,62,65,2026-01-12,0.0000,12430.0000,Maxicare Healthcare Corporation - BASIC 5 + ECG | 01/07/2025 |Guesty Philippines Corporation |BASIC 5 + ECG | 11PAX|1130 | — MO-3254,1,0,2026-01-31 23:59:59,0
+1,journal_entry,61,65,2026-01-12,0.0000,12450.0000,"Knowles Electronics Philippines - CBC, UA, XRAY, ECG, FBS  | 10/08/2025 |Knowles Electronics Philippines |CBC, UA, XRAY, ECG, FBS  | 15PAX|830 | — MO- 3258",1,0,2026-01-31 23:59:59,0
+1,journal_entry,63,65,2026-01-12,0.0000,13480.0000,"Philhealthcare, Inc - BASIC 5 + ECG + PAP SMEAR + CHEM (FBS, CREATININE, BUA, BUN, TOTAL CHOLE) | 10/16/2025 |Ttec |BASIC 5 + ECG + PAP SMEAR + CHEM (FBS, CREATININE, BUA, BUN, TOTAL CHOLE) | 4PAX|3370 | — MO-3255",1,0,2026-01-31 23:59:59,0
+1,journal_entry,63,65,2026-01-12,0.0000,14400.0000,"Philhealthcare, Inc - Additional Test | DRUGTEST | 10/16/2025 |Ttec |DRUGTEST | 48PAX|300 | — MO-3255",1,0,2026-01-31 23:59:59,0
+1,journal_entry,61,65,2026-01-12,0.0000,17490.0000,"Knowles Electronics Philippines - CBC, UA, XRAY | 10/08/2025 |Knowles Electronics Philippines |CBC, UA, XRAY | 53PAX|330 | — MO- 3258",1,0,2026-01-31 23:59:59,0
+1,journal_entry,65,65,2026-01-12,0.0000,18300.0000,Cebu Home and Builders Centre - DRUG TEST | 09/01/2025 |Cebu Home and Builders Centre |DRUG TEST | 61PAX|300 | — MO-3259,1,0,2026-01-31 23:59:59,0
+1,journal_entry,60,65,2026-01-12,0.0000,30450.0000,Insular Healthcare Inc - PAP SMEAR | 10/17/2025 |Microsourcing |PAP SMEAR | 21PAX|1450 | — MO- 3257,1,0,2026-01-31 23:59:59,0
+1,journal_entry,62,65,2026-01-12,0.0000,30600.0000,Maxicare Healthcare Corporation - BASIC 5 | 01/07/2025 |Guesty Philippines Corporation |BASIC 5 | 51PAX|600 | — MO-3254,1,0,2026-01-31 23:59:59,0
+1,journal_entry,63,65,2026-01-12,0.0000,75900.0000,"Philhealthcare, Inc - BASIC 5 + ECG | 10/16/2025 |Ttec |BASIC 5 + ECG | 69PAX|1100 | — MO-3255",1,0,2026-01-31 23:59:59,0
+1,journal_entry,60,65,2026-01-12,0.0000,90630.0000,Insular Healthcare Inc - ECG | 10/15/2025 |Microsourcing |ECG | 171PAX|530 | — MO- 3257,1,0,2026-01-31 23:59:59,0
+1,journal_entry,63,65,2026-01-12,0.0000,195500.0000,"Philhealthcare, Inc - BASIC 5 + ECG + PAP SMEAR | 10/16/2025 |Ttec |BASIC 5 + ECG + PAP SMEAR | 85PAX|2300 | — MO-3255",1,0,2026-01-31 23:59:59,0
+1,journal_entry,64,65,2026-01-12,0.0000,301770.0000,"Philhealthcare, Inc - Additional 479 pax to cover the 1,200 guaranteed pax (Basic 5 only) | 10/23/2025 |Ttec |Additional BASIC 5 | 479PAX | 630 | — MO-3256",1,0,2026-01-31 23:59:59,0
+1,journal_entry,60,65,2026-01-12,0.0000,313100.0000,Insular Healthcare Inc - BASIC 5 | 10/14/2025 |Microsourcing |BASIC 5 | 505PAX|620 | — MO- 3257,1,0,2026-01-31 23:59:59,0
+1,journal_entry,63,65,2026-01-12,0.0000,347760.0000,"Philhealthcare, Inc - BASIC 5 | 10/16/2025 |Ttec |BASIC 5 | 552PAX|630 | — MO-3255",1,0,2026-01-31 23:59:59,0
+1,journal_entry,62,57,2026-01-12,54010.0000,0.0000,Maxicare Healthcare Corporation — MO-3254,1,0,2026-01-31 23:59:59,0
+1,journal_entry,63,57,2026-01-12,664350.0000,0.0000,"Philhealthcare, Inc — MO-3255",1,0,2026-01-31 23:59:59,0
+1,journal_entry,64,57,2026-01-12,313500.0000,0.0000,"Philhealthcare, Inc — MO-3256",1,0,2026-01-31 23:59:59,0
+1,journal_entry,60,57,2026-01-12,434180.0000,0.0000,Insular Healthcare Inc — MO- 3257,1,0,2026-01-31 23:59:59,0
+1,journal_entry,61,57,2026-01-12,45610.0000,0.0000,Knowles Electronics Philippines — MO- 3258,1,0,2026-01-31 23:59:59,0
+1,journal_entry,65,57,2026-01-12,18300.0000,0.0000,Cebu Home and Builders Centre — MO-3259,1,0,2026-01-31 23:59:59,0
+1,journal_entry,33,1,2026-01-12,0.0000,60000.0000,Payment: MAUREEN LICYAYO — Online-010926,1,0,2026-01-31 23:59:59,0
+1,journal_entry,58,41,2026-01-12,0.0000,13914.6400,Payment: CEBU PROGRESS COMMERCIAL — 4012635205,1,0,2026-01-31 23:59:59,0
+1,journal_entry,56,245,2026-01-12,0.0000,125.3600,CEBU PROGRESS COMMERCIAL - 1% EWT on Payment for 2 Massage bed PO no. CAPEX-26-0002 — 0126-000003,1,0,2026-01-31 23:59:59,0
+1,journal_entry,56,505,2026-01-12,1504.2900,0.0000,CEBU PROGRESS COMMERCIAL - Vat: Payment for 2 Massage bed PO no. CAPEX-26-0002 — 0126-000003,1,0,2026-01-31 23:59:59,0
+1,journal_entry,55,1645,2026-01-12,0.0000,316947.0000,"Sales Branches January 12, 2026 - Laboratory/Diagnostics — #48424",1,0,2026-01-31 23:59:59,0
+1,journal_entry,56,369,2026-01-12,12535.7100,0.0000,CEBU PROGRESS COMMERCIAL - Vatable: Payment for 2 Massage bed PO no. CAPEX-26-0002 — 0126-000003,1,0,2026-01-31 23:59:59,0
+1,journal_entry,72,217,2026-01-13,40000.0000,0.0000,Payment: Shanesse Angelee Cortes — RFP No.# 4655,1,0,2026-01-31 23:59:59,0
+1,journal_entry,73,217,2026-01-13,59450.5000,0.0000,Payment: Shanesse Angelee Cortes — RFP No.# 4696,1,0,2026-01-31 23:59:59,0
+1,journal_entry,68,217,2026-01-13,0.0000,40000.0000,Shanesse Angelee Cortes — RFP No.# 4655,1,0,2026-01-31 23:59:59,0
+1,journal_entry,69,217,2026-01-13,0.0000,59450.5000,Shanesse Angelee Cortes — RFP No.# 4696,1,0,2026-01-31 23:59:59,0
+1,journal_entry,70,217,2026-01-13,0.0000,60000.0000,MAUREEN LICYAYO — RFP No.# 4712,1,0,2026-01-31 23:59:59,0
+1,journal_entry,70,85,2026-01-13,60000.0000,0.0000,MAUREEN LICYAYO - Advances to employee for meal allowance and reliever fees CA- 0267 — RFP No.# 4712,1,0,2026-01-31 23:59:59,0
+1,journal_entry,69,585,2026-01-13,9150.0000,0.0000,Shanesse Angelee Cortes - Meal allowance- Konsulta (Replenishment) — RFP No.# 4696,1,0,2026-01-31 23:59:59,0
+1,journal_entry,67,65,2026-01-13,327414.0000,0.0000,"Sales Branches January 13, 2026 - Term Sales - January, 13 — #48426",1,0,2026-01-31 23:59:59,0
+1,journal_entry,77,65,2026-01-13,0.0000,2240.0000,"Royal Algaculture Corp - LIPID PANEL, CREATININE | 01/06/2026 |Royal Algaculture Corp |LIPID PANEL, CREATININE | 2PAX|1120 | — MO-3260",1,0,2026-01-31 23:59:59,0
+1,journal_entry,77,65,2026-01-13,0.0000,4100.0000,"Royal Algaculture Corp - TSH, T3, T4, FBS | 01/06/2026 |Royal Algaculture Corp |TSH, T3, T4, FBS | 1PAX|4100 | — MO-3260",1,0,2026-01-31 23:59:59,0
+1,journal_entry,77,65,2026-01-13,0.0000,8640.0000,Royal Algaculture Corp - BLOODTYPING | 01/06/2026 |Royal Algaculture Corp |BLOODTYPING | 24PAX|360 | — MO-3260,1,0,2026-01-31 23:59:59,0
+1,journal_entry,79,65,2026-01-13,0.0000,10584.0000,Asalus Corporation - BASIC 5 + ECG + PAP SMEAR | 01/08/2026 |Avensia Philippines Corp |BASIC 5 + ECG + PAP SMEAR | 6PAX|1764 | — MO-3262,1,0,2026-01-31 23:59:59,0
+1,journal_entry,79,65,2026-01-13,0.0000,14196.0000,Asalus Corporation - BASIC 5 + ECG | 01/08/2026 |Avensia Philippines Corp |BASIC 5 + ECG | 14PAX|1014 | — MO-3262,1,0,2026-01-31 23:59:59,0
+1,journal_entry,79,65,2026-01-13,0.0000,18564.0000,Asalus Corporation - BASIC 5 | 01/08/2026 |Avensia Philippines Corp |BASIC 5 | 26PAX|714 | — MO-3262,1,0,2026-01-31 23:59:59,0
+1,journal_entry,77,65,2026-01-13,0.0000,31850.0000,Royal Algaculture Corp - Basic 5 | 01/06/2026 |Royal Algaculture Corp |Basic 5 | 49PAX|650 | — MO-3260,1,0,2026-01-31 23:59:59,0
+1,journal_entry,78,65,2026-01-13,0.0000,63280.0000,Maxicare Healthcare Corporation - BASIC 5 + ECG | 01/06/2026 |Sound Connection |BASIC 5 + ECG | 56PAX|1130 | — MO-3261,1,0,2026-01-31 23:59:59,0
+1,journal_entry,78,65,2026-01-13,0.0000,64050.0000,Maxicare Healthcare Corporation - BASIC 5 + ECG + PAP SMEAR | 01/06/2026 |Sound Connection |BASIC 5 + ECG + PAP SMEAR | 35PAX|1830 | — MO-3261,1,0,2026-01-31 23:59:59,0
+1,journal_entry,78,65,2026-01-13,0.0000,165600.0000,Maxicare Healthcare Corporation - BASIC 5 | 01/06/2026 |Sound Connection |BASIC 5 | 276PAX|600 | — MO-3261,1,0,2026-01-31 23:59:59,0
+1,journal_entry,75,57,2026-01-13,306.0000,0.0000,ABOITIZ POWER CORPORATION — CN-4196,1,0,2026-01-31 23:59:59,0
+1,journal_entry,77,57,2026-01-13,46830.0000,0.0000,Royal Algaculture Corp — MO-3260,1,0,2026-01-31 23:59:59,0
+1,journal_entry,78,57,2026-01-13,292930.0000,0.0000,Maxicare Healthcare Corporation — MO-3261,1,0,2026-01-31 23:59:59,0
+1,journal_entry,79,57,2026-01-13,43344.0000,0.0000,Asalus Corporation — MO-3262,1,0,2026-01-31 23:59:59,0
+1,journal_entry,74,57,2026-01-13,0.0000,306.0000,ABOITIZ POWER CORPORATION — CN-4196,1,0,2026-01-31 23:59:59,0
+1,journal_entry,76,57,2026-01-13,0.0000,306.0000,ABOITIZ POWER CORPORATION — MO-3124,1,0,2026-01-31 23:59:59,0
+1,journal_entry,66,1,2026-01-13,4564.3100,0.0000,Excess Cash Liquidation from Shannese RFP No. 4600 - Excess Cash Liquidation from Shannese RFP No. 4600 — #44317,1,0,2026-01-31 23:59:59,0
+1,journal_entry,71,1,2026-01-13,0.0000,2800.0000,Payment: HOME DEVELOPMENT MUTUAL FUND — Online-011326,1,0,2026-01-31 23:59:59,0
+1,journal_entry,71,1,2026-01-13,0.0000,9500.0000,Payment: PHILIPPINE HEALTH INSURANCE CORPORATION — Online-011326,1,0,2026-01-31 23:59:59,0
+1,journal_entry,71,1,2026-01-13,0.0000,40000.0000,Payment: Shanesse Angelee Cortes — Online-011326,1,0,2026-01-31 23:59:59,0
+1,journal_entry,71,1,2026-01-13,0.0000,59450.5000,Payment: Shanesse Angelee Cortes — Online-011326,1,0,2026-01-31 23:59:59,0
+1,journal_entry,74,165,2026-01-13,306.0000,0.0000,ABOITIZ POWER CORPORATION - CWT-2% |Aboitiz Power Corporation — CN-4196,1,0,2026-01-31 23:59:59,0
+1,journal_entry,69,777,2026-01-13,4.2900,0.0000,Shanesse Angelee Cortes - Vat: Parking fee (Replenishment) — RFP No.# 4696,1,0,2026-01-31 23:59:59,0
+1,journal_entry,67,1645,2026-01-13,0.0000,327414.0000,"Sales Branches January 13, 2026 - Laboratory/Diagnostics — #48426",1,0,2026-01-31 23:59:59,0
+1,journal_entry,69,1201,2026-01-13,1500.0000,0.0000,Shanesse Angelee Cortes - Meal allowance- relievers (Replenishment) — RFP No.# 4696,1,0,2026-01-31 23:59:59,0
+1,journal_entry,69,1201,2026-01-13,25075.0000,0.0000,Shanesse Angelee Cortes - Reliever fee (Replenishment) — RFP No.# 4696,1,0,2026-01-31 23:59:59,0
+1,journal_entry,69,913,2026-01-13,22200.0000,0.0000,Shanesse Angelee Cortes - Meal allowance- employee (Replenishment) — RFP No.# 4696,1,0,2026-01-31 23:59:59,0
+1,journal_entry,68,33,2026-01-13,40000.0000,0.0000,Shanesse Angelee Cortes - Payment for additional revolving fund — RFP No.# 4655,1,0,2026-01-31 23:59:59,0
+1,journal_entry,66,1777,2026-01-13,0.0000,4564.3100,Excess Cash Liquidation from Shannese RFP No. 4600 - Excess Cash Liquidation from Shannese RFP No. 4600 — #44317,1,0,2026-01-31 23:59:59,0
+1,journal_entry,69,945,2026-01-13,35.7100,0.0000,Shanesse Angelee Cortes - Vatable: Parking fee (Replenishment) — RFP No.# 4696,1,0,2026-01-31 23:59:59,0
+1,journal_entry,69,945,2026-01-13,1485.5000,0.0000,Shanesse Angelee Cortes - Nondeductible: Transportation expenses (Replenishment) — RFP No.# 4696,1,0,2026-01-31 23:59:59,0
+1,journal_entry,80,65,2026-01-14,244871.0000,0.0000,"Sales Branches January 14, 2026 - Term Sales - January, 14 — #48428",1,0,2026-01-31 23:59:59,0
+1,journal_entry,81,65,2026-01-14,0.0000,19500.0000,Generali Life Assurance Philippines Inc - BASIC 5 | 09/19/2026 |Cebu Logitem Inc. |BASIC 5 | 30PAX|650 | — MO-3263,1,0,2026-01-31 23:59:59,0
+1,journal_entry,81,65,2026-01-14,0.0000,25080.0000,Generali Life Assurance Philippines Inc - BASIC 5 + ECG | 09/19/2026 |Cebu Logitem Inc. |BASIC 5 + ECG | 22PAX|1140 | — MO-3263,1,0,2026-01-31 23:59:59,0
+1,journal_entry,82,65,2026-01-14,0.0000,26100.0000,Security & Systems Monitoring Inc - DRUG TEST | 01/06/2026 |SSMI |DRUG TEST | 87PAX|300 | — MO-3266,1,0,2026-01-31 23:59:59,0
+1,journal_entry,81,57,2026-01-14,44580.0000,0.0000,Generali Life Assurance Philippines Inc — MO-3263,1,0,2026-01-31 23:59:59,0
+1,journal_entry,82,57,2026-01-14,26100.0000,0.0000,Security & Systems Monitoring Inc — MO-3266,1,0,2026-01-31 23:59:59,0
+1,journal_entry,80,1645,2026-01-14,0.0000,244871.0000,"Sales Branches January 14, 2026 - Laboratory/Diagnostics — #48428",1,0,2026-01-31 23:59:59,0
+1,journal_entry,99,217,2026-01-15,0.0000,1050.0000,JACK RYAN CABAGNOT — RFP No.# 4776,1,0,2026-01-31 23:59:59,0
+1,journal_entry,95,217,2026-01-15,0.0000,2925.0000,LEAVILLE KAYE FLORES — RFP No.# 4772,1,0,2026-01-31 23:59:59,0
+1,journal_entry,90,217,2026-01-15,0.0000,3750.0000,PATRICIA MAE GUMBAN — RFP No.# 4767,1,0,2026-01-31 23:59:59,0
+1,journal_entry,92,217,2026-01-15,0.0000,4162.5000,ANDREA EVETTE ANTEPUESTO — RFP No.# 4769,1,0,2026-01-31 23:59:59,0
+1,journal_entry,103,217,2026-01-15,0.0000,4950.0000,VINCE ARDEL LOCAYLOCAY — RFP No.# 4780,1,0,2026-01-31 23:59:59,0
+1,journal_entry,105,217,2026-01-15,0.0000,4950.0000,ANN MONIQUE AMAZONA — RFP No.# 4782,1,0,2026-01-31 23:59:59,0
+1,journal_entry,106,217,2026-01-15,0.0000,4950.0000,MAURIE BETH GAMUTAN — RFP No.# 4783,1,0,2026-01-31 23:59:59,0
+1,journal_entry,93,217,2026-01-15,0.0000,4987.5000,HANNAH MALAIT — RFP No.# 4770,1,0,2026-01-31 23:59:59,0
+1,journal_entry,100,217,2026-01-15,0.0000,5662.5000,MARIAN BIA BLANCO — RFP No.# 4777,1,0,2026-01-31 23:59:59,0
+1,journal_entry,104,217,2026-01-15,0.0000,6100.0000,LARA THERESE DELICA — RFP No.# 4781,1,0,2026-01-31 23:59:59,0
+1,journal_entry,94,217,2026-01-15,0.0000,6225.0000,JESSA MEL SINGSON — RFP No.# 4771,1,0,2026-01-31 23:59:59,0
+1,journal_entry,96,217,2026-01-15,0.0000,6750.0000,ERIC VINCENT AMISOLA — RFP No.# 4773,1,0,2026-01-31 23:59:59,0
+1,journal_entry,97,217,2026-01-15,0.0000,6750.0000,RICA MAE ARIATE — RFP No.# 4774,1,0,2026-01-31 23:59:59,0
+1,journal_entry,98,217,2026-01-15,0.0000,6750.0000,MARY ANN RELLIN — RFP No.# 4775,1,0,2026-01-31 23:59:59,0
+1,journal_entry,91,217,2026-01-15,0.0000,7875.0000,CLAVEL LUCERO — RFP No.# 4768,1,0,2026-01-31 23:59:59,0
+1,journal_entry,88,217,2026-01-15,0.0000,8700.0000,REX YNAN PATALINGHUG — RFP No.# 4765,1,0,2026-01-31 23:59:59,0
+1,journal_entry,89,217,2026-01-15,0.0000,8700.0000,JHOANNA KRISSIAH MAYO — RFP No.# 4766,1,0,2026-01-31 23:59:59,0
+1,journal_entry,107,217,2026-01-15,0.0000,14850.0000,MARY CHRIS GARGAR — RFP No.# 4784,1,0,2026-01-31 23:59:59,0
+1,journal_entry,101,217,2026-01-15,0.0000,19800.0000,JAY ANNE CELINA LIM — RFP No.# 4778,1,0,2026-01-31 23:59:59,0
+1,journal_entry,102,217,2026-01-15,0.0000,19800.0000,KYLL JOSEPH TRINIDAD — RFP No.# 4779,1,0,2026-01-31 23:59:59,0
+1,journal_entry,87,217,2026-01-15,0.0000,96842.0000,Shanesse Angelee Cortes — RFP No.# 4762,1,0,2026-01-31 23:59:59,0
+1,journal_entry,87,585,2026-01-15,12450.0000,0.0000,Shanesse Angelee Cortes - Meal allowance- Konsulta (Replenishment) — RFP No.# 4762,1,0,2026-01-31 23:59:59,0
+1,journal_entry,84,65,2026-01-15,257264.0000,0.0000,"Sales Branches January 15, 2026 - Term Sales - January, 15 — #48430",1,0,2026-01-31 23:59:59,0
+1,journal_entry,83,653,2026-01-15,55078.6500,0.0000,to record the SL sick leave conversion - to record the SL sick leave conversion — #45828,1,0,2026-01-31 23:59:59,0
+1,journal_entry,85,737,2026-01-15,128.3600,0.0000,"GLOBE TELECOM, INC. - VAT: Globe bill FTP 11/24-12/23/2025; Mobile — RFP No.# 4731",1,0,2026-01-31 23:59:59,0
+1,journal_entry,84,1645,2026-01-15,0.0000,257264.0000,"Sales Branches January 15, 2026 - Laboratory/Diagnostics — #48430",1,0,2026-01-31 23:59:59,0
+1,journal_entry,87,841,2026-01-15,151.0000,0.0000,Shanesse Angelee Cortes - load (Replenishment) — RFP No.# 4762,1,0,2026-01-31 23:59:59,0
+1,journal_entry,85,841,2026-01-15,1069.6400,0.0000,"GLOBE TELECOM, INC. - VATABLE: Globe bill FTP 11/24-12/23/2025; Mobile — RFP No.# 4731",1,0,2026-01-31 23:59:59,0
+1,journal_entry,88,1201,2026-01-15,8700.0000,0.0000,"REX YNAN PATALINGHUG - Reliever fee as of January 09 & 13, 2026 — RFP No.# 4765",1,0,2026-01-31 23:59:59,0
+1,journal_entry,90,1201,2026-01-15,3750.0000,0.0000,"PATRICIA MAE GUMBAN - Reliever fee as of January 09, 2026 — RFP No.# 4767",1,0,2026-01-31 23:59:59,0
+1,journal_entry,97,1201,2026-01-15,6750.0000,0.0000,"RICA MAE ARIATE - Reliever fee as of January 09, 122, 13, 14, 15, 2026 — RFP No.# 4774",1,0,2026-01-31 23:59:59,0
+1,journal_entry,98,1201,2026-01-15,6750.0000,0.0000,"MARY ANN RELLIN - Reliever fee as of January 09, 12, 13, 14, 15, 2026 — RFP No.# 4775",1,0,2026-01-31 23:59:59,0
+1,journal_entry,100,1201,2026-01-15,5662.5000,0.0000,"MARIAN BIA BLANCO - Reliever fee as of January 09,12,13,14, 2026 — RFP No.# 4777",1,0,2026-01-31 23:59:59,0
+1,journal_entry,102,1201,2026-01-15,19800.0000,0.0000,"KYLL JOSEPH TRINIDAD - Reliever fee as of January 12,13,14,15, 2026 — RFP No.# 4779",1,0,2026-01-31 23:59:59,0
+1,journal_entry,106,1201,2026-01-15,4950.0000,0.0000,"MAURIE BETH GAMUTAN - Reliever fee as of January 14, 2026 — RFP No.# 4783",1,0,2026-01-31 23:59:59,0
+1,journal_entry,107,1201,2026-01-15,14850.0000,0.0000,"MARY CHRIS GARGAR - Reliever fee as of January 12,13, 14, 2026 — RFP No.# 4784",1,0,2026-01-31 23:59:59,0
+1,journal_entry,87,1201,2026-01-15,4800.0000,0.0000,Shanesse Angelee Cortes - Meal allowance-Relievers (Replenishment) — RFP No.# 4762,1,0,2026-01-31 23:59:59,0
+1,journal_entry,87,1201,2026-01-15,52250.0000,0.0000,Shanesse Angelee Cortes - Reliever fee (Replenishment) — RFP No.# 4762,1,0,2026-01-31 23:59:59,0
+1,journal_entry,89,1201,2026-01-15,8700.0000,0.0000,"JHOANNA KRISSIAH MAYO - Reliever fee as of January 09 & 15, 2026 — RFP No.# 4766",1,0,2026-01-31 23:59:59,0
+1,journal_entry,91,1201,2026-01-15,7875.0000,0.0000,"CLAVEL LUCERO - Reliever fee as of January 09, 122, 13, 14, 15, 2026 — RFP No.# 4768",1,0,2026-01-31 23:59:59,0
+1,journal_entry,92,1201,2026-01-15,4162.5000,0.0000,"ANDREA EVETTE ANTEPUESTO - Reliever fee as of January 09,14, 15, 2026 — RFP No.# 4769",1,0,2026-01-31 23:59:59,0
+1,journal_entry,93,1201,2026-01-15,4987.5000,0.0000,"HANNAH MALAIT - Reliever fee as of January 09,12,13,14, 2026 — RFP No.# 4770",1,0,2026-01-31 23:59:59,0
+1,journal_entry,94,1201,2026-01-15,6225.0000,0.0000,"JESSA MEL SINGSON - Reliever fee as of January 09,12,13,14, 2026 — RFP No.# 4771",1,0,2026-01-31 23:59:59,0
+1,journal_entry,95,1201,2026-01-15,2925.0000,0.0000,"LEAVILLE KAYE FLORES - Reliever fee as of January 09,15, 2026 — RFP No.# 4772",1,0,2026-01-31 23:59:59,0
+1,journal_entry,96,1201,2026-01-15,6750.0000,0.0000,"ERIC VINCENT AMISOLA - Reliever fee as of January 09, 122, 13, 14, 15, 2026 — RFP No.# 4773",1,0,2026-01-31 23:59:59,0
+1,journal_entry,99,1201,2026-01-15,1050.0000,0.0000,"JACK RYAN CABAGNOT - Reliever fee as of January 09, 2026 — RFP No.# 4776",1,0,2026-01-31 23:59:59,0
+1,journal_entry,101,1201,2026-01-15,19800.0000,0.0000,"JAY ANNE CELINA LIM - Reliever fee as of January 12,13,14,15, 2026 — RFP No.# 4778",1,0,2026-01-31 23:59:59,0
+1,journal_entry,103,1201,2026-01-15,4950.0000,0.0000,"VINCE ARDEL LOCAYLOCAY - Reliever fee as of January 14, 2026 — RFP No.# 4780",1,0,2026-01-31 23:59:59,0
+1,journal_entry,104,1201,2026-01-15,6100.0000,0.0000,"LARA THERESE DELICA - Reliever fee as of January 12,13,14,15, 2026 — RFP No.# 4781",1,0,2026-01-31 23:59:59,0
+1,journal_entry,105,1201,2026-01-15,4950.0000,0.0000,"ANN MONIQUE AMAZONA - Reliever fee as of January 12,13,14, 2026 — RFP No.# 4782",1,0,2026-01-31 23:59:59,0
+1,journal_entry,87,913,2026-01-15,25200.0000,0.0000,Shanesse Angelee Cortes - Meal allowance- Employee (Replenishment) — RFP No.# 4762,1,0,2026-01-31 23:59:59,0
+1,journal_entry,87,945,2026-01-15,1991.0000,0.0000,Shanesse Angelee Cortes - Transportation expenses (Repplenishment) — RFP No.# 4762,1,0,2026-01-31 23:59:59,0
+1,journal_entry,86,945,2026-01-15,3000.0000,0.0000,"EUGENE TIO - Payment for Mobile van parking fee ftp December 13, 2025- January 13, 2026 — RFP No.# 4739",1,0,2026-01-31 23:59:59,0
+1,journal_entry,115,217,2026-01-16,8700.0000,0.0000,Payment: JHOANNA KRISSIAH MAYO — RFP No.# 4766,1,0,2026-01-31 23:59:59,0
+1,journal_entry,116,217,2026-01-16,3750.0000,0.0000,Payment: PATRICIA MAE GUMBAN — RFP No.# 4767,1,0,2026-01-31 23:59:59,0
+1,journal_entry,120,217,2026-01-16,6225.0000,0.0000,Payment: JESSA MEL SINGSON — RFP No.# 4771,1,0,2026-01-31 23:59:59,0
+1,journal_entry,123,217,2026-01-16,6750.0000,0.0000,Payment: RICA MAE ARIATE — RFP No.# 4774,1,0,2026-01-31 23:59:59,0
+1,journal_entry,122,217,2026-01-16,6750.0000,0.0000,Payment: ERIC VINCENT AMISOLA — RFP No.# 4773,1,0,2026-01-31 23:59:59,0
+1,journal_entry,124,217,2026-01-16,6750.0000,0.0000,Payment: MARY ANN RELLIN — RFP No.# 4775,1,0,2026-01-31 23:59:59,0
+1,journal_entry,125,217,2026-01-16,1050.0000,0.0000,Payment: JACK RYAN CABAGNOT — RFP No.# 4776,1,0,2026-01-31 23:59:59,0
+1,journal_entry,127,217,2026-01-16,19800.0000,0.0000,Payment: JAY ANNE CELINA LIM — RFP No.# 4778,1,0,2026-01-31 23:59:59,0
+1,journal_entry,131,217,2026-01-16,4950.0000,0.0000,Payment: ANN MONIQUE AMAZONA — RFP No.# 4782,1,0,2026-01-31 23:59:59,0
+1,journal_entry,114,217,2026-01-16,96842.0000,0.0000,Payment: Shanesse Angelee Cortes — RFP No.# 4762,1,0,2026-01-31 23:59:59,0
+1,journal_entry,117,217,2026-01-16,7875.0000,0.0000,Payment: CLAVEL LUCERO — RFP No.# 4768,1,0,2026-01-31 23:59:59,0
+1,journal_entry,118,217,2026-01-16,4162.5000,0.0000,Payment: ANDREA EVETTE ANTEPUESTO — RFP No.# 4769,1,0,2026-01-31 23:59:59,0
+1,journal_entry,119,217,2026-01-16,4987.5000,0.0000,Payment: HANNAH MALAIT — RFP No.# 4770,1,0,2026-01-31 23:59:59,0
+1,journal_entry,121,217,2026-01-16,2925.0000,0.0000,Payment: LEAVILLE KAYE FLORES — RFP No.# 4772,1,0,2026-01-31 23:59:59,0
+1,journal_entry,126,217,2026-01-16,5662.5000,0.0000,Payment: MARIAN BIA BLANCO — RFP No.# 4777,1,0,2026-01-31 23:59:59,0
+1,journal_entry,128,217,2026-01-16,19800.0000,0.0000,Payment: KYLL JOSEPH TRINIDAD — RFP No.# 4779,1,0,2026-01-31 23:59:59,0
+1,journal_entry,129,217,2026-01-16,4950.0000,0.0000,Payment: VINCE ARDEL LOCAYLOCAY — RFP No.# 4780,1,0,2026-01-31 23:59:59,0
+1,journal_entry,130,217,2026-01-16,6100.0000,0.0000,Payment: LARA THERESE DELICA — RFP No.# 4781,1,0,2026-01-31 23:59:59,0
+1,journal_entry,132,217,2026-01-16,4950.0000,0.0000,Payment: MAURIE BETH GAMUTAN — RFP No.# 4783,1,0,2026-01-31 23:59:59,0
+1,journal_entry,133,217,2026-01-16,14850.0000,0.0000,Payment: MARY CHRIS GARGAR — RFP No.# 4784,1,0,2026-01-31 23:59:59,0
+1,journal_entry,111,217,2026-01-16,0.0000,10406.2500,"BEROVAN MARKETING, INC. — 0126-000007",1,0,2026-01-31 23:59:59,0
+1,journal_entry,112,217,2026-01-16,0.0000,34398.0000,SKY MEDICAL SUPPLY — RFP No.# 4755,1,0,2026-01-31 23:59:59,0
+1,journal_entry,108,237,2026-01-16,3395.0000,0.0000,Reversal of: Globe -To accrue mobile for the month of december 2025 mobile - Globe -To accrue mobile for the month of december 2025 mobile — #45140,1,0,2026-01-31 23:59:59,0
+1,journal_entry,108,237,2026-01-16,2197.0000,0.0000,Reversal of: Globe -To accrue mobile for the month of december 2025 mobile - Globe -To accrue mobile for the month of december 2025 mobile — #45140,1,0,2026-01-31 23:59:59,0
+1,journal_entry,109,237,2026-01-16,3395.0000,0.0000,Reversal of: Globe -To accrue mobile for the month of october 2025 mobile - Globe -To accrue mobile for the month of october 2025 mobile — #45148,1,0,2026-01-31 23:59:59,0
+1,journal_entry,109,237,2026-01-16,2197.0000,0.0000,Reversal of: Globe -To accrue mobile for the month of october 2025 mobile - Globe -To accrue mobile for the month of october 2025 mobile — #45148,1,0,2026-01-31 23:59:59,0
+1,journal_entry,110,65,2026-01-16,656362.0000,0.0000,"Sales Branches January 16, 2026 - Term Sales - January, 16 — #48432",1,0,2026-01-31 23:59:59,0
+1,journal_entry,113,1,2026-01-16,0.0000,1050.0000,Payment: JACK RYAN CABAGNOT — Oniline-011626,1,0,2026-01-31 23:59:59,0
+1,journal_entry,113,1,2026-01-16,0.0000,1198.0000,"Payment: GLOBE TELECOM, INC. — Oniline-011626",1,0,2026-01-31 23:59:59,0
+1,journal_entry,113,1,2026-01-16,0.0000,2925.0000,Payment: LEAVILLE KAYE FLORES — Oniline-011626,1,0,2026-01-31 23:59:59,0
+1,journal_entry,113,1,2026-01-16,0.0000,3000.0000,Payment: EUGENE TIO — Oniline-011626,1,0,2026-01-31 23:59:59,0
+1,journal_entry,113,1,2026-01-16,0.0000,3750.0000,Payment: PATRICIA MAE GUMBAN — Oniline-011626,1,0,2026-01-31 23:59:59,0
+1,journal_entry,113,1,2026-01-16,0.0000,4162.5000,Payment: ANDREA EVETTE ANTEPUESTO — Oniline-011626,1,0,2026-01-31 23:59:59,0
+1,journal_entry,113,1,2026-01-16,0.0000,4950.0000,Payment: ANN MONIQUE AMAZONA — Oniline-011626,1,0,2026-01-31 23:59:59,0
+1,journal_entry,113,1,2026-01-16,0.0000,4950.0000,Payment: VINCE ARDEL LOCAYLOCAY — Oniline-011626,1,0,2026-01-31 23:59:59,0
+1,journal_entry,113,1,2026-01-16,0.0000,4950.0000,Payment: MAURIE BETH GAMUTAN — Oniline-011626,1,0,2026-01-31 23:59:59,0
+1,journal_entry,113,1,2026-01-16,0.0000,4987.5000,Payment: HANNAH MALAIT — Oniline-011626,1,0,2026-01-31 23:59:59,0
+1,journal_entry,113,1,2026-01-16,0.0000,5662.5000,Payment: MARIAN BIA BLANCO — Oniline-011626,1,0,2026-01-31 23:59:59,0
+1,journal_entry,113,1,2026-01-16,0.0000,6100.0000,Payment: LARA THERESE DELICA — Oniline-011626,1,0,2026-01-31 23:59:59,0
+1,journal_entry,113,1,2026-01-16,0.0000,6225.0000,Payment: JESSA MEL SINGSON — Oniline-011626,1,0,2026-01-31 23:59:59,0
+1,journal_entry,113,1,2026-01-16,0.0000,6750.0000,Payment: RICA MAE ARIATE — Oniline-011626,1,0,2026-01-31 23:59:59,0
+1,journal_entry,113,1,2026-01-16,0.0000,6750.0000,Payment: ERIC VINCENT AMISOLA — Oniline-011626,1,0,2026-01-31 23:59:59,0
+1,journal_entry,113,1,2026-01-16,0.0000,6750.0000,Payment: MARY ANN RELLIN — Oniline-011626,1,0,2026-01-31 23:59:59,0
+1,journal_entry,113,1,2026-01-16,0.0000,7875.0000,Payment: CLAVEL LUCERO — Oniline-011626,1,0,2026-01-31 23:59:59,0
+1,journal_entry,113,1,2026-01-16,0.0000,8700.0000,Payment: JHOANNA KRISSIAH MAYO — Oniline-011626,1,0,2026-01-31 23:59:59,0
+1,journal_entry,113,1,2026-01-16,0.0000,14850.0000,Payment: MARY CHRIS GARGAR — Oniline-011626,1,0,2026-01-31 23:59:59,0
+1,journal_entry,113,1,2026-01-16,0.0000,19800.0000,Payment: JAY ANNE CELINA LIM — Oniline-011626,1,0,2026-01-31 23:59:59,0
+1,journal_entry,113,1,2026-01-16,0.0000,19800.0000,Payment: KYLL JOSEPH TRINIDAD — Oniline-011626,1,0,2026-01-31 23:59:59,0
+1,journal_entry,113,1,2026-01-16,0.0000,96842.0000,Payment: Shanesse Angelee Cortes — Oniline-011626,1,0,2026-01-31 23:59:59,0
+1,journal_entry,111,245,2026-01-16,0.0000,93.7500,"BEROVAN MARKETING, INC. - 1% EWT on Payment for 2 units of gooseneck lamp PO no. CAPEX-26-0001 SI no. 383113 — 0126-000007",1,0,2026-01-31 23:59:59,0
+1,journal_entry,112,245,2026-01-16,0.0000,702.0000,SKY MEDICAL SUPPLY - 2% EWT on Payment for Mobile Equipment PMS SI no. 001744 — RFP No.# 4755,1,0,2026-01-31 23:59:59,0
+1,journal_entry,111,517,2026-01-16,1125.0000,0.0000,"BEROVAN MARKETING, INC. - Vat: Payment for 2 units of gooseneck lamp PO no. CAPEX-26-0001 SI no. 383113 — 0126-000007",1,0,2026-01-31 23:59:59,0
+1,journal_entry,108,737,2026-01-16,0.0000,235.3900,Reversal of: Globe -To accrue mobile for the month of december 2025 mobile - Globe -To accrue mobile for the month of december 2025 mobile — #45140,1,0,2026-01-31 23:59:59,0
+1,journal_entry,109,737,2026-01-16,0.0000,235.3900,Reversal of: Globe -To accrue mobile for the month of october 2025 mobile - Globe -To accrue mobile for the month of october 2025 mobile — #45148,1,0,2026-01-31 23:59:59,0
+1,journal_entry,108,737,2026-01-16,0.0000,363.7500,Reversal of: Globe -To accrue mobile for the month of december 2025 mobile - Globe -To accrue mobile for the month of december 2025 mobile — #45140,1,0,2026-01-31 23:59:59,0
+1,journal_entry,109,737,2026-01-16,0.0000,363.7500,Reversal of: Globe -To accrue mobile for the month of october 2025 mobile - Globe -To accrue mobile for the month of october 2025 mobile — #45148,1,0,2026-01-31 23:59:59,0
+1,journal_entry,110,1645,2026-01-16,0.0000,656362.0000,"Sales Branches January 16, 2026 - Laboratory/Diagnostics — #48432",1,0,2026-01-31 23:59:59,0
+1,journal_entry,111,417,2026-01-16,9375.0000,0.0000,"BEROVAN MARKETING, INC. - Vatable: Payment for 2 units of gooseneck lamp PO no. CAPEX-26-0001 SI no. 383113 — 0126-000007",1,0,2026-01-31 23:59:59,0
+1,journal_entry,108,841,2026-01-16,0.0000,1961.6100,Reversal of: Globe -To accrue mobile for the month of december 2025 mobile - Globe -To accrue mobile for the month of december 2025 mobile — #45140,1,0,2026-01-31 23:59:59,0
+1,journal_entry,109,841,2026-01-16,0.0000,1961.6100,Reversal of: Globe -To accrue mobile for the month of october 2025 mobile - Globe -To accrue mobile for the month of october 2025 mobile — #45148,1,0,2026-01-31 23:59:59,0
+1,journal_entry,108,841,2026-01-16,0.0000,3031.2500,Reversal of: Globe -To accrue mobile for the month of december 2025 mobile - Globe -To accrue mobile for the month of december 2025 mobile — #45140,1,0,2026-01-31 23:59:59,0
+1,journal_entry,109,841,2026-01-16,0.0000,3031.2500,Reversal of: Globe -To accrue mobile for the month of october 2025 mobile - Globe -To accrue mobile for the month of october 2025 mobile — #45148,1,0,2026-01-31 23:59:59,0
+1,journal_entry,112,173,2026-01-16,35100.0000,0.0000,SKY MEDICAL SUPPLY - Non-vat: Payment for Mobile Equipment PMS SI no. 001744 — RFP No.# 4755,1,0,2026-01-31 23:59:59,0
+1,journal_entry,108,1777,2026-01-16,5592.0000,0.0000,Reversal of: Globe -To accrue mobile for the month of december 2025 mobile - Globe -To accrue mobile for the month of december 2025 mobile — #45140,1,0,2026-01-31 23:59:59,0
+1,journal_entry,109,1777,2026-01-16,5592.0000,0.0000,Reversal of: Globe -To accrue mobile for the month of october 2025 mobile - Globe -To accrue mobile for the month of october 2025 mobile — #45148,1,0,2026-01-31 23:59:59,0
+1,journal_entry,108,1777,2026-01-16,0.0000,5592.0000,Reversal of: Globe -To accrue mobile for the month of december 2025 mobile - Globe -To accrue mobile for the month of december 2025 mobile — #45140,1,0,2026-01-31 23:59:59,0
+1,journal_entry,109,1777,2026-01-16,0.0000,5592.0000,Reversal of: Globe -To accrue mobile for the month of october 2025 mobile - Globe -To accrue mobile for the month of october 2025 mobile — #45148,1,0,2026-01-31 23:59:59,0
+1,journal_entry,134,65,2026-01-17,236300.0000,0.0000,"Sales Branches January 17, 2026 — #48434",1,0,2026-01-31 23:59:59,0
+1,journal_entry,134,1645,2026-01-17,0.0000,236300.0000,"Sales Branches January 17, 2026 — #48434",1,0,2026-01-31 23:59:59,0
+1,journal_entry,135,65,2026-01-19,305494.0000,0.0000,"Sales Branches January 19, 2026 - Term Sales - January, 19 — #48436",1,0,2026-01-31 23:59:59,0
+1,journal_entry,136,65,2026-01-19,0.0000,15000.0000,"Cebuogawa Philippines, Inc. - DRUG TESTING | 12/22/2025 |CEBUOGAWA PHILS. INC. |DRUG TESTING | 50PAX|300 | — MO-3278",1,0,2026-01-31 23:59:59,0
+1,journal_entry,136,57,2026-01-19,15000.0000,0.0000,"Cebuogawa Philippines, Inc. — MO-3278",1,0,2026-01-31 23:59:59,0
+1,journal_entry,135,1645,2026-01-19,0.0000,305494.0000,"Sales Branches January 19, 2026 - Laboratory/Diagnostics — #48436",1,0,2026-01-31 23:59:59,0
+1,journal_entry,144,217,2026-01-20,97549.0000,0.0000,Payment: Shanesse Angelee Cortes — RFP No.# 4812,1,0,2026-01-31 23:59:59,0
+1,journal_entry,143,217,2026-01-20,8700.0000,0.0000,Payment: REX YNAN PATALINGHUG — RFP No.# 4765,1,0,2026-01-31 23:59:59,0
+1,journal_entry,140,217,2026-01-20,0.0000,2279.4600,DG'S INK TRADING — 0126-000025,1,0,2026-01-31 23:59:59,0
+1,journal_entry,141,217,2026-01-20,0.0000,97549.0000,Shanesse Angelee Cortes — RFP No.# 4812,1,0,2026-01-31 23:59:59,0
+1,journal_entry,137,85,2026-01-20,0.0000,678.7500,"CPCI Payroll for January 1-15, 2026 - Mobile Medical Affairs - CPCI Payroll for January 1-15, 2026 - Mobile Medical Affairs — #46340",1,0,2026-01-31 23:59:59,0
+1,journal_entry,138,85,2026-01-20,0.0000,2083.3400,"CPCI Payroll for January 1-15, 2026 - Mobile Operations - CPCI Payroll for January 1-15, 2026 - Mobile Operations TTHE LOAN Rio, Mae — #46346",1,0,2026-01-31 23:59:59,0
+1,journal_entry,138,85,2026-01-20,0.0000,2988.3400,"CPCI Payroll for January 1-15, 2026 - Mobile Operations - CPCI Payroll for January 1-15, 2026 - Mobile Operations — #46346",1,0,2026-01-31 23:59:59,0
+1,journal_entry,141,585,2026-01-20,8100.0000,0.0000,Shanesse Angelee Cortes - Meal allowance- Konsulta (Replenishment) — RFP No.# 4812,1,0,2026-01-31 23:59:59,0
+1,journal_entry,139,65,2026-01-20,349518.0000,0.0000,"Sales Branches January 20, 2026 - Term Sales - January, 20 — #48438",1,0,2026-01-31 23:59:59,0
+1,journal_entry,148,65,2026-01-20,0.0000,7000.0000,Life & Health Hmp Inc - BASIC 5+ECG | 01/12/2026 | Coast Pacific - Mc Donalds  |BASIC 5+ECG | 7PAX|1000 | — MO-3279,1,0,2026-01-31 23:59:59,0
+1,journal_entry,148,65,2026-01-20,0.0000,29400.0000,Life & Health Hmp Inc - BASIC 5   | 01/12/2026 |Coast Pacific - Mc Donalds |BASIC 5   | 49PAX|600 | — MO-3279,1,0,2026-01-31 23:59:59,0
+1,journal_entry,148,57,2026-01-20,36400.0000,0.0000,Life & Health Hmp Inc — MO-3279,1,0,2026-01-31 23:59:59,0
+1,journal_entry,146,57,2026-01-20,3441.0000,0.0000,Arch Global Services (Philippines) Inc. — CN-4281,1,0,2026-01-31 23:59:59,0
+1,journal_entry,145,57,2026-01-20,0.0000,3441.0000,Arch Global Services (Philippines) Inc. — CN-4281,1,0,2026-01-31 23:59:59,0
+1,journal_entry,147,57,2026-01-20,0.0000,3441.0000,Arch Global Services (Philippines) Inc. — MO-2629,1,0,2026-01-31 23:59:59,0
+1,journal_entry,141,605,2026-01-20,10.0000,0.0000,Shanesse Angelee Cortes - Bank charge (Replenishment) — RFP No.# 4812,1,0,2026-01-31 23:59:59,0
+1,journal_entry,142,1,2026-01-20,0.0000,8700.0000,Payment: REX YNAN PATALINGHUG — Online-012026,1,0,2026-01-31 23:59:59,0
+1,journal_entry,142,1,2026-01-20,0.0000,97549.0000,Payment: Shanesse Angelee Cortes — Online-012026,1,0,2026-01-31 23:59:59,0
+1,journal_entry,137,1,2026-01-20,0.0000,113933.5000,"CPCI Payroll for January 1-15, 2026 - Mobile Medical Affairs - CPCI Payroll for January 1-15, 2026 - Mobile Medical Affairs — #46340",1,0,2026-01-31 23:59:59,0
+1,journal_entry,138,1,2026-01-20,0.0000,170168.0000,"CPCI Payroll for January 1-15, 2026 - Mobile Operations - CPCI Payroll for January 1-15, 2026 - Mobile Operations — #46346",1,0,2026-01-31 23:59:59,0
+1,journal_entry,137,249,2026-01-20,12548.3300,0.0000,"CPCI Payroll for January 1-15, 2026 - Mobile Medical Affairs - CPCI Payroll for January 1-15, 2026 - Mobile Medical Affairs — #46340",1,0,2026-01-31 23:59:59,0
+1,journal_entry,138,249,2026-01-20,32375.0600,0.0000,"CPCI Payroll for January 1-15, 2026 - Mobile Operations - CPCI Payroll for January 1-15, 2026 - Mobile Operations — #46346",1,0,2026-01-31 23:59:59,0
+1,journal_entry,138,249,2026-01-20,0.0000,7230.1300,"CPCI Payroll for January 1-15, 2026 - Mobile Operations - CPCI Payroll for January 1-15, 2026 - Mobile Operations — #46346",1,0,2026-01-31 23:59:59,0
+1,journal_entry,137,249,2026-01-20,0.0000,13438.8600,"CPCI Payroll for January 1-15, 2026 - Mobile Medical Affairs - CPCI Payroll for January 1-15, 2026 - Mobile Medical Affairs — #46340",1,0,2026-01-31 23:59:59,0
+1,journal_entry,145,165,2026-01-20,3441.0000,0.0000,Arch Global Services (Philippines) Inc. - CWT-2% |Arch Global — CN-4281,1,0,2026-01-31 23:59:59,0
+1,journal_entry,137,665,2026-01-20,8750.0000,0.0000,"CPCI Payroll for January 1-15, 2026 - Mobile Medical Affairs - CPCI Payroll for January 1-15, 2026 - Mobile Medical Affairs — #46340",1,0,2026-01-31 23:59:59,0
+1,journal_entry,138,665,2026-01-20,4583.3400,0.0000,"CPCI Payroll for January 1-15, 2026 - Mobile Operations - CPCI Payroll for January 1-15, 2026 - Mobile Operations — #46346",1,0,2026-01-31 23:59:59,0
+1,journal_entry,140,245,2026-01-20,0.0000,20.5400,DG'S INK TRADING - 1% EWT on Payment for unlimited ink PO no. OPEX-26-0017 SI no. 0688 — 0126-000025,1,0,2026-01-31 23:59:59,0
+1,journal_entry,137,269,2026-01-20,0.0000,400.0000,"CPCI Payroll for January 1-15, 2026 - Mobile Medical Affairs - CPCI Payroll for January 1-15, 2026 - Mobile Medical Affairs — #46340",1,0,2026-01-31 23:59:59,0
+1,journal_entry,138,269,2026-01-20,0.0000,1000.0000,"CPCI Payroll for January 1-15, 2026 - Mobile Operations - CPCI Payroll for January 1-15, 2026 - Mobile Operations — #46346",1,0,2026-01-31 23:59:59,0
+1,journal_entry,140,193,2026-01-20,246.4300,0.0000,DG'S INK TRADING - Vat: Payment for unlimited ink PO no. OPEX-26-0017 SI no. 0688 — 0126-000025,1,0,2026-01-31 23:59:59,0
+1,journal_entry,139,1645,2026-01-20,0.0000,349518.0000,"Sales Branches January 20, 2026 - Laboratory/Diagnostics — #48438",1,0,2026-01-31 23:59:59,0
+1,journal_entry,141,841,2026-01-20,229.0000,0.0000,Shanesse Angelee Cortes - Mobile load (Replenishment) — RFP No.# 4812,1,0,2026-01-31 23:59:59,0
+1,journal_entry,140,149,2026-01-20,2053.5700,0.0000,DG'S INK TRADING - Vatable: Payment for unlimited ink PO no. OPEX-26-0017 SI no. 0688 — 0126-000025,1,0,2026-01-31 23:59:59,0
+1,journal_entry,138,865,2026-01-20,42949.7100,0.0000,"CPCI Payroll for January 1-15, 2026 - Mobile Operations - CPCI Payroll for January 1-15, 2026 - Mobile Operations — #46346",1,0,2026-01-31 23:59:59,0
+1,journal_entry,138,257,2026-01-20,0.0000,855.8200,"CPCI Payroll for January 1-15, 2026 - Mobile Operations - CPCI Payroll for January 1-15, 2026 - Mobile Operations — #46346",1,0,2026-01-31 23:59:59,0
+1,journal_entry,137,265,2026-01-20,0.0000,2187.5000,"CPCI Payroll for January 1-15, 2026 - Mobile Medical Affairs - CPCI Payroll for January 1-15, 2026 - Mobile Medical Affairs — #46340",1,0,2026-01-31 23:59:59,0
+1,journal_entry,138,265,2026-01-20,0.0000,2562.5000,"CPCI Payroll for January 1-15, 2026 - Mobile Operations - CPCI Payroll for January 1-15, 2026 - Mobile Operations — #46346",1,0,2026-01-31 23:59:59,0
+1,journal_entry,141,1201,2026-01-20,2400.0000,0.0000,Shanesse Angelee Cortes - Meal allowance- relievers (Replenishment) — RFP No.# 4812,1,0,2026-01-31 23:59:59,0
+1,journal_entry,141,1201,2026-01-20,69225.0000,0.0000,Shanesse Angelee Cortes - Reliever fee (Replenishment) — RFP No.# 4812,1,0,2026-01-31 23:59:59,0
+1,journal_entry,141,913,2026-01-20,16200.0000,0.0000,Shanesse Angelee Cortes - Meal allowance- employee (Replenishment) — RFP No.# 4812,1,0,2026-01-31 23:59:59,0
+1,journal_entry,137,921,2026-01-20,112840.2800,0.0000,"CPCI Payroll for January 1-15, 2026 - Mobile Medical Affairs - CPCI Payroll for January 1-15, 2026 - Mobile Medical Affairs — #46340",1,0,2026-01-31 23:59:59,0
+1,journal_entry,138,921,2026-01-20,114490.4200,0.0000,"CPCI Payroll for January 1-15, 2026 - Mobile Operations - CPCI Payroll for January 1-15, 2026 - Mobile Operations — #46346",1,0,2026-01-31 23:59:59,0
+1,journal_entry,138,253,2026-01-20,0.0000,922.9000,"CPCI Payroll for January 1-15, 2026 - Mobile Operations - CPCI Payroll for January 1-15, 2026 - Mobile Operations — #46346",1,0,2026-01-31 23:59:59,0
+1,journal_entry,137,261,2026-01-20,0.0000,3500.0000,"CPCI Payroll for January 1-15, 2026 - Mobile Medical Affairs - CPCI Payroll for January 1-15, 2026 - Mobile Medical Affairs — #46340",1,0,2026-01-31 23:59:59,0
+1,journal_entry,138,261,2026-01-20,0.0000,6587.5000,"CPCI Payroll for January 1-15, 2026 - Mobile Operations - CPCI Payroll for January 1-15, 2026 - Mobile Operations — #46346",1,0,2026-01-31 23:59:59,0
+1,journal_entry,141,945,2026-01-20,1385.0000,0.0000,Shanesse Angelee Cortes - Nondeductible: Transportation expenses (Replenishment) — RFP No.# 4812,1,0,2026-01-31 23:59:59,0
+1,journal_entry,150,217,2026-01-21,10406.2500,0.0000,"Payment: BEROVAN MARKETING, INC. — 0126-000007",1,0,2026-01-31 23:59:59,0
+1,journal_entry,149,65,2026-01-21,415212.0000,0.0000,"Sales Branches January 21, 2026 - Term Sales - January, 21 — #48440",1,0,2026-01-31 23:59:59,0
+1,journal_entry,153,65,2026-01-21,0.0000,13000.0000,Coast Pacific Golden Milestone Corporation - BASIC 5 | 01/12/2026 |Coast Pacific - Mc Donalds |BASIC 5 ) | 20PAX|650 | — MO-3281,1,0,2026-01-31 23:59:59,0
+1,journal_entry,152,65,2026-01-21,0.0000,18000.0000,MCPI Corporation - DRUG TEST | 12/05/2025 |MCPI Corporation |DRUG TEST | 60PAX|300 | — MO-3280,1,0,2026-01-31 23:59:59,0
+1,journal_entry,152,57,2026-01-21,18000.0000,0.0000,MCPI Corporation — MO-3280,1,0,2026-01-31 23:59:59,0
+1,journal_entry,153,57,2026-01-21,13000.0000,0.0000,Coast Pacific Golden Milestone Corporation — MO-3281,1,0,2026-01-31 23:59:59,0
+1,journal_entry,151,9,2026-01-21,0.0000,10406.2500,"Payment: BEROVAN MARKETING, INC. — 420711",1,0,2026-01-31 23:59:59,0
+1,journal_entry,149,1645,2026-01-21,0.0000,415212.0000,"Sales Branches January 21, 2026 - Laboratory/Diagnostics — #48440",1,0,2026-01-31 23:59:59,0
+1,journal_entry,180,217,2026-01-22,0.0000,1500.0000,CORA ALIVIADO — RFP No.# 4861,1,0,2026-01-31 23:59:59,0
+1,journal_entry,179,217,2026-01-22,0.0000,1525.0000,HANNAH MALAIT — RFP No.# 4860,1,0,2026-01-31 23:59:59,0
+1,journal_entry,168,217,2026-01-22,0.0000,1525.0000,LARA THERESE DELICA — RFP No.# 4848,1,0,2026-01-31 23:59:59,0
+1,journal_entry,177,217,2026-01-22,0.0000,4950.0000,ANN MONIQUE AMAZONA — RFP No.# 4858,1,0,2026-01-31 23:59:59,0
+1,journal_entry,176,217,2026-01-22,0.0000,4950.0000,JESSA MEL SINGSON — RFP No.# 4857,1,0,2026-01-31 23:59:59,0
+1,journal_entry,175,217,2026-01-22,0.0000,4950.0000,LEAVILLE KAYE FLORES — RFP No.# 4856,1,0,2026-01-31 23:59:59,0
+1,journal_entry,165,217,2026-01-22,0.0000,4950.0000,MEL CLAIRE DOLORES MONTEJO — RFP No.# 4845,1,0,2026-01-31 23:59:59,0
+1,journal_entry,163,217,2026-01-22,0.0000,4950.0000,MA. ANGELA LARIZ LLAMES — RFP No.# 4842,1,0,2026-01-31 23:59:59,0
+1,journal_entry,167,217,2026-01-22,0.0000,5550.0000,JACK RYAN CABAGNOT — RFP No.# 4847,1,0,2026-01-31 23:59:59,0
+1,journal_entry,174,217,2026-01-22,0.0000,6000.0000,SHAINA MARIE DOCOG — RFP No.# 4855,1,0,2026-01-31 23:59:59,0
+1,journal_entry,171,217,2026-01-22,0.0000,6000.0000,MARIAN BIA BLANCO — RFP No.# 4851,1,0,2026-01-31 23:59:59,0
+1,journal_entry,173,217,2026-01-22,0.0000,6600.0000,CLAVEL LUCERO — RFP No.# 4853,1,0,2026-01-31 23:59:59,0
+1,journal_entry,178,217,2026-01-22,0.0000,7000.0000,MARY ANN RELLIN — RFP No.# 4859,1,0,2026-01-31 23:59:59,0
+1,journal_entry,172,217,2026-01-22,0.0000,7500.0000,ANDREA EVETTE ANTEPUESTO — RFP No.# 4852,1,0,2026-01-31 23:59:59,0
+1,journal_entry,181,217,2026-01-22,0.0000,8250.0000,ALEXANDRA MARIE SAN MARTE — RFP No.# 4862,1,0,2026-01-31 23:59:59,0
+1,journal_entry,170,217,2026-01-22,0.0000,8250.0000,ERIC VINCENT AMISOLA — RFP No.# 4850,1,0,2026-01-31 23:59:59,0
+1,journal_entry,169,217,2026-01-22,0.0000,8250.0000,RICA MAE ARIATE — RFP No.# 4849,1,0,2026-01-31 23:59:59,0
+1,journal_entry,162,217,2026-01-22,0.0000,9900.0000,REX YNAN PATALINGHUG — RFP No.# 4841,1,0,2026-01-31 23:59:59,0
+1,journal_entry,164,217,2026-01-22,0.0000,19800.0000,JHOANNA KRISSIAH MAYO — RFP No.# 4844,1,0,2026-01-31 23:59:59,0
+1,journal_entry,161,217,2026-01-22,0.0000,19800.0000,JAY ANNE CELINA LIM — RFP No.# 4840,1,0,2026-01-31 23:59:59,0
+1,journal_entry,160,217,2026-01-22,0.0000,19800.0000,MARY CHRIS GARGAR — RFP No.# 4839,1,0,2026-01-31 23:59:59,0
+1,journal_entry,158,217,2026-01-22,0.0000,24310.0000,Shanesse Angelee Cortes — RFP No.# 4837,1,0,2026-01-31 23:59:59,0
+1,journal_entry,166,217,2026-01-22,0.0000,24750.0000,KYLL JOSEPH TRINIDAD — RFP No.# 4846,1,0,2026-01-31 23:59:59,0
+1,journal_entry,159,217,2026-01-22,0.0000,74477.5000,Shanesse Angelee Cortes — RFP No.# 4838,1,0,2026-01-31 23:59:59,0
+1,journal_entry,156,217,2026-01-22,0.0000,119395.5400,LA NUEVA DRUGSTORE CHAINS INC. — RFP No.# 4791,1,0,2026-01-31 23:59:59,0
+1,journal_entry,154,409,2026-01-22,0.0000,223.8800,to record depreciation expense for  January 2026 - Mobile — #45918,1,0,2026-01-31 23:59:59,0
+1,journal_entry,154,445,2026-01-22,0.0000,3173.7800,to record depreciation expense for  January 2026 - Mobile — #45918,1,0,2026-01-31 23:59:59,0
+1,journal_entry,154,453,2026-01-22,0.0000,62.0100,to record depreciation expense for  January 2026 - Mobile — #45918,1,0,2026-01-31 23:59:59,0
+1,journal_entry,154,389,2026-01-22,0.0000,34.4300,to record depreciation expense for  January 2026 - Mobile — #45918,1,0,2026-01-31 23:59:59,0
+1,journal_entry,154,437,2026-01-22,0.0000,158.1400,to record depreciation expense for  January 2026 - Mobile — #45918,1,0,2026-01-31 23:59:59,0
+1,journal_entry,154,405,2026-01-22,0.0000,20933.0100,to record depreciation expense for  January 2026 - Mobile — #45918,1,0,2026-01-31 23:59:59,0
+1,journal_entry,154,441,2026-01-22,0.0000,47670.8700,to record depreciation expense for  January 2026 - Mobile — #45918,1,0,2026-01-31 23:59:59,0
+1,journal_entry,154,449,2026-01-22,0.0000,1468.7200,to record depreciation expense for  January 2026 - Mobile — #45918,1,0,2026-01-31 23:59:59,0
+1,journal_entry,154,385,2026-01-22,0.0000,4001.8500,to record depreciation expense for  January 2026 - Mobile — #45918,1,0,2026-01-31 23:59:59,0
+1,journal_entry,154,433,2026-01-22,0.0000,133597.3400,to record depreciation expense for  January 2026 - Mobile — #45918,1,0,2026-01-31 23:59:59,0
+1,journal_entry,188,61,2026-01-22,26100.0000,0.0000,Payment: Security & Systems Monitoring Inc — Online Payment,1,0,2026-01-31 23:59:59,0
+1,journal_entry,155,65,2026-01-22,540202.0000,0.0000,"Sales Branches January 22, 2026 - Term Sales - January, 22 — #48442",1,0,2026-01-31 23:59:59,0
+1,journal_entry,182,65,2026-01-22,0.0000,500.0000,"Asalus Corporation - Additional Test | SGPT |  | 01/12/2026 |Cebu General Services, Inc. |Additional Test | SGPT |  | 2PAX|250 | — MO-3283",1,0,2026-01-31 23:59:59,0
+1,journal_entry,182,65,2026-01-22,0.0000,2520.0000,"Asalus Corporation - Additional Test | FBS, HBA1C, CREA, SGPT, LIPID PANEL | 01/12/2026 |Cebu General Services, Inc. |Additional Test | FBS, HBA1C, CREA, SGPT, LIPID PANEL | 1PAX|2520 | — MO-3283",1,0,2026-01-31 23:59:59,0
+1,journal_entry,186,65,2026-01-22,0.0000,15000.0000,Toyota Mandaue North - DRUG TESTING | 08/26/2025 |Toyota Mandaue North | | — MO-3316,1,0,2026-01-31 23:59:59,0
+1,journal_entry,185,65,2026-01-22,0.0000,16200.0000,Toyota Mandaue South - DRUG TESTING | 08/26/2025 |Toyota Mandaue South — MO-3312,1,0,2026-01-31 23:59:59,0
+1,journal_entry,184,65,2026-01-22,0.0000,18300.0000,"Toyota Cebu City, Inc - DRUG TESTING | 08/26/2025 |Toyota Cebu City |DRUG TESTING | — MO-3309",1,0,2026-01-31 23:59:59,0
+1,journal_entry,182,65,2026-01-22,0.0000,21470.0000,"Asalus Corporation - Basic 5 (CBC,UA,Chest X-Ray,Stool Exam,PE) + ECG 12L | 01/12/2026 |Cebu General Services, Inc. |Basic 5 (CBC,UA,Chest X-Ray,Stool Exam,PE) + ECG 12L | 19PAX|1130 | — MO-3283",1,0,2026-01-31 23:59:59,0
+1,journal_entry,183,65,2026-01-22,0.0000,25200.0000,Life & Health Hmp Inc - Basic 5 | 01/13/2026 |Coast Pacific -Head Office |Basic 5 | 42PAX|600 | — MO-3286,1,0,2026-01-31 23:59:59,0
+1,journal_entry,182,65,2026-01-22,0.0000,71920.0000,"Asalus Corporation - Basic 5 (CBC,UA,Chest X-Ray,Stool Exam,PE) | 01/12/2026 |Cebu General Services, Inc. |Basic 5 (CBC,UA,Chest X-Ray,Stool Exam,PE) | 116PAX|620 | — MO-3283",1,0,2026-01-31 23:59:59,0
+1,journal_entry,183,65,2026-01-22,0.0000,93000.0000,Life & Health Hmp Inc - Basic 5 + ECG | 01/13/2026 |Coast Pacific -Head Office |Basic 5 + ECG | 93PAX|1000 | — MO-3286,1,0,2026-01-31 23:59:59,0
+1,journal_entry,182,57,2026-01-22,96410.0000,0.0000,Asalus Corporation — MO-3283,1,0,2026-01-31 23:59:59,0
+1,journal_entry,183,57,2026-01-22,118200.0000,0.0000,Life & Health Hmp Inc — MO-3286,1,0,2026-01-31 23:59:59,0
+1,journal_entry,185,57,2026-01-22,16200.0000,0.0000,Toyota Mandaue South — MO-3312,1,0,2026-01-31 23:59:59,0
+1,journal_entry,186,57,2026-01-22,15000.0000,0.0000,Toyota Mandaue North — MO-3316,1,0,2026-01-31 23:59:59,0
+1,journal_entry,184,57,2026-01-22,18300.0000,0.0000,"Toyota Cebu City, Inc — MO-3309",1,0,2026-01-31 23:59:59,0
+1,journal_entry,187,57,2026-01-22,0.0000,26100.0000,Payment: Security & Systems Monitoring Inc — MO-3266,1,0,2026-01-31 23:59:59,0
+1,journal_entry,159,605,2026-01-22,10.0000,0.0000,Shanesse Angelee Cortes - Bank charge — RFP No.# 4838,1,0,2026-01-31 23:59:59,0
+1,journal_entry,158,605,2026-01-22,10.0000,0.0000,Shanesse Angelee Cortes - Bank charge (Replenishment) — RFP No.# 4837,1,0,2026-01-31 23:59:59,0
+1,journal_entry,156,989,2026-01-22,119395.5400,0.0000,"LA NUEVA DRUGSTORE CHAINS INC. - Payment for konsulta medicines ftp October 05- November 28, 2025 — RFP No.# 4791",1,0,2026-01-31 23:59:59,0
+1,journal_entry,154,617,2026-01-22,223.8800,0.0000,to record depreciation expense for  January 2026 - Mobile — #45918,1,0,2026-01-31 23:59:59,0
+1,journal_entry,154,1001,2026-01-22,3173.7800,0.0000,to record depreciation expense for  January 2026 - Mobile — #45918,1,0,2026-01-31 23:59:59,0
+1,journal_entry,154,1005,2026-01-22,62.0100,0.0000,to record depreciation expense for  January 2026 - Mobile — #45918,1,0,2026-01-31 23:59:59,0
+1,journal_entry,154,625,2026-01-22,34.4300,0.0000,to record depreciation expense for  January 2026 - Mobile — #45918,1,0,2026-01-31 23:59:59,0
+1,journal_entry,154,629,2026-01-22,158.1400,0.0000,to record depreciation expense for  January 2026 - Mobile — #45918,1,0,2026-01-31 23:59:59,0
+1,journal_entry,157,737,2026-01-22,238.3900,0.0000,"SMART COMMUNICATIONS, INC. - VAT: Smart Communications Inc. FTP 12/01-12/31/2025; Mobile — RFP No.# 4834",1,0,2026-01-31 23:59:59,0
+1,journal_entry,159,777,2026-01-22,107.1400,0.0000,Shanesse Angelee Cortes - Vat: Gasoline (Replenishment) — RFP No.# 4838,1,0,2026-01-31 23:59:59,0
+1,journal_entry,154,805,2026-01-22,20933.0100,0.0000,to record depreciation expense for  January 2026 - Mobile — #45918,1,0,2026-01-31 23:59:59,0
+1,journal_entry,155,1645,2026-01-22,0.0000,540202.0000,"Sales Branches January 22, 2026 - Laboratory/Diagnostics — #48442",1,0,2026-01-31 23:59:59,0
+1,journal_entry,154,1125,2026-01-22,47670.8700,0.0000,to record depreciation expense for  January 2026 - Mobile — #45918,1,0,2026-01-31 23:59:59,0
+1,journal_entry,154,1133,2026-01-22,1468.7200,0.0000,to record depreciation expense for  January 2026 - Mobile — #45918,1,0,2026-01-31 23:59:59,0
+1,journal_entry,159,841,2026-01-22,249.0000,0.0000,Shanesse Angelee Cortes - Nondeductible: load (Replenishment) — RFP No.# 4838,1,0,2026-01-31 23:59:59,0
+1,journal_entry,157,841,2026-01-22,1986.5700,0.0000,"SMART COMMUNICATIONS, INC. - VATABLE: Smart Communications Inc. FTP 12/01-12/31/2025; Mobile — RFP No.# 4834",1,0,2026-01-31 23:59:59,0
+1,journal_entry,154,845,2026-01-22,4001.8500,0.0000,to record depreciation expense for  January 2026 - Mobile — #45918,1,0,2026-01-31 23:59:59,0
+1,journal_entry,158,1229,2026-01-22,24300.0000,0.0000,"Shanesse Angelee Cortes - KA's meal Allowances ftp January 17-21, 2026 (Replenishment) — RFP No.# 4837",1,0,2026-01-31 23:59:59,0
+1,journal_entry,181,1201,2026-01-22,8250.0000,0.0000,"ALEXANDRA MARIE SAN MARTE - Reliever fee ftp January 15, 16, 19, 20, & 22, 2026 — RFP No.# 4862",1,0,2026-01-31 23:59:59,0
+1,journal_entry,180,1201,2026-01-22,1500.0000,0.0000,"CORA ALIVIADO - Reliever fee ftp January 22, 2026 — RFP No.# 4861",1,0,2026-01-31 23:59:59,0
+1,journal_entry,179,1201,2026-01-22,1525.0000,0.0000,"HANNAH MALAIT - Reliever fee ftp January 22, 2026 — RFP No.# 4860",1,0,2026-01-31 23:59:59,0
+1,journal_entry,178,1201,2026-01-22,7000.0000,0.0000,"MARY ANN RELLIN - Reliever fee ftp January 16, 19, 20, 21, 22, 2026 — RFP No.# 4859",1,0,2026-01-31 23:59:59,0
+1,journal_entry,177,1201,2026-01-22,4950.0000,0.0000,"ANN MONIQUE AMAZONA - Reliever fee ftp January 19, 20, 21, 2026 — RFP No.# 4858",1,0,2026-01-31 23:59:59,0
+1,journal_entry,176,1201,2026-01-22,4950.0000,0.0000,"JESSA MEL SINGSON - Reliever fee ftp January 19, 20, 21, 2026 — RFP No.# 4857",1,0,2026-01-31 23:59:59,0
+1,journal_entry,175,1201,2026-01-22,4950.0000,0.0000,"LEAVILLE KAYE FLORES - Reliever fee ftp January 16, 21, 22, 2026 — RFP No.# 4856",1,0,2026-01-31 23:59:59,0
+1,journal_entry,174,1201,2026-01-22,6000.0000,0.0000,"SHAINA MARIE DOCOG - Reliever fee ftp January 8, 15, 16, 22, 2026 — RFP No.# 4855",1,0,2026-01-31 23:59:59,0
+1,journal_entry,173,1201,2026-01-22,6600.0000,0.0000,"CLAVEL LUCERO - Reliever fee ftp January 16, 19, 20, 21, 2026 — RFP No.# 4853",1,0,2026-01-31 23:59:59,0
+1,journal_entry,172,1201,2026-01-22,7500.0000,0.0000,"ANDREA EVETTE ANTEPUESTO - Reliever fee ftp January 16, 19, 20, 21, & 22, 2026 — RFP No.# 4852",1,0,2026-01-31 23:59:59,0
+1,journal_entry,171,1201,2026-01-22,6000.0000,0.0000,"MARIAN BIA BLANCO - Reliever fee ftp January 19, 20, 21, & 22, 2026 — RFP No.# 4851",1,0,2026-01-31 23:59:59,0
+1,journal_entry,170,1201,2026-01-22,8250.0000,0.0000,"ERIC VINCENT AMISOLA - Reliever fee ftp January 16, 19, 20, 21, & 22, 2026 — RFP No.# 4850",1,0,2026-01-31 23:59:59,0
+1,journal_entry,169,1201,2026-01-22,8250.0000,0.0000,"RICA MAE ARIATE - Reliever fee ftp January 16, 19, 20, 21, & 22, 2026 — RFP No.# 4849",1,0,2026-01-31 23:59:59,0
+1,journal_entry,168,1201,2026-01-22,1525.0000,0.0000,"LARA THERESE DELICA - Reliever fee ftp January 16, 2026 — RFP No.# 4848",1,0,2026-01-31 23:59:59,0
+1,journal_entry,167,1201,2026-01-22,5550.0000,0.0000,"JACK RYAN CABAGNOT - Reliever fee ftp January 19, 20, 21, & 22, 2026 — RFP No.# 4847",1,0,2026-01-31 23:59:59,0
+1,journal_entry,166,1201,2026-01-22,24750.0000,0.0000,"KYLL JOSEPH TRINIDAD - Reliever fee ftp January 16, 19, 20, 21, & 22, 2026 — RFP No.# 4846",1,0,2026-01-31 23:59:59,0
+1,journal_entry,165,1201,2026-01-22,4950.0000,0.0000,"MEL CLAIRE DOLORES MONTEJO - Reliever fee ftp January 16, 2026 — RFP No.# 4845",1,0,2026-01-31 23:59:59,0
+1,journal_entry,164,1201,2026-01-22,19800.0000,0.0000,"JHOANNA KRISSIAH MAYO - Reliever fee ftp January 12, 16, 21 & 22, 2026 — RFP No.# 4844",1,0,2026-01-31 23:59:59,0
+1,journal_entry,163,1201,2026-01-22,4950.0000,0.0000,"MA. ANGELA LARIZ LLAMES - Reliever fee ftp January 19, 2026 — RFP No.# 4842",1,0,2026-01-31 23:59:59,0
+1,journal_entry,162,1201,2026-01-22,9900.0000,0.0000,"REX YNAN PATALINGHUG - Reliever fee ftp January 16 & 20, 2026 — RFP No.# 4841",1,0,2026-01-31 23:59:59,0
+1,journal_entry,161,1201,2026-01-22,19800.0000,0.0000,"JAY ANNE CELINA LIM - Reliever fee ftp January 19-22, 2026 — RFP No.# 4840",1,0,2026-01-31 23:59:59,0
+1,journal_entry,160,1201,2026-01-22,19800.0000,0.0000,"MARY CHRIS GARGAR - Reliever fee ftp January 19-22, 2026 — RFP No.# 4839",1,0,2026-01-31 23:59:59,0
+1,journal_entry,159,1201,2026-01-22,60137.5000,0.0000,Shanesse Angelee Cortes - Reliever fee (Replenishment) — RFP No.# 4838,1,0,2026-01-31 23:59:59,0
+1,journal_entry,159,1201,2026-01-22,2400.0000,0.0000,Shanesse Angelee Cortes - Meal allowance - relievers (Replenishment) — RFP No.# 4838,1,0,2026-01-31 23:59:59,0
+1,journal_entry,159,913,2026-01-22,9300.0000,0.0000,Shanesse Angelee Cortes - Meal allowance - employee (Replenishment) — RFP No.# 4838,1,0,2026-01-31 23:59:59,0
+1,journal_entry,159,945,2026-01-22,892.8600,0.0000,Shanesse Angelee Cortes - Vatable: Gasoline (Replenishment) — RFP No.# 4838,1,0,2026-01-31 23:59:59,0
+1,journal_entry,159,945,2026-01-22,1381.0000,0.0000,Shanesse Angelee Cortes - Nondeductible: Transportation expenses (Replenishment) — RFP No.# 4838,1,0,2026-01-31 23:59:59,0
+1,journal_entry,154,949,2026-01-22,133597.3400,0.0000,to record depreciation expense for  January 2026 - Mobile — #45918,1,0,2026-01-31 23:59:59,0
+1,journal_entry,197,217,2026-01-23,9900.0000,0.0000,Payment: REX YNAN PATALINGHUG — RFP No.# 4841,1,0,2026-01-31 23:59:59,0
+1,journal_entry,192,217,2026-01-23,119395.5400,0.0000,Payment: LA NUEVA DRUGSTORE CHAINS INC. — RFP No.# 4791,1,0,2026-01-31 23:59:59,0
+1,journal_entry,202,217,2026-01-23,5550.0000,0.0000,Payment: JACK RYAN CABAGNOT — RFP No.# 4847,1,0,2026-01-31 23:59:59,0
+1,journal_entry,205,217,2026-01-23,8250.0000,0.0000,Payment: ERIC VINCENT AMISOLA — RFP No.# 4850,1,0,2026-01-31 23:59:59,0
+1,journal_entry,193,217,2026-01-23,24310.0000,0.0000,Payment: Shanesse Angelee Cortes — RFP No.# 4837,1,0,2026-01-31 23:59:59,0
+1,journal_entry,215,217,2026-01-23,1500.0000,0.0000,Payment: CORA ALIVIADO — RFP No.# 4861,1,0,2026-01-31 23:59:59,0
+1,journal_entry,196,217,2026-01-23,19800.0000,0.0000,Payment: JAY ANNE CELINA LIM — RFP No.# 4840,1,0,2026-01-31 23:59:59,0
+1,journal_entry,199,217,2026-01-23,19800.0000,0.0000,Payment: JHOANNA KRISSIAH MAYO — RFP No.# 4844,1,0,2026-01-31 23:59:59,0
+1,journal_entry,200,217,2026-01-23,4950.0000,0.0000,Payment: MEL CLAIRE DOLORES MONTEJO — RFP No.# 4845,1,0,2026-01-31 23:59:59,0
+1,journal_entry,201,217,2026-01-23,24750.0000,0.0000,Payment: KYLL JOSEPH TRINIDAD — RFP No.# 4846,1,0,2026-01-31 23:59:59,0
+1,journal_entry,203,217,2026-01-23,1525.0000,0.0000,Payment: LARA THERESE DELICA — RFP No.# 4848,1,0,2026-01-31 23:59:59,0
+1,journal_entry,204,217,2026-01-23,8250.0000,0.0000,Payment: RICA MAE ARIATE — RFP No.# 4849,1,0,2026-01-31 23:59:59,0
+1,journal_entry,207,217,2026-01-23,7500.0000,0.0000,Payment: ANDREA EVETTE ANTEPUESTO — RFP No.# 4852,1,0,2026-01-31 23:59:59,0
+1,journal_entry,210,217,2026-01-23,4950.0000,0.0000,Payment: LEAVILLE KAYE FLORES — RFP No.# 4856,1,0,2026-01-31 23:59:59,0
+1,journal_entry,216,217,2026-01-23,8250.0000,0.0000,Payment: ALEXANDRA MARIE SAN MARTE — RFP No.# 4862,1,0,2026-01-31 23:59:59,0
+1,journal_entry,194,217,2026-01-23,74477.5000,0.0000,Payment: Shanesse Angelee Cortes — RFP No.# 4838,1,0,2026-01-31 23:59:59,0
+1,journal_entry,195,217,2026-01-23,19800.0000,0.0000,Payment: MARY CHRIS GARGAR — RFP No.# 4839,1,0,2026-01-31 23:59:59,0
+1,journal_entry,198,217,2026-01-23,4950.0000,0.0000,Payment: MA. ANGELA LARIZ LLAMES — RFP No.# 4842,1,0,2026-01-31 23:59:59,0
+1,journal_entry,206,217,2026-01-23,6000.0000,0.0000,Payment: MARIAN BIA BLANCO — RFP No.# 4851,1,0,2026-01-31 23:59:59,0
+1,journal_entry,208,217,2026-01-23,6600.0000,0.0000,Payment: CLAVEL LUCERO — RFP No.# 4853,1,0,2026-01-31 23:59:59,0
+1,journal_entry,209,217,2026-01-23,6000.0000,0.0000,Payment: SHAINA MARIE DOCOG — RFP No.# 4855,1,0,2026-01-31 23:59:59,0
+1,journal_entry,211,217,2026-01-23,4950.0000,0.0000,Payment: JESSA MEL SINGSON — RFP No.# 4857,1,0,2026-01-31 23:59:59,0
+1,journal_entry,212,217,2026-01-23,4950.0000,0.0000,Payment: ANN MONIQUE AMAZONA — RFP No.# 4858,1,0,2026-01-31 23:59:59,0
+1,journal_entry,213,217,2026-01-23,7000.0000,0.0000,Payment: MARY ANN RELLIN — RFP No.# 4859,1,0,2026-01-31 23:59:59,0
+1,journal_entry,214,217,2026-01-23,1525.0000,0.0000,Payment: HANNAH MALAIT — RFP No.# 4860,1,0,2026-01-31 23:59:59,0
+1,journal_entry,189,237,2026-01-23,1550.0000,0.0000,Reversal of: Smart Comm - To accrue payment for Smart december 2025 mobile - Smart Comm - To accrue payment for Smart december 2025 mobile — #45954,1,0,2026-01-31 23:59:59,0
+1,journal_entry,190,65,2026-01-23,381514.0000,0.0000,"Sales Branches January 23, 2026 - Term Sales - January, 23 — #48444",1,0,2026-01-31 23:59:59,0

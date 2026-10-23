@@ -1,0 +1,8 @@
+parameters:
+  level: 6
+  paths:
+    - app/Filters
+  bootstrapFiles:
+    - tests/_support/phpstan-bootstrap.php
+  excludePaths:
+    - app/Views/*

@@ -1,0 +1,222 @@
+{
+  "info": {
+    "_postman_id": "b2c3d4e5-f6a7-8901-bcde-234567890123",
+    "name": "Patients - Change Email Consent",
+    "description": "# Patients — Change Email Consent\n\nUpdates a patient's `is_email_consent` on the **master** DB and syncs the same value across diagnostic branch databases.\n\n## Auth\n- Header: `API-KEY` (required)\n- Body: `token`, `requester` (required on all endpoints)\n\n## Endpoint\n`POST /patients/change_email_consent`\n\n## Payload\n| Field | Required | Notes |\n|-------|----------|-------|\n| `token` | yes | Auth token |\n| `requester` | yes | User id |\n| `patient_id` | yes | Patient id from **master** DB |\n| `opt` | yes | `in` → `is_email_consent = 1`; anything else (e.g. `out`) → `0` |\n\n## Multi-branch sync\n1. Load patient from master by `patient_id`\n2. Update master `is_email_consent`, `updated_by`, `updated_on`\n3. For each diagnostic branch (`1` mobile, `2` oakridge, `3` mactan, `4` consolacion, `7` mantlewood), update rows where `master_id` = patient id\n\nServer sets `updated_by` / `updated_on` — do not send them in the body.\n",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost/cpci-business-ops-api"
+    },
+    {
+      "key": "api_key",
+      "value": "clinicaRiKOYqlwdTJ-lNedqS0k-it!395!-6ls1JXM7Vcc"
+    },
+    {
+      "key": "token",
+      "value": "{{token}}"
+    },
+    {
+      "key": "requester",
+      "value": "1"
+    },
+    {
+      "key": "patient_id",
+      "value": "1"
+    }
+  ],
+  "item": [
+    {
+      "name": "Change email consent (opt-in)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "token",
+              "value": "{{token}}",
+              "type": "text"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}",
+              "type": "text"
+            },
+            {
+              "key": "patient_id",
+              "value": "{{patient_id}}",
+              "type": "text",
+              "description": "Master DB patient id"
+            },
+            {
+              "key": "opt",
+              "value": "in",
+              "type": "text",
+              "description": "in → is_email_consent=1; out (or other) → 0"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/patients/change_email_consent",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "patients",
+            "change_email_consent"
+          ]
+        },
+        "description": "## POST `/patients/change_email_consent`\n\nOpts the patient **in** to email consent (`opt=in` → `is_email_consent = 1`).\n\n### Form fields\n| Field | Required | Notes |\n|-------|----------|-------|\n| `token` | yes | Auth token |\n| `requester` | yes | User id |\n| `patient_id` | yes | Master patient id |\n| `opt` | yes | Use `in` for this request |\n\n### Success\nUpdates master then syncs diagnostic DBs for branches 1, 2, 3, 4, 7."
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "[\n  \"Email consent updated successfully.\"\n]"
+        },
+        {
+          "name": "Not Found",
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"error_messages\": [\n    \"No patients found.\"\n  ]\n}"
+        },
+        {
+          "name": "Fail master",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"error_messages\": [\n    \"Failed to update email consent to master db.\"\n  ]\n}"
+        },
+        {
+          "name": "Fail diagnostic",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"error_messages\": [\n    \"Failed to update email consent to diagnostic db.\"\n  ]\n}"
+        }
+      ]
+    },
+    {
+      "name": "Change email consent (opt-out)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "token",
+              "value": "{{token}}",
+              "type": "text"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}",
+              "type": "text"
+            },
+            {
+              "key": "patient_id",
+              "value": "{{patient_id}}",
+              "type": "text",
+              "description": "Master DB patient id"
+            },
+            {
+              "key": "opt",
+              "value": "out",
+              "type": "text",
+              "description": "out → is_email_consent=0"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/patients/change_email_consent",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "patients",
+            "change_email_consent"
+          ]
+        },
+        "description": "## POST `/patients/change_email_consent`\n\nOpts the patient **out** of email consent (`opt=out` → `is_email_consent = 0`).\n\nSame auth and multi-branch behavior as opt-in. Any value other than `in` clears consent."
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "[\n  \"Email consent updated successfully.\"\n]"
+        },
+        {
+          "name": "Not Found",
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"error_messages\": [\n    \"No patients found.\"\n  ]\n}"
+        }
+      ]
+    }
+  ]
+}

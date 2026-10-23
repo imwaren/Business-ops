@@ -1,0 +1,259 @@
+{
+  "release": "receipt_batches_20261015_1825",
+  "servers": {
+    "VPS5": {
+      "uat": {
+        "manifest": {
+          "environment": "uat",
+          "files": {
+            "app/Models/Branch_item.php": {
+              "before": "db656491c5cfdb4023ed0492b177a7621df66cba9753ff743b28fc3f0a60aa07",
+              "release": "23bd57333a50732d1b3e17291de159a46d6893f215b9ce0988d72a6846d89542",
+              "local": "23bd57333a50732d1b3e17291de159a46d6893f215b9ce0988d72a6846d89542"
+            },
+            "app/Models/Branch_item_transfer.php": {
+              "before": "a49e2ad7861ec4172f3882055b1729cf705716268fdb365f2214642510380ccb",
+              "release": "c2deb8f86858306a95ac852243b97e8dc612f099224bbb9ba14a76c571a28850",
+              "local": "c2deb8f86858306a95ac852243b97e8dc612f099224bbb9ba14a76c571a28850"
+            },
+            "app/Models/Branch_item_transfer_item.php": {
+              "before": "2f5ce7bb6643364ef0db93c06aa1dd610d564e0ee970d8654330f8a0b1cde8aa",
+              "release": "d744c2fc4bed6d03a566f32853b7b3638cce62394a9af904e51e6ab03269a31a",
+              "local": "d744c2fc4bed6d03a566f32853b7b3638cce62394a9af904e51e6ab03269a31a"
+            },
+            "app/Models/Item_cost.php": {
+              "before": "1015b5c3f012f1ca9a57b30e5e22eac6dbe6f08a5ef0d151ffbd09becc78716b",
+              "release": "e72a16de91f3fb6a0b499f458c93598099fb0c74227bdab0eb3f1e48df70be7e",
+              "local": "e72a16de91f3fb6a0b499f458c93598099fb0c74227bdab0eb3f1e48df70be7e"
+            },
+            "app/Models/Receipt_note_item.php": {
+              "before": "807b4d0172494f17ad4a4208a5cb052d1cabf305991794ddea410a173de2ca10",
+              "release": "45e775aad628ed7d28f110c162897a43e43870638c0fff0ae0d4fe15eed3a762",
+              "local": "45e775aad628ed7d28f110c162897a43e43870638c0fff0ae0d4fe15eed3a762"
+            },
+            "app/Models/Receipt_note_item_expiry_date.php": {
+              "before": "37fe7ddc72271b8b17686f0edb0f7c8e12f5af5fa68ef1df5022b5bf7a311396",
+              "release": "bc44493c83787c8b4059020c01044bd84dbc30fee735572edc308c58f4ba635b",
+              "local": "bc44493c83787c8b4059020c01044bd84dbc30fee735572edc308c58f4ba635b"
+            },
+            "app/Controllers/Traits/Weighted_cost.php": {
+              "before": "d69bd0b9f5c2edc465d681b3f1c411239543bcc67df8b4c72212901acb2197a5",
+              "release": "836788e18e19d7cfa437b160fe49b0446b887c6b5f4839c24668f2560a1c6bde",
+              "local": "836788e18e19d7cfa437b160fe49b0446b887c6b5f4839c24668f2560a1c6bde"
+            },
+            "app/Controllers/Receipt_notes.php": {
+              "before": "8c6c0e0088a46a6a582be80a4922f2605552a3211fed698ec96c9f1dd8c8b82d",
+              "release": "d5db73afaefa3e5c62c37bceb0364156a04b160a547bc91fc94351d7fb02d582",
+              "local": "dacb55b7716eb9c716e6f700444627c8ca08b1a999617dfeb65c2db13813ffcf"
+            },
+            "app/Controllers/Items.php": {
+              "before": "dcfc294e1be11df847aa49ee74e00a3e4694b8175d0b0e4456632468d0ae8a8f",
+              "release": "592cc5ba0094680236dda8aaa52b34de1675e87412d1952fc55c44a64e8dd451",
+              "local": "592cc5ba0094680236dda8aaa52b34de1675e87412d1952fc55c44a64e8dd451"
+            }
+          },
+          "environment_preservation": [
+            "disabled receipt create attachments"
+          ],
+          "sql_sha256": "c1231d762d8a0a60c6c9e6a434735c66f628a091ee0f7bcd882758926d5b8b92"
+        },
+        "verified": {
+          "ok": true,
+          "checks": 108,
+          "receipt_sizes": {
+            "1": 10,
+            "2": 21,
+            "3": 2,
+            "4": 12,
+            "5": 7,
+            "6": 0,
+            "7": 0
+          },
+          "live_writes": 0,
+          "http_authentication": "not checked; no fresh credentials supplied"
+        },
+        "maintenance_original": {
+          "cron": "active"
+        },
+        "resumed": {
+          "routing": "restored",
+          "cron": "active"
+        },
+        "all_release_hashes_match": true,
+        "original_routing_restored": true,
+        "configuration_and_schedules_unchanged": true,
+        "backup": "/root/receipt_batches_20261015_1825/uat"
+      },
+      "prod": {
+        "manifest": {
+          "environment": "prod",
+          "files": {
+            "app/Models/Branch_item.php": {
+              "before": "db656491c5cfdb4023ed0492b177a7621df66cba9753ff743b28fc3f0a60aa07",
+              "release": "23bd57333a50732d1b3e17291de159a46d6893f215b9ce0988d72a6846d89542",
+              "local": "23bd57333a50732d1b3e17291de159a46d6893f215b9ce0988d72a6846d89542"
+            },
+            "app/Models/Branch_item_transfer.php": {
+              "before": "55c6c7c9d42845663dea6570735ef043d88c4a575d4ac73c8ac3231c671ceb4e",
+              "release": "7374f3b0728a474a215e93d8435b7b653c075f5495c049a7d7fe70a719af1033",
+              "local": "c2deb8f86858306a95ac852243b97e8dc612f099224bbb9ba14a76c571a28850"
+            },
+            "app/Models/Branch_item_transfer_item.php": {
+              "before": "1ff9face47b4f58d1dd17774fcb748c3c2368c18140930448aa6fdc2dd543bb6",
+              "release": "1dc04d97ff213953fc3c5464dae93d87202d50f141a524618bc20198a06d7608",
+              "local": "d744c2fc4bed6d03a566f32853b7b3638cce62394a9af904e51e6ab03269a31a"
+            },
+            "app/Models/Item_cost.php": {
+              "before": "1015b5c3f012f1ca9a57b30e5e22eac6dbe6f08a5ef0d151ffbd09becc78716b",
+              "release": "e72a16de91f3fb6a0b499f458c93598099fb0c74227bdab0eb3f1e48df70be7e",
+              "local": "e72a16de91f3fb6a0b499f458c93598099fb0c74227bdab0eb3f1e48df70be7e"
+            },
+            "app/Models/Receipt_note_item.php": {
+              "before": "2d2b9865962dcb498624238ccef7226c6db9adbb6f37d3afda73fb632277db55",
+              "release": "b534ed2c2940f7a6304bf7b82223a2cb5ed1286ce2607bf121318cec12547fd9",
+              "local": "45e775aad628ed7d28f110c162897a43e43870638c0fff0ae0d4fe15eed3a762"
+            },
+            "app/Models/Receipt_note_item_expiry_date.php": {
+              "before": "7233f85f50fcda5daf2917e8b9739a60ed6bfe6e780196950efd61652ff9f510",
+              "release": "cbc04a8dbb8085c6fb0710df93f40e22b047c64d01c38b380e820ed733670153",
+              "local": "bc44493c83787c8b4059020c01044bd84dbc30fee735572edc308c58f4ba635b"
+            },
+            "app/Controllers/Traits/Weighted_cost.php": {
+              "before": "d69bd0b9f5c2edc465d681b3f1c411239543bcc67df8b4c72212901acb2197a5",
+              "release": "836788e18e19d7cfa437b160fe49b0446b887c6b5f4839c24668f2560a1c6bde",
+              "local": "836788e18e19d7cfa437b160fe49b0446b887c6b5f4839c24668f2560a1c6bde"
+            },
+            "app/Controllers/Receipt_notes.php": {
+              "before": "33e08bc61f334b5126d679adefa21bf6d5c36056c147d65a3186851e76d85e8b",
+              "release": "71803158ba38e5f8f80faae39795f3870be3bfa950a8f4a9de3c7d0f0e0f5894",
+              "local": "dacb55b7716eb9c716e6f700444627c8ca08b1a999617dfeb65c2db13813ffcf"
+            },
+            "app/Controllers/Items.php": {
+              "before": "dcfc294e1be11df847aa49ee74e00a3e4694b8175d0b0e4456632468d0ae8a8f",
+              "release": "592cc5ba0094680236dda8aaa52b34de1675e87412d1952fc55c44a64e8dd451",
+              "local": "592cc5ba0094680236dda8aaa52b34de1675e87412d1952fc55c44a64e8dd451"
+            }
+          },
+          "environment_preservation": [
+            "existing model pagination",
+            "receipt attachments enabled"
+          ],
+          "sql_sha256": "c1231d762d8a0a60c6c9e6a434735c66f628a091ee0f7bcd882758926d5b8b92"
+        },
+        "verified": {
+          "ok": true,
+          "checks": 114,
+          "receipt_sizes": {
+            "1": 10,
+            "2": 18,
+            "3": 0,
+            "4": 6,
+            "5": 1,
+            "6": 0,
+            "7": 0
+          },
+          "live_writes": 0,
+          "http_authentication": "not checked; no fresh credentials supplied"
+        },
+        "maintenance_original": {
+          "cron": "active"
+        },
+        "resumed": {
+          "routing": "restored",
+          "cron": "active"
+        },
+        "all_release_hashes_match": true,
+        "original_routing_restored": true,
+        "configuration_and_schedules_unchanged": true,
+        "backup": "/root/receipt_batches_20261015_1825/prod"
+      },
+      "service_states": {
+        "cron": "active",
+        "php8.2-fpm": "active",
+        "php8.3-fpm": "active"
+      }
+    },
+    "VPS6": {
+      "uat": {
+        "schemas": [
+          "mytemr_master_uat",
+          "mytemr_diagnostic_mobile_uat",
+          "mytemr_diagnostic_uat",
+          "mytemr_diagnostic_mactan_uat",
+          "mytemr_diagnostic_conso_uat",
+          "mytemr_oakridge_warehouse_uat",
+          "mytemr_oakridge_pharmacy_uat",
+          "mytemr_diagnostic_mantlewood_uat"
+        ],
+        "tables": 105,
+        "rows": 954101,
+        "historical_fingerprints_unchanged": true,
+        "fingerprint_manifest_sha256": "8bb031d132ee3f1aa9c4026bb0f2e9a561e0553fb38a03615322068b2d43e6bb",
+        "routine_trigger_fingerprints_unchanged": true,
+        "maintenance_original": {
+          "read_only": 0,
+          "event_scheduler": "OFF",
+          "cron": "active"
+        },
+        "resumed": {
+          "read_only": 0,
+          "event_scheduler": "OFF",
+          "cron": "active"
+        },
+        "backup": "/root/receipt_batches_20261015_1825/uat"
+      },
+      "prod": {
+        "schemas": [
+          "mytemr_master",
+          "mytemr_diagnostic_mobile",
+          "mytemr_diagnostic",
+          "mytemr_diagnostic_mactan",
+          "mytemr_diagnostic_conso",
+          "mytemr_oakridge_warehouse",
+          "mytemr_oakridge_pharmacy",
+          "mytemr_diagnostic_mantlewood"
+        ],
+        "tables": 105,
+        "rows": 3630582,
+        "historical_fingerprints_unchanged": true,
+        "fingerprint_manifest_sha256": "e9646c185d1e32b8f5d51b9010349f7990b8451257d6ed20ebe6d5b5a90fdd80",
+        "routine_trigger_fingerprints_unchanged": true,
+        "maintenance_original": {
+          "read_only": 0,
+          "event_scheduler": "OFF",
+          "cron": "active"
+        },
+        "resumed": {
+          "read_only": 0,
+          "event_scheduler": "OFF",
+          "cron": "active"
+        },
+        "backup": "/root/receipt_batches_20261015_1825/prod"
+      },
+      "service_states": {
+        "read_only": 0,
+        "event_scheduler": "OFF",
+        "cron": "active"
+      }
+    }
+  },
+  "tests": {
+    "phpunit_tests": 34,
+    "phpunit_assertions": 232,
+    "blindsheet_checks": 462,
+    "migration_repeatability": "passed in fixtures and twice in all 16 live schemas"
+  },
+  "postman": {
+    "path": "docs/postman/Receipt_notes_transfers.postman_collection.json",
+    "sha256": "a90133f10aaf50626d4fffce387b6ad440306ea311f783b7ce42607ade0ce19a",
+    "requests": 15,
+    "illustrative_responses": 44
+  },
+  "boundaries": {
+    "live_business_test_writes": 0,
+    "historical_backfill": false,
+    "accounting_rebuild": false,
+    "authenticated_http_checks": "not performed; no fresh credentials supplied",
+    "application_credential_queries": "passed"
+  }
+}

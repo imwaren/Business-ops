@@ -1,0 +1,2328 @@
+{
+  "info": {
+    "_postman_id": "866e564d-c25c-40de-9b59-1606b34a5e73",
+    "name": "Items - Blindsheet inventory workflows",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "# Items blindsheet API\n\nImport this Postman Collection v2.1. Saved responses are illustrative examples, not captured live data. No scripts automatically submit, approve, or retry counts.\n\n## Environments and authentication\nUAT: https://zuat-accounting-back.myt-emr.com\nProduction: https://accounting-back.myt-emr.com\nSet base_url; API-KEY uses your existing ordinary configured API key. Credentials are intentionally blank.\nFor CSR, origin=csr is a payload/query parameter (not the HTTP Origin header). Supply the selected branch's active user ID as requester and that user's unexpired token. CSR access is restricted to items/get, get_blindsheet, blindsheet, and blindsheet_change_status. Invalid local credentials do not fall back to master.\nFor ordinary accounting callers, clear origin and supply your master requester/token; existing permissions apply. Audit source is branch_id for CSR and 0 for master users; legacy null sources produce null names.\nBranches: 1 Mobile, 2 Oakridge, 3 Mactan, 4 Consolacion, 5 Warehouse, 6 Pharmacy, 7 Mantlewood. Branch 0 is not selectable. Warehouse/Pharmacy retain inventory-only accounting behavior.\n\n## GET /items/get_blindsheet\nRequired branch_id. Optional blindsheet_id, item_id, branch_item_id, status (pending/approved/disapproved), page and data_size. Returns {size,data}; size is the full filtered count. No matches return HTTP 404. A branch is the inventory owner; the corresponding schema is used for reads. The same stored ID is mirrored to master and all seven inventory schemas.\nData includes all stored fields, item_name, department_name and audit names resolved from recorded audit-source databases.\n\n## POST /items/blindsheet\nUse Body > form-data; do not manually set Content-Type, since Postman generates its boundary. Require branch_id, branch_item_id, item_id, physical_count, prev_qty, date_counted, requester and token. prev_qty must match the current branch inventory. Quantities are non-negative DECIMAL(13,2), with at most two decimals. date_counted is a real YYYY-MM-DD date. Server derives difference=physical_count-prev_qty; an optional supplied difference must match. Optional department_id, counted_by_id (up to 255 characters), and remarks. Zero differences are valid.\nCreates pending count only; stock is unchanged. Another active pending count for the branch item is rejected. Existing item/branch-item links must be valid in all mirrors.\n\n## POST /items/blindsheet_change_status\nRequire branch_id, blindsheet_id and status=approved or disapproved. Only pending records can transition. Approval rechecks current stock against saved prev_qty, then sets physical stock, writes inventory history and applies existing purchase-unit weighted-cost rules for nonzero changes. Clinic GL/JE is generated only in the source clinic. Zero approvals record audit/status without quantity history, cost trails, or GL/JE. Disapproval changes status only. No status reset/repeated approval is allowed.\n\n## Errors and recovery\nHTTP 400: missing/invalid fields, wrong links, inconsistent difference, duplicate pending counts, stale stock, terminal status, schema/readiness or mirror failures. HTTP 401: invalid API key, requester/token, expired/deleted local user, or permission denial. HTTP 404: no list results or missing status-change record.\nA late mirror or outer commit failure may leave earlier mirror writes committed, matching adjustment. Do not blindly retry a failed write: inspect and reconcile mirrors first. No automatic retry is provided.\n\nExamples show dummy IDs. Replace IDs and stock quantities with actual records before intentional use. Deployment verification does not execute these POST requests.\n"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "https://zuat-accounting-back.myt-emr.com"
+    },
+    {
+      "key": "api_key",
+      "value": ""
+    },
+    {
+      "key": "token",
+      "value": ""
+    },
+    {
+      "key": "requester",
+      "value": ""
+    },
+    {
+      "key": "origin",
+      "value": "csr"
+    },
+    {
+      "key": "branch_id",
+      "value": "2"
+    },
+    {
+      "key": "blindsheet_id",
+      "value": ""
+    },
+    {
+      "key": "item_id",
+      "value": ""
+    },
+    {
+      "key": "branch_item_id",
+      "value": ""
+    },
+    {
+      "key": "department_id",
+      "value": ""
+    },
+    {
+      "key": "physical_count",
+      "value": "12.00"
+    },
+    {
+      "key": "prev_qty",
+      "value": "12.00"
+    },
+    {
+      "key": "date_counted",
+      "value": "2026-10-13"
+    },
+    {
+      "key": "counted_by_id",
+      "value": ""
+    },
+    {
+      "key": "remarks",
+      "value": "Physical stock count"
+    },
+    {
+      "key": "page",
+      "value": "1"
+    },
+    {
+      "key": "data_size",
+      "value": "10"
+    },
+    {
+      "key": "status",
+      "value": "pending"
+    }
+  ],
+  "item": [
+    {
+      "name": "List blindsheets",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "description": "Enable only needed optional filters; credentials must match the chosen authentication source.",
+        "url": {
+          "raw": "{{base_url}}/items/get_blindsheet?token={{token}}&requester={{requester}}&origin={{origin}}&branch_id={{branch_id}}&page={{page}}&data_size={{data_size}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "items",
+            "get_blindsheet"
+          ],
+          "query": [
+            {
+              "key": "token",
+              "value": "{{token}}"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}"
+            },
+            {
+              "key": "origin",
+              "value": "{{origin}}"
+            },
+            {
+              "key": "branch_id",
+              "value": "{{branch_id}}"
+            },
+            {
+              "key": "page",
+              "value": "{{page}}"
+            },
+            {
+              "key": "data_size",
+              "value": "{{data_size}}"
+            },
+            {
+              "key": "status",
+              "value": "{{status}}",
+              "disabled": true
+            },
+            {
+              "key": "item_id",
+              "value": "{{item_id}}",
+              "disabled": true
+            },
+            {
+              "key": "branch_item_id",
+              "value": "{{branch_item_id}}",
+              "disabled": true
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "List (illustrative)",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "description": "Enable only needed optional filters; credentials must match the chosen authentication source.",
+            "url": {
+              "raw": "{{base_url}}/items/get_blindsheet?token={{token}}&requester={{requester}}&origin={{origin}}&branch_id={{branch_id}}&page={{page}}&data_size={{data_size}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "items",
+                "get_blindsheet"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}"
+                },
+                {
+                  "key": "origin",
+                  "value": "{{origin}}"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}"
+                },
+                {
+                  "key": "page",
+                  "value": "{{page}}"
+                },
+                {
+                  "key": "data_size",
+                  "value": "{{data_size}}"
+                },
+                {
+                  "key": "status",
+                  "value": "{{status}}",
+                  "disabled": true
+                },
+                {
+                  "key": "item_id",
+                  "value": "{{item_id}}",
+                  "disabled": true
+                },
+                {
+                  "key": "branch_item_id",
+                  "value": "{{branch_item_id}}",
+                  "disabled": true
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"size\": 1,\n  \"data\": [\n    {\n      \"id\": \"123\",\n      \"branch_item_id\": \"456\",\n      \"branch_id\": \"2\",\n      \"department_id\": null,\n      \"item_id\": \"789\",\n      \"counted_by_id\": \"67\",\n      \"physical_count\": \"12.50\",\n      \"difference\": \"2.50\",\n      \"prev_qty\": \"10.00\",\n      \"date_counted\": \"2026-10-13\",\n      \"remarks\": \"Physical stock count\",\n      \"status\": \"pending\",\n      \"approved_by\": null,\n      \"approved_on\": null,\n      \"disapproved_by\": null,\n      \"disapproved_on\": null,\n      \"added_by\": \"67\",\n      \"added_on\": \"2026-10-13 10:00:00\",\n      \"updated_by\": null,\n      \"updated_on\": null,\n      \"is_deleted\": \"0\",\n      \"added_by_branch_id\": \"2\",\n      \"updated_by_branch_id\": null,\n      \"approved_by_branch_id\": null,\n      \"disapproved_by_branch_id\": null,\n      \"item_name\": \"Example inventory item\",\n      \"department_name\": null,\n      \"added_by_name\": \"Example Counter\",\n      \"updated_by_name\": null,\n      \"approved_by_name\": null,\n      \"disapproved_by_name\": null\n    }\n  ]\n}"
+        },
+        {
+          "name": "Empty (illustrative)",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "description": "Enable only needed optional filters; credentials must match the chosen authentication source.",
+            "url": {
+              "raw": "{{base_url}}/items/get_blindsheet?token={{token}}&requester={{requester}}&origin={{origin}}&branch_id={{branch_id}}&page={{page}}&data_size={{data_size}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "items",
+                "get_blindsheet"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}"
+                },
+                {
+                  "key": "origin",
+                  "value": "{{origin}}"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}"
+                },
+                {
+                  "key": "page",
+                  "value": "{{page}}"
+                },
+                {
+                  "key": "data_size",
+                  "value": "{{data_size}}"
+                },
+                {
+                  "key": "status",
+                  "value": "{{status}}",
+                  "disabled": true
+                },
+                {
+                  "key": "item_id",
+                  "value": "{{item_id}}",
+                  "disabled": true
+                },
+                {
+                  "key": "branch_item_id",
+                  "value": "{{branch_item_id}}",
+                  "disabled": true
+                }
+              ]
+            }
+          },
+          "status": "Not Found",
+          "code": 404,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": 404,\n  \"error\": 404,\n  \"messages\": {\n    \"error_messages\": [\n      \"No blindsheets found.\"\n    ]\n  }\n}"
+        },
+        {
+          "name": "Invalid branch (illustrative)",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "description": "Enable only needed optional filters; credentials must match the chosen authentication source.",
+            "url": {
+              "raw": "{{base_url}}/items/get_blindsheet?token={{token}}&requester={{requester}}&origin={{origin}}&branch_id={{branch_id}}&page={{page}}&data_size={{data_size}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "items",
+                "get_blindsheet"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}"
+                },
+                {
+                  "key": "origin",
+                  "value": "{{origin}}"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}"
+                },
+                {
+                  "key": "page",
+                  "value": "{{page}}"
+                },
+                {
+                  "key": "data_size",
+                  "value": "{{data_size}}"
+                },
+                {
+                  "key": "status",
+                  "value": "{{status}}",
+                  "disabled": true
+                },
+                {
+                  "key": "item_id",
+                  "value": "{{item_id}}",
+                  "disabled": true
+                },
+                {
+                  "key": "branch_item_id",
+                  "value": "{{branch_item_id}}",
+                  "disabled": true
+                }
+              ]
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"Invalid Branch ID.\"\n    ]\n  }\n}"
+        },
+        {
+          "name": "Invalid token (illustrative)",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "description": "Enable only needed optional filters; credentials must match the chosen authentication source.",
+            "url": {
+              "raw": "{{base_url}}/items/get_blindsheet?token={{token}}&requester={{requester}}&origin={{origin}}&branch_id={{branch_id}}&page={{page}}&data_size={{data_size}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "items",
+                "get_blindsheet"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}"
+                },
+                {
+                  "key": "origin",
+                  "value": "{{origin}}"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}"
+                },
+                {
+                  "key": "page",
+                  "value": "{{page}}"
+                },
+                {
+                  "key": "data_size",
+                  "value": "{{data_size}}"
+                },
+                {
+                  "key": "status",
+                  "value": "{{status}}",
+                  "disabled": true
+                },
+                {
+                  "key": "item_id",
+                  "value": "{{item_id}}",
+                  "disabled": true
+                },
+                {
+                  "key": "branch_item_id",
+                  "value": "{{branch_item_id}}",
+                  "disabled": true
+                }
+              ]
+            }
+          },
+          "status": "Unauthorized",
+          "code": 401,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": 401,\n  \"error\": 401,\n  \"messages\": {\n    \"error_messages\": {\n      \"message\": \"Invalid Requester or Auth token.\"\n    }\n  }\n}"
+        }
+      ]
+    },
+    {
+      "name": "Get one blindsheet",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "description": "Set blindsheet_id to an existing ID.",
+        "url": {
+          "raw": "{{base_url}}/items/get_blindsheet?token={{token}}&requester={{requester}}&origin={{origin}}&branch_id={{branch_id}}&blindsheet_id={{blindsheet_id}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "items",
+            "get_blindsheet"
+          ],
+          "query": [
+            {
+              "key": "token",
+              "value": "{{token}}"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}"
+            },
+            {
+              "key": "origin",
+              "value": "{{origin}}"
+            },
+            {
+              "key": "branch_id",
+              "value": "{{branch_id}}"
+            },
+            {
+              "key": "blindsheet_id",
+              "value": "{{blindsheet_id}}"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Detail (illustrative)",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "description": "Set blindsheet_id to an existing ID.",
+            "url": {
+              "raw": "{{base_url}}/items/get_blindsheet?token={{token}}&requester={{requester}}&origin={{origin}}&branch_id={{branch_id}}&blindsheet_id={{blindsheet_id}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "items",
+                "get_blindsheet"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}"
+                },
+                {
+                  "key": "origin",
+                  "value": "{{origin}}"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}"
+                },
+                {
+                  "key": "blindsheet_id",
+                  "value": "{{blindsheet_id}}"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"size\": 1,\n  \"data\": [\n    {\n      \"id\": \"123\",\n      \"branch_item_id\": \"456\",\n      \"branch_id\": \"2\",\n      \"department_id\": null,\n      \"item_id\": \"789\",\n      \"counted_by_id\": \"67\",\n      \"physical_count\": \"12.50\",\n      \"difference\": \"2.50\",\n      \"prev_qty\": \"10.00\",\n      \"date_counted\": \"2026-10-13\",\n      \"remarks\": \"Physical stock count\",\n      \"status\": \"pending\",\n      \"approved_by\": null,\n      \"approved_on\": null,\n      \"disapproved_by\": null,\n      \"disapproved_on\": null,\n      \"added_by\": \"67\",\n      \"added_on\": \"2026-10-13 10:00:00\",\n      \"updated_by\": null,\n      \"updated_on\": null,\n      \"is_deleted\": \"0\",\n      \"added_by_branch_id\": \"2\",\n      \"updated_by_branch_id\": null,\n      \"approved_by_branch_id\": null,\n      \"disapproved_by_branch_id\": null,\n      \"item_name\": \"Example inventory item\",\n      \"department_name\": null,\n      \"added_by_name\": \"Example Counter\",\n      \"updated_by_name\": null,\n      \"approved_by_name\": null,\n      \"disapproved_by_name\": null\n    }\n  ]\n}"
+        }
+      ]
+    },
+    {
+      "name": "Submit count (zero difference allowed)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "description": "Default quantities illustrate a zero count difference. Update prev_qty from actual stock; no stock changes until approval.",
+        "url": {
+          "raw": "{{base_url}}/items/blindsheet",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "items",
+            "blindsheet"
+          ]
+        },
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "token",
+              "value": "{{token}}",
+              "type": "text"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}",
+              "type": "text"
+            },
+            {
+              "key": "origin",
+              "value": "{{origin}}",
+              "type": "text"
+            },
+            {
+              "key": "branch_id",
+              "value": "{{branch_id}}",
+              "type": "text"
+            },
+            {
+              "key": "branch_item_id",
+              "value": "{{branch_item_id}}",
+              "type": "text"
+            },
+            {
+              "key": "item_id",
+              "value": "{{item_id}}",
+              "type": "text"
+            },
+            {
+              "key": "physical_count",
+              "value": "{{physical_count}}",
+              "type": "text"
+            },
+            {
+              "key": "prev_qty",
+              "value": "{{prev_qty}}",
+              "type": "text"
+            },
+            {
+              "key": "date_counted",
+              "value": "{{date_counted}}",
+              "type": "text"
+            },
+            {
+              "key": "department_id",
+              "value": "{{department_id}}",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "counted_by_id",
+              "value": "{{counted_by_id}}",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "remarks",
+              "value": "{{remarks}}",
+              "type": "text"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Pending count (illustrative)",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "description": "Default quantities illustrate a zero count difference. Update prev_qty from actual stock; no stock changes until approval.",
+            "url": {
+              "raw": "{{base_url}}/items/blindsheet",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "items",
+                "blindsheet"
+              ]
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "origin",
+                  "value": "{{origin}}",
+                  "type": "text"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "branch_item_id",
+                  "value": "{{branch_item_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "item_id",
+                  "value": "{{item_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "physical_count",
+                  "value": "{{physical_count}}",
+                  "type": "text"
+                },
+                {
+                  "key": "prev_qty",
+                  "value": "{{prev_qty}}",
+                  "type": "text"
+                },
+                {
+                  "key": "date_counted",
+                  "value": "{{date_counted}}",
+                  "type": "text"
+                },
+                {
+                  "key": "department_id",
+                  "value": "{{department_id}}",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "counted_by_id",
+                  "value": "{{counted_by_id}}",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "remarks",
+                  "value": "{{remarks}}",
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"blindsheet_id\": 123,\n  \"item_id\": 789,\n  \"message\": \"Branch item blindsheet added for approval successfully.\"\n}"
+        },
+        {
+          "name": "Missing fields (illustrative)",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "description": "Default quantities illustrate a zero count difference. Update prev_qty from actual stock; no stock changes until approval.",
+            "url": {
+              "raw": "{{base_url}}/items/blindsheet",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "items",
+                "blindsheet"
+              ]
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "origin",
+                  "value": "{{origin}}",
+                  "type": "text"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "branch_item_id",
+                  "value": "{{branch_item_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "item_id",
+                  "value": "{{item_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "physical_count",
+                  "value": "{{physical_count}}",
+                  "type": "text"
+                },
+                {
+                  "key": "prev_qty",
+                  "value": "{{prev_qty}}",
+                  "type": "text"
+                },
+                {
+                  "key": "date_counted",
+                  "value": "{{date_counted}}",
+                  "type": "text"
+                },
+                {
+                  "key": "department_id",
+                  "value": "{{department_id}}",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "counted_by_id",
+                  "value": "{{counted_by_id}}",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "remarks",
+                  "value": "{{remarks}}",
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"branch_item_id, branch_id and item_id are required.\"\n    ]\n  }\n}"
+        },
+        {
+          "name": "Pending duplicate (illustrative)",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "description": "Default quantities illustrate a zero count difference. Update prev_qty from actual stock; no stock changes until approval.",
+            "url": {
+              "raw": "{{base_url}}/items/blindsheet",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "items",
+                "blindsheet"
+              ]
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "origin",
+                  "value": "{{origin}}",
+                  "type": "text"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "branch_item_id",
+                  "value": "{{branch_item_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "item_id",
+                  "value": "{{item_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "physical_count",
+                  "value": "{{physical_count}}",
+                  "type": "text"
+                },
+                {
+                  "key": "prev_qty",
+                  "value": "{{prev_qty}}",
+                  "type": "text"
+                },
+                {
+                  "key": "date_counted",
+                  "value": "{{date_counted}}",
+                  "type": "text"
+                },
+                {
+                  "key": "department_id",
+                  "value": "{{department_id}}",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "counted_by_id",
+                  "value": "{{counted_by_id}}",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "remarks",
+                  "value": "{{remarks}}",
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"There is already a pending blindsheet for this branch item.\"\n    ]\n  }\n}"
+        },
+        {
+          "name": "Stale submission (illustrative)",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "description": "Default quantities illustrate a zero count difference. Update prev_qty from actual stock; no stock changes until approval.",
+            "url": {
+              "raw": "{{base_url}}/items/blindsheet",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "items",
+                "blindsheet"
+              ]
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "origin",
+                  "value": "{{origin}}",
+                  "type": "text"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "branch_item_id",
+                  "value": "{{branch_item_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "item_id",
+                  "value": "{{item_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "physical_count",
+                  "value": "{{physical_count}}",
+                  "type": "text"
+                },
+                {
+                  "key": "prev_qty",
+                  "value": "{{prev_qty}}",
+                  "type": "text"
+                },
+                {
+                  "key": "date_counted",
+                  "value": "{{date_counted}}",
+                  "type": "text"
+                },
+                {
+                  "key": "department_id",
+                  "value": "{{department_id}}",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "counted_by_id",
+                  "value": "{{counted_by_id}}",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "remarks",
+                  "value": "{{remarks}}",
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"Inventory changed. Please submit a fresh physical count.\"\n    ]\n  }\n}"
+        },
+        {
+          "name": "Invalid date (illustrative)",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "description": "Default quantities illustrate a zero count difference. Update prev_qty from actual stock; no stock changes until approval.",
+            "url": {
+              "raw": "{{base_url}}/items/blindsheet",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "items",
+                "blindsheet"
+              ]
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "origin",
+                  "value": "{{origin}}",
+                  "type": "text"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "branch_item_id",
+                  "value": "{{branch_item_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "item_id",
+                  "value": "{{item_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "physical_count",
+                  "value": "{{physical_count}}",
+                  "type": "text"
+                },
+                {
+                  "key": "prev_qty",
+                  "value": "{{prev_qty}}",
+                  "type": "text"
+                },
+                {
+                  "key": "date_counted",
+                  "value": "{{date_counted}}",
+                  "type": "text"
+                },
+                {
+                  "key": "department_id",
+                  "value": "{{department_id}}",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "counted_by_id",
+                  "value": "{{counted_by_id}}",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "remarks",
+                  "value": "{{remarks}}",
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"date_counted must be a real YYYY-MM-DD date.\"\n    ]\n  }\n}"
+        },
+        {
+          "name": "Wrong difference (illustrative)",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "description": "Default quantities illustrate a zero count difference. Update prev_qty from actual stock; no stock changes until approval.",
+            "url": {
+              "raw": "{{base_url}}/items/blindsheet",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "items",
+                "blindsheet"
+              ]
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "origin",
+                  "value": "{{origin}}",
+                  "type": "text"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "branch_item_id",
+                  "value": "{{branch_item_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "item_id",
+                  "value": "{{item_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "physical_count",
+                  "value": "{{physical_count}}",
+                  "type": "text"
+                },
+                {
+                  "key": "prev_qty",
+                  "value": "{{prev_qty}}",
+                  "type": "text"
+                },
+                {
+                  "key": "date_counted",
+                  "value": "{{date_counted}}",
+                  "type": "text"
+                },
+                {
+                  "key": "department_id",
+                  "value": "{{department_id}}",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "counted_by_id",
+                  "value": "{{counted_by_id}}",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "remarks",
+                  "value": "{{remarks}}",
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"difference must equal physical_count minus prev_qty.\"\n    ]\n  }\n}"
+        }
+      ]
+    },
+    {
+      "name": "Submit fractional increase",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "description": "Illustrative values; replace actual IDs and prev_qty before intentional submission.",
+        "url": {
+          "raw": "{{base_url}}/items/blindsheet",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "items",
+            "blindsheet"
+          ]
+        },
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "token",
+              "value": "{{token}}",
+              "type": "text"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}",
+              "type": "text"
+            },
+            {
+              "key": "origin",
+              "value": "{{origin}}",
+              "type": "text"
+            },
+            {
+              "key": "branch_id",
+              "value": "{{branch_id}}",
+              "type": "text"
+            },
+            {
+              "key": "branch_item_id",
+              "value": "{{branch_item_id}}",
+              "type": "text"
+            },
+            {
+              "key": "item_id",
+              "value": "{{item_id}}",
+              "type": "text"
+            },
+            {
+              "key": "physical_count",
+              "value": "12.50",
+              "type": "text"
+            },
+            {
+              "key": "prev_qty",
+              "value": "10.00",
+              "type": "text"
+            },
+            {
+              "key": "date_counted",
+              "value": "{{date_counted}}",
+              "type": "text"
+            },
+            {
+              "key": "department_id",
+              "value": "{{department_id}}",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "counted_by_id",
+              "value": "{{counted_by_id}}",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "remarks",
+              "value": "{{remarks}}",
+              "type": "text"
+            },
+            {
+              "key": "difference",
+              "value": "2.50",
+              "type": "text"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Pending fractional increase (illustrative)",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "description": "Illustrative values; replace actual IDs and prev_qty before intentional submission.",
+            "url": {
+              "raw": "{{base_url}}/items/blindsheet",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "items",
+                "blindsheet"
+              ]
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "origin",
+                  "value": "{{origin}}",
+                  "type": "text"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "branch_item_id",
+                  "value": "{{branch_item_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "item_id",
+                  "value": "{{item_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "physical_count",
+                  "value": "12.50",
+                  "type": "text"
+                },
+                {
+                  "key": "prev_qty",
+                  "value": "10.00",
+                  "type": "text"
+                },
+                {
+                  "key": "date_counted",
+                  "value": "{{date_counted}}",
+                  "type": "text"
+                },
+                {
+                  "key": "department_id",
+                  "value": "{{department_id}}",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "counted_by_id",
+                  "value": "{{counted_by_id}}",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "remarks",
+                  "value": "{{remarks}}",
+                  "type": "text"
+                },
+                {
+                  "key": "difference",
+                  "value": "2.50",
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"blindsheet_id\": 123,\n  \"item_id\": 789,\n  \"message\": \"Branch item blindsheet added for approval successfully.\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Submit fractional decrease",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "description": "Illustrative values; replace actual IDs and prev_qty before intentional submission.",
+        "url": {
+          "raw": "{{base_url}}/items/blindsheet",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "items",
+            "blindsheet"
+          ]
+        },
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "token",
+              "value": "{{token}}",
+              "type": "text"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}",
+              "type": "text"
+            },
+            {
+              "key": "origin",
+              "value": "{{origin}}",
+              "type": "text"
+            },
+            {
+              "key": "branch_id",
+              "value": "{{branch_id}}",
+              "type": "text"
+            },
+            {
+              "key": "branch_item_id",
+              "value": "{{branch_item_id}}",
+              "type": "text"
+            },
+            {
+              "key": "item_id",
+              "value": "{{item_id}}",
+              "type": "text"
+            },
+            {
+              "key": "physical_count",
+              "value": "11.25",
+              "type": "text"
+            },
+            {
+              "key": "prev_qty",
+              "value": "12.50",
+              "type": "text"
+            },
+            {
+              "key": "date_counted",
+              "value": "{{date_counted}}",
+              "type": "text"
+            },
+            {
+              "key": "department_id",
+              "value": "{{department_id}}",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "counted_by_id",
+              "value": "{{counted_by_id}}",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "remarks",
+              "value": "{{remarks}}",
+              "type": "text"
+            },
+            {
+              "key": "difference",
+              "value": "-1.25",
+              "type": "text"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Pending fractional decrease (illustrative)",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "description": "Illustrative values; replace actual IDs and prev_qty before intentional submission.",
+            "url": {
+              "raw": "{{base_url}}/items/blindsheet",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "items",
+                "blindsheet"
+              ]
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "origin",
+                  "value": "{{origin}}",
+                  "type": "text"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "branch_item_id",
+                  "value": "{{branch_item_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "item_id",
+                  "value": "{{item_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "physical_count",
+                  "value": "11.25",
+                  "type": "text"
+                },
+                {
+                  "key": "prev_qty",
+                  "value": "12.50",
+                  "type": "text"
+                },
+                {
+                  "key": "date_counted",
+                  "value": "{{date_counted}}",
+                  "type": "text"
+                },
+                {
+                  "key": "department_id",
+                  "value": "{{department_id}}",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "counted_by_id",
+                  "value": "{{counted_by_id}}",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "remarks",
+                  "value": "{{remarks}}",
+                  "type": "text"
+                },
+                {
+                  "key": "difference",
+                  "value": "-1.25",
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"blindsheet_id\": 123,\n  \"item_id\": 789,\n  \"message\": \"Branch item blindsheet added for approval successfully.\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Approve count",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "description": "Only pending records can transition. Approval rejects changed inventory; disapproval does not change stock.",
+        "url": {
+          "raw": "{{base_url}}/items/blindsheet_change_status",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "items",
+            "blindsheet_change_status"
+          ]
+        },
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "token",
+              "value": "{{token}}",
+              "type": "text"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}",
+              "type": "text"
+            },
+            {
+              "key": "origin",
+              "value": "{{origin}}",
+              "type": "text"
+            },
+            {
+              "key": "branch_id",
+              "value": "{{branch_id}}",
+              "type": "text"
+            },
+            {
+              "key": "blindsheet_id",
+              "value": "{{blindsheet_id}}",
+              "type": "text"
+            },
+            {
+              "key": "status",
+              "value": "approved",
+              "type": "text"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Status changed (illustrative)",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "description": "Only pending records can transition. Approval rejects changed inventory; disapproval does not change stock.",
+            "url": {
+              "raw": "{{base_url}}/items/blindsheet_change_status",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "items",
+                "blindsheet_change_status"
+              ]
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "origin",
+                  "value": "{{origin}}",
+                  "type": "text"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "blindsheet_id",
+                  "value": "{{blindsheet_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "status",
+                  "value": "approved",
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"blindsheet_id\": 123,\n  \"message\": \"Item blindsheet status changed successfully.\"\n}"
+        },
+        {
+          "name": "Terminal status (illustrative)",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "description": "Only pending records can transition. Approval rejects changed inventory; disapproval does not change stock.",
+            "url": {
+              "raw": "{{base_url}}/items/blindsheet_change_status",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "items",
+                "blindsheet_change_status"
+              ]
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "origin",
+                  "value": "{{origin}}",
+                  "type": "text"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "blindsheet_id",
+                  "value": "{{blindsheet_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "status",
+                  "value": "approved",
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"Only pending blindsheets can change status.\"\n    ]\n  }\n}"
+        },
+        {
+          "name": "Not found (illustrative)",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "description": "Only pending records can transition. Approval rejects changed inventory; disapproval does not change stock.",
+            "url": {
+              "raw": "{{base_url}}/items/blindsheet_change_status",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "items",
+                "blindsheet_change_status"
+              ]
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "origin",
+                  "value": "{{origin}}",
+                  "type": "text"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "blindsheet_id",
+                  "value": "{{blindsheet_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "status",
+                  "value": "approved",
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "status": "Not Found",
+          "code": 404,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": 404,\n  \"error\": 404,\n  \"messages\": {\n    \"error_messages\": [\n      \"Branch item blindsheet is not found in every inventory mirror.\"\n    ]\n  }\n}"
+        },
+        {
+          "name": "Stale approval (illustrative)",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "description": "Only pending records can transition. Approval rejects changed inventory; disapproval does not change stock.",
+            "url": {
+              "raw": "{{base_url}}/items/blindsheet_change_status",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "items",
+                "blindsheet_change_status"
+              ]
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "origin",
+                  "value": "{{origin}}",
+                  "type": "text"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "blindsheet_id",
+                  "value": "{{blindsheet_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "status",
+                  "value": "approved",
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"Inventory changed. Disapprove this blindsheet and submit a fresh physical count.\"\n    ]\n  }\n}"
+        }
+      ]
+    },
+    {
+      "name": "Disapprove count",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "description": "Only pending records can transition. Approval rejects changed inventory; disapproval does not change stock.",
+        "url": {
+          "raw": "{{base_url}}/items/blindsheet_change_status",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "items",
+            "blindsheet_change_status"
+          ]
+        },
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "token",
+              "value": "{{token}}",
+              "type": "text"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}",
+              "type": "text"
+            },
+            {
+              "key": "origin",
+              "value": "{{origin}}",
+              "type": "text"
+            },
+            {
+              "key": "branch_id",
+              "value": "{{branch_id}}",
+              "type": "text"
+            },
+            {
+              "key": "blindsheet_id",
+              "value": "{{blindsheet_id}}",
+              "type": "text"
+            },
+            {
+              "key": "status",
+              "value": "disapproved",
+              "type": "text"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Status changed (illustrative)",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "description": "Only pending records can transition. Approval rejects changed inventory; disapproval does not change stock.",
+            "url": {
+              "raw": "{{base_url}}/items/blindsheet_change_status",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "items",
+                "blindsheet_change_status"
+              ]
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "origin",
+                  "value": "{{origin}}",
+                  "type": "text"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "blindsheet_id",
+                  "value": "{{blindsheet_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "status",
+                  "value": "disapproved",
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"blindsheet_id\": 123,\n  \"message\": \"Item blindsheet status changed successfully.\"\n}"
+        },
+        {
+          "name": "Terminal status (illustrative)",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "description": "Only pending records can transition. Approval rejects changed inventory; disapproval does not change stock.",
+            "url": {
+              "raw": "{{base_url}}/items/blindsheet_change_status",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "items",
+                "blindsheet_change_status"
+              ]
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "origin",
+                  "value": "{{origin}}",
+                  "type": "text"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "blindsheet_id",
+                  "value": "{{blindsheet_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "status",
+                  "value": "disapproved",
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"Only pending blindsheets can change status.\"\n    ]\n  }\n}"
+        },
+        {
+          "name": "Not found (illustrative)",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "description": "Only pending records can transition. Approval rejects changed inventory; disapproval does not change stock.",
+            "url": {
+              "raw": "{{base_url}}/items/blindsheet_change_status",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "items",
+                "blindsheet_change_status"
+              ]
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "origin",
+                  "value": "{{origin}}",
+                  "type": "text"
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "blindsheet_id",
+                  "value": "{{blindsheet_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "status",
+                  "value": "disapproved",
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "status": "Not Found",
+          "code": 404,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": 404,\n  \"error\": 404,\n  \"messages\": {\n    \"error_messages\": [\n      \"Branch item blindsheet is not found in every inventory mirror.\"\n    ]\n  }\n}"
+        }
+      ]
+    }
+  ]
+}

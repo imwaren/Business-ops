@@ -1,0 +1,19 @@
+schema	kind	record_id	reason
+mytemr_diagnostic_uat	apv	3	No active child entries or historical APV GL lines
+mytemr_diagnostic_uat	apv	4	No active child entries or historical APV GL lines
+mytemr_diagnostic_uat	apv	5	No active child entries or historical APV GL lines
+mytemr_diagnostic_uat	apv	7	No active child entries or historical APV GL lines
+mytemr_diagnostic_uat	direct_payment_entries	9	Legacy accounting does not balance/reconcile to direct-payment amount
+mytemr_diagnostic_uat	direct_payment_entries	10	Legacy accounting does not balance/reconcile to direct-payment amount
+mytemr_diagnostic_mactan_uat	apv	1	Unbalanced historical posting: debit=0.0000, credit=4500.0000
+mytemr_diagnostic_mactan_uat	apv	2	Unbalanced historical posting: debit=0.0000, credit=1000.0000
+mytemr_diagnostic_mactan_uat	apv	5	No active child entries or historical APV GL lines
+mytemr_diagnostic_mactan_uat	apv	7	Unbalanced historical posting: debit=0.0000, credit=9900.0000
+mytemr_diagnostic_conso_uat	apv	1	Unbalanced historical posting: debit=0.0000, credit=500.0000
+mytemr_diagnostic_conso_uat	apv	2	No active child entries or historical APV GL lines
+mytemr_diagnostic_mactan	apv	1	Unbalanced historical posting: debit=0.0000, credit=4500.0000
+mytemr_diagnostic_mactan	apv	2	Unbalanced historical posting: debit=0.0000, credit=1000.0000
+mytemr_diagnostic_mactan	apv	5	No active child entries or historical APV GL lines
+mytemr_diagnostic_conso	apv	1	Unbalanced historical posting: debit=0.0000, credit=500.0000
+mytemr_diagnostic_mantlewood	direct_payment	1	Active direct-payment GL has no unique APV successor
+mytemr_diagnostic_mantlewood	direct_payment_entries	1	Legacy accounting does not balance/reconcile to direct-payment amount

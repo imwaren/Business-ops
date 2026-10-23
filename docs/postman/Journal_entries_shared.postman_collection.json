@@ -1,0 +1,319 @@
+{
+  "info": {
+    "name": "Shared manual journal entries",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "Manual journals for active shared centers are stored in master with the actual selected cost_center_id. Existing automated shared accounting at ID 0 is unchanged. The master branch_id response marker remains null; cost_center_id retains the selected shared ID. Items are owned through their parent journal. No live requests were executed as part of local validation."
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "https://zuat-accounting-back.myt-emr.com",
+      "type": "string"
+    },
+    {
+      "key": "api_key",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "token",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "requester",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "cost_center_id",
+      "value": "21",
+      "type": "string"
+    },
+    {
+      "key": "journal_entry_id",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "account_type_id",
+      "value": "1",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "Create shared manual journal",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "api-key",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/journal_entries/create",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "journal_entries",
+            "create"
+          ]
+        },
+        "description": "Select an active shared ID returned by branch metadata. Unknown/deleted centers are rejected. Existing item, permission, and approval-stage rules remain unchanged. Updates with an existing item id must reference an active item of this journal; omitted IDs insert replacements and soft-delete omitted existing items. Header/items are atomic on the resolved database connection.",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": \"{{requester}}\",\n  \"cost_center_id\": \"{{cost_center_id}}\",\n  \"date\": \"2026-10-23\",\n  \"remarks\": \"Shared manual journal\",\n  \"items\": [\n    {\n      \"account_type_id\": \"{{account_type_id}}\",\n      \"debit\": \"100\",\n      \"credit\": \"0\",\n      \"type\": \"bank_adjustments\",\n      \"remarks\": \"Shared manual debit\"\n    },\n    {\n      \"account_type_id\": \"{{account_type_id}}\",\n      \"debit\": \"0\",\n      \"credit\": \"100\",\n      \"type\": \"payroll\",\n      \"remarks\": \"Shared manual credit\"\n    }\n  ]\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get selected shared center",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "api-key",
+            "value": "{{api_key}}"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/journal_entries/get?token={{token}}&requester={{requester}}&cost_center_id={{cost_center_id}}&page=1&data_size=10",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "journal_entries",
+            "get"
+          ],
+          "query": [
+            {
+              "key": "token",
+              "value": "{{token}}"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}"
+            },
+            {
+              "key": "cost_center_id",
+              "value": "{{cost_center_id}}"
+            },
+            {
+              "key": "page",
+              "value": "1"
+            },
+            {
+              "key": "data_size",
+              "value": "10"
+            }
+          ]
+        },
+        "description": "Select an active shared ID returned by branch metadata. Unknown/deleted centers are rejected. Existing item, permission, and approval-stage rules remain unchanged. Updates with an existing item id must reference an active item of this journal; omitted IDs insert replacements and soft-delete omitted existing items. Header/items are atomic on the resolved database connection."
+      },
+      "response": []
+    },
+    {
+      "name": "Get shared journal detail",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "api-key",
+            "value": "{{api_key}}"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/journal_entries/get?token={{token}}&requester={{requester}}&cost_center_id={{cost_center_id}}&journal_entry_id={{journal_entry_id}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "journal_entries",
+            "get"
+          ],
+          "query": [
+            {
+              "key": "token",
+              "value": "{{token}}"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}"
+            },
+            {
+              "key": "cost_center_id",
+              "value": "{{cost_center_id}}"
+            },
+            {
+              "key": "journal_entry_id",
+              "value": "{{journal_entry_id}}"
+            }
+          ]
+        },
+        "description": "Select an active shared ID returned by branch metadata. Unknown/deleted centers are rejected. Existing item, permission, and approval-stage rules remain unchanged. Updates with an existing item id must reference an active item of this journal; omitted IDs insert replacements and soft-delete omitted existing items. Header/items are atomic on the resolved database connection."
+      },
+      "response": []
+    },
+    {
+      "name": "Update shared journal",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "api-key",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/journal_entries/update",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "journal_entries",
+            "update"
+          ]
+        },
+        "description": "Select an active shared ID returned by branch metadata. Unknown/deleted centers are rejected. Existing item, permission, and approval-stage rules remain unchanged. Updates with an existing item id must reference an active item of this journal; omitted IDs insert replacements and soft-delete omitted existing items. Header/items are atomic on the resolved database connection.",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": \"{{requester}}\",\n  \"cost_center_id\": \"{{cost_center_id}}\",\n  \"journal_entry_id\": \"{{journal_entry_id}}\",\n  \"date\": \"2026-10-23\",\n  \"remarks\": \"Updated shared journal\",\n  \"items\": [\n    {\n      \"account_type_id\": \"{{account_type_id}}\",\n      \"debit\": \"100\",\n      \"credit\": \"0\",\n      \"type\": \"bank_adjustments\",\n      \"remarks\": \"Shared manual debit\"\n    },\n    {\n      \"account_type_id\": \"{{account_type_id}}\",\n      \"debit\": \"0\",\n      \"credit\": \"100\",\n      \"type\": \"payroll\",\n      \"remarks\": \"Shared manual credit\"\n    }\n  ]\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Approve shared journal (existing approval stages)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "api-key",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/journal_entries/change_status",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "journal_entries",
+            "change_status"
+          ]
+        },
+        "description": "Select an active shared ID returned by branch metadata. Unknown/deleted centers are rejected. Existing item, permission, and approval-stage rules remain unchanged. Updates with an existing item id must reference an active item of this journal; omitted IDs insert replacements and soft-delete omitted existing items. Header/items are atomic on the resolved database connection.",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": \"{{requester}}\",\n  \"cost_center_id\": \"{{cost_center_id}}\",\n  \"journal_entry_id\": \"{{journal_entry_id}}\",\n  \"status\": \"approved\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Disapprove shared journal",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "api-key",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/journal_entries/change_status",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "journal_entries",
+            "change_status"
+          ]
+        },
+        "description": "Select an active shared ID returned by branch metadata. Unknown/deleted centers are rejected. Existing item, permission, and approval-stage rules remain unchanged. Updates with an existing item id must reference an active item of this journal; omitted IDs insert replacements and soft-delete omitted existing items. Header/items are atomic on the resolved database connection.",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": \"{{requester}}\",\n  \"cost_center_id\": \"{{cost_center_id}}\",\n  \"journal_entry_id\": \"{{journal_entry_id}}\",\n  \"status\": \"disapproved\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Delete shared journal",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "api-key",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/journal_entries/delete",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "journal_entries",
+            "delete"
+          ]
+        },
+        "description": "Select an active shared ID returned by branch metadata. Unknown/deleted centers are rejected. Existing item, permission, and approval-stage rules remain unchanged. Updates with an existing item id must reference an active item of this journal; omitted IDs insert replacements and soft-delete omitted existing items. Header/items are atomic on the resolved database connection.",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": \"{{requester}}\",\n  \"cost_center_id\": \"{{cost_center_id}}\",\n  \"journal_entry_id\": \"{{journal_entry_id}}\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    }
+  ]
+}

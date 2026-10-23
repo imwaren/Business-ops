@@ -1,0 +1,501 @@
+branch_id,source,source_id,account_type_id,date,debit,credit,remark,is_migrated,added_by,added_on,is_deleted
+\N,journal_entry,15,217,2026-02-02,0.0000,76571.2200,Lh Paragon Inc — RFP No.# 4992,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,14,217,2026-02-02,0.0000,234810.7700,Lh Paragon Inc — RFP No.# 4991,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,13,89,2026-02-02,0.0000,220000.0000,"to record Vehicle Equipment Tamaraw 2 units, Car loan and reclass of Advances to supplier — #51715",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,13,89,2026-02-02,0.0000,220000.0000,"to record Vehicle Equipment Tamaraw 2 units, Car loan and reclass of Advances to supplier — #51715",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,8,77,2026-02-02,0.0000,6275.0000,"To record receipts of QR and Card sales GCASH for feb 2, 2026 - To record receipts of QR and Card sales GCASH for feb 2, 2026 — #47752",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,10,61,2026-02-02,0.0000,13933.0000,Credit Cards 02/02/2026- Gross pay - Credit Cards 02/02/2026- Gross pay — #47756,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,4,61,2026-02-02,0.0000,35280.0000,"To Record deposit sales Branches  AR-Cebu term- check deposit fr Teh Tai feb 02, 2026 - To Record deposit sales Branches  AR-Cebu term- check deposit fr Teh Tai feb 02, 2026 — #47744",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,9,61,2026-02-02,0.0000,102005.3400,"To record receipts of QR and Card sales GCASH for feb 2, 2026 - To record receipts of QR and Card sales GCASH for feb 2, 2026 — #47753",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,3,61,2026-02-02,0.0000,1084063.2600,"To Record deposit sales Branches AR-Terms Check Deposit fr Asalus feb 02, 2026 - To Record deposit sales Branches AR-Terms Check Deposit fr Asalus feb 02, 2026 — #47743",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,11,605,2026-02-02,487.6600,0.0000,"To record Bank Charges mbtc feb 2, 2026 - To record Bank Charges mbtc feb 2, 2026 — #47757",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,7,1,2026-02-02,47674.0000,0.0000,"To Record Cash Sales Branches January 30, 2026 - To Record Cash Sales Branches January 30, 2026 — #47749",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,7,1,2026-02-02,32953.0000,0.0000,"To Record Cash Sales Branches January 30, 2026 - To Record Cash Sales Branches January 30, 2026 — #47749",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,1,1,2026-02-02,419641.9000,0.0000,"To Record deposit sales Branches Check-on hand fr Life and Health FEb 02, 2026 - To Record deposit sales Branches Check-on hand fr Life and Health FEb 02, 2026 — #47741",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,2,1,2026-02-02,68009.5600,0.0000,"To Record deposit sales Branches Check-on hand fr Home Sourced FEb 02, 2026 - To Record deposit sales Branches Check-on hand fr Home Sourced FEb 02, 2026 — #47742",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,3,1,2026-02-02,1084063.2600,0.0000,"To Record deposit sales Branches AR-Terms Check Deposit fr Asalus feb 02, 2026 - To Record deposit sales Branches AR-Terms Check Deposit fr Asalus feb 02, 2026 — #47743",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,4,1,2026-02-02,35280.0000,0.0000,"To Record deposit sales Branches  AR-Cebu term- check deposit fr Teh Tai feb 02, 2026 - To Record deposit sales Branches  AR-Cebu term- check deposit fr Teh Tai feb 02, 2026 — #47744",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,5,1,2026-02-02,7212.8000,0.0000,"To Record deposit sales BranchesCheck-on hand fr Insystic FEb 02, 2026 - To Record deposit sales BranchesCheck-on hand fr Insystic FEb 02, 2026 — #47745",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,6,1,2026-02-02,51224.0000,0.0000,"To Record Cash Sales Branches January 31, 2026 - To Record Cash Sales Branches January 31, 2026 — #47747",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,6,1,2026-02-02,54551.0000,0.0000,"To Record Cash Sales Branches January 31, 2026 - To Record Cash Sales Branches January 31, 2026 — #47747",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,6,1,2026-02-02,79655.0000,0.0000,"To Record Cash Sales Branches January 31, 2026 - To Record Cash Sales Branches January 31, 2026 — #47747",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,7,1,2026-02-02,52929.0000,0.0000,"To Record Cash Sales Branches January 30, 2026 - To Record Cash Sales Branches January 30, 2026 — #47749",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,10,41,2026-02-02,13933.0000,0.0000,Credit Cards 02/02/2026- Gross pay - Credit Cards 02/02/2026- Gross pay — #47756,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,11,41,2026-02-02,0.0000,487.6600,"To record Bank Charges mbtc feb 2, 2026 - To record Bank Charges mbtc feb 2, 2026 — #47757",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,8,5,2026-02-02,6275.0000,0.0000,"To record receipts of QR and Card sales GCASH for feb 2, 2026 - To record receipts of QR and Card sales GCASH for feb 2, 2026 — #47752",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,9,5,2026-02-02,102005.3400,0.0000,"To record receipts of QR and Card sales GCASH for feb 2, 2026 - To record receipts of QR and Card sales GCASH for feb 2, 2026 — #47753",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,5,13,2026-02-02,0.0000,7212.8000,"To Record deposit sales BranchesCheck-on hand fr Insystic FEb 02, 2026 - To Record deposit sales BranchesCheck-on hand fr Insystic FEb 02, 2026 — #47745",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,2,13,2026-02-02,0.0000,68009.5600,"To Record deposit sales Branches Check-on hand fr Home Sourced FEb 02, 2026 - To Record deposit sales Branches Check-on hand fr Home Sourced FEb 02, 2026 — #47742",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,1,13,2026-02-02,0.0000,419641.9000,"To Record deposit sales Branches Check-on hand fr Life and Health FEb 02, 2026 - To Record deposit sales Branches Check-on hand fr Life and Health FEb 02, 2026 — #47741",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,15,609,2026-02-02,69610.2000,0.0000,Lh Paragon Inc - Vatable: Payment for CPCI CUSA for January 2026 BS no. 1001211 — RFP No.# 4992,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,15,245,2026-02-02,0.0000,1392.2000,Lh Paragon Inc - 2% EWT on Payment for CPCI CUSA for January 2026 BS no. 1001211 — RFP No.# 4992,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,14,245,2026-02-02,0.0000,10972.4700,Lh Paragon Inc - 5% EWT on Payment for CPCI Rental for January 2026 BS no. 1001212 — RFP No.# 4991,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,15,697,2026-02-02,8353.2200,0.0000,Lh Paragon Inc - Vat: Payment for CPCI CUSA for January 2026 BS no. 1001211 — RFP No.# 4992,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,13,513,2026-02-02,117857.0000,0.0000,"to record Vehicle Equipment Tamaraw 2 units, Car loan and reclass of Advances to supplier — #51715",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,13,513,2026-02-02,117857.0000,0.0000,"to record Vehicle Equipment Tamaraw 2 units, Car loan and reclass of Advances to supplier — #51715",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,14,793,2026-02-02,26333.9200,0.0000,Lh Paragon Inc - Vat: Payment for CPCI Rental for January 2026 BS no. 1001212 — RFP No.# 4991,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,14,889,2026-02-02,219449.3200,0.0000,Lh Paragon Inc - Vatable: Payment for CPCI Rental for January 2026 BS no. 1001212 — RFP No.# 4991,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,13,325,2026-02-02,0.0000,880000.0000,"to record Vehicle Equipment Tamaraw 2 units, Car loan and reclass of Advances to supplier - SBC CAR LOAN — #51715",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,13,325,2026-02-02,0.0000,880000.0000,"to record Vehicle Equipment Tamaraw 2 units, Car loan and reclass of Advances to supplier - SBC CAR LOAN — #51715",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,6,1777,2026-02-02,185430.0000,0.0000,"To Record Cash Sales Branches January 31, 2026 - To Record Cash Sales Branches January 31, 2026 — #47747",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,7,1777,2026-02-02,133556.0000,0.0000,"To Record Cash Sales Branches January 30, 2026 - To Record Cash Sales Branches January 30, 2026 — #47749",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,12,1777,2026-02-02,906454.0000,0.0000,"Sales Branches February 02, 2026 - Laboratory/Diagnostics — #48793",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,7,1777,2026-02-02,0.0000,133556.0000,"To Record Cash Sales Branches January 30, 2026 - To Record Cash Sales Branches January 30, 2026 — #47749",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,6,1777,2026-02-02,0.0000,185430.0000,"To Record Cash Sales Branches January 31, 2026 - To Record Cash Sales Branches January 31, 2026 — #47747",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,12,1777,2026-02-02,0.0000,906454.0000,"Sales Branches February 02, 2026 - Cash Sales - February, 02 — #48793",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,13,429,2026-02-02,982143.0000,0.0000,"to record Vehicle Equipment Tamaraw 2 units, Car loan and reclass of Advances to supplier — #51715",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,13,429,2026-02-02,982143.0000,0.0000,"to record Vehicle Equipment Tamaraw 2 units, Car loan and reclass of Advances to supplier — #51715",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,27,217,2026-02-03,12167.8100,0.0000,Payment: Ivy Grace B. Baricuatro — RFP No.# 4996,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,28,217,2026-02-03,15526.0000,0.0000,Payment: ELLEN ROSE L. SIMBULAAN — RFP No.# 5003,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,25,237,2026-02-03,392728.9500,0.0000,Mancom Payroll (Jan 2nd Half)- 02/03/2026 - Mancom Payroll (Jan 2nd Half)- 02/03/2026 — #48150,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,20,77,2026-02-03,0.0000,9488.0000,"To record receipts of QR and Card sales GCASH for feb 3, 2026 - To record receipts of QR and Card sales GCASH for feb 3, 2026 — #48000",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,30,61,2026-02-03,1431.0000,0.0000,Payment: Logc - Lh Foundation Inc — Applied in their Overpayment,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,21,61,2026-02-03,0.0000,44883.8400,"To record receipts of QR and Card sales GCASH for feb 3, 2026 - To record receipts of QR and Card sales GCASH for feb 3, 2026 — #48001",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,18,61,2026-02-03,0.0000,59907.4000,"To Record deposit sales Branches  AR-Terms Online Transfer fr Generali feb 03, 2026 - To Record deposit sales Branches  AR-Terms Online Transfer fr Generali feb 03, 2026 — #47998",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,22,61,2026-02-03,0.0000,95386.0000,"To Record Deposit Card Sales MBTC feb 3, 2026 - To Record Deposit Card Sales MBTC feb 3, 2026 — #48002",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,31,57,2026-02-03,0.0000,1431.0000,Payment: Logc - Lh Foundation Inc — O3253,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,23,605,2026-02-03,3338.5200,0.0000,"To record Bank Charges mbtc feb 3, 2026 - To record Bank Charges mbtc feb 3, 2026 — #48003",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,24,605,2026-02-03,1000.0000,0.0000,Bank fee - checkbook reorder 2 pads - Bank fee - checkbook reorder 2 pads — #48007,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,16,1,2026-02-03,1176.0000,0.0000,To Record deposit sales Branches  Check on hand fr Philippine Bristish Assurance FEB 3 - To Record deposit sales Branches  Check on hand fr Philippine Bristish Assurance FEB 3 — #47996,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,17,1,2026-02-03,38647.3200,0.0000,To Record deposit sales Branches  Check on hand fr Cebu Oversea Hardware FEB 3 - To Record deposit sales Branches  Check on hand fr Cebu Oversea Hardware FEB 3 — #47997,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,18,1,2026-02-03,59907.4000,0.0000,"To Record deposit sales Branches  AR-Terms Online Transfer fr Generali feb 03, 2026 - To Record deposit sales Branches  AR-Terms Online Transfer fr Generali feb 03, 2026 — #47998",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,19,1,2026-02-03,52186.0000,0.0000,"To Record Cash Sales Branches feb 2, 2026 - To Record Cash Sales Branches feb 2, 2026 — #47999",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,19,1,2026-02-03,55209.0000,0.0000,"To Record Cash Sales Branches feb 2, 2026 - To Record Cash Sales Branches feb 2, 2026 — #47999",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,19,1,2026-02-03,52007.0000,0.0000,"To Record Cash Sales Branches feb 2, 2026 - To Record Cash Sales Branches feb 2, 2026 — #47999",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,29,1,2026-02-03,0.0000,3687.5000,Payment: ELLEN ROSE L. SIMBULAAN — online-020326,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,29,1,2026-02-03,0.0000,3869.0000,Payment: ELLEN ROSE L. SIMBULAAN — online-020326,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,29,1,2026-02-03,0.0000,7969.5000,Payment: ELLEN ROSE L. SIMBULAAN — online-020326,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,29,1,2026-02-03,0.0000,12167.8100,Payment: Ivy Grace B. Baricuatro — online-020326,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,25,1,2026-02-03,0.0000,392728.9500,Mancom Payroll (Jan 2nd Half)- 02/03/2026 - Mancom Payroll (Jan 2nd Half)- 02/03/2026 — #48150,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,22,41,2026-02-03,95386.0000,0.0000,"To Record Deposit Card Sales MBTC feb 3, 2026 - To Record Deposit Card Sales MBTC feb 3, 2026 — #48002",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,23,41,2026-02-03,0.0000,3338.5200,"To record Bank Charges mbtc feb 3, 2026 - To record Bank Charges mbtc feb 3, 2026 — #48003",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,24,9,2026-02-03,0.0000,1000.0000,Bank fee - checkbook reorder 2 pads - Bank fee - checkbook reorder 2 pads — #48007,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,20,5,2026-02-03,9488.0000,0.0000,"To record receipts of QR and Card sales GCASH for feb 3, 2026 - To record receipts of QR and Card sales GCASH for feb 3, 2026 — #48000",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,21,5,2026-02-03,44883.8400,0.0000,"To record receipts of QR and Card sales GCASH for feb 3, 2026 - To record receipts of QR and Card sales GCASH for feb 3, 2026 — #48001",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,16,13,2026-02-03,0.0000,1176.0000,To Record deposit sales Branches  Check on hand fr Philippine Bristish Assurance FEB 3 - To Record deposit sales Branches  Check on hand fr Philippine Bristish Assurance FEB 3 — #47996,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,17,13,2026-02-03,0.0000,38647.3200,To Record deposit sales Branches  Check on hand fr Cebu Oversea Hardware FEB 3 - To Record deposit sales Branches  Check on hand fr Cebu Oversea Hardware FEB 3 — #47997,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,19,1777,2026-02-03,159402.0000,0.0000,"To Record Cash Sales Branches feb 2, 2026 - To Record Cash Sales Branches feb 2, 2026 — #47999",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,26,1777,2026-02-03,960696.0000,0.0000,"Sales Branches February 03, 2026 - Laboratory/Diagnostics — #48794",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,19,1777,2026-02-03,0.0000,159402.0000,"To Record Cash Sales Branches feb 2, 2026 - To Record Cash Sales Branches feb 2, 2026 — #47999",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,26,1777,2026-02-03,0.0000,960696.0000,"Sales Branches February 03, 2026 - Cash Sales - February, 03 — #48794",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,47,217,2026-02-04,141615.2800,0.0000,Payment: DYNAMICS IT SOLUTIONS — RFP No.# 5014,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,43,217,2026-02-04,20089.0200,0.0000,Payment: NEW KEEN'S TRADING — 0126-000088,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,48,217,2026-02-04,43171.5600,0.0000,"Payment: NextLogic Distribution, Inc. — RFP No.# 5017",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,34,77,2026-02-04,0.0000,1341.0000,"To record receipts of QR and Card sales GCASH for feb 4, 2026 - To record receipts of QR and Card sales GCASH for feb 4, 2026 — #48053",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,40,61,2026-02-04,104528.0600,0.0000,"to record La nueva bounce payment, repayment - to record La nueva bounce payment, repayment — #48716",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,35,61,2026-02-04,0.0000,3714.2000,"To Record deposit sales Branches AR-Terms PACIFIC CROSS INSURANCE, INC. 02/04/2026 - To Record deposit sales Branches AR-Terms PACIFIC CROSS INSURANCE, INC. 02/04/2026 — #48054",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,36,61,2026-02-04,0.0000,30633.1700,"To record receipts of QR and Card sales GCASH for feb 4, 2026 - To record receipts of QR and Card sales GCASH for feb 4, 2026 — #48056",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,39,61,2026-02-04,0.0000,62533.0000,"To Record Deposit Card Sales MBTC feb 4, 2026 - To Record Deposit Card Sales MBTC feb 4, 2026 — #48066",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,32,61,2026-02-04,0.0000,68685.3500,"To Record deposit sales Branches Unidentified feb 4, 2026 - To Record deposit sales Branches Unidentified feb 4, 2026 — #48051",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,42,61,2026-02-04,0.0000,104528.0600,"Reversal of: to record La nueva bounce payment, repayment - to record La nueva bounce payment, repayment — #51325",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,37,605,2026-02-04,2188.6600,0.0000,"To record Bank Charges mbtc feb 4, 2026 - To record Bank Charges mbtc feb 4, 2026 — #48058",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,32,1,2026-02-04,68685.3500,0.0000,"To Record deposit sales Branches Unidentified feb 4, 2026 - To Record deposit sales Branches Unidentified feb 4, 2026 — #48051",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,33,1,2026-02-04,46264.0000,0.0000,"To Record Cash Sales Branches feb 3, 2026 - To Record Cash Sales Branches feb 3, 2026 — #48052",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,33,1,2026-02-04,45743.0000,0.0000,"To Record Cash Sales Branches feb 3, 2026 - To Record Cash Sales Branches feb 3, 2026 — #48052",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,33,1,2026-02-04,27425.0000,0.0000,"To Record Cash Sales Branches feb 3, 2026 - To Record Cash Sales Branches feb 3, 2026 — #48052",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,42,1,2026-02-04,104528.0600,0.0000,"Reversal of: to record La nueva bounce payment, repayment - to record La nueva bounce payment, repayment — #51325",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,40,1,2026-02-04,0.0000,104528.0600,"to record La nueva bounce payment, repayment - to record La nueva bounce payment, repayment — #48716",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,38,1,2026-02-04,0.0000,251719.6000,"LHPI-EXCUTIVE OFFICE, February 4, 2026 from Treasury for posting - LHPI-EXCUTIVE OFFICE, February 4, 2026 from Treasury for posting — #48061",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,39,41,2026-02-04,62533.0000,0.0000,"To Record Deposit Card Sales MBTC feb 4, 2026 - To Record Deposit Card Sales MBTC feb 4, 2026 — #48066",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,37,41,2026-02-04,0.0000,2188.6600,"To record Bank Charges mbtc feb 4, 2026 - To record Bank Charges mbtc feb 4, 2026 — #48058",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,45,9,2026-02-04,0.0000,20089.0200,Payment: NEW KEEN'S TRADING — 420727,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,46,9,2026-02-04,0.0000,43171.5600,"Payment: NextLogic Distribution, Inc. — 420728",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,44,9,2026-02-04,0.0000,141615.2800,Payment: DYNAMICS IT SOLUTIONS — 420726,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,34,5,2026-02-04,1341.0000,0.0000,"To record receipts of QR and Card sales GCASH for feb 4, 2026 - To record receipts of QR and Card sales GCASH for feb 4, 2026 — #48053",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,35,5,2026-02-04,3714.2000,0.0000,"To Record deposit sales Branches AR-Terms PACIFIC CROSS INSURANCE, INC. 02/04/2026 - To Record deposit sales Branches AR-Terms PACIFIC CROSS INSURANCE, INC. 02/04/2026 — #48054",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,36,5,2026-02-04,30633.1700,0.0000,"To record receipts of QR and Card sales GCASH for feb 4, 2026 - To record receipts of QR and Card sales GCASH for feb 4, 2026 — #48056",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,38,921,2026-02-04,251719.6000,0.0000,"LHPI-EXCUTIVE OFFICE, February 4, 2026 from Treasury for posting - LHPI-EXCUTIVE OFFICE, February 4, 2026 from Treasury for posting — #48061",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,33,1777,2026-02-04,119432.0000,0.0000,"To Record Cash Sales Branches feb 3, 2026 - To Record Cash Sales Branches feb 3, 2026 — #48052",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,41,1777,2026-02-04,1096372.0000,0.0000,"Sales Branches February 04, 2026 - Laboratory/Diagnostics — #48795",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,33,1777,2026-02-04,0.0000,119432.0000,"To Record Cash Sales Branches feb 3, 2026 - To Record Cash Sales Branches feb 3, 2026 — #48052",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,41,1777,2026-02-04,0.0000,1096372.0000,"Sales Branches February 04, 2026 - Cash Sales - February, 04 — #48795",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,64,217,2026-02-05,7035.8400,0.0000,Payment: CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 4960,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,60,217,2026-02-05,22200.0000,0.0000,Payment: LYNOLDS MARKETING — 1125-000373,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,65,217,2026-02-05,234810.7700,0.0000,Payment: Lh Paragon Inc — RFP No.# 4991,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,62,217,2026-02-05,17839.2900,0.0000,Payment: LYNOLDS MARKETING — 1125-000413,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,67,217,2026-02-05,4800.0000,0.0000,Payment: Rochelle Christa Bianca Mendoza — RFP No.# 4998,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,68,217,2026-02-05,7063.5000,0.0000,Payment: JOHN MARL M. ABAPO — RFP No.# 5002,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,70,217,2026-02-05,19942.7100,0.0000,Payment: Rhea Mae Gesulga — RFP No.# 5015,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,59,217,2026-02-05,39960.0000,0.0000,Payment: AO BIOMED & INDUSTRIAL MARKETING — 1025-000326,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,66,217,2026-02-05,76571.2200,0.0000,Payment: Lh Paragon Inc — RFP No.# 4992,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,69,217,2026-02-05,10500.0000,0.0000,Payment: IRISH F. BURNASAL — RFP No.# 5006,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,61,217,2026-02-05,7680.8100,0.0000,Payment: MLT MARKETING — 1125-000378,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,56,237,2026-02-05,2105413.8600,0.0000,"payroll payout feb 05, 2026 - payroll payout feb 05, 2026 — #48287",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,49,213,2026-02-05,6529.6000,0.0000,"PAID to reverse expanded withholding tax of KPMG Bill RFP No.# 4531, for payment - PAID to reverse expanded withholding tax of KPMG Bill RFP No.# 4531, for payment — #48161",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,52,77,2026-02-05,0.0000,10842.0000,"To record receipts of QR and Card sales GCASH for feb 5, 2026 - To record receipts of QR and Card sales GCASH for feb 5, 2026 — #48283",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,53,61,2026-02-05,0.0000,4606.0000,To Record deposit sales Branches AR-Term online deposit from Maxicare Corp   02/05/2026 - To Record deposit sales Branches AR-Term online deposit from Maxicare Corp   02/05/2026 — #48284,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,54,61,2026-02-05,0.0000,13155.6400,"To record receipts of QR and Card sales GCASH for feb 5, 2026 - To record receipts of QR and Card sales GCASH for feb 5, 2026 — #48285",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,50,61,2026-02-05,0.0000,20452.6000,"To Record deposit sales Branches Unidentified feb 5, 2026 - To Record deposit sales Branches Unidentified feb 5, 2026 — #48279",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,55,61,2026-02-05,0.0000,76382.3500,To recordCredit Cards 02/05/2026 mbtc - To recordCredit Cards 02/05/2026 mbtc — #48286,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,57,605,2026-02-05,2565.6500,0.0000,"To record Bank Charges mbtc feb 5, 2026 - To record Bank Charges mbtc feb 5, 2026 — #48288",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,50,1,2026-02-05,20452.6000,0.0000,"To Record deposit sales Branches Unidentified feb 5, 2026 - To Record deposit sales Branches Unidentified feb 5, 2026 — #48279",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,51,1,2026-02-05,46190.0000,0.0000,"To Record Cash Sales Branches feb 4, 2026 - To Record Cash Sales Branches feb 4, 2026 — #48282",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,51,1,2026-02-05,50115.0000,0.0000,"To Record Cash Sales Branches feb 4, 2026 - To Record Cash Sales Branches feb 4, 2026 — #48282",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,51,1,2026-02-05,32905.0000,0.0000,"To Record Cash Sales Branches feb 4, 2026 - To Record Cash Sales Branches feb 4, 2026 — #48282",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,63,1,2026-02-05,0.0000,4800.0000,Payment: Rochelle Christa Bianca Mendoza — Online-020526,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,49,1,2026-02-05,0.0000,6529.6000,"PAID to reverse expanded withholding tax of KPMG Bill RFP No.# 4531, for payment - PAID to reverse expanded withholding tax of KPMG Bill RFP No.# 4531, for payment — #48161",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,63,1,2026-02-05,0.0000,7035.8400,Payment: CEBU SPIC & SPAN JANITORIAL SERVICES INC. — Online-020526,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,63,1,2026-02-05,0.0000,7063.5000,Payment: JOHN MARL M. ABAPO — Online-020526,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,63,1,2026-02-05,0.0000,7680.8100,Payment: MLT MARKETING — Online-020526,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,63,1,2026-02-05,0.0000,10500.0000,Payment: IRISH F. BURNASAL — Online-020526,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,63,1,2026-02-05,0.0000,17839.2900,Payment: LYNOLDS MARKETING — Online-020526,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,63,1,2026-02-05,0.0000,19942.7100,Payment: Rhea Mae Gesulga — Online-020526,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,63,1,2026-02-05,0.0000,22200.0000,Payment: LYNOLDS MARKETING — Online-020526,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,63,1,2026-02-05,0.0000,39960.0000,Payment: AO BIOMED & INDUSTRIAL MARKETING — Online-020526,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,63,1,2026-02-05,0.0000,76571.2200,Payment: Lh Paragon Inc — Online-020526,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,63,1,2026-02-05,0.0000,234810.7700,Payment: Lh Paragon Inc — Online-020526,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,56,1,2026-02-05,0.0000,2105413.8600,"payroll payout feb 05, 2026 - payroll payout feb 05, 2026 — #48287",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,55,41,2026-02-05,76382.3500,0.0000,To recordCredit Cards 02/05/2026 mbtc - To recordCredit Cards 02/05/2026 mbtc — #48286,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,57,41,2026-02-05,0.0000,2565.6500,"To record Bank Charges mbtc feb 5, 2026 - To record Bank Charges mbtc feb 5, 2026 — #48288",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,52,5,2026-02-05,10842.0000,0.0000,"To record receipts of QR and Card sales GCASH for feb 5, 2026 - To record receipts of QR and Card sales GCASH for feb 5, 2026 — #48283",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,53,5,2026-02-05,4606.0000,0.0000,To Record deposit sales Branches AR-Term online deposit from Maxicare Corp   02/05/2026 - To Record deposit sales Branches AR-Term online deposit from Maxicare Corp   02/05/2026 — #48284,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,54,5,2026-02-05,13155.6400,0.0000,"To record receipts of QR and Card sales GCASH for feb 5, 2026 - To record receipts of QR and Card sales GCASH for feb 5, 2026 — #48285",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,51,1777,2026-02-05,129210.0000,0.0000,"To Record Cash Sales Branches feb 4, 2026 - To Record Cash Sales Branches feb 4, 2026 — #48282",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,58,1777,2026-02-05,1140901.0000,0.0000,"Sales Branches February 05, 2026 - Laboratory/Diagnostics — #48796",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,51,1777,2026-02-05,0.0000,129210.0000,"To Record Cash Sales Branches feb 4, 2026 - To Record Cash Sales Branches feb 4, 2026 — #48282",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,58,1777,2026-02-05,0.0000,1140901.0000,"Sales Branches February 05, 2026 - Cash Sales - February, 05 — #48796",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,73,77,2026-02-06,0.0000,4030.0000,"To record receipts of QR and Card sales GCASH for feb 6, 2026 - To record receipts of QR and Card sales GCASH for feb 6, 2026 — #48399",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,71,61,2026-02-06,0.0000,1470.0000,"To Record deposit sales Branches Unidentified feb 6, 2026 - To Record deposit sales Branches Unidentified feb 6, 2026 — #48397",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,75,61,2026-02-06,0.0000,1900.0000,"To record receipts of QR and Card sales GCASH for feb 6, 2026 TASKPRO OUTSOURCING OPC - To record receipts of QR and Card sales GCASH for feb 6, 2026 TASKPRO OUTSOURCING OPC — #48401",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,78,61,2026-02-06,0.0000,5831.0000,"To record receipts of QR and Card sales GCASH for feb 6, 2026 SUN LIFE GREPA FINANCIAL, INC. - To record receipts of QR and Card sales GCASH for feb 6, 2026 SUN LIFE GREPA FINANCIAL, INC. — #48404",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,79,61,2026-02-06,0.0000,19658.8800,"To record receipts of QR and Card sales GCASH for feb 6, 2026 Credit Cards 02/05/2026 - To record receipts of QR and Card sales GCASH for feb 6, 2026 Credit Cards 02/05/2026 — #48405",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,81,61,2026-02-06,0.0000,35978.8500,To recordCredit Cards 02/06/2026 mbtc - To recordCredit Cards 02/06/2026 mbtc — #48408,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,76,61,2026-02-06,0.0000,77608.0000,"To record receipts of QR and Card sales GCASH for feb 6, 2026 LH PARAGON INC - To record receipts of QR and Card sales GCASH for feb 6, 2026 LH PARAGON INC — #48402",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,74,61,2026-02-06,0.0000,227266.1100,"To record receipts of QR and Card sales GCASH for feb 6, 2026 MAXICARE HEALTHCARE CORP. - To record receipts of QR and Card sales GCASH for feb 6, 2026 MAXICARE HEALTHCARE CORP. — #48400",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,77,61,2026-02-06,0.0000,763513.1000,"To record receipts of QR and Card sales GCASH for feb 6, 2026 INSULAR HEALTH CARE, INC - To record receipts of QR and Card sales GCASH for feb 6, 2026 INSULAR HEALTH CARE, INC — #48403",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,80,605,2026-02-06,997.6100,0.0000,"To record Bank Charges mbtc feb 6, 2026 - To record Bank Charges mbtc feb 6, 2026 — #48406",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,71,1,2026-02-06,1470.0000,0.0000,"To Record deposit sales Branches Unidentified feb 6, 2026 - To Record deposit sales Branches Unidentified feb 6, 2026 — #48397",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,72,1,2026-02-06,52634.0000,0.0000,"To Record Cash Sales Branches feb 5, 2026 - To Record Cash Sales Branches feb 5, 2026 — #48398",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,72,1,2026-02-06,30443.0000,0.0000,"To Record Cash Sales Branches feb 5, 2026 - To Record Cash Sales Branches feb 5, 2026 — #48398",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,72,1,2026-02-06,121970.0000,0.0000,"To Record Cash Sales Branches feb 5, 2026 - To Record Cash Sales Branches feb 5, 2026 — #48398",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,81,41,2026-02-06,35978.8500,0.0000,To recordCredit Cards 02/06/2026 mbtc - To recordCredit Cards 02/06/2026 mbtc — #48408,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,80,41,2026-02-06,0.0000,997.6100,"To record Bank Charges mbtc feb 6, 2026 - To record Bank Charges mbtc feb 6, 2026 — #48406",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,73,5,2026-02-06,4030.0000,0.0000,"To record receipts of QR and Card sales GCASH for feb 6, 2026 - To record receipts of QR and Card sales GCASH for feb 6, 2026 — #48399",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,74,5,2026-02-06,227266.1100,0.0000,"To record receipts of QR and Card sales GCASH for feb 6, 2026 MAXICARE HEALTHCARE CORP. - To record receipts of QR and Card sales GCASH for feb 4, 2026 MAXICARE HEALTHCARE CORP. — #48400",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,75,5,2026-02-06,1900.0000,0.0000,"To record receipts of QR and Card sales GCASH for feb 6, 2026 TASKPRO OUTSOURCING OPC - To record receipts of QR and Card sales GCASH for feb 6, 2026 TASKPRO OUTSOURCING OPC — #48401",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,76,5,2026-02-06,77608.0000,0.0000,"To record receipts of QR and Card sales GCASH for feb 6, 2026 LH PARAGON INC - To record receipts of QR and Card sales GCASH for feb 6, 2026 LH PARAGON INC — #48402",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,77,5,2026-02-06,763513.1000,0.0000,"To record receipts of QR and Card sales GCASH for feb 6, 2026 INSULAR HEALTH CARE, INC - To record receipts of QR and Card sales GCASH for feb 6, 2026 INSULAR HEALTH CARE, INC — #48403",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,78,5,2026-02-06,5831.0000,0.0000,"To record receipts of QR and Card sales GCASH for feb 6, 2026 SUN LIFE GREPA FINANCIAL, INC. - To record receipts of QR and Card sales GCASH for feb 6, 2026 SUN LIFE GREPA FINANCIAL, INC. — #48404",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,79,5,2026-02-06,19658.8800,0.0000,"To record receipts of QR and Card sales GCASH for feb 6, 2026 Credit Cards 02/05/2026 - To record receipts of QR and Card sales GCASH for feb 6, 2026 Credit Cards 02/05/2026 — #48405",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,72,1777,2026-02-06,205047.0000,0.0000,"To Record Cash Sales Branches feb 5, 2026 - To Record Cash Sales Branches feb 5, 2026 — #48398",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,82,1777,2026-02-06,654249.0000,0.0000,"Sales Branches February 06, 2026 - Laboratory/Diagnostics — #48797",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,72,1777,2026-02-06,0.0000,205047.0000,"To Record Cash Sales Branches feb 5, 2026 - To Record Cash Sales Branches feb 5, 2026 — #48398",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,82,1777,2026-02-06,0.0000,654249.0000,"Sales Branches February 06, 2026 - Cash Sales - February, 06 — #48797",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,83,1777,2026-02-07,923892.0000,0.0000,"Sales Branches February 07, 2026 - Laboratory/Diagnostics — #48798",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,83,1777,2026-02-07,0.0000,923892.0000,"Sales Branches February 07, 2026 - Cash Sales - February, 07 — #48798",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,99,581,2026-02-09,2356.7600,0.0000,Emily Nicole D. Chamen - Payment for last and final pay for resigned employee (13th month) — RFP No.# 5051,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,103,217,2026-02-09,0.0000,10131.2800,HOME DEVELOPMENT MUTUAL FUND — RFP No.# 5067,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,99,217,2026-02-09,0.0000,13066.6300,Emily Nicole D. Chamen — RFP No.# 5051,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,98,217,2026-02-09,0.0000,15774.1200,Angela Marie N. Cueva — RFP No.# 5049,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,104,217,2026-02-09,0.0000,16129.5800,ELLEN ROSE L. SIMBULAAN — RFP No.# 5093,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,100,217,2026-02-09,0.0000,29260.0000,"Avega Managed Care, Inc — RFP No.# 5054",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,101,217,2026-02-09,0.0000,41627.3000,Responsible Internet Sustainability Effort Inc. (RISE) — RFP No.# 5056,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,97,217,2026-02-09,0.0000,47941.6000,BUDOTS MEDIA CREATORS PHOTOGRAPHIC SERVICES — RFP No.# 5021,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,102,217,2026-02-09,0.0000,212885.0000,PHILIPPINE HEALTH INSURANCE CORPORATION — RFP No.# 5066,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,98,85,2026-02-09,0.0000,993.0000,Angela Marie N. Cueva - Payment for last and final pay for resigned employee (Avega and HMO deductions) — RFP No.# 5049,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,97,585,2026-02-09,48920.0000,0.0000,BUDOTS MEDIA CREATORS PHOTOGRAPHIC SERVICES - Non-vat: Payment for video editing for doctor's night SI no. 000103 — RFP No.# 5021,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,89,77,2026-02-09,0.0000,5920.0000,"To record receipts of QR and Card sales GCASH for feb 9, 2026 - To record receipts of QR and Card sales GCASH for feb 9, 2026 — #48497",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,90,61,2026-02-09,0.0000,9123.8000,"To record receipts of QR and Card sales GCASH for feb 9, 2026 Pacific Cross - To record receipts of QR and Card sales GCASH for feb 9, 2026 Pacific Cross — #48498",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,92,61,2026-02-09,0.0000,14626.3900,"To record receipts of QR and Card sales GCASH for feb 9, 2026 - To record receipts of QR and Card sales GCASH for feb 9, 2026 — #48500",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,91,61,2026-02-09,0.0000,35995.4000,"To record receipts of QR and Card sales GCASH for feb 9, 2026 Unidentified - To record receipts of QR and Card sales GCASH for feb 9, 2026 Unidentified — #48499",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,93,61,2026-02-09,0.0000,120348.0000,To recordCredit Cards 02/09/2026 mbtc - To recordCredit Cards 02/09/2026 mbtc — #48501,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,86,61,2026-02-09,0.0000,170921.8000,"To Record deposit sales Branches Unidentified feb 9, 2026 Avega - To Record deposit sales Branches Unidentified feb 9, 2026 Avega — #48492",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,84,61,2026-02-09,0.0000,177102.4000,"To Record deposit sales Branches Unidentified feb 9, 2026 Life & Health - To Record deposit sales Branches Unidentified feb 9, 2026 Life & Health — #48490",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,85,61,2026-02-09,0.0000,339890.4600,"To Record deposit sales Branches Unidentified feb 9, 2026 Asalus - To Record deposit sales Branches Unidentified feb 9, 2026 Asalus — #48491",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,104,605,2026-02-09,72.0000,0.0000,ELLEN ROSE L. SIMBULAAN - Bank Charge (Replenishment) — RFP No.# 5093,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,94,605,2026-02-09,4212.2000,0.0000,"To record Bank Charges mbtc feb 9, 2026 - To record Bank Charges mbtc feb 9, 2026 — #48502",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,95,45,2026-02-09,0.0000,50000.0000,to record funding for opening account BDO - new signatory - to record funding for opening account BDO new signatory — #48685,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,95,53,2026-02-09,50000.0000,0.0000,to record funding for opening account BDO - new signatory - to record funding for opening account BDO new signatory — #48685,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,84,1,2026-02-09,177102.4000,0.0000,"To Record deposit sales Branches Unidentified feb 9, 2026 Life & Health - To Record deposit sales Branches Unidentified feb 9, 2026 Life & Health — #48490",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,85,1,2026-02-09,339890.4600,0.0000,"To Record deposit sales Branches Unidentified feb 9, 2026 Asalus - To Record deposit sales Branches Unidentified feb 9, 2026 Asalus — #48491",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,86,1,2026-02-09,170921.8000,0.0000,"To Record deposit sales Branches Unidentified feb 9, 2026 Avega - To Record deposit sales Branches Unidentified feb 9, 2026 Avega — #48492",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,87,1,2026-02-09,30383.0000,0.0000,"To Record Cash Sales Branches feb 6, 2026 - To Record Cash Sales Branches feb 6, 2026 — #48493",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,87,1,2026-02-09,27369.0000,0.0000,"To Record Cash Sales Branches feb 6, 2026 - To Record Cash Sales Branches feb 6, 2026 — #48493",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,87,1,2026-02-09,28176.0000,0.0000,"To Record Cash Sales Branches feb 6, 2026 - To Record Cash Sales Branches feb 6, 2026 — #48493",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,88,1,2026-02-09,19521.0000,0.0000,"To Record Cash Sales Branches feb 7, 2026 - To Record Cash Sales Branches feb 7, 2026 — #48496",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,88,1,2026-02-09,22530.0000,0.0000,"To Record Cash Sales Branches feb 7, 2026 - To Record Cash Sales Branches feb 7, 2026 — #48496",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,88,1,2026-02-09,25213.0000,0.0000,"To Record Cash Sales Branches feb 7, 2026 - To Record Cash Sales Branches feb 7, 2026 — #48496",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,93,41,2026-02-09,120348.0000,0.0000,To recordCredit Cards 02/09/2026 mbtc - To recordCredit Cards 02/09/2026 mbtc — #48501,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,94,41,2026-02-09,0.0000,4212.2000,"To record Bank Charges mbtc feb 9, 2026 - To record Bank Charges mbtc feb 9, 2026 — #48502",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,89,5,2026-02-09,5920.0000,0.0000,"To record receipts of QR and Card sales GCASH for feb 9, 2026 - To record receipts of QR and Card sales GCASH for feb 9, 2026 — #48497",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,90,5,2026-02-09,9123.8000,0.0000,"To record receipts of QR and Card sales GCASH for feb 9, 2026 Pacific Cross - To record receipts of QR and Card sales GCASH for feb 9, 2026 Pacific Cross — #48498",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,91,5,2026-02-09,35995.4000,0.0000,"To record receipts of QR and Card sales GCASH for feb 9, 2026 Unidentified - To record receipts of QR and Card sales GCASH for feb 9, 2026 Unidentified — #48499",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,92,5,2026-02-09,14626.3900,0.0000,"To record receipts of QR and Card sales GCASH for feb 9, 2026 - To record receipts of QR and Card sales GCASH for feb 9, 2026 — #48500",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,99,249,2026-02-09,803.7000,0.0000,Emily Nicole D. Chamen - Payment for last and final pay for resigned employee (CWT) — RFP No.# 5051,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,101,613,2026-02-09,37843.0000,0.0000,Responsible Internet Sustainability Effort Inc. (RISE) - Vatable: Payment for Internet Gold in Shared Office ftp 04 Feb 2026 - 03 Mar 2026 — RFP No.# 5056,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,98,665,2026-02-09,4931.5100,0.0000,Angela Marie N. Cueva - Payment for last and final pay for resigned employee (SL Conversion) — RFP No.# 5049,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,99,665,2026-02-09,2500.0000,0.0000,Emily Nicole D. Chamen - Payment for last and final pay for resigned employee (Other benefits) — RFP No.# 5051,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,100,245,2026-02-09,0.0000,532.0000,"Avega Managed Care, Inc - 2% EWT on Payment for TNetwork Access Fee (New Enrolled Employee for Contact 2) period covered June 16-2025- June 15, 2026 Invoice number IN-14-000006652 — RFP No.# 5054",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,101,245,2026-02-09,0.0000,756.8600,Responsible Internet Sustainability Effort Inc. (RISE) - 2% EWT on Payment for Internet Gold in Shared Office ftp 04 Feb 2026 - 03 Mar 2026 — RFP No.# 5056,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,97,245,2026-02-09,0.0000,978.4000,BUDOTS MEDIA CREATORS PHOTOGRAPHIC SERVICES - 2% EWT on Payment for video editing for doctor's night SI no. 000103 — RFP No.# 5021,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,100,1337,2026-02-09,3192.0000,0.0000,"Avega Managed Care, Inc - Vat: Payment for TNetwork Access Fee (New Enrolled Employee for Contact 2) period covered June 16-2025- June 15, 2026 Invoice number IN-14-000006652 — RFP No.# 5054",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,101,709,2026-02-09,4541.1600,0.0000,Responsible Internet Sustainability Effort Inc. (RISE) - Vat: Payment for Internet Gold in Shared Office ftp 04 Feb 2026 - 03 Mar 2026 — RFP No.# 5056,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,104,741,2026-02-09,365.5400,0.0000,ELLEN ROSE L. SIMBULAAN - Vat: Various office supplies (Replenishment) — RFP No.# 5093,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,104,761,2026-02-09,227.1400,0.0000,ELLEN ROSE L. SIMBULAAN - Vat: Meals (Replenishment) — RFP No.# 5093,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,104,761,2026-02-09,146.4600,0.0000,ELLEN ROSE L. SIMBULAAN - Vat: Snacks (Replenishment) — RFP No.# 5093,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,104,777,2026-02-09,179.1200,0.0000,ELLEN ROSE L. SIMBULAAN - Vat: Gasoline (Replenishment) — RFP No.# 5093,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,104,777,2026-02-09,750.0000,0.0000,ELLEN ROSE L. SIMBULAAN - Vat: Gasoline (Replenishment) — RFP No.# 5093,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,100,801,2026-02-09,17733.3300,0.0000,"Avega Managed Care, Inc - Vatable: Payment for TNetwork Access Fee (New Enrolled Employee for Contact 2) period covered June 16-2025- June 15, 2026 Invoice number IN-14-000006652 (July-Febuary) — RFP No.# 5054",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,104,817,2026-02-09,225.0000,0.0000,ELLEN ROSE L. SIMBULAAN - Non-vat: Laundry (Replenishment) — RFP No.# 5093,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,104,849,2026-02-09,3046.2100,0.0000,ELLEN ROSE L. SIMBULAAN - Vatable: Various office supplies (Replenishment) — RFP No.# 5093,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,103,257,2026-02-09,10131.2800,0.0000,HOME DEVELOPMENT MUTUAL FUND - Payment for HDMF loans for the month of January 2026 — RFP No.# 5067,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,102,265,2026-02-09,106442.5000,0.0000,PHILIPPINE HEALTH INSURANCE CORPORATION - Payment for PHIC Contribution for the month of January 2026 (Employee Share) — RFP No.# 5066,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,102,877,2026-02-09,35702.5000,0.0000,PHILIPPINE HEALTH INSURANCE CORPORATION - Payment for PHIC Contribution for the month of January 2026  (Employer Share) — RFP No.# 5066,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,100,173,2026-02-09,8866.6700,0.0000,"Avega Managed Care, Inc - Vatable: Payment for TNetwork Access Fee (New Enrolled Employee for Contact 2) period covered June 16-2025- June 15, 2026 Invoice number IN-14-000006652 — RFP No.# 5054",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,104,913,2026-02-09,1892.8600,0.0000,ELLEN ROSE L. SIMBULAAN - Vatable: Meals (Replenishment) — RFP No.# 5093,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,104,913,2026-02-09,1220.5400,0.0000,ELLEN ROSE L. SIMBULAAN - Vatable: Snacks (Replenishment) — RFP No.# 5093,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,98,921,2026-02-09,11835.6100,0.0000,Angela Marie N. Cueva - Payment for last and final pay for resigned employee — RFP No.# 5049,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,99,921,2026-02-09,7406.1700,0.0000,Emily Nicole D. Chamen - Payment for last and final pay for resigned employee — RFP No.# 5051,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,87,1777,2026-02-09,85928.0000,0.0000,"To Record Cash Sales Branches feb 6, 2026 - To Record Cash Sales Branches feb 6, 2026 — #48493",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,88,1777,2026-02-09,67264.0000,0.0000,"To Record Cash Sales Branches feb 7, 2026 - To Record Cash Sales Branches feb 7, 2026 — #48496",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,96,1777,2026-02-09,968614.0000,0.0000,"Sales Branches February 09, 2026 - Laboratory/Diagnostics — #48799",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,88,1777,2026-02-09,0.0000,67264.0000,"To Record Cash Sales Branches feb 7, 2026 - To Record Cash Sales Branches feb 7, 2026 — #48496",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,87,1777,2026-02-09,0.0000,85928.0000,"To Record Cash Sales Branches feb 6, 2026 - To Record Cash Sales Branches feb 6, 2026 — #48493",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,96,1777,2026-02-09,0.0000,968614.0000,"Sales Branches February 09, 2026 - Cash Sales - February, 09 — #48799",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,104,945,2026-02-09,1492.7100,0.0000,ELLEN ROSE L. SIMBULAAN - Vatable: Gasoline (Replenishment) — RFP No.# 5093,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,104,945,2026-02-09,262.0000,0.0000,ELLEN ROSE L. SIMBULAAN - Nondeductible: Transportation expenses (Replenishment) — RFP No.# 5093,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,104,945,2026-02-09,6250.0000,0.0000,ELLEN ROSE L. SIMBULAAN - Vatable: Gasoline (Replenishment) — RFP No.# 5093,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,119,217,2026-02-10,16129.5800,0.0000,Payment: ELLEN ROSE L. SIMBULAAN — RFP No.# 5093,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,117,217,2026-02-10,0.0000,23201.3000,SOCIAL SECURITY SYSTEM — RFP No.# 5103,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,116,217,2026-02-10,0.0000,58900.0000,HOME DEVELOPMENT MUTUAL FUND — RFP No.# 5068,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,105,237,2026-02-10,0.0000,7797.3700,"CPCI adjustment for January 16-31, 2026 - Shared Sales Services - CPCI adjustment for January 16-31, 2026 - Shared Sales Services — #48582",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,105,85,2026-02-10,0.0000,1666.6700,"CPCI adjustment for January 16-31, 2026 - Shared Sales Services - CPCI adjustment for January 16-31, 2026 - Shared Sales Services — #48582",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,108,77,2026-02-10,0.0000,2000.0000,"To record receipts of QR and Card sales GCASH for feb 10, 2026 - To record receipts of QR and Card sales GCASH for feb 10, 2026 — #48652",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,120,61,2026-02-10,3959.2000,0.0000,Payment: ROYAL ALGACULTURE CORP. — O3243,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,106,61,2026-02-10,0.0000,18228.0000,"To Record deposit sales Branches Unidentified feb 10, 2026 Toyota Lapu-Lapu - To Record deposit sales Branches Unidentified feb 10, 2026 Toyota Lapu-Lapu — #48650",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,111,61,2026-02-10,0.0000,32213.6800,"To record receipts of QR and Card sales GCASH for feb 10, 2026 - To record receipts of QR and Card sales GCASH for feb 10, 2026 — #48655",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,109,61,2026-02-10,0.0000,63386.4000,"To record receipts of QR and Card sales GCASH for feb 10, 2026 Royal Algaculture - To record receipts of QR and Card sales GCASH for feb 10, 2026 Royal Algaculture — #48653",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,112,61,2026-02-10,0.0000,192286.0000,To recordCredit Cards 02/10/2026 mbtc - To recordCredit Cards 02/10/2026 mbtc — #48656,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,110,61,2026-02-10,0.0000,225122.6500,"To record receipts of QR and Card sales GCASH for feb 10, 2026 MAXICARE HEALTHCARE CORP. - To record receipts of QR and Card sales GCASH for feb 10, 2026 MAXICARE HEALTHCARE CORP. — #48654",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,120,57,2026-02-10,0.0000,3959.2000,Payment: ROYAL ALGACULTURE CORP. — O3243,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,113,605,2026-02-10,6730.0300,0.0000,"To record Bank Charges mbtc feb 10, 2026 - To record Bank Charges mbtc feb 10, 2026 — #48657",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,114,605,2026-02-10,75.0000,0.0000,"To record Bank Charge for MC Application feb 10, 2026 - To record Bank Charge for MC Application feb 10, 2026 — #48658",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,106,1,2026-02-10,18228.0000,0.0000,"To Record deposit sales Branches Unidentified feb 10, 2026 Toyota Lapu-Lapu - To Record deposit sales Branches Unidentified feb 10, 2026 Toyota Lapu-Lapu — #48650",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,107,1,2026-02-10,64316.0000,0.0000,"To Record Cash Sales Branches feb 9, 2026 - To Record Cash Sales Branches feb 9, 2026 — #48651",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,107,1,2026-02-10,40466.0000,0.0000,"To Record Cash Sales Branches feb 9, 2026 - To Record Cash Sales Branches feb 9, 2026 — #48651",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,107,1,2026-02-10,61492.0000,0.0000,"To Record Cash Sales Branches feb 9, 2026 - To Record Cash Sales Branches feb 9, 2026 — #48651",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,118,1,2026-02-10,0.0000,72.0000,Payment: ELLEN ROSE L. SIMBULAAN — 021026,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,114,1,2026-02-10,0.0000,75.0000,"To record Bank Charge for MC Application feb 10, 2026 - To record Bank Charge for MC Application feb 10, 2026 — #48658",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,118,1,2026-02-10,0.0000,1367.0000,Payment: ELLEN ROSE L. SIMBULAAN — 021026,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,118,1,2026-02-10,0.0000,2120.0000,Payment: ELLEN ROSE L. SIMBULAAN — 021026,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,118,1,2026-02-10,0.0000,12570.5800,Payment: ELLEN ROSE L. SIMBULAAN — 021026,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,112,41,2026-02-10,192286.0000,0.0000,To recordCredit Cards 02/10/2026 mbtc - To recordCredit Cards 02/10/2026 mbtc — #48656,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,113,41,2026-02-10,0.0000,6730.0300,"To record Bank Charges mbtc feb 10, 2026 - To record Bank Charges mbtc feb 10, 2026 — #48657",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,108,5,2026-02-10,2000.0000,0.0000,"To record receipts of QR and Card sales GCASH for feb 10, 2026 - To record receipts of QR and Card sales GCASH for feb 10, 2026 — #48652",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,109,5,2026-02-10,63386.4000,0.0000,"To record receipts of QR and Card sales GCASH for feb 10, 2026 Royal Algaculture - To record receipts of QR and Card sales GCASH for feb 10, 2026 Royal Algaculture — #48653",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,110,5,2026-02-10,225122.6500,0.0000,"To record receipts of QR and Card sales GCASH for feb 10, 2026 MAXICARE HEALTHCARE CORP. - To record receipts of QR and Card sales GCASH for feb 10, 2026 MAXICARE HEALTHCARE CORP. — #48654",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,111,5,2026-02-10,32213.6800,0.0000,"To record receipts of QR and Card sales GCASH for feb 10, 2026 - To record receipts of QR and Card sales GCASH for feb 10, 2026 — #48655",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,105,249,2026-02-10,0.0000,359.3300,"CPCI adjustment for January 16-31, 2026 - Shared Sales Services - CPCI adjustment for January 16-31, 2026 - Shared Sales Services — #48582",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,105,249,2026-02-10,0.0000,4418.4200,"CPCI adjustment for January 16-31, 2026 - Shared Sales Services - CPCI adjustment for January 16-31, 2026 - Shared Sales Services — #48582",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,105,665,2026-02-10,3000.0000,0.0000,"CPCI adjustment for January 16-31, 2026 - Shared Sales Services - CPCI adjustment for January 16-31, 2026 - Shared Sales Services — #48582",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,105,665,2026-02-10,2100.0000,0.0000,"CPCI adjustment for January 16-31, 2026 - Shared Sales Services - CPCI adjustment for January 16-31, 2026 - Shared Sales Services — #48582",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,116,269,2026-02-10,29500.0000,0.0000,HOME DEVELOPMENT MUTUAL FUND - Payment for HDMF mandatory contribution for the month of January 2026 (employee share) — RFP No.# 5068,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,105,269,2026-02-10,300.0000,0.0000,"CPCI adjustment for January 16-31, 2026 - Shared Sales Services - CPCI adjustment for January 16-31, 2026 - Shared Sales Services — #48582",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,116,869,2026-02-10,7600.0000,0.0000,HOME DEVELOPMENT MUTUAL FUND - Payment for HDMF mandatory contribution for the month of January 2026 (employer share) — RFP No.# 5068,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,105,921,2026-02-10,9291.7900,0.0000,"CPCI adjustment for January 16-31, 2026 - Shared Sales Services - CPCI adjustment for January 16-31, 2026 - Shared Sales Services — #48582",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,117,253,2026-02-10,23201.3000,0.0000,SOCIAL SECURITY SYSTEM - Payment for SSS loans for the month of January 2026 — RFP No.# 5103,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,105,261,2026-02-10,0.0000,450.0000,"CPCI adjustment for January 16-31, 2026 - Shared Sales Services - CPCI adjustment for January 16-31, 2026 - Shared Sales Services — #48582",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,107,1777,2026-02-10,166274.0000,0.0000,"To Record Cash Sales Branches feb 9, 2026 - To Record Cash Sales Branches feb 9, 2026 — #48651",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,115,1777,2026-02-10,667723.0000,0.0000,"Sales Branches February 10, 2026 - Laboratory/Diagnostics — #48800",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,107,1777,2026-02-10,0.0000,166274.0000,"To Record Cash Sales Branches feb 9, 2026 - To Record Cash Sales Branches feb 9, 2026 — #48651",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,115,1777,2026-02-10,0.0000,667723.0000,"Sales Branches February 10, 2026 - Cash Sales - February, 10 — #48800",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,139,217,2026-02-11,645167.2100,0.0000,Payment: BUREAU OF INTERNAL REVENUE — RFP No.# 5123,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,140,217,2026-02-11,22226.9500,0.0000,Payment: BUREAU OF INTERNAL REVENUE — RFP No.# 5124,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,138,217,2026-02-11,0.0000,22226.9500,BUREAU OF INTERNAL REVENUE — RFP No.# 5124,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,137,217,2026-02-11,0.0000,645167.2100,BUREAU OF INTERNAL REVENUE — RFP No.# 5123,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,135,237,2026-02-11,444624.6600,0.0000,"to record reversal of accrued interest expense and cash payment BDO MTL Loan February 11, 2026 - to record reversal of accrued interest expense and cash payment BDO MTL Loan February 11, 2026 — #50818",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,122,213,2026-02-11,494112.3100,0.0000,"to adjust CIFI Cash Transitory  494,112.31 as advised - to adjust CIFI Cash Transitory  494,112.31 as advised — #48726",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,125,77,2026-02-11,0.0000,4770.0000,"To record receipts of QR and Card sales GCASH for feb 11, 2026 - To record receipts of QR and Card sales GCASH for feb 11, 2026 — #48747",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,127,61,2026-02-11,0.0000,8624.0000,"To Record deposit sales Branches AR-Terms PACIFIC CROSS INSURANCE, INC. 02/11/2026 - To Record deposit sales Branches AR-Terms PACIFIC CROSS INSURANCE, INC. 02/04/2026 — #48749",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,130,61,2026-02-11,0.0000,12154.9600,"To record receipts of QR and Card sales GCASH for feb 11, 2026 Credit Cards 02/11/2026 - To record receipts of QR and Card sales GCASH for feb 11, 2026 Credit Cards 02/11/2026 — #48752",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,128,61,2026-02-11,0.0000,40743.5000,"To Record AR-Terms Generali feb 11, 2026 - To Record AR-Terms Generali feb 11, 2026 — #48750",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,123,61,2026-02-11,0.0000,47290.0000,"To Record deposit sales Branches Unidentified feb 11, 2026 - To Record deposit sales Branches Unidentified feb 11, 2026 — #48744",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,131,61,2026-02-11,0.0000,48538.0000,To record Credit Cards 02/11/2026 mbtc - To record Credit Cards 02/11/2026 mbtc — #48753,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,129,61,2026-02-11,0.0000,160837.6000,"To record receipts of QR and Card sales GCASH for feb 11, 2026 - To record receipts of QR and Card sales GCASH for feb 11, 2026 — #48751",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,126,61,2026-02-11,0.0000,221971.4200,"To record receipts of QR and Card sales GCASH for feb 11, 2026 MAXICARE HEALTHCARE CORP. - To record receipts of QR and Card sales GCASH for feb 11, 2026 MAXICARE HEALTHCARE CORP. — #48748",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,141,57,2026-02-11,0.0000,80.8000,ROYAL ALGACULTURE CORP. — O3243,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,136,97,2026-02-11,0.0000,66126.4900,to adjust CIFI 100-107 Cash - Security Bank CPCI CAPEX -66126.49 as advised - to adjust CIFI 100-107 Cash - Security Bank CPCI CAPEX -66126.49 as advised — #51335,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,132,605,2026-02-11,1698.8300,0.0000,"To record Bank Charges mbtc feb 11, 2026 - To record Bank Charges mbtc feb 11, 2026 — #48754",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,135,45,2026-02-11,0.0000,689168.2200,"to record reversal of accrued interest expense and cash payment BDO MTL Loan February 11, 2026 - to record reversal of accrued interest expense and cash payment BDO MTL Loan February 11, 2026 — #50818",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,121,53,2026-02-11,0.0000,50000.0000,Reversal of: FT Funding for new BDO-OpEx from BPI Opex - FT Funding for new BDO-OpEx from BPI Opex — #48684,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,121,1,2026-02-11,50000.0000,0.0000,Reversal of: FT Funding for new BDO-OpEx from BPI Opex - FT Funding for new BDO-OpEx from BPI Opex — #48684,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,123,1,2026-02-11,47290.0000,0.0000,"To Record deposit sales Branches Unidentified feb 11, 2026 - To Record deposit sales Branches Unidentified feb 11, 2026 — #48744",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,124,1,2026-02-11,191450.0000,0.0000,"To Record Check on hand fr Blue Water  feb 11, 2026 - To Record Check on hand fr Blue Water  feb 11, 2026 — #48745",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,133,1,2026-02-11,26169.0000,0.0000,"To Record Cash Sales Branches feb 10, 2026 - To Record Cash Sales Branches feb 10, 2026 — #48765",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,133,1,2026-02-11,12353.0000,0.0000,"To Record Cash Sales Branches feb 10, 2026 - To Record Cash Sales Branches feb 10, 2026 — #48765",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,133,1,2026-02-11,48117.0000,0.0000,"To Record Cash Sales Branches feb 10, 2026 - To Record Cash Sales Branches feb 10, 2026 — #48765",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,140,1,2026-02-11,0.0000,22226.9500,Payment: BUREAU OF INTERNAL REVENUE — RFP No.# 5124,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,139,1,2026-02-11,0.0000,645167.2100,Payment: BUREAU OF INTERNAL REVENUE — RFP No.# 5123,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,131,41,2026-02-11,48538.0000,0.0000,To record Credit Cards 02/11/2026 mbtc - To record Credit Cards 02/11/2026 mbtc — #48753,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,132,41,2026-02-11,0.0000,1698.8300,"To record Bank Charges mbtc feb 11, 2026 - To record Bank Charges mbtc feb 11, 2026 — #48754",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,125,5,2026-02-11,4770.0000,0.0000,"To record receipts of QR and Card sales GCASH for feb 11, 2026 - To record receipts of QR and Card sales GCASH for feb 11, 2026 — #48747",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,126,5,2026-02-11,221971.4200,0.0000,"To record receipts of QR and Card sales GCASH for feb 11, 2026 MAXICARE HEALTHCARE CORP. - To record receipts of QR and Card sales GCASH for feb 11, 2026 MAXICARE HEALTHCARE CORP. — #48748",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,127,5,2026-02-11,8624.0000,0.0000,"To Record deposit sales Branches AR-Terms PACIFIC CROSS INSURANCE, INC. 02/11/2026 - To Record deposit sales Branches AR-Terms PACIFIC CROSS INSURANCE, INC. 02/04/2026 — #48749",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,128,5,2026-02-11,40743.5000,0.0000,"To Record AR-Terms Generali feb 11, 2026 - To Record AR-Terms Generali feb 11, 2026 — #48750",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,129,5,2026-02-11,160837.6000,0.0000,"To record receipts of QR and Card sales GCASH for feb 11, 2026 - To record receipts of QR and Card sales GCASH for feb 11, 2026 — #48751",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,130,5,2026-02-11,12154.9600,0.0000,"To record receipts of QR and Card sales GCASH for feb 11, 2026 Credit Cards 02/11/2026 - To record receipts of QR and Card sales GCASH for feb 11, 2026 Credit Cards 02/11/2026 — #48752",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,136,9,2026-02-11,66126.4900,0.0000,to adjust CIFI 100-107 Cash - Security Bank CPCI CAPEX -66126.49 as advised - to adjust CIFI 100-107 Cash - Security Bank CPCI CAPEX -66126.49 as advised — #51335,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,122,25,2026-02-11,0.0000,494112.3100,"to adjust CIFI Cash Transitory  494,112.31 as advised - to adjust CIFI Cash Transitory  494,112.31 as advised — #48726",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,124,13,2026-02-11,0.0000,191450.0000,"To Record Check on hand fr Blue Water  feb 11, 2026 - To Record Check on hand fr Blue Water  feb 11, 2026 — #48745",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,138,249,2026-02-11,22226.9500,0.0000,BUREAU OF INTERNAL REVENUE - Payment for January 2026 Compensation Withholding Tax — RFP No.# 5124,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,137,245,2026-02-11,645167.2100,0.0000,BUREAU OF INTERNAL REVENUE - Payment for January 2026 Expanded Withholding Tax — RFP No.# 5123,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,135,245,2026-02-11,0.0000,14064.6600,"to record reversal of accrued interest expense and cash payment BDO MTL Loan February 11, 2026 - to record reversal of accrued interest expense and cash payment BDO MTL Loan February 11, 2026 — #50818",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,135,1585,2026-02-11,249534.2500,0.0000,"to record reversal of accrued interest expense and cash payment BDO MTL Loan February 11, 2026 - to record reversal of accrued interest expense and cash payment BDO MTL Loan February 11, 2026 — #50818",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,135,1585,2026-02-11,9073.9700,0.0000,"to record reversal of accrued interest expense and cash payment BDO MTL Loan February 11, 2026 - addl interest expense january accrual — #50818",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,141,1777,2026-02-11,80.8000,0.0000,ROYAL ALGACULTURE CORP. — O3243,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,133,1777,2026-02-11,86639.0000,0.0000,"To Record Cash Sales Branches feb 10, 2026 - To Record Cash Sales Branches feb 10, 2026 — #48765",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,134,1777,2026-02-11,660689.0000,0.0000,"Sales Branches February 11, 2026 - Laboratory/Diagnostics — #49333",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,133,1777,2026-02-11,0.0000,86639.0000,"To Record Cash Sales Branches feb 10, 2026 - To Record Cash Sales Branches feb 10, 2026 — #48765",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,134,1777,2026-02-11,0.0000,660689.0000,"Sales Branches February 11, 2026 - Cash Sales - February, 11 — #49333",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,161,217,2026-02-12,0.0000,19812.3500,Rhea Mae Gesulga — RFP No.# 5133,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,159,217,2026-02-12,0.0000,24068.8000,Infocus Classic Photography Studio — RFP No.# 5109,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,162,217,2026-02-12,0.0000,49000.0000,Mary Ann G. Emphasis — RFP No.# 5139,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,163,217,2026-02-12,0.0000,50000.0000,ROCSAN G. BACALAN — RFP No.# 5140,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,160,217,2026-02-12,0.0000,77893.7000,BRYAN ALBERT LIM — RFP No.# 5131,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,162,85,2026-02-12,49000.0000,0.0000,"Mary Ann G. Emphasis - Advances to employee for Purchase of Mgrs chairs, mobile pedestal (for Mancom)  and visitors chairs (for Mancom) CA- 0279 — RFP No.# 5139",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,163,85,2026-02-12,50000.0000,0.0000,"ROCSAN G. BACALAN - Advances to employee for PhilHealth GAMOT Launching event on February 17, 2026 CA- 0280 — RFP No.# 5140",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,160,89,2026-02-12,77893.7000,0.0000,BRYAN ALBERT LIM - Payment for Credit card charges for January 2026 — RFP No.# 5131,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,159,585,2026-02-12,24560.0000,0.0000,Infocus Classic Photography Studio - Non-vat: Payment for photoshoot of CPCI Doctor's SI no. 00509 — RFP No.# 5109,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,142,213,2026-02-12,206250.0000,0.0000,"Reversal of: to record back the unreleased checks to AP December 29, 2025. Unfunded checks - to record back the unreleased checks to AP December 29, 2025. Unfunded checks STRATO BUILDERS AND SERVICES — #49066",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,142,213,2026-02-12,17764.9600,0.0000,"Reversal of: to record back the unreleased checks to AP December 29, 2025. Unfunded checks - to record back the unreleased checks to AP December 29, 2025. Unfunded checks NEW KEENS — #49066",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,142,213,2026-02-12,6243.7500,0.0000,"Reversal of: to record back the unreleased checks to AP December 29, 2025. Unfunded checks - to record back the unreleased checks to AP December 29, 2025. Unfunded checks BEROVAN — #49066",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,142,213,2026-02-12,6342.8600,0.0000,"Reversal of: to record back the unreleased checks to AP December 29, 2025. Unfunded checks - to record back the unreleased checks to AP December 29, 2025. Unfunded checks DATALOGGERPH CORP — #49066",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,142,213,2026-02-12,29205.0000,0.0000,"Reversal of: to record back the unreleased checks to AP December 29, 2025. Unfunded checks - to record back the unreleased checks to AP December 29, 2025. Unfunded checks STACIE BUILDERS — #49066",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,142,213,2026-02-12,255200.8900,0.0000,"Reversal of: to record back the unreleased checks to AP December 29, 2025. Unfunded checks - to record back the unreleased checks to AP December 29, 2025. Unfunded checks AUTOMATED TECHNOLOGIES — #49066",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,142,213,2026-02-12,11843.3100,0.0000,"Reversal of: to record back the unreleased checks to AP December 29, 2025. Unfunded checks - to record back the unreleased checks to AP December 29, 2025. Unfunded checks NEW KEENS — #49066",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,142,213,2026-02-12,46651.7900,0.0000,"Reversal of: to record back the unreleased checks to AP December 29, 2025. Unfunded checks - to record back the unreleased checks to AP December 29, 2025. Unfunded checks DYNAMICS IT SOLUTION — #49066",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,142,213,2026-02-12,53309.7300,0.0000,"Reversal of: to record back the unreleased checks to AP December 29, 2025. Unfunded checks - to record back the unreleased checks to AP December 29, 2025. Unfunded checks BEROVAN — #49066",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,142,213,2026-02-12,11100.0000,0.0000,"Reversal of: to record back the unreleased checks to AP December 29, 2025. Unfunded checks - to record back the unreleased checks to AP December 29, 2025. Unfunded checks NEW KEENS — #49066",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,142,213,2026-02-12,164099.6300,0.0000,"Reversal of: to record back the unreleased checks to AP December 29, 2025. Unfunded checks - to record back the unreleased checks to AP December 29, 2025. Unfunded checks NEW KEENS — #49066",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,142,213,2026-02-12,7611.4300,0.0000,"Reversal of: to record back the unreleased checks to AP December 29, 2025. Unfunded checks - to record back the unreleased checks to AP December 29, 2025. Unfunded checks NEW KEENS — #49066",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,142,213,2026-02-12,46753.0200,0.0000,"Reversal of: to record back the unreleased checks to AP December 29, 2025. Unfunded checks - to record back the unreleased checks to AP December 29, 2025. Unfunded checks BEROVAN — #49066",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,151,77,2026-02-12,0.0000,1000.0000,"To record receipts of QR and Card sales GCASH for feb 12, 2026 - To record receipts of QR and Card sales GCASH for feb 12, 2026 — #49112",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,164,61,2026-02-12,9555.0000,0.0000,Payment: JIPROP DEVELOMENT CORP — O3235,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,153,61,2026-02-12,0.0000,4570.0000,"To record receipts of QR and Card sales GCASH for feb 12, LACSON AND LACSON INSURANCE BROKERS - To record receipts of QR and Card sales GCASH for feb 12, LACSON AND LACSON INSURANCE BROKERS — #49114",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,145,61,2026-02-12,0.0000,7840.0000,"To Record deposit sales Branches  Check Deposit fr Fast Autoworld feb 12, 2026 - To Record deposit sales Branches  Check Deposit fr Fast Autoworld feb 12, 2026 — #49102",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,144,61,2026-02-12,0.0000,14700.0000,"To Record deposit sales Branches Check Deposit Check fr Toyota Mandaue  feb 12, 2026 - To Record deposit sales Branches Check Deposit Check fr Toyota Mandaue  feb 12, 2026 — #49101",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,147,61,2026-02-12,0.0000,14700.0000,"To Record deposit sales Branches Check Deposit fr Cebu GAWA feb 12, 2026 - To Record deposit sales Branches Check Deposit fr Cebu GAWA feb 12, 2026 — #49106",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,143,61,2026-02-12,0.0000,14880.0000,"To Record deposit sales Branches Check Deposit fr Fitness Nation feb 12, 2026 - To Record deposit sales Branches Check Deposit fr Fitness Nation feb 12, 2026 — #49100",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,154,61,2026-02-12,0.0000,18100.6000,"To record receipts of QR and Card sales GCASH for feb 12, 2026 GENERALI - To record receipts of QR and Card sales GCASH for feb 12, 2026 GENERALI — #49193",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,148,61,2026-02-12,0.0000,28341.6000,"To Record deposit sales Branches Check Deposit fr Avega feb 12, 2026 - To Record deposit sales Branches Check Deposit fr Avega feb 12, 2026 — #49107",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,155,61,2026-02-12,0.0000,37688.2600,"To record receipts of QR and Card sales GCASH for feb 12, 2026 Credit Cards - To record receipts of QR and Card sales GCASH for feb 12, 2026 Credit Cards — #49194",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,156,61,2026-02-12,0.0000,55990.0000,To record Credit Cards 02/12/2026 mbtc - To recordCredit Cards 02/10/2026 mbtc — #49195,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,152,61,2026-02-12,0.0000,184582.7800,"To record receipts of QR and Card sales GCASH for feb 12, 2026 MAXICARE HEALTHCARE CORP - To record receipts of QR and Card sales GCASH for feb 12, 2026 MAXICARE HEALTHCARE CORP — #49113",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,146,61,2026-02-12,0.0000,220054.1000,"To Record deposit sales Branches Check Deposit fr Life & Health feb 12, 2026 - To Record deposit sales Branches Check Deposit fr Life & Health feb 12, 2026 — #49105",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,164,57,2026-02-12,0.0000,9555.0000,Payment: JIPROP DEVELOMENT CORP — O3235,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,157,605,2026-02-12,1959.6600,0.0000,"To record Bank Charges mbtc feb 12, 2026 - To record Bank Charges mbtc feb 12, 2026 — #49196",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,143,1,2026-02-12,14880.0000,0.0000,"To Record deposit sales Branches Check Deposit fr Fitness Nation feb 12, 2026 - To Record deposit sales Branches Check Deposit fr Fitness Nation feb 12, 2026 — #49100",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,144,1,2026-02-12,14700.0000,0.0000,"To Record deposit sales Branches Check Deposit Check fr Toyota Mandaue  feb 12, 2026 - To Record deposit sales Branches Check Deposit Check fr Toyota Mandaue  feb 12, 2026 — #49101",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,145,1,2026-02-12,7840.0000,0.0000,"To Record deposit sales Branches  Check Deposit fr Fast Autoworld feb 12, 2026 - To Record deposit sales Branches  Check Deposit fr Fast Autoworld feb 12, 2026 — #49102",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,146,1,2026-02-12,220054.1000,0.0000,"To Record deposit sales Branches Check Deposit fr Life & Health feb 12, 2026 - To Record deposit sales Branches Check Deposit fr Life & Health feb 12, 2026 — #49105",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,147,1,2026-02-12,14700.0000,0.0000,"To Record deposit sales Branches Check Deposit fr Cebu GAWA feb 12, 2026 - To Record deposit sales Branches Check Deposit fr Cebu GAWA feb 12, 2026 — #49106",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,148,1,2026-02-12,28341.6000,0.0000,"To Record deposit sales Branches Check Deposit fr Avega feb 12, 2026 - To Record deposit sales Branches Check Deposit fr Avega feb 12, 2026 — #49107",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,149,1,2026-02-12,9555.0000,0.0000,"To Record deposit sales Branches Check Deposit fr JIPROP feb 12, 2026 - To Record deposit sales Branches Check Deposit fr JIPROP feb 12, 2026 — #49110",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,150,1,2026-02-12,55902.0000,0.0000,"To Record Cash Sales Branches feb 12, 2026 - To Record Cash Sales Branches feb 12, 2026 — #49111",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,150,1,2026-02-12,35114.0000,0.0000,"To Record Cash Sales Branches feb 12, 2026 - To Record Cash Sales Branches feb 12, 2026 — #49111",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,150,1,2026-02-12,70297.0000,0.0000,"To Record Cash Sales Branches feb 12, 2026 - To Record Cash Sales Branches feb 12, 2026 — #49111",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,156,41,2026-02-12,55990.0000,0.0000,To record Credit Cards 02/12/2026 mbtc - To recordCredit Cards 02/10/2026 mbtc — #49195,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,157,41,2026-02-12,0.0000,1959.6600,"To record Bank Charges mbtc feb 12, 2026 - To record Bank Charges mbtc feb 12, 2026 — #49196",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,142,9,2026-02-12,0.0000,6243.7500,"Reversal of: to record back the unreleased checks to AP December 29, 2025. Unfunded checks - to record back the unreleased checks to AP December 29, 2025. Unfunded checks BEROVAN — #49066",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,142,9,2026-02-12,0.0000,6342.8600,"Reversal of: to record back the unreleased checks to AP December 29, 2025. Unfunded checks - to record back the unreleased checks to AP December 29, 2025. Unfunded checks DATALOGGERPH CORP — #49066",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,142,9,2026-02-12,0.0000,7611.4300,"Reversal of: to record back the unreleased checks to AP December 29, 2025. Unfunded checks - to record back the unreleased checks to AP December 29, 2025. Unfunded checks NEW KEENS — #49066",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,142,9,2026-02-12,0.0000,11100.0000,"Reversal of: to record back the unreleased checks to AP December 29, 2025. Unfunded checks - to record back the unreleased checks to AP December 29, 2025. Unfunded checks NEW KEENS — #49066",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,142,9,2026-02-12,0.0000,11843.3100,"Reversal of: to record back the unreleased checks to AP December 29, 2025. Unfunded checks - to record back the unreleased checks to AP December 29, 2025. Unfunded checks NEW KEENS — #49066",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,142,9,2026-02-12,0.0000,17764.9600,"Reversal of: to record back the unreleased checks to AP December 29, 2025. Unfunded checks - to record back the unreleased checks to AP December 29, 2025. Unfunded checks NEW KEENS — #49066",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,142,9,2026-02-12,0.0000,29205.0000,"Reversal of: to record back the unreleased checks to AP December 29, 2025. Unfunded checks - to record back the unreleased checks to AP December 29, 2025. Unfunded checks STACIE BUILDERS — #49066",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,142,9,2026-02-12,0.0000,46651.7900,"Reversal of: to record back the unreleased checks to AP December 29, 2025. Unfunded checks - to record back the unreleased checks to AP December 29, 2025. Unfunded checks DYNAMICS IT SOLUTION — #49066",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,142,9,2026-02-12,0.0000,46753.0200,"Reversal of: to record back the unreleased checks to AP December 29, 2025. Unfunded checks - to record back the unreleased checks to AP December 29, 2025. Unfunded checks BEROVAN — #49066",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,142,9,2026-02-12,0.0000,53309.7300,"Reversal of: to record back the unreleased checks to AP December 29, 2025. Unfunded checks - to record back the unreleased checks to AP December 29, 2025. Unfunded checks BEROVAN — #49066",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,142,9,2026-02-12,0.0000,164099.6300,"Reversal of: to record back the unreleased checks to AP December 29, 2025. Unfunded checks - to record back the unreleased checks to AP December 29, 2025. Unfunded checks NEW KEENS — #49066",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,142,9,2026-02-12,0.0000,206250.0000,"Reversal of: to record back the unreleased checks to AP December 29, 2025. Unfunded checks - to record back the unreleased checks to AP December 29, 2025. Unfunded checks STRATO BUILDERS AND SERVICES — #49066",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,142,9,2026-02-12,0.0000,255200.8900,"Reversal of: to record back the unreleased checks to AP December 29, 2025. Unfunded checks - to record back the unreleased checks to AP December 29, 2025. Unfunded checks AUTOMATED TECHNOLOGIES — #49066",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,151,5,2026-02-12,1000.0000,0.0000,"To record receipts of QR and Card sales GCASH for feb 12, 2026 - To record receipts of QR and Card sales GCASH for feb 12, 2026 — #49112",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,152,5,2026-02-12,184582.7800,0.0000,"To record receipts of QR and Card sales GCASH for feb 12, 2026 MAXICARE HEALTHCARE CORP - To record receipts of QR and Card sales GCASH for feb 12, 2026 MAXICARE HEALTHCARE CORP — #49113",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,153,5,2026-02-12,4570.0000,0.0000,"To record receipts of QR and Card sales GCASH for feb 12, LACSON AND LACSON INSURANCE BROKERS - To record receipts of QR and Card sales GCASH for feb 12, LACSON AND LACSON INSURANCE BROKERS — #49114",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,154,5,2026-02-12,18100.6000,0.0000,"To record receipts of QR and Card sales GCASH for feb 12, 2026 GENERALI - To record receipts of QR and Card sales GCASH for feb 12, 2026 GENERALI — #49193",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,155,5,2026-02-12,37688.2600,0.0000,"To record receipts of QR and Card sales GCASH for feb 12, 2026 Credit Cards - To record receipts of QR and Card sales GCASH for feb 12, 2026 Credit Cards — #49194",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,149,13,2026-02-12,0.0000,9555.0000,"To Record deposit sales Branches Check Deposit fr JIPROP feb 12, 2026 - To Record deposit sales Branches Check Deposit fr JIPROP feb 12, 2026 — #49110",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,159,245,2026-02-12,0.0000,491.2000,Infocus Classic Photography Studio - 2% EWT on Payment for photoshoot of CPCI Doctor's SI no. 00509 — RFP No.# 5109,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,161,741,2026-02-12,83.4600,0.0000,Rhea Mae Gesulga - Vat: Various office expenses (Replenishment) — RFP No.# 5133,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,161,757,2026-02-12,477.0800,0.0000,Rhea Mae Gesulga - Vat: Various repair expenses (Replenishment) — RFP No.# 5133,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,161,761,2026-02-12,413.1000,0.0000,Rhea Mae Gesulga - Vat: Meals with DOH inspector (Replenishment) — RFP No.# 5133,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,161,513,2026-02-12,115.7100,0.0000,Rhea Mae Gesulga - Vat: Helmet (Replenishment) — RFP No.# 5133,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,161,849,2026-02-12,695.5400,0.0000,Rhea Mae Gesulga - Vatable: Various office expenses (Replenishment) — RFP No.# 5133,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,161,849,2026-02-12,475.0000,0.0000,Rhea Mae Gesulga - Nondeductible: Raincoat (Replenishment) — RFP No.# 5133,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,161,885,2026-02-12,1000.0000,0.0000,Rhea Mae Gesulga - Courier fee (Replenishment) — RFP No.# 5133,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,161,909,2026-02-12,3975.6700,0.0000,Rhea Mae Gesulga - Vatable: Various repair expenses (Replenishment) — RFP No.# 5133,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,161,909,2026-02-12,620.0000,0.0000,Rhea Mae Gesulga - Nondeductible: Various repair expenses (Replenishment) — RFP No.# 5133,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,161,913,2026-02-12,3442.5000,0.0000,Rhea Mae Gesulga - Vatable: Meals with DOH inspector (Replenishment) — RFP No.# 5133,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,161,937,2026-02-12,7400.0000,0.0000,Rhea Mae Gesulga - Special Business Permit- YAKAP (Replenishment) — RFP No.# 5133,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,150,1777,2026-02-12,161313.0000,0.0000,"To Record Cash Sales Branches feb 12, 2026 - To Record Cash Sales Branches feb 12, 2026 — #49111",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,158,1777,2026-02-12,1084555.0000,0.0000,"Sales Branches February 12, 2026 - Laboratory/Diagnostics — #49999",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,150,1777,2026-02-12,0.0000,161313.0000,"To Record Cash Sales Branches feb 12, 2026 - To Record Cash Sales Branches feb 12, 2026 — #49111",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,158,1777,2026-02-12,0.0000,1084555.0000,"Sales Branches February 12, 2026 - Cash Sales - February, 12 — #49999",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,161,945,2026-02-12,53.5700,0.0000,Rhea Mae Gesulga - Vatable: Parking fee (Replenishment) — RFP No.# 5133,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,161,945,2026-02-12,6.4300,0.0000,Rhea Mae Gesulga - Vat: Parking fee (Replenishment) — RFP No.# 5133,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,161,945,2026-02-12,90.0000,0.0000,Rhea Mae Gesulga - Nondeductible: Transportation expenses (Replenishment) — RFP No.# 5133,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,161,429,2026-02-12,964.2900,0.0000,Rhea Mae Gesulga - Vatable: Helmet (Replenishment) — RFP No.# 5133,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,189,217,2026-02-13,15774.1200,0.0000,Payment: Angela Marie N. Cueva — RFP No.# 5049,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,190,217,2026-02-13,13066.6300,0.0000,Payment: Emily Nicole D. Chamen — RFP No.# 5051,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,198,217,2026-02-13,19812.3500,0.0000,Payment: Rhea Mae Gesulga — RFP No.# 5133,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,180,217,2026-02-13,1298.5000,0.0000,Payment: ENA COMMERCIAL AND PRINTING SERVICES — 1125-000400,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,194,217,2026-02-13,10131.2800,0.0000,Payment: HOME DEVELOPMENT MUTUAL FUND — RFP No.# 5067,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,179,217,2026-02-13,11673.5000,0.0000,Payment: ELLEN ROSE L. SIMBULAAN — 0226-000129,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,192,217,2026-02-13,41627.3000,0.0000,Payment: Responsible Internet Sustainability Effort Inc. (RISE) — RFP No.# 5056,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,195,217,2026-02-13,58900.0000,0.0000,Payment: HOME DEVELOPMENT MUTUAL FUND — RFP No.# 5068,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,182,217,2026-02-13,64484.0000,0.0000,Payment: ENA COMMERCIAL AND PRINTING SERVICES — 1225-000486,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,185,217,2026-02-13,13206.7700,0.0000,Payment: CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 4761,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,188,217,2026-02-13,23010.2500,0.0000,Payment: BRYAN ALBERT LIM — RFP No.# 5048,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,193,217,2026-02-13,212885.0000,0.0000,Payment: PHILIPPINE HEALTH INSURANCE CORPORATION — RFP No.# 5066,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,196,217,2026-02-13,24068.8000,0.0000,Payment: Infocus Classic Photography Studio — RFP No.# 5109,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,200,217,2026-02-13,50000.0000,0.0000,Payment: ROCSAN G. BACALAN — RFP No.# 5140,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,201,217,2026-02-13,586730.9400,0.0000,Payment: Ivy Grace B. Baricuatro — RFP No.# 5141,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,181,217,2026-02-13,47571.4300,0.0000,Payment: BARCOTECH PHILIPPINES INC. — 1225-000483,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,186,217,2026-02-13,842.0000,0.0000,Payment: RAQUELINE M. TARONA — RFP No.# 5009,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,187,217,2026-02-13,47941.6000,0.0000,Payment: BUDOTS MEDIA CREATORS PHOTOGRAPHIC SERVICES — RFP No.# 5021,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,191,217,2026-02-13,29260.0000,0.0000,"Payment: Avega Managed Care, Inc — RFP No.# 5054",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,197,217,2026-02-13,77893.7000,0.0000,Payment: BRYAN ALBERT LIM — RFP No.# 5131,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,199,217,2026-02-13,49000.0000,0.0000,Payment: Mary Ann G. Emphasis — RFP No.# 5139,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,176,217,2026-02-13,0.0000,291.1000,OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 4956,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,175,217,2026-02-13,0.0000,11673.5000,ELLEN ROSE L. SIMBULAAN — 0226-000129,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,177,217,2026-02-13,0.0000,242268.6700,OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 5092,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,178,217,2026-02-13,0.0000,586730.9400,Ivy Grace B. Baricuatro — RFP No.# 5141,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,178,85,2026-02-13,586730.9400,0.0000,"Ivy Grace B. Baricuatro - Advances to employee for KA's & Mobile Special Relievers Salary Jan.26-February 10, 2026 CA- 0281 — RFP No.# 5141",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,177,585,2026-02-13,199891.6300,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vatable: Payment for General assembly, Doctor's Night and beverages BS no. 15752-002883, 15739-002646, 32200-002889 — RFP No.# 5092",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,177,585,2026-02-13,22387.8800,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat Exempt: Payment for General assembly, Doctor's Night and beverages BS no. 15752-002883, 15739-002646, 32200-002889 — RFP No.# 5092",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,168,77,2026-02-13,0.0000,2041.0000,"To record receipts of QR and Card sales GCASH for feb 13, 2026 - To record receipts of QR and Card sales GCASH for feb 13, 2026 — #49537",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,211,61,2026-02-13,4900.0000,0.0000,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — O3296,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,210,61,2026-02-13,18490.4900,0.0000,Payment: Insular Healthcare Inc — C1780,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,165,61,2026-02-13,0.0000,580.0000,"To Record deposit sales Branches Unidentified feb 13, 2026 - To Record deposit sales Branches Unidentified feb 13, 2026 — #49534",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,170,61,2026-02-13,0.0000,3714.2000,"To record receipts of QR and Card sales GCASH for feb 13, 2026 PACIFIC CROSS INSURANCE, INC. - To record receipts of QR and Card sales GCASH for feb 13, 2026 PACIFIC CROSS INSURANCE, INC. — #49539",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,166,61,2026-02-13,0.0000,4655.0000,"To Record deposit sales Branches Insystic feb 13, 2026 - To Record deposit sales Branches Insystic feb 13, 2026 — #49535",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,172,61,2026-02-13,0.0000,68592.1700,To record Credit Cards 02/13/2026 mbtc - To record Credit Cards 02/13/2026 mbtc — #49541,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,171,61,2026-02-13,0.0000,81520.7200,"To record receipts of QR and Card sales GCASH for feb 13, CREDIT CARDS - To record receipts of QR and Card sales GCASH for feb 13, CREDIT CARDS — #49540",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,169,61,2026-02-13,0.0000,89664.5300,"To record receipts of QR and Card sales GCASH for feb 13, 2026 MAXICARE HEALTHCARE CORP - To record receipts of QR and Card sales GCASH for feb 13, 2026 MAXICARE HEALTHCARE CORP — #49538",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,206,57,2026-02-13,2054.0000,0.0000,OAKRIDGE REALTY DEVELOPMENT CORPORATION — CN-4451,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,207,57,2026-02-13,394.7000,0.0000,Insular Healthcare Inc — CN-4457,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,208,57,2026-02-13,0.0000,195.0000,JIPROP DEVELOMENT CORP — O3235,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,204,57,2026-02-13,0.0000,394.7000,Insular Healthcare Inc — CN-4457,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,205,57,2026-02-13,0.0000,394.7000,Insular Healthcare Inc — C1780,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,203,57,2026-02-13,0.0000,2054.0000,OAKRIDGE REALTY DEVELOPMENT CORPORATION — CN-4451,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,209,57,2026-02-13,0.0000,2054.0000,OAKRIDGE REALTY DEVELOPMENT CORPORATION — O3296,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,210,57,2026-02-13,0.0000,18980.3000,Payment: Insular Healthcare Inc — C1780,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,211,57,2026-02-13,0.0000,100646.0000,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — O3296,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,175,605,2026-02-13,36.0000,0.0000,ELLEN ROSE L. SIMBULAAN - Bank Charge (Replenishment) — 0226-000129,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,173,605,2026-02-13,2259.0600,0.0000,"To record Bank Charges mbtc feb 13, 2026 - To record Bank Charges mbtc feb 13, 2026 — #49542",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,165,1,2026-02-13,580.0000,0.0000,"To Record deposit sales Branches Unidentified feb 13, 2026 - To Record deposit sales Branches Unidentified feb 13, 2026 — #49534",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,166,1,2026-02-13,4655.0000,0.0000,"To Record deposit sales Branches Insystic feb 13, 2026 - To Record deposit sales Branches Insystic feb 13, 2026 — #49535",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,167,1,2026-02-13,45593.0000,0.0000,"To Record Cash Sales Branches feb 13, 2026 - To Record Cash Sales Branches feb 13, 2026 — #49536",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,167,1,2026-02-13,28073.0000,0.0000,"To Record Cash Sales Branches feb 13, 2026 - To Record Cash Sales Branches feb 13, 2026 — #49536",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,167,1,2026-02-13,51057.0000,0.0000,"To Record Cash Sales Branches feb 13, 2026 - To Record Cash Sales Branches feb 13, 2026 — #49536",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,202,1,2026-02-13,0.0000,842.0000,Payment: RAQUELINE M. TARONA — online-021326,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,202,1,2026-02-13,0.0000,919.0000,Payment: ELLEN ROSE L. SIMBULAAN — online-021326,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,202,1,2026-02-13,0.0000,1298.5000,Payment: ENA COMMERCIAL AND PRINTING SERVICES — online-021326,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,202,1,2026-02-13,0.0000,2660.0000,"Payment: Avega Managed Care, Inc — online-021326",1,0,2026-02-28 23:59:59,0
+\N,journal_entry,202,1,2026-02-13,0.0000,8969.5000,Payment: ELLEN ROSE L. SIMBULAAN — online-021326,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,202,1,2026-02-13,0.0000,10131.2800,Payment: HOME DEVELOPMENT MUTUAL FUND — online-021326,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,184,1,2026-02-13,0.0000,13066.6300,Payment: Emily Nicole D. Chamen — 6000396883,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,202,1,2026-02-13,0.0000,13206.7700,Payment: CEBU SPIC & SPAN JANITORIAL SERVICES INC. — online-021326,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,183,1,2026-02-13,0.0000,15774.1200,Payment: Angela Marie N. Cueva — 6000396882,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,202,1,2026-02-13,0.0000,19812.3500,Payment: Rhea Mae Gesulga — online-021326,1,0,2026-02-28 23:59:59,0
+\N,journal_entry,202,1,2026-02-13,0.0000,23010.2500,Payment: BRYAN ALBERT LIM — online-021326,1,0,2026-02-28 23:59:59,0

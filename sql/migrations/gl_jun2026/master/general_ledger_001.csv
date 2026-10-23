@@ -1,0 +1,501 @@
+branch_id,source,source_id,account_type_id,date,debit,credit,remark,is_migrated,added_by,added_on,is_deleted
+\N,journal_entry,11150,217,2026-06-01,0.0000,76571.2200,Lh Paragon Inc — RFP No.# 6361,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11152,217,2026-06-01,15093.9200,0.0000,Payment: EASY SERVICES INC. — RFP No.# 6061,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11147,237,2026-06-01,234246.5800,0.0000,Reversal of: to record accrual of interest expense BPI Loan for May 2026 — #62226,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11148,237,2026-06-01,130612.4000,0.0000,"Reversal of: To record accrual on Executive Fees for the period May 16-31, 2026 to LH Paragon Inc. — #62227",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11133,77,2026-06-01,0.0000,2360.0000,Cash - Security Bank CPCI - OPEX Gcash June 1 — #62020,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11139,77,2026-06-01,0.0000,100.0000,Cash - Security Bank CPCI - OPEX Gcash June 1 — #62215,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11143,61,2026-06-01,0.0000,73009.0000,To record Credit Cards mbtc June 1 — #62220,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11130,61,2026-06-01,0.0000,392.0000,To record receipts sales BPI AR-Cebu Unidentified deposit June 1 — #62017,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11130,61,2026-06-01,0.0000,2842.0000,To record receipts sales BPI AR-Cebu Unidentified deposit June 1 — #62017,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11130,61,2026-06-01,0.0000,3577.0000,To record receipts sales BPI AR-Cebu Unidentified deposit June 1 — #62017,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11134,61,2026-06-01,0.0000,11350.0000,To record receipts of SBC OPEX Debit Card June 1 — #62021,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11135,61,2026-06-01,0.0000,22457.4300,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 1 — #62022,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11135,61,2026-06-01,0.0000,24543.9000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 1 — #62022,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11135,61,2026-06-01,0.0000,8495.6200,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 1 — #62022,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11136,61,2026-06-01,0.0000,600.0000,To record receipts of SBC AR-Terms for ADVANCED MEDICAL ACCESS PHILIPPINES June 1 — #62023,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11136,61,2026-06-01,0.0000,600.0000,To record receipts of SBC AR-Terms for ADVANCED MEDICAL ACCESS PHILIPPINES June 1 — #62023,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11136,61,2026-06-01,0.0000,600.0000,To record receipts of SBC AR-Terms for ADVANCED MEDICAL ACCESS PHILIPPINES June 1 — #62023,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11136,61,2026-06-01,0.0000,3710.0000,To record receipts of SBC AR-Terms for ADVANCED MEDICAL ACCESS PHILIPPINES June 1 — #62023,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11137,61,2026-06-01,0.0000,76299.2200,To record receipts of SBC CREDIT CARD June 1 — #62024,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11138,61,2026-06-01,0.0000,9824.5000,To record receipts of SBC AR-Terms for LH PARAGON INC june 1 — #62044,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11138,61,2026-06-01,0.0000,6178.9000,To record receipts of SBC AR-Terms for LH PARAGON INC june 1 — #62044,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11140,61,2026-06-01,0.0000,280.0000,To record receipts of SBC OPEX Debit Card June 1 — #62216,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11141,61,2026-06-01,0.0000,3920.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 1 — #62217,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11142,61,2026-06-01,0.0000,2850.0000,AR-Cebu check deposit VIRGINIA COMMODITIES MEGATRADERS INC metrobank opex june 1 — #62218,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11144,605,2026-06-01,2555.3400,0.0000,To record Credit Cards bank charge mbtc June 1 — #62221,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11151,53,2026-06-01,0.0000,15093.9200,Payment: EASY SERVICES INC. — 0001340069,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11145,1,2026-06-01,0.0000,92527.4000,Interest payment on BPI Loans (23.7M) — #62224,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11146,1,2026-06-01,0.0000,141719.1800,Interest payment on BPI Loans 36.3M — #62225,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11148,1,2026-06-01,0.0000,130612.4000,"Reversal of: To record accrual on Executive Fees for the period May 16-31, 2026 to LH Paragon Inc. — #62227",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11130,1,2026-06-01,392.0000,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit June 1 — #62017,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11130,1,2026-06-01,2842.0000,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit June 1 — #62017,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11130,1,2026-06-01,3577.0000,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit June 1 — #62017,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11143,41,2026-06-01,73009.0000,0.0000,To record Credit Cards mbtc June 1 — #62220,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11144,41,2026-06-01,0.0000,2555.3400,To record Credit Cards bank charge mbtc June 1 — #62221,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11142,41,2026-06-01,2850.0000,0.0000,AR-Cebu check deposit VIRGINIA COMMODITIES MEGATRADERS INC metrobank opex june 1 — #62218,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11133,5,2026-06-01,2360.0000,0.0000,Cash - Security Bank CPCI - OPEX Gcash June 1 — #62020,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11134,5,2026-06-01,11350.0000,0.0000,To record receipts of SBC OPEX Debit Card June 1 — #62021,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11135,5,2026-06-01,22457.4300,0.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 1 — #62022,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11135,5,2026-06-01,24543.9000,0.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 1 — #62022,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11135,5,2026-06-01,8495.6200,0.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 1 — #62022,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11136,5,2026-06-01,600.0000,0.0000,To record receipts of SBC AR-Terms for ADVANCED MEDICAL ACCESS PHILIPPINES June 1 — #62023,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11136,5,2026-06-01,600.0000,0.0000,To record receipts of SBC AR-Terms for ADVANCED MEDICAL ACCESS PHILIPPINES June 1 — #62023,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11136,5,2026-06-01,600.0000,0.0000,To record receipts of SBC AR-Terms for ADVANCED MEDICAL ACCESS PHILIPPINES June 1 — #62023,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11136,5,2026-06-01,3710.0000,0.0000,To record receipts of SBC AR-Terms for ADVANCED MEDICAL ACCESS PHILIPPINES June 1 — #62023,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11137,5,2026-06-01,76299.2200,0.0000,To record receipts of SBC CREDIT CARD June 1 — #62024,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11138,5,2026-06-01,9824.5000,0.0000,To record receipts of SBC AR-Terms for LH PARAGON INC june 1 — #62044,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11138,5,2026-06-01,6178.9000,0.0000,To record receipts of SBC AR-Terms for LH PARAGON INC june 1 — #62044,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11139,5,2026-06-01,100.0000,0.0000,Cash - Security Bank CPCI - OPEX Gcash June 1 — #62215,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11140,5,2026-06-01,280.0000,0.0000,To record receipts of SBC OPEX Debit Card June 1 — #62216,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11141,5,2026-06-01,3920.0000,0.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 1 — #62217,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11150,609,2026-06-01,69610.2000,0.0000,Lh Paragon Inc - Vatable: Payment for CPCI CUSA for June 2026| BS no. 1001383 — RFP No.# 6361,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11150,245,2026-06-01,0.0000,1392.2000,Lh Paragon Inc - 2% EWT on Payment for CPCI CUSA for June 2026| BS no. 1001383 — RFP No.# 6361,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11150,697,2026-06-01,8353.2200,0.0000,Lh Paragon Inc - Vat: Payment for CPCI CUSA for June 2026| BS no. 1001383 — RFP No.# 6361,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11145,1585,2026-06-01,92527.4000,0.0000,Interest payment on BPI Loans (23.7M) — #62224,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11146,1585,2026-06-01,141719.1800,0.0000,Interest payment on BPI Loans 36.3M — #62225,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11147,1585,2026-06-01,0.0000,234246.5800,Reversal of: to record accrual of interest expense BPI Loan for May 2026 — #62226,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11144,1777,2026-06-01,0.0000,2555.3400,To record Credit Cards bank charge mbtc June 1 — #62221,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11144,1777,2026-06-01,2555.3400,0.0000,To record Credit Cards bank charge mbtc June 1 — #62221,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11145,1777,2026-06-01,92527.4000,0.0000,Interest payment on BPI Loans (23.7M) — #62224,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11145,1777,2026-06-01,0.0000,92527.4000,Interest payment on BPI Loans (23.7M) — #62224,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11146,1777,2026-06-01,141719.1800,0.0000,Interest payment on BPI Loans 36.3M — #62225,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11146,1777,2026-06-01,0.0000,141719.1800,Interest payment on BPI Loans 36.3M — #62225,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11149,1777,2026-06-01,0.0000,749227.0000,"Sales Branches June 01, 2026 - Cash Sales - June, 01 — #63256",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11149,1777,2026-06-01,749227.0000,0.0000,"Sales Branches June 01, 2026 - Laboratory/Diagnostics — #63256",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11131,1777,2026-06-01,0.0000,95981.0000,to record cash sales May 29 - — #62018,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11131,1777,2026-06-01,95981.0000,0.0000,to record cash sales May 29 - — #62018,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11132,1777,2026-06-01,0.0000,80893.0000,to record cash sales May 30 - — #62019,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11132,1777,2026-06-01,80893.0000,0.0000,to record cash sales May 30 - — #62019,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11155,77,2026-06-02,0.0000,1300.0000,Cash - Security Bank CPCI - OPEX Gcash June 2 — #62230,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11159,77,2026-06-02,0.0000,1660.0000,Cash - Security Bank CPCI - OPEX Gcash June 2 — #62372,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11154,61,2026-06-02,0.0000,5831.0000,AR-Cebu check deposit PHILIPPINE BRITISH LIFE AND GENERAL INSURANCE CO INC June 2 — #62229,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11156,61,2026-06-02,0.0000,794.0000,To record receipts of SBC OPEX Debit Card June 2 — #62231,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11157,61,2026-06-02,0.0000,1891.4000,To record receipts of SBC AR-Terms for INLIFE BENEFITS INSURANCE COMPANY June 2 — #62232,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11157,61,2026-06-02,0.0000,1764.0000,To record receipts of SBC AR-Terms for INLIFE BENEFITS INSURANCE COMPANY June 2 — #62232,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11158,61,2026-06-02,0.0000,27685.4300,To record receipts of SBC CREDIT CARD June 2 — #62233,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11160,61,2026-06-02,0.0000,300.0000,To record receipts of SBC OPEX Debit Card June 2 — #62373,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11161,61,2026-06-02,0.0000,18610.0000,To record receipts of SBC AR-Terms for GENERALI LIFE ASSURANCE PHILIPPINES June 2 — #62374,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11162,61,2026-06-02,0.0000,264.6000,"To record receipts of SBC AR-Terms SUN LIFE GREPA FINANCIAL, INC. June 2 — #62375",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11163,61,2026-06-02,0.0000,63525.0000,To record Credit Cards mbtc June 2 — #62377,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11164,605,2026-06-02,2223.3800,0.0000,To record Credit Cards bank charge mbtc June 2 — #62378,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11154,53,2026-06-02,5831.0000,0.0000,AR-Cebu check deposit PHILIPPINE BRITISH LIFE AND GENERAL INSURANCE CO INC June 2 — #62229,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11163,41,2026-06-02,63525.0000,0.0000,To record Credit Cards mbtc June 2 — #62377,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11164,41,2026-06-02,0.0000,2223.3800,To record Credit Cards bank charge mbtc June 2 — #62378,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11155,5,2026-06-02,1300.0000,0.0000,Cash - Security Bank CPCI - OPEX Gcash June 2 — #62230,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11156,5,2026-06-02,794.0000,0.0000,To record receipts of SBC OPEX Debit Card June 2 — #62231,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11157,5,2026-06-02,1891.4000,0.0000,To record receipts of SBC AR-Terms for INLIFE BENEFITS INSURANCE COMPANY June 2 — #62232,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11157,5,2026-06-02,1764.0000,0.0000,To record receipts of SBC AR-Terms for INLIFE BENEFITS INSURANCE COMPANY June 2 — #62232,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11158,5,2026-06-02,27685.4300,0.0000,To record receipts of SBC CREDIT CARD June 2 — #62233,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11159,5,2026-06-02,1660.0000,0.0000,Cash - Security Bank CPCI - OPEX Gcash June 2 — #62372,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11160,5,2026-06-02,300.0000,0.0000,To record receipts of SBC OPEX Debit Card June 2 — #62373,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11161,5,2026-06-02,18610.0000,0.0000,To record receipts of SBC AR-Terms for GENERALI LIFE ASSURANCE PHILIPPINES June 2 — #62374,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11162,5,2026-06-02,264.6000,0.0000,"To record receipts of SBC AR-Terms SUN LIFE GREPA FINANCIAL, INC. June 2 — #62375",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11165,1777,2026-06-02,0.0000,683281.0000,"Sales Branches June 02, 2026 - Cash Sales - June, 02 — #63257",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11165,1777,2026-06-02,683281.0000,0.0000,"Sales Branches June 02, 2026 - Laboratory/Diagnostics — #63257",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11153,1777,2026-06-02,0.0000,99749.0000,to record cash sales June 1 - — #62228,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11153,1777,2026-06-02,99749.0000,0.0000,to record cash sales June 1 - — #62228,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11164,1777,2026-06-02,0.0000,2223.3800,To record Credit Cards bank charge mbtc June 2 — #62378,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11164,1777,2026-06-02,2223.3800,0.0000,To record Credit Cards bank charge mbtc June 2 — #62378,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11189,217,2026-06-03,71704.0200,0.0000,Payment: BLUEARM COMPUTER STORE — 0526-000564,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11187,217,2026-06-03,0.0000,12134.3800,ALEDAN MKTG CORP — 0626-000636,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11186,217,2026-06-03,0.0000,814.0000,MARDAM SIGN ADS — 0626-000634,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11166,237,2026-06-03,256951.5700,0.0000,Reversal of: to record payroll of EO mancom payroll May 16-31 — #62347,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11187,585,2026-06-03,11031.2500,0.0000,ALEDAN MKTG CORP - Vatable: Payment for New Diagnostic Signages | PO No.OPEX-26-0318 SI No.#001256 — 0626-000636,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11186,585,2026-06-03,740.0000,0.0000,MARDAM SIGN ADS - Vatable: Payment for 2 Pcs Tarp Banner w/ Installation Pull-up Mechanism | PO No.OPEX-26-0352 SI No.2443 — 0626-000634,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11170,77,2026-06-03,0.0000,5600.0000,Cash - Security Bank CPCI - OPEX Gcash June 3 — #62381,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11180,77,2026-06-03,0.0000,100.0000,Cash - Security Bank CPCI - OPEX Gcash June 3 — #62538,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11168,61,2026-06-03,0.0000,294.0000,To record receipts sales BPI AR-Cebu Unidentified deposit June 3 — #62379,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11171,61,2026-06-03,0.0000,1840.0000,To record receipts of SBC OPEX Debit Card June 3 — #62382,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11172,61,2026-06-03,0.0000,600.0000,To record receipts of SBC AR-Terms for ADVANCED MEDICAL ACCESS PHILIPPINESJune 3 — #62383,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11173,61,2026-06-03,0.0000,23349.0900,"To record receipts of SBCAR-Terms MEDICARD PHILIPPINES, INC.June 3 — #62384",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11174,61,2026-06-03,0.0000,113474.2000,To record receipts of SBC AR-Terms INLIFE BENEFITS INSURANCE COMPANY June 3 — #62385,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11174,61,2026-06-03,0.0000,12446.0000,To record receipts of SBC AR-Terms INLIFE BENEFITS INSURANCE COMPANY June 3 — #62385,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11175,61,2026-06-03,0.0000,31515.9200,To record receipts of SBC CREDIT CARD June 3 — #62386,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11176,61,2026-06-03,0.0000,14161.0000,"AR-Cebu check deposit BDO OPEX AVEGA MANAGED CARE, INC june 3 — #62459",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11177,61,2026-06-03,0.0000,92222.9000,AR-Cebu check deposit BDO OPEX ASALUS CORPORATION june 3 — #62461,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11178,61,2026-06-03,0.0000,11484737.6000,to record collection received from PHIC PHILHEALTH YAKAP/KONSULTA june 3 — #62462,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11179,61,2026-06-03,0.0000,19688.2000,To record receipts sales BPI AR-Cebu PHILHEALTHCARE june 3 — #62537,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11181,61,2026-06-03,0.0000,300.0000,To record receipts of SBC OPEX Debit Card June 3 — #62539,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11182,61,2026-06-03,0.0000,12985.1000,"To record receipts of SBCAR-Terms MEDICARD PHILIPPINES, INC.June 3 — #62540",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11182,61,2026-06-03,0.0000,2930.2000,"To record receipts of SBCAR-Terms MEDICARD PHILIPPINES, INC.June 3 — #62540",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11183,61,2026-06-03,0.0000,86161.9800,To record Credit Cards mbtc June 3 — #62542,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11190,57,2026-06-03,0.0000,122.0000,Asalus Corporation — CN-5369,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11193,57,2026-06-03,122.0000,0.0000,Asalus Corporation — CN-5369,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11191,57,2026-06-03,0.0000,2154.4800,Asalus Corporation — CN-5389,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11194,57,2026-06-03,2154.4800,0.0000,Asalus Corporation — CN-5389,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11192,57,2026-06-03,0.0000,1562.7000,Asalus Corporation — CN-5390,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11195,57,2026-06-03,1562.7000,0.0000,Asalus Corporation — CN-5390,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11184,605,2026-06-03,3015.6700,0.0000,To record Credit Cards bank charge mbtc June 3 — #62543,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11188,45,2026-06-03,0.0000,71704.0200,Payment: BLUEARM COMPUTER STORE — 0001245598,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11167,53,2026-06-03,6000000.0000,0.0000,Fund transfer FT from LBP TO BPI-OPEX June 3 - JUNE 3 — #62348,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11176,53,2026-06-03,14161.0000,0.0000,"AR-Cebu check deposit BDO OPEX AVEGA MANAGED CARE, INC june 3 — #62459",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11177,53,2026-06-03,92222.9000,0.0000,AR-Cebu check deposit BDO OPEX ASALUS CORPORATION june 3 — #62461,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11166,1,2026-06-03,0.0000,256951.5700,Reversal of: to record payroll of EO mancom payroll May 16-31 — #62347,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11167,1,2026-06-03,5500000.0000,0.0000,Fund transfer FT from LBP TO BPI-OPEX June 3 - JUNE 3 — #62348,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11168,1,2026-06-03,294.0000,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit June 3 — #62379,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11179,1,2026-06-03,19688.2000,0.0000,To record receipts sales BPI AR-Cebu PHILHEALTHCARE june 3 — #62537,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11167,49,2026-06-03,0.0000,5500000.0000,Fund transfer FT from LBP TO BPI-OPEX June 3 - JUNE 3 — #62348,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11167,49,2026-06-03,0.0000,6000000.0000,Fund transfer FT from LBP TO BPI-OPEX June 3 - JUNE 3 — #62348,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11178,49,2026-06-03,2990136.8000,0.0000,to record collection received from PHIC PHILHEALTH YAKAP/KONSULTA june 3 — #62462,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11178,49,2026-06-03,4502198.4000,0.0000,to record collection received from PHIC PHILHEALTH YAKAP/KONSULTA june 3 — #62462,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11178,49,2026-06-03,3992402.4000,0.0000,to record collection received from PHIC PHILHEALTH YAKAP/KONSULTA june 3 — #62462,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11183,41,2026-06-03,86161.9800,0.0000,To record Credit Cards mbtc June 3 — #62542,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11184,41,2026-06-03,0.0000,3015.6700,To record Credit Cards bank charge mbtc June 3 — #62543,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11170,5,2026-06-03,5600.0000,0.0000,Cash - Security Bank CPCI - OPEX Gcash June 3 — #62381,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11171,5,2026-06-03,1840.0000,0.0000,To record receipts of SBC OPEX Debit Card June 3 — #62382,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11172,5,2026-06-03,600.0000,0.0000,To record receipts of SBC AR-Terms for ADVANCED MEDICAL ACCESS PHILIPPINESJune 3 — #62383,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11173,5,2026-06-03,23349.0900,0.0000,"To record receipts of SBCAR-Terms MEDICARD PHILIPPINES, INC.June 3 — #62384",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11174,5,2026-06-03,113474.2000,0.0000,To record receipts of SBC AR-Terms INLIFE BENEFITS INSURANCE COMPANY June 3 — #62385,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11174,5,2026-06-03,12446.0000,0.0000,To record receipts of SBC AR-Terms INLIFE BENEFITS INSURANCE COMPANY June 3 — #62385,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11175,5,2026-06-03,31515.9200,0.0000,To record receipts of SBC CREDIT CARD June 3 — #62386,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11180,5,2026-06-03,100.0000,0.0000,Cash - Security Bank CPCI - OPEX Gcash June 3 — #62538,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11181,5,2026-06-03,300.0000,0.0000,To record receipts of SBC OPEX Debit Card June 3 — #62539,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11182,5,2026-06-03,12985.1000,0.0000,"To record receipts of SBCAR-Terms MEDICARD PHILIPPINES, INC.June 3 — #62540",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11182,5,2026-06-03,2930.2000,0.0000,"To record receipts of SBCAR-Terms MEDICARD PHILIPPINES, INC.June 3 — #62540",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11190,165,2026-06-03,122.0000,0.0000,Asalus Corporation - CWT-2% | AVEGA — CN-5369,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11191,165,2026-06-03,2154.4800,0.0000,Asalus Corporation - CWT-2% | ASALUS — CN-5389,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11192,165,2026-06-03,1562.7000,0.0000,Asalus Corporation - CWT-2% | ASALUS — CN-5390,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11187,245,2026-06-03,0.0000,220.6200,ALEDAN MKTG CORP - 2% EWT:  P Payment for New Diagnostic Signages | PO No.OPEX-26-0318 SI No.#001256 — 0626-000636,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11186,245,2026-06-03,0.0000,14.8000,MARDAM SIGN ADS - 2% EWT on Payment for 2 Pcs Tarp Banner w/ Installation Pull-up Mechanism | PO No.OPEX-26-0352 SI No.2443 — 0626-000634,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11187,685,2026-06-03,1323.7500,0.0000,ALEDAN MKTG CORP - Vat:   Payment for New Diagnostic Signages | PO No.OPEX-26-0318 SI No.#001256 — 0626-000636,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11186,685,2026-06-03,88.8000,0.0000,MARDAM SIGN ADS - Vat: Payment for 2 Pcs Tarp Banner w/ Installation Pull-up Mechanism | PO No.OPEX-26-0352 SI No.2443 — 0626-000634,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11193,1777,2026-06-03,0.0000,122.0000,Asalus Corporation — CN-5369,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11194,1777,2026-06-03,0.0000,2154.4800,Asalus Corporation — CN-5389,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11195,1777,2026-06-03,0.0000,1562.7000,Asalus Corporation — CN-5390,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11166,1777,2026-06-03,0.0000,256951.5700,Reversal of: to record payroll of EO mancom payroll May 16-31 — #62347,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11166,1777,2026-06-03,256951.5700,0.0000,Reversal of: to record payroll of EO mancom payroll May 16-31 — #62347,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11169,1777,2026-06-03,0.0000,59263.0000,to record cash sales June 2 - — #62380,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11169,1777,2026-06-03,59263.0000,0.0000,to record cash sales June 2 - — #62380,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11184,1777,2026-06-03,0.0000,3015.6700,To record Credit Cards bank charge mbtc June 3 — #62543,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11184,1777,2026-06-03,3015.6700,0.0000,To record Credit Cards bank charge mbtc June 3 — #62543,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11185,1777,2026-06-03,0.0000,556357.0000,"Sales Branches June 03, 2026 - Cash Sales - June, 03 — #63258",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11185,1777,2026-06-03,556357.0000,0.0000,"Sales Branches June 03, 2026 - Laboratory/Diagnostics — #63258",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11214,217,2026-06-04,242268.6700,0.0000,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 5092,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11215,217,2026-06-04,25300.0000,0.0000,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 5132,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11199,77,2026-06-04,0.0000,2225.0000,Cash - Security Bank CPCI - OPEX Gcash June 4 — #62546,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11206,77,2026-06-04,0.0000,2100.0000,Cash - Security Bank CPCI - OPEX Gcash June 4 — #62946,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11198,61,2026-06-04,0.0000,93100.0000,To record receipts sales AR-Terms Dis Tech Phils Inc June 4 — #62544,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11200,61,2026-06-04,0.0000,4670.0000,To record receipts of SBC OPEX Debit Card June 4 — #62547,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11201,61,2026-06-04,0.0000,27048.0000,To record receipts of SBC AR-Terms for INLIFE BENEFITS INSURANCE COMPANY June 4 — #62549,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11202,61,2026-06-04,0.0000,12486.5700,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 4 — #62551,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11202,61,2026-06-04,0.0000,1117.2000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 4 — #62551,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11202,61,2026-06-04,0.0000,2827.4500,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 4 — #62551,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11202,61,2026-06-04,0.0000,76115.5700,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 4 — #62551,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11202,61,2026-06-04,0.0000,48471.3400,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 4 — #62551,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11202,61,2026-06-04,0.0000,43628.8100,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 4 — #62551,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11203,61,2026-06-04,0.0000,15657.3200,To record receipts of SBC CREDIT CARD June 4 — #62552,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11207,61,2026-06-04,0.0000,1490.0000,To record receipts of SBC OPEX Debit Card June 4 — #62947,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11208,61,2026-06-04,0.0000,153762.0000,To record receipts of SBC AR-Terms for ATOMED CEBU INC june 4 — #62948,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11209,61,2026-06-04,0.0000,36684.0000,To record Credit Cards mbtc June 4 — #62996,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11211,61,2026-06-04,0.0000,145726.0000,To record receipts of BDO OPEX for AVEGA MANAGED CARE INC june 4 — #63137,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11216,61,2026-06-04,970.2000,0.0000,"Payment: Avega Managed Care, Inc — M2356",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11216,57,2026-06-04,0.0000,970.2000,"Payment: Avega Managed Care, Inc — M2356",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11210,605,2026-06-04,1283.9400,0.0000,To record Credit Cards bank charge mbtc June 4 — #62997,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11205,45,2026-06-04,10028859.2400,0.0000,cash and Cash Equivalents Transactions - Time Deposit Pay-out - 06/04/2026 — #62555,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11213,53,2026-06-04,0.0000,242268.6700,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — 0001340075,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11213,53,2026-06-04,0.0000,25300.0000,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — 0001340075,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11196,53,2026-06-04,600000.0000,0.0000,Fund transfer FT from MBTC OPEX TO BDO-OPEX june 4 — #62463,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11197,53,2026-06-04,900000.0000,0.0000,Fund transfer FT from SBC-OpEx TO BDO-OPEX june 4 — #62464,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11211,53,2026-06-04,145726.0000,0.0000,To record receipts of BDO OPEX for AVEGA MANAGED CARE INC june 4 — #63137,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11198,1,2026-06-04,93100.0000,0.0000,To record receipts sales AR-Terms Dis Tech Phils Inc June 4 — #62544,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11196,41,2026-06-04,0.0000,600000.0000,Fund transfer FT from MBTC OPEX TO BDO-OPEX june 4 — #62463,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11209,41,2026-06-04,36684.0000,0.0000,To record Credit Cards mbtc June 4 — #62996,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11210,41,2026-06-04,0.0000,1283.9400,To record Credit Cards bank charge mbtc June 4 — #62997,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11197,5,2026-06-04,0.0000,900000.0000,Fund transfer FT from SBC-OpEx TO BDO-OPEX june 4 — #62464,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11199,5,2026-06-04,2225.0000,0.0000,Cash - Security Bank CPCI - OPEX Gcash June 4 — #62546,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11200,5,2026-06-04,4670.0000,0.0000,To record receipts of SBC OPEX Debit Card June 4 — #62547,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11201,5,2026-06-04,27048.0000,0.0000,To record receipts of SBC AR-Terms for INLIFE BENEFITS INSURANCE COMPANY June 4 — #62549,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11202,5,2026-06-04,12486.5700,0.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 4 — #62551,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11202,5,2026-06-04,1117.2000,0.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 4 — #62551,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11202,5,2026-06-04,2827.4500,0.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 4 — #62551,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11202,5,2026-06-04,76115.5700,0.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 4 — #62551,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11202,5,2026-06-04,48471.3400,0.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 4 — #62551,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11202,5,2026-06-04,43628.8100,0.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 4 — #62551,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11203,5,2026-06-04,15657.3200,0.0000,To record receipts of SBC CREDIT CARD June 4 — #62552,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11206,5,2026-06-04,2100.0000,0.0000,Cash - Security Bank CPCI - OPEX Gcash June 4 — #62946,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11207,5,2026-06-04,1490.0000,0.0000,To record receipts of SBC OPEX Debit Card June 4 — #62947,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11208,5,2026-06-04,153762.0000,0.0000,To record receipts of SBC AR-Terms for ATOMED CEBU INC june 4 — #62948,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11204,1761,2026-06-04,8350.4300,0.0000,Cash and Cash Equivalents Transactions Time Deposit Interest Income - 06/04/2026 — #62554,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11205,1761,2026-06-04,0.0000,10028859.2400,cash and Cash Equivalents Transactions - Time Deposit Pay-out - 06/04/2026 — #62555,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11204,1589,2026-06-04,0.0000,8350.4300,Cash and Cash Equivalents Transactions Time Deposit Interest Income - 06/04/2026 — #62554,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11210,1777,2026-06-04,0.0000,1283.9400,To record Credit Cards bank charge mbtc June 4 — #62997,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11210,1777,2026-06-04,1283.9400,0.0000,To record Credit Cards bank charge mbtc June 4 — #62997,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11212,1777,2026-06-04,0.0000,682931.0000,"Sales Branches June 04, 2026 - Cash Sales - June, 04 — #63259",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11212,1777,2026-06-04,682931.0000,0.0000,"Sales Branches June 04, 2026 - Laboratory/Diagnostics — #63259",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11260,217,2026-06-05,39204.0000,0.0000,Payment: BIOLAB MEDICAL SUPPLIES — 0226-000187,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11261,217,2026-06-05,88035.7500,0.0000,Payment: BIOLAB MEDICAL SUPPLIES — 0226-000188,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11259,217,2026-06-05,19602.0000,0.0000,Payment: BIOLAB MEDICAL SUPPLIES — 0226-000184,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11264,217,2026-06-05,42483.0000,0.0000,Payment: ENA COMMERCIAL AND PRINTING SERVICES — 0326-000391,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11262,217,2026-06-05,91348.9900,0.0000,Payment: ENA COMMERCIAL AND PRINTING SERVICES — 0326-000327,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11263,217,2026-06-05,32193.0000,0.0000,Payment: ENA COMMERCIAL AND PRINTING SERVICES — 0326-000390,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11257,217,2026-06-05,9514.2900,0.0000,Payment: CEBU FAR EASTERN DRUG INC. — 0126-000060,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11258,217,2026-06-05,19028.5700,0.0000,Payment: CEBU FAR EASTERN DRUG INC. — 0226-000183,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11265,217,2026-06-05,23096.9200,0.0000,Payment: JAV MARKETING — 0526-000567,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11272,217,2026-06-05,15500.0000,0.0000,Payment: IRISH F. BURNASAL — RFP No.# 6137,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11270,217,2026-06-05,17224.9800,0.0000,Payment: Honey Mae Miller-Joseph — RFP No.# 6135,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11271,217,2026-06-05,5439.8300,0.0000,Payment: JOHN MARL M. ABAPO — RFP No.# 6136,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11273,217,2026-06-05,1728.0000,0.0000,Payment: MICHAEL DANDIE FRASCO — RFP No.# 6158,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11269,217,2026-06-05,15227.7200,0.0000,Payment: KEITH LAWRENCE O. TOLENTINO — RFP No.# 6124,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11268,217,2026-06-05,115556.1300,0.0000,"Payment: Avega Managed Care, Inc — RFP No.# 6072",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11251,217,2026-06-05,0.0000,31575.6000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6189,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11251,217,2026-06-05,631.5100,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6189,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11250,217,2026-06-05,0.0000,18698.2000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6188,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11250,217,2026-06-05,373.9600,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6188,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11249,217,2026-06-05,0.0000,23808.6000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6187,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11249,217,2026-06-05,476.1700,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6187,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11248,217,2026-06-05,0.0000,26069.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6186,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11248,217,2026-06-05,521.3800,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6186,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11247,217,2026-06-05,0.0000,39329.6000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6185,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11247,217,2026-06-05,786.5900,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6185,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11246,217,2026-06-05,0.0000,30488.4000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6184,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11246,217,2026-06-05,609.7700,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6184,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11245,217,2026-06-05,0.0000,37689.4000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6183,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11245,217,2026-06-05,753.7900,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6183,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11244,217,2026-06-05,0.0000,38152.7500,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6182,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11244,217,2026-06-05,763.0500,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6182,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11243,217,2026-06-05,0.0000,39481.6000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6181,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11243,217,2026-06-05,789.6300,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6181,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11242,217,2026-06-05,0.0000,16791.6000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6180,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11242,217,2026-06-05,335.8300,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6180,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11240,217,2026-06-05,0.0000,49172.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6176,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11240,217,2026-06-05,983.4400,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6176,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11239,217,2026-06-05,0.0000,23883.8000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6175,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11239,217,2026-06-05,477.6700,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6175,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11238,217,2026-06-05,0.0000,43717.4000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6174,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11238,217,2026-06-05,874.3500,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6174,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11237,217,2026-06-05,0.0000,37832.8000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6173,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11237,217,2026-06-05,756.6600,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6173,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11241,217,2026-06-05,0.0000,33797.7500,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6178,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11241,217,2026-06-05,675.9500,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6178,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11236,217,2026-06-05,0.0000,72338.3100,Red iCenter Technologies Corp. — 0626-000623,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11230,237,2026-06-05,2176492.7100,0.0000,to record Payroll payout June 5 — #62969,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11230,237,2026-06-05,254208.4800,0.0000,to record Payroll payout June 5 - YA — #62969,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11220,77,2026-06-05,0.0000,2820.0000,Cash - Security Bank CPCI - OPEX Gcash June 5 — #62954,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11217,61,2026-06-05,0.0000,1568.0000,To record receipts sales BPI AR-Cebu Unidentified deposit June 5 — #62951,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11218,61,2026-06-05,0.0000,251693.4000,To record receipts sales BPI AR-Cebu PHILHEALTHCARE june 5 — #62952,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11218,61,2026-06-05,0.0000,15591.8000,To record receipts sales BPI AR-Cebu PHILHEALTHCARE june 5 — #62952,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11218,61,2026-06-05,0.0000,32104.8000,To record receipts sales BPI AR-Cebu PHILHEALTHCARE june 5 — #62952,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11221,61,2026-06-05,0.0000,4590.0000,To record receipts of SBC OPEX Debit Card June 5 — #62955,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11222,61,2026-06-05,0.0000,588.0000,To record receipts of SBC AR-Terms for INLIFE BENEFITS INSURANCE COMPANY June 5 — #62956,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11223,61,2026-06-05,0.0000,25904.8200,To record receipts of SBC CREDIT CARD June 5 — #62958,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11224,61,2026-06-05,0.0000,3320.0000,AR-Cebu check deposit BDO OPEX MEHITABEL INCORPORATED june 5 — #62959,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11224,61,2026-06-05,0.0000,3320.0000,AR-Cebu check deposit BDO OPEX MEHITABEL INCORPORATED june 5 — #62959,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11225,61,2026-06-05,0.0000,234808.0000,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc june 5 — #62960,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11225,61,2026-06-05,0.0000,48235.6000,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc june 5 — #62960,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11225,61,2026-06-05,0.0000,31889.2000,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc june 5 — #62960,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11225,61,2026-06-05,0.0000,21471.8000,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc june 5 — #62960,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11225,61,2026-06-05,0.0000,207755.1000,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc june 5 — #62960,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11225,61,2026-06-05,0.0000,60123.9800,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc june 5 — #62960,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11225,61,2026-06-05,0.0000,139665.1900,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc june 5 — #62960,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11225,61,2026-06-05,0.0000,207060.2800,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc june 5 — #62960,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11225,61,2026-06-05,0.0000,22520.4000,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc june 5 — #62960,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11225,61,2026-06-05,0.0000,13524.0000,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc june 5 — #62960,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11225,61,2026-06-05,0.0000,164022.6000,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc june 5 — #62960,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11225,61,2026-06-05,0.0000,57080.1000,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc june 5 — #62960,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11226,61,2026-06-05,0.0000,6272.0000,AR-Cebu check deposit BDO OPEX THE INSULAR LIFE ASSURANCE COMPANY LTD june 5 — #62962,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11226,61,2026-06-05,0.0000,3136.0000,AR-Cebu check deposit BDO OPEX THE INSULAR LIFE ASSURANCE COMPANY LTD june 5 — #62962,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11226,61,2026-06-05,0.0000,2058.0000,AR-Cebu check deposit BDO OPEX THE INSULAR LIFE ASSURANCE COMPANY LTD june 5 — #62962,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11226,61,2026-06-05,0.0000,3136.0000,AR-Cebu check deposit BDO OPEX THE INSULAR LIFE ASSURANCE COMPANY LTD june 5 — #62962,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11226,61,2026-06-05,0.0000,882.0000,AR-Cebu check deposit BDO OPEX THE INSULAR LIFE ASSURANCE COMPANY LTD june 5 — #62962,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11226,61,2026-06-05,0.0000,3136.0000,AR-Cebu check deposit BDO OPEX THE INSULAR LIFE ASSURANCE COMPANY LTD june 5 — #62962,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11226,61,2026-06-05,0.0000,3136.0000,AR-Cebu check deposit BDO OPEX THE INSULAR LIFE ASSURANCE COMPANY LTD june 5 — #62962,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11226,61,2026-06-05,0.0000,3136.0000,AR-Cebu check deposit BDO OPEX THE INSULAR LIFE ASSURANCE COMPANY LTD june 5 — #62962,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11226,61,2026-06-05,0.0000,392.0000,AR-Cebu check deposit BDO OPEX THE INSULAR LIFE ASSURANCE COMPANY LTD june 5 — #62962,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11227,61,2026-06-05,0.0000,721848.4000,AR-Cebu check deposit BDO OPEX ASALUS CORPORATION june 5 — #62963,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11227,61,2026-06-05,0.0000,709566.0600,AR-Cebu check deposit BDO OPEX ASALUS CORPORATION june 5 — #62963,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11228,61,2026-06-05,0.0000,10800.0000,AR-Cebu check deposit BDO OPEX FREMONT ENGINEERING DESIGN SERVICE june 5 — #62965,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11232,61,2026-06-05,0.0000,36458.0000,To record Credit Cards mbtc June 5 — #63000,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11234,61,2026-06-05,0.0000,5880.0000,AR-Cebu check deposit BDO OPEX FAST DISTRIBUTION CORPORATION june 5 — #63164,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11231,605,2026-06-05,1276.0300,0.0000,To record Credit Cards bank charge mbtc June 5 — #62999,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11254,53,2026-06-05,0.0000,39204.0000,Payment: BIOLAB MEDICAL SUPPLIES — 0001340078,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11254,53,2026-06-05,0.0000,88035.7500,Payment: BIOLAB MEDICAL SUPPLIES — 0001340078,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11254,53,2026-06-05,0.0000,19602.0000,Payment: BIOLAB MEDICAL SUPPLIES — 0001340078,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11252,53,2026-06-05,0.0000,42483.0000,Payment: ENA COMMERCIAL AND PRINTING SERVICES — 0001340076,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11252,53,2026-06-05,0.0000,91348.9900,Payment: ENA COMMERCIAL AND PRINTING SERVICES — 0001340076,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11252,53,2026-06-05,0.0000,32193.0000,Payment: ENA COMMERCIAL AND PRINTING SERVICES — 0001340076,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11253,53,2026-06-05,0.0000,9514.2900,Payment: CEBU FAR EASTERN DRUG INC. — 0001340077,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11253,53,2026-06-05,0.0000,19028.5700,Payment: CEBU FAR EASTERN DRUG INC. — 0001340077,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11256,53,2026-06-05,0.0000,23096.9200,Payment: JAV MARKETING — 0001340083,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11255,53,2026-06-05,0.0000,115556.1300,"Payment: Avega Managed Care, Inc — 0001340080",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11224,53,2026-06-05,3320.0000,0.0000,AR-Cebu check deposit BDO OPEX MEHITABEL INCORPORATED june 5 — #62959,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11224,53,2026-06-05,3320.0000,0.0000,AR-Cebu check deposit BDO OPEX MEHITABEL INCORPORATED june 5 — #62959,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11225,53,2026-06-05,234808.0000,0.0000,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc june 5 — #62960,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11225,53,2026-06-05,48235.6000,0.0000,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc june 5 — #62960,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11225,53,2026-06-05,31889.2000,0.0000,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc june 5 — #62960,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11225,53,2026-06-05,21471.8000,0.0000,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc june 5 — #62960,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11225,53,2026-06-05,207755.1000,0.0000,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc june 5 — #62960,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11225,53,2026-06-05,60123.9800,0.0000,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc june 5 — #62960,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11225,53,2026-06-05,139665.1900,0.0000,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc june 5 — #62960,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11225,53,2026-06-05,207060.2800,0.0000,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc june 5 — #62960,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11225,53,2026-06-05,22520.4000,0.0000,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc june 5 — #62960,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11225,53,2026-06-05,13524.0000,0.0000,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc june 5 — #62960,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11225,53,2026-06-05,164022.6000,0.0000,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc june 5 — #62960,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11225,53,2026-06-05,57080.1000,0.0000,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc june 5 — #62960,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11226,53,2026-06-05,6272.0000,0.0000,AR-Cebu check deposit BDO OPEX THE INSULAR LIFE ASSURANCE COMPANY LTD june 5 — #62962,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11226,53,2026-06-05,3136.0000,0.0000,AR-Cebu check deposit BDO OPEX THE INSULAR LIFE ASSURANCE COMPANY LTD june 5 — #62962,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11226,53,2026-06-05,2058.0000,0.0000,AR-Cebu check deposit BDO OPEX THE INSULAR LIFE ASSURANCE COMPANY LTD june 5 — #62962,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11226,53,2026-06-05,3136.0000,0.0000,AR-Cebu check deposit BDO OPEX THE INSULAR LIFE ASSURANCE COMPANY LTD june 5 — #62962,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11226,53,2026-06-05,882.0000,0.0000,AR-Cebu check deposit BDO OPEX THE INSULAR LIFE ASSURANCE COMPANY LTD june 5 — #62962,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11226,53,2026-06-05,3136.0000,0.0000,AR-Cebu check deposit BDO OPEX THE INSULAR LIFE ASSURANCE COMPANY LTD june 5 — #62962,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11226,53,2026-06-05,3136.0000,0.0000,AR-Cebu check deposit BDO OPEX THE INSULAR LIFE ASSURANCE COMPANY LTD june 5 — #62962,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11226,53,2026-06-05,3136.0000,0.0000,AR-Cebu check deposit BDO OPEX THE INSULAR LIFE ASSURANCE COMPANY LTD june 5 — #62962,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11226,53,2026-06-05,392.0000,0.0000,AR-Cebu check deposit BDO OPEX THE INSULAR LIFE ASSURANCE COMPANY LTD june 5 — #62962,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11227,53,2026-06-05,721848.4000,0.0000,AR-Cebu check deposit BDO OPEX ASALUS CORPORATION june 5 — #62963,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11227,53,2026-06-05,709566.0600,0.0000,AR-Cebu check deposit BDO OPEX ASALUS CORPORATION june 5 — #62963,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11228,53,2026-06-05,10800.0000,0.0000,AR-Cebu check deposit BDO OPEX FREMONT ENGINEERING DESIGN SERVICE june 5 — #62965,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11234,53,2026-06-05,5880.0000,0.0000,AR-Cebu check deposit BDO OPEX FAST DISTRIBUTION CORPORATION june 5 — #63164,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11267,1,2026-06-05,0.0000,15500.0000,Payment: IRISH F. BURNASAL — Online-06052026,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11267,1,2026-06-05,0.0000,17224.9800,Payment: Honey Mae Miller-Joseph — Online-06052026,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11267,1,2026-06-05,0.0000,5439.8300,Payment: JOHN MARL M. ABAPO — Online-06052026,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11267,1,2026-06-05,0.0000,1728.0000,Payment: MICHAEL DANDIE FRASCO — Online-06052026,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11266,1,2026-06-05,0.0000,15227.7200,Payment: KEITH LAWRENCE O. TOLENTINO — 6000396907,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11217,1,2026-06-05,1568.0000,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit June 5 — #62951,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11218,1,2026-06-05,251693.4000,0.0000,To record receipts sales BPI AR-Cebu PHILHEALTHCARE june 5 — #62952,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11218,1,2026-06-05,15591.8000,0.0000,To record receipts sales BPI AR-Cebu PHILHEALTHCARE june 5 — #62952,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11218,1,2026-06-05,32104.8000,0.0000,To record receipts sales BPI AR-Cebu PHILHEALTHCARE june 5 — #62952,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11230,1,2026-06-05,0.0000,2176492.7100,to record Payroll payout June 5 — #62969,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11230,1,2026-06-05,0.0000,254208.4800,to record Payroll payout June 5 - YA — #62969,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11231,41,2026-06-05,0.0000,1276.0300,To record Credit Cards bank charge mbtc June 5 — #62999,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11232,41,2026-06-05,36458.0000,0.0000,To record Credit Cards mbtc June 5 — #63000,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11220,5,2026-06-05,2820.0000,0.0000,Cash - Security Bank CPCI - OPEX Gcash June 5 — #62954,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11221,5,2026-06-05,4590.0000,0.0000,To record receipts of SBC OPEX Debit Card June 5 — #62955,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11222,5,2026-06-05,588.0000,0.0000,To record receipts of SBC AR-Terms for INLIFE BENEFITS INSURANCE COMPANY June 5 — #62956,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11223,5,2026-06-05,25904.8200,0.0000,To record receipts of SBC CREDIT CARD June 5 — #62958,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11229,1761,2026-06-05,12688.1000,0.0000,Cash and Cash Equivalents Transactions Time Deposit Interest Income - 06/05/2026 — #62966,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11233,1761,2026-06-05,10029614.0000,0.0000,"Cash and Cash Equivalents Transactions Time Deposit Roll-over - Maturity Date: June 23, 2026 — #63163",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11233,1761,2026-06-05,0.0000,10029614.0000,"Cash and Cash Equivalents Transactions Time Deposit Roll-over - Maturity Date: June 23, 2026 — #63163",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11251,245,2026-06-05,0.0000,631.5100,"CHONG HUA HOSPITAL MANDAUE - 2% EWT on: Payment for laboratory send outs as of May 07, 2026 Reference no. 0200012252 — RFP No.# 6189",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11250,245,2026-06-05,0.0000,373.9600,"CHONG HUA HOSPITAL MANDAUE - 2% EWT on: Payment for laboratory send outs as of May 05, 2026 Reference no. 0200012176 — RFP No.# 6188",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11249,245,2026-06-05,0.0000,476.1700,"CHONG HUA HOSPITAL MANDAUE - 2% EWT on: Payment for laboratory send outs as of May 06, 2026 Reference no. 0200012201 — RFP No.# 6187",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11248,245,2026-06-05,0.0000,521.3800,"CHONG HUA HOSPITAL MANDAUE - 2% EWT on: Payment for laboratory send outs as of May 04, 2026 Reference no. 0200012107 — RFP No.# 6186",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11247,245,2026-06-05,0.0000,786.5900,"CHONG HUA HOSPITAL MANDAUE - 2% EWT on: Payment for laboratory send outs as of May 02, 2026 Reference no. 0200012037 — RFP No.# 6185",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11246,245,2026-06-05,0.0000,609.7700,"CHONG HUA HOSPITAL MANDAUE - 2% EWT on: Payment for laboratory send outs as of May 19, 2026, Reference no. 0200012805 — RFP No.# 6184",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11245,245,2026-06-05,0.0000,753.7900,"CHONG HUA HOSPITAL MANDAUE - 2% EWT on: Payment for laboratory send outs as of May 18, 2026 Reference no. 0200012768 — RFP No.# 6183",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11244,245,2026-06-05,0.0000,763.0500,"CHONG HUA HOSPITAL MANDAUE - 2% EWT on: Payment for laboratory send outs as of May 21, 2026 Reference no. 0200012897 — RFP No.# 6182",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11243,245,2026-06-05,0.0000,789.6300,"CHONG HUA HOSPITAL MANDAUE - 2% EWT on: Payment for laboratory send outs as of May 20, 2026 Reference no. 0200012870 — RFP No.# 6181",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11242,245,2026-06-05,0.0000,335.8300,"CHONG HUA HOSPITAL MANDAUE - 2% EWT on: Payment for laboratory send outs as of April 30, 2026 Reference no. 0200011957 — RFP No.# 6180",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11240,245,2026-06-05,0.0000,983.4400,"CHONG HUA HOSPITAL MANDAUE - 2% EWT on Payment for laboratory send outs as of April 24, 2026 Reference no. 0200011688 — RFP No.# 6176",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11239,245,2026-06-05,0.0000,477.6700,"CHONG HUA HOSPITAL MANDAUE - 2% EWT on Payment for laboratory send outs as of April 09, 2026 Reference no. 0200011026 — RFP No.# 6175",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11238,245,2026-06-05,0.0000,874.3500,"CHONG HUA HOSPITAL MANDAUE - 2% EWT on Payment for laboratory send outs as of March 27, 2026 Reference no. 0200010586 — RFP No.# 6174",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11237,245,2026-06-05,0.0000,756.6600,"CHONG HUA HOSPITAL MANDAUE - 2% EWT on Payment for laboratory send outs as of Jan 14, 2026 Reference no. 0200007255 — RFP No.# 6173",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11241,245,2026-06-05,0.0000,675.9500,"CHONG HUA HOSPITAL MANDAUE - 2% EWT on: Payment for laboratory send outs as of April 27, 2026 Reference no. 0200011809 — RFP No.# 6178",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11236,245,2026-06-05,0.0000,651.6900,Red iCenter Technologies Corp. - 1% EWT on Fullpayment for Macbook Air M5 16gb Unified Memory; 512GB SSD Storage| CAPEX-26-0097| SI No.#27498 — 0626-000623,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11236,509,2026-06-05,7820.3600,0.0000,Red iCenter Technologies Corp. - Vat: Fullpayment for Macbook Air M5 16gb Unified Memory; 512GB SSD Storage| CAPEX-26-0097| SI No.#27498 — 0626-000623,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11229,1589,2026-06-05,0.0000,12688.1000,Cash and Cash Equivalents Transactions Time Deposit Interest Income - 06/05/2026 — #62966,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11236,393,2026-06-05,65169.6400,0.0000,Red iCenter Technologies Corp. - Vatable: Fullpayment for Macbook Air M5 16gb Unified Memory; 512GB SSD Storage| CAPEX-26-0097| SI No.#27498 — 0626-000623,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11219,1777,2026-06-05,0.0000,72520.0000,to record cash sales June 4 - — #62953,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11219,1777,2026-06-05,72520.0000,0.0000,to record cash sales June 4 - — #62953,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11231,1777,2026-06-05,0.0000,1276.0300,To record Credit Cards bank charge mbtc June 5 — #62999,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11231,1777,2026-06-05,1276.0300,0.0000,To record Credit Cards bank charge mbtc June 5 — #62999,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11235,1777,2026-06-05,0.0000,808594.0000,"Sales Branches June 05, 2026 - Cash Sales - June, 05 — #64213",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11235,1777,2026-06-05,808594.0000,0.0000,"Sales Branches June 05, 2026 - Laboratory/Diagnostics — #64213",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11274,1777,2026-06-06,0.0000,899506.0000,"Sales Branches June 06, 2026 - Cash Sales - June, 06 — #64231",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11274,1777,2026-06-06,899506.0000,0.0000,"Sales Branches June 06, 2026 - Laboratory/Diagnostics — #64231",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11297,217,2026-06-08,0.0000,30503.6000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6196,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11297,217,2026-06-08,610.0700,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6196,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11296,217,2026-06-08,0.0000,39336.6000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6195,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11296,217,2026-06-08,786.7300,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6195,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11295,217,2026-06-08,0.0000,9943.6000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6194,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11295,217,2026-06-08,198.8700,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6194,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11294,217,2026-06-08,0.0000,37815.9500,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6193,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11294,217,2026-06-08,756.3200,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6193,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11293,217,2026-06-08,0.0000,36669.5500,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6192,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11293,217,2026-06-08,733.3900,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6192,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11292,217,2026-06-08,0.0000,23004.6000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6191,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11292,217,2026-06-08,460.0900,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6191,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11290,217,2026-06-08,0.0000,30297.4000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6179,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11290,217,2026-06-08,605.9500,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6179,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11291,217,2026-06-08,0.0000,32868.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6190,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11291,217,2026-06-08,657.3600,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6190,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11277,77,2026-06-08,0.0000,10661.0000,Cash - Security Bank CPCI - OPEX Gcash June 8 — #63005,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11278,61,2026-06-08,0.0000,4188.0000,To record receipts of SBC OPEX Debit Card June 8 — #63009,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11279,61,2026-06-08,0.0000,154597.3300,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 8 — #63056,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11279,61,2026-06-08,0.0000,54309.3400,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 8 — #63056,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11279,61,2026-06-08,0.0000,41255.1100,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 8 — #63056,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11279,61,2026-06-08,0.0000,18436.7400,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 8 — #63056,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11279,61,2026-06-08,0.0000,18792.4800,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 8 — #63056,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11279,61,2026-06-08,0.0000,77545.4400,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 8 — #63056,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11280,61,2026-06-08,0.0000,17262.7000,"To record receipts of SBCAR-Terms MEDICARD PHILIPPINES, INC.June 8 — #63057",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11281,61,2026-06-08,0.0000,146805.6200,To record receipts of SBC CREDIT CARD June 8 — #63058,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11282,61,2026-06-08,0.0000,115885.0000,"AR-Cebu cash deposit BDO OPEX AVEGA MANAGED CARE, INC june 8 — #63061",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11284,61,2026-06-08,0.0000,10584.0000,To record receipts sales BPI AR-Cebu Unidentified deposit June 8 — #63176,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11284,61,2026-06-08,0.0000,294.0000,To record receipts sales BPI AR-Cebu Unidentified deposit June 8 — #63176,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11285,61,2026-06-08,0.0000,5311.6000,To record receipts of SBC AR-Terms for COOPERATIVE HEALTH MANAGEMENT FEDERjune 8 — #63178,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11285,61,2026-06-08,0.0000,294.0000,To record receipts of SBC AR-Terms for COOPERATIVE HEALTH MANAGEMENT FEDERjune 8 — #63178,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11286,61,2026-06-08,0.0000,13945.8900,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 8 — #63179,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11286,61,2026-06-08,0.0000,763.4200,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 8 — #63179,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11286,61,2026-06-08,0.0000,2254.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 8 — #63179,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11287,61,2026-06-08,0.0000,103389.5000,To record Credit Cards mbtc June 8 — #63180,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11283,605,2026-06-08,50.0000,0.0000,Manadaue City Treasurer - Manager's Check Bank Charge — #63067,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11288,605,2026-06-08,3618.6300,0.0000,To record Credit Cards bank charge mbtc June 8 — #63181,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11282,53,2026-06-08,115885.0000,0.0000,"AR-Cebu cash deposit BDO OPEX AVEGA MANAGED CARE, INC june 8 — #63061",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11283,53,2026-06-08,0.0000,50.0000,Manadaue City Treasurer - Manager's Check Bank Charge — #63067,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11284,1,2026-06-08,10584.0000,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit June 8 — #63176,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11284,1,2026-06-08,294.0000,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit June 8 — #63176,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11287,41,2026-06-08,103389.5000,0.0000,To record Credit Cards mbtc June 8 — #63180,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11288,41,2026-06-08,0.0000,3618.6300,To record Credit Cards bank charge mbtc June 8 — #63181,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11277,5,2026-06-08,10661.0000,0.0000,Cash - Security Bank CPCI - OPEX Gcash June 8 — #63005,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11278,5,2026-06-08,4188.0000,0.0000,To record receipts of SBC OPEX Debit Card June 8 — #63009,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11279,5,2026-06-08,154597.3300,0.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 8 — #63056,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11279,5,2026-06-08,54309.3400,0.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 8 — #63056,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11279,5,2026-06-08,41255.1100,0.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 8 — #63056,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11279,5,2026-06-08,18436.7400,0.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 8 — #63056,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11279,5,2026-06-08,18792.4800,0.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 8 — #63056,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11279,5,2026-06-08,77545.4400,0.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 8 — #63056,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11280,5,2026-06-08,17262.7000,0.0000,"To record receipts of SBCAR-Terms MEDICARD PHILIPPINES, INC.June 8 — #63057",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11281,5,2026-06-08,146805.6200,0.0000,To record receipts of SBC CREDIT CARD June 8 — #63058,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11285,5,2026-06-08,5311.6000,0.0000,To record receipts of SBC AR-Terms for COOPERATIVE HEALTH MANAGEMENT FEDERjune 8 — #63178,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11285,5,2026-06-08,294.0000,0.0000,To record receipts of SBC AR-Terms for COOPERATIVE HEALTH MANAGEMENT FEDERjune 8 — #63178,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11286,5,2026-06-08,13945.8900,0.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 8 — #63179,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11286,5,2026-06-08,763.4200,0.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 8 — #63179,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11286,5,2026-06-08,2254.0000,0.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 8 — #63179,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11297,245,2026-06-08,0.0000,610.0700,"CHONG HUA HOSPITAL MANDAUE - 2% EWT on: Payment for laboratory send outs as of May 16, 2026 Reference no. 0200012714 — RFP No.# 6196",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11296,245,2026-06-08,0.0000,786.7300,"CHONG HUA HOSPITAL MANDAUE - 2% EWT on: Payment for laboratory send outs as of May 15, 2026 Reference no. 0200012661 — RFP No.# 6195",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11295,245,2026-06-08,0.0000,198.8700,"CHONG HUA HOSPITAL MANDAUE - 2% EWT on: Payment for laboratory send outs as of May 14, 2026 Reference no. 0200012543 — RFP No.# 6194",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11294,245,2026-06-08,0.0000,756.3200,"CHONG HUA HOSPITAL MANDAUE - 2% EWT on: Payment for laboratory send outs as of May 13, 2026 Reference no. 0200012477 — RFP No.# 6193",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11293,245,2026-06-08,0.0000,733.3900,"CHONG HUA HOSPITAL MANDAUE - 2% EWT on: Payment for laboratory send outs as of May 11, 2026 Reference no. 0200012401 — RFP No.# 6192",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11292,245,2026-06-08,0.0000,460.0900,"CHONG HUA HOSPITAL MANDAUE - 2% EWT on: Payment for laboratory send outs as of May 12, 2026 Reference no. 0200012428 — RFP No.# 6191",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11290,245,2026-06-08,0.0000,605.9500,"CHONG HUA HOSPITAL MANDAUE - 2% EWT on: Payment for laboratory send outs as of May 01, 2026 Reference no. 0200011991 — RFP No.# 6179",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11291,245,2026-06-08,0.0000,657.3600,CHONG HUA HOSPITAL MANDAUE - 2% EWT on: Payment for laboratory send outs as of May 08 2026 Reference no. 0200012283 — RFP No.# 6190,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11275,1777,2026-06-08,0.0000,82551.0000,to record cash sales June 6 - — #63002,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11275,1777,2026-06-08,82551.0000,0.0000,to record cash sales June 6 - — #63002,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11276,1777,2026-06-08,0.0000,93429.0000,to record cash sales June 5 - — #63004,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11276,1777,2026-06-08,93429.0000,0.0000,to record cash sales June 5 - — #63004,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11288,1777,2026-06-08,0.0000,3618.6300,To record Credit Cards bank charge mbtc June 8 — #63181,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11288,1777,2026-06-08,3618.6300,0.0000,To record Credit Cards bank charge mbtc June 8 — #63181,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11289,1777,2026-06-08,0.0000,639240.0000,"Sales Branches June 08, 2026 - Cash Sales - June, 08 — #63262",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11289,1777,2026-06-08,639240.0000,0.0000,"Sales Branches June 08, 2026 - Laboratory/Diagnostics — #63262",1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11310,217,2026-06-09,0.0000,126000.0000,GRETHEL FURNITURE SUB-CONTRACTING SERVICES — 0626-000621,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11316,217,2026-06-09,22982.9500,0.0000,Payment: NEW KEEN'S TRADING — 0126-000109,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11317,217,2026-06-09,27769.8200,0.0000,Payment: NEW KEEN'S TRADING — 0226-000223,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11311,217,2026-06-09,0.0000,33297.1500,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6177,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11311,217,2026-06-09,665.9400,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6177,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11312,217,2026-06-09,0.0000,6870.4800,BRYAN ALBERT LIM — RFP No.# 6210,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11313,217,2026-06-09,0.0000,19987.7000,Rhea Mae Gesulga — RFP No.# 6221,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11314,217,2026-06-09,0.0000,25300.0000,OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 6223,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11300,77,2026-06-09,0.0000,480.0000,Cash - Security Bank CPCI - OPEX Gcash June 9 — #63185,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11298,61,2026-06-09,0.0000,4410.0000,To record receipts sales BPI AR-Cebu Unidentified deposit June 9 — #63182,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11301,61,2026-06-09,0.0000,400.0000,To record receipts of SBC OPEX Debit Card June 9 — #63186,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11302,61,2026-06-09,0.0000,600.0000,To record receipts of SBC AR-Terms for ADVANCED MEDICAL ACCESS PHILIPPINES June 9 — #63188,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11302,61,2026-06-09,0.0000,600.0000,To record receipts of SBC AR-Terms for ADVANCED MEDICAL ACCESS PHILIPPINES June 9 — #63188,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11302,61,2026-06-09,0.0000,600.0000,To record receipts of SBC AR-Terms for ADVANCED MEDICAL ACCESS PHILIPPINES June 9 — #63188,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11302,61,2026-06-09,0.0000,990.0000,To record receipts of SBC AR-Terms for ADVANCED MEDICAL ACCESS PHILIPPINES June 9 — #63188,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11302,61,2026-06-09,0.0000,15540.0000,To record receipts of SBC AR-Terms for ADVANCED MEDICAL ACCESS PHILIPPINES June 9 — #63188,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11302,61,2026-06-09,0.0000,1200.0000,To record receipts of SBC AR-Terms for ADVANCED MEDICAL ACCESS PHILIPPINES June 9 — #63188,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11303,61,2026-06-09,0.0000,100000.0000,To record receipts of SBC AR-Terms for PHILIPPINE BRITISH LIFE AND GENERAL June 9 — #63189,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11303,61,2026-06-09,0.0000,96235.0000,To record receipts of SBC AR-Terms for PHILIPPINE BRITISH LIFE AND GENERAL June 9 — #63189,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11303,61,2026-06-09,0.0000,100000.0000,To record receipts of SBC AR-Terms for PHILIPPINE BRITISH LIFE AND GENERAL June 9 — #63189,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11304,61,2026-06-09,0.0000,46829.3300,To record receipts of SBC CREDIT CARD June 9 — #63190,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11306,61,2026-06-09,0.0000,6359.6600,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 9 — #63228,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11306,61,2026-06-09,0.0000,842.8000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 9 — #63228,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11306,61,2026-06-09,0.0000,4695.1800,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 9 — #63228,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11306,61,2026-06-09,0.0000,1832.6000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 9 — #63228,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11306,61,2026-06-09,0.0000,22511.5800,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 9 — #63228,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11306,61,2026-06-09,0.0000,10623.2000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 9 — #63228,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11306,61,2026-06-09,0.0000,11080.3700,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP June 9 — #63228,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11307,61,2026-06-09,0.0000,26474.9900,To record Credit Cards mbtc June 9 — #63230,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11308,605,2026-06-09,926.6200,0.0000,To record Credit Cards bank charge mbtc June 9 — #63231,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11315,45,2026-06-09,0.0000,22982.9500,Payment: NEW KEEN'S TRADING — 0001352104,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11315,45,2026-06-09,0.0000,27769.8200,Payment: NEW KEEN'S TRADING — 0001352104,1,0,2026-06-30 23:59:59,0
+\N,journal_entry,11305,53,2026-06-09,1300000.0000,0.0000,Fund transfer FT from SBC-OpEx TO BDO-OPEX june 9 — #63191,1,0,2026-06-30 23:59:59,0

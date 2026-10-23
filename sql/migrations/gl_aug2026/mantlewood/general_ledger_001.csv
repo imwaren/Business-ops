@@ -1,0 +1,501 @@
+branch_id,source,source_id,account_type_id,date,debit,credit,remark,is_migrated,added_by,added_on,is_deleted
+7,journal_entry,47305,61,2026-08-01,7770.0000,0.0000,"Sales Branches August 1, 2026 - Credit Card Sales - August, 01 — #72905",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47305,13,2026-08-01,790.0000,0.0000,"Sales Branches August 1, 2026 - Cash Sales - August, 01 — #72905",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47305,1613,2026-08-01,0.0000,800.0000,"Sales Branches August 1, 2026 - Consultations — #72905",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47305,1625,2026-08-01,710.0000,0.0000,"Sales Branches August 1, 2026 - Sales Discounts - August, 01 — #72905",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47305,1645,2026-08-01,0.0000,390.0000,"Sales Branches August 1, 2026 - Laboratory/Diagnostics — #72905",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47305,1645,2026-08-01,0.0000,8080.0000,"Sales Branches August 1, 2026 - Laboratory/Diagnostics — #72905",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47311,217,2026-08-03,0.0000,35000.0000,Point Up Studios — RFP No.# 6657,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47312,217,2026-08-03,35000.0000,0.0000,Payment: Point Up Studios — RFP No.# 6657,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47310,217,2026-08-03,0.0000,7910714.2900,"BIOSYN HEALTHCARE SYSTEMS, INC. — 0826-000841",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47308,217,2026-08-03,0.0000,50465.2500,YDYL DEVELOPMENT — 0726-000834,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47309,217,2026-08-03,0.0000,2602678.5700,SHIMADZU PHILIPPINES CORPORATION — 0826-000840,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47311,89,2026-08-03,35000.0000,0.0000,Point Up Studios - 70% Downpayment for Photo & Video Coverage (Clinic Shoot & for Grand Opening) — RFP No.# 6657,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47310,213,2026-08-03,3680000.0000,0.0000,"BIOSYN HEALTHCARE SYSTEMS, INC. - Vat: 80% Fullpayment fro Versana Balance R3 (Full Configuration) Utz Machine| CAPEX-26-0109 SI no.6090 — 0826-000841",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47310,213,2026-08-03,4320000.0000,0.0000,"BIOSYN HEALTHCARE SYSTEMS, INC. - ultrasound Versana Premier R3 (full configuration) utz machines PO CAPEX 26-0109 BIOSYN HEALTHCARE SYSTEMS, INC. — 0826-000841",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47309,213,2026-08-03,2650000.0000,0.0000,SHIMADZU PHILIPPINES CORPORATION - 50% Full payment for radiographic system with flat panel detector CAPEX-26-0037 — 0826-000840,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47307,61,2026-08-03,2128.0000,0.0000,"Sales Branches August 3, 2026 - Credit Card Sales - August, 03 — #77845",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47312,1,2026-08-03,0.0000,35000.0000,Payment: Point Up Studios — RFP No.# 6657,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47306,1,2026-08-03,790.0000,0.0000,"to record cash sales July 31, august 1 - 1 — #71961",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47306,13,2026-08-03,0.0000,790.0000,"to record cash sales July 31, august 1 - 1 — #71961",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47307,13,2026-08-03,1310.0000,0.0000,"Sales Branches August 3, 2026 - Cash Sales - August, 03 — #77845",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47307,1613,2026-08-03,0.0000,1000.0000,"Sales Branches August 3, 2026 - Consultations — #77845",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47307,1625,2026-08-03,92.0000,0.0000,"Sales Branches August 3, 2026 - Sales Discounts - August, 03 — #77845",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47310,245,2026-08-03,0.0000,89285.7100,"BIOSYN HEALTHCARE SYSTEMS, INC. - 1% EWT on: 80% Fullpayment fro Versana Balance R3 (Shared & Full Configuration) Utz Machine| CAPEX-26-0109 SI no.6090 — 0826-000841",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47308,245,2026-08-03,0.0000,509.7500,YDYL DEVELOPMENT - 1% EWT on:Payment for 5units of Computer Set for RDT: Intel Core 13 6th Gen; 1TB Hard Drive/128 SSD| CAPEX-26-0158 SI no.012723308 — 0726-000834,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47309,245,2026-08-03,0.0000,47321.4300,SHIMADZU PHILIPPINES CORPORATION - 1% EWT on: 100% Fullpayment radiographic system with flat panel detector | CAPEX-26-0037 SI no.2846 — 0826-000840,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47307,1633,2026-08-03,0.0000,100.0000,"Sales Branches August 3, 2026 - Health services — #77845",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47308,393,2026-08-03,10195.0000,0.0000,YDYL DEVELOPMENT - Nonvat: Payment for 5units of Computer Set for RDT: Intel Core 13 6th Gen; 1TB Hard Drive/128 SSD| CAPEX-26-0158 SI no.012723308 — 0726-000834,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47308,393,2026-08-03,10195.0000,0.0000,YDYL DEVELOPMENT - Nonvat: Payment for 5units of Computer Set for RDT: Intel Core 13 6th Gen; 1TB Hard Drive/128 SSD| CAPEX-26-0158 SI no.012723308 — 0726-000834,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47308,393,2026-08-03,10195.0000,0.0000,YDYL DEVELOPMENT - Nonvat: Payment for 5units of Computer Set for RDT: Intel Core 13 6th Gen; 1TB Hard Drive/128 SSD| CAPEX-26-0158 SI no.012723308 — 0726-000834,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47308,393,2026-08-03,10195.0000,0.0000,YDYL DEVELOPMENT - Nonvat: Payment for 5units of Computer Set for RDT: Intel Core 13 6th Gen; 1TB Hard Drive/128 SSD| CAPEX-26-0158 SI no.012723308 — 0726-000834,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47308,393,2026-08-03,10195.0000,0.0000,YDYL DEVELOPMENT - Nonvat: Payment for 5units of Computer Set for RDT: Intel Core 13 6th Gen; 1TB Hard Drive/128 SSD| CAPEX-26-0158 SI no.012723308 — 0726-000834,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47307,1645,2026-08-03,0.0000,390.0000,"Sales Branches August 3, 2026 - Laboratory/Diagnostics — #77845",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47307,1645,2026-08-03,0.0000,2040.0000,"Sales Branches August 3, 2026 - Laboratory/Diagnostics — #77845",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47316,217,2026-08-04,60445.4500,0.0000,Payment: Red iCenter Technologies Corp. — 0726-000806,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47318,217,2026-08-04,3090.0000,0.0000,Payment: DITO Telecommunity Corporation — RFP No.# 6639,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47315,217,2026-08-04,0.0000,15000.0000,Mary Ann Emphasis — RFP No.# 6667,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47321,217,2026-08-04,15000.0000,0.0000,Payment: Mary Ann Emphasis — RFP No.# 6667,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47319,217,2026-08-04,55294.7000,0.0000,"Payment: MEDICAL PHYSICS AND HEALTH PHYSICS SERVICES, INC. — RFP No.# 6642",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47317,217,2026-08-04,247500.0000,0.0000,Payment: HANZ DENTAL AND MEDICAL EQUIPMENT SUPPLY — 0826-000839,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47315,85,2026-08-04,15000.0000,0.0000,Mary Ann Emphasis - Payment for Cash advance for meals and representation for ct performance testing mantlewood | CA-0317 — RFP No.# 6667,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47314,77,2026-08-04,560.0000,0.0000,"Sales Branches August 4, 2026 - Gcash Sales - August, 04 — #77857",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47316,45,2026-08-04,0.0000,60445.4500,Payment: Red iCenter Technologies Corp. — 0726-000806,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47317,45,2026-08-04,0.0000,247500.0000,Payment: HANZ DENTAL AND MEDICAL EQUIPMENT SUPPLY — 0826-000839,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47318,1,2026-08-04,0.0000,3090.0000,Payment: DITO Telecommunity Corporation — RFP No.# 6639,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47320,1,2026-08-04,0.0000,1965.7500,Payment: Rhea Mae Gesulga — RFP No.# 6663,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47321,1,2026-08-04,0.0000,15000.0000,Payment: Mary Ann Emphasis — RFP No.# 6667,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47319,1,2026-08-04,0.0000,55294.7000,"Payment: MEDICAL PHYSICS AND HEALTH PHYSICS SERVICES, INC. — RFP No.# 6642",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47313,1,2026-08-04,1310.0000,0.0000,to record cash sales august 3 — #73034,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47313,13,2026-08-04,0.0000,1310.0000,to record cash sales august 3 — #73034,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47314,13,2026-08-04,868.0000,0.0000,"Sales Branches August 4, 2026 - Cash Sales - August, 04 — #77857",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47314,1613,2026-08-04,0.0000,700.0000,"Sales Branches August 4, 2026 - Consultations — #77857",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47314,1625,2026-08-04,182.0000,0.0000,"Sales Branches August 4, 2026 - Sales Discounts - August, 04 — #77857",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47314,1645,2026-08-04,0.0000,210.0000,"Sales Branches August 4, 2026 - Laboratory/Diagnostics — #77857",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47314,1645,2026-08-04,0.0000,700.0000,"Sales Branches August 4, 2026 - Laboratory/Diagnostics — #77857",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47324,217,2026-08-05,0.0000,10692.0000,NELSIE RITA MARIE M. SON — RFP No.# 6662,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47324,585,2026-08-05,6696.4300,0.0000,NELSIE RITA MARIE M. SON - Vatable: Payment for Audio Rental (Reimbursment) — RFP No.# 6662,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47323,77,2026-08-05,3802.0000,0.0000,"Sales Branches August 5, 2026 - Gcash Sales - August, 05 — #77991",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47322,1,2026-08-05,868.0000,0.0000,to record cash sales august 4 — #73024,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47322,13,2026-08-05,0.0000,868.0000,to record cash sales august 4 — #73024,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47323,13,2026-08-05,3588.0000,0.0000,"Sales Branches August 5, 2026 - Cash Sales - August, 05 — #77991",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47323,1613,2026-08-05,0.0000,1200.0000,"Sales Branches August 5, 2026 - Consultations — #77991",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47323,1625,2026-08-05,1510.0000,0.0000,"Sales Branches August 5, 2026 - Sales Discounts - August, 05 — #77991",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47323,1633,2026-08-05,0.0000,400.0000,"Sales Branches August 5, 2026 - Health services — #77991",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47324,685,2026-08-05,803.5700,0.0000,NELSIE RITA MARIE M. SON - Vat: Payment for Audio Rental (Reimbursment) — RFP No.# 6662,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47323,1645,2026-08-05,0.0000,1550.0000,"Sales Branches August 5, 2026 - Laboratory/Diagnostics — #77991",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47323,1645,2026-08-05,0.0000,5750.0000,"Sales Branches August 5, 2026 - Laboratory/Diagnostics — #77991",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47324,849,2026-08-05,2600.0000,0.0000,NELSIE RITA MARIE M. SON - Nondeductible: Downpayment & Balance for Candles (Reimbursement) — RFP No.# 6662,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47324,945,2026-08-05,592.0000,0.0000,NELSIE RITA MARIE M. SON - Nondeductible: Transportation Expenses (Reimbursement) — RFP No.# 6662,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47325,77,2026-08-06,480.0000,0.0000,"Sales Branches August 6, 2026 - Gcash Sales - August, 06 — #77923",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47325,61,2026-08-06,1140.0000,0.0000,"Sales Branches August 6, 2026 - Credit Card Sales - August, 06 — #77923",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47325,13,2026-08-06,11850.0000,0.0000,"Sales Branches August 6, 2026 - Cash Sales - August, 06 — #77923",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47325,1613,2026-08-06,0.0000,2850.0000,"Sales Branches August 6, 2026 - Consultations — #77923",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47325,1625,2026-08-06,120.0000,0.0000,"Sales Branches August 6, 2026 - Sales Discounts - August, 06 — #77923",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47325,1633,2026-08-06,0.0000,100.0000,"Sales Branches August 6, 2026 - Health services — #77923",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47325,1645,2026-08-06,0.0000,10640.0000,"Sales Branches August 6, 2026 - Laboratory/Diagnostics — #77923",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47330,217,2026-08-07,0.0000,14740.0000,"TUV Rheinland Philippines, Inc. — RFP No.# 6695",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47335,217,2026-08-07,151003.0500,0.0000,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 5314,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47334,217,2026-08-07,151003.0500,0.0000,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 5313,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47328,217,2026-08-07,0.0000,39642.8600,AO BIOMED & INDUSTRIAL MARKETING — 0826-000902,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47329,217,2026-08-07,0.0000,3270.5400,GALAXY TRADERS — 0826-000903,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47333,217,2026-08-07,0.0000,6707.7400,OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 6700,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47332,217,2026-08-07,0.0000,151003.0500,OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 6698,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47331,217,2026-08-07,0.0000,514096.7500,OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 6697,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47336,217,2026-08-07,10692.0000,0.0000,Payment: NELSIE RITA MARIE M. SON — RFP No.# 6662,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47337,217,2026-08-07,14740.0000,0.0000,"Payment: TUV Rheinland Philippines, Inc. — RFP No.# 6695",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47328,237,2026-08-07,40000.0000,0.0000,AO BIOMED & INDUSTRIAL MARKETING - Vatable: Payment for Hematocrit Centrifuge 24 Placer Digisystem| CAPEX-26-0160 SI no.A05134 — 0826-000902,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47333,237,2026-08-07,6829.7000,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vatable: Payment for MWTCclinic utilities (Electricity) ftp April 26- May26, 2026 |SI no. 005348-65063 — RFP No.# 6700",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47332,237,2026-08-07,153748.5600,0.0000,OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vatable: Payment for CUSA for the month of July 2026 SI no. 005941-62626 — RFP No.# 6698,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47327,77,2026-08-07,25.0000,0.0000,"Sales Branches August 7, 2026 - Gcash Sales - August, 07 — #77989",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47327,61,2026-08-07,710.0000,0.0000,"Sales Branches August 7, 2026 - Credit Card Sales - August, 07 — #77989",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47335,1,2026-08-07,0.0000,151003.0500,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 5314,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47334,1,2026-08-07,0.0000,151003.0500,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 5313,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47326,1,2026-08-07,3588.0000,0.0000,"to record cash sales august 5, 6 - 5 — #72994",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47326,1,2026-08-07,11850.0000,0.0000,"to record cash sales august 5, 6 - 6 — #72994",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47336,1,2026-08-07,0.0000,10692.0000,Payment: NELSIE RITA MARIE M. SON — RFP No.# 6662,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47337,1,2026-08-07,0.0000,14740.0000,"Payment: TUV Rheinland Philippines, Inc. — RFP No.# 6695",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47326,13,2026-08-07,0.0000,3588.0000,"to record cash sales august 5, 6 - 5 — #72994",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47326,13,2026-08-07,0.0000,11850.0000,"to record cash sales august 5, 6 - 6 — #72994",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47327,13,2026-08-07,6200.0000,0.0000,"Sales Branches August 7, 2026 - Cash Sales - August, 07 — #77989",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47327,1613,2026-08-07,0.0000,1400.0000,"Sales Branches August 7, 2026 - Consultations — #77989",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47330,669,2026-08-07,13400.0000,0.0000,"TUV Rheinland Philippines, Inc. - Vatable: Payment for Radiation Badge for Mantlewood Radtech (3 personnel badge & 1 background badge) — RFP No.# 6695",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47330,245,2026-08-07,0.0000,268.0000,"TUV Rheinland Philippines, Inc. - 2% EWT on: Payment for Radiation Badge for Mantlewood Radtech (3 personnel badge & 1 background badge) — RFP No.# 6695",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47328,245,2026-08-07,0.0000,357.1400,AO BIOMED & INDUSTRIAL MARKETING - 1% EWT on: Payment for Hematocrit Centrifuge 24 Placer Digisystem| CAPEX-26-0160 SI no.A05134 — 0826-000902,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47329,245,2026-08-07,0.0000,29.4600,GALAXY TRADERS - 1% EWT on Payment for Laminating Machine| CAPEX-26-0188 SI no.85899 — 0826-000903,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47333,245,2026-08-07,0.0000,121.9600,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - 2% EWT on Payment for MWTCclinic utilities (Water and Electricity) ftp April 26- May26, 2026 |SI no. 005348-65063 — RFP No.# 6700",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47332,245,2026-08-07,0.0000,2745.5100,OAKRIDGE REALTY DEVELOPMENT CORPORATION - 2% EWT on Payment for CUSA for the month of July 2026 SI no. 005941-62626 — RFP No.# 6698,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47331,245,2026-08-07,0.0000,24023.2100,OAKRIDGE REALTY DEVELOPMENT CORPORATION - 5% EWT on Payment for Retail 1-102 & Retail 1-103| Invoice No.005816-54668 — RFP No.# 6697,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47327,1633,2026-08-07,0.0000,200.0000,"Sales Branches August 7, 2026 - Health services — #77989",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47330,717,2026-08-07,1608.0000,0.0000,"TUV Rheinland Philippines, Inc. - Vat: Payment for Radiation Badge for Mantlewood Radtech (3 personnel badge & 1 background badge) — RFP No.# 6695",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47329,505,2026-08-07,353.5700,0.0000,GALAXY TRADERS - Vat: Payment for Laminating Machine| CAPEX-26-0188 SI no.85899 — 0826-000903,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47331,205,2026-08-07,57655.7100,0.0000,OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat: Payment for Retail 1-102 & Retail 1-103| Invoice No.005816-54668 July preoperating — RFP No.# 6697,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47327,1645,2026-08-07,0.0000,5335.0000,"Sales Branches August 7, 2026 - Laboratory/Diagnostics — #77989",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47329,369,2026-08-07,2946.4300,0.0000,GALAXY TRADERS - Vatable: Payment for Laminating Machine| CAPEX-26-0188 SI no.85899 — 0826-000903,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47331,173,2026-08-07,480464.2500,0.0000,OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vatable: Payment for Retail 1-102 & Retail 1-103| Invoice No.005816-54668 July preoperating — RFP No.# 6697,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47338,77,2026-08-08,7913.0000,0.0000,"Sales Branches August 8, 2026 - Gcash Sales - August, 08 — #77993",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47338,13,2026-08-08,990.0000,0.0000,"Sales Branches August 8, 2026 - Cash Sales - August, 08 — #77993",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47338,1625,2026-08-08,662.0000,0.0000,"Sales Branches August 8, 2026 - Sales Discounts - August, 08 — #77993",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47338,1633,2026-08-08,0.0000,200.0000,"Sales Branches August 8, 2026 - Health services — #77993",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47338,1645,2026-08-08,0.0000,6280.0000,"Sales Branches August 8, 2026 - Laboratory/Diagnostics — #77993",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47338,1645,2026-08-08,0.0000,3085.0000,"Sales Branches August 8, 2026 - Laboratory/Diagnostics — #77993",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47346,217,2026-08-10,0.0000,235.0800,ANDY CHRISTIAN ACUÑA — RFP No.# 6721-6,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47345,217,2026-08-10,0.0000,87.0200,LLOYD VINCENT M. BASS — RFP No.# 6721-5,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47344,217,2026-08-10,0.0000,264.0600,HAROLD JAMES ESTRADA — RFP No.# 6721-4,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47342,217,2026-08-10,0.0000,598.5000,RAMON EARL LABRADA — RFP No.# 6721-2,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47341,217,2026-08-10,0.0000,567.0000,CONCORDIO JOHN T. TORING — RFP No.# 6721-1,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47343,217,2026-08-10,0.0000,2364.5200,RUDOLFO MARK BRIONES ABANILLA — RFP No.# 6721-3,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47340,77,2026-08-10,100.0000,0.0000,"Sales Branches August 10, 2026 - Gcash Sales - August, 10 — #77996",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47340,65,2026-08-10,7500.0000,0.0000,"Sales Branches August 10, 2026 - Term Sales - August, 10 — #77996",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47339,1,2026-08-10,6200.0000,0.0000,"to record cash sales august 7,8 - 7 — #73013",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47339,1,2026-08-10,990.0000,0.0000,"to record cash sales august 7,8 - 8 — #73013",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47339,13,2026-08-10,0.0000,6200.0000,"to record cash sales august 7,8 - 7 — #73013",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47339,13,2026-08-10,0.0000,990.0000,"to record cash sales august 7,8 - 8 — #73013",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47340,13,2026-08-10,3252.0000,0.0000,"Sales Branches August 10, 2026 - Cash Sales - August, 10 — #77996",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47340,1625,2026-08-10,788.0000,0.0000,"Sales Branches August 10, 2026 - Sales Discounts - August, 10 — #77996",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47346,245,2026-08-10,0.0000,26.1200,ANDY CHRISTIAN ACUÑA - 10% EWT on Payment for Doctor's PF (Reading) for the month of July 2026 — RFP No.# 6721-6,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47345,245,2026-08-10,0.0000,4.5800,LLOYD VINCENT M. BASS - 5% EWT on: Payment for Doctor's PF (Reading) for the month of July 2026 — RFP No.# 6721-5,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47344,245,2026-08-10,0.0000,29.3400,HAROLD JAMES ESTRADA - 10% EWT on Payment for Doctor's PF (Reading) for the month of July 2026 — RFP No.# 6721-4,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47342,245,2026-08-10,0.0000,31.5000,RAMON EARL LABRADA - 5% EWT on: Payment for Doctor's PF (Consultations) for the month of July 2026 — RFP No.# 6721-2,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47341,245,2026-08-10,0.0000,63.0000,CONCORDIO JOHN T. TORING - 10% EWT on: Payment for Doctor's PF (Consultations) for the month of July 2026 — RFP No.# 6721-1,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47343,245,2026-08-10,0.0000,262.7200,RUDOLFO MARK BRIONES ABANILLA - 10% EWT on Payment for Doctor's PF (Consultations & Procedure) for the month of July 2026 — RFP No.# 6721-3,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47340,1633,2026-08-10,0.0000,200.0000,"Sales Branches August 10, 2026 - Health services — #77996",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47347,525,2026-08-10,9919.8200,0.0000,Bank of the Philippine Islands - vat: Ilaw Atbp (Linear Pendant & Led Lite) — RFP No.# 6727,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47347,505,2026-08-10,12062.5000,0.0000,Bank of the Philippine Islands - vatable: Mandaue Foam (Seater Sofa) cindy 3 seater sofa — RFP No.# 6727,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47347,505,2026-08-10,1447.5000,0.0000,Bank of the Philippine Islands - vat Mandaue Foam (Seater Sofa) cindy 3 seater sofa — RFP No.# 6727,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47347,505,2026-08-10,1447.5000,0.0000,Bank of the Philippine Islands - vat Mandaue Foam (Seater Sofa) cindy 3 seater sofa — RFP No.# 6727,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47347,505,2026-08-10,1447.5000,0.0000,Bank of the Philippine Islands - vat Mandaue Foam (Seater Sofa) cindy 3 seater sofa — RFP No.# 6727,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47347,505,2026-08-10,1447.5000,0.0000,Bank of the Philippine Islands - vat Mandaue Foam (Seater Sofa) cindy 3 seater sofa — RFP No.# 6727,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47347,505,2026-08-10,1447.5000,0.0000,Bank of the Philippine Islands - vat Mandaue Foam (Seater Sofa) cindy 3 seater sofa — RFP No.# 6727,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47347,505,2026-08-10,1447.5000,0.0000,Bank of the Philippine Islands - vat Mandaue Foam (Seater Sofa) cindy 3 seater sofa — RFP No.# 6727,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47347,505,2026-08-10,1117.5000,0.0000,Bank of the Philippine Islands - vat: Mandaue Foam (Seater Sofa) cindy 2 seater sofaa — RFP No.# 6727,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47347,505,2026-08-10,1117.5000,0.0000,Bank of the Philippine Islands - vat: Mandaue Foam (Seater Sofa) cindy 2 seater sofaa — RFP No.# 6727,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47347,505,2026-08-10,1117.5000,0.0000,Bank of the Philippine Islands - vat: Mandaue Foam (Seater Sofa) cindy 2 seater sofaa — RFP No.# 6727,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47347,505,2026-08-10,1117.5000,0.0000,Bank of the Philippine Islands - vat: Mandaue Foam (Seater Sofa) cindy 2 seater sofaa — RFP No.# 6727,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47347,205,2026-08-10,649.1200,0.0000,Bank of the Philippine Islands - vat: Mandaue Foam (Photo Frame) - Pre-Operating — RFP No.# 6727,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47347,205,2026-08-10,4165.6100,0.0000,Bank of the Philippine Islands - vat: Mandaue Foam (Various of Flower Pot) - Pre-Operating — RFP No.# 6727,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47340,1645,2026-08-10,0.0000,3940.0000,"Sales Branches August 10, 2026 - Laboratory/Diagnostics — #77996",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47340,1645,2026-08-10,0.0000,7500.0000,"Sales Branches August 10, 2026 - Laboratory/Diagnostics — #77996",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47347,373,2026-08-10,82665.1800,0.0000,Bank of the Philippine Islands - vatable: Ilaw Atbp (Linear Pendant & Led Lite) — RFP No.# 6727,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47347,369,2026-08-10,12062.5000,0.0000,Bank of the Philippine Islands - vatable: Mandaue Foam (Seater Sofa) cindy 3 seater sofa — RFP No.# 6727,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47347,369,2026-08-10,12062.5000,0.0000,Bank of the Philippine Islands - vatable: Mandaue Foam (Seater Sofa) cindy 3 seater sofa — RFP No.# 6727,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47347,369,2026-08-10,12062.5000,0.0000,Bank of the Philippine Islands - vatable: Mandaue Foam (Seater Sofa) cindy 3 seater sofa — RFP No.# 6727,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47347,369,2026-08-10,12062.5000,0.0000,Bank of the Philippine Islands - vatable: Mandaue Foam (Seater Sofa) cindy 3 seater sofa — RFP No.# 6727,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47347,369,2026-08-10,12062.5000,0.0000,Bank of the Philippine Islands - vatable: Mandaue Foam (Seater Sofa) cindy 3 seater sofaa — RFP No.# 6727,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47347,369,2026-08-10,9312.5000,0.0000,Bank of the Philippine Islands - vatable: Mandaue Foam (Seater Sofa) cindy 2 seater sofaa — RFP No.# 6727,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47347,369,2026-08-10,9312.5000,0.0000,Bank of the Philippine Islands - vatable: Mandaue Foam (Seater Sofa) cindy 2 seater sofaa — RFP No.# 6727,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47347,369,2026-08-10,9312.5000,0.0000,Bank of the Philippine Islands - vatable: Mandaue Foam (Seater Sofa) cindy 2 seater sofaa — RFP No.# 6727,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47347,369,2026-08-10,9312.5000,0.0000,Bank of the Philippine Islands - vatable: Mandaue Foam (Seater Sofa) cindy 2 seater sofaa — RFP No.# 6727,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47347,173,2026-08-10,5409.3800,0.0000,Bank of the Philippine Islands - vatable: Mandaue Foam (Photo Frame) - Pre-Operating — RFP No.# 6727,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47347,173,2026-08-10,34713.3900,0.0000,Bank of the Philippine Islands - vatable: Mandaue Foam (Various of Flower Pot) - Pre-Operating — RFP No.# 6727,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47342,1193,2026-08-10,630.0000,0.0000,RAMON EARL LABRADA - Non-vat: Payment for Doctor's PF (Consultations) for the month of July 2026 — RFP No.# 6721-2,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47341,1193,2026-08-10,630.0000,0.0000,CONCORDIO JOHN T. TORING - Non-vat: Payment for Doctor's PF (Consultations) for the month of July 2026 — RFP No.# 6721-1,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47343,1193,2026-08-10,630.0000,0.0000,RUDOLFO MARK BRIONES ABANILLA - Non-Vat: Payment for Doctor's PF (Consultations) for the month of July 2026 — RFP No.# 6721-3,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47346,1197,2026-08-10,261.2000,0.0000,ANDY CHRISTIAN ACUÑA - Non-vat:  Payment for Doctor's PF (Reading) for the month of July 2026 — RFP No.# 6721-6,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47345,1197,2026-08-10,91.6000,0.0000,LLOYD VINCENT M. BASS - Nonvat: Payment for Doctor's PF (Reading) for the month of July 2026 — RFP No.# 6721-5,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47344,1197,2026-08-10,293.4000,0.0000,HAROLD JAMES ESTRADA - Nonvat: Payment for Doctor's PF (Reading) for the month of July 2026 — RFP No.# 6721-4,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47343,1197,2026-08-10,1997.2400,0.0000,RUDOLFO MARK BRIONES ABANILLA - Non-Vat: Payment for Doctor's PF (Procedure) for the Month of July 2026 — RFP No.# 6721-3,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47350,217,2026-08-11,0.0000,154000.0000,PRINTSFORBRANDS PRINTING SERVICES — RFP No.# 6755,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47349,217,2026-08-11,0.0000,5000.0000,AXEL WALLY BORDARIO — RFP No.# 6744,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47352,217,2026-08-11,5000.0000,0.0000,Payment: AXEL WALLY BORDARIO — RFP No.# 6744,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47353,217,2026-08-11,154000.0000,0.0000,Payment: PRINTSFORBRANDS PRINTING SERVICES — RFP No.# 6755,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47350,89,2026-08-11,154000.0000,0.0000,PRINTSFORBRANDS PRINTING SERVICES - 50% Downpayment for Giveaways to Mantlewood Grand Opening — RFP No.# 6755,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47349,585,2026-08-11,5000.0000,0.0000,AXEL WALLY BORDARIO - Downpayment for Live Band Fee for CPCP MWTC Grand Opening — RFP No.# 6744,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47348,61,2026-08-11,576.0000,0.0000,"Sales Branches August 11, 2026 - Credit Card Sales - August, 11 — #73941",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47352,1,2026-08-11,0.0000,5000.0000,Payment: AXEL WALLY BORDARIO — RFP No.# 6744,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47353,1,2026-08-11,0.0000,154000.0000,Payment: PRINTSFORBRANDS PRINTING SERVICES — RFP No.# 6755,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47351,1,2026-08-11,0.0000,73008.9600,Payment: Bank of the Philippine Islands — RFP No.# 6727,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47351,1,2026-08-11,0.0000,81765.3100,Payment: Bank of the Philippine Islands — RFP No.# 6727,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47348,13,2026-08-11,1518.0000,0.0000,"Sales Branches August 11, 2026 - Cash Sales - August, 11 — #73941",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47348,1613,2026-08-11,0.0000,900.0000,"Sales Branches August 11, 2026 - Consultations — #73941",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47348,1625,2026-08-11,286.0000,0.0000,"Sales Branches August 11, 2026 - Sales Discounts - August, 11 — #73941",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47348,1645,2026-08-11,0.0000,1880.0000,"Sales Branches August 11, 2026 - Laboratory/Diagnostics — #73941",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47359,217,2026-08-12,0.0000,31447.5000,Dazzle Scents Gifts Giveaways — RFP No.# 6771,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47360,217,2026-08-12,31447.5000,0.0000,Payment: Dazzle Scents Gifts Giveaways — RFP No.# 6771,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47359,89,2026-08-12,31447.5000,0.0000,Dazzle Scents Gifts Giveaways - 70% Downpayment for 15pcs corporate gift set for Grandopening in Mantlewood — RFP No.# 6771,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47355,61,2026-08-12,2899.0000,0.0000,"Sales Branches August 12, 2026 - Credit Card Sales - August, 12 — #78003",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47354,1,2026-08-12,3252.0000,0.0000,"to record cash sales august 10,11 - 10 — #73597",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47354,1,2026-08-12,1518.0000,0.0000,"to record cash sales august 10,11 - 11 — #73597",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47360,1,2026-08-12,0.0000,31447.5000,Payment: Dazzle Scents Gifts Giveaways — RFP No.# 6771,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47354,13,2026-08-12,0.0000,3252.0000,"to record cash sales august 10,11 - 10 — #73597",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47354,13,2026-08-12,0.0000,1518.0000,"to record cash sales august 10,11 - 11 — #73597",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47355,13,2026-08-12,8070.0000,0.0000,"Sales Branches August 12, 2026 - Cash Sales - August, 12 — #78003",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47355,1613,2026-08-12,0.0000,3000.0000,"Sales Branches August 12, 2026 - Consultations — #78003",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47355,1625,2026-08-12,1086.0000,0.0000,"Sales Branches August 12, 2026 - Sales Discounts - August, 12 — #78003",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47355,1645,2026-08-12,0.0000,3100.0000,"Sales Branches August 12, 2026 - Laboratory/Diagnostics — #78003",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47355,1645,2026-08-12,0.0000,3155.0000,"Sales Branches August 12, 2026 - Laboratory/Diagnostics — #78003",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47355,1657,2026-08-12,0.0000,2800.0000,"Sales Branches August 12, 2026 - Laboratory/Diagnostics - Send Outs — #78003",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47357,869,2026-08-12,3200.0000,0.0000,HOME DEVELOPMENT MUTUAL FUND - Payment for HDMF mandatory contribution for the month of July 2026 (employer share) — RFP No.# 6753,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47356,877,2026-08-12,9220.8300,0.0000,PHILIPPINE HEALTH INSURANCE CORPORATION - Payment for PHIC Contribution for the month of July 2026  (Employer Share) — RFP No.# 6750,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47358,933,2026-08-12,30800.0000,0.0000,SOCIAL SECURITY SYSTEM - Payment for SSS Contribution for the month of July 2026 (Employeer Share) — RFP No.# 6759,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47364,217,2026-08-13,0.0000,72800.0000,BIGSEED PUBLIC RELATIONS & EVENTS INC. — RFP No.# 6773,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47366,217,2026-08-13,0.0000,17421.9500,"CONVERGE INFORMATION AND COMMUNICATIONS TECHNOLOGY SOLUTIONS, INC. — RFP No.# 6779",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47368,217,2026-08-13,17421.9500,0.0000,"Payment: CONVERGE INFORMATION AND COMMUNICATIONS TECHNOLOGY SOLUTIONS, INC. — RFP No.# 6779",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47365,217,2026-08-13,0.0000,44982.1400,CREATIVE CUISINE CATERING SERVICES — RFP No.# 6776,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47361,237,2026-08-13,0.0000,12620.0000,"to accrue ticket of Dr. Tria for Aug 18, 2026 MW Opening. bpi credit card — #73737",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47366,237,2026-08-13,5391.7100,0.0000,"CONVERGE INFORMATION AND COMMUNICATIONS TECHNOLOGY SOLUTIONS, INC. - converge july pre operating mantlewood — RFP No.# 6779",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47366,237,2026-08-13,647.0000,0.0000,"CONVERGE INFORMATION AND COMMUNICATIONS TECHNOLOGY SOLUTIONS, INC. - converge july pre operating mantlewood — RFP No.# 6779",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47364,585,2026-08-13,65000.0000,0.0000,BIGSEED PUBLIC RELATIONS & EVENTS INC. - vatable:50% Downpayment for PR Management for CPCI Mantlewood Grand Opening — RFP No.# 6773,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47363,77,2026-08-13,880.0000,0.0000,"Sales Branches August 13, 2026 - Gcash Sales - August, 13 — #78029",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47363,61,2026-08-13,3750.0000,0.0000,"Sales Branches August 13, 2026 - Credit Card Sales - August, 13 — #78029",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47362,1,2026-08-13,8070.0000,0.0000,to record cash sales august 12 — #74183,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47368,1,2026-08-13,0.0000,11383.2400,"Payment: CONVERGE INFORMATION AND COMMUNICATIONS TECHNOLOGY SOLUTIONS, INC. — RFP No.# 6779",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47368,1,2026-08-13,0.0000,6038.7100,"Payment: CONVERGE INFORMATION AND COMMUNICATIONS TECHNOLOGY SOLUTIONS, INC. — RFP No.# 6779",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47362,13,2026-08-13,0.0000,8070.0000,to record cash sales august 12 — #74183,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47363,13,2026-08-13,10762.0000,0.0000,"Sales Branches August 13, 2026 - Cash Sales - August, 13 — #78029",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47363,1613,2026-08-13,0.0000,4400.0000,"Sales Branches August 13, 2026 - Consultations — #78029",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47366,613,2026-08-13,10446.4300,0.0000,"CONVERGE INFORMATION AND COMMUNICATIONS TECHNOLOGY SOLUTIONS, INC. - Vatable: Payment for Flexibiz Peak 500mbps w/ Static IP| Account no. 0030300318153 for the month of July & August 2026 — RFP No.# 6779",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47363,1625,2026-08-13,2648.0000,0.0000,"Sales Branches August 13, 2026 - Sales Discounts - August, 13 — #78029",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47366,245,2026-08-13,0.0000,316.7600,"CONVERGE INFORMATION AND COMMUNICATIONS TECHNOLOGY SOLUTIONS, INC. - 2% EWT on Payment for Flexibiz Peak 200mbps w/ Static IP| Account no. 0030300318153 for the month of July & August 2026 — RFP No.# 6779",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47365,245,2026-08-13,0.0000,817.8600,CREATIVE CUISINE CATERING SERVICES - 2% EWT on: Payment for Catering Services for CPCI Mantlewood for Grand Opening — RFP No.# 6776,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47363,1633,2026-08-13,0.0000,400.0000,"Sales Branches August 13, 2026 - Health services — #78029",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47364,685,2026-08-13,7800.0000,0.0000,BIGSEED PUBLIC RELATIONS & EVENTS INC. - vat: 50% Downpayment for PR Management for CPCI Mantlewood Grand Opening — RFP No.# 6773,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47366,709,2026-08-13,1253.5700,0.0000,"CONVERGE INFORMATION AND COMMUNICATIONS TECHNOLOGY SOLUTIONS, INC. - Vat: Payment for Flexibiz Peak 500mbps w/ Static IP| Account no. 0030300318153 for the month of July & August 2026 — RFP No.# 6779",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47365,205,2026-08-13,3925.7200,0.0000,CREATIVE CUISINE CATERING SERVICES - Vat: Payment for Catering Services for CPCI Mantlewood for Grand Opening — RFP No.# 6776,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47365,761,2026-08-13,981.4300,0.0000,CREATIVE CUISINE CATERING SERVICES - Vat: Payment for Catering Services for CPCI Mantlewood for Grand Opening — RFP No.# 6776,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47363,1645,2026-08-13,0.0000,11250.0000,"Sales Branches August 13, 2026 - Laboratory/Diagnostics — #78029",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47363,1645,2026-08-13,0.0000,1990.0000,"Sales Branches August 13, 2026 - Laboratory/Diagnostics — #78029",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47365,173,2026-08-13,32714.2800,0.0000,CREATIVE CUISINE CATERING SERVICES - Vatable: Payment for Catering Services for CPCI Mantlewood for Grand Opening — RFP No.# 6776,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47367,913,2026-08-13,883.0000,0.0000,STEFANIE B. BERNAS - Nondeductible: Food during photoshoot in mantlewood (Replenishment) — RFP No.# 6794,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47365,913,2026-08-13,8178.5700,0.0000,CREATIVE CUISINE CATERING SERVICES - Vatable: Payment for Catering Services for CPCI Mantlewood for Grand Opening — RFP No.# 6776,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47361,953,2026-08-13,12620.0000,0.0000,"to accrue ticket of Dr. Tria for Aug 18, 2026 MW Opening. bpi credit card — #73737",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47392,217,2026-08-14,235.0800,0.0000,Payment: ANDY CHRISTIAN ACUÑA — RFP No.# 6721-6,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47387,217,2026-08-14,567.0000,0.0000,Payment: CONCORDIO JOHN T. TORING — RFP No.# 6721-1,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47388,217,2026-08-14,598.5000,0.0000,Payment: RAMON EARL LABRADA — RFP No.# 6721-2,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47389,217,2026-08-14,2364.5200,0.0000,Payment: RUDOLFO MARK BRIONES ABANILLA — RFP No.# 6721-3,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47390,217,2026-08-14,264.0600,0.0000,Payment: HAROLD JAMES ESTRADA — RFP No.# 6721-4,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47391,217,2026-08-14,87.0200,0.0000,Payment: LLOYD VINCENT M. BASS — RFP No.# 6721-5,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47379,217,2026-08-14,0.0000,294250.0000,SEWFIX TAILORING — 0826-000912,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47378,217,2026-08-14,0.0000,993571.4300,DYNAMICS IT SOLUTION — 0826-000911,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47383,217,2026-08-14,0.0000,367211.9600,OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 6765,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47382,217,2026-08-14,0.0000,151003.0500,OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 6764,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47381,217,2026-08-14,0.0000,2930.2400,OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 6763,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47385,217,2026-08-14,0.0000,9711.6600,CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 6783,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47380,217,2026-08-14,0.0000,172673.1500,OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 6761,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47384,217,2026-08-14,0.0000,1618.6100,CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 6768,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47377,217,2026-08-14,0.0000,158589.2900,GRETHEL FURNITURE SUB-CONTRACTING SERVICES — 0826-000910,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47376,217,2026-08-14,0.0000,24839.2900,GRETHEL FURNITURE SUB-CONTRACTING SERVICES — 0826-000909,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47375,217,2026-08-14,0.0000,27928.5700,GRETHEL FURNITURE SUB-CONTRACTING SERVICES — 0826-000908,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47372,217,2026-08-14,0.0000,274681.5500,GRETHEL FURNITURE SUB-CONTRACTING SERVICES — 0826-000905,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47374,217,2026-08-14,0.0000,241071.4300,PALMAX SOLUTIONS INC. — 0826-000907,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47373,217,2026-08-14,0.0000,305714.2900,PALMAX SOLUTIONS INC. — 0826-000906,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47395,217,2026-08-14,72800.0000,0.0000,Payment: BIGSEED PUBLIC RELATIONS & EVENTS INC. — RFP No.# 6773,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47396,217,2026-08-14,44982.1400,0.0000,Payment: CREATIVE CUISINE CATERING SERVICES — RFP No.# 6776,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47371,217,2026-08-14,0.0000,78571.4300,"OCS FACILITIES SERVICES PHILIPPINES, INC — 0826-000904",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47379,213,2026-08-14,385000.0000,0.0000,SEWFIX TAILORING - 40% Progress Billing for complete supply and installation of curtains with heavy duty curtain tracks |PO No. CAPEX-26-0147 — 0826-000912,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47378,213,2026-08-14,1300000.0000,0.0000,DYNAMICS IT SOLUTION - 40% Progress Billing for complete supply and installation of structured cabling and fiber optic backbone | PO no. CAPEX-26-0058 SI no.000962 — 0826-000911,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47377,213,2026-08-14,207500.0000,0.0000,"GRETHEL FURNITURE SUB-CONTRACTING SERVICES - 40% Progress Billing for complete supply and installation of Prime reception, Animal bite center table, nurse station, front desk, counter cabinet with synthetic granite, reception table and reception desk| PO no. CAPEX-26-0112 SI no.1034 — 0826-000910",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47376,213,2026-08-14,32500.0000,0.0000,"GRETHEL FURNITURE SUB-CONTRACTING SERVICES - 40% Progress billing for complete supply, fabrication, assembly, and staining of 10 pcs round coffee table| PO no. CAPEX-26-0100 SI no.1032 — 0826-000909",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47375,213,2026-08-14,68000.0000,0.0000,GRETHEL FURNITURE SUB-CONTRACTING SERVICES - 10% progress billing of Grethel Furniture for complete supply fabrication assembly installation and retouching of countertops with cabinets 15 units |PO CAPEX 26-0088 SI no. 1039 — 0826-000908,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47372,213,2026-08-14,445000.0000,0.0000,GRETHEL FURNITURE SUB-CONTRACTING SERVICES - 40% Fullpayment for complete supply and installation of 48 sets flush doors including all necessary accessories and consumables | PO no. CAPEX-26-0047 SI no.1033 — 0826-000905,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47374,213,2026-08-14,250000.0000,0.0000,"PALMAX SOLUTIONS INC. - 50% Final Billing for 40 pcs Chairs (500mm*480mm*800mm), 4 pcs chair solid wood frame with fabric OR PU leather and 2 pcs round table | PO no. CAPEX-26-0059 SI no.A2846 — 0826-000907",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47373,213,2026-08-14,400000.0000,0.0000,"PALMAX SOLUTIONS INC. - 40% Fullpayment for complete supply and installation of wooden door with door jamb and accessories and fixed frosted glass, wooden slidiing, flat accent wall and accent wall panel with doors and lights| PO no. CAPEX-26-0045 SI no.A2847 — 0826-000906",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47370,61,2026-08-14,500.0000,0.0000,"Sales Branches August 14, 2026 - Credit Card Sales - August, 14 — #78092",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47386,1,2026-08-14,0.0000,235.0800,Payment: ANDY CHRISTIAN ACUÑA — Mantlewood - PF,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47386,1,2026-08-14,0.0000,567.0000,Payment: CONCORDIO JOHN T. TORING — Mantlewood - PF,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47386,1,2026-08-14,0.0000,598.5000,Payment: RAMON EARL LABRADA — Mantlewood - PF,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47386,1,2026-08-14,0.0000,2364.5200,Payment: RUDOLFO MARK BRIONES ABANILLA — Mantlewood - PF,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47386,1,2026-08-14,0.0000,264.0600,Payment: HAROLD JAMES ESTRADA — Mantlewood - PF,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47386,1,2026-08-14,0.0000,87.0200,Payment: LLOYD VINCENT M. BASS — Mantlewood - PF,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47397,1,2026-08-14,0.0000,883.0000,Payment: STEFANIE B. BERNAS — RFP No.# 6794,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47369,1,2026-08-14,10762.0000,0.0000,to record cash sales august 13 — #74199,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47393,1,2026-08-14,0.0000,9220.8300,Payment: PHILIPPINE HEALTH INSURANCE CORPORATION — RFP No.# 6750,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47394,1,2026-08-14,0.0000,3200.0000,Payment: HOME DEVELOPMENT MUTUAL FUND — RFP No.# 6753,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47395,1,2026-08-14,0.0000,65000.0000,Payment: BIGSEED PUBLIC RELATIONS & EVENTS INC. — RFP No.# 6773,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47395,1,2026-08-14,0.0000,7800.0000,Payment: BIGSEED PUBLIC RELATIONS & EVENTS INC. — RFP No.# 6773,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47396,1,2026-08-14,0.0000,44982.1400,Payment: CREATIVE CUISINE CATERING SERVICES — RFP No.# 6776,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47369,13,2026-08-14,0.0000,10762.0000,to record cash sales august 13 — #74199,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47370,13,2026-08-14,2989.0000,0.0000,"Sales Branches August 14, 2026 - Cash Sales - August, 14 — #78092",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47382,609,2026-08-14,137275.5000,0.0000,OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vatable: Payment for CUSA for the month of August 2026 SI no. 006583-62755 — RFP No.# 6764,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47370,1613,2026-08-14,0.0000,800.0000,"Sales Branches August 14, 2026 - Consultations — #78092",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47370,1625,2026-08-14,116.0000,0.0000,"Sales Branches August 14, 2026 - Sales Discounts - August, 14 — #78092",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47379,245,2026-08-14,0.0000,13750.0000,SEWFIX TAILORING - 2% EWT on 40% Progress Billing for complete supply and installation of curtains with heavy duty curtain tracks |PO No. CAPEX-26-0147 — 0826-000912,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47378,245,2026-08-14,0.0000,46428.5700,DYNAMICS IT SOLUTION - 2% EWT on 40% Progress Billing for complete supply and installation of structured cabling and fiber optic backbone | PO no. CAPEX-26-0058 SI no.000962 — 0826-000911,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47383,245,2026-08-14,0.0000,17159.4400,OAKRIDGE REALTY DEVELOPMENT CORPORATION - 5% EWT on: Payment for Retail 103-102 ftm of August 2026 | SI no.006465-54809 — RFP No.# 6765,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47382,245,2026-08-14,0.0000,2745.5100,OAKRIDGE REALTY DEVELOPMENT CORPORATION - 2% EWT on Payment for CUSA for the month of August 2026 SI no. 006583-62755 — RFP No.# 6764,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47381,245,2026-08-14,0.0000,53.2800,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - 2% EWT on  Payment for Clinic utilities (Water & Electricity) ftp May 26-June 26, 2026 SI no. 005520-65252 — RFP No.# 6763",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47385,245,2026-08-14,0.0000,176.5800,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - 2% EWT on: Payment for Janitorial Services (Amaro Robert & Tedor Jiramic) Ftp July 16-31, 2026| SI No.#4573 — RFP No.# 6783",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47380,245,2026-08-14,0.0000,3139.5100,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - 2% EWT on  Payment for Clinic utilities (Water & Electricity) ftp June 26-July 26, 2026 SI no. 006741-65421 — RFP No.# 6761",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47384,245,2026-08-14,0.0000,29.4300,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - 2% EWT on:  Payment for Janitorial Services (Benaro, Liga) Ftp July 16-31, 2026| SI No.#4561 — RFP No.# 6768",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47377,245,2026-08-14,0.0000,7410.7100,"GRETHEL FURNITURE SUB-CONTRACTING SERVICES - 2% EWT on Progress Billing for complete supply and installation of Prime reception, Animal bite center table, nurse station, front desk, counter cabinet with synthetic granite, reception table and reception desk| PO no. CAPEX-26-0112 SI no.1034 — 0826-000910",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47376,245,2026-08-14,0.0000,1160.7100,"GRETHEL FURNITURE SUB-CONTRACTING SERVICES - 2% EWT on 40% Progress billing for complete supply, fabrication, assembly, and staining of 10 pcs round coffee table| PO no. CAPEX-26-0100 SI no.1032 — 0826-000909",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47375,245,2026-08-14,0.0000,6071.4300,GRETHEL FURNITURE SUB-CONTRACTING SERVICES - 2% EWT on 10% progress billing of Grethel Furniture for complete supply fabrication assembly installation and retouching of countertops with cabinets 15 units |PO CAPEX 26-0088 SI no. 1039 — 0826-000908,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47372,245,2026-08-14,0.0000,14568.4500,GRETHEL FURNITURE SUB-CONTRACTING SERVICES - 2% EWT on: 40% Fullpayment for complete supply and installation of 48 sets flush doors including all necessary accessories and consumables | PO no. CAPEX-26-0047 SI no.1033 — 0826-000905,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47374,245,2026-08-14,0.0000,8928.5700,"PALMAX SOLUTIONS INC. - 2% EWT on 50% Final Billing for 40 pcs Chairs (500mm*480mm*800mm), 4 pcs chair solid wood frame with fabric OR PU leather and 2 pcs round table | PO no. CAPEX-26-0059 SI no.A2846 — 0826-000907",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47373,245,2026-08-14,0.0000,14285.7100,"PALMAX SOLUTIONS INC. - 2% EWT on Fullpayment for complete supply and installation of wooden door with door jamb and accessories and fixed frosted glass, wooden slidiing, flat accent wall and accent wall panel with doors and lights| PO no. CAPEX-26-0045 SI no.A2847 — 0826-000906",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47371,245,2026-08-14,0.0000,1428.5700,"OCS FACILITIES SERVICES PHILIPPINES, INC - 2% EWT on: Payment for Cleaning Service ftm of July 17-20, 2026 | OPEX-26-0422 SI no.OCSIN0011293 — 0826-000904",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47370,1633,2026-08-14,0.0000,500.0000,"Sales Branches August 14, 2026 - Health services — #78092",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47382,697,2026-08-14,16473.0600,0.0000,OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat: Payment for CUSA for the month of August 2026 SI no. 006583-62755 — RFP No.# 6764,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47385,205,2026-08-14,1059.4500,0.0000,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - Vat: Payment for Janitorial Services (Amaro Robert & Tedor Jiramic) Ftp July 16-31, 2026| SI No.#4573 — RFP No.# 6783",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47380,205,2026-08-14,17546.0700,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat:  Payment for Clinic utilities (Electricity) ftp June 26-July 26, 2026 SI no. 006741-65421 — RFP No.# 6761",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47380,205,2026-08-14,1291.0000,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat:  Payment for Clinic utilities (Water) ftp June 26-July 26, 2026 SI no. 006741-65421 — RFP No.# 6761",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47371,205,2026-08-14,6857.1400,0.0000,"OCS FACILITIES SERVICES PHILIPPINES, INC - Vat: Payment for Cleaning Service ftm of July 17-20, 2026 | OPEX-26-0422 SI no.OCSIN0011293 sep-dec — 0826-000904",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47383,793,2026-08-14,41182.6500,0.0000,OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat: Payment for Retail 103-102 ftm of August 2026 | SI no.006465-54809 — RFP No.# 6765,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47370,1645,2026-08-14,0.0000,2305.0000,"Sales Branches August 14, 2026 - Laboratory/Diagnostics — #78092",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47372,373,2026-08-14,0.0000,74166.6700,GRETHEL FURNITURE SUB-CONTRACTING SERVICES - Less amount of Fullpayment for complete supply and installation of 48 sets flush doors including all necessary accessories and consumables | PO no. CAPEX-26-0047 SI no.1033 — 0826-000905,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47381,1485,2026-08-14,2561.2400,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vatable: Payment for Clinic utilities (Electricity) ftp May 26-June 26, 2026 SI no. 005520-65252 — RFP No.# 6763",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47381,1485,2026-08-14,307.3500,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat:  Payment for Clinic utilities (Electricity) ftp May 26-June 26, 2026 SI no. 005520-65252 — RFP No.# 6763",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47381,1485,2026-08-14,102.6200,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vatable:  Payment for Clinic utilities (Water) ftp May 26-June 26, 2026 SI no. 005520-65252 — RFP No.# 6763",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47381,1485,2026-08-14,12.3100,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat:  Payment for Clinic utilities (Water) ftp May 26-June 26, 2026 SI no. 005520-65252 — RFP No.# 6763",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47384,1485,2026-08-14,1471.4600,0.0000,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - Vatable: Payment for Janitorial Services (Benaro, Liga) Ftp July 16-31, 2026| SI No.#4561 — RFP No.# 6768",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47384,1485,2026-08-14,176.5800,0.0000,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - Vat:  Payment for Janitorial Services (Benaro, Liga) Ftp July 16-31, 2026| SI No.#4561 — RFP No.# 6768",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47371,1485,2026-08-14,14285.7100,0.0000,"OCS FACILITIES SERVICES PHILIPPINES, INC - Vatable: Payment for Cleaning Service ftm of July 17-20, 2026 | OPEX-26-0422 SI no.OCSIN0011293 — 0826-000904",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47371,1485,2026-08-14,1714.2900,0.0000,"OCS FACILITIES SERVICES PHILIPPINES, INC - Vat: Payment for Cleaning Service ftm of July 17-20, 2026 | OPEX-26-0422 SI no.OCSIN0011293 — 0826-000904",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47385,173,2026-08-14,8828.7900,0.0000,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - Vatable: Payment for Janitorial Services (Amaro Robert & Tedor Jiramic) Ftp July 16-31, 2026| SI No.#4573 — RFP No.# 6783",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47380,173,2026-08-14,146217.2100,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vatable: Payment for Clinic utilities (Electricity) ftp June 26-July 26, 2026 SI no. 006741-65421 — RFP No.# 6761",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47380,173,2026-08-14,10758.3800,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vatable:  Payment for Clinic utilities (Water) ftp June 26-July 26, 2026 SI no. 006741-65421 — RFP No.# 6761",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47371,173,2026-08-14,57142.8600,0.0000,"OCS FACILITIES SERVICES PHILIPPINES, INC - Vatable: Payment for Cleaning Service ftm of July 17-20, 2026 | OPEX-26-0422 SI no.OCSIN0011293 sep-dec — 0826-000904",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47383,889,2026-08-14,343188.7500,0.0000,OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vatable: Payment for Retail 103-102 ftm of August 2026 | SI no.006465-54809 — RFP No.# 6765,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47379,313,2026-08-14,0.0000,77000.0000,SEWFIX TAILORING - 10% Retention on 40% Progress Billing for complete supply and installation of curtains with heavy duty curtain tracks |PO No. CAPEX-26-0147 — 0826-000912,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47378,313,2026-08-14,0.0000,260000.0000,DYNAMICS IT SOLUTION - 10% Retention on 40% Progress Billing for complete supply and installation of structured cabling and fiber optic backbone | PO no. CAPEX-26-0058 SI no.000962 — 0826-000911,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47377,313,2026-08-14,0.0000,41500.0000,"GRETHEL FURNITURE SUB-CONTRACTING SERVICES - 10% Retention on Progress Billing for complete supply and installation of Prime reception, Animal bite center table, nurse station, front desk, counter cabinet with synthetic granite, reception table and reception desk| PO no. CAPEX-26-0112 SI no.1034 — 0826-000910",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47376,313,2026-08-14,0.0000,6500.0000,"GRETHEL FURNITURE SUB-CONTRACTING SERVICES - 10% Retention on 40% Progress billing for complete supply, fabrication, assembly, and staining of 10 pcs round coffee table| PO no. CAPEX-26-0100 SI no.1032 — 0826-000909",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47375,313,2026-08-14,0.0000,34000.0000,GRETHEL FURNITURE SUB-CONTRACTING SERVICES - 10% Retention on 10% progress billing of Grethel Furniture for complete supply fabrication assembly installation and retouching of countertops with cabinets 15 units |PO CAPEX 26-0088 SI no. 1039 — 0826-000908,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47372,313,2026-08-14,0.0000,81583.3300,GRETHEL FURNITURE SUB-CONTRACTING SERVICES - 10% Retention Fullpayment for complete supply and installation of 48 sets flush doors including all necessary accessories and consumables | PO no. CAPEX-26-0047 SI no.1033 — 0826-000905,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47373,313,2026-08-14,0.0000,80000.0000,"PALMAX SOLUTIONS INC. - 10% Retention on Fullpayment for complete supply and installation of wooden door with door jamb and accessories and fixed frosted glass, wooden slidiing, flat accent wall and accent wall panel with doors and lights| PO no. CAPEX-26-0045 SI no.A2847 — 0826-000906",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47398,61,2026-08-15,100.0000,0.0000,"Sales Branches August 15, 2026 - Credit Card Sales - August, 15 — #78093",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47398,13,2026-08-15,1140.0000,0.0000,"Sales Branches August 15, 2026 - Cash Sales - August, 15 — #78093",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47398,1613,2026-08-15,0.0000,400.0000,"Sales Branches August 15, 2026 - Consultations — #78093",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47398,1625,2026-08-15,20.0000,0.0000,"Sales Branches August 15, 2026 - Sales Discounts - August, 15 — #78093",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47398,1633,2026-08-15,0.0000,400.0000,"Sales Branches August 15, 2026 - Health services — #78093",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47398,1645,2026-08-15,0.0000,460.0000,"Sales Branches August 15, 2026 - Laboratory/Diagnostics — #78093",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47400,217,2026-08-17,7910714.2900,0.0000,"Payment: BIOSYN HEALTHCARE SYSTEMS, INC. — 0826-000841",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47399,77,2026-08-17,100.0000,0.0000,"Sales Branches August 17, 2026 - Gcash Sales - August, 17 — #78095",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47399,61,2026-08-17,5190.0000,0.0000,"Sales Branches August 17, 2026 - Credit Card Sales - August, 17 — #78095",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47399,65,2026-08-17,950.0000,0.0000,"Sales Branches August 17, 2026 - Term Sales - August, 17 — #78095",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47400,45,2026-08-17,0.0000,7910714.2900,"Payment: BIOSYN HEALTHCARE SYSTEMS, INC. — 0826-000841",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47351,1,2026-08-17,0.0000,49778.9900,Payment: Bank of the Philippine Islands — RFP No.# 6727,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47351,1,2026-08-17,0.0000,55749.2400,Payment: Bank of the Philippine Islands — RFP No.# 6727,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47399,13,2026-08-17,1610.0000,0.0000,"Sales Branches August 17, 2026 - Cash Sales - August, 17 — #78095",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47399,1613,2026-08-17,0.0000,1600.0000,"Sales Branches August 17, 2026 - Consultations — #78095",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47399,1633,2026-08-17,0.0000,300.0000,"Sales Branches August 17, 2026 - Health services — #78095",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47399,1645,2026-08-17,0.0000,3600.0000,"Sales Branches August 17, 2026 - Laboratory/Diagnostics — #78095",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47399,1645,2026-08-17,0.0000,2350.0000,"Sales Branches August 17, 2026 - Laboratory/Diagnostics — #78095",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47401,77,2026-08-18,2200.0000,0.0000,"Sales Branches August 18, 2026 - Gcash Sales - August, 18 — #78101",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47401,61,2026-08-18,1600.0000,0.0000,"Sales Branches August 18, 2026 - Credit Card Sales - August, 18 — #78101",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47401,65,2026-08-18,162.0000,0.0000,"Sales Branches August 18, 2026 - Term Sales - August, 18 — #78101",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47401,13,2026-08-18,600.0000,0.0000,"Sales Branches August 18, 2026 - Cash Sales - August, 18 — #78101",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47401,1613,2026-08-18,0.0000,1300.0000,"Sales Branches August 18, 2026 - Consultations — #78101",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47401,1625,2026-08-18,118.0000,0.0000,"Sales Branches August 18, 2026 - Sales Discounts - August, 18 — #78101",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47401,1645,2026-08-18,0.0000,3200.0000,"Sales Branches August 18, 2026 - Laboratory/Diagnostics — #78101",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47401,1645,2026-08-18,0.0000,180.0000,"Sales Branches August 18, 2026 - Laboratory/Diagnostics — #78101",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47414,217,2026-08-19,1718.7500,0.0000,Payment: HDP PRINTING — 0826-000846,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47412,217,2026-08-19,28140.7000,0.0000,Payment: HDP PRINTING — 0826-000844,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47411,217,2026-08-19,3044.6400,0.0000,Payment: HDP PRINTING — 0826-000843,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47413,217,2026-08-19,1119.6400,0.0000,Payment: HDP PRINTING — 0826-000845,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47415,217,2026-08-19,3766.0700,0.0000,"Payment: SECURITY AND FORENSIC ENTERPRISES, INC. — 0826-000885",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47410,217,2026-08-19,0.0000,8348.2100,CREATIVE CUISINE CATERING SERVICES — RFP No.# 6839,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47406,217,2026-08-19,0.0000,3095.2500,GARY GONZALES — RFP No.# 6833,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47408,217,2026-08-19,0.0000,883.9300,HDP PRINTING — RFP No.# 6837,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47405,217,2026-08-19,0.0000,2180.3600,LYNOLDS MARKETING — 0826-000920,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47404,217,2026-08-19,0.0000,3369.6400,LYNOLDS MARKETING — 0826-000919,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47409,217,2026-08-19,0.0000,147840.0000,PRINTSFORBRANDS PRINTING SERVICES — RFP No.# 6838,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47409,89,2026-08-19,0.0000,154000.0000,PRINTSFORBRANDS PRINTING SERVICES - 50% Downpayment for Media Giveaways for CPCI Grand Opening — RFP No.# 6838,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47409,585,2026-08-19,61600.0000,0.0000,PRINTSFORBRANDS PRINTING SERVICES - Nonvat: Fullpayment for Media Giveaways for CPCI Grand Opening| SI no.00206 & 00205 — RFP No.# 6838,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47403,77,2026-08-19,700.0000,0.0000,"Sales Branches August 19, 2026 - Gcash Sales - August, 19 — #78102",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47403,61,2026-08-19,300.0000,0.0000,"Sales Branches August 19, 2026 - Credit Card Sales - August, 19 — #78102",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47414,1,2026-08-19,0.0000,1718.7500,Payment: HDP PRINTING — 0826-000846,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47412,1,2026-08-19,0.0000,28140.7000,Payment: HDP PRINTING — 0826-000844,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47411,1,2026-08-19,0.0000,3044.6400,Payment: HDP PRINTING — 0826-000843,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47413,1,2026-08-19,0.0000,1119.6400,Payment: HDP PRINTING — 0826-000845,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47415,1,2026-08-19,0.0000,3766.0700,"Payment: SECURITY AND FORENSIC ENTERPRISES, INC. — 0826-000885",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47402,1,2026-08-19,1610.0000,0.0000,"to record cash sales august 17, 18 - aug 17 — #77143",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47402,1,2026-08-19,600.0000,0.0000,"to record cash sales august 17, 18 - aug 18 — #77143",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47402,13,2026-08-19,0.0000,1610.0000,"to record cash sales august 17, 18 - aug 17 — #77143",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47402,13,2026-08-19,0.0000,600.0000,"to record cash sales august 17, 18 - aug 18 — #77143",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47403,13,2026-08-19,4604.0000,0.0000,"Sales Branches August 19, 2026 - Cash Sales - August, 19 — #78102",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47403,1613,2026-08-19,0.0000,1200.0000,"Sales Branches August 19, 2026 - Consultations — #78102",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47403,1625,2026-08-19,586.0000,0.0000,"Sales Branches August 19, 2026 - Sales Discounts - August, 19 — #78102",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47410,245,2026-08-19,0.0000,151.7900,CREATIVE CUISINE CATERING SERVICES - 2% EWT on:  Payment for Additional Catering Services for CPCI Mantlewood for Grand Opening | SI no.2546 — RFP No.# 6839,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47408,245,2026-08-19,0.0000,16.0700,HDP PRINTING - 2% EWT on: Payment for Wellness & 20% Vouchers for Mantlewood Grand Opening| SI no.41052 — RFP No.# 6837,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47405,245,2026-08-19,0.0000,19.6400,LYNOLDS MARKETING - 1% EWT on Payment for Pedia Pulse Oximeter| OPEX-26-0498 SI no.A5056 — 0826-000920,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47404,245,2026-08-19,0.0000,30.3600,LYNOLDS MARKETING - 1% EWT on Payment for Blood Typing Sera Anti| OPEX-26-0463 SI no.A5055 — 0826-000919,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47409,245,2026-08-19,0.0000,6160.0000,PRINTSFORBRANDS PRINTING SERVICES - 2% EWT on: Fullpayment for Media Giveaways for CPCI Grand Opening| SI no.00206 & 00205 — RFP No.# 6838,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47403,1633,2026-08-19,0.0000,200.0000,"Sales Branches August 19, 2026 - Health services — #78102",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47404,197,2026-08-19,364.2900,0.0000,LYNOLDS MARKETING - Vat: Payment for Blood Typing Sera Anti| OPEX-26-0463 SI no.A5055 — 0826-000919,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47406,1057,2026-08-19,4.5000,0.0000,GARY GONZALES - Vat: Trust Condom (Replesnishment) — RFP No.# 6833,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47405,741,2026-08-19,235.7100,0.0000,LYNOLDS MARKETING - Vat: Payment for Pedia Pulse Oximeter| OPEX-26-0498 SI no.A5056 — 0826-000920,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47406,749,2026-08-19,20.8900,0.0000,GARY GONZALES - Vat: Patient Meal (Replesnishment) — RFP No.# 6833,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47406,757,2026-08-19,256.4200,0.0000,GARY GONZALES - Vat: Various Office Supplies (Replenishment) — RFP No.# 6833,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47410,761,2026-08-19,910.7100,0.0000,CREATIVE CUISINE CATERING SERVICES - Vat:  Payment for Additional Catering Services for CPCI Mantlewood for Grand Opening | SI no.2546 — RFP No.# 6839,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47408,761,2026-08-19,96.4300,0.0000,HDP PRINTING - Vat: Payment for Wellness & 20% Vouchers for Mantlewood Grand Opening| SI no.41052 — RFP No.# 6837,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47404,141,2026-08-19,3035.7100,0.0000,LYNOLDS MARKETING - Vatable: Payment for Blood Typing Sera Anti| OPEX-26-0463 SI no.A5055 — 0826-000919,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47406,1109,2026-08-19,37.5000,0.0000,GARY GONZALES - Vatable: Trust Condom (Replesnishment) — RFP No.# 6833,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47403,1645,2026-08-19,0.0000,390.0000,"Sales Branches August 19, 2026 - Laboratory/Diagnostics — #78102",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47403,1645,2026-08-19,0.0000,4400.0000,"Sales Branches August 19, 2026 - Laboratory/Diagnostics — #78102",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47406,849,2026-08-19,2136.8300,0.0000,GARY GONZALES - Vatable: Various Office Supplies (Replenishment) — RFP No.# 6833,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47406,849,2026-08-19,205.0000,0.0000,GARY GONZALES - Non-vat: Drinking Water (Replenishment) — RFP No.# 6833,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47406,849,2026-08-19,120.0000,0.0000,GARY GONZALES - Nondeductible: Office Supplies (Replenihsment) — RFP No.# 6833,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47405,849,2026-08-19,1964.2900,0.0000,LYNOLDS MARKETING - Vatable: Payment for Pedia Pulse Oximeter| OPEX-26-0498 SI no.A5056 — 0826-000920,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47406,873,2026-08-19,174.1100,0.0000,GARY GONZALES - Vatable: Patient Meal (Replesnishment) — RFP No.# 6833,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47407,885,2026-08-19,183.0000,0.0000,STEFANIE B. BERNAS - Nondeductible: Delivery for Essential Oil (Replenishment) — RFP No.# 6835,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47406,885,2026-08-19,70.0000,0.0000,GARY GONZALES - Nondeductible: Delivery Fee (Replenihsment) — RFP No.# 6833,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47409,173,2026-08-19,246400.0000,0.0000,PRINTSFORBRANDS PRINTING SERVICES - Nonvat: Fullpayment for Media Giveaways for CPCI Grand Opening| SI no.00206 & 00205 — RFP No.# 6838,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47410,913,2026-08-19,7589.2900,0.0000,CREATIVE CUISINE CATERING SERVICES - Vatable: Payment for Additional Catering Services for CPCI Mantlewood for Grand Opening | SI no.2546 — RFP No.# 6839,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47408,913,2026-08-19,803.5700,0.0000,HDP PRINTING - Vatable: Payment for Wellness & 20% Vouchers for Mantlewood Grand Opening| SI no.41052 — RFP No.# 6837,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47406,945,2026-08-19,70.0000,0.0000,GARY GONZALES - Nondeductible: Passenger Fee (Replenihsment) — RFP No.# 6833,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47420,217,2026-08-20,3095.2500,0.0000,Payment: GARY GONZALES — RFP No.# 6833,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47423,217,2026-08-20,8348.2100,0.0000,Payment: CREATIVE CUISINE CATERING SERVICES — RFP No.# 6839,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47422,217,2026-08-20,147840.0000,0.0000,Payment: PRINTSFORBRANDS PRINTING SERVICES — RFP No.# 6838,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47417,237,2026-08-20,0.0000,43217.2000,"CPCI Payroll for AUGUST 1-15, 2026 - Mantle Wood Medical Affairs — #77514",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47418,237,2026-08-20,0.0000,182323.1800,"CPCI Payroll for AUGUST 1-15, 2026 - Operations - Mantlewood — #77515",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47418,85,2026-08-20,0.0000,320.0000,"CPCI Payroll for AUGUST 1-15, 2026 - Operations - Mantlewood — #77515",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47419,61,2026-08-20,3100.0000,0.0000,"Sales Branches August 20, 2026 - Credit Card Sales - August, 20 — #78097",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47416,1,2026-08-20,4604.0000,0.0000,to record cash sales august 19 — #77156,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47420,1,2026-08-20,0.0000,3095.2500,Payment: GARY GONZALES — RFP No.# 6833,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47421,1,2026-08-20,0.0000,183.0000,Payment: STEFANIE B. BERNAS — RFP No.# 6835,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47423,1,2026-08-20,0.0000,8348.2100,Payment: CREATIVE CUISINE CATERING SERVICES — RFP No.# 6839,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47422,1,2026-08-20,0.0000,147840.0000,Payment: PRINTSFORBRANDS PRINTING SERVICES — RFP No.# 6838,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47416,13,2026-08-20,0.0000,4604.0000,to record cash sales august 19 — #77156,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47419,13,2026-08-20,16212.0000,0.0000,"Sales Branches August 20, 2026 - Cash Sales - August, 20 — #78097",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47417,249,2026-08-20,0.0000,3609.5500,"CPCI Payroll for AUGUST 1-15, 2026 - Mantle Wood Medical Affairs — #77514",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47418,249,2026-08-20,0.0000,1825.4200,"CPCI Payroll for AUGUST 1-15, 2026 - Operations - Mantlewood — #77515",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47419,1613,2026-08-20,0.0000,4400.0000,"Sales Branches August 20, 2026 - Consultations — #78097",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47419,1625,2026-08-20,3028.0000,0.0000,"Sales Branches August 20, 2026 - Sales Discounts - August, 20 — #78097",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47417,665,2026-08-20,4820.0000,0.0000,"CPCI Payroll for AUGUST 1-15, 2026 - Mantle Wood Medical Affairs — #77514",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47418,665,2026-08-20,4583.5000,0.0000,"CPCI Payroll for AUGUST 1-15, 2026 - Operations - Mantlewood — #77515",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47417,269,2026-08-20,0.0000,200.0000,"CPCI Payroll for AUGUST 1-15, 2026 - Mantle Wood Medical Affairs — #77514",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47418,269,2026-08-20,0.0000,1800.0000,"CPCI Payroll for AUGUST 1-15, 2026 - Operations - Mantlewood — #77515",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47419,1633,2026-08-20,0.0000,300.0000,"Sales Branches August 20, 2026 - Health services — #78097",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47419,1645,2026-08-20,0.0000,14500.0000,"Sales Branches August 20, 2026 - Laboratory/Diagnostics — #78097",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47419,1645,2026-08-20,0.0000,3140.0000,"Sales Branches August 20, 2026 - Laboratory/Diagnostics — #78097",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47418,865,2026-08-20,8067.1600,0.0000,"CPCI Payroll for AUGUST 1-15, 2026 - Operations - Mantlewood — #77515",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47417,265,2026-08-20,0.0000,1129.5000,"CPCI Payroll for AUGUST 1-15, 2026 - Mantle Wood Medical Affairs — #77514",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47418,265,2026-08-20,0.0000,4810.4100,"CPCI Payroll for AUGUST 1-15, 2026 - Operations - Mantlewood — #77515",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47417,921,2026-08-20,45086.2500,0.0000,"CPCI Payroll for AUGUST 1-15, 2026 - Mantle Wood Medical Affairs — #77514",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47418,921,2026-08-20,187989.8000,0.0000,"CPCI Payroll for AUGUST 1-15, 2026 - Operations - Mantlewood — #77515",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47418,253,2026-08-20,0.0000,461.4500,"CPCI Payroll for AUGUST 1-15, 2026 - Operations - Mantlewood — #77515",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47417,261,2026-08-20,0.0000,1750.0000,"CPCI Payroll for AUGUST 1-15, 2026 - Mantle Wood Medical Affairs — #77514",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47418,261,2026-08-20,0.0000,9100.0000,"CPCI Payroll for AUGUST 1-15, 2026 - Operations - Mantlewood — #77515",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47417,1777,2026-08-20,0.0000,49906.2500,"CPCI Payroll for AUGUST 1-15, 2026 - Mantle Wood Medical Affairs — #77514",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47417,1777,2026-08-20,49906.2500,0.0000,"CPCI Payroll for AUGUST 1-15, 2026 - Mantle Wood Medical Affairs — #77514",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47418,1777,2026-08-20,0.0000,200640.4600,"CPCI Payroll for AUGUST 1-15, 2026 - Operations - Mantlewood — #77515",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47418,1777,2026-08-20,200640.4600,0.0000,"CPCI Payroll for AUGUST 1-15, 2026 - Operations - Mantlewood — #77515",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47424,77,2026-08-21,1490.0000,0.0000,"Sales Branches August 21, 2026 - Gcash Sales - August, 21 — #78104",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47424,61,2026-08-21,368.0000,0.0000,"Sales Branches August 21, 2026 - Credit Card Sales - August, 21 — #78104",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47424,13,2026-08-21,3400.0000,0.0000,"Sales Branches August 21, 2026 - Cash Sales - August, 21 — #78104",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47424,1613,2026-08-21,0.0000,1400.0000,"Sales Branches August 21, 2026 - Consultations — #78104",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47424,1625,2026-08-21,522.0000,0.0000,"Sales Branches August 21, 2026 - Sales Discounts - August, 21 — #78104",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47424,1645,2026-08-21,0.0000,3080.0000,"Sales Branches August 21, 2026 - Laboratory/Diagnostics — #78104",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47424,1657,2026-08-21,0.0000,1300.0000,"Sales Branches August 21, 2026 - Laboratory/Diagnostics - Send Outs — #78104",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47426,217,2026-08-22,2602678.5700,0.0000,Payment: SHIMADZU PHILIPPINES CORPORATION — 0826-000840,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47425,61,2026-08-22,3770.0000,0.0000,"Sales Branches August 22, 2026 - Credit Card Sales - August, 22 — #78105",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47426,9,2026-08-22,0.0000,2602678.5700,Payment: SHIMADZU PHILIPPINES CORPORATION — 0826-000840,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47425,13,2026-08-22,4870.0000,0.0000,"Sales Branches August 22, 2026 - Cash Sales - August, 22 — #78105",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47425,1613,2026-08-22,0.0000,600.0000,"Sales Branches August 22, 2026 - Consultations — #78105",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47425,1645,2026-08-22,0.0000,6850.0000,"Sales Branches August 22, 2026 - Laboratory/Diagnostics — #78105",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47425,1645,2026-08-22,0.0000,1190.0000,"Sales Branches August 22, 2026 - Laboratory/Diagnostics — #78105",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47427,77,2026-08-24,100.0000,0.0000,"Sales Branches August 24, 2026 - Gcash Sales - August, 24 — #78106",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47427,61,2026-08-24,2480.0000,0.0000,"Sales Branches August 24, 2026 - Credit Card Sales - August, 24 — #78106",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47427,13,2026-08-24,4578.0000,0.0000,"Sales Branches August 24, 2026 - Cash Sales - August, 24 — #78106",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47427,1625,2026-08-24,662.0000,0.0000,"Sales Branches August 24, 2026 - Sales Discounts - August, 24 — #78106",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47427,1633,2026-08-24,0.0000,300.0000,"Sales Branches August 24, 2026 - Health services — #78106",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47427,1645,2026-08-24,0.0000,6140.0000,"Sales Branches August 24, 2026 - Laboratory/Diagnostics — #78106",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47427,1645,2026-08-24,0.0000,1380.0000,"Sales Branches August 24, 2026 - Laboratory/Diagnostics — #78106",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47428,77,2026-08-25,350.0000,0.0000,"Sales Branches August 25, 2026 - Gcash Sales - August, 25 — #78115",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47428,61,2026-08-25,1500.0000,0.0000,"Sales Branches August 25, 2026 - Credit Card Sales - August, 25 — #78115",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47428,13,2026-08-25,10870.0000,0.0000,"Sales Branches August 25, 2026 - Cash Sales - August, 25 — #78115",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47428,1613,2026-08-25,0.0000,4300.0000,"Sales Branches August 25, 2026 - Consultations — #78115",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47428,1633,2026-08-25,0.0000,600.0000,"Sales Branches August 25, 2026 - Health services — #78115",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47428,1645,2026-08-25,0.0000,2400.0000,"Sales Branches August 25, 2026 - Laboratory/Diagnostics — #78115",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47428,1645,2026-08-25,0.0000,5420.0000,"Sales Branches August 25, 2026 - Laboratory/Diagnostics — #78115",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47431,217,2026-08-26,0.0000,14856.1600,Red iCenter Technologies Corp. — 0826-000936,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47435,217,2026-08-26,0.0000,9782.1400,HDP PRINTING — RFP No.# 6847,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47434,217,2026-08-26,0.0000,8800.0000,BIGSEED PUBLIC RELATIONS & EVENTS INC. — RFP No.# 6788,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47432,217,2026-08-26,0.0000,14000.0000,Point Up Studios — RFP No.# 6772,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47436,217,2026-08-26,0.0000,38416.0000,BUDOTS MEDIA CREATORS PHOTOGRAPHIC SERVICES — RFP No.# 6854,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47437,217,2026-08-26,0.0000,12579.0000,Dazzle Scents Gifts Giveaways — RFP No.# 6856,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47439,217,2026-08-26,0.0000,156800.0000,Gworks Pro Event Service Provider — RFP No.# 6869,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47433,217,2026-08-26,0.0000,29300.0000,AXEL WALLY BORDARIO — RFP No.# 6777,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47432,89,2026-08-26,0.0000,35000.0000,Point Up Studios - 70% Downpayment for Photo & Video Coverage (Clinic Shoot & for Grand Opening) — RFP No.# 6772,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47437,89,2026-08-26,0.0000,31447.5000,Dazzle Scents Gifts Giveaways - 70% Downpayment for 15pcs corporate gift set for Grandopening in Mantlewood — RFP No.# 6856,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47435,585,2026-08-26,8892.8600,0.0000,HDP PRINTING - Vatable: Payment for 3pcs Org Chart Poster for CPCI Mantlewood Grand Opening| SI no.41016 — RFP No.# 6847,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47434,585,2026-08-26,8000.0000,0.0000,BIGSEED PUBLIC RELATIONS & EVENTS INC. - Vatable: Fullpayment for Media Transportation for CPCI Mantlewood Opening| SI no.00350 — RFP No.# 6788,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47436,585,2026-08-26,7840.0000,0.0000,BUDOTS MEDIA CREATORS PHOTOGRAPHIC SERVICES - Non-vat: Payment for AVP Editing for CPCI Mantlewood Grand Opening| BI no.000144 — RFP No.# 6854,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47439,585,2026-08-26,32000.0000,0.0000,"Gworks Pro Event Service Provider - Non-vat: Payment for Sounds, Lights, 2Set of Ledwalls Rental for CPCI Mantlewood Grand Opening| SI no.0251 — RFP No.# 6869",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47440,585,2026-08-26,0.0000,65000.0000,BIGSEED PUBLIC RELATIONS & EVENTS INC. - vatable:50% Downpayment for PR Management for CPCI Mantlewood Grand Opening — RFP No.# 6871,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47433,585,2026-08-26,0.0000,5000.0000,AXEL WALLY BORDARIO - Downpayment for Live Band Fee for CPCP MWTC Grand Opening — RFP No.# 6777,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47433,585,2026-08-26,35000.0000,0.0000,AXEL WALLY BORDARIO - Non-vat: Fullpayment for Live Band Fee for CPCI Mantlewood Grand Opening| SI no.0271 — RFP No.# 6777,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47430,61,2026-08-26,950.0000,0.0000,"Sales Branches August 26, 2026 - Credit Card Sales - August, 26 — #78110",1,0,2026-08-31 23:59:59,0
+7,journal_entry,47429,1,2026-08-26,16312.0000,0.0000,to record cash sales august 20-25 - 20 — #77200,1,0,2026-08-31 23:59:59,0
+7,journal_entry,47429,1,2026-08-26,3400.0000,0.0000,to record cash sales august 20-25 - 21 — #77200,1,0,2026-08-31 23:59:59,0

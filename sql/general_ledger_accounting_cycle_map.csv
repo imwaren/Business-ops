@@ -1,0 +1,68 @@
+Action,Description,Debit account,Credit account
+1.1 Goods Received & AP Recognition,Approved receipt note receives supplier goods,104-030 Medical supplies inventory (or line/item account),201-111 Accounts payable
+1.1 Goods Received (PO/PR stand-in),Approved PO or PR with no later approved receipt note,104-030 Medical supplies inventory (or line/item account),—
+1.2 Supplier Payment,APV payment applied to supplier voucher,201-111 Accounts payable,Payment account_type_id or 100-004 Cash on hand
+1.3 Purchase Return / Credit / Debit Adjustment,item_history Adjustment returned (inventory out to supplier),201-111 Accounts payable,104-030 Medical supplies inventory or 104-020B Pharmacy inventory
+2.1 Consultation,Patient (transaction/booking) paid at CSR,100-004 Cash / 102-192 Cards / 102-193 GCash-Maya by mop,400-030 Consultation revenue
+2.2 Laboratory,Patient (transaction/booking) paid lab/diagnostics at CSR,100-004 Cash / 102-192 Cards / 102-193 GCash-Maya by mop,400-010a Laboratory or 400-010b Diagnostic or 400-050 Send-out
+2.3 Health Services / Procedures,Patient (transaction/booking) paid health services at CSR,100-004 Cash / 102-192 Cards / 102-193 GCash-Maya by mop,400-020 Health services revenue
+2.4 Vaccination,Patient (transaction/booking) paid vaccination at CSR,100-004 Cash / 102-192 Cards / 102-193 GCash-Maya by mop,480-030 Vaccination revenue
+2.5 Pharmacy,Patient (transaction/booking) paid pharmacy at CSR,100-004 Cash / 102-192 Cards / 102-193 GCash-Maya by mop,420-000 Pharmacy revenue
+2.6 Yakap,Patient (transaction/booking) paid Yakap at CSR,100-004 Cash / 102-192 Cards / 102-193 GCash-Maya by mop,400-060 Yakap revenue
+2.7 Other Services / Revenue,Patient (transaction/booking) paid other or eye care at CSR,100-004 Cash / 102-192 Cards / 102-193 GCash-Maya by mop,400-100 Other services or 400-900 Eye care
+2.8 Revenue Adjustments,CSR payment.discount on the transaction,440-000 Sales discount,Same revenue code as the transaction
+3.1 Patient Billing,Master billing_entry (Patient) for this branch,102-113 Trade receivables,102-113B Unbilled receivables
+3.2 HMO Billing,Master billing_entry (HMO) for this branch,102-113 Trade receivables,102-113B Unbilled receivables
+3.3 Corporate Billing,Master billing_entry (Corporate) for this branch,102-113 Trade receivables,102-113B Unbilled receivables
+3.4 Yakap Billing,Master billing_entry (Yakap) for this branch,102-113 Trade receivables,102-113B Unbilled receivables
+3.5 Billing Adjustments / Credit / Debit Memo,No dedicated memo table; edit billing_entry to re-post 3.1-3.4,Not posted — encode approved journal_entry,—
+4.1 Cash Collection,Patient (transaction/booking) paid cash at CSR,100-004 Cash on hand,Revenue code from 2.1-2.7
+4.2 Cards Collection,Patient (transaction/booking) paid card at CSR,102-192 Cards,Revenue code from 2.1-2.7
+4.3 GCash / Maya Collection,Patient (transaction/booking) paid GCash Maya or QR at CSR,102-193 GCash / Maya,Revenue code from 2.1-2.7
+4.4 HMO Collection,Master billing_payment applied to HMO billing_entry (split by branch),MOP or billing_payment.account_type_id; CWT share 105-000,102-113 Trade receivables
+4.5 Corporate Collection,Master billing_payment applied to Corporate billing_entry (split by branch),MOP or billing_payment.account_type_id; CWT share 105-000,102-113 Trade receivables
+4.6 Yakap Collection,Master billing_payment applied to Yakap billing_entry (split by branch),MOP or billing_payment.account_type_id; CWT share 105-000,102-113 Trade receivables
+4.7 Collection Adjustments,No dedicated collection-adjustment table; edit billing_payment to re-post,Not posted — encode approved journal_entry,—
+4.8 Unidentified Collection,Master billing_payment with is_unidentified=1 (no charge_to / entries yet); identify later re-posts as 4.4-4.6,MOP or billing_payment.account_type_id; CWT share 105-000,102-250 AR-unidentified
+4 Deposit (bank),Master billing_payment_deposit moves cash on hand to bank,billing_payment_deposit.account_type_id (bank),100-004 Cash on hand
+5 Discounts / Adjustments,CSR payment.discount (billing-level discount is not a separate poster),440-000 Sales discount,Same revenue code as the transaction
+6.1 Inventory Consumption / Issuance,item_history perform / Machine Run / lab supplies / pharmacy,item.account_type_id or 500-205 Supplies expense,104-030 Medical supplies or 104-020B Pharmacy inventory
+6.2 Inventory Transfer Out,item_history Transfer Out on this clinic (one side until Finance gives in-transit account),—,104-030 Medical supplies or 104-020B Pharmacy inventory
+6.2 Inventory Transfer In,item_history Transfer In on this clinic (one side until Finance gives in-transit account),104-030 Medical supplies or 104-020B Pharmacy inventory,—
+6.3 Inventory Adjustment (qty up),Physical count higher than book,104-030 or 104-020B Inventory,item.account_type_id or 500-205 Supplies expense
+6.3 Inventory Adjustment (qty down / write-off / expiry / wastage),Physical count lower than book or write-off,item.account_type_id or 500-205 Supplies expense,104-030 or 104-020B Inventory
+6.3 Inventory Return to supplier,item_history Adjustment returned,201-111 Accounts payable,104-030 or 104-020B Inventory
+7.1 AR Recognition HMO,Unbilled HMO/Corp charge-to then billing reclass (remark HMO),102-113B then 102-113,Revenue code then 102-113B
+7.2 AR Recognition Corp,Unbilled then billing reclass (remark Corporate),102-113B then 102-113,Revenue code then 102-113B
+7.3 AR Recognition Yakap,Unbilled then billing reclass (remark Yakap),102-113B then 102-113,Revenue code then 102-113B
+7.4 AR Collection,Same as 4.4-4.6 master billing_payment,MOP or account_type_id; CWT 105-000,102-113 Trade receivables
+7.5 AR Adjustment / Write-off / Provision,No AR write-off poster,Not posted — encode approved journal_entry,—
+8.1 AP Supplier Recognition,APV type receipt_note skipped (AP already on 1.1 RN); other supplier APV still credits AP,—,201-111 Accounts payable
+8.2 AP Non Trade Recognition,Expense document debit plus APV of that type,Document account_type_id,201-111 Accounts payable
+8.3 AP Payment,Same as 1.2 APV payment,201-111 Accounts payable,Payment account_type_id or 100-004 Cash on hand
+8.4 AP Adjustment / Write-off,No AP write-off poster,Not posted — encode approved journal_entry,—
+9.1 Cash Deposit (BPI & BDO),Clinic cash_deposit has no GL trigger (bank has no account_type_id),Not posted — encode approved journal_entry,—
+9.2 Bank Charges,No bank-charge poster,Not posted — encode approved journal_entry,—
+9.3 Bank Interest / Other Bank Transactions,No bank-interest poster,Not posted — encode approved journal_entry,—
+9.4 Cash & Bank Adjustments,No cash/bank adjustment poster,Not posted — encode approved journal_entry,—
+10.1 PPE Purchase / Recognition,No PPE poster,Not posted — encode approved journal_entry,—
+10.2 CIP Capitalization,No CIP poster,Not posted — encode approved journal_entry,—
+10.3 Depreciation,No depreciation poster,Not posted — encode approved journal_entry,—
+10.4 Asset Transfer,No asset-transfer poster,Not posted — encode approved journal_entry,—
+10.5 Asset Disposal,No asset-disposal poster,Not posted — encode approved journal_entry,—
+10.6 Fixed Asset Adjustments,No PPE adjustment poster,Not posted — encode approved journal_entry,—
+11.1 Prepayment Recognition,No prepaid poster (cash_advance is expense debit only),Not posted — encode approved journal_entry,—
+11.2 Prepayment Amortization,No amortization poster,Not posted — encode approved journal_entry,—
+11.3 Expense Accrual,No accrual poster,Not posted — encode approved journal_entry,—
+11.4 Accrual Reversal,No reversal poster,Not posted — encode approved journal_entry,—
+11.5 Prepayment / Accrual Adjustments,No prepaid/accrual adjustment poster,Not posted — encode approved journal_entry,—
+12.1 Input / Output VAT,No VAT poster,Not posted — encode approved journal_entry,—
+12.2 Withholding Tax Recognition Expanded,CWT on master billing_payment only,105-000 Creditable withholding tax (share of collection),—
+12.3 Withholding Tax Recognition Compensation,No payroll CWT poster,Not posted — encode approved journal_entry,—
+12.4 Tax Remittance / Payment,No remittance poster,Not posted — encode approved journal_entry,—
+12.5 Tax Provision,No tax-provision poster,Not posted — encode approved journal_entry,—
+14 Payroll,No payroll poster,Not posted — encode approved journal_entry,—
+14 Inter-Branch / Intercompany,No due-to/due-from poster (6.2 is inventory only),Not posted — encode approved journal_entry,—
+15 General Ledger (manual JE),Approved journal_entry / journal_entry_item,journal_entry_item.account_type_id debit,journal_entry_item.account_type_id credit
+16 Month-End / Year-End Closing,No closing poster,Not posted — encode approved journal_entry,—
+17 Financial Reporting,GL / TB / BS / P&L read posted general_ledger — not a journal,—,—

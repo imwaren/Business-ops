@@ -1,0 +1,501 @@
+branch_id,source,source_id,account_type_id,date,debit,credit,remark,is_migrated,added_by,added_on,is_deleted
+3,journal_entry,263,57,2026-01-14,8885.0000,0.0000,Cooperative Health Management Federation — M2008,1,0,2026-01-31 23:59:59,0
+3,journal_entry,248,13,2026-01-14,27163.0000,0.0000,"Sales Branches January 14, 2026 - Cash Sales - January, 14 — #48428",1,0,2026-01-31 23:59:59,0
+3,journal_entry,247,13,2026-01-14,0.0000,55681.0000,"To Record Cash Sales Branches January 13, 2025 - To Record Cash Sales Branches January 13, 2025 — #44983",1,0,2026-01-31 23:59:59,0
+3,journal_entry,248,1613,2026-01-14,0.0000,65160.0000,"Sales Branches January 14, 2026 - Consultations — #48428",1,0,2026-01-31 23:59:59,0
+3,journal_entry,248,1625,2026-01-14,382.0000,0.0000,"Sales Branches January 14, 2026 - Sales Discounts - January, 14 — #48428",1,0,2026-01-31 23:59:59,0
+3,journal_entry,248,1633,2026-01-14,0.0000,5650.0000,"Sales Branches January 14, 2026 - Health services — #48428",1,0,2026-01-31 23:59:59,0
+3,journal_entry,249,1053,2026-01-14,228.4300,0.0000,VIRLEN T. MAHINAY - Vat: confirmatory drug testing (Replenishment) — RFP No.# 4660,1,0,2026-01-31 23:59:59,0
+3,journal_entry,249,1057,2026-01-14,133.0200,0.0000,VIRLEN T. MAHINAY - Vat: Distilled water (Replenishment) — RFP No.# 4660,1,0,2026-01-31 23:59:59,0
+3,journal_entry,249,729,2026-01-14,64.2900,0.0000,VIRLEN T. MAHINAY - Vat: Laundry (Replenishment) — RFP No.# 4660,1,0,2026-01-31 23:59:59,0
+3,journal_entry,249,741,2026-01-14,75.9600,0.0000,VIRLEN T. MAHINAY - Vat: Plastic cups and wipes (Replenishment) — RFP No.# 4660,1,0,2026-01-31 23:59:59,0
+3,journal_entry,249,777,2026-01-14,50.8700,0.0000,VIRLEN T. MAHINAY - Vat: Gasoline and parking fee (Replenishment) — RFP No.# 4660,1,0,2026-01-31 23:59:59,0
+3,journal_entry,249,813,2026-01-14,1080.0000,0.0000,VIRLEN T. MAHINAY - Messenger (Replenishment) — RFP No.# 4660,1,0,2026-01-31 23:59:59,0
+3,journal_entry,249,1105,2026-01-14,1903.5700,0.0000,VIRLEN T. MAHINAY - Vatable: confirmatory drug testing (Replenishment) — RFP No.# 4660,1,0,2026-01-31 23:59:59,0
+3,journal_entry,249,1109,2026-01-14,1108.4800,0.0000,VIRLEN T. MAHINAY - Vatable: Distilled water (Replenishment) — RFP No.# 4660,1,0,2026-01-31 23:59:59,0
+3,journal_entry,248,1645,2026-01-14,0.0000,28930.0000,"Sales Branches January 14, 2026 - Laboratory/Diagnostics — #48428",1,0,2026-01-31 23:59:59,0
+3,journal_entry,248,1645,2026-01-14,0.0000,53970.0000,"Sales Branches January 14, 2026 - Laboratory/Diagnostics — #48428",1,0,2026-01-31 23:59:59,0
+3,journal_entry,248,1645,2026-01-14,0.0000,59546.0000,"Sales Branches January 14, 2026 - Laboratory/Diagnostics — #48428",1,0,2026-01-31 23:59:59,0
+3,journal_entry,248,1657,2026-01-14,0.0000,4080.0000,"Sales Branches January 14, 2026 - Laboratory/Diagnostics - Send Outs — #48428",1,0,2026-01-31 23:59:59,0
+3,journal_entry,249,817,2026-01-14,535.7100,0.0000,VIRLEN T. MAHINAY - Vatable: Laundry (Replenishment) — RFP No.# 4660,1,0,2026-01-31 23:59:59,0
+3,journal_entry,249,849,2026-01-14,633.0400,0.0000,VIRLEN T. MAHINAY - Vatable: Plastic cups and wipes (Replenishment) — RFP No.# 4660,1,0,2026-01-31 23:59:59,0
+3,journal_entry,249,849,2026-01-14,630.0000,0.0000,VIRLEN T. MAHINAY - Non-vat: Drinking water (Replenishment) — RFP No.# 4660,1,0,2026-01-31 23:59:59,0
+3,journal_entry,249,849,2026-01-14,749.0000,0.0000,VIRLEN T. MAHINAY - Nondeductible: umbrella rack (Replenishment) — RFP No.# 4660,1,0,2026-01-31 23:59:59,0
+3,journal_entry,249,1201,2026-01-14,7100.0000,0.0000,VIRLEN T. MAHINAY - Reliever fee (Replenishment) — RFP No.# 4660,1,0,2026-01-31 23:59:59,0
+3,journal_entry,248,1713,2026-01-14,0.0000,4200.0000,"Sales Branches January 14, 2026 - Third-Party Partnership — #48428",1,0,2026-01-31 23:59:59,0
+3,journal_entry,249,945,2026-01-14,423.9600,0.0000,VIRLEN T. MAHINAY - Vatable: Gasoline and parking fee (Replenishment) — RFP No.# 4660,1,0,2026-01-31 23:59:59,0
+3,journal_entry,249,945,2026-01-14,394.0000,0.0000,VIRLEN T. MAHINAY - Nondeductible: Transportation expenses (Replenishment) — RFP No.# 4660,1,0,2026-01-31 23:59:59,0
+3,journal_entry,306,217,2026-01-15,9217.8000,0.0000,Payment: ANDRE LUIS E. NATAVIO — RFP No.# 4716-15,1,0,2026-01-31 23:59:59,0
+3,journal_entry,321,217,2026-01-15,61319.2500,0.0000,Payment: DIVINE GRACE BALITE — RFP No.# 4716-29,1,0,2026-01-31 23:59:59,0
+3,journal_entry,301,217,2026-01-15,33849.4500,0.0000,Payment: JAN LOUIE GATILLO — RFP No.# 4716-10,1,0,2026-01-31 23:59:59,0
+3,journal_entry,323,217,2026-01-15,115020.0900,0.0000,Payment: MARIA SOCORRO PINO LAMOSTE — RFP No.# 4716-30,1,0,2026-01-31 23:59:59,0
+3,journal_entry,295,217,2026-01-15,4587.7700,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2367,1,0,2026-01-31 23:59:59,0
+3,journal_entry,294,217,2026-01-15,2893.8000,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2266,1,0,2026-01-31 23:59:59,0
+3,journal_entry,297,217,2026-01-15,11026.9600,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2371,1,0,2026-01-31 23:59:59,0
+3,journal_entry,298,217,2026-01-15,2063.8800,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2375,1,0,2026-01-31 23:59:59,0
+3,journal_entry,293,217,2026-01-15,4872.5600,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2120,1,0,2026-01-31 23:59:59,0
+3,journal_entry,296,217,2026-01-15,8151.6400,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2368,1,0,2026-01-31 23:59:59,0
+3,journal_entry,287,217,2026-01-15,17226.0000,0.0000,Payment: TONERPRO TRADING — 0725-000088,1,0,2026-01-31 23:59:59,0
+3,journal_entry,284,217,2026-01-15,17226.0000,0.0000,Payment: TONERPRO TRADING — 0525-096,1,0,2026-01-31 23:59:59,0
+3,journal_entry,286,217,2026-01-15,17226.0000,0.0000,Payment: TONERPRO TRADING — 0725-000068,1,0,2026-01-31 23:59:59,0
+3,journal_entry,283,217,2026-01-15,17226.0000,0.0000,Payment: TONERPRO TRADING — 0525-062,1,0,2026-01-31 23:59:59,0
+3,journal_entry,305,217,2026-01-15,4557.1500,0.0000,Payment: CINDY S. SOLIS — RFP No.# 4716-14,1,0,2026-01-31 23:59:59,0
+3,journal_entry,322,217,2026-01-15,16848.0000,0.0000,Payment: ANGELI MONTEMOR — RFP No.# 4716-3,1,0,2026-01-31 23:59:59,0
+3,journal_entry,303,217,2026-01-15,57567.1500,0.0000,Payment: CYRIL VILLANUEVA — RFP No.# 4716-12,1,0,2026-01-31 23:59:59,0
+3,journal_entry,318,217,2026-01-15,42241.2800,0.0000,Payment: JEANETTE BALAGA — RFP No.# 4716-26,1,0,2026-01-31 23:59:59,0
+3,journal_entry,319,217,2026-01-15,9988.6500,0.0000,Payment: LEMUELA EVA A. ABECIA — RFP No.# 4716-27,1,0,2026-01-31 23:59:59,0
+3,journal_entry,300,217,2026-01-15,106336.8000,0.0000,Payment: DUANE AGUILAR — RFP No.# 4716-1,1,0,2026-01-31 23:59:59,0
+3,journal_entry,324,217,2026-01-15,1863.0000,0.0000,Payment: MA. SOCORRO DAQUIPA — RFP No.# 4716-4,1,0,2026-01-31 23:59:59,0
+3,journal_entry,325,217,2026-01-15,15903.0000,0.0000,Payment: ROXANNE ROSE L. UY — RFP No.# 4716-5,1,0,2026-01-31 23:59:59,0
+3,journal_entry,326,217,2026-01-15,24948.0000,0.0000,Payment: MARIA PAULINA A. DIMPAS — RFP No.# 4716-6,1,0,2026-01-31 23:59:59,0
+3,journal_entry,329,217,2026-01-15,54942.3000,0.0000,Payment: CATHLEEN BUSTRILLOS IWAY — RFP No.# 4716-9,1,0,2026-01-31 23:59:59,0
+3,journal_entry,304,217,2026-01-15,5346.0000,0.0000,Payment: VIENNA LUZ P. CUBILLAN — RFP No.# 4716-13,1,0,2026-01-31 23:59:59,0
+3,journal_entry,315,217,2026-01-15,11951.6400,0.0000,Payment: JENNIFER DEL CASTILLO — RFP No.# 4716-23,1,0,2026-01-31 23:59:59,0
+3,journal_entry,316,217,2026-01-15,3746.6100,0.0000,Payment: CELESTE E. QUIJANO — RFP No.# 4716-24,1,0,2026-01-31 23:59:59,0
+3,journal_entry,317,217,2026-01-15,30233.2500,0.0000,Payment: JENNIFER L. CAMALONGAY — RFP No.# 4716-25,1,0,2026-01-31 23:59:59,0
+3,journal_entry,320,217,2026-01-15,3985.2000,0.0000,Payment: ADRIAN GODORNES — RFP No.# 4716-28,1,0,2026-01-31 23:59:59,0
+3,journal_entry,311,217,2026-01-15,63783.0000,0.0000,Payment: LICILLE S. KILANTANG — RFP No.# 4716-2,1,0,2026-01-31 23:59:59,0
+3,journal_entry,327,217,2026-01-15,10687.5000,0.0000,Payment: BERNADETTE S. TABON — RFP No.# 4716-7,1,0,2026-01-31 23:59:59,0
+3,journal_entry,302,217,2026-01-15,20606.4000,0.0000,Payment: HARVEY ANGA-ANGAN — RFP No.# 4716-11,1,0,2026-01-31 23:59:59,0
+3,journal_entry,307,217,2026-01-15,18556.8300,0.0000,Payment: LLOYD VINCENT M. BASS — RFP No.# 4716-16,1,0,2026-01-31 23:59:59,0
+3,journal_entry,308,217,2026-01-15,54059.4000,0.0000,Payment: JONATHAN SARTE — RFP No.# 4716-17,1,0,2026-01-31 23:59:59,0
+3,journal_entry,309,217,2026-01-15,27676.3000,0.0000,Payment: HAROLD JAMES ESTRADA — RFP No.# 4716-18,1,0,2026-01-31 23:59:59,0
+3,journal_entry,310,217,2026-01-15,100721.0400,0.0000,Payment: PIERRE OUANO — RFP No.# 4716-19,1,0,2026-01-31 23:59:59,0
+3,journal_entry,312,217,2026-01-15,12210.3500,0.0000,Payment: SEAN SINDO — RFP No.# 4716-20,1,0,2026-01-31 23:59:59,0
+3,journal_entry,313,217,2026-01-15,7100.3000,0.0000,Payment: Kathrina Aseanne Acapulco Gomez — RFP No.# 4716-21,1,0,2026-01-31 23:59:59,0
+3,journal_entry,314,217,2026-01-15,1800.0000,0.0000,Payment: JAN ANDREI FLORES — RFP No.# 4716-22,1,0,2026-01-31 23:59:59,0
+3,journal_entry,299,217,2026-01-15,2193.2400,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3319,1,0,2026-01-31 23:59:59,0
+3,journal_entry,285,217,2026-01-15,3369.6400,0.0000,Payment: LYNOLDS MARKETING — 0625-049,1,0,2026-01-31 23:59:59,0
+3,journal_entry,328,217,2026-01-15,77719.5000,0.0000,Payment: ROSE MAY CAMALONGAY — RFP No.# 4716-8,1,0,2026-01-31 23:59:59,0
+3,journal_entry,279,217,2026-01-15,0.0000,809.3100,CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 4690,1,0,2026-01-31 23:59:59,0
+3,journal_entry,282,217,2026-01-15,0.0000,15624.2500,"CONVERGE INFORMATION AND COMMUNICATIONS TECHNOLOGY SOLUTIONS, INC. — RFP No.# 4747",1,0,2026-01-31 23:59:59,0
+3,journal_entry,280,217,2026-01-15,0.0000,81844.9100,SS7 SECURITY SERVICES CORPORATION — RFP No.# 4691,1,0,2026-01-31 23:59:59,0
+3,journal_entry,278,77,2026-01-15,3770.0000,0.0000,"Sales Branches January 15, 2026 - Gcash Sales - January, 15 — #48430",1,0,2026-01-31 23:59:59,0
+3,journal_entry,278,61,2026-01-15,3072.0000,0.0000,"Sales Branches January 15, 2026 - Credit Card Sales - January, 15 — #48430",1,0,2026-01-31 23:59:59,0
+3,journal_entry,278,61,2026-01-15,11321.0000,0.0000,"Sales Branches January 15, 2026 - Debit Card Sales - January, 15 — #48430",1,0,2026-01-31 23:59:59,0
+3,journal_entry,278,65,2026-01-15,160801.0000,0.0000,"Sales Branches January 15, 2026 - Term Sales - January, 15 — #48430",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,100.0000,"Life & Health Hmp Inc - PENUTI, FRANCIS RAIN FUENTES | 01/09/2026 |Life & Health Hmp Inc| 100- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,150.0000,"Maxicare Healthcare Corporation - GUERRERO, GRACITA BONGCAYAO | 01/10/2026 |Maxicare Healthcare Corporation| 150- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,170.0000,"Asalus Corporation - ENCINA, MARIA SVETLANA YU | 01/10/2026 |Asalus Corporation| 170- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,250.0000,"Maxicare Healthcare Corporation - MADURO, GERARD LACRE | 01/09/2026 |Maxicare Healthcare Corporation| 250- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,250.0000,"Maxicare Healthcare Corporation - TUMULAK, EZZYL ARMADA | 01/09/2026 |Maxicare Healthcare Corporation| 250- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,250.0000,"Maxicare Healthcare Corporation - PUERTO, CHARIZ DELOS REYES | 01/09/2026 |Maxicare Healthcare Corporation| 250- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,250.0000,"Maxicare Healthcare Corporation - DIOLA, ELJUN DE LOS SANTOS | 01/09/2026 |Maxicare Healthcare Corporation| 250- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,280.0000,"Life & Health Hmp Inc - SUMAYA, LEONI JOHN CABADSAN | 01/09/2026 |Life & Health Hmp Inc| 280- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,290.0000,"Maxicare Healthcare Corporation - DAWATAN, JULIET PACIÑO | 01/10/2026 |Maxicare Healthcare Corporation| 290- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,290.0000,"Maxicare Healthcare Corporation - TISOY, SANDIE FERNANDEZ | 01/10/2026 |Maxicare Healthcare Corporation| 290- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,310.0000,"Asalus Corporation - SATO, AOI HERMIONE CRUZ | 01/09/2026 |Asalus Corporation| 310- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,400.0000,"Life & Health Hmp Inc - PENUTI, FRANCIS RAIN FUENTES | 01/09/2026 |Life & Health Hmp Inc| 400- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,400.0000,"Life & Health Hmp Inc - BERDIN, LARRY BERING | 01/09/2026 |Life & Health Hmp Inc| 400- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,400.0000,"Life & Health Hmp Inc - VELOSO, GLENN SILVA | 01/09/2026 |Life & Health Hmp Inc| 400- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,400.0000,"Life & Health Hmp Inc - LUMONGSUD, WREN ARZEL ACOSTA | 01/09/2026 |Life & Health Hmp Inc| 400- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,400.0000,"Life & Health Hmp Inc - LUBIANO, RONALD BAQUERO | 01/09/2026 |Life & Health Hmp Inc| 400- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,400.0000,"Life & Health Hmp Inc - DESPI, LYDON LAYAGUE | 01/09/2026 |Life & Health Hmp Inc| 400- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,400.0000,"Life & Health Hmp Inc - PAQUIBOT, HONEY MARIE EGOT | 01/09/2026 |Life & Health Hmp Inc| 400- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,400.0000,"Life & Health Hmp Inc - LIBATON, YUNA MAE FLORES | 01/09/2026 |Life & Health Hmp Inc| 400- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,400.0000,"Life & Health Hmp Inc - SUMAYA, LEONI JOHN CABADSAN | 01/09/2026 |Life & Health Hmp Inc| 400- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,400.0000,"Life & Health Hmp Inc - SADORA, JULIUS CASUN | 01/10/2026 |Life & Health Hmp Inc| 400- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,400.0000,"Life & Health Hmp Inc - PATINDOL, JIA MARGARETH INSULAR | 01/10/2026 |Life & Health Hmp Inc| 400- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,400.0000,"Life & Health Hmp Inc - DOYOHIM, MONICA LYKA BAGUIO | 01/10/2026 |Life & Health Hmp Inc| 400- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,400.0000,"Life & Health Hmp Inc - MANATAD, PRINCESS IANNE VEGA | 01/10/2026 |Life & Health Hmp Inc| 400- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,400.0000,"Life & Health Hmp Inc - AGAN, FEMALYN DE LA CRUZ | 01/10/2026 |Life & Health Hmp Inc| 400- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,400.0000,"Life & Health Hmp Inc - MANDAWE, CHARLO MARATAS | 01/10/2026 |Life & Health Hmp Inc| 400- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,400.0000,"Life & Health Hmp Inc - BEREZO, KRISHA INNIE MATUGUINA | 01/10/2026 |Life & Health Hmp Inc| 400- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,400.0000,"Life & Health Hmp Inc - ABANIEL, CELINA IGOT | 01/10/2026 |Life & Health Hmp Inc| 400- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,400.0000,"Life & Health Hmp Inc - TAMPUS, CIAN JERSON LLANTO | 01/10/2026 |Life & Health Hmp Inc| 400- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,400.0000,"Life & Health Hmp Inc - CANTON, CHARITY JANE HATAMOSA | 01/10/2026 |Life & Health Hmp Inc| 400- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,400.0000,"Asalus Corporation - ECHAVEZ, JAYCEE CRYSTAL DY | 01/10/2026 |Asalus Corporation| 400- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,440.0000,"Maxicare Healthcare Corporation - GUERRERO, GRACITA BONGCAYAO | 01/09/2026 |Maxicare Healthcare Corporation| 440- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,450.0000,"Insular Healthcare Inc - ANTONIO, MAY BUNAO | 01/09/2026 |Insular Healthcare Inc| 450- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,450.0000,"Life & Health Hmp Inc - TAMPUS, CIAN JERSON LLANTO | 01/10/2026 |Life & Health Hmp Inc| 450- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,450.0000,"Insular Healthcare Inc - MOLINA, ALEXANDER JOSHUA RUTA | 01/10/2026 |Insular Healthcare Inc| 450- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,470.0000,"Life & Health Hmp Inc - LABUCA, DAISY BALANE | 01/09/2026 |Life & Health Hmp Inc| 470- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,500.0000,"Insular Healthcare Inc - CABALLES, MICHELLE BACALSO | 01/09/2026 |Insular Healthcare Inc| 500- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,500.0000,"Insular Healthcare Inc - ANTONIO, MAY BUNAO | 01/09/2026 |Insular Healthcare Inc| 500- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,500.0000,"Insular Healthcare Inc - OMPAD, JIA MARIES MAGSUCANG | 01/09/2026 |Insular Healthcare Inc| 500- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,500.0000,"Insular Healthcare Inc - COLE, LENE LOU SHAIRA VILLAPLAZA | 01/09/2026 |Insular Healthcare Inc| 500- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,500.0000,"Insular Healthcare Inc - PUBLICO, CRISANTO ESCO | 01/09/2026 |Insular Healthcare Inc| 500- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,500.0000,"Insular Healthcare Inc - CENIZA, JOAN AMORES | 01/09/2026 |Insular Healthcare Inc| 500- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,500.0000,"Insular Healthcare Inc - MAOMAY, ROWENA ZAPANTA | 01/09/2026 |Insular Healthcare Inc| 500- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,500.0000,"Insular Healthcare Inc - CABALLERO, JOANA . | 01/09/2026 |Insular Healthcare Inc| 500- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,500.0000,"Insular Healthcare Inc - BALINGKIT, CLARISSE MAE MORTEJO | 01/10/2026 |Insular Healthcare Inc| 500- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,500.0000,"Insular Healthcare Inc - PUBLICO, CRISANTO ESCO | 01/10/2026 |Insular Healthcare Inc| 500- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,500.0000,"Insular Healthcare Inc - MONGAYA, JOY . | 01/10/2026 |Insular Healthcare Inc| 500- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,500.0000,"Maxicare Healthcare Corporation - GADOR, KAREN JESSA CAMIGUING | 01/09/2026 |Maxicare Healthcare Corporation| 500- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,500.0000,"Maxicare Healthcare Corporation - ARNEJO, FAITH BUSTILLO | 01/09/2026 |Maxicare Healthcare Corporation| 500- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,500.0000,"Maxicare Healthcare Corporation - CARRASCO, CHARMAINE PAULE | 01/09/2026 |Maxicare Healthcare Corporation| 500- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,500.0000,"Maxicare Healthcare Corporation - BADELIC, EMELIA ESCALA | 01/10/2026 |Maxicare Healthcare Corporation| 500- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,500.0000,"Maxicare Healthcare Corporation - BADELIC, FELIX DOMINISE | 01/10/2026 |Maxicare Healthcare Corporation| 500- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,500.0000,"Maxicare Healthcare Corporation - TABADA, DANILO LABIS | 01/10/2026 |Maxicare Healthcare Corporation| 500- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,500.0000,"Maxicare Healthcare Corporation - GARCIA, GEMMA FLOR SURATOS | 01/10/2026 |Maxicare Healthcare Corporation| 500- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,500.0000,"Asalus Corporation - BANTIGUE, MARK JIGLEN YANA | 01/09/2026 |Asalus Corporation| 500- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,500.0000,"Asalus Corporation - COUCH, GLEZE CAMAONGAY | 01/09/2026 |Asalus Corporation| 500- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,500.0000,"Asalus Corporation - GARGAR, JOELICIA DE LA PEÑA | 01/09/2026 |Asalus Corporation| 500- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,500.0000,"Asalus Corporation - YAMBING, MURIEL FABELLA | 01/09/2026 |Asalus Corporation| 500- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,500.0000,"Asalus Corporation - MAGBANUA, CHRISTALYN CORTUNA | 01/09/2026 |Asalus Corporation| 500- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,500.0000,"Asalus Corporation - SATO, AOI HERMIONE CRUZ | 01/09/2026 |Asalus Corporation| 500- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,500.0000,"Asalus Corporation - RECENTES, KEVIN JOHN AMILASAN | 01/09/2026 |Asalus Corporation| 500- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,500.0000,"Asalus Corporation - DEVILLERES, MARY ROSE LANOJAN | 01/09/2026 |Asalus Corporation| 500- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,500.0000,"Asalus Corporation - ESTAN, AARAYAH BHRIELLE LIGAN | 01/09/2026 |Asalus Corporation| 500- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,500.0000,"Asalus Corporation - LAPUZ, JENELYN CUPANG | 01/09/2026 |Asalus Corporation| 500- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,500.0000,"Asalus Corporation - RUIZ, BRAYDEN KEIFFER PANGAN | 01/09/2026 |Asalus Corporation| 500- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,500.0000,"Asalus Corporation - SABELLANO, JOHN LOURENCE CALA | 01/09/2026 |Asalus Corporation| 500- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,500.0000,"Asalus Corporation - SANSAN, MERZA MANGUILIMOTAN | 01/09/2026 |Asalus Corporation| 500- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,500.0000,"Asalus Corporation - SATO, AOI HERMIONE CRUZ | 01/10/2026 |Asalus Corporation| 500- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,500.0000,"Asalus Corporation - ENCINA, MARIA SVETLANA YU | 01/10/2026 |Asalus Corporation| 500- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,500.0000,"Asalus Corporation - ECHAVEZ, JAYCEE CRYSTAL DY | 01/10/2026 |Asalus Corporation| 500- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,500.0000,"Asalus Corporation - CARCOSA, ZEPHRAN ZAYNE LU-AR | 01/10/2026 |Asalus Corporation| 500- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,500.0000,"Asalus Corporation - CARCOSA, ZEKE ZAYDEN LU-AR | 01/10/2026 |Asalus Corporation| 500- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,500.0000,"Asalus Corporation - OMPAD, ROSABELLA PATIGDAS | 01/10/2026 |Asalus Corporation| 500- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,500.0000,"Insular Healthcare Inc - NELLAS, OLIVER BELLO | 01/10/2026 |Insular Healthcare Inc| 500- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,500.0000,"Insular Healthcare Inc - LAUDIANA, ANGELME ASEROA | 01/10/2026 |Insular Healthcare Inc| 500- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,500.0000,"Insular Healthcare Inc - MOLINA, ALEXANDER JOSHUA RUTA | 01/10/2026 |Insular Healthcare Inc| 500- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,500.0000,"Insular Healthcare Inc - BATUCAN, GALIEN DEANNE LUNA | 01/10/2026 |Insular Healthcare Inc| 500- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,500.0000,"Insular Healthcare Inc - SANCHEZ, HONEY IRISHED SALADAGA | 01/10/2026 |Insular Healthcare Inc| 500- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,500.0000,"Insular Healthcare Inc - ALEJANDRO, DENICE CARMEL - | 01/10/2026 |Insular Healthcare Inc| 500- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,500.0000,"Insular Healthcare Inc - TIMOSA, ROSEMARIE  JEAN CADAMPOG | 01/10/2026 |Insular Healthcare Inc| 500- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,500.0000,"Insular Healthcare Inc - LEPON, JOJIE TABARNO | 01/10/2026 |Insular Healthcare Inc| 500- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,500.0000,"Insular Healthcare Inc - ANUNCIADO, ALEXIS LEUNARD DELA CRUZ | 01/10/2026 |Insular Healthcare Inc| 500- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,500.0000,"Insular Healthcare Inc - REGIDOR, ELYMAR SUBONG | 01/10/2026 |Insular Healthcare Inc| 500- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,500.0000,"Insular Healthcare Inc - DALANON, KATHERINE LOPEZ | 01/10/2026 |Insular Healthcare Inc| 500- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,500.0000,"Insular Healthcare Inc - CAÑETE, CRYSTEL ANALIE LUMONGSUD | 01/10/2026 |Insular Healthcare Inc| 500- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,600.0000,"Maxicare Healthcare Corporation - MADURO, KRISTYL JANE MONDRAGON | 01/09/2026 |Maxicare Healthcare Corporation| 600- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,600.0000,"Maxicare Healthcare Corporation - ACEVEDO, RICHELIEU II VALDEZ | 01/09/2026 |Maxicare Healthcare Corporation| 600- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,600.0000,"Maxicare Healthcare Corporation - ENCABO, IRENE LOREN | 01/09/2026 |Maxicare Healthcare Corporation| 600- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,600.0000,"Maxicare Healthcare Corporation - ARIOJA, ANTHEIA KIRSTEN CAÑEBA | 01/09/2026 |Maxicare Healthcare Corporation| 600- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,600.0000,"Maxicare Healthcare Corporation - LEE, MAIKO GREY TUMULAK | 01/09/2026 |Maxicare Healthcare Corporation| 600- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,600.0000,"Maxicare Healthcare Corporation - BORDALLO JR., FRANCISCO MACARANAS | 01/10/2026 |Maxicare Healthcare Corporation| 600- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,600.0000,"Maxicare Healthcare Corporation - TAKAHASHI, YOSHIO PALAMINE | 01/10/2026 |Maxicare Healthcare Corporation| 600- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,600.0000,"Maxicare Healthcare Corporation - DUNGOG, NORA LUARDO | 01/10/2026 |Maxicare Healthcare Corporation| 600- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,600.0000,"Maxicare Healthcare Corporation - IGOT, RITCHIE YAGONG | 01/10/2026 |Maxicare Healthcare Corporation| 600- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,600.0000,"Maxicare Healthcare Corporation - OYAO, FILOMENA INOT | 01/10/2026 |Maxicare Healthcare Corporation| 600- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,600.0000,"Maxicare Healthcare Corporation - QUIAPO, JIMNEL MAESTRADO | 01/10/2026 |Maxicare Healthcare Corporation| 600- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,600.0000,"Maxicare Healthcare Corporation - GUINITARAN, BRIELLE SYLVIE CAÑETE | 01/10/2026 |Maxicare Healthcare Corporation| 600- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,600.0000,"Maxicare Healthcare Corporation - BAGUIO, MAKAYLA AREDIDON | 01/10/2026 |Maxicare Healthcare Corporation| 600- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,600.0000,"Maxicare Healthcare Corporation - VELOS, CHARLES HISOLER | 01/10/2026 |Maxicare Healthcare Corporation| 600- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,600.0000,"Maxicare Healthcare Corporation - MANGUBAT, EMELY PEREJAN | 01/10/2026 |Maxicare Healthcare Corporation| 600- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,600.0000,"Maxicare Healthcare Corporation - MANNING, BELLIZA ALEXA FONTE | 01/10/2026 |Maxicare Healthcare Corporation| 600- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,600.0000,"Maxicare Healthcare Corporation - MANNING, BLAKE ALVIN FONTE | 01/10/2026 |Maxicare Healthcare Corporation| 600- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,600.0000,"Maxicare Healthcare Corporation - CALDERON, ROLANDO LAZARRAGA | 01/10/2026 |Maxicare Healthcare Corporation| 600- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,650.0000,"Life & Health Hmp Inc - TERADO, MARK JOHN . | 01/10/2026 |Life & Health Hmp Inc| 650- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,660.0000,"Insular Healthcare Inc - LEPON, JOJIE TABARNO | 01/09/2026 |Insular Healthcare Inc| 660- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,660.0000,"Life & Health Hmp Inc - ABANIEL, CELINA IGOT | 01/10/2026 |Life & Health Hmp Inc| 660- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,660.0000,"Insular Healthcare Inc - TIMOSA, ROSEMARIE  JEAN CADAMPOG | 01/10/2026 |Insular Healthcare Inc| 660- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,735.0000,"Insular Healthcare Inc - MONGAYA, JOY . | 01/10/2026 |Insular Healthcare Inc| 735- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,735.0000,"Insular Healthcare Inc - MONGAYA, JOY . | 01/10/2026 |Insular Healthcare Inc| 735- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,750.0000,"Insular Healthcare Inc - PONTILLO, LEEYHA LOU FUENTES | 01/10/2026 |Insular Healthcare Inc| 750- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,915.0000,"Life & Health Hmp Inc - PEÑA, EMALYN DEL POSO | 01/10/2026 |Life & Health Hmp Inc| 915- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,936.0000,"Maxicare Healthcare Corporation - VELOS, CHARLES HISOLER | 01/10/2026 |Maxicare Healthcare Corporation| 936- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,950.0000,"Life & Health Hmp Inc - BAYARCAL, JESSA COSARE | 01/10/2026 |Life & Health Hmp Inc| 950- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,1080.0000,"Life & Health Hmp Inc - DELIVERIO, CLAYTON JAN DICO | 01/10/2026 |Life & Health Hmp Inc| 1080- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,1130.0000,"Maxicare Healthcare Corporation - AYUSO, MOSEO JONATHAN LLERA | 01/10/2026 |Maxicare Healthcare Corporation| 1130- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,1225.0000,"Maxicare Healthcare Corporation - DUNGOG, NORA LUARDO | 01/10/2026 |Maxicare Healthcare Corporation| 1225- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,1500.0000,"Life & Health Hmp Inc - ABALOS, CHARLOTTE YCONG | 01/09/2026 |Life & Health Hmp Inc| 1500- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,1500.0000,"Life & Health Hmp Inc - TORRETA, DIVINA ARONG | 01/09/2026 |Life & Health Hmp Inc| 1500- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,1500.0000,"Insular Healthcare Inc - MONGAYA, JOY . | 01/10/2026 |Insular Healthcare Inc| 1500- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,1500.0000,"Insular Healthcare Inc - PONTILLO, LEESHA LOU FUENTES | 01/10/2026 |Insular Healthcare Inc| 1500- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,1550.0000,"Life & Health Hmp Inc - CAL, REYDENTOR JOCDONG | 01/10/2026 |Life & Health Hmp Inc| 1550- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,1790.0000,"Asalus Corporation - ALOLOR, JAMEL DESABELLE | 01/09/2026 |Asalus Corporation| 1790- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,1980.0000,"Asalus Corporation - DE LA CRUZ, JUAINE LYLE GASCON | 01/10/2026 |Asalus Corporation| 1980- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,1995.0000,"Asalus Corporation - OMPAD, ROSABELLA PATIGDAS | 01/10/2026 |Asalus Corporation| 1995- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,2050.0000,"Life & Health Hmp Inc - MANDAWE, CHARLO MARATAS | 01/09/2026 |Life & Health Hmp Inc| 2050- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,2300.0000,"Asalus Corporation - YAMBING, MURIEL FABELLA | 01/10/2026 |Asalus Corporation| 2300- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,2490.0000,"Asalus Corporation - JUNTADO, ROBERT ELAG | 01/10/2026 |Asalus Corporation| 2490- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,2520.0000,"Life & Health Hmp Inc - PULGO, JENNIFER CABIJE | 01/10/2026 |Life & Health Hmp Inc| 2520- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,2650.0000,"Insular Healthcare Inc - REGIDOR, ELYMAR SUBONG | 01/10/2026 |Insular Healthcare Inc| 2650- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,2650.0000,"Life & Health Hmp Inc - NOCELLAS, NEIL PLEÑOS | 01/10/2026 |Life & Health Hmp Inc| 2650- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,2650.0000,"Life & Health Hmp Inc - TUMULAK, DEBORA MORALBA | 01/10/2026 |Life & Health Hmp Inc| 2650- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,2960.0000,"Asalus Corporation - QUIRANTE, MARYGOLD MORENO | 01/10/2026 |Asalus Corporation| 2960- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,2960.0000,"Asalus Corporation - SAYON, CELESTY TAPAY | 01/10/2026 |Asalus Corporation| 2960- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,2960.0000,"Asalus Corporation - RAMIREZ, KIMBERLY LAURON | 01/10/2026 |Asalus Corporation| 2960- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,2960.0000,"Asalus Corporation - DE LA CRUZ, JENELYN GASCON | 01/10/2026 |Asalus Corporation| 2960- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,2960.0000,"Asalus Corporation - MONTEJO, MELODY COLEGIO | 01/10/2026 |Asalus Corporation| 2960- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,2960.0000,"Asalus Corporation - ARSUA, ROSEVILLA CASIMSIMAN | 01/10/2026 |Asalus Corporation| 2960- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,2977.0000,"Maxicare Healthcare Corporation - MADURO, KRISTYL JANE MONDRAGON | 01/09/2026 |Maxicare Healthcare Corporation| 2977- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,3000.0000,"Asalus Corporation - BANTIGUE, MARK JIGLEN YANA | 01/09/2026 |Asalus Corporation| 3000- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,65,2026-01-15,0.0000,3000.0000,"Asalus Corporation - BASMAYOR, MARICHU DELA PEÑA | 01/10/2026 |Asalus Corporation| 3000- — M2024",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,3020.0000,"Maxicare Healthcare Corporation - DUNGOG, NORA LUARDO | 01/10/2026 |Maxicare Healthcare Corporation| 3020- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,3331.0000,"Maxicare Healthcare Corporation - VELOS, CHARLES HISOLER | 01/10/2026 |Maxicare Healthcare Corporation| 3331- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,3370.0000,"Life & Health Hmp Inc - BAGA, ROSALIE WASKIN | 01/09/2026 |Life & Health Hmp Inc| 3370- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,3370.0000,"Life & Health Hmp Inc - SON, MIRIAM GADER | 01/09/2026 |Life & Health Hmp Inc| 3370- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,3600.0000,"Maxicare Healthcare Corporation - CHAN, ANGIE RUBIO | 01/09/2026 |Maxicare Healthcare Corporation| 3600- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,3750.0000,"Life & Health Hmp Inc - NACUA, EVELYN AMAHIT | 01/10/2026 |Life & Health Hmp Inc| 3750- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,3760.0000,"Insular Healthcare Inc - PUBLICO, CRISANTO ESCO | 01/09/2026 |Insular Healthcare Inc| 3760- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,4100.0000,"Insular Healthcare Inc - OMPAD, JIA MARIES MAGSUCANG | 01/09/2026 |Insular Healthcare Inc| 4100- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,4700.0000,"Life & Health Hmp Inc - TIRO, ALPHE DELIGENCIA | 01/10/2026 |Life & Health Hmp Inc| 4700- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,4740.0000,"Life & Health Hmp Inc - PEÑA, EMALYN DEL POSO | 01/10/2026 |Life & Health Hmp Inc| 4740- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,5300.0000,"Life & Health Hmp Inc - DARO, ROBELYN MORALES | 01/10/2026 |Life & Health Hmp Inc| 5300- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,5305.0000,"Life & Health Hmp Inc - EMIA, LILIBETH BARTIDO | 01/10/2026 |Life & Health Hmp Inc| 5305- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,5350.0000,"Life & Health Hmp Inc - PAQUIBOT, HONEY MARIE EGOT | 01/09/2026 |Life & Health Hmp Inc| 5350- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,5671.0000,"Maxicare Healthcare Corporation - GADOR, KAREN JESSA CAMIGUING | 01/09/2026 |Maxicare Healthcare Corporation| 5671- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,5830.0000,"Life & Health Hmp Inc - PAUNIL, EMILYN MACAHIBAG | 01/10/2026 |Life & Health Hmp Inc| 5830- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,65,2026-01-15,0.0000,6330.0000,"Maxicare Healthcare Corporation - MADURO, GERARD LACRE | 01/09/2026 |Maxicare Healthcare Corporation| 6330- — M2022",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,65,2026-01-15,0.0000,6400.0000,"Insular Healthcare Inc - SANCHEZ, HONEY IRISHED SALADAGA | 01/10/2026 |Insular Healthcare Inc| 6400- — M2021",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,7040.0000,"Life & Health Hmp Inc - MALINAO, LUZLYN CAZAR | 01/10/2026 |Life & Health Hmp Inc| 7040- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,8320.0000,"Life & Health Hmp Inc - TIRO, ALPHE DELIGENCIA | 01/10/2026 |Life & Health Hmp Inc| 8320- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,10210.0000,"Life & Health Hmp Inc - ENTERO, JERALYN CAPUTE | 01/10/2026 |Life & Health Hmp Inc| 10210- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,65,2026-01-15,0.0000,10210.0000,"Life & Health Hmp Inc - RAMOS, CANDELARIA DOÑOS | 01/10/2026 |Life & Health Hmp Inc| 10210- — M2023",1,0,2026-01-31 23:59:59,0
+3,journal_entry,330,57,2026-01-15,35850.0000,0.0000,Insular Healthcare Inc — M2021,1,0,2026-01-31 23:59:59,0
+3,journal_entry,331,57,2026-01-15,44690.0000,0.0000,Maxicare Healthcare Corporation — M2022,1,0,2026-01-31 23:59:59,0
+3,journal_entry,332,57,2026-01-15,105070.0000,0.0000,Life & Health Hmp Inc — M2023,1,0,2026-01-31 23:59:59,0
+3,journal_entry,333,57,2026-01-15,44695.0000,0.0000,Asalus Corporation — M2024,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,527.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,527.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,527.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,527.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,585.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,655.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,655.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,748.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,748.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,780.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,817.6000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,1022.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,1022.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,1022.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,1022.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,1022.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,1022.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,1022.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,1022.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,1053.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,1053.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,1053.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,1053.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,1054.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,1111.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,1111.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,1111.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,1111.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,1346.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,1520.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,1520.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,1584.4000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,1696.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,1708.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,1756.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,2002.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,2005.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,2005.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,2005.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,2044.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,2063.8800,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,2175.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,2193.2400,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,2340.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,2396.6000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,2440.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,2612.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,2629.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,2660.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,2691.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,2761.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,2777.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,2782.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,2799.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,2893.8000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,2896.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,2901.8000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,2924.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,2924.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,2924.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,2924.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,2924.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,2924.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,2924.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,3058.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,3197.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,3207.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,3335.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,290,45,2026-01-15,0.0000,3369.6400,Payment: LYNOLDS MARKETING — 1245518,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,3387.8000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,3390.6000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,3392.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,3393.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,3472.4000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,3477.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,3508.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,3525.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,3551.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,3595.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,3595.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,3619.6000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,3682.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,3702.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,3733.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,3743.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,3744.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,3914.6000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,3946.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,3946.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,3946.8000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,4004.6000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,4032.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,4049.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,4138.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,4199.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,4210.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,4212.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,4239.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,4486.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,4520.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,4587.7700,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,4795.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,4809.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,4843.2000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,4872.5600,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,4972.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,5005.6000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,5006.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,5030.6000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,5095.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,5263.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,5356.6000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,5461.4000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,5598.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,5623.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,5647.4000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,5685.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,5931.6000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,5958.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,6015.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,6124.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,6142.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,6171.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,6365.8000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,6402.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,6461.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,6478.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,6500.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,6581.7500,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,6722.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,6753.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,6823.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,6954.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,7007.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,7108.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,7174.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,7184.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,7244.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,7850.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,7907.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,7910.8000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,8151.6400,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,8424.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,8433.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,8445.6000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,8790.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,8845.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,8872.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,8961.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,9269.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,9337.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,9746.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,9826.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,9972.4000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,10211.6000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,10260.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,10303.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,10303.6000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,10582.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,10716.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,10829.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,11025.2000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,11026.9600,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,11324.8000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,12337.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,12866.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,289,45,2026-01-15,0.0000,12880.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,13390.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,13668.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,14039.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,14050.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,15235.4000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,15975.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,15982.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,16173.2000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,16359.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,16881.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,16949.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,291,45,2026-01-15,0.0000,17226.0000,Payment: TONERPRO TRADING — 1245520,1,0,2026-01-31 23:59:59,0
+3,journal_entry,291,45,2026-01-15,0.0000,17226.0000,Payment: TONERPRO TRADING — 1245520,1,0,2026-01-31 23:59:59,0
+3,journal_entry,291,45,2026-01-15,0.0000,17226.0000,Payment: TONERPRO TRADING — 1245520,1,0,2026-01-31 23:59:59,0
+3,journal_entry,291,45,2026-01-15,0.0000,17226.0000,Payment: TONERPRO TRADING — 1245520,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,17638.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,17674.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,17946.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,18054.1500,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,19123.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,19125.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,19636.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,21386.4000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,24342.4000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,25522.4000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,288,45,2026-01-15,0.0000,27728.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,1,0,2026-01-31 23:59:59,0
+3,journal_entry,292,1,2026-01-15,0.0000,1800.0000,Payment: JAN ANDREI FLORES — Online-011526,1,0,2026-01-31 23:59:59,0
+3,journal_entry,292,1,2026-01-15,0.0000,1863.0000,Payment: MA. SOCORRO DAQUIPA — Online-011526,1,0,2026-01-31 23:59:59,0
+3,journal_entry,292,1,2026-01-15,0.0000,3746.6100,Payment: CELESTE E. QUIJANO — Online-011526,1,0,2026-01-31 23:59:59,0
+3,journal_entry,292,1,2026-01-15,0.0000,3985.2000,Payment: ADRIAN GODORNES — Online-011526,1,0,2026-01-31 23:59:59,0
+3,journal_entry,292,1,2026-01-15,0.0000,4557.1500,Payment: CINDY S. SOLIS — Online-011526,1,0,2026-01-31 23:59:59,0
+3,journal_entry,292,1,2026-01-15,0.0000,5346.0000,Payment: VIENNA LUZ P. CUBILLAN — Online-011526,1,0,2026-01-31 23:59:59,0
+3,journal_entry,292,1,2026-01-15,0.0000,7100.3000,Payment: Kathrina Aseanne Acapulco Gomez — Online-011526,1,0,2026-01-31 23:59:59,0
+3,journal_entry,292,1,2026-01-15,0.0000,9217.8000,Payment: ANDRE LUIS E. NATAVIO — Online-011526,1,0,2026-01-31 23:59:59,0
+3,journal_entry,292,1,2026-01-15,0.0000,9988.6500,Payment: LEMUELA EVA A. ABECIA — Online-011526,1,0,2026-01-31 23:59:59,0
+3,journal_entry,292,1,2026-01-15,0.0000,10687.5000,Payment: BERNADETTE S. TABON — Online-011526,1,0,2026-01-31 23:59:59,0
+3,journal_entry,292,1,2026-01-15,0.0000,11951.6400,Payment: JENNIFER DEL CASTILLO — Online-011526,1,0,2026-01-31 23:59:59,0
+3,journal_entry,292,1,2026-01-15,0.0000,12210.3500,Payment: SEAN SINDO — Online-011526,1,0,2026-01-31 23:59:59,0
+3,journal_entry,292,1,2026-01-15,0.0000,15903.0000,Payment: ROXANNE ROSE L. UY — Online-011526,1,0,2026-01-31 23:59:59,0
+3,journal_entry,292,1,2026-01-15,0.0000,16848.0000,Payment: ANGELI MONTEMOR — Online-011526,1,0,2026-01-31 23:59:59,0
+3,journal_entry,292,1,2026-01-15,0.0000,18556.8300,Payment: LLOYD VINCENT M. BASS — Online-011526,1,0,2026-01-31 23:59:59,0
+3,journal_entry,292,1,2026-01-15,0.0000,20606.4000,Payment: HARVEY ANGA-ANGAN — Online-011526,1,0,2026-01-31 23:59:59,0
+3,journal_entry,292,1,2026-01-15,0.0000,24948.0000,Payment: MARIA PAULINA A. DIMPAS — Online-011526,1,0,2026-01-31 23:59:59,0
+3,journal_entry,292,1,2026-01-15,0.0000,27676.3000,Payment: HAROLD JAMES ESTRADA — Online-011526,1,0,2026-01-31 23:59:59,0
+3,journal_entry,292,1,2026-01-15,0.0000,30233.2500,Payment: JENNIFER L. CAMALONGAY — Online-011526,1,0,2026-01-31 23:59:59,0
+3,journal_entry,292,1,2026-01-15,0.0000,33849.4500,Payment: JAN LOUIE GATILLO — Online-011526,1,0,2026-01-31 23:59:59,0
+3,journal_entry,292,1,2026-01-15,0.0000,42241.2800,Payment: JEANETTE BALAGA — Online-011526,1,0,2026-01-31 23:59:59,0
+3,journal_entry,292,1,2026-01-15,0.0000,54059.4000,Payment: JONATHAN SARTE — Online-011526,1,0,2026-01-31 23:59:59,0
+3,journal_entry,292,1,2026-01-15,0.0000,54942.3000,Payment: CATHLEEN BUSTRILLOS IWAY — Online-011526,1,0,2026-01-31 23:59:59,0
+3,journal_entry,292,1,2026-01-15,0.0000,57567.1500,Payment: CYRIL VILLANUEVA — Online-011526,1,0,2026-01-31 23:59:59,0
+3,journal_entry,292,1,2026-01-15,0.0000,61319.2500,Payment: DIVINE GRACE BALITE — Online-011526,1,0,2026-01-31 23:59:59,0
+3,journal_entry,292,1,2026-01-15,0.0000,63783.0000,Payment: LICILLE S. KILANTANG — Online-011526,1,0,2026-01-31 23:59:59,0
+3,journal_entry,292,1,2026-01-15,0.0000,77719.5000,Payment: ROSE MAY CAMALONGAY — Online-011526,1,0,2026-01-31 23:59:59,0
+3,journal_entry,292,1,2026-01-15,0.0000,100721.0400,Payment: PIERRE OUANO — Online-011526,1,0,2026-01-31 23:59:59,0
+3,journal_entry,292,1,2026-01-15,0.0000,106336.8000,Payment: DUANE AGUILAR — Online-011526,1,0,2026-01-31 23:59:59,0
+3,journal_entry,292,1,2026-01-15,0.0000,115020.0900,Payment: MARIA SOCORRO PINO LAMOSTE — Online-011526,1,0,2026-01-31 23:59:59,0
+3,journal_entry,278,13,2026-01-15,18755.0000,0.0000,"Sales Branches January 15, 2026 - Cash Sales - January, 15 — #48430",1,0,2026-01-31 23:59:59,0
+3,journal_entry,276,13,2026-01-15,0.0000,27163.0000,"To Record Cash Sales Branches January 14, 2025 - To Record Cash Sales Branches January 14, 2025 — #45155",1,0,2026-01-31 23:59:59,0
+3,journal_entry,278,1613,2026-01-15,0.0000,45430.0000,"Sales Branches January 15, 2026 - Consultations — #48430",1,0,2026-01-31 23:59:59,0
+3,journal_entry,282,613,2026-01-15,14203.8700,0.0000,"CONVERGE INFORMATION AND COMMUNICATIONS TECHNOLOGY SOLUTIONS, INC. - Vatable: Payment for flexibiz 200mbps with static for the month of January 2026 — RFP No.# 4747",1,0,2026-01-31 23:59:59,0
+3,journal_entry,278,1625,2026-01-15,448.0000,0.0000,"Sales Branches January 15, 2026 - Sales Discounts - January, 15 — #48430",1,0,2026-01-31 23:59:59,0
+3,journal_entry,277,653,2026-01-15,97032.8700,0.0000,to record the SL sick leave conversion - to record the SL sick leave conversion — #45828,1,0,2026-01-31 23:59:59,0
+3,journal_entry,279,245,2026-01-15,0.0000,14.7100,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - 2% EWT on Payment for janitorial services (Benaro, Lina) ftp December 1-15, 2025 SI no. 2506 — RFP No.# 4690",1,0,2026-01-31 23:59:59,0
+3,journal_entry,280,245,2026-01-15,0.0000,251.6900,SS7 SECURITY SERVICES CORPORATION - 2% EWT on Payment for security services for the month of December 2025 BS no. 46899 — RFP No.# 4691,1,0,2026-01-31 23:59:59,0
+3,journal_entry,282,245,2026-01-15,0.0000,284.0800,"CONVERGE INFORMATION AND COMMUNICATIONS TECHNOLOGY SOLUTIONS, INC. - 2% EWT on Payment for flexibiz 200mbps with static for the month of January 2026 — RFP No.# 4747",1,0,2026-01-31 23:59:59,0
+3,journal_entry,278,1633,2026-01-15,0.0000,3250.0000,"Sales Branches January 15, 2026 - Health services — #48430",1,0,2026-01-31 23:59:59,0
+3,journal_entry,282,709,2026-01-15,1704.4600,0.0000,"CONVERGE INFORMATION AND COMMUNICATIONS TECHNOLOGY SOLUTIONS, INC. - Vat: Payment for flexibiz 200mbps with static for the month of January 2026 — RFP No.# 4747",1,0,2026-01-31 23:59:59,0
+3,journal_entry,279,725,2026-01-15,88.2900,0.0000,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - Vat: Payment for janitorial services (Benaro, Lina) ftp December 1-15, 2025 SI no. 2506 — RFP No.# 4690",1,0,2026-01-31 23:59:59,0
+3,journal_entry,281,737,2026-01-15,310.4000,0.0000,"GLOBE TELECOM, INC. - VAT: Globe bill FTP 11/24-12/23/2025; Mactan — RFP No.# 4731",1,0,2026-01-31 23:59:59,0
+3,journal_entry,280,765,2026-01-15,1510.1700,0.0000,SS7 SECURITY SERVICES CORPORATION - Vat: Payment for security services for the month of December 2025 BS no. 46899 — RFP No.# 4691,1,0,2026-01-31 23:59:59,0
+3,journal_entry,279,813,2026-01-15,735.7300,0.0000,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - Vatable: Payment for janitorial services (Benaro, Lina) ftp December 1-15, 2025 SI no. 2506 — RFP No.# 4690",1,0,2026-01-31 23:59:59,0
+3,journal_entry,278,1645,2026-01-15,0.0000,34040.0000,"Sales Branches January 15, 2026 - Laboratory/Diagnostics — #48430",1,0,2026-01-31 23:59:59,0
+3,journal_entry,278,1645,2026-01-15,0.0000,35546.0000,"Sales Branches January 15, 2026 - Laboratory/Diagnostics — #48430",1,0,2026-01-31 23:59:59,0
+3,journal_entry,278,1645,2026-01-15,0.0000,61210.0000,"Sales Branches January 15, 2026 - Laboratory/Diagnostics — #48430",1,0,2026-01-31 23:59:59,0
+3,journal_entry,278,1657,2026-01-15,0.0000,9791.0000,"Sales Branches January 15, 2026 - Laboratory/Diagnostics - Send Outs — #48430",1,0,2026-01-31 23:59:59,0
+3,journal_entry,281,841,2026-01-15,2586.6000,0.0000,"GLOBE TELECOM, INC. - VATABLE: Globe bill FTP 11/24-12/23/2025; Mactan — RFP No.# 4731",1,0,2026-01-31 23:59:59,0
+3,journal_entry,280,925,2026-01-15,12584.7700,0.0000,SS7 SECURITY SERVICES CORPORATION - Vatable: Payment for security services for the month of December 2025 BS no. 46899 — RFP No.# 4691,1,0,2026-01-31 23:59:59,0
+3,journal_entry,280,925,2026-01-15,68001.6600,0.0000,SS7 SECURITY SERVICES CORPORATION - Vat exempt:Payment for security services for the month of December 2025 BS no. 46899 — RFP No.# 4691,1,0,2026-01-31 23:59:59,0
+3,journal_entry,278,1713,2026-01-15,0.0000,8900.0000,"Sales Branches January 15, 2026 - Third-Party Partnership — #48430",1,0,2026-01-31 23:59:59,0
+3,journal_entry,347,217,2026-01-16,2370.2200,0.0000,Payment: CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 4421,1,0,2026-01-31 23:59:59,0
+3,journal_entry,345,217,2026-01-16,37714.2900,0.0000,"Payment: APEX MEDICAL DEVICES AND DIAGNOSTICS, INC. — RFP No.# 3715",1,0,2026-01-31 23:59:59,0
+3,journal_entry,350,217,2026-01-16,15624.2500,0.0000,"Payment: CONVERGE INFORMATION AND COMMUNICATIONS TECHNOLOGY SOLUTIONS, INC. — RFP No.# 4747",1,0,2026-01-31 23:59:59,0
+3,journal_entry,344,217,2026-01-16,78098.0400,0.0000,Payment: SS7 SECURITY SERVICES CORPORATION — RFP No.# 3540,1,0,2026-01-31 23:59:59,0
+3,journal_entry,346,217,2026-01-16,2254.8400,0.0000,Payment: CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 4068,1,0,2026-01-31 23:59:59,0
+3,journal_entry,348,217,2026-01-16,2427.9200,0.0000,Payment: CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 4428,1,0,2026-01-31 23:59:59,0
+3,journal_entry,349,217,2026-01-16,15110.3300,0.0000,Payment: VIRLEN T. MAHINAY — RFP No.# 4660,1,0,2026-01-31 23:59:59,0
+3,journal_entry,341,217,2026-01-16,0.0000,4855.8300,CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 4752,1,0,2026-01-31 23:59:59,0
+3,journal_entry,340,217,2026-01-16,0.0000,44667.8600,"APEX MEDICAL DEVICES AND DIAGNOSTICS, INC. — RFP No.# 4748",1,0,2026-01-31 23:59:59,0
+3,journal_entry,334,237,2026-01-16,2413.3200,0.0000,Reversal of: To accrue: CEBU SPIC & SPAN JANITORIAL SERVICES INC. ftp DECEMBER MActan - To accrue: CEBU SPIC & SPAN JANITORIAL SERVICES INC. ftp DECEMBER 1-15 MActan — #45126,1,0,2026-01-31 23:59:59,0
+3,journal_entry,335,237,2026-01-16,4705.0000,0.0000,Reversal of: Globe -To accrue mobile for the month of december 2025 mactan - Globe -To accrue mobile for the month of december 2025 mactan — #45143,1,0,2026-01-31 23:59:59,0
+3,journal_entry,336,237,2026-01-16,4705.0000,0.0000,Reversal of: Globe -To accrue mobile for the month of october 2025 mactan - Globe -To accrue mobile for the month of october 2025 mactan — #45147,1,0,2026-01-31 23:59:59,0
+3,journal_entry,337,237,2026-01-16,77347.5100,0.0000,Reversal of: To accrue: SS7 SECURITY SERVICES CORPORATION for the month of DECEMBER 2025 MActan - To accrue: SS7 SECURITY SERVICES CORPORATION for the month of DECEMBER 2025 MActan — #45152,1,0,2026-01-31 23:59:59,0
+3,journal_entry,339,77,2026-01-16,4958.0000,0.0000,"Sales Branches January 16, 2026 - Gcash Sales - January, 16 — #48432",1,0,2026-01-31 23:59:59,0

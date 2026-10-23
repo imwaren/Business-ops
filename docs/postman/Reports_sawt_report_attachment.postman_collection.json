@@ -1,0 +1,99 @@
+{
+  "info": {
+    "_postman_id": "d4e5f6a7-b8c9-0123-def4-567890abcdef",
+    "name": "Reports SAWT Attachments",
+    "description": "# Reports SAWT Attachments\n\nUpload filled SAWT workbooks (or supporting files) to VM4 and retrieve them alongside the computed SAWT alphalist.\n\n## Prerequisite\nRun `sawt_report_attachment.sql` on the **master** database before uploading.\n\n## Auth\n- Header: `API-KEY` (required)\n- Body/query: `token`, `requester` (required)\n\n## Period keys\nAttachments are linked by exact match on:\n- `date_from` (YYYY-MM-DD)\n- `date_to` (YYYY-MM-DD)\n- `branch_id` (optional — omit or leave empty for all branches; allowed: 1 mobile, 2 oakridge, 3 mactan, 4 consolacion, 7 mantlewood)\n\n## Workflow\n1. **POST** `/reports/upload_sawt_report_attachment` — upload one file per request (repeat for multiple files)\n2. **GET** `/reports/sawt_report` — same period keys; response includes `attachments[]` with uploaded files\n",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "base_url", "value": "http://localhost/cpci-business-ops-api" },
+    { "key": "api_key", "value": "clinicaRiKOYqlwdTJ-lNedqS0k-it!395!-6ls1JXM7Vcc" },
+    { "key": "token", "value": "{{token}}" },
+    { "key": "requester", "value": "1" },
+    { "key": "date_from", "value": "2026-06-01" },
+    { "key": "date_to", "value": "2026-06-30" },
+    { "key": "branch_id", "value": "" }
+  ],
+  "item": [
+    {
+      "name": "Upload SAWT report attachment",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "token", "value": "{{token}}", "type": "text" },
+            { "key": "requester", "value": "{{requester}}", "type": "text" },
+            { "key": "date_from", "value": "{{date_from}}", "type": "text", "description": "Reporting period start (YYYY-MM-DD)" },
+            { "key": "date_to", "value": "{{date_to}}", "type": "text", "description": "Reporting period end (YYYY-MM-DD)" },
+            { "key": "branch_id", "value": "{{branch_id}}", "type": "text", "description": "Optional. Leave empty for all branches. Allowed: 1, 2, 3, 4, 7", "disabled": true },
+            {
+              "key": "attachment",
+              "description": "SAWT file — uploaded to VM4 (pdf, png, jpeg, jpg, xls, xlsx, csv; max 5 MB). Set type to File in Postman.",
+              "type": "file",
+              "src": []
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/reports/upload_sawt_report_attachment",
+          "host": ["{{base_url}}"],
+          "path": ["reports", "upload_sawt_report_attachment"]
+        },
+        "description": "## POST `/reports/upload_sawt_report_attachment`\n\nUploads one SAWT attachment to VM4 and saves metadata in `sawt_report_attachment` on master DB.\n\n### Required form fields\n| Field | Type | Notes |\n|-------|------|-------|\n| `token` | text | Auth token |\n| `requester` | text | User id |\n| `date_from` | text | YYYY-MM-DD |\n| `date_to` | text | YYYY-MM-DD |\n| `attachment` | **file** | Single file per request |\n\n### Optional form fields\n| Field | Type | Notes |\n|-------|------|-------|\n| `branch_id` | text | 1 mobile, 2 oakridge, 3 mactan, 4 consolacion, 7 mantlewood. Omit for all branches |\n\n### File rules\n- Allowed extensions: `pdf`, `png`, `jpeg`, `jpg`, `xls`, `xlsx`, `csv`\n- Max size: 5 MB\n- VM4 storage path: `assets/sawt_reports/{date_from}_{date_to}/{branch_id|all}/`\n\n### Postman setup\n1. Body type: **form-data** (not raw JSON)\n2. Set `attachment` row type to **File**, then **Select Files**\n3. Do not set `Content-Type` manually — Postman adds the multipart boundary\n\n### Multiple files\nCall this endpoint once per file using the same `date_from`, `date_to`, and `branch_id`.\n\n### Success response\n```json\n{\n  \"sawt_report_attachment_id\": 1,\n  \"file_url\": \"https://file.myt-emr.com/assets/sawt_reports/2026-06-01_2026-06-30/all/...\",\n  \"message\": \"SAWT report attachment uploaded successfully.\"\n}\n```\n\n### Error responses\n- Missing or invalid file: `attachment file is required and must be valid.`\n- Bad extension: `Invalid file type. Allowed: pdf, png, jpeg, jpg, xls, xlsx, csv.`\n- Over 5 MB: `File exceeds 5 MB limit.`\n- VM4 failure: `Upload failed: ...`\n"
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            { "key": "Content-Type", "value": "application/json" }
+          ],
+          "body": "{\n  \"sawt_report_attachment_id\": 1,\n  \"file_url\": \"https://file.myt-emr.com/assets/sawt_reports/2026-06-01_2026-06-30/all/example.xls\",\n  \"message\": \"SAWT report attachment uploaded successfully.\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Get SAWT report (with attachments)",
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "url": {
+          "raw": "{{base_url}}/reports/sawt_report?token={{token}}&requester={{requester}}&date_from={{date_from}}&date_to={{date_to}}",
+          "host": ["{{base_url}}"],
+          "path": ["reports", "sawt_report"],
+          "query": [
+            { "key": "token", "value": "{{token}}" },
+            { "key": "requester", "value": "{{requester}}" },
+            { "key": "date_from", "value": "{{date_from}}" },
+            { "key": "date_to", "value": "{{date_to}}" },
+            { "key": "branch_id", "value": "{{branch_id}}", "description": "Optional. Must match upload period keys exactly.", "disabled": true },
+            { "key": "term", "value": "", "description": "Optional filter on Vendor_TIN, companyName, surName", "disabled": true }
+          ]
+        },
+        "description": "## GET `/reports/sawt_report`\n\nReturns computed SAWT alphalist rows (HMO/CORP/YAKAP withholding) plus uploaded attachments for the same reporting period.\n\n### Query params\n| Param | Required | Notes |\n|-------|----------|-------|\n| `token` | yes | Auth token |\n| `requester` | yes | User id |\n| `date_from` | yes | YYYY-MM-DD — must match upload |\n| `date_to` | yes | YYYY-MM-DD — must match upload |\n| `branch_id` | no | Must match upload exactly (omit on both for all branches) |\n| `term` | no | Filter rows by Vendor_TIN, companyName, or surName |\n\n### Success response\n```json\n{\n  \"date_from\": \"2026-06-01\",\n  \"date_to\": \"2026-06-30\",\n  \"branch_id\": null,\n  \"size\": 12,\n  \"data\": [\n    {\n      \"Reporting_Month\": \"2026-06-15\",\n      \"Vendor_TIN\": \"123456789012\",\n      \"branchCode\": \"00000\",\n      \"companyName\": \"Sample HMO Corp\",\n      \"surName\": \"\",\n      \"firstName\": \"\",\n      \"middleName\": \"\",\n      \"ATC\": \"WC020\",\n      \"income_payment\": 10000.00,\n      \"ewt_rate\": 2.00,\n      \"tax_amount\": 200.00\n    }\n  ],\n  \"attachments\": [\n    {\n      \"id\": 1,\n      \"file_name\": \"SAWT_June.xls\",\n      \"file_url\": \"https://file.myt-emr.com/assets/sawt_reports/2026-06-01_2026-06-30/all/SAWT_June.xls\",\n      \"mime\": \"application/vnd.ms-excel\",\n      \"added_on\": \"2026-08-27 10:00:00\"\n    }\n  ]\n}\n```\n\n### 404 rule\nReturns 404 only when **both** `data` and `attachments` are empty.\n"
+      },
+      "response": [
+        {
+          "name": "Success with attachments",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            { "key": "Content-Type", "value": "application/json" }
+          ],
+          "body": "{\n  \"date_from\": \"2026-06-01\",\n  \"date_to\": \"2026-06-30\",\n  \"branch_id\": null,\n  \"size\": 0,\n  \"data\": [],\n  \"attachments\": [\n    {\n      \"id\": 1,\n      \"file_name\": \"SAWT_June.xls\",\n      \"file_url\": \"https://file.myt-emr.com/assets/sawt_reports/2026-06-01_2026-06-30/all/SAWT_June.xls\",\n      \"mime\": \"application/vnd.ms-excel\",\n      \"added_on\": \"2026-08-27 10:00:00\"\n    }\n  ]\n}"
+        }
+      ]
+    }
+  ]
+}

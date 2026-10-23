@@ -1,0 +1,420 @@
+{
+  "info": {
+    "_postman_id": "b7c8d9e0-f1a2-3456-bcde-789012345678",
+    "name": "User_portals",
+    "description": "# User_portals API\n\nEndpoints for company patient-portal users (`user_portal`).\n\n## Auth\n- Header: `API-KEY` (required for create/update/change_password and bulk endpoints via `_api_validation`)\n- Body: `token`, `requester` (admin user) on authenticated endpoints\n- `login` / `reset_password` do not call `_api_validation`\n\n## Fields\n| Field | Type | Notes |\n|-------|------|-------|\n| `company_id` | number | Company FK |\n| `username` | string | Portal login |\n| `password` | string | Hashed server-side with bcrypt |\n| `user_portal_id` | number | Used on single update / change_password |\n\n## Bulk sync (`update_multiple`)\nScoped by top-level `company_id`:\n- item with `id` → update (`is_deleted = 0`)\n- item without `id` → insert (`is_deleted = 0`)\n- existing company portals whose `id` is omitted → soft-deleted (`is_deleted = 1`)\n\n## Methods\n`login`, `reset_password`, `create`, `create_multiple`, `update`, `update_multiple`, `change_password`",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost/cpci-business-ops-api/public"
+    },
+    {
+      "key": "api_key",
+      "value": "{{api_key}}"
+    },
+    {
+      "key": "token",
+      "value": "{{token}}"
+    },
+    {
+      "key": "requester",
+      "value": "1"
+    }
+  ],
+  "item": [
+    {
+      "name": "Login",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"username\": \"portal_user\",\n  \"password\": \"Secret123\"\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/user_portals/login",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "user_portals",
+            "login"
+          ]
+        },
+        "description": "## POST `/user_portals/login`\n\nPatient portal login. No admin `token`/`requester`/`API-KEY` required.\n\n### Required\n- `username`\n- `password`\n\n### Success\nReturns user_portal row (password unset) with `token`, `token_expiry`, and `message`.\n\n### Failures\n- Unregistered user\n- Incorrect password"
+      },
+      "response": [
+        {
+          "name": "Success",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"username\": \"portal_user\",\n  \"password\": \"Secret123\"\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/user_portals/login",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "user_portals",
+                "login"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"id\": 5,\n  \"company_id\": 10,\n  \"username\": \"portal_user\",\n  \"token\": \"generated-token\",\n  \"token_expiry\": \"2026-08-04 23:00:00\",\n  \"message\": \"Login successful\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Reset password",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"requester\": 5,\n  \"new_password\": \"NewSecret123\",\n  \"is_first_login\": 0\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/user_portals/reset_password",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "user_portals",
+            "reset_password"
+          ]
+        },
+        "description": "## POST `/user_portals/reset_password`\n\nResets a portal user's password. Does not call `_api_validation`.\n\n### Required\n- `requester` — user_portal `id`\n- `new_password`\n- `is_first_login` — typically `0` after first reset\n\n### Success\n```json\n{\n  \"message\": \"Password reset successful.\",\n  \"user_id\": 5\n}\n```"
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"message\": \"Password reset successful.\",\n  \"user_id\": 5\n}"
+        }
+      ]
+    },
+    {
+      "name": "Create",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": {{requester}},\n  \"company_id\": 10,\n  \"username\": \"portal_user\",\n  \"password\": \"Secret123\"\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/user_portals/create",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "user_portals",
+            "create"
+          ]
+        },
+        "description": "## POST `/user_portals/create`\n\nCreates a single user_portal. Password is bcrypt-hashed server-side.\n\n### Required\n- `token`, `requester`\n- Header `API-KEY`\n- `company_id`, `username`, `password`\n\n### Success\n```json\n{\n  \"user_portal_id\": 5,\n  \"message\": \"user_portal added successfully.\"\n}\n```"
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"user_portal_id\": 5,\n  \"message\": \"user_portal added successfully.\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Create multiple",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": {{requester}},\n  \"company_id\": 10,\n  \"user_portals\": [\n    {\n      \"username\": \"portal_user_a\",\n      \"password\": \"Secret123\"\n    },\n    {\n      \"company_id\": 10,\n      \"username\": \"portal_user_b\",\n      \"password\": \"Secret456\"\n    }\n  ]\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/user_portals/create_multiple",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "user_portals",
+            "create_multiple"
+          ]
+        },
+        "description": "## POST `/user_portals/create_multiple`\n\nInsert-only bulk create.\n\n### Required\n- `token`, `requester`\n- Header `API-KEY`\n- `user_portals` — non-empty array\n\n### `user_portals[]`\n| Field | Type | Notes |\n|-------|------|-------|\n| `company_id` | number | Optional per item if top-level `company_id` is set |\n| `username` | string | Required |\n| `password` | string | bcrypt-hashed server-side |\n\nTop-level `company_id` is used as fallback when an item omits `company_id`.\n\n### Success\n```json\n{\n  \"user_portal_ids\": [5, 6],\n  \"message\": \"user_portals added successfully.\"\n}\n```"
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"user_portal_ids\": [5, 6],\n  \"message\": \"user_portals added successfully.\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Update",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": {{requester}},\n  \"user_portal_id\": 5,\n  \"username\": \"portal_user_updated\",\n  \"password\": \"OptionalNewSecret\"\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/user_portals/update",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "user_portals",
+            "update"
+          ]
+        },
+        "description": "## POST `/user_portals/update`\n\nUpdates a single user_portal by `user_portal_id`.\n\n### Required\n- `token`, `requester`\n- Header `API-KEY`\n- `user_portal_id`\n\n### Optional\n- `company_id`, `username`, `password` (password hashed only when present)\n\n### Success\n```json\n{\n  \"user_portal_id\": 5,\n  \"message\": \"user_portal updated successfully.\"\n}\n```"
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"user_portal_id\": 5,\n  \"message\": \"user_portal updated successfully.\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Update multiple",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": {{requester}},\n  \"company_id\": 10,\n  \"user_portals\": [\n    {\n      \"id\": 5,\n      \"username\": \"existing_user\",\n      \"password\": \"OptionalNewSecret\"\n    },\n    {\n      \"username\": \"new_user\",\n      \"password\": \"Secret123\"\n    }\n  ]\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/user_portals/update_multiple",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "user_portals",
+            "update_multiple"
+          ]
+        },
+        "description": "## POST `/user_portals/update_multiple`\n\nCompany-scoped details sync for user_portals.\n\n### Required\n- `token`, `requester`\n- Header `API-KEY`\n- `company_id`\n- `user_portals` — array (may be empty to soft-delete all active portals for the company)\n\n### Sync rules\n- Item with `id` → update existing row; sets `is_deleted = 0`\n- Item without `id` → insert new row with `is_deleted = 0`\n- Existing active portals for `company_id` whose `id` is omitted → soft-deleted (`is_deleted = 1`)\n- `password` on update is hashed only when non-empty; omit to leave password unchanged\n\n### Success\n```json\n{\n  \"company_id\": 10,\n  \"message\": \"user_portals updated successfully.\"\n}\n```"
+      },
+      "response": [
+        {
+          "name": "Success",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": {{requester}},\n  \"company_id\": 10,\n  \"user_portals\": [\n    {\n      \"id\": 5,\n      \"username\": \"existing_user\",\n      \"password\": \"OptionalNewSecret\"\n    },\n    {\n      \"username\": \"new_user\",\n      \"password\": \"Secret123\"\n    }\n  ]\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/user_portals/update_multiple",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "user_portals",
+                "update_multiple"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"company_id\": 10,\n  \"message\": \"user_portals updated successfully.\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Change password",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": {{requester}},\n  \"user_portal_id\": 5,\n  \"password\": \"NewSecret123\",\n  \"is_changed\": 1\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/user_portals/change_password",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "user_portals",
+            "change_password"
+          ]
+        },
+        "description": "## POST `/user_portals/change_password`\n\nChanges portal password and marks `is_changed = 1`.\n\n### Required\n- `token`, `requester`\n- Header `API-KEY`\n- `user_portal_id`\n- `password`\n\n### Optional\n- `is_changed` — if `1` and portal already has `is_changed = 1`, request fails with \"Password is already changed.\"\n\n### Success\n```json\n{\n  \"user_portal_id\": 5,\n  \"message\": \"Password changed successfully.\"\n}\n```"
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"user_portal_id\": 5,\n  \"message\": \"Password changed successfully.\"\n}"
+        }
+      ]
+    }
+  ]
+}

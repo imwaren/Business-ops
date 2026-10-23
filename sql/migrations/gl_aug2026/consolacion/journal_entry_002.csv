@@ -1,0 +1,501 @@
+id,cost_center_id,date,type,remarks,total_debit,total_credit,status,is_migrated,added_by,added_on,is_deleted
+144750,4,2026-08-12,receivable_invoice,"Medicard Philippines Inc - ABELLO, VICENTE FORROSUELO | 08/10/2026 | Medicard Philippines Inc | 1080- — C3730",1080.0000,1080.0000,approved,1,0,2026-08-31 23:59:59,0
+144751,4,2026-08-12,receivable_invoice,"Philhealthcare, Inc - CALUNOD, JERICHO PAHAYAHAY | 08/10/2026 | Philhealthcare, Inc | 600- — C3731",1200.0000,1200.0000,approved,1,0,2026-08-31 23:59:59,0
+144752,4,2026-08-12,receivable_invoice,"Maxicare Healthcare Corporation - COLIFLORES, CORNILEA PIPETO | 08/10/2026 | MAXICARE HEALTHCARE CORPORATION | 550- — C3732",13334.0000,13334.0000,approved,1,0,2026-08-31 23:59:59,0
+144753,4,2026-08-12,receivable_invoice,"Life & Health Hmp Inc - CATUBIG, LURY MAY COLLAMAT | 08/10/2026 | Life & Health Hmp Inc | 400- — C3733",14700.0000,14700.0000,approved,1,0,2026-08-31 23:59:59,0
+144754,4,2026-08-12,receivable_payment,"Payment: INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — 7-13-26",10231.2000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144755,4,2026-08-12,receivable_payment,"Payment: INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — 7-2-26",4018.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144756,4,2026-08-12,receivable_payment,Payment: Insular Healthcare Inc — C2475,0.0000,28106.4000,approved,1,0,2026-08-31 23:59:59,0
+144757,4,2026-08-12,receivable_payment,Payment: Insular Healthcare Inc — C2491,0.0000,39204.9000,approved,1,0,2026-08-31 23:59:59,0
+144758,4,2026-08-12,receivable_payment,Payment: Insular Healthcare Inc — C2508,0.0000,5801.6000,approved,1,0,2026-08-31 23:59:59,0
+144759,4,2026-08-12,receivable_payment,Payment: Insular Healthcare Inc — C2521,0.0000,23358.3000,approved,1,0,2026-08-31 23:59:59,0
+144760,4,2026-08-12,receivable_payment,Payment: Insular Healthcare Inc — C2533,0.0000,22206.8000,approved,1,0,2026-08-31 23:59:59,0
+144761,4,2026-08-12,receivable_payment,Payment: Insular Healthcare Inc — C2545,0.0000,45491.6000,approved,1,0,2026-08-31 23:59:59,0
+144762,4,2026-08-12,receivable_payment,Payment: Insular Healthcare Inc — C2555,0.0000,10486.0000,approved,1,0,2026-08-31 23:59:59,0
+144763,4,2026-08-12,receivable_payment,Payment: Insular Healthcare Inc — C2590,0.0000,26994.1000,approved,1,0,2026-08-31 23:59:59,0
+144764,4,2026-08-12,receivable_payment,Payment: Insular Healthcare Inc — C2601,0.0000,7702.8000,approved,1,0,2026-08-31 23:59:59,0
+144765,4,2026-08-12,receivable_payment,Payment: Insular Healthcare Inc — C2612,0.0000,11348.4000,approved,1,0,2026-08-31 23:59:59,0
+144766,4,2026-08-12,receivable_payment,Payment: Insular Healthcare Inc — C2627,0.0000,19737.2000,approved,1,0,2026-08-31 23:59:59,0
+144767,4,2026-08-12,receivable_payment,Payment: Insular Healthcare Inc — C2637,0.0000,16415.0000,approved,1,0,2026-08-31 23:59:59,0
+144768,4,2026-08-12,receivable_payment,Payment: Insular Healthcare Inc — C2651,0.0000,44296.0000,approved,1,0,2026-08-31 23:59:59,0
+144769,4,2026-08-12,receivable_payment,Payment: Insular Healthcare Inc — C2682,0.0000,28856.1000,approved,1,0,2026-08-31 23:59:59,0
+144770,4,2026-08-12,receivable_payment,Payment: Insular Healthcare Inc — C2695,0.0000,11858.0000,approved,1,0,2026-08-31 23:59:59,0
+144771,4,2026-08-12,receivable_payment,Payment: Insular Healthcare Inc — C2707,0.0000,13063.4000,approved,1,0,2026-08-31 23:59:59,0
+144772,4,2026-08-12,receivable_payment,Payment: Insular Healthcare Inc — C2717,0.0000,17306.8000,approved,1,0,2026-08-31 23:59:59,0
+144773,4,2026-08-12,receivable_payment,Payment: Insular Healthcare Inc — C2733,0.0000,8584.8000,approved,1,0,2026-08-31 23:59:59,0
+144774,4,2026-08-12,receivable_payment,Payment: Insular Healthcare Inc — C2747,0.0000,16709.0000,approved,1,0,2026-08-31 23:59:59,0
+144775,4,2026-08-12,receivable_payment,Payment: Insular Healthcare Inc — C2790,0.0000,13377.0000,approved,1,0,2026-08-31 23:59:59,0
+144776,4,2026-08-12,receivable_payment,Payment: Insular Healthcare Inc — C2803,0.0000,23456.3000,approved,1,0,2026-08-31 23:59:59,0
+144777,4,2026-08-12,receivable_payment,Payment: Insular Healthcare Inc — C2812,0.0000,11025.0000,approved,1,0,2026-08-31 23:59:59,0
+144778,4,2026-08-12,receivable_payment,"Payment: INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3138",0.0000,4018.0000,approved,1,0,2026-08-31 23:59:59,0
+144779,4,2026-08-12,receivable_payment,"Payment: INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3142",0.0000,3547.6000,approved,1,0,2026-08-31 23:59:59,0
+144780,4,2026-08-12,receivable_payment,"Payment: INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3166",0.0000,588.0000,approved,1,0,2026-08-31 23:59:59,0
+144781,4,2026-08-12,receivable_payment,"Payment: INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3206",0.0000,588.0000,approved,1,0,2026-08-31 23:59:59,0
+144782,4,2026-08-12,receivable_payment,"Payment: INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3231",0.0000,5448.8000,approved,1,0,2026-08-31 23:59:59,0
+144783,4,2026-08-12,receivable_payment,"Payment: INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3247",0.0000,1234.8000,approved,1,0,2026-08-31 23:59:59,0
+144784,4,2026-08-12,receivable_payment,"Payment: INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3260",0.0000,588.0000,approved,1,0,2026-08-31 23:59:59,0
+144785,4,2026-08-12,receivable_payment,Payment: Insular Healthcare Inc — PD: 6-19-26,445385.5000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144786,4,2026-08-13,journal_entry,Reversal of: To accrue: CEBU SPIC & SPAN JANITORIAL SERVICES INC. ftp 2026 consolacion july — #73832,3683.3300,3683.3300,approved,1,0,2026-08-31 23:59:59,0
+144787,4,2026-08-13,journal_entry,Reversal of: to accrue repairs and maintenance July cooltek — #73871,10000.0000,10000.0000,approved,1,0,2026-08-31 23:59:59,0
+144788,4,2026-08-13,journal_entry,Reversal of: Innove -To accrue payment for Internet Services/Data Line consolacion 2026 july — #73875,3998.0000,3998.0000,approved,1,0,2026-08-31 23:59:59,0
+144789,4,2026-08-13,journal_entry,Reversal of: Smart Comm - To accrue payment for Smart all 2026 June — #73883,300.0000,300.0000,approved,1,0,2026-08-31 23:59:59,0
+144790,4,2026-08-13,journal_entry,Reversal of: Globe -To accrue mobile all for the month of july — #73922,2497.0000,2497.0000,approved,1,0,2026-08-31 23:59:59,0
+144791,4,2026-08-13,journal_entry,to record cash sales august 12 — #74183,53224.0000,53224.0000,approved,1,0,2026-08-31 23:59:59,0
+144792,4,2026-08-13,journal_entry,"Sales Branches August 13, 2026 - Gcash Sales - August, 13 — #78029",138980.0000,138980.0000,approved,1,0,2026-08-31 23:59:59,0
+144793,4,2026-08-13,payable_invoice,CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 6778,1648.0400,1648.0400,approved,1,0,2026-08-31 23:59:59,0
+144794,4,2026-08-13,payable_invoice,"GLOBE TELECOM, INC. - VAT: Globe bill FTP 06/24-07/23/2026; Consolacion — RFP No.# 6786",2497.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144795,4,2026-08-13,payable_payment,"Payment: GLOBE TELECOM, INC. — RFP No.# 6786",0.0000,2497.0000,approved,1,0,2026-08-31 23:59:59,0
+144796,4,2026-08-13,receivable_credit_note,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6688",12.0000,12.0000,approved,1,0,2026-08-31 23:59:59,0
+144797,4,2026-08-13,receivable_credit_note,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6689",16.8000,16.8000,approved,1,0,2026-08-31 23:59:59,0
+144798,4,2026-08-13,receivable_credit_note,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6690",99.6000,99.6000,approved,1,0,2026-08-31 23:59:59,0
+144799,4,2026-08-13,receivable_credit_note,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6691",17.4000,17.4000,approved,1,0,2026-08-31 23:59:59,0
+144800,4,2026-08-13,receivable_credit_note,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6692",202.4000,202.4000,approved,1,0,2026-08-31 23:59:59,0
+144801,4,2026-08-13,receivable_credit_note,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6693",188.2000,188.2000,approved,1,0,2026-08-31 23:59:59,0
+144802,4,2026-08-13,receivable_credit_note,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6715",101.0000,101.0000,approved,1,0,2026-08-31 23:59:59,0
+144803,4,2026-08-13,receivable_credit_note,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6716",169.0000,169.0000,approved,1,0,2026-08-31 23:59:59,0
+144804,4,2026-08-13,receivable_credit_note,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6717",12.0000,12.0000,approved,1,0,2026-08-31 23:59:59,0
+144805,4,2026-08-13,receivable_credit_note,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6718",41.2000,41.2000,approved,1,0,2026-08-31 23:59:59,0
+144806,4,2026-08-13,receivable_credit_note,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6719",191.2000,191.2000,approved,1,0,2026-08-31 23:59:59,0
+144807,4,2026-08-13,receivable_credit_note,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6720",904.8000,904.8000,approved,1,0,2026-08-31 23:59:59,0
+144808,4,2026-08-13,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3272",0.0000,12.0000,approved,1,0,2026-08-31 23:59:59,0
+144809,4,2026-08-13,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3273",0.0000,16.8000,approved,1,0,2026-08-31 23:59:59,0
+144810,4,2026-08-13,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3295",0.0000,202.4000,approved,1,0,2026-08-31 23:59:59,0
+144811,4,2026-08-13,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3299",0.0000,188.2000,approved,1,0,2026-08-31 23:59:59,0
+144812,4,2026-08-13,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3339",0.0000,17.4000,approved,1,0,2026-08-31 23:59:59,0
+144813,4,2026-08-13,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3344",0.0000,99.6000,approved,1,0,2026-08-31 23:59:59,0
+144814,4,2026-08-13,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3509",0.0000,12.0000,approved,1,0,2026-08-31 23:59:59,0
+144815,4,2026-08-13,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3520",0.0000,169.0000,approved,1,0,2026-08-31 23:59:59,0
+144816,4,2026-08-13,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3536",0.0000,101.0000,approved,1,0,2026-08-31 23:59:59,0
+144817,4,2026-08-13,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3566",0.0000,41.2000,approved,1,0,2026-08-31 23:59:59,0
+144818,4,2026-08-13,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3579",0.0000,904.8000,approved,1,0,2026-08-31 23:59:59,0
+144819,4,2026-08-13,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3596",0.0000,191.2000,approved,1,0,2026-08-31 23:59:59,0
+144820,4,2026-08-13,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6688",12.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144821,4,2026-08-13,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6689",16.8000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144822,4,2026-08-13,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6690",99.6000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144823,4,2026-08-13,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6691",17.4000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144824,4,2026-08-13,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6692",202.4000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144825,4,2026-08-13,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6693",188.2000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144826,4,2026-08-13,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6715",101.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144827,4,2026-08-13,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6716",169.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144828,4,2026-08-13,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6717",12.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144829,4,2026-08-13,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6718",41.2000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144830,4,2026-08-13,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6719",191.2000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144831,4,2026-08-13,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6720",904.8000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144832,4,2026-08-13,receivable_invoice,"CONNECTIONS OUTSOURCING INC. - AYCO, CHRISTIAN MONTECILLO | 08/11/2026 | CONNECTIONS OUTSOURCING INC. | 950- — C3734",950.0000,950.0000,approved,1,0,2026-08-31 23:59:59,0
+144833,4,2026-08-13,receivable_invoice,"Cooperative Health Management Federation - CHAN, JET ROGER SERRANO | 08/11/2026 | Cooperative Health Management Federation | 300- — C3735",300.0000,300.0000,approved,1,0,2026-08-31 23:59:59,0
+144834,4,2026-08-13,receivable_invoice,"Health Delivery Sytem Inc (Flexicare) - MELENDRES, TOMAS NIC CAPOTE | 08/11/2026 | Health Delivery Sytem Inc (Flexicare) | 600- — C3736",5450.0000,5450.0000,approved,1,0,2026-08-31 23:59:59,0
+144835,4,2026-08-13,receivable_invoice,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) - APORADO, ANGELI CARDOSA | 08/11/2026 | INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) | 530- — C3737",12570.0000,12570.0000,approved,1,0,2026-08-31 23:59:59,0
+144836,4,2026-08-13,receivable_invoice,"Insular Healthcare Inc - AYAG, ERLITA TAPULADO | 08/11/2026 | Insular Healthcare Inc | 6530- — C3738",19760.0000,19760.0000,approved,1,0,2026-08-31 23:59:59,0
+144837,4,2026-08-13,receivable_invoice,"Asalus Corporation - ABORDONADO, KHENGEN FLORES | 08/11/2026 | Asalus Corporation | 180- — C3739",14555.0000,14555.0000,approved,1,0,2026-08-31 23:59:59,0
+144838,4,2026-08-13,receivable_invoice,"Maxicare Healthcare Corporation - ALE, ROSE ANN ESCABAS | 08/11/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C3740",13641.0000,13641.0000,approved,1,0,2026-08-31 23:59:59,0
+144839,4,2026-08-13,receivable_invoice,"Medicard Philippines Inc - PALANG, ED JAYAN PITOGO | 08/11/2026 | Medicard Philippines Inc | 600- — C3741",1180.0000,1180.0000,approved,1,0,2026-08-31 23:59:59,0
+144840,4,2026-08-13,receivable_invoice,"Philhealthcare, Inc - AMISTOSO, ALYN JAYDEN LIM | 08/11/2026 | Philhealthcare, Inc | 550- — C3742",10450.0000,10450.0000,approved,1,0,2026-08-31 23:59:59,0
+144841,4,2026-08-13,receivable_invoice,"Sunlife Grepa Financial Inc - IBARITA, MERVI JARALES | 08/11/2026 | SUNLIFE GREPA FINANCIAL INC | 250- — C3743",830.0000,830.0000,approved,1,0,2026-08-31 23:59:59,0
+144842,4,2026-08-13,receivable_invoice,"TITAY’S LILO-AN ROSQUILLOS & DELICACIES, INC. - ENERO, BRIENT JENCEL LOGROÑO | 08/11/2026 | TITAY’S LILO-AN ROSQUILLOS & DELICACIES, INC. | 900- — C3744",5400.0000,5400.0000,approved,1,0,2026-08-31 23:59:59,0
+144843,4,2026-08-13,receivable_invoice,"Virginia Food Inc. - JAYME, NEXTER BINGZON | 08/11/2026 | VIRGINIA FOOD INC | 780- — C3745",780.0000,780.0000,approved,1,0,2026-08-31 23:59:59,0
+144844,4,2026-08-13,receivable_invoice,"Cooperative Health Management Federation - COMISO, SAMANTHA QUIVEDO | 08/03/2026 | Cooperative Health Management Federation | 300- — C3746",300.0000,300.0000,approved,1,0,2026-08-31 23:59:59,0
+144845,4,2026-08-13,receivable_payment,Payment: Asalus Corporation — C3156,8036.0000,8036.0000,approved,1,0,2026-08-31 23:59:59,0
+144846,4,2026-08-13,receivable_payment,Payment: Asalus Corporation — C3188,11853.1000,11853.1000,approved,1,0,2026-08-31 23:59:59,0
+144847,4,2026-08-13,receivable_payment,Payment: Asalus Corporation — C3198,11426.8000,11426.8000,approved,1,0,2026-08-31 23:59:59,0
+144848,4,2026-08-13,receivable_payment,Payment: Asalus Corporation — C3209,5782.0000,5782.0000,approved,1,0,2026-08-31 23:59:59,0
+144849,4,2026-08-13,receivable_payment,Payment: Asalus Corporation — C3220,21280.7000,21280.7000,approved,1,0,2026-08-31 23:59:59,0
+144850,4,2026-08-13,receivable_payment,Payment: Asalus Corporation — C3250,13759.2000,13759.2000,approved,1,0,2026-08-31 23:59:59,0
+144851,4,2026-08-13,receivable_payment,Payment: Asalus Corporation — C3262,3136.0000,3136.0000,approved,1,0,2026-08-31 23:59:59,0
+144852,4,2026-08-13,receivable_payment,"Payment: INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3272",0.0000,588.0000,approved,1,0,2026-08-31 23:59:59,0
+144853,4,2026-08-13,receivable_payment,"Payment: INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3273",0.0000,823.2000,approved,1,0,2026-08-31 23:59:59,0
+144854,4,2026-08-13,receivable_payment,"Payment: INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3295",0.0000,9917.6000,approved,1,0,2026-08-31 23:59:59,0
+144855,4,2026-08-13,receivable_payment,"Payment: INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3299",0.0000,9221.8000,approved,1,0,2026-08-31 23:59:59,0
+144856,4,2026-08-13,receivable_payment,"Payment: INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3339",0.0000,852.6000,approved,1,0,2026-08-31 23:59:59,0
+144857,4,2026-08-13,receivable_payment,"Payment: INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3344",0.0000,4880.4000,approved,1,0,2026-08-31 23:59:59,0
+144858,4,2026-08-13,receivable_payment,"Payment: INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — PD: 7-21-26",26283.6000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144859,4,2026-08-14,journal_entry,to record cash sales august 13 — #74199,44806.0000,44806.0000,approved,1,0,2026-08-31 23:59:59,0
+144860,4,2026-08-14,journal_entry,"Sales Branches August 14, 2026 - Gcash Sales - August, 14 — #78092",144862.0000,144862.0000,approved,1,0,2026-08-31 23:59:59,0
+144861,4,2026-08-14,payable_invoice,SS7 SECURITY SERVICES CORPORATION — RFP No.# 6780,85473.9100,85473.9100,approved,1,0,2026-08-31 23:59:59,0
+144862,4,2026-08-14,payable_payment,Payment: MA. MARGARITA TINGSON — Consolacion - PF,0.0000,832427.9400,approved,1,0,2026-08-31 23:59:59,0
+144863,4,2026-08-14,payable_payment,Payment: MA. MARGARITA TINGSON — RFP No.# 6692-1,68724.9000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144864,4,2026-08-14,payable_payment,Payment: LUCAS EMIR SHEIKH SATURINAS — RFP No.# 6692-10,52422.9000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144865,4,2026-08-14,payable_payment,Payment: Joyce Gayle Santos — RFP No.# 6692-11,40766.4000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144866,4,2026-08-14,payable_payment,Payment: ELPIDIO MADRIO — RFP No.# 6692-12,72914.4000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144867,4,2026-08-14,payable_payment,Payment: GEMELSON CADIZ — RFP No.# 6692-13,55782.0900,55782.0900,approved,1,0,2026-08-31 23:59:59,0
+144868,4,2026-08-14,payable_payment,Payment: SEAN SINDO — RFP No.# 6692-15,1347.1600,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144869,4,2026-08-14,payable_payment,Payment: JEE DOMAEL — RFP No.# 6692-16,77441.3900,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144870,4,2026-08-14,payable_payment,Payment: Alessandra Kamille Mallari — RFP No.# 6692-17,4196.1600,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144871,4,2026-08-14,payable_payment,Payment: MARI CHRIS MAHINAY — RFP No.# 6692-2,80352.9000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144872,4,2026-08-14,payable_payment,Payment: MELINDA ANUTA — RFP No.# 6692-3,80829.8000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144873,4,2026-08-14,payable_payment,Payment: MOONYEN ARUELO — RFP No.# 6692-4,1624.5000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144874,4,2026-08-14,payable_payment,Payment: MARY MAMETTE NOVAL — RFP No.# 6692-5,3474.6200,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144875,4,2026-08-14,payable_payment,Payment: APRIL CANDY KONG — RFP No.# 6692-6,17506.7900,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144876,4,2026-08-14,payable_payment,Payment: WYNROSE BITOON — RFP No.# 6692-7,161355.6000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144877,4,2026-08-14,payable_payment,Payment: RANDOLF DYLAN CABAHUG — RFP No.# 6692-8,30877.2000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144878,4,2026-08-14,payable_payment,Payment: ADRIANN NINO LONGAKIT — RFP No.# 6692-9,138593.2200,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144879,4,2026-08-14,payable_payment,Payment: Dan Samuel Burgos — RFP No.# 6725,2800.0000,2800.0000,approved,1,0,2026-08-31 23:59:59,0
+144880,4,2026-08-14,payable_payment,Payment: Rhevy Jerald Vistal — RFP No.# 6726,9200.0000,9200.0000,approved,1,0,2026-08-31 23:59:59,0
+144881,4,2026-08-14,payable_payment,Payment: Angeline Muñoz — RFP No.# 6745,10357.0000,10357.0000,approved,1,0,2026-08-31 23:59:59,0
+144882,4,2026-08-14,payable_payment,Payment: PHILIPPINE HEALTH INSURANCE CORPORATION — RFP No.# 6750,0.0000,16102.8600,approved,1,0,2026-08-31 23:59:59,0
+144883,4,2026-08-14,payable_payment,Payment: HOME DEVELOPMENT MUTUAL FUND — RFP No.# 6753,0.0000,6000.0000,approved,1,0,2026-08-31 23:59:59,0
+144884,4,2026-08-14,receivable_credit_note,Asalus Corporation — CN-6722,164.0000,164.0000,approved,1,0,2026-08-31 23:59:59,0
+144885,4,2026-08-14,receivable_credit_note,Asalus Corporation — CN-6723,64.0000,64.0000,approved,1,0,2026-08-31 23:59:59,0
+144886,4,2026-08-14,receivable_credit_note,Asalus Corporation — CN-6724,241.9000,241.9000,approved,1,0,2026-08-31 23:59:59,0
+144887,4,2026-08-14,receivable_credit_note,Asalus Corporation — CN-6725,118.0000,118.0000,approved,1,0,2026-08-31 23:59:59,0
+144888,4,2026-08-14,receivable_credit_note,Asalus Corporation — CN-6726,434.3000,434.3000,approved,1,0,2026-08-31 23:59:59,0
+144889,4,2026-08-14,receivable_credit_note,Asalus Corporation — CN-6727,233.2000,233.2000,approved,1,0,2026-08-31 23:59:59,0
+144890,4,2026-08-14,receivable_credit_note,Asalus Corporation — CN-6728,280.8000,280.8000,approved,1,0,2026-08-31 23:59:59,0
+144891,4,2026-08-14,receivable_credit_note,Asalus Corporation — CN-6750,399.4000,399.4000,approved,1,0,2026-08-31 23:59:59,0
+144892,4,2026-08-14,receivable_credit_note,Asalus Corporation — CN-6753,275.5000,275.5000,approved,1,0,2026-08-31 23:59:59,0
+144893,4,2026-08-14,receivable_credit_note_allocation,Asalus Corporation — C2577,0.0000,275.5000,approved,1,0,2026-08-31 23:59:59,0
+144894,4,2026-08-14,receivable_credit_note_allocation,Asalus Corporation — C2591,0.0000,399.4000,approved,1,0,2026-08-31 23:59:59,0
+144895,4,2026-08-14,receivable_credit_note_allocation,Asalus Corporation — C3156,0.0000,164.0000,approved,1,0,2026-08-31 23:59:59,0
+144896,4,2026-08-14,receivable_credit_note_allocation,Asalus Corporation — C3188,0.0000,241.9000,approved,1,0,2026-08-31 23:59:59,0
+144897,4,2026-08-14,receivable_credit_note_allocation,Asalus Corporation — C3198,0.0000,233.2000,approved,1,0,2026-08-31 23:59:59,0
+144898,4,2026-08-14,receivable_credit_note_allocation,Asalus Corporation — C3209,0.0000,118.0000,approved,1,0,2026-08-31 23:59:59,0
+144899,4,2026-08-14,receivable_credit_note_allocation,Asalus Corporation — C3220,0.0000,434.3000,approved,1,0,2026-08-31 23:59:59,0
+144900,4,2026-08-14,receivable_credit_note_allocation,Asalus Corporation — C3250,0.0000,280.8000,approved,1,0,2026-08-31 23:59:59,0
+144901,4,2026-08-14,receivable_credit_note_allocation,Asalus Corporation — C3262,0.0000,64.0000,approved,1,0,2026-08-31 23:59:59,0
+144902,4,2026-08-14,receivable_credit_note_allocation,Asalus Corporation — CN-6722,164.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144903,4,2026-08-14,receivable_credit_note_allocation,Asalus Corporation — CN-6723,64.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144904,4,2026-08-14,receivable_credit_note_allocation,Asalus Corporation — CN-6724,241.9000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144905,4,2026-08-14,receivable_credit_note_allocation,Asalus Corporation — CN-6725,118.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144906,4,2026-08-14,receivable_credit_note_allocation,Asalus Corporation — CN-6726,434.3000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144907,4,2026-08-14,receivable_credit_note_allocation,Asalus Corporation — CN-6727,233.2000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144908,4,2026-08-14,receivable_credit_note_allocation,Asalus Corporation — CN-6728,280.8000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144909,4,2026-08-14,receivable_credit_note_allocation,Asalus Corporation — CN-6750,399.4000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144910,4,2026-08-14,receivable_credit_note_allocation,Asalus Corporation — CN-6753,275.5000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144911,4,2026-08-14,receivable_invoice,"Cooperative Health Management Federation - MARAMARA, MA. DESIREE BUHISAN | 08/12/2026 | Cooperative Health Management Federation | 2800- — C3750",2800.0000,2800.0000,approved,1,0,2026-08-31 23:59:59,0
+144912,4,2026-08-14,receivable_invoice,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) - ALO, JOSHUA BENEDICT OLLADA | 08/12/2026 | INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) | 600- — C3751",10720.0000,10720.0000,approved,1,0,2026-08-31 23:59:59,0
+144913,4,2026-08-14,receivable_invoice,"Insular Healthcare Inc - AYAG, ERLITA TAPULADO | 08/12/2026 | Insular Healthcare Inc | 500- — C3752",9470.0000,9470.0000,approved,1,0,2026-08-31 23:59:59,0
+144914,4,2026-08-14,receivable_invoice,"Asalus Corporation - BADONIO, QUERMELYN CASINTO | 08/12/2026 | Asalus Corporation | 500- — C3753",10545.0000,10545.0000,approved,1,0,2026-08-31 23:59:59,0
+144915,4,2026-08-14,receivable_invoice,"Lacson & Lacson Insurance Brokers Inc - PLANGA, MARIA SUZITA LIBRE | 08/12/2026 | LACSON & LACSON INSURANCE BROKERS INC | 500- — C3754",500.0000,500.0000,approved,1,0,2026-08-31 23:59:59,0
+144916,4,2026-08-14,receivable_invoice,"Life & Health Hmp Inc - BATBATAN, ROWELA DEREAL | 08/12/2026 | Life & Health Hmp Inc | 8630- — C3755",13530.0000,13530.0000,approved,1,0,2026-08-31 23:59:59,0
+144917,4,2026-08-14,receivable_invoice,"Maxicare Healthcare Corporation - POTON, ZANE RYHKER MEDRANO | 08/12/2026 | MAXICARE HEALTHCARE CORPORATION | 97- — C3756",7017.0000,7017.0000,approved,1,0,2026-08-31 23:59:59,0
+144918,4,2026-08-14,receivable_invoice,"Medicard Philippines Inc - ASPACIO, JUSTINE MARIE BACATAN | 08/12/2026 | Medicard Philippines Inc | 3180- — C3757",3780.0000,3780.0000,approved,1,0,2026-08-31 23:59:59,0
+144919,4,2026-08-14,receivable_invoice,"Philhealthcare, Inc - PADAYOGDOG, SHIELA MARIE AGUANTA | 08/12/2026 | Philhealthcare, Inc | 3740- — C3758",5990.0000,5990.0000,approved,1,0,2026-08-31 23:59:59,0
+144920,4,2026-08-14,receivable_invoice,"TITAY’S LILO-AN ROSQUILLOS & DELICACIES, INC. - PRADILLA, ADONIS MARAPO | 08/12/2026 | TITAY’S LILO-AN ROSQUILLOS & DELICACIES, INC. | 900- — C3759",900.0000,900.0000,approved,1,0,2026-08-31 23:59:59,0
+144921,4,2026-08-14,receivable_payment,Payment: PHILHEALTH - KONSULTA — C-PK0007,0.0000,275400.0000,approved,1,0,2026-08-31 23:59:59,0
+144922,4,2026-08-14,receivable_payment,Payment: PHILHEALTH - KONSULTA — C-PK0008,0.0000,213520.0000,approved,1,0,2026-08-31 23:59:59,0
+144923,4,2026-08-14,receivable_payment,Payment: PHILHEALTH - KONSULTA — C-PK0010,0.0000,161160.0000,approved,1,0,2026-08-31 23:59:59,0
+144924,4,2026-08-14,receivable_payment,Payment: Asalus Corporation — C2577,0.0000,13499.5000,approved,1,0,2026-08-31 23:59:59,0
+144925,4,2026-08-14,receivable_payment,Payment: Asalus Corporation — C2591,0.0000,19570.6000,approved,1,0,2026-08-31 23:59:59,0
+144926,4,2026-08-14,receivable_payment,Payment: Medicard Philippines Inc — C3526,2497.6000,2497.6000,approved,1,0,2026-08-31 23:59:59,0
+144927,4,2026-08-14,receivable_payment,Payment: Medicard Philippines Inc — C3541,9201.7100,9201.7100,approved,1,0,2026-08-31 23:59:59,0
+144928,4,2026-08-14,receivable_payment,Payment: Medicard Philippines Inc — C3571,2900.8000,2900.8000,approved,1,0,2026-08-31 23:59:59,0
+144929,4,2026-08-14,receivable_payment,Payment: Medicard Philippines Inc — C3584,4221.4500,4221.4500,approved,1,0,2026-08-31 23:59:59,0
+144930,4,2026-08-14,receivable_payment,Payment: Medicard Philippines Inc — C3601,2499.0000,2499.0000,approved,1,0,2026-08-31 23:59:59,0
+144931,4,2026-08-14,receivable_payment,Payment: Medicard Philippines Inc — C3613,1225.0000,1225.0000,approved,1,0,2026-08-31 23:59:59,0
+144932,4,2026-08-14,receivable_payment,Payment: Medicard Philippines Inc — C3624,882.0000,882.0000,approved,1,0,2026-08-31 23:59:59,0
+144933,4,2026-08-14,receivable_payment,Payment: Medicard Philippines Inc — C3692,1417.6700,1417.6700,approved,1,0,2026-08-31 23:59:59,0
+144934,4,2026-08-14,receivable_payment,Payment: Medicard Philippines Inc — C3704,3135.4100,3135.4100,approved,1,0,2026-08-31 23:59:59,0
+144935,4,2026-08-14,receivable_payment,Payment: Asalus Corporation — PD: 6-17-26,33070.1000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144936,4,2026-08-14,receivable_payment,"Payment: PHILHEALTH - KONSULTA — credit date June 03, 2026",650080.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144937,4,2026-08-15,journal_entry,"Sales Branches August 15, 2026 - Gcash Sales - August, 15 — #78093",163274.0000,163274.0000,approved,1,0,2026-08-31 23:59:59,0
+144938,4,2026-08-17,journal_entry,"Sales Branches August 17, 2026 - Gcash Sales - August, 17 — #78095",146716.0000,146716.0000,approved,1,0,2026-08-31 23:59:59,0
+144939,4,2026-08-17,payable_invoice,RAFAEL LORENZO CORDENILLO — RFP No.# 6799,9200.0000,9200.0000,approved,1,0,2026-08-31 23:59:59,0
+144940,4,2026-08-17,payable_invoice,JESSA MICHELLE GERONA — RFP No.# 6800,3600.0000,3600.0000,approved,1,0,2026-08-31 23:59:59,0
+144941,4,2026-08-17,payable_invoice,"VISAYAN ELECTRIC CO., INC — RFP No.# 6803",86654.0500,86654.0500,approved,1,0,2026-08-31 23:59:59,0
+144942,4,2026-08-17,payable_invoice,CARLYLE F. ABINUMAN — RFP No.# 6816,3200.0000,3200.0000,approved,1,0,2026-08-31 23:59:59,0
+144943,4,2026-08-17,payable_invoice,Rhevy Jerald Vistal — RFP No.# 6818,7200.0000,7200.0000,approved,1,0,2026-08-31 23:59:59,0
+144944,4,2026-08-17,payable_payment,"Payment: BIOSYN HEALTHCARE SYSTEMS, INC. — 0826-000842",2768750.0000,2768750.0000,approved,1,0,2026-08-31 23:59:59,0
+144945,4,2026-08-17,receivable_credit_note,OAKRIDGE REALTY DEVELOPMENT CORPORATION — CN-6794,12.0000,12.0000,approved,1,0,2026-08-31 23:59:59,0
+144946,4,2026-08-17,receivable_credit_note,"TITAY’S LILO-AN ROSQUILLOS & DELICACIES, INC. — CN-6806",18.0000,18.0000,approved,1,0,2026-08-31 23:59:59,0
+144947,4,2026-08-17,receivable_credit_note,"TITAY’S LILO-AN ROSQUILLOS & DELICACIES, INC. — CN-6807",18.0000,18.0000,approved,1,0,2026-08-31 23:59:59,0
+144948,4,2026-08-17,receivable_credit_note,"TITAY’S LILO-AN ROSQUILLOS & DELICACIES, INC. — CN-6808",18.0000,18.0000,approved,1,0,2026-08-31 23:59:59,0
+144949,4,2026-08-17,receivable_credit_note,"TITAY’S LILO-AN ROSQUILLOS & DELICACIES, INC. — CN-6809",36.0000,36.0000,approved,1,0,2026-08-31 23:59:59,0
+144950,4,2026-08-17,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-6810,12.0000,12.0000,approved,1,0,2026-08-31 23:59:59,0
+144951,4,2026-08-17,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-6811,296.7000,296.7000,approved,1,0,2026-08-31 23:59:59,0
+144952,4,2026-08-17,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-6813,48.8000,48.8000,approved,1,0,2026-08-31 23:59:59,0
+144953,4,2026-08-17,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-6814,12.0000,12.0000,approved,1,0,2026-08-31 23:59:59,0
+144954,4,2026-08-17,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-6815,12.0000,12.0000,approved,1,0,2026-08-31 23:59:59,0
+144955,4,2026-08-17,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-6816,12.0000,12.0000,approved,1,0,2026-08-31 23:59:59,0
+144956,4,2026-08-17,receivable_credit_note,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6817",12.0000,12.0000,approved,1,0,2026-08-31 23:59:59,0
+144957,4,2026-08-17,receivable_credit_note,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6818",42.0000,42.0000,approved,1,0,2026-08-31 23:59:59,0
+144958,4,2026-08-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — C2650,0.0000,296.7000,approved,1,0,2026-08-31 23:59:59,0
+144959,4,2026-08-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — C2679,0.0000,12.0000,approved,1,0,2026-08-31 23:59:59,0
+144960,4,2026-08-17,receivable_credit_note_allocation,OAKRIDGE REALTY DEVELOPMENT CORPORATION — C2765,0.0000,12.0000,approved,1,0,2026-08-31 23:59:59,0
+144961,4,2026-08-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — C2850,0.0000,12.0000,approved,1,0,2026-08-31 23:59:59,0
+144962,4,2026-08-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — C2866,0.0000,12.0000,approved,1,0,2026-08-31 23:59:59,0
+144963,4,2026-08-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — C2879,0.0000,48.8000,approved,1,0,2026-08-31 23:59:59,0
+144964,4,2026-08-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — C2921,0.0000,12.0000,approved,1,0,2026-08-31 23:59:59,0
+144965,4,2026-08-17,receivable_credit_note_allocation,"TITAY’S LILO-AN ROSQUILLOS & DELICACIES, INC. — C2933",0.0000,18.0000,approved,1,0,2026-08-31 23:59:59,0
+144966,4,2026-08-17,receivable_credit_note_allocation,"TITAY’S LILO-AN ROSQUILLOS & DELICACIES, INC. — C2948",0.0000,18.0000,approved,1,0,2026-08-31 23:59:59,0
+144967,4,2026-08-17,receivable_credit_note_allocation,"TITAY’S LILO-AN ROSQUILLOS & DELICACIES, INC. — C2998",0.0000,18.0000,approved,1,0,2026-08-31 23:59:59,0
+144968,4,2026-08-17,receivable_credit_note_allocation,"TITAY’S LILO-AN ROSQUILLOS & DELICACIES, INC. — C3010",0.0000,36.0000,approved,1,0,2026-08-31 23:59:59,0
+144969,4,2026-08-17,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3053",0.0000,12.0000,approved,1,0,2026-08-31 23:59:59,0
+144970,4,2026-08-17,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3072",0.0000,42.0000,approved,1,0,2026-08-31 23:59:59,0
+144971,4,2026-08-17,receivable_credit_note_allocation,OAKRIDGE REALTY DEVELOPMENT CORPORATION — CN-6794,12.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144972,4,2026-08-17,receivable_credit_note_allocation,"TITAY’S LILO-AN ROSQUILLOS & DELICACIES, INC. — CN-6806",18.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144973,4,2026-08-17,receivable_credit_note_allocation,"TITAY’S LILO-AN ROSQUILLOS & DELICACIES, INC. — CN-6807",18.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144974,4,2026-08-17,receivable_credit_note_allocation,"TITAY’S LILO-AN ROSQUILLOS & DELICACIES, INC. — CN-6808",18.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144975,4,2026-08-17,receivable_credit_note_allocation,"TITAY’S LILO-AN ROSQUILLOS & DELICACIES, INC. — CN-6809",36.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144976,4,2026-08-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-6810,12.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144977,4,2026-08-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-6811,296.7000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144978,4,2026-08-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-6813,48.8000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144979,4,2026-08-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-6814,12.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144980,4,2026-08-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-6815,12.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144981,4,2026-08-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-6816,12.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144982,4,2026-08-17,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6817",12.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144983,4,2026-08-17,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6818",42.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144984,4,2026-08-17,receivable_invoice,"United Coconut Planters Life Assurance Corporation - ERNIE, ROSALINDA AMAR | 08/13/2026 | United Coconut Planters Life Assurance Corporation | 400- — C3760",3400.0000,3400.0000,approved,1,0,2026-08-31 23:59:59,0
+144985,4,2026-08-17,receivable_invoice,"Cooperative Health Management Federation - APAS, RAHYAN CAPAROSO | 08/13/2026 | Cooperative Health Management Federation | 300- — C3761",600.0000,600.0000,approved,1,0,2026-08-31 23:59:59,0
+144986,4,2026-08-17,receivable_invoice,"Etiqa Life and General Assurance Phillipines, Inc - DESAMPARADO, RENANTE MANSUETO | 08/13/2026 | Etiqa Life and General Assurance Phillipines, Inc | 1360- — C3762",1860.0000,1860.0000,approved,1,0,2026-08-31 23:59:59,0
+144987,4,2026-08-17,receivable_invoice,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) - MARAYAN, HONEY BRIZE MARIKIT | 08/13/2026 | INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) | 600- — C3763",2400.0000,2400.0000,approved,1,0,2026-08-31 23:59:59,0
+144988,4,2026-08-17,receivable_invoice,"Insular Healthcare Inc - APURA, NESSA MARIE - | 08/13/2026 | Insular Healthcare Inc | 500- — C3764",27060.0000,27060.0000,approved,1,0,2026-08-31 23:59:59,0
+144989,4,2026-08-17,receivable_invoice,"Asalus Corporation - DE PAZ, MANNILYN CODIORAN | 08/13/2026 | Asalus Corporation | 500- — C3765",23350.0000,23350.0000,approved,1,0,2026-08-31 23:59:59,0
+144990,4,2026-08-17,receivable_invoice,"Lacson & Lacson Insurance Brokers Inc - PLANGA, MARIA SUZITA LIBRE | 08/13/2026 | LACSON & LACSON INSURANCE BROKERS INC | 6750- — C3766",8250.0000,8250.0000,approved,1,0,2026-08-31 23:59:59,0
+144991,4,2026-08-17,receivable_invoice,"Life & Health Hmp Inc - CACANOG, LHEA CANETE | 08/13/2026 | Life & Health Hmp Inc | 1100- — C3767",8710.0000,8710.0000,approved,1,0,2026-08-31 23:59:59,0
+144992,4,2026-08-17,receivable_invoice,"Maxicare Healthcare Corporation - ADLAWAN, RICHELLE MAGALLANES | 08/13/2026 | MAXICARE HEALTHCARE CORPORATION | 1830- — C3768",37532.0000,37532.0000,approved,1,0,2026-08-31 23:59:59,0
+144993,4,2026-08-17,receivable_invoice,"Medicard Philippines Inc - BARONG, PRESLEY LEBOSADA | 08/13/2026 | Medicard Philippines Inc | 150- — C3769",5410.0000,5410.0000,approved,1,0,2026-08-31 23:59:59,0
+144994,4,2026-08-17,receivable_invoice,"Philhealthcare, Inc - CABIGAS, AMELITA ARIAS | 08/13/2026 | Philhealthcare, Inc | 600- — C3770",21140.0000,21140.0000,approved,1,0,2026-08-31 23:59:59,0
+144995,4,2026-08-17,receivable_invoice,"TITAY’S LILO-AN ROSQUILLOS & DELICACIES, INC. - ESTAÑO, CATHERINE RAMILLANO | 08/13/2026 | TITAY’S LILO-AN ROSQUILLOS & DELICACIES, INC. | 900- — C3771",900.0000,900.0000,approved,1,0,2026-08-31 23:59:59,0
+144996,4,2026-08-17,receivable_invoice,"Virginia Food Inc. - CODILLA, JAN VINCENT TOLEDO | 08/13/2026 | VIRGINIA FOOD INC | 780- — C3772",780.0000,780.0000,approved,1,0,2026-08-31 23:59:59,0
+144997,4,2026-08-17,receivable_invoice,"Avega Managed Care, Inc - CADAY, ANGEL MAE BELLEZA | 08/14/2026 | Avega Managed Care, Inc | 2000- — C3773",2500.0000,2500.0000,approved,1,0,2026-08-31 23:59:59,0
+144998,4,2026-08-17,receivable_payment,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — 7-7-26,588.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+144999,4,2026-08-17,receivable_payment,Payment: Generali Life Assurance Philippines Inc — C2650,0.0000,14538.3000,approved,1,0,2026-08-31 23:59:59,0
+145000,4,2026-08-17,receivable_payment,Payment: Generali Life Assurance Philippines Inc — C2679,0.0000,588.0000,approved,1,0,2026-08-31 23:59:59,0
+145001,4,2026-08-17,receivable_payment,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — C2765,0.0000,588.0000,approved,1,0,2026-08-31 23:59:59,0
+145002,4,2026-08-17,receivable_payment,Payment: Generali Life Assurance Philippines Inc — C2850,0.0000,588.0000,approved,1,0,2026-08-31 23:59:59,0
+145003,4,2026-08-17,receivable_payment,Payment: Generali Life Assurance Philippines Inc — C2866,0.0000,588.0000,approved,1,0,2026-08-31 23:59:59,0
+145004,4,2026-08-17,receivable_payment,Payment: Generali Life Assurance Philippines Inc — C2879,0.0000,2391.2000,approved,1,0,2026-08-31 23:59:59,0
+145005,4,2026-08-17,receivable_payment,Payment: Generali Life Assurance Philippines Inc — C2921,0.0000,588.0000,approved,1,0,2026-08-31 23:59:59,0
+145006,4,2026-08-17,receivable_payment,"Payment: TITAY’S LILO-AN ROSQUILLOS & DELICACIES, INC. — C2933",0.0000,882.0000,approved,1,0,2026-08-31 23:59:59,0
+145007,4,2026-08-17,receivable_payment,"Payment: TITAY’S LILO-AN ROSQUILLOS & DELICACIES, INC. — C2948",0.0000,882.0000,approved,1,0,2026-08-31 23:59:59,0
+145008,4,2026-08-17,receivable_payment,"Payment: TITAY’S LILO-AN ROSQUILLOS & DELICACIES, INC. — C2998",0.0000,882.0000,approved,1,0,2026-08-31 23:59:59,0
+145009,4,2026-08-17,receivable_payment,"Payment: TITAY’S LILO-AN ROSQUILLOS & DELICACIES, INC. — C3010",0.0000,1764.0000,approved,1,0,2026-08-31 23:59:59,0
+145010,4,2026-08-17,receivable_payment,"Payment: INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3053",0.0000,588.0000,approved,1,0,2026-08-31 23:59:59,0
+145011,4,2026-08-17,receivable_payment,"Payment: Avega Managed Care, Inc — C3062",10603.6000,10603.6000,approved,1,0,2026-08-31 23:59:59,0
+145012,4,2026-08-17,receivable_payment,"Payment: INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3072",0.0000,2058.0000,approved,1,0,2026-08-31 23:59:59,0
+145013,4,2026-08-17,receivable_payment,"Payment: Avega Managed Care, Inc — C3092",15003.8000,15003.8000,approved,1,0,2026-08-31 23:59:59,0
+145014,4,2026-08-17,receivable_payment,"Payment: Avega Managed Care, Inc — C3139",11671.8000,11671.8000,approved,1,0,2026-08-31 23:59:59,0
+145015,4,2026-08-17,receivable_payment,"Payment: Avega Managed Care, Inc — C3184",1705.2000,1705.2000,approved,1,0,2026-08-31 23:59:59,0
+145016,4,2026-08-17,receivable_payment,"Payment: Avega Managed Care, Inc — C3194",2861.6000,2861.6000,approved,1,0,2026-08-31 23:59:59,0
+145017,4,2026-08-17,receivable_payment,"Payment: Avega Managed Care, Inc — C3216",13107.5000,13107.5000,approved,1,0,2026-08-31 23:59:59,0
+145018,4,2026-08-17,receivable_payment,Payment: Medicard Philippines Inc — C3551,7822.1600,7822.1600,approved,1,0,2026-08-31 23:59:59,0
+145019,4,2026-08-17,receivable_payment,Payment: Medicard Philippines Inc — C3560,7788.2600,7788.2600,approved,1,0,2026-08-31 23:59:59,0
+145020,4,2026-08-17,receivable_payment,Payment: Generali Life Assurance Philippines Inc — PD: 5-22-26,15126.3000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145021,4,2026-08-17,receivable_payment,Payment: Generali Life Assurance Philippines Inc — PD: 6-16-26,6801.2000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145022,4,2026-08-17,receivable_payment,"Payment: TITAY’S LILO-AN ROSQUILLOS & DELICACIES, INC. — PD: 6-3-26",4410.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145023,4,2026-08-18,journal_entry,to record cash sales august 17 — #77109,50698.0000,50698.0000,approved,1,0,2026-08-31 23:59:59,0
+145024,4,2026-08-18,journal_entry,"Sales Branches August 18, 2026 - Gcash Sales - August, 18 — #78101",147950.0000,147950.0000,approved,1,0,2026-08-31 23:59:59,0
+145025,4,2026-08-18,payable_invoice,Angeline Muñoz — RFP No.# 6820,6679.5000,6679.5000,approved,1,0,2026-08-31 23:59:59,0
+145026,4,2026-08-18,receivable_credit_note,"Avega Managed Care, Inc — CN-6837",216.4000,216.4000,approved,1,0,2026-08-31 23:59:59,0
+145027,4,2026-08-18,receivable_credit_note,"Avega Managed Care, Inc — CN-6841",34.8000,34.8000,approved,1,0,2026-08-31 23:59:59,0
+145028,4,2026-08-18,receivable_credit_note,"Avega Managed Care, Inc — CN-6843",58.4000,58.4000,approved,1,0,2026-08-31 23:59:59,0
+145029,4,2026-08-18,receivable_credit_note,"Avega Managed Care, Inc — CN-6844",238.2000,238.2000,approved,1,0,2026-08-31 23:59:59,0
+145030,4,2026-08-18,receivable_credit_note,"Avega Managed Care, Inc — CN-6846",267.5000,267.5000,approved,1,0,2026-08-31 23:59:59,0
+145031,4,2026-08-18,receivable_credit_note,"Avega Managed Care, Inc — CN-6848",306.2000,306.2000,approved,1,0,2026-08-31 23:59:59,0
+145032,4,2026-08-18,receivable_credit_note_allocation,"Avega Managed Care, Inc — C3062",0.0000,216.4000,approved,1,0,2026-08-31 23:59:59,0
+145033,4,2026-08-18,receivable_credit_note_allocation,"Avega Managed Care, Inc — C3092",0.0000,306.2000,approved,1,0,2026-08-31 23:59:59,0
+145034,4,2026-08-18,receivable_credit_note_allocation,"Avega Managed Care, Inc — C3139",0.0000,238.2000,approved,1,0,2026-08-31 23:59:59,0
+145035,4,2026-08-18,receivable_credit_note_allocation,"Avega Managed Care, Inc — C3184",0.0000,34.8000,approved,1,0,2026-08-31 23:59:59,0
+145036,4,2026-08-18,receivable_credit_note_allocation,"Avega Managed Care, Inc — C3194",0.0000,58.4000,approved,1,0,2026-08-31 23:59:59,0
+145037,4,2026-08-18,receivable_credit_note_allocation,"Avega Managed Care, Inc — C3216",0.0000,267.5000,approved,1,0,2026-08-31 23:59:59,0
+145038,4,2026-08-18,receivable_credit_note_allocation,"Avega Managed Care, Inc — CN-6837",216.4000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145039,4,2026-08-18,receivable_credit_note_allocation,"Avega Managed Care, Inc — CN-6841",34.8000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145040,4,2026-08-18,receivable_credit_note_allocation,"Avega Managed Care, Inc — CN-6843",58.4000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145041,4,2026-08-18,receivable_credit_note_allocation,"Avega Managed Care, Inc — CN-6844",238.2000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145042,4,2026-08-18,receivable_credit_note_allocation,"Avega Managed Care, Inc — CN-6846",267.5000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145043,4,2026-08-18,receivable_credit_note_allocation,"Avega Managed Care, Inc — CN-6848",306.2000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145044,4,2026-08-18,receivable_invoice,"Avega Managed Care, Inc - HORTELANO, ANNDREW MARIE CABALLERO | 08/15/2026 | Avega Managed Care, Inc | 600- — C3774",4760.0000,4760.0000,approved,1,0,2026-08-31 23:59:59,0
+145045,4,2026-08-18,receivable_invoice,"Etiqa Life and General Assurance Phillipines, Inc - COPER, JOHNATAN BAGALANON | 08/15/2026 | Etiqa Life and General Assurance Phillipines, Inc | 500- — C3775",18560.0000,18560.0000,approved,1,0,2026-08-31 23:59:59,0
+145046,4,2026-08-18,receivable_invoice,"Health Delivery Sytem Inc (Flexicare) - DE LA CRUZ, CRISTY LEE MORALES | 08/15/2026 | Health Delivery Sytem Inc (Flexicare) | 180- — C3776",180.0000,180.0000,approved,1,0,2026-08-31 23:59:59,0
+145047,4,2026-08-18,receivable_invoice,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) - ALINSUG, SHAHLOM CHRISTIAN PECHARDO | 08/15/2026 | INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) | 3800- — C3777",7150.0000,7150.0000,approved,1,0,2026-08-31 23:59:59,0
+145048,4,2026-08-18,receivable_invoice,"Insular Healthcare Inc - ANGAY, CHRISTY DAWN AGURA | 08/15/2026 | Insular Healthcare Inc | 1450- — C3778",46500.0000,46500.0000,approved,1,0,2026-08-31 23:59:59,0
+145049,4,2026-08-18,receivable_invoice,"Asalus Corporation - ALAGASE, SHEKINAH ROENNE CADULLO | 08/15/2026 | Asalus Corporation | 90- — C3779",26304.0000,26304.0000,approved,1,0,2026-08-31 23:59:59,0
+145050,4,2026-08-18,receivable_invoice,"Maxicare Healthcare Corporation - CABAÑERO, JAYDEN XIANE LUBGUBAN | 08/15/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C3780",8761.0000,8761.0000,approved,1,0,2026-08-31 23:59:59,0
+145051,4,2026-08-18,receivable_invoice,"Life & Health Hmp Inc - AGBAY, DENNIS RAGO | 08/15/2026 | Life & Health Hmp Inc | 400- — C3781",6400.0000,6400.0000,approved,1,0,2026-08-31 23:59:59,0
+145052,4,2026-08-18,receivable_invoice,"Medicard Philippines Inc - RODRIGUEZ, JOHANNA MAY ALBIOS | 08/15/2026 | Medicard Philippines Inc | 600- — C3782",3850.0000,3850.0000,approved,1,0,2026-08-31 23:59:59,0
+145053,4,2026-08-18,receivable_invoice,"PACIFIC CROSS INSURANCE, INC. - REQUERON JR., VIRGILO SELERES | 08/15/2026 | Pacific Cross Insurance, Inc. | 450- — C3783",450.0000,450.0000,approved,1,0,2026-08-31 23:59:59,0
+145054,4,2026-08-18,receivable_invoice,"Philhealthcare, Inc - LUCERO, DANEVE ANGEL VELARDO | 08/15/2026 | Philhealthcare, Inc | 550- — C3784",7680.0000,7680.0000,approved,1,0,2026-08-31 23:59:59,0
+145055,4,2026-08-18,receivable_invoice,"Cooperative Health Management Federation - BULADACO, ARREL VINCENT OBISO | 08/17/2026 | Cooperative Health Management Federation | 300- — C3785",14150.0000,14150.0000,approved,1,0,2026-08-31 23:59:59,0
+145056,4,2026-08-18,receivable_payment,Payment: Virginia Food Inc — C2024,780.0000,780.0000,approved,1,0,2026-08-31 23:59:59,0
+145057,4,2026-08-18,receivable_payment,Payment: Virginia Food Inc — C2043,780.0000,780.0000,approved,1,0,2026-08-31 23:59:59,0
+145058,4,2026-08-18,receivable_payment,"Payment: Value Care Health Systems, Inc. — C2084",1832.6000,1832.6000,approved,1,0,2026-08-31 23:59:59,0
+145059,4,2026-08-18,receivable_payment,"Payment: Value Care Health Systems, Inc. — C2785",1078.0000,1078.0000,approved,1,0,2026-08-31 23:59:59,0
+145060,4,2026-08-18,receivable_payment,"Payment: Value Care Health Systems, Inc. — C2796",7183.4000,7183.4000,approved,1,0,2026-08-31 23:59:59,0
+145061,4,2026-08-18,receivable_payment,"Payment: Value Care Health Systems, Inc. — C2820",4831.4000,4831.4000,approved,1,0,2026-08-31 23:59:59,0
+145062,4,2026-08-18,receivable_payment,Payment: Cooperative Health Management Federation — C2849,12818.4000,12818.4000,approved,1,0,2026-08-31 23:59:59,0
+145063,4,2026-08-18,receivable_payment,Payment: Cooperative Health Management Federation — C2877,4860.8000,4860.8000,approved,1,0,2026-08-31 23:59:59,0
+145064,4,2026-08-18,receivable_payment,Payment: Cooperative Health Management Federation — C2894,833.0000,833.0000,approved,1,0,2026-08-31 23:59:59,0
+145065,4,2026-08-18,receivable_payment,Payment: Cooperative Health Management Federation — C2907,4312.0000,4312.0000,approved,1,0,2026-08-31 23:59:59,0
+145066,4,2026-08-18,receivable_payment,Payment: Cooperative Health Management Federation — C3052,3018.4000,3018.4000,approved,1,0,2026-08-31 23:59:59,0
+145067,4,2026-08-18,receivable_payment,Payment: Cooperative Health Management Federation — C3063,11779.6000,11779.6000,approved,1,0,2026-08-31 23:59:59,0
+145068,4,2026-08-18,receivable_payment,Payment: Asalus Corporation — C3084,23250.5000,23250.5000,approved,1,0,2026-08-31 23:59:59,0
+145069,4,2026-08-18,receivable_payment,Payment: Cooperative Health Management Federation — C3093,9466.8000,9466.8000,approved,1,0,2026-08-31 23:59:59,0
+145070,4,2026-08-18,receivable_payment,Payment: Cooperative Health Management Federation — C3111,539.0000,539.0000,approved,1,0,2026-08-31 23:59:59,0
+145071,4,2026-08-18,receivable_payment,Payment: Asalus Corporation — C3115,10118.5000,10118.5000,approved,1,0,2026-08-31 23:59:59,0
+145072,4,2026-08-18,receivable_payment,Payment: Cooperative Health Management Federation — C3124,6771.8000,6771.8000,approved,1,0,2026-08-31 23:59:59,0
+145073,4,2026-08-18,receivable_payment,Payment: Asalus Corporation — C3127,29806.7000,29806.7000,approved,1,0,2026-08-31 23:59:59,0
+145074,4,2026-08-18,receivable_payment,Payment: Asalus Corporation — C3168,22059.8000,22059.8000,approved,1,0,2026-08-31 23:59:59,0
+145075,4,2026-08-18,receivable_payment,Payment: Asalus Corporation — C3177,17586.1000,17586.1000,approved,1,0,2026-08-31 23:59:59,0
+145076,4,2026-08-18,receivable_payment,Payment: Asalus Corporation — C3233,29698.9000,29698.9000,approved,1,0,2026-08-31 23:59:59,0
+145077,4,2026-08-18,receivable_payment,Payment: Medicard Philippines Inc — C3650,588.0000,588.0000,approved,1,0,2026-08-31 23:59:59,0
+145078,4,2026-08-19,journal_entry,"to record cash sales august 17, 18 - aug 18 — #77143",59337.0000,59337.0000,approved,1,0,2026-08-31 23:59:59,0
+145079,4,2026-08-19,journal_entry,"Sales Branches August 19, 2026 - Gcash Sales - August, 19 — #78102",147530.0000,147530.0000,approved,1,0,2026-08-31 23:59:59,0
+145080,4,2026-08-19,payable_invoice,BIOLAB MEDICAL SUPPLIES — 0826-000916,2300.0000,2300.0000,approved,1,0,2026-08-31 23:59:59,0
+145081,4,2026-08-19,payable_invoice,CARLYLE F. ABINUMAN — RFP No.# 6834,1600.0000,1600.0000,approved,1,0,2026-08-31 23:59:59,0
+145082,4,2026-08-19,payable_payment,"Payment: SECURITY AND FORENSIC ENTERPRISES, INC. — 0826-000886",37660.7100,37660.7100,approved,1,0,2026-08-31 23:59:59,0
+145083,4,2026-08-19,receivable_credit_note,Asalus Corporation — CN-6858,608.3000,608.3000,approved,1,0,2026-08-31 23:59:59,0
+145084,4,2026-08-19,receivable_credit_note,Asalus Corporation — CN-6866,474.5000,474.5000,approved,1,0,2026-08-31 23:59:59,0
+145085,4,2026-08-19,receivable_credit_note,Asalus Corporation — CN-6877,358.9000,358.9000,approved,1,0,2026-08-31 23:59:59,0
+145086,4,2026-08-19,receivable_credit_note,Asalus Corporation — CN-6885,206.5000,206.5000,approved,1,0,2026-08-31 23:59:59,0
+145087,4,2026-08-19,receivable_credit_note,Asalus Corporation — CN-6887,450.2000,450.2000,approved,1,0,2026-08-31 23:59:59,0
+145088,4,2026-08-19,receivable_credit_note,Asalus Corporation — CN-6888,606.1000,606.1000,approved,1,0,2026-08-31 23:59:59,0
+145089,4,2026-08-19,receivable_credit_note,CEBU GENERAL SERVICES INC. — CN-6908,140.4000,140.4000,approved,1,0,2026-08-31 23:59:59,0
+145090,4,2026-08-19,receivable_credit_note,"Cebu General Services, Inc. — CN-6909",31.2000,31.2000,approved,1,0,2026-08-31 23:59:59,0
+145091,4,2026-08-19,receivable_credit_note,CEBU GENERAL SERVICES INC. — CN-6910,15.6000,15.6000,approved,1,0,2026-08-31 23:59:59,0
+145092,4,2026-08-19,receivable_credit_note,CEBU GENERAL SERVICES INC. — CN-6911,280.8000,280.8000,approved,1,0,2026-08-31 23:59:59,0
+145093,4,2026-08-19,receivable_credit_note,CEBU GENERAL SERVICES INC. — CN-6912,374.4000,374.4000,approved,1,0,2026-08-31 23:59:59,0
+145094,4,2026-08-19,receivable_credit_note,VFI-CEBU GENERAL SERVICES INC. — CN-6913,124.8000,124.8000,approved,1,0,2026-08-31 23:59:59,0
+145095,4,2026-08-19,receivable_credit_note,VFI-CEBU GENERAL SERVICES INC. — CN-6914,15.6000,15.6000,approved,1,0,2026-08-31 23:59:59,0
+145096,4,2026-08-19,receivable_credit_note,VFI-CEBU GENERAL SERVICES INC. — CN-6915,31.2000,31.2000,approved,1,0,2026-08-31 23:59:59,0
+145097,4,2026-08-19,receivable_credit_note,VFI-CEBU GENERAL SERVICES INC. — CN-6917,15.6000,15.6000,approved,1,0,2026-08-31 23:59:59,0
+145098,4,2026-08-19,receivable_credit_note,VFI-CEBU GENERAL SERVICES INC. — CN-6918,31.2000,31.2000,approved,1,0,2026-08-31 23:59:59,0
+145099,4,2026-08-19,receivable_credit_note,VFI-CEBU GENERAL SERVICES INC. — CN-6919,327.6000,327.6000,approved,1,0,2026-08-31 23:59:59,0
+145100,4,2026-08-19,receivable_credit_note,VFI-CEBU GENERAL SERVICES INC. — CN-6920,124.8000,124.8000,approved,1,0,2026-08-31 23:59:59,0
+145101,4,2026-08-19,receivable_credit_note,VFI-CEBU GENERAL SERVICES INC. — CN-6921,93.6000,93.6000,approved,1,0,2026-08-31 23:59:59,0
+145102,4,2026-08-19,receivable_credit_note,VFI-CEBU GENERAL SERVICES INC. — CN-6922,31.2000,31.2000,approved,1,0,2026-08-31 23:59:59,0
+145103,4,2026-08-19,receivable_credit_note_allocation,CEBU GENERAL SERVICES INC. — C2810,0.0000,140.4000,approved,1,0,2026-08-31 23:59:59,0
+145104,4,2026-08-19,receivable_credit_note_allocation,"Cebu General Services, Inc. — C2904",0.0000,31.2000,approved,1,0,2026-08-31 23:59:59,0
+145105,4,2026-08-19,receivable_credit_note_allocation,CEBU GENERAL SERVICES INC. — C2916,0.0000,15.6000,approved,1,0,2026-08-31 23:59:59,0
+145106,4,2026-08-19,receivable_credit_note_allocation,CEBU GENERAL SERVICES INC. — C3070,0.0000,280.8000,approved,1,0,2026-08-31 23:59:59,0
+145107,4,2026-08-19,receivable_credit_note_allocation,Asalus Corporation — C3084,0.0000,474.5000,approved,1,0,2026-08-31 23:59:59,0
+145108,4,2026-08-19,receivable_credit_note_allocation,CEBU GENERAL SERVICES INC. — C3091,0.0000,374.4000,approved,1,0,2026-08-31 23:59:59,0
+145109,4,2026-08-19,receivable_credit_note_allocation,VFI-CEBU GENERAL SERVICES INC. — C3106,0.0000,124.8000,approved,1,0,2026-08-31 23:59:59,0
+145110,4,2026-08-19,receivable_credit_note_allocation,Asalus Corporation — C3115,0.0000,206.5000,approved,1,0,2026-08-31 23:59:59,0
+145111,4,2026-08-19,receivable_credit_note_allocation,VFI-CEBU GENERAL SERVICES INC. — C3122,0.0000,15.6000,approved,1,0,2026-08-31 23:59:59,0
+145112,4,2026-08-19,receivable_credit_note_allocation,Asalus Corporation — C3127,0.0000,608.3000,approved,1,0,2026-08-31 23:59:59,0
+145113,4,2026-08-19,receivable_credit_note_allocation,VFI-CEBU GENERAL SERVICES INC. — C3132,0.0000,31.2000,approved,1,0,2026-08-31 23:59:59,0
+145114,4,2026-08-19,receivable_credit_note_allocation,Asalus Corporation — C3168,0.0000,450.2000,approved,1,0,2026-08-31 23:59:59,0
+145115,4,2026-08-19,receivable_credit_note_allocation,Asalus Corporation — C3177,0.0000,358.9000,approved,1,0,2026-08-31 23:59:59,0
+145116,4,2026-08-19,receivable_credit_note_allocation,Asalus Corporation — C3233,0.0000,606.1000,approved,1,0,2026-08-31 23:59:59,0
+145117,4,2026-08-19,receivable_credit_note_allocation,VFI-CEBU GENERAL SERVICES INC. — C3405,0.0000,15.6000,approved,1,0,2026-08-31 23:59:59,0
+145118,4,2026-08-19,receivable_credit_note_allocation,VFI-CEBU GENERAL SERVICES INC. — C3449,0.0000,31.2000,approved,1,0,2026-08-31 23:59:59,0
+145119,4,2026-08-19,receivable_credit_note_allocation,VFI-CEBU GENERAL SERVICES INC. — C3462,0.0000,327.6000,approved,1,0,2026-08-31 23:59:59,0
+145120,4,2026-08-19,receivable_credit_note_allocation,VFI-CEBU GENERAL SERVICES INC. — C3477,0.0000,124.8000,approved,1,0,2026-08-31 23:59:59,0
+145121,4,2026-08-19,receivable_credit_note_allocation,VFI-CEBU GENERAL SERVICES INC. — C3491,0.0000,93.6000,approved,1,0,2026-08-31 23:59:59,0
+145122,4,2026-08-19,receivable_credit_note_allocation,VFI-CEBU GENERAL SERVICES INC. — C3493,0.0000,31.2000,approved,1,0,2026-08-31 23:59:59,0
+145123,4,2026-08-19,receivable_credit_note_allocation,Asalus Corporation — CN-6858,608.3000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145124,4,2026-08-19,receivable_credit_note_allocation,Asalus Corporation — CN-6866,474.5000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145125,4,2026-08-19,receivable_credit_note_allocation,Asalus Corporation — CN-6877,358.9000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145126,4,2026-08-19,receivable_credit_note_allocation,Asalus Corporation — CN-6885,206.5000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145127,4,2026-08-19,receivable_credit_note_allocation,Asalus Corporation — CN-6887,450.2000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145128,4,2026-08-19,receivable_credit_note_allocation,Asalus Corporation — CN-6888,606.1000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145129,4,2026-08-19,receivable_credit_note_allocation,CEBU GENERAL SERVICES INC. — CN-6908,140.4000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145130,4,2026-08-19,receivable_credit_note_allocation,"Cebu General Services, Inc. — CN-6909",31.2000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145131,4,2026-08-19,receivable_credit_note_allocation,CEBU GENERAL SERVICES INC. — CN-6910,15.6000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145132,4,2026-08-19,receivable_credit_note_allocation,CEBU GENERAL SERVICES INC. — CN-6911,280.8000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145133,4,2026-08-19,receivable_credit_note_allocation,CEBU GENERAL SERVICES INC. — CN-6912,374.4000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145134,4,2026-08-19,receivable_credit_note_allocation,VFI-CEBU GENERAL SERVICES INC. — CN-6913,124.8000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145135,4,2026-08-19,receivable_credit_note_allocation,VFI-CEBU GENERAL SERVICES INC. — CN-6914,15.6000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145136,4,2026-08-19,receivable_credit_note_allocation,VFI-CEBU GENERAL SERVICES INC. — CN-6915,31.2000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145137,4,2026-08-19,receivable_credit_note_allocation,VFI-CEBU GENERAL SERVICES INC. — CN-6917,15.6000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145138,4,2026-08-19,receivable_credit_note_allocation,VFI-CEBU GENERAL SERVICES INC. — CN-6918,31.2000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145139,4,2026-08-19,receivable_credit_note_allocation,VFI-CEBU GENERAL SERVICES INC. — CN-6919,327.6000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145140,4,2026-08-19,receivable_credit_note_allocation,VFI-CEBU GENERAL SERVICES INC. — CN-6920,124.8000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145141,4,2026-08-19,receivable_credit_note_allocation,VFI-CEBU GENERAL SERVICES INC. — CN-6921,93.6000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145142,4,2026-08-19,receivable_credit_note_allocation,VFI-CEBU GENERAL SERVICES INC. — CN-6922,31.2000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145143,4,2026-08-19,receivable_payment,Payment: VFI-CEBU LABOR LINK MANPOWER — C2092,0.0000,3363.0000,approved,1,0,2026-08-31 23:59:59,0
+145144,4,2026-08-19,receivable_payment,Payment: VFI-CEBU LABOR LINK MANPOWER — C2122,0.0000,1560.0000,approved,1,0,2026-08-31 23:59:59,0
+145145,4,2026-08-19,receivable_payment,Payment: VFI-CEBU LABOR LINK MANPOWER — C2143,0.0000,1500.0000,approved,1,0,2026-08-31 23:59:59,0
+145146,4,2026-08-19,receivable_payment,Payment: VFI-CEBU LABOR LINK MANPOWER — C2177,0.0000,500.0000,approved,1,0,2026-08-31 23:59:59,0
+145147,4,2026-08-19,receivable_payment,Payment: VFI-CEBU LABOR LINK MANPOWER — C2201,0.0000,26520.0000,approved,1,0,2026-08-31 23:59:59,0
+145148,4,2026-08-19,receivable_payment,Payment: VFI-CEBU LABOR LINK MANPOWER — C2215,0.0000,8580.0000,approved,1,0,2026-08-31 23:59:59,0
+145149,4,2026-08-19,receivable_payment,Payment: VFI-CEBU LABOR LINK MANPOWER — C2227,0.0000,3900.0000,approved,1,0,2026-08-31 23:59:59,0
+145150,4,2026-08-19,receivable_payment,Payment: VFI-CEBU LABOR LINK MANPOWER — C2247,0.0000,1560.0000,approved,1,0,2026-08-31 23:59:59,0
+145151,4,2026-08-19,receivable_payment,Payment: VFI-CEBU LABOR LINK MANPOWER — C2324,0.0000,43062.0000,approved,1,0,2026-08-31 23:59:59,0
+145152,4,2026-08-19,receivable_payment,Payment: VFI-CEBU LABOR LINK MANPOWER — C2358,0.0000,15600.0000,approved,1,0,2026-08-31 23:59:59,0
+145153,4,2026-08-19,receivable_payment,Payment: VFI-CEBU LABOR LINK MANPOWER — C2379,0.0000,5712.0000,approved,1,0,2026-08-31 23:59:59,0
+145154,4,2026-08-19,receivable_payment,Payment: VFI-CEBU LABOR LINK MANPOWER — C2397,0.0000,24960.0000,approved,1,0,2026-08-31 23:59:59,0
+145155,4,2026-08-19,receivable_payment,Payment: VFI-CEBU LABOR LINK MANPOWER — C2410,0.0000,11700.0000,approved,1,0,2026-08-31 23:59:59,0
+145156,4,2026-08-19,receivable_payment,Payment: VFI-CEBU LABOR LINK MANPOWER — C2427,0.0000,780.0000,approved,1,0,2026-08-31 23:59:59,0
+145157,4,2026-08-19,receivable_payment,Payment: VFI-CEBU LABOR LINK MANPOWER — C2428,0.0000,9471.0000,approved,1,0,2026-08-31 23:59:59,0
+145158,4,2026-08-19,receivable_payment,Payment: VFI-CEBU LABOR LINK MANPOWER — C2444,0.0000,18264.0000,approved,1,0,2026-08-31 23:59:59,0
+145159,4,2026-08-19,receivable_payment,Payment: VFI-CEBU LABOR LINK MANPOWER — C2464,0.0000,9360.0000,approved,1,0,2026-08-31 23:59:59,0
+145160,4,2026-08-19,receivable_payment,Payment: VFI-CEBU LABOR LINK MANPOWER — C2484,0.0000,5460.0000,approved,1,0,2026-08-31 23:59:59,0
+145161,4,2026-08-19,receivable_payment,Payment: VFI-CEBU LABOR LINK MANPOWER — C2498,0.0000,7800.0000,approved,1,0,2026-08-31 23:59:59,0
+145162,4,2026-08-19,receivable_payment,Payment: VFI-CEBU LABOR LINK MANPOWER — C2515,0.0000,6240.0000,approved,1,0,2026-08-31 23:59:59,0
+145163,4,2026-08-19,receivable_payment,Payment: Cebu Labor Link Manpower — C2528,0.0000,1722.0000,approved,1,0,2026-08-31 23:59:59,0
+145164,4,2026-08-19,receivable_payment,Payment: Cebu Labor Link Manpower — C2563,0.0000,4680.0000,approved,1,0,2026-08-31 23:59:59,0
+145165,4,2026-08-19,receivable_payment,Payment: Cebu Labor Link Manpower — C2585,0.0000,5460.0000,approved,1,0,2026-08-31 23:59:59,0
+145166,4,2026-08-19,receivable_payment,Payment: Cebu Labor Link Manpower — C2596,0.0000,3900.0000,approved,1,0,2026-08-31 23:59:59,0
+145167,4,2026-08-19,receivable_payment,Payment: VFI-CEBU LABOR LINK MANPOWER — C2607,0.0000,780.0000,approved,1,0,2026-08-31 23:59:59,0
+145168,4,2026-08-19,receivable_payment,Payment: Cebu Labor Link Manpower — C2621,0.0000,780.0000,approved,1,0,2026-08-31 23:59:59,0
+145169,4,2026-08-19,receivable_payment,Payment: Cebu Labor Link Manpower — C2643,0.0000,780.0000,approved,1,0,2026-08-31 23:59:59,0
+145170,4,2026-08-19,receivable_payment,Payment: Cebu Labor Link Manpower — C2658,0.0000,7020.0000,approved,1,0,2026-08-31 23:59:59,0
+145171,4,2026-08-19,receivable_payment,Payment: Cebu Labor Link Manpower — C2743,0.0000,13260.0000,approved,1,0,2026-08-31 23:59:59,0
+145172,4,2026-08-19,receivable_payment,Payment: Cebu Labor Link Manpower — C2756,0.0000,8580.0000,approved,1,0,2026-08-31 23:59:59,0
+145173,4,2026-08-19,receivable_payment,Payment: Cebu Labor Link Manpower — C2773,0.0000,2340.0000,approved,1,0,2026-08-31 23:59:59,0
+145174,4,2026-08-19,receivable_payment,Payment: Cebu Labor Link Manpower — C2798,0.0000,1560.0000,approved,1,0,2026-08-31 23:59:59,0
+145175,4,2026-08-19,receivable_payment,Payment: CEBU GENERAL SERVICES INC. — C2810,0.0000,6879.6000,approved,1,0,2026-08-31 23:59:59,0
+145176,4,2026-08-19,receivable_payment,Payment: Cebu Labor Link Manpower — C2821,0.0000,5460.0000,approved,1,0,2026-08-31 23:59:59,0
+145177,4,2026-08-19,receivable_payment,Payment: Cebu Labor Link Manpower — C2833,0.0000,9360.0000,approved,1,0,2026-08-31 23:59:59,0
+145178,4,2026-08-19,receivable_payment,Payment: Cebu Labor Link Manpower — C2844,0.0000,2340.0000,approved,1,0,2026-08-31 23:59:59,0
+145179,4,2026-08-19,receivable_payment,Payment: Cebu Labor Link Manpower — C2862,0.0000,1560.0000,approved,1,0,2026-08-31 23:59:59,0
+145180,4,2026-08-19,receivable_payment,"Payment: Cebu General Services, Inc. — C2904",0.0000,1528.8000,approved,1,0,2026-08-31 23:59:59,0
+145181,4,2026-08-19,receivable_payment,Payment: CEBU GENERAL SERVICES INC. — C2916,0.0000,764.4000,approved,1,0,2026-08-31 23:59:59,0
+145182,4,2026-08-19,receivable_payment,Payment: Cebu Labor Link Manpower — C2964,0.0000,780.0000,approved,1,0,2026-08-31 23:59:59,0
+145183,4,2026-08-19,receivable_payment,Payment: Cebu Labor Link Manpower — C2984,0.0000,780.0000,approved,1,0,2026-08-31 23:59:59,0
+145184,4,2026-08-19,receivable_payment,Payment: Cebu Labor Link Manpower — C3000,0.0000,780.0000,approved,1,0,2026-08-31 23:59:59,0
+145185,4,2026-08-19,receivable_payment,Payment: CEBU GENERAL SERVICES INC. — C3070,0.0000,13759.2000,approved,1,0,2026-08-31 23:59:59,0
+145186,4,2026-08-19,receivable_payment,Payment: CEBU GENERAL SERVICES INC. — C3091,0.0000,18345.6000,approved,1,0,2026-08-31 23:59:59,0
+145187,4,2026-08-19,receivable_payment,Payment: VFI-CEBU GENERAL SERVICES INC. — C3106,0.0000,6115.2000,approved,1,0,2026-08-31 23:59:59,0
+145188,4,2026-08-19,receivable_payment,Payment: VFI-CEBU GENERAL SERVICES INC. — C3122,0.0000,764.4000,approved,1,0,2026-08-31 23:59:59,0
+145189,4,2026-08-19,receivable_payment,Payment: VFI-CEBU GENERAL SERVICES INC. — C3132,0.0000,1528.8000,approved,1,0,2026-08-31 23:59:59,0
+145190,4,2026-08-19,receivable_payment,Payment: VFI-CEBU GENERAL SERVICES INC. — C3405,764.4000,764.4000,approved,1,0,2026-08-31 23:59:59,0
+145191,4,2026-08-19,receivable_payment,Payment: VFI-CEBU GENERAL SERVICES INC. — C3449,1528.8000,1528.8000,approved,1,0,2026-08-31 23:59:59,0
+145192,4,2026-08-19,receivable_payment,Payment: VFI-CEBU GENERAL SERVICES INC. — C3462,16052.4000,16052.4000,approved,1,0,2026-08-31 23:59:59,0
+145193,4,2026-08-19,receivable_payment,Payment: VFI-CEBU GENERAL SERVICES INC. — C3477,6115.2000,6115.2000,approved,1,0,2026-08-31 23:59:59,0
+145194,4,2026-08-19,receivable_payment,Payment: VFI-CEBU GENERAL SERVICES INC. — C3491,4586.4000,4586.4000,approved,1,0,2026-08-31 23:59:59,0
+145195,4,2026-08-19,receivable_payment,Payment: VFI-CEBU GENERAL SERVICES INC. — C3493,1528.8000,1528.8000,approved,1,0,2026-08-31 23:59:59,0
+145196,4,2026-08-19,receivable_payment,Payment: CEBU GENERAL SERVICES INC. — PD : 7-20-26,49686.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145197,4,2026-08-19,receivable_payment,Payment: VFI-CEBU LABOR LINK MANPOWER — PD: 3-27-26,44286.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145198,4,2026-08-19,receivable_payment,Payment: VFI-CEBU LABOR LINK MANPOWER — PD: 4-6-26,53820.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145199,4,2026-08-19,receivable_payment,Payment: VFI-CEBU LABOR LINK MANPOWER — PD: 5-29-26,2000.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145200,4,2026-08-19,receivable_payment,Payment: VFI-CEBU LABOR LINK MANPOWER — PD: 5-6-26,121548.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145201,4,2026-08-19,receivable_payment,Payment: Cebu Labor Link Manpower — PD; 7-31-26,56160.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145202,4,2026-08-20,journal_entry,to record cash sales august 19 — #77156,58019.0000,58019.0000,approved,1,0,2026-08-31 23:59:59,0
+145203,4,2026-08-20,journal_entry,"CPCI Payroll for AUGUST 1-15, 2026 - KA/YA - Consolacion — #77497",42259.0600,42259.0600,approved,1,0,2026-08-31 23:59:59,0
+145204,4,2026-08-20,journal_entry,"CPCI Payroll for AUGUST 1-15, 2026 - Consolacion - Finance — #77501",20324.6600,20324.6600,approved,1,0,2026-08-31 23:59:59,0
+145205,4,2026-08-20,journal_entry,"CPCI Payroll for AUGUST 1-15, 2026 - Consolacion Medical Affairs — #77504",163408.2600,163408.2600,approved,1,0,2026-08-31 23:59:59,0
+145206,4,2026-08-20,journal_entry,"CPCI Payroll for AUGUST 1-15, 2026 - Consolacion Operations — #77510",479980.7800,479980.7800,approved,1,0,2026-08-31 23:59:59,0
+145207,4,2026-08-20,journal_entry,"Sales Branches August 20, 2026 - Gcash Sales - August, 20 — #78097",164986.0000,164986.0000,approved,1,0,2026-08-31 23:59:59,0
+145208,4,2026-08-20,payable_payment,Payment: RAFAEL LORENZO CORDENILLO — RFP No.# 6799,9200.0000,9200.0000,approved,1,0,2026-08-31 23:59:59,0
+145209,4,2026-08-20,payable_payment,Payment: JESSA MICHELLE GERONA — RFP No.# 6800,3600.0000,3600.0000,approved,1,0,2026-08-31 23:59:59,0
+145210,4,2026-08-20,payable_payment,"Payment: VISAYAN ELECTRIC CO., INC — RFP No.# 6803",86654.0500,86654.0500,approved,1,0,2026-08-31 23:59:59,0
+145211,4,2026-08-20,payable_payment,Payment: CARLYLE F. ABINUMAN — RFP No.# 6816,3200.0000,3200.0000,approved,1,0,2026-08-31 23:59:59,0
+145212,4,2026-08-20,payable_payment,Payment: Rhevy Jerald Vistal — RFP No.# 6818,7200.0000,7200.0000,approved,1,0,2026-08-31 23:59:59,0
+145213,4,2026-08-20,payable_payment,Payment: Angeline Muñoz — RFP No.# 6820,6679.5000,6679.5000,approved,1,0,2026-08-31 23:59:59,0
+145214,4,2026-08-20,payable_payment,Payment: CARLYLE F. ABINUMAN — RFP No.# 6834,1600.0000,1600.0000,approved,1,0,2026-08-31 23:59:59,0
+145215,4,2026-08-20,receivable_credit_note,Sunlife Grepa Financial Inc — CN-6929,152.4000,152.4000,approved,1,0,2026-08-31 23:59:59,0
+145216,4,2026-08-20,receivable_credit_note,Sunlife Grepa Financial Inc — CN-6930,8.0000,8.0000,approved,1,0,2026-08-31 23:59:59,0
+145217,4,2026-08-20,receivable_credit_note,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6935",12.0000,12.0000,approved,1,0,2026-08-31 23:59:59,0
+145218,4,2026-08-20,receivable_credit_note,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6936",12.0000,12.0000,approved,1,0,2026-08-31 23:59:59,0
+145219,4,2026-08-20,receivable_credit_note,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6937",12.0000,12.0000,approved,1,0,2026-08-31 23:59:59,0
+145220,4,2026-08-20,receivable_credit_note,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6938",24.0000,24.0000,approved,1,0,2026-08-31 23:59:59,0
+145221,4,2026-08-20,receivable_credit_note_allocation,Sunlife Grepa Financial Inc — C3089,0.0000,8.0000,approved,1,0,2026-08-31 23:59:59,0
+145222,4,2026-08-20,receivable_credit_note_allocation,Sunlife Grepa Financial Inc — C3121,0.0000,152.4000,approved,1,0,2026-08-31 23:59:59,0
+145223,4,2026-08-20,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3248",0.0000,24.0000,approved,1,0,2026-08-31 23:59:59,0
+145224,4,2026-08-20,receivable_credit_note_allocation,Sunlife Grepa Financial Inc — CN-6929,152.4000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145225,4,2026-08-20,receivable_credit_note_allocation,Sunlife Grepa Financial Inc — CN-6930,8.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145226,4,2026-08-20,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6935",12.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145227,4,2026-08-20,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6936",12.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145228,4,2026-08-20,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6937",12.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145229,4,2026-08-20,receivable_credit_note_allocation,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — CN-6938",24.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+145230,4,2026-08-20,receivable_invoice,"Amaphil-FAO Lawina Company Limited Inc - BOCADO, JOAQUIN RISANE | 08/18/2026 | Amaphil-FAO Lawina Company Limited Inc | 600- — C3786",600.0000,600.0000,approved,1,0,2026-08-31 23:59:59,0
+145231,4,2026-08-20,receivable_invoice,"Avega Managed Care, Inc - LAMERA, MARIEL SANCHEZ | 08/15/2026 | Avega Managed Care, Inc | 600- — C3787",4240.0000,4240.0000,approved,1,0,2026-08-31 23:59:59,0
+145232,4,2026-08-20,receivable_invoice,"Cooperative Health Management Federation - CAÑETE, LARA MIE CACANOG | 08/18/2026 | Cooperative Health Management Federation | 300- — C3788",600.0000,600.0000,approved,1,0,2026-08-31 23:59:59,0
+145233,4,2026-08-20,receivable_invoice,"Health Delivery Sytem Inc (Flexicare) - SAVELLON, ZAI VENICE CORTES | 08/18/2026 | Health Delivery Sytem Inc (Flexicare) | 600- — C3789",600.0000,600.0000,approved,1,0,2026-08-31 23:59:59,0
+145234,4,2026-08-20,receivable_invoice,"Insular Healthcare Inc - RUBI, SHEMAE BARADAN | 08/18/2026 | Insular Healthcare Inc | 600- — C3790",14560.0000,14560.0000,approved,1,0,2026-08-31 23:59:59,0
+145235,4,2026-08-20,receivable_invoice,"Asalus Corporation - PADOR, ARTZEN DE JUAN | 08/18/2026 | Asalus Corporation | 2415- — C3791",13950.0000,13950.0000,approved,1,0,2026-08-31 23:59:59,0
+145236,4,2026-08-20,receivable_invoice,"Lacson & Lacson Insurance Brokers Inc - PLANGA, MARIA SUZITA LIBRE | 08/18/2026 | LACSON & LACSON INSURANCE BROKERS INC | 500- — C3792",1000.0000,1000.0000,approved,1,0,2026-08-31 23:59:59,0
+145237,4,2026-08-20,receivable_invoice,"Life & Health Hmp Inc - BORJA, MADEL BORBON | 08/18/2026 | Life & Health Hmp Inc | 400- — C3793",5230.0000,5230.0000,approved,1,0,2026-08-31 23:59:59,0
+145238,4,2026-08-20,receivable_invoice,"Medicard Philippines Inc - DECIERDO., RUTH DELA CERNA | 08/18/2026 | Medicard Philippines Inc | 8745- — C3794",8745.0000,8745.0000,approved,1,0,2026-08-31 23:59:59,0
+145239,4,2026-08-20,receivable_invoice,"Maxicare Healthcare Corporation - BATICOLON, MAE THERESE - | 08/18/2026 | MAXICARE HEALTHCARE CORPORATION | 550- — C3795",2950.0000,2950.0000,approved,1,0,2026-08-31 23:59:59,0
+145240,4,2026-08-20,receivable_invoice,"Philhealthcare, Inc - ALQUIZAR, HONEY GRACE MANIMOG | 08/18/2026 | Philhealthcare, Inc | 600- — C3796",9245.0000,9245.0000,approved,1,0,2026-08-31 23:59:59,0
+145241,4,2026-08-20,receivable_invoice,"TITAY’S LILO-AN ROSQUILLOS & DELICACIES, INC. - GABACA, REY ALLENS ISLES | 08/18/2026 | TITAY’S LILO-AN ROSQUILLOS & DELICACIES, INC. | 900- — C3797",1800.0000,1800.0000,approved,1,0,2026-08-31 23:59:59,0
+145242,4,2026-08-20,receivable_invoice,"Virginia Food Inc. - BIONAT, JUNEL DE LOS SANTOS | 08/18/2026 | VIRGINIA FOOD INC | 780- — C3798",780.0000,780.0000,approved,1,0,2026-08-31 23:59:59,0
+145243,4,2026-08-20,receivable_invoice,"Amaphil-FAO Lawina Company Limited Inc - BOCADO, JOAQUIN RISANE | 08/19/2026 | Amaphil-FAO Lawina Company Limited Inc | 2550- — C3799",3150.0000,3150.0000,approved,1,0,2026-08-31 23:59:59,0
+145244,4,2026-08-20,receivable_invoice,"Avega Managed Care, Inc - MONTEJO, MANOLITO MASIBA | 08/19/2026 | Avega Managed Care, Inc | 600- — C3800",600.0000,600.0000,approved,1,0,2026-08-31 23:59:59,0
+145245,4,2026-08-20,receivable_invoice,"Cooperative Health Management Federation - ARNOZA, AQUILES DOÑA | 08/19/2026 | Cooperative Health Management Federation | 300- — C3801",6650.0000,6650.0000,approved,1,0,2026-08-31 23:59:59,0
+145246,4,2026-08-20,receivable_invoice,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) - ALFANTE, ROWENA RESUENTO | 08/19/2026 | INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) | 600- — C3802",4230.0000,4230.0000,approved,1,0,2026-08-31 23:59:59,0
+145247,4,2026-08-20,receivable_invoice,"Insular Healthcare Inc - AMULOD, JOSELITO - | 08/19/2026 | Insular Healthcare Inc | 600- — C3803",18260.0000,18260.0000,approved,1,0,2026-08-31 23:59:59,0
+145248,4,2026-08-20,receivable_invoice,"Asalus Corporation - CONDE, FRANCES ALECS - | 08/19/2026 | Asalus Corporation | 500- — C3804",3800.0000,3800.0000,approved,1,0,2026-08-31 23:59:59,0
+145249,4,2026-08-20,receivable_invoice,"Life & Health Hmp Inc - BORJA, MADEL BORBON | 08/19/2026 | Life & Health Hmp Inc | 400- — C3805",12370.0000,12370.0000,approved,1,0,2026-08-31 23:59:59,0

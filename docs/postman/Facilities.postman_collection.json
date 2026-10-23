@@ -1,0 +1,338 @@
+{
+  "info": {
+    "_postman_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "name": "Facilities CRUD (Multi-DB)",
+    "description": "# Facilities API\n\nCRUD for send-out `facility` plus nested `facility_lab_test` (`details[]`) with catalog sync across all Lab Tests databases.\n\n## Auth\n- Header: `API-KEY` (required)\n- Body/query: `token`, `requester` (required on all endpoints)\n\n## Request body format\n- **GET** — query params\n- **POST** (create / update / delete / consistency) — **multipart form-data** (do not set `Content-Type` manually; Postman sets the boundary)\n- Nested `details` use PHP-style bracket keys so `getVar()` receives an array, e.g. `details[0][lab_test_id]`, `details[0][rate]`\n\n## Facility allowable fields\n`supplier_id`, `name`, `address`\n\n## Details (`facility_lab_test`)\n```\ndetails[0][lab_test_id] = 460\ndetails[0][rate] = 100.00\ndetails[1][id] = 2\ndetails[1][lab_test_id] = 457\ndetails[1][rate] = 100.00\n```\n- Create: omit `id` (inserts)\n- Update: with `id` updates; without `id` inserts; existing IDs omitted from the payload are soft-deleted\n- `details` is optional on create (empty/omitted is allowed)\n\n## Catalog sync\nCreate, update, and delete sync `facility` and `facility_lab_test` across:\n- `master` (0), `mobile` (1), `oakridge` (2), `mactan` (3), `consolacion` (4), `mantlewood` (7), `warehouse` (5), `pharmacy` (6)\n\nCreate runs a row-count check master vs each branch. Mismatch returns `400`:\n`\"Data inconsistency detected between master and {branch}.\"`\n\nGET reads **master** only. `supplier` stays on master (`supplier_name` is joined). `lab_test_name` is joined from the local `lab_test` table.\n\n## Methods\n`get`, `create`, `update`, `delete`, `check_consistency`, `cleanup_duplicate_items`, `fix_consistency`\n\nDelete soft-deletes the facility **and** its `facility_lab_test` rows on all 8 DBs.\n\nConsistency duplicate key is `name`. Child table: `facility_lab_test` (`facility_id`). Compare fields: `supplier_id`, `name`, `address`, `is_deleted`.\n",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost/cpci-business-ops-api"
+    },
+    {
+      "key": "api_key",
+      "value": "clinicaRiKOYqlwdTJ-lNedqS0k-it!395!-6ls1JXM7Vcc"
+    },
+    {
+      "key": "token",
+      "value": "{{token}}"
+    },
+    {
+      "key": "requester",
+      "value": "1"
+    }
+  ],
+  "item": [
+    {
+      "name": "Get facilities",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/facilities/get?token={{token}}&requester={{requester}}",
+          "host": ["{{base_url}}"],
+          "path": ["facilities", "get"],
+          "query": [
+            { "key": "token", "value": "{{token}}" },
+            { "key": "requester", "value": "{{requester}}" },
+            { "key": "facility_id", "value": "", "disabled": true },
+            { "key": "term", "value": "", "disabled": true, "description": "Search facility.name" },
+            { "key": "supplier_id", "value": "", "disabled": true },
+            { "key": "page", "value": "1", "disabled": true },
+            { "key": "data_size", "value": "10", "disabled": true }
+          ]
+        },
+        "description": "## GET `/facilities/get`\n\nReturns facilities from **master** with `supplier_name` and nested `details` (`lab_test_name`, `rate`).\n\n### Optional filters\n- `facility_id` — single facility\n- `term` — `facility.name` LIKE search\n- `supplier_id` — exact supplier\n- `page` + `data_size` — pagination (`size` is the unpaginated count)\n\n### Success\n```json\n{\n  \"size\": 1,\n  \"data\": [{\n    \"id\": 1,\n    \"supplier_id\": 94,\n    \"name\": \"CHONG HUA HOSPITAL CEBU\",\n    \"address\": \"Don Mariano Cui St. corner J. Llorente St., Barangay Capitol Site, Cebu City, Cebu, Philippines 6000\",\n    \"supplier_name\": \"Chong Hua Hospital\",\n    \"details\": [\n      { \"id\": 1, \"facility_id\": 1, \"lab_test_id\": 460, \"rate\": \"100.00\", \"lab_test_name\": \"CBC\" }\n    ]\n  }]\n}\n```"
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"size\": 1,\n  \"data\": [\n    {\n      \"id\": 1,\n      \"supplier_id\": 94,\n      \"name\": \"CHONG HUA HOSPITAL CEBU\",\n      \"address\": \"Don Mariano Cui St. corner J. Llorente St., Barangay Capitol Site, Cebu City, Cebu, Philippines 6000\",\n      \"added_by\": 1,\n      \"added_on\": \"2026-09-17 03:15:00\",\n      \"updated_by\": null,\n      \"updated_on\": null,\n      \"is_deleted\": 0,\n      \"supplier_name\": \"Chong Hua Hospital\",\n      \"details\": [\n        {\n          \"id\": 1,\n          \"facility_id\": 1,\n          \"lab_test_id\": 460,\n          \"rate\": \"100.00\",\n          \"lab_test_name\": \"CBC\"\n        },\n        {\n          \"id\": 2,\n          \"facility_id\": 1,\n          \"lab_test_id\": 457,\n          \"rate\": \"100.00\",\n          \"lab_test_name\": \"Urinalysis\"\n        }\n      ]\n    }\n  ]\n}"
+        },
+        {
+          "name": "Not Found",
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "[\n  \"No facilities found.\"\n]"
+        }
+      ]
+    },
+    {
+      "name": "Create facility",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "token", "value": "{{token}}", "type": "text" },
+            { "key": "requester", "value": "{{requester}}", "type": "text" },
+            { "key": "supplier_id", "value": "94", "type": "text" },
+            { "key": "name", "value": "CHONG HUA HOSPITAL CEBU", "type": "text" },
+            { "key": "address", "value": "Don Mariano Cui St. corner J. Llorente St., Barangay Capitol Site, Cebu City, Cebu, Philippines 6000", "type": "text" },
+            { "key": "details[0][lab_test_id]", "value": "460", "type": "text" },
+            { "key": "details[0][rate]", "value": "100.00", "type": "text" },
+            { "key": "details[1][lab_test_id]", "value": "457", "type": "text" },
+            { "key": "details[1][rate]", "value": "100.00", "type": "text" },
+            { "key": "details[2][lab_test_id]", "value": "478", "type": "text" },
+            { "key": "details[2][rate]", "value": "50.00", "type": "text" }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/facilities/create",
+          "host": ["{{base_url}}"],
+          "path": ["facilities", "create"]
+        },
+        "description": "## POST `/facilities/create`\n\nBody: **form-data** (multipart).\n\n1. Row-count check: master vs each branch (`mobile`, `oakridge`, `mactan`, `consolacion`, `mantlewood`, `warehouse`, `pharmacy`)\n2. Insert `facility` on master, then `[1,2,3,4,7,5,6]`\n3. Insert each `details[]` row on all 8 DBs\n\n`details` is optional. Omit `details[n][id]` on create.\n\n### Success\n```json\n{ \"facility_id\": 1, \"message\": \"facility added successfully.\" }\n```\n\n### Errors\n- Data inconsistency between master and {branch}\n- Failed to add facility / details"
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"facility_id\": 1,\n  \"message\": \"facility added successfully.\"\n}"
+        },
+        {
+          "name": "Inconsistency",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "[\n  \"Data inconsistency detected between master and oakridge.\"\n]"
+        }
+      ]
+    },
+    {
+      "name": "Update facility",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "token", "value": "{{token}}", "type": "text" },
+            { "key": "requester", "value": "{{requester}}", "type": "text" },
+            { "key": "facility_id", "value": "1", "type": "text" },
+            { "key": "supplier_id", "value": "94", "type": "text" },
+            { "key": "name", "value": "CHONG HUA HOSPITAL CEBU", "type": "text" },
+            { "key": "address", "value": "Don Mariano Cui St. corner J. Llorente St., Barangay Capitol Site, Cebu City, Cebu, Philippines 6000", "type": "text" },
+            { "key": "details[0][id]", "value": "1", "type": "text", "description": "Existing facility_lab_test id — update" },
+            { "key": "details[0][lab_test_id]", "value": "460", "type": "text" },
+            { "key": "details[0][rate]", "value": "120.00", "type": "text" },
+            { "key": "details[1][id]", "value": "2", "type": "text" },
+            { "key": "details[1][lab_test_id]", "value": "457", "type": "text" },
+            { "key": "details[1][rate]", "value": "100.00", "type": "text" },
+            { "key": "details[2][lab_test_id]", "value": "49", "type": "text", "description": "No id — insert new detail" },
+            { "key": "details[2][rate]", "value": "50.00", "type": "text" }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/facilities/update",
+          "host": ["{{base_url}}"],
+          "path": ["facilities", "update"]
+        },
+        "description": "## POST `/facilities/update`\n\nBody: **form-data**. `facility_id` is required.\n\n1. Update `facility` header on all 8 DBs\n2. Sync `details[]`:\n   - with `id` → update on all DBs\n   - without `id` → insert on all DBs\n   - existing IDs not in the payload → soft-delete on all DBs\n\n### Success\n```json\n{ \"facility_id\": 1, \"message\": \"facility updated successfully.\" }\n```"
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"facility_id\": 1,\n  \"message\": \"facility updated successfully.\"\n}"
+        },
+        {
+          "name": "Not Found",
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "[\n  \"facility is not found.\"\n]"
+        }
+      ]
+    },
+    {
+      "name": "Delete facility",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "token", "value": "{{token}}", "type": "text" },
+            { "key": "requester", "value": "{{requester}}", "type": "text" },
+            { "key": "facility_id", "value": "1", "type": "text" }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/facilities/delete",
+          "host": ["{{base_url}}"],
+          "path": ["facilities", "delete"]
+        },
+        "description": "## POST `/facilities/delete`\n\nSoft-deletes `facility` **and** related `facility_lab_test` rows (`is_deleted = 1`) on all 8 catalog DBs."
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"message\": \"facility is deleted.\"\n}"
+        },
+        {
+          "name": "Not Found",
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "[\n  \"facility is not found.\"\n]"
+        }
+      ]
+    },
+    {
+      "name": "check_consistency",
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "url": {
+          "raw": "{{base_url}}/facilities/check_consistency?token={{token}}&requester={{requester}}&is_deleted=0",
+          "host": ["{{base_url}}"],
+          "path": ["facilities", "check_consistency"],
+          "query": [
+            { "key": "token", "value": "{{token}}" },
+            { "key": "requester", "value": "{{requester}}" },
+            {
+              "key": "is_deleted",
+              "value": "0",
+              "description": "`0` active only; `all` include soft-deleted"
+            }
+          ]
+        },
+        "description": "## GET `/facilities/check_consistency`\n\nCompares `facility` rows (fields: `supplier_id`, `name`, `address`, `is_deleted`) between master and each catalog DB.\n\nReports `missing_on_branch`, `extra_on_branch`, and `field_diffs`."
+      },
+      "response": [
+        {
+          "name": "Success — consistent",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"consistent\": true,\n  \"filter\": { \"is_deleted\": 0 },\n  \"master_count\": 1,\n  \"databases\": [\n    {\n      \"branch_id\": 2,\n      \"db\": \"oakridge\",\n      \"branch_count\": 1,\n      \"consistent\": true,\n      \"missing_on_branch\": [],\n      \"extra_on_branch\": [],\n      \"field_diffs\": []\n    }\n  ],\n  \"message\": \"All diagnostic databases are consistent with master.\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "cleanup_duplicate_items",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "token", "value": "{{token}}", "type": "text" },
+            { "key": "requester", "value": "{{requester}}", "type": "text" },
+            {
+              "key": "limit",
+              "value": "25",
+              "type": "text",
+              "description": "Max delete ids per call"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/facilities/cleanup_duplicate_items",
+          "host": ["{{base_url}}"],
+          "path": ["facilities", "cleanup_duplicate_items"]
+        },
+        "description": "## POST `/facilities/cleanup_duplicate_items`\n\nSoft-deletes duplicate active `facility` rows grouped by `name`, keeping `MIN(id)`. Cascades `facility_lab_test`. Chunked by `limit` (default 25).\n\nLoop until `done`."
+      },
+      "response": [
+        {
+          "name": "Done",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"groups_cleaned\": 0,\n  \"deleted_count\": 0,\n  \"deleted\": [],\n  \"remaining_delete_count\": 0,\n  \"done\": true,\n  \"message\": \"all databases rows is consistent\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "fix_consistency",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "token", "value": "{{token}}", "type": "text" },
+            { "key": "requester", "value": "{{requester}}", "type": "text" },
+            { "key": "limit", "value": "25", "type": "text" }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/facilities/fix_consistency",
+          "host": ["{{base_url}}"],
+          "path": ["facilities", "fix_consistency"]
+        },
+        "description": "## POST `/facilities/fix_consistency`\n\n### Rules (chunk order)\n1. Soft-delete (master deleted, branch still active)\n2. Insert diagnostic-only ids onto master + missing DBs\n3. Push master ids missing on any diagnostic\n\nParent `facility` row on insert/push; child `facility_lab_test` is configured. Field diffs are **not** auto-fixed.\n\nLoop until `done`."
+      },
+      "response": [
+        {
+          "name": "Done — fully consistent",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"fixed_count\": 0,\n  \"soft_deleted\": [],\n  \"inserted\": [],\n  \"pushed\": [],\n  \"remaining_count\": 0,\n  \"done\": true,\n  \"message\": \"all databases rows is consistent\",\n  \"unsupported_field_diff_count\": 0\n}"
+        },
+        {
+          "name": "Done — field diffs remain",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"fixed_count\": 0,\n  \"soft_deleted\": [],\n  \"inserted\": [],\n  \"pushed\": [],\n  \"remaining_count\": 0,\n  \"done\": true,\n  \"message\": \"No more supported consistency fixes remaining. Run check_consistency for remaining field_diffs.\",\n  \"unsupported_field_diff_count\": 12,\n  \"remaining_missing_count\": 0,\n  \"remaining_extra_count\": 0\n}"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,501 @@
+branch_id,source,source_id,account_type_id,date,debit,credit,remark,is_migrated,added_by,added_on,is_deleted
+4,journal_entry,142031,453,2026-05-28,0.0000,68.5300,to record depreciation expense for 2026 May- Consolacion — #61574,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142031,389,2026-05-28,0.0000,1096.0000,to record depreciation expense for 2026 May- Consolacion — #61574,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142031,405,2026-05-28,0.0000,30998.5000,to record depreciation expense for 2026 May- Consolacion — #61574,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142031,397,2026-05-28,0.0000,74474.3800,to record depreciation expense for 2026 May- Consolacion — #61574,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142031,441,2026-05-28,0.0000,46813.9200,to record depreciation expense for 2026 May- Consolacion — #61574,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142031,449,2026-05-28,0.0000,1344.4300,to record depreciation expense for 2026 May- Consolacion — #61574,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142031,385,2026-05-28,0.0000,26884.5800,to record depreciation expense for 2026 May- Consolacion — #61574,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142031,433,2026-05-28,0.0000,7362.2500,to record depreciation expense for 2026 May- Consolacion — #61574,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142035,77,2026-05-28,8758.0000,0.0000,"Sales Branches May 28, 2026 - Gcash Sales - May, 28 — #61671",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142068,61,2026-05-28,97920.0000,0.0000,Payment: PHILHEALTH - KONSULTA — Posted Manual Journal #54508,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142035,61,2026-05-28,168.0000,0.0000,"Sales Branches May 28, 2026 - Credit Card Sales - May, 28 — #61671",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142035,61,2026-05-28,3100.0000,0.0000,"Sales Branches May 28, 2026 - Debit Card Sales - May, 28 — #61671",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142066,61,2026-05-28,588.0000,0.0000,Payment: Asalus Corporation — C1892,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142067,61,2026-05-28,9163.0000,0.0000,"Payment: Avega Managed Care, Inc — C2336",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142047,65,2026-05-28,0.0000,2795.0000,"Avega Managed Care, Inc - NAQUINES, RAFFY LOPEZ | 05/26/2026 | Avega Managed Care, Inc | 2795- — C3092",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142047,65,2026-05-28,0.0000,1710.0000,"Avega Managed Care, Inc - TABANERA, AICHA CONDOR | 05/26/2026 | Avega Managed Care, Inc | 1710- — C3092",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142047,65,2026-05-28,0.0000,600.0000,"Avega Managed Care, Inc - TABANERA, AICHA CONDOR | 05/26/2026 | Avega Managed Care, Inc | 600- — C3092",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142047,65,2026-05-28,0.0000,600.0000,"Avega Managed Care, Inc - YURAG, CHRISTIAN JAY CABAHOG | 05/26/2026 | Avega Managed Care, Inc | 600- — C3092",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142047,65,2026-05-28,0.0000,500.0000,"Avega Managed Care, Inc - NAQUINES, RAFFY LOPEZ | 05/27/2026 | Avega Managed Care, Inc | 500- — C3092",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142047,65,2026-05-28,0.0000,600.0000,"Avega Managed Care, Inc - ABING, GINA QUIHOY | 05/27/2026 | Avega Managed Care, Inc | 600- — C3092",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142047,65,2026-05-28,0.0000,500.0000,"Avega Managed Care, Inc - CAG-ONG, LIANE JANE CAMAY | 05/27/2026 | Avega Managed Care, Inc | 500- — C3092",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142047,65,2026-05-28,0.0000,3600.0000,"Avega Managed Care, Inc - DELUBIO, JUL JHON BAISAC | 05/27/2026 | Avega Managed Care, Inc | 3600- — C3092",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142047,65,2026-05-28,0.0000,850.0000,"Avega Managed Care, Inc - GARCIA, MATEO CALA¥AS | 05/27/2026 | Avega Managed Care, Inc | 850- — C3092",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142047,65,2026-05-28,0.0000,850.0000,"Avega Managed Care, Inc - LAGURIN, ROMASHELA JAYSON | 05/27/2026 | Avega Managed Care, Inc | 850- — C3092",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142047,65,2026-05-28,0.0000,2705.0000,"Avega Managed Care, Inc - POLINARIO, APOLO NOBLEZA | 05/27/2026 | Avega Managed Care, Inc | 2705- — C3092",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142048,65,2026-05-28,0.0000,300.0000,"Cooperative Health Management Federation - CABELLON, DIANA ROSE BAYLES | 05/26/2026 | Cooperative Health Management Federation | 300- — C3093",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142048,65,2026-05-28,0.0000,300.0000,"Cooperative Health Management Federation - GLODOVE, LEO JR. ENDAB | 05/26/2026 | Cooperative Health Management Federation | 300- — C3093",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142048,65,2026-05-28,0.0000,300.0000,"Cooperative Health Management Federation - PANGAN, ARLENE CABRERA | 05/26/2026 | Cooperative Health Management Federation | 300- — C3093",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142048,65,2026-05-28,0.0000,300.0000,"Cooperative Health Management Federation - RIVERA, JECILIA BRIGOLE | 05/26/2026 | Cooperative Health Management Federation | 300- — C3093",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142048,65,2026-05-28,0.0000,2400.0000,"Cooperative Health Management Federation - CABRERA, LILIOSA MAN-ON | 05/26/2026 | Cooperative Health Management Federation | 2400- — C3093",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142048,65,2026-05-28,0.0000,300.0000,"Cooperative Health Management Federation - CABRERA, LILIOSA MAN-ON | 05/26/2026 | Cooperative Health Management Federation | 300- — C3093",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142048,65,2026-05-28,0.0000,300.0000,"Cooperative Health Management Federation - CONTEVEROS, MANILYN MANGUILIMOTAN | 05/26/2026 | Cooperative Health Management Federation | 300- — C3093",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142048,65,2026-05-28,0.0000,5160.0000,"Cooperative Health Management Federation - PARAN, PHOEBE CA¥ETE | 05/27/2026 | Cooperative Health Management Federation | 5160- — C3093",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142048,65,2026-05-28,0.0000,300.0000,"Cooperative Health Management Federation - PARAN, PHOEBE CA¥ETE | 05/27/2026 | Cooperative Health Management Federation | 300- — C3093",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142049,65,2026-05-28,0.0000,500.0000,"Etiqa Life and General Assurance Phillipines, Inc - ESTRADA, RONALDO FLORES | 05/26/2026 | Etiqa Life and General Assurance Phillipines, Inc | 500- — C3094",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142049,65,2026-05-28,0.0000,2690.0000,"Etiqa Life and General Assurance Phillipines, Inc - ESTRADA, RONALDO FLORES | 05/26/2026 | Etiqa Life and General Assurance Phillipines, Inc | 2690- — C3094",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142049,65,2026-05-28,0.0000,500.0000,"Etiqa Life and General Assurance Phillipines, Inc - HERBANIA, MARY FRANCINE GEORPE | 05/27/2026 | Etiqa Life and General Assurance Phillipines, Inc | 500- — C3094",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142050,65,2026-05-28,0.0000,600.0000,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) - CENIZA, ZETH KLOUE ABELLA | 05/26/2026 | INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) | 600- — C3095",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142050,65,2026-05-28,0.0000,600.0000,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) - TAPALLA, JAN LLOYD SUICO | 05/26/2026 | INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) | 600- — C3095",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142050,65,2026-05-28,0.0000,3710.0000,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) - ZARAGOZA, NIMFA NICASIO | 05/27/2026 | INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) | 3710- — C3095",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142051,65,2026-05-28,0.0000,500.0000,"IMS Wellth Care, Inc. - MATUGAS, JIEZEL LAUREA | 05/26/2026 | IMS Wellth Care, Inc. | 650- — C3096",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,450.0000,"Insular Healthcare Inc - ABUCAY, ZYLEIGH BLANCHE | 05/26/2026 | Insular Healthcare Inc | 450- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,500.0000,"Insular Healthcare Inc - ABUCAY, ZYLEIGH BLANCHE | 05/26/2026 | Insular Healthcare Inc | 500- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,500.0000,"Insular Healthcare Inc - AMARILLO, JENNIELOU OYANGURIN | 05/26/2026 | Insular Healthcare Inc | 500- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,600.0000,"Insular Healthcare Inc - ARSENIO, JAYSON PORTES | 05/26/2026 | Insular Healthcare Inc | 600- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,620.0000,"Insular Healthcare Inc - AVERGONZADO, LOUIE MARGATINEZ | 05/26/2026 | Insular Healthcare Inc | 620- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,600.0000,"Insular Healthcare Inc - BACAN, RODGIN CULLA | 05/26/2026 | Insular Healthcare Inc | 600- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,450.0000,"Insular Healthcare Inc - BITANGCOL, KIMBERLY NICOLE - | 05/26/2026 | Insular Healthcare Inc | 450- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,600.0000,"Insular Healthcare Inc - BITANGCOL, KIMBERLY NICOLE - | 05/26/2026 | Insular Healthcare Inc | 600- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,600.0000,"Insular Healthcare Inc - CABARRUBIAS, MAYBETH ALE | 05/26/2026 | Insular Healthcare Inc | 600- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,500.0000,"Insular Healthcare Inc - DELA CERNA, NAVI PENARIO | 05/26/2026 | Insular Healthcare Inc | 500- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,500.0000,"Insular Healthcare Inc - DESCALLAR, MA. DESSA LIMBAGA | 05/26/2026 | Insular Healthcare Inc | 500- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,600.0000,"Insular Healthcare Inc - HERNANDEZ, ROSVELITA BANAY-BANAY | 05/26/2026 | Insular Healthcare Inc | 600- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,600.0000,"Insular Healthcare Inc - JAMERO, JOHN HENRY PAUL | 05/26/2026 | Insular Healthcare Inc | 600- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,3070.0000,"Insular Healthcare Inc - MARA-ASIN, JOJIE MARIE AREDIDON | 05/26/2026 | Insular Healthcare Inc | 3070- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,600.0000,"Insular Healthcare Inc - MARA-ASIN, JOJIE MARIE AREDIDON | 05/26/2026 | Insular Healthcare Inc | 600- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,10920.0000,"Insular Healthcare Inc - MIAO, SHERWEN WENCESLAO | 05/26/2026 | Insular Healthcare Inc | 10920- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,600.0000,"Insular Healthcare Inc - MIAO, SHERWEN WENCESLAO | 05/26/2026 | Insular Healthcare Inc | 600- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,800.0000,"Insular Healthcare Inc - MOLINA, GLENN TANDINGAN | 05/26/2026 | Insular Healthcare Inc | 800- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,600.0000,"Insular Healthcare Inc - OSABEL JR., SILVESTRE MONTESCLAROS | 05/26/2026 | Insular Healthcare Inc | 600- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,2000.0000,"Insular Healthcare Inc - PEPITO, LIZA SAPOTALO | 05/26/2026 | Insular Healthcare Inc | 2000- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,500.0000,"Insular Healthcare Inc - PERALES, DIANE NICOLE . | 05/26/2026 | Insular Healthcare Inc | 500- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,620.0000,"Insular Healthcare Inc - PILARCA, ALEXANDRA CONCEPCION OYANGOREN | 05/26/2026 | Insular Healthcare Inc | 620- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,600.0000,"Insular Healthcare Inc - SABOCOR, HERMAN JR PAGKALINAWAN | 05/26/2026 | Insular Healthcare Inc | 600- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,2550.0000,"Insular Healthcare Inc - SANTOS, SARAH JEAN ADOLFO | 05/26/2026 | Insular Healthcare Inc | 2550- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,1500.0000,"Insular Healthcare Inc - SINGSON, GENEVABE CATALOGO | 05/26/2026 | Insular Healthcare Inc | 1500- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,600.0000,"Insular Healthcare Inc - TIGOL, DULCE MAY O. | 05/26/2026 | Insular Healthcare Inc | 600- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,500.0000,"Insular Healthcare Inc - VI¥AS, RENALYN ALAO | 05/26/2026 | Insular Healthcare Inc | 500- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,500.0000,"Insular Healthcare Inc - ABUCAY, ZYLEIGH BLANCHE | 05/27/2026 | Insular Healthcare Inc | 500- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,7820.0000,"Insular Healthcare Inc - BACAN, RODGIN CULLA | 05/27/2026 | Insular Healthcare Inc | 7820- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,600.0000,"Insular Healthcare Inc - BITANGCOL, KIMBERLY NICOLE - | 05/27/2026 | Insular Healthcare Inc | 600- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,4040.0000,"Insular Healthcare Inc - BALALA, GEREME CALACAT | 05/27/2026 | Insular Healthcare Inc | 4040- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,600.0000,"Insular Healthcare Inc - BALALA, GEREME CALACAT | 05/27/2026 | Insular Healthcare Inc | 600- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,4960.0000,"Insular Healthcare Inc - CA¥ETE, ZENAIDA QUINDAO | 05/27/2026 | Insular Healthcare Inc | 4960- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,600.0000,"Insular Healthcare Inc - CODENIERA, DENISE JEAN RAYCO | 05/27/2026 | Insular Healthcare Inc | 600- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,390.0000,"Insular Healthcare Inc - EPARWA, MARY JEAN - | 05/27/2026 | Insular Healthcare Inc | 390- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,450.0000,"Insular Healthcare Inc - EPARWA, MARY JEAN - | 05/27/2026 | Insular Healthcare Inc | 450- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,3600.0000,"Insular Healthcare Inc - ESTRADA, ROEL JR RABASOL | 05/27/2026 | Insular Healthcare Inc | 3600- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,600.0000,"Insular Healthcare Inc - FLANDEZ, EMMA ORTEGA | 05/27/2026 | Insular Healthcare Inc | 600- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,530.0000,"Insular Healthcare Inc - GASTADOR, ANGELYCA BONGABONG | 05/27/2026 | Insular Healthcare Inc | 530- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,8900.0000,"Insular Healthcare Inc - GASTADOR, ANGELYCA BONGABONG | 05/27/2026 | Insular Healthcare Inc | 8900- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,500.0000,"Insular Healthcare Inc - GASTADOR, ANGELYCA BONGABONG | 05/27/2026 | Insular Healthcare Inc | 500- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,500.0000,"Insular Healthcare Inc - HORN, GERSES PASCUA | 05/27/2026 | Insular Healthcare Inc | 500- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,600.0000,"Insular Healthcare Inc - MALUYA, MARGIE LOU ABING | 05/27/2026 | Insular Healthcare Inc | 600- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,2640.0000,"Insular Healthcare Inc - MONLEON JR., MANSUETO CASAS | 05/27/2026 | Insular Healthcare Inc | 2640- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,600.0000,"Insular Healthcare Inc - MONLEON JR., MANSUETO CASAS | 05/27/2026 | Insular Healthcare Inc | 600- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,820.0000,"Insular Healthcare Inc - MUYANO, RUTCHELL MARIE ODANGO | 05/27/2026 | Insular Healthcare Inc | 820- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,3630.0000,"Insular Healthcare Inc - NOBLEZA, CYRIL TUBIG | 05/27/2026 | Insular Healthcare Inc | 3630- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,500.0000,"Insular Healthcare Inc - PEPITO, MARBUEL ESTILLORE | 05/27/2026 | Insular Healthcare Inc | 500- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,500.0000,"Insular Healthcare Inc - PEPITO, SURANAREE ESTILLORE | 05/27/2026 | Insular Healthcare Inc | 500- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,500.0000,"Insular Healthcare Inc - REJOLLO, GIO NOAH MAGALE | 05/27/2026 | Insular Healthcare Inc | 500- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,600.0000,"Insular Healthcare Inc - SIROY, SHAINELL ALOGIDO | 05/27/2026 | Insular Healthcare Inc | 600- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,65,2026-05-28,0.0000,500.0000,"Insular Healthcare Inc - VILLAMOR, ALTHEA NICOLE CHIN | 05/27/2026 | Insular Healthcare Inc | 500- — C3097",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142053,65,2026-05-28,0.0000,600.0000,"Asalus Corporation - LABORTE, KRISTAL SYLBETH - | 05/26/2026 | Asalus Corporation | 600- — C3098",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142053,65,2026-05-28,0.0000,500.0000,"Asalus Corporation - DEIPARINE, CHLOE MARIE ENRIQUEZ | 05/26/2026 | Asalus Corporation | 500- — C3098",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142053,65,2026-05-28,0.0000,600.0000,"Asalus Corporation - PEREZ, JOCELYN GULPANY | 05/26/2026 | Asalus Corporation | 600- — C3098",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142053,65,2026-05-28,0.0000,500.0000,"Asalus Corporation - BACLAYON, SERAPHINA GEIA OUANO | 05/27/2026 | Asalus Corporation | 500- — C3098",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142053,65,2026-05-28,0.0000,500.0000,"Asalus Corporation - BACLAYON, SHANIKA GEYLE OUANO | 05/27/2026 | Asalus Corporation | 500- — C3098",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142053,65,2026-05-28,0.0000,500.0000,"Asalus Corporation - CAMPUGAN, ZORION ELIXIR AGON | 05/27/2026 | Asalus Corporation | 500- — C3098",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142053,65,2026-05-28,0.0000,500.0000,"Asalus Corporation - DAVIS, NEIVE LLYRICK CENIZA | 05/27/2026 | Asalus Corporation | 500- — C3098",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142053,65,2026-05-28,0.0000,360.0000,"Asalus Corporation - DAVIS, TRACY VENUS CENIZA | 05/27/2026 | Asalus Corporation | 360- — C3098",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142053,65,2026-05-28,0.0000,500.0000,"Asalus Corporation - DELA CRUZ, CRISTOF ANDRES FERNAN | 05/27/2026 | Asalus Corporation | 500- — C3098",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142053,65,2026-05-28,0.0000,500.0000,"Asalus Corporation - PASTORIL, MINERVA LUCERO | 05/27/2026 | Asalus Corporation | 500- — C3098",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142053,65,2026-05-28,0.0000,500.0000,"Asalus Corporation - VALLE, LAIZEL BALBERO | 05/27/2026 | Asalus Corporation | 500- — C3098",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142054,65,2026-05-28,0.0000,400.0000,"Life & Health Hmp Inc - MAMAC, REYNALDO BAREL | 05/26/2026 | Life & Health Hmp Inc | 400- — C3099",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142054,65,2026-05-28,0.0000,3650.0000,"Life & Health Hmp Inc - MONTESCLAROS, NORMAN GODINEZ | 05/26/2026 | Life & Health Hmp Inc | 3650- — C3099",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142054,65,2026-05-28,0.0000,400.0000,"Life & Health Hmp Inc - MONTESCLAROS, NORMAN GODINEZ | 05/26/2026 | Life & Health Hmp Inc | 400- — C3099",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142054,65,2026-05-28,0.0000,400.0000,"Life & Health Hmp Inc - PLACIBE, JANET ARNOCO | 05/26/2026 | Life & Health Hmp Inc | 400- — C3099",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142054,65,2026-05-28,0.0000,600.0000,"Life & Health Hmp Inc - TALISIC, FLORIANE LUTAO | 05/26/2026 | Life & Health Hmp Inc | 600- — C3099",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142054,65,2026-05-28,0.0000,400.0000,"Life & Health Hmp Inc - TANO, NANCY MERABUENO | 05/26/2026 | Life & Health Hmp Inc | 400- — C3099",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142054,65,2026-05-28,0.0000,2570.0000,"Life & Health Hmp Inc - UNTAL JR., OSCAR GILLE | 05/26/2026 | Life & Health Hmp Inc | 2570- — C3099",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142054,65,2026-05-28,0.0000,400.0000,"Life & Health Hmp Inc - AGUANTA, GAVYN JAMES CAMINOS | 05/27/2026 | Life & Health Hmp Inc | 400- — C3099",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142054,65,2026-05-28,0.0000,400.0000,"Life & Health Hmp Inc - ALIMOREN, KATH ASHA PATINDOL | 05/27/2026 | Life & Health Hmp Inc | 400- — C3099",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142054,65,2026-05-28,0.0000,400.0000,"Life & Health Hmp Inc - ARDO¥A, MISTY SABELLANO | 05/27/2026 | Life & Health Hmp Inc | 400- — C3099",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142054,65,2026-05-28,0.0000,400.0000,"Life & Health Hmp Inc - CUIZON, VIVIAN BALINGCASAG | 05/27/2026 | Life & Health Hmp Inc | 400- — C3099",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142055,65,2026-05-28,0.0000,600.0000,"Maxicare Healthcare Corporation - APAS, CARLO LAURON | 05/26/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C3100",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142055,65,2026-05-28,0.0000,600.0000,"Maxicare Healthcare Corporation - TALISIC, RIZA FE PAYOT | 05/26/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C3100",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142055,65,2026-05-28,0.0000,3761.0000,"Maxicare Healthcare Corporation - CHAVEZ, FLORA MAE ALFONSO | 05/26/2026 | MAXICARE HEALTHCARE CORPORATION | 3761- — C3100",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142055,65,2026-05-28,0.0000,500.0000,"Maxicare Healthcare Corporation - DECENA, MARIA SUZETTE DIZON | 05/26/2026 | MAXICARE HEALTHCARE CORPORATION | 500- — C3100",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142055,65,2026-05-28,0.0000,500.0000,"Maxicare Healthcare Corporation - DOYASAN, ARCHIE FORMENTERA | 05/26/2026 | MAXICARE HEALTHCARE CORPORATION | 500- — C3100",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142055,65,2026-05-28,0.0000,600.0000,"Maxicare Healthcare Corporation - GALLARDO, SIAN ALRICH BOBO | 05/26/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C3100",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142055,65,2026-05-28,0.0000,600.0000,"Maxicare Healthcare Corporation - LABE JR, IRENEO VIRTUCIO | 05/26/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C3100",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142055,65,2026-05-28,0.0000,600.0000,"Maxicare Healthcare Corporation - MONDAYA, JUBILLE BACAYO | 05/26/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C3100",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142055,65,2026-05-28,0.0000,500.0000,"Maxicare Healthcare Corporation - TANO, PERLA MONTERDE | 05/26/2026 | MAXICARE HEALTHCARE CORPORATION | 500- — C3100",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142055,65,2026-05-28,0.0000,600.0000,"Maxicare Healthcare Corporation - TAPAYA, SHAUN DAVID CAYHAO | 05/26/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C3100",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142055,65,2026-05-28,0.0000,600.0000,"Maxicare Healthcare Corporation - BANICO, JULIUS CAESAR MONTERDE | 05/27/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C3100",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142055,65,2026-05-28,0.0000,600.0000,"Maxicare Healthcare Corporation - CABRILLAS, GARCIANA HERBIAS | 05/27/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C3100",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142055,65,2026-05-28,0.0000,600.0000,"Maxicare Healthcare Corporation - DUPAL-AG, DEAN EDWARD LEVI FANTONIAL | 05/27/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C3100",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142055,65,2026-05-28,0.0000,2180.0000,"Maxicare Healthcare Corporation - FALLER, MARIANNE BATAYCAN | 05/27/2026 | MAXICARE HEALTHCARE CORPORATION | 2180- — C3100",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142055,65,2026-05-28,0.0000,600.0000,"Maxicare Healthcare Corporation - MENGOTE, JOYLYN RONCALES | 05/27/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C3100",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142055,65,2026-05-28,0.0000,600.0000,"Maxicare Healthcare Corporation - MIAO, ROSALIE FARIOLEN | 05/27/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C3100",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142055,65,2026-05-28,0.0000,600.0000,"Maxicare Healthcare Corporation - NIMIL, ZACHARY LEIGH LOBITA¥A | 05/27/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C3100",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142055,65,2026-05-28,0.0000,250.0000,"Maxicare Healthcare Corporation - PAGOBO, IREN PEPITO | 05/27/2026 | MAXICARE HEALTHCARE CORPORATION | 250- — C3100",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142055,65,2026-05-28,0.0000,600.0000,"Maxicare Healthcare Corporation - PAREL, ELNATHAN FROILAN | 05/27/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C3100",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142055,65,2026-05-28,0.0000,610.0000,"Maxicare Healthcare Corporation - TAN, HAZEL JOAN DELOS REYES | 05/27/2026 | MAXICARE HEALTHCARE CORPORATION | 610- — C3100",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142055,65,2026-05-28,0.0000,500.0000,"Maxicare Healthcare Corporation - TAN, HAZEL JOAN DELOS REYES | 05/27/2026 | MAXICARE HEALTHCARE CORPORATION | 500- — C3100",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142055,65,2026-05-28,0.0000,600.0000,"Maxicare Healthcare Corporation - VILLASANTA, KEVIN PITOGO | 05/27/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C3100",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142056,65,2026-05-28,0.0000,600.0000,"Medicard Philippines Inc - BORLING, FRANCIS GIAN HORTEZUELA | 05/26/2026 | Medicard Philippines Inc | 600- — C3101",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142056,65,2026-05-28,0.0000,600.0000,"Medicard Philippines Inc - CANEN, CLAUDIUS EIRAM CASTRO | 05/26/2026 | Medicard Philippines Inc | 600- — C3101",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142056,65,2026-05-28,0.0000,650.0000,"Medicard Philippines Inc - EDAYAN, PRINCEE MAE PALAHANG | 05/26/2026 | Medicard Philippines Inc | 650- — C3101",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142056,65,2026-05-28,0.0000,10240.0000,"Medicard Philippines Inc - BORLING, THEO AIKEN HORTEZUELA | 05/27/2026 | Medicard Philippines Inc | 10240- — C3101",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142056,65,2026-05-28,0.0000,600.0000,"Medicard Philippines Inc - BORLING, THEO AIKEN HORTEZUELA | 05/27/2026 | Medicard Philippines Inc | 600- — C3101",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142056,65,2026-05-28,0.0000,450.0000,"Medicard Philippines Inc - FORTALIZA, CHRISCENT XENDA CAMPA¥A | 05/27/2026 | Medicard Philippines Inc | 450- — C3101",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142056,65,2026-05-28,0.0000,600.0000,"Medicard Philippines Inc - FORTALIZA, CHRISCENT XENDA CAMPA¥A | 05/27/2026 | Medicard Philippines Inc | 600- — C3101",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142057,65,2026-05-28,0.0000,600.0000,"Philhealthcare, Inc - PILOSTRATOS, MARIA CLEOFE BORDEN | 05/26/2026 | Philhealthcare, Inc | 600- — C3102",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142057,65,2026-05-28,0.0000,600.0000,"Philhealthcare, Inc - PILOSTRATOS, MARIA CLEOFE BORDEN | 05/26/2026 | Philhealthcare, Inc | 600- — C3102",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142057,65,2026-05-28,0.0000,500.0000,"Philhealthcare, Inc - SERATE, AISHA TALLEDO | 05/26/2026 | Philhealthcare, Inc | 500- — C3102",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142057,65,2026-05-28,0.0000,600.0000,"Philhealthcare, Inc - CAPAO, MELBERT BACATAN | 05/26/2026 | Philhealthcare, Inc | 600- — C3102",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142057,65,2026-05-28,0.0000,4040.0000,"Philhealthcare, Inc - CUSTODIO, VOTSIVE KENT GA | 05/26/2026 | Philhealthcare, Inc | 4040- — C3102",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142057,65,2026-05-28,0.0000,250.0000,"Philhealthcare, Inc - GUTIERREZ, JUNREY SUAN | 05/26/2026 | Philhealthcare, Inc | 250- — C3102",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142057,65,2026-05-28,0.0000,660.0000,"Philhealthcare, Inc - GUTIERREZ, JUNREY SUAN | 05/26/2026 | Philhealthcare, Inc | 660- — C3102",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142057,65,2026-05-28,0.0000,500.0000,"Philhealthcare, Inc - PICSON, SALVADOR DONJIE ALEJO | 05/26/2026 | Philhealthcare, Inc | 500- — C3102",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142057,65,2026-05-28,0.0000,500.0000,"Philhealthcare, Inc - ARDO¥A, MARIEL SABELLANO | 05/27/2026 | Philhealthcare, Inc | 500- — C3102",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142057,65,2026-05-28,0.0000,5380.0000,"Philhealthcare, Inc - CABIGAS, MARGIE MAE ARIAS | 05/27/2026 | Philhealthcare, Inc | 5380- — C3102",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142057,65,2026-05-28,0.0000,600.0000,"Philhealthcare, Inc - CUADRA, ALLEN FAITH SERRANO | 05/27/2026 | Philhealthcare, Inc | 600- — C3102",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142057,65,2026-05-28,0.0000,270.0000,"Philhealthcare, Inc - MIPA¥A, KENT N.A | 05/27/2026 | Philhealthcare, Inc | 270- — C3102",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142057,65,2026-05-28,0.0000,600.0000,"Philhealthcare, Inc - MIPA¥A, KENT N.A | 05/27/2026 | Philhealthcare, Inc | 600- — C3102",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142057,65,2026-05-28,0.0000,600.0000,"Philhealthcare, Inc - NERBES, ROMUEL CARLO ORTEGA | 05/27/2026 | Philhealthcare, Inc | 600- — C3102",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142058,65,2026-05-28,0.0000,400.0000,"Value Care Health Systems, Inc. - BUSTILLO, TEMPLE MARK RIPARIP | 05/26/2026 | Value Care Health Systems, Inc. | 400- — C3103",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142058,65,2026-05-28,0.0000,840.0000,"Value Care Health Systems, Inc. - MALINAO, KERL JOHN WENCESLAO | 05/26/2026 | Value Care Health Systems, Inc. | 840- — C3103",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142058,65,2026-05-28,0.0000,400.0000,"Value Care Health Systems, Inc. - MALINAO, KERL JOHN WENCESLAO | 05/27/2026 | Value Care Health Systems, Inc. | 400- — C3103",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142059,65,2026-05-28,0.0000,780.0000,"VFI-CEBU LABOR LINK MANPOWER - PITOGO, RONALD JAY PEPITO | 05/26/2026 | VFI-CEBU LABOR LINK MANPOWER | 780- — C3104",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142060,65,2026-05-28,0.0000,780.0000,"Virginia Food Inc. - JUNTILLA, MARY LHODJANE MANTO | 05/26/2026 | VIRGINIA FOOD INC | 780- — C3105",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142061,65,2026-05-28,0.0000,780.0000,"VFI-CEBU GENERAL SERVICES INC. - CANGA, ABBYGAIL EWICAN | 05/26/2026 | VFI-CEBU GENERAL SERVICES INC. | 780- — C3106",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142061,65,2026-05-28,0.0000,780.0000,"VFI-CEBU GENERAL SERVICES INC. - CAPUTE, GIAN ANDREY ESTOPA | 05/26/2026 | VFI-CEBU GENERAL SERVICES INC. | 780- — C3106",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142061,65,2026-05-28,0.0000,780.0000,"VFI-CEBU GENERAL SERVICES INC. - MARTEL, MERCEDITO LACNO | 05/26/2026 | VFI-CEBU GENERAL SERVICES INC. | 780- — C3106",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142061,65,2026-05-28,0.0000,780.0000,"VFI-CEBU GENERAL SERVICES INC. - NERI, JHON BOURS BENELISO | 05/26/2026 | VFI-CEBU GENERAL SERVICES INC. | 780- — C3106",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142061,65,2026-05-28,0.0000,780.0000,"VFI-CEBU GENERAL SERVICES INC. - PIAMONTE, JAIREVE BRIGNAS | 05/26/2026 | VFI-CEBU GENERAL SERVICES INC. | 780- — C3106",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142061,65,2026-05-28,0.0000,780.0000,"VFI-CEBU GENERAL SERVICES INC. - TEJERO, JESARIE LOVITOS | 05/26/2026 | VFI-CEBU GENERAL SERVICES INC. | 780- — C3106",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142061,65,2026-05-28,0.0000,780.0000,"VFI-CEBU GENERAL SERVICES INC. - TUBOS, MARIANE RONDINA | 05/26/2026 | VFI-CEBU GENERAL SERVICES INC. | 780- — C3106",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142061,65,2026-05-28,0.0000,780.0000,"VFI-CEBU GENERAL SERVICES INC. - PITOGO, REANN PARA | 05/27/2026 | VFI-CEBU GENERAL SERVICES INC. | 780- — C3106",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142062,65,2026-05-28,0.0000,600.0000,"Amaphil-FAO Lawina Company Limited Inc - LAPAC, NELFER MARIE DELA PE¥A | 05/27/2026 | Amaphil-FAO Lawina Company Limited Inc | 600- — C3107",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142063,65,2026-05-28,0.0000,5300.0000,"Health Delivery Sytem Inc (Flexicare) - ABALOS, CLAR BATOON | 05/27/2026 | Health Delivery Sytem Inc (Flexicare) | 5300- — C3108",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142064,65,2026-05-28,0.0000,400.0000,"Sunlife Grepa Financial Inc - CARTALLA, GADIEL BLAKE YMBONG | 05/27/2026 | SUNLIFE GREPA FINANCIAL INC | 400- — C3109",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142035,65,2026-05-28,73921.0000,0.0000,"Sales Branches May 28, 2026 - Term Sales - May, 28 — #61671",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142047,57,2026-05-28,15310.0000,0.0000,"Avega Managed Care, Inc — C3092",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142048,57,2026-05-28,9660.0000,0.0000,Cooperative Health Management Federation — C3093,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142049,57,2026-05-28,3690.0000,0.0000,"Etiqa Life and General Assurance Phillipines, Inc — C3094",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142050,57,2026-05-28,4910.0000,0.0000,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3095",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142051,57,2026-05-28,500.0000,0.0000,"IMS Wellth Care, Inc. — C3096",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142052,57,2026-05-28,78060.0000,0.0000,Insular Healthcare Inc — C3097,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142053,57,2026-05-28,5560.0000,0.0000,Asalus Corporation — C3098,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142054,57,2026-05-28,10020.0000,0.0000,Life & Health Hmp Inc — C3099,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142055,57,2026-05-28,17201.0000,0.0000,Maxicare Healthcare Corporation — C3100,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142056,57,2026-05-28,13740.0000,0.0000,Medicard Philippines Inc — C3101,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142057,57,2026-05-28,15700.0000,0.0000,"Philhealthcare, Inc — C3102",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142058,57,2026-05-28,1640.0000,0.0000,"Value Care Health Systems, Inc. — C3103",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142059,57,2026-05-28,780.0000,0.0000,VFI-CEBU LABOR LINK MANPOWER — C3104,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142060,57,2026-05-28,780.0000,0.0000,Virginia Food Inc. — C3105,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142061,57,2026-05-28,6240.0000,0.0000,VFI-CEBU GENERAL SERVICES INC. — C3106,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142062,57,2026-05-28,600.0000,0.0000,Amaphil-FAO Lawina Company Limited Inc — C3107,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142063,57,2026-05-28,5300.0000,0.0000,Health Delivery Sytem Inc (Flexicare) — C3108,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142064,57,2026-05-28,400.0000,0.0000,Sunlife Grepa Financial Inc — C3109,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142065,57,2026-05-28,0.0000,97920.0000,Payment: PHILHEALTH - KONSULTA — C-PK0006,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142066,57,2026-05-28,0.0000,588.0000,Payment: Asalus Corporation — C1892,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142067,57,2026-05-28,0.0000,9163.0000,"Payment: Avega Managed Care, Inc — C2336",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142036,53,2026-05-28,0.0000,22334.5200,Payment: Medclean Management Solutions Inc. — 0001340070,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142037,53,2026-05-28,0.0000,192514.6300,Payment: MEDGISTIX CORPORATION — 0001340071,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142037,53,2026-05-28,0.0000,154972.8500,Payment: MEDGISTIX CORPORATION — 0001340071,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142037,53,2026-05-28,0.0000,172551.4800,Payment: MEDGISTIX CORPORATION — 0001340071,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142037,53,2026-05-28,0.0000,71843.7600,Payment: MEDGISTIX CORPORATION — 0001340071,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142038,53,2026-05-28,0.0000,2475.0000,Payment: TONERPRO TRADING — 0001340072,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142039,53,2026-05-28,0.0000,3616.5700,Payment: CEBU SPIC & SPAN JANITORIAL SERVICES INC. — 0001340074,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142034,1,2026-05-28,41573.0000,0.0000,to record cash sales May 26-27 - may 26 — #61649,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142034,1,2026-05-28,51190.0000,0.0000,to record cash sales May 26-27 - may 27 — #61649,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142034,13,2026-05-28,0.0000,41573.0000,to record cash sales May 26-27 - may 26 — #61649,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142034,13,2026-05-28,0.0000,51190.0000,to record cash sales May 26-27 - may 27 — #61649,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142035,13,2026-05-28,43009.0000,0.0000,"Sales Branches May 28, 2026 - Cash Sales - May, 28 — #61671",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142035,1613,2026-05-28,0.0000,26280.0000,"Sales Branches May 28, 2026 - Consultations — #61671",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142031,617,2026-05-28,57.5200,0.0000,to record depreciation expense for 2026 May- Consolacion — #61574,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142031,617,2026-05-28,78.6800,0.0000,to record depreciation expense for 2026 May- Consolacion — #61574,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142031,621,2026-05-28,1053.2400,0.0000,to record depreciation expense for 2026 May- Consolacion — #61574,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142031,621,2026-05-28,197.1400,0.0000,to record depreciation expense for 2026 May- Consolacion — #61574,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142031,1001,2026-05-28,1649.4000,0.0000,to record depreciation expense for 2026 May- Consolacion — #61574,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142031,1005,2026-05-28,68.5300,0.0000,to record depreciation expense for 2026 May- Consolacion — #61574,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142031,625,2026-05-28,1096.0000,0.0000,to record depreciation expense for 2026 May- Consolacion — #61574,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142035,1625,2026-05-28,2250.0000,0.0000,"Sales Branches May 28, 2026 - Sales Discounts - May, 28 — #61671",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142035,1633,2026-05-28,0.0000,1600.0000,"Sales Branches May 28, 2026 - Health services — #61671",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142032,725,2026-05-28,394.5400,0.0000,To accrue: CEBU SPIC & SPAN JANITORIAL SERVICES INC. ftp 2026 consolacion May — #61598,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142032,725,2026-05-28,306.2500,0.0000,To accrue: CEBU SPIC & SPAN JANITORIAL SERVICES INC. ftp 2026 consolacion May — #61598,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142033,765,2026-05-28,1461.4100,0.0000,To accrue: SS7 SECURITY SERVICES CORPORATION for the month of Consolacion May — #61605,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142031,805,2026-05-28,30998.5000,0.0000,to record depreciation expense for 2026 May- Consolacion — #61574,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142032,813,2026-05-28,3287.7900,0.0000,To accrue: CEBU SPIC & SPAN JANITORIAL SERVICES INC. ftp 2026 consolacion May — #61598,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142032,813,2026-05-28,2552.0600,0.0000,To accrue: CEBU SPIC & SPAN JANITORIAL SERVICES INC. ftp 2026 consolacion May — #61598,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142035,1645,2026-05-28,0.0000,28370.0000,"Sales Branches May 28, 2026 - Laboratory/Diagnostics — #61671",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142035,1645,2026-05-28,0.0000,42140.0000,"Sales Branches May 28, 2026 - Laboratory/Diagnostics — #61671",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142035,1645,2026-05-28,0.0000,28231.0000,"Sales Branches May 28, 2026 - Laboratory/Diagnostics — #61671",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142035,1657,2026-05-28,0.0000,4585.0000,"Sales Branches May 28, 2026 - Laboratory/Diagnostics - Send Outs — #61671",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142031,821,2026-05-28,70805.6300,0.0000,to record depreciation expense for 2026 May- Consolacion — #61574,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142031,821,2026-05-28,3668.7600,0.0000,to record depreciation expense for 2026 May- Consolacion — #61574,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142031,1125,2026-05-28,46813.9200,0.0000,to record depreciation expense for 2026 May- Consolacion — #61574,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142031,1133,2026-05-28,1344.4300,0.0000,to record depreciation expense for 2026 May- Consolacion — #61574,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142031,845,2026-05-28,26884.5800,0.0000,to record depreciation expense for 2026 May- Consolacion — #61574,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142033,925,2026-05-28,71047.5600,0.0000,To accrue: SS7 SECURITY SERVICES CORPORATION for the month of Consolacion May — #61605,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142033,925,2026-05-28,12178.3900,0.0000,To accrue: SS7 SECURITY SERVICES CORPORATION for the month of Consolacion May — #61605,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142031,949,2026-05-28,7362.2400,0.0000,to record depreciation expense for 2026 May- Consolacion — #61574,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142129,217,2026-05-29,0.0000,4500.0000,PLDT INC — RFP No.# 6102,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142122,217,2026-05-29,0.0000,15000.0000,Alessandra Kamille Mallari — RFP No.# 6066,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142123,217,2026-05-29,0.0000,2120.0000,"ZABALA, LILIBETH — RFP No.# 6082",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142130,217,2026-05-29,0.0000,9257.2500,Angeline Muñoz — RFP No.# 6103,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142080,217,2026-05-29,0.0000,56311.1600,"APEX MEDICAL DEVICES AND DIAGNOSTICS, INC. — RFP No.# 5960",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142078,217,2026-05-29,0.0000,6739.2800,LYNOLDS MARKETING — 0526-000608,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142128,217,2026-05-29,0.0000,2800.0000,Ezza Christelle Alerta — RFP No.# 6101,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142127,217,2026-05-29,0.0000,2000.0000,Leonor Alessandra Solamillo — RFP No.# 6100,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142126,217,2026-05-29,0.0000,2800.0000,Vince Ardel A. Locaylocay — RFP No.# 6099,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142125,217,2026-05-29,0.0000,3200.0000,Dan Samuel Burgos — RFP No.# 6098,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142134,217,2026-05-29,2120.0000,0.0000,"Payment: ZABALA, LILIBETH — RFP No.# 6082",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142138,217,2026-05-29,2800.0000,0.0000,Payment: Ezza Christelle Alerta — RFP No.# 6101,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142139,217,2026-05-29,4500.0000,0.0000,Payment: PLDT INC — RFP No.# 6102,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142133,217,2026-05-29,15000.0000,0.0000,Payment: Alessandra Kamille Mallari — RFP No.# 6066,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142140,217,2026-05-29,9257.2500,0.0000,Payment: Angeline Muñoz — RFP No.# 6103,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142135,217,2026-05-29,3200.0000,0.0000,Payment: Dan Samuel Burgos — RFP No.# 6098,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142136,217,2026-05-29,2800.0000,0.0000,Payment: Vince Ardel A. Locaylocay — RFP No.# 6099,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142137,217,2026-05-29,2000.0000,0.0000,Payment: Leonor Alessandra Solamillo — RFP No.# 6100,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142069,237,2026-05-29,310.7200,0.0000,Reversal of: Smart Comm - To accrue payment for Smart all 2026 April — #61679,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142070,237,2026-05-29,0.0000,2497.0000,Globe -To accrue mobile all for the month of May — #61732,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142071,237,2026-05-29,0.0000,3998.0000,Innove -To accrue payment for Internet Services/Data Line consolacion 2026 May — #61734,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142072,237,2026-05-29,0.0000,310.7200,Smart Comm - To accrue payment for Smart all 2026 May — #61737,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142074,237,2026-05-29,0.0000,3526.5100,To accrue utilities (water) MCWD Consolacion May — #61760,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142075,237,2026-05-29,0.0000,87234.0000,To accrue VECO: consolacion ELectricity for 2026 May - To accrue VECO: consolacion ELectricity for January 2026 — #61762,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142076,77,2026-05-29,1300.0000,0.0000,"Sales Branches May 29, 2026 - Gcash Sales - May, 29 — #61857",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142076,61,2026-05-29,11293.0000,0.0000,"Sales Branches May 29, 2026 - Credit Card Sales - May, 29 — #61857",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142076,61,2026-05-29,1580.0000,0.0000,"Sales Branches May 29, 2026 - Debit Card Sales - May, 29 — #61857",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142158,61,2026-05-29,4586.4000,0.0000,Payment: CEBU GENERAL SERVICES INC. — C2755,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142159,61,2026-05-29,764.4000,0.0000,Payment: CEBU GENERAL SERVICES INC. — C2772,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142160,61,2026-05-29,764.4000,0.0000,Payment: CEBU GENERAL SERVICES INC. — C2786,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142161,61,2026-05-29,764.4000,0.0000,Payment: CEBU GENERAL SERVICES INC. — C2797,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142162,61,2026-05-29,2293.2000,0.0000,Payment: CEBU GENERAL SERVICES INC. — C2832,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142163,61,2026-05-29,764.4000,0.0000,Payment: CEBU GENERAL SERVICES INC. — C2843,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142157,61,2026-05-29,8285.9000,0.0000,"Payment: Avega Managed Care, Inc — C2431",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142141,65,2026-05-29,5700.0000,0.0000,"FAST SERVICES CORPORATION - LAURON, AMIEL JESUS PEPITO | 01/27/2026 |WRONG CHARGES — CN-5345",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142144,65,2026-05-29,0.0000,840.0000,"Avega Managed Care, Inc - ABING, GINA QUIHOY | 05/28/2026 | Avega Managed Care, Inc | 840- — C3110",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142145,65,2026-05-29,0.0000,550.0000,"Cooperative Health Management Federation - CLARIN, JOSELINA TAGAB | 05/28/2026 | Cooperative Health Management Federation | 550- — C3111",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142146,65,2026-05-29,0.0000,600.0000,"Etiqa Life and General Assurance Phillipines, Inc - GARCIANO, NICK AARON DUMAGUIT | 05/28/2026 | Etiqa Life and General Assurance Phillipines, Inc | 600- — C3112",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142147,65,2026-05-29,0.0000,600.0000,"Health Delivery Sytem Inc (Flexicare) - SAVELLON, ZAI VENICE CORTES | 05/28/2026 | Health Delivery Sytem Inc (Flexicare) | 600- — C3113",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142148,65,2026-05-29,0.0000,600.0000,"Insular Healthcare Inc - EPARWA, MARY JEAN - | 05/28/2026 | Insular Healthcare Inc | 600- — C3114",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142148,65,2026-05-29,0.0000,1265.0000,"Insular Healthcare Inc - ALVIAR, RALPH NOLAN - | 05/28/2026 | Insular Healthcare Inc | 1265- — C3114",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142148,65,2026-05-29,0.0000,500.0000,"Insular Healthcare Inc - ALVIAR, RALPH NOLAN - | 05/28/2026 | Insular Healthcare Inc | 500- — C3114",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142148,65,2026-05-29,0.0000,900.0000,"Insular Healthcare Inc - AYAG, ERLITA TAPULADO | 05/28/2026 | Insular Healthcare Inc | 900- — C3114",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142148,65,2026-05-29,0.0000,500.0000,"Insular Healthcare Inc - AYAG, ERLITA TAPULADO | 05/28/2026 | Insular Healthcare Inc | 500- — C3114",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142148,65,2026-05-29,0.0000,500.0000,"Insular Healthcare Inc - ERONICO, ALGIE FRIAN CAHIGAS | 05/28/2026 | Insular Healthcare Inc | 500- — C3114",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142148,65,2026-05-29,0.0000,660.0000,"Insular Healthcare Inc - ERONICO, ALGIE FRIAN CAHIGAS | 05/28/2026 | Insular Healthcare Inc | 660- — C3114",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142148,65,2026-05-29,0.0000,1500.0000,"Insular Healthcare Inc - ERONICO, ALGIE FRIAN CAHIGAS | 05/28/2026 | Insular Healthcare Inc | 1500- — C3114",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142148,65,2026-05-29,0.0000,500.0000,"Insular Healthcare Inc - LAURON, KATHERINE LASTIMOSO | 05/28/2026 | Insular Healthcare Inc | 500- — C3114",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142148,65,2026-05-29,0.0000,1170.0000,"Insular Healthcare Inc - LUPANGO, KISHA KATE HORTELANO | 05/28/2026 | Insular Healthcare Inc | 1170- — C3114",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142148,65,2026-05-29,0.0000,500.0000,"Insular Healthcare Inc - LUPANGO, KISHA KATE HORTELANO | 05/28/2026 | Insular Healthcare Inc | 500- — C3114",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142148,65,2026-05-29,0.0000,500.0000,"Insular Healthcare Inc - MIAO, CLIFFORD NIEZ | 05/28/2026 | Insular Healthcare Inc | 500- — C3114",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142148,65,2026-05-29,0.0000,500.0000,"Insular Healthcare Inc - OYAO, SHAUN ZYAIRE PENARIO | 05/28/2026 | Insular Healthcare Inc | 500- — C3114",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142148,65,2026-05-29,0.0000,500.0000,"Insular Healthcare Inc - ROYO, CHANTELLE IRIS BALANDRA | 05/28/2026 | Insular Healthcare Inc | 500- — C3114",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142148,65,2026-05-29,0.0000,500.0000,"Insular Healthcare Inc - SATINA, MARIA LUISA CARPENTERO | 05/28/2026 | Insular Healthcare Inc | 500- — C3114",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142148,65,2026-05-29,0.0000,1000.0000,"Insular Healthcare Inc - TOMPONG JR., DAVIS BANTILAN | 05/28/2026 | Insular Healthcare Inc | 1000- — C3114",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142148,65,2026-05-29,0.0000,820.0000,"Insular Healthcare Inc - UY, MERILYN AMISTOSO | 05/28/2026 | Insular Healthcare Inc | 820- — C3114",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142148,65,2026-05-29,0.0000,500.0000,"Insular Healthcare Inc - VASQUEZ, ANNA MAE GOC-ONG | 05/28/2026 | Insular Healthcare Inc | 500- — C3114",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142149,65,2026-05-29,0.0000,500.0000,"Asalus Corporation - COMPAHINAY, ELISEO MONISET | 05/28/2026 | Asalus Corporation | 500- — C3115",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142149,65,2026-05-29,0.0000,600.0000,"Asalus Corporation - MACALUA, ALLYSA THERESE - | 05/28/2026 | Asalus Corporation | 600- — C3115",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142149,65,2026-05-29,0.0000,1350.0000,"Asalus Corporation - MADDUMA, JANN FRAULIEN REBLE | 05/28/2026 | Asalus Corporation | 1350- — C3115",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142149,65,2026-05-29,0.0000,1475.0000,"Asalus Corporation - MADDUMA, JANN FRAULIEN REBLE | 05/28/2026 | Asalus Corporation | 1475- — C3115",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142149,65,2026-05-29,0.0000,600.0000,"Asalus Corporation - TANHAY, JEMINI GUANGCO | 05/28/2026 | Asalus Corporation | 600- — C3115",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142149,65,2026-05-29,0.0000,2690.0000,"Asalus Corporation - TINGA, DAISY MENDOZA | 05/28/2026 | Asalus Corporation | 2690- — C3115",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142149,65,2026-05-29,0.0000,3110.0000,"Asalus Corporation - TINGA, DAISY MENDOZA | 05/28/2026 | Asalus Corporation | 3110- — C3115",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142150,65,2026-05-29,0.0000,500.0000,"Lacson & Lacson Insurance Brokers Inc - ORTIZ, REY ANANIA | 05/28/2026 | LACSON & LACSON INSURANCE BROKERS INC | 500- — C3116",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142151,65,2026-05-29,0.0000,400.0000,"Life & Health Hmp Inc - CAGANDE, GENEVIVE MENDOZA | 05/28/2026 | Life & Health Hmp Inc | 400- — C3117",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142151,65,2026-05-29,0.0000,2520.0000,"Life & Health Hmp Inc - GARVEZ, MA EVA TOONG | 05/28/2026 | Life & Health Hmp Inc | 2520- — C3117",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142151,65,2026-05-29,0.0000,4720.0000,"Life & Health Hmp Inc - GARVEZ, VAL BERNARD SALINAS | 05/28/2026 | Life & Health Hmp Inc | 4720- — C3117",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142151,65,2026-05-29,0.0000,180.0000,"Life & Health Hmp Inc - MONEVA, CAREN PEPITO | 05/28/2026 | Life & Health Hmp Inc | 180- — C3117",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142152,65,2026-05-29,0.0000,1350.0000,"Maxicare Healthcare Corporation - ABANES, SHARAH MAE MI¥OZA | 05/28/2026 | MAXICARE HEALTHCARE CORPORATION | 1350- — C3118",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142152,65,2026-05-29,0.0000,250.0000,"Maxicare Healthcare Corporation - ABANES, SHARAH MAE MI¥OZA | 05/28/2026 | MAXICARE HEALTHCARE CORPORATION | 250- — C3118",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142152,65,2026-05-29,0.0000,1430.0000,"Maxicare Healthcare Corporation - ALBAR, RANDEE CATALINO ANDRADA | 05/28/2026 | MAXICARE HEALTHCARE CORPORATION | 1430- — C3118",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142152,65,2026-05-29,0.0000,500.0000,"Maxicare Healthcare Corporation - ARNADO, MARY BLANZ ECOBEN | 05/28/2026 | MAXICARE HEALTHCARE CORPORATION | 500- — C3118",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142152,65,2026-05-29,0.0000,600.0000,"Maxicare Healthcare Corporation - BABIA, JOHN JOSEPH LACZA | 05/28/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C3118",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142152,65,2026-05-29,0.0000,1070.0000,"Maxicare Healthcare Corporation - BATICOLON, MAE THERESE - | 05/28/2026 | MAXICARE HEALTHCARE CORPORATION | 1070- — C3118",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142152,65,2026-05-29,0.0000,600.0000,"Maxicare Healthcare Corporation - COMAJIG, FRANCE AQUILLA BATICOLON | 05/28/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C3118",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142152,65,2026-05-29,0.0000,1130.0000,"Maxicare Healthcare Corporation - CORTES, CECILIO VALLE | 05/28/2026 | MAXICARE HEALTHCARE CORPORATION | 1130- — C3118",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142152,65,2026-05-29,0.0000,4161.0000,"Maxicare Healthcare Corporation - UROT, JOHN WEL ENARIO | 05/28/2026 | MAXICARE HEALTHCARE CORPORATION | 4161- — C3118",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142152,65,2026-05-29,0.0000,600.0000,"Maxicare Healthcare Corporation - UROT, JOHN WEL ENARIO | 05/28/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C3118",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142153,65,2026-05-29,0.0000,600.0000,"Medicard Philippines Inc - FORTALIZA, CHRISCENT XENDA CAMPA¥A | 05/28/2026 | Medicard Philippines Inc | 600- — C3119",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142154,65,2026-05-29,0.0000,250.0000,"Philhealthcare, Inc - GUTIERREZ, JUNREY SUAN | 05/28/2026 | Philhealthcare, Inc | 250- — C3120",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142154,65,2026-05-29,0.0000,600.0000,"Philhealthcare, Inc - MACA, ERICA SONGALIA | 05/28/2026 | Philhealthcare, Inc | 600- — C3120",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142154,65,2026-05-29,0.0000,6750.0000,"Philhealthcare, Inc - PEPITO, EMMANUEL CONDINO | 05/28/2026 | Philhealthcare, Inc | 6750- — C3120",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142154,65,2026-05-29,0.0000,600.0000,"Philhealthcare, Inc - TUMONGHA, EPHRAEM MALUNJAO | 05/28/2026 | Philhealthcare, Inc | 600- — C3120",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142155,65,2026-05-29,0.0000,7220.0000,"Sunlife Grepa Financial Inc - IBARITA, MICHAEL LABORA | 05/28/2026 | SUNLIFE GREPA FINANCIAL INC | 7220- — C3121",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142155,65,2026-05-29,0.0000,400.0000,"Sunlife Grepa Financial Inc - JAYME, CLARISSA CUEVAS | 05/28/2026 | SUNLIFE GREPA FINANCIAL INC | 400- — C3121",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142156,65,2026-05-29,0.0000,780.0000,"VFI-CEBU GENERAL SERVICES INC. - PARING, REY - | 05/28/2026 | VFI-CEBU GENERAL SERVICES INC. | 780- — C3122",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142076,65,2026-05-29,95952.0000,0.0000,"Sales Branches May 29, 2026 - Term Sales - May, 29 — #61857",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142141,57,2026-05-29,0.0000,5700.0000,FAST SERVICES CORPORATION — CN-5345,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142142,57,2026-05-29,0.0000,5700.0000,FAST SERVICES CORPORATION — C2168,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142143,57,2026-05-29,5700.0000,0.0000,FAST SERVICES CORPORATION — CN-5345,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142144,57,2026-05-29,840.0000,0.0000,"Avega Managed Care, Inc — C3110",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142145,57,2026-05-29,550.0000,0.0000,Cooperative Health Management Federation — C3111,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142146,57,2026-05-29,600.0000,0.0000,"Etiqa Life and General Assurance Phillipines, Inc — C3112",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142147,57,2026-05-29,600.0000,0.0000,Health Delivery Sytem Inc (Flexicare) — C3113,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142148,57,2026-05-29,12915.0000,0.0000,Insular Healthcare Inc — C3114,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142149,57,2026-05-29,10325.0000,0.0000,Asalus Corporation — C3115,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142150,57,2026-05-29,500.0000,0.0000,Lacson & Lacson Insurance Brokers Inc — C3116,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142151,57,2026-05-29,7820.0000,0.0000,Life & Health Hmp Inc — C3117,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142152,57,2026-05-29,11691.0000,0.0000,Maxicare Healthcare Corporation — C3118,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142153,57,2026-05-29,600.0000,0.0000,Medicard Philippines Inc — C3119,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142154,57,2026-05-29,8200.0000,0.0000,"Philhealthcare, Inc — C3120",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142155,57,2026-05-29,7620.0000,0.0000,Sunlife Grepa Financial Inc — C3121,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142156,57,2026-05-29,780.0000,0.0000,VFI-CEBU GENERAL SERVICES INC. — C3122,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142158,57,2026-05-29,0.0000,4586.4000,Payment: CEBU GENERAL SERVICES INC. — C2755,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142159,57,2026-05-29,0.0000,764.4000,Payment: CEBU GENERAL SERVICES INC. — C2772,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142160,57,2026-05-29,0.0000,764.4000,Payment: CEBU GENERAL SERVICES INC. — C2786,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142161,57,2026-05-29,0.0000,764.4000,Payment: CEBU GENERAL SERVICES INC. — C2797,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142162,57,2026-05-29,0.0000,2293.2000,Payment: CEBU GENERAL SERVICES INC. — C2832,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142163,57,2026-05-29,0.0000,764.4000,Payment: CEBU GENERAL SERVICES INC. — C2843,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142157,57,2026-05-29,0.0000,8285.9000,"Payment: Avega Managed Care, Inc — C2431",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142073,1,2026-05-29,43009.0000,0.0000,to record cash sales May 28 — #61749,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142132,1,2026-05-29,0.0000,2120.0000,"Payment: ZABALA, LILIBETH — Online-05292026",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142132,1,2026-05-29,0.0000,2800.0000,Payment: Ezza Christelle Alerta — Online-05292026,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142132,1,2026-05-29,0.0000,5892.8600,Payment: EUGENE TIO — Online-05292026,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142132,1,2026-05-29,0.0000,4500.0000,Payment: PLDT INC — Online-05292026,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142132,1,2026-05-29,0.0000,67750.0000,Payment: SOCIAL SECURITY SYSTEM — Online-05292026,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142132,1,2026-05-29,0.0000,15000.0000,Payment: Alessandra Kamille Mallari — Online-05292026,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142132,1,2026-05-29,0.0000,9257.2500,Payment: Angeline Muñoz — Online-05292026,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142132,1,2026-05-29,0.0000,300.0000,"Payment: SMART COMMUNICATIONS, INC. — Online-05292026",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142132,1,2026-05-29,0.0000,3200.0000,Payment: Dan Samuel Burgos — Online-05292026,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142132,1,2026-05-29,0.0000,2800.0000,Payment: Vince Ardel A. Locaylocay — Online-05292026,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142132,1,2026-05-29,0.0000,2000.0000,Payment: Leonor Alessandra Solamillo — Online-05292026,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142131,9,2026-05-29,0.0000,700000.0000,"Payment: BIOSYN HEALTHCARE SYSTEMS, INC. — 0000420747",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142073,13,2026-05-29,0.0000,43009.0000,to record cash sales May 28 — #61749,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142076,13,2026-05-29,57235.0000,0.0000,"Sales Branches May 29, 2026 - Cash Sales - May, 29 — #61857",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142077,13,2026-05-29,0.0000,390.0000,to record May adjustment cash on hand — #62223,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142077,13,2026-05-29,1450.0000,0.0000,to record May adjustment cash on hand — #62223,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142076,1613,2026-05-29,0.0000,30280.0000,"Sales Branches May 29, 2026 - Consultations — #61857",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142129,613,2026-05-29,4017.8600,0.0000,"PLDT INC - Vatable: Payment for Enterprise Broadband Static 200 Bundle for Account number  6005975865 covering May 17- June 16, 2026 — RFP No.# 6102",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142071,613,2026-05-29,3569.6400,0.0000,Innove -To accrue payment for Internet Services/Data Line consolacion 2026 May — #61734,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142076,1625,2026-05-29,3772.0000,0.0000,"Sales Branches May 29, 2026 - Sales Discounts - May, 29 — #61857",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142075,641,2026-05-29,87234.0000,0.0000,To accrue VECO: consolacion ELectricity for 2026 May - To accrue VECO: consolacion ELectricity for January 2026 — #61762,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142130,649,2026-05-29,500.0000,0.0000,Angeline Muñoz - OIC Allowance (Replenishment) — RFP No.# 6103,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142080,245,2026-05-29,0.0000,1023.8400,"APEX MEDICAL DEVICES AND DIAGNOSTICS, INC. - 2% EWT on Payment for cardiosource availment for the month of April 2026 SI no. 0198, 0199, 0200, 0201, 0202, 0203 — RFP No.# 5960",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142078,245,2026-05-29,0.0000,60.7200,LYNOLDS MARKETING - 1% EWT: Payment for Various Lab Supplies PO#OPEX-26-0288 SI#A4866 — 0526-000608,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142076,1633,2026-05-29,0.0000,3800.0000,"Sales Branches May 29, 2026 - Health services — #61857",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142129,709,2026-05-29,482.1400,0.0000,"PLDT INC - Vat: Payment for Enterprise Broadband Static 200 Bundle for Account number  6005975865 covering May 17- June 16, 2026 — RFP No.# 6102",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142071,709,2026-05-29,428.3600,0.0000,Innove -To accrue payment for Internet Services/Data Line consolacion 2026 May — #61734,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142130,1053,2026-05-29,335.5700,0.0000,Angeline Muñoz - Vat: Confirmatory drug testing (Replenishment) — RFP No.# 6103,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142078,197,2026-05-29,728.5700,0.0000,LYNOLDS MARKETING - Vat: Payment for Various Lab Supplies PO#OPEX-26-0288 SI#A4866 — 0526-000608,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142124,737,2026-05-29,32.1400,0.0000,"SMART COMMUNICATIONS, INC. - VAT: Smart Communications Inc. FTP 04/01-04/30/2026; Consolacion — RFP No.# 6091",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142069,737,2026-05-29,0.0000,33.2900,Reversal of: Smart Comm - To accrue payment for Smart all 2026 April — #61679,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142070,737,2026-05-29,267.5400,0.0000,Globe -To accrue mobile all for the month of May — #61732,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142072,737,2026-05-29,33.2900,0.0000,Smart Comm - To accrue payment for Smart all 2026 May — #61737,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142130,741,2026-05-29,139.8200,0.0000,Angeline Muñoz - Vat: various office supplies (Replenishment) — RFP No.# 6103,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142130,757,2026-05-29,11.2800,0.0000,Angeline Muñoz - Vat: teflon tape and bolt (Replenishment) — RFP No.# 6103,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142080,1077,2026-05-29,6143.0400,0.0000,"APEX MEDICAL DEVICES AND DIAGNOSTICS, INC. - Vat: Payment for cardiosource availment for the month of April 2026 SI no. 0198, 0199, 0200, 0201, 0202, 0203 — RFP No.# 5960",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142130,1105,2026-05-29,2796.4300,0.0000,Angeline Muñoz - Vatable: Confirmatory drug testing (Replenishment) — RFP No.# 6103,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142121,1105,2026-05-29,15671.7500,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of April 23, 2026 Reference no. 0200011619 — RFP No.# 6018",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142120,1105,2026-05-29,12982.0000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of April 22, 2026 Reference no. 0200011575 — RFP No.# 6017",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142119,1105,2026-05-29,17253.4000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of April 18, 2026 Reference no. 0200011392 — RFP No.# 6016",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142118,1105,2026-05-29,1356.8000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of April  18, 2026 Reference no. 0200011393 — RFP No.# 6015",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142117,1105,2026-05-29,5292.0000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of April 16, 2026 Reference no. 0200011308 — RFP No.# 6014",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142116,1105,2026-05-29,11167.0000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of April 17, 2026 Reference no. 0200011336 — RFP No.# 6013",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142115,1105,2026-05-29,4915.0000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of April 15, 2026 Reference no. 0200011229 — RFP No.# 6012",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142114,1105,2026-05-29,3743.0000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of April 13, 2026 Reference no. 0200011167 — RFP No.# 6011",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142113,1105,2026-05-29,3857.6000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of April 13, 2026 Reference no. 0200011166 — RFP No.# 6010",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142112,1105,2026-05-29,9992.4000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of April 14, 2026 Reference no. 0200011191 — RFP No.# 6008",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142111,1105,2026-05-29,1671.0000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of April 11, 2026 Reference no. 0200011091 — RFP No.# 6007",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142110,1105,2026-05-29,1755.0000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of April 11, 2026 Reference no. 0200011092 — RFP No.# 6006",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142109,1105,2026-05-29,7027.0000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of April 10, 2026 Reference no. 0200011054 — RFP No.# 6005",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142108,1105,2026-05-29,655.0000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of April 09, 2026 Reference no. 0200011025 — RFP No.# 6004",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142107,1105,2026-05-29,3272.6000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of April 07, 2026 Reference no. 0200010943 — RFP No.# 6003",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142106,1105,2026-05-29,5786.4000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of April 08, 2026 Reference no. 0200010970 — RFP No.# 6002",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142105,1105,2026-05-29,6672.0000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of April 06, 2026 Reference no. 0200010891 — RFP No.# 6001",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142104,1105,2026-05-29,5790.0000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of April 04, 2026 Reference no. 0200010828 — RFP No.# 6000",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142103,1105,2026-05-29,5955.0000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of March 30, 2026 Reference no. 0200010689 — RFP No.# 5999",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142102,1105,2026-05-29,17209.0000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of March 28, 2026 Reference no. 0200010611 — RFP No.# 5998",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142101,1105,2026-05-29,4376.6000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of March 26, 2026 Reference no. 0200010538 — RFP No.# 5997",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142100,1105,2026-05-29,1022.0000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of March 25, 2026 Reference no. 0200010507 — RFP No.# 5996",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142099,1105,2026-05-29,6567.0000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of March 24, 2026 Reference no. 0200010440 — RFP No.# 5995",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142098,1105,2026-05-29,3844.6000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of March 23, 2026 Reference no. 0200010414 — RFP No.# 5994",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142097,1105,2026-05-29,9206.8000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of March 21, 2026 Reference no. 0200010368 — RFP No.# 5993",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142096,1105,2026-05-29,817.6000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of March 21, 2026 Reference no. 0200010367 — RFP No.# 5992",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142095,1105,2026-05-29,8401.4000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of March 20, 2026 Reference no. 0200010303 — RFP No.# 5991",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142094,1105,2026-05-29,2388.4000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of February 17, 2026 Reference no. 0200008848 — RFP No.# 5990",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142093,1105,2026-05-29,1893.4000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of February 16, 2026 Reference no. 0200008825 — RFP No.# 5989",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142092,1105,2026-05-29,2680.0000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of February 09, 2026 Reference no. 0100007807 — RFP No.# 5988",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142091,1105,2026-05-29,3394.0000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of January 26, 2026, 2026 Reference no. 0200007781 — RFP No.# 5979",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142090,1105,2026-05-29,4819.0000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of January 12, 2026 Reference no. 0100006632 — RFP No.# 5978",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142089,1105,2026-05-29,748.0000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of November 28, 2025 Reference no. 0200005441 — RFP No.# 5977",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142088,1105,2026-05-29,1310.4000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of November 26, 2025 Reference no. 0200005387 — RFP No.# 5976",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142087,1105,2026-05-29,1543.8000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of October 06, 2025 Reference no. 0200003140 — RFP No.# 5973",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142086,1105,2026-05-29,5707.0000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of September 27, 2025 Reference no. 020002725 — RFP No.# 5972",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142085,1105,2026-05-29,14350.0000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of September 05, 2025 Reference no. 0200001764 — RFP No.# 5971",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142084,1105,2026-05-29,748.0000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of July 23, 2025 Reference no. 469508 — RFP No.# 5968",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142083,1105,2026-05-29,3296.0000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of June 26, 2025 Reference no. 467331 — RFP No.# 5966",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142082,1105,2026-05-29,842.4000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of June 14, 2025 Reference no. 466340 — RFP No.# 5965",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142081,1105,2026-05-29,7264.0000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of April 23, 2025 Reference no. 462405 — RFP No.# 5963",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142078,141,2026-05-29,6071.4300,0.0000,LYNOLDS MARKETING - Vatable: Payment for Various Lab Supplies PO#OPEX-26-0288 SI#A4866 — 0526-000608,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142123,1645,2026-05-29,2120.0000,0.0000,"ZABALA, LILIBETH - Payment for patient can no longer proceed with the ultrasound because she has been admitted to the hospital. — RFP No.# 6082",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142130,1645,2026-05-29,1450.0000,0.0000,Angeline Muñoz - Refund to patient (Replenishment) — RFP No.# 6103,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142076,1645,2026-05-29,0.0000,29040.0000,"Sales Branches May 29, 2026 - Laboratory/Diagnostics — #61857",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142076,1645,2026-05-29,0.0000,51650.0000,"Sales Branches May 29, 2026 - Laboratory/Diagnostics — #61857",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142076,1645,2026-05-29,0.0000,27382.0000,"Sales Branches May 29, 2026 - Laboratory/Diagnostics — #61857",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142076,1657,2026-05-29,0.0000,28980.0000,"Sales Branches May 29, 2026 - Laboratory/Diagnostics - Send Outs — #61857",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142124,841,2026-05-29,267.8600,0.0000,"SMART COMMUNICATIONS, INC. - VATABLE: Smart Communications Inc. FTP 04/01-04/30/2026; Consolacion — RFP No.# 6091",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142069,841,2026-05-29,0.0000,277.4300,Reversal of: Smart Comm - To accrue payment for Smart all 2026 April — #61679,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142070,841,2026-05-29,2229.4600,0.0000,Globe -To accrue mobile all for the month of May — #61732,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142072,841,2026-05-29,277.4300,0.0000,Smart Comm - To accrue payment for Smart all 2026 May — #61737,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142130,849,2026-05-29,1165.1800,0.0000,Angeline Muñoz - Vatable: various office supplies (Replenishment) — RFP No.# 6103,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142130,849,2026-05-29,1000.0000,0.0000,Angeline Muñoz - Non-vat: Drinking water (Replenishment) — RFP No.# 6103,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142130,849,2026-05-29,380.0000,0.0000,Angeline Muñoz - Nondeductible: Plastic cups (Replenishment) — RFP No.# 6103,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142077,1597,2026-05-29,390.0000,0.0000,to record May adjustment cash on hand — #62223,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142077,1597,2026-05-29,0.0000,1450.0000,to record May adjustment cash on hand — #62223,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142122,861,2026-05-29,15000.0000,0.0000,Alessandra Kamille Mallari - Payment for retainer for the month of May 2026 — RFP No.# 6066,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142130,861,2026-05-29,800.0000,0.0000,Angeline Muñoz - Medtech reliever (Replenishment) — RFP No.# 6103,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142128,1201,2026-05-29,2800.0000,0.0000,"Ezza Christelle Alerta - PCP Relievers for May 25, 2026 — RFP No.# 6101",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142127,1201,2026-05-29,2000.0000,0.0000,"Leonor Alessandra Solamillo - PCP Relievers for May 25, 2026 — RFP No.# 6100",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142126,1201,2026-05-29,2800.0000,0.0000,"Vince Ardel A. Locaylocay - PCP Relievers for May 23, 2026 — RFP No.# 6099",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142125,1201,2026-05-29,3200.0000,0.0000,"Dan Samuel Burgos - PCP Relievers for May 22 and 25, 2026 — RFP No.# 6098",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142130,909,2026-05-29,93.9700,0.0000,Angeline Muñoz - Vatable: teflon tape and bolt (Replenishment) — RFP No.# 6103,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142079,933,2026-05-29,67750.0000,0.0000,SOCIAL SECURITY SYSTEM - Payment for SSS Contribution for the month of April 2026 (Employer Share) — RFP No.# 5957,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142080,1217,2026-05-29,51191.9600,0.0000,"APEX MEDICAL DEVICES AND DIAGNOSTICS, INC. - Vatable: Payment for cardiosource availment for the month of April 2026 SI no. 0198, 0199, 0200, 0201, 0202, 0203 — RFP No.# 5960",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142130,945,2026-05-29,585.0000,0.0000,Angeline Muñoz - Nondeductible: Transportation expenses (Replenishment) — RFP No.# 6103,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142074,961,2026-05-29,3526.5100,0.0000,To accrue utilities (water) MCWD Consolacion May — #61760,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142165,237,2026-05-30,227244.3500,0.0000,to reverse send outs chonghua various months from june 2025 - april 2026 — #61911,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142166,77,2026-05-30,9740.0000,0.0000,"Sales Branches May 30, 2026 - Gcash Sales - May, 30 — #62697",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142166,61,2026-05-30,5650.0000,0.0000,"Sales Branches May 30, 2026 - Credit Card Sales - May, 30 — #62697",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142166,61,2026-05-30,1240.0000,0.0000,"Sales Branches May 30, 2026 - Debit Card Sales - May, 30 — #62697",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142166,65,2026-05-30,105280.0000,0.0000,"Sales Branches May 30, 2026 - Term Sales - May, 30 — #62697",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142166,13,2026-05-30,41970.0000,0.0000,"Sales Branches May 30, 2026 - Cash Sales - May, 30 — #62697",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142166,1613,2026-05-30,0.0000,25240.0000,"Sales Branches May 30, 2026 - Consultations — #62697",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142166,1625,2026-05-30,2625.0000,0.0000,"Sales Branches May 30, 2026 - Sales Discounts - May, 30 — #62697",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142166,1633,2026-05-30,0.0000,10480.0000,"Sales Branches May 30, 2026 - Health services — #62697",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142165,1105,2026-05-30,0.0000,227244.3500,to reverse send outs chonghua various months from june 2025 - april 2026 — #61911,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142166,1645,2026-05-30,0.0000,34420.0000,"Sales Branches May 30, 2026 - Laboratory/Diagnostics — #62697",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142166,1645,2026-05-30,0.0000,53705.0000,"Sales Branches May 30, 2026 - Laboratory/Diagnostics — #62697",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142166,1645,2026-05-30,0.0000,36660.0000,"Sales Branches May 30, 2026 - Laboratory/Diagnostics — #62697",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142166,1657,2026-05-30,0.0000,1300.0000,"Sales Branches May 30, 2026 - Laboratory/Diagnostics - Send Outs — #62697",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142164,1217,2026-05-30,0.0000,43032.0000,Reversal of: To accrue TPP cost for the month of 2026 April — #61909,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142166,1713,2026-05-30,0.0000,4700.0000,"Sales Branches May 30, 2026 - Third-Party Partnership — #62697",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142185,581,2026-05-31,1711.7700,0.0000,Gemma M. Ynot - Payment for last and final pay for resigned employee (13th month) — RFP No.# 6122,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142179,581,2026-05-31,54921.5000,0.0000,To record the accrual of the 13th Month Pay for 2026 May — #62940,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142185,217,2026-05-31,0.0000,3667.7500,Gemma M. Ynot — RFP No.# 6122,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142186,217,2026-05-31,0.0000,3732.9100,CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 6129,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142182,217,2026-05-31,0.0000,4950.0000,TONERPRO TRADING — 0526-000588,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142184,217,2026-05-31,0.0000,14372.5200,MEDGISTIX CORPORATION — 0526-000594,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142183,217,2026-05-31,0.0000,7928.5700,MEDGISTIX CORPORATION — 0526-000593,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142180,217,2026-05-31,1188.6600,0.0000,CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 5812,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142181,217,2026-05-31,1188.6600,0.0000,CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 5812,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142181,217,2026-05-31,0.0000,1188.6600,CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 5812,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142190,217,2026-05-31,0.0000,3200.0000,Dan Samuel Burgos — RFP No.# 6161,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142189,217,2026-05-31,0.0000,3600.0000,Leonor Alessandra Solamillo — RFP No.# 6160,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142188,217,2026-05-31,0.0000,2000.0000,JUSTIN ANDRE MAHINAY — RFP No.# 6159,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142187,217,2026-05-31,0.0000,6000.0000,Leonor Alessandra Solamillo — RFP No.# 6130,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142167,237,2026-05-31,3682.3300,0.0000,Reversal of: To accrue: CEBU SPIC & SPAN JANITORIAL SERVICES INC. ftp 2026 consolacion May — #62072,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142170,237,2026-05-31,0.0000,3000.0000,GEMELSON CADIZ - to accrue GEMELSON CADIZ 2026 May — #62166,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142174,237,2026-05-31,0.0000,20370.9000,"CPCI Payroll for May 16-31, 2026 - Consolacion - Finance — #62599",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142175,237,2026-05-31,0.0000,81783.4200,"CPCI Payroll for May 16-31, 2026 - Consolacion Medical Affairs — #62601",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142176,237,2026-05-31,0.0000,249320.3900,"CPCI Payroll for May 16-31, 2026 - Consolacion Operations — #62602",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142179,237,2026-05-31,0.0000,54921.5000,To record the accrual of the 13th Month Pay for 2026 May — #62940,1,0,2026-05-31 23:59:59,0
+4,journal_entry,142174,85,2026-05-31,0.0000,1451.0500,"CPCI Payroll for May 16-31, 2026 - Consolacion - Finance — #62599",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142175,85,2026-05-31,0.0000,777.0000,"CPCI Payroll for May 16-31, 2026 - Consolacion Medical Affairs — #62601",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142176,85,2026-05-31,0.0000,4153.9300,"CPCI Payroll for May 16-31, 2026 - Consolacion Operations — #62602",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142176,85,2026-05-31,0.0000,1041.6700,"CPCI Payroll for May 16-31, 2026 - Consolacion Operations - CPCI Payroll for May 16-31, 2026 - Consolacion TTHE Mahinay, Clavel — #62602",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142176,85,2026-05-31,0.0000,666.6700,"CPCI Payroll for May 16-31, 2026 - Consolacion Operations - CPCI Payroll for May 16-31, 2026 - Consolacion TTHE Moreno, Meldrid C. — #62602",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142191,65,2026-05-31,0.0000,600.0000,"Avega Managed Care, Inc - HORNADA, MARIA LOURDES BAUTISTA | 05/29/2026 | Avega Managed Care, Inc | 600- — C3123",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142191,65,2026-05-31,0.0000,2420.0000,"Avega Managed Care, Inc - MAHINAY, CLAVEL TUBIL | 05/29/2026 | Avega Managed Care, Inc | 2420-returned — C3123",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142191,65,2026-05-31,0.0000,22590.0000,"Avega Managed Care, Inc - MAHINAY, CLAVEL TUBIL | 05/29/2026 | Avega Managed Care, Inc | 22590-returned — C3123",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142191,65,2026-05-31,0.0000,500.0000,"Avega Managed Care, Inc - LAURENTE, MARIA ANITA JAMIO | 05/30/2026 | Avega Managed Care, Inc | 500- — C3123",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142191,65,2026-05-31,0.0000,860.0000,"Avega Managed Care, Inc - LAURENTE, MARIA ANITA JAMIO | 05/30/2026 | Avega Managed Care, Inc | 860- — C3123",1,0,2026-05-31 23:59:59,0
+4,journal_entry,142191,65,2026-05-31,0.0000,2300.0000,"Avega Managed Care, Inc - LEYSO, MARY CLAIRE JUGALBOT | 05/30/2026 | Avega Managed Care, Inc | 2300- — C3123",1,0,2026-05-31 23:59:59,0

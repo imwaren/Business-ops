@@ -1,0 +1,4 @@
+id,cost_center_id,date,type,remarks,total_debit,total_credit,status,is_migrated,added_by,added_on,is_deleted
+1,7,2026-01-21,payable_invoice,CG.IM ARCHITECTURAL DESIGN SERVICES — 0126-000041,425000.0000,425000.0000,approved,1,0,2026-01-31 23:59:59,0
+2,7,2026-01-22,payable_payment,Payment: CG.IM ARCHITECTURAL DESIGN SERVICES — 0126-000041,425000.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+3,7,2026-01-22,payable_payment,Payment: CG.IM ARCHITECTURAL DESIGN SERVICES — 420718,0.0000,425000.0000,approved,1,0,2026-01-31 23:59:59,0

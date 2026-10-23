@@ -1,0 +1,117 @@
+{
+  "info": {
+    "_postman_id": "a1b2c3d4-e5f6-7890-abcd-ef0123456789",
+    "name": "Bank Service Fees",
+    "description": "# Bank Service Fees API\n\nCatalog CRUD for `bank_service_fee` (`bank_id`, `percentage`). Required on cash and non-cash deposits when posting.\n\n## Auth\n- Header: `API-KEY` (required)\n- Query/body: `token`, `requester` (required on all endpoints)\n\n## Database scoping\n`branch_id` is **not** used.\n\n- **GET** reads master only.\n- **create / update / delete** write master first, then mobile, oakridge, mactan, consolacion, mantlewood, warehouse, pharmacy.\n\n`bank_id` must exist on master `bank`.\n\n## Request body format\n- **GET** — query params\n- **POST** — multipart form-data\n",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "base_url", "value": "http://localhost/cpci-business-ops-api" },
+    { "key": "api_key", "value": "clinicaRiKOYqlwdTJ-lNedqS0k-it!395!-6ls1JXM7Vcc" },
+    { "key": "token", "value": "{{token}}" },
+    { "key": "requester", "value": "1" },
+    { "key": "bank_id", "value": "1" },
+    { "key": "bank_service_fee_id", "value": "1" }
+  ],
+  "item": [
+    {
+      "name": "Get bank service fees",
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "url": {
+          "raw": "{{base_url}}/bank_service_fees/get?token={{token}}&requester={{requester}}",
+          "host": ["{{base_url}}"],
+          "path": ["bank_service_fees", "get"],
+          "query": [
+            { "key": "token", "value": "{{token}}" },
+            { "key": "requester", "value": "{{requester}}" },
+            { "key": "bank_service_fee_id", "value": "{{bank_service_fee_id}}", "disabled": true },
+            { "key": "bank_id", "value": "{{bank_id}}", "disabled": true },
+            { "key": "page", "value": "1", "disabled": true },
+            { "key": "data_size", "value": "20", "disabled": true }
+          ]
+        },
+        "description": "## GET `/bank_service_fees/get`\n\nList bank service fees from master. Joins `bank.name`.\n"
+      }
+    },
+    {
+      "name": "Create bank service fee",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "token", "value": "{{token}}", "type": "text" },
+            { "key": "requester", "value": "{{requester}}", "type": "text" },
+            { "key": "bank_id", "value": "{{bank_id}}", "type": "text" },
+            { "key": "percentage", "value": "3.00", "type": "text", "description": "Bank charge percent, e.g. 3.00" }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/bank_service_fees/create",
+          "host": ["{{base_url}}"],
+          "path": ["bank_service_fees", "create"]
+        },
+        "description": "## POST `/bank_service_fees/create`\n\nRequires `bank_id` (must exist on master `bank`) and `percentage`. Writes the same row to all 8 DBs.\n"
+      }
+    },
+    {
+      "name": "Update bank service fee",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "token", "value": "{{token}}", "type": "text" },
+            { "key": "requester", "value": "{{requester}}", "type": "text" },
+            { "key": "bank_service_fee_id", "value": "{{bank_service_fee_id}}", "type": "text" },
+            { "key": "bank_id", "value": "{{bank_id}}", "type": "text", "disabled": true },
+            { "key": "percentage", "value": "2.50", "type": "text", "disabled": true }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/bank_service_fees/update",
+          "host": ["{{base_url}}"],
+          "path": ["bank_service_fees", "update"]
+        },
+        "description": "## POST `/bank_service_fees/update`\n\nUpdates the row on master, then all other DBs.\n"
+      }
+    },
+    {
+      "name": "Delete bank service fee",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "token", "value": "{{token}}", "type": "text" },
+            { "key": "requester", "value": "{{requester}}", "type": "text" },
+            { "key": "bank_service_fee_id", "value": "{{bank_service_fee_id}}", "type": "text" }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/bank_service_fees/delete",
+          "host": ["{{base_url}}"],
+          "path": ["bank_service_fees", "delete"]
+        },
+        "description": "Soft-deletes (`is_deleted = 1`) on master, then all other DBs."
+      }
+    }
+  ]
+}

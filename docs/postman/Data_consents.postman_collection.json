@@ -1,0 +1,387 @@
+{
+  "info": {
+    "_postman_id": "c3d4e5f6-a7b8-9012-cdef-123456789012",
+    "name": "Data Consents CRUD",
+    "description": "# Data Consents API\n\nFull CRUD for the `data_consent` table with multipart **signature** file upload on create/update.\n\n## Auth\n- Header: `API-KEY` (required)\n- Body/query: `token`, `requester` (required on all endpoints)\n\n## Signature file (VM4)\n- Field name: `signature`\n- Type: file (form-data)\n- Allowed: PNG, JPEG, JPG, PDF\n- Max size: 5 MB\n- Uploaded via `upload_to_vm4()` to path `assets/data_consents/{id}/`\n- DB `signature` column stores the **full VM4 URL** (e.g. `https://file.myt-emr.com/assets/data_consents/1/....png`)\n- GET returns the same value as both `signature` and `signature_url`\n\n## Multi-branch sync\nCreate, update, and delete propagate to all branch databases:\n- `master` (0), `mobile` (1), `oakridge` (2), `mactan` (3), `consolacion` (4), `mantlewood` (7)\n\n- Returned `data_consent_id` is the **master** insert ID\n- Signature VM4 URL is synced to all branch DB rows with that ID\n- **GET** reads from **master only**\n- Create/update run a consistency check; mismatch returns `400`:\n  `\"Data inconsistency detected between master and {branch}.\"`\n",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost/cpci-business-ops-api"
+    },
+    {
+      "key": "api_key",
+      "value": "clinicaRiKOYqlwdTJ-lNedqS0k-it!395!-6ls1JXM7Vcc"
+    },
+    {
+      "key": "token",
+      "value": "{{token}}"
+    },
+    {
+      "key": "requester",
+      "value": "1"
+    }
+  ],
+  "item": [
+    {
+      "name": "Get data consents",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/data_consents/get?token={{token}}&requester={{requester}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "data_consents",
+            "get"
+          ],
+          "query": [
+            {
+              "key": "token",
+              "value": "{{token}}"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}"
+            },
+            {
+              "key": "data_consent_id",
+              "value": "",
+              "disabled": true
+            },
+            {
+              "key": "first_name",
+              "value": "",
+              "disabled": true
+            },
+            {
+              "key": "last_name",
+              "value": "",
+              "disabled": true
+            },
+            {
+              "key": "middle_name",
+              "value": "",
+              "disabled": true
+            },
+            {
+              "key": "date_of_birth",
+              "value": "",
+              "disabled": true
+            },
+            {
+              "key": "term",
+              "value": "",
+              "disabled": true
+            },
+            {
+              "key": "page",
+              "value": "1",
+              "disabled": true
+            },
+            {
+              "key": "data_size",
+              "value": "10",
+              "disabled": true
+            }
+          ]
+        },
+        "description": "## GET `/data_consents/get`\n\nReturns data consent records with optional filters.\n\n### Query params\n| Param | Required | Notes |\n|-------|----------|-------|\n| `token` | yes | Auth token |\n| `requester` | yes | User id |\n| `data_consent_id` | no | Filter by id |\n| `first_name` / `last_name` / `middle_name` / `date_of_birth` | no | Exact match filters |\n| `term` | no | Search first/middle/last name |\n| `page` | no | 1-based page |\n| `data_size` | no | Page size |\n\n### Multi-branch\nReads from **master database only**.\n\n### Signature URL\n`signature` and `signature_url` are the full VM4 URL."
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"size\": 1,\n  \"data\": [\n    {\n      \"id\": 1,\n      \"first_name\": \"Juan\",\n      \"last_name\": \"Dela Cruz\",\n      \"middle_name\": \"Santos\",\n      \"date_of_birth\": \"1990-05-15\",\n      \"is_data_privay_consent\": 1,\n      \"is_email_consent\": 1,\n      \"signature\": \"https://file.myt-emr.com/assets/data_consents/1/67890abc_1234567890.png\",\n      \"signature_url\": \"https://file.myt-emr.com/assets/data_consents/1/67890abc_1234567890.png\"\n    }\n  ]\n}"
+        },
+        {
+          "name": "Not Found",
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"error_messages\": [\"No data consents found.\"]\n}"
+        }
+      ]
+    },
+    {
+      "name": "Create data consent (with signature file)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "token",
+              "value": "{{token}}",
+              "type": "text"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}",
+              "type": "text"
+            },
+            {
+              "key": "first_name",
+              "value": "Juan",
+              "type": "text"
+            },
+            {
+              "key": "last_name",
+              "value": "Dela Cruz",
+              "type": "text"
+            },
+            {
+              "key": "middle_name",
+              "value": "Santos",
+              "type": "text"
+            },
+            {
+              "key": "date_of_birth",
+              "value": "1990-05-15",
+              "type": "text"
+            },
+            {
+              "key": "is_data_privay_consent",
+              "value": "1",
+              "type": "text"
+            },
+            {
+              "key": "is_email_consent",
+              "value": "1",
+              "type": "text"
+            },
+            {
+              "key": "signature",
+              "description": "Patient signature image (png/jpeg/jpg/pdf) \u2014 uploaded to VM4",
+              "type": "file",
+              "src": "signature.png"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/data_consents/create",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "data_consents",
+            "create"
+          ]
+        },
+        "description": "## POST `/data_consents/create`\n\nCreates a data consent record. Use **form-data** so the signature can be sent as a file.\n\n### Required form fields\n| Field | Type |\n|-------|------|\n| `token` | text |\n| `requester` | text |\n| `first_name` | text |\n| `last_name` | text |\n\n### Optional form fields\n| Field | Type | Notes |\n|-------|------|-------|\n| `middle_name` | text | |\n| `date_of_birth` | text | YYYY-MM-DD |\n| `is_data_privay_consent` | text | 0 or 1 |\n| `is_email_consent` | text | 0 or 1 |\n| `signature` | **file** | PNG/JPEG/JPG/PDF, max 5 MB \u2014 uploaded to VM4 |\n\n### Multi-branch\nInserts into master plus mobile, oakridge, mactan, consolacion, and mantlewood. Signature VM4 URL synced to all branch DBs."
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"data_consent_id\": 1,\n  \"message\": \"data consent added successfully.\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Update data consent (with signature file)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "token",
+              "value": "{{token}}",
+              "type": "text"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}",
+              "type": "text"
+            },
+            {
+              "key": "data_consent_id",
+              "value": "1",
+              "type": "text"
+            },
+            {
+              "key": "first_name",
+              "value": "Juan",
+              "type": "text"
+            },
+            {
+              "key": "last_name",
+              "value": "Dela Cruz",
+              "type": "text"
+            },
+            {
+              "key": "middle_name",
+              "value": "Santos",
+              "type": "text"
+            },
+            {
+              "key": "date_of_birth",
+              "value": "1990-05-15",
+              "type": "text"
+            },
+            {
+              "key": "is_data_privay_consent",
+              "value": "1",
+              "type": "text"
+            },
+            {
+              "key": "is_email_consent",
+              "value": "0",
+              "type": "text"
+            },
+            {
+              "key": "signature",
+              "description": "Optional new signature file \u2014 replaces existing VM4 URL",
+              "type": "file",
+              "src": "signature.png"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/data_consents/update",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "data_consents",
+            "update"
+          ]
+        },
+        "description": "## POST `/data_consents/update`\n\nUpdates a data consent record. Use **form-data** when uploading a new signature file.\n\n### Required\n- `token`, `requester`, `data_consent_id`\n\n### Multi-branch\nUpdates the same `data_consent_id` on all branch databases. Optional new signature file is uploaded to VM4; the new full URL replaces `signature` on all branches."
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"data_consent_id\": 1,\n  \"message\": \"data consent updated successfully.\"\n}"
+        },
+        {
+          "name": "Not Found",
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"error_messages\": [\"data consent is not found.\"]\n}"
+        }
+      ]
+    },
+    {
+      "name": "Delete data consent",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": {{requester}},\n  \"data_consent_id\": 1\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/data_consents/delete",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "data_consents",
+            "delete"
+          ]
+        },
+        "description": "## POST `/data_consents/delete`\n\nSoft-deletes a data consent (`is_deleted = 1`) on all branch databases.\n\n### Required JSON body\n- `token`, `requester`, `data_consent_id`"
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"message\": \"data consent is deleted.\"\n}"
+        }
+      ]
+    }
+  ]
+}

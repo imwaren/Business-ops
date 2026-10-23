@@ -1,0 +1,501 @@
+id,cost_center_id,date,type,remarks,total_debit,total_credit,status,is_migrated,added_by,added_on,is_deleted
+1,3,2026-01-01,payable_invoice,"NPK MEDICAL TRADING, INC. — 0126-000001",127500.0000,127500.0000,approved,1,0,2026-01-31 23:59:59,0
+2,3,2026-01-01,payable_invoice,"LAPU LAPU GRAND REALTY VENTURES, INC. — RFP No.# 3845-16",71229.2000,71229.2000,approved,1,0,2026-01-31 23:59:59,0
+3,3,2026-01-01,payable_invoice,"LAPU LAPU GRAND REALTY VENTURES, INC. — RFP No.# 3845-4",332102.4000,332102.4000,approved,1,0,2026-01-31 23:59:59,0
+4,3,2026-01-01,payable_payment,"Payment: LAPU LAPU GRAND REALTY VENTURES, INC. — 6000396814",0.0000,317276.4000,approved,1,0,2026-01-31 23:59:59,0
+5,3,2026-01-01,payable_payment,"Payment: LAPU LAPU GRAND REALTY VENTURES, INC. — 6000396839",0.0000,69957.2500,approved,1,0,2026-01-31 23:59:59,0
+6,3,2026-01-01,payable_payment,"Payment: LAPU LAPU GRAND REALTY VENTURES, INC. — RFP No.# 3845-16",69957.2500,0.0000,approved,1,0,2026-01-31 23:59:59,0
+7,3,2026-01-01,payable_payment,"Payment: LAPU LAPU GRAND REALTY VENTURES, INC. — RFP No.# 3845-4",317276.4000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+8,3,2026-01-02,journal_entry,"To Record Cash Sales Branches December 27, 2025 - To Record Cash Sales Branches December 27, 2025 — #43087",0.0000,24764.0000,approved,1,0,2026-01-31 23:59:59,0
+9,3,2026-01-02,journal_entry,"Sales Branches January 02, 2026 - Gcash Sales - January, 02 — #44037",204328.0000,204328.0000,approved,1,0,2026-01-31 23:59:59,0
+10,3,2026-01-02,payable_invoice,Island Central Mall — RFP No.# 4624,56000.0000,56000.0000,approved,1,0,2026-01-31 23:59:59,0
+11,3,2026-01-02,payable_invoice,"LAPU LAPU GRAND REALTY VENTURES, INC. — RFP No.# 4644",6720.0000,6720.0000,approved,1,0,2026-01-31 23:59:59,0
+12,3,2026-01-02,payable_payment,Payment: TONERPRO TRADING — 0525-068,4455.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+13,3,2026-01-02,payable_payment,Payment: CEBU SPIC & SPAN JANITORIAL SERVICES INC. — Online-010226,0.0000,168977.5300,approved,1,0,2026-01-31 23:59:59,0
+14,3,2026-01-02,payable_payment,Payment: SS7 SECURITY SERVICES CORPORATION — RFP No.# 3244,75782.9700,0.0000,approved,1,0,2026-01-31 23:59:59,0
+15,3,2026-01-02,payable_payment,Payment: CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 3957,2479.4000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+16,3,2026-01-02,payable_payment,Payment: VIRLEN T. MAHINAY — RFP No.# 4613,10035.2800,0.0000,approved,1,0,2026-01-31 23:59:59,0
+17,3,2026-01-02,payable_payment,Payment: Island Central Mall — RFP No.# 4624,53500.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+18,3,2026-01-02,payable_payment,Payment: Raiza Camille Nuer — RFP No.# 4631,3600.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+19,3,2026-01-02,payable_payment,Payment: REX YNAN PATALINGHUG — RFP No.# 4640,3800.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+20,3,2026-01-02,payable_payment,Payment: NICOLE KIMBERLY YU — RFP No.# 4641,3800.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+21,3,2026-01-02,payable_payment,"Payment: LAPU LAPU GRAND REALTY VENTURES, INC. — RFP No.# 4644",6600.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+22,3,2026-01-02,receivable_invoice,"Knowles Electronics Philippines - SORALLO, MARIECHU PUYOS | 12/22/2025 |Knowles Electronics Philippines| 5800- — M1917",5800.0000,5800.0000,approved,1,0,2026-01-31 23:59:59,0
+23,3,2026-01-02,receivable_invoice,"Etiqa Life and General Assurance Phillipines, Inc - LAPINGCAO, MA.CRISTALYN BAYLOSIS | 12/20/2025 |Etiqa Life and General Assurance Phillipines, Inc| 500- — M1918",500.0000,500.0000,approved,1,0,2026-01-31 23:59:59,0
+24,3,2026-01-02,receivable_invoice,"Indiana Aerospace University - BONTILAO, LEIZEL CATADMAN | 12/19/2025 |Indiana Aerospace University| 4280- — M1919",4280.0000,4280.0000,approved,1,0,2026-01-31 23:59:59,0
+25,3,2026-01-02,receivable_invoice,"Cooperative Health Management Federation - ANTIGUA, ZHE ALIVIA MARI - | 12/22/2025 |Cooperative Health Management Federation| 300- — M1920",300.0000,300.0000,approved,1,0,2026-01-31 23:59:59,0
+26,3,2026-01-02,receivable_invoice,"Results Manila Inc. - DELA SERNA, NEIL TRISTAN VAÑO | 12/22/2025 |Results Manila Inc. | 3100- — M1921",3100.0000,3100.0000,approved,1,0,2026-01-31 23:59:59,0
+27,3,2026-01-02,receivable_invoice,"Generali Life Assurance Philippines Inc - RECONADA, GINAFE SAGARINO | 12/22/2025 |Generali Life Assurance Philippines Inc| 600- — M1922",600.0000,600.0000,approved,1,0,2026-01-31 23:59:59,0
+28,3,2026-01-02,receivable_invoice,"Avega Managed Care, Inc - SORDILLA, BUENAVENTURA LAROA | 12/22/2025 |Avega Managed Care, Inc| 500- — M1923",500.0000,500.0000,approved,1,0,2026-01-31 23:59:59,0
+29,3,2026-01-02,receivable_invoice,"DIS Tech Phils, Inc - BINARAO, CARTER LAMBATING | 12/22/2025 |DIS TECH PHILS, INC| 950- — M1924",1900.0000,1900.0000,approved,1,0,2026-01-31 23:59:59,0
+30,3,2026-01-02,receivable_invoice,"United Coconut Planters Life Assurance Corporation - LOZANO, ERMA GODINEZ | 12/22/2025 |United Coconut Planters Life Assurance Corporation| 400- — M1925",4605.0000,4605.0000,approved,1,0,2026-01-31 23:59:59,0
+31,3,2026-01-02,receivable_invoice,"Philhealthcare, Inc - GUAZON, RIZA DOLAUTA | 12/18/2025 |Philhealthcare, Inc| 250- — M1926",1400.0000,1400.0000,approved,1,0,2026-01-31 23:59:59,0
+32,3,2026-01-02,receivable_invoice,"Value Care Health Systems, Inc. - RAGONOT, ARLIRAH SABALONES | 12/22/2025 |Value Care Health Systems, Inc.| 300- — M1927",2860.0000,2860.0000,approved,1,0,2026-01-31 23:59:59,0
+33,3,2026-01-02,receivable_invoice,"Maxicare Healthcare Corporation - MONTERONA, JAEIRON MARKORIE ATININ | 12/22/2025 |Maxicare Healthcare Corporation| 97- — M1929",24211.0000,24211.0000,approved,1,0,2026-01-31 23:59:59,0
+34,3,2026-01-02,receivable_invoice,"Life & Health Hmp Inc - CAPARAL, EDGIE MARIE EULO ESTRERA | 12/22/2025 |Life & Health Hmp Inc| 400- — M1930",23210.0000,23210.0000,approved,1,0,2026-01-31 23:59:59,0
+35,3,2026-01-02,receivable_invoice,"Insular Healthcare Inc - MAUNES, SHERRY MAE BORRES | 12/22/2025 |Insular Healthcare Inc| 500- — M1931",15330.0000,15330.0000,approved,1,0,2026-01-31 23:59:59,0
+36,3,2026-01-02,receivable_invoice,"Asalus Corporation - NUÑEZ, APPLE CABARCE | 12/22/2025 |Asalus Corporation| 310- — M1932",23575.0000,23575.0000,approved,1,0,2026-01-31 23:59:59,0
+37,3,2026-01-03,journal_entry,"Sales Branches January 03, 2026 - Gcash Sales - January, 03 — #44038",163255.0000,163255.0000,approved,1,0,2026-01-31 23:59:59,0
+38,3,2026-01-05,journal_entry,"To Record Cash Sales Branches January 02, 2025 - To Record Cash Sales Branches January 02, 2025 — #43101",0.0000,25462.0000,approved,1,0,2026-01-31 23:59:59,0
+39,3,2026-01-05,journal_entry,"To Record Cash Sales Branches January 03, 2025 - To Record Cash Sales Branches January 03, 2025 — #43102",0.0000,45948.0000,approved,1,0,2026-01-31 23:59:59,0
+40,3,2026-01-05,journal_entry,"Sales Branches January 05, 2026 - Gcash Sales - January, 05 — #48411",199540.0000,199540.0000,approved,1,0,2026-01-31 23:59:59,0
+41,3,2026-01-05,receivable_invoice,"Avega Managed Care, Inc - GONZALES, EVAR PEPITO | 12/23/2025 |Avega Managed Care, Inc| 500- — M1950",8860.0000,8860.0000,approved,1,0,2026-01-31 23:59:59,0
+42,3,2026-01-05,receivable_invoice,"Generali Life Assurance Philippines Inc - AGUIRRE, EMMA ENCISO | 12/23/2025 |Generali Life Assurance Philippines Inc| 600- — M1974",8040.0000,8040.0000,approved,1,0,2026-01-31 23:59:59,0
+43,3,2026-01-05,receivable_invoice,"Etiqa Life and General Assurance Phillipines, Inc - CABATINGAN, CHRISTOPHER EMBALZADO | 12/23/2025 |Etiqa Life and General Assurance Phillipines, Inc| 100- — M1975",1250.0000,1250.0000,approved,1,0,2026-01-31 23:59:59,0
+44,3,2026-01-05,receivable_invoice,"United Coconut Planters Life Assurance Corporation - EBUEZA, WENAEL MAE . | 12/23/2025 |United Coconut Planters Life Assurance Corporation| 180- — M1976",14395.0000,14395.0000,approved,1,0,2026-01-31 23:59:59,0
+45,3,2026-01-06,journal_entry,"To Record Cash Sales Branches January 05, 2025 - To Record Cash Sales Branches January 05, 2025 — #43364",0.0000,24396.0000,approved,1,0,2026-01-31 23:59:59,0
+46,3,2026-01-06,journal_entry,"Sales Branches January 06, 2026 - Gcash Sales - January, 06 — #48413",180591.0000,180591.0000,approved,1,0,2026-01-31 23:59:59,0
+47,3,2026-01-06,receivable_invoice,"Life & Health Hmp Inc - ASTORGA, SHEENA ROSE DIAZ | 12/23/2025 |Life & Health Hmp Inc| 180- — M1941",128700.0000,128700.0000,approved,1,0,2026-01-31 23:59:59,0
+48,3,2026-01-06,receivable_invoice,"Medicard Philippines Inc - BUSCATO, JOVELYN PELARETE | 12/27/2025 |Medicard Philippines Inc| 600- — M1942",12475.0000,12475.0000,approved,1,0,2026-01-31 23:59:59,0
+49,3,2026-01-06,receivable_invoice,"DIS Tech Phils, Inc - ALABA, KIMBER IAN CORTES | 12/26/2025 |DIS TECH PHILS, INC| 950- — M1943",950.0000,950.0000,approved,1,0,2026-01-31 23:59:59,0
+50,3,2026-01-06,receivable_invoice,"Value Care Health Systems, Inc. - GOMEZ, JANINE GRACE CAINGLET | 12/29/2025 |Value Care Health Systems, Inc.| 100- — M1944",5410.0000,5410.0000,approved,1,0,2026-01-31 23:59:59,0
+51,3,2026-01-06,receivable_invoice,"Results Manila Inc. - DELA SERNA, NEIL TRISTAN VAÑO | 12/29/2025 |Results Manila Inc. | 500- — M1945",500.0000,500.0000,approved,1,0,2026-01-31 23:59:59,0
+52,3,2026-01-06,receivable_invoice,"Health Plan Philippines, Inc - CASAS, JAN TYLER DICHOSA | 12/27/2025 |Health Plan Philippines, Inc| 600- — M1946",1350.0000,1350.0000,approved,1,0,2026-01-31 23:59:59,0
+53,3,2026-01-06,receivable_invoice,"Taskpro Outsourcing OPC - IGOT JR, GEORGE GUMAHAD | 12/23/2025 |Taskpro Outsourcing OPC| 950- — M1947",1900.0000,1900.0000,approved,1,0,2026-01-31 23:59:59,0
+54,3,2026-01-06,receivable_invoice,"PACIFIC CROSS INSURANCE, INC. - VILLAMOR, RALPHFHEIL DURAN | 12/27/2025 |Pacific Cross Insurance, Inc.| 300- — M1948",300.0000,300.0000,approved,1,0,2026-01-31 23:59:59,0
+55,3,2026-01-06,receivable_invoice,"Knowles Electronics Philippines - CURPIN, MARKDWEL TARAY | 12/26/2025 |Knowles Electronics Philippines| 480- — M1949",480.0000,480.0000,approved,1,0,2026-01-31 23:59:59,0
+56,3,2026-01-06,receivable_invoice,"Insular Healthcare Inc - AMADO, RIZABELLA TALINGTING | 12/27/2025 |Insular Healthcare Inc| 100- — M1972",104280.0000,104280.0000,approved,1,0,2026-01-31 23:59:59,0
+57,3,2026-01-06,receivable_invoice,"Cooperative Health Management Federation - EMPERADO, MERIAM LOQUIAS | 12/29/2025 |Cooperative Health Management Federation| 300- — M1973",3650.0000,3650.0000,approved,1,0,2026-01-31 23:59:59,0
+58,3,2026-01-06,receivable_invoice,"Maxicare Healthcare Corporation - MIÑOZA, SYLYN PIDO | 12/26/2025 |Maxicare Healthcare Corporation| 150- — M1980",102398.0000,102398.0000,approved,1,0,2026-01-31 23:59:59,0
+59,3,2026-01-06,receivable_invoice,"Asalus Corporation - SUMARAGO, JARRED SIMON PARDO | 12/26/2025 |Asalus Corporation| 140- — M1981",33300.0000,33300.0000,approved,1,0,2026-01-31 23:59:59,0
+60,3,2026-01-06,receivable_invoice,"Philhealthcare, Inc - CAPUA, LORNA UROT | 12/26/2025 |Philhealthcare, Inc| 250- — M1985",15680.0000,15680.0000,approved,1,0,2026-01-31 23:59:59,0
+61,3,2026-01-06,receivable_payment,Payment: Life & Health Hmp Inc — 002000027815,14770.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+62,3,2026-01-06,receivable_payment,Payment: Life & Health Hmp Inc — 002000027819,14621.6000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+63,3,2026-01-06,receivable_payment,Payment: Life & Health Hmp Inc — 002000027820,13400.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+64,3,2026-01-06,receivable_payment,Payment: Life & Health Hmp Inc — 002000028296,400.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+65,3,2026-01-06,receivable_payment,Payment: Life & Health Hmp Inc — 002000155961,70741.3000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+66,3,2026-01-06,receivable_payment,Payment: Life & Health Hmp Inc — M0804,0.0000,400.0000,approved,1,0,2026-01-31 23:59:59,0
+67,3,2026-01-06,receivable_payment,Payment: Life & Health Hmp Inc — M1540,0.0000,19056.1000,approved,1,0,2026-01-31 23:59:59,0
+68,3,2026-01-06,receivable_payment,Payment: Life & Health Hmp Inc — M1557,0.0000,7232.4000,approved,1,0,2026-01-31 23:59:59,0
+69,3,2026-01-06,receivable_payment,Payment: Life & Health Hmp Inc — M1574,0.0000,24117.8000,approved,1,0,2026-01-31 23:59:59,0
+70,3,2026-01-06,receivable_payment,Payment: Life & Health Hmp Inc — M1590,0.0000,2891.0000,approved,1,0,2026-01-31 23:59:59,0
+71,3,2026-01-06,receivable_payment,Payment: Life & Health Hmp Inc — M1604,0.0000,6076.0000,approved,1,0,2026-01-31 23:59:59,0
+72,3,2026-01-06,receivable_payment,Payment: Life & Health Hmp Inc — M1618,0.0000,20131.8000,approved,1,0,2026-01-31 23:59:59,0
+73,3,2026-01-06,receivable_payment,Payment: Life & Health Hmp Inc — M1631,0.0000,10722.0000,approved,1,0,2026-01-31 23:59:59,0
+74,3,2026-01-06,receivable_payment,Payment: Life & Health Hmp Inc — M1649,0.0000,18874.4000,approved,1,0,2026-01-31 23:59:59,0
+75,3,2026-01-06,receivable_payment,Payment: Life & Health Hmp Inc — M1666,0.0000,5607.4000,approved,1,0,2026-01-31 23:59:59,0
+76,3,2026-01-06,receivable_payment,Payment: Insular Healthcare Inc — M1679,58564.8000,58564.8000,approved,1,0,2026-01-31 23:59:59,0
+77,3,2026-01-06,receivable_payment,Payment: Insular Healthcare Inc — M1712,175331.8000,175331.8000,approved,1,0,2026-01-31 23:59:59,0
+78,3,2026-01-06,receivable_payment,Payment: Insular Healthcare Inc — M1739,86117.5000,86117.5000,approved,1,0,2026-01-31 23:59:59,0
+79,3,2026-01-06,receivable_payment,Payment: Insular Healthcare Inc — M1754,158691.4000,158691.4000,approved,1,0,2026-01-31 23:59:59,0
+80,3,2026-01-06,receivable_payment,Payment: Insular Healthcare Inc — M1757,490.0000,490.0000,approved,1,0,2026-01-31 23:59:59,0
+81,3,2026-01-06,receivable_payment,Payment: Insular Healthcare Inc — M1777,86088.1000,86088.1000,approved,1,0,2026-01-31 23:59:59,0
+82,3,2026-01-07,journal_entry,"To Record Cash Sales Branches January 06, 2025 - To Record Cash Sales Branches January 06, 2025 — #43598",0.0000,25264.0000,approved,1,0,2026-01-31 23:59:59,0
+83,3,2026-01-07,journal_entry,"Sales Branches January 07, 2026 - Gcash Sales - January, 07 — #48415",202180.0000,202180.0000,approved,1,0,2026-01-31 23:59:59,0
+84,3,2026-01-07,receivable_credit_note,Life & Health Hmp Inc — CN-4166,8.0000,8.0000,approved,1,0,2026-01-31 23:59:59,0
+85,3,2026-01-07,receivable_credit_note,Life & Health Hmp Inc — CN-4167,293.8000,293.8000,approved,1,0,2026-01-31 23:59:59,0
+86,3,2026-01-07,receivable_credit_note,Life & Health Hmp Inc — CN-4168,59.0000,59.0000,approved,1,0,2026-01-31 23:59:59,0
+87,3,2026-01-07,receivable_credit_note,Life & Health Hmp Inc — CN-4169,147.6000,147.6000,approved,1,0,2026-01-31 23:59:59,0
+88,3,2026-01-07,receivable_credit_note,Life & Health Hmp Inc — CN-4170,380.9000,380.9000,approved,1,0,2026-01-31 23:59:59,0
+89,3,2026-01-07,receivable_credit_note,Life & Health Hmp Inc — CN-4171,258.2000,258.2000,approved,1,0,2026-01-31 23:59:59,0
+90,3,2026-01-07,receivable_credit_note,Life & Health Hmp Inc — CN-4172,98.0000,98.0000,approved,1,0,2026-01-31 23:59:59,0
+91,3,2026-01-07,receivable_credit_note,Life & Health Hmp Inc — CN-4173,72.6000,72.6000,approved,1,0,2026-01-31 23:59:59,0
+92,3,2026-01-07,receivable_credit_note,Life & Health Hmp Inc — CN-4174,125.6000,125.6000,approved,1,0,2026-01-31 23:59:59,0
+93,3,2026-01-07,receivable_credit_note,Life & Health Hmp Inc — CN-4175,116.0000,116.0000,approved,1,0,2026-01-31 23:59:59,0
+94,3,2026-01-07,receivable_credit_note,Life & Health Hmp Inc — CN-4176,182.4000,182.4000,approved,1,0,2026-01-31 23:59:59,0
+95,3,2026-01-07,receivable_credit_note,Life & Health Hmp Inc — CN-4185,1690.1000,1690.1000,approved,1,0,2026-01-31 23:59:59,0
+96,3,2026-01-07,receivable_credit_note,Life & Health Hmp Inc — CN-4186,1152.8000,1152.8000,approved,1,0,2026-01-31 23:59:59,0
+97,3,2026-01-07,receivable_credit_note,Life & Health Hmp Inc — CN-4187,6603.6200,6603.6200,approved,1,0,2026-01-31 23:59:59,0
+98,3,2026-01-07,receivable_credit_note,Life & Health Hmp Inc — CN-4189,2021.7000,2021.7000,approved,1,0,2026-01-31 23:59:59,0
+99,3,2026-01-07,receivable_credit_note,"Avega Managed Care, Inc — CN-4190",19.6000,19.6000,approved,1,0,2026-01-31 23:59:59,0
+100,3,2026-01-07,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-4166,8.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+101,3,2026-01-07,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-4167,293.8000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+102,3,2026-01-07,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-4168,59.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+103,3,2026-01-07,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-4169,147.6000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+104,3,2026-01-07,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-4170,380.9000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+105,3,2026-01-07,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-4171,258.2000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+106,3,2026-01-07,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-4172,98.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+107,3,2026-01-07,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-4173,72.6000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+108,3,2026-01-07,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-4174,125.6000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+109,3,2026-01-07,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-4175,116.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+110,3,2026-01-07,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-4176,182.4000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+111,3,2026-01-07,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-4185,1690.1000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+112,3,2026-01-07,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-4186,1152.8000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+113,3,2026-01-07,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-4187,6603.6200,0.0000,approved,1,0,2026-01-31 23:59:59,0
+114,3,2026-01-07,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-4189,2021.7000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+115,3,2026-01-07,receivable_credit_note_allocation,"Avega Managed Care, Inc — CN-4190",19.6000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+116,3,2026-01-07,receivable_credit_note_allocation,Life & Health Hmp Inc — M1540,0.0000,388.9000,approved,1,0,2026-01-31 23:59:59,0
+117,3,2026-01-07,receivable_credit_note_allocation,Life & Health Hmp Inc — M1557,0.0000,147.6000,approved,1,0,2026-01-31 23:59:59,0
+118,3,2026-01-07,receivable_credit_note_allocation,Life & Health Hmp Inc — M1574,0.0000,492.2000,approved,1,0,2026-01-31 23:59:59,0
+119,3,2026-01-07,receivable_credit_note_allocation,Life & Health Hmp Inc — M1590,0.0000,59.0000,approved,1,0,2026-01-31 23:59:59,0
+120,3,2026-01-07,receivable_credit_note_allocation,Life & Health Hmp Inc — M1604,0.0000,124.0000,approved,1,0,2026-01-31 23:59:59,0
+121,3,2026-01-07,receivable_credit_note_allocation,Life & Health Hmp Inc — M1618,0.0000,258.2000,approved,1,0,2026-01-31 23:59:59,0
+122,3,2026-01-07,receivable_credit_note_allocation,Life & Health Hmp Inc — M1631,0.0000,98.0000,approved,1,0,2026-01-31 23:59:59,0
+123,3,2026-01-07,receivable_credit_note_allocation,Life & Health Hmp Inc — M1649,0.0000,1278.4000,approved,1,0,2026-01-31 23:59:59,0
+124,3,2026-01-07,receivable_credit_note_allocation,Life & Health Hmp Inc — M1666,0.0000,1762.7000,approved,1,0,2026-01-31 23:59:59,0
+125,3,2026-01-07,receivable_credit_note_allocation,"Avega Managed Care, Inc — M1674",0.0000,19.6000,approved,1,0,2026-01-31 23:59:59,0
+126,3,2026-01-07,receivable_credit_note_allocation,Life & Health Hmp Inc — M1682,0.0000,2080.7000,approved,1,0,2026-01-31 23:59:59,0
+127,3,2026-01-07,receivable_credit_note_allocation,Life & Health Hmp Inc — M1709,0.0000,6987.1200,approved,1,0,2026-01-31 23:59:59,0
+128,3,2026-01-07,receivable_invoice,"Insular Healthcare Inc - BORBAJO, MARY JANE BONTUYAN | 12/19/2025 |Insular Healthcare Inc| 500- — M1982",500.0000,500.0000,approved,1,0,2026-01-31 23:59:59,0
+129,3,2026-01-07,receivable_invoice,"Generali Life Assurance Philippines Inc - BOLIVAR, JONARLY OYAO | 12/20/2025 |Generali Life Assurance Philippines Inc| 920- — M1983",920.0000,920.0000,approved,1,0,2026-01-31 23:59:59,0
+130,3,2026-01-07,receivable_invoice,"Tamiya Philippines, Inc - ENARIO, CHASNEY SIMENE | 12/20/2025 |Tamiya Philippines, Inc| 700- — M1984",700.0000,700.0000,approved,1,0,2026-01-31 23:59:59,0
+131,3,2026-01-07,receivable_invoice,"Tamiya Philippines, Inc - ESPINOSA, JESSIE LUMOKSO | 12/23/2025 |Tamiya Philippines, Inc| 700- — M1988",116900.0000,116900.0000,approved,1,0,2026-01-31 23:59:59,0
+132,3,2026-01-07,receivable_payment,"Payment: Avega Managed Care, Inc — M1674",980.0000,980.0000,approved,1,0,2026-01-31 23:59:59,0
+133,3,2026-01-08,journal_entry,"To Record Cash Sales Branches January 07, 2025 - To Record Cash Sales Branches January 07, 2025 — #44028",0.0000,36424.0000,approved,1,0,2026-01-31 23:59:59,0
+134,3,2026-01-08,journal_entry,"Sales Branches January 08, 2026 - Gcash Sales - January, 08 — #48417",204615.0000,204615.0000,approved,1,0,2026-01-31 23:59:59,0
+135,3,2026-01-08,payable_invoice,PHILIPPINE HEALTH INSURANCE CORPORATION - Payment for PHIC Contribution for the month of December 2025  (Employer Share) — RFP No.# 4664,17625.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+136,3,2026-01-08,payable_invoice,HOME DEVELOPMENT MUTUAL FUND - Payment for HDMF mandatory contribution for the month of December 2025 (employer share) — RFP No.# 4666,5800.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+137,3,2026-01-08,payable_payment,Payment: NEW KEEN'S TRADING — 1225-000520,21942.3200,0.0000,approved,1,0,2026-01-31 23:59:59,0
+138,3,2026-01-08,payable_payment,"Payment: BEROVAN MARKETING, INC. — 1225-000540",46729.0200,0.0000,approved,1,0,2026-01-31 23:59:59,0
+139,3,2026-01-08,payable_payment,"Payment: BEROVAN MARKETING, INC. — 1225-000541",53309.7300,0.0000,approved,1,0,2026-01-31 23:59:59,0
+140,3,2026-01-08,payable_payment,Payment: NEW KEEN'S TRADING — 420691,0.0000,21942.3200,approved,1,0,2026-01-31 23:59:59,0
+141,3,2026-01-08,payable_payment,"Payment: BEROVAN MARKETING, INC. — 420693",0.0000,53309.7300,approved,1,0,2026-01-31 23:59:59,0
+142,3,2026-01-08,payable_payment,"Payment: BEROVAN MARKETING, INC. — 420695",0.0000,46729.0200,approved,1,0,2026-01-31 23:59:59,0
+143,3,2026-01-08,receivable_credit_note,"Asalus Corporation - REYES, DOREN GRACE OMPAD,, | 04/14/2025 | Asalus Corporation| Consultation-ANG-ANGAN, HARVEY — CN-4192",500.0000,500.0000,approved,1,0,2026-01-31 23:59:59,0
+144,3,2026-01-08,receivable_credit_note_allocation,Asalus Corporation — CN-4192,500.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+145,3,2026-01-08,receivable_credit_note_allocation,Asalus Corporation — M0792,0.0000,500.0000,approved,1,0,2026-01-31 23:59:59,0
+146,3,2026-01-08,receivable_invoice,"IMS Wellth Care, Inc. - GIBANIM, CARMELA ANN VILBAR | 01/05/2026 |IMS Wellth Care, Inc.| 400- — M1900",400.0000,400.0000,approved,1,0,2026-01-31 23:59:59,0
+147,3,2026-01-08,receivable_invoice,"United Coconut Planters Life Assurance Corporation - BONGHANOY, HANNAH GRACE DAMPIL | 01/05/2026 |United Coconut Planters Life Assurance Corporation| 400- — M1904",9900.0000,9900.0000,approved,1,0,2026-01-31 23:59:59,0
+148,3,2026-01-08,receivable_invoice,"Tamiya Philippines, Inc - CONEJOS, LLOYD CAPAROS | 01/02/2026 |Tamiya Philippines, Inc| 700- — M1905",9100.0000,9100.0000,approved,1,0,2026-01-31 23:59:59,0
+149,3,2026-01-08,receivable_invoice,"Avega Managed Care, Inc - ELCAMEL, IVANN JEREMY PLAMAD | 01/02/2026 |Avega Managed Care, Inc| 500- — M1906",21005.0000,21005.0000,approved,1,0,2026-01-31 23:59:59,0
+150,3,2026-01-08,receivable_invoice,"Philhealthcare, Inc - ALGAR, PAUL SMITH BALORO | 01/02/2026 |Philhealthcare, Inc| 500- — M1907",4870.0000,4870.0000,approved,1,0,2026-01-31 23:59:59,0
+151,3,2026-01-08,receivable_invoice,"Asalus Corporation - RECENTES, KEVIN JOHN AMILASAN | 01/02/2026 |Asalus Corporation| 440- — M1908",41244.0000,41244.0000,approved,1,0,2026-01-31 23:59:59,0
+152,3,2026-01-08,receivable_invoice,"Cooperative Health Management Federation - TORREJOS, NELGINA CAÑAS | 01/02/2026 |Cooperative Health Management Federation| 300- — M1936",8100.0000,8100.0000,approved,1,0,2026-01-31 23:59:59,0
+153,3,2026-01-08,receivable_invoice,"Generali Life Assurance Philippines Inc - MAGPANTAY, MA. CRISTINA SANDOVAL | 01/02/2026 |Generali Life Assurance Philippines Inc| 600- — M1937",8690.0000,8690.0000,approved,1,0,2026-01-31 23:59:59,0
+154,3,2026-01-08,receivable_invoice,"Maxicare Healthcare Corporation - BOQUIREN, MA. NATASHA DIY | 01/05/2026 |Maxicare Healthcare Corporation| 150- — M1938",99266.0000,99266.0000,approved,1,0,2026-01-31 23:59:59,0
+155,3,2026-01-08,receivable_invoice,"Insular Healthcare Inc - ABAÑO, ELIANA LOUISE ABIGAIL APIZAN | 01/03/2026 |Insular Healthcare Inc| 100- — M1939",90070.0000,90070.0000,approved,1,0,2026-01-31 23:59:59,0
+156,3,2026-01-08,receivable_invoice,"Amaphil-FAO Lawina Company Limited Inc - DEGAMO, EDMAR APARI | 01/03/2026 |Amaphil-FAO Lawina Company Limited Inc| 600- — M1977",600.0000,600.0000,approved,1,0,2026-01-31 23:59:59,0
+157,3,2026-01-08,receivable_invoice,"PACIFIC CROSS INSURANCE, INC. - MORTEJO, JO-ANN TUMULAK | 01/03/2026 |Pacific Cross Insurance, Inc.| 550- — M1978",550.0000,550.0000,approved,1,0,2026-01-31 23:59:59,0
+158,3,2026-01-08,receivable_invoice,"Lacson & Lacson Insurance Brokers Inc - RICARDO, ALVIN GILLERA | 01/03/2026 |Lacson & Lacson Insurance Brokers Inc| 1290- — M1979",12280.0000,12280.0000,approved,1,0,2026-01-31 23:59:59,0
+159,3,2026-01-08,receivable_invoice,"DIS Tech Phils, Inc - DELPRADO, NENA DEMECILLO | 01/05/2026 |DIS Tech Phils, Inc| 950- — M1986",950.0000,950.0000,approved,1,0,2026-01-31 23:59:59,0
+160,3,2026-01-08,receivable_invoice,"Value Care Health Systems, Inc. - HERNANDEZ, JENNIFER AMISTAD | 01/05/2026 |Value Care Health Systems, Inc.| 400- — M1987",400.0000,400.0000,approved,1,0,2026-01-31 23:59:59,0
+161,3,2026-01-08,receivable_invoice,"Medicard Philippines Inc - MANGANAR, EDNA VILLADORES | 01/05/2026 |Medicard Philippines Inc| 600- — M1989",6050.0000,6050.0000,approved,1,0,2026-01-31 23:59:59,0
+162,3,2026-01-08,receivable_invoice,"Life & Health Hmp Inc - POGOY, ROSYL CAÑETE | 01/02/2026 |Life & Health Hmp Inc| 390- — M1990",87871.0000,87871.0000,approved,1,0,2026-01-31 23:59:59,0
+163,3,2026-01-08,receivable_invoice,"IMS Wellth Care, Inc. - GIBANIM, CARMELA ANN VILBAR | 01/05/2026 |IMS Wellth Care, Inc.| 400- — M2110",400.0000,400.0000,approved,1,0,2026-01-31 23:59:59,0
+164,3,2026-01-09,journal_entry,"To Record Cash Sales Branches January 09, 2025 - To Record Cash Sales Branches January 09, 2025 — #44123",0.0000,28331.0000,approved,1,0,2026-01-31 23:59:59,0
+165,3,2026-01-09,journal_entry,"Sales Branches January 09, 2026 - Gcash Sales - January, 09 — #48419",181028.0000,181028.0000,approved,1,0,2026-01-31 23:59:59,0
+166,3,2026-01-09,payable_invoice,LEMUELA EVA A. ABECIA — RFP No.# 4549,13100.0000,13100.0000,approved,1,0,2026-01-31 23:59:59,0
+167,3,2026-01-09,payable_payment,Payment: MEDGISTIX CORPORATION — 1025-000349,16848.2100,0.0000,approved,1,0,2026-01-31 23:59:59,0
+168,3,2026-01-09,payable_payment,Payment: MEDGISTIX CORPORATION — 1025-000350,1201.1800,0.0000,approved,1,0,2026-01-31 23:59:59,0
+169,3,2026-01-09,payable_payment,Payment: MEDGISTIX CORPORATION — 1025-000351,28230.6700,0.0000,approved,1,0,2026-01-31 23:59:59,0
+170,3,2026-01-09,payable_payment,Payment: MEDGISTIX CORPORATION — 1025-000352,20163.3500,0.0000,approved,1,0,2026-01-31 23:59:59,0
+171,3,2026-01-09,payable_payment,Payment: MEDGISTIX CORPORATION — 1025-000353,74554.3400,0.0000,approved,1,0,2026-01-31 23:59:59,0
+172,3,2026-01-09,payable_payment,"Payment: SECURITY AND FORENSIC ENTERPRISES, INC. — 1125-000371",15857.1400,0.0000,approved,1,0,2026-01-31 23:59:59,0
+173,3,2026-01-09,payable_payment,Payment: MEDGISTIX CORPORATION — Online-010926,0.0000,400684.7900,approved,1,0,2026-01-31 23:59:59,0
+174,3,2026-01-09,payable_payment,Payment: LEMUELA EVA A. ABECIA — RFP No.# 4549,13100.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+175,3,2026-01-09,payable_payment,Payment: CG.IM ARCHITECTURAL DESIGN SERVICES — RFP No.# 4551,5000.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+176,3,2026-01-09,payable_payment,"Payment: LAPU LAPU GRAND REALTY VENTURES, INC. — RFP No.# 4614",225729.9000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+177,3,2026-01-09,receivable_payment,Payment: United Coconut Planters Life Assurance Corporation — M0969,18561.2000,18561.2000,approved,1,0,2026-01-31 23:59:59,0
+178,3,2026-01-09,receivable_payment,Payment: United Coconut Planters Life Assurance Corporation — M0985-1,1176.0000,1176.0000,approved,1,0,2026-01-31 23:59:59,0
+179,3,2026-01-09,receivable_payment,Payment: United Coconut Planters Life Assurance Corporation — M0998,3596.6000,3596.6000,approved,1,0,2026-01-31 23:59:59,0
+180,3,2026-01-09,receivable_payment,Payment: United Coconut Planters Life Assurance Corporation — M1009,4410.0000,4410.0000,approved,1,0,2026-01-31 23:59:59,0
+181,3,2026-01-09,receivable_payment,Payment: United Coconut Planters Life Assurance Corporation — M1033,392.0000,392.0000,approved,1,0,2026-01-31 23:59:59,0
+182,3,2026-01-09,receivable_payment,Payment: United Coconut Planters Life Assurance Corporation — M1046,2352.0000,2352.0000,approved,1,0,2026-01-31 23:59:59,0
+183,3,2026-01-09,receivable_payment,Payment: United Coconut Planters Life Assurance Corporation — M1056,12960.5000,12960.5000,approved,1,0,2026-01-31 23:59:59,0
+184,3,2026-01-09,receivable_payment,Payment: United Coconut Planters Life Assurance Corporation — M1074,5007.8000,5007.8000,approved,1,0,2026-01-31 23:59:59,0
+185,3,2026-01-09,receivable_payment,Payment: United Coconut Planters Life Assurance Corporation — M1082,3763.2000,3763.2000,approved,1,0,2026-01-31 23:59:59,0
+186,3,2026-01-09,receivable_payment,Payment: United Coconut Planters Life Assurance Corporation — M1090,2214.8000,2214.8000,approved,1,0,2026-01-31 23:59:59,0
+187,3,2026-01-09,receivable_payment,Payment: United Coconut Planters Life Assurance Corporation — M1104,14116.9000,14116.9000,approved,1,0,2026-01-31 23:59:59,0
+188,3,2026-01-09,receivable_payment,Payment: United Coconut Planters Life Assurance Corporation — M1117,1989.4000,1989.4000,approved,1,0,2026-01-31 23:59:59,0
+189,3,2026-01-09,receivable_payment,Payment: United Coconut Planters Life Assurance Corporation — M1150,3420.2000,3420.2000,approved,1,0,2026-01-31 23:59:59,0
+190,3,2026-01-09,receivable_payment,Payment: United Coconut Planters Life Assurance Corporation — M1164,9339.4000,9339.4000,approved,1,0,2026-01-31 23:59:59,0
+191,3,2026-01-09,receivable_payment,Payment: United Coconut Planters Life Assurance Corporation — M1177,11662.0000,11662.0000,approved,1,0,2026-01-31 23:59:59,0
+192,3,2026-01-09,receivable_payment,Payment: United Coconut Planters Life Assurance Corporation — M1189,2940.0000,2940.0000,approved,1,0,2026-01-31 23:59:59,0
+193,3,2026-01-09,receivable_payment,Payment: United Coconut Planters Life Assurance Corporation — M1197,18017.3000,18017.3000,approved,1,0,2026-01-31 23:59:59,0
+194,3,2026-01-09,receivable_payment,Payment: United Coconut Planters Life Assurance Corporation — M1264,607.6000,607.6000,approved,1,0,2026-01-31 23:59:59,0
+195,3,2026-01-09,receivable_payment,Payment: Cooperative Health Management Federation — M1732,16130.8000,16130.8000,approved,1,0,2026-01-31 23:59:59,0
+196,3,2026-01-09,receivable_payment,Payment: Cooperative Health Management Federation — M1749,25068.4000,25068.4000,approved,1,0,2026-01-31 23:59:59,0
+197,3,2026-01-09,receivable_payment,Payment: Cooperative Health Management Federation — M1769,1901.2000,1901.2000,approved,1,0,2026-01-31 23:59:59,0
+198,3,2026-01-10,journal_entry,"Sales Branches January 10, 2026 - Gcash Sales - January, 10 — #48421",306507.0000,306507.0000,approved,1,0,2026-01-31 23:59:59,0
+199,3,2026-01-10,payable_payment,"Payment: NPK MEDICAL TRADING, INC. — 0126-000001",126361.6100,126361.6100,approved,1,0,2026-01-31 23:59:59,0
+200,3,2026-01-10,receivable_payment,Payment: Life & Health Hmp Inc — M0135,392.0000,392.0000,approved,1,0,2026-01-31 23:59:59,0
+201,3,2026-01-10,receivable_payment,Payment: Life & Health Hmp Inc — M1682,2891.0000,2891.0000,approved,1,0,2026-01-31 23:59:59,0
+202,3,2026-01-10,receivable_payment,Payment: Life & Health Hmp Inc — M1709,77351.5000,77351.5000,approved,1,0,2026-01-31 23:59:59,0
+203,3,2026-01-10,receivable_payment,Payment: Life & Health Hmp Inc — M1737-1,219539.3000,219539.3000,approved,1,0,2026-01-31 23:59:59,0
+204,3,2026-01-12,journal_entry,"To Record Cash Sales Branches January 09, 2025 - To Record Cash Sales Branches January 09, 2025 — #44186",0.0000,19872.0000,approved,1,0,2026-01-31 23:59:59,0
+205,3,2026-01-12,journal_entry,"To Record Cash Sales Branches January 10, 2025 - To Record Cash Sales Branches January 10, 2025 — #44187",0.0000,31620.0000,approved,1,0,2026-01-31 23:59:59,0
+206,3,2026-01-12,journal_entry,"Sales Branches January 12, 2026 - Gcash Sales - January, 12 — #48424",297371.0000,297371.0000,approved,1,0,2026-01-31 23:59:59,0
+207,3,2026-01-12,payable_invoice,DUANE AGUILAR — RFP No.# 4716-1,118152.0000,118152.0000,approved,1,0,2026-01-31 23:59:59,0
+208,3,2026-01-12,payable_invoice,JAN LOUIE GATILLO — RFP No.# 4716-10,35631.0000,35631.0000,approved,1,0,2026-01-31 23:59:59,0
+209,3,2026-01-12,payable_invoice,HARVEY ANGA-ANGAN — RFP No.# 4716-11,22896.0000,22896.0000,approved,1,0,2026-01-31 23:59:59,0
+210,3,2026-01-12,payable_invoice,CYRIL VILLANUEVA — RFP No.# 4716-12,60597.0000,60597.0000,approved,1,0,2026-01-31 23:59:59,0
+211,3,2026-01-12,payable_invoice,VIENNA LUZ P. CUBILLAN — RFP No.# 4716-13,5940.0000,5940.0000,approved,1,0,2026-01-31 23:59:59,0
+212,3,2026-01-12,payable_invoice,CINDY S. SOLIS — RFP No.# 4716-14,4797.0000,4797.0000,approved,1,0,2026-01-31 23:59:59,0
+213,3,2026-01-12,payable_invoice,ANDRE LUIS E. NATAVIO — RFP No.# 4716-15,10242.0000,10242.0000,approved,1,0,2026-01-31 23:59:59,0
+214,3,2026-01-12,payable_invoice,LLOYD VINCENT M. BASS — RFP No.# 4716-16,19533.5000,19533.5000,approved,1,0,2026-01-31 23:59:59,0
+215,3,2026-01-12,payable_invoice,JONATHAN SARTE — RFP No.# 4716-17,60066.0000,60066.0000,approved,1,0,2026-01-31 23:59:59,0
+216,3,2026-01-12,payable_invoice,HAROLD JAMES ESTRADA — RFP No.# 4716-18,29132.9500,29132.9500,approved,1,0,2026-01-31 23:59:59,0
+217,3,2026-01-12,payable_invoice,PIERRE OUANO — RFP No.# 4716-19,106022.1500,106022.1500,approved,1,0,2026-01-31 23:59:59,0
+218,3,2026-01-12,payable_invoice,LICILLE S. KILANTANG — RFP No.# 4716-2,67140.0000,67140.0000,approved,1,0,2026-01-31 23:59:59,0
+219,3,2026-01-12,payable_invoice,SEAN SINDO — RFP No.# 4716-20,12853.0000,12853.0000,approved,1,0,2026-01-31 23:59:59,0
+220,3,2026-01-12,payable_invoice,Kathrina Aseanne Acapulco Gomez — RFP No.# 4716-21,7474.0000,7474.0000,approved,1,0,2026-01-31 23:59:59,0
+221,3,2026-01-12,payable_invoice,JAN ANDREI FLORES — RFP No.# 4716-22,2000.0000,2000.0000,approved,1,0,2026-01-31 23:59:59,0
+222,3,2026-01-12,payable_invoice,JENNIFER DEL CASTILLO — RFP No.# 4716-23,13279.6000,13279.6000,approved,1,0,2026-01-31 23:59:59,0
+223,3,2026-01-12,payable_invoice,CELESTE E. QUIJANO — RFP No.# 4716-24,3943.8000,3943.8000,approved,1,0,2026-01-31 23:59:59,0
+224,3,2026-01-12,payable_invoice,JENNIFER L. CAMALONGAY — RFP No.# 4716-25,33592.5000,33592.5000,approved,1,0,2026-01-31 23:59:59,0
+225,3,2026-01-12,payable_invoice,JEANETTE BALAGA — RFP No.# 4716-26,44464.5000,44464.5000,approved,1,0,2026-01-31 23:59:59,0
+226,3,2026-01-12,payable_invoice,LEMUELA EVA A. ABECIA — RFP No.# 4716-27,11098.5000,11098.5000,approved,1,0,2026-01-31 23:59:59,0
+227,3,2026-01-12,payable_invoice,ADRIAN GODORNES — RFP No.# 4716-28,4428.0000,4428.0000,approved,1,0,2026-01-31 23:59:59,0
+228,3,2026-01-12,payable_invoice,DIVINE GRACE BALITE — RFP No.# 4716-29,68132.5000,68132.5000,approved,1,0,2026-01-31 23:59:59,0
+229,3,2026-01-12,payable_invoice,ANGELI MONTEMOR — RFP No.# 4716-3,18720.0000,18720.0000,approved,1,0,2026-01-31 23:59:59,0
+230,3,2026-01-12,payable_invoice,MARIA SOCORRO PINO LAMOSTE — RFP No.# 4716-30,127800.1000,127800.1000,approved,1,0,2026-01-31 23:59:59,0
+231,3,2026-01-12,payable_invoice,MA. SOCORRO DAQUIPA — RFP No.# 4716-4,2070.0000,2070.0000,approved,1,0,2026-01-31 23:59:59,0
+232,3,2026-01-12,payable_invoice,ROXANNE ROSE L. UY — RFP No.# 4716-5,16740.0000,16740.0000,approved,1,0,2026-01-31 23:59:59,0
+233,3,2026-01-12,payable_invoice,MARIA PAULINA A. DIMPAS — RFP No.# 4716-6,27720.0000,27720.0000,approved,1,0,2026-01-31 23:59:59,0
+234,3,2026-01-12,payable_invoice,BERNADETTE S. TABON — RFP No.# 4716-7,11250.0000,11250.0000,approved,1,0,2026-01-31 23:59:59,0
+235,3,2026-01-12,payable_invoice,ROSE MAY CAMALONGAY — RFP No.# 4716-8,81810.0000,81810.0000,approved,1,0,2026-01-31 23:59:59,0
+236,3,2026-01-12,payable_invoice,CATHLEEN BUSTRILLOS IWAY — RFP No.# 4716-9,57834.0000,57834.0000,approved,1,0,2026-01-31 23:59:59,0
+237,3,2026-01-12,receivable_invoice,"United Coconut Planters Life Assurance Corporation - LUCHE, CATHERINE PONCE | 01/08/2026 |United Coconut Planters Life Assurance Corporation| 400- — O3238",0.0000,2830.0000,approved,1,0,2026-01-31 23:59:59,0
+238,3,2026-01-13,journal_entry,Reversal of: To accrue Doctors PF Mactan for the period December 2025 - To accrue Doctors PF Mactan for the period December 2025 — #44298,1085360.1000,1085360.1000,approved,1,0,2026-01-31 23:59:59,0
+239,3,2026-01-13,journal_entry,"To Record Cash Sales Branches January 12, 2025 - To Record Cash Sales Branches January 12, 2025 — #44347",0.0000,68970.0000,approved,1,0,2026-01-31 23:59:59,0
+240,3,2026-01-13,journal_entry,"Sales Branches January 13, 2026 - Gcash Sales - January, 13 — #48426",295308.0000,295308.0000,approved,1,0,2026-01-31 23:59:59,0
+241,3,2026-01-13,payable_invoice,NICOLE KIMBERLY YU — RFP No.# 4658,3600.0000,3600.0000,approved,1,0,2026-01-31 23:59:59,0
+242,3,2026-01-13,payable_payment,Payment: HOME DEVELOPMENT MUTUAL FUND — Online-011326,0.0000,23425.0000,approved,1,0,2026-01-31 23:59:59,0
+243,3,2026-01-13,receivable_invoice,"United Coconut Planters Life Assurance Corporation - ALSOLA, SHEHARA KEITH FUENTES | 01/06/2026 |United Coconut Planters Life Assurance Corporation| 400- — M1991",400.0000,400.0000,approved,1,0,2026-01-31 23:59:59,0
+244,3,2026-01-13,receivable_invoice,"Life & Health Hmp Inc - LEGUNES, JAYFEL MAUREN FERNANDEZ | 01/07/2026 |Life & Health Hmp Inc| 180- — M1992",111590.0000,111590.0000,approved,1,0,2026-01-31 23:59:59,0
+245,3,2026-01-13,receivable_invoice,"Medicard Philippines Inc - MAGAT, MICHELLE LOU BOLIMA | 01/08/2026 |Medicard Philippines Inc| 600- — M1993",8550.0000,8550.0000,approved,1,0,2026-01-31 23:59:59,0
+246,3,2026-01-13,receivable_invoice,"Asalus Corporation - BAGAY, MAY ANN NGUJO | 01/07/2026 |Asalus Corporation| 170- — M1994",50655.0000,50655.0000,approved,1,0,2026-01-31 23:59:59,0
+247,3,2026-01-14,journal_entry,"To Record Cash Sales Branches January 13, 2025 - To Record Cash Sales Branches January 13, 2025 — #44983",0.0000,55681.0000,approved,1,0,2026-01-31 23:59:59,0
+248,3,2026-01-14,journal_entry,"Sales Branches January 14, 2026 - Gcash Sales - January, 14 — #48428",221536.0000,221536.0000,approved,1,0,2026-01-31 23:59:59,0
+249,3,2026-01-14,payable_invoice,VIRLEN T. MAHINAY — RFP No.# 4660,15110.3300,15110.3300,approved,1,0,2026-01-31 23:59:59,0
+250,3,2026-01-14,receivable_invoice,"Value Care Health Systems, Inc. - YBURAN, KENZO ZAYNE POGOY | 01/06/2026 |Value Care Health Systems, Inc.| 400- — M1995",9090.0000,9090.0000,approved,1,0,2026-01-31 23:59:59,0
+251,3,2026-01-14,receivable_invoice,"Knowles Electronics Philippines - HIMARANGAN, SHEM CASTRO | 01/07/2026 |KNOWLES ELECTRONICS PHILIPPINES| 480- — M1996",480.0000,480.0000,approved,1,0,2026-01-31 23:59:59,0
+252,3,2026-01-14,receivable_invoice,"Generali Life Assurance Philippines Inc - CUMBA, EMMY LORE ABEJO | 01/07/2026 |Generali Life Assurance Philippines Inc| 180- — M1997",6630.0000,6630.0000,approved,1,0,2026-01-31 23:59:59,0
+253,3,2026-01-14,receivable_invoice,"DIS Tech Phils, Inc - ISRAEL, DANIELLE DOMINIQUE UY | 01/07/2026 |DIS TECH PHILS, INC| 950- — M1998",950.0000,950.0000,approved,1,0,2026-01-31 23:59:59,0
+254,3,2026-01-14,receivable_invoice,"Cooperative Health Management Federation - MANLOSA, LOURELLE HENJ ANDO | 01/08/2026 |Cooperative Health Management Federation| 270- — M1999",17410.0000,17410.0000,approved,1,0,2026-01-31 23:59:59,0
+255,3,2026-01-14,receivable_invoice,"Sunlife Grepa Financial Inc - TRECE, FATIMA MAE AYING | 01/08/2026 |Sunlife Grepa Financial Inc| 2370- — M2000",2370.0000,2370.0000,approved,1,0,2026-01-31 23:59:59,0
+256,3,2026-01-14,receivable_invoice,"Philhealthcare, Inc - RULONA, MA. ROSE APPLE DAÑO | 01/08/2026 |Philhealthcare, Inc| 250- — M2001",20315.0000,20315.0000,approved,1,0,2026-01-31 23:59:59,0
+257,3,2026-01-14,receivable_invoice,"Insular Healthcare Inc - BACLAYO, RESHEL OCAT | 01/07/2026 |Insular Healthcare Inc| 270- — M2002",59680.0000,59680.0000,approved,1,0,2026-01-31 23:59:59,0
+258,3,2026-01-14,receivable_invoice,"TAMIYA PHILIPPINES, INC. - CARCUEVA, MELMAR BAYRON | 01/06/2026 |TAMIYA PHILIPPINES, INC.| 700- — M2003",1400.0000,1400.0000,approved,1,0,2026-01-31 23:59:59,0
+259,3,2026-01-14,receivable_invoice,"Avega Managed Care, Inc - ANG, ALFREDO MARTINEZ | 01/07/2026 |Avega Managed Care, Inc| 200- — M2004",3280.0000,3280.0000,approved,1,0,2026-01-31 23:59:59,0
+260,3,2026-01-14,receivable_invoice,"Maxicare Healthcare Corporation - BENTULAN, JOAN EMETERIO | 01/06/2026 |Maxicare Healthcare Corporation| 97- — M2005",86191.0000,86191.0000,approved,1,0,2026-01-31 23:59:59,0
+261,3,2026-01-14,receivable_invoice,"Avega Managed Care, Inc - LAURENTE, KHRISTINE OMOLON | 01/09/2026 |Avega Managed Care, Inc| 500- — M2006",500.0000,500.0000,approved,1,0,2026-01-31 23:59:59,0
+262,3,2026-01-14,receivable_invoice,"Atomed Cebu, Inc. - BERTOLANO, JENNIFER LAROZA | 01/09/2026 |ATOMED CEBU, INC.| 600- — M2007",600.0000,600.0000,approved,1,0,2026-01-31 23:59:59,0
+263,3,2026-01-14,receivable_invoice,"Cooperative Health Management Federation - MOSQUEDA, JENEVETH BAGA-AN | 01/09/2026 |Cooperative Health Management Federation| 300- — M2008",8885.0000,8885.0000,approved,1,0,2026-01-31 23:59:59,0
+264,3,2026-01-14,receivable_invoice,"Health Plan Philippines, Inc - INOT, IMELDA ROY | 01/10/2026 |Health Plan Philippines, Inc| 600- — M2009",12920.0000,12920.0000,approved,1,0,2026-01-31 23:59:59,0
+265,3,2026-01-14,receivable_invoice,"Fast Autoworld Philippines Corporation - DIZON, STEFANNY AUGUSTO | 01/10/2026 |FAST AUTOWORLD PHILIPPINES CORPORATION| 750- — M2010",25500.0000,25500.0000,approved,1,0,2026-01-31 23:59:59,0
+266,3,2026-01-14,receivable_invoice,"Medicard Philippines Inc - MANGANAR, EDNA VILLADORES | 01/09/2026 |Medicard Philippines Inc| 600- — M2011",22395.0000,22395.0000,approved,1,0,2026-01-31 23:59:59,0
+267,3,2026-01-14,receivable_invoice,"Philhealthcare, Inc - CORITICO, HANNA DIANE DIVINAGRACIA | 01/10/2026 |Philhealthcare, Inc| 150- — M2012",24895.0000,24895.0000,approved,1,0,2026-01-31 23:59:59,0
+268,3,2026-01-14,receivable_invoice,"Sunlife Grepa Financial Inc - ISOGON, OLIVA JARNAIZ | 01/09/2026 |Sunlife Grepa Financial Inc| 3100- — M2013",8930.0000,8930.0000,approved,1,0,2026-01-31 23:59:59,0
+269,3,2026-01-14,receivable_invoice,"Knowles Electronics Philippines - AGUIRRE, STANLEY CHUA | 01/10/2026 |KNOWLES ELECTRONICS PHILIPPINES| 5800- — M2014",5800.0000,5800.0000,approved,1,0,2026-01-31 23:59:59,0
+270,3,2026-01-14,receivable_invoice,"Homesourced Inc - GIMENEZ, JOSEPH JANSEEN OBESO | 01/10/2026 |HOMESOURCED INC| 900- — M2015",900.0000,900.0000,approved,1,0,2026-01-31 23:59:59,0
+271,3,2026-01-14,receivable_invoice,"TAMIYA PHILIPPINES, INC. - DELGADO, MARIVIC DELA CRUZ | 01/10/2026 |TAMIYA PHILIPPINES, INC.| 700- — M2016",700.0000,700.0000,approved,1,0,2026-01-31 23:59:59,0
+272,3,2026-01-14,receivable_invoice,"TYTANS LEISURE AND RESORTS, INC. - CAMPANER, JIANN TONELETE | 01/10/2026 |TYTANS LEISURE AND RESORTS, INC.| 85- — M2017",4581.5000,4581.5000,approved,1,0,2026-01-31 23:59:59,0
+273,3,2026-01-14,receivable_invoice,"Lacson & Lacson Insurance Brokers Inc - SANTAMARIA, CARLO ANGELO LISONDRA | 01/10/2026 |Lacson & Lacson Insurance Brokers Inc| 1300- — M2018",1300.0000,1300.0000,approved,1,0,2026-01-31 23:59:59,0
+274,3,2026-01-14,receivable_invoice,"Generali Life Assurance Philippines Inc - GUDANG, MELODINA BONIEL | 01/09/2026 |Generali Life Assurance Philippines Inc| 600- — M2019",2690.0000,2690.0000,approved,1,0,2026-01-31 23:59:59,0
+275,3,2026-01-14,receivable_invoice,"Value Care Health Systems, Inc. - YBURAN, KENZO ZAYNE POGOY | 01/10/2026 |Value Care Health Systems, Inc.| 400- — M2020",6860.0000,6860.0000,approved,1,0,2026-01-31 23:59:59,0
+276,3,2026-01-15,journal_entry,"To Record Cash Sales Branches January 14, 2025 - To Record Cash Sales Branches January 14, 2025 — #45155",0.0000,27163.0000,approved,1,0,2026-01-31 23:59:59,0
+277,3,2026-01-15,journal_entry,to record the SL sick leave conversion - to record the SL sick leave conversion — #45828,97032.8700,0.0000,approved,1,0,2026-01-31 23:59:59,0
+278,3,2026-01-15,journal_entry,"Sales Branches January 15, 2026 - Gcash Sales - January, 15 — #48430",198167.0000,198167.0000,approved,1,0,2026-01-31 23:59:59,0
+279,3,2026-01-15,payable_invoice,CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 4690,824.0200,824.0200,approved,1,0,2026-01-31 23:59:59,0
+280,3,2026-01-15,payable_invoice,SS7 SECURITY SERVICES CORPORATION — RFP No.# 4691,82096.6000,82096.6000,approved,1,0,2026-01-31 23:59:59,0
+281,3,2026-01-15,payable_invoice,"GLOBE TELECOM, INC. - VAT: Globe bill FTP 11/24-12/23/2025; Mactan — RFP No.# 4731",2897.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+282,3,2026-01-15,payable_invoice,"CONVERGE INFORMATION AND COMMUNICATIONS TECHNOLOGY SOLUTIONS, INC. — RFP No.# 4747",15908.3300,15908.3300,approved,1,0,2026-01-31 23:59:59,0
+283,3,2026-01-15,payable_payment,Payment: TONERPRO TRADING — 0525-062,17226.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+284,3,2026-01-15,payable_payment,Payment: TONERPRO TRADING — 0525-096,17226.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+285,3,2026-01-15,payable_payment,Payment: LYNOLDS MARKETING — 0625-049,3369.6400,0.0000,approved,1,0,2026-01-31 23:59:59,0
+286,3,2026-01-15,payable_payment,Payment: TONERPRO TRADING — 0725-000068,17226.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+287,3,2026-01-15,payable_payment,Payment: TONERPRO TRADING — 0725-000088,17226.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+288,3,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,0.0000,1008086.3500,approved,1,0,2026-01-31 23:59:59,0
+289,3,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,0.0000,141750.2000,approved,1,0,2026-01-31 23:59:59,0
+290,3,2026-01-15,payable_payment,Payment: LYNOLDS MARKETING — 1245518,0.0000,3369.6400,approved,1,0,2026-01-31 23:59:59,0
+291,3,2026-01-15,payable_payment,Payment: TONERPRO TRADING — 1245520,0.0000,68904.0000,approved,1,0,2026-01-31 23:59:59,0
+292,3,2026-01-15,payable_payment,Payment: JAN ANDREI FLORES — Online-011526,0.0000,1004785.2400,approved,1,0,2026-01-31 23:59:59,0
+293,3,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2120,4872.5600,0.0000,approved,1,0,2026-01-31 23:59:59,0
+294,3,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2266,2893.8000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+295,3,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2367,4587.7700,0.0000,approved,1,0,2026-01-31 23:59:59,0
+296,3,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2368,8151.6400,0.0000,approved,1,0,2026-01-31 23:59:59,0
+297,3,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2371,11026.9600,0.0000,approved,1,0,2026-01-31 23:59:59,0
+298,3,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2375,2063.8800,0.0000,approved,1,0,2026-01-31 23:59:59,0
+299,3,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3319,2193.2400,0.0000,approved,1,0,2026-01-31 23:59:59,0
+300,3,2026-01-15,payable_payment,Payment: DUANE AGUILAR — RFP No.# 4716-1,106336.8000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+301,3,2026-01-15,payable_payment,Payment: JAN LOUIE GATILLO — RFP No.# 4716-10,33849.4500,0.0000,approved,1,0,2026-01-31 23:59:59,0
+302,3,2026-01-15,payable_payment,Payment: HARVEY ANGA-ANGAN — RFP No.# 4716-11,20606.4000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+303,3,2026-01-15,payable_payment,Payment: CYRIL VILLANUEVA — RFP No.# 4716-12,57567.1500,0.0000,approved,1,0,2026-01-31 23:59:59,0
+304,3,2026-01-15,payable_payment,Payment: VIENNA LUZ P. CUBILLAN — RFP No.# 4716-13,5346.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+305,3,2026-01-15,payable_payment,Payment: CINDY S. SOLIS — RFP No.# 4716-14,4557.1500,0.0000,approved,1,0,2026-01-31 23:59:59,0
+306,3,2026-01-15,payable_payment,Payment: ANDRE LUIS E. NATAVIO — RFP No.# 4716-15,9217.8000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+307,3,2026-01-15,payable_payment,Payment: LLOYD VINCENT M. BASS — RFP No.# 4716-16,18556.8300,0.0000,approved,1,0,2026-01-31 23:59:59,0
+308,3,2026-01-15,payable_payment,Payment: JONATHAN SARTE — RFP No.# 4716-17,54059.4000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+309,3,2026-01-15,payable_payment,Payment: HAROLD JAMES ESTRADA — RFP No.# 4716-18,27676.3000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+310,3,2026-01-15,payable_payment,Payment: PIERRE OUANO — RFP No.# 4716-19,100721.0400,0.0000,approved,1,0,2026-01-31 23:59:59,0
+311,3,2026-01-15,payable_payment,Payment: LICILLE S. KILANTANG — RFP No.# 4716-2,63783.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+312,3,2026-01-15,payable_payment,Payment: SEAN SINDO — RFP No.# 4716-20,12210.3500,0.0000,approved,1,0,2026-01-31 23:59:59,0
+313,3,2026-01-15,payable_payment,Payment: Kathrina Aseanne Acapulco Gomez — RFP No.# 4716-21,7100.3000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+314,3,2026-01-15,payable_payment,Payment: JAN ANDREI FLORES — RFP No.# 4716-22,1800.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+315,3,2026-01-15,payable_payment,Payment: JENNIFER DEL CASTILLO — RFP No.# 4716-23,11951.6400,0.0000,approved,1,0,2026-01-31 23:59:59,0
+316,3,2026-01-15,payable_payment,Payment: CELESTE E. QUIJANO — RFP No.# 4716-24,3746.6100,0.0000,approved,1,0,2026-01-31 23:59:59,0
+317,3,2026-01-15,payable_payment,Payment: JENNIFER L. CAMALONGAY — RFP No.# 4716-25,30233.2500,0.0000,approved,1,0,2026-01-31 23:59:59,0
+318,3,2026-01-15,payable_payment,Payment: JEANETTE BALAGA — RFP No.# 4716-26,42241.2800,0.0000,approved,1,0,2026-01-31 23:59:59,0
+319,3,2026-01-15,payable_payment,Payment: LEMUELA EVA A. ABECIA — RFP No.# 4716-27,9988.6500,0.0000,approved,1,0,2026-01-31 23:59:59,0
+320,3,2026-01-15,payable_payment,Payment: ADRIAN GODORNES — RFP No.# 4716-28,3985.2000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+321,3,2026-01-15,payable_payment,Payment: DIVINE GRACE BALITE — RFP No.# 4716-29,61319.2500,0.0000,approved,1,0,2026-01-31 23:59:59,0
+322,3,2026-01-15,payable_payment,Payment: ANGELI MONTEMOR — RFP No.# 4716-3,16848.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+323,3,2026-01-15,payable_payment,Payment: MARIA SOCORRO PINO LAMOSTE — RFP No.# 4716-30,115020.0900,0.0000,approved,1,0,2026-01-31 23:59:59,0
+324,3,2026-01-15,payable_payment,Payment: MA. SOCORRO DAQUIPA — RFP No.# 4716-4,1863.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+325,3,2026-01-15,payable_payment,Payment: ROXANNE ROSE L. UY — RFP No.# 4716-5,15903.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+326,3,2026-01-15,payable_payment,Payment: MARIA PAULINA A. DIMPAS — RFP No.# 4716-6,24948.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+327,3,2026-01-15,payable_payment,Payment: BERNADETTE S. TABON — RFP No.# 4716-7,10687.5000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+328,3,2026-01-15,payable_payment,Payment: ROSE MAY CAMALONGAY — RFP No.# 4716-8,77719.5000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+329,3,2026-01-15,payable_payment,Payment: CATHLEEN BUSTRILLOS IWAY — RFP No.# 4716-9,54942.3000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+330,3,2026-01-15,receivable_invoice,"Insular Healthcare Inc - ANTONIO, MAY BUNAO | 01/09/2026 |Insular Healthcare Inc| 450- — M2021",35850.0000,35850.0000,approved,1,0,2026-01-31 23:59:59,0
+331,3,2026-01-15,receivable_invoice,"Maxicare Healthcare Corporation - GUERRERO, GRACITA BONGCAYAO | 01/10/2026 |Maxicare Healthcare Corporation| 150- — M2022",44690.0000,44690.0000,approved,1,0,2026-01-31 23:59:59,0
+332,3,2026-01-15,receivable_invoice,"Life & Health Hmp Inc - PENUTI, FRANCIS RAIN FUENTES | 01/09/2026 |Life & Health Hmp Inc| 100- — M2023",105070.0000,105070.0000,approved,1,0,2026-01-31 23:59:59,0
+333,3,2026-01-15,receivable_invoice,"Asalus Corporation - ENCINA, MARIA SVETLANA YU | 01/10/2026 |Asalus Corporation| 170- — M2024",44695.0000,44695.0000,approved,1,0,2026-01-31 23:59:59,0
+334,3,2026-01-16,journal_entry,Reversal of: To accrue: CEBU SPIC & SPAN JANITORIAL SERVICES INC. ftp DECEMBER MActan - To accrue: CEBU SPIC & SPAN JANITORIAL SERVICES INC. ftp DECEMBER 1-15 MActan — #45126,2413.3200,2413.3200,approved,1,0,2026-01-31 23:59:59,0
+335,3,2026-01-16,journal_entry,Reversal of: Globe -To accrue mobile for the month of december 2025 mactan - Globe -To accrue mobile for the month of december 2025 mactan — #45143,4705.0000,4705.0000,approved,1,0,2026-01-31 23:59:59,0
+336,3,2026-01-16,journal_entry,Reversal of: Globe -To accrue mobile for the month of october 2025 mactan - Globe -To accrue mobile for the month of october 2025 mactan — #45147,4705.0000,4705.0000,approved,1,0,2026-01-31 23:59:59,0
+337,3,2026-01-16,journal_entry,Reversal of: To accrue: SS7 SECURITY SERVICES CORPORATION for the month of DECEMBER 2025 MActan - To accrue: SS7 SECURITY SERVICES CORPORATION for the month of DECEMBER 2025 MActan — #45152,77347.5100,77347.5100,approved,1,0,2026-01-31 23:59:59,0
+338,3,2026-01-16,journal_entry,"To Record Cash Sales Branches January 15, 2025 - To Record Cash Sales Branches January 15, 2025 — #45558",0.0000,18755.0000,approved,1,0,2026-01-31 23:59:59,0
+339,3,2026-01-16,journal_entry,"Sales Branches January 16, 2026 - Gcash Sales - January, 16 — #48432",202085.0000,202085.0000,approved,1,0,2026-01-31 23:59:59,0
+340,3,2026-01-16,payable_invoice,"APEX MEDICAL DEVICES AND DIAGNOSTICS, INC. — RFP No.# 4748",45480.0000,45480.0000,approved,1,0,2026-01-31 23:59:59,0
+341,3,2026-01-16,payable_invoice,CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 4752,4944.1200,4944.1200,approved,1,0,2026-01-31 23:59:59,0
+342,3,2026-01-16,payable_invoice,ELLEN ROSE L. SIMBULAAN - BLS Training (Replenishment) — RFP No.# 4786,1000.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+343,3,2026-01-16,payable_payment,Payment: ELLEN ROSE L. SIMBULAAN — Oniline-011626,0.0000,157496.8900,approved,1,0,2026-01-31 23:59:59,0
+344,3,2026-01-16,payable_payment,Payment: SS7 SECURITY SERVICES CORPORATION — RFP No.# 3540,78098.0400,0.0000,approved,1,0,2026-01-31 23:59:59,0
+345,3,2026-01-16,payable_payment,"Payment: APEX MEDICAL DEVICES AND DIAGNOSTICS, INC. — RFP No.# 3715",37714.2900,0.0000,approved,1,0,2026-01-31 23:59:59,0
+346,3,2026-01-16,payable_payment,Payment: CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 4068,2254.8400,0.0000,approved,1,0,2026-01-31 23:59:59,0
+347,3,2026-01-16,payable_payment,Payment: CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 4421,2370.2200,0.0000,approved,1,0,2026-01-31 23:59:59,0
+348,3,2026-01-16,payable_payment,Payment: CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 4428,2427.9200,0.0000,approved,1,0,2026-01-31 23:59:59,0
+349,3,2026-01-16,payable_payment,Payment: VIRLEN T. MAHINAY — RFP No.# 4660,15110.3300,0.0000,approved,1,0,2026-01-31 23:59:59,0
+350,3,2026-01-16,payable_payment,"Payment: CONVERGE INFORMATION AND COMMUNICATIONS TECHNOLOGY SOLUTIONS, INC. — RFP No.# 4747",15624.2500,0.0000,approved,1,0,2026-01-31 23:59:59,0
+351,3,2026-01-17,journal_entry,"Sales Branches January 17, 2026 - Gcash Sales - January, 17 — #48434",216588.0000,216588.0000,approved,1,0,2026-01-31 23:59:59,0
+352,3,2026-01-19,journal_entry,Reversal of: To accrue: CEBU SPIC & SPAN JANITORIAL SERVICES INC. ftp DECEMBER MActan - To accrue: CEBU SPIC & SPAN JANITORIAL SERVICES INC. ftp DECEMBER 16-31 MActan — #45234,2295.8400,2295.8400,approved,1,0,2026-01-31 23:59:59,0
+353,3,2026-01-19,journal_entry,Reversal of: To accrue TPP cost for the month of DECEMBER 2025 - To accrue TPP cost for the month of DECEMBER 2025 — #45240,40116.0000,40116.0000,approved,1,0,2026-01-31 23:59:59,0
+354,3,2026-01-19,journal_entry,"To Record Cash Sales Branches January 16, 2025 - To Record Cash Sales Branches January 16, 2025 — #45569",0.0000,15394.0000,approved,1,0,2026-01-31 23:59:59,0
+355,3,2026-01-19,journal_entry,"To Record Cash Sales Branches January 17, 2025 - To Record Cash Sales Branches January 17, 2025 — #45570",0.0000,28758.0000,approved,1,0,2026-01-31 23:59:59,0
+356,3,2026-01-19,journal_entry,"Sales Branches January 19, 2026 - Gcash Sales - January, 19 — #48436",237266.0000,237266.0000,approved,1,0,2026-01-31 23:59:59,0
+357,3,2026-01-19,receivable_credit_note,United Coconut Planters Life Assurance Corporation — CN-4227,12.4000,12.4000,approved,1,0,2026-01-31 23:59:59,0
+358,3,2026-01-19,receivable_credit_note,United Coconut Planters Life Assurance Corporation — CN-4228,238.0000,238.0000,approved,1,0,2026-01-31 23:59:59,0
+359,3,2026-01-19,receivable_credit_note,United Coconut Planters Life Assurance Corporation — CN-4229,367.7000,367.7000,approved,1,0,2026-01-31 23:59:59,0
+360,3,2026-01-19,receivable_credit_note,United Coconut Planters Life Assurance Corporation — CN-4230,60.0000,60.0000,approved,1,0,2026-01-31 23:59:59,0
+361,3,2026-01-19,receivable_credit_note,United Coconut Planters Life Assurance Corporation — CN-4236,288.1000,288.1000,approved,1,0,2026-01-31 23:59:59,0
+362,3,2026-01-19,receivable_credit_note,United Coconut Planters Life Assurance Corporation — CN-4237,45.2000,45.2000,approved,1,0,2026-01-31 23:59:59,0
+363,3,2026-01-19,receivable_credit_note,United Coconut Planters Life Assurance Corporation — CN-4238,76.8000,76.8000,approved,1,0,2026-01-31 23:59:59,0
+364,3,2026-01-19,receivable_credit_note,United Coconut Planters Life Assurance Corporation — CN-4239,102.2000,102.2000,approved,1,0,2026-01-31 23:59:59,0
+365,3,2026-01-19,receivable_credit_note,United Coconut Planters Life Assurance Corporation — CN-4243,8.0000,8.0000,approved,1,0,2026-01-31 23:59:59,0
+366,3,2026-01-19,receivable_credit_note,United Coconut Planters Life Assurance Corporation — CN-4244,264.5000,264.5000,approved,1,0,2026-01-31 23:59:59,0
+367,3,2026-01-19,receivable_credit_note,United Coconut Planters Life Assurance Corporation — CN-4245,48.0000,48.0000,approved,1,0,2026-01-31 23:59:59,0
+368,3,2026-01-19,receivable_credit_note,United Coconut Planters Life Assurance Corporation — CN-4258,190.6000,190.6000,approved,1,0,2026-01-31 23:59:59,0
+369,3,2026-01-19,receivable_credit_note,United Coconut Planters Life Assurance Corporation — CN-4259,40.6000,40.6000,approved,1,0,2026-01-31 23:59:59,0
+370,3,2026-01-19,receivable_credit_note,United Coconut Planters Life Assurance Corporation — CN-4260,69.8000,69.8000,approved,1,0,2026-01-31 23:59:59,0
+371,3,2026-01-19,receivable_credit_note,United Coconut Planters Life Assurance Corporation — CN-4263,378.8000,378.8000,approved,1,0,2026-01-31 23:59:59,0
+372,3,2026-01-19,receivable_credit_note,United Coconut Planters Life Assurance Corporation — CN-4266,90.0000,90.0000,approved,1,0,2026-01-31 23:59:59,0
+373,3,2026-01-19,receivable_credit_note,United Coconut Planters Life Assurance Corporation — CN-4267,24.0000,24.0000,approved,1,0,2026-01-31 23:59:59,0
+374,3,2026-01-19,receivable_credit_note,United Coconut Planters Life Assurance Corporation — CN-4268,73.4000,73.4000,approved,1,0,2026-01-31 23:59:59,0
+375,3,2026-01-19,receivable_credit_note,Insular Healthcare Inc — CN-4269,1757.5000,1757.5000,approved,1,0,2026-01-31 23:59:59,0
+376,3,2026-01-19,receivable_credit_note,Insular Healthcare Inc — CN-4270,1756.9000,1756.9000,approved,1,0,2026-01-31 23:59:59,0
+377,3,2026-01-19,receivable_credit_note,Insular Healthcare Inc — CN-4271,3578.2000,3578.2000,approved,1,0,2026-01-31 23:59:59,0
+378,3,2026-01-19,receivable_credit_note,Insular Healthcare Inc — CN-4276,3238.6000,3238.6000,approved,1,0,2026-01-31 23:59:59,0
+379,3,2026-01-19,receivable_credit_note,Insular Healthcare Inc — CN-4278,10.0000,10.0000,approved,1,0,2026-01-31 23:59:59,0
+380,3,2026-01-19,receivable_credit_note,Insular Healthcare Inc — CN-4280,1195.2000,1195.2000,approved,1,0,2026-01-31 23:59:59,0
+381,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — CN-4227,12.4000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+382,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — CN-4228,238.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+383,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — CN-4229,367.7000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+384,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — CN-4230,60.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+385,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — CN-4236,288.1000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+386,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — CN-4237,45.2000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+387,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — CN-4238,76.8000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+388,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — CN-4239,102.2000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+389,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — CN-4243,8.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+390,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — CN-4244,264.5000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+391,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — CN-4245,48.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+392,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — CN-4258,190.6000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+393,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — CN-4259,40.6000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+394,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — CN-4260,69.8000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+395,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — CN-4263,378.8000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+396,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — CN-4266,90.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+397,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — CN-4267,24.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+398,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — CN-4268,73.4000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+399,3,2026-01-19,receivable_credit_note_allocation,Insular Healthcare Inc — CN-4269,1757.5000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+400,3,2026-01-19,receivable_credit_note_allocation,Insular Healthcare Inc — CN-4270,1756.9000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+401,3,2026-01-19,receivable_credit_note_allocation,Insular Healthcare Inc — CN-4271,3578.2000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+402,3,2026-01-19,receivable_credit_note_allocation,Insular Healthcare Inc — CN-4276,3238.6000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+403,3,2026-01-19,receivable_credit_note_allocation,Insular Healthcare Inc — CN-4278,10.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+404,3,2026-01-19,receivable_credit_note_allocation,Insular Healthcare Inc — CN-4280,1195.2000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+405,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — M0969,0.0000,378.8000,approved,1,0,2026-01-31 23:59:59,0
+406,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — M0985-1,0.0000,24.0000,approved,1,0,2026-01-31 23:59:59,0
+407,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — M0998,0.0000,73.4000,approved,1,0,2026-01-31 23:59:59,0
+408,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — M1009,0.0000,90.0000,approved,1,0,2026-01-31 23:59:59,0
+409,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — M1033,0.0000,8.0000,approved,1,0,2026-01-31 23:59:59,0
+410,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — M1046,0.0000,48.0000,approved,1,0,2026-01-31 23:59:59,0
+411,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — M1056,0.0000,264.5000,approved,1,0,2026-01-31 23:59:59,0
+412,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — M1074,0.0000,102.2000,approved,1,0,2026-01-31 23:59:59,0
+413,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — M1082,0.0000,76.8000,approved,1,0,2026-01-31 23:59:59,0
+414,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — M1090,0.0000,45.2000,approved,1,0,2026-01-31 23:59:59,0
+415,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — M1104,0.0000,288.1000,approved,1,0,2026-01-31 23:59:59,0
+416,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — M1117,0.0000,40.6000,approved,1,0,2026-01-31 23:59:59,0
+417,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — M1150,0.0000,69.8000,approved,1,0,2026-01-31 23:59:59,0
+418,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — M1164,0.0000,190.6000,approved,1,0,2026-01-31 23:59:59,0
+419,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — M1177,0.0000,238.0000,approved,1,0,2026-01-31 23:59:59,0
+420,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — M1189,0.0000,60.0000,approved,1,0,2026-01-31 23:59:59,0
+421,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — M1197,0.0000,367.7000,approved,1,0,2026-01-31 23:59:59,0
+422,3,2026-01-19,receivable_credit_note_allocation,United Coconut Planters Life Assurance Corporation — M1264,0.0000,12.4000,approved,1,0,2026-01-31 23:59:59,0
+423,3,2026-01-19,receivable_credit_note_allocation,Insular Healthcare Inc — M1679,0.0000,1195.2000,approved,1,0,2026-01-31 23:59:59,0
+424,3,2026-01-19,receivable_credit_note_allocation,Insular Healthcare Inc — M1712,0.0000,3578.2000,approved,1,0,2026-01-31 23:59:59,0
+425,3,2026-01-19,receivable_credit_note_allocation,Insular Healthcare Inc — M1739,0.0000,1757.5000,approved,1,0,2026-01-31 23:59:59,0
+426,3,2026-01-19,receivable_credit_note_allocation,Insular Healthcare Inc — M1754,0.0000,3238.6000,approved,1,0,2026-01-31 23:59:59,0
+427,3,2026-01-19,receivable_credit_note_allocation,Insular Healthcare Inc — M1757,0.0000,10.0000,approved,1,0,2026-01-31 23:59:59,0
+428,3,2026-01-19,receivable_credit_note_allocation,Insular Healthcare Inc — M1777,0.0000,1756.9000,approved,1,0,2026-01-31 23:59:59,0
+429,3,2026-01-19,receivable_invoice,"Maxicare Healthcare Corporation - SAMSON, ANGELO TURREDA | 01/12/2026 |Maxicare Healthcare Corporation| 150- — M2025",145605.0000,145605.0000,approved,1,0,2026-01-31 23:59:59,0
+430,3,2026-01-19,receivable_invoice,"Life & Health Hmp Inc - LUZONG, AILLEN COMANDANTE | 01/12/2026 |Life & Health Hmp Inc| 180- — M2026",135040.0000,135040.0000,approved,1,0,2026-01-31 23:59:59,0
+431,3,2026-01-19,receivable_invoice,"Asalus Corporation - TILLOR, LILIBETH MONDEJAR | 01/13/2026 |Asalus Corporation| 150- — M2027",40190.0000,40190.0000,approved,1,0,2026-01-31 23:59:59,0
+432,3,2026-01-19,receivable_invoice,"Insular Healthcare Inc - COMPENDIO, HILARY DEAN ALFANTA | 01/12/2026 |Insular Healthcare Inc| 220- — M2028",109750.0000,109750.0000,approved,1,0,2026-01-31 23:59:59,0
+433,3,2026-01-19,receivable_invoice,"Medicard Philippines Inc - SUELLO, JOE AN ACAS | 01/14/2026 |Medicard Philippines Inc| 100- — M2029",52490.0000,52490.0000,approved,1,0,2026-01-31 23:59:59,0
+434,3,2026-01-19,receivable_invoice,"Philhealthcare, Inc - BRIGNAS, ANDRES ORI ASIO | 01/14/2026 |Philhealthcare, Inc| 100- — M2030",28230.0000,28230.0000,approved,1,0,2026-01-31 23:59:59,0
+435,3,2026-01-19,receivable_invoice,"Generali Life Assurance Philippines Inc - AMISTAD, JOSEF REY YBANEZ | 01/14/2026 |Generali Life Assurance Philippines Inc| 270- — M2031",2070.0000,2070.0000,approved,1,0,2026-01-31 23:59:59,0
+436,3,2026-01-19,receivable_invoice,"Etiqa Life and General Assurance Phillipines, Inc - DICHOCO, ALYSHA ARWEN . | 01/14/2026 |Etiqa Life and General Assurance Phillipines, Inc| 180- — M2032",7940.0000,7940.0000,approved,1,0,2026-01-31 23:59:59,0
+437,3,2026-01-19,receivable_invoice,"Value Care Health Systems, Inc. - ALCANSADO, JORENZ LUHAN | 01/12/2026 |Value Care Health Systems, Inc.| 300- — M2033",4450.0000,4450.0000,approved,1,0,2026-01-31 23:59:59,0
+438,3,2026-01-19,receivable_invoice,"Avega Managed Care, Inc - LAURENTE, KHRISTINE OMOLON | 01/12/2026 |Avega Managed Care, Inc| 500- — M2034",2200.0000,2200.0000,approved,1,0,2026-01-31 23:59:59,0
+439,3,2026-01-19,receivable_invoice,"Knowles Electronics Philippines - SIABOC, MERREY THEA NIÑAL | 01/13/2026 |KNOWLES ELECTRONICS PHILIPPINES| 480- — M2035",2400.0000,2400.0000,approved,1,0,2026-01-31 23:59:59,0
+440,3,2026-01-19,receivable_invoice,"TAMIYA PHILIPPINES, INC. - LUTAO, JOSHUA PARAS | 01/13/2026 |TAMIYA PHILIPPINES, INC.| 700- — M2036",5600.0000,5600.0000,approved,1,0,2026-01-31 23:59:59,0
+441,3,2026-01-19,receivable_invoice,"Sunlife Grepa Financial Inc - ALQUIZAR, ANALOU SANTANDER | 01/13/2026 |Sunlife Grepa Financial Inc| 390- — M2037",790.0000,790.0000,approved,1,0,2026-01-31 23:59:59,0
+442,3,2026-01-19,receivable_invoice,"Amaphil-FAO Lawina Company Limited Inc - FLORES, EVANGELINE LOZANO | 01/13/2026 |Amaphil-FAO Lawina Company Limited Inc| 600- — M2038",1200.0000,1200.0000,approved,1,0,2026-01-31 23:59:59,0
+443,3,2026-01-19,receivable_invoice,"Cooperative Health Management Federation - BARRETA, JOEL PATEÑO | 01/13/2026 |Cooperative Health Management Federation| 1225- — M2039",4505.0000,4505.0000,approved,1,0,2026-01-31 23:59:59,0
+444,3,2026-01-19,receivable_invoice,"United Coconut Planters Life Assurance Corporation - DALUMPINES, QUEENIE - | 01/14/2026 |United Coconut Planters Life Assurance Corporation| 400- — M2040",400.0000,400.0000,approved,1,0,2026-01-31 23:59:59,0
+445,3,2026-01-20,journal_entry,"To Record Cash Sales Branches January 19, 2025 - To Record Cash Sales Branches January 19, 2025 — #45780",0.0000,25236.0000,approved,1,0,2026-01-31 23:59:59,0
+446,3,2026-01-20,journal_entry,"CPCI Payroll for January 1-15, 2026 - Mactan  Operations - CPCI Payroll for January 1-15, 2026 - Mactan  Operations — #46379",618874.1600,618874.1600,approved,1,0,2026-01-31 23:59:59,0
+447,3,2026-01-20,journal_entry,"CPCI Payroll for January 1-15, 2026 - Mactan Medical Affairs - CPCI Payroll for January 1-15, 2026 - Mactan Medical Affairs — #46381",146285.8000,146285.8000,approved,1,0,2026-01-31 23:59:59,0
+448,3,2026-01-20,journal_entry,"Sales Branches January 20, 2026 - Gcash Sales - January, 20 — #48438",236160.0000,236160.0000,approved,1,0,2026-01-31 23:59:59,0
+449,3,2026-01-20,payable_invoice,City Treasurer of Lapu-Lapu City — RFP No.# 4803,107676.6800,107676.6800,approved,1,0,2026-01-31 23:59:59,0
+450,3,2026-01-21,journal_entry,"To Record Cash Sales Branches January 20, 2025 - To Record Cash Sales Branches January 20, 2025 — #45838",0.0000,37403.0000,approved,1,0,2026-01-31 23:59:59,0
+451,3,2026-01-21,journal_entry,"Sales Branches January 21, 2026 - Gcash Sales - January, 21 — #48440",263381.0000,263381.0000,approved,1,0,2026-01-31 23:59:59,0
+452,3,2026-01-21,payable_invoice,MEDGISTIX CORPORATION — 0126-000047,66628.0000,66628.0000,approved,1,0,2026-01-31 23:59:59,0
+453,3,2026-01-21,payable_invoice,MEDGISTIX CORPORATION — 0126-000048,20000.0000,20000.0000,approved,1,0,2026-01-31 23:59:59,0
+454,3,2026-01-21,payable_invoice,MEDGISTIX CORPORATION — 0126-000049,41891.0000,41891.0000,approved,1,0,2026-01-31 23:59:59,0
+455,3,2026-01-21,payable_invoice,MEDGISTIX CORPORATION — 0126-000050,22336.0000,22336.0000,approved,1,0,2026-01-31 23:59:59,0
+456,3,2026-01-21,receivable_invoice,"Avega Managed Care, Inc - DEVARAS, KYLE GREGORY CABUGWANG | 01/15/2026 |Avega Managed Care, Inc| 500- — M2041",3100.0000,3100.0000,approved,1,0,2026-01-31 23:59:59,0
+457,3,2026-01-21,receivable_invoice,"Etiqa Life and General Assurance Phillipines, Inc - ADIONG, MARLON PALMA | 01/15/2026 |Etiqa Life and General Assurance Phillipines, Inc| 100- — M2042",20955.0000,20955.0000,approved,1,0,2026-01-31 23:59:59,0
+458,3,2026-01-21,receivable_invoice,"Generali Life Assurance Philippines Inc - ATILLO, ROWENA TUMALA | 01/15/2026 |Generali Life Assurance Philippines Inc| 600- — M2043",4100.0000,4100.0000,approved,1,0,2026-01-31 23:59:59,0
+459,3,2026-01-21,receivable_invoice,"Insular Healthcare Inc - BAGUIO, MARVEL YBANEZ | 01/16/2026 |Insular Healthcare Inc| 180- — M2044",73250.0000,73250.0000,approved,1,0,2026-01-31 23:59:59,0
+460,3,2026-01-21,receivable_invoice,"Asalus Corporation - JABEL, LIZEL CARIAS | 01/16/2026 |Asalus Corporation| 170- — M2045",38110.0000,38110.0000,approved,1,0,2026-01-31 23:59:59,0
+461,3,2026-01-21,receivable_invoice,"Life & Health Hmp Inc - WACAN, GERLIE ESTOR | 01/15/2026 |Life & Health Hmp Inc| 180- — M2046",123745.0000,123745.0000,approved,1,0,2026-01-31 23:59:59,0
+462,3,2026-01-21,receivable_payment,Payment: Greentree Food Solutions Inc — Check No. 1236862,441.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+463,3,2026-01-21,receivable_payment,Payment: Greentree Food Solutions Inc — M1379,0.0000,441.0000,approved,1,0,2026-01-31 23:59:59,0
+464,3,2026-01-22,journal_entry,to record depreciation expense for January 2026 - Mactan — #45925,961272.7800,961272.7800,approved,1,0,2026-01-31 23:59:59,0
+465,3,2026-01-22,journal_entry,"To Record Cash Sales Branches January 21, 2025 - To Record Cash Sales Branches January 21, 2025 — #45934",0.0000,44322.0000,approved,1,0,2026-01-31 23:59:59,0
+466,3,2026-01-22,journal_entry,To record amortization of prepayments for the month of January 2026 - To record amortization of prepayments for the month of January 2026 — #47985,26507.0100,498.2100,approved,1,0,2026-01-31 23:59:59,0
+467,3,2026-01-22,journal_entry,"Sales Branches January 22, 2026 - Gcash Sales - January, 22 — #48442",295031.0000,295031.0000,approved,1,0,2026-01-31 23:59:59,0
+468,3,2026-01-22,payable_invoice,Kathrina Aseanne Acapulco Gomez — RFP No.# 4796,15000.0000,15000.0000,approved,1,0,2026-01-31 23:59:59,0
+469,3,2026-01-22,payable_invoice,Mikhaela R. Alesna — RFP No.# 4826,3600.0000,3600.0000,approved,1,0,2026-01-31 23:59:59,0
+470,3,2026-01-22,payable_invoice,VIRLEN T. MAHINAY — RFP No.# 4827,15706.3800,15706.3800,approved,1,0,2026-01-31 23:59:59,0
+471,3,2026-01-22,payable_invoice,"SMART COMMUNICATIONS, INC. - VAT: Smart Communications Inc. FTP 12/01-12/31/2025; Mactan — RFP No.# 4834",4999.8700,0.0000,approved,1,0,2026-01-31 23:59:59,0
+472,3,2026-01-22,receivable_credit_note,Greentree Food Solutions Inc — CN-4282,9.0000,9.0000,approved,1,0,2026-01-31 23:59:59,0
+473,3,2026-01-22,receivable_credit_note_allocation,Greentree Food Solutions Inc — CN-4282,9.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+474,3,2026-01-22,receivable_credit_note_allocation,Greentree Food Solutions Inc — M1379,0.0000,9.0000,approved,1,0,2026-01-31 23:59:59,0
+475,3,2026-01-22,receivable_invoice,"Maxicare Healthcare Corporation - MENDOZA, JEANLIE ARELLANO | 01/16/2026 |Maxicare Healthcare Corporation| 150- — M2047",127994.0000,127994.0000,approved,1,0,2026-01-31 23:59:59,0
+476,3,2026-01-22,receivable_invoice,"Philhealthcare, Inc - CASIA III, BLASTINIANO SAURE | 01/15/2026 |Philhealthcare, Inc| 250- — M2048",28485.0000,28485.0000,approved,1,0,2026-01-31 23:59:59,0
+477,3,2026-01-22,receivable_invoice,"TAMIYA PHILIPPINES, INC. - BERAME, ARIADNEJENN PEPITO | 01/15/2026 |TAMIYA PHILIPPINES, INC.| 800- — M2049",1600.0000,1600.0000,approved,1,0,2026-01-31 23:59:59,0
+478,3,2026-01-22,receivable_invoice,"Medicard Philippines Inc - CANDIA, FRANCHETTE OPAY | 01/16/2026 |Medicard Philippines Inc| 300- — M2050",15860.0000,15860.0000,approved,1,0,2026-01-31 23:59:59,0
+479,3,2026-01-22,receivable_invoice,"United Coconut Planters Life Assurance Corporation - COLIFLORES, MARK MARFIL | 01/15/2026 |United Coconut Planters Life Assurance Corporation| 400- — M2051",400.0000,400.0000,approved,1,0,2026-01-31 23:59:59,0
+480,3,2026-01-22,receivable_invoice,"TYTANS LEISURE AND RESORTS, INC. - DAÑO, ANALIE YBAÑEZ | 01/16/2026 |TYTANS LEISURE AND RESORTS, INC.| 1360- — M2052",1360.0000,1360.0000,approved,1,0,2026-01-31 23:59:59,0
+481,3,2026-01-22,receivable_invoice,"Knowles Electronics Philippines - AGRAVIADOR, KARL JASON LOPEZ | 01/17/2026 |KNOWLES ELECTRONICS PHILIPPINES| 5800- — M2053",5800.0000,5800.0000,approved,1,0,2026-01-31 23:59:59,0
+482,3,2026-01-22,receivable_invoice,"Value Care Health Systems, Inc. - HERNANDEZ, JENNIFER AMISTAD | 01/17/2026 |Value Care Health Systems, Inc.| 400- — M2054",400.0000,400.0000,approved,1,0,2026-01-31 23:59:59,0
+483,3,2026-01-22,receivable_invoice,"Fast Autoworld Philippines Corporation - RODRIGUEZ, RICKY VALIENTE | 01/17/2026 |FAST AUTOWORLD PHILIPPINES CORPORATION| 750- — M2055",1500.0000,1500.0000,approved,1,0,2026-01-31 23:59:59,0
+484,3,2026-01-22,receivable_invoice,"Virginia Food Inc - MACALAM, RODEL QUINTANA | 01/17/2026 |VIRGINIA FOOD INC| 500- — M2056",500.0000,500.0000,approved,1,0,2026-01-31 23:59:59,0
+485,3,2026-01-22,receivable_payment,Payment: United Coconut Planters Life Assurance Corporation — M1317,392.0000,392.0000,approved,1,0,2026-01-31 23:59:59,0
+486,3,2026-01-22,receivable_payment,Payment: United Coconut Planters Life Assurance Corporation — M1332,3812.2000,3812.2000,approved,1,0,2026-01-31 23:59:59,0
+487,3,2026-01-22,receivable_payment,Payment: United Coconut Planters Life Assurance Corporation — M1345,2450.0000,2450.0000,approved,1,0,2026-01-31 23:59:59,0
+488,3,2026-01-22,receivable_payment,Payment: United Coconut Planters Life Assurance Corporation — M1360,4929.4000,4929.4000,approved,1,0,2026-01-31 23:59:59,0
+489,3,2026-01-22,receivable_payment,Payment: United Coconut Planters Life Assurance Corporation — M1375,13847.4000,13847.4000,approved,1,0,2026-01-31 23:59:59,0
+490,3,2026-01-22,receivable_payment,Payment: United Coconut Planters Life Assurance Corporation — M1391,1136.8000,1136.8000,approved,1,0,2026-01-31 23:59:59,0
+491,3,2026-01-22,receivable_payment,Payment: United Coconut Planters Life Assurance Corporation — M1423,5791.8000,5791.8000,approved,1,0,2026-01-31 23:59:59,0
+492,3,2026-01-22,receivable_payment,Payment: United Coconut Planters Life Assurance Corporation — M1435,1607.2000,1607.2000,approved,1,0,2026-01-31 23:59:59,0
+493,3,2026-01-22,receivable_payment,Payment: Sunlife Grepa Financial Inc — M1722,1871.8000,1871.8000,approved,1,0,2026-01-31 23:59:59,0
+494,3,2026-01-22,receivable_payment,Payment: Taskpro Outsourcing OPC — M1947,0.0000,1900.0000,approved,1,0,2026-01-31 23:59:59,0
+495,3,2026-01-22,receivable_payment,Payment: Taskpro Outsourcing OPC — Online Payment,1900.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+496,3,2026-01-23,journal_entry,To accrue: CEBU SPIC & SPAN JANITORIAL SERVICES INC. ftp JANUARY MActan - To accrue: CEBU SPIC & SPAN JANITORIAL SERVICES INC. ftp JANUARY MActan — #46043,4709.1600,4709.1600,approved,1,0,2026-01-31 23:59:59,0
+497,3,2026-01-23,journal_entry,"To Record Cash Sales Branches January 22, 2025 - To Record Cash Sales Branches January 22, 2025 — #46265",0.0000,47873.0000,approved,1,0,2026-01-31 23:59:59,0
+498,3,2026-01-23,journal_entry,"Sales Branches January 23, 2026 - Gcash Sales - January, 23 — #48444",273587.0000,273587.0000,approved,1,0,2026-01-31 23:59:59,0
+499,3,2026-01-23,payable_payment,Payment: MEDGISTIX CORPORATION — 1125-000381,249254.4600,0.0000,approved,1,0,2026-01-31 23:59:59,0
+500,3,2026-01-23,payable_payment,Payment: MEDGISTIX CORPORATION — 1125-000382,25767.8600,0.0000,approved,1,0,2026-01-31 23:59:59,0

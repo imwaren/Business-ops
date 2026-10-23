@@ -1,0 +1,501 @@
+id,cost_center_id,date,type,remarks,total_debit,total_credit,status,is_migrated,added_by,added_on,is_deleted
+1,\N,2026-01-02,journal_entry,"To Record deposit sales Branches Unidentified January 02, 2026 - To Record deposit sales Branches Unidentified January 02, 2026 — #43086",87107.3000,87107.3000,approved,1,0,2026-01-31 23:59:59,0
+2,\N,2026-01-02,journal_entry,"To Record Cash Sales Branches December 27, 2025 - To Record Cash Sales Branches December 27, 2025 — #43087",157384.0000,78692.0000,approved,1,0,2026-01-31 23:59:59,0
+3,\N,2026-01-02,journal_entry,"To record receipts of QR and Card sales GCASH for January 02, 2026 - To record receipts of QR and Card sales GCASH for January 02, 2026 — #43090",4460.0000,4460.0000,approved,1,0,2026-01-31 23:59:59,0
+4,\N,2026-01-02,journal_entry,"To record receipts of QR and Card sales GCASH for January 02, 2026 - To record receipts of QR and Card sales GCASH for January 02, 2026 — #43091",64526.5600,64526.5600,approved,1,0,2026-01-31 23:59:59,0
+5,\N,2026-01-02,journal_entry,"To Record Deposit Card Sales MBTC January 02, 2026 - To Record Deposit Card Sales MBTC January 02, 2026 — #43092",2769.5500,2769.5500,approved,1,0,2026-01-31 23:59:59,0
+6,\N,2026-01-02,journal_entry,Fund transfer to BPI FT from LPB acct - Fund transfer to BPI FT from LPB acct — #43093,1800000.0000,1800000.0000,approved,1,0,2026-01-31 23:59:59,0
+7,\N,2026-01-02,journal_entry,Fund transfer to SBC FT from LPB acct - Fund transfer to SBC FT from LPB acct — #43094,1000000.0000,1000000.0000,approved,1,0,2026-01-31 23:59:59,0
+8,\N,2026-01-02,journal_entry,"Sales Branches January 02, 2026 - Laboratory/Diagnostics — #44037",495790.0000,495790.0000,approved,1,0,2026-01-31 23:59:59,0
+9,\N,2026-01-02,journal_entry,Interest payment on BPI Loans (23.7M) - Interest payment on BPI Loans (23.7M) — #45756,204534.2400,204534.2400,approved,1,0,2026-01-31 23:59:59,0
+10,\N,2026-01-02,journal_entry,Interest payment on BPI Loans (36.3M) - Interest payment on BPI Loans (36.3M) — #45768,313273.9800,313273.9800,approved,1,0,2026-01-31 23:59:59,0
+11,\N,2026-01-02,payable_payment,Payment: TONERPRO TRADING — 0525-060,25839.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+12,\N,2026-01-02,payable_payment,Payment: DG'S INK TRADING — 1025-000332,37383.2100,0.0000,approved,1,0,2026-01-31 23:59:59,0
+13,\N,2026-01-02,payable_payment,Payment: BIOLAB MEDICAL SUPPLIES — 1125-000367,11880.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+14,\N,2026-01-02,payable_payment,Payment: BIOLAB MEDICAL SUPPLIES — 1125-000405,48609.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+15,\N,2026-01-02,payable_payment,Payment: Toyota Mandaue North Cebu — 1225-000468,220000.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+16,\N,2026-01-02,payable_payment,Payment: Toyota Mandaue North Cebu — 1225-000469,21380.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+17,\N,2026-01-02,payable_payment,Payment: Toyota Mandaue North Cebu — 1225-000470,21380.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+18,\N,2026-01-02,payable_payment,Payment: Toyota Mandaue North Cebu — 407864,0.0000,220000.0000,approved,1,0,2026-01-31 23:59:59,0
+19,\N,2026-01-02,payable_payment,Payment: Toyota Mandaue North Cebu — 407865,0.0000,21380.0000,approved,1,0,2026-01-31 23:59:59,0
+20,\N,2026-01-02,payable_payment,Payment: Toyota Mandaue North Cebu — 407866,0.0000,21380.0000,approved,1,0,2026-01-31 23:59:59,0
+21,\N,2026-01-02,payable_payment,"Payment: Avega Managed Care, Inc — Online-010226",0.0000,184653.3100,approved,1,0,2026-01-31 23:59:59,0
+22,\N,2026-01-02,payable_payment,Payment: CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 4019,10438.6900,0.0000,approved,1,0,2026-01-31 23:59:59,0
+23,\N,2026-01-02,payable_payment,"Payment: Avega Managed Care, Inc — RFP No.# 4611",5127.9600,0.0000,approved,1,0,2026-01-31 23:59:59,0
+24,\N,2026-01-02,payable_payment,"Payment: Avega Managed Care, Inc — RFP No.# 4612",213.1800,0.0000,approved,1,0,2026-01-31 23:59:59,0
+25,\N,2026-01-02,payable_payment,Payment: Rhea Mae Gesulga — RFP No.# 4623,9800.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+26,\N,2026-01-02,payable_payment,"Payment: SMART COMMUNICATIONS, INC. — RFP No.# 4634",33149.4500,0.0000,approved,1,0,2026-01-31 23:59:59,0
+27,\N,2026-01-02,payable_payment,Payment: ELLEN ROSE L. SIMBULAAN — RFP No.# 4646,12362.6200,0.0000,approved,1,0,2026-01-31 23:59:59,0
+28,\N,2026-01-03,journal_entry,"Sales Branches January 03, 2026 - Laboratory/Diagnostics — #44038",465198.0000,465198.0000,approved,1,0,2026-01-31 23:59:59,0
+29,\N,2026-01-05,journal_entry,"To Record deposit sales Branches Unidentified January 05, 2026 - To Record deposit sales Branches Unidentified January 05, 2026 — #43100",309707.8500,309707.8500,approved,1,0,2026-01-31 23:59:59,0
+30,\N,2026-01-05,journal_entry,"To Record Cash Sales Branches January 02, 2025 - To Record Cash Sales Branches January 02, 2025 — #43101",226262.0000,113131.0000,approved,1,0,2026-01-31 23:59:59,0
+31,\N,2026-01-05,journal_entry,"To Record Cash Sales Branches January 03, 2025 - To Record Cash Sales Branches January 03, 2025 — #43102",283698.0000,141849.0000,approved,1,0,2026-01-31 23:59:59,0
+32,\N,2026-01-05,journal_entry,"To record receipts of QR and Card sales GCASH for January 05, 2026 - To record receipts of QR and Card sales GCASH for January 05, 2026 — #43103",3480.0000,3480.0000,approved,1,0,2026-01-31 23:59:59,0
+33,\N,2026-01-05,journal_entry,"To record receipts of QR and Card sales GCASH for January 05, 2026 - To record receipts of QR and Card sales GCASH for January 05, 2026 — #43104",60159.9600,60159.9600,approved,1,0,2026-01-31 23:59:59,0
+34,\N,2026-01-05,journal_entry,"To Record Deposit Card Sales MBTC January 05, 2026 - To Record Deposit Card Sales MBTC January 05, 2026 — #43105",41196.8000,41196.8000,approved,1,0,2026-01-31 23:59:59,0
+35,\N,2026-01-05,journal_entry,"To Record deposit sales Branches Unidentified SBC KPCI January 05, 2025 - To Record deposit sales Branches Unidentified SBC KPCI January 05, 2025 — #43106",6000.0000,6000.0000,approved,1,0,2026-01-31 23:59:59,0
+36,\N,2026-01-05,journal_entry,"payroll payout January 05, 2026 - payroll payout January 05, 2026 — #43107",1742841.3600,1742841.3600,approved,1,0,2026-01-31 23:59:59,0
+37,\N,2026-01-05,journal_entry,"Sales Branches January 05, 2026 - Laboratory/Diagnostics — #48411",917449.0000,917449.0000,approved,1,0,2026-01-31 23:59:59,0
+38,\N,2026-01-05,payable_payment,Payment: KONSEPTEK ELECTRONIC PARTS & EQUIPMENT TRADING — 1225-000474,245520.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+39,\N,2026-01-05,payable_payment,Payment: KONSEPTEK ELECTRONIC PARTS & EQUIPMENT TRADING — 1245510,0.0000,245520.0000,approved,1,0,2026-01-31 23:59:59,0
+40,\N,2026-01-06,journal_entry,"To Record deposit sales Branches Unidentified January 06, 2026 - To Record deposit sales Branches Unidentified January 06, 2026 — #43356",142209.0100,142209.0100,approved,1,0,2026-01-31 23:59:59,0
+41,\N,2026-01-06,journal_entry,"To Record deposit sales Branches AR-Term - Icare January 06, 2026 - To Record deposit sales Branches AR-Term - Icare January 06, 2026 — #43357",1359475.6000,1359475.6000,approved,1,0,2026-01-31 23:59:59,0
+42,\N,2026-01-06,journal_entry,"To Record deposit sales Branches Check Deposit - Life & Health January 06, 2026 - To Record deposit sales Branches Check Deposit - Life & Health January 06, 2026 — #43358",313238.2000,313238.2000,approved,1,0,2026-01-31 23:59:59,0
+43,\N,2026-01-06,journal_entry,"To Record deposit sales Branches  Check Deposit - Home Sourced January 06, 2026 - To Record deposit sales Branches  Check Deposit - Home Sourced January 06, 2026 — #43359",9038.0500,9038.0500,approved,1,0,2026-01-31 23:59:59,0
+44,\N,2026-01-06,journal_entry,"To Record deposit sales Branches Check Deposit - Avega January 06, 2026 - To Record deposit sales Branches Check Deposit - Avega January 06, 2026 — #43360",18781.7000,18781.7000,approved,1,0,2026-01-31 23:59:59,0
+45,\N,2026-01-06,journal_entry,"To record receipts of QR and Card sales GCASH for January 06, 2026 - To record receipts of QR and Card sales GCASH for January 06, 2026 — #43361",5520.0000,5520.0000,approved,1,0,2026-01-31 23:59:59,0
+46,\N,2026-01-06,journal_entry,"To record receipts of QR and Card sales GCASH for January 06, 2026 - To record receipts of QR and Card sales GCASH for January 06, 2026 — #43362",37744.7700,37744.7700,approved,1,0,2026-01-31 23:59:59,0
+47,\N,2026-01-06,journal_entry,"To Record Deposit Card Sales MBTC January 06, 2026 - To Record Deposit Card Sales MBTC January 06, 2026 — #43363",51385.2400,51385.2400,approved,1,0,2026-01-31 23:59:59,0
+48,\N,2026-01-06,journal_entry,"To Record Cash Sales Branches January 05, 2025 - To Record Cash Sales Branches January 05, 2025 — #43364",329876.0000,164938.0000,approved,1,0,2026-01-31 23:59:59,0
+49,\N,2026-01-06,journal_entry,"Sales Branches January 06, 2026 - Laboratory/Diagnostics — #48413",838014.0000,838014.0000,approved,1,0,2026-01-31 23:59:59,0
+50,\N,2026-01-06,receivable_invoice,Cebu Home and Builders Centre - Administration & Mobilization Fee — MO-2044,39350.0000,1000.0000,approved,1,0,2026-01-31 23:59:59,0
+51,\N,2026-01-07,journal_entry,"To Record deposit sales Branches Unidentified January 07, 2026 - To Record deposit sales Branches Unidentified January 07, 2026 — #43597",3390.0000,3390.0000,approved,1,0,2026-01-31 23:59:59,0
+52,\N,2026-01-07,journal_entry,"To Record Cash Sales Branches January 06, 2025 - To Record Cash Sales Branches January 06, 2025 — #43598",300834.0000,150417.0000,approved,1,0,2026-01-31 23:59:59,0
+53,\N,2026-01-07,journal_entry,"To record receipts of QR and Card sales GCASH for January 07, 2026 - To record receipts of QR and Card sales GCASH for January 07, 2026 — #43599",10892.0000,10892.0000,approved,1,0,2026-01-31 23:59:59,0
+54,\N,2026-01-07,journal_entry,"To record receipts of QR and Card sales GCASH for January 07, 2026 - To record receipts of QR and Card sales GCASH for January 07, 2026 — #43600",49457.6300,49457.6300,approved,1,0,2026-01-31 23:59:59,0
+55,\N,2026-01-07,journal_entry,"To Record Deposit Card Sales MBTC January 07, 2026 - To Record Deposit Card Sales MBTC January 07, 2026 — #43601",20940.5000,20940.5000,approved,1,0,2026-01-31 23:59:59,0
+56,\N,2026-01-07,journal_entry,"Sales Branches January 07, 2026 - Laboratory/Diagnostics — #48415",904649.0000,904649.0000,approved,1,0,2026-01-31 23:59:59,0
+57,\N,2026-01-07,payable_invoice,OAKRIDGE REALTY DEVELOPMENT CORPORATION — 0126-000002,116765.0800,116765.0800,approved,1,0,2026-01-31 23:59:59,0
+58,\N,2026-01-07,payable_invoice,Rhea Mae Gesulga — RFP No.# 4656,20000.0000,20000.0000,approved,1,0,2026-01-31 23:59:59,0
+59,\N,2026-01-08,journal_entry,"To Record deposit sales Branches Unidentified January 08, 2026 - To Record deposit sales Branches Unidentified January 08, 2026 — #44027",161911.3900,161911.3900,approved,1,0,2026-01-31 23:59:59,0
+60,\N,2026-01-08,journal_entry,"To Record Cash Sales Branches January 07, 2025 - To Record Cash Sales Branches January 07, 2025 — #44028",415102.0000,207551.0000,approved,1,0,2026-01-31 23:59:59,0
+61,\N,2026-01-08,journal_entry,"To record receipts of QR and Card sales GCASH for January 08, 2026 - To record receipts of QR and Card sales GCASH for January 08, 2026 — #44029",26758.5400,26758.5400,approved,1,0,2026-01-31 23:59:59,0
+62,\N,2026-01-08,journal_entry,"To record receipts of QR and Card sales GCASH for January 08, 2026 - To record receipts of QR and Card sales GCASH for January 08, 2026 — #44030",1900.0000,1900.0000,approved,1,0,2026-01-31 23:59:59,0
+63,\N,2026-01-08,journal_entry,"To Record Deposit Card Sales MBTC January 08, 2026 - To Record Deposit Card Sales MBTC January 08, 2026 — #44031",46406.8500,46406.8500,approved,1,0,2026-01-31 23:59:59,0
+64,\N,2026-01-08,journal_entry,"Sales Branches January 08, 2026 - Laboratory/Diagnostics — #48417",999904.0000,999904.0000,approved,1,0,2026-01-31 23:59:59,0
+65,\N,2026-01-08,payable_invoice,PHILIPPINE HEALTH INSURANCE CORPORATION — RFP No.# 4664,114990.0000,186505.0000,approved,1,0,2026-01-31 23:59:59,0
+66,\N,2026-01-08,payable_invoice,HOME DEVELOPMENT MUTUAL FUND — RFP No.# 4665,7765.2600,7765.2600,approved,1,0,2026-01-31 23:59:59,0
+67,\N,2026-01-08,payable_invoice,HOME DEVELOPMENT MUTUAL FUND — RFP No.# 4666,32200.0000,54000.0000,approved,1,0,2026-01-31 23:59:59,0
+68,\N,2026-01-08,payable_payment,Payment: NEW KEEN'S TRADING — 1225-000490,33192.9600,0.0000,approved,1,0,2026-01-31 23:59:59,0
+69,\N,2026-01-08,payable_payment,Payment: ALEDAN MKTG CORP — 1225-000501,91339.2900,0.0000,approved,1,0,2026-01-31 23:59:59,0
+70,\N,2026-01-08,payable_payment,Payment: ASIA PACIFIC COMPUTERS OPC — 1225-000543,89196.4300,0.0000,approved,1,0,2026-01-31 23:59:59,0
+71,\N,2026-01-08,payable_payment,Payment: NEW KEEN'S TRADING — 420690,0.0000,33192.9600,approved,1,0,2026-01-31 23:59:59,0
+72,\N,2026-01-08,payable_payment,Payment: ALEDAN MKTG CORP — 420694,0.0000,91339.2900,approved,1,0,2026-01-31 23:59:59,0
+73,\N,2026-01-08,payable_payment,Payment: ASIA PACIFIC COMPUTERS OPC — 420696,0.0000,89196.4300,approved,1,0,2026-01-31 23:59:59,0
+74,\N,2026-01-08,payable_payment,Payment: Joemar O. Echavez — 6000396868,0.0000,21090.5100,approved,1,0,2026-01-31 23:59:59,0
+75,\N,2026-01-08,payable_payment,Payment: Joemar O. Echavez — RFP No.# 4513,21090.5100,0.0000,approved,1,0,2026-01-31 23:59:59,0
+76,\N,2026-01-08,receivable_invoice,"Philhealthcare, Inc - BOLIGAO, ANGEL MAY N/A | 01/02/2026 |Philhealthcare, Inc |Consultation |500 - — O3230",36330.0000,36330.0000,approved,1,0,2026-01-31 23:59:59,0
+77,\N,2026-01-08,receivable_invoice,"Medicard Philippines Inc - LARONG, LORENZ - | 01/02/2026 |Medicard Philippines Inc |Health Services |150 - — O3231",8950.0000,8950.0000,approved,1,0,2026-01-31 23:59:59,0
+78,\N,2026-01-08,receivable_invoice,"Asalus Corporation - GULLIM, JERIKA CAGASAN | 01/07/2026 |Asalus Corporation |Laboratory/Diagnostics |170 - — O3233",125565.0000,125565.0000,approved,1,0,2026-01-31 23:59:59,0
+79,\N,2026-01-09,journal_entry,"To Record AR-Terms Life & Health January 09, 2026 - To Record AR-Terms Life & Health January 09, 2026 — #44074",310689.4000,310689.4000,approved,1,0,2026-01-31 23:59:59,0
+80,\N,2026-01-09,journal_entry,"To record receipts of QR and Card sales GCASH for January 09, 2026 - To record receipts of QR and Card sales GCASH for January 09, 2026 — #44075",4160.0000,4160.0000,approved,1,0,2026-01-31 23:59:59,0
+81,\N,2026-01-09,journal_entry,"To record receipts of QR and Card sales GCASH for January 09, 2026 - To record receipts of QR and Card sales GCASH for January 09, 2026 — #44076",56595.6600,56595.6600,approved,1,0,2026-01-31 23:59:59,0
+82,\N,2026-01-09,journal_entry,"To Record Deposit Card Sales MBTC January 09, 2026 - To Record Deposit Card Sales MBTC January 09, 2026 — #44078",66024.3300,66024.3300,approved,1,0,2026-01-31 23:59:59,0
+83,\N,2026-01-09,journal_entry,"To Record Cash Sales Branches January 09, 2025 - To Record Cash Sales Branches January 09, 2025 — #44123",307766.0000,153883.0000,approved,1,0,2026-01-31 23:59:59,0
+84,\N,2026-01-09,journal_entry,FT fund transfer from BDO-OpEx to SBC-CapEx - FT fund transfer from BDO-OpEx to SBC-CapEx — #44124,1600000.0000,1600000.0000,approved,1,0,2026-01-31 23:59:59,0
+85,\N,2026-01-09,journal_entry,"To Record AR-Terms Insular life January 09, 2026 - To Record AR-Terms Insular life January 09, 2026 — #44125",450.8000,450.8000,approved,1,0,2026-01-31 23:59:59,0
+86,\N,2026-01-09,journal_entry,"To Record deposit sales Branches Unidentified January 09, 2026 - To Record deposit sales Branches Unidentified January 09, 2026 — #46126",516526.6700,516526.6700,approved,1,0,2026-01-31 23:59:59,0
+87,\N,2026-01-09,journal_entry,to record advances to smart payment — #46541,25000.0000,25000.0000,approved,1,0,2026-01-31 23:59:59,0
+88,\N,2026-01-09,journal_entry,"Sales Branches January 09, 2026 - Laboratory/Diagnostics — #48419",855444.0000,855444.0000,approved,1,0,2026-01-31 23:59:59,0
+89,\N,2026-01-09,payable_invoice,Ma. Concepcion Y. Atilano - Payment for last and final pay for resigned employee (13th month) — RFP No.# 4647,19075.0400,19075.0400,approved,1,0,2026-01-31 23:59:59,0
+90,\N,2026-01-09,payable_invoice,CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 4654,13101.8600,13101.8600,approved,1,0,2026-01-31 23:59:59,0
+91,\N,2026-01-09,payable_invoice,Responsible Internet Sustainability Effort Inc. (RISE) — RFP No.# 4657,42384.1600,42384.1600,approved,1,0,2026-01-31 23:59:59,0
+92,\N,2026-01-09,payable_payment,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — 0126-000002,114867.5000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+93,\N,2026-01-09,payable_payment,Payment: BIOLAB MEDICAL SUPPLIES — 0825-000113,39204.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+94,\N,2026-01-09,payable_payment,Payment: ANDUILLER INT'L. SALES CORPORATION — 0825-000144,25767.8600,0.0000,approved,1,0,2026-01-31 23:59:59,0
+95,\N,2026-01-09,payable_payment,Payment: BIOLAB MEDICAL SUPPLIES — 0825-000145,43857.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+96,\N,2026-01-09,payable_payment,Payment: BIOLAB MEDICAL SUPPLIES — 0825-000147,34650.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+97,\N,2026-01-09,payable_payment,Payment: ANDUILLER INT'L. SALES CORPORATION — 0825-000176,16005.8100,0.0000,approved,1,0,2026-01-31 23:59:59,0
+98,\N,2026-01-09,payable_payment,Payment: ANDUILLER INT'L. SALES CORPORATION — 0825-000177,11892.8600,0.0000,approved,1,0,2026-01-31 23:59:59,0
+99,\N,2026-01-09,payable_payment,Payment: NEW KEEN'S TRADING — 0825-000179,5156.0200,0.0000,approved,1,0,2026-01-31 23:59:59,0
+100,\N,2026-01-09,payable_payment,"Payment: BEROVAN MARKETING, INC. — 1025-000310",22592.4600,0.0000,approved,1,0,2026-01-31 23:59:59,0
+101,\N,2026-01-09,payable_payment,Payment: DG'S INK TRADING — 1025-000336,43111.6100,0.0000,approved,1,0,2026-01-31 23:59:59,0
+102,\N,2026-01-09,payable_payment,Payment: ENA COMMERCIAL AND PRINTING SERVICES — 1025-000338,32375.2800,0.0000,approved,1,0,2026-01-31 23:59:59,0
+103,\N,2026-01-09,payable_payment,Payment: ENA COMMERCIAL AND PRINTING SERVICES — 1125-000368,33614.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+104,\N,2026-01-09,payable_payment,"Payment: BEROVAN MARKETING, INC. — 1125-000372",5510.3600,0.0000,approved,1,0,2026-01-31 23:59:59,0
+105,\N,2026-01-09,payable_payment,Payment: MLT MARKETING — 1125-000402,30779.7100,0.0000,approved,1,0,2026-01-31 23:59:59,0
+106,\N,2026-01-09,payable_payment,"Payment: BEROVAN MARKETING, INC. — 1225-000429",12883.9300,0.0000,approved,1,0,2026-01-31 23:59:59,0
+107,\N,2026-01-09,payable_payment,Payment: MLT MARKETING — 1225-000430,10183.2600,0.0000,approved,1,0,2026-01-31 23:59:59,0
+108,\N,2026-01-09,payable_payment,Payment: JAV MARKETING — 1225-000484,35782.6300,0.0000,approved,1,0,2026-01-31 23:59:59,0
+109,\N,2026-01-09,payable_payment,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — 1245513,0.0000,184419.1600,approved,1,0,2026-01-31 23:59:59,0
+110,\N,2026-01-09,payable_payment,Payment: Ma. Concepcion Y. Atilano — 6000396869,0.0000,17655.5500,approved,1,0,2026-01-31 23:59:59,0
+111,\N,2026-01-09,payable_payment,Payment: EASY SERVICES INC. — Online-010926,0.0000,447759.6700,approved,1,0,2026-01-31 23:59:59,0
+112,\N,2026-01-09,payable_payment,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 2343,13280.8400,0.0000,approved,1,0,2026-01-31 23:59:59,0
+113,\N,2026-01-09,payable_payment,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 2861,792.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+114,\N,2026-01-09,payable_payment,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 2899,13665.6400,0.0000,approved,1,0,2026-01-31 23:59:59,0
+115,\N,2026-01-09,payable_payment,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 4554,6886.3600,0.0000,approved,1,0,2026-01-31 23:59:59,0
+116,\N,2026-01-09,payable_payment,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 4555,25300.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+117,\N,2026-01-09,payable_payment,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 4556,9626.8200,0.0000,approved,1,0,2026-01-31 23:59:59,0
+118,\N,2026-01-09,payable_payment,Payment: Ma. Concepcion Y. Atilano — RFP No.# 4647,17655.5500,0.0000,approved,1,0,2026-01-31 23:59:59,0
+119,\N,2026-01-09,payable_payment,Payment: EASY SERVICES INC. — RFP No.# 4652,2765.5800,0.0000,approved,1,0,2026-01-31 23:59:59,0
+120,\N,2026-01-09,payable_payment,Payment: EUGENE TIO — RFP No.# 4653,4473.2100,0.0000,approved,1,0,2026-01-31 23:59:59,0
+121,\N,2026-01-09,payable_payment,Payment: Responsible Internet Sustainability Effort Inc. (RISE) — RFP No.# 4657,41627.3000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+122,\N,2026-01-09,receivable_invoice,JIPROP DEVELOMENT CORP - APE | Basic 5 | 15PAX | 650 — O3235,9750.0000,9750.0000,approved,1,0,2026-01-31 23:59:59,0
+123,\N,2026-01-09,receivable_invoice,"Life & Health Hmp Inc - SOLON, ZOE ELLERY NIÑAL | 01/03/2026 |Life & Health Hmp Inc |Laboratory/Diagnostics |100 - — O3237-1",30030.0000,30030.0000,approved,1,0,2026-01-31 23:59:59,0
+124,\N,2026-01-10,journal_entry,"Sales Branches January 10, 2026 - Laboratory/Diagnostics — #48421",929530.0000,929530.0000,approved,1,0,2026-01-31 23:59:59,0
+125,\N,2026-01-12,journal_entry,"to record interest expense BDO MTL Loan January 1-12, 2026 - to record interest expense BDO MTL Loan January 1-12, 2026 — #44141",263095.8900,263095.8900,approved,1,0,2026-01-31 23:59:59,0
+126,\N,2026-01-12,journal_entry,"To Record deposit sales Branches Unidentified January 12, 2026 - To Record deposit sales Branches Unidentified January 12, 2026 — #44176",137495.8200,137495.8200,approved,1,0,2026-01-31 23:59:59,0
+127,\N,2026-01-12,journal_entry,"To Record deposit sales Branches AR Terms Unidentified January 12, 2026 - To Record deposit sales Branches AR Terms Unidentified January 12, 2026 — #44179",470506.0000,470506.0000,approved,1,0,2026-01-31 23:59:59,0
+128,\N,2026-01-12,journal_entry,"To Record deposit sales Branches AR-Terms - Aboitiz January 12, 2026 - To Record deposit sales Branches  AR-Terms - Aboitiz January 12, 2026 — #44180",16464.0000,16464.0000,approved,1,0,2026-01-31 23:59:59,0
+129,\N,2026-01-12,journal_entry,"To Record Cash Sales Branches January 09, 2025 - To Record Cash Sales Branches January 09, 2025 — #44186",268620.0000,134310.0000,approved,1,0,2026-01-31 23:59:59,0
+130,\N,2026-01-12,journal_entry,"To Record Cash Sales Branches January 10, 2025 - To Record Cash Sales Branches January 10, 2025 — #44187",324618.0000,162309.0000,approved,1,0,2026-01-31 23:59:59,0
+131,\N,2026-01-12,journal_entry,"To record receipts of QR and Card sales GCASH for January 12, 2026 - To record receipts of QR and Card sales GCASH for January 12, 2026 — #44188",11555.0000,11555.0000,approved,1,0,2026-01-31 23:59:59,0
+132,\N,2026-01-12,journal_entry,"To record receipts of QR and Card sales GCASH for January 12, 2026 - To record receipts of QR and Card sales GCASH for January 12, 2026 — #44189",33525.9200,33525.9200,approved,1,0,2026-01-31 23:59:59,0
+133,\N,2026-01-12,journal_entry,to record TD placement 130M fund source from BDO-OPEX for 31 days @ 5.25% gross rate maturity - to record TD placement 130M fund source from BDO-OPEX for 31 days @ 5.25% gross rate maturity — #44190,130000000.0000,130000000.0000,approved,1,0,2026-01-31 23:59:59,0
+134,\N,2026-01-12,journal_entry,"To Record Deposit Card Sales MBTC January 12, 2026 - To Record Deposit Card Sales MBTC January 12, 2026 — #44191",72273.6700,72273.6700,approved,1,0,2026-01-31 23:59:59,0
+135,\N,2026-01-12,journal_entry,"to record reversal of accrued interest expense and cash payment BDO MTL Loan January 12, 2026 - to record reversal of accrued interest expense and cash payment BDO MTL Loan January 12, 2026 — #46221",741452.0500,741452.0500,approved,1,0,2026-01-31 23:59:59,0
+136,\N,2026-01-12,journal_entry,"to record interest income BDO TD Jan 1 - 12, 2026, and reversal of interest receivable dec 12-31, 2025 - to record interest income BDO TD Jan 1 - 12, 2026, and reversal of interest receivable dec 12-31, 2025 — #46240",515666.6600,515666.6600,approved,1,0,2026-01-31 23:59:59,0
+137,\N,2026-01-12,journal_entry,"Sales Branches January 12, 2026 - Laboratory/Diagnostics — #48424",1343995.0000,1343995.0000,approved,1,0,2026-01-31 23:59:59,0
+138,\N,2026-01-12,receivable_invoice,"Maxicare Healthcare Corporation - AMPO, EMILIE LOZANO | 01/03/2026 |MAXICARE HEALTHCARE CORPORATION |Laboratory/Diagnostics |290 - — O3232",109808.0000,109208.0000,approved,1,0,2026-01-31 23:59:59,0
+139,\N,2026-01-12,receivable_invoice,"Insular Healthcare Inc - DELA TORRE, STEVEN MIKING | 01/06/2026 |Insular Healthcare Inc |Laboratory/Diagnostics |270 - — O3234",106760.0000,106760.0000,approved,1,0,2026-01-31 23:59:59,0
+140,\N,2026-01-12,receivable_invoice,"United Coconut Planters Life Assurance Corporation - DIAZ, ROWENA G. | 01/08/2026 |United Coconut Planters Life Assurance Corporation| 400- — O3238",3230.0000,400.0000,approved,1,0,2026-01-31 23:59:59,0
+141,\N,2026-01-12,receivable_invoice,"Homesourced Inc - SENO, BELLE MONIQUE SUMAYANG | 01/08/2026 |Homesourced Inc| 900- — O3239",900.0000,900.0000,approved,1,0,2026-01-31 23:59:59,0
+142,\N,2026-01-12,receivable_invoice,"FAST DISTRIBUTION CORP - CUIZON, CHRISTOPHER MONILAR | 01/07/2026 |FAST DISTRIBUTION CORP |Laboratory/Diagnostics |6000 - — O3240",6000.0000,6000.0000,approved,1,0,2026-01-31 23:59:59,0
+143,\N,2026-01-12,receivable_invoice,"PACIFIC CROSS INSURANCE, INC. - GOMEZ, LEANDRO RAY ESCARIO | 01/06/2026 |Pacific Cross Insurance, Inc. |Laboratory/Diagnostics |2610 - — O3241",9310.0000,9310.0000,approved,1,0,2026-01-31 23:59:59,0
+144,\N,2026-01-12,receivable_invoice,"Pages Holdings Inc., - PAGES, MADDISSON SAMANTHA MANUEL | 01/06/2026 |Pages Holdings Inc.,  |Laboratory/Diagnostics |90 - — O3242",2826.0000,2826.0000,approved,1,0,2026-01-31 23:59:59,0
+145,\N,2026-01-12,receivable_invoice,"ROYAL ALGACULTURE CORP. - CAÑETE, HERLIE MENDOZA | 01/06/2026 |ROYAL ALGACULTURE CORP. |Laboratory/Diagnostics |1010 - — O3243",4040.0000,4040.0000,approved,1,0,2026-01-31 23:59:59,0
+146,\N,2026-01-12,receivable_invoice,"Cooperative Health Management Federation - BARREDO, ODEZA VILANDO | 01/03/2026 |Cooperative Health Management Federation |Laboratory/Diagnostics |270 - — O3244",12780.0000,12780.0000,approved,1,0,2026-01-31 23:59:59,0
+147,\N,2026-01-12,receivable_invoice,"Generali Life Assurance Philippines Inc - CHIN, NATANIA LOREN ALYAO | 01/02/2026 |Generali Life Assurance Philippines Inc |Consultation |600 - — O3246",25770.0000,25770.0000,approved,1,0,2026-01-31 23:59:59,0
+148,\N,2026-01-12,receivable_invoice,"Etiqa Life and General Assurance Phillipines, Inc - CARO, YURI DWAYNE AMORES | 01/02/2026 |Etiqa Life and General Assurance Phillipines, Inc |Consultation |500 - — O3247",8645.0000,8645.0000,approved,1,0,2026-01-31 23:59:59,0
+149,\N,2026-01-12,receivable_invoice,"Avega Managed Care, Inc - MALAYO, RACQUEL GALLO | 01/06/2026 |Avega Managed Care, Inc |Laboratory/Diagnostics |250 - — O3248",51865.0000,51865.0000,approved,1,0,2026-01-31 23:59:59,0
+150,\N,2026-01-12,receivable_invoice,"Value Care Health Systems, Inc. - CORTES, MERICAR ABELLA | 01/05/2026 |Value Care Health Systems, Inc. |Laboratory/Diagnostics |100 - — O3249",700.0000,700.0000,approved,1,0,2026-01-31 23:59:59,0
+151,\N,2026-01-12,receivable_invoice,"Virginia Food Inc - SECUSANA, HARRLAINE KAYE UY | 01/02/2026 |Virginia Food Inc |Laboratory/Diagnostics |780 - — O3250",3120.0000,3120.0000,approved,1,0,2026-01-31 23:59:59,0
+152,\N,2026-01-12,receivable_invoice,"The Insular Life Assurance Company Ltd - PALACIO, MARIA SOCORRO MUÑOZ | 01/02/2026 |The Insular Life Assurance Company Ltd |Laboratory/Diagnostics |3200 - — O3251",3200.0000,3200.0000,approved,1,0,2026-01-31 23:59:59,0
+153,\N,2026-01-12,receivable_invoice,"ISLA MACTAN- CORDOVA CORPORATION - RONDINA, DESIREE REMOLLO | 01/02/2026 |ISLA MACTAN- CORDOVA CORPORATION |Laboratory/Diagnostics |650 - — O3252",650.0000,650.0000,approved,1,0,2026-01-31 23:59:59,0
+154,\N,2026-01-12,receivable_invoice,"Logc - Lh Foundation Inc - VILLEGAS, MARCELINO TERO | 01/07/2026 |Logc - Lh Foundation Inc |Laboratory/Diagnostics |1431 - — O3253",1431.0000,1431.0000,approved,1,0,2026-01-31 23:59:59,0
+155,\N,2026-01-13,journal_entry,Reversal of: To accrue Doctors PF Consolacion for the period December 2025 - To accrue Doctors PF Consolacion for the period December 2025 — #44296,662127.8300,662127.8300,approved,1,0,2026-01-31 23:59:59,0
+156,\N,2026-01-13,journal_entry,Reversal of: To accrue Doctors PF Oakridge for the period DECEMBER 2025 - To accrue Doctors PF Oakridge for the period DECEMBER 2025 — #44297,1329348.3200,1329348.3200,approved,1,0,2026-01-31 23:59:59,0
+157,\N,2026-01-13,journal_entry,Reversal of: To accrue Doctors PF Mactan for the period December 2025 - To accrue Doctors PF Mactan for the period December 2025 — #44298,1085360.1000,1085360.1000,approved,1,0,2026-01-31 23:59:59,0
+158,\N,2026-01-13,journal_entry,Excess Cash Liquidation from Shannese RFP No. 4600 - Excess Cash Liquidation from Shannese RFP No. 4600 — #44317,4564.3100,4564.3100,approved,1,0,2026-01-31 23:59:59,0
+159,\N,2026-01-13,journal_entry,"To record receipts of QR and Card sales GCASH for January 13, 2026 - To record receipts of QR and Card sales GCASH for January 13, 2026 — #44319",35666.9000,35666.9000,approved,1,0,2026-01-31 23:59:59,0
+160,\N,2026-01-13,journal_entry,to record advances to LHPI LHPI Loan Share january 13 - to record advances to LHPI LHPI Loan Share january 13 — #44322,130000000.0000,130000000.0000,approved,1,0,2026-01-31 23:59:59,0
+161,\N,2026-01-13,journal_entry,"to record back the unreleased checks to AP December 29, 2025. Unfunded checks RFP No.# 4497 - to record back the unreleased checks to AP December 29, 2025. Unfunded checks RFP No.# 4497 — #44343",82500.0000,82500.0000,approved,1,0,2026-01-31 23:59:59,0
+162,\N,2026-01-13,journal_entry,"To record receipts of QR and Card sales GCASH for January 13, 2026 - To record receipts of QR and Card sales GCASH for January 13, 2026 — #44345",790.0000,790.0000,approved,1,0,2026-01-31 23:59:59,0
+163,\N,2026-01-13,journal_entry,"To Record Deposit Card Sales MBTC January 13, 2026 - To Record Deposit Card Sales MBTC January 13, 2026 — #44346",66019.5000,66019.5000,approved,1,0,2026-01-31 23:59:59,0
+164,\N,2026-01-13,journal_entry,"To Record Cash Sales Branches January 12, 2025 - To Record Cash Sales Branches January 12, 2025 — #44347",413454.0000,206727.0000,approved,1,0,2026-01-31 23:59:59,0
+165,\N,2026-01-13,journal_entry,"To Record deposit sales Branches AR-Terms payment from Insular Life insurance  January 13, 2026 - To Record deposit sales Branches AR-Terms payment from Insular Life insurance  January 13, 2026 — #44348",10486.0000,10486.0000,approved,1,0,2026-01-31 23:59:59,0
+166,\N,2026-01-13,journal_entry,"Sales Branches January 13, 2026 - Laboratory/Diagnostics — #48426",1312147.0000,1312147.0000,approved,1,0,2026-01-31 23:59:59,0
+167,\N,2026-01-13,payable_invoice,"SMART COMMUNICATIONS, INC. — RFP No.# 4689",19166.6700,19166.6700,approved,1,0,2026-01-31 23:59:59,0
+168,\N,2026-01-13,payable_payment,Payment: HOME DEVELOPMENT MUTUAL FUND — Online-011326,0.0000,174955.2600,approved,1,0,2026-01-31 23:59:59,0
+169,\N,2026-01-13,payable_payment,Payment: Rhea Mae Gesulga — RFP No.# 4656,20000.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+170,\N,2026-01-13,payable_payment,Payment: PHILIPPINE HEALTH INSURANCE CORPORATION — RFP No.# 4664,186505.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+171,\N,2026-01-13,payable_payment,Payment: HOME DEVELOPMENT MUTUAL FUND — RFP No.# 4665,7765.2600,0.0000,approved,1,0,2026-01-31 23:59:59,0
+172,\N,2026-01-13,payable_payment,Payment: HOME DEVELOPMENT MUTUAL FUND — RFP No.# 4666,54000.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+173,\N,2026-01-14,journal_entry,"To Record deposit sales Branches AR Unidentified January 14, 2026 - To Record deposit sales Branches AR Unidentified January 14, 2026 — #44982",254931.9600,254931.9600,approved,1,0,2026-01-31 23:59:59,0
+174,\N,2026-01-14,journal_entry,"To Record Cash Sales Branches January 13, 2025 - To Record Cash Sales Branches January 13, 2025 — #44983",454876.0000,227438.0000,approved,1,0,2026-01-31 23:59:59,0
+175,\N,2026-01-14,journal_entry,"To record receipts of QR and Card sales GCASH for January 14, 2026 - To record receipts of QR and Card sales GCASH for January 14, 2026 — #44984",5170.0000,5170.0000,approved,1,0,2026-01-31 23:59:59,0
+176,\N,2026-01-14,journal_entry,"To record receipts of QR and Card sales GCASH for January 14, 2026 - To record receipts of QR and Card sales GCASH for January 14, 2026 — #44985",19142.9400,19142.9400,approved,1,0,2026-01-31 23:59:59,0
+177,\N,2026-01-14,journal_entry,"To Record deposit sales Branches AR Unidentified January 14, 2026 - To Record deposit sales Branches AR Unidentified January 14, 2026 — #44986",37800.0000,37800.0000,approved,1,0,2026-01-31 23:59:59,0
+178,\N,2026-01-14,journal_entry,"To Record Deposit Card Sales MBTC January 14, 2026 - To Record Deposit Card Sales MBTC January 14, 2026 — #44988",61255.3000,61255.3000,approved,1,0,2026-01-31 23:59:59,0
+179,\N,2026-01-14,journal_entry,"Sales Branches January 14, 2026 - Laboratory/Diagnostics — #48428",1088599.0000,1088599.0000,approved,1,0,2026-01-31 23:59:59,0
+180,\N,2026-01-14,payable_invoice,ROCSAN G. BACALAN — RFP No.# 4663,9411.0000,9411.0000,approved,1,0,2026-01-31 23:59:59,0
+181,\N,2026-01-14,payable_invoice,Jeramel Llaban — RFP No.# 4669,5915.5000,5915.5000,approved,1,0,2026-01-31 23:59:59,0
+182,\N,2026-01-14,payable_invoice,JOHN MARL M. ABAPO — RFP No.# 4695,5526.0000,5526.0000,approved,1,0,2026-01-31 23:59:59,0
+183,\N,2026-01-14,payable_invoice,"Avega Managed Care, Inc — RFP No.# 4717",320000.0000,320000.0000,approved,1,0,2026-01-31 23:59:59,0
+184,\N,2026-01-14,payable_invoice,Cocogen Insurance — RFP No.# 4718,22731.6900,22731.6900,approved,1,0,2026-01-31 23:59:59,0
+185,\N,2026-01-14,payable_invoice,Cocogen Insurance — RFP No.# 4719,22731.6900,22731.6900,approved,1,0,2026-01-31 23:59:59,0
+186,\N,2026-01-14,payable_invoice,Lh Paragon Inc — RFP No.# 4738,1509052.5300,1509052.5300,approved,1,0,2026-01-31 23:59:59,0
+187,\N,2026-01-14,payable_invoice,Ivy Grace B. Baricuatro — RFP No.# 4745,389213.8800,389213.8800,approved,1,0,2026-01-31 23:59:59,0
+188,\N,2026-01-15,journal_entry,"To Record deposit sales Branches AR Unidentified January 15, 2026 - To Record deposit sales Branches AR Unidentified January 15, 2026 — #45154",19521.6000,19521.6000,approved,1,0,2026-01-31 23:59:59,0
+189,\N,2026-01-15,journal_entry,"To Record Cash Sales Branches January 14, 2025 - To Record Cash Sales Branches January 14, 2025 — #45155",259054.0000,129527.0000,approved,1,0,2026-01-31 23:59:59,0
+190,\N,2026-01-15,journal_entry,FT from SBC-OpEx to BPI-OpEx - FT from SBC-OpEx to BPI-OpEx — #45156,500000.0000,500000.0000,approved,1,0,2026-01-31 23:59:59,0
+191,\N,2026-01-15,journal_entry,FT from BDO-OpEx to BPI-CapEx - FT from BDO-OpEx to BPI-CapEx — #45157,2000000.0000,2000000.0000,approved,1,0,2026-01-31 23:59:59,0
+192,\N,2026-01-15,journal_entry,"To Record Deposit Card Sales MBTC January 15, 2026 - To Record Deposit Card Sales MBTC January 15, 2026 — #45387",16178.2200,16178.2200,approved,1,0,2026-01-31 23:59:59,0
+193,\N,2026-01-15,journal_entry,Fund transfer FT from MBTC-OpEx to BPI-OpEx - Fund transfer FT from MBTC-OpEx to BPI-OpEx — #45388,500000.0000,500000.0000,approved,1,0,2026-01-31 23:59:59,0
+194,\N,2026-01-15,journal_entry,"To record receipts of QR and Card sales GCASH for January 15, 2026 - To record receipts of QR and Card sales GCASH for January 15, 2026 — #45389",66475.5900,66475.5900,approved,1,0,2026-01-31 23:59:59,0
+195,\N,2026-01-15,journal_entry,"To record receipts of QR and Card sales GCASH for January 15, 2026 - To record receipts of QR and Card sales GCASH for January 15, 2026 — #45390",3979.0000,3979.0000,approved,1,0,2026-01-31 23:59:59,0
+196,\N,2026-01-15,journal_entry,to record the SL sick leave conversion - to record the SL sick leave conversion — #45828,599328.8600,933112.5200,approved,1,0,2026-01-31 23:59:59,0
+197,\N,2026-01-15,journal_entry,"Sales Branches January 15, 2026 - Laboratory/Diagnostics — #48430",1205042.0000,1205042.0000,approved,1,0,2026-01-31 23:59:59,0
+198,\N,2026-01-15,payable_invoice,OAKRIDGE REALTY DEVELOPMENT CORPORATION — 0126-000004,7161.0000,7161.0000,approved,1,0,2026-01-31 23:59:59,0
+199,\N,2026-01-15,payable_invoice,Jayson Webb Sop-Sop — RFP No.# 4661,6241.5000,6241.5000,approved,1,0,2026-01-31 23:59:59,0
+200,\N,2026-01-15,payable_invoice,"GLOBE TELECOM, INC. — RFP No.# 4731",12594.9100,20982.9100,approved,1,0,2026-01-31 23:59:59,0
+201,\N,2026-01-15,payable_invoice,EUGENE TIO — RFP No.# 4739,0.0000,4473.2100,approved,1,0,2026-01-31 23:59:59,0
+202,\N,2026-01-15,payable_invoice,Christian Villablanca — RFP No.# 4763,22500.0000,22500.0000,approved,1,0,2026-01-31 23:59:59,0
+203,\N,2026-01-15,payable_invoice,MARICHU VILLENO — RFP No.# 4785,4288.9900,4288.9900,approved,1,0,2026-01-31 23:59:59,0
+204,\N,2026-01-15,payable_payment,Payment: TONERPRO TRADING — 0525-069,57420.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+205,\N,2026-01-15,payable_payment,Payment: TONERPRO TRADING — 0525-092,36828.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+206,\N,2026-01-15,payable_payment,Payment: TONERPRO TRADING — 0525-095,11484.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+207,\N,2026-01-15,payable_payment,Payment: TONERPRO TRADING — 0525-103,14355.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+208,\N,2026-01-15,payable_payment,Payment: TONERPRO TRADING — 0525-111,8613.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+209,\N,2026-01-15,payable_payment,Payment: LYNOLDS MARKETING — 0625-051,6937.5000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+210,\N,2026-01-15,payable_payment,Payment: LYNOLDS MARKETING — 0625-052,14271.4300,0.0000,approved,1,0,2026-01-31 23:59:59,0
+211,\N,2026-01-15,payable_payment,Payment: TONERPRO TRADING — 0625-057,8613.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+212,\N,2026-01-15,payable_payment,Payment: TONERPRO TRADING — 0725-000011,28710.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+213,\N,2026-01-15,payable_payment,Payment: TONERPRO TRADING — 0725-000012,57420.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+214,\N,2026-01-15,payable_payment,Payment: TONERPRO TRADING — 0725-000065,12276.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+215,\N,2026-01-15,payable_payment,Payment: TONERPRO TRADING — 0725-000069,17226.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+216,\N,2026-01-15,payable_payment,Payment: LYNOLDS MARKETING — 0825-000127,33696.4300,0.0000,approved,1,0,2026-01-31 23:59:59,0
+217,\N,2026-01-15,payable_payment,Payment: LYNOLDS MARKETING — 0825-000137,5946.4300,0.0000,approved,1,0,2026-01-31 23:59:59,0
+218,\N,2026-01-15,payable_payment,Payment: LYNOLDS MARKETING — 0925-000213,2824.5500,0.0000,approved,1,0,2026-01-31 23:59:59,0
+219,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — 1245516,64965.5500,0.0000,approved,1,0,2026-01-31 23:59:59,0
+220,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — 1245517,19765.9000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+221,\N,2026-01-15,payable_payment,Payment: LYNOLDS MARKETING — 1245518,0.0000,63676.3400,approved,1,0,2026-01-31 23:59:59,0
+222,\N,2026-01-15,payable_payment,Payment: TONERPRO TRADING — 1245520,0.0000,252945.0000,approved,1,0,2026-01-31 23:59:59,0
+223,\N,2026-01-15,payable_payment,Payment: Lh Paragon Inc — 1245521,0.0000,1306947.2800,approved,1,0,2026-01-31 23:59:59,0
+224,\N,2026-01-15,payable_payment,Payment: Christian Villablanca — Online-011526,0.0000,411713.8800,approved,1,0,2026-01-31 23:59:59,0
+225,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1647,15809.4000,316.1900,approved,1,0,2026-01-31 23:59:59,0
+226,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1648,8176.6000,163.5300,approved,1,0,2026-01-31 23:59:59,0
+227,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1649,15656.2000,313.1200,approved,1,0,2026-01-31 23:59:59,0
+228,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1650,7831.8000,156.6400,approved,1,0,2026-01-31 23:59:59,0
+229,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1651,7953.0000,159.0600,approved,1,0,2026-01-31 23:59:59,0
+230,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1652,28768.7500,575.3800,approved,1,0,2026-01-31 23:59:59,0
+231,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1653,15159.0000,303.1800,approved,1,0,2026-01-31 23:59:59,0
+232,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1654,18146.8000,362.9400,approved,1,0,2026-01-31 23:59:59,0
+233,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1655,43585.2000,871.4000,approved,1,0,2026-01-31 23:59:59,0
+234,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1724,23267.3500,465.3500,approved,1,0,2026-01-31 23:59:59,0
+235,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1727,4448.0000,88.9600,approved,1,0,2026-01-31 23:59:59,0
+236,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1728,14645.6000,292.9100,approved,1,0,2026-01-31 23:59:59,0
+237,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1729,27731.0000,554.6200,approved,1,0,2026-01-31 23:59:59,0
+238,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1735,19078.4000,381.5700,approved,1,0,2026-01-31 23:59:59,0
+239,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1736,11477.0000,229.5400,approved,1,0,2026-01-31 23:59:59,0
+240,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1851,43184.4000,863.6900,approved,1,0,2026-01-31 23:59:59,0
+241,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1852,12117.0000,242.3400,approved,1,0,2026-01-31 23:59:59,0
+242,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1853,31633.6000,632.6700,approved,1,0,2026-01-31 23:59:59,0
+243,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1856,12475.0000,249.5000,approved,1,0,2026-01-31 23:59:59,0
+244,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1857,6353.0000,127.0600,approved,1,0,2026-01-31 23:59:59,0
+245,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1858,20117.4000,402.3500,approved,1,0,2026-01-31 23:59:59,0
+246,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1859,10257.4000,205.1500,approved,1,0,2026-01-31 23:59:59,0
+247,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1860,16641.6000,332.8300,approved,1,0,2026-01-31 23:59:59,0
+248,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1861,8112.0000,162.2400,approved,1,0,2026-01-31 23:59:59,0
+249,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1862,9390.0000,187.8000,approved,1,0,2026-01-31 23:59:59,0
+250,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1863,20001.0000,400.0200,approved,1,0,2026-01-31 23:59:59,0
+251,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1864,4801.6000,96.0300,approved,1,0,2026-01-31 23:59:59,0
+252,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1865,7173.2000,143.4600,approved,1,0,2026-01-31 23:59:59,0
+253,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1894,19853.0000,397.0600,approved,1,0,2026-01-31 23:59:59,0
+254,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1895,17364.2000,347.2800,approved,1,0,2026-01-31 23:59:59,0
+255,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1896,3648.0000,72.9600,approved,1,0,2026-01-31 23:59:59,0
+256,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1897,9333.4000,186.6700,approved,1,0,2026-01-31 23:59:59,0
+257,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1898,13646.2000,272.9300,approved,1,0,2026-01-31 23:59:59,0
+258,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1904,7870.6000,157.4100,approved,1,0,2026-01-31 23:59:59,0
+259,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1905,32029.0000,640.5800,approved,1,0,2026-01-31 23:59:59,0
+260,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1906,54392.2000,1087.8400,approved,1,0,2026-01-31 23:59:59,0
+261,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1907,23229.0000,464.5800,approved,1,0,2026-01-31 23:59:59,0
+262,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1908,13038.4000,260.7700,approved,1,0,2026-01-31 23:59:59,0
+263,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1909,32360.0000,647.2000,approved,1,0,2026-01-31 23:59:59,0
+264,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1910,12095.0000,241.9000,approved,1,0,2026-01-31 23:59:59,0
+265,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 1911,18024.0000,360.4800,approved,1,0,2026-01-31 23:59:59,0
+266,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2011,48494.1500,969.8800,approved,1,0,2026-01-31 23:59:59,0
+267,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2013,5946.8000,118.9400,approved,1,0,2026-01-31 23:59:59,0
+268,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2015,12944.8000,258.8900,approved,1,0,2026-01-31 23:59:59,0
+269,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2017,10277.3500,205.5500,approved,1,0,2026-01-31 23:59:59,0
+270,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2019,15984.6000,319.6900,approved,1,0,2026-01-31 23:59:59,0
+271,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2020,17146.0000,342.9200,approved,1,0,2026-01-31 23:59:59,0
+272,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2021,12740.6000,254.8100,approved,1,0,2026-01-31 23:59:59,0
+273,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2022,6551.0000,131.0200,approved,1,0,2026-01-31 23:59:59,0
+274,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2023,17827.0000,356.5400,approved,1,0,2026-01-31 23:59:59,0
+275,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2024,21246.8000,424.9400,approved,1,0,2026-01-31 23:59:59,0
+276,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2025,26471.0000,529.4200,approved,1,0,2026-01-31 23:59:59,0
+277,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2026,28008.2000,560.1600,approved,1,0,2026-01-31 23:59:59,0
+278,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2027,18373.8000,367.4700,approved,1,0,2026-01-31 23:59:59,0
+279,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2029,19048.8000,380.9700,approved,1,0,2026-01-31 23:59:59,0
+280,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2030,6375.8000,127.5100,approved,1,0,2026-01-31 23:59:59,0
+281,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2032,27892.1500,557.8400,approved,1,0,2026-01-31 23:59:59,0
+282,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2033,13221.4000,264.4300,approved,1,0,2026-01-31 23:59:59,0
+283,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2034,7295.6000,145.9100,approved,1,0,2026-01-31 23:59:59,0
+284,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2035,7723.8000,154.4800,approved,1,0,2026-01-31 23:59:59,0
+285,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2037,15640.8000,312.8100,approved,1,0,2026-01-31 23:59:59,0
+286,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2114,5717.6000,114.3500,approved,1,0,2026-01-31 23:59:59,0
+287,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2115,20409.2000,408.1800,approved,1,0,2026-01-31 23:59:59,0
+288,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2117,7689.0000,153.7800,approved,1,0,2026-01-31 23:59:59,0
+289,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2121,12166.0000,243.3200,approved,1,0,2026-01-31 23:59:59,0
+290,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2122,17441.4000,348.8100,approved,1,0,2026-01-31 23:59:59,0
+291,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2123,11904.4000,238.0100,approved,1,0,2026-01-31 23:59:59,0
+292,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2126,30506.0000,610.1200,approved,1,0,2026-01-31 23:59:59,0
+293,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2127,23290.4000,465.8100,approved,1,0,2026-01-31 23:59:59,0
+294,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2128,43626.5500,872.5300,approved,1,0,2026-01-31 23:59:59,0
+295,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2129,19635.2000,392.7000,approved,1,0,2026-01-31 23:59:59,0
+296,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2130,28922.8000,578.4600,approved,1,0,2026-01-31 23:59:59,0
+297,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2131,35103.0000,702.0600,approved,1,0,2026-01-31 23:59:59,0
+298,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2235,13394.0000,267.8800,approved,1,0,2026-01-31 23:59:59,0
+299,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2236,7069.0000,141.3800,approved,1,0,2026-01-31 23:59:59,0
+300,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2237,3871.0000,77.4200,approved,1,0,2026-01-31 23:59:59,0
+301,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2238,19013.0000,380.2600,approved,1,0,2026-01-31 23:59:59,0
+302,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2239,0.0000,343.7500,approved,1,0,2026-01-31 23:59:59,0
+303,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2240,0.0000,406.8200,approved,1,0,2026-01-31 23:59:59,0
+304,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2242,16846.0000,336.9200,approved,1,0,2026-01-31 23:59:59,0
+305,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2243,4381.0000,87.6200,approved,1,0,2026-01-31 23:59:59,0
+306,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2244,4138.6000,82.7700,approved,1,0,2026-01-31 23:59:59,0
+307,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2245,2807.0000,56.1400,approved,1,0,2026-01-31 23:59:59,0
+308,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2246,8613.8000,172.2800,approved,1,0,2026-01-31 23:59:59,0
+309,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2247,0.0000,151.8600,approved,1,0,2026-01-31 23:59:59,0
+310,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2248,0.0000,217.9800,approved,1,0,2026-01-31 23:59:59,0
+311,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2249,8576.8000,171.5400,approved,1,0,2026-01-31 23:59:59,0
+312,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2250,0.0000,467.3500,approved,1,0,2026-01-31 23:59:59,0
+313,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2251,0.0000,369.6200,approved,1,0,2026-01-31 23:59:59,0
+314,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2252,0.0000,607.1300,approved,1,0,2026-01-31 23:59:59,0
+315,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2258,0.0000,255.2400,approved,1,0,2026-01-31 23:59:59,0
+316,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2261,0.0000,371.0200,approved,1,0,2026-01-31 23:59:59,0
+317,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2262,0.0000,189.3500,approved,1,0,2026-01-31 23:59:59,0
+318,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2263,0.0000,423.7000,approved,1,0,2026-01-31 23:59:59,0
+319,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2264,0.0000,187.5200,approved,1,0,2026-01-31 23:59:59,0
+320,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2265,0.0000,317.3000,approved,1,0,2026-01-31 23:59:59,0
+321,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2266,0.0000,57.8800,approved,1,0,2026-01-31 23:59:59,0
+322,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2267,7864.0000,157.2800,approved,1,0,2026-01-31 23:59:59,0
+323,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2365,21433.0000,428.6600,approved,1,0,2026-01-31 23:59:59,0
+324,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2366,26966.6000,539.3300,approved,1,0,2026-01-31 23:59:59,0
+325,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2370,6952.4000,139.0500,approved,1,0,2026-01-31 23:59:59,0
+326,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2372,11918.0000,238.3600,approved,1,0,2026-01-31 23:59:59,0
+327,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2381,26516.8000,530.3200,approved,1,0,2026-01-31 23:59:59,0
+328,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2382,24008.6000,480.1700,approved,1,0,2026-01-31 23:59:59,0
+329,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2383,38818.0000,776.3600,approved,1,0,2026-01-31 23:59:59,0
+330,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2384,16592.0000,331.8400,approved,1,0,2026-01-31 23:59:59,0
+331,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2573,16720.6000,334.4100,approved,1,0,2026-01-31 23:59:59,0
+332,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2574,10702.0000,214.0400,approved,1,0,2026-01-31 23:59:59,0
+333,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2575,27392.0000,547.8400,approved,1,0,2026-01-31 23:59:59,0
+334,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2576,0.0000,332.7600,approved,1,0,2026-01-31 23:59:59,0
+335,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2577,29412.4000,588.2500,approved,1,0,2026-01-31 23:59:59,0
+336,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2580,17728.8000,354.5800,approved,1,0,2026-01-31 23:59:59,0
+337,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2581,34344.0000,686.8800,approved,1,0,2026-01-31 23:59:59,0
+338,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2582,25241.8000,504.8400,approved,1,0,2026-01-31 23:59:59,0
+339,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2583,13220.4000,264.4100,approved,1,0,2026-01-31 23:59:59,0
+340,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2584,5977.0000,119.5400,approved,1,0,2026-01-31 23:59:59,0
+341,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2585,7931.0000,158.6200,approved,1,0,2026-01-31 23:59:59,0
+342,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2586,12460.4000,249.2100,approved,1,0,2026-01-31 23:59:59,0
+343,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2953,7233.0000,144.6600,approved,1,0,2026-01-31 23:59:59,0
+344,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2955,21870.8000,437.4100,approved,1,0,2026-01-31 23:59:59,0
+345,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2956,16979.0000,339.5800,approved,1,0,2026-01-31 23:59:59,0
+346,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2957,16421.4000,328.4200,approved,1,0,2026-01-31 23:59:59,0
+347,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2961,5459.0000,109.1800,approved,1,0,2026-01-31 23:59:59,0
+348,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2963,11479.2000,229.5900,approved,1,0,2026-01-31 23:59:59,0
+349,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2964,7085.0000,141.7000,approved,1,0,2026-01-31 23:59:59,0
+350,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2967,18070.8000,361.4200,approved,1,0,2026-01-31 23:59:59,0
+351,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2968,21749.0000,435.0000,approved,1,0,2026-01-31 23:59:59,0
+352,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2969,15530.0000,310.6000,approved,1,0,2026-01-31 23:59:59,0
+353,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2970,5114.0000,102.8800,approved,1,0,2026-01-31 23:59:59,0
+354,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2971,14549.8000,291.0000,approved,1,0,2026-01-31 23:59:59,0
+355,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2972,18155.0000,363.1000,approved,1,0,2026-01-31 23:59:59,0
+356,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2973,38080.0000,7616.0000,approved,1,0,2026-01-31 23:59:59,0
+357,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2974,19764.2000,395.2900,approved,1,0,2026-01-31 23:59:59,0
+358,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2975,34387.0000,687.7400,approved,1,0,2026-01-31 23:59:59,0
+359,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2976,19160.1500,383.2000,approved,1,0,2026-01-31 23:59:59,0
+360,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2977,36441.8000,728.8400,approved,1,0,2026-01-31 23:59:59,0
+361,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2981,5453.0000,109.1000,approved,1,0,2026-01-31 23:59:59,0
+362,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2982,24496.2000,489.9300,approved,1,0,2026-01-31 23:59:59,0
+363,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 2983,4867.0000,97.3400,approved,1,0,2026-01-31 23:59:59,0
+364,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3114,34593.4000,691.8700,approved,1,0,2026-01-31 23:59:59,0
+365,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3116,8493.0000,169.8600,approved,1,0,2026-01-31 23:59:59,0
+366,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3117,21671.2000,433.4200,approved,1,0,2026-01-31 23:59:59,0
+367,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3118,20481.0000,409.6200,approved,1,0,2026-01-31 23:59:59,0
+368,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3119,18566.0000,371.3200,approved,1,0,2026-01-31 23:59:59,0
+369,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3120,16660.4000,333.2100,approved,1,0,2026-01-31 23:59:59,0
+370,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3121,17106.0000,342.1200,approved,1,0,2026-01-31 23:59:59,0
+371,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3122,21074.0000,421.4800,approved,1,0,2026-01-31 23:59:59,0
+372,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3135,31727.8000,634.5600,approved,1,0,2026-01-31 23:59:59,0
+373,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3136,11727.0000,234.5400,approved,1,0,2026-01-31 23:59:59,0
+374,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3137,19733.6000,394.6700,approved,1,0,2026-01-31 23:59:59,0
+375,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3138,48440.0000,968.8000,approved,1,0,2026-01-31 23:59:59,0
+376,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3139,13891.6000,277.8300,approved,1,0,2026-01-31 23:59:59,0
+377,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3140,28364.0000,567.2800,approved,1,0,2026-01-31 23:59:59,0
+378,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3141,28824.5500,576.4900,approved,1,0,2026-01-31 23:59:59,0
+379,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3143,24219.8000,484.3900,approved,1,0,2026-01-31 23:59:59,0
+380,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3145,10123.4000,202.4700,approved,1,0,2026-01-31 23:59:59,0
+381,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3149,12320.0000,246.4000,approved,1,0,2026-01-31 23:59:59,0
+382,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3150,33349.4000,666.9900,approved,1,0,2026-01-31 23:59:59,0
+383,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3151,34308.1500,686.1600,approved,1,0,2026-01-31 23:59:59,0
+384,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3163,13041.2000,260.8200,approved,1,0,2026-01-31 23:59:59,0
+385,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3312,12400.0000,248.0000,approved,1,0,2026-01-31 23:59:59,0
+386,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3314,14105.0000,282.1000,approved,1,0,2026-01-31 23:59:59,0
+387,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3315,16802.0000,336.0400,approved,1,0,2026-01-31 23:59:59,0
+388,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3316,17988.4000,359.7700,approved,1,0,2026-01-31 23:59:59,0
+389,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3317,12956.0000,259.1200,approved,1,0,2026-01-31 23:59:59,0
+390,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3318,25055.0000,501.1000,approved,1,0,2026-01-31 23:59:59,0
+391,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3321,17562.0000,351.2400,approved,1,0,2026-01-31 23:59:59,0
+392,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3324,9506.4000,190.1300,approved,1,0,2026-01-31 23:59:59,0
+393,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3325,18030.0000,360.6000,approved,1,0,2026-01-31 23:59:59,0
+394,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3326,22730.0000,454.6000,approved,1,0,2026-01-31 23:59:59,0
+395,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3327,20725.2000,414.5000,approved,1,0,2026-01-31 23:59:59,0
+396,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3328,18598.6000,371.9700,approved,1,0,2026-01-31 23:59:59,0
+397,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3329,7929.0000,158.5800,approved,1,0,2026-01-31 23:59:59,0
+398,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3330,16377.8000,327.5600,approved,1,0,2026-01-31 23:59:59,0
+399,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3331,28508.0000,570.1600,approved,1,0,2026-01-31 23:59:59,0
+400,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3332,40389.0000,807.7800,approved,1,0,2026-01-31 23:59:59,0
+401,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3333,27611.2000,552.2200,approved,1,0,2026-01-31 23:59:59,0
+402,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3334,25374.7500,507.4900,approved,1,0,2026-01-31 23:59:59,0
+403,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3335,14695.4000,293.9100,approved,1,0,2026-01-31 23:59:59,0
+404,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3491,21957.4000,439.1500,approved,1,0,2026-01-31 23:59:59,0
+405,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3492,25797.8000,515.9600,approved,1,0,2026-01-31 23:59:59,0
+406,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3494,10786.6000,215.7300,approved,1,0,2026-01-31 23:59:59,0
+407,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3495,14700.0000,294.0000,approved,1,0,2026-01-31 23:59:59,0
+408,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3496,7025.0000,140.5000,approved,1,0,2026-01-31 23:59:59,0
+409,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3497,51293.8000,1025.8800,approved,1,0,2026-01-31 23:59:59,0
+410,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3501,8503.6000,170.0700,approved,1,0,2026-01-31 23:59:59,0
+411,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3502,15306.0000,306.1200,approved,1,0,2026-01-31 23:59:59,0
+412,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3503,43229.0000,864.5800,approved,1,0,2026-01-31 23:59:59,0
+413,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3505,15626.2000,312.5200,approved,1,0,2026-01-31 23:59:59,0
+414,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3506,27157.6000,543.1500,approved,1,0,2026-01-31 23:59:59,0
+415,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3507,14872.2000,297.4400,approved,1,0,2026-01-31 23:59:59,0
+416,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3508,18031.0000,360.6200,approved,1,0,2026-01-31 23:59:59,0
+417,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3509,19780.0000,395.6000,approved,1,0,2026-01-31 23:59:59,0
+418,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3510,8627.0000,172.5400,approved,1,0,2026-01-31 23:59:59,0
+419,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3512,13854.2000,277.0800,approved,1,0,2026-01-31 23:59:59,0
+420,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3513,16927.3500,338.5500,approved,1,0,2026-01-31 23:59:59,0
+421,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3515,9133.6000,182.6700,approved,1,0,2026-01-31 23:59:59,0
+422,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3516,16111.8000,322.2400,approved,1,0,2026-01-31 23:59:59,0
+423,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3517,13303.9500,266.0800,approved,1,0,2026-01-31 23:59:59,0
+424,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3765,6275.0000,125.5000,approved,1,0,2026-01-31 23:59:59,0
+425,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3767,5309.0000,106.1800,approved,1,0,2026-01-31 23:59:59,0
+426,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3768,21630.0000,432.6000,approved,1,0,2026-01-31 23:59:59,0
+427,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3769,11193.4000,223.8700,approved,1,0,2026-01-31 23:59:59,0
+428,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3771,12528.6000,250.5700,approved,1,0,2026-01-31 23:59:59,0
+429,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3772,20373.4000,407.4700,approved,1,0,2026-01-31 23:59:59,0
+430,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3773,19039.6000,380.7900,approved,1,0,2026-01-31 23:59:59,0
+431,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3774,22260.0000,445.2000,approved,1,0,2026-01-31 23:59:59,0
+432,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3775,16200.3500,324.0100,approved,1,0,2026-01-31 23:59:59,0
+433,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3776,30337.8000,606.7600,approved,1,0,2026-01-31 23:59:59,0
+434,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3777,5900.0000,118.0000,approved,1,0,2026-01-31 23:59:59,0
+435,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3778,11613.0000,232.2600,approved,1,0,2026-01-31 23:59:59,0
+436,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3779,38412.6000,768.2500,approved,1,0,2026-01-31 23:59:59,0
+437,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 3780,18685.6000,373.7100,approved,1,0,2026-01-31 23:59:59,0
+438,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4173,28664.0000,573.2800,approved,1,0,2026-01-31 23:59:59,0
+439,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4174,7329.5500,146.5900,approved,1,0,2026-01-31 23:59:59,0
+440,\N,2026-01-15,payable_payment,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4176,25290.1500,505.8000,approved,1,0,2026-01-31 23:59:59,0
+441,\N,2026-01-15,payable_payment,Payment: Lh Paragon Inc — RFP No.# 4738,1306947.2800,0.0000,approved,1,0,2026-01-31 23:59:59,0
+442,\N,2026-01-15,payable_payment,Payment: Ivy Grace B. Baricuatro — RFP No.# 4745,389213.8800,0.0000,approved,1,0,2026-01-31 23:59:59,0
+443,\N,2026-01-15,payable_payment,Payment: Christian Villablanca — RFP No.# 4763,22500.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+444,\N,2026-01-15,receivable_invoice,"Generali Life Assurance Philippines Inc - JAVINES, ALEXANDRE JOHN GACOSCOSIM | 01/09/2026 |Generali Life Assurance Philippines Inc |Laboratory/Diagnostics |430 - — O3270",11550.0000,10950.0000,approved,1,0,2026-01-31 23:59:59,0
+445,\N,2026-01-15,receivable_invoice,"INSYTIC CORP. - ARITA, EVELYN CUYOS | 01/14/2026 |INSYTIC CORP.| 390- — O3271",5720.0000,5720.0000,approved,1,0,2026-01-31 23:59:59,0
+446,\N,2026-01-15,receivable_invoice,"PACIFIC CROSS INSURANCE, INC. - HUGO, JESYL MARIE BRILLANTES | 01/12/2026 |Pacific Cross Insurance, Inc. |Laboratory/Diagnostics |3790 - — O3272",6400.0000,3790.0000,approved,1,0,2026-01-31 23:59:59,0
+447,\N,2026-01-15,receivable_invoice,"Etiqa Life and General Assurance Phillipines, Inc - CARO, CHERYL AMORES | 01/09/2026 |Etiqa Life and General Assurance Phillipines, Inc |Consultation |500 - — O3274",21990.0000,21990.0000,approved,1,0,2026-01-31 23:59:59,0
+448,\N,2026-01-15,receivable_invoice,"Homesourced Inc - ESCUDERO, EDMUND REYES | 01/14/2026 |HOMESOURCED INC| 900- — O3275",7820.0000,7820.0000,approved,1,0,2026-01-31 23:59:59,0
+449,\N,2026-01-16,journal_entry,"Reversal of: To accrue: CENTURION SECURITY AGENCY, INC ftp DECEMBER 2025 - To accrue: CENTURION SECURITY AGENCY, INC ftp DECEMBER 2025 — #45110",33374.4600,33374.4600,approved,1,0,2026-01-31 23:59:59,0
+450,\N,2026-01-16,journal_entry,"Reversal of: To accrue: CENTURION SECURITY AGENCY, INC ftp november 2025 - To accrue: CENTURION SECURITY AGENCY, INC ftp november 2025 — #45114",75748.9000,75748.9000,approved,1,0,2026-01-31 23:59:59,0
+451,\N,2026-01-16,journal_entry,Reversal of: To accrue CEBU SPIC & SPAN - Janitorial Services for the period november 16-30 Shared - To accrue CEBU SPIC & SPAN - Janitorial Services for the period november 16-30 Shared — #45125,10628.4800,10628.4800,approved,1,0,2026-01-31 23:59:59,0
+452,\N,2026-01-16,journal_entry,Reversal of: To accrue LHPI Management Fee for the month of December 2025 - To accrue LHPI Management Fee for the month of December 2025 — #45132,1509052.5300,1509052.5300,approved,1,0,2026-01-31 23:59:59,0
+453,\N,2026-01-16,journal_entry,reversal of Accrual for Liquidation of Advances to employee for Konsulta part time Payroll CA-0247 RFP4357 Ivy Grace Baricuatro and reclass of advances - reversal of Accrual for Liquidation of Advances to employee for Konsulta part time Payroll CA-0247 RFP4357 Ivy Grace Baricuatro and reclass of advances — #45133,250431.5000,250431.5000,approved,1,0,2026-01-31 23:59:59,0
+454,\N,2026-01-16,journal_entry,Reversal of: To accrue ORDC:  Payment for IT services for the month of October - To accrue ORDC:  Payment for IT services for the month of October — #45137,51520.0000,51520.0000,approved,1,0,2026-01-31 23:59:59,0
+455,\N,2026-01-16,journal_entry,Reversal of: Globe -To accrue mobile for the month of december 2025 shared - Globe -To accrue mobile for the month of december 2025 shared — #45142,27347.9200,27347.9200,approved,1,0,2026-01-31 23:59:59,0
+456,\N,2026-01-16,journal_entry,Reversal of: smart - to accrue Enterprise Postpaid Messaging Plan december 2025 - smart - to accrue Enterprise Postpaid Messaging Plan december 2025 — #45144,25000.0000,25000.0000,approved,1,0,2026-01-31 23:59:59,0
+457,\N,2026-01-16,journal_entry,Reversal of: Globe -To accrue mobile for the month of october 2025 shared - Globe -To accrue mobile for the month of october 2025 shared — #45149,54695.8400,54695.8400,approved,1,0,2026-01-31 23:59:59,0
+458,\N,2026-01-16,journal_entry,Reversal of: To accrue ORDC:  Payment for IT services for the month of september - To accrue ORDC:  Payment for IT services for the month of september — #45150,51520.0000,51520.0000,approved,1,0,2026-01-31 23:59:59,0
+459,\N,2026-01-16,journal_entry,Reversal of: to record ORDC various RECON - to record ORDC various — #45284,435689.1400,435689.1400,approved,1,0,2026-01-31 23:59:59,0
+460,\N,2026-01-16,journal_entry,"To Record deposit sales Branches AR Unidentified January 16, 2026 - To Record deposit sales Branches AR Unidentified January 16, 2026 — #45553",158345.6400,158345.6400,approved,1,0,2026-01-31 23:59:59,0
+461,\N,2026-01-16,journal_entry,"To Record deposit sales Branches Check Deposit - Avega January 16, 2026 - To Record deposit sales Branches Check Deposit - Avega January 16, 2026 — #45554",18634.7000,18634.7000,approved,1,0,2026-01-31 23:59:59,0
+462,\N,2026-01-16,journal_entry,"To Record deposit sales Branches AR-Terms Pages Holdings January 16, 2026 - To Record deposit sales Branches  AR-Terms - Aboitiz January 12, 2026 — #45555",22794.5500,22794.5500,approved,1,0,2026-01-31 23:59:59,0
+463,\N,2026-01-16,journal_entry,"To Record deposit sales Branches AR-Terms United Coconut January 16, 2026 - To Record deposit sales Branches AR-Terms United Coconut January 16, 2026 — #45557",137915.4000,137915.4000,approved,1,0,2026-01-31 23:59:59,0
+464,\N,2026-01-16,journal_entry,"To Record Cash Sales Branches January 15, 2025 - To Record Cash Sales Branches January 15, 2025 — #45558",290030.0000,145015.0000,approved,1,0,2026-01-31 23:59:59,0
+465,\N,2026-01-16,journal_entry,"To record receipts of QR and Card sales GCASH for January 16, 2026 - To record receipts of QR and Card sales GCASH for January 16, 2026 — #45559",2046.0000,2046.0000,approved,1,0,2026-01-31 23:59:59,0
+466,\N,2026-01-16,journal_entry,"To Record deposit sales Branches AR-Terms LH Foundation Inc January 16, 2026 - To Record deposit sales Branches AR-Terms LH Foundation Inc January 16, 2026 — #45560",1200.0000,1200.0000,approved,1,0,2026-01-31 23:59:59,0
+467,\N,2026-01-16,journal_entry,"To record receipts of QR and Card sales GCASH for January 16, 2026 - To record receipts of QR and Card sales GCASH for January 16, 2026 — #45561",28249.3000,28249.3000,approved,1,0,2026-01-31 23:59:59,0
+468,\N,2026-01-16,journal_entry,"To Record Deposit Card Sales MBTC January 16, 2026 - To Record Deposit Card Sales MBTC January 16, 2026 — #45562",54591.9700,54591.9700,approved,1,0,2026-01-31 23:59:59,0
+469,\N,2026-01-16,journal_entry,BANK REC: Interest payment on SBC loan - BANK REC: Interest payment on SBC loan — #45564,2175000.0000,2175000.0000,approved,1,0,2026-01-31 23:59:59,0
+470,\N,2026-01-16,journal_entry,to record management cost EO Payroll for January 2026 - to record management cost EO Payroll for January 2026 — #46439,487560.6500,487560.6500,approved,1,0,2026-01-31 23:59:59,0
+471,\N,2026-01-16,journal_entry,"Sales Branches January 16, 2026 - Laboratory/Diagnostics — #48432",1557140.0000,1557140.0000,approved,1,0,2026-01-31 23:59:59,0
+472,\N,2026-01-16,payable_invoice,OAKRIDGE REALTY DEVELOPMENT CORPORATION — 0126-000005,151546.5000,151546.5000,approved,1,0,2026-01-31 23:59:59,0
+473,\N,2026-01-16,payable_invoice,BLUEARM COMPUTER STORE — 0126-000006,74300.0000,74300.0000,approved,1,0,2026-01-31 23:59:59,0
+474,\N,2026-01-16,payable_invoice,ASIA PACIFIC COMPUTERS OPC — 0126-000008,21400.0000,21400.0000,approved,1,0,2026-01-31 23:59:59,0
+475,\N,2026-01-16,payable_invoice,CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 4741,11814.3000,11814.3000,approved,1,0,2026-01-31 23:59:59,0
+476,\N,2026-01-16,payable_invoice,OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 4743,25760.0000,25760.0000,approved,1,0,2026-01-31 23:59:59,0
+477,\N,2026-01-16,payable_invoice,BAGAY-VILLAMOR FABIOSA LAW FIRM — RFP No.# 4751,31506.0000,31506.0000,approved,1,0,2026-01-31 23:59:59,0
+478,\N,2026-01-16,payable_invoice,OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 4758,7000.0000,7000.0000,approved,1,0,2026-01-31 23:59:59,0
+479,\N,2026-01-16,payable_invoice,CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 4760,12025.4800,12025.4800,approved,1,0,2026-01-31 23:59:59,0
+480,\N,2026-01-16,payable_invoice,CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 4761,13446.8900,13446.8900,approved,1,0,2026-01-31 23:59:59,0
+481,\N,2026-01-16,payable_invoice,ELLEN ROSE L. SIMBULAAN — RFP No.# 4786,11501.0000,14501.0000,approved,1,0,2026-01-31 23:59:59,0
+482,\N,2026-01-16,payable_payment,Payment: AO BIOMED & INDUSTRIAL MARKETING — 0825-000172,39642.8600,0.0000,approved,1,0,2026-01-31 23:59:59,0
+483,\N,2026-01-16,payable_payment,Payment: MLT MARKETING — 0925-000241,25975.9800,0.0000,approved,1,0,2026-01-31 23:59:59,0
+484,\N,2026-01-16,payable_payment,Payment: MLT MARKETING — 1125-000379,10901.7900,0.0000,approved,1,0,2026-01-31 23:59:59,0
+485,\N,2026-01-16,payable_payment,Payment: ELLEN ROSE L. SIMBULAAN — Oniline-011626,0.0000,748245.9700,approved,1,0,2026-01-31 23:59:59,0
+486,\N,2026-01-16,payable_payment,"Payment: Avega Managed Care, Inc — RFP No.# 4290",194866.1700,0.0000,approved,1,0,2026-01-31 23:59:59,0
+487,\N,2026-01-16,payable_payment,Payment: CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 4298,12477.6200,0.0000,approved,1,0,2026-01-31 23:59:59,0
+488,\N,2026-01-16,payable_payment,"Payment: SMART COMMUNICATIONS, INC. — RFP No.# 4622",25000.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+489,\N,2026-01-16,payable_payment,Payment: Jayson Webb Sop-Sop — RFP No.# 4661,6241.5000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+490,\N,2026-01-16,payable_payment,Payment: ROCSAN G. BACALAN — RFP No.# 4663,9411.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+491,\N,2026-01-16,payable_payment,Payment: Jeramel Llaban — RFP No.# 4669,5915.5000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+492,\N,2026-01-16,payable_payment,"Payment: SMART COMMUNICATIONS, INC. — RFP No.# 4689",19166.6700,0.0000,approved,1,0,2026-01-31 23:59:59,0
+493,\N,2026-01-16,payable_payment,Payment: JOHN MARL M. ABAPO — RFP No.# 4695,5526.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+494,\N,2026-01-16,payable_payment,"Payment: Avega Managed Care, Inc — RFP No.# 4717",320000.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+495,\N,2026-01-16,payable_payment,Payment: Cocogen Insurance — RFP No.# 4718,22367.9900,0.0000,approved,1,0,2026-01-31 23:59:59,0
+496,\N,2026-01-16,payable_payment,Payment: Cocogen Insurance — RFP No.# 4719,22367.9900,0.0000,approved,1,0,2026-01-31 23:59:59,0
+497,\N,2026-01-16,payable_payment,"Payment: GLOBE TELECOM, INC. — RFP No.# 4731",20982.9100,0.0000,approved,1,0,2026-01-31 23:59:59,0
+498,\N,2026-01-16,payable_payment,Payment: EUGENE TIO — RFP No.# 4739,4473.2100,0.0000,approved,1,0,2026-01-31 23:59:59,0
+499,\N,2026-01-16,payable_payment,Payment: MARICHU VILLENO — RFP No.# 4785,4288.9900,0.0000,approved,1,0,2026-01-31 23:59:59,0
+500,\N,2026-01-16,payable_payment,Payment: ELLEN ROSE L. SIMBULAAN — RFP No.# 4786,14501.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0

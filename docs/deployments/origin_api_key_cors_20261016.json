@@ -1,0 +1,194 @@
+{
+  "uat": {
+    "manifest": {
+      "app/Common.php": {
+        "before": "70af07060894d5dc165d0e4b0d9e6135238f9ce831e358601a2c9316aab7c8cc",
+        "after": "422b445bc51290de88c9fc9f3b1ed549d0baebacf4173dd9811e176aba95199d",
+        "uid": 1004,
+        "gid": 1004,
+        "mode": 436
+      },
+      "app/Config/BootstrapGuard.php": {
+        "before": "3d16d4cbefeeda2ad51dd8a1dc4a078f8de68473a9894d82c7de2cbe0f7efdc2",
+        "after": "0a97f8b40ef2f3ff31dbdee31eef99ccd030d600e7b16c127e1bef45062c2c23",
+        "uid": 1004,
+        "gid": 1004,
+        "mode": 436
+      }
+    },
+    "verification": {
+      "environment": "uat",
+      "ok": true,
+      "preflight": {
+        "status": 204,
+        "headers": {
+          "access-control-allow-origin": [
+            "http://192.168.1.11:3001"
+          ],
+          "vary": [
+            "Origin"
+          ],
+          "access-control-allow-methods": [
+            "GET, POST, OPTIONS, PUT, PATCH, DELETE"
+          ],
+          "access-control-allow-headers": [
+            "Content-Type, Authorization, X-Requested-With, api-key, Origin-API-Key, API-KEY, latitude, longitude, X-Cron-Secret"
+          ],
+          "access-control-max-age": [
+            "86400"
+          ]
+        }
+      },
+      "http": {
+        "ok": true,
+        "environment": "uat",
+        "cases": {
+          "invalid_normal_key": {
+            "status": 401,
+            "expected_status": 401,
+            "cors": true,
+            "json": true,
+            "matches": true
+          },
+          "invalid_origin_key": {
+            "status": 401,
+            "expected_status": 401,
+            "cors": true,
+            "json": true,
+            "matches": true
+          },
+          "ordinary_auth_without_origin_key": {
+            "status": 401,
+            "expected_status": 401,
+            "cors": true,
+            "json": true,
+            "matches": true
+          },
+          "configured_keys": {
+            "status": 200,
+            "expected_status": 200,
+            "cors": true,
+            "json": true,
+            "matches": true,
+            "size": 50,
+            "returned_rows": 1
+          }
+        },
+        "configured_keys_available": true,
+        "requests": "GET only; normal API audit logging preserved; no business writes"
+      },
+      "protected_files_unchanged": true
+    },
+    "backup": "/root/origin_api_key_cors_20261016_000348/uat",
+    "only_reviewed_changes": true,
+    "services_before": {
+      "cron": "active",
+      "php8.2-fpm": "active",
+      "php8.3-fpm": "active"
+    },
+    "ownership_and_permissions_verified": true
+  },
+  "prod": {
+    "manifest": {
+      "app/Common.php": {
+        "before": "5b78129266cf617e104f8fced084541f368e95e9a7f26dc5d5a5396cfc74d852",
+        "after": "c33fdf826a618901138e0fa65916af66a7b34fabf557f34126eedf1329b580a6",
+        "uid": 1004,
+        "gid": 1004,
+        "mode": 436
+      },
+      ".htaccess": {
+        "before": "e379190780e2c85465600f552a02a4e00ca8c8b14f4c7f4e801d34c72724e59d",
+        "after": "e25aaa36e1164f70befb9ca97daf2c0320e2e7885fcbbad7cc98ada09405ab33",
+        "uid": 1004,
+        "gid": 1004,
+        "mode": 438
+      }
+    },
+    "verification": {
+      "environment": "prod",
+      "ok": true,
+      "preflight": {
+        "status": 200,
+        "headers": {
+          "access-control-allow-methods": [
+            "POST, GET, OPTIONS, PUT, DELETE, POST, GET, OPTIONS, PUT, PATCH, DELETE"
+          ],
+          "access-control-allow-headers": [
+            "Content-Type, Authorization, X-Requested-With, api-key, Origin-API-Key, latitude, longitude"
+          ],
+          "access-control-allow-origin": [
+            "*"
+          ]
+        }
+      },
+      "http": {
+        "ok": true,
+        "environment": "prod",
+        "cases": {
+          "invalid_normal_key": {
+            "status": 401,
+            "expected_status": 401,
+            "cors": true,
+            "json": true,
+            "matches": true
+          },
+          "invalid_origin_key": {
+            "status": 401,
+            "expected_status": 401,
+            "cors": true,
+            "json": true,
+            "matches": true
+          },
+          "ordinary_auth_without_origin_key": {
+            "status": 401,
+            "expected_status": 401,
+            "cors": true,
+            "json": true,
+            "matches": true
+          },
+          "configured_keys": {
+            "status": 200,
+            "expected_status": 200,
+            "cors": true,
+            "json": true,
+            "matches": true,
+            "size": 81,
+            "returned_rows": 1
+          }
+        },
+        "configured_keys_available": true,
+        "requests": "GET only; normal API audit logging preserved; no business writes"
+      },
+      "protected_files_unchanged": true
+    },
+    "backup": "/root/origin_api_key_cors_20261016_000348/prod",
+    "only_reviewed_changes": true,
+    "services_before": {
+      "cron": "active",
+      "php8.2-fpm": "active",
+      "php8.3-fpm": "active"
+    },
+    "ownership_and_permissions_verified": true
+  },
+  "services_after": {
+    "cron": "active",
+    "php8.2-fpm": "active",
+    "php8.3-fpm": "active"
+  },
+  "recovered_attempt": "/root/origin_api_key_cors_20261016_000348/prod_attempt1_recovered",
+  "tests": {
+    "cors_tests": 7,
+    "cors_assertions": 66,
+    "security_suite": "13 of 14 passed; unchanged testEmailViewEscapesXss fails because template no longer renders the supplied name",
+    "php_syntax": "passed",
+    "diff_checks": "passed",
+    "combined_run": {
+      "tests": 21,
+      "assertions": 112,
+      "failures": 1,
+      "failure": "SecurityTest::testEmailViewEscapesXss (unrelated, unchanged)"
+    }
+  },
+  "production_compatibility": "Conditionally restored canonical Core myt_env reader required by existing CSR validator; first failed attempt recovered before tested retry."
+}

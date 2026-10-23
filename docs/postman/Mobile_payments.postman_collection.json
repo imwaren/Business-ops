@@ -1,0 +1,279 @@
+{
+  "info": {
+    "_postman_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "name": "Mobile Payments",
+    "description": "# Mobile Payments API\n\nList mobile CSR payments and post/unpost a `payment_multiple_method` row.\n\nBoth endpoints **always use the mobile clinic DB** (`branch_id = 1`). Other `branch_id` values are ignored.\n\n## Auth\n- Header: `API-KEY` (required)\n- Query/body: `token`, `requester` (required on all endpoints)\n\n## Schema (mobile DB only)\nApply `sql/payment_multiple_method_mobile_status.sql` on `mytemr_diagnostic_mobile`:\n- `payment.mobile_van_id` (skip ALTER if the column already exists)\n- `payment_multiple_method.status` enum `posted` | `unposted` (default `unposted`)\n- `payment_multiple_method.posted_by`, `posted_on`\n\n## Status workflow\n- Default: `unposted`\n- `POST /billings/change_status_mobile_payment_method`\n  - `posted`: sets `status`, `posted_by` = requester, `posted_on` = now\n  - `unposted`: sets `status` back to `unposted` and clears `posted_by` / `posted_on`\n",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost/cpci-business-ops-api"
+    },
+    {
+      "key": "api_key",
+      "value": "clinicaRiKOYqlwdTJ-lNedqS0k-it!395!-6ls1JXM7Vcc"
+    },
+    {
+      "key": "token",
+      "value": "{{token}}"
+    },
+    {
+      "key": "requester",
+      "value": "1"
+    },
+    {
+      "key": "payment_multiple_method_id",
+      "value": "1"
+    }
+  ],
+  "item": [
+    {
+      "name": "Get mobile payments",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/billings/get_mobile_payment?token={{token}}&requester={{requester}}&branch_id=1&page=1&data_size=10",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "billings",
+            "get_mobile_payment"
+          ],
+          "query": [
+            {
+              "key": "token",
+              "value": "{{token}}"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}"
+            },
+            {
+              "key": "branch_id",
+              "value": "1",
+              "description": "Always mobile. Other branch_id values are ignored."
+            },
+            {
+              "key": "payment_id",
+              "value": "1",
+              "disabled": true
+            },
+            {
+              "key": "transaction_id",
+              "value": "1",
+              "disabled": true
+            },
+            {
+              "key": "invoice_status",
+              "value": "unprinted",
+              "disabled": true,
+              "description": "printed | unprinted"
+            },
+            {
+              "key": "mobile_van_id",
+              "value": "1",
+              "disabled": true,
+              "description": "Filter payment.mobile_van_id"
+            },
+            {
+              "key": "mode_of_payment",
+              "value": "cash",
+              "disabled": true,
+              "description": "Filter payment_multiple_method.type (cash, card, gcash, others, ...)"
+            },
+            {
+              "key": "date_from",
+              "value": "2026-01-01",
+              "disabled": true,
+              "description": "Filter payment.payment_date from (use with date_to)"
+            },
+            {
+              "key": "date_to",
+              "value": "2026-01-31",
+              "disabled": true,
+              "description": "Filter payment.payment_date to (use with date_from)"
+            },
+            {
+              "key": "term",
+              "value": "Dela Cruz",
+              "disabled": true,
+              "description": "Patient name or transaction_no"
+            },
+            {
+              "key": "page",
+              "value": "1"
+            },
+            {
+              "key": "data_size",
+              "value": "10"
+            }
+          ]
+        },
+        "description": "## GET `/billings/get_mobile_payment`\n\nList mobile CSR payments. Always reads the **mobile** clinic DB.\n\nEach row includes `mobile_van_name` (from `payment.mobile_van_id` → master `mobile_van.name`), nested `transaction`, and nested `payment_multiple_method` (includes `status`, `posted_by`, `posted_on`). The `booking` array is **not** returned.\n\n### Query params\n| Param | Required | Notes |\n|-------|----------|-------|\n| `token` | yes | Auth token |\n| `requester` | yes | User id |\n| `branch_id` | no | Ignored; connection is always mobile |\n| `payment_id` | no | Filter by payment id |\n| `transaction_id` | no | Filter by transaction id |\n| `invoice_status` | no | `printed` / `unprinted` |\n| `mobile_van_id` | no | `payment.mobile_van_id` |\n| `mode_of_payment` | no | `payment_multiple_method.type` (payment included if any method matches) |\n| `date_from` / `date_to` | no | `payment.payment_date` range (both required together) |\n| `term` | no | Patient name or transaction_no |\n| `page` | no | 1-based page |\n| `data_size` | no | Page size |\n\n### Success\n`{ \"size\": n, \"data\": [ ... ] }` — `size` is the unpaginated count."
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"size\": 1,\n  \"data\": [\n    {\n      \"id\": 10,\n      \"transaction_id\": 55,\n      \"mobile_van_id\": 2,\n      \"mobile_van_name\": \"Van A\",\n      \"payment_date\": \"2026-01-15\",\n      \"grand_total\": \"1500.00\",\n      \"invoice_status\": null,\n      \"transaction\": {\n        \"id\": 55,\n        \"transaction_no\": \"M-2026-00055\"\n      },\n      \"payment_multiple_method\": [\n        {\n          \"id\": 21,\n          \"payment_id\": 10,\n          \"type\": \"cash\",\n          \"amount\": \"1500.00\",\n          \"status\": \"unposted\",\n          \"posted_by\": null,\n          \"posted_on\": null\n        }\n      ]\n    }\n  ]\n}"
+        },
+        {
+          "name": "Not Found",
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"error_messages\": [\n    \"No billing soa found.\"\n  ]\n}"
+        }
+      ]
+    },
+    {
+      "name": "Change mobile payment method status",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "token",
+              "value": "{{token}}",
+              "type": "text",
+              "description": "Auth token"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}",
+              "type": "text",
+              "description": "User id; stored as posted_by when posting"
+            },
+            {
+              "key": "payment_multiple_method_id",
+              "value": "{{payment_multiple_method_id}}",
+              "type": "text",
+              "description": "payment_multiple_method.id"
+            },
+            {
+              "key": "status",
+              "value": "posted",
+              "type": "text",
+              "description": "posted | unposted"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/billings/change_status_mobile_payment_method",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "billings",
+            "change_status_mobile_payment_method"
+          ]
+        },
+        "description": "## POST `/billings/change_status_mobile_payment_method`\n\nPost or unpost a `payment_multiple_method` row. Always uses the **mobile** clinic DB.\n\n### Form fields\n| Field | Required | Notes |\n|-------|----------|-------|\n| `token` | yes | Auth token |\n| `requester` | yes | User id + audit `posted_by` |\n| `payment_multiple_method_id` | yes | `payment_multiple_method.id` |\n| `status` | yes | `posted` or `unposted` |\n\n### Effects\n- `posted`: sets `status`, `posted_by`, `posted_on`\n- `unposted`: sets `status` to `unposted` and clears `posted_by` / `posted_on`\n\n### Errors\n- `400` — missing id, invalid status, already that status, or update failed\n- `404` — record not found\n- `401` — invalid/missing API-KEY, token, or requester"
+      },
+      "response": [
+        {
+          "name": "Posted",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"payment_multiple_method_id\": 1,\n  \"message\": \"payment_multiple_method posted successfully.\"\n}"
+        },
+        {
+          "name": "Unposted",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"payment_multiple_method_id\": 1,\n  \"message\": \"payment_multiple_method unposted successfully.\"\n}"
+        },
+        {
+          "name": "Invalid status",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"error_messages\": [\n    \"Invalid status. Valid statuses are: posted, unposted.\"\n  ]\n}"
+        },
+        {
+          "name": "Already posted",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"error_messages\": [\n    \"payment_multiple_method is already posted.\"\n  ]\n}"
+        },
+        {
+          "name": "Not Found",
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"error_messages\": [\n    \"payment_multiple_method is not found.\"\n  ]\n}"
+        }
+      ]
+    }
+  ]
+}

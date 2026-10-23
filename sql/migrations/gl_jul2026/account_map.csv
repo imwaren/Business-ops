@@ -1,0 +1,177 @@
+excel_name,account_type_code,account_type_id,account_type_name,match
+13TH month,500-011,581,13TH MONTH (BOC),mapping
+13th Month - COGS,500-011-2,1737,13th Month - COGS,name
+Accounts Payable,201-111,217,ACCOUNTS PAYABLE,mapping
+Accrued expense payable (202-035),202-035,237,ACCRUED EXPENSE PAYABLE (202-035),mapping
+Accumulated Amortization - Trademarks,110-915,489,ACCUMULATED AMORTIZATION - TRADEMARKS,mapping
+Accumulated Depreciation - Input Tax IT/Software,110-311,409,ACCUMULATED DEPRECIATION - INPUT TAX IT/SOFTWARE,mapping
+Accumulated Depreciation - Input Tax Leasehold Improvements,110-301,401,ACCUMULATED DEPRECIATION - INPUT TAX LEASEHOLD IMPROVEMENTS,mapping
+Accumulated Depreciation - Input Tax Medical Equipment,110-701,445,ACCUMULATED DEPRECIATION - INPUT TAX MEDICAL EQUIPMENT,mapping
+Accumulated Depreciation - Input Tax Medical Instrument,110-711,453,ACCUMULATED DEPRECIATION - INPUT TAX MEDICAL INSTRUMENT,mapping
+Accumulated Depreciation - Input Tax Office Furniture and Equipment,110-201,389,ACCUMULATED DEPRECIATION - INPUT TAX OFFICE FURNITURE AND EQUIPMENT,mapping
+Accumulated Depreciation - Input Tax Transportation Equipment,110-611,437,ACCUMULATED DEPRECIATION - INPUT TAX TRANSPORTATION EQUIPMENT,mapping
+Accumulated Depreciation IT/Software,110-310,405,ACCUMULATED DEPRECIATION IT/SOFTWARE,mapping
+Accumulated Depreciation Leasehold Improvements,110-300,397,ACCUMULATED DEPRECIATION LEASEHOLD IMPROVEMENTS,mapping
+Accumulated Depreciation Medical Equipment,110-700,441,ACCUMULATED DEPRECIATION MEDICAL EQUIPMENT,mapping
+Accumulated Depreciation Medical Instruments,110-710,449,ACCUMULATED DEPRECIATION MEDICAL INSTRUMENTS,mapping
+Accumulated Depreciation Office Furniture and Equipment,110-200,385,ACCUMULATED DEPRECIATION OFFICE FURNITURE AND EQUIPMENT,mapping
+Accumulated Depreciation Transportation Equipment,110-610,433,ACCUMULATED DEPRECIATION TRANSPORTATION EQUIPMENT,mapping
+Advances to Employees,102-220,85,ADVANCES TO EMPLOYEES,mapping
+Advances to Supplier,102-230,89,ADVANCES TO SUPPLIER,mapping
+Advances to Supplier - ONCA,102-232,93,Advances to Supplier - ONCA,name
+Advertising and promotion,600-010,585,ADVERTISING AND PROMOTION (BOC),mapping
+Amortization Expense - Trademark,500-819,597,AMORTIZATION EXPENSE - TRADEMARK (BOC),mapping
+AP Transitory,201-110,213,AP TRANSITORY,mapping
+AP-unidentified,201-140,229,AP-UNIDENTIFIED,mapping
+AR - GCash,102-193,77,AR - GCASH,mapping
+AR - SSS,103-401,109,AR - SSS,name
+AR Cebu,102-113A,61,AR CEBU,mapping
+AR Cebu (New),102-113,57,AR CEBU (NEW),mapping
+AR Cebu - Unbilled,102-113B,65,AR CEBU - UNBILLED,mapping
+AR-unidentified,102-250,101,AR-UNIDENTIFIED,mapping
+Audit and Placement Fees,600-801,601,AUDIT AND PLACEMENT FEES (BOC),mapping
+Bank charge,600-902,605,BANK CHARGE (BOC),mapping
+Cash - BDO - CAPEX,100-111,45,CASH IN BANK- BDO CAPEX #001188023163,mapping
+Cash - BDO - OPEX,100-115,53,CASH IN BANK- BDO OPEX #001188023414,mapping
+Cash - BPI,100-001,1,CASH  IN BANK - BPI OPEX #000-070194-960,mapping
+Cash - Land Bank - OPEX,100-112,49,CASH IN BANK - LAND BANK - OPEX #1332-1131-66,mapping
+Cash - Metrobank,100-007,21,CASH IN BANK - MBTC CAPEX #401-7-40102324-0,mapping
+Cash - Metrobank - OPEX,100-110,41,CASH IN BANK - MBTC OPEX #101-710101613-1,mapping
+Cash - Security Bank CPCI,100-003,9,CASH IN BANK - SBC CAPEX #000070194851,mapping
+Cash - Security Bank CPCI - OPEX,100-002,5,CASH IN BANK - SBC KPCI OPEX #0000047887921,mapping
+Cash and Cash Equivalents,100-114,1761,Cash and Cash Equivalents,name
+Cash on Hand,100-004,13,CASH/ CHECK ON HAND,mapping
+Change Fund,100-006,17,CHANGE FUND,mapping
+Christmas Expense,601-010A,1269,CHRISTMAS EXPENSE,name
+Common Area Utilities,600-510,609,COMMON AREA UTILITIES (BOC),mapping
+Compensation Withholding Tax,202-130,249,COMPENSATION WITHHOLDING TAX,mapping
+Construction in Progress,110-800,457,CONSTRUCTION IN PROGRESS,mapping
+Consultations,400-030,1613,CONSULTATIONS,mapping
+Cost of Health Services,500-406,985,COST OF HEALTH SERVICES,mapping
+Cost of Medicines - Konsulta,500-549,989,COST OF MEDICINES - KONSULTA,mapping
+Creditable Withholding Tax,105-000,165,CREDITABLE WITHHOLDING TAX,mapping
+Data Line,600-210,613,DATA LINE (BOC),mapping
+Dental Supplies Inventory (New),104-051,157,DENTAL SUPPLIES INVENTORY (NEW),name
+Depreciation Expense - Input Tax Expense - IT/Software,500-810,617,DEPRECIATION EXPENSE - INPUT TAX EXPENSE - IT/SOFTWARE (BOC),mapping
+Depreciation Expense - Input Tax Expense - Leasehold Improvements,500-814,621,DEPRECIATION EXPENSE - INPUT TAX EXPENSE - LEASEHOLD IMPROVEMENTS (BOC),mapping
+Depreciation Expense - Input Tax Expense - Medical Equipment,500-815,1001,DEPRECIATION EXPENSE - INPUT TAX EXPENSE - MEDICAL EQUIPMENT (BOC),mapping
+Depreciation Expense - Input Tax Expense - Medical Instruments,500-811,1005,DEPRECIATION EXPENSE - INPUT TAX EXPENSE - MEDICAL INSTRUMENTS (BOC),mapping
+Depreciation Expense - Input Tax Expense - Office Furniture and Equipment,500-812,625,DEPRECIATION EXPENSE - INPUT TAX EXPENSE - OFFICE FURNITURE AND EQUIPMENT (BOC),mapping
+Depreciation Expense - Input Tax Expense - Transportation Equipment,500-813,629,DEPRECIATION EXPENSE - INPUT TAX EXPENSE - TRANSPORTATION EQUIPMENT (BOC),mapping
+Discounts,440-000,1625,DISCOUNTS,mapping
+Electricity,600-520,641,ELECTRICITY (BOC),mapping
+Employee Allowances - OJT/Project,600-490,649,EMPLOYEE ALLOWANCES - OJT/PROJECT (BOC),alias
+Employee Benefits-Leave Conversion,600-450A,653,EMPLOYEE BENEFITS-LEAVE CONVERSION (BOC),mapping
+Employee Benefits-Maternity,600-451,657,EMPLOYEE BENEFITS-MATERNITY (BOC),alias
+Employee Benefits-Others,600-452,665,EMPLOYEE BENEFITS-OTHERS (BOC),mapping
+Employee Benefits-Uniform,600-450C,669,EMPLOYEE BENEFITS-UNIFORM (BOC),mapping
+Expanded Withholding Tax,202-120,245,EXPANDED WITHHOLDING TAX,mapping
+Final Tax,600-905,1785,FINAL TAX,mapping
+HDMF Payable,202-180,269,HDMF PAYABLE,mapping
+Health services,400-020,1633,HEALTH SERVICES,mapping
+Inout Tax Expense - Travel & Accommodation,500-541,681,INOUT TAX EXPENSE - TRAVEL & ACCOMMODATION (BOC),alias
+Input tax Expense,500-500,1337,INPUT TAX EXPENSE,name
+Input Tax Expense - Advertising and promotion,500-505,685,INPUT TAX EXPENSE - ADVERTISING AND PROMOTION (BOC),mapping
+Input Tax Expense - Common Area Utilities,500-501,697,INPUT TAX EXPENSE - COMMON AREA UTILITIES (BOC),mapping
+Input Tax Expense - Construction in Progress,500-529,521,INPUT TAX EXPENSE - CONSTRUCTION IN PROGRESS,mapping
+Input Tax Expense - Data Line,500-512,709,INPUT TAX EXPENSE - DATA LINE (BOC),mapping
+Input Tax Expense - Electricity,500-530,713,INPUT TAX EXPENSE - ELECTRICITY (BOC),mapping
+Input Tax Expense - Employee Benefits-Uniform,500-513,717,INPUT TAX EXPENSE - EMPLOYEE BENEFITS-UNIFORM (BOC),mapping
+Input Tax Expense - IT Systems,500-524,721,INPUT TAX EXPENSE - IT SYSTEMS (BOC),mapping
+Input Tax Expense - IT/Software,500-526,509,INPUT TAX EXPENSE - IT/SOFTWARE,mapping
+Input Tax Expense - Janitorial / messenger,500-520,725,INPUT TAX EXPENSE - JANITORIAL / MESSENGER (BOC),mapping
+Input Tax Expense - Laboratory Inventory (New),500-508,197,INPUT TAX EXPENSE - LABORATORY INVENTORY (NEW),mapping
+Input Tax Expense - Laboratory supplies,500-518,1057,INPUT TAX EXPENSE - LABORATORY SUPPLIES,mapping
+Input Tax Expense - Laundry,500-538,729,INPUT TAX EXPENSE - LAUNDRY (BOC),mapping
+Input Tax Expense - Leasehold Improvements,500-533,525,INPUT TAX EXPENSE - LEASEHOLD IMPROVEMENTS,mapping
+Input Tax Expense - Medical Equipment,500-542,529,INPUT TAX EXPENSE - MEDICAL EQUIPMENT,mapping
+Input Tax Expense - Medical Instruments,500-528,517,INPUT TAX EXPENSE - MEDICAL INSTRUMENTS,name
+Input Tax Expense - Medical Supplies Inventory,500-511,201,INPUT TAX EXPENSE - MEDICAL SUPPLIES INVENTORY,mapping
+Input Tax Expense - Mobile (cell) Phone,500-503,737,INPUT TAX EXPENSE - MOBILE (CELL) PHONE (BOC),mapping
+Input Tax Expense - Office Furniture and Equipment,500-525,505,INPUT TAX EXPENSE - OFFICE FURNITURE AND EQUIPMENT,mapping
+Input Tax Expense - Office Supplies Expense,500-507,741,INPUT TAX EXPENSE - OFFICE SUPPLIES EXPENSE (BOC),mapping
+Input Tax Expense - Office Supplies Inventory (New),500-504,193,INPUT TAX EXPENSE - OFFICE SUPPLIES INVENTORY (NEW),mapping
+Input Tax Expense - Patient Meals,500-547,749,INPUT TAX EXPENSE - PATIENT MEALS (BOC),mapping
+Input Tax Expense - Postage and Courier,500-510,753,INPUT TAX EXPENSE - POSTAGE AND COURIER (BOC),mapping
+Input Tax Expense - Prepayment,500-523,205,INPUT TAX EXPENSE - PREPAYMENT,mapping
+Input Tax Expense - Repairs & Maintenance,500-506,757,INPUT TAX EXPENSE - REPAIRS & MAINTENANCE (BOC),mapping
+Input Tax Expense - Representation,500-517,761,INPUT TAX EXPENSE - REPRESENTATION (BOC),mapping
+Input Tax Expense - Security Services,500-519,765,INPUT TAX EXPENSE - SECURITY SERVICES (BOC),mapping
+Input Tax Expense - Third Party Partnership - Partner's Share,500-532,1077,INPUT TAX EXPENSE - THIRD PARTY PARTNERSHIP - PARTNER'S SHARE,mapping
+Input Tax Expense - Transportation,500-516,777,INPUT TAX EXPENSE - TRANSPORTATION (BOC),mapping
+Input Tax Expense - Waste disposal and pest control,500-514,781,INPUT TAX EXPENSE - WASTE DISPOSAL AND PEST CONTROL (BOC),mapping
+Input Tax Expense - Water,500-531,785,INPUT TAX EXPENSE - WATER (BOC),mapping
+Input tax expense- Dental Supplies Inventory,500-539,209,INPUT TAX EXPENSE- DENTAL SUPPLIES INVENTORY,name
+Input tax expense- Rental,500-502,793,INPUT TAX EXPENSE- RENTAL (BOC),mapping
+Insurance,600-904,801,INSURANCE (BOC),mapping
+Interest expense on Loans,800-020,1585,INTEREST EXPENSE ON LOANS,mapping
+Interest Income,700-200,1589,INTEREST INCOME,mapping
+IT and Software Depreciation,500-808,805,IT AND SOFTWARE DEPRECIATION (BOC),mapping
+IT Systems,600-240,809,IT SYSTEMS (BOC),mapping
+IT/Software,110-210,393,IT/SOFTWARE,mapping
+Janitorial / messenger,600-110,813,JANITORIAL / MESSENGER (BOC),mapping
+Konsulta FPE,400-060,1641,KONSULTA FPE,mapping
+Laboratory external,500-302,1105,LABORATORY EXTERNAL,mapping
+Laboratory Inventory (New),104-031,141,LABORATORY INVENTORY (NEW),mapping
+Laboratory Supplies,500-205,1109,LABORATORY SUPPLIES,mapping
+Laboratory/Diagnostics,400-010,1645,LABORATORY/DIAGNOSTICS,mapping
+Laboratory/Diagnostics - Send Outs,400-050,1657,LABORATORY/DIAGNOSTICS - SEND OUTS,mapping
+Laundry,600-540,817,LAUNDRY (BOC),mapping
+Leasehold Improvement Depreciation,500-802A,821,LEASEHOLD IMPROVEMENT DEPRECIATION (BOC),mapping
+Leasehold Improvements,110-110,373,LEASEHOLD IMPROVEMENTS,mapping
+Loans Payable - BPI,215-120,565,LOANS PAYABLE - BPI,name
+Management Cost,600-152,1773,MANAGEMENT COST,mapping
+Medical Equipment,110-400,413,MEDICAL EQUIPMENT,mapping
+Medical Equipment Depreciation,500-803,1125,MEDICAL EQUIPMENT DEPRECIATION (BOC),mapping
+Medical Instruments,110-410,417,MEDICAL INSTRUMENTS,mapping
+Medical Instruments Depreciation,500-804,1133,MEDICAL INSTRUMENTS DEPRECIATION (BOC),mapping
+Medical Supplies Inventory (New),104-022,133,MEDICAL SUPPLIES INVENTORY (NEW),mapping
+Meeting,601-020,837,MEETING (BOC),alias
+Mobile (cell) Phone,600-220,841,MOBILE (CELL) PHONE (BOC),mapping
+NOPEX - Others,800-252,1593,NOPEX - OTHERS,mapping
+Office Furniture and Equipment,110-100,369,OFFICE FURNITURE AND EQUIPMENT,mapping
+Office Furniture and Equipment Depreciation,500-801,845,OFFICE FURNITURE AND EQUIPMENT DEPRECIATION (BOC),mapping
+Office Supplies (New),104-041,149,OFFICE SUPPLIES (NEW),mapping
+Office Supplies Expense,600-730,849,OFFICE SUPPLIES EXPENSE (BOC),mapping
+Other expenses,600-900,853,OTHER EXPENSES (BOC),mapping
+Other Income,700-400,1597,OTHER INCOME,mapping
+Other professional fees,600-805,861,OTHER PROFESSIONAL FEES (BOC),mapping
+Overtime - COGS,600-412,1729,OVERTIME PAY (COGS),alias
+Overtime pay,600-420,865,OVERTIME PAY (BOC),mapping
+Pag-Ibig Contribution,600-471,869,PAG-IBIG CONTRIBUTION (BOC),mapping
+Pag-Ibig Contribution - COGS,600-471-2,1741,Pag-Ibig Contribution - COGS,name
+Pag-ibig Loan Payable,202-150,257,PAG-IBIG LOAN PAYABLE,mapping
+Patient Meals,601-031,873,PATIENT MEALS (BOC),mapping
+PHIC Payable,202-170,265,PHIC PAYABLE,mapping
+Phil Health Contribution,600-472,877,PHIL HEALTH CONTRIBUTION (BOC),mapping
+Phil Health Contribution - COGS,600-472-2,1745,Phil Health Contribution - COGS,name
+Postage and Courier,600-200,885,POSTAGE AND COURIER (BOC),mapping
+Prepayment,107-000,173,PREPAYMENT,mapping
+Profit sharing,500-401,1193,PROFIT SHARING,mapping
+Reader fees,500-402,1197,READER FEES,mapping
+Relievers,500-403,1201,RELIEVERS,mapping
+Rental,600-600,889,RENTAL (BOC),mapping
+Repairs and Maintenance,600-901,909,REPAIRS AND MAINTENANCE (BOC),mapping
+Representation,601-030,913,REPRESENTATION (BOC),mapping
+Retention Payable - current,211-020A,313,AP-OTHERS,alias
+Revolving Fund,100-105,33,REVOLVING FUND,mapping
+Salaries & Wages,600-410,921,SALARIES & WAGES (BOC),mapping
+Salaries & Wages FT- COGS,600-411,1725,SALARIES & WAGES FT (COGS),name
+Salaries & Wages YA- COGS,600-413,1733,SALARIES & WAGES YA (COGS),name
+Security Services,600-120,925,SECURITY SERVICES (BOC),mapping
+Short term Loans - Others,215-110,325,SHORT TERM LOANS - OTHERS,mapping
+SSS Contribution,600-473,933,SSS CONTRIBUTION (BOC),mapping
+SSS Contribution - COGS,600-473-2,1749,SSS Contribution - COGS,name
+SSS Loan Payable,202-140,253,SSS LOAN PAYABLE,mapping
+"SSS, EC Payable",202-160,261,"SSS, EC PAYABLE",mapping
+Taxes And Licenses,600-908,937,TAXES AND LICENSES (BOC),mapping
+Third Party Partnership - Partner's Share,500-405,1217,THIRD PARTY PARTNERSHIP - PARTNER'S SHARE,mapping
+Third-Party Partnership,400-040,1713,THIRD-PARTY PARTNERSHIP,mapping
+Tracking Transfers,890.B,1777,TRACKING TRANSFERS,mapping
+Trademarks,110-111,377,TRADEMARKS,mapping
+Transportation,600-909A,945,TRANSPORTATION (BOC),mapping
+Transportation Equipment Depreciation,500-806,949,TRANSPORTATION EQUIPMENT DEPRECIATION (BOC),mapping
+Travel & Accommodation,600-909B,953,TRAVEL & ACCOMMODATION (BOC),mapping
+Vehicle Insurance,890.B,1781,VEHICLE INSURANCE,mapping
+Waste disposal and pest control,600-160,957,WASTE DISPOSAL AND PEST CONTROL (BOC),mapping
+Water,600-530,961,WATER (BOC),mapping

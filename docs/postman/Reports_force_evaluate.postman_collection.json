@@ -1,0 +1,247 @@
+{
+  "info": {
+    "_postman_id": "d4e5f6a7-b8c9-0123-def0-345678901234",
+    "name": "Reports - Force Evaluate",
+    "description": "# Reports — Force Evaluate\n\nForce a medrecord booking to evaluation **done** (`for_evaluation = 2`) and mark it as force-evaluated so the daily medrecord cron does not overwrite those flags.\n\n## Auth\n- Header: `API-KEY` (required)\n- Body: `token`, `requester` (required)\n\n## Endpoint\n`POST /reports/force_evaluate`\n\n## Payload\n| Field | Required | Notes |\n|-------|----------|-------|\n| `token` | yes | Auth token |\n| `requester` | yes | User id — also stored as `force_evaluate_by` |\n| `medrecord_id` | yes | Report DB `medrecord.id` (any row of the booking) |\n\n## Effects\n1. Loads the medrecord by `medrecord_id`\n2. Updates **all** non-deleted rows for the same `branch_id` + `booking_id`:\n   - `for_evaluation` → `2` (done)\n   - `is_force_evaluate` → `1`\n   - `force_evaluate_by` → `requester`\n   - `force_evaluate_on` → now\n3. If `endorsement_id` is present and non-zero:\n   - `for_release` → `2`\n   - `for_release_log` → email/print log ids for that booking\n\n## Cron protection\nETL delete skips `is_force_evaluate = 1`. Upsert keeps forced `for_evaluation` / `for_release` / `for_release_log` / audit columns.\n\nDoes **not** clear pending specimen/result/recollection buckets or create EMR evaluation records.\n\n## Label legend\n`0` = no, `1` = yes, `2` = done, `3` = n_a\n",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost/cpci-business-ops-api"
+    },
+    {
+      "key": "api_key",
+      "value": "clinicaRiKOYqlwdTJ-lNedqS0k-it!395!-6ls1JXM7Vcc"
+    },
+    {
+      "key": "token",
+      "value": "{{token}}"
+    },
+    {
+      "key": "requester",
+      "value": "1"
+    },
+    {
+      "key": "medrecord_id",
+      "value": "1"
+    }
+  ],
+  "item": [
+    {
+      "name": "Force evaluate",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "token",
+              "value": "{{token}}",
+              "type": "text",
+              "description": "Auth token"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}",
+              "type": "text",
+              "description": "User id; stored as force_evaluate_by"
+            },
+            {
+              "key": "medrecord_id",
+              "value": "{{medrecord_id}}",
+              "type": "text",
+              "description": "Report DB medrecord.id (any row of the booking)"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/reports/force_evaluate",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "reports",
+            "force_evaluate"
+          ]
+        },
+        "description": "## POST `/reports/force_evaluate`\n\nForce medrecord evaluation to done for the booking of the given `medrecord_id`.\n\n### Form fields\n| Field | Required | Notes |\n|-------|----------|-------|\n| `token` | yes | Auth token |\n| `requester` | yes | User id + audit `force_evaluate_by` |\n| `medrecord_id` | yes | Report DB `medrecord.id` |\n\n### Success\nReturns the updated medrecord row for the requested id (`{ \"data\": { ... } }`). Sibling rows for the same booking are updated the same way but only this id is returned.\n\n### Errors\n- `400` — missing `medrecord_id`\n- `404` — medrecord not found or update failed\n- `401` — invalid/missing API-KEY, token, or requester"
+      },
+      "response": [
+        {
+          "name": "Success",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "medrecord_id",
+                  "value": "{{medrecord_id}}",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{base_url}}/reports/force_evaluate",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "reports",
+                "force_evaluate"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"data\": {\n    \"id\": 1,\n    \"branch_id\": 2,\n    \"company_id\": 10,\n    \"endorsement_id\": 5,\n    \"transaction_id\": 88727,\n    \"booking_id\": 12001,\n    \"patient_id\": 500,\n    \"lab_test_id\": 42,\n    \"transaction_date\": \"2026-07-16\",\n    \"transaction_date_time\": \"2026-07-16 09:15:00\",\n    \"performed_on\": \"2026-07-16 10:00:00\",\n    \"significant_findings\": 0,\n    \"pending_result\": 0,\n    \"pending_specimen\": 0,\n    \"recollection\": 0,\n    \"for_evaluation\": 2,\n    \"for_release\": 2,\n    \"for_release_log\": \"101,102\",\n    \"is_force_evaluate\": 1,\n    \"force_evaluate_by\": 1,\n    \"force_evaluate_on\": \"2026-07-16 12:30:00\",\n    \"is_deleted\": 0\n  }\n}"
+        },
+        {
+          "name": "Missing medrecord_id",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{base_url}}/reports/force_evaluate",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "reports",
+                "force_evaluate"
+              ]
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"error_messages\": [\n    \"medrecord_id is required.\"\n  ]\n}"
+        },
+        {
+          "name": "Not found",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "medrecord_id",
+                  "value": "999999",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{base_url}}/reports/force_evaluate",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "reports",
+                "force_evaluate"
+              ]
+            }
+          },
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"error_messages\": [\n    \"Medrecord not found or update failed.\"\n  ]\n}"
+        }
+      ]
+    }
+  ]
+}

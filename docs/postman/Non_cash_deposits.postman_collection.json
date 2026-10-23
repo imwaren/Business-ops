@@ -1,0 +1,447 @@
+{
+  "info": {
+    "_postman_id": "e5f6a7b8-c9d0-1234-ef01-456789012345",
+    "name": "Non-Cash Deposits",
+    "description": "# Non-Cash Deposits API\n\nRead and post/review for clinic `non_cash_deposit` records. Create, update, delete, and upload are **not** in this API (same as cash deposits).\n\n## Auth\n- Header: `API-KEY` (required)\n- Query/body: `token`, `requester` (required on all endpoints)\n\n## Branch scoping\n`branch_id` selects the clinic database. Required on every request.\n\n| branch_id | Clinic |\n|-----------|--------|\n| 1 | Mobile |\n| 2 | Oakridge |\n| 3 | Mactan |\n| 4 | Consolacion |\n| 7 | Mantlewood |\n\n## Mode of payment\n`mop` is an integer ID. Responses return the ID only (no name join).\n\n## Bank service fee\n`bank_service_fee_id` and `bank_service_fee_percentage` are required when posting. Get joins `bank` through the fee (`bank_name`). You may send `bank_service_fee_id` on `change_status` if it is not already on the row; percentage is snapshotted from `bank_service_fee.percentage` when empty.\n\n## Status workflow\n- Column `status`: `unposted` (default) or `posted`\n- Flag `is_reviewed`: `0` or `1`\n- `POST /change_status` accepts `posted` or `reviewed` only\n- List/report `status` filter: `posted` / `unposted` match the column; `reviewed` → `is_reviewed = 1`; `for_review` → `is_reviewed = 0`\n",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost/cpci-business-ops-api"
+    },
+    {
+      "key": "api_key",
+      "value": "clinicaRiKOYqlwdTJ-lNedqS0k-it!395!-6ls1JXM7Vcc"
+    },
+    {
+      "key": "token",
+      "value": "{{token}}"
+    },
+    {
+      "key": "requester",
+      "value": "1"
+    },
+    {
+      "key": "branch_id",
+      "value": "2"
+    },
+    {
+      "key": "non_cash_deposit_id",
+      "value": "1"
+    }
+  ],
+  "item": [
+    {
+      "name": "Get non-cash deposits",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/non_cash_deposits/get?token={{token}}&requester={{requester}}&branch_id={{branch_id}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "non_cash_deposits",
+            "get"
+          ],
+          "query": [
+            {
+              "key": "token",
+              "value": "{{token}}"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}"
+            },
+            {
+              "key": "branch_id",
+              "value": "{{branch_id}}",
+              "description": "Clinic DB: 1 mobile, 2 oakridge, 3 mactan, 4 consolacion, 7 mantlewood"
+            },
+            {
+              "key": "non_cash_deposit_id",
+              "value": "{{non_cash_deposit_id}}",
+              "disabled": true
+            },
+            {
+              "key": "mop",
+              "value": "1",
+              "disabled": true,
+              "description": "Mode of payment integer ID"
+            },
+            {
+              "key": "status",
+              "value": "for_review",
+              "disabled": true,
+              "description": "posted | unposted | reviewed | for_review"
+            },
+            {
+              "key": "date_from",
+              "value": "2026-01-01",
+              "disabled": true,
+              "description": "Filter deposit_date from (use with date_to)"
+            },
+            {
+              "key": "date_to",
+              "value": "2026-01-31",
+              "disabled": true,
+              "description": "Filter deposit_date to (use with date_from)"
+            },
+            {
+              "key": "page",
+              "value": "1",
+              "disabled": true
+            },
+            {
+              "key": "data_size",
+              "value": "20",
+              "disabled": true
+            }
+          ]
+        },
+        "description": "## GET `/non_cash_deposits/get`\n\nList non-cash deposits from the clinic DB for `branch_id`. Each row includes attachments and branch name.\n\n### Query params\n| Param | Required | Notes |\n|-------|----------|-------|\n| `token` | yes | Auth token |\n| `requester` | yes | User id |\n| `branch_id` | yes | Clinic DB selector |\n| `non_cash_deposit_id` | no | Filter by id |\n| `mop` | no | Mode of payment integer ID |\n| `status` | no | `posted` / `unposted` match column; `reviewed` → `is_reviewed = 1`; `for_review` → `is_reviewed = 0` |\n| `date_from` / `date_to` | no | `deposit_date` range (both required together) |\n| `page` | no | 1-based page |\n| `data_size` | no | Page size |\n\n### Success\n`{ \"size\": n, \"data\": [ ... ] }` — `size` is the unpaginated count."
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"size\": 1,\n  \"data\": [\n    {\n      \"id\": 1,\n      \"sales_date_from\": \"2026-01-01\",\n      \"sales_date_to\": \"2026-01-07\",\n      \"deposit_date\": \"2026-01-08\",\n      \"amount\": \"15000.00\",\n      \"mop\": 1,\n      \"reference_no\": \"NCD-2026-001\",\n      \"remarks\": \"Card and e-wallet collections\",\n      \"status\": \"unposted\",\n      \"posted_remarks\": null,\n      \"posted_by\": null,\n      \"posted_on\": null,\n      \"is_reviewed\": 0,\n      \"reviewed_by\": null,\n      \"reviewed_on\": null,\n      \"reviewed_remarks\": null,\n      \"reviewed_by_name\": null,\n      \"added_by\": 1,\n      \"added_on\": \"2026-01-08 09:00:00\",\n      \"updated_by\": null,\n      \"updated_on\": null,\n      \"is_deleted\": 0,\n      \"attachments\": [\n        {\n          \"id\": 1,\n          \"non_cash_deposit_id\": 1,\n          \"file_name\": \"deposit-slip.png\",\n          \"file_path\": \"assets/non_cash_deposits/1\",\n          \"file_url\": \"https://file.myt-emr.com/assets/non_cash_deposits/1/deposit-slip.png\",\n          \"mime\": \"image/png\",\n          \"added_on\": \"2026-01-08 09:05:00\",\n          \"added_by\": 1,\n          \"updated_on\": null,\n          \"updated_by\": null,\n          \"is_deleted\": 0\n        }\n      ],\n      \"branch_id\": 2,\n      \"branch_name\": \"Oakridge\"\n    }\n  ]\n}"
+        },
+        {
+          "name": "Missing branch_id",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"error_messages\": [\n    \"Branch ID is required.\"\n  ]\n}"
+        },
+        {
+          "name": "Invalid branch_id",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"error_messages\": [\n    \"Invalid Branch ID.\"\n  ]\n}"
+        },
+        {
+          "name": "Not Found",
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"error_messages\": [\n    \"No non_cash_deposits found.\"\n  ]\n}"
+        }
+      ]
+    },
+    {
+      "name": "Get non-cash deposits report",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/non_cash_deposits/get_report?token={{token}}&requester={{requester}}&branch_id={{branch_id}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "non_cash_deposits",
+            "get_report"
+          ],
+          "query": [
+            {
+              "key": "token",
+              "value": "{{token}}"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}"
+            },
+            {
+              "key": "branch_id",
+              "value": "{{branch_id}}",
+              "description": "Clinic DB: 1 mobile, 2 oakridge, 3 mactan, 4 consolacion, 7 mantlewood"
+            },
+            {
+              "key": "non_cash_deposit_id",
+              "value": "{{non_cash_deposit_id}}",
+              "disabled": true
+            },
+            {
+              "key": "mop",
+              "value": "1",
+              "disabled": true,
+              "description": "Mode of payment integer ID"
+            },
+            {
+              "key": "status",
+              "value": "for_review",
+              "disabled": true,
+              "description": "posted | unposted | reviewed | for_review"
+            },
+            {
+              "key": "date_from",
+              "value": "2026-01-01",
+              "disabled": true,
+              "description": "Filter deposit_date from (use with date_to)"
+            },
+            {
+              "key": "date_to",
+              "value": "2026-01-31",
+              "disabled": true,
+              "description": "Filter deposit_date to (use with date_from)"
+            },
+            {
+              "key": "page",
+              "value": "1",
+              "disabled": true
+            },
+            {
+              "key": "data_size",
+              "value": "20",
+              "disabled": true
+            }
+          ]
+        },
+        "description": "## GET `/non_cash_deposits/get_report`\n\nAggregated report grouped by `deposit_date`, `sales_date_from`, `sales_date_to`, and `mop`. Returns `total_amount` plus review/status fields.\n\nDoes **not** include cash-count sales variance (cash-deposit only).\n\n### Query params\nSame as `GET /non_cash_deposits/get`.\n\n### Success\n`{ \"size\": n, \"data\": [ ... ] }` — `size` is the unpaginated group count."
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"size\": 1,\n  \"data\": [\n    {\n      \"id\": 1,\n      \"sales_date_from\": \"2026-01-01\",\n      \"sales_date_to\": \"2026-01-07\",\n      \"deposit_date\": \"2026-01-08\",\n      \"is_reviewed\": 0,\n      \"reviewed_by\": null,\n      \"reviewed_by_name\": null,\n      \"reviewed_on\": null,\n      \"reviewed_remarks\": null,\n      \"total_amount\": \"15000.00\",\n      \"mop\": 1,\n      \"status\": \"unposted\",\n      \"reference_no\": \"NCD-2026-001\",\n      \"branch_id\": 2,\n      \"branch_name\": \"Oakridge\"\n    }\n  ]\n}"
+        },
+        {
+          "name": "Missing branch_id",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"error_messages\": [\n    \"Branch ID is required.\"\n  ]\n}"
+        },
+        {
+          "name": "Invalid branch_id",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"error_messages\": [\n    \"Invalid Branch ID.\"\n  ]\n}"
+        },
+        {
+          "name": "Not Found",
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"error_messages\": [\n    \"No non_cash_deposits report found.\"\n  ]\n}"
+        }
+      ]
+    },
+    {
+      "name": "Change status",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "token",
+              "value": "{{token}}",
+              "type": "text",
+              "description": "Auth token"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}",
+              "type": "text",
+              "description": "User id; stored as posted_by / reviewed_by"
+            },
+            {
+              "key": "branch_id",
+              "value": "{{branch_id}}",
+              "type": "text",
+              "description": "Clinic DB selector"
+            },
+            {
+              "key": "non_cash_deposit_id",
+              "value": "{{non_cash_deposit_id}}",
+              "type": "text",
+              "description": "non_cash_deposit.id"
+            },
+            {
+              "key": "status",
+              "value": "posted",
+              "type": "text",
+              "description": "posted | reviewed"
+            },
+            {
+              "key": "remarks",
+              "value": "Verified against settlement report",
+              "type": "text",
+              "description": "Stored as posted_remarks or reviewed_remarks"
+            },
+            {
+              "key": "bank_service_fee_id",
+              "value": "1",
+              "type": "text",
+              "description": "Required when posting if not already on the row"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/non_cash_deposits/change_status",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "non_cash_deposits",
+            "change_status"
+          ]
+        },
+        "description": "## POST `/non_cash_deposits/change_status`\n\nPost or review a non-cash deposit.\n\n### Form fields\n| Field | Required | Notes |\n|-------|----------|-------|\n| `token` | yes | Auth token |\n| `requester` | yes | User id + audit `posted_by` / `reviewed_by` |\n| `branch_id` | yes | Clinic DB selector |\n| `non_cash_deposit_id` | yes | `non_cash_deposit.id` |\n| `status` | yes | `posted` or `reviewed` |\n| `remarks` | no | `posted_remarks` when posting; `reviewed_remarks` when reviewing |\n\n### Effects\n- `posted`: sets `status`, `posted_by`, `posted_on`, `posted_remarks`\n- `reviewed`: sets `is_reviewed = 1`, `reviewed_by`, `reviewed_on`, `reviewed_remarks`\n\n### Errors\n- `400` — missing/invalid `branch_id`, invalid status, already reviewed, or update failed\n- `404` — record not found\n- `401` — invalid/missing API-KEY, token, or requester"
+      },
+      "response": [
+        {
+          "name": "Posted",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"non_cash_deposit_id\": 1,\n  \"message\": \"non_cash_deposit posted successfully.\"\n}"
+        },
+        {
+          "name": "Reviewed",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"non_cash_deposit_id\": 1,\n  \"message\": \"non_cash_deposit reviewed successfully.\"\n}"
+        },
+        {
+          "name": "Invalid status",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"error_messages\": [\n    \"Invalid status. Valid statuses are: posted, reviewed.\"\n  ]\n}"
+        },
+        {
+          "name": "Already reviewed",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"error_messages\": [\n    \"non_cash_deposit is already reviewed. \"\n  ]\n}"
+        },
+        {
+          "name": "Not Found",
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"error_messages\": [\n    \"non_cash_deposit is not found.\"\n  ]\n}"
+        }
+      ]
+    }
+  ]
+}

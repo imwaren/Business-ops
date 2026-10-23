@@ -1,0 +1,501 @@
+branch_id,source,source_id,account_type_id,date,debit,credit,remark,is_migrated,added_by,added_on,is_deleted
+\N,journal_entry,213,5,2026-03-12,807.0000,0.0000,Cash - Security Bank CPCI - OPEX Gcash 03/12/2026 — #52132,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,214,5,2026-03-12,13100.0000,0.0000,To record receipts of QR OPEX Debit Card 03/12/2026 — #52133,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,215,5,2026-03-12,48230.0600,0.0000,To record receipts of SBC OPEX AR-Terms MAXICARE HEALTHCARE CORP — #52134,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,216,5,2026-03-12,30258.0000,0.0000,To record receipts of SBC OPEX AR-Terms  ADVANCED MEDICAL ACCESS PHILIPPINES — #52135,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,217,5,2026-03-12,6438.6000,0.0000,"To Record deposit sales Branches AR-Terms SUN LIFE GREPA FINANCIAL, INC.  03/12/2026 — #52136",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,218,5,2026-03-12,105133.2600,0.0000,To record OPEX Credit Cards 03/12/2026 — #52137,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,210,5,2026-03-12,0.0000,150000.0000,Fund transfer FT from SBC-OpEx to SBC-CapEx — #52125,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,209,5,2026-03-12,0.0000,600000.0000,Fund transfer FT from SBC-OpEx BPI-OPEX 03/12/2026 — #52124,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,222,245,2026-03-12,0.0000,12703.5600,"to record BDO MTL interest expense payment for Feb 11 - March 11, 2026 — #52141",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,204,725,2026-03-12,0.0000,868.2900,Reversal of: To accrue CEBU SPIC & SPAN - Janitorial Services for the period Shared FEBRUARY — #52097,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,222,1585,2026-03-12,635178.0800,0.0000,"to record BDO MTL interest expense payment for Feb 11 - March 11, 2026 — #52141",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,221,1585,2026-03-12,0.0000,385643.8400,Reversal of: to record interest expense BDO MTL Loan February 12-28 — #52140,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,224,809,2026-03-12,3013.7400,0.0000,BRYAN ALBERT LIM - Payment for Xero global IN-6392239 — RFP No.# 5412,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,224,809,2026-03-12,34740.6000,0.0000,BRYAN ALBERT LIM - Payment for Nexess — RFP No.# 5412,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,224,809,2026-03-12,708.1500,0.0000,BRYAN ALBERT LIM - Payment for Microsoft G1238325898 — RFP No.# 5412,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,224,809,2026-03-12,2096.8500,0.0000,BRYAN ALBERT LIM - Payment for Microsoft G140982726 — RFP No.# 5412,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,224,809,2026-03-12,59208.2000,0.0000,BRYAN ALBERT LIM - Payment for Microsoft G141416565 — RFP No.# 5412,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,224,809,2026-03-12,11484.4600,0.0000,BRYAN ALBERT LIM - Payment for Microsoft G141666857 — RFP No.# 5412,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,204,813,2026-03-12,0.0000,7235.7100,Reversal of: To accrue CEBU SPIC & SPAN - Janitorial Services for the period Shared FEBRUARY — #52097,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,205,1777,2026-03-12,452068.4000,0.0000,Reversal of: To accrue send out cost for the period 2026 February - To accrue send out cost for the period 2026 February — #52103,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,206,1777,2026-03-12,30938.4000,0.0000,Reversal of: To accrue send out cost for the period January 2026 - To accrue send out cost for the period January 2026 — #52106,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,207,1777,2026-03-12,23981.4500,0.0000,Reversal of: To accrue send out cost for the period DECEMBER 2025 - To accrue send out cost for the period DECEMBER 2025 — #52107,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,208,1777,2026-03-12,23091.4000,0.0000,Reversal of: To accrue send out cost for the period October 2025 posted march - To accrue send out cost for the period October 2025 — #52109,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,212,1777,2026-03-12,112774.0000,0.0000,to record cash sales 03/11/2026 — #52131,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,223,1777,2026-03-12,671553.0000,0.0000,"Sales Branches March 12, 2026 - Laboratory/Diagnostics — #52646",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,208,1777,2026-03-12,0.0000,23091.4000,Reversal of: To accrue send out cost for the period October 2025 posted march - To accrue send out cost for the period October 2025 — #52109,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,207,1777,2026-03-12,0.0000,23981.4500,Reversal of: To accrue send out cost for the period DECEMBER 2025 - To accrue send out cost for the period DECEMBER 2025 — #52107,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,206,1777,2026-03-12,0.0000,30938.4000,Reversal of: To accrue send out cost for the period January 2026 - To accrue send out cost for the period January 2026 — #52106,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,212,1777,2026-03-12,0.0000,112774.0000,to record cash sales 03/11/2026 — #52131,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,205,1777,2026-03-12,0.0000,452068.4000,Reversal of: To accrue send out cost for the period 2026 February - To accrue send out cost for the period 2026 February — #52103,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,223,1777,2026-03-12,0.0000,671553.0000,"Sales Branches March 12, 2026 - Cash Sales - March, 12 — #52646",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,224,953,2026-03-12,7893.9400,0.0000,BRYAN ALBERT LIM - Payment for Airfare c/o Doc Bryan Lim (Back and forth) — RFP No.# 5412,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,239,217,2026-03-13,89672.1400,0.0000,Payment: MEDGISTIX CORPORATION — 0126-000028,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,243,217,2026-03-13,11149.5500,0.0000,"Payment: BEROVAN MARKETING, INC. — 1225-000515",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,244,217,2026-03-13,5054.4600,0.0000,"Payment: BEROVAN MARKETING, INC. — 1225-000516",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,245,217,2026-03-13,11734.2900,0.0000,"Payment: BEROVAN MARKETING, INC. — 1225-000517",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,254,217,2026-03-13,11870.0300,0.0000,Payment: EASY SERVICES INC. — RFP No.# 5339,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,242,217,2026-03-13,11883.9300,0.0000,Payment: ALEDAN MKTG CORP — 0226-000244,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,241,217,2026-03-13,37660.7100,0.0000,"Payment: BTL MEDICAL TECHNOLOGIES, INC. — 0226-000177",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,238,217,2026-03-13,60390.0000,0.0000,Payment: TONERPRO TRADING — 0126-000013,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,240,217,2026-03-13,80190.0000,0.0000,Payment: TONERPRO TRADING — 0126-000063,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,262,217,2026-03-13,583533.6500,0.0000,Payment: BUREAU OF INTERNAL REVENUE — RFP No.# 5406,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,257,217,2026-03-13,63100.0000,0.0000,Payment: HOME DEVELOPMENT MUTUAL FUND — RFP No.# 5382,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,259,217,2026-03-13,30380.0000,0.0000,Payment: Far East Noble House Inc. — RFP No.# 5399,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,258,217,2026-03-13,17525.9600,0.0000,Payment: HOME DEVELOPMENT MUTUAL FUND — RFP No.# 5383,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,256,217,2026-03-13,223685.0000,0.0000,Payment: PHILIPPINE HEALTH INSURANCE CORPORATION — RFP No.# 5381,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,263,217,2026-03-13,427933.5100,0.0000,Payment: BUREAU OF INTERNAL REVENUE — RFP No.# 5407,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,260,217,2026-03-13,23440.0000,0.0000,Payment: Dynasty Management and Development Corp. — RFP No.# 5400,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,261,217,2026-03-13,41627.3000,0.0000,Payment: Responsible Internet Sustainability Effort Inc. (RISE) — RFP No.# 5405,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,264,217,2026-03-13,119145.9400,0.0000,Payment: BRYAN ALBERT LIM — RFP No.# 5412,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,253,217,2026-03-13,3539.0000,0.0000,Payment: Pacific Mall Corporation — RFP No.# 5315,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,255,217,2026-03-13,19003.5000,0.0000,Payment: Rhea Mae Gesulga — RFP No.# 5350,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,265,217,2026-03-13,395781.8300,0.0000,Payment: Ivy Grace B. Baricuatro — RFP No.# 5417,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,237,217,2026-03-13,0.0000,395781.8300,Ivy Grace B. Baricuatro — RFP No.# 5417,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,237,85,2026-03-13,395781.8300,0.0000,"Ivy Grace B. Baricuatro - Advances to employee for KA's Salary ftp February 26- March 10, 2026 CA- 0285 — RFP No.# 5417",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,231,77,2026-03-13,0.0000,5151.0000,Cash - Security Bank CPCI - OPEX Gcash 03/13/2026 — #52354,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,266,61,2026-03-13,882.0000,0.0000,Payment: Homesourced Inc — O3239,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,267,61,2026-03-13,7663.6000,0.0000,Payment: Homesourced Inc — O3275,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,121,61,2026-03-13,5030.0000,0.0000,Payment: Life & Health Hmp Inc — O3237-1,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,227,61,2026-03-13,0.0000,28388.6400,To record receipts sales BPI  Homesourced check deposit 03/13/2026 — #52350,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,233,61,2026-03-13,0.0000,50311.0000,To record Credit Cards mbtc March 13 — #52358,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,230,61,2026-03-13,0.0000,194882.8000,To record receipts sales BPI ToyotaTalisay check deposit 03/13/2026 — #52353,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,225,61,2026-03-13,0.0000,291246.2000,To record receipts sales BPI AR-Cebu Unidentified check deposit 03/13/2026 Knowles — #52348,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,232,61,2026-03-13,0.0000,352104.8600,Cash - Security Bank CPCI - OPEX Unidentified Online Deposit03/13/2026 — #52357,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,229,61,2026-03-13,0.0000,383157.7000,To record receipts sales BPI Life & Health check deposit 03/13/2026 — #52352,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,228,61,2026-03-13,0.0000,546662.6200,To record receipts sales BPI Asalus check deposit 03/13/2026 — #52351,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,266,57,2026-03-13,0.0000,882.0000,Payment: Homesourced Inc — O3239,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,121,57,2026-03-13,0.0000,5030.0000,Payment: Life & Health Hmp Inc — O3237-1,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,267,57,2026-03-13,0.0000,7663.6000,Payment: Homesourced Inc — O3275,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,234,605,2026-03-13,1760.9000,0.0000,To record Bank Charges mbtc March 13 — #52359,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,247,53,2026-03-13,0.0000,5054.4600,"Payment: BEROVAN MARKETING, INC. — 1292753",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,247,53,2026-03-13,0.0000,11149.5500,"Payment: BEROVAN MARKETING, INC. — 1292753",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,247,53,2026-03-13,0.0000,11734.2900,"Payment: BEROVAN MARKETING, INC. — 1292753",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,251,53,2026-03-13,0.0000,11870.0300,Payment: EASY SERVICES INC. — 1292757,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,248,53,2026-03-13,0.0000,11883.9300,Payment: ALEDAN MKTG CORP — 1292754,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,249,53,2026-03-13,0.0000,37660.7100,"Payment: BTL MEDICAL TECHNOLOGIES, INC. — 1292755",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,250,53,2026-03-13,0.0000,60390.0000,Payment: TONERPRO TRADING — 1292756,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,250,53,2026-03-13,0.0000,80190.0000,Payment: TONERPRO TRADING — 1292756,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,246,53,2026-03-13,0.0000,89672.1400,Payment: MEDGISTIX CORPORATION — 1292752,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,225,1,2026-03-13,291246.2000,0.0000,To record receipts sales BPI AR-Cebu Unidentified check deposit 03/13/2026 Knowles — #52348,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,228,1,2026-03-13,546662.6200,0.0000,To record receipts sales BPI Asalus check deposit 03/13/2026 — #52351,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,227,1,2026-03-13,28388.6400,0.0000,To record receipts sales BPI  Homesourced check deposit 03/13/2026 — #52350,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,229,1,2026-03-13,383157.7000,0.0000,To record receipts sales BPI Life & Health check deposit 03/13/2026 — #52352,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,230,1,2026-03-13,194882.8000,0.0000,To record receipts sales BPI ToyotaTalisay check deposit 03/13/2026 — #52353,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,252,1,2026-03-13,0.0000,3013.7400,Payment: BRYAN ALBERT LIM — Online-031326,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,252,1,2026-03-13,0.0000,3539.0000,Payment: Pacific Mall Corporation — Online-031326,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,252,1,2026-03-13,0.0000,7893.9400,Payment: BRYAN ALBERT LIM — Online-031326,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,252,1,2026-03-13,0.0000,17525.9600,Payment: HOME DEVELOPMENT MUTUAL FUND — Online-031326,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,252,1,2026-03-13,0.0000,19003.5000,Payment: Rhea Mae Gesulga — Online-031326,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,252,1,2026-03-13,0.0000,23440.0000,Payment: Dynasty Management and Development Corp. — Online-031326,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,252,1,2026-03-13,0.0000,30380.0000,Payment: Far East Noble House Inc. — Online-031326,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,252,1,2026-03-13,0.0000,34740.6000,Payment: BRYAN ALBERT LIM — Online-031326,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,252,1,2026-03-13,0.0000,39500.0000,Payment: HOME DEVELOPMENT MUTUAL FUND — Online-031326,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,252,1,2026-03-13,0.0000,41627.3000,Payment: Responsible Internet Sustainability Effort Inc. (RISE) — Online-031326,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,252,1,2026-03-13,0.0000,73497.6600,Payment: BRYAN ALBERT LIM — Online-031326,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,252,1,2026-03-13,0.0000,148945.0000,Payment: PHILIPPINE HEALTH INSURANCE CORPORATION — Online-031326,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,252,1,2026-03-13,0.0000,395781.8300,Payment: Ivy Grace B. Baricuatro — Online-031326,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,252,1,2026-03-13,0.0000,427933.5100,Payment: BUREAU OF INTERNAL REVENUE — Online-031326,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,252,1,2026-03-13,0.0000,583533.6500,Payment: BUREAU OF INTERNAL REVENUE — Online-031326,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,233,41,2026-03-13,50311.0000,0.0000,To record Credit Cards mbtc March 13 — #52358,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,234,41,2026-03-13,0.0000,1760.9000,To record Bank Charges mbtc March 13 — #52359,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,235,9,2026-03-13,0.0000,1050000.0000,BANK REC: Interest payment on SBC loan - BANK REC: Interest payment on SBC loan — #52360,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,231,5,2026-03-13,5151.0000,0.0000,Cash - Security Bank CPCI - OPEX Gcash 03/13/2026 — #52354,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,232,5,2026-03-13,352104.8600,0.0000,Cash - Security Bank CPCI - OPEX Unidentified Online Deposit03/13/2026 — #52357,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,235,1585,2026-03-13,1050000.0000,0.0000,BANK REC: Interest payment on SBC loan - BANK REC: Interest payment on SBC loan — #52360,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,226,1777,2026-03-13,105758.0000,0.0000,to record cash sales 03/12/2026 — #52349,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,235,1777,2026-03-13,1050000.0000,0.0000,BANK REC: Interest payment on SBC loan - BANK REC: Interest payment on SBC loan — #52360,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,236,1777,2026-03-13,1995517.0000,0.0000,"Sales Branches March 13, 2026 - Laboratory/Diagnostics — #54419",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,226,1777,2026-03-13,0.0000,105758.0000,to record cash sales 03/12/2026 — #52349,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,235,1777,2026-03-13,0.0000,1050000.0000,BANK REC: Interest payment on SBC loan - BANK REC: Interest payment on SBC loan — #52360,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,236,1777,2026-03-13,0.0000,1995517.0000,"Sales Branches March 13, 2026 - Cash Sales - March, 13 — #54419",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,268,1777,2026-03-14,821675.0000,0.0000,"Sales Branches March 14, 2026 - Laboratory/Diagnostics — #52648",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,268,1777,2026-03-14,0.0000,821675.0000,"Sales Branches March 14, 2026 - Cash Sales - March, 14 — #52648",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,284,217,2026-03-16,53500.0000,0.0000,"Payment: Golden Great Value Properties, Inc. — RFP No.# 5431",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,282,217,2026-03-16,0.0000,53500.0000,"Golden Great Value Properties, Inc. — RFP No.# 5431",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,269,237,2026-03-16,917006.0100,0.0000,Reversal of: To accrue Doctors PF Consolacion for the period February 2026 — #52497,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,270,237,2026-03-16,1392809.4500,0.0000,Reversal of: To accrue Doctors PF Mactan for the period 2026 february — #52498,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,271,237,2026-03-16,1742083.5100,0.0000,Reversal of: To accrue Doctors PF Oakridge for the period 2026 February — #52499,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,276,77,2026-03-16,0.0000,11345.0000,Cash - Security Bank CPCI - OPEX Gcash 03/16/2026 — #52690,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,277,61,2026-03-16,0.0000,1480.0000,To record receipts of QR OPEX Debit Card 03/16/2026 — #52691,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,272,61,2026-03-16,0.0000,30380.0000,To record receipts sales BPI AR-Cebu Unidentified check deposit 03/16/2026 — #52684,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,278,61,2026-03-16,0.0000,56529.0700,To record Credit Cards SBC 03/16/2026 — #52692,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,279,61,2026-03-16,0.0000,60815.8000,To record Credit Cards mbtc March 16 — #52693,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,275,61,2026-03-16,0.0000,486799.1000,To record receipts sales BPI AR-Cebu Unidentified check deposit 03/16/2026 Cebu Oversea Hardware Co. — #52689,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,288,57,2026-03-16,18.0000,0.0000,Homesourced Inc — CN-4642,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,289,57,2026-03-16,156.4000,0.0000,Homesourced Inc — CN-4645,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,290,57,2026-03-16,348.0000,0.0000,Life & Health Hmp Inc — CN-4699,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,285,57,2026-03-16,0.0000,18.0000,Homesourced Inc — CN-4642,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,292,57,2026-03-16,0.0000,18.0000,Homesourced Inc — O3239,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,286,57,2026-03-16,0.0000,156.4000,Homesourced Inc — CN-4645,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,293,57,2026-03-16,0.0000,156.4000,Homesourced Inc — O3275,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,287,57,2026-03-16,0.0000,348.0000,Life & Health Hmp Inc — CN-4699,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,291,57,2026-03-16,0.0000,348.0000,Life & Health Hmp Inc — O3237-1,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,280,605,2026-03-16,2128.5500,0.0000,To record Bank Charges mbtc March 16 — #52694,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,283,53,2026-03-16,0.0000,53500.0000,"Payment: Golden Great Value Properties, Inc. — 1292759",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,272,1,2026-03-16,30380.0000,0.0000,To record receipts sales BPI AR-Cebu Unidentified check deposit 03/16/2026 — #52684,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,275,1,2026-03-16,486799.1000,0.0000,To record receipts sales BPI AR-Cebu Unidentified check deposit 03/16/2026 Cebu Oversea Hardware Co. — #52689,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,279,41,2026-03-16,60815.8000,0.0000,To record Credit Cards mbtc March 16 — #52693,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,280,41,2026-03-16,0.0000,2128.5500,To record Bank Charges mbtc March 16 — #52694,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,276,5,2026-03-16,11345.0000,0.0000,Cash - Security Bank CPCI - OPEX Gcash 03/16/2026 — #52690,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,277,5,2026-03-16,1480.0000,0.0000,To record receipts of QR OPEX Debit Card 03/16/2026 — #52691,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,278,5,2026-03-16,56529.0700,0.0000,To record Credit Cards SBC 03/16/2026 — #52692,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,286,165,2026-03-16,156.4000,0.0000,Homesourced Inc - CWT-2% | HOMESOURCED — CN-4645,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,285,165,2026-03-16,18.0000,0.0000,Homesourced Inc - CWT-2% | HOMESOURCED — CN-4642,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,287,165,2026-03-16,348.0000,0.0000,Life & Health Hmp Inc - CWT-2% | LIFE & HEALTH — CN-4699,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,282,245,2026-03-16,0.0000,2500.0000,"Golden Great Value Properties, Inc. - 5% EWT on Payment for Parkmall renta March 15- April 14, 2026 KONSULTA — RFP No.# 5431",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,282,793,2026-03-16,6000.0000,0.0000,"Golden Great Value Properties, Inc. - Vatable: Payment for Parkmall renta March 15- April 14, 2026 KONSULTA — RFP No.# 5431",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,282,889,2026-03-16,50000.0000,0.0000,"Golden Great Value Properties, Inc. - Vatable: Payment for Parkmall renta March 15- April 14, 2026 KONSULTA — RFP No.# 5431",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,273,1777,2026-03-16,134190.0000,0.0000,to record cash sales 03/14/2026 — #52686,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,274,1777,2026-03-16,114681.0000,0.0000,to record cash sales 03/13/2026 — #52688,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,281,1777,2026-03-16,1212677.0000,0.0000,"Sales Branches March 16, 2026 - Laboratory/Diagnostics — #53042",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,274,1777,2026-03-16,0.0000,114681.0000,to record cash sales 03/13/2026 — #52688,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,273,1777,2026-03-16,0.0000,134190.0000,to record cash sales 03/14/2026 — #52686,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,269,1777,2026-03-16,0.0000,917006.0100,Reversal of: To accrue Doctors PF Consolacion for the period February 2026 — #52497,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,281,1777,2026-03-16,0.0000,1212677.0000,"Sales Branches March 16, 2026 - Cash Sales - March, 16 — #53042",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,270,1777,2026-03-16,0.0000,1392809.4500,Reversal of: To accrue Doctors PF Mactan for the period 2026 february — #52498,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,271,1777,2026-03-16,0.0000,1742083.5100,Reversal of: To accrue Doctors PF Oakridge for the period 2026 February — #52499,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,315,217,2026-03-17,1398.6000,0.0000,"GLOBE TELECOM, INC. — RFP No.# 3523-1",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,316,217,2026-03-17,1398.6000,0.0000,"GLOBE TELECOM, INC. — RFP No.# 3523-1",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,316,217,2026-03-17,0.0000,1398.6000,"GLOBE TELECOM, INC. — RFP No.# 3523-1",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,320,217,2026-03-17,0.0000,4473.2100,EUGENE TIO — RFP No.# 5438,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,323,217,2026-03-17,0.0000,5000.0000,RUDOLFO MARK BRIONES ABANILLA — RFP No.# 5468,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,317,217,2026-03-17,0.0000,10976.0000,BETTERFIT CLOTHING ALTERATIONS SEWING SERVICES — 0326-000276,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,322,217,2026-03-17,0.0000,21400.0000,Island Central Mall — RFP No.# 5453,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,321,217,2026-03-17,0.0000,22790.0000,Dynasty Management and Development Corp. — RFP No.# 5452,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,318,217,2026-03-17,0.0000,29955.3600,"SHEWAK'S ENGRAVABLES, INC. — 0326-000277",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,319,217,2026-03-17,0.0000,210000.0000,GRETHEL FURNITURE SUB-CONTRACTING SERVICES — 0326-000278,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,294,237,2026-03-17,25760.0000,0.0000,Reversal of: To accrue ORDC:  Payment for IT services for the month of JAnuary 2026 - To accrue ORDC:  Payment for IT services for the month of JAnuary 2026 — #52700,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,295,237,2026-03-17,71833.0600,0.0000,Reversal of: to accrue Reimbursement Doc Bry CC for Microsoft ftp february 2026 — #52701,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,296,237,2026-03-17,2663.6600,0.0000,Reversal of: to accrue Reimbursement Doc Bryan CC for Xero ftp february 2026 — #52702,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,318,89,2026-03-17,27232.1400,0.0000,"SHEWAK'S ENGRAVABLES, INC. - Vatable: Payment for 100 pcs. nameplate acrylic insert type PO no. OPEX-26-0120 SI no. 1545 — 0326-000277",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,318,89,2026-03-17,3267.8600,0.0000,"SHEWAK'S ENGRAVABLES, INC. - Vat: Payment for 100 pcs. nameplate acrylic insert type PO no. OPEX-26-0120 SI no. 1545 — 0326-000277",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,315,89,2026-03-17,0.0000,1398.6000,"GLOBE TELECOM, INC. - Canceled Payment for globe billing ftp June 24- July 23, 2025 (Advance Payment) — RFP No.# 3523-1",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,303,77,2026-03-17,0.0000,1544.0000,Cash - Security Bank CPCI - OPEX Gcash 03/17/2026 — #52738,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,324,61,2026-03-17,12524.4000,0.0000,Payment: Cooperative Health Management Federation — O3244,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,304,61,2026-03-17,0.0000,550.0000,To record receipts of QR OPEX Debit Card 03/17/2026 — #52739,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,309,61,2026-03-17,0.0000,2020.0000,To record receipts of SBC collections for March 17 LACSON INSURANCE BROKERS — #52744,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,302,61,2026-03-17,0.0000,3724.0000,To record receipts salesAR-Cebu check deposit fr Insystic Corp 03/17/2026 — #52737,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,307,61,2026-03-17,0.0000,5184.2000,"To Record deposit sales Branches AR-Terms SUN LIFE GREPA FINANCIAL, INC.  03/17/2026 — #52742",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,305,61,2026-03-17,0.0000,7291.2000,To record receipts of SBC OPEX AR-Terms MAXICARE HEALTHCARE CORP — #52740,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,301,61,2026-03-17,0.0000,15140.0000,To record receipts sales BPI AR-Cebu cash deposit fr Teradyne 03/17/2026 — #52736,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,312,61,2026-03-17,0.0000,42309.4600,To record Credit Cards SBC 03/17/2026 — #52749,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,308,61,2026-03-17,0.0000,71363.6000,To record receipts of OPEX AR-Terms  GENERALI LIFE ASSURANCE PHILIPPINES — #52743,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,298,61,2026-03-17,0.0000,82388.0000,To record receipts sales BPI AR-Cebu Unidentified check deposit 03/17/2026 — #52733,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,310,61,2026-03-17,0.0000,84115.0000,To record Credit Cards mbtc March 17 — #52747,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,306,61,2026-03-17,0.0000,151533.9600,"To Record AR-Terms MEDICARD PHILIPPINES, INC. — #52741",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,300,61,2026-03-17,0.0000,232080.3600,To record receipts sales BPI AR-Cebu check deposit 03/17/2026  fr RGE AGRIDEV CORP — #52735,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,324,57,2026-03-17,0.0000,12524.4000,Payment: Cooperative Health Management Federation — O3244,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,311,605,2026-03-17,2944.0300,0.0000,To record Bank Charges mbtc March 17 — #52748,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,298,1,2026-03-17,82388.0000,0.0000,To record receipts sales BPI AR-Cebu Unidentified check deposit 03/17/2026 — #52733,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,300,1,2026-03-17,232080.3600,0.0000,To record receipts sales BPI AR-Cebu check deposit 03/17/2026  fr RGE AGRIDEV CORP — #52735,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,301,1,2026-03-17,15140.0000,0.0000,To record receipts sales BPI AR-Cebu cash deposit fr Teradyne 03/17/2026 — #52736,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,302,1,2026-03-17,3724.0000,0.0000,To record receipts salesAR-Cebu check deposit fr Insystic Corp 03/17/2026 — #52737,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,297,1,2026-03-17,0.0000,129831.7000,"LHPI-EXCUTIVE OFFICE Fees, March 1-15, 2026 from Treasury for posting — #52710",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,310,41,2026-03-17,84115.0000,0.0000,To record Credit Cards mbtc March 17 — #52747,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,311,41,2026-03-17,0.0000,2944.0300,To record Bank Charges mbtc March 17 — #52748,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,303,5,2026-03-17,1544.0000,0.0000,Cash - Security Bank CPCI - OPEX Gcash 03/17/2026 — #52738,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,304,5,2026-03-17,550.0000,0.0000,To record receipts of QR OPEX Debit Card 03/17/2026 — #52739,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,305,5,2026-03-17,7291.2000,0.0000,To record receipts of SBC OPEX AR-Terms MAXICARE HEALTHCARE CORP — #52740,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,306,5,2026-03-17,151533.9600,0.0000,"To Record AR-Terms MEDICARD PHILIPPINES, INC. — #52741",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,307,5,2026-03-17,5184.2000,0.0000,"To Record deposit sales Branches AR-Terms SUN LIFE GREPA FINANCIAL, INC.  03/17/2026 — #52742",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,308,5,2026-03-17,71363.6000,0.0000,To record receipts of OPEX AR-Terms  GENERALI LIFE ASSURANCE PHILIPPINES — #52743,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,309,5,2026-03-17,2020.0000,0.0000,To record receipts of SBC collections for March 17 LACSON INSURANCE BROKERS — #52744,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,312,5,2026-03-17,42309.4600,0.0000,To record Credit Cards SBC 03/17/2026 — #52749,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,321,609,2026-03-17,2300.0000,0.0000,"Dynasty Management and Development Corp. - Vatable: Payment for CUSA and ACU for Gaisano Grand Mandaue North (March 12- April 11, 2026) — RFP No.# 5452",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,321,641,2026-03-17,1000.0000,0.0000,"Dynasty Management and Development Corp. - Nondeductile: Payment for electricity for Gaisano Grand Mandaue North (March 12- April 11, 2026) — RFP No.# 5452",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,321,245,2026-03-17,0.0000,46.0000,"Dynasty Management and Development Corp. - 2% EWT on Payment for CUSA and ACU for Gaisano Grand Mandaue North (March 12- April 11, 2026) — RFP No.# 5452",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,317,245,2026-03-17,0.0000,224.0000,BETTERFIT CLOTHING ALTERATIONS SEWING SERVICES - 2% EWT on Payment for 70 pcs scrub logo embroidery PO no. OPEX-26-0031 SI no 000002 — 0326-000276,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,318,245,2026-03-17,0.0000,544.6400,"SHEWAK'S ENGRAVABLES, INC. - 2% EWT on Payment for 100 pcs. nameplate acrylic insert type PO no. OPEX-26-0120 SI no. 1545 — 0326-000277",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,321,245,2026-03-17,0.0000,900.0000,"Dynasty Management and Development Corp. - 5% EWT on Payment for rental for Gaisano Grand Mandaue North (March 12- April 11, 2026) — RFP No.# 5452",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,322,245,2026-03-17,0.0000,1000.0000,"Island Central Mall - 5% EWT on Payment for Rental in Island Central Mactan for March 11- April 10, 2026 — RFP No.# 5453",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,321,697,2026-03-17,276.0000,0.0000,"Dynasty Management and Development Corp. - Vat: Payment for CUSA and ACU for Gaisano Grand Mandaue North (March 12- April 11, 2026) — RFP No.# 5452",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,294,721,2026-03-17,0.0000,2760.0000,Reversal of: To accrue ORDC:  Payment for IT services for the month of JAnuary 2026 - To accrue ORDC:  Payment for IT services for the month of JAnuary 2026 — #52700,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,321,793,2026-03-17,2160.0000,0.0000,"Dynasty Management and Development Corp. - Vat: Payment for rental for Gaisano Grand Mandaue North (March 12- April 11, 2026)) — RFP No.# 5452",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,322,793,2026-03-17,2400.0000,0.0000,"Island Central Mall - Vatable: Payment for Rental in Island Central Mactan for March 11- April 10, 2026 — RFP No.# 5453",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,296,809,2026-03-17,0.0000,2663.6600,Reversal of: to accrue Reimbursement Doc Bryan CC for Xero ftp february 2026 — #52702,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,294,809,2026-03-17,0.0000,23000.0000,Reversal of: To accrue ORDC:  Payment for IT services for the month of JAnuary 2026 - To accrue ORDC:  Payment for IT services for the month of JAnuary 2026 — #52700,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,295,809,2026-03-17,0.0000,71833.0600,Reversal of: to accrue Reimbursement Doc Bry CC for Microsoft ftp february 2026 — #52701,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,317,149,2026-03-17,11200.0000,0.0000,BETTERFIT CLOTHING ALTERATIONS SEWING SERVICES - Non-vat: Payment for 70 pcs scrub logo embroidery PO no. OPEX-26-0031 SI no 000002 — 0326-000276,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,323,861,2026-03-17,5000.0000,0.0000,RUDOLFO MARK BRIONES ABANILLA - Payment for Doctor's Talk PF during VFI Symposium — RFP No.# 5468,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,313,37,2026-03-17,0.0000,32497.4600,"to reclass gl accounts on deposits, as advised - to reclass gl deposit account 100-106 - Refundable Deposit - AVEGA, per CIFI balance March 2026 — #52968",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,321,889,2026-03-17,18000.0000,0.0000,"Dynasty Management and Development Corp. - Vatable: Payment for rental for Gaisano Grand Mandaue North (March 12- April 11, 2026) — RFP No.# 5452",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,322,889,2026-03-17,20000.0000,0.0000,"Island Central Mall - Vatable: Payment for Rental in Island Central Mactan for March 11- April 10, 2026 — RFP No.# 5453",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,297,921,2026-03-17,129831.7000,0.0000,"LHPI-EXCUTIVE OFFICE Fees, March 1-15, 2026 from Treasury for posting — #52710",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,313,189,2026-03-17,32497.4600,0.0000,"to reclass gl accounts on deposits, as advised - to reclass gl deposit account 100-106 - Refundable Deposit - AVEGA, per CIFI balance March 2026 — #52968",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,294,1777,2026-03-17,25760.0000,0.0000,Reversal of: To accrue ORDC:  Payment for IT services for the month of JAnuary 2026 - To accrue ORDC:  Payment for IT services for the month of JAnuary 2026 — #52700,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,299,1777,2026-03-17,131414.0000,0.0000,to record cash sales 03/16/2026 — #52734,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,314,1777,2026-03-17,1017647.0000,0.0000,"Sales Branches March 17, 2026 - Laboratory/Diagnostics — #54958",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,294,1777,2026-03-17,0.0000,25760.0000,Reversal of: To accrue ORDC:  Payment for IT services for the month of JAnuary 2026 - To accrue ORDC:  Payment for IT services for the month of JAnuary 2026 — #52700,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,299,1777,2026-03-17,0.0000,131414.0000,to record cash sales 03/16/2026 — #52734,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,314,1777,2026-03-17,0.0000,1017647.0000,"Sales Branches March 17, 2026 - Cash Sales - March, 17 — #54958",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,347,217,2026-03-18,210000.0000,0.0000,Payment: GRETHEL FURNITURE SUB-CONTRACTING SERVICES — 0326-000278,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,341,217,2026-03-18,500.0000,0.0000,"SMART COMMUNICATIONS, INC. — RFP No.# 4293",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,340,217,2026-03-18,500.0000,0.0000,"SMART COMMUNICATIONS, INC. — RFP No.# 4293",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,341,217,2026-03-18,0.0000,500.0000,"SMART COMMUNICATIONS, INC. — RFP No.# 4293",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,344,217,2026-03-18,0.0000,14597.7300,CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 5434,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,343,217,2026-03-18,0.0000,14617.5800,Emily Nicole D. Chamen — RFP No.# 5421,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,345,217,2026-03-18,0.0000,21254.3300,CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 5436,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,342,217,2026-03-18,0.0000,25300.0000,OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 5344,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,346,217,2026-03-18,0.0000,34764.0000,"GLOBE TELECOM, INC. — RFP No.# 5474",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,337,237,2026-03-18,391116.5100,0.0000,Mancom Payroll (March 1st half)- 03/18/2026 — #52867,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,338,237,2026-03-18,0.0000,391116.5100,"to record payroll of EO mancom march 1-15 - okay, accrued reverse mar 18 — #52872",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,330,77,2026-03-18,0.0000,560.0000,Cash - Security Bank CPCI - OPEX Gcash 03/18/2026 — #52859,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,329,61,2026-03-18,0.0000,12540.0000,To record receipts sales BPI AR-Cebu CASH deposit 03/17/2026 fr Teradyne — #52858,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,331,61,2026-03-18,0.0000,13949.1200,"To record receipts of SBC AR-Terms for March 18, 2026, MEDICARD PHILIPPINES INC. — #52860",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,328,61,2026-03-18,0.0000,31889.2000,To record receipts sales BPI AR-Cebu check deposit 03/17/2026 FR ABEJO WATERS CORP — #52857,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,333,61,2026-03-18,0.0000,32029.5400,To record Credit Cards SBC 03/18/2026 — #52862,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,332,61,2026-03-18,0.0000,40934.6000,"To record receipts of SBC AR-Terms for March 18, 2026, COOPERATIVE HEALTH MANAGEMENT FEDER — #52861",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,335,61,2026-03-18,0.0000,67753.4500,To record Credit Cards mbtc March 18 — #52865,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,336,605,2026-03-18,1847.8300,0.0000,To record Bank Charges mbtc March 18 — #52866,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,325,1,2026-03-18,300000.0000,0.0000,Fund transfer FT from MBTC-OpEx to BPI-OpEx 03/18/2026 — #52757,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,327,1,2026-03-18,10000.0000,0.0000,to record as Miscellaneous (sold scrap materials) — #52856,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,328,1,2026-03-18,31889.2000,0.0000,To record receipts sales BPI AR-Cebu check deposit 03/17/2026 FR ABEJO WATERS CORP — #52857,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,329,1,2026-03-18,12540.0000,0.0000,To record receipts sales BPI AR-Cebu CASH deposit 03/17/2026 fr Teradyne — #52858,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,334,1,2026-03-18,950000.0000,0.0000,Fund transfer FT from SBC-OpEx TO BPI-OPEX 03/18/2026 — #52864,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,337,1,2026-03-18,0.0000,391116.5100,Mancom Payroll (March 1st half)- 03/18/2026 — #52867,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,335,41,2026-03-18,67753.4500,0.0000,To record Credit Cards mbtc March 18 — #52865,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,336,41,2026-03-18,0.0000,1847.8300,To record Bank Charges mbtc March 18 — #52866,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,325,41,2026-03-18,0.0000,300000.0000,Fund transfer FT from MBTC-OpEx to BPI-OpEx 03/18/2026 — #52757,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,330,5,2026-03-18,560.0000,0.0000,Cash - Security Bank CPCI - OPEX Gcash 03/18/2026 — #52859,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,331,5,2026-03-18,13949.1200,0.0000,"To record receipts of SBC AR-Terms for March 18, 2026, MEDICARD PHILIPPINES INC. — #52860",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,332,5,2026-03-18,40934.6000,0.0000,"To record receipts of SBC AR-Terms for March 18, 2026, COOPERATIVE HEALTH MANAGEMENT FEDER — #52861",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,333,5,2026-03-18,32029.5400,0.0000,To record Credit Cards SBC 03/18/2026 — #52862,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,334,5,2026-03-18,0.0000,950000.0000,Fund transfer FT from SBC-OpEx TO BPI-OPEX 03/18/2026 — #52864,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,338,249,2026-03-18,0.0000,105223.1500,to record payroll of EO mancom march 1-15 — #52872,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,344,245,2026-03-18,0.0000,265.4100,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - 2% EWT on Payment for Janitorial services (Pamisa, Glenn Mark) ftp November 1-15, 2026 SI no. 2305 — RFP No.# 5434",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,345,245,2026-03-18,0.0000,386.4400,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - 2% EWT on Payment for Janitorial services (Pamisa, Glenn Mark, Atilo Cenina) ftp November February 16-28,2026 SI no. 3605 — RFP No.# 5436",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,342,245,2026-03-18,0.0000,460.0000,OAKRIDGE REALTY DEVELOPMENT CORPORATION - 2% EWT on Payment for professional IT services for the month of February 2026 SI no. 002958-28572 — RFP No.# 5344,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,338,269,2026-03-18,0.0000,500.0000,to record payroll of EO mancom march 1-15 — #52872,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,342,721,2026-03-18,2760.0000,0.0000,OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat: Payment for professional IT services for the month of February 2026 SI no. 002958-28572 — RFP No.# 5344,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,344,725,2026-03-18,1592.4800,0.0000,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - Vat: Payment for Janitorial services (Pamisa, Glenn Mark) ftp November 1-15, 2026 SI no. 2305 — RFP No.# 5434",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,345,725,2026-03-18,1259.2000,0.0000,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - Vat: Payment for Janitorial services (Atilo Cerina) ftp November February 16-28,2026 SI no. 3605 — RFP No.# 5436",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,346,737,2026-03-18,2419.2300,0.0000,"GLOBE TELECOM, INC. - VAT: Globe bill FTP 01/24-02/23/2026; Shared — RFP No.# 5474",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,342,809,2026-03-18,23000.0000,0.0000,OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vatable: Payment for professional IT services for the month of February 2026 SI no. 002958-28572 — RFP No.# 5344,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,344,813,2026-03-18,13270.6600,0.0000,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - Vatable: Payment for Janitorial services (Pamisa, Glenn Mark) ftp November 1-15, 2026 SI no. 2305 — RFP No.# 5434",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,345,813,2026-03-18,10493.3300,0.0000,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - Vatable: Payment for Janitorial services (Atilo Cerina) ftp November February 16-28,2026 SI no. 3605 — RFP No.# 5436",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,346,841,2026-03-18,20159.7700,0.0000,"GLOBE TELECOM, INC. - VATABLE: Globe bill FTP 01/24-02/23/2026; Shared — RFP No.# 5474",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,340,841,2026-03-18,0.0000,500.0000,"SMART COMMUNICATIONS, INC. - Less (Adjustment): Smart Communications Inc. FTP 10/01-10/31/2025; Mactan — RFP No.# 4293",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,327,1597,2026-03-18,0.0000,10000.0000,to record as Miscellaneous (sold scrap materials) — #52856,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,338,265,2026-03-18,0.0000,6250.0000,to record payroll of EO mancom march 1-15 — #52872,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,338,921,2026-03-18,507464.6600,0.0000,to record payroll of EO mancom march 1-15 — #52872,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,343,921,2026-03-18,14617.5800,0.0000,Emily Nicole D. Chamen - Payment for last and final pay for resigned employee (Adjustment) — RFP No.# 5421,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,338,261,2026-03-18,0.0000,4375.0000,to record payroll of EO mancom march 1-15 — #52872,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,326,1777,2026-03-18,121376.0000,0.0000,to record cash sales 03/17/2026 — #52855,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,341,1777,2026-03-18,500.0000,0.0000,"SMART COMMUNICATIONS, INC. — RFP No.# 4293",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,339,1777,2026-03-18,891365.0000,0.0000,"Sales Branches March 18, 2026 - Laboratory/Diagnostics — #53044",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,341,1777,2026-03-18,0.0000,500.0000,"SMART COMMUNICATIONS, INC. — RFP No.# 4293",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,326,1777,2026-03-18,0.0000,121376.0000,to record cash sales 03/17/2026 — #52855,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,339,1777,2026-03-18,0.0000,891365.0000,"Sales Branches March 18, 2026 - Cash Sales - March, 18 — #53044",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,380,217,2026-03-19,29955.3600,0.0000,"Payment: SHEWAK'S ENGRAVABLES, INC. — 0326-000277",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,379,217,2026-03-19,10976.0000,0.0000,Payment: BETTERFIT CLOTHING ALTERATIONS SEWING SERVICES — 0326-000276,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,377,217,2026-03-19,54267.1100,0.0000,Payment: ENA COMMERCIAL AND PRINTING SERVICES — 0126-000043,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,378,217,2026-03-19,48265.0000,0.0000,Payment: ENA COMMERCIAL AND PRINTING SERVICES — 0126-000070,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,389,217,2026-03-19,34764.0000,0.0000,"Payment: GLOBE TELECOM, INC. — RFP No.# 5474",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,385,217,2026-03-19,4473.2100,0.0000,Payment: EUGENE TIO — RFP No.# 5438,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,386,217,2026-03-19,22790.0000,0.0000,Payment: Dynasty Management and Development Corp. — RFP No.# 5452,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,387,217,2026-03-19,21400.0000,0.0000,Payment: Island Central Mall — RFP No.# 5453,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,388,217,2026-03-19,5000.0000,0.0000,Payment: RUDOLFO MARK BRIONES ABANILLA — RFP No.# 5468,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,376,217,2026-03-19,0.0000,318.1500,OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 5483,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,375,217,2026-03-19,0.0000,25300.0000,OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 5481,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,374,217,2026-03-19,0.0000,26280.9300,SOCIAL SECURITY SYSTEM — RFP No.# 5385,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,373,217,2026-03-19,0.0000,628910.0000,SOCIAL SECURITY SYSTEM — RFP No.# 5384,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,348,237,2026-03-19,228630.2500,0.0000,Reversal of: to accrue medicines - konsulta La Nueva 2026 February — #52966,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,355,237,2026-03-19,898492.9800,0.0000,"to accrue Payroll March 1-15, 2026. Treasury posting, yet for entries — #53041",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,370,237,2026-03-19,42374.4400,0.0000,"Reversal of: To accrue: CENTURION SECURITY AGENCY, INC ftp 2026 FEBRUARY — #53122",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,349,237,2026-03-19,0.0000,1339.2000,to accrue meeting with metrobank x CPCI Finance March 2026 INV073868 — #52971,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,356,237,2026-03-19,0.0000,898492.9800,"Reversal of: to accrue Payroll March 1-15, 2026. Treasury posting, yet for entries — #53058",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,354,85,2026-03-19,0.0000,833.3400,"CPCI Payroll for March 1-15, 2026 - Shared Sales Services -  tthe Loan, Tarona, Raqueline — #52991",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,351,85,2026-03-19,0.0000,1018.1300,"CPCI Payroll for March 1-15, 2026 - Shared finance — #52978",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,352,85,2026-03-19,0.0000,1460.0000,"CPCI Payroll for March 1-15, 2026 - Shared IT — #52979",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,353,85,2026-03-19,0.0000,2013.3400,"CPCI Payroll for March 1-15, 2026 - Shared - LHRA — #52982",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,351,85,2026-03-19,0.0000,5000.0000,"CPCI Payroll for March 1-15, 2026 - Shared finance - tthe Loan, Mitch Delos Reyes — #52978",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,354,85,2026-03-19,0.0000,7201.8500,"CPCI Payroll for March 1-15, 2026 - Shared Sales Services — #52991",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,371,61,2026-03-19,0.0000,4670.0000,To record receipts sales BPI AR-Cebu check deposit 03/19/2026 fr Teradyne — #53199,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,362,61,2026-03-19,0.0000,6076.9800,To record receipts sales BPI AR-Cebu check deposit 03/18/2026 fr LPages Holdings Inc. — #53103,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,359,61,2026-03-19,0.0000,6538.0000,To record receipts sales BPI AR-Cebu cash deposit 03/19/2026  fr ORDC — #53100,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,357,61,2026-03-19,0.0000,9398.2000,To record receipts sales BPI AR-Cebu Unidentified check deposit 03/18/2026 — #53097,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,365,61,2026-03-19,0.0000,19918.5000,To record receipts sales BPI AR-Cebu check deposit 03/18/2026  fr Cenapro Chemical — #53107,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,361,61,2026-03-19,0.0000,26739.3000,To record receipts sales BPI AR-Cebu check deposit 03/18/2026 fr Asalus Corp — #53102,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,367,61,2026-03-19,0.0000,41760.0000,To record Credit Cards mbtc March 19 — #53109,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,363,61,2026-03-19,0.0000,85377.6000,To record receipts sales BPI AR-Cebu check deposit 03/18/2026  fr Avega Managed care — #53105,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,366,61,2026-03-19,0.0000,134171.2000,To record receipts sales BPI AR-Cebu check deposit 03/18/2026   fr Fast Autoworld — #53108,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,364,61,2026-03-19,0.0000,151615.8000,To record receipts sales BPI AR-Cebu check deposit 03/18/2026 fr Toyota Cebu — #53106,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,360,61,2026-03-19,0.0000,562952.6800,To record receipts sales BPI AR-Cebu check deposit 03/18/2026 fr Life & Health — #53101,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,368,605,2026-03-19,1461.6000,0.0000,To record Bank Charges mbtc March 19 — #53110,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,369,605,2026-03-19,1000.0000,0.0000,Bank fee - checkbook reorder — #53111,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,369,53,2026-03-19,0.0000,1000.0000,Bank fee - checkbook reorder — #53111,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,382,53,2026-03-19,0.0000,10976.0000,Payment: BETTERFIT CLOTHING ALTERATIONS SEWING SERVICES — 1292763,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,381,53,2026-03-19,0.0000,29955.3600,"Payment: SHEWAK'S ENGRAVABLES, INC. — 1292762",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,383,53,2026-03-19,0.0000,48265.0000,Payment: ENA COMMERCIAL AND PRINTING SERVICES — BDO-1292765,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,383,53,2026-03-19,0.0000,54267.1100,Payment: ENA COMMERCIAL AND PRINTING SERVICES — BDO-1292765,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,356,1,2026-03-19,69119.1200,0.0000,"Reversal of: to accrue Payroll March 1-15, 2026. Treasury posting, yet for entries — #53058",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,356,1,2026-03-19,211806.0600,0.0000,"Reversal of: to accrue Payroll March 1-15, 2026. Treasury posting, yet for entries — #53058",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,356,1,2026-03-19,311256.2400,0.0000,"Reversal of: to accrue Payroll March 1-15, 2026. Treasury posting, yet for entries — #53058",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,356,1,2026-03-19,306311.5600,0.0000,"Reversal of: to accrue Payroll March 1-15, 2026. Treasury posting, yet for entries — #53058",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,357,1,2026-03-19,9398.2000,0.0000,To record receipts sales BPI AR-Cebu Unidentified check deposit 03/18/2026 — #53097,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,359,1,2026-03-19,6538.0000,0.0000,To record receipts sales BPI AR-Cebu cash deposit 03/19/2026  fr ORDC — #53100,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,360,1,2026-03-19,562952.6800,0.0000,To record receipts sales BPI AR-Cebu check deposit 03/18/2026 fr Life & Health — #53101,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,361,1,2026-03-19,26739.3000,0.0000,To record receipts sales BPI AR-Cebu check deposit 03/18/2026 fr Asalus Corp — #53102,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,362,1,2026-03-19,6076.9800,0.0000,To record receipts sales BPI AR-Cebu check deposit 03/18/2026 fr LPages Holdings Inc. — #53103,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,363,1,2026-03-19,85377.6000,0.0000,To record receipts sales BPI AR-Cebu check deposit 03/18/2026  fr Avega Managed care — #53105,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,364,1,2026-03-19,151615.8000,0.0000,To record receipts sales BPI AR-Cebu check deposit 03/18/2026 fr Toyota Cebu — #53106,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,365,1,2026-03-19,19918.5000,0.0000,To record receipts sales BPI AR-Cebu check deposit 03/18/2026  fr Cenapro Chemical — #53107,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,366,1,2026-03-19,134171.2000,0.0000,To record receipts sales BPI AR-Cebu check deposit 03/18/2026   fr Fast Autoworld — #53108,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,371,1,2026-03-19,4670.0000,0.0000,To record receipts sales BPI AR-Cebu check deposit 03/19/2026 fr Teradyne — #53199,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,384,1,2026-03-19,0.0000,5000.0000,Payment: RUDOLFO MARK BRIONES ABANILLA — Online-031926,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,384,1,2026-03-19,0.0000,21400.0000,Payment: Island Central Mall — Online-031926,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,384,1,2026-03-19,0.0000,22579.0000,"Payment: GLOBE TELECOM, INC. — Online-031926",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,384,1,2026-03-19,0.0000,22790.0000,Payment: Dynasty Management and Development Corp. — Online-031926,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,352,1,2026-03-19,0.0000,48694.9700,"CPCI Payroll for March 1-15, 2026 - Shared IT — #52979",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,355,1,2026-03-19,0.0000,69119.1200,"to accrue Payroll March 1-15, 2026. Treasury posting, yet for entries — #53041",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,351,1,2026-03-19,0.0000,113152.6300,"CPCI Payroll for March 1-15, 2026 - Shared finance — #52978",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,353,1,2026-03-19,0.0000,150784.3100,"CPCI Payroll for March 1-15, 2026 - Shared - LHRA — #52982",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,355,1,2026-03-19,0.0000,211806.0600,"to accrue Payroll March 1-15, 2026. Treasury posting, yet for entries — #53041",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,354,1,2026-03-19,0.0000,220417.0900,"CPCI Payroll for March 1-15, 2026 - Shared Sales Services — #52991",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,355,1,2026-03-19,0.0000,306311.5600,"to accrue Payroll March 1-15, 2026. Treasury posting, yet for entries — #53041",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,355,1,2026-03-19,0.0000,311256.2400,"to accrue Payroll March 1-15, 2026. Treasury posting, yet for entries — #53041",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,367,41,2026-03-19,41760.0000,0.0000,To record Credit Cards mbtc March 19 — #53109,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,368,41,2026-03-19,0.0000,1461.6000,To record Bank Charges mbtc March 19 — #53110,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,352,249,2026-03-19,0.0000,2231.1100,"CPCI Payroll for March 1-15, 2026 - Shared IT — #52979",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,351,249,2026-03-19,0.0000,9405.1900,"CPCI Payroll for March 1-15, 2026 - Shared finance — #52978",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,353,249,2026-03-19,0.0000,11616.2400,"CPCI Payroll for March 1-15, 2026 - Shared - LHRA — #52982",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,354,249,2026-03-19,0.0000,18686.5100,"CPCI Payroll for March 1-15, 2026 - Shared Sales Services — #52991",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,351,665,2026-03-19,2200.0000,0.0000,"CPCI Payroll for March 1-15, 2026 - Shared finance — #52978",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,353,665,2026-03-19,7500.0000,0.0000,"CPCI Payroll for March 1-15, 2026 - Shared - LHRA — #52982",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,354,665,2026-03-19,7500.0000,0.0000,"CPCI Payroll for March 1-15, 2026 - Shared Sales Services — #52991",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,354,665,2026-03-19,2500.0000,0.0000,"CPCI Payroll for March 1-15, 2026 - Shared Sales Services — #52991",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,376,245,2026-03-19,0.0000,5.2500,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - 2% EWT on Payment for beverages during meeting on February 26, 2026 SI no. 003031-32216 — RFP No.# 5483",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,375,245,2026-03-19,0.0000,460.0000,OAKRIDGE REALTY DEVELOPMENT CORPORATION - 2% EWT on Payment for professional IT services for the month of March 2026 SI no. 003612-28664 — RFP No.# 5481,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,352,269,2026-03-19,0.0000,400.0000,"CPCI Payroll for March 1-15, 2026 - Shared IT — #52979",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,351,269,2026-03-19,0.0000,800.0000,"CPCI Payroll for March 1-15, 2026 - Shared finance — #52978",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,353,269,2026-03-19,0.0000,900.0000,"CPCI Payroll for March 1-15, 2026 - Shared - LHRA — #52982",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,354,269,2026-03-19,0.0000,1450.0000,"CPCI Payroll for March 1-15, 2026 - Shared Sales Services — #52991",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,375,721,2026-03-19,2760.0000,0.0000,OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat: Payment for professional IT services for the month of March 2026 SI no. 003612-28664 — RFP No.# 5481,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,349,761,2026-03-19,132.8600,0.0000,to accrue meeting with metrobank x CPCI Finance March 2026 INV073868 — #52971,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,376,761,2026-03-19,31.5000,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat: Payment for beverages during meeting on February 26, 2026 SI no. 003031-32216 — RFP No.# 5483",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,375,809,2026-03-19,23000.0000,0.0000,OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vatable: Payment for professional IT services for the month of March 2026 SI no. 003612-28664 — RFP No.# 5481,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,351,865,2026-03-19,1342.0300,0.0000,"CPCI Payroll for March 1-15, 2026 - Shared finance — #52978",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,352,865,2026-03-19,10662.1400,0.0000,"CPCI Payroll for March 1-15, 2026 - Shared IT — #52979",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,353,865,2026-03-19,7076.3900,0.0000,"CPCI Payroll for March 1-15, 2026 - Shared - LHRA — #52982",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,354,257,2026-03-19,0.0000,273.6100,"CPCI Payroll for March 1-15, 2026 - Shared Sales Services — #52991",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,352,257,2026-03-19,0.0000,1206.5400,"CPCI Payroll for March 1-15, 2026 - Shared IT — #52979",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,351,257,2026-03-19,0.0000,1269.7600,"CPCI Payroll for March 1-15, 2026 - Shared finance — #52978",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,352,265,2026-03-19,0.0000,1193.7500,"CPCI Payroll for March 1-15, 2026 - Shared IT — #52979",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,351,265,2026-03-19,0.0000,3345.0000,"CPCI Payroll for March 1-15, 2026 - Shared finance — #52978",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,353,265,2026-03-19,0.0000,3862.5000,"CPCI Payroll for March 1-15, 2026 - Shared - LHRA — #52982",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,354,265,2026-03-19,0.0000,6462.5000,"CPCI Payroll for March 1-15, 2026 - Shared Sales Services — #52991",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,349,913,2026-03-19,1107.1400,0.0000,to accrue meeting with metrobank x CPCI Finance March 2026 INV073868 — #52971,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,349,913,2026-03-19,99.2000,0.0000,to accrue meeting with metrobank x CPCI Finance March 2026 INV073868 — #52971,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,376,913,2026-03-19,262.5000,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vatable: Payment for beverages during meeting on February 26, 2026 SI no. 003031-32216 — RFP No.# 5483",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,376,913,2026-03-19,29.4000,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat exempt: Payment for beverages during meeting on February 26, 2026 SI no. 003031-32216 — RFP No.# 5483",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,351,921,2026-03-19,137551.1300,0.0000,"CPCI Payroll for March 1-15, 2026 - Shared finance — #52978",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,352,921,2026-03-19,47659.7300,0.0000,"CPCI Payroll for March 1-15, 2026 - Shared IT — #52979",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,353,921,2026-03-19,161000.0000,0.0000,"CPCI Payroll for March 1-15, 2026 - Shared - LHRA — #52982",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,354,921,2026-03-19,255836.9900,0.0000,"CPCI Payroll for March 1-15, 2026 - Shared Sales Services — #52991",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,373,933,2026-03-19,117350.0000,0.0000,SOCIAL SECURITY SYSTEM - Payment for SSS Contribution for the month of February 2026 (Employer Share) — RFP No.# 5384,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,374,253,2026-03-19,26280.9300,0.0000,SOCIAL SECURITY SYSTEM - Payment for SSS loans for the month of February 2026 — RFP No.# 5385,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,354,253,2026-03-19,0.0000,624.5900,"CPCI Payroll for March 1-15, 2026 - Shared Sales Services — #52991",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,352,253,2026-03-19,0.0000,685.5000,"CPCI Payroll for March 1-15, 2026 - Shared IT — #52979",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,351,253,2026-03-19,0.0000,1827.4500,"CPCI Payroll for March 1-15, 2026 - Shared finance — #52978",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,373,261,2026-03-19,212610.0000,0.0000,SOCIAL SECURITY SYSTEM - Payment for SSS Contribution for the month of February 2026 (Employee Share) — RFP No.# 5384,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,352,261,2026-03-19,0.0000,2450.0000,"CPCI Payroll for March 1-15, 2026 - Shared IT — #52979",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,351,261,2026-03-19,0.0000,5275.0000,"CPCI Payroll for March 1-15, 2026 - Shared finance — #52978",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,353,261,2026-03-19,0.0000,6400.0000,"CPCI Payroll for March 1-15, 2026 - Shared - LHRA — #52982",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,354,261,2026-03-19,0.0000,9887.5000,"CPCI Payroll for March 1-15, 2026 - Shared Sales Services — #52991",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,350,1777,2026-03-19,4362424.0000,0.0000,"to reclass GL accounts on security deposits, clinics lease, as advised - (200K*1.12*1.15)*2MONTHS consolacion — #52972",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,351,1777,2026-03-19,141093.1600,0.0000,"CPCI Payroll for March 1-15, 2026 - Shared finance — #52978",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,352,1777,2026-03-19,58321.8700,0.0000,"CPCI Payroll for March 1-15, 2026 - Shared IT — #52979",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,354,1777,2026-03-19,265836.9900,0.0000,"CPCI Payroll for March 1-15, 2026 - Shared Sales Services — #52991",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,358,1777,2026-03-19,144558.0000,0.0000,to record cash sales 03/18/2026 — #53098,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,372,1777,2026-03-19,848597.0000,0.0000,"Sales Branches March 19, 2026 - Laboratory/Diagnostics — #55071",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,370,1777,2026-03-19,0.0000,42374.4400,"Reversal of: To accrue: CENTURION SECURITY AGENCY, INC ftp 2026 FEBRUARY — #53122",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,352,1777,2026-03-19,0.0000,58321.8700,"CPCI Payroll for March 1-15, 2026 - Shared IT — #52979",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,351,1777,2026-03-19,0.0000,141093.1600,"CPCI Payroll for March 1-15, 2026 - Shared finance — #52978",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,358,1777,2026-03-19,0.0000,144558.0000,to record cash sales 03/18/2026 — #53098,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,348,1777,2026-03-19,0.0000,228630.2500,Reversal of: to accrue medicines - konsulta La Nueva 2026 February — #52966,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,354,1777,2026-03-19,0.0000,265836.9900,"CPCI Payroll for March 1-15, 2026 - Shared Sales Services — #52991",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,372,1777,2026-03-19,0.0000,848597.0000,"Sales Branches March 19, 2026 - Cash Sales - March, 19 — #55071",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,350,1777,2026-03-19,0.0000,4362424.0000,"to reclass GL accounts on security deposits, clinics lease, as advised - (200K*1.12*1.15)*2MONTHS consolacion — #52972",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,390,1777,2026-03-20,636766.0000,0.0000,"Sales Branches March 20, 2026 - Laboratory/Diagnostics — #54416",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,390,1777,2026-03-20,0.0000,636766.0000,"Sales Branches March 20, 2026 - Cash Sales - March, 20 — #54416",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,391,237,2026-03-21,25760.0000,0.0000,Reversal of: To accrue ORDC:  Payment for IT services for the month of 2026 February - To accrue ORDC:  Payment for IT services for the month of 2026 February — #53062,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,391,721,2026-03-21,0.0000,2760.0000,Reversal of: To accrue ORDC:  Payment for IT services for the month of 2026 February - To accrue ORDC:  Payment for IT services for the month of 2026 February — #53062,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,391,809,2026-03-21,0.0000,23000.0000,Reversal of: To accrue ORDC:  Payment for IT services for the month of 2026 February - To accrue ORDC:  Payment for IT services for the month of 2026 February — #53062,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,391,1777,2026-03-21,25760.0000,0.0000,Reversal of: To accrue ORDC:  Payment for IT services for the month of 2026 February - To accrue ORDC:  Payment for IT services for the month of 2026 February — #53062,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,392,1777,2026-03-21,819720.0000,0.0000,"Sales Branches March 21, 2026 - Laboratory/Diagnostics — #53265",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,391,1777,2026-03-21,0.0000,25760.0000,Reversal of: To accrue ORDC:  Payment for IT services for the month of 2026 February - To accrue ORDC:  Payment for IT services for the month of 2026 February — #53062,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,392,1777,2026-03-21,0.0000,819720.0000,"Sales Branches March 21, 2026 - Cash Sales - March, 21 — #53265",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,416,217,2026-03-23,0.0000,6531.7500,ELLEN ROSE L. SIMBULAAN — RFP No.# 5511,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,393,237,2026-03-23,10628.4800,0.0000,Reversal of: To accrue CEBU SPIC & SPAN - Janitorial Services for the period November Shared - To accrue CEBU SPIC & SPAN - Janitorial Services for the period November Shared — #53086,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,394,237,2026-03-23,10628.4800,0.0000,Reversal of: To accrue CEBU SPIC & SPAN - Janitorial Services for the period Shared FEBRUARY — #53091,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,395,237,2026-03-23,33374.4600,0.0000,"Reversal of: To accrue: CENTURION SECURITY AGENCY, INC ftp January 2026 - To accrue: CENTURION SECURITY AGENCY, INC ftp January 2026 — #53123",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,396,237,2026-03-23,183084.0000,0.0000,Reversal of: To accrue TPP cost for the month of 2026 February — #53131,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,401,77,2026-03-23,0.0000,8790.0000,Cash - Security Bank CPCI - OPEX Gcash 03/23/2026 — #53208,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,413,61,2026-03-23,28586.6000,0.0000,Reversal of: To record receipts of SBC OPEX GENERALI LIFE ASSURANCE PHILIPPINES — #53221,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,414,61,2026-03-23,2361.8000,0.0000,"Reversal of: To record receipts of SBC OPEX AR-Terms PACIFIC CROSS INSURANCE, INC — #53223",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,403,61,2026-03-23,0.0000,833.0000,To record receipts of SBC OPEX AR-Terms MAXICARE HEALTHCARE CORP — #53210,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,405,61,2026-03-23,0.0000,2361.8000,"To record receipts of SBC OPEX AR-Terms PACIFIC CROSS INSURANCE, INC — #53212",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,408,61,2026-03-23,0.0000,2361.8000,"To record receipts of SBC OPEX PACIFIC CROSS INSURANCE, INC — #53216",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,404,61,2026-03-23,0.0000,4185.0000,To record receipts of SBC OPEX AR-Terms Cozo Filter — #53211,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,397,61,2026-03-23,0.0000,4600.0000,To record receipts sales BPI AR-Cebu Unidentified deposit 03/23/2026 — #53204,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,402,61,2026-03-23,0.0000,8265.0000,To record receipts of QR OPEX Debit Card 03/23/2026 — #53209,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,406,61,2026-03-23,0.0000,28586.6000,To record receipts of SBC OPEX AR-Terms GENERALI LIFE ASSURANCE PHILIPPINES — #53213,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,409,61,2026-03-23,0.0000,28586.6000,To record receipts of SBC OPEX GENERALI LIFE ASSURANCE PHILIPPINES — #53217,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,407,61,2026-03-23,0.0000,53010.0000,"To record receipts of SBC OPEX AR-Terms LACSON INSURANCE BROKERS, IN — #53214",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,412,61,2026-03-23,0.0000,137340.0000,To record Credit Cards mbtc March 23 — #53220,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,410,61,2026-03-23,0.0000,158036.0700,To record receipts of SBC OPEX AR-Terms credit card — #53218,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,411,605,2026-03-23,4806.9100,0.0000,To record Bank Charges mbtc March 23 — #53219,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,416,605,2026-03-23,90.0000,0.0000,ELLEN ROSE L. SIMBULAAN - Bank Charge (Replenishment) — RFP No.# 5511,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,397,1,2026-03-23,4600.0000,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit 03/23/2026 — #53204,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,412,41,2026-03-23,137340.0000,0.0000,To record Credit Cards mbtc March 23 — #53220,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,411,41,2026-03-23,0.0000,4806.9100,To record Bank Charges mbtc March 23 — #53219,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,401,5,2026-03-23,8790.0000,0.0000,Cash - Security Bank CPCI - OPEX Gcash 03/23/2026 — #53208,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,402,5,2026-03-23,8265.0000,0.0000,To record receipts of QR OPEX Debit Card 03/23/2026 — #53209,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,403,5,2026-03-23,833.0000,0.0000,To record receipts of SBC OPEX AR-Terms MAXICARE HEALTHCARE CORP — #53210,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,404,5,2026-03-23,4185.0000,0.0000,To record receipts of SBC OPEX AR-Terms Cozo Filter — #53211,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,405,5,2026-03-23,2361.8000,0.0000,"To record receipts of SBC OPEX AR-Terms PACIFIC CROSS INSURANCE, INC — #53212",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,406,5,2026-03-23,28586.6000,0.0000,To record receipts of SBC OPEX AR-Terms GENERALI LIFE ASSURANCE PHILIPPINES — #53213,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,407,5,2026-03-23,53010.0000,0.0000,"To record receipts of SBC OPEX AR-Terms LACSON INSURANCE BROKERS, IN — #53214",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,408,5,2026-03-23,2361.8000,0.0000,"To record receipts of SBC OPEX PACIFIC CROSS INSURANCE, INC — #53216",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,409,5,2026-03-23,28586.6000,0.0000,To record receipts of SBC OPEX GENERALI LIFE ASSURANCE PHILIPPINES — #53217,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,410,5,2026-03-23,158036.0700,0.0000,To record receipts of SBC OPEX AR-Terms credit card — #53218,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,414,5,2026-03-23,0.0000,2361.8000,"Reversal of: To record receipts of SBC OPEX AR-Terms PACIFIC CROSS INSURANCE, INC — #53223",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,413,5,2026-03-23,0.0000,28586.6000,Reversal of: To record receipts of SBC OPEX GENERALI LIFE ASSURANCE PHILIPPINES — #53221,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,393,725,2026-03-23,0.0000,1138.7700,Reversal of: To accrue CEBU SPIC & SPAN - Janitorial Services for the period November Shared - To accrue CEBU SPIC & SPAN - Janitorial Services for the period November Shared — #53086,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,394,725,2026-03-23,0.0000,1138.7700,Reversal of: To accrue CEBU SPIC & SPAN - Janitorial Services for the period Shared FEBRUARY — #53091,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,416,741,2026-03-23,120.5100,0.0000,ELLEN ROSE L. SIMBULAAN - Vat: Extension wire (Replenishment) — RFP No.# 5511,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,416,777,2026-03-23,23.0400,0.0000,ELLEN ROSE L. SIMBULAAN - Vat: Parking fee (Replenishment) — RFP No.# 5511,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,416,777,2026-03-23,16.0700,0.0000,ELLEN ROSE L. SIMBULAAN - Vat: Gasoline (Replenishment) — RFP No.# 5511,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,416,777,2026-03-23,96.4300,0.0000,ELLEN ROSE L. SIMBULAAN - Vat: Gasoline (Replenishment) — RFP No.# 5511,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,393,813,2026-03-23,0.0000,9489.7100,Reversal of: To accrue CEBU SPIC & SPAN - Janitorial Services for the period November Shared - To accrue CEBU SPIC & SPAN - Janitorial Services for the period November Shared — #53086,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,394,813,2026-03-23,0.0000,9489.7100,Reversal of: To accrue CEBU SPIC & SPAN - Janitorial Services for the period Shared FEBRUARY — #53091,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,416,849,2026-03-23,1004.2400,0.0000,ELLEN ROSE L. SIMBULAAN - Vatable: Extension wire (Replenishment) — RFP No.# 5511,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,416,849,2026-03-23,684.0000,0.0000,ELLEN ROSE L. SIMBULAAN - Nondeductible: IT expenses (Replenishment) — RFP No.# 5511,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,398,1777,2026-03-23,108023.0000,0.0000,to record cash sales 03/19/2026 — #53205,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,399,1777,2026-03-23,106153.5000,0.0000,to record cash sales 03/20/2026 — #53206,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,400,1777,2026-03-23,79386.0000,0.0000,to record cash sales 03/20/2026 — #53207,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,415,1777,2026-03-23,685580.0000,0.0000,"Sales Branches March 23, 2026 - Laboratory/Diagnostics — #53738",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,395,1777,2026-03-23,0.0000,33374.4600,"Reversal of: To accrue: CENTURION SECURITY AGENCY, INC ftp January 2026 - To accrue: CENTURION SECURITY AGENCY, INC ftp January 2026 — #53123",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,400,1777,2026-03-23,0.0000,79386.0000,to record cash sales 03/20/2026 — #53207,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,399,1777,2026-03-23,0.0000,106153.5000,to record cash sales 03/20/2026 — #53206,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,398,1777,2026-03-23,0.0000,108023.0000,to record cash sales 03/19/2026 — #53205,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,396,1777,2026-03-23,0.0000,183084.0000,Reversal of: To accrue TPP cost for the month of 2026 February — #53131,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,415,1777,2026-03-23,0.0000,685580.0000,"Sales Branches March 23, 2026 - Cash Sales - March, 23 — #53738",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,416,945,2026-03-23,191.9600,0.0000,ELLEN ROSE L. SIMBULAAN - Vatable: Parking fee (Replenishment) — RFP No.# 5511,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,416,945,2026-03-23,133.9300,0.0000,ELLEN ROSE L. SIMBULAAN - Vatable: Gasoline (Replenishment) — RFP No.# 5511,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,416,945,2026-03-23,189.0000,0.0000,ELLEN ROSE L. SIMBULAAN - Nondeductible: Transportation expenses (Replenishment) — RFP No.# 5511,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,416,945,2026-03-23,803.5700,0.0000,ELLEN ROSE L. SIMBULAAN - Vatable: Gasoline (Replenishment) — RFP No.# 5511,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,456,217,2026-03-24,14617.5800,0.0000,Payment: Emily Nicole D. Chamen — RFP No.# 5421,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,453,217,2026-03-24,38255.3600,0.0000,Payment: ALEDAN MKTG CORP — 0226-000245,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,451,217,2026-03-24,30937.5000,0.0000,Payment: ALEDAN MKTG CORP — 0226-000204,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,452,217,2026-03-24,343.7500,0.0000,Payment: ALEDAN MKTG CORP — 0226-000224,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,457,217,2026-03-24,6531.7500,0.0000,Payment: ELLEN ROSE L. SIMBULAAN — RFP No.# 5511,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,449,217,2026-03-24,0.0000,1268.5700,NEW KEEN'S TRADING — 0326-000306,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,443,217,2026-03-24,0.0000,4013.8400,JHO-ARIS ENTERPRISES — 0326-000299,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,450,217,2026-03-24,0.0000,4802.0000,IRISH F. BURNASAL — RFP No.# 5487,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,442,217,2026-03-24,0.0000,7433.0400,JHO-ARIS ENTERPRISES — 0326-000298,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,438,217,2026-03-24,0.0000,8140.6200,ENA COMMERCIAL AND PRINTING SERVICES — 0326-000293,1,0,2026-03-31 23:59:59,0
+\N,journal_entry,445,217,2026-03-24,0.0000,8919.6400,"BEROVAN MARKETING, INC. — 0326-000302",1,0,2026-03-31 23:59:59,0
+\N,journal_entry,446,217,2026-03-24,0.0000,9415.1800,"BEROVAN MARKETING, INC. — 0326-000303",1,0,2026-03-31 23:59:59,0

@@ -1,0 +1,501 @@
+branch_id,source,source_id,account_type_id,date,debit,credit,remark,is_migrated,added_by,added_on,is_deleted
+\N,journal_entry,17406,1005,2026-09-30,184.9100,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,625,2026-09-30,2133.9300,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,625,2026-09-30,1242.5200,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,625,2026-09-30,635.3500,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,625,2026-09-30,98.7900,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,625,2026-09-30,1618.9100,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,625,2026-09-30,1743.6000,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,625,2026-09-30,79.6700,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,625,2026-09-30,7755.2000,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,629,2026-09-30,0.0900,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,629,2026-09-30,158.1400,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,629,2026-09-30,4043.0000,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17443,1625,2026-09-30,13581.0000,0.0000,"Sales Branches September 30, 2026 - Sales Discounts - September, 30 — #81641",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17443,1625,2026-09-30,4362.0000,0.0000,"Sales Branches September 30, 2026 - Sales Discounts - September, 30 — #81641",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17443,1625,2026-09-30,2595.0000,0.0000,"Sales Branches September 30, 2026 - Sales Discounts - September, 30 — #81641",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17443,1625,2026-09-30,742.0000,0.0000,"Sales Branches September 30, 2026 - Sales Discounts - September, 30 — #81641",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17437,641,2026-09-30,0.0000,125663.0800,Reversal of: To accrue ORDC: OAKRIDGE clinic signage (Electricity) 2026 august — #81580,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17550,641,2026-09-30,124918.7000,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vatable: Payment for signage utilities (Electricity and Admin Fee) ftp July 26- August 26, 2026 | SI no. 007007 — RFP No.# 7271",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17549,641,2026-09-30,10840.5000,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vatable: Payment for clinic utilities (Electricity and Admin Fee) ftp July 26- August 26, 2026 | SI no. 007014 — RFP No.# 7270",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17438,641,2026-09-30,0.0000,12141.3600,"Reversal of: To accrue ORDC: OAKRIDGE clinic utilities (Electricity) 2026 JULY add: Additional, meter1, 2, ACU 3f, mwtc - ADDITIONAL — #81586",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17439,641,2026-09-30,0.0000,60302.0900,Reversal of: To accrue ORDC: OAKRIDGE clinic extension utilities ELectricity and water for 2026 august — #81587,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17548,641,2026-09-30,46975.5000,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vatable: Payment for clinic extension utilities (Electricity) ftp July 26- August 26, 2026 | SI no. 007009 — RFP No.# 7269",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17440,641,2026-09-30,0.0000,259825.1000,Reversal of: To accrue ORDC: OAKRIDGE aclinic utilities ELectricity and water for 2026 august — #81589,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17547,641,2026-09-30,213196.5000,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vatable: Payment for clinic utilities (Electricity) ftp July 26- August 26, 2026 | SI no. 007008 — RFP No.# 7268",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17551,641,2026-09-30,69397.2700,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vatable: Payment for clinic extension utilities (Electricity and Admin Fee) ftp July 26- August 26, 2026 | SI no. 007010 — RFP No.# 7272",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17441,641,2026-09-30,0.0000,74683.2500,Reversal of: To accrue ORDC: OAKRIDGE clinic utilities ext.2 (Electricity) 2026 august — #81592,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17546,641,2026-09-30,3974.8500,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vatable: Payment for 3F Meter 1 (Electricity) ftp August 26-September 26, 2026 | SI no. 007662 — RFP No.# 7267",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17546,641,2026-09-30,28817.6600,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vatable: Payment for 3F Meter 2 (Electricity) ftp August 26-September 26, 2026 | SI no. 007663 — RFP No.# 7267",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17546,641,2026-09-30,14309.4600,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vatable: Payment for 3F ACU ftp August 26-September 26, 2026 | SI no. 007664 — RFP No.# 7267",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17492,641,2026-09-30,0.0000,139908.9400,"Reversal of: To accrue ORDC payables utilities : clinic, mwtc xray van, mwtc clinic, extension, signage, extension 2, garbage collection mwtc and oakridge, it services, - electricity for clinic signage — #81982",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17492,641,2026-09-30,0.0000,53033.2200,"Reversal of: To accrue ORDC payables utilities : clinic, mwtc xray van, mwtc clinic, extension, signage, extension 2, garbage collection mwtc and oakridge, it services, - clinic extension utilities ELectricity — #81982",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17492,641,2026-09-30,0.0000,238780.0800,"Reversal of: To accrue ORDC payables utilities : clinic, mwtc xray van, mwtc clinic, extension, signage, extension 2, garbage collection mwtc and oakridge, it services, - clinic utilities (electricity) — #81982",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17492,641,2026-09-30,0.0000,77724.9400,"Reversal of: To accrue ORDC payables utilities : clinic, mwtc xray van, mwtc clinic, extension, signage, extension 2, garbage collection mwtc and oakridge, it services, - Clinic ext. 2 utilities (Electricity) — #81982",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17492,641,2026-09-30,0.0000,406869.1200,"Reversal of: To accrue ORDC payables utilities : clinic, mwtc xray van, mwtc clinic, extension, signage, extension 2, garbage collection mwtc and oakridge, it services, - utilities electricity — #81982",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17492,641,2026-09-30,0.0000,196.2800,"Reversal of: To accrue ORDC payables utilities : clinic, mwtc xray van, mwtc clinic, extension, signage, extension 2, garbage collection mwtc and oakridge, it services, - xray van electricity — #81982",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17534,649,2026-09-30,800.0000,0.0000,"BEBITA, CHERYL ESTRELLA - Payment for OIC for the day & MYT Meal allowance (Replenishment) — RFP No.# 7250",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17430,653,2026-09-30,66352.4000,0.0000,TO RECORD SL SICK LEAVE CONVERSION 2026 Mancom september — #81523,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17431,653,2026-09-30,0.0000,66352.4000,Reversal of: TO RECORD SL SICK LEAVE CONVERSION 2026 Mancom september — #81524,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,657,2026-09-30,6562.5000,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17559,657,2026-09-30,27227.1300,0.0000,Sharlene Mae Elarcosa - Payment for Salary Differential — RFP No.# 7289,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17560,657,2026-09-30,12658.3300,0.0000,Angelica F. Garcia - Payment for Salary Differential — RFP No.# 7290,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,665,2026-09-30,23653.1900,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17454,665,2026-09-30,600.0000,0.0000,"CPCI Payroll for september 16-30, 2026 - Consolacion - Finance — #81792",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17455,665,2026-09-30,16607.0000,0.0000,"CPCI Payroll for september 16-30, 2026 - Consolacion Medical Affairs — #81793",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17456,665,2026-09-30,36938.0000,0.0000,"CPCI Payroll for september 16-30, 2026 - Consolacion Operations — #81796",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17457,665,2026-09-30,12973.5000,0.0000,"CPCI Payroll for september 16-30, 2026 - Mobile Medical Affairs — #81797",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17458,665,2026-09-30,12853.5000,0.0000,"CPCI Payroll for september 16-30, 2026 - Mobile Operations — #81798",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17459,665,2026-09-30,300.0000,0.0000,"CPCI Payroll for september 16-30, 2026 - Mactan - Finance — #81799",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17460,665,2026-09-30,3633.5000,0.0000,CPCI Payroll for september 16-30 - Mactan Medical Affairs — #81800,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17461,665,2026-09-30,40141.0000,0.0000,CPCI Payroll for september 16-30 - Mactan  Operations — #81801,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17462,665,2026-09-30,4820.0000,0.0000,"CPCI Payroll for september 16-30, 2026 - Mantle Wood Medical Affairs — #81802",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17463,665,2026-09-30,9083.5000,0.0000,"CPCI Payroll for september 16-30, 2026 - Operations - Mantlewood — #81803",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17464,665,2026-09-30,600.0000,0.0000,"CPCI Payroll for september 16-30, 2026 - Oakridge - Finance — #81804",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17465,665,2026-09-30,18757.0000,0.0000,"CPCI Payroll for september 16-30, 2026 - Oakridge Medical Affairs — #81805",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17466,665,2026-09-30,44498.0000,0.0000,"CPCI Payroll for september 16-30, 2026 - Oakridge Operations — #81806",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17467,665,2026-09-30,10373.5000,0.0000,"CPCI Payroll for september 16-30, 2026 - Shared finance — #81807",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17468,665,2026-09-30,4670.0000,0.0000,"CPCI Payroll for september 16-30, 2026 - Shared IT — #81808",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17468,665,2026-09-30,900.0000,0.0000,"CPCI Payroll for september 16-30, 2026 - Shared IT — #81808",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17469,665,2026-09-30,29247.0000,0.0000,"CPCI Payroll for september 16-30, 2026 - Shared - LHRA — #81809",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17470,665,2026-09-30,48990.5000,0.0000,"CPCI Payroll for september 16-30, 2026 - Shared Sales Services — #81810",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17481,665,2026-09-30,76345.0000,0.0000,to accrue sales incentives .5% september 15.269m collections — #81823,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,669,2026-09-30,12808.0400,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17482,669,2026-09-30,0.0000,58000.0000,RFP No.# 7190 augusto miras to reclass to prepayment uniform — #81832,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17482,669,2026-09-30,4833.3300,0.0000,RFP No.# 7190 augusto miras to reclass to prepayment uniform — #81832,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17536,245,2026-09-30,1193789.4500,0.0000,BUREAU OF INTERNAL REVENUE - Payment for September 2026 Expanded Withholding Tax — RFP No.# 7252,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17511,245,2026-09-30,0.0000,856.0900,"John Neslie M. Habajab - 10% EWT on Payment for Doctor's PF for Radiosono Reliever ftp Aug 23 & 26, 2026 — RFP No.# 7219",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17502,245,2026-09-30,0.0000,562.0000,"RIC ENGINEERING SERVICES - 2% EWT on Payment for Updated AS BUILT DRAWING, blue printing, signed and sealed fee of Oakridge Clinica- 2nd floor for DOH PTC compliance due to improvement works | SI No. 001315 — RFP No.# 7197",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17499,245,2026-09-30,0.0000,8.1400,"NORTH & SOUTH BUILDERS SUPPLY, INC. - 1% EWT on Payment for complete supply of 1 set plastic bidet | CAPEX-26-0208 SI no. 32032 — 0926-001122",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17497,245,2026-09-30,0.0000,8.9300,LYNOLDS MARKETING - 1% EWT: Payment for Lab Supplies - Lab Timer | CAPEX-26-0014 SI no. A5040 — 0926-001071,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17500,245,2026-09-30,0.0000,67500.0000,MANDAUE ECO GLASS INC. - 2% EWT on Payment for 40% Progress Billing for Sliding Glass Doors & Glass Windows| PO No. CAPEX-26-0063 SI No. 00040 — 0926-001123,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17503,245,2026-09-30,0.0000,219.1600,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - 2% EWT on Payment for BOD Meeting - Board room & Service Charge on Sept 15, 2026 | SI no. 007484 — RFP No.# 7202",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17506,245,2026-09-30,0.0000,1687.5000,"APEX MEDICAL DEVICES AND DIAGNOSTICS, INC. - 2% EWT on Payment for cardiosource availment for the month of August 2026 | SI No.# 0398, 0399, 0400, 0214 — RFP No.# 7207",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17504,245,2026-09-30,0.0000,149.2300,"CENTURION SECURITY AGENCY, INC. - 2% EWT on Payment for security services ftp August 16-31, 2026 SI no. 08404 — RFP No.# 7205",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17539,245,2026-09-30,0.0000,514.2900,Biotek Medical & Laboratory Supplies - 2% EWT on Payment for PMS & Calibration of 16 blood pressure monitors| SI no. 0692 — RFP No.# 7260,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17544,245,2026-09-30,0.0000,530.3600,"Biotek Medical & Laboratory Supplies - 2% EWT on Payment for PMS & Calibration of laboratory, clinic, & nurses equipments| SI no. 0689 — RFP No.# 7265",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17543,245,2026-09-30,0.0000,1496.4300,"Biotek Medical & Laboratory Supplies - 2% EWT on Payment for PMS & Calibration of laboratory, clinic, & nurses equipments| SI no. 0691 — RFP No.# 7264",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17542,245,2026-09-30,0.0000,467.8600,Biotek Medical & Laboratory Supplies - 2% EWT on Payment for PMS & Calibration of clinic & nurse station equipments| SI no. 0688 — RFP No.# 7263,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17541,245,2026-09-30,0.0000,353.5700,"Biotek Medical & Laboratory Supplies - 2% EWT on Payment for PMS & Calibration of laboratory equipments - Single Channel Pipette, Table Top Centrifuge & Autoclave, and Microscope| SI no. 0690 — RFP No.# 7262",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17498,245,2026-09-30,0.0000,102.6800,DG'S INK TRADING - 1% EWT on Payment for 5 Service Printers with Unlimited Ink Supply | SI no. 1601 — 0926-001106,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17507,245,2026-09-30,0.0000,180.1800,"Medclean Management Solutions Inc. - 2% EWT on Payment for Collection of Infectious Waste Disposal on August 8, 2026 — RFP No.# 7209",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17510,245,2026-09-30,0.0000,223.6500,"CENTURION SECURITY AGENCY, INC. - 2% EWT on Payment for security services ftp August 16-31, 2026 SI no. 08405 — RFP No.# 7216",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17545,245,2026-09-30,0.0000,170.6900,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - 2% EWT on Payment for Janitorial Services (Atillo, Cerina) ftp September 1-15, 2026| SI No.# 4837 — RFP No.# 7266",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17540,245,2026-09-30,0.0000,391.4100,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - 2% EWT on: Payment for Janitorial Services (Amaro Robert & Tedor, Jiramic) Ftp Sep 1-15, 2026| SI No.# 4847 — RFP No.# 7261",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17505,245,2026-09-30,0.0000,238.9300,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - 2% EWT on Payment for Janitorial Services (Raganas, Soledad) Ftp August 16-31, 2026| SI No.# 4741 — RFP No.# 7206",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17550,245,2026-09-30,0.0000,2498.3700,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - 2% EWT on Payment for signage utilities (Electricity and Admin Fee) ftp July 26- August 26, 2026 | SI no. 007007 — RFP No.# 7271",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17549,245,2026-09-30,0.0000,216.8100,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - 2% EWT on Payment for clinic utilities (Electricity and Admin Fee) ftp July 26- August 26, 2026 | SI no. 007014 — RFP No.# 7270",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17548,245,2026-09-30,0.0000,947.0200,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - 2% EWT on Payment for clinic extension utilities (Electricity, Water, and Admin Fee) ftp July 26- August 26, 2026 | SI no. 007009 — RFP No.# 7269",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17547,245,2026-09-30,0.0000,4512.2500,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - 2% EWT on Payment for clinic utilities (Electricity, Water, and Admin Fee) ftp July 26- August 26, 2026 | SI no. 007008 — RFP No.# 7268",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17551,245,2026-09-30,0.0000,1387.9500,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - 2% EWT on Payment for clinic extension utilities (Electricity and Admin Fee) ftp July 26- August 26, 2026 | SI no. 007010 — RFP No.# 7272",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17552,245,2026-09-30,0.0000,46.6100,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - 2% EWT on Payment for garbage collection fee ftp July 25, 2026- August 25, 2026 | SI no. 006920 — RFP No.# 7273",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17546,245,2026-09-30,0.0000,79.5000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - 2% EWT on Payment for 3F Meter 1 (Electricity) ftp August 26-September 26, 2026 | SI no. 007662 — RFP No.# 7267",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17546,245,2026-09-30,0.0000,576.3500,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - 2% EWT on Payment for 3F Meter 2 (Electricity) ftp August 26-September 26, 2026 | SI no. 007663 — RFP No.# 7267",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17546,245,2026-09-30,0.0000,286.1900,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - 2% EWT on Payment for 3F ACU ftp August 26-September 26, 2026 | SI no. 007664 — RFP No.# 7267",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17501,245,2026-09-30,0.0000,223.2100,TRULABORATORIES CORPORATION - 1% EWT on Payment for Lab Supplies - Transfer Pipettes| OPEX-26-0519 SI no. 125663 — 0926-001132,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17563,245,2026-09-30,0.0000,438.5400,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - 2% EWT on Payment for Janitorial Services (Raganas, Soledad & Pamisa, Glen Mark) Ftp September 1-15, 2026| SI No.# 4838 — RFP No.# 7299",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17562,245,2026-09-30,0.0000,260.2600,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - 2% EWT on Payment for Janitorial Services (Pamisa, Glen Mark) Ftp August 15-31, 2026| SI No.# 4832 — RFP No.# 7298",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17561,245,2026-09-30,0.0000,306.4000,ADULT AND CHILD EYEWEAR CENTER - 1% EWT on Payment for 6 pairs of eyeglasses| SI no. 1101 — RFP No.# 7297,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17564,245,2026-09-30,0.0000,176.8100,Greentree Food Solutions Inc - 1% EWT on Payment for Patient meals for the month of August 2026 — RFP No.# 7300,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17509,245,2026-09-30,0.0000,254.5900,Medclean Management Solutions Inc. - 2% EWT on Payment for Collection of Infectious Waste Disposal for the Month of March 2025 (3/19/26) — RFP No.# 7212,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17508,245,2026-09-30,0.0000,332.1400,Medclean Management Solutions Inc. - 2% EWT on Payment for Collection of Infectious Waste Disposal for the Month of September 2025 (9/16/25) — RFP No.# 7210,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17570,245,2026-09-30,0.0000,31.5000,OAKRIDGE REALTY DEVELOPMENT CORPORATION - 2% EWT on Payment for Beverages Invoice no. 25646 | SI no. 008108 — RFP No.# 7326,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17452,1785,2026-09-30,27.8000,0.0000,Treasury posting September 30 - To record withholding tax — #81782,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17452,1785,2026-09-30,25.9500,0.0000,Treasury posting September 30 - To record withholding tax — #81782,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17452,1785,2026-09-30,165.8900,0.0000,Treasury posting September 30 - To record withholding tax — #81782,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17452,1785,2026-09-30,23.3800,0.0000,Treasury posting September 30 - To record withholding tax — #81782,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17452,1785,2026-09-30,2.6500,0.0000,Treasury posting September 30 - To record withholding tax — #81782,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17428,269,2026-09-30,0.0000,400.0000,to record payroll of EO mancom payroll september 16-30 — #81500,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17454,269,2026-09-30,0.0000,200.0000,"CPCI Payroll for september 16-30, 2026 - Consolacion - Finance — #81792",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17455,269,2026-09-30,0.0000,500.0000,"CPCI Payroll for september 16-30, 2026 - Consolacion Medical Affairs — #81793",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17456,269,2026-09-30,0.0000,2200.0000,"CPCI Payroll for september 16-30, 2026 - Consolacion Operations — #81796",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17457,269,2026-09-30,0.0000,300.0000,"CPCI Payroll for september 16-30, 2026 - Mobile Medical Affairs — #81797",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17458,269,2026-09-30,0.0000,1000.0000,"CPCI Payroll for september 16-30, 2026 - Mobile Operations — #81798",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17459,269,2026-09-30,0.0000,100.0000,"CPCI Payroll for september 16-30, 2026 - Mactan - Finance — #81799",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17460,269,2026-09-30,0.0000,500.0000,CPCI Payroll for september 16-30 - Mactan Medical Affairs — #81800,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17461,269,2026-09-30,0.0000,2600.0000,CPCI Payroll for september 16-30 - Mactan  Operations — #81801,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17462,269,2026-09-30,0.0000,400.0000,"CPCI Payroll for september 16-30, 2026 - Mantle Wood Medical Affairs — #81802",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17463,269,2026-09-30,0.0000,1800.0000,"CPCI Payroll for september 16-30, 2026 - Operations - Mantlewood — #81803",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17464,269,2026-09-30,0.0000,200.0000,"CPCI Payroll for september 16-30, 2026 - Oakridge - Finance — #81804",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17465,269,2026-09-30,0.0000,1100.0000,"CPCI Payroll for september 16-30, 2026 - Oakridge Medical Affairs — #81805",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17466,269,2026-09-30,0.0000,3100.0000,"CPCI Payroll for september 16-30, 2026 - Oakridge Operations — #81806",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17467,269,2026-09-30,0.0000,900.0000,"CPCI Payroll for september 16-30, 2026 - Shared finance — #81807",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17468,269,2026-09-30,0.0000,400.0000,"CPCI Payroll for september 16-30, 2026 - Shared IT — #81808",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17469,269,2026-09-30,0.0000,900.0000,"CPCI Payroll for september 16-30, 2026 - Shared - LHRA — #81809",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17470,269,2026-09-30,0.0000,1350.0000,"CPCI Payroll for september 16-30, 2026 - Shared Sales Services — #81810",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17471,269,2026-09-30,0.0000,200.0000,"CPCI Payroll for september 16-30, 2026 - mobile fixed term — #81811",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17472,269,2026-09-30,0.0000,1400.0000,"to record KA/YA payroll Operations, FT support, logistics- Mobile september 16-30 — #81812",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17473,269,2026-09-30,0.0000,300.0000,"CPCI Payroll for september 16-30, 2026 - KA/YA - Consolacion — #81813",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17474,269,2026-09-30,0.0000,300.0000,"CPCI Payroll for september 16-30, 2026 - KA/YA - Mactan — #81814",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17475,269,2026-09-30,0.0000,200.0000,"CPCI Payroll for september 16-30, 2026 - KA/YA - Mantlewood — #81815",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17476,269,2026-09-30,0.0000,400.0000,"CPCI Payroll for september, 2026 - KA/YA - Oakridge — #81816",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17477,269,2026-09-30,0.0000,900.0000,to record KA/YA payroll MALL & ADMIN september 16-30 — #81817,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17436,1633,2026-09-30,2430.0000,0.0000,"to record CPCI availment on CLinic DSMR september as advised, exclude from revenue — #81558",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17436,1633,2026-09-30,4000.0000,0.0000,"to record CPCI availment on CLinic DSMR september as advised, exclude from revenue — #81558",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17443,1633,2026-09-30,0.0000,52890.0000,"Sales Branches September 30, 2026 - Health services — #81641",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17443,1633,2026-09-30,0.0000,6690.0000,"Sales Branches September 30, 2026 - Health services — #81641",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17443,1633,2026-09-30,0.0000,8315.0000,"Sales Branches September 30, 2026 - Health services — #81641",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17443,1633,2026-09-30,0.0000,300.0000,"Sales Branches September 30, 2026 - Health services — #81641",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17480,1633,2026-09-30,0.0000,39038.2300,The 5% share of CPCI for gamot sales for the month of september 2026 — #81822,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,1337,2026-09-30,2359.8400,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,685,2026-09-30,8034.0000,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,697,2026-09-30,1680.0000,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17528,709,2026-09-30,482.1400,0.0000,"PLDT INC - Vat: Payment for Enterprise Broadband Static 200 Bundle for Account number 6005975865 covering Sept 17-Oct 16, 2026 — RFP No.# 7243",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17550,713,2026-09-30,14990.2400,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat: Payment for signage utilities (Electricity and Admin Fee) ftp July 26- August 26, 2026 | SI no. 007007 — RFP No.# 7271",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17549,713,2026-09-30,1300.8600,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat: Payment for clinic utilities (Electricity and Admin Fee) ftp July 26- August 26, 2026 | SI no. 007014 — RFP No.# 7270",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17548,713,2026-09-30,5637.0600,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat: Payment for clinic extension utilities (Electricity) ftp July 26- August 26, 2026 | SI no. 007009 — RFP No.# 7269",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17547,713,2026-09-30,25583.5800,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat: Payment for clinic utilities (Electricity) ftp July 26- August 26, 2026 | SI no. 007008 — RFP No.# 7268",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17551,713,2026-09-30,8327.6700,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat: Payment for clinic extension utilities (Electricity and Admin Fee) ftp July 26- August 26, 2026 | SI no. 007010 — RFP No.# 7272",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17546,713,2026-09-30,476.9800,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat: Payment for 3F Meter 1 (Electricity) ftp August 26-September 26, 2026 | SI no. 007662 — RFP No.# 7267",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17546,713,2026-09-30,3458.1200,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat: Payment for 3F Meter 2 (Electricity) ftp August 26-September 26, 2026 | SI no. 007663 — RFP No.# 7267",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17546,713,2026-09-30,1717.1400,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat: Payment for 3F ACU ftp August 26-September 26, 2026 | SI no. 007664 — RFP No.# 7267",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,717,2026-09-30,1536.9600,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,721,2026-09-30,6544.8200,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,721,2026-09-30,498.2100,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,721,2026-09-30,617.6000,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,721,2026-09-30,252.0400,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,721,2026-09-30,3917.1000,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17545,725,2026-09-30,1024.1400,0.0000,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - Vat: Payment for Janitorial Services (Atillo, Cerina) ftp September 1-15, 2026| SI No.# 4837 — RFP No.# 7266",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17540,725,2026-09-30,2348.4600,0.0000,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - Vat: Payment for Janitorial Services (Amaro Robert & Tedor, Jiramic) Ftp Sep 1-15, 2026| SI No.# 4847 — RFP No.# 7261",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17505,725,2026-09-30,1433.5700,0.0000,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - Vat: Payment for Janitorial Services (Raganas, Soledad) Ftp August 16-31, 2026| SI No.# 4741 — RFP No.# 7206",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17563,725,2026-09-30,2631.2400,0.0000,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - Vat: Payment for Janitorial Services (Raganas, Soledad & Pamisa, Glen Mark) Ftp September 1-15, 2026| SI No.# 4838 — RFP No.# 7299",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17562,725,2026-09-30,1561.5800,0.0000,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - Vat: Payment for Janitorial Services (Pamisa, Glen Mark) Ftp August 15-31, 2026| SI No.# 4832 — RFP No.# 7298",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17501,197,2026-09-30,2678.5700,0.0000,TRULABORATORIES CORPORATION - Vat: Payment for Lab Supplies - Transfer Pipettes| OPEX-26-0519 SI no. 125663 — 0926-001132,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17534,1057,2026-09-30,32.4600,0.0000,"BEBITA, CHERYL ESTRELLA - Vat: Payment for Distilled Water for Lab (Replenishment) — RFP No.# 7250",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17502,525,2026-09-30,3372.0000,0.0000,"RIC ENGINEERING SERVICES - Vat: Payment for Updated AS BUILT DRAWING, blue printing, signed and sealed fee of Oakridge Clinica- 2nd floor for DOH PTC compliance due to improvement works | SI No. 001315 — RFP No.# 7197",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17499,525,2026-09-30,97.7100,0.0000,"NORTH & SOUTH BUILDERS SUPPLY, INC. - Vat:  Payment for complete supply of 1 set plastic bidet | CAPEX-26-0208 SI no. 32032 — 0926-001122",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17538,737,2026-09-30,3838.9700,0.0000,"SMART COMMUNICATIONS, INC. - Vatable: Payment for Enterprise Postpaid Messaging Plan for the month of August 2026 - SMART Text Messaging Text Blast — RFP No.# 7254",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17533,741,2026-09-30,76.5000,0.0000,Angeline Muñoz - Vat: Payment for A4 Clearbook & 2 reams of Long Bondpaper (Replenishment) — RFP No.# 7249,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17498,741,2026-09-30,1232.1400,0.0000,DG'S INK TRADING - Vat: Payment for 5 Service Printers with Unlimited Ink Supply | SI no. 1601 — 0926-001106,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17497,193,2026-09-30,107.1400,0.0000,LYNOLDS MARKETING - Vat: Payment for Lab Supplies - Lab Timer | CAPEX-26-0014 SI no. A5040 — 0926-001071,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17534,749,2026-09-30,20.6800,0.0000,"BEBITA, CHERYL ESTRELLA - Vat: Purchase of Grocery for Patients (Replenishment) — RFP No.# 7250",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17564,749,2026-09-30,2148.8000,0.0000,Greentree Food Solutions Inc - Vat: Payment for Patient meals for the month of August 2026 — RFP No.# 7300,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17539,205,2026-09-30,3085.7100,0.0000,Biotek Medical & Laboratory Supplies - Vat: Payment for PMS & Calibration of 16 blood pressure monitors| SI no. 0692 — RFP No.# 7260,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17544,205,2026-09-30,3182.1400,0.0000,"Biotek Medical & Laboratory Supplies - Vat: Payment for PMS & Calibration of laboratory, clinic, & nurses equipments| SI no. 0689 — RFP No.# 7265",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17543,205,2026-09-30,8978.5700,0.0000,"Biotek Medical & Laboratory Supplies - Vat: Payment for PMS & Calibration of laboratory, clinic, & nurses equipments| SI no. 0691 — RFP No.# 7264",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17542,205,2026-09-30,2807.1400,0.0000,Biotek Medical & Laboratory Supplies - Vat: Payment for PMS & Calibration of clinic & nurse station equipments| SI no. 0688 — RFP No.# 7263,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17541,205,2026-09-30,2121.4300,0.0000,"Biotek Medical & Laboratory Supplies - Vat: Payment for PMS & Calibration of laboratory equipments - Single Channel Pipette, Table Top Centrifuge & Autoclave, and Microscope| SI no. 0690 — RFP No.# 7262",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,205,2026-09-30,0.0000,39852.2800,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17534,757,2026-09-30,642.8600,0.0000,"BEBITA, CHERYL ESTRELLA - Vatable: Payment for purchase of PPL Lights (Replenishment) — RFP No.# 7250",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17534,757,2026-09-30,77.1400,0.0000,"BEBITA, CHERYL ESTRELLA - Vat: Payment for purchase of PPL Lights (Replenishment) — RFP No.# 7250",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,757,2026-09-30,253.7000,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,757,2026-09-30,609.1800,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,757,2026-09-30,3672.0600,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,757,2026-09-30,1063.4100,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,757,2026-09-30,176.7900,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,761,2026-09-30,141.3200,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,761,2026-09-30,981.4300,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,761,2026-09-30,555.9400,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17570,761,2026-09-30,189.0000,0.0000,OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat: Payment for Beverages Invoice no. 25646 | SI no. 008108 — RFP No.# 7326,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17504,765,2026-09-30,895.3700,0.0000,"CENTURION SECURITY AGENCY, INC. - Vat: Payment for security services ftp August 16-31, 2026 SI no. 08404 — RFP No.# 7205",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17510,765,2026-09-30,1341.9300,0.0000,"CENTURION SECURITY AGENCY, INC. - Vat: Payment for security services ftp August 16-31, 2026 SI no. 08405 — RFP No.# 7216",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17506,1077,2026-09-30,10125.0000,0.0000,"APEX MEDICAL DEVICES AND DIAGNOSTICS, INC. - Vat: Payment for cardiosource availment for the month of August 2026 | SI No.# 0398, 0399, 0400, 0214 — RFP No.# 7207",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17533,777,2026-09-30,29.4600,0.0000,Angeline Muñoz - Vat: Payment for gasoline for motor service (Replenishment) — RFP No.# 7249,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17558,777,2026-09-30,601.0700,0.0000,ALEJANDRO DE LA CRUZ III - Vat: Payment for Gasoline & Parking Fee (Replenishment) — RFP No.# 7282,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17507,781,2026-09-30,1081.0900,0.0000,"Medclean Management Solutions Inc. - Vat:  Payment for Collection of Infectious Waste Disposal on August 8, 2026 — RFP No.# 7209",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17552,781,2026-09-30,279.6400,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat: Payment for garbage collection fee ftp July 25, 2026- August 25, 2026 | SI no. 006920 — RFP No.# 7273",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17509,781,2026-09-30,1527.5100,0.0000,Medclean Management Solutions Inc. - Vat: Payment for Collection of Infectious Waste Disposal for the Month of March 2025 (3/19/26) — RFP No.# 7212,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17508,781,2026-09-30,1992.8600,0.0000,Medclean Management Solutions Inc. - Vat:  Payment for Collection of Infectious Waste Disposal for the Month of September 2025 (9/16/25) — RFP No.# 7210,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17548,785,2026-09-30,45.0700,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat: Payment for clinic extension utilities (Water) ftp July 26- August 26, 2026 | SI no. 007009 — RFP No.# 7269",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17547,785,2026-09-30,1489.8900,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat: Payment for clinic utilities (Water) ftp July 26- August 26, 2026 | SI no. 007008 — RFP No.# 7268",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17503,797,2026-09-30,1314.9300,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat: Payment for BOD Meeting - Board room on Sept 15, 2026 | SI no. 007484 — RFP No.# 7202",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17495,545,2026-09-30,3726828.0000,0.0000,to record adjustment of prepayment balance as advised — #82364,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17496,545,2026-09-30,0.0000,3726828.0000,Reversal of: to record adjustment of prepayment balance as advised — #82365,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,801,2026-09-30,2053.3300,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,801,2026-09-30,6160.0000,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,801,2026-09-30,19052.3100,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17452,1585,2026-09-30,142897.6800,0.0000,Treasury posting September 30 - To Record Loan Interest Expense — #81782,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17452,1585,2026-09-30,93296.8400,0.0000,Treasury posting September 30 - To Record Loan Interest Expense — #81782,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17452,1589,2026-09-30,0.0000,139.0000,Treasury posting September 30 - To Record Interest Income — #81782,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17452,1589,2026-09-30,0.0000,129.7700,Treasury posting September 30 - To Record Interest Income — #81782,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17452,1589,2026-09-30,0.0000,829.4600,Treasury posting September 30 - To Record Interest Income — #81782,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17452,1589,2026-09-30,0.0000,116.9200,Treasury posting September 30 - To Record Interest Income — #81782,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17452,1589,2026-09-30,0.0000,13.2700,Treasury posting September 30 - To Record Interest Income — #81782,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17452,1589,2026-09-30,0.0000,149.2700,Treasury posting September 30 - To Record Interest Income — #81782,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17452,1589,2026-09-30,0.0000,25.5500,Treasury posting September 30 - To Record Interest Income — #81782,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17453,1589,2026-09-30,0.0000,424.0000,to record interest income SBC SEPTEMBER — #81791,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,805,2026-09-30,98318.9100,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,805,2026-09-30,31221.5700,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,805,2026-09-30,35074.6300,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,805,2026-09-30,21424.0800,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,805,2026-09-30,1105.6500,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,805,2026-09-30,132654.5700,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,805,2026-09-30,1419.4900,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,805,2026-09-30,867.8200,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,805,2026-09-30,39898.4800,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,805,2026-09-30,743.3000,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,805,2026-09-30,2470.0900,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17411,809,2026-09-30,22400.0000,0.0000,to accrue received first billing of MYT On-site Support Fee july 27 - august 26 — #81122,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,809,2026-09-30,95781.6900,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,809,2026-09-30,5146.6700,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,809,2026-09-30,2100.3600,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,809,2026-09-30,4151.7900,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,809,2026-09-30,32453.0800,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,809,2026-09-30,601.0000,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,809,2026-09-30,8333.3300,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17492,809,2026-09-30,0.0000,25760.0000,"Reversal of: To accrue ORDC payables utilities : clinic, mwtc xray van, mwtc clinic, extension, signage, extension 2, garbage collection mwtc and oakridge, it services, - IT services — #81982",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17545,813,2026-09-30,8534.4600,0.0000,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - Vatable: Payment for Janitorial Services (Atillo, Cerina) ftp September 1-15, 2026| SI No.# 4837 — RFP No.# 7266",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17540,813,2026-09-30,19570.4600,0.0000,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - Vatable: Payment for Janitorial Services (Amaro Robert & Tedor, Jiramic) Ftp Sep 1-15, 2026| SI No.# 4847 — RFP No.# 7261",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17426,813,2026-09-30,0.0000,824.0200,Reversal of: To accrue: CEBU SPIC & SPAN JANITORIAL SERVICES INC. ftp 2026 consolacion september — #81406,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17427,813,2026-09-30,0.0000,31715.4000,Reversal of: To accrue: CEBU SPIC & SPAN - Janitorial Services for the period 2026 Oakridge august — #81415,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17505,813,2026-09-30,11946.4100,0.0000,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - Vatable: Payment for Janitorial Services (Raganas, Soledad) Ftp August 16-31, 2026| SI No.# 4741 — RFP No.# 7206",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17563,813,2026-09-30,21927.0000,0.0000,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - Vatable: Payment for Janitorial Services (Raganas, Soledad & Pamisa, Glen Mark) Ftp September 1-15, 2026| SI No.# 4838 — RFP No.# 7299",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17562,813,2026-09-30,13013.2000,0.0000,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - Vatable: Payment for Janitorial Services (Pamisa, Glen Mark) Ftp August 15-31, 2026| SI No.# 4832 — RFP No.# 7298",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17483,813,2026-09-30,0.0000,14574.7800,Reversal of: To accrue CEBU SPIC & SPAN - Janitorial Services for the period — #81846,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17451,1641,2026-09-30,0.0000,537840.0000,To reclassify Konsulta FPE revenue 2026 september — #81779,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17451,1641,2026-09-30,0.0000,512040.0000,To reclassify Konsulta FPE revenue 2026 september — #81779,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17451,1641,2026-09-30,0.0000,225080.0000,To reclassify Konsulta FPE revenue 2026 september — #81779,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17451,1641,2026-09-30,0.0000,1620440.0000,To reclassify Konsulta FPE revenue 2026 september — #81779,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17451,1641,2026-09-30,0.0000,1850.0000,To reclassify Konsulta FPE revenue 2026 september — #81779,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17485,1641,2026-09-30,17680.0000,0.0000,to record invalid Revenue/Yakap sales 26pax August na FPE not uploaded in PHIC portal — #81855,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17534,1105,2026-09-30,3150.0000,0.0000,"BEBITA, CHERYL ESTRELLA - Payment for DT Confirmatory (Replenishment) — RFP No.# 7250",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17425,1105,2026-09-30,370261.2000,0.0000,To accrue send out cost for the period 2026 september — #81396,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17425,1105,2026-09-30,155711.2000,0.0000,To accrue send out cost for the period 2026 september — #81396,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17425,1105,2026-09-30,360054.8000,0.0000,To accrue send out cost for the period 2026 september — #81396,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17449,1105,2026-09-30,10150.0000,0.0000,Liquidation of Cash Advance for DT confirmatory send-outs to the confirmatory laboratory under the mobile account (LF PHIL) | CA-0316 | CHERYL E. BEBITA - Liquidation of Cash Advance for DT confirmatory send-outs to the confirmatory laboratory under the mobile account (LF PHIL) | CA-0316 | CHERYL E. BEBITA — #81773,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17501,141,2026-09-30,22321.4300,0.0000,TRULABORATORIES CORPORATION - Vatable: Payment for Lab Supplies - Transfer Pipettes| OPEX-26-0519 SI no. 125663 — 0926-001132,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17489,141,2026-09-30,0.0000,6128.0000,To record inventory variance for the month of 2026 SEPTEMBER — #81866,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17489,141,2026-09-30,0.0000,130.0000,To record inventory variance for the month of 2026 SEPTEMBER — #81866,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17490,141,2026-09-30,0.0000,2053336.5600,To record inventory consumption 2026 SEPTEMBER — #81868,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17490,141,2026-09-30,0.0000,822604.6000,To record inventory consumption 2026 SEPTEMBER — #81868,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17490,141,2026-09-30,0.0000,1200685.7800,To record inventory consumption 2026 SEPTEMBER — #81868,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17490,141,2026-09-30,0.0000,30036.5000,To record inventory consumption 2026 SEPTEMBER — #81868,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17490,141,2026-09-30,0.0000,248040.9100,To record inventory consumption 2026 SEPTEMBER — #81868,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17534,1109,2026-09-30,270.5400,0.0000,"BEBITA, CHERYL ESTRELLA - Vatable: Payment for Distilled Water for Lab (Replenishment) — RFP No.# 7250",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17489,1109,2026-09-30,6128.0000,0.0000,To record inventory variance for the month of 2026 SEPTEMBER — #81866,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17489,1109,2026-09-30,130.0000,0.0000,To record inventory variance for the month of 2026 SEPTEMBER — #81866,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17490,1109,2026-09-30,2053336.5600,0.0000,To record inventory consumption 2026 SEPTEMBER — #81868,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17490,1109,2026-09-30,822604.6000,0.0000,To record inventory consumption 2026 SEPTEMBER — #81868,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17490,1109,2026-09-30,1200685.7800,0.0000,To record inventory consumption 2026 SEPTEMBER — #81868,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17490,1109,2026-09-30,30036.5000,0.0000,To record inventory consumption 2026 SEPTEMBER — #81868,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17490,1109,2026-09-30,248040.9100,0.0000,To record inventory consumption 2026 SEPTEMBER — #81868,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17533,1645,2026-09-30,270.0000,0.0000,Angeline Muñoz - Nondeductible: Payment for Refund for Patient (Replenishment) — RFP No.# 7249,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17436,1645,2026-09-30,21561.0000,0.0000,"to record CPCI availment on CLinic DSMR september as advised, exclude from revenue — #81558",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17436,1645,2026-09-30,39131.0000,0.0000,"to record CPCI availment on CLinic DSMR september as advised, exclude from revenue — #81558",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17436,1645,2026-09-30,28924.0000,0.0000,"to record CPCI availment on CLinic DSMR september as advised, exclude from revenue — #81558",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17436,1645,2026-09-30,9760.5000,0.0000,"to record CPCI availment on CLinic DSMR september as advised, exclude from revenue — #81558",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17436,1645,2026-09-30,26280.0000,0.0000,"to record CPCI availment on CLinic DSMR september as advised, exclude from revenue — #81558",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17443,1645,2026-09-30,0.0000,45860.0000,"Sales Branches September 30, 2026 - Laboratory/Diagnostics — #81641",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17443,1645,2026-09-30,0.0000,73740.0000,"Sales Branches September 30, 2026 - Laboratory/Diagnostics — #81641",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17443,1645,2026-09-30,0.0000,58573.0000,"Sales Branches September 30, 2026 - Laboratory/Diagnostics — #81641",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17443,1645,2026-09-30,0.0000,17090.0000,"Sales Branches September 30, 2026 - Laboratory/Diagnostics — #81641",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17443,1645,2026-09-30,0.0000,45165.0000,"Sales Branches September 30, 2026 - Laboratory/Diagnostics — #81641",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17443,1645,2026-09-30,0.0000,18560.0000,"Sales Branches September 30, 2026 - Laboratory/Diagnostics — #81641",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17443,1645,2026-09-30,0.0000,28760.0000,"Sales Branches September 30, 2026 - Laboratory/Diagnostics — #81641",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17443,1645,2026-09-30,0.0000,58900.0000,"Sales Branches September 30, 2026 - Laboratory/Diagnostics — #81641",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17443,1645,2026-09-30,0.0000,84391.0000,"Sales Branches September 30, 2026 - Laboratory/Diagnostics — #81641",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17443,1645,2026-09-30,0.0000,426560.0000,"Sales Branches September 30, 2026 - Laboratory/Diagnostics — #81641",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17443,1645,2026-09-30,0.0000,2030.0000,"Sales Branches September 30, 2026 - Laboratory/Diagnostics — #81641",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17443,1645,2026-09-30,0.0000,8530.0000,"Sales Branches September 30, 2026 - Laboratory/Diagnostics — #81641",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17451,1645,2026-09-30,1620440.0000,0.0000,To reclassify Konsulta FPE revenue 2026 september — #81779,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17443,1657,2026-09-30,0.0000,15060.0000,"Sales Branches September 30, 2026 - Laboratory/Diagnostics - Send Outs — #81641",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17443,1657,2026-09-30,0.0000,3565.0000,"Sales Branches September 30, 2026 - Laboratory/Diagnostics - Send Outs — #81641",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17443,1657,2026-09-30,0.0000,33380.0000,"Sales Branches September 30, 2026 - Laboratory/Diagnostics - Send Outs — #81641",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,821,2026-09-30,694728.9200,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,821,2026-09-30,136411.6500,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,821,2026-09-30,71248.1300,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,821,2026-09-30,3668.7600,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,821,2026-09-30,82247.9300,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,821,2026-09-30,632538.5600,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,821,2026-09-30,20841.9400,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,821,2026-09-30,54111.0700,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,821,2026-09-30,4291.3700,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,821,2026-09-30,746067.9000,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17502,373,2026-09-30,28100.0000,0.0000,"RIC ENGINEERING SERVICES - Vatable:  Payment for Updated AS BUILT DRAWING, blue printing, signed and sealed fee of Oakridge Clinica- 2nd floor for DOH PTC compliance due to improvement works | SI No. 001315 — RFP No.# 7197",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17499,373,2026-09-30,814.2100,0.0000,"NORTH & SOUTH BUILDERS SUPPLY, INC. - Vatable: Payment for complete supply of 1 set plastic bidet | CAPEX-26-0208 SI no. 32032 — 0926-001122",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,1125,2026-09-30,171838.9200,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,1125,2026-09-30,72855.5800,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,1125,2026-09-30,161041.5200,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,1125,2026-09-30,55626.5900,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,1125,2026-09-30,344965.9200,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,1133,2026-09-30,2333.4900,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,1133,2026-09-30,1539.9700,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,1133,2026-09-30,3718.4500,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,1133,2026-09-30,1546.8500,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,1133,2026-09-30,3062.9000,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,1133,2026-09-30,101.1900,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,1133,2026-09-30,530.7300,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,1133,2026-09-30,1540.9200,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17503,837,2026-09-30,10957.7900,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vatable: Payment for BOD Meeting - Board room on Sept 15, 2026 | SI no. 007484 — RFP No.# 7202",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17503,837,2026-09-30,1227.2800,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat-exempt: Payment for Service Charge for BOD Meeting - Board room on Sept 15, 2026 | SI no. 007484 — RFP No.# 7202",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17408,841,2026-09-30,25000.0000,0.0000,Smart - Enterprise Postpaid Messaging Plan for the month of 2026 september Shared — #81017,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17538,841,2026-09-30,31991.4600,0.0000,"SMART COMMUNICATIONS, INC. - Vatable: Payment for Enterprise Postpaid Messaging Plan for the month of August 2026 - SMART Text Messaging Text Blast — RFP No.# 7254",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17413,841,2026-09-30,0.0000,25000.0000,Reversal of: Smart - Enterprise Postpaid Messaging Plan for the month of 2026 july Shared — #81142,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17414,841,2026-09-30,0.0000,25000.0000,Reversal of: Smart - Enterprise Postpaid Messaging Plan for the month of 2026 august Shared — #81144,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,1593,2026-09-30,70149.0200,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,845,2026-09-30,67849.8700,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,845,2026-09-30,28105.6200,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,845,2026-09-30,24287.5400,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,845,2026-09-30,19180.2500,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,845,2026-09-30,4538.1600,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,845,2026-09-30,31161.6200,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,845,2026-09-30,4181.0500,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,845,2026-09-30,1008.9700,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17406,845,2026-09-30,63273.9300,0.0000,Depreciation for September 2026 — #80947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17497,149,2026-09-30,892.8600,0.0000,LYNOLDS MARKETING - Vatable: Payment for Lab Supplies - Lab Timer | CAPEX-26-0014 SI no. A5040 — 0926-001071,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17450,149,2026-09-30,0.0000,3400.0000,To record expired inventory SEPTEMBER 2026 — #81778,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17489,149,2026-09-30,0.0000,1655.1300,To record inventory variance for the month of 2026 SEPTEMBER — #81866,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17490,149,2026-09-30,0.0000,152818.0900,To record inventory consumption 2026 SEPTEMBER — #81868,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17490,149,2026-09-30,0.0000,70125.3200,To record inventory consumption 2026 SEPTEMBER — #81868,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17490,149,2026-09-30,0.0000,5847.5000,To record inventory consumption 2026 SEPTEMBER — #81868,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17490,149,2026-09-30,0.0000,5861.0000,To record inventory consumption 2026 SEPTEMBER — #81868,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17490,149,2026-09-30,0.0000,11695.7500,To record inventory consumption 2026 SEPTEMBER — #81868,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17490,149,2026-09-30,0.0000,144152.5000,To record inventory consumption 2026 SEPTEMBER — #81868,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17490,149,2026-09-30,0.0000,35375.3000,To record inventory consumption 2026 SEPTEMBER — #81868,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17490,149,2026-09-30,0.0000,78305.5900,To record inventory consumption 2026 SEPTEMBER — #81868,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17533,849,2026-09-30,250.0000,0.0000,Angeline Muñoz - Non-vat: Payment for Drinking water (Replenishment) — RFP No.# 7249,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17533,849,2026-09-30,637.5000,0.0000,Angeline Muñoz - Vatable: Payment for A4 Clearbook & 2 reams of Long Bondpaper (Replenishment) — RFP No.# 7249,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17533,849,2026-09-30,184.0000,0.0000,Angeline Muñoz - Nondeductible: Payment for Clearbook Refill (Replenishment) — RFP No.# 7249,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17498,849,2026-09-30,10267.8600,0.0000,DG'S INK TRADING - Vatable: Payment for 5 Service Printers with Unlimited Ink Supply | SI no. 1601 — 0926-001106,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17450,849,2026-09-30,3400.0000,0.0000,To record expired inventory SEPTEMBER 2026 — #81778,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17565,849,2026-09-30,3815.0000,0.0000,"ARBIE AGUSTIN REDONA JR. - Nonvat: Payment for Monthly Drinking Water (September 1-29, 2026) — RFP No.# 7301",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17489,849,2026-09-30,1655.1300,0.0000,To record inventory variance for the month of 2026 SEPTEMBER — #81866,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17490,849,2026-09-30,152818.0900,0.0000,To record inventory consumption 2026 SEPTEMBER — #81868,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17490,849,2026-09-30,70125.3200,0.0000,To record inventory consumption 2026 SEPTEMBER — #81868,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17490,849,2026-09-30,5847.5000,0.0000,To record inventory consumption 2026 SEPTEMBER — #81868,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17490,849,2026-09-30,5861.0000,0.0000,To record inventory consumption 2026 SEPTEMBER — #81868,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17490,849,2026-09-30,11695.7500,0.0000,To record inventory consumption 2026 SEPTEMBER — #81868,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17490,849,2026-09-30,144152.5000,0.0000,To record inventory consumption 2026 SEPTEMBER — #81868,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17490,849,2026-09-30,35375.3000,0.0000,To record inventory consumption 2026 SEPTEMBER — #81868,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17490,849,2026-09-30,78305.5900,0.0000,To record inventory consumption 2026 SEPTEMBER — #81868,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,853,2026-09-30,26062.5000,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17494,853,2026-09-30,0.5000,0.0000,"treasury posting: to record september adjustment cash on hand - Decimal Variance (September 04, 2026) — #82079",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17494,1597,2026-09-30,0.0000,100.0000,"treasury posting: to record september adjustment cash on hand - Excess payment - Other income (July 22, 2026) — #82079",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17494,1597,2026-09-30,0.0000,39.0000,"treasury posting: to record september adjustment cash on hand - Excess payment - Other income (August 26, 2026) — #82079",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17534,861,2026-09-30,1800.0000,0.0000,"BEBITA, CHERYL ESTRELLA - Nondeductible: Payment for RMT Reliever (Replenishment) — RFP No.# 7250",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17458,1729,2026-09-30,13576.5800,0.0000,"CPCI Payroll for september 16-30, 2026 - Mobile Operations — #81798",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17472,1729,2026-09-30,13257.3900,0.0000,"to record KA/YA payroll Operations, FT support, logistics- Mobile september 16-30 — #81812",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17454,865,2026-09-30,1260.2800,0.0000,"CPCI Payroll for september 16-30, 2026 - Consolacion - Finance — #81792",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17456,865,2026-09-30,4275.5100,0.0000,"CPCI Payroll for september 16-30, 2026 - Consolacion Operations — #81796",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17459,865,2026-09-30,17.8100,0.0000,"CPCI Payroll for september 16-30, 2026 - Mactan - Finance — #81799",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17461,865,2026-09-30,17060.7400,0.0000,CPCI Payroll for september 16-30 - Mactan  Operations — #81801,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17463,865,2026-09-30,4268.3300,0.0000,"CPCI Payroll for september 16-30, 2026 - Operations - Mantlewood — #81803",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17464,865,2026-09-30,1645.9000,0.0000,"CPCI Payroll for september 16-30, 2026 - Oakridge - Finance — #81804",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17465,865,2026-09-30,470.8600,0.0000,"CPCI Payroll for september 16-30, 2026 - Oakridge Medical Affairs — #81805",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17466,865,2026-09-30,12205.4200,0.0000,"CPCI Payroll for september 16-30, 2026 - Oakridge Operations — #81806",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17468,865,2026-09-30,3895.8700,0.0000,"CPCI Payroll for september 16-30, 2026 - Shared IT — #81808",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17469,865,2026-09-30,4163.3900,0.0000,"CPCI Payroll for september 16-30, 2026 - Shared - LHRA — #81809",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17471,865,2026-09-30,7.4000,0.0000,"CPCI Payroll for september 16-30, 2026 - mobile fixed term — #81811",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17456,257,2026-09-30,0.0000,1086.0100,"CPCI Payroll for september 16-30, 2026 - Consolacion Operations — #81796",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17458,257,2026-09-30,0.0000,1080.2700,"CPCI Payroll for september 16-30, 2026 - Mobile Operations — #81798",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17461,257,2026-09-30,0.0000,218.8700,CPCI Payroll for september 16-30 - Mactan  Operations — #81801,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17464,257,2026-09-30,0.0000,633.9600,"CPCI Payroll for september 16-30, 2026 - Oakridge - Finance — #81804",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17465,257,2026-09-30,0.0000,740.0200,"CPCI Payroll for september 16-30, 2026 - Oakridge Medical Affairs — #81805",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17466,257,2026-09-30,0.0000,2567.6700,"CPCI Payroll for september 16-30, 2026 - Oakridge Operations — #81806",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17467,257,2026-09-30,0.0000,1269.7600,"CPCI Payroll for september 16-30, 2026 - Shared finance — #81807",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17468,257,2026-09-30,0.0000,2094.8200,"CPCI Payroll for september 16-30, 2026 - Shared IT — #81808",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17469,257,2026-09-30,0.0000,644.5600,"CPCI Payroll for september 16-30, 2026 - Shared - LHRA — #81809",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17470,257,2026-09-30,0.0000,273.6100,"CPCI Payroll for september 16-30, 2026 - Shared Sales Services — #81810",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17534,873,2026-09-30,172.3200,0.0000,"BEBITA, CHERYL ESTRELLA - Vatable: Purchase of Grocery for Patients (Replenishment) — RFP No.# 7250",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17564,873,2026-09-30,17906.7000,0.0000,Greentree Food Solutions Inc - Vatable: Payment for Patient meals for the month of August 2026 — RFP No.# 7300,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17428,265,2026-09-30,0.0000,5000.0000,to record payroll of EO mancom payroll september 16-30 — #81500,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17454,265,2026-09-30,0.0000,500.0000,"CPCI Payroll for september 16-30, 2026 - Consolacion - Finance — #81792",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17455,265,2026-09-30,0.0000,1879.8200,"CPCI Payroll for september 16-30, 2026 - Consolacion Medical Affairs — #81793",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17456,265,2026-09-30,0.0000,5679.0300,"CPCI Payroll for september 16-30, 2026 - Consolacion Operations — #81796",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17457,265,2026-09-30,0.0000,1275.3200,"CPCI Payroll for september 16-30, 2026 - Mobile Medical Affairs — #81797",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17458,265,2026-09-30,0.0000,2431.1600,"CPCI Payroll for september 16-30, 2026 - Mobile Operations — #81798",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17459,265,2026-09-30,0.0000,250.0000,"CPCI Payroll for september 16-30, 2026 - Mactan - Finance — #81799",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17460,265,2026-09-30,0.0000,1735.4100,CPCI Payroll for september 16-30 - Mactan Medical Affairs — #81800,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17461,265,2026-09-30,0.0000,6616.4600,CPCI Payroll for september 16-30 - Mactan  Operations — #81801,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17462,265,2026-09-30,0.0000,1854.5000,"CPCI Payroll for september 16-30, 2026 - Mantle Wood Medical Affairs — #81802",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17463,265,2026-09-30,0.0000,4810.4100,"CPCI Payroll for september 16-30, 2026 - Operations - Mantlewood — #81803",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17464,265,2026-09-30,0.0000,500.0000,"CPCI Payroll for september 16-30, 2026 - Oakridge - Finance — #81804",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17465,265,2026-09-30,0.0000,5337.8200,"CPCI Payroll for september 16-30, 2026 - Oakridge Medical Affairs — #81805",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17466,265,2026-09-30,0.0000,8508.0300,"CPCI Payroll for september 16-30, 2026 - Oakridge Operations — #81806",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17467,265,2026-09-30,0.0000,3089.8200,"CPCI Payroll for september 16-30, 2026 - Shared finance — #81807",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17468,265,2026-09-30,0.0000,1389.5000,"CPCI Payroll for september 16-30, 2026 - Shared IT — #81808",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17469,265,2026-09-30,0.0000,3383.5700,"CPCI Payroll for september 16-30, 2026 - Shared - LHRA — #81809",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17470,265,2026-09-30,0.0000,5265.2300,"CPCI Payroll for september 16-30, 2026 - Shared Sales Services — #81810",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17471,265,2026-09-30,0.0000,450.0000,"CPCI Payroll for september 16-30, 2026 - mobile fixed term — #81811",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17472,265,2026-09-30,0.0000,2055.3400,"to record KA/YA payroll Operations, FT support, logistics- Mobile september 16-30 — #81812",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17473,265,2026-09-30,0.0000,440.4300,"CPCI Payroll for september 16-30, 2026 - KA/YA - Consolacion — #81813",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17474,265,2026-09-30,0.0000,440.4300,"CPCI Payroll for september 16-30, 2026 - KA/YA - Mactan — #81814",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17475,265,2026-09-30,0.0000,293.6200,"CPCI Payroll for september 16-30, 2026 - KA/YA - Mantlewood — #81815",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17476,265,2026-09-30,0.0000,587.2400,"CPCI Payroll for september, 2026 - KA/YA - Oakridge — #81816",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17477,265,2026-09-30,0.0000,1321.2900,to record KA/YA payroll MALL & ADMIN september 16-30 — #81817,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,1485,2026-09-30,366999.6400,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17539,173,2026-09-30,25714.2900,0.0000,Biotek Medical & Laboratory Supplies - Vatable: Payment for PMS & Calibration of 16 blood pressure monitors| SI no. 0692 — RFP No.# 7260,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17544,173,2026-09-30,26517.8600,0.0000,"Biotek Medical & Laboratory Supplies - Vatable: Payment for PMS & Calibration of laboratory, clinic, & nurses equipments| SI no. 0689 — RFP No.# 7265",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17543,173,2026-09-30,74821.4300,0.0000,"Biotek Medical & Laboratory Supplies - Vatable: Payment for PMS & Calibration of laboratory, clinic, & nurses equipments| SI no. 0691 — RFP No.# 7264",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17542,173,2026-09-30,23392.8600,0.0000,Biotek Medical & Laboratory Supplies - Vatable: Payment for PMS & Calibration of clinic & nurse station equipments| SI no. 0688 — RFP No.# 7263,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17541,173,2026-09-30,17678.5700,0.0000,"Biotek Medical & Laboratory Supplies - Vatable: Payment for PMS & Calibration of laboratory equipments - Single Channel Pipette, Table Top Centrifuge & Autoclave, and Microscope| SI no. 0690 — RFP No.# 7262",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,173,2026-09-30,0.0000,1341757.1200,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17482,173,2026-09-30,53166.6700,0.0000,RFP No.# 7190 augusto miras to reclass to prepayment uniform — #81832,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17495,173,2026-09-30,0.0000,3726828.0000,to record adjustment of prepayment balance as advised — #82364,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17496,173,2026-09-30,3726828.0000,0.0000,Reversal of: to record adjustment of prepayment balance as advised — #82365,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17416,1193,2026-09-30,0.0000,1144719.0000,Reversal of: To accrue Doctors PF Mactan for the period 2026 august — #81337,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17417,1193,2026-09-30,0.0000,768528.0000,Reversal of: To accrue Doctors PF Consolacion for the period august — #81338,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17418,1193,2026-09-30,0.0000,1015470.0000,Reversal of: To accrue Doctors PF Oakridge for the period 2026 august — #81339,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17447,1193,2026-09-30,1141272.0000,0.0000,To accrue Doctors PF Mactan for the period 2026 september — #81761,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17448,1193,2026-09-30,678546.0000,0.0000,To accrue Doctors PF Consolacion for the period september — #81762,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17486,1193,2026-09-30,0.0000,26685.0000,Reversal of: To accrue Doctors PF Mantlewood for the period 2026 august — #81857,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17487,1193,2026-09-30,44244.0000,0.0000,To accrue Doctors PF Mantlewood for the period 2026 september — #81859,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17491,1193,2026-09-30,984213.0000,0.0000,To accrue Doctors PF Oakridge for the period 2026 september — #81973,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17511,1197,2026-09-30,8560.8600,0.0000,"John Neslie M. Habajab - Nonvat: Payment for Doctor's PF for Radiosono Reliever ftp Aug 23 & 26, 2026 — RFP No.# 7219",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17416,1197,2026-09-30,0.0000,561875.8000,Reversal of: To accrue Doctors PF Mactan for the period 2026 august — #81337,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17417,1197,2026-09-30,0.0000,288155.6000,Reversal of: To accrue Doctors PF Consolacion for the period august — #81338,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17418,1197,2026-09-30,0.0000,522042.6500,Reversal of: To accrue Doctors PF Oakridge for the period 2026 august — #81339,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17447,1197,2026-09-30,463283.4800,0.0000,To accrue Doctors PF Mactan for the period 2026 september — #81761,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17448,1197,2026-09-30,251878.6000,0.0000,To accrue Doctors PF Consolacion for the period september — #81762,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17486,1197,2026-09-30,0.0000,26266.0000,Reversal of: To accrue Doctors PF Mantlewood for the period 2026 august — #81857,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17487,1197,2026-09-30,24982.8000,0.0000,To accrue Doctors PF Mantlewood for the period 2026 september — #81859,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17491,1197,2026-09-30,513105.7500,0.0000,To accrue Doctors PF Oakridge for the period 2026 september — #81973,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17525,1201,2026-09-30,3600.0000,0.0000,"GARGAR, MARY CHRIS SHIVANI - Payment for PCP Reliever for Sept 26, 2026 — RFP No.# 7239",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17524,1201,2026-09-30,12800.0000,0.0000,"LLOYD DELINA - Payment for PCP Reliever for Sept 21, 23, & 25-26, 2026 — RFP No.# 7238",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17526,1201,2026-09-30,7200.0000,0.0000,"Gerardine P. Paculanang - Payment for PCP Reliever for Sept 22 & 24, 2026 — RFP No.# 7240",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17523,1201,2026-09-30,10400.0000,0.0000,"Jade Cloie Tul-id - Payment for PCP Reliever for Sept 23-25, 2026 — RFP No.# 7237",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17522,1201,2026-09-30,3600.0000,0.0000,"KLEAN JEE TRAZO - Payment for PCP Reliever for Sept 24, 2026 — RFP No.# 7236",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17521,1201,2026-09-30,10800.0000,0.0000,"MIKHAELA ALESNA - Payment for PCP Reliever for Sept 21, 23, & 25, 2026 — RFP No.# 7235",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17520,1201,2026-09-30,3600.0000,0.0000,"GWENDEL JOSHUA SANCHEZ - Payment for PCP Reliever for Sept 28, 2026 — RFP No.# 7234",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17519,1201,2026-09-30,14400.0000,0.0000,"KIMBERLY JOYCE MANUBAG - Payment for PCP Reliever for Sept 22-23 & 25-26, 2026 — RFP No.# 7232",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17518,1201,2026-09-30,3600.0000,0.0000,"KAYE DOMINIQUE UY - Payment for PCP Reliever for Sept 22, 2026 — RFP No.# 7231",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17517,1201,2026-09-30,13200.0000,0.0000,"ALISSAH SIGAYA - Payment for PCP Relievers for Sept 3, 10, 17, & 24, 2026 — RFP No.# 7230",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17516,1201,2026-09-30,4400.0000,0.0000,"Dan Samuel Burgos - Payment for PCP Reliever for Sept 21 & 24, 2026 — RFP No.# 7229",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17515,1201,2026-09-30,3600.0000,0.0000,"ELLEN FATIMA CINCO - Payment for PCP Reliever for Sept 25, 2026 — RFP No.# 7224",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17513,1201,2026-09-30,3200.0000,0.0000,"CARLYLE F. ABINUMAN - Payment for PCP Reliever for Sept 26, 2026 — RFP No.# 7221",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17512,1201,2026-09-30,3600.0000,0.0000,"CHEYENNE LOIS CADAYONA - Payment for PCP Reliever for Sept 26, 2026 — RFP No.# 7220",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17527,1201,2026-09-30,3600.0000,0.0000,"BONTIA, MARGAUX KATE - Payment for PCP Reliever for Sept 25, 2026 — RFP No.# 7242",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17535,1201,2026-09-30,3600.0000,0.0000,"AMIRA MASLAMAMA - Payment for PCP Reliever for Sept 23, 2026 — RFP No.# 7251",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17531,1201,2026-09-30,4000.0000,0.0000,"ANSON TOLENTINO GUO - Payment for PCP Reliever for Sept 24, 2026 — RFP No.# 7247",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17530,1201,2026-09-30,1600.0000,0.0000,"CARLYLE F. ABINUMAN - Payment for PCP Reliever for Sept 23, 2026 — RFP No.# 7246",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17529,1201,2026-09-30,7200.0000,0.0000,"CABAJAR, RAZEL - Payment for PCP Reliever for Sept 23 & 25, 2026 — RFP No.# 7245",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17534,1201,2026-09-30,5400.0000,0.0000,"BEBITA, CHERYL ESTRELLA - Nondeductible: Payment for Mobile Reliever (Replenishment) — RFP No.# 7250",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17533,1201,2026-09-30,3690.0000,0.0000,Angeline Muñoz - Nondeductible: Payment for messenger reliever fees (Replenishment) — RFP No.# 7249,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17557,1201,2026-09-30,900.0000,0.0000,Shanesse Angelee Cortes - Payment for KA Meal Allowance for Concentrix - Cebu Exchange Tower Account (Replenishment) — RFP No.# 7281,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17557,1201,2026-09-30,750.0000,0.0000,Shanesse Angelee Cortes - Payment for KA Meal Allowance for Krypton International Account (Replenishment) — RFP No.# 7281,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17557,1201,2026-09-30,600.0000,0.0000,Shanesse Angelee Cortes - Payment for KA Meal Allowance for PAREF Soutchcrest Account (Replenishment) — RFP No.# 7281,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17557,1201,2026-09-30,750.0000,0.0000,Shanesse Angelee Cortes - Payment for KA Meal Allowance for Happeee Transport Account (Replenishment) — RFP No.# 7281,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17557,1201,2026-09-30,150.0000,0.0000,Shanesse Angelee Cortes - Payment for KA Meal Allowance for Cebu Landmasters Inc. Account (Replenishment) — RFP No.# 7281,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17557,1201,2026-09-30,900.0000,0.0000,Shanesse Angelee Cortes - Payment for KA Meal Allowance for Concentrix - FCC Tower Account (Replenishment) — RFP No.# 7281,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17557,1201,2026-09-30,750.0000,0.0000,Shanesse Angelee Cortes - Payment for KA Meal Allowance for AAI Worldwide Logistics Account (Replenishment) — RFP No.# 7281,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17557,1201,2026-09-30,600.0000,0.0000,Shanesse Angelee Cortes - Payment for KA Meal Allowance for Tamiya Phils. Account (Replenishment) — RFP No.# 7281,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17556,1201,2026-09-30,450.0000,0.0000,Shanesse Angelee Cortes - Payment for Mobile Meal Allowance for Concentrix - Cebu Exchange Tower Account (Replenishment) — RFP No.# 7280,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17556,1201,2026-09-30,450.0000,0.0000,Shanesse Angelee Cortes - Payment for Mobile Meal Allowance for Krypton International Account (Replenishment) — RFP No.# 7280,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17556,1201,2026-09-30,2100.0000,0.0000,Shanesse Angelee Cortes - Payment for Mobile Meal Allowance for PAREF Southcrest Account (Replenishment) — RFP No.# 7280,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17556,1201,2026-09-30,1050.0000,0.0000,Shanesse Angelee Cortes - Payment for Mobile Meal Allowance for Hapeee Transport Account (Replenishment) — RFP No.# 7280,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17556,1201,2026-09-30,900.0000,0.0000,Shanesse Angelee Cortes - Payment for Mobile Meal Allowance for Cebu Landmasters Inc. Account (Replenishment) — RFP No.# 7280,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17556,1201,2026-09-30,300.0000,0.0000,Shanesse Angelee Cortes - Payment for Mobile Meal Allowance for Concentrix - FCC Tower Account (Replenishment) — RFP No.# 7280,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17556,1201,2026-09-30,150.0000,0.0000,Shanesse Angelee Cortes - Payment for Mobile Meal Allowance for AAI Worldwide Logistics Account (Replenishment) — RFP No.# 7280,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17556,1201,2026-09-30,450.0000,0.0000,Shanesse Angelee Cortes - Payment for Mobile Meal Allowance for Tamiya Phils. Account (Replenishment) — RFP No.# 7280,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17555,1201,2026-09-30,2000.0000,0.0000,Shanesse Angelee Cortes - Payment of Mobile Relievers for PAREF Southcrest Account (Replenishment) — RFP No.# 7279,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17555,1201,2026-09-30,8775.0000,0.0000,Shanesse Angelee Cortes - Payment of Mobile Relievers for SSG APAC Account (Replenishment) — RFP No.# 7279,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17554,1201,2026-09-30,3600.0000,0.0000,Shanesse Angelee Cortes - Payment for Mobile PCP Relievers for Krypton Account (Replenishment) — RFP No.# 7278,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17554,1201,2026-09-30,7200.0000,0.0000,Shanesse Angelee Cortes - Payment for Mobile PCP Relievers for SSG APAC Account (Replenishment) — RFP No.# 7278,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17553,1201,2026-09-30,7200.0000,0.0000,"Leonor Alessandra Solamillo - Payment for PCP Reliever for Sept 22-23, 2026 — RFP No.# 7276",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17566,1201,2026-09-30,7200.0000,0.0000,"Leonor Alessandra Solamillo - Payment for PCP Reliever for Sept 29-30, 2026 — RFP No.# 7305",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17569,1201,2026-09-30,900.0000,0.0000,Shanesse Angelee Cortes - Payment for KA Meal Allowance for Concentrix - Arcenas Banawa Account (Replenishment) — RFP No.# 7312,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17568,1201,2026-09-30,980.0000,0.0000,Shanesse Angelee Cortes - Payment of Mobile Relievers for Lendy's Laundry Account (Replenishment) — RFP No.# 7311,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17568,1201,2026-09-30,450.0000,0.0000,Shanesse Angelee Cortes - Payment of Mobile Relievers for Concentrix - Arcenas Banawa Account (Replenishment) — RFP No.# 7311,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17567,1201,2026-09-30,7200.0000,0.0000,Shanesse Angelee Cortes - Payment for Mobile PCP Relievers for Tamiya Phils. Account (Replenishment) — RFP No.# 7310,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,909,2026-09-30,4514.1300,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,909,2026-09-30,22514.3700,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,909,2026-09-30,87153.2100,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,909,2026-09-30,41084.8200,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17444,909,2026-09-30,1473.2100,0.0000,Prepayment amortization for September — #81732,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17445,909,2026-09-30,0.0000,5674.6700,Reversal of: to accrue repairs and maintenance august — #81733,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17445,909,2026-09-30,0.0000,3770.6700,Reversal of: to accrue repairs and maintenance august — #81733,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17445,909,2026-09-30,0.0000,2576.0000,Reversal of: to accrue repairs and maintenance august — #81733,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17445,909,2026-09-30,0.0000,2083.3300,Reversal of: to accrue repairs and maintenance august — #81733,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17445,909,2026-09-30,0.0000,2083.3300,Reversal of: to accrue repairs and maintenance august — #81733,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17533,913,2026-09-30,450.0000,0.0000,Angeline Muñoz - Nondeductible: Payment for meal allowance due to MYT Simulation (Replenishment) — RFP No.# 7249,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,17533,913,2026-09-30,1500.0000,0.0000,Angeline Muñoz - Nondeductible: Payment for Clinic Blessing (Replenishment) — RFP No.# 7249,1,0,2026-09-30 23:59:59,0

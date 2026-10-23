@@ -1,0 +1,51 @@
+section,key,label,type,source,sign,notes
+operating,operating_header,CASH FLOWS FROM OPERATING ACTIVITIES,header,—,—,Excel section header. Omitted from JSON.
+operating,income_before_tax,Income (loss) before income tax,line,Posted GL monthly totals for all account_type.financial_statement=profit_and_loss,P&L nature (credit nature = credit-debit; else debit-credit),Proxy for IBT until a tax expense line is mapped. Includes depreciation and interest; those are adjusted on later lines.
+operating,adjustments_header,Adjustments for:,header,—,—,Excel subsection header. Omitted from JSON.
+operating,depreciation,Depreciation and amortization,line,P&L accounts whose name/line/report contains DEPRECIATION or AMORTIZATION,Add back P&L signed amount,CIFI report/line DEPRECIATION on COS; BOC; G&A.
+operating,interest_expense,Interest expense,line,P&L accounts whose name/line/report contains INTEREST EXPENSE (not INTEREST INCOME),Add back P&L signed amount,Also used to compute financing interest_paid.
+operating,retirement_cost,Retirement Cost,line,P&L accounts whose name/line/report contains RETIREMENT,Add back P&L signed amount,0 if no matching account.
+operating,loss_sale_ppe,Loss on sale or disposal of PPE,line,P&L name/line/report contains LOSS and (SALE or DISPOSAL) and PPE,Add back P&L signed amount,0 if no matching account.
+operating,unrealized_fx_loss,Unrealized loss on foreign exchange,line,P&L name/line/report contains UNREALIZED and (LOSS) and (FOREIGN or FOREX or FX or EXCHANGE),Add back P&L signed amount,0 if no matching account.
+operating,bad_debt_expense,Bad debt expense or impairment loss,line,P&L name/line/report contains BAD DEBT or IMPAIRMENT (and not REVERSAL),Add back P&L signed amount,0 if no matching account.
+operating,loss_obsolete_inventory,Loss on obsolete inventory,line,P&L name/line/report contains OBSOLETE and INVENTORY,Add back P&L signed amount,0 if no matching account.
+operating,gain_sale_ppe,Gain on sale or disposal of PPE,line,P&L name/line/report contains GAIN and (SALE or DISPOSAL) and PPE,Deduct P&L signed amount (stored negative),0 if no matching account.
+operating,unrealized_fx_gain,Unrealized gain on foreign exchange,line,P&L name/line/report contains UNREALIZED and GAIN and (FOREIGN or FOREX or FX or EXCHANGE),Deduct P&L signed amount (stored negative),0 if no matching account.
+operating,gain_insurance,Gain on insurance claims,line,P&L name/line/report contains INSURANCE and GAIN,Deduct P&L signed amount (stored negative),0 if no matching account.
+operating,interest_income,Interest income,line,P&L accounts whose name/line/report contains INTEREST INCOME,Deduct P&L signed amount (stored negative),Also used to compute interest_received.
+operating,gain_reversal_bad_debts,Gain on reversal of bad debts expense,line,P&L name/line/report contains REVERSAL and (BAD DEBT or IMPAIRMENT),Deduct P&L signed amount (stored negative),0 if no matching account.
+operating,operating_before_wc,Operating gain (loss) before working capital changes,total,income_before_tax + all adjustment lines,Sum of CF-signed amounts,Excel row 22.
+operating,changes_header,Changes in:,header,—,—,Excel subsection header. Omitted from JSON.
+operating,trade_receivables,Trade receivables,line,BS CIFI line_name=TRADE RECEIVABLES,credit-debit,Asset increase uses cash.
+operating,other_receivables,Other receivables,line,BS CIFI line_name=RECEIVABLE - OTHERS,credit-debit,Asset increase uses cash.
+operating,inventories,Inventories,line,BS CIFI line_name=INVENTORIES,credit-debit,Asset increase uses cash.
+operating,prepaid_and_oca,Prepaid expenses and other current assets,line,BS CIFI PREPAID TAXES / PREPAID EXPENSES or category current_asset/prepayment (not cash/AR/inventory),credit-debit,Same bucket as balance-sheet other_current_assets.
+operating,trade_payables,Trade payables and accrued expenses,line,BS CIFI TRADE PAYABLES + PAYABLE - OTHERS (not ADVANCES - OTHERS) + TAXES PAYABLE / PREMIUMS PAYABLE / PROVISION FOR TAX LIABILITY,credit-debit,Liability increase provides cash.
+operating,other_current_liabilities,Other current liabilities,line,BS CIFI OTHER CURRENT LIABILITIES or LEASE LIABILITY - CURRENT,credit-debit,Liability increase provides cash.
+operating,trust_receipts,Trust Receipts Loans,line,Account name/line contains TRUST RECEIPT,credit-debit,0 if no matching account.
+operating,other_ncl,Other noncurrent liabilities,line,BS CIFI line_name=OTHER NONCURRENT LIABILITIES,credit-debit,Excel parks this under operating changes.
+operating,interest_received,Interest received,formula,+ interest income P&L signed (cash assumed = P&L),Positive of interest_income source,Opposite of the interest_income adjustment line.
+operating,interest_paid_operating,Interest paid,formula,Always 0,0,Excel row 34 is blank for current year; paid interest is under financing.
+operating,net_operating,Net cash provided by operating activities,total,operating_before_wc + WC change lines + interest_received + interest_paid_operating,Sum,Excel row 35.
+investing,investing_header,CASH FLOWS FROM INVESTING ACTIVITIES,header,—,—,Excel section header. Omitted from JSON.
+investing,investing_changes_header,Changes in:,header,—,—,Excel subsection header. Omitted from JSON.
+investing,investments,Investments,line,BS name/line/detail contains INVESTMENT (not PPE),credit-debit,0 if no matching account.
+investing,security_deposits,Security deposits,line,BS name/line/detail contains SECURITY DEPOSIT,credit-debit,0 if no matching account.
+investing,ppe_acquisitions,Acquisitions/additions to PPE,formula,"-(Δ net PPE + depreciation add-back). Net PPE = CIFI line PPE or RIGHT-OF USE; Δ = credit-debit",credit-debit on PPE minus depreciation YTD,Avoids double-counting accum-dep / dep expense. No disposal proceeds split yet.
+investing,proceeds_insurance,Proceeds from insurance claim,line,P&L/BS name contains INSURANCE and (PROCEED or CLAIM) and not GAIN,credit-debit or +P&L if cash line,0 if no matching account. Gain on insurance stays in operating adjustments.
+investing,dividends_received,Dividends received,line,P&L name/line/report contains DIVIDEND and RECEIV, +P&L signed,0 if no matching account.
+investing,net_investing,Net cash provided by (used in) investing activities,total,investments + security_deposits + ppe_acquisitions + proceeds_insurance + dividends_received,Sum,Excel row 43.
+financing,financing_header,CASH FLOWS FROM FINANCING ACTIVITIES,header,—,—,Excel section header. Omitted from JSON.
+financing,bank_loans,Net proceeds (repayment) of bank notes/loans,line,BS CIFI SHORT TERM LOANS + LONG TERM LOANS,credit-debit,Liability increase is inflow.
+financing,common_shares,Common Shares,line,BS CIFI PAID UP CAPITAL and name/detail does not contain PREFERRED,credit-debit,Equity increase is inflow.
+financing,preferred_shares,Preferred Shares,line,BS CIFI PAID UP CAPITAL and name/detail contains PREFERRED,credit-debit,0 if no matching account.
+financing,advances_stockholders,Advances from stockholders,line,BS CIFI PAYABLE - OTHERS and detail ADVANCES - OTHERS (due to related parties),credit-debit,Same mapping as balance-sheet due_to_related_parties.
+financing,interest_paid,Interest paid,formula,- interest expense P&L signed,Negative of interest_expense,Excel row 49.
+financing,dividends_paid,Dividends paid,line,P&L/equity name contains DIVIDEND and PAID,debit-credit (outflow),0 if no matching account.
+financing,net_financing,Net cash provided by financing activities,total,bank_loans + common_shares + preferred_shares + advances_stockholders + interest_paid + dividends_paid,Sum,Excel row 51.
+cash,net_increase,NET INCREASE (DECREASE) IN CASH AND CASH EQUIVALENTS,total,net_operating + net_investing + net_financing,Sum,Excel row 52. Each month cell is YTD from date_from.
+cash,beginning_cash,CASH AND CASH EQUIVALENTS AT BEGINNING OF PERIOD,line,BS CIFI CASH AND CASH EQUIVALENTS signed balance for posted dates before date_from,P&L/BS nature (cash is debit nature: debit-credit),Same value on every month column.
+cash,ending_cash,CASH AND CASH EQUIVALENTS AT END OF PERIOD,formula,beginning_cash + net_increase,Sum,Excel row 54.
+meta,columns,Month columns,formula,Months that intersect date_from..date_to,label M-Y e.g. Jan-2026,Each cell is YTD from date_from through that month (last month clipped by date_to).
+meta,branch_id,Optional clinic filter,formula,1 mobile / 2 oakridge / 3 mactan / 4 consolacion / 7 mantlewood,—,Omit to sum all five clinics.
+meta,runtime,Posted GL only,formula,General_ledger::get_posted_monthly_totals + get_posted_account_totals_before,—,No journal dump. COA from Account_type::get_balance_sheet_accounts plus P&L report_name.

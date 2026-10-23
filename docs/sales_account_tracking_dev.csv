@@ -1,0 +1,137 @@
+tab,level,api_field,excel_header,database,source_table,source_column,query_or_formula,notes
+dashboard,sales_person,sales_person_id,,mytemr_master,request,added_by,request.added_by AS sales_person_id,One API row per sales person (request creator)
+dashboard,sales_person,sales_person_name,,mytemr_master,user,first_name last_name middle_name,CONCAT_WS('' first_name last_name middle_name) WHERE user.id = request.added_by,Empty separator: names are concatenated with no spaces
+dashboard,sales_person,companies,,n/a,n/a,n/a,Nested array built in PHP _build_sales_tracker_companies(),One company object per company under this sales person
+dashboard,sales_person,inquiry_count,,mytemr_master,request,id,SUM of company inquiry_count; each is COUNT(DISTINCT request.id) WHERE request.is_deleted=0 AND DATE(request.added_on) BETWEEN date_from AND date_to,Inquiry stage uses request.added_on
+dashboard,sales_person,inquiry_headcount,,mytemr_master,request,estimated_headcount,SUM(request.estimated_headcount) for the same inquiry-stage requests,
+dashboard,sales_person,inquiry_revenue,,mytemr_master,costing,estimated_revenue_total,SUM(latest costing.estimated_revenue_total) joined via MAX(version_no) per request_id,Latest costing version only
+dashboard,sales_person,endorsement_count,,mytemr_master,endorsement,request_id,COUNT(DISTINCT endorsement.request_id) after grouping endorsements by request_id; DATE(endorsement.added_on) in range,
+dashboard,sales_person,endorsement_headcount,,mytemr_master,endorsement,guaranteed_headcount,SUM(endorsement.guaranteed_headcount) first grouped by request_id then summed,
+dashboard,sales_person,endorsement_revenue,,mytemr_master,costing,estimated_revenue_total,SUM(latest costing.estimated_revenue_total) for those endorsed request ids,Latest costing version only
+dashboard,sales_person,delivered_count,,branch DBs + mytemr_master,transaction / endorsement,endorsement_id,COUNT distinct endorsement.id that have a branch transaction.endorsement_id (DATE(transaction_date) in range),Branches queried separately: mobile oakridge mactan consolacion mantlewood
+dashboard,sales_person,delivered_headcount,,branch DBs,booking,patient_id,COUNT(DISTINCT booking.patient_id) joined via transaction.endorsement_id then summed per endorsement,Per-endorsement then summed in PHP
+dashboard,sales_person,delivered_revenue,,mytemr_master,costing,estimated_revenue_total,SUM(latest costing.estimated_revenue_total) once per delivered request_id,One revenue per request even if multiple endorsements delivered
+dashboard,sales_person,cancelled_count,,mytemr_master,costing / request,status,"COUNT(DISTINCT request.id) WHERE (latest costing.status IN ('disapproved','returned')) OR (no costing AND request.status IN ('disapproved','returned')); date uses costing/request disapproved_on or returned_on",Latest costing version only — older disapproved versions do not cancel an approved latest costing
+dashboard,sales_person,cancelled_headcount,,mytemr_master,request,estimated_headcount,SUM(request.estimated_headcount) for cancelled requests,
+dashboard,sales_person,cancelled_revenue,,mytemr_master,costing,estimated_revenue_total,SUM(latest costing.estimated_revenue_total) for cancelled requests,
+dashboard,sales_person,average_lapse_time,,mytemr_master,request / endorsement,added_on,ROUND(SUM(TIMESTAMPDIFF(HOUR request.added_on first_endorsement.added_on)/24) / COUNT(DISTINCT request.id) 2),Days from inquiry to first endorsement; 0 if no endorsed requests
+dashboard,company,company_id,,mytemr_master,request,company_id,request.company_id,
+dashboard,company,company_name,,mytemr_master,company,name,company.name WHERE company.id = request.company_id,
+dashboard,company,average_lapse_time,,mytemr_master,request / endorsement,added_on,Same lapse formula as sales person scoped to this company,
+dashboard,company,inquiry_request_ids,,mytemr_master,request,id,"GROUP_CONCAT(DISTINCT request.id ORDER BY request.id SEPARATOR ', ')",Inquiry-stage request ids
+dashboard,company,endorsement_request_ids,,mytemr_master,endorsement,request_id,"GROUP_CONCAT(DISTINCT endorsement.request_id ORDER BY request_id SEPARATOR ', ')",
+dashboard,company,delivered_request_ids,,mytemr_master,request,id,"PHP implode(', ' array_keys(request_ids)) after matching branch transactions to endorsements",
+dashboard,company,cancelled_request_ids,,mytemr_master,request,id,"GROUP_CONCAT(DISTINCT request.id ORDER BY request.id SEPARATOR ', ')",Same cancelled rule as cancelled_count
+dashboard,company,inquiry_count,,mytemr_master,request,id,COUNT(DISTINCT request.id) DATE(request.added_on) in range,
+dashboard,company,inquiry_headcount,,mytemr_master,request,estimated_headcount,SUM(request.estimated_headcount),
+dashboard,company,inquiry_revenue,,mytemr_master,costing,estimated_revenue_total,SUM(latest costing.estimated_revenue_total),
+dashboard,company,endorsement_count,,mytemr_master,endorsement,request_id,COUNT(DISTINCT endorsement.request_id) DATE(endorsement.added_on) in range,
+dashboard,company,endorsement_headcount,,mytemr_master,endorsement,guaranteed_headcount,SUM(endorsement.guaranteed_headcount) grouped by request then company,
+dashboard,company,endorsement_revenue,,mytemr_master,costing,estimated_revenue_total,SUM(latest costing.estimated_revenue_total),
+dashboard,company,delivered_count,,branch DBs + mytemr_master,transaction / endorsement,endorsement_id,COUNT distinct endorsement.id with a branch transaction,
+dashboard,company,delivered_headcount,,branch DBs,booking,patient_id,COUNT(DISTINCT booking.patient_id) per endorsement then summed,
+dashboard,company,delivered_revenue,,mytemr_master,costing,estimated_revenue_total,SUM latest costing revenue once per delivered request_id,
+dashboard,company,cancelled_count,,mytemr_master,costing / request,status,COUNT(DISTINCT request.id) latest costing or request disapproved/returned,
+dashboard,company,cancelled_headcount,,mytemr_master,request,estimated_headcount,SUM(request.estimated_headcount),
+dashboard,company,cancelled_revenue,,mytemr_master,costing,estimated_revenue_total,SUM(latest costing.estimated_revenue_total),
+tracker,line,line_id,,mytemr_master,endorsement_service / request_service,id,service_line.id,endorsement_service if endorsed; else request_service
+tracker,line,line_source,,n/a,n/a,n/a,Literal 'endorsement_service' or 'request_service',Which UNION arm produced the row
+tracker,line,request_id,,mytemr_master,request,id,request.id,
+tracker,line,endorsement_id,,mytemr_master,endorsement,id,endorsement.id,NULL on inquiry and cancelled request_service arms
+tracker,line,inq_year,INQ - YEAR,mytemr_master,request,added_on,YEAR(request.added_on),
+tracker,line,inq_month,INQ - MONTH,mytemr_master,request,added_on,MONTH(request.added_on),
+tracker,line,inquiry_date,INQUIRY DATE,mytemr_master,request,added_on,request.added_on,Tracker date filter uses DATE(request.added_on)
+tracker,line,cancelled,CANCELLED,mytemr_master,request / endorsement,disapproved_on / returned_on,CASE request/endorsement status disapproved -> disapproved_on; returned -> returned_on; else NULL,NULL if not cancelled or returned
+tracker,line,endorsed_date,ENDORSED DATE,mytemr_master,endorsement,added_on,endorsement.added_on,NULL if no endorsement
+tracker,line,lapse_time,LAPSE TIME (INQ - ENDRS),mytemr_master,request / endorsement,added_on,TIMESTAMPDIFF(HOUR request.added_on endorsement.added_on) / 24 rounded to 2,Fractional days; NULL if not endorsed
+tracker,line,clinic_transaction_delivered,CLINIC TRANSACTION DELIVERED,mytemr_master + branch DBs,endorsement / transaction,clinic_activity_date_from / transaction_date,COALESCE(endorsement.clinic_activity_date_from MIN(transaction.transaction_date) across branches),
+tracker,line,start_of_mobile_date,START OF MOBILE DATE,mytemr_master,endorsement,mobile_activity_date_from,endorsement.mobile_activity_date_from,
+tracker,line,end_of_mobile_date,END OF MOBILE DATE,mytemr_master,endorsement,mobile_activity_date_to,endorsement.mobile_activity_date_to,
+tracker,line,mobile_agreed_tat,MOBILE AGREED TAT,mytemr_master,endorsement,ape_results_tat,endorsement.ape_results_tat,Stored as varchar; may be a date string
+tracker,line,mobile_actual_tat,MOBILE ACTUAL TAT,mytemr_master,endorsement,completion_date,endorsement.completion_date,
+tracker,line,agreed_tat,AGREED TAT,mytemr_master,endorsement,results_tat,endorsement.results_tat,
+tracker,line,actual_tat,ACTUAL TAT,mytemr_master,endorsement,demographics_report_date,endorsement.demographics_report_date,
+tracker,line,tat_status,TAT STATUS,computed,n/a,n/a,MET if parsed actual_tat <= agreed_tat; if Delivered and actual missing compare last transaction_date vs agreed_tat; else UNMET,NULL if Cancelled or dates unparseable
+tracker,line,status,STATUS,computed,request / endorsement / transaction,status,Cancelled if request or endorsement status in (disapproved returned); else Delivered if any branch transaction exists; else Endorsed if endorsed_date; else Inquiry,
+tracker,line,sae,SAE,mytemr_master,user,first_name,user.first_name WHERE user.id = request.sae_in_charge_id,First name only
+tracker,line,clinic_management_provider,CLINIC MANAGEMENT PROVIDER,mytemr_master,company,name,company.name when service_line.charge_to='COMPANY' AND FIND_IN_SET(company.id service_line.charge_to_ids),
+tracker,line,hmo_provider,HMO PROVIDER,mytemr_master,company / request,name / hmo_account_name,COALESCE(hmo_company.name request.hmo_account_name) when request.mode_of_payment='HMO' OR service_line.charge_to='HMO',hmo_company via request.customer_account_id
+tracker,line,area,AREA (City/Municipality),mytemr_master,company,city_municipality,company.city_municipality,
+tracker,line,classification,CLASSIFICATION,mytemr_master,request,classification,request.classification,
+tracker,line,industry,INDUSTRY,mytemr_master,company,industry,company.industry,
+tracker,line,company_name,COMPANY NAME,mytemr_master,company,name,company.name WHERE company.id = request.company_id,
+tracker,line,charge_to,CHARGE TO,mytemr_master,endorsement_service / request_service / request,charge_to / mode_of_payment,COALESCE(service_line.charge_to request.mode_of_payment),
+tracker,line,preferred_branch,PREFERRED BRANCH,mytemr_master,branch,name,branch.name WHERE branch.id = request.preferred_branch_id,
+tracker,line,transaction_type,TRANSACTION TYPE,mytemr_master,request,transaction_type,request.transaction_type,
+tracker,line,description_of_service,DESCRIPTION OF SERVICE,mytemr_master,category / package,name / type,COALESCE(parent_category.name package.type category.name),
+tracker,line,package_name,PACKAGE NAME,mytemr_master,endorsement / package / lab_test,package_name / name,Endorsed: COALESCE(endorsement.package_name package.name lab_test.name); inquiry/cancelled: COALESCE(package.name lab_test.name),
+tracker,line,est_headcount,EST. HEADCOUNT,mytemr_master,endorsement_service / costing_service / request_service,head_count,Endorsed: endorsement_service.head_count; else COALESCE(costing_service.head_count request_service.head_count),costing_service matched on latest costing + same type/type_id
+tracker,line,package_cost,PACKAGE COST,mytemr_master,endorsement_service / costing_service / request_service,cost / type_cost,Endorsed: endorsement_service.cost; else COALESCE(costing_service.cost request_service.type_cost),
+tracker,line,package_price,PACKAGE PRICE,mytemr_master,endorsement_service / costing_service / request_service,type_price,Endorsed: endorsement_service.type_price; else COALESCE(costing_service.type_price request_service.type_price),
+tracker,line,est_cost,EST. COST,mytemr_master,endorsement_service / costing_service,total_cost_amount_total,Endorsed: endorsement_service.total_cost_amount_total; else COALESCE(costing_service.total_cost_amount_total 0),
+tracker,line,est_gross_sales,EST. GROSS SALES,mytemr_master,endorsement_service / costing_service,estimated_revenue,Endorsed: endorsement_service.estimated_revenue; else COALESCE(costing_service.estimated_revenue 0),
+tracker,line,gross_margin,GROSS MARGIN,mytemr_master,endorsement_service / costing_service,estimated_margin_amount_total,Endorsed: endorsement_service.estimated_margin_amount_total; else COALESCE(costing_service.estimated_margin_amount_total 0),
+tracker,line,gross_margin_pct,GROSS MARGIN %,computed,n/a,n/a,ROUND(gross_margin / est_gross_sales 4),0 if est_gross_sales is 0
+tracker,line,average_check,AVERAGE CHECK,mytemr_master,endorsement_service / costing_service / request_service,type_price,Same source as package_price,
+tracker,line,act_headcount,ACT. HEADCOUNT,branch DBs,booking,patient_id,COUNT(DISTINCT booking.patient_id) for the endorsement_id across branches,0 if no branch transactions; shared by all lines of the same endorsement
+tracker,line,cost,COST,computed,n/a,n/a,act_headcount * package_cost if both > 0 else 0,Estimated actual cost
+tracker,line,gross_sales,GROSS SALES,branch DBs,booking_details,price,SUM(booking_details.price) WHERE is_billed_externally=1 AND bd.endorsement_id matches,0 when none
+tracker,line,gross_margin_actual,GROSS MARGIN (actual),computed,n/a,n/a,gross_sales - cost,
+tracker,line,gross_margin_pct_actual,GROSS MARGIN % (actual),computed,n/a,n/a,ROUND(gross_margin_actual / gross_sales 4),0 if no actual sales
+tracker,line,average_check_actual,AVERAGE CHECK (actual),computed,n/a,n/a,ROUND(gross_sales / act_headcount 2),0 if no actual headcount
+tracker,line,compliance_php,"COMPLIANCE, PHP",computed,n/a,n/a,Equals gross_sales (SUM of billed-externally booking_details.price),Not a separate query
+tracker,line,compliance_pct,COMPLIANCE %,computed,n/a,n/a,ROUND(gross_sales / est_gross_sales 4),0 if no estimated sales
+tracker,line,remarks,REMARKS,mytemr_master,request / endorsement,remarks,Endorsed: COALESCE(request.remarks endorsement.remarks); inquiry/cancelled: request.remarks,
+running,line,line_id,,mytemr_master,endorsement_service,id,endorsement_service.id,Endorsed lines only — empty data when no endorsements exist
+running,line,line_source,,n/a,n/a,n/a,Literal 'endorsement_service',
+running,line,request_id,,mytemr_master,request,id,request.id,
+running,line,endorsement_id,,mytemr_master,endorsement,id,endorsement.id,
+running,line,endorsed_date,ENDORSED DATE,mytemr_master,endorsement,added_on,endorsement.added_on,Running date filter uses DATE(endorsement.added_on)
+running,line,clinic_transaction_delivered,CLINIC TRANSACTION DELIVERED,mytemr_master + branch DBs,endorsement / transaction,clinic_activity_date_from / transaction_date,COALESCE(endorsement.clinic_activity_date_from MIN(transaction.transaction_date)),
+running,line,start_of_mobile_date,START OF MOBILE DATE,mytemr_master,endorsement,mobile_activity_date_from,endorsement.mobile_activity_date_from,
+running,line,end_of_mobile_date,END OF MOBILE DATE,mytemr_master,endorsement,mobile_activity_date_to,endorsement.mobile_activity_date_to,
+running,line,internal_tat,INTERNAL TAT,mytemr_master,endorsement,demographics_report_date,endorsement.demographics_report_date,Same source as tracker actual_tat
+running,line,client_agreed_tat,CLIENT AGREED TAT,mytemr_master,endorsement,results_tat,endorsement.results_tat,Same source as tracker agreed_tat
+running,line,mobile_result_delivered_date,MOBILE RESULT DELIVERED DATE,mytemr_master,endorsement,completion_date,endorsement.completion_date,Same source as tracker mobile_actual_tat
+running,line,status_of_delivery,STATUS OF DELIVERY (MET OR UNMET),computed,n/a,n/a,Same TAT rule as tracker tat_status,MET UNMET or null
+running,line,company_name,COMPANY NAME,mytemr_master,company,name,company.name,
+running,line,package_name,PACKAGE NAME,mytemr_master,endorsement / package / lab_test,package_name / name,COALESCE(endorsement.package_name package.name lab_test.name),
+running,line,transaction_type,TRANSACTION TYPE,mytemr_master,request,transaction_type,request.transaction_type,
+running,line,description_of_service,DESCRIPTION OF SERVICE,mytemr_master,category / package,name / type,COALESCE(parent_category.name package.type category.name),
+running,line,status,STATUS,computed,request / endorsement / transaction,status,Same PHP resolver as tracker (Cancelled / Delivered / Endorsed / Inquiry),
+running,line,est_headcount,EST. HEADCOUNT,mytemr_master,endorsement_service,head_count,endorsement_service.head_count,
+running,line,package_cost,PACKAGE COST,mytemr_master,endorsement_service,cost,endorsement_service.cost,
+running,line,package_price,PACKAGE PRICE,mytemr_master,endorsement_service,type_price,endorsement_service.type_price,
+running,line,updated_package_price,UPDATED PACKAGE PRICE,mytemr_master,endorsement_service,pre_negotiated_rate,COALESCE(endorsement_service.pre_negotiated_rate endorsement_service.type_price),
+running,line,est_cost,EST. COST,mytemr_master,endorsement_service,total_cost_amount_total,endorsement_service.total_cost_amount_total,
+running,line,est_gross_sales,EST. GROSS SALES,mytemr_master,endorsement_service,estimated_revenue,endorsement_service.estimated_revenue,
+running,line,gross_margin,GROSS MARGIN,mytemr_master,endorsement_service,estimated_margin_amount_total,endorsement_service.estimated_margin_amount_total,
+running,line,census,CENSUS,branch DBs,booking,patient_id,COUNT(DISTINCT booking.patient_id) for endorsement_id,Shared across package lines of the same endorsement
+running,line,amount,AMOUNT,branch DBs,booking_details,price,SUM(booking_details.price) WHERE is_billed_externally=1,Same endorsement grain as census
+running,line,compliance_in_sales,COMPLIANCE in Sales,computed,n/a,n/a,ROUND(amount / est_gross_sales 4),0 if no estimated sales
+running,line,monthly_census,,branch DBs,booking / transaction,patient_id / transaction_date,Object of jan–dec; each month is COUNT(DISTINCT patient_id) from billed-externally booking_details grouped by MONTH(transaction.transaction_date),Keys always jan–dec even if a month has 0
+running,line,monthly_census.jan,JAN (census),branch DBs,booking / transaction,patient_id / transaction_date,COUNT(DISTINCT booking.patient_id) WHERE MONTH(transaction_date)=1 AND booking_details.is_billed_externally=1,
+running,line,monthly_census.feb,FEB (census),branch DBs,booking / transaction,patient_id / transaction_date,COUNT(DISTINCT booking.patient_id) WHERE MONTH(transaction_date)=2 AND booking_details.is_billed_externally=1,
+running,line,monthly_census.mar,MAR (census),branch DBs,booking / transaction,patient_id / transaction_date,COUNT(DISTINCT booking.patient_id) WHERE MONTH(transaction_date)=3 AND booking_details.is_billed_externally=1,
+running,line,monthly_census.apr,APR (census),branch DBs,booking / transaction,patient_id / transaction_date,COUNT(DISTINCT booking.patient_id) WHERE MONTH(transaction_date)=4 AND booking_details.is_billed_externally=1,
+running,line,monthly_census.may,MAY (census),branch DBs,booking / transaction,patient_id / transaction_date,COUNT(DISTINCT booking.patient_id) WHERE MONTH(transaction_date)=5 AND booking_details.is_billed_externally=1,
+running,line,monthly_census.jun,JUN (census),branch DBs,booking / transaction,patient_id / transaction_date,COUNT(DISTINCT booking.patient_id) WHERE MONTH(transaction_date)=6 AND booking_details.is_billed_externally=1,
+running,line,monthly_census.jul,JUL (census),branch DBs,booking / transaction,patient_id / transaction_date,COUNT(DISTINCT booking.patient_id) WHERE MONTH(transaction_date)=7 AND booking_details.is_billed_externally=1,
+running,line,monthly_census.aug,AUG (census),branch DBs,booking / transaction,patient_id / transaction_date,COUNT(DISTINCT booking.patient_id) WHERE MONTH(transaction_date)=8 AND booking_details.is_billed_externally=1,
+running,line,monthly_census.sep,SEP (census),branch DBs,booking / transaction,patient_id / transaction_date,COUNT(DISTINCT booking.patient_id) WHERE MONTH(transaction_date)=9 AND booking_details.is_billed_externally=1,
+running,line,monthly_census.oct,OCT (census),branch DBs,booking / transaction,patient_id / transaction_date,COUNT(DISTINCT booking.patient_id) WHERE MONTH(transaction_date)=10 AND booking_details.is_billed_externally=1,
+running,line,monthly_census.nov,NOV (census),branch DBs,booking / transaction,patient_id / transaction_date,COUNT(DISTINCT booking.patient_id) WHERE MONTH(transaction_date)=11 AND booking_details.is_billed_externally=1,
+running,line,monthly_census.dec,DEC (census),branch DBs,booking / transaction,patient_id / transaction_date,COUNT(DISTINCT booking.patient_id) WHERE MONTH(transaction_date)=12 AND booking_details.is_billed_externally=1,
+running,line,monthly_amount,,branch DBs,booking_details / transaction,price / transaction_date,Object of jan–dec; each month is SUM(booking_details.price) WHERE is_billed_externally=1 grouped by MONTH(transaction.transaction_date),Keys always jan–dec even if a month has 0
+running,line,monthly_amount.jan,JAN (amount),branch DBs,booking_details / transaction,price / transaction_date,SUM(booking_details.price) WHERE MONTH(transaction_date)=1 AND is_billed_externally=1,
+running,line,monthly_amount.feb,FEB (amount),branch DBs,booking_details / transaction,price / transaction_date,SUM(booking_details.price) WHERE MONTH(transaction_date)=2 AND is_billed_externally=1,
+running,line,monthly_amount.mar,MAR (amount),branch DBs,booking_details / transaction,price / transaction_date,SUM(booking_details.price) WHERE MONTH(transaction_date)=3 AND is_billed_externally=1,
+running,line,monthly_amount.apr,APR (amount),branch DBs,booking_details / transaction,price / transaction_date,SUM(booking_details.price) WHERE MONTH(transaction_date)=4 AND is_billed_externally=1,
+running,line,monthly_amount.may,MAY (amount),branch DBs,booking_details / transaction,price / transaction_date,SUM(booking_details.price) WHERE MONTH(transaction_date)=5 AND is_billed_externally=1,
+running,line,monthly_amount.jun,JUN (amount),branch DBs,booking_details / transaction,price / transaction_date,SUM(booking_details.price) WHERE MONTH(transaction_date)=6 AND is_billed_externally=1,
+running,line,monthly_amount.jul,JUL (amount),branch DBs,booking_details / transaction,price / transaction_date,SUM(booking_details.price) WHERE MONTH(transaction_date)=7 AND is_billed_externally=1,
+running,line,monthly_amount.aug,AUG (amount),branch DBs,booking_details / transaction,price / transaction_date,SUM(booking_details.price) WHERE MONTH(transaction_date)=8 AND is_billed_externally=1,
+running,line,monthly_amount.sep,SEP (amount),branch DBs,booking_details / transaction,price / transaction_date,SUM(booking_details.price) WHERE MONTH(transaction_date)=9 AND is_billed_externally=1,
+running,line,monthly_amount.oct,OCT (amount),branch DBs,booking_details / transaction,price / transaction_date,SUM(booking_details.price) WHERE MONTH(transaction_date)=10 AND is_billed_externally=1,
+running,line,monthly_amount.nov,NOV (amount),branch DBs,booking_details / transaction,price / transaction_date,SUM(booking_details.price) WHERE MONTH(transaction_date)=11 AND is_billed_externally=1,
+running,line,monthly_amount.dec,DEC (amount),branch DBs,booking_details / transaction,price / transaction_date,SUM(booking_details.price) WHERE MONTH(transaction_date)=12 AND is_billed_externally=1,

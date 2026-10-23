@@ -1,0 +1,192 @@
+{
+  "info": {
+    "_postman_id": "d1e2f3a4-b5c6-7890-def1-234567890abc",
+    "name": "Depreciation Entries",
+    "description": "# Depreciation Entries API\n\nBranch-scoped CRUD for `depreciation_entry` and `depreciation_entry_item`. Uses `cost_center_id` to select the clinic database.\n\n## Auth\n- Header: `API-KEY` (required)\n- Query/body: `token`, `requester` (required on all endpoints)\n\n## Cost center (branch) IDs\n| cost_center_id | Clinic |\n|----------------|--------|\n| 1 | Mobile |\n| 2 | Oakridge |\n| 3 | Mactan |\n| 4 | Consolacion |\n| 7 | Mantlewood |\n\n## Parent fields\n- `accounts_payable_voucher_id` — optional; when sent, must exist on the same branch DB\n\n## Item fields (kept alongside existing journal-style fields)\n- Existing: `asset_id`, `account_type_id`, `cost_center_id`, `debit`, `credit`, `remarks`\n- New: `useful_life_months`, `start_date`, `debit_account_type_id`, `credit_account_type_id`, `amount` (price), `serial_number`, `asset_tag_number`\n- `end_date` is **computed server-side** from `start_date + useful_life_months`; do not submit it\n- When `amount` is sent and `debit`/`credit` are empty, both default to `amount` for parent totals\n\n## Asset from receipt note (no asset_id)\nIf `asset_id` is omitted, send `name` and `item_id` (receipt-note catalog item). The API reuses a branch `asset` with the same `item_id`, or inserts one on **this clinic DB only** (not synced to other branches). Run `sql/asset_item_id.sql` first. See `docs/depreciation_assets.md`.\n\n## Status\nUpdate blocked when status is `approved`. Use `change_status` for `approved` / `disapproved`.\n\n## Asset depreciation report\n`GET /depreciation_entries/get_asset_depreciation_report` — manager view per item with computed monthly/accumulated/NBV as of `as_of_date`.\n\n## Request body format\n- **GET** — query params\n- **POST** — multipart form-data (`items` as JSON string in form field)\n",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "base_url", "value": "http://localhost/cpci-business-ops-api" },
+    { "key": "api_key", "value": "clinicaRiKOYqlwdTJ-lNedqS0k-it!395!-6ls1JXM7Vcc" },
+    { "key": "token", "value": "{{token}}" },
+    { "key": "requester", "value": "1" },
+    { "key": "cost_center_id", "value": "2" },
+    { "key": "depreciation_entry_id", "value": "1" },
+    { "key": "accounts_payable_voucher_id", "value": "1" },
+    { "key": "debit_account_type_id", "value": "1" },
+    { "key": "credit_account_type_id", "value": "1" }
+  ],
+  "item": [
+    {
+      "name": "Get depreciation entries",
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "url": {
+          "raw": "{{base_url}}/depreciation_entries/get?token={{token}}&requester={{requester}}&cost_center_id={{cost_center_id}}",
+          "host": ["{{base_url}}"],
+          "path": ["depreciation_entries", "get"],
+          "query": [
+            { "key": "token", "value": "{{token}}" },
+            { "key": "requester", "value": "{{requester}}" },
+            { "key": "cost_center_id", "value": "{{cost_center_id}}" },
+            { "key": "depreciation_entry_id", "value": "{{depreciation_entry_id}}", "disabled": true },
+            { "key": "status", "value": "pending", "disabled": true },
+            { "key": "term", "value": "", "disabled": true },
+            { "key": "page", "value": "1", "disabled": true },
+            { "key": "data_size", "value": "20", "disabled": true }
+          ]
+        },
+        "description": "## GET `/depreciation_entries/get`\n\nList depreciation entries for a cost center. Each row includes nested `items` with account type names and computed `end_date`.\n"
+      }
+    },
+    {
+      "name": "Get asset depreciation report",
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "url": {
+          "raw": "{{base_url}}/depreciation_entries/get_asset_depreciation_report?token={{token}}&requester={{requester}}&cost_center_id={{cost_center_id}}",
+          "host": ["{{base_url}}"],
+          "path": ["depreciation_entries", "get_asset_depreciation_report"],
+          "query": [
+            { "key": "token", "value": "{{token}}" },
+            { "key": "requester", "value": "{{requester}}" },
+            { "key": "cost_center_id", "value": "{{cost_center_id}}" },
+            { "key": "as_of_date", "value": "2026-08-28", "disabled": true, "description": "Y-m-d; default today" },
+            { "key": "depreciation_entry_id", "value": "{{depreciation_entry_id}}", "disabled": true },
+            { "key": "asset_id", "value": "1", "disabled": true },
+            { "key": "status", "value": "approved", "disabled": true },
+            { "key": "term", "value": "", "disabled": true },
+            { "key": "page", "value": "1", "disabled": true },
+            { "key": "data_size", "value": "20", "disabled": true }
+          ]
+        },
+        "description": "## GET `/depreciation_entries/get_asset_depreciation_report`\n\nManager view: one row per `depreciation_entry_item` as of `as_of_date` (default today).\n\n### Formulas\n- Monthly depreciation = acquisition cost ÷ useful life (months)\n- Months elapsed = TIMESTAMPDIFF from `start_date` to `as_of_date`, min 0, capped at useful life\n- Accumulated depreciation = FLOOR(monthly × months elapsed), capped at acquisition cost\n- Net book value = acquisition cost − accumulated depreciation\n\n### Manager columns\n`asset_name`, `supplier_name`, `acquisition_cost`, `useful_life_months`, `monthly_depreciation`, `accumulated_depreciation`, `net_book_value`\n\n`supplier_name` comes from `accounts_payable_voucher_id` → receipt note (`type=receipt_note`) → `receipt_note.supplier_id` → master `supplier.name`. Null when there is no APV, the APV is not a receipt note, or the supplier is missing.\n\n### Tracing columns\n`depreciation_entry_item_id`, `depreciation_entry_id`, `asset_id`, `serial_number`, `asset_tag_number`, `start_date`, `end_date`, `months_elapsed`, `as_of_date`, `cost_center_id`, `accounts_payable_voucher_id`, `supplier_name`, `status`, debit/credit account type id and name\n"
+      }
+    },
+    {
+      "name": "Create depreciation entry",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "token", "value": "{{token}}", "type": "text" },
+            { "key": "requester", "value": "{{requester}}", "type": "text" },
+            { "key": "cost_center_id", "value": "{{cost_center_id}}", "type": "text" },
+            { "key": "date", "value": "2026-08-27", "type": "text" },
+            { "key": "remarks", "value": "Asset depreciation batch", "type": "text" },
+            { "key": "accounts_payable_voucher_id", "value": "{{accounts_payable_voucher_id}}", "type": "text", "description": "Optional; must exist on branch DB" },
+            {
+              "key": "items",
+              "value": "[{\"name\":\"Sysmex HISCL 800\",\"item_id\":\"123\",\"cost_center_id\":\"2\",\"amount\":\"10000.00\",\"useful_life_months\":\"60\",\"start_date\":\"2026-06-01\",\"debit_account_type_id\":\"1\",\"credit_account_type_id\":\"2\",\"serial_number\":\"SN-001\",\"asset_tag_number\":\"TAG-001\",\"remarks\":\"From receipt note\"}]",
+              "type": "text",
+              "description": "JSON array. Omit asset_id and send name + item_id to create/reuse a branch-local asset. Or send asset_id if it already exists."
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/depreciation_entries/create",
+          "host": ["{{base_url}}"],
+          "path": ["depreciation_entries", "create"]
+        },
+        "description": "## POST `/depreciation_entries/create`\n\nRequires `cost_center_id`. Optional `accounts_payable_voucher_id`. Item `amount` defaults debit/credit when those are omitted.\n\nEach item must have `asset_id`, **or** `name` + `item_id` (receipt note). Missing `asset_id` reuses a branch asset with that `item_id` or inserts one on this clinic DB only.\n"
+      }
+    },
+    {
+      "name": "Update depreciation entry",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "token", "value": "{{token}}", "type": "text" },
+            { "key": "requester", "value": "{{requester}}", "type": "text" },
+            { "key": "cost_center_id", "value": "{{cost_center_id}}", "type": "text" },
+            { "key": "depreciation_entry_id", "value": "{{depreciation_entry_id}}", "type": "text" },
+            { "key": "remarks", "value": "Updated remarks", "type": "text", "disabled": true },
+            { "key": "accounts_payable_voucher_id", "value": "{{accounts_payable_voucher_id}}", "type": "text", "disabled": true },
+            {
+              "key": "items",
+              "value": "[{\"id\":\"1\",\"amount\":\"55000.00\",\"useful_life_months\":\"48\",\"start_date\":\"2026-02-01\",\"debit_account_type_id\":\"1\",\"credit_account_type_id\":\"2\",\"serial_number\":\"SN-001\",\"asset_tag_number\":\"TAG-001\"}]",
+              "type": "text",
+              "disabled": true
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/depreciation_entries/update",
+          "host": ["{{base_url}}"],
+          "path": ["depreciation_entries", "update"]
+        },
+        "description": "## POST `/depreciation_entries/update`\n\nRequires `cost_center_id` and `depreciation_entry_id`. Cannot update when status is `approved`. Items omitted from payload are soft-deleted.\n\nNew lines without `asset_id` need `name` + `item_id`. Existing lines that already have `asset_id` do not.\n"
+      }
+    },
+    {
+      "name": "Change depreciation entry status",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "token", "value": "{{token}}", "type": "text" },
+            { "key": "requester", "value": "{{requester}}", "type": "text" },
+            { "key": "cost_center_id", "value": "{{cost_center_id}}", "type": "text" },
+            { "key": "depreciation_entry_id", "value": "{{depreciation_entry_id}}", "type": "text" },
+            { "key": "status", "value": "approved", "type": "text", "description": "approved | disapproved" }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/depreciation_entries/change_status",
+          "host": ["{{base_url}}"],
+          "path": ["depreciation_entries", "change_status"]
+        },
+        "description": "## POST `/depreciation_entries/change_status`\n\nSet status to `approved` or `disapproved`.\n"
+      }
+    },
+    {
+      "name": "Delete depreciation entry",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "token", "value": "{{token}}", "type": "text" },
+            { "key": "requester", "value": "{{requester}}", "type": "text" },
+            { "key": "cost_center_id", "value": "{{cost_center_id}}", "type": "text" },
+            { "key": "depreciation_entry_id", "value": "{{depreciation_entry_id}}", "type": "text" }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/depreciation_entries/delete",
+          "host": ["{{base_url}}"],
+          "path": ["depreciation_entries", "delete"]
+        },
+        "description": "Soft-deletes the depreciation entry (`is_deleted = 1`)."
+      }
+    }
+  ]
+}

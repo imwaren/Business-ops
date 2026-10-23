@@ -1,0 +1,225 @@
+{
+  "release": "batch_codes_20261016_144030",
+  "date": "2026-10-16",
+  "scope": "schema_only",
+  "php_replaced": false,
+  "backups": {
+    "hosts": [
+      "VPS5",
+      "VPS6"
+    ],
+    "uat": "/root/batch_codes_20261016_144030/uat",
+    "prod": "/root/batch_codes_20261016_144030/prod"
+  },
+  "tests": {
+    "tests": 97,
+    "assertions": 635,
+    "postman_requests": 19,
+    "saved_json_responses": 51
+  },
+  "sql_sha256": "d0d8434f046fdcd739e3a5fa82c44343be991f6297f057f3b64ba2ecde580fb6",
+  "application": {
+    "environments": {
+      "uat": {
+        "files_sha256": {
+          "app/Controllers/Items.php": "ea6560a05a9966bfa9d49ed8271c7d8b2720d80149d47174863e9d0ab5e8b8ab",
+          "app/Controllers/Receipt_notes.php": "6440baa6873cb67f17a6e14300b16431c8278520dc3c85db17c568563b696636",
+          "app/Models/Item.php": "4ea86e938c8ee377413beb851abe8301369f7e4af24e6e57d3bc5fa31535f36e",
+          "app/Models/Receipt_note_item_expiry_date.php": "65419e86b78bc757c9fad8f68390e6b90906a194355e1250c1b05ec9c119e5c3",
+          "app/Models/Branch_item_transfer_item.php": "1f11ce8f765bfdfdb35c11ad9f79b62dab9cc7ecca5bef630988999fe414c718"
+        },
+        "php_runtime": "/usr/bin/php8.2",
+        "http": {
+          "environment": "uat",
+          "authenticated_credentials_available": true,
+          "ok": true,
+          "checks": {
+            "filters": {
+              "status": 200,
+              "json": true,
+              "passed": true
+            },
+            "report": {
+              "status": 404,
+              "json": true,
+              "passed": true
+            },
+            "report_batch": {
+              "status": 404,
+              "json": true,
+              "passed": true
+            },
+            "batches": {
+              "status": 404,
+              "json": true,
+              "passed": true
+            },
+            "invalid_batch": {
+              "status": 400,
+              "json": true,
+              "passed": true
+            },
+            "invalid_date": {
+              "status": 400,
+              "json": true,
+              "passed": true
+            }
+          },
+          "business_writes": 0,
+          "limitation": null
+        },
+        "options_status": 204,
+        "unauthenticated_status": 401,
+        "new_errors": 0,
+        "restored": {
+          "ok": true,
+          "both_routes": "restored",
+          "services": {
+            "cron": "active",
+            "php8.2-fpm": "active",
+            "php8.3-fpm": "active"
+          }
+        },
+        "probe": {
+          "ok": true,
+          "checks": 166,
+          "live_writes": 0
+        }
+      },
+      "prod": {
+        "files_sha256": {
+          "app/Controllers/Items.php": "ea6560a05a9966bfa9d49ed8271c7d8b2720d80149d47174863e9d0ab5e8b8ab",
+          "app/Controllers/Receipt_notes.php": "6440baa6873cb67f17a6e14300b16431c8278520dc3c85db17c568563b696636",
+          "app/Models/Item.php": "4ea86e938c8ee377413beb851abe8301369f7e4af24e6e57d3bc5fa31535f36e",
+          "app/Models/Receipt_note_item_expiry_date.php": "65419e86b78bc757c9fad8f68390e6b90906a194355e1250c1b05ec9c119e5c3",
+          "app/Models/Branch_item_transfer_item.php": "1f11ce8f765bfdfdb35c11ad9f79b62dab9cc7ecca5bef630988999fe414c718"
+        },
+        "php_runtime": "/usr/bin/php8.3",
+        "http": {
+          "environment": "prod",
+          "authenticated_credentials_available": true,
+          "ok": true,
+          "checks": {
+            "filters": {
+              "status": 200,
+              "json": true,
+              "passed": true
+            },
+            "report": {
+              "status": 404,
+              "json": true,
+              "passed": true
+            },
+            "report_batch": {
+              "status": 404,
+              "json": true,
+              "passed": true
+            },
+            "batches": {
+              "status": 404,
+              "json": true,
+              "passed": true
+            },
+            "invalid_batch": {
+              "status": 400,
+              "json": true,
+              "passed": true
+            },
+            "invalid_date": {
+              "status": 400,
+              "json": true,
+              "passed": true
+            }
+          },
+          "business_writes": 0,
+          "limitation": null
+        },
+        "options_status": 204,
+        "unauthenticated_status": 401,
+        "new_errors": 0,
+        "restored": {
+          "ok": true,
+          "both_routes": "restored",
+          "services": {
+            "cron": "active",
+            "php8.2-fpm": "active",
+            "php8.3-fpm": "active"
+          }
+        },
+        "probe": {
+          "ok": true,
+          "checks": 164,
+          "live_writes": 0
+        }
+      }
+    },
+    "services": {
+      "nginx": "active",
+      "apache2": "active",
+      "php8.2-fpm": "active",
+      "php8.3-fpm": "active",
+      "cron": "active"
+    }
+  },
+  "database": {
+    "uat": {
+      "verification": {
+        "ok": true,
+        "columns": 17,
+        "tables": 105,
+        "rows": 954489,
+        "fingerprints_sha256": "c23a57f99af05109aca81ae723d9a39a8d044b691200cccd4c26e0109843da5c",
+        "definitions": "unchanged",
+        "indexes": "unchanged"
+      },
+      "column_metadata": {
+        "ok": true,
+        "verified_columns": 17,
+        "other_columns_defaults_comments": "unchanged"
+      },
+      "restored": {
+        "read_only": 0,
+        "event_scheduler": "OFF",
+        "cron": "active"
+      },
+      "sql_definitions_sha256": [
+        "2a4427a3170a60be4536bd800c9ee899a24f64640a3a9002aaf091ee62afdbec",
+        "6ecea12c70a3421a638f96653b2f38c1c491b95d8bfe7aa540e3212fe4bf8191"
+      ]
+    },
+    "prod": {
+      "verification": {
+        "ok": true,
+        "columns": 17,
+        "tables": 105,
+        "rows": 3630988,
+        "fingerprints_sha256": "e3e891df9c2e363cc4b4d5441f01e92fa3d77587fb86e5c4bdfb0b118d2d91d4",
+        "definitions": "unchanged",
+        "indexes": "unchanged"
+      },
+      "column_metadata": {
+        "ok": true,
+        "verified_columns": 17,
+        "other_columns_defaults_comments": "unchanged"
+      },
+      "restored": {
+        "read_only": 0,
+        "event_scheduler": "OFF",
+        "cron": "active"
+      },
+      "sql_definitions_sha256": [
+        "2a4427a3170a60be4536bd800c9ee899a24f64640a3a9002aaf091ee62afdbec",
+        "6ecea12c70a3421a638f96653b2f38c1c491b95d8bfe7aa540e3212fe4bf8191"
+      ]
+    },
+    "final_state": {
+      "read_only": 0,
+      "event_scheduler": "OFF",
+      "cron": "active"
+    }
+  },
+  "postman_sha256": "872ba313b2b578020b20e79838998f6be0f507e494bd23ed0947ade259739f97",
+  "deployment_tool_sha256": "6f43fcf9796a62d18d10d25193f472b8be40ae88090ad9ed532a82f0b1479f35",
+  "private_probe_sha256": "54b928d642a37f6c0719ded248580f90f86b29ef2902d80e53a139dd41f37925",
+  "http_probe_sha256": "e558d90b5e16c791366d3bf76f18b1c53add31c2e784e84303be44c772017032"
+}

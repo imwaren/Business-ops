@@ -1,0 +1,41 @@
+    public function __construct()
+    {
+        parent::__construct();
+
+        $database_groups = [
+            'default' => 'MASTER_DB', 'master' => 'MASTER_DB',
+            'mobile' => 'MOBILE_DB', 'oakridge' => 'OAKRIDGE_DB',
+            'mactan' => 'MAC_DB', 'consolacion' => 'CONSO_DB',
+            'mantlewood' => 'MANTLEWOOD_DB', 'warehouse' => 'WAREHOUSE_DB',
+            'pharmacy' => 'PHARMACY_DB', 'report' => 'REPORT_DB',
+            'oakridge_emr' => 'OAKRIDGE_EMR_DB', 'mactan_emr' => 'MAC_EMR_DB',
+            'consolacion_emr' => 'CONSO_EMR_DB', 'mantlewood_emr' => 'MANTLEWOOD_EMR_DB',
+            'mobile_emr' => 'MOBILE_EMR_DB',
+        ];
+        foreach ($database_groups as $group => $database_key) {
+            if (!isset($this->{$group}) || !is_array($this->{$group})) {
+                continue;
+            }
+            $settings = $this->{$group};
+            $prefix = 'database.' . $group . '.';
+            foreach (['hostname', 'username', 'password', 'port'] as $field) {
+                $settings[$field] = myt_env($prefix . $field,
+                    myt_env('database.default.' . $field, $settings[$field]));
+            }
+            $settings['database'] = myt_env($prefix . 'database',
+                myt_env($database_key, $settings['database']));
+            $settings['port'] = (int) $settings['port'];
+            if ($settings['DBDriver'] === 'MySQLi') {
+                // Individual settings are authoritative; an old DSN must not override them.
+                $settings['DSN'] = '';
+            }
+            $this->{$group} = $settings;
+        }
+
+        // Ensure that we always set the database group to 'tests' if
+        // we are currently running an automated test suite, so that
+        // we don't overwrite live data on accident.
+        if (ENVIRONMENT === 'testing') {
+            $this->defaultGroup = 'tests';
+        }
+    }

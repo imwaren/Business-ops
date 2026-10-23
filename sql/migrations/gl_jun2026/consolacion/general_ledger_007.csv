@@ -1,0 +1,73 @@
+branch_id,source,source_id,account_type_id,date,debit,credit,remark,is_migrated,added_by,added_on,is_deleted
+4,journal_entry,142722,1,2026-06-30,47938.0000,0.0000,to record cash sales June 29 - — #65259,1,0,2026-06-30 23:59:59,0
+4,journal_entry,142722,13,2026-06-30,0.0000,47938.0000,to record cash sales June 29 — #65259,1,0,2026-06-30 23:59:59,0
+4,journal_entry,142734,13,2026-06-30,61198.0000,0.0000,"Sales Branches June 30, 2026 - Cash Sales - June, 30 — #65486",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142731,249,2026-06-30,0.0000,78.0000,"CPCI Payroll for June 16-30, 2026 - Consolacion - Finance — #65460",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142732,249,2026-06-30,0.0000,5828.5600,"CPCI Payroll for June 16-30, 2026 - Consolacion Medical Affairs — #65462",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142733,249,2026-06-30,0.0000,1308.8000,"CPCI Payroll for June 16-30, 2026 - Consolacion Operations — #65463",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142734,1613,2026-06-30,0.0000,41760.0000,"Sales Branches June 30, 2026 - Consultations — #65486",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142735,1613,2026-06-30,190400.0000,0.0000,To reclassify Konsulta FPE revenue 2026 JUNE — #65488,1,0,2026-06-30 23:59:59,0
+4,journal_entry,142726,989,2026-06-30,116301.7000,0.0000,to accrue medicines - konsulta La Nueva 2026 JUNE — #65315,1,0,2026-06-30 23:59:59,0
+4,journal_entry,142734,1625,2026-06-30,7511.6000,0.0000,"Sales Branches June 30, 2026 - Sales Discounts - June, 30 — #65486",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142731,665,2026-06-30,600.0000,0.0000,"CPCI Payroll for June 16-30, 2026 - Consolacion - Finance — #65460",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142732,665,2026-06-30,12023.5000,0.0000,"CPCI Payroll for June 16-30, 2026 - Consolacion Medical Affairs — #65462",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142733,665,2026-06-30,37088.0000,0.0000,"CPCI Payroll for June 16-30, 2026 - Consolacion Operations — #65463",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142740,245,2026-06-30,0.0000,50.0000,TONERPRO TRADING - 1% EWT: Payment for Monthly Ink Supply| SI no.009666 — 0626-000717,1,0,2026-06-30 23:59:59,0
+4,journal_entry,142731,269,2026-06-30,0.0000,200.0000,"CPCI Payroll for June 16-30, 2026 - Consolacion - Finance — #65460",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142732,269,2026-06-30,0.0000,500.0000,"CPCI Payroll for June 16-30, 2026 - Consolacion Medical Affairs — #65462",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142733,269,2026-06-30,0.0000,2000.0000,"CPCI Payroll for June 16-30, 2026 - Consolacion Operations — #65463",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142734,1633,2026-06-30,0.0000,10800.0000,"Sales Branches June 30, 2026 - Health services — #65486",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142742,737,2026-06-30,31.0700,0.0000,Angeline Muñoz - Vatable: Smartload for Card (Replenishment) — RFP No.# 6426,1,0,2026-06-30 23:59:59,0
+4,journal_entry,142723,737,2026-06-30,0.0000,33.2900,Reversal of: Smart Comm - To accrue payment for Smart all 2026 May — #65311,1,0,2026-06-30 23:59:59,0
+4,journal_entry,142741,737,2026-06-30,32.1400,0.0000,"SMART COMMUNICATIONS, INC. - VATABLE: Smart Communications Inc. FTP 05/01-05/31/2026; Consolacion — RFP No.# 6425",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142742,741,2026-06-30,40.6100,0.0000,Angeline Muñoz - Vat: Payment for Battery & 6pck of Plastic Cups (Replenishment) — RFP No.# 6426,1,0,2026-06-30 23:59:59,0
+4,journal_entry,142742,757,2026-06-30,73.9000,0.0000,Angeline Muñoz - Vat: Payment for Electrical & Duct tape used for Maintenance & Akari Light Bulb for Replacement (Replenishment) — RFP No.# 6426,1,0,2026-06-30 23:59:59,0
+4,journal_entry,142742,777,2026-06-30,25.7700,0.0000,Angeline Muñoz - Vat: Transportation (Replenishment) — RFP No.# 6426,1,0,2026-06-30 23:59:59,0
+4,journal_entry,142735,1641,2026-06-30,0.0000,190400.0000,To reclassify Konsulta FPE revenue 2026 JUNE — #65488,1,0,2026-06-30 23:59:59,0
+4,journal_entry,142725,1105,2026-06-30,197674.4000,0.0000,To accrue send out cost for the period 2026 JUNE — #65314,1,0,2026-06-30 23:59:59,0
+4,journal_entry,142736,1105,2026-06-30,0.0000,84219.4000,"Reversal of: To accrue send out cost for the period 2026 JUNE, billed june — #65494",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142729,141,2026-06-30,0.0000,757247.6100,To record inventory consumption 2026 JUNE — #65409,1,0,2026-06-30 23:59:59,0
+4,journal_entry,142730,141,2026-06-30,0.0000,7980.0000,To record expired inventory JUNE 2026 — #65411,1,0,2026-06-30 23:59:59,0
+4,journal_entry,142729,1109,2026-06-30,757247.6100,0.0000,To record inventory consumption 2026 JUNE — #65409,1,0,2026-06-30 23:59:59,0
+4,journal_entry,142730,1109,2026-06-30,7980.0000,0.0000,To record expired inventory JUNE 2026 — #65411,1,0,2026-06-30 23:59:59,0
+4,journal_entry,142742,1645,2026-06-30,455.0000,0.0000,Angeline Muñoz - Payment for Refund to Patient (Replenishment) — RFP No.# 6426,1,0,2026-06-30 23:59:59,0
+4,journal_entry,142727,1645,2026-06-30,4491.0000,0.0000,"to record CPCI availment on CLinic DSMR June as advised, exclude from revenue — #65320",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142734,1645,2026-06-30,0.0000,27940.0000,"Sales Branches June 30, 2026 - Laboratory/Diagnostics — #65486",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142734,1645,2026-06-30,0.0000,62355.0000,"Sales Branches June 30, 2026 - Laboratory/Diagnostics — #65486",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142734,1645,2026-06-30,0.0000,34652.0000,"Sales Branches June 30, 2026 - Laboratory/Diagnostics — #65486",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142727,1657,2026-06-30,2130.0000,0.0000,"to record CPCI availment on CLinic DSMR June as advised, exclude from revenue — #65320",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142734,1657,2026-06-30,0.0000,10245.0000,"Sales Branches June 30, 2026 - Laboratory/Diagnostics - Send Outs — #65486",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142742,841,2026-06-30,258.9300,0.0000,Angeline Muñoz - Vatable: Smartload for Card (Replenishment) — RFP No.# 6426,1,0,2026-06-30 23:59:59,0
+4,journal_entry,142723,841,2026-06-30,0.0000,277.4300,Reversal of: Smart Comm - To accrue payment for Smart all 2026 May — #65311,1,0,2026-06-30 23:59:59,0
+4,journal_entry,142741,841,2026-06-30,267.8600,0.0000,"SMART COMMUNICATIONS, INC. - VATABLE: Smart Communications Inc. FTP 05/01-05/31/2026; Consolacion — RFP No.# 6425",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142729,149,2026-06-30,0.0000,76246.5000,To record inventory consumption 2026 JUNE — #65409,1,0,2026-06-30 23:59:59,0
+4,journal_entry,142742,849,2026-06-30,338.3900,0.0000,Angeline Muñoz - Vatable: Payment for Battery & 6pck of Plastic Cups (Replenishment) — RFP No.# 6426,1,0,2026-06-30 23:59:59,0
+4,journal_entry,142742,849,2026-06-30,750.0000,0.0000,Angeline Muñoz - Non-vat: Drinking water (Replenishment) — RFP No.# 6426,1,0,2026-06-30 23:59:59,0
+4,journal_entry,142740,849,2026-06-30,5000.0000,0.0000,TONERPRO TRADING - Non-Vat: Payment for Monthly Ink Supply| SI no.009666 — 0626-000717,1,0,2026-06-30 23:59:59,0
+4,journal_entry,142729,849,2026-06-30,76246.5000,0.0000,To record inventory consumption 2026 JUNE — #65409,1,0,2026-06-30 23:59:59,0
+4,journal_entry,142731,865,2026-06-30,1052.0600,0.0000,"CPCI Payroll for June 16-30, 2026 - Consolacion - Finance — #65460",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142733,865,2026-06-30,4194.8100,0.0000,"CPCI Payroll for June 16-30, 2026 - Consolacion Operations — #65463",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142733,257,2026-06-30,0.0000,1086.0100,"CPCI Payroll for June 16-30, 2026 - Consolacion Operations — #65463",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142731,265,2026-06-30,0.0000,500.0000,"CPCI Payroll for June 16-30, 2026 - Consolacion - Finance — #65460",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142732,265,2026-06-30,0.0000,1931.9100,"CPCI Payroll for June 16-30, 2026 - Consolacion Medical Affairs — #65462",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142733,265,2026-06-30,0.0000,5179.0300,"CPCI Payroll for June 16-30, 2026 - Consolacion Operations — #65463",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142737,1193,2026-06-30,630252.0000,0.0000,To accrue Doctors PF Consolacion for the period JUNE — #65498,1,0,2026-06-30 23:59:59,0
+4,journal_entry,142737,1197,2026-06-30,269335.9100,0.0000,To accrue Doctors PF Consolacion for the period JUNE — #65498,1,0,2026-06-30 23:59:59,0
+4,journal_entry,142742,1201,2026-06-30,4336.0000,0.0000,Angeline Muñoz - Nurse & Messenger Relievers (Replenishment) — RFP No.# 6426,1,0,2026-06-30 23:59:59,0
+4,journal_entry,142728,1201,2026-06-30,1600.0000,0.0000,to accrue relievers clinic for June 2026 — #65359,1,0,2026-06-30 23:59:59,0
+4,journal_entry,142742,909,2026-06-30,615.8600,0.0000,Angeline Muñoz - Vatable: Payment for Electrical & Duct tape used for Maintenance & Akari Light Bulb for Replacement (Replenishment) — RFP No.# 6426,1,0,2026-06-30 23:59:59,0
+4,journal_entry,142731,921,2026-06-30,22000.0000,0.0000,"CPCI Payroll for June 16-30, 2026 - Consolacion - Finance — #65460",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142732,921,2026-06-30,79232.8400,0.0000,"CPCI Payroll for June 16-30, 2026 - Consolacion Medical Affairs — #65462",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142733,921,2026-06-30,218741.3800,0.0000,"CPCI Payroll for June 16-30, 2026 - Consolacion Operations — #65463",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142733,253,2026-06-30,0.0000,3179.5600,"CPCI Payroll for June 16-30, 2026 - Consolacion Operations — #65463",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142731,261,2026-06-30,0.0000,1000.0000,"CPCI Payroll for June 16-30, 2026 - Consolacion - Finance — #65460",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142732,261,2026-06-30,0.0000,3450.0000,"CPCI Payroll for June 16-30, 2026 - Consolacion Medical Affairs — #65462",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142733,261,2026-06-30,0.0000,11200.0000,"CPCI Payroll for June 16-30, 2026 - Consolacion Operations — #65463",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142724,1217,2026-06-30,46878.0000,0.0000,To accrue TPP cost for the month of 2026 JUNE — #65312,1,0,2026-06-30 23:59:59,0
+4,journal_entry,142732,1777,2026-06-30,0.0000,91256.3400,"CPCI Payroll for June 16-30, 2026 - Consolacion Medical Affairs — #65462",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142732,1777,2026-06-30,91256.3400,0.0000,"CPCI Payroll for June 16-30, 2026 - Consolacion Medical Affairs — #65462",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142733,1777,2026-06-30,0.0000,260024.1900,"CPCI Payroll for June 16-30, 2026 - Consolacion Operations — #65463",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142733,1777,2026-06-30,260024.1900,0.0000,"CPCI Payroll for June 16-30, 2026 - Consolacion Operations — #65463",1,0,2026-06-30 23:59:59,0
+4,journal_entry,142737,1777,2026-06-30,0.0000,899587.9100,To accrue Doctors PF Consolacion for the period JUNE — #65498,1,0,2026-06-30 23:59:59,0
+4,journal_entry,142742,945,2026-06-30,214.7500,0.0000,Angeline Muñoz - Vatable: Transportation (Replenishment) — RFP No.# 6426,1,0,2026-06-30 23:59:59,0
+4,journal_entry,142742,945,2026-06-30,1238.0000,0.0000,Angeline Muñoz - Nonvat: Transportation Expenses (Replenishment) — RFP No.# 6426,1,0,2026-06-30 23:59:59,0

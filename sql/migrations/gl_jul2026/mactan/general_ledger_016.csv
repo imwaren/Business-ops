@@ -1,0 +1,135 @@
+branch_id,source,source_id,account_type_id,date,debit,credit,remark,is_migrated,added_by,added_on,is_deleted
+3,journal_entry,182497,57,2026-07-31,0.0000,993.0000,Asalus Corporation — M3051,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182488,57,2026-07-31,993.0000,0.0000,Asalus Corporation — CN-6346,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182539,57,2026-07-31,0.0000,48657.0000,Payment: Asalus Corporation — M3051,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182477,57,2026-07-31,0.0000,386.2000,Asalus Corporation — CN-6348,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182496,57,2026-07-31,0.0000,386.2000,Asalus Corporation — M2943,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182489,57,2026-07-31,386.2000,0.0000,Asalus Corporation — CN-6348,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182538,57,2026-07-31,0.0000,18923.8000,Payment: Asalus Corporation — M2943,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182095,57,2026-07-31,0.0000,22246.0000,Payment: Life & Health Hmp Inc — M3067,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182089,57,2026-07-31,0.0000,1813.0000,Payment: Life & Health Hmp Inc — M2178,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180985,57,2026-07-31,0.0000,107.0000,Payment: Life & Health Hmp Inc — M2457,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181001,57,2026-07-31,0.0000,5968.2000,Payment: Life & Health Hmp Inc — M2705,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180976,57,2026-07-31,0.0000,392.0000,Payment: Life & Health Hmp Inc — M2335,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181355,57,2026-07-31,0.0000,3023.3000,Payment: Life & Health Hmp Inc — M2520,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182320,57,2026-07-31,0.0000,13847.4000,Payment: Life & Health Hmp Inc — M2436,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180972,57,2026-07-31,0.0000,3518.2000,Payment: Life & Health Hmp Inc — M2273,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180971,57,2026-07-31,0.0000,4998.0000,Payment: Life & Health Hmp Inc — M2259,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182535,57,2026-07-31,0.0000,8575.0000,Payment: Life & Health Hmp Inc — M2046,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182319,57,2026-07-31,0.0000,392.0000,Payment: Life & Health Hmp Inc — M2058,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181014,57,2026-07-31,0.0000,392.0000,Payment: Life & Health Hmp Inc — M2885,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182094,57,2026-07-31,0.0000,56266.7000,Payment: Life & Health Hmp Inc — M3053,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182099,57,2026-07-31,0.0000,31262.0000,Payment: Life & Health Hmp Inc — M3211,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182100,57,2026-07-31,0.0000,15699.6000,Payment: Life & Health Hmp Inc — M3224,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182097,57,2026-07-31,0.0000,32271.4000,Payment: Life & Health Hmp Inc — M3123,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182093,57,2026-07-31,0.0000,57300.6000,Payment: Life & Health Hmp Inc — M3039,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182098,57,2026-07-31,0.0000,85519.7000,Payment: Life & Health Hmp Inc — M3138,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182509,57,2026-07-31,600.0000,0.0000,Amaphil-FAO Lawina Company Limited Inc — M3692,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182510,57,2026-07-31,755.0000,0.0000,"Avega Managed Care, Inc — M3693",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182511,57,2026-07-31,17090.0000,0.0000,Cooperative Health Management Federation — M3694,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182512,57,2026-07-31,600.0000,0.0000,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — M3695",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182513,57,2026-07-31,6600.0000,0.0000,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — M3696",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182514,57,2026-07-31,25160.0000,0.0000,Insular Healthcare Inc — M3697,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182515,57,2026-07-31,23573.0000,0.0000,Asalus Corporation — M3698,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182516,57,2026-07-31,27920.0000,0.0000,Life & Health Hmp Inc — M3699,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182517,57,2026-07-31,20228.0000,0.0000,Maxicare Healthcare Corporation — M3700,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182518,57,2026-07-31,8960.0000,0.0000,Medicard Philippines Inc — M3701,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182519,57,2026-07-31,14630.0000,0.0000,"Philhealthcare, Inc — M3702",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182520,57,2026-07-31,6300.0000,0.0000,Results Manila Inc. — M3703,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182521,57,2026-07-31,1775.0000,0.0000,"Avega Managed Care, Inc — M3704",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182522,57,2026-07-31,8790.0000,0.0000,United Coconut Planters Life Assurance Corporation — M3705,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182523,57,2026-07-31,300.0000,0.0000,Cooperative Health Management Federation — M3706,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182524,57,2026-07-31,1170.0000,0.0000,"Etiqa Life and General Assurance Phillipines, Inc — M3707",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182525,57,2026-07-31,39930.0000,0.0000,Insular Healthcare Inc — M3708,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182526,57,2026-07-31,23049.0000,0.0000,Asalus Corporation — M3709,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182527,57,2026-07-31,33200.0000,0.0000,Life & Health Hmp Inc — M3710,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182528,57,2026-07-31,25055.0000,0.0000,Maxicare Healthcare Corporation — M3711,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182529,57,2026-07-31,11615.0000,0.0000,Medicard Philippines Inc — M3712,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182530,57,2026-07-31,6375.0000,0.0000,"Philhealthcare, Inc — M3713",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182531,57,2026-07-31,7000.0000,0.0000,Results Manila Inc. — M3714,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182532,57,2026-07-31,800.0000,0.0000,"Tamiya Philippines, Inc — M3715",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182460,1,2026-07-31,0.0000,7200.0000,Payment: MIKHAELA ALESNA — RFP No.# 6605,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182462,1,2026-07-31,0.0000,7800.0000,Payment: GABRIEL VINCENT ZOSA — RFP No.# 6607,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182459,1,2026-07-31,0.0000,3600.0000,Payment: Jade Cloie Tul-id — RFP No.# 6604,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182461,1,2026-07-31,0.0000,7200.0000,Payment: Kim Marie Capilitan — RFP No.# 6606,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182458,1,2026-07-31,0.0000,15000.0000,Payment: Kathrina Aseanne Acapulco Gomez — RFP No.# 6554,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182457,1,2026-07-31,0.0000,20000.0000,Payment: AILEEN COTEJO — RFP No.# 6553,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182465,1,2026-07-31,0.0000,2825.0000,"Payment: SMART COMMUNICATIONS, INC. — RFP No.# 6631",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182441,1,2026-07-31,41350.0000,0.0000,"to record cash sales July 29, 30 - 29 — #71918",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182442,1,2026-07-31,33993.0000,0.0000,to record cash sales July 30 - — #71945,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182463,1,2026-07-31,0.0000,15400.0000,"Payment: LAPU LAPU GRAND REALTY VENTURES, INC. — RFP No.# 6620",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182464,1,2026-07-31,0.0000,15419.6400,"Payment: CONVERGE INFORMATION AND COMMUNICATIONS TECHNOLOGY SOLUTIONS, INC. — RFP No.# 6622",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182441,13,2026-07-31,0.0000,41350.0000,"to record cash sales July 29, 30 - 29 — #71918",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182442,13,2026-07-31,0.0000,33993.0000,to record cash sales July 30 — #71945,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182452,13,2026-07-31,41434.0000,0.0000,"Sales Branches July 31, 2026 - Cash Sales - July, 31 — #72356",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182444,249,2026-07-31,0.0000,6949.8600,"CPCI Payroll for July 16-31, 2026 - Mactan Medical Affairs — #72069",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182445,249,2026-07-31,0.0000,3150.0100,"CPCI Payroll for July 16-31, 2026 - Mactan  Operations — #72070",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182452,1613,2026-07-31,0.0000,44190.0000,"Sales Branches July 31, 2026 - Consultations — #72356",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182453,1613,2026-07-31,490960.0000,0.0000,To reclassify Konsulta FPE revenue 2026 July — #72357,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182449,985,2026-07-31,2400.0000,0.0000,To accrue Doctors PF Mactan for the period 2026 JULY — #72211,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182437,989,2026-07-31,161647.6000,0.0000,to accrue medicines - konsulta La Nueva 2026 JULY — #71710,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182466,165,2026-07-31,731.0000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6272,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182467,165,2026-07-31,141.0000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6273,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182468,165,2026-07-31,765.7000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6276,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182469,165,2026-07-31,11.0000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6297,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182470,165,2026-07-31,12.0000,0.0000,"Philippine British Assurance Co., Inc - CWT-2% PHILBRITISH — CN-6326",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182471,165,2026-07-31,28.0000,0.0000,"Philippine British Assurance Co., Inc - CWT-2% PHILBRITISH — CN-6330",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182472,165,2026-07-31,236.3000,0.0000,Asalus Corporation - CWT-2% ASALUS — CN-6333,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182473,165,2026-07-31,370.7000,0.0000,Asalus Corporation - CWT-2% ASALUS — CN-6336,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182474,165,2026-07-31,1254.5000,0.0000,Asalus Corporation - CWT-2% ASALUS — CN-6342,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182475,165,2026-07-31,141.8000,0.0000,Asalus Corporation - CWT-2% ASALUS — CN-6344,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182476,165,2026-07-31,993.0000,0.0000,Asalus Corporation - CWT-2% ASALUS — CN-6346,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182477,165,2026-07-31,386.2000,0.0000,Asalus Corporation - CWT-2% ASALUS — CN-6348,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182452,1625,2026-07-31,5328.0000,0.0000,"Sales Branches July 31, 2026 - Sales Discounts - July, 31 — #72356",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182443,665,2026-07-31,300.0000,0.0000,"CPCI Payroll for July 16-31, 2026 - Mactan - Finance — #72068",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182444,665,2026-07-31,8453.5000,0.0000,"CPCI Payroll for July 16-31, 2026 - Mactan Medical Affairs — #72069",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182445,665,2026-07-31,39241.0000,0.0000,"CPCI Payroll for July 16-31, 2026 - Mactan  Operations — #72070",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182455,245,2026-07-31,0.0000,35.4300,MEDGISTIX CORPORATION - 1% EWT on: Payment for Reagents| OPEX-26-0419 SI no.CEB-9075 — 0826-000881,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182456,245,2026-07-31,0.0000,175.0000,TONERPRO TRADING - 1% EWT: Payment for Monthly Epson Printer w/ Unlimited Ink Supply ftm of July| SI no.011381 — 0826-000892,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182443,269,2026-07-31,0.0000,100.0000,"CPCI Payroll for July 16-31, 2026 - Mactan - Finance — #72068",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182444,269,2026-07-31,0.0000,600.0000,"CPCI Payroll for July 16-31, 2026 - Mactan Medical Affairs — #72069",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182445,269,2026-07-31,0.0000,2500.0000,"CPCI Payroll for July 16-31, 2026 - Mactan  Operations — #72070",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182451,1633,2026-07-31,1620.0000,0.0000,"to record CPCI availment on CLinic DSMR july as advised, exclude from revenue — #72224",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182452,1633,2026-07-31,0.0000,11800.0000,"Sales Branches July 31, 2026 - Health services — #72356",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182455,197,2026-07-31,425.1400,0.0000,MEDGISTIX CORPORATION - Vat: Payment for Reagents| OPEX-26-0419 SI no.CEB-9075 — 0826-000881,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182453,1641,2026-07-31,0.0000,490960.0000,To reclassify Konsulta FPE revenue 2026 July — #72357,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182439,1105,2026-07-31,184260.0000,0.0000,Reversal of: Reversal of: To accrue send out cost for the period 2026 JUNE mactan — #71717,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182440,1105,2026-07-31,237177.0000,0.0000,To accrue send out cost for the period 2026 JULY — #71730,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182447,141,2026-07-31,0.0000,1059822.1600,To record inventory consumption 2026 July — #72175,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182448,141,2026-07-31,3624.8300,0.0000,To record inventory variance for the month of 2026 JULY — #72176,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182455,141,2026-07-31,3542.8600,0.0000,MEDGISTIX CORPORATION - Vatable: Payment for Reagents| OPEX-26-0419 SI no.CEB-9075 — 0826-000881,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182447,1109,2026-07-31,1059822.1600,0.0000,To record inventory consumption 2026 July — #72175,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182448,1109,2026-07-31,0.0000,3624.8300,To record inventory variance for the month of 2026 JULY — #72176,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182452,1645,2026-07-31,0.0000,41070.0000,"Sales Branches July 31, 2026 - Laboratory/Diagnostics — #72356",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182452,1645,2026-07-31,0.0000,59620.0000,"Sales Branches July 31, 2026 - Laboratory/Diagnostics — #72356",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182452,1645,2026-07-31,0.0000,41019.0000,"Sales Branches July 31, 2026 - Laboratory/Diagnostics — #72356",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182452,1657,2026-07-31,0.0000,11745.0000,"Sales Branches July 31, 2026 - Laboratory/Diagnostics - Send Outs — #72356",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182447,149,2026-07-31,0.0000,128978.9500,To record inventory consumption 2026 July — #72175,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182450,149,2026-07-31,0.0000,21900.0000,to correct recording inventory adjustment recorded june for expense — #72220,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182456,149,2026-07-31,17500.0000,0.0000,TONERPRO TRADING - Non-Vat: Payment for Monthly Epson Printer w/ Unlimited Ink Supply ftm of July| SI no.011381 — 0826-000892,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182447,849,2026-07-31,128978.9500,0.0000,To record inventory consumption 2026 July — #72175,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182450,849,2026-07-31,21900.0000,0.0000,to correct recording inventory adjustment recorded june for expense — #72220,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182443,865,2026-07-31,27.6700,0.0000,"CPCI Payroll for July 16-31, 2026 - Mactan - Finance — #72068",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182444,865,2026-07-31,92.4700,0.0000,"CPCI Payroll for July 16-31, 2026 - Mactan Medical Affairs — #72069",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182445,865,2026-07-31,7560.9700,0.0000,"CPCI Payroll for July 16-31, 2026 - Mactan  Operations — #72070",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182443,265,2026-07-31,0.0000,250.0000,"CPCI Payroll for July 16-31, 2026 - Mactan - Finance — #72068",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182444,265,2026-07-31,0.0000,2125.3200,"CPCI Payroll for July 16-31, 2026 - Mactan Medical Affairs — #72069",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182445,265,2026-07-31,0.0000,6391.4600,"CPCI Payroll for July 16-31, 2026 - Mactan  Operations — #72070",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182449,1193,2026-07-31,1080522.0000,0.0000,To accrue Doctors PF Mactan for the period 2026 JULY — #72211,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182449,1197,2026-07-31,605456.8100,0.0000,To accrue Doctors PF Mactan for the period 2026 JULY — #72211,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182436,1201,2026-07-31,32200.0000,0.0000,to accrue relievers clinic for JULY 2026 — #71387,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182443,921,2026-07-31,9934.2500,0.0000,"CPCI Payroll for July 16-31, 2026 - Mactan - Finance — #72068",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182444,921,2026-07-31,107904.0400,0.0000,"CPCI Payroll for July 16-31, 2026 - Mactan Medical Affairs — #72069",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182445,921,2026-07-31,281408.2800,0.0000,"CPCI Payroll for July 16-31, 2026 - Mactan  Operations — #72070",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182445,253,2026-07-31,0.0000,3725.6500,"CPCI Payroll for July 16-31, 2026 - Mactan  Operations — #72070",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182443,261,2026-07-31,0.0000,500.0000,"CPCI Payroll for July 16-31, 2026 - Mactan - Finance — #72068",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182444,261,2026-07-31,0.0000,3700.0000,"CPCI Payroll for July 16-31, 2026 - Mactan Medical Affairs — #72069",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182445,261,2026-07-31,0.0000,13387.5000,"CPCI Payroll for July 16-31, 2026 - Mactan  Operations — #72070",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182438,1217,2026-07-31,134520.0000,0.0000,To accrue TPP cost for the month of 2026 JULY — #71711,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182452,1713,2026-07-31,0.0000,13600.0000,"Sales Branches July 31, 2026 - Third-Party Partnership — #72356",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182439,1777,2026-07-31,0.0000,184260.0000,Reversal of: Reversal of: To accrue send out cost for the period 2026 JUNE mactan — #71717,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182444,1777,2026-07-31,0.0000,116450.0100,"CPCI Payroll for July 16-31, 2026 - Mactan Medical Affairs — #72069",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182444,1777,2026-07-31,116450.0100,0.0000,"CPCI Payroll for July 16-31, 2026 - Mactan Medical Affairs — #72069",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182445,1777,2026-07-31,0.0000,328210.2500,"CPCI Payroll for July 16-31, 2026 - Mactan  Operations — #72070",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182445,1777,2026-07-31,328210.2500,0.0000,"CPCI Payroll for July 16-31, 2026 - Mactan  Operations — #72070",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182449,1777,2026-07-31,0.0000,1688378.8100,To accrue Doctors PF Mactan for the period 2026 JULY — #72211,1,0,2026-07-31 23:59:59,0

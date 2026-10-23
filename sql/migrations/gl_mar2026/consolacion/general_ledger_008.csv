@@ -1,0 +1,34 @@
+branch_id,source,source_id,account_type_id,date,debit,credit,remark,is_migrated,added_by,added_on,is_deleted
+4,journal_entry,700,149,2026-03-31,239.0000,0.0000,To record inventory variance for the month of 2026 March — #55032,1,0,2026-03-31 23:59:59,0
+4,journal_entry,701,149,2026-03-31,0.0000,102873.1100,To record inventory consumption 2026 March — #55033,1,0,2026-03-31 23:59:59,0
+4,journal_entry,720,849,2026-03-31,441.9600,0.0000,Angeline Muñoz - Vatable: various office supplies (Replenishment) — RFP No.# 5552,1,0,2026-03-31 23:59:59,0
+4,journal_entry,720,849,2026-03-31,500.0000,0.0000,Angeline Muñoz - Non-vat: Drinking water (Replenishment) — RFP No.# 5552,1,0,2026-03-31 23:59:59,0
+4,journal_entry,720,849,2026-03-31,136.2100,0.0000,Angeline Muñoz - Nondeductible: phone case (Replenishment) — RFP No.# 5552,1,0,2026-03-31 23:59:59,0
+4,journal_entry,701,849,2026-03-31,102873.1100,0.0000,To record inventory consumption 2026 March — #55033,1,0,2026-03-31 23:59:59,0
+4,journal_entry,700,849,2026-03-31,0.0000,239.0000,To record inventory variance for the month of 2026 March — #55032,1,0,2026-03-31 23:59:59,0
+4,journal_entry,693,865,2026-03-31,15810.2500,0.0000,"CPCI Payroll for March 16-31, 2026 - Consolacion Operations — #54335",1,0,2026-03-31 23:59:59,0
+4,journal_entry,697,865,2026-03-31,1446.5900,0.0000,"CPCI Payroll for March 16-31, 2026 - Consolacion - Finance — #54573",1,0,2026-03-31 23:59:59,0
+4,journal_entry,699,1193,2026-03-31,680067.0000,0.0000,To accrue Doctors PF Consolacion for the period March — #54980,1,0,2026-03-31 23:59:59,0
+4,journal_entry,699,1197,2026-03-31,300261.8100,0.0000,To accrue Doctors PF Consolacion for the period March — #54980,1,0,2026-03-31 23:59:59,0
+4,journal_entry,723,1201,2026-03-31,6400.0000,0.0000,"Dan Samuel Burgos - Reliever fee for March 23, 26, 27, 2026 — RFP No.# 5564",1,0,2026-03-31 23:59:59,0
+4,journal_entry,722,1201,2026-03-31,14800.0000,0.0000,"Rhevy Jerald Vistal - Reliever fee for March 23, 26, 27, 28, 2026 — RFP No.# 5563",1,0,2026-03-31 23:59:59,0
+4,journal_entry,724,1201,2026-03-31,10800.0000,0.0000,"QUEENSTIENE BALTONADO - Reliever fee for March 24, 25, 28, 2026 — RFP No.# 5565",1,0,2026-03-31 23:59:59,0
+4,journal_entry,720,909,2026-03-31,290.1800,0.0000,Angeline Muñoz - Vatable: repair materials (Replenishment) — RFP No.# 5552,1,0,2026-03-31 23:59:59,0
+4,journal_entry,719,909,2026-03-31,10000.0000,0.0000,COOLTEK REFRIGERATION AND AIRCONDITIONING SERVICES - Non-vat: Payment for repair of ACU wall mounted type system re-process BS no. 1532 — RFP No.# 5538,1,0,2026-03-31 23:59:59,0
+4,journal_entry,725,909,2026-03-31,16200.0000,0.0000,COOLTEK REFRIGERATION AND AIRCONDITIONING SERVICES - Non-vat: Payment for 1st Quarter ACU PMS in Consolacion BS no. 1521 — RFP No.# 5582,1,0,2026-03-31 23:59:59,0
+4,journal_entry,720,913,2026-03-31,1558.0400,0.0000,Angeline Muñoz - Vatable: meals during philhealth audit (Replenishment) — RFP No.# 5552,1,0,2026-03-31 23:59:59,0
+4,journal_entry,692,921,2026-03-31,78430.5600,0.0000,"CPCI Payroll for March 16-31, 2026 - Consolacion Medical Affairs — #54330",1,0,2026-03-31 23:59:59,0
+4,journal_entry,693,921,2026-03-31,241837.3000,0.0000,"CPCI Payroll for March 16-31, 2026 - Consolacion Operations — #54335",1,0,2026-03-31 23:59:59,0
+4,journal_entry,694,921,2026-03-31,7386.5800,0.0000,"CPCI Payroll for March 16-31, 2026 - Project Based Operations - Consolacion — #54364",1,0,2026-03-31 23:59:59,0
+4,journal_entry,697,921,2026-03-31,22000.0000,0.0000,"CPCI Payroll for March 16-31, 2026 - Consolacion - Finance — #54573",1,0,2026-03-31 23:59:59,0
+4,journal_entry,693,253,2026-03-31,0.0000,3188.7300,"CPCI Payroll for March 16-31, 2026 - Consolacion Operations — #54335",1,0,2026-03-31 23:59:59,0
+4,journal_entry,694,261,2026-03-31,0.0000,412.5000,"CPCI Payroll for March 16-31, 2026 - Project Based Operations - Consolacion — #54364",1,0,2026-03-31 23:59:59,0
+4,journal_entry,697,261,2026-03-31,0.0000,1100.0000,"CPCI Payroll for March 16-31, 2026 - Consolacion - Finance — #54573",1,0,2026-03-31 23:59:59,0
+4,journal_entry,692,261,2026-03-31,0.0000,3050.0000,"CPCI Payroll for March 16-31, 2026 - Consolacion Medical Affairs — #54330",1,0,2026-03-31 23:59:59,0
+4,journal_entry,693,261,2026-03-31,0.0000,12662.5000,"CPCI Payroll for March 16-31, 2026 - Consolacion Operations — #54335",1,0,2026-03-31 23:59:59,0
+4,journal_entry,696,1217,2026-03-31,117000.0000,0.0000,To accrue TPP cost for the month of 2026 MArch — #54567,1,0,2026-03-31 23:59:59,0
+4,journal_entry,697,1777,2026-03-31,24046.5900,0.0000,"CPCI Payroll for March 16-31, 2026 - Consolacion - Finance — #54573",1,0,2026-03-31 23:59:59,0
+4,journal_entry,697,1777,2026-03-31,0.0000,24046.5900,"CPCI Payroll for March 16-31, 2026 - Consolacion - Finance — #54573",1,0,2026-03-31 23:59:59,0
+4,journal_entry,699,1777,2026-03-31,0.0000,980328.8100,To accrue Doctors PF Consolacion for the period March — #54980,1,0,2026-03-31 23:59:59,0
+4,journal_entry,720,945,2026-03-31,178.5700,0.0000,Angeline Muñoz - Vatable: gasoline (Replenishment) — RFP No.# 5552,1,0,2026-03-31 23:59:59,0
+4,journal_entry,720,945,2026-03-31,277.0000,0.0000,Angeline Muñoz - Nondeductible: transportation expenses (Replenishment) — RFP No.# 5552,1,0,2026-03-31 23:59:59,0

@@ -1,0 +1,366 @@
+{
+  "verified_at": "2026-10-17T05:01:47.268451+08:00",
+  "backup_root": "/root/accounting_cron_20261017_044850",
+  "environments": {
+    "uat": {
+      "installed": {
+        "ok": true,
+        "environment": "uat",
+        "jobs": 10,
+        "snapshot_schedule": "0 23 * * *",
+        "timezone": "Asia/Manila",
+        "secret_preserved": true,
+        "files": {
+          "/home/mytemr/web/zuat-accounting-back.myt-emr.com/public_html/app/Models/Report.php": "5ec39fc23d480b73b93209f133e3da304eb85cf59b798b4966b40460eaf0cb30",
+          "/home/mytemr/conf/web/zuat-accounting-back.myt-emr.com/uat-accounting-cron.php": "b8388e352bf24648d74bc7b988faa1dc537cf59c841960fd2508bf1933691eec",
+          "/home/mytemr/conf/web/zuat-accounting-back.myt-emr.com/apache2.conf_accounting_cron": "a43a46857ba044e266fdada5d4c87a2e0123d8d3e03b9054e3daa384dbc80cab",
+          "/home/mytemr/conf/web/zuat-accounting-back.myt-emr.com/apache2.ssl.conf_accounting_cron": "a43a46857ba044e266fdada5d4c87a2e0123d8d3e03b9054e3daa384dbc80cab"
+        },
+        "backup": "/root/accounting_cron_20261017_044850/uat"
+      },
+      "query_readiness": {
+        "ok": true,
+        "checks": {
+          "secret_configured": true,
+          "schema_mapping": true,
+          "explained_report_queries": 8
+        }
+      },
+      "authentication": {
+        "missing": 401,
+        "invalid": 401,
+        "valid": 500
+      },
+      "snapshot_response": {
+        "ok": true,
+        "http_status": 200,
+        "curl_errno": 0,
+        "reason": "completed",
+        "snapshot_date": "2026-10-17",
+        "branch_counts": {
+          "1": 566,
+          "2": 566,
+          "3": 566,
+          "4": 566,
+          "5": 566,
+          "6": 566,
+          "7": 566
+        },
+        "duration_ms": 64756
+      },
+      "snapshot_verification": {
+        "ok": true,
+        "checks": {
+          "secret_configured": true,
+          "schema_mapping": true,
+          "snapshot_branches": {
+            "1": {
+              "date": "2026-10-17",
+              "rows": 566,
+              "processed_source_rows": 566,
+              "duplicate_source_items": 0,
+              "duplicate_daily_keys": 0,
+              "monthly_matches": true
+            },
+            "2": {
+              "date": "2026-10-17",
+              "rows": 566,
+              "processed_source_rows": 566,
+              "duplicate_source_items": 0,
+              "duplicate_daily_keys": 0,
+              "monthly_matches": true
+            },
+            "3": {
+              "date": "2026-10-17",
+              "rows": 566,
+              "processed_source_rows": 566,
+              "duplicate_source_items": 0,
+              "duplicate_daily_keys": 0,
+              "monthly_matches": true
+            },
+            "4": {
+              "date": "2026-10-17",
+              "rows": 566,
+              "processed_source_rows": 566,
+              "duplicate_source_items": 0,
+              "duplicate_daily_keys": 0,
+              "monthly_matches": true
+            },
+            "5": {
+              "date": "2026-10-17",
+              "rows": 566,
+              "processed_source_rows": 566,
+              "duplicate_source_items": 0,
+              "duplicate_daily_keys": 0,
+              "monthly_matches": true
+            },
+            "6": {
+              "date": "2026-10-17",
+              "rows": 566,
+              "processed_source_rows": 566,
+              "duplicate_source_items": 0,
+              "duplicate_daily_keys": 0,
+              "monthly_matches": true
+            },
+            "7": {
+              "date": "2026-10-17",
+              "rows": 566,
+              "processed_source_rows": 566,
+              "duplicate_source_items": 0,
+              "duplicate_daily_keys": 0,
+              "monthly_matches": true
+            }
+          },
+          "historical_snapshots_unchanged": true
+        }
+      },
+      "schedules": [
+        {
+          "job": "update_validity_date_range_status",
+          "schedule": "0 1 * * *",
+          "next_run": "2026-10-18T01:00:00+08:00"
+        },
+        {
+          "job": "get_medrecord",
+          "schedule": "0 22 * * *",
+          "next_run": "2026-10-17T22:00:00+08:00"
+        },
+        {
+          "job": "get_daily_sales",
+          "schedule": "0 22 * * *",
+          "next_run": "2026-10-17T22:00:00+08:00"
+        },
+        {
+          "job": "get_patient_tat",
+          "schedule": "0 22 * * *",
+          "next_run": "2026-10-17T22:00:00+08:00"
+        },
+        {
+          "job": "get_sales_census",
+          "schedule": "0 1 * * *",
+          "next_run": "2026-10-18T01:00:00+08:00"
+        },
+        {
+          "job": "get_service_census",
+          "schedule": "0 1 * * *",
+          "next_run": "2026-10-18T01:00:00+08:00"
+        },
+        {
+          "job": "get_daily_census",
+          "schedule": "0 22 * * *",
+          "next_run": "2026-10-17T22:00:00+08:00"
+        },
+        {
+          "job": "get_inter_branch_census",
+          "schedule": "0 1 * * *",
+          "next_run": "2026-10-18T01:00:00+08:00"
+        },
+        {
+          "job": "post_direct_payment_journal_entries",
+          "schedule": "0 0 * * *",
+          "next_run": "2026-10-18T00:00:00+08:00"
+        },
+        {
+          "job": "snapshot_item_inventory",
+          "schedule": "0 23 * * *",
+          "next_run": "2026-10-17T23:00:00+08:00"
+        }
+      ]
+    },
+    "prod": {
+      "installed": {
+        "ok": true,
+        "environment": "prod",
+        "jobs": 11,
+        "snapshot_schedule": "0 23 * * *",
+        "timezone": "Asia/Manila",
+        "secret_preserved": true,
+        "files": {
+          "/home/mytemr/web/accounting-back.myt-emr.com/public_html/app/Models/Report.php": "9d037af5ae8ec8b552b3cdee05fd59317086836bcba248d6d7a02a5d7614d601",
+          "/home/mytemr/conf/web/accounting-back.myt-emr.com/production-accounting-cron.php": "0e6af798f2ec54c9eb84b12ded46a1c25854cc59902cce6a3380b1c6efc3cfbc",
+          "/home/mytemr/conf/web/accounting-back.myt-emr.com/apache2.conf_accounting_cron": "a43a46857ba044e266fdada5d4c87a2e0123d8d3e03b9054e3daa384dbc80cab",
+          "/home/mytemr/conf/web/accounting-back.myt-emr.com/apache2.ssl.conf_accounting_cron": "a43a46857ba044e266fdada5d4c87a2e0123d8d3e03b9054e3daa384dbc80cab"
+        },
+        "backup": "/root/accounting_cron_20261017_044850/prod"
+      },
+      "query_readiness": {
+        "ok": true,
+        "checks": {
+          "secret_configured": true,
+          "schema_mapping": true,
+          "explained_report_queries": 8
+        }
+      },
+      "authentication": {
+        "missing": 401,
+        "invalid": 401,
+        "valid": 500
+      },
+      "snapshot_response": {
+        "ok": true,
+        "http_status": 200,
+        "curl_errno": 0,
+        "reason": "completed",
+        "snapshot_date": "2026-10-17",
+        "branch_counts": {
+          "1": 583,
+          "2": 581,
+          "3": 581,
+          "4": 581,
+          "5": 19,
+          "6": 40,
+          "7": 582
+        },
+        "duration_ms": 48233
+      },
+      "snapshot_verification": {
+        "ok": true,
+        "checks": {
+          "secret_configured": true,
+          "schema_mapping": true,
+          "snapshot_branches": {
+            "1": {
+              "date": "2026-10-17",
+              "rows": 583,
+              "processed_source_rows": 583,
+              "duplicate_source_items": 0,
+              "duplicate_daily_keys": 0,
+              "monthly_matches": true
+            },
+            "2": {
+              "date": "2026-10-17",
+              "rows": 581,
+              "processed_source_rows": 581,
+              "duplicate_source_items": 0,
+              "duplicate_daily_keys": 0,
+              "monthly_matches": true
+            },
+            "3": {
+              "date": "2026-10-17",
+              "rows": 581,
+              "processed_source_rows": 581,
+              "duplicate_source_items": 0,
+              "duplicate_daily_keys": 0,
+              "monthly_matches": true
+            },
+            "4": {
+              "date": "2026-10-17",
+              "rows": 581,
+              "processed_source_rows": 581,
+              "duplicate_source_items": 0,
+              "duplicate_daily_keys": 0,
+              "monthly_matches": true
+            },
+            "5": {
+              "date": "2026-10-17",
+              "rows": 19,
+              "processed_source_rows": 19,
+              "duplicate_source_items": 0,
+              "duplicate_daily_keys": 0,
+              "monthly_matches": true
+            },
+            "6": {
+              "date": "2026-10-17",
+              "rows": 40,
+              "processed_source_rows": 40,
+              "duplicate_source_items": 0,
+              "duplicate_daily_keys": 0,
+              "monthly_matches": true
+            },
+            "7": {
+              "date": "2026-10-17",
+              "rows": 581,
+              "processed_source_rows": 582,
+              "duplicate_source_items": 1,
+              "duplicate_daily_keys": 0,
+              "monthly_matches": true
+            }
+          },
+          "historical_snapshots_unchanged": true
+        }
+      },
+      "schedules": [
+        {
+          "job": "update_validity_date_range_status",
+          "schedule": "1 0 * * *",
+          "next_run": "2026-10-18T00:01:00+08:00"
+        },
+        {
+          "job": "get_medrecord",
+          "schedule": "0 23 * * *",
+          "next_run": "2026-10-17T23:00:00+08:00"
+        },
+        {
+          "job": "get_daily_sales",
+          "schedule": "0 22 * * *",
+          "next_run": "2026-10-17T22:00:00+08:00"
+        },
+        {
+          "job": "get_patient_tat",
+          "schedule": "0 22 * * *",
+          "next_run": "2026-10-17T22:00:00+08:00"
+        },
+        {
+          "job": "get_sales_census",
+          "schedule": "0 1 * * *",
+          "next_run": "2026-10-18T01:00:00+08:00"
+        },
+        {
+          "job": "get_service_census",
+          "schedule": "0 1 * * *",
+          "next_run": "2026-10-18T01:00:00+08:00"
+        },
+        {
+          "job": "get_daily_census",
+          "schedule": "0 22 * * *",
+          "next_run": "2026-10-17T22:00:00+08:00"
+        },
+        {
+          "job": "get_inter_branch_census",
+          "schedule": "0 1 * * *",
+          "next_run": "2026-10-18T01:00:00+08:00"
+        },
+        {
+          "job": "refresh_uip",
+          "schedule": "0 * * * *",
+          "next_run": "2026-10-17T06:00:00+08:00"
+        },
+        {
+          "job": "post_direct_payment_journal_entries",
+          "schedule": "0 0 * * *",
+          "next_run": "2026-10-18T00:00:00+08:00"
+        },
+        {
+          "job": "snapshot_item_inventory",
+          "schedule": "0 23 * * *",
+          "next_run": "2026-10-17T23:00:00+08:00"
+        }
+      ]
+    }
+  },
+  "web_settings": {
+    "domain_timeout_includes_loaded": true,
+    "global_timeout_30_preserved": true
+  },
+  "local_verification": {
+    "expanded_tests": 139,
+    "expanded_assertions": 846,
+    "cron_security_tests": 21,
+    "cron_security_assertions": 129,
+    "php_syntax": "passed",
+    "python_syntax": "passed",
+    "diff_check": "passed"
+  },
+  "source_hashes": {
+    "scripts/accounting_cron/request.php": "8956acdd2dcb6afafd9f10c0bb8f513d6e438c86d5038213421d0dc7d129ce0e",
+    "scripts/accounting_cron/probe.php": "475d4e6e60206e9338ac3813e1c74989d2bf1e215fbc76e81cc6bae94aa74cd4",
+    "scripts/accounting_cron/deploy.py": "19e15940644a423c82b1c8e48e2d591bb7eea6464466dce2d3b93f9cadba3f43"
+  },
+  "limits": [
+    "Only current-date inventory snapshots were executed manually, once per environment.",
+    "Restored sales/TAT queries were verified with mocks and live EXPLAIN, not live execution.",
+    "Existing authenticated missing routes are rendered as HTTP 500 PageNotFoundException.",
+    "Production Mantlewood has one duplicate input item; its daily snapshot keys remain unique.",
+    "No historical backfill, stock changes, accounting rebuild, schema changes, or unrelated deployment."
+  ]
+}

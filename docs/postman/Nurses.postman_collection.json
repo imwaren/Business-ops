@@ -1,0 +1,244 @@
+{
+  "info": {
+    "_postman_id": "d4e5f6a7-b8c9-0123-defa-345678901234",
+    "name": "Nurses CRUD (Multi-DB)",
+    "description": "# Nurses API\n\nCRUD for diagnostic `nurse` with multi-branch sync, master/EMR user provisioning (role_id=2), and status/password helpers.\n\n## Auth\n- Header: `API-KEY` (required)\n- Body/query: `token`, `requester`\n\n## Request body format\n- **GET** — query params\n- **POST** — **multipart form-data**\n\n## Diagnostic nurse sync\nCreate/update/delete/change_status/change_password sync `nurse` across:\n- `master` (0), `mobile` (1), `oakridge` (2), `mactan` (3), `consolacion` (4), `mantlewood` (7)\n\nConsistency check on create/update. Mismatch: `Data inconsistency detected between master and {branch}.`\n\n## Master user\n- `email` = nurse `username`\n- `role_id` = **2**\n- `branch_id` = comma-separated `branch_in`\n\n## EMR user sync\n`branch_in` is comma-separated (e.g. `1,2,4`). EMR user created/updated on each mapped EMR DB with:\n- `master_doctor_id` = nurse id (existing EMR column)\n- `role_id` = **2**\n- `role_name` from Oakridge EMR role id 2\n\nOn update, EMR users on DBs no longer in `branch_in` are soft-deleted.\n\n## Methods\n`get`, `create`, `update`, `delete`, `change_status`, `change_password`\n\nNo consultations, signature, get_type, or get_specilization.\n",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "base_url", "value": "http://localhost/cpci-business-ops-api" },
+    { "key": "api_key", "value": "clinicaRiKOYqlwdTJ-lNedqS0k-it!395!-6ls1JXM7Vcc" },
+    { "key": "token", "value": "{{token}}" },
+    { "key": "requester", "value": "1" }
+  ],
+  "item": [
+    {
+      "name": "Get nurses",
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "url": {
+          "raw": "{{base_url}}/nurses/get?token={{token}}&requester={{requester}}",
+          "host": ["{{base_url}}"],
+          "path": ["nurses", "get"],
+          "query": [
+            { "key": "token", "value": "{{token}}" },
+            { "key": "requester", "value": "{{requester}}" },
+            { "key": "nurse_id", "value": "", "disabled": true },
+            { "key": "status", "value": "active", "disabled": true },
+            { "key": "term", "value": "", "disabled": true },
+            { "key": "page", "value": "1", "disabled": true },
+            { "key": "data_size", "value": "10", "disabled": true }
+          ]
+        },
+        "description": "## GET `/nurses/get`\n\nReads from **master** only."
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"size\": 1,\n  \"data\": [\n    {\n      \"id\": 1,\n      \"first_name\": \"Maria\",\n      \"last_name\": \"Santos\",\n      \"username\": \"msantos\",\n      \"branch_in\": \"1,2,4\",\n      \"status\": \"active\"\n    }\n  ]\n}"
+        }
+      ]
+    },
+    {
+      "name": "Create nurse",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "token", "value": "{{token}}", "type": "text" },
+            { "key": "requester", "value": "{{requester}}", "type": "text" },
+            { "key": "first_name", "value": "Maria", "type": "text" },
+            { "key": "middle_name", "value": "L", "type": "text" },
+            { "key": "last_name", "value": "Santos", "type": "text" },
+            { "key": "full_name", "value": "Maria L Santos", "type": "text" },
+            { "key": "contact_no", "value": "09171234567", "type": "text" },
+            { "key": "email", "value": "maria@example.com", "type": "text" },
+            { "key": "suffix", "value": "", "type": "text", "disabled": true },
+            { "key": "birthdate", "value": "1990-01-15", "type": "text" },
+            { "key": "username", "value": "msantos", "type": "text" },
+            { "key": "password", "value": "Secret123!", "type": "text" },
+            { "key": "branch_in", "value": "1,2,4", "type": "text", "description": "Comma-separated branch IDs (1,2,3,4,7)" },
+            { "key": "license_no", "value": "RN-12345", "type": "text" }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/nurses/create",
+          "host": ["{{base_url}}"],
+          "path": ["nurses", "create"]
+        },
+        "description": "## POST `/nurses/create`\n\n1. Consistency check\n2. Insert nurse on all diagnostic DBs (`status=active`)\n3. Master user role_id=2\n4. EMR user role_id=2 on each `branch_in` EMR DB"
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"nurse_id\": 1,\n  \"message\": \"nurse created successfully.\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Update nurse",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "token", "value": "{{token}}", "type": "text" },
+            { "key": "requester", "value": "{{requester}}", "type": "text" },
+            { "key": "nurse_id", "value": "1", "type": "text" },
+            { "key": "first_name", "value": "Maria", "type": "text" },
+            { "key": "middle_name", "value": "L", "type": "text" },
+            { "key": "last_name", "value": "Santos", "type": "text" },
+            { "key": "full_name", "value": "Maria L Santos", "type": "text" },
+            { "key": "contact_no", "value": "09171234567", "type": "text" },
+            { "key": "email", "value": "maria@example.com", "type": "text" },
+            { "key": "birthdate", "value": "1990-01-15", "type": "text" },
+            { "key": "username", "value": "msantos", "type": "text" },
+            { "key": "branch_in", "value": "1,2,4", "type": "text" },
+            { "key": "license_no", "value": "RN-12345", "type": "text" }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/nurses/update",
+          "host": ["{{base_url}}"],
+          "path": ["nurses", "update"]
+        },
+        "description": "## POST `/nurses/update`\n\nUpdates nurse all diagnostic DBs, master user, EMR upsert/soft-delete by `branch_in`."
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"nurse_id\": 1,\n  \"message\": \"nurse updated successfully.\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Delete nurse",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "token", "value": "{{token}}", "type": "text" },
+            { "key": "requester", "value": "{{requester}}", "type": "text" },
+            { "key": "nurse_id", "value": "1", "type": "text" }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/nurses/delete",
+          "host": ["{{base_url}}"],
+          "path": ["nurses", "delete"]
+        },
+        "description": "## POST `/nurses/delete`\n\nSoft-deletes nurse on all diagnostic DBs, master user, and EMR users on all EMR DBs (by master_doctor_id)."
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"status\": 200,\n  \"message\": \"nurse deleted.\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Change status",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "token", "value": "{{token}}", "type": "text" },
+            { "key": "requester", "value": "{{requester}}", "type": "text" },
+            { "key": "nurse_id", "value": "1", "type": "text" },
+            { "key": "status", "value": "inactive", "type": "text", "description": "active | inactive" }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/nurses/change_status",
+          "host": ["{{base_url}}"],
+          "path": ["nurses", "change_status"]
+        },
+        "description": "## POST `/nurses/change_status`\n\nSyncs status + audit on all diagnostic nurse rows and EMR users for `branch_in`."
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"nurse_id\": 1,\n  \"message\": \"nurse inactive successfully.\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Change password",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "token", "value": "{{token}}", "type": "text" },
+            { "key": "requester", "value": "{{requester}}", "type": "text" },
+            { "key": "nurse_id", "value": "1", "type": "text" },
+            { "key": "password", "value": "NewSecret123!", "type": "text" }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/nurses/change_password",
+          "host": ["{{base_url}}"],
+          "path": ["nurses", "change_password"]
+        },
+        "description": "## POST `/nurses/change_password`\n\nUpdates password on all diagnostic nurse rows, master user, and EMR users for `branch_in`."
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"nurse_id\": 1,\n  \"message\": \"Password changed successfully.\"\n}"
+        }
+      ]
+    }
+  ]
+}

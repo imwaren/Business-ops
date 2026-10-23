@@ -1,0 +1,501 @@
+branch_id,source,source_id,account_type_id,date,debit,credit,remark,is_migrated,added_by,added_on,is_deleted
+4,journal_entry,141336,65,2026-04-29,0.0000,780.0000,"CEBU GENERAL SERVICES INC. - BAGARINAO, JEOVANIE SOLON | 04/28/2026 | CEBU GENERAL SERVICES INC. | 780- — C2843",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141337,65,2026-04-29,0.0000,780.0000,"Cebu Labor Link Manpower - BASLOT, ROY DAGATAN | 04/28/2026 | Cebu Labor Link Manpower | 780- — C2844",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141337,65,2026-04-29,0.0000,780.0000,"Cebu Labor Link Manpower - JAYME, KEAVEN LUCERO | 04/28/2026 | Cebu Labor Link Manpower | 780- — C2844",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141337,65,2026-04-29,0.0000,780.0000,"Cebu Labor Link Manpower - BORRES, JULIE ANN BANDA | 04/28/2026 | Cebu Labor Link Manpower | 780- — C2844",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141338,65,2026-04-29,0.0000,624.0000,"Virginia Food Inc. - BAYRON, REGIE ACTAO | 04/28/2026 | VIRGINIA FOOD INC | 624- — C2845",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141338,65,2026-04-29,0.0000,624.0000,"Virginia Food Inc. - MURILLO, REID VIVARES | 04/28/2026 | VIRGINIA FOOD INC | 624- — C2845",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141339,65,2026-04-29,0.0000,780.0000,"Malachite Values Builders Inc. - WAGAS, REJIE MALUBAY | 04/28/2026 | Malachite Values Builders Inc. | 780- — C2846",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141315,65,2026-04-29,167987.0000,0.0000,"Sales Branches April 29, 2026 - Term Sales - April, 29 — #58114",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141318,57,2026-04-29,1000.0000,0.0000,Amaphil-FAO Lawina Company Limited Inc — C2822,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141319,57,2026-04-29,5540.0000,0.0000,"Avega Managed Care, Inc — C2823",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141320,57,2026-04-29,11260.0000,0.0000,Cooperative Health Management Federation — C2824,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141321,57,2026-04-29,1050.0000,0.0000,Generali Life Assurance Philippines Inc — C2825,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141322,57,2026-04-29,13530.0000,0.0000,Insular Healthcare Inc — C2826,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141323,57,2026-04-29,10040.0000,0.0000,Asalus Corporation — C2827,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141324,57,2026-04-29,5290.0000,0.0000,Life & Health Hmp Inc — C2828,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141325,57,2026-04-29,15496.0000,0.0000,Maxicare Healthcare Corporation — C2829,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141326,57,2026-04-29,3140.0000,0.0000,Medicard Philippines Inc — C2830,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141327,57,2026-04-29,8430.0000,0.0000,"Philhealthcare, Inc — C2831",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141328,57,2026-04-29,2340.0000,0.0000,CEBU GENERAL SERVICES INC. — C2832,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141329,57,2026-04-29,9360.0000,0.0000,Cebu Labor Link Manpower — C2833,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141330,57,2026-04-29,3550.0000,0.0000,Cooperative Health Management Federation — C2834,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141331,57,2026-04-29,6200.0000,0.0000,Generali Life Assurance Philippines Inc — C2835,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141332,57,2026-04-29,600.0000,0.0000,"Health Plan Philippines, Inc — C2836",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141333,57,2026-04-29,7740.0000,0.0000,Insular Healthcare Inc — C2837,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141334,57,2026-04-29,14965.0000,0.0000,Asalus Corporation — C2838,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141335,57,2026-04-29,10680.0000,0.0000,Life & Health Hmp Inc — C2839,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141336,57,2026-04-29,780.0000,0.0000,CEBU GENERAL SERVICES INC. — C2843,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141337,57,2026-04-29,2340.0000,0.0000,Cebu Labor Link Manpower — C2844,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141338,57,2026-04-29,1248.0000,0.0000,Virginia Food Inc. — C2845,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141339,57,2026-04-29,780.0000,0.0000,Malachite Values Builders Inc. — C2846,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141314,1,2026-04-29,55486.0000,0.0000,to record cash sales April 28 — #57935,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141314,13,2026-04-29,0.0000,55486.0000,to record cash sales April 28 — #57935,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141315,13,2026-04-29,40281.0000,0.0000,"Sales Branches April 29, 2026 - Cash Sales - April, 29 — #58114",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141315,1613,2026-04-29,0.0000,48020.0000,"Sales Branches April 29, 2026 - Consultations — #58114",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141315,1625,2026-04-29,1980.0000,0.0000,"Sales Branches April 29, 2026 - Sales Discounts - April, 29 — #58114",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141312,641,2026-04-29,67980.0000,0.0000,To accrue VECO: consolacion ELectricity for 2026 aPRIL - To accrue VECO: consolacion ELectricity for January 2026 — #57853,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141315,1633,2026-04-29,0.0000,8050.0000,"Sales Branches April 29, 2026 - Health services — #58114",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141316,737,2026-04-29,64.2900,0.0000,"SMART COMMUNICATIONS, INC. - VAT: Smart Communications Inc. FTP 03/01-03/31/2026; Consolacion — RFP No.# 5804",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141313,737,2026-04-29,0.0000,33.2900,Reversal of: Smart Comm - To accrue payment for Smart all 2026 march — #57875,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141315,1645,2026-04-29,0.0000,27010.0000,"Sales Branches April 29, 2026 - Laboratory/Diagnostics — #58114",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141315,1645,2026-04-29,0.0000,64795.0000,"Sales Branches April 29, 2026 - Laboratory/Diagnostics — #58114",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141315,1645,2026-04-29,0.0000,42743.0000,"Sales Branches April 29, 2026 - Laboratory/Diagnostics — #58114",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141315,1657,2026-04-29,0.0000,7110.0000,"Sales Branches April 29, 2026 - Laboratory/Diagnostics - Send Outs — #58114",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141316,841,2026-04-29,535.7200,0.0000,"SMART COMMUNICATIONS, INC. - VATABLE: Smart Communications Inc. FTP 03/01-03/31/2026; Consolacion — RFP No.# 5804",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141313,841,2026-04-29,0.0000,277.4300,Reversal of: Smart Comm - To accrue payment for Smart all 2026 march — #57875,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141317,1201,2026-04-29,3600.0000,0.0000,"Dan Samuel Burgos - PCP Reliever for April 24, 27, 2026 — RFP No.# 5813",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141315,1713,2026-04-29,0.0000,17300.0000,"Sales Branches April 29, 2026 - Third-Party Partnership — #58114",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141354,581,2026-04-30,53197.4000,0.0000,To record the accrual of the 13th Month Pay for 2026 April — #58662,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141365,217,2026-04-30,55004.4600,0.0000,"Payment: SECURITY AND FORENSIC ENTERPRISES, INC. — 0426-000466",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141364,217,2026-04-30,350343.7500,0.0000,Payment: MEDGISTIX CORPORATION — 0226-000157,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141361,217,2026-04-30,0.0000,4500.0000,PLDT INC — RFP No.# 5824,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141369,217,2026-04-30,15000.0000,0.0000,Payment: Alessandra Kamille Mallari — RFP No.# 5492,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141373,217,2026-04-30,4500.0000,0.0000,Payment: PLDT INC — RFP No.# 5824,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141370,217,2026-04-30,15000.0000,0.0000,Payment: Alessandra Kamille Mallari — RFP No.# 5752,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141371,217,2026-04-30,3600.0000,0.0000,Payment: Dan Samuel Burgos — RFP No.# 5813,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141360,217,2026-04-30,0.0000,7007.0900,Angeline Muñoz — RFP No.# 5822,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141372,217,2026-04-30,7007.0900,0.0000,Payment: Angeline Muñoz — RFP No.# 5822,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141359,217,2026-04-30,0.0000,1188.6600,CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 5812,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141362,217,2026-04-30,0.0000,3998.0000,"Innove Communications, Inc. — RFP No.# 5829",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141363,217,2026-04-30,0.0000,2000.0000,Vince Ardel A. Locaylocay — RFP No.# 5859,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141340,237,2026-04-30,0.0000,3998.0000,Innove -To accrue payment for Internet Services/Data Line consolacion 2026 april — #58048,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141341,237,2026-04-30,0.0000,2497.0000,Globe -To accrue mobile for the month of April — #58049,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141342,237,2026-04-30,0.0000,310.7200,Smart Comm - To accrue payment for Smart all 2026 April — #58051,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141344,237,2026-04-30,2858.3100,0.0000,Reversal of: To accrue: CEBU SPIC & SPAN JANITORIAL SERVICES INC. ftp 2026 consolacion APRIL — #58356,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141345,237,2026-04-30,3998.0000,0.0000,Reversal of: Innove -To accrue payment for Internet Services/Data Line consolacion 2026 april — #58363,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141346,237,2026-04-30,0.0000,81820.8200,"CPCI Payroll for April 16-30, 2026 - Consolacion Medical Affairs — #58433",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141347,237,2026-04-30,0.0000,20168.3300,"CPCI Payroll for APRIL 16-30, 2026 - Consolacion - Finance — #58435",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141348,237,2026-04-30,0.0000,233398.9500,"CPCI Payroll for April 16-30, 2026 - Consolacion Operations — #58436",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141354,237,2026-04-30,0.0000,53197.4000,To record the accrual of the 13th Month Pay for 2026 April — #58662,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141347,85,2026-04-30,0.0000,1381.0500,"CPCI Payroll for APRIL 16-30, 2026 - Consolacion - Finance — #58435",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141348,85,2026-04-30,0.0000,4121.8500,"CPCI Payroll for April 16-30, 2026 - Consolacion Operations — #58436",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141348,85,2026-04-30,0.0000,1041.6700,"CPCI Payroll for April 16-30, 2026 - Consolacion Operations - CPCI Payroll for April 16-30, 2026 - Consolacion TTHE Mahinay, Clavel — #58436",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141348,85,2026-04-30,0.0000,666.6700,"CPCI Payroll for April 16-30, 2026 - Consolacion Operations - CPCI Payroll for April 16-30, 2026 - Consolacion TTHE Moreno, Meldrid C. — #58436",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141355,77,2026-04-30,1800.0000,0.0000,"Sales Branches April 30, 2026 - Gcash Sales - April, 30 — #58676",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141355,61,2026-04-30,3235.0000,0.0000,"Sales Branches April 30, 2026 - Debit Card Sales - April, 30 — #58676",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141376,65,2026-04-30,0.0000,600.0000,"Maxicare Healthcare Corporation - ADAME, ANNA MARIE BARROSA | 04/28/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C2840",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141376,65,2026-04-30,0.0000,500.0000,"Maxicare Healthcare Corporation - BAYLOSIS, MARISSA DEMECILLO | 04/28/2026 | MAXICARE HEALTHCARE CORPORATION | 500- — C2840",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141376,65,2026-04-30,0.0000,500.0000,"Maxicare Healthcare Corporation - BAYO, VIVIAN PEPITO | 04/28/2026 | MAXICARE HEALTHCARE CORPORATION | 500- — C2840",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141376,65,2026-04-30,0.0000,5401.0000,"Maxicare Healthcare Corporation - BAYO, VIVIAN PEPITO | 04/28/2026 | MAXICARE HEALTHCARE CORPORATION | 5401- — C2840",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141376,65,2026-04-30,0.0000,500.0000,"Maxicare Healthcare Corporation - CALZADA, GEMMALYN QUIMQUE | 04/28/2026 | MAXICARE HEALTHCARE CORPORATION | 500- — C2840",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141376,65,2026-04-30,0.0000,500.0000,"Maxicare Healthcare Corporation - CUYOS, ELIZABETH AUSTRIA | 04/28/2026 | MAXICARE HEALTHCARE CORPORATION | 500- — C2840",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141376,65,2026-04-30,0.0000,500.0000,"Maxicare Healthcare Corporation - GIMARANGAN, CHERUBIM ABELLAR | 04/28/2026 | MAXICARE HEALTHCARE CORPORATION | 500- — C2840",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141376,65,2026-04-30,0.0000,5401.0000,"Maxicare Healthcare Corporation - GIMARANGAN, CHERUBIM ABELLAR | 04/28/2026 | MAXICARE HEALTHCARE CORPORATION | 5401- — C2840",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141376,65,2026-04-30,0.0000,500.0000,"Maxicare Healthcare Corporation - IBON, DAHLIA LUMAPAS | 04/28/2026 | MAXICARE HEALTHCARE CORPORATION | 500- — C2840",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141376,65,2026-04-30,0.0000,5401.0000,"Maxicare Healthcare Corporation - IBON, DAHLIA LUMAPAS | 04/28/2026 | MAXICARE HEALTHCARE CORPORATION | 5401- — C2840",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141376,65,2026-04-30,0.0000,600.0000,"Maxicare Healthcare Corporation - JACOB, KRISTINE CAMPOSO | 04/28/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C2840",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141376,65,2026-04-30,0.0000,150.0000,"Maxicare Healthcare Corporation - LACNO, ROSE GLEEDA ESOTO | 04/28/2026 | MAXICARE HEALTHCARE CORPORATION | 150- — C2840",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141376,65,2026-04-30,0.0000,1400.0000,"Maxicare Healthcare Corporation - MONDANO, ANABETH GACAYAN | 04/28/2026 | MAXICARE HEALTHCARE CORPORATION | 1400- — C2840",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141376,65,2026-04-30,0.0000,500.0000,"Maxicare Healthcare Corporation - ORONGAN, MARIA FE CAPANGPANGAN | 04/28/2026 | MAXICARE HEALTHCARE CORPORATION | 500- — C2840",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141376,65,2026-04-30,0.0000,5401.0000,"Maxicare Healthcare Corporation - ORONGAN, MARIA FE CAPANGPANGAN | 04/28/2026 | MAXICARE HEALTHCARE CORPORATION | 5401- — C2840",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141376,65,2026-04-30,0.0000,5401.0000,"Maxicare Healthcare Corporation - ALFORQUE, CECILIO MAYOL | 04/28/2026 | MAXICARE HEALTHCARE CORPORATION | 5401- — C2840",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141376,65,2026-04-30,0.0000,2187.2000,"Maxicare Healthcare Corporation - CABANIG, GEMMA MANALO | 04/28/2026 | MAXICARE HEALTHCARE CORPORATION | 2187.2- — C2840",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141376,65,2026-04-30,0.0000,250.0000,"Maxicare Healthcare Corporation - JUMAWAN, JAPHET CALUNSAG | 04/28/2026 | MAXICARE HEALTHCARE CORPORATION | 250- — C2840",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141376,65,2026-04-30,0.0000,250.0000,"Maxicare Healthcare Corporation - MONATO, JERWIN SINAMBONG | 04/28/2026 | MAXICARE HEALTHCARE CORPORATION | 250- — C2840",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141376,65,2026-04-30,0.0000,3600.0000,"Maxicare Healthcare Corporation - SALDO, BOBBY CONGSON | 04/28/2026 | MAXICARE HEALTHCARE CORPORATION | 3600- — C2840",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141377,65,2026-04-30,0.0000,300.0000,"Medicard Philippines Inc - BARABAT, RICHARD MENDREZ | 04/28/2026 | Medicard Philippines Inc | 300- — C2841",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141378,65,2026-04-30,0.0000,600.0000,"Philhealthcare, Inc - PANGANIBAN, RODEL CARAIG | 04/28/2026 | Philhealthcare, Inc | 600- — C2842",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141379,65,2026-04-30,0.0000,310.0000,"Avega Managed Care, Inc - AMARILLO, HONEYLYN PASTIDIO | 04/29/2026 | Avega Managed Care, Inc | 310- — C2847",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141379,65,2026-04-30,0.0000,500.0000,"Avega Managed Care, Inc - DINOSAPAL, ARLENE PIRATER | 04/29/2026 | Avega Managed Care, Inc | 500- — C2847",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141379,65,2026-04-30,0.0000,500.0000,"Avega Managed Care, Inc - LEOPARDEZ, RICHIE CAGAANAN | 04/29/2026 | Avega Managed Care, Inc | 500- — C2847",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141379,65,2026-04-30,0.0000,600.0000,"Avega Managed Care, Inc - NIES, FRUILAN PRESILLAS | 04/29/2026 | Avega Managed Care, Inc | 600- — C2847",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141380,65,2026-04-30,0.0000,600.0000,"United Coconut Planters Life Assurance Corporation - RONCESBALLES, ROMEO GARCIANO | 04/29/2026 | United Coconut Planters Life Assurance Corporation | 600- — C2848",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141381,65,2026-04-30,0.0000,300.0000,"Cooperative Health Management Federation - CASTA¥O, NI¥O VILLAVELEZ | 04/29/2026 | Cooperative Health Management Federation | 300- — C2849",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141381,65,2026-04-30,0.0000,3500.0000,"Cooperative Health Management Federation - NACUA, RAMIL SANCHEZ | 04/29/2026 | Cooperative Health Management Federation | 3500- — C2849",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141381,65,2026-04-30,0.0000,3500.0000,"Cooperative Health Management Federation - NACUA, SHERYL NU¥EZ | 04/29/2026 | Cooperative Health Management Federation | 3500- — C2849",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141381,65,2026-04-30,0.0000,4410.0000,"Cooperative Health Management Federation - PONCE, JIMMY BRIGOLI | 04/29/2026 | Cooperative Health Management Federation | 4410- — C2849",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141381,65,2026-04-30,0.0000,1370.0000,"Cooperative Health Management Federation - PONCE, JOSEFINA VELASCO | 04/29/2026 | Cooperative Health Management Federation | 1370- — C2849",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141382,65,2026-04-30,0.0000,600.0000,"Generali Life Assurance Philippines Inc - ALFANTE, CRISLYN MAGLASANG | 04/29/2026 | Generali Life Assurance Philippines Inc | 600- — C2850",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141383,65,2026-04-30,0.0000,3050.0000,"Health Delivery Sytem Inc (Flexicare) - ABALOS, CLAR BATOON | 04/29/2026 | HEALTH DELIVERY SYSTEM INC FLEXICARE | 3050- — C2851",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141384,65,2026-04-30,0.0000,500.0000,"Insular Healthcare Inc - TAYONG, ALLEN CABREROS | 04/29/2026 | Insular Healthcare Inc | 500- — C2852",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141384,65,2026-04-30,0.0000,600.0000,"Insular Healthcare Inc - ABELO, BERNABE VALLE | 04/29/2026 | Insular Healthcare Inc | 600- — C2852",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141384,65,2026-04-30,0.0000,600.0000,"Insular Healthcare Inc - ALAMODIN, SYRALYN OMAGAP | 04/29/2026 | Insular Healthcare Inc | 600- — C2852",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141384,65,2026-04-30,0.0000,500.0000,"Insular Healthcare Inc - ANTIGUA, JESSIE - | 04/29/2026 | Insular Healthcare Inc | 500- — C2852",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141384,65,2026-04-30,0.0000,500.0000,"Insular Healthcare Inc - BATHAN, MARY JESSA HERBIETO | 04/29/2026 | Insular Healthcare Inc | 500- — C2852",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141384,65,2026-04-30,0.0000,4100.0000,"Insular Healthcare Inc - BORROMEO, CRIS CARAMELO | 04/29/2026 | Insular Healthcare Inc | 4100- — C2852",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141384,65,2026-04-30,0.0000,600.0000,"Insular Healthcare Inc - BRIGOLI, MARGIE MONSANTO | 04/29/2026 | Insular Healthcare Inc | 600- — C2852",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141384,65,2026-04-30,0.0000,600.0000,"Insular Healthcare Inc - CEDE¥O, MARY ROSE OLVIDADO | 04/29/2026 | Insular Healthcare Inc | 600- — C2852",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141384,65,2026-04-30,0.0000,8910.0000,"Insular Healthcare Inc - DOLDOL, SCARLITH ALEGADO | 04/29/2026 | Insular Healthcare Inc | 8910- — C2852",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141384,65,2026-04-30,0.0000,2950.0000,"Insular Healthcare Inc - DOLDOL, SCARLITH ALEGADO | 04/29/2026 | Insular Healthcare Inc | 2950- — C2852",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141384,65,2026-04-30,0.0000,600.0000,"Insular Healthcare Inc - EMBATE, VANISSA MAE JUNTILLA | 04/29/2026 | Insular Healthcare Inc | 600- — C2852",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141384,65,2026-04-30,0.0000,2950.0000,"Insular Healthcare Inc - ESTRADA, JEFREY ARA¥O | 04/29/2026 | Insular Healthcare Inc | 2950- — C2852",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141384,65,2026-04-30,0.0000,500.0000,"Insular Healthcare Inc - GASTADOR, ANDRESA BONGABONG | 04/29/2026 | Insular Healthcare Inc | 500- — C2852",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141384,65,2026-04-30,0.0000,500.0000,"Insular Healthcare Inc - GONZAGA, ANGELINE ALIVIO | 04/29/2026 | Insular Healthcare Inc | 500- — C2852",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141384,65,2026-04-30,0.0000,600.0000,"Insular Healthcare Inc - LASTIMOSO, EDGAR JAMIO | 04/29/2026 | Insular Healthcare Inc | 600- — C2852",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141384,65,2026-04-30,0.0000,600.0000,"Insular Healthcare Inc - LINAGA, ZERUIAH MALAZARTE | 04/29/2026 | Insular Healthcare Inc | 600- — C2852",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141384,65,2026-04-30,0.0000,500.0000,"Insular Healthcare Inc - MANTUHAC, MARIEL BUGHAO | 04/29/2026 | Insular Healthcare Inc | 500- — C2852",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141384,65,2026-04-30,0.0000,600.0000,"Insular Healthcare Inc - MONTEBON, HENRY LITO ENCINA | 04/29/2026 | Insular Healthcare Inc | 600- — C2852",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141384,65,2026-04-30,0.0000,600.0000,"Insular Healthcare Inc - MONTEBON, LUZ CA¥A | 04/29/2026 | Insular Healthcare Inc | 600- — C2852",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141384,65,2026-04-30,0.0000,500.0000,"Insular Healthcare Inc - REPIA, TRACY ANN ECHIVARRE | 04/29/2026 | Insular Healthcare Inc | 500- — C2852",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141384,65,2026-04-30,0.0000,500.0000,"Insular Healthcare Inc - REPIA, TRACY ANN ECHIVARRE | 04/29/2026 | Insular Healthcare Inc | 500- — C2852",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141384,65,2026-04-30,0.0000,600.0000,"Insular Healthcare Inc - TUMAMAK, JUBILINE ANCAJAS | 04/29/2026 | Insular Healthcare Inc | 600- — C2852",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141384,65,2026-04-30,0.0000,500.0000,"Insular Healthcare Inc - UGSIMAR, ERICKA JUGALBOT | 04/29/2026 | Insular Healthcare Inc | 500- — C2852",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141385,65,2026-04-30,0.0000,600.0000,"Asalus Corporation - CARINEA, GRACE RACHO | 04/29/2026 | Asalus Corporation | 600- — C2853",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141385,65,2026-04-30,0.0000,500.0000,"Asalus Corporation - DICHOS, AZRIEL CAIUS LOPEZ | 04/29/2026 | Asalus Corporation | 500- — C2853",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141385,65,2026-04-30,0.0000,2190.0000,"Asalus Corporation - CARTAGENA, VIVIAN PALANG | 04/29/2026 | Asalus Corporation | 2190- — C2853",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141385,65,2026-04-30,0.0000,500.0000,"Asalus Corporation - DEIPARINE, CHLOE MARIE ENRIQUEZ | 04/29/2026 | Asalus Corporation | 500- — C2853",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141385,65,2026-04-30,0.0000,600.0000,"Asalus Corporation - DIZON, EDWIN ESTA¥ERO | 04/29/2026 | Asalus Corporation | 600- — C2853",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141385,65,2026-04-30,0.0000,2560.0000,"Asalus Corporation - DIZON, JAYVEE CANOY | 04/29/2026 | Asalus Corporation | 2560- — C2853",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141385,65,2026-04-30,0.0000,600.0000,"Asalus Corporation - DIZON, MARIA FE CANOY | 04/29/2026 | Asalus Corporation | 600- — C2853",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141385,65,2026-04-30,0.0000,600.0000,"Asalus Corporation - DUIZ, JERSON BARAL | 04/29/2026 | Asalus Corporation | 600- — C2853",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141385,65,2026-04-30,0.0000,500.0000,"Asalus Corporation - MACALALAD, BERNOVIE ARPON | 04/29/2026 | Asalus Corporation | 500- — C2853",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141385,65,2026-04-30,0.0000,500.0000,"Asalus Corporation - SALA, APPLE MAE CARAY | 04/29/2026 | Asalus Corporation | 500- — C2853",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141385,65,2026-04-30,0.0000,500.0000,"Asalus Corporation - VANZUELA, GILDAMER SALPURA | 04/29/2026 | Asalus Corporation | 500- — C2853",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141386,65,2026-04-30,0.0000,660.0000,"Lacson & Lacson Insurance Brokers Inc - PELLERIN, MESHILLEN LUMANGTAD | 04/29/2026 | LACSON & LACSON INSURANCE BROKERS INC | 660- — C2854",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141387,65,2026-04-30,0.0000,400.0000,"Life & Health Hmp Inc - ASILO, JOANNA CUIZON | 04/29/2026 | Life & Health Hmp Inc | 400- — C2855",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141387,65,2026-04-30,0.0000,400.0000,"Life & Health Hmp Inc - AGUIPO, FELICIANA GARBO | 04/29/2026 | Life & Health Hmp Inc | 400- — C2855",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141387,65,2026-04-30,0.0000,400.0000,"Life & Health Hmp Inc - AUMAN, JOHN LLOYD QUINAGING | 04/29/2026 | Life & Health Hmp Inc | 400- — C2855",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141387,65,2026-04-30,0.0000,4880.0000,"Life & Health Hmp Inc - BATUIGAS, MAYETH AYUDA | 04/29/2026 | Life & Health Hmp Inc | 4880- — C2855",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141387,65,2026-04-30,0.0000,400.0000,"Life & Health Hmp Inc - MANAROG, RENEIL SAGARAL | 04/29/2026 | Life & Health Hmp Inc | 400- — C2855",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141387,65,2026-04-30,0.0000,450.0000,"Life & Health Hmp Inc - NIETES, VALEN XAVIER ONG | 04/29/2026 | Life & Health Hmp Inc | 450- — C2855",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141387,65,2026-04-30,0.0000,400.0000,"Life & Health Hmp Inc - OGANG, JASTINE MAHINAY | 04/29/2026 | Life & Health Hmp Inc | 400- — C2855",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141387,65,2026-04-30,0.0000,400.0000,"Life & Health Hmp Inc - QUILISADIO, SHALOM VILLAMOR | 04/29/2026 | Life & Health Hmp Inc | 400- — C2855",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141387,65,2026-04-30,0.0000,400.0000,"Life & Health Hmp Inc - REGALA, JANETTE SANCHEZ | 04/29/2026 | Life & Health Hmp Inc | 400- — C2855",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141387,65,2026-04-30,0.0000,4200.0000,"Life & Health Hmp Inc - REGALA, JANETTE SANCHEZ | 04/29/2026 | Life & Health Hmp Inc | 4200- — C2855",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141388,65,2026-04-30,0.0000,600.0000,"Maxicare Healthcare Corporation - ALFORQUE, CECILIO MAYOL | 04/29/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C2856",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141388,65,2026-04-30,0.0000,550.0000,"Maxicare Healthcare Corporation - CABANIG, GEMMA MANALO | 04/29/2026 | MAXICARE HEALTHCARE CORPORATION | 550- — C2856",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141388,65,2026-04-30,0.0000,550.0000,"Maxicare Healthcare Corporation - JACOB, KRISTINE CAMPOSO | 04/29/2026 | MAXICARE HEALTHCARE CORPORATION | 550- — C2856",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141388,65,2026-04-30,0.0000,250.0000,"Maxicare Healthcare Corporation - ALCUIZAR, CYRELLE JUN SOCO | 04/29/2026 | MAXICARE HEALTHCARE CORPORATION | 250- — C2856",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141388,65,2026-04-30,0.0000,2050.0000,"Maxicare Healthcare Corporation - ARCENAL, CRYSTAL DEVINE LAYONG | 04/29/2026 | MAXICARE HEALTHCARE CORPORATION | 2050- — C2856",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141388,65,2026-04-30,0.0000,600.0000,"Maxicare Healthcare Corporation - BERING, IRES APARRI | 04/29/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C2856",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141388,65,2026-04-30,0.0000,600.0000,"Maxicare Healthcare Corporation - CABIGON, CHRISTIAN BOLONIAS | 04/29/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C2856",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141388,65,2026-04-30,0.0000,600.0000,"Maxicare Healthcare Corporation - CAPANGPANGAN, LYN ANOOS | 04/29/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C2856",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141388,65,2026-04-30,0.0000,600.0000,"Maxicare Healthcare Corporation - CARILIMAN, LUCENA ABERION | 04/29/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C2856",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141388,65,2026-04-30,0.0000,2650.0000,"Maxicare Healthcare Corporation - GUZMAN, JOEY DAYAO | 04/29/2026 | MAXICARE HEALTHCARE CORPORATION | 2650- — C2856",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141388,65,2026-04-30,0.0000,4200.0000,"Maxicare Healthcare Corporation - GUZMAN, JOEY DAYAO | 04/29/2026 | MAXICARE HEALTHCARE CORPORATION | 4200- — C2856",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141388,65,2026-04-30,0.0000,250.0000,"Maxicare Healthcare Corporation - GUZMAN, JOEY DAYAO | 04/29/2026 | MAXICARE HEALTHCARE CORPORATION | 250- — C2856",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141388,65,2026-04-30,0.0000,2120.0000,"Maxicare Healthcare Corporation - OPO, JESSA JUDAYA | 04/29/2026 | MAXICARE HEALTHCARE CORPORATION | 2120- — C2856",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141388,65,2026-04-30,0.0000,5401.0000,"Maxicare Healthcare Corporation - OSTOS, ORLEN ABUCAY | 04/29/2026 | MAXICARE HEALTHCARE CORPORATION | 5401- — C2856",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141388,65,2026-04-30,0.0000,2170.0000,"Maxicare Healthcare Corporation - PRACA, WILFREDO  JR BRIGOLI | 04/29/2026 | MAXICARE HEALTHCARE CORPORATION | 2170- — C2856",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141388,65,2026-04-30,0.0000,6000.0000,"Maxicare Healthcare Corporation - SINADHAN, NOVA MAE CUADRAS | 04/29/2026 | MAXICARE HEALTHCARE CORPORATION | 6000- — C2856",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141388,65,2026-04-30,0.0000,170.0000,"Maxicare Healthcare Corporation - TIMONIO, SARAGEN NAVARRES | 04/29/2026 | MAXICARE HEALTHCARE CORPORATION | 170- — C2856",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141388,65,2026-04-30,0.0000,7151.0000,"Maxicare Healthcare Corporation - VILLONO, NI¥O ARCHIE BALBERO | 04/29/2026 | MAXICARE HEALTHCARE CORPORATION | 7151- — C2856",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141388,65,2026-04-30,0.0000,9720.0000,"Maxicare Healthcare Corporation - VILLONO, NI¥O ARCHIE BALBERO | 04/29/2026 | MAXICARE HEALTHCARE CORPORATION | 9720- — C2856",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141388,65,2026-04-30,0.0000,600.0000,"Maxicare Healthcare Corporation - VILLONO, NI¥O ARCHIE BALBERO | 04/29/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C2856",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141388,65,2026-04-30,0.0000,6451.0000,"Maxicare Healthcare Corporation - VILLONO, SHARINELLE REVALDE | 04/29/2026 | MAXICARE HEALTHCARE CORPORATION | 6451- — C2856",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141388,65,2026-04-30,0.0000,820.0000,"Maxicare Healthcare Corporation - VILLONO, SHARINELLE REVALDE | 04/29/2026 | MAXICARE HEALTHCARE CORPORATION | 820- — C2856",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141388,65,2026-04-30,0.0000,600.0000,"Maxicare Healthcare Corporation - VILLONO, SHARINELLE REVALDE | 04/29/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C2856",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141388,65,2026-04-30,0.0000,600.0000,"Maxicare Healthcare Corporation - YTANG, GEORGETTE OMANIA | 04/29/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C2856",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141389,65,2026-04-30,0.0000,3570.0000,"Medicard Philippines Inc - ALBA, HAZEL BABANTO | 04/29/2026 | Medicard Philippines Inc | 3570- — C2857",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141389,65,2026-04-30,0.0000,600.0000,"Medicard Philippines Inc - MAQUILING, MA. ROCELIE MARTIN | 04/29/2026 | Medicard Philippines Inc | 600- — C2857",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141389,65,2026-04-30,0.0000,3190.0000,"Medicard Philippines Inc - PO, RAMON CARLO I MEDALLE | 04/29/2026 | Medicard Philippines Inc | 3190- — C2857",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141390,65,2026-04-30,0.0000,600.0000,"Philhealthcare, Inc - BA-OY, LUCENIA SAPINE | 04/29/2026 | Philhealthcare, Inc | 600- — C2858",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141390,65,2026-04-30,0.0000,500.0000,"Philhealthcare, Inc - LOY, SUSAN . | 04/29/2026 | Philhealthcare, Inc | 500- — C2858",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141390,65,2026-04-30,0.0000,6370.0000,"Philhealthcare, Inc - MIAO, THELMA NIEZ | 04/29/2026 | Philhealthcare, Inc | 6370- — C2858",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141390,65,2026-04-30,0.0000,500.0000,"Philhealthcare, Inc - NOQUIAO, ARISTOTLE ABENASA | 04/29/2026 | Philhealthcare, Inc | 500- — C2858",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141390,65,2026-04-30,0.0000,2940.0000,"Philhealthcare, Inc - ROSACE¥A, ABIGAIL PALANG | 04/29/2026 | Philhealthcare, Inc | 2940- — C2858",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141390,65,2026-04-30,0.0000,4100.0000,"Philhealthcare, Inc - ROSACE¥A, NORWAY JOHN PEGARIDO | 04/29/2026 | Philhealthcare, Inc | 4100- — C2858",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141390,65,2026-04-30,0.0000,4200.0000,"Philhealthcare, Inc - ROSACE¥A, NORWAY JOHN PEGARIDO | 04/29/2026 | Philhealthcare, Inc | 4200- — C2858",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141391,65,2026-04-30,0.0000,624.0000,"Virginia Food Inc. - ABALOS, CLAR BATOON | 04/29/2026 | VIRGINIA FOOD INC | 624- — C2859",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141391,65,2026-04-30,0.0000,780.0000,"Virginia Food Inc. - MOLINA, CHRISTIAN JAMIO | 04/29/2026 | VIRGINIA FOOD INC | 780- — C2859",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141391,65,2026-04-30,0.0000,780.0000,"Virginia Food Inc. - PANTALEON, CARLO MANALILI | 04/29/2026 | VIRGINIA FOOD INC | 780- — C2859",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141392,65,2026-04-30,0.0000,780.0000,"Malachite Values Builders Inc. - CUYNO, VON-RHOE LEONARD DIAZ | 04/29/2026 | Malachite Values Builders Inc. | 780- — C2860",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141393,65,2026-04-30,0.0000,780.0000,"CEBU GENERAL SERVICES INC. - RICA, NI¥O REY LAVADOR | 04/29/2026 | CEBU GENERAL SERVICES INC. | 780- — C2861",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141394,65,2026-04-30,0.0000,780.0000,"Cebu Labor Link Manpower - BUGTAI, ABEL ABELLO | 04/29/2026 | Cebu Labor Link Manpower | 780- — C2862",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141394,65,2026-04-30,0.0000,780.0000,"Cebu Labor Link Manpower - VILLA, ELMER ANCERO | 04/29/2026 | Cebu Labor Link Manpower | 780- — C2862",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141395,65,2026-04-30,0.0000,600.0000,"Amaphil-FAO Lawina Company Limited Inc - CARREDO, PRESCIE NES NU¥EZ | 04/30/2026 | Amaphil-FAO Lawina Company Limited Inc | 600- — C2863",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141396,65,2026-04-30,0.0000,600.0000,"Avega Managed Care, Inc - AMARILLO, HONEYLYN PASTIDIO | 04/30/2026 | Avega Managed Care, Inc | 600- — C2864",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141396,65,2026-04-30,0.0000,600.0000,"Avega Managed Care, Inc - AMARILLO, HONEYLYN PASTIDIO | 04/30/2026 | Avega Managed Care, Inc | 600- — C2864",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141396,65,2026-04-30,0.0000,600.0000,"Avega Managed Care, Inc - NIES, FRUILAN PRESILLAS | 04/30/2026 | Avega Managed Care, Inc | 600- — C2864",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141396,65,2026-04-30,0.0000,600.0000,"Avega Managed Care, Inc - LOPECILLO, GERTRUDES BASAY | 04/30/2026 | Avega Managed Care, Inc | 600- — C2864",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141397,65,2026-04-30,0.0000,600.0000,"United Coconut Planters Life Assurance Corporation - VASQUEZ, MARITES MAYOL | 04/30/2026 | United Coconut Planters Life Assurance Corporation | 600- — C2865",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141398,65,2026-04-30,0.0000,600.0000,"Generali Life Assurance Philippines Inc - MORPOS, FRANCIS LOUIEGE MAGBANUA | 04/30/2026 | Generali Life Assurance Philippines Inc | 600- — C2866",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141399,65,2026-04-30,0.0000,400.0000,"Insular Healthcare Inc - LUEGO, RAPHAELITO SEMBLANTE | 04/28/2026 | Insular Healthcare Inc | 400- — C2867",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141399,65,2026-04-30,0.0000,180.0000,"Insular Healthcare Inc - LUEGO, RAPHAELITO SEMBLANTE | 04/28/2026 | Insular Healthcare Inc | 180- — C2867",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141399,65,2026-04-30,0.0000,500.0000,"Insular Healthcare Inc - ANTIGUA, JESSIE - | 04/30/2026 | Insular Healthcare Inc | 500- — C2867",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141399,65,2026-04-30,0.0000,500.0000,"Insular Healthcare Inc - DOLDOL, SCARLITH ALEGADO | 04/30/2026 | Insular Healthcare Inc | 500- — C2867",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141399,65,2026-04-30,0.0000,600.0000,"Insular Healthcare Inc - ESTRADA, JEFREY ARA¥O | 04/30/2026 | Insular Healthcare Inc | 600- — C2867",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141399,65,2026-04-30,0.0000,600.0000,"Insular Healthcare Inc - ABARRACOSO, SHEILA MAE LLEMIT | 04/30/2026 | Insular Healthcare Inc | 600- — C2867",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141399,65,2026-04-30,0.0000,1310.0000,"Insular Healthcare Inc - CABAHUG, ALICE MARIEL BOOC | 04/30/2026 | Insular Healthcare Inc | 1310- — C2867",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141399,65,2026-04-30,0.0000,500.0000,"Insular Healthcare Inc - CABAHUG, ALICE MARIEL BOOC. | 04/30/2026 | Insular Healthcare Inc | 500- — C2867",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141399,65,2026-04-30,0.0000,2530.0000,"Insular Healthcare Inc - CAYABAN, DOMINIQUE ARIANNE SEVILLA | 04/30/2026 | Insular Healthcare Inc | 2530- — C2867",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141399,65,2026-04-30,0.0000,500.0000,"Insular Healthcare Inc - CAYABAN, DOMINIQUE ARIANNE SEVILLA | 04/30/2026 | Insular Healthcare Inc | 500- — C2867",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141399,65,2026-04-30,0.0000,500.0000,"Insular Healthcare Inc - COLEGIO, JAMES RODERICK HIMATAY | 04/30/2026 | Insular Healthcare Inc | 500- — C2867",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141399,65,2026-04-30,0.0000,500.0000,"Insular Healthcare Inc - ERONICO, ALGIE FRIAN CAHIGAS | 04/30/2026 | Insular Healthcare Inc | 500- — C2867",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141399,65,2026-04-30,0.0000,1500.0000,"Insular Healthcare Inc - MONTEMAYOR, CECELYN ALPUERTO | 04/30/2026 | Insular Healthcare Inc | 1500- — C2867",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141399,65,2026-04-30,0.0000,580.0000,"Insular Healthcare Inc - MOSQUEDA, KHAREN CARILLO | 04/30/2026 | Insular Healthcare Inc | 580- — C2867",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141399,65,2026-04-30,0.0000,500.0000,"Insular Healthcare Inc - MOSQUEDA, KHAREN CARILLO | 04/30/2026 | Insular Healthcare Inc | 500- — C2867",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141399,65,2026-04-30,0.0000,600.0000,"Insular Healthcare Inc - RAMIREZ, MARIAN GAY MALUSAY | 04/30/2026 | Insular Healthcare Inc | 600- — C2867",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141399,65,2026-04-30,0.0000,660.0000,"Insular Healthcare Inc - RESTON, FLORA MAE DELA TORRE | 04/30/2026 | Insular Healthcare Inc | 660- — C2867",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141399,65,2026-04-30,0.0000,500.0000,"Insular Healthcare Inc - RESTON, FLORA MAE DELA TORRE | 04/30/2026 | Insular Healthcare Inc | 500- — C2867",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141399,65,2026-04-30,0.0000,600.0000,"Insular Healthcare Inc - ROMERO, ARETHA MIKHAELA - | 04/30/2026 | Insular Healthcare Inc | 600- — C2867",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141399,65,2026-04-30,0.0000,600.0000,"Insular Healthcare Inc - SATINA, MARIA LUISA CARPENTERO | 04/30/2026 | Insular Healthcare Inc | 600- — C2867",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141399,65,2026-04-30,0.0000,600.0000,"Insular Healthcare Inc - SINGSON, MANILYN REDONDO | 04/30/2026 | Insular Healthcare Inc | 600- — C2867",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141400,65,2026-04-30,0.0000,600.0000,"Asalus Corporation - DIZON, JAYVEE CANOY | 04/30/2026 | Asalus Corporation | 600- — C2868",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141400,65,2026-04-30,0.0000,600.0000,"Asalus Corporation - ALAYON, DYNA MARGARETH TAN | 04/30/2026 | Asalus Corporation | 600- — C2868",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141400,65,2026-04-30,0.0000,500.0000,"Asalus Corporation - BRILLO, JAMES EARL N/A | 04/30/2026 | Asalus Corporation | 500- — C2868",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141400,65,2026-04-30,0.0000,1295.0000,"Asalus Corporation - CALLO, EVELYN BONTUYAN | 04/30/2026 | Asalus Corporation | 1295- — C2868",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141400,65,2026-04-30,0.0000,500.0000,"Asalus Corporation - CISNEROS, JAYROLD LUCERO | 04/30/2026 | Asalus Corporation | 500- — C2868",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141400,65,2026-04-30,0.0000,500.0000,"Asalus Corporation - DIAZ, JENNIFER TY | 04/30/2026 | Asalus Corporation | 500- — C2868",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141400,65,2026-04-30,0.0000,170.0000,"Asalus Corporation - GARCIA, ISRAEL SALONDAGA | 04/30/2026 | Asalus Corporation | 170- — C2868",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141400,65,2026-04-30,0.0000,500.0000,"Asalus Corporation - GO, FRED WILLIAMSON BERNATE | 04/30/2026 | Asalus Corporation | 500- — C2868",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141400,65,2026-04-30,0.0000,500.0000,"Asalus Corporation - GO, HEART FRANCHESCA GOMEZ | 04/30/2026 | Asalus Corporation | 500- — C2868",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141400,65,2026-04-30,0.0000,500.0000,"Asalus Corporation - GO, JELLY GOMEZ | 04/30/2026 | Asalus Corporation | 500- — C2868",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141400,65,2026-04-30,0.0000,500.0000,"Asalus Corporation - LAPI¥A, IRISH POSADAS | 04/30/2026 | Asalus Corporation | 500- — C2868",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141400,65,2026-04-30,0.0000,3445.0000,"Asalus Corporation - MACARIO, LOVEN PAUSAL | 04/30/2026 | Asalus Corporation | 3445- — C2868",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141400,65,2026-04-30,0.0000,500.0000,"Asalus Corporation - NOYNAY, FRANKIE MARLEY SINGSON | 04/30/2026 | Asalus Corporation | 500- — C2868",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141400,65,2026-04-30,0.0000,500.0000,"Asalus Corporation - NOYNAY, ZHAVIA IRIE | 04/30/2026 | Asalus Corporation | 500- — C2868",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141400,65,2026-04-30,0.0000,500.0000,"Asalus Corporation - OBLIGADO, HANZEL PALMA | 04/30/2026 | Asalus Corporation | 500- — C2868",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141400,65,2026-04-30,0.0000,140.0000,"Asalus Corporation - PEPITO, JANICE MAE MENDOZA | 04/30/2026 | Asalus Corporation | 140- — C2868",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141400,65,2026-04-30,0.0000,600.0000,"Asalus Corporation - QUINDAO, JOANA BUG-OT | 04/30/2026 | Asalus Corporation | 600- — C2868",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141400,65,2026-04-30,0.0000,600.0000,"Asalus Corporation - RONQUILLO, AILEEN MARIE DURANGO | 04/30/2026 | Asalus Corporation | 600- — C2868",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141400,65,2026-04-30,0.0000,710.0000,"Asalus Corporation - SABORNIDO, JONABEL DAPADAP | 04/30/2026 | Asalus Corporation | 710- — C2868",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141400,65,2026-04-30,0.0000,500.0000,"Asalus Corporation - SABORNIDO, JONABEL DAPADAP | 04/30/2026 | Asalus Corporation | 500- — C2868",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141400,65,2026-04-30,0.0000,710.0000,"Asalus Corporation - SAMANTE, ANGELINE QUINDAO | 04/30/2026 | Asalus Corporation | 710- — C2868",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141400,65,2026-04-30,0.0000,500.0000,"Asalus Corporation - VINLUAN, KYLE - | 04/30/2026 | Asalus Corporation | 500- — C2868",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141401,65,2026-04-30,0.0000,400.0000,"Life & Health Hmp Inc - REGALA, JANETTE SANCHEZ | 04/30/2026 | Life & Health Hmp Inc | 400- — C2869",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141401,65,2026-04-30,0.0000,3300.0000,"Life & Health Hmp Inc - BUSTAMANTE, GERALIENE SIATON | 04/30/2026 | Life & Health Hmp Inc | 3300- — C2869",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141401,65,2026-04-30,0.0000,400.0000,"Life & Health Hmp Inc - DABALOS, JOSHUA OCAMPO | 04/30/2026 | Life & Health Hmp Inc | 400- — C2869",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141401,65,2026-04-30,0.0000,450.0000,"Life & Health Hmp Inc - MANATAD, JEEVE JULY ABUHAT | 04/30/2026 | Life & Health Hmp Inc | 450- — C2869",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141401,65,2026-04-30,0.0000,2900.0000,"Life & Health Hmp Inc - PEPITO, CATHERINE CASTILLO | 04/30/2026 | Life & Health Hmp Inc | 2900- — C2869",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141401,65,2026-04-30,0.0000,400.0000,"Life & Health Hmp Inc - PEPITO, CATHERINE CASTILLO | 04/30/2026 | Life & Health Hmp Inc | 400- — C2869",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141402,65,2026-04-30,0.0000,600.0000,"Maxicare Healthcare Corporation - ARCENAL, CRYSTAL DEVINE LAYONG | 04/30/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C2870",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141402,65,2026-04-30,0.0000,250.0000,"Maxicare Healthcare Corporation - GUZMAN, JOEY DAYAO | 04/30/2026 | MAXICARE HEALTHCARE CORPORATION | 250- — C2870",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141402,65,2026-04-30,0.0000,500.0000,"Maxicare Healthcare Corporation - OPO, JESSA JUDAYA | 04/30/2026 | MAXICARE HEALTHCARE CORPORATION | 500- — C2870",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141402,65,2026-04-30,0.0000,500.0000,"Maxicare Healthcare Corporation - OSTOS, ORLEN ABUCAY | 04/30/2026 | MAXICARE HEALTHCARE CORPORATION | 500- — C2870",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141402,65,2026-04-30,0.0000,600.0000,"Maxicare Healthcare Corporation - SINADHAN, NOVA MAE CUADRAS | 04/30/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C2870",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141402,65,2026-04-30,0.0000,550.0000,"Maxicare Healthcare Corporation - TIMONIO, SARAGEN NAVARRES | 04/30/2026 | MAXICARE HEALTHCARE CORPORATION | 550- — C2870",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141402,65,2026-04-30,0.0000,600.0000,"Maxicare Healthcare Corporation - ACABAL, EVANGELINE CABAHUG | 04/30/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C2870",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141402,65,2026-04-30,0.0000,600.0000,"Maxicare Healthcare Corporation - ANGTUD, HERGIE DHEL MANTOS | 04/30/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C2870",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141402,65,2026-04-30,0.0000,550.0000,"Maxicare Healthcare Corporation - APAS, ARNET JEAN MASAYON | 04/30/2026 | MAXICARE HEALTHCARE CORPORATION | 550- — C2870",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141402,65,2026-04-30,0.0000,250.0000,"Maxicare Healthcare Corporation - ARNADO, MARY BLANZ ECOBEN | 04/30/2026 | MAXICARE HEALTHCARE CORPORATION | 250- — C2870",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141402,65,2026-04-30,0.0000,550.0000,"Maxicare Healthcare Corporation - BATICOLON, PAULINE MARIE N/A | 04/30/2026 | MAXICARE HEALTHCARE CORPORATION | 550- — C2870",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141402,65,2026-04-30,0.0000,1350.0000,"Maxicare Healthcare Corporation - BEDRIJO, VIVIEN ROSE SALA | 04/30/2026 | MAXICARE HEALTHCARE CORPORATION | 1350- — C2870",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141402,65,2026-04-30,0.0000,600.0000,"Maxicare Healthcare Corporation - CABRILLAS, AEYSHA VENICE - | 04/30/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C2870",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141402,65,2026-04-30,0.0000,2152.0000,"Maxicare Healthcare Corporation - CABRILLAS, GARCIANA HERBIAS | 04/30/2026 | MAXICARE HEALTHCARE CORPORATION | 2152- — C2870",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141402,65,2026-04-30,0.0000,3600.0000,"Maxicare Healthcare Corporation - CARATAY, SHANIA SADE SANCHEZ | 04/30/2026 | MAXICARE HEALTHCARE CORPORATION | 3600- — C2870",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141402,65,2026-04-30,0.0000,600.0000,"Maxicare Healthcare Corporation - GOMEZ, QUEENIE MARIE OLIVEROS | 04/30/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C2870",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141402,65,2026-04-30,0.0000,550.0000,"Maxicare Healthcare Corporation - LACNO, ROSE GLEEDA ESOTO. | 04/30/2026 | MAXICARE HEALTHCARE CORPORATION | 550- — C2870",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141402,65,2026-04-30,0.0000,600.0000,"Maxicare Healthcare Corporation - LANTICSE, THERESE MARIE IMPAS | 04/30/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C2870",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141402,65,2026-04-30,0.0000,600.0000,"Maxicare Healthcare Corporation - LARIOSA, KERWIN CAMASURA | 04/30/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C2870",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141402,65,2026-04-30,0.0000,600.0000,"Maxicare Healthcare Corporation - MONIVA, APRIL ROSE NULLA | 04/30/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C2870",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141402,65,2026-04-30,0.0000,600.0000,"Maxicare Healthcare Corporation - SAGUN, CHRISTOPHER LAMBO | 04/30/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C2870",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141402,65,2026-04-30,0.0000,600.0000,"Maxicare Healthcare Corporation - SAGUN, DIVINA ABABON | 04/30/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C2870",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141403,65,2026-04-30,0.0000,600.0000,"Medicard Philippines Inc - BARABAT, RICHARD MENDEZ | 04/30/2026 | Medicard Philippines Inc | 600- — C2871",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141403,65,2026-04-30,0.0000,210.0000,"Medicard Philippines Inc - RABANOS, ROSS VINCENT CUYUS | 04/30/2026 | Medicard Philippines Inc | 210- — C2871",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141403,65,2026-04-30,0.0000,300.0000,"Medicard Philippines Inc - RABANOS, ROSS VINCENT CUYUS | 04/30/2026 | Medicard Philippines Inc | 300- — C2871",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141404,65,2026-04-30,0.0000,600.0000,"Philhealthcare, Inc - BA-OY, LUCENIA SAPINE | 04/30/2026 | Philhealthcare, Inc | 600- — C2872",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141404,65,2026-04-30,0.0000,250.0000,"Philhealthcare, Inc - ROSACE¥A, ABIGAIL PALANG | 04/30/2026 | Philhealthcare, Inc | 250- — C2872",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141404,65,2026-04-30,0.0000,250.0000,"Philhealthcare, Inc - ABEJO, FRANKY AGUANTA | 04/30/2026 | Philhealthcare, Inc | 250- — C2872",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141404,65,2026-04-30,0.0000,250.0000,"Philhealthcare, Inc - BARRO, JESTYFIA KAYE A | 04/30/2026 | Philhealthcare, Inc | 250- — C2872",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141404,65,2026-04-30,0.0000,250.0000,"Philhealthcare, Inc - CARCEDO, LLOYD JEFFERSON SORONIO | 04/30/2026 | Philhealthcare, Inc | 250- — C2872",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141404,65,2026-04-30,0.0000,370.0000,"Philhealthcare, Inc - LUCERO, DANEVE ANGEL VELARDO | 04/30/2026 | Philhealthcare, Inc | 370- — C2872",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141404,65,2026-04-30,0.0000,250.0000,"Philhealthcare, Inc - LUCERO, DANEVE ANGEL VELARDO | 04/30/2026 | Philhealthcare, Inc | 250- — C2872",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141404,65,2026-04-30,0.0000,600.0000,"Philhealthcare, Inc - NOVAL, RICHARD DUKE MAHINAY | 04/30/2026 | Philhealthcare, Inc | 600- — C2872",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141405,65,2026-04-30,0.0000,400.0000,"Sunlife Grepa Financial Inc - SELLORIA, QUEEN HONEYLY YRAY | 04/30/2026 | SUNLIFE GREPA FINANCIAL INC | 400- — C2873",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141406,65,2026-04-30,0.0000,900.0000,"TITAY’S LILO-AN ROSQUILLOS & DELICACIES, INC. - ARITA, ROCHE RODRIGUEZ | 04/30/2026 | TITAY?S LILO-AN ROSQUILLOS & DELICACIES, INC. | 900- — C2874",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141407,65,2026-04-30,0.0000,780.0000,"CEBU GENERAL SERVICES INC. - HERMOSO, MARK KIAN SABAS | 04/30/2026 | CEBU GENERAL SERVICES INC. | 780- — C2875",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141407,65,2026-04-30,0.0000,780.0000,"CEBU GENERAL SERVICES INC. - ORLANES, KEVIN DAVIN | 04/30/2026 | CEBU GENERAL SERVICES INC. | 780- — C2875",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141408,65,2026-04-30,0.0000,624.0000,"Virginia Food Inc. - ALBRANDO, ADRIAN INSO | 04/30/2026 | VIRGINIA FOOD INC | 624- — C2876",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141408,65,2026-04-30,0.0000,624.0000,"Virginia Food Inc. - LERIO, DEH ANN CORTES | 04/30/2026 | VIRGINIA FOOD INC | 624- — C2876",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - PAHID, AME LYDARIE PINO FPE Konsulta 03/07/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - BUQUIA, JOSH NATHAN APAS FPE Konsulta 03/07/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - MIRANDA, LOLITA SULLANO FPE Konsulta 03/07/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - AGUIPO, ROSITA MAQUILAN FPE Konsulta 03/07/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - ROJAS, MARCHIELLE MARIE CENIZA FPE Konsulta 03/07/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - SELIM, BRYLLE JHULS CABRERA FPE Konsulta 03/07/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - REMEDIO, FRANKLIN SENO FPE Konsulta 03/07/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - PERALES, PANCRASIA HERRERA FPE Konsulta 03/07/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - POSPOS, CRISTINE JOY BITOON FPE Konsulta 03/07/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - ALEONAR, REYNALDO JR. GINGCO FPE Konsulta 03/07/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - PILAPIL, MACRISA SALVA FPE Konsulta 03/07/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - NOGOY, REYVIE N/A FPE Konsulta 03/09/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - BARGAYO, ESTELLE LENOR CASTILLON FPE Konsulta 03/09/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - ROSALEJOS, KATHLEEN JOYCE VILLARIAS. FPE Konsulta 03/09/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - BAGUNDOL, DEIGN EUGHAN FPE Konsulta 03/09/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - ROSAL, IRISH RIBAGORDA FPE Konsulta 03/09/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - RIVERA, NORIEL ORO FPE Konsulta 03/09/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - RIVERA, JEANIFER QUIMPO FPE Konsulta 03/09/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - ALBELIAR, BERNADETH PARANGAN FPE Konsulta 03/09/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - NAVARRO, MIRASOL BAYNOS FPE Konsulta 03/09/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - JEREZA, BRYAN JER SUMALPONG FPE Konsulta 03/09/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - MIRO, CHRISTINE MARIZ SEMBLANTE FPE Konsulta 03/10/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - TAN, JANA ABENOJAR FPE Konsulta 03/10/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - ORBISO, RICARDO - FPE Konsulta 03/10/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - ZAPANTA JR., ANECITO ORDONEZ FPE Konsulta 03/10/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - SORIANO, IAN MONTENEGRO FPE Konsulta 03/10/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - COLINA, JUDY PIANG FPE Konsulta 03/10/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - SUSON, ROSEMARIE NOVABOS FPE Konsulta 03/10/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - HIMI, CHARITY AGUILAR FPE Konsulta 03/10/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - LUIB, NECITAS BALORO FPE Konsulta 03/10/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - MOLIJON, WARREN AGUANTA FPE Konsulta 03/10/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - SERNICULA, MA. VERONICA SENDIN FPE Konsulta 03/10/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - LAVILLA, EMELYN EDILLOR FPE Konsulta 03/10/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - CRUZ, MARIE CRIS ULTIANO FPE Konsulta 03/10/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - BALAURO, EDNA MONTES FPE Konsulta 03/10/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - LAVILLA, ARNOLFO PARPAN FPE Konsulta 03/10/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - ALVINEZ, NOEMI DUGOS FPE Konsulta 03/11/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - DEL CARMEN, ANGIE CALIMOT FPE Konsulta 03/11/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - CORRO, ROSEMAY BAIT-IT FPE Konsulta 03/11/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - JAYME, MERCY ONCENES FPE Konsulta 03/11/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - VILLAHERMOSA, ELIAH GUMAPAC FPE Konsulta 03/11/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - RAGRAG, CORAZON YAP FPE Konsulta 03/11/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - DE GUZMAN, LEILA MAÑALE FPE Konsulta 03/11/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - BAYA, MARIEL FERNANDEZ FPE Konsulta 03/11/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - LAURON, RUBY MENDOZA FPE Konsulta 03/11/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - SUÑER, AZOR GETUBIG FPE Konsulta 03/11/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - UGSANG, NORMA NAVARRO FPE Konsulta 03/11/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - SALONDAGA, JOSEPHINE PANTONIAL FPE Konsulta 03/11/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - PABLE, JASON AGBAY FPE Konsulta 03/11/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - ARANAR, BLESIE JANE GULTIANO FPE Konsulta 03/11/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - FLORES, LUCIA MONTUERTO FPE Konsulta 03/11/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - BABAN, MA. JUVY FAJARDO FPE Konsulta 03/11/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - SUÑER, MA. FE MALAGAR FPE Konsulta 03/11/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - ARRITRANGCO, ALEXANDER CASAS FPE Konsulta 03/11/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - ESTILLORE, ELKO EGOR MAR FPE Konsulta 03/12/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - VELASCO, MARIA ANGELA ROQUE FPE Konsulta 03/12/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - SALANDRON, MAY ANN SENADOS FPE Konsulta 03/12/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - ESTRERA, EMMA TOLO FPE Konsulta 03/12/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - BABAN, MA. THERESA FAJARDO FPE Konsulta 03/12/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - APOR, ELVIRA LAGUNA FPE Konsulta 03/12/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - QUILANITA, ENRIQUE LETE FPE Konsulta 03/12/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - RIZON, ROGELIO AMATIAGA FPE Konsulta 03/12/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - CABRA, MARY ELIZE CAÑETE FPE Konsulta 03/12/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - GONZAGA JR., SIMEON TAUTO-AN FPE Konsulta 03/12/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - VILLAMOR, JAKE ESTRERA FPE Konsulta 03/12/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - VILLAMOR, RICA JANE ALIVIO FPE Konsulta 03/12/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - VILLAMOR, FIDELA ESTRERA FPE Konsulta 03/12/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - MADRONA, STANDLIE NOVAL FPE Konsulta 03/12/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - ALPAS, FE LIBATON FPE Konsulta 03/13/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - DE LA SERNA, ISABEL ENOC FPE Konsulta 03/13/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - PENADOS, JOYCE MHE EPA FPE Konsulta 03/13/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - ENRIQUEZ, JESSIE VILLAMIL FPE Konsulta 03/13/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - MORCILLA, MARJORIE YLANAN FPE Konsulta 03/13/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - GEPAYO, JANN CHRISTINE ABADIJOS FPE Konsulta 03/13/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - PEPITO, ESTERIA ARCELO FPE Konsulta 03/13/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - ESPINOSA, JOEL MONEVA FPE Konsulta 03/13/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - ECUASION, JORENDA ORTIZANO FPE Konsulta 03/13/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - ESPINOSA, ADELE CAPADISO FPE Konsulta 03/13/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - PEPITO, ANALYN COUANTES FPE Konsulta 03/13/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - TALISIC, JOCELYN DABALOS FPE Konsulta 03/13/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - AGUILAR, LEA MABUGAT FPE Konsulta 03/13/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - MAHILOM, ELENITO LAUREL FPE Konsulta 03/13/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - SEDON, RAFAEL EVITE FPE Konsulta 03/14/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - REMEDIO, FRANCISCO INOCANDO FPE Konsulta 03/14/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - MONTELAYOLA, ARTEMIA CANDIA FPE Konsulta 03/14/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - MAHINAY, ZION JIREH SALVILLA FPE Konsulta 03/14/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - CAPAO, NOEL DEMECILLO FPE Konsulta 03/14/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - ALBURO, DEVINE DELA PEÑA FPE Konsulta 03/14/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - DEMETERIO, JAKE GREFEN ARMAMENTO FPE Konsulta 03/14/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - BOLTRON, ROCHELLE . FPE Konsulta 03/14/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - RAFAL, MICHAEL ROGER PALENCIA FPE Konsulta 03/14/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - MONTANO, MARICEL GALLON FPE Konsulta 03/16/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - APUADO, FLORENCIO PUDOL FPE Konsulta 03/16/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - YBAÑEZ, MARINA RAVANES FPE Konsulta 03/16/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - PANTALEON, ARVIN JAY JOYO FPE Konsulta 03/16/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - MAURO, ADORA OLA-A FPE Konsulta 03/16/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - GADIANE, RAPHAEL YANNIS CABRILLOS FPE Konsulta 03/16/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - GADIANE, MATTEO ZEROUN CABRILLOS FPE Konsulta 03/16/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - GADIANE, ROMELYN CABRILLOS FPE Konsulta 03/16/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - GABATO, ARNELIE ALEGARBES FPE Konsulta 03/16/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - MAGLINES, DANILO PADECIO FPE Konsulta 03/16/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - MAURING, LUCRESIA VERDIDA FPE Konsulta 03/16/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - MARMOLEJO, ZARINA ANNE FLORES FPE Konsulta 03/16/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - SOLANTE, SUSAN JIMENEZ FPE Konsulta 03/16/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - RESMA, ERNESTO - FPE Konsulta 03/17/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - BRUA, SONIA PEPITO FPE Konsulta 03/17/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - CAGANG, CERELINA SABALLA FPE Konsulta 03/17/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - CANDIDATO, VIRGILIA DAGUMAN FPE Konsulta 03/17/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - BACARIZAS, JOSEPHINE PESTOLANTE FPE Konsulta 03/17/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - AVILA, JUFPIT ARNEL PONSICA FPE Konsulta 03/17/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - MONDARES, JAMES SEQUEÑO FPE Konsulta 03/17/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - TORREGOSA, CLEOFE VIRGINIA GONZAGA FPE Konsulta 03/17/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - CASTAÑOS, VANESSA NACUA FPE Konsulta 03/17/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - BARON, FLORA SARAMOSING FPE Konsulta 03/18/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - ERMAC, LARRY LASOLI FPE Konsulta 03/18/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - ZARATE, JOENITA LUMBAB FPE Konsulta 03/18/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - APUADO, SYLVIA MAGNAYE FPE Konsulta 03/18/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - OLARTE, LEONARDA MAURO FPE Konsulta 03/18/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - CRUZ, BRENDALYN QUITON. FPE Konsulta 03/18/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - PONTILLAS, MOSES ANOBLING FPE Konsulta 03/18/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - PEPITO, LUCIA TAUTHO FPE Konsulta 03/18/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - FLORDELIS, MARISSA BADANA FPE Konsulta 03/18/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - PONTILLAS, MYLVEN ANOBLING FPE Konsulta 03/18/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - RODRIGUEZ, VICTOR CATHUBO FPE Konsulta 03/18/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - UY, EDELBERTO GO FPE Konsulta 03/18/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - MALINAO, LEAH MAE MEDALLO FPE Konsulta 03/18/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - PEREZ, MAUREEN PONTILLAS FPE Konsulta 03/18/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - JUCOTMAYA, NIKKI DOSDOS FPE Konsulta 03/19/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - LUBIANO, CESAR ETURMA FPE Konsulta 03/19/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - VELASCO, VICENTE III CUIZON FPE Konsulta 03/19/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - QUIOCO, ANGELITO. BAGTASOS FPE Konsulta 03/19/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - ABELLA, JERICHO JOSE JADE CATANA FPE Konsulta 03/19/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - GIMENA, ANA TERESITA MAPA FPE Konsulta 03/19/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - RICAPLAZA, WILFREDO CAÑETE FPE Konsulta 03/19/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - BIMBO, MARK LOUIE MASINADIONG FPE Konsulta 03/19/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - REYES, MARY ANN ABUTANMO FPE Konsulta 03/19/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - DELA CRUZ, TRISHA MAE OCAT FPE Konsulta 03/19/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - DELA CRUZ, HERNANDO CORTES FPE Konsulta 03/19/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - MONDARTE, RITCHIE SALDO FPE Konsulta 03/19/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - ARRANGUEZ, LYNDELL RAY SUAZO FPE Konsulta 03/19/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - GANTALA, VIVIAN DELA CRUZ FPE Konsulta 03/19/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - PAHID, NIÑO ZACHIRO PINO FPE Konsulta 03/20/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - ABINUMAN, LOLITA PALACIO FPE Konsulta 03/20/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - MENDOZA, STANLEY BACALTOS FPE Konsulta 03/20/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - REALES, FILIPINAS QUIROL FPE Konsulta 03/20/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - CORTES, ROLDAN QUIAPO FPE Konsulta 03/20/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - ALCALA, DAISY MAE DACOBOR FPE Konsulta 03/20/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - MONSANTO, RAY MICHAEL MENDEZ FPE Konsulta 03/20/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - ABENOJAR, CRISTINA CAPA FPE Konsulta 03/20/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - ABATAYO, ROSILYN CUESTAS FPE Konsulta 03/20/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - FARIOLA, JERYNA MARU FPE Konsulta 03/20/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - DEBEBAR, MARICEL N/A FPE Konsulta 03/20/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - GREY, JOSE SEBASTIAN DE VERA FPE Konsulta 03/21/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - BALABA, LUVISMIN ESTENDER FPE Konsulta 03/21/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - LUBANG, JOHN FREDERICK SONIEDO FPE Konsulta 03/21/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - BALABA, ALEXANDER QUIMOD FPE Konsulta 03/21/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - FLORES, MARY ANN PITOGO FPE Konsulta 03/21/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - PEÑOSA JR., NILO VISARRA FPE Konsulta 03/21/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - ECUASION, KERRY ORTIZANO FPE Konsulta 03/21/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - MONTAJES JR., GREGORIO QUIJANO FPE Konsulta 03/21/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - SAGA, JENELYN TANJAY FPE Konsulta 03/21/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - MARATAS, ALMA CECILIA GILLERA FPE Konsulta 03/23/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - MARATAS, ARFELITO GALLO FPE Konsulta 03/23/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - JUAREZ, FLORIMIE N/A FPE Konsulta 03/23/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - ARQUILLANO, DORIS BELLEZA FPE Konsulta 03/23/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - PEPITO, EDGARDO CENIZA FPE Konsulta 03/23/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - MABATID, KEVIN BALANSAG FPE Konsulta 03/23/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - MENDOZA, ELVIE VERANO FPE Konsulta 03/23/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - BEBITA, QUINTHONY PANGAN FPE Konsulta 03/23/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - NUÑEZ, GENARA CUIZON FPE Konsulta 03/23/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - BACUS, IMELDA GULFAN FPE Konsulta 03/23/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - PEPITO, NIÑA BLANCHE VILLANUEVA FPE Konsulta 03/24/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - CORDOVA, ROXETTE GALA FPE Konsulta 03/24/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - BRIONES, BABY LUCERO FPE Konsulta 03/24/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - MAGNO, ROSALIE PERATER FPE Konsulta 03/24/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - BRIONES, ALAN MAGDADARO FPE Konsulta 03/24/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - ALICOBEN, JULIET BALLAIS FPE Konsulta 03/24/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - DIZON, NECIFORO TIPONTIPON FPE Konsulta 03/24/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - PIQUERO, ADELINA AYUBAN FPE Konsulta 03/25/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - VALEROSO, NIDO BENSIG FPE Konsulta 03/25/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - ROSALES, RUWELLA MALBAT FPE Konsulta 03/25/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - SARDAN, ROSALINDA DEGAMO FPE Konsulta 03/25/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - FROILAN, MA. ELEONOR APOSTOL FPE Konsulta 03/25/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - COMISO, JENNIFER ALCOS FPE Konsulta 03/25/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - TORRALBA, ALBERT ALTAYA FPE Konsulta 03/26/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - SATOLOMBON, VICTORIANO AYUBAN FPE Konsulta 03/26/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - DAGOOC, MARITES LAÑOHAN FPE Konsulta 03/26/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - DEL CASTILLO, CARLITO VILLAMOR FPE Konsulta 03/26/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - SENO, BEVERLY OTAPIL FPE Konsulta 03/26/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - BA-AY, VANESSA MENSABELLA FPE Konsulta 03/26/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - WONG, JOANNE TRICIA ABEJO FPE Konsulta 03/26/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - DEL CASTILLO, EMMA TIBON FPE Konsulta 03/26/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - BALANE, MARIAN MACASAET FPE Konsulta 03/26/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - MARQUEZ, MARIVIC HATAMOSA FPE Konsulta 03/26/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - BARING, DAISY RIVERA FPE Konsulta 03/26/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - CASTAÑO, NIÑO VILLAVELEZ FPE Konsulta 03/26/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - JUNTILLA, MARIA CARINA AUSTRIA FPE Konsulta 03/27/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - GARBO, LORDGINA PILAPIL FPE Konsulta 03/27/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - NABATIFAR, ANILISA PUCOT FPE Konsulta 03/27/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - SANCHEZ, ANNALIZA MONSANTO FPE Konsulta 03/27/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - SANCHEZ, NICOLE MONSANTO FPE Konsulta 03/27/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - BATUCAN, JUAN GONZALES FPE Konsulta 03/27/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - JARINA, JILLIAN PEPITO FPE Konsulta 03/27/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - VINLUAN, PERFECTA ARANDA FPE Konsulta 03/27/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - ORDEÑIZA, ROSEMARIE PRESCILLAS FPE Konsulta 03/27/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - DEQUILLA, CHRISTY BUCABAL FPE Konsulta 03/27/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - LASPIÑAS, ELNA CAÑADA FPE Konsulta 03/27/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - LAMADORA, MARTINA THEA AGUSTIN FPE Konsulta 03/28/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - ARANDA, ALVIN YLAYA FPE Konsulta 03/28/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141375,65,2026-04-30,0.0000,680.0000,"PHILHEALTH - KONSULTA - MAGDALES, ALYSSA MARIE N/A FPE Konsulta 03/28/2026 — C-PK0009",1,0,2026-04-30 23:59:59,0

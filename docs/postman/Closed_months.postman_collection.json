@@ -1,0 +1,119 @@
+{
+  "info": {
+    "_postman_id": "c1d2e3f4-a5b6-7890-cdef-0123456789ab",
+    "name": "Closed Months",
+    "description": "# Closed Months API\n\nMaster-only CRUD for `closed_month` (`month`, `year`). `branch_id` is **not** used. All methods read/write the master database.\n\n## Auth\n- Header: `API-KEY` (required)\n- Query/body: `token`, `requester` (required on all endpoints)\n\n## Validation\n- `month` must be an integer 1–12\n- `year` must be 4 digits (MySQL YEAR: 1901–2155)\n- Active `month` + `year` must be unique (no overlapping closed period)\n\n## Request body format\n- **GET** — query params\n- **POST** — multipart form-data\n",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "base_url", "value": "http://localhost/cpci-business-ops-api" },
+    { "key": "api_key", "value": "clinicaRiKOYqlwdTJ-lNedqS0k-it!395!-6ls1JXM7Vcc" },
+    { "key": "token", "value": "{{token}}" },
+    { "key": "requester", "value": "1" },
+    { "key": "closed_month_id", "value": "1" },
+    { "key": "month", "value": "8" },
+    { "key": "year", "value": "2026" }
+  ],
+  "item": [
+    {
+      "name": "Get closed months",
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "url": {
+          "raw": "{{base_url}}/closed_months/get?token={{token}}&requester={{requester}}",
+          "host": ["{{base_url}}"],
+          "path": ["closed_months", "get"],
+          "query": [
+            { "key": "token", "value": "{{token}}" },
+            { "key": "requester", "value": "{{requester}}" },
+            { "key": "closed_month_id", "value": "{{closed_month_id}}", "disabled": true },
+            { "key": "month", "value": "{{month}}", "disabled": true },
+            { "key": "year", "value": "{{year}}", "disabled": true },
+            { "key": "page", "value": "1", "disabled": true },
+            { "key": "data_size", "value": "20", "disabled": true }
+          ]
+        },
+        "description": "## GET `/closed_months/get`\n\nList closed months from master. Optional filters: `closed_month_id`, `month`, `year`, `page`, `data_size`.\n"
+      }
+    },
+    {
+      "name": "Create closed month",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "token", "value": "{{token}}", "type": "text" },
+            { "key": "requester", "value": "{{requester}}", "type": "text" },
+            { "key": "month", "value": "{{month}}", "type": "text" },
+            { "key": "year", "value": "{{year}}", "type": "text" }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/closed_months/create",
+          "host": ["{{base_url}}"],
+          "path": ["closed_months", "create"]
+        },
+        "description": "## POST `/closed_months/create`\n\nRequires `month` (1–12) and `year` (4 digits). Rejects overlapping active month+year.\n"
+      }
+    },
+    {
+      "name": "Update closed month",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "token", "value": "{{token}}", "type": "text" },
+            { "key": "requester", "value": "{{requester}}", "type": "text" },
+            { "key": "closed_month_id", "value": "{{closed_month_id}}", "type": "text" },
+            { "key": "month", "value": "{{month}}", "type": "text", "disabled": true },
+            { "key": "year", "value": "{{year}}", "type": "text", "disabled": true }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/closed_months/update",
+          "host": ["{{base_url}}"],
+          "path": ["closed_months", "update"]
+        },
+        "description": "## POST `/closed_months/update`\n\nRequires `closed_month_id`. Optional `month` / `year` are validated the same as create, including overlap (excluding this id).\n"
+      }
+    },
+    {
+      "name": "Delete closed month",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "token", "value": "{{token}}", "type": "text" },
+            { "key": "requester", "value": "{{requester}}", "type": "text" },
+            { "key": "closed_month_id", "value": "{{closed_month_id}}", "type": "text" }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/closed_months/delete",
+          "host": ["{{base_url}}"],
+          "path": ["closed_months", "delete"]
+        },
+        "description": "Soft-deletes (`is_deleted = 1`) on master."
+      }
+    }
+  ]
+}

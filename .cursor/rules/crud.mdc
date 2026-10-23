@@ -1,0 +1,18 @@
+---
+alwaysApply: false
+---
+
+# CRUD Generation Standard
+
+When asked to create a CRUD for any entity, you MUST:
+
+1. **Scan first** — Read `app/Controllers/Templates.php` and `app/Models/Template.php` in full before writing any code.
+2. **Mirror the pattern exactly** — Match method signatures, response formats, error handling, validation style, filter usage, and pagination from those template files.
+3. **Follow DB conventions** — All tables use: `added_by`, `added_on`, `updated_by`, `updated_on`, `is_deleted` (soft delete). Never use hard deletes.
+4. **Audit fields** — Always populate `added_by`/`updated_by` from the authenticated user token, and `added_on`/`updated_on` with `NOW()` via the model.
+5. **Soft delete** — Delete methods must set `is_deleted = 1`, never `DELETE FROM`.
+6. **API log** — Log every mutating request (POST/PUT/DELETE) to `api_log` table as seen in the template controller.
+7. **Unique field validation** — If the table has a UNIQUE KEY, validate for duplicates before insert/update, returning the same conflict error format as the template.
+8. **Enum fields** — Validate enum values against the allowed set before insert/update.
+9. **Attachments** — If the entity has a `_attachment` table, generate attachment upload/delete methods following `template_attachment` structure.
+10. **Response format** — Use the same `Api_response` structure from `app/Models/Api_response.php` for all responses.

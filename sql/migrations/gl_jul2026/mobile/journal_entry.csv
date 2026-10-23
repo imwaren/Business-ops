@@ -1,0 +1,115 @@
+id,cost_center_id,date,type,remarks,total_debit,total_credit,status,is_migrated,added_by,added_on,is_deleted
+20365,1,2026-07-01,journal_entry,"Sales Branches JuLY 01, 2026 - Term Sales - July, 01 — #69619",197870.0000,197870.0000,approved,1,0,2026-07-31 23:59:59,0
+20366,1,2026-07-01,payable_payment,Payment: HOME DEVELOPMENT MUTUAL FUND — RFP No.# 6250,0.0000,12600.0000,approved,1,0,2026-07-31 23:59:59,0
+20367,1,2026-07-02,journal_entry,"Sales Branches JuLY 02, 2026 - Term Sales - July, 02 — #69620",128850.0000,128850.0000,approved,1,0,2026-07-31 23:59:59,0
+20368,1,2026-07-02,payable_invoice,DITO Telecommunity Corporation — RFP No.# 6439,10440.0000,10440.0000,approved,1,0,2026-07-31 23:59:59,0
+20369,1,2026-07-02,receivable_credit_note,TERADYNE PHILIPPINES LIMITED - OVERBILLED- JINELYN BUSTAMANTE — CN-5404,2515.0000,2515.0000,approved,1,0,2026-07-31 23:59:59,0
+20370,1,2026-07-02,receivable_credit_note_allocation,TERADYNE PHILIPPINES LIMITED — CN-5404,2515.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+20371,1,2026-07-02,receivable_credit_note_allocation,TERADYNE PHILIPPINES LIMITED — MO-3890,0.0000,2515.0000,approved,1,0,2026-07-31 23:59:59,0
+20372,1,2026-07-03,journal_entry,Reversal of: to accrue DITO: 9 units of WiFive plan monthly service fee Mobile for the month of 2026 June — #65867,16392.0000,16392.0000,approved,1,0,2026-07-31 23:59:59,0
+20373,1,2026-07-03,journal_entry,"Sales Branches JuLY 03, 2026 - Term Sales - July, 03 — #69621",66930.0000,66930.0000,approved,1,0,2026-07-31 23:59:59,0
+20374,1,2026-07-03,payable_payment,Payment: DG'S INK TRADING — 0526-000611,2279.4600,2279.4600,approved,1,0,2026-07-31 23:59:59,0
+20375,1,2026-07-03,payable_payment,"Payment: SMART COMMUNICATIONS, INC. — RFP No.# 6425",0.0000,1675.0000,approved,1,0,2026-07-31 23:59:59,0
+20376,1,2026-07-03,payable_payment,Payment: DITO Telecommunity Corporation — RFP No.# 6439,10440.0000,10440.0000,approved,1,0,2026-07-31 23:59:59,0
+20377,1,2026-07-06,receivable_credit_note,Asalus Corporation — CN-5508,5604.8000,5604.8000,approved,1,0,2026-07-31 23:59:59,0
+20378,1,2026-07-06,receivable_credit_note_allocation,Asalus Corporation — CN-5508,5604.8000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+20379,1,2026-07-06,receivable_credit_note_allocation,Asalus Corporation — MO-3647,0.0000,5604.8000,approved,1,0,2026-07-31 23:59:59,0
+20380,1,2026-07-07,journal_entry,"Sales Branches JuLY 07, 2026 - Term Sales - July, 07 — #72348",129165.0000,129165.0000,approved,1,0,2026-07-31 23:59:59,0
+20381,1,2026-07-09,payable_invoice,"Golden Great Value Properties, Inc. — RFP No.# 6484",56000.0000,56000.0000,approved,1,0,2026-07-31 23:59:59,0
+20382,1,2026-07-09,payable_invoice,GEEGE CENTRAL MALL INC. — RFP No.# 6485,22400.0000,22400.0000,approved,1,0,2026-07-31 23:59:59,0
+20383,1,2026-07-09,payable_invoice,SHOGUN MANAGEMENT AND DEVELOPMENT CORP. — RFP No.# 6486,26096.0000,26096.0000,approved,1,0,2026-07-31 23:59:59,0
+20384,1,2026-07-10,journal_entry,"Sales Branches JuLY 10, 2026 - Term Sales - July, 10 — #69627",61700.0000,61700.0000,approved,1,0,2026-07-31 23:59:59,0
+20385,1,2026-07-10,payable_payment,Payment: LA NUEVA DRUGSTORE CHAINS INC. — RFP No.# 6291,383083.9600,383083.9600,approved,1,0,2026-07-31 23:59:59,0
+20386,1,2026-07-10,payable_payment,Payment: GEEGE CENTRAL MALL INC. — RFP No.# 6485,21400.0000,21400.0000,approved,1,0,2026-07-31 23:59:59,0
+20387,1,2026-07-10,receivable_invoice,Virginia Food Inc. - RANDOM DRUG TESTING | 07/01/2026 |VIRGINIA FOOD INC |RANDOM DRUG TESTING | 24PAX|300 | — MO-24041,7200.0000,7200.0000,approved,1,0,2026-07-31 23:59:59,0
+20388,1,2026-07-10,receivable_invoice,"Knowles Electronics Philippines - CBC, UA, XRAY | 07/07/2026 |Knowles Electronics Philippines |CBC, UA, XRAY | 74PAX|330 | — MO-24042",129830.0000,129830.0000,approved,1,0,2026-07-31 23:59:59,0
+20389,1,2026-07-10,receivable_invoice,VIRGINIA FARMS INC. - Package 1 - Food Handlers | 07/01/2026 |VIRGINIA FARMS INC. |Package 1 - Food Handlers | 193PAX|1000 | — MO-24043,346150.0000,346150.0000,approved,1,0,2026-07-31 23:59:59,0
+20390,1,2026-07-10,receivable_invoice,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) - RANDOM DRUG TESTING | 07/01/2026 |Cebu Logitem Inc. |RANDOM DRUG TESTING | 50PAX|300 | — MO-4828",15000.0000,15000.0000,approved,1,0,2026-07-31 23:59:59,0
+20391,1,2026-07-10,receivable_invoice,VFI-CEBU GENERAL SERVICES INC. - RANDOM DRUG TESTING | 07/01/2026 |VIRGINIA FOOD INC |RANDOM DRUG TESTING | 45PAX|300 | — MO-4829,13500.0000,13500.0000,approved,1,0,2026-07-31 23:59:59,0
+20392,1,2026-07-10,receivable_invoice,VFI-CEBU LABOR LINK MANPOWER - RANDOM DRUG TESTING | 07/01/2026 |VIRGINIA FOOD INC |RANDOM DRUG TESTING | 18PAX|300 | — MO-4830,5400.0000,5400.0000,approved,1,0,2026-07-31 23:59:59,0
+20393,1,2026-07-11,journal_entry,"Sales Branches JuLY 11, 2026 - Term Sales - July, 11 — #69628",1830.0000,1830.0000,approved,1,0,2026-07-31 23:59:59,0
+20394,1,2026-07-13,journal_entry,"Sales Branches JuLY 13, 2026 - Term Sales - July, 13 — #69629",330.0000,330.0000,approved,1,0,2026-07-31 23:59:59,0
+20395,1,2026-07-13,payable_invoice,HOME DEVELOPMENT MUTUAL FUND - Payment for HDMF mandatory contribution for the month of June  2026 (employer share) — RFP No.# 6496,8900.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+20396,1,2026-07-13,payable_invoice,SOCIAL SECURITY SYSTEM - Payment for SSS Contribution for the month of June 2026 (Employeer Share) — RFP No.# 6497,75650.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+20397,1,2026-07-13,payable_invoice,Shanesse Angelee Cortes — RFP No.# 6510,20000.0000,20000.0000,approved,1,0,2026-07-31 23:59:59,0
+20398,1,2026-07-13,payable_invoice,Shanesse Angelee Cortes — RFP No.# 6511,12637.5000,12637.5000,approved,1,0,2026-07-31 23:59:59,0
+20399,1,2026-07-13,payable_invoice,Shanesse Angelee Cortes — RFP No.# 6512,13635.5100,13635.5100,approved,1,0,2026-07-31 23:59:59,0
+20400,1,2026-07-13,payable_invoice,Shanesse Angelee Cortes — RFP No.# 6513,8400.0000,8400.0000,approved,1,0,2026-07-31 23:59:59,0
+20401,1,2026-07-13,payable_invoice,PHILIPPINE HEALTH INSURANCE CORPORATION - Payment for PHIC Contribution for the month of June 2026  (Employer Share) — RFP No.# 6515,18694.5400,0.0000,approved,1,0,2026-07-31 23:59:59,0
+20402,1,2026-07-14,payable_invoice,"GLOBE TELECOM, INC. - VAT: Globe bill FTP 05/24-06/23/2026; Mobile — RFP No.# 6517",2497.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+20403,1,2026-07-14,payable_invoice,"EUGENE TIO - Payment for Mobile van parking fee ftp June 13- July 13, 2026 — RFP No.# 6522",3000.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+20404,1,2026-07-14,payable_payment,"Payment: Golden Great Value Properties, Inc. — RFP No.# 6484",53500.0000,53500.0000,approved,1,0,2026-07-31 23:59:59,0
+20405,1,2026-07-14,payable_payment,Payment: HOME DEVELOPMENT MUTUAL FUND — RFP No.# 6496,0.0000,8900.0000,approved,1,0,2026-07-31 23:59:59,0
+20406,1,2026-07-14,payable_payment,Payment: Shanesse Angelee Cortes — RFP No.# 6510,20000.0000,20000.0000,approved,1,0,2026-07-31 23:59:59,0
+20407,1,2026-07-14,payable_payment,Payment: Shanesse Angelee Cortes — RFP No.# 6511,12637.5000,12637.5000,approved,1,0,2026-07-31 23:59:59,0
+20408,1,2026-07-14,payable_payment,Payment: Shanesse Angelee Cortes — RFP No.# 6512,13635.5100,13635.5100,approved,1,0,2026-07-31 23:59:59,0
+20409,1,2026-07-14,payable_payment,Payment: Shanesse Angelee Cortes — RFP No.# 6513,8400.0000,8400.0000,approved,1,0,2026-07-31 23:59:59,0
+20410,1,2026-07-14,payable_payment,Payment: PHILIPPINE HEALTH INSURANCE CORPORATION — RFP No.# 6515,0.0000,18694.5400,approved,1,0,2026-07-31 23:59:59,0
+20411,1,2026-07-14,payable_payment,"Payment: GLOBE TELECOM, INC. — RFP No.# 6517",0.0000,2497.0000,approved,1,0,2026-07-31 23:59:59,0
+20412,1,2026-07-15,journal_entry,"Sales Branches JuLY 15, 2026 - Term Sales - July, 15 — #72352",18000.0000,18000.0000,approved,1,0,2026-07-31 23:59:59,0
+20413,1,2026-07-16,journal_entry,"Sales Branches JuLY 16, 2026 - Term Sales - July, 16 — #69632",16500.0000,16500.0000,approved,1,0,2026-07-31 23:59:59,0
+20414,1,2026-07-16,receivable_invoice,"MANDAUE FOAM INDUSTRIES, INC. - DRUG TEST | 07/09/2026 |MANDAUE FOAM- TINGUB |DRUG TEST | 132PAX|300 | — MO-24044",59700.0000,59700.0000,approved,1,0,2026-07-31 23:59:59,0
+20415,1,2026-07-17,payable_payment,Payment: SHOGUN MANAGEMENT AND DEVELOPMENT CORP. — RFP No.# 6486,25030.0000,25030.0000,approved,1,0,2026-07-31 23:59:59,0
+20416,1,2026-07-18,journal_entry,"Sales Branches JuLY 18, 2026 - Term Sales - July, 18 — #69634",436560.0000,436560.0000,approved,1,0,2026-07-31 23:59:59,0
+20417,1,2026-07-20,journal_entry,"to record KA/YA payroll Operations, FT support, logistics- Mobile july 1-15 — #68800",192882.0200,192882.0200,approved,1,0,2026-07-31 23:59:59,0
+20418,1,2026-07-20,journal_entry,"to record KA/YA payroll Mobile Sales and Services mall, clinic, finance, admin support july 1-15 — #68801",331071.4000,331071.4000,approved,1,0,2026-07-31 23:59:59,0
+20419,1,2026-07-20,journal_entry,"CPCI Payroll for July 1-15, 2026 - Mobile Medical Affairs — #68828",188798.6200,188798.6200,approved,1,0,2026-07-31 23:59:59,0
+20420,1,2026-07-20,journal_entry,"CPCI Payroll for July 1-15, 2026 - Mobile Operations — #69019",228981.5200,228981.5200,approved,1,0,2026-07-31 23:59:59,0
+20421,1,2026-07-20,journal_entry,"CPCI Payroll for July 1-15, 2026 - Project Based Mobile Operations SR — #69027",15406.7000,15406.7000,approved,1,0,2026-07-31 23:59:59,0
+20422,1,2026-07-20,journal_entry,"Sales Branches JuLY 20, 2026 - Term Sales - July, 20 — #69635",28830.0000,28830.0000,approved,1,0,2026-07-31 23:59:59,0
+20423,1,2026-07-20,journal_entry,Reversal of: Globe -To accrue mobile all for the month of June — #69806,2796.6400,2796.6400,approved,1,0,2026-07-31 23:59:59,0
+20424,1,2026-07-20,payable_invoice,Far East Noble House Inc. — RFP No.# 6557,31696.0000,31696.0000,approved,1,0,2026-07-31 23:59:59,0
+20425,1,2026-07-21,journal_entry,"Sales Branches JuLY 21, 2026 - Term Sales - July, 21 — #69636",14400.0000,14400.0000,approved,1,0,2026-07-31 23:59:59,0
+20426,1,2026-07-21,payable_payment,Payment: Far East Noble House Inc. — RFP No.# 6557,30380.0000,30380.0000,approved,1,0,2026-07-31 23:59:59,0
+20427,1,2026-07-22,receivable_invoice,"CEBU OVERSEA HARDWARE CO., INC. - DRUGTEST | 07/15/2026 |CEBU OVERSEA HARDWARE CO., INC. |DRUGTEST | 60PAX|300 | — MO-24045",18000.0000,18000.0000,approved,1,0,2026-07-31 23:59:59,0
+20428,1,2026-07-22,receivable_invoice,JE HYDRO & BIO  ENERGY CORP. - RANDOM DRUG TESTING | 07/17/2026 |JE HYDRO & BIO  ENERGY CORP. |RANDOM DRUG TESTING | 55PAX|300 | — MO-24046,16500.0000,16500.0000,approved,1,0,2026-07-31 23:59:59,0
+20429,1,2026-07-24,receivable_invoice,RUSLEY SALES CORP. - RANDOM DRUG TESTING | 07/22/2026 |RUSLEY SALES CORP. |RANDOM DRUG TESTING | 47PAX|300 | — MO-24047,14100.0000,14100.0000,approved,1,0,2026-07-31 23:59:59,0
+20430,1,2026-07-24,receivable_invoice,TOPLINE LOGISTICS AND DEVELOPMENT CORP. - RANDOM DRUG TESTING | 07/22/2026 |TOPLINE LOGISTICS AND DEVELOPMENT CORP. & LIGHT FUELS CORP |RANDOM DRUG TESTING | 46PAX|300 | — MO-24048,15000.0000,15000.0000,approved,1,0,2026-07-31 23:59:59,0
+20431,1,2026-07-24,receivable_invoice,LIGHT FUELS CORP. - RANDOM DRUG TESTING | 07/22/2026 |LIGHT FUELS CORP. |RANDOM DRUG TESTING | 48PAX|300 | — MO-24049,15000.0000,15000.0000,approved,1,0,2026-07-31 23:59:59,0
+20432,1,2026-07-25,journal_entry,"Sales Branches JuLY 25, 2026 - Term Sales - July, 25 — #72354",1770.0000,1770.0000,approved,1,0,2026-07-31 23:59:59,0
+20433,1,2026-07-27,journal_entry,Globe -To accrue mobile all for the month of july — #69802,2497.0000,2497.0000,approved,1,0,2026-07-31 23:59:59,0
+20434,1,2026-07-27,journal_entry,Globe - to accrue globe Data line mobile for july — #69813,18149.8200,18149.8200,approved,1,0,2026-07-31 23:59:59,0
+20435,1,2026-07-27,journal_entry,Smart Comm - To accrue payment for Smart all 2026 july — #69815,1649.9900,1649.9900,approved,1,0,2026-07-31 23:59:59,0
+20436,1,2026-07-27,journal_entry,to accrue DITO: 9 units of WiFive plan monthly service fee Mobile for the month of 2026 july — #69825,16392.0000,16392.0000,approved,1,0,2026-07-31 23:59:59,0
+20437,1,2026-07-27,journal_entry,"Sales Branches July 27, 2026 - Term Sales - July, 27 — #71192",29270.0000,29270.0000,approved,1,0,2026-07-31 23:59:59,0
+20438,1,2026-07-27,receivable_payment,Payment: Life & Health Hmp Inc — MO-3774,12642.0000,12642.0000,approved,1,0,2026-07-31 23:59:59,0
+20439,1,2026-07-28,journal_entry,"Sales Branches July 28, 2026 - Term Sales - July, 28 — #71193",15900.0000,15900.0000,approved,1,0,2026-07-31 23:59:59,0
+20440,1,2026-07-28,journal_entry,To record amortization of prepayments for the month of July 2026 — #71817,113942.2400,0.0000,approved,1,0,2026-07-31 23:59:59,0
+20441,1,2026-07-28,payable_payment,Payment: SOCIAL SECURITY SYSTEM — RFP No.# 6497,0.0000,75650.0000,approved,1,0,2026-07-31 23:59:59,0
+20442,1,2026-07-28,payable_payment,Payment: EUGENE TIO — RFP No.# 6522,0.0000,3000.0000,approved,1,0,2026-07-31 23:59:59,0
+20443,1,2026-07-28,receivable_credit_note,Life & Health Hmp Inc — CN-6110,258.0000,258.0000,approved,1,0,2026-07-31 23:59:59,0
+20444,1,2026-07-28,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6110,258.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+20445,1,2026-07-28,receivable_credit_note_allocation,Life & Health Hmp Inc — MO-3774,0.0000,258.0000,approved,1,0,2026-07-31 23:59:59,0
+20446,1,2026-07-29,journal_entry,to record accrual of the SL sick leave conversion JULY — #70322,4589.8900,0.0000,approved,1,0,2026-07-31 23:59:59,0
+20447,1,2026-07-29,journal_entry,to record depreciation expense for  2026 july - Mobile — #71886,221472.6000,221472.6000,approved,1,0,2026-07-31 23:59:59,0
+20448,1,2026-07-30,payable_invoice,Shanesse Angelee Cortes — RFP No.# 6623,8931.0000,8931.0000,approved,1,0,2026-07-31 23:59:59,0
+20449,1,2026-07-30,payable_invoice,Shanesse Angelee Cortes — RFP No.# 6625,10200.0000,10200.0000,approved,1,0,2026-07-31 23:59:59,0
+20450,1,2026-07-30,payable_invoice,Shanesse Angelee Cortes — RFP No.# 6626,2000.0000,2000.0000,approved,1,0,2026-07-31 23:59:59,0
+20451,1,2026-07-30,payable_invoice,Shanesse Angelee Cortes — RFP No.# 6627,2000.0000,2000.0000,approved,1,0,2026-07-31 23:59:59,0
+20452,1,2026-07-31,journal_entry,to accrue medicines - konsulta La Nueva 2026 JULY — #71710,1779.8300,0.0000,approved,1,0,2026-07-31 23:59:59,0
+20453,1,2026-07-31,journal_entry,"CPCI Payroll for July 16-31, 2026 - Mobile Medical Affairs — #72111",192261.9200,192261.9200,approved,1,0,2026-07-31 23:59:59,0
+20454,1,2026-07-31,journal_entry,"CPCI Payroll for July 16-31, 2026 - Mobile Operations — #72120",232410.0800,232410.0800,approved,1,0,2026-07-31 23:59:59,0
+20455,1,2026-07-31,journal_entry,"to record KA/YA payroll Operations, FT support, logistics- Mobile july 16-31 — #72142",186543.7200,186543.7200,approved,1,0,2026-07-31 23:59:59,0
+20456,1,2026-07-31,journal_entry,"to record KA/YA payroll Mobile Sales and Services mall, clinic, finance, admin support july 16-31 — #72143",343050.1400,343050.1400,approved,1,0,2026-07-31 23:59:59,0
+20457,1,2026-07-31,journal_entry,To record the accrual of the 13th Month Pay for 2026 JULY 1-15 — #72164,37995.8000,37995.8000,approved,1,0,2026-07-31 23:59:59,0
+20458,1,2026-07-31,journal_entry,to reverse accrual of 13th month last pay July — #72166,0.0000,6096.6000,approved,1,0,2026-07-31 23:59:59,0
+20459,1,2026-07-31,journal_entry,To record inventory consumption 2026 July — #72175,67017.2000,67017.2000,approved,1,0,2026-07-31 23:59:59,0
+20460,1,2026-07-31,journal_entry,"Sales Branches July 31, 2026 - Term Sales - July, 31 — #72356",777560.0000,777560.0000,approved,1,0,2026-07-31 23:59:59,0
+20461,1,2026-07-31,journal_entry,To reclassify Konsulta FPE revenue 2026 July — #72357,1213120.0000,1213120.0000,approved,1,0,2026-07-31 23:59:59,0
+20462,1,2026-07-31,journal_entry,To record the accrual of the 13th Month Pay for 2026 JULY 16-31 — #72368,38162.4100,38162.4100,approved,1,0,2026-07-31 23:59:59,0
+20463,1,2026-07-31,payable_invoice,Dharyl A. Comaling - Payment for last and final pay for resigned employee (13th month) — RFP No.# 6638,10429.4500,10429.4500,approved,1,0,2026-07-31 23:59:59,0
+20464,1,2026-07-31,payable_invoice,Shanesse Angelee Cortes — RFP No.# 6658,3600.0000,3600.0000,approved,1,0,2026-07-31 23:59:59,0
+20465,1,2026-07-31,payable_invoice,Shanesse Angelee Cortes — RFP No.# 6659,750.0000,750.0000,approved,1,0,2026-07-31 23:59:59,0
+20466,1,2026-07-31,payable_invoice,Shanesse Angelee Cortes — RFP No.# 6660,1800.0000,1800.0000,approved,1,0,2026-07-31 23:59:59,0
+20467,1,2026-07-31,payable_payment,Payment: Shanesse Angelee Cortes — RFP No.# 6623,8931.0000,8931.0000,approved,1,0,2026-07-31 23:59:59,0
+20468,1,2026-07-31,payable_payment,Payment: Shanesse Angelee Cortes — RFP No.# 6625,10200.0000,10200.0000,approved,1,0,2026-07-31 23:59:59,0
+20469,1,2026-07-31,payable_payment,Payment: Shanesse Angelee Cortes — RFP No.# 6626,2000.0000,2000.0000,approved,1,0,2026-07-31 23:59:59,0
+20470,1,2026-07-31,payable_payment,Payment: Shanesse Angelee Cortes — RFP No.# 6627,2000.0000,2000.0000,approved,1,0,2026-07-31 23:59:59,0
+20471,1,2026-07-31,payable_payment,"Payment: SMART COMMUNICATIONS, INC. — RFP No.# 6631",0.0000,1875.0000,approved,1,0,2026-07-31 23:59:59,0
+20472,1,2026-07-31,receivable_credit_note,Life & Health Hmp Inc — CN-6312,11.0000,11.0000,approved,1,0,2026-07-31 23:59:59,0
+20473,1,2026-07-31,receivable_credit_note_allocation,Life & Health Hmp Inc — CN-6312,11.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+20474,1,2026-07-31,receivable_credit_note_allocation,Life & Health Hmp Inc — MO-1010,0.0000,11.0000,approved,1,0,2026-07-31 23:59:59,0
+20475,1,2026-07-31,receivable_invoice,LF PHILIPPINES INC. - RANDOM DRUG TESTING | 07/27/2026 |LF PHILIPPINES INC. |RANDOM DRUG TESTING | 94PAX|300 | — MO-24050,28200.0000,28200.0000,approved,1,0,2026-07-31 23:59:59,0
+20476,1,2026-07-31,receivable_invoice,PLANTATION BAY HOLDINGS CORP. - RANDOM DRUG TESTING | 07/28/2026 |PLANTATION BAY HOLDINGS CORP. |RANDOM DRUG TESTING | 53PAX|300 | — MO-24323,15900.0000,15900.0000,approved,1,0,2026-07-31 23:59:59,0
+20477,1,2026-07-31,receivable_payment,"Payment: LIFE AND HEALTH  HMP, INC. — 6-30-26",539.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+20478,1,2026-07-31,receivable_payment,"Payment: LIFE AND HEALTH  HMP, INC. — MO-1010",0.0000,539.0000,approved,1,0,2026-07-31 23:59:59,0

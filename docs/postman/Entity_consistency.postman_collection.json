@@ -1,0 +1,200 @@
+{
+  "info": {
+    "name": "Entity consistency (multi-resource)",
+    "description": "# Entity consistency APIs\n\nShared cleanup / check / fix endpoints for catalog and people resources (same behavior as Items).\n\n## Auth\n- Header: `API-KEY`\n- Query/form: `token`, `requester`\n\n## Resources (`{{resource}}`)\n`memberships`, `giftchecks`, `vouchers`, `promos`, `vaccines`, `packages`, `lab_tests`, `categories`, `asset_groups`, `account_types`, `nurses`, `doctors`, `data_consents`, `informed_consents`\n\n`assets` is **not** consistency-checked. Asset CRUD is branch-local (no increment-ID sync).\n\n## Suggested order\n1. Loop `POST /{{resource}}/cleanup_duplicate_items` until `done`\n2. Loop `POST /{{resource}}/fix_consistency` until `done`\n3. `GET /{{resource}}/check_consistency` — leftover issues are usually `field_diffs`\n\n## Scope\nMaster + diagnostic DBs: `mobile`, `oakridge`, `mactan`, `consolacion`, `mantlewood`, `warehouse` (branch 5), `pharmacy` (branch 6). No EMR.\n\n## fix_consistency rules\n1. Soft-delete everywhere when master active and any diagnostic deleted\n2. Insert diagnostic-only ids onto master + missing DBs\n3. Push master ids missing on any diagnostic\n\nField diffs are **not** auto-fixed.\n\n## Done messages\n- `all databases rows is consistent` — active-row check would pass\n- `No more supported consistency fixes remaining...` — see `unsupported_field_diff_count`",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost/cpci-business-ops-api/public"
+    },
+    {
+      "key": "resource",
+      "value": "memberships"
+    },
+    {
+      "key": "token",
+      "value": ""
+    },
+    {
+      "key": "requester",
+      "value": "1"
+    },
+    {
+      "key": "api_key",
+      "value": ""
+    }
+  ],
+  "item": [
+    {
+      "name": "check_consistency",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/{{resource}}/check_consistency?token={{token}}&requester={{requester}}&is_deleted=0",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "{{resource}}",
+            "check_consistency"
+          ],
+          "query": [
+            {
+              "key": "token",
+              "value": "{{token}}"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}"
+            },
+            {
+              "key": "is_deleted",
+              "value": "0",
+              "description": "`0` active only; `all` include soft-deleted"
+            }
+          ]
+        },
+        "description": "## GET `/{{resource}}/check_consistency`\n\nCompares parent table rows between master and each diagnostic DB.\n\nReports `missing_on_branch`, `extra_on_branch`, and `field_diffs`."
+      },
+      "response": []
+    },
+    {
+      "name": "cleanup_duplicate_items",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "token",
+              "value": "{{token}}",
+              "type": "text"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}",
+              "type": "text"
+            },
+            {
+              "key": "limit",
+              "value": "25",
+              "type": "text",
+              "description": "Max delete ids per call"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/{{resource}}/cleanup_duplicate_items",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "{{resource}}",
+            "cleanup_duplicate_items"
+          ]
+        },
+        "description": "## POST `/{{resource}}/cleanup_duplicate_items`\n\nSoft-deletes duplicate active rows (entity-specific key groups), keeping `MIN(id)`. Cascades configured child tables. Chunked by `limit` (default 25)."
+      },
+      "response": [
+        {
+          "name": "Done",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"groups_cleaned\": 0,\n  \"deleted_count\": 0,\n  \"deleted\": [],\n  \"remaining_delete_count\": 0,\n  \"done\": true,\n  \"message\": \"all databases rows is consistent\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "fix_consistency",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "token",
+              "value": "{{token}}",
+              "type": "text"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}",
+              "type": "text"
+            },
+            {
+              "key": "limit",
+              "value": "25",
+              "type": "text"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/{{resource}}/fix_consistency",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "{{resource}}",
+            "fix_consistency"
+          ]
+        },
+        "description": "## POST `/{{resource}}/fix_consistency`\n\n### Rules (chunk order)\n1. Soft-delete (2.1)\n2. Insert from diagnostic (2.2)\n3. Push from master (2.3)\n\nParent row only on insert/push. Field diffs not auto-fixed.\n\n### Done messages\n- `all databases rows is consistent` when active check would pass\n- otherwise points to `check_consistency` for remaining `field_diffs`"
+      },
+      "response": [
+        {
+          "name": "Done — fully consistent",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"fixed_count\": 0,\n  \"soft_deleted\": [],\n  \"inserted\": [],\n  \"pushed\": [],\n  \"remaining_count\": 0,\n  \"done\": true,\n  \"message\": \"all databases rows is consistent\",\n  \"unsupported_field_diff_count\": 0\n}"
+        },
+        {
+          "name": "Done — field diffs remain",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"fixed_count\": 0,\n  \"soft_deleted\": [],\n  \"inserted\": [],\n  \"pushed\": [],\n  \"remaining_count\": 0,\n  \"done\": true,\n  \"message\": \"No more supported consistency fixes remaining. Run check_consistency for remaining field_diffs.\",\n  \"unsupported_field_diff_count\": 12,\n  \"remaining_missing_count\": 0,\n  \"remaining_extra_count\": 0\n}"
+        }
+      ]
+    }
+  ]
+}

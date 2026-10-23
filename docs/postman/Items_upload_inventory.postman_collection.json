@@ -1,0 +1,458 @@
+{
+  "info": {
+    "_postman_id": "c4e8a1b2-9f3d-4a5e-b6c7-123456789abc",
+    "name": "Items - Inventory Excel Upload",
+    "description": "# Items inventory Excel upload\n\nBulk-creates inventory items from the **INVENTORY LIST** workbook (columns A\u2013S) using **chunked `insert_batch`** across physical DBs (avoids gateway 504).\n\n## Auth\n- Header: `API-KEY` (required)\n- Form-data (POST): `token`, `requester` (required)\n\n## Flow\n1. `GET /items/download_inventory_template` \u2014 download encoder template\n2. Fill rows starting at **row 3** (rows 1\u20132 are headers)\n3. `POST /items/upload_inventory` with `start_row=3` and `limit=25`\n4. Re-upload the **same file** with `start_row = next_start_row` until `done=true`\n\n## Chunking (required for large files)\n| Field | Default | Purpose |\n|-------|---------|--------|\n| `start_row` | `3` | First Excel row number to process |\n| `limit` | `25` | Max data rows per request (keep \u226425 under ~30s gateway) |\n\nEach chunk validates rows, allocates global IDs once, then `insert_batch` for `item`, `item_conversion`, `branch_item`, and `item_cost` on every physical DB.\n\n## Column guide (row 2 headers)\n| Col | Header | API field / rule |\n|-----|--------|------------------|\n| A | Item Code | Reference only (error context) |\n| B | Type | `type` \u2014 snake_case (`Goods` \u2192 `goods`) |\n| C | Kinds of Goods | `kind` \u2014 comma-separated labels \u2192 snake_case |\n| D | Name | `name` (required) |\n| E | Brand | `brand`; default `-` if empty |\n| F | For Canvassing | `is_canvassing` (`Yes`\u2192`1`, `No`\u2192`0`) |\n| G | Item Description | `description` |\n| H | Min. | `conversions[*][min]` |\n| I | Max | `conversions[*][max]` |\n| J | COST PRICE | `cost` |\n| K | VAT TYPE | `vat_type` \u2014 snake_case, strip trailing `.` (`VAT In.` \u2192 `vat_in`) |\n| L | VAT Account | Lookup `account_type.name` \u2192 `vat_account_type_id` |\n| M | Account Type | Lookup `account_type.name` \u2192 `account_type_id` |\n| N\u2013S | Purchase/Clinic/Usage qty + units | `conversions[0..2]` |\n\n## Multi-branch DB mirroring\nSame rows written to: master (0), mobile (1), oakridge (2), mactan (3), consolacion (4), mantlewood (7), pharmacy (6). Transfer tables stay on master only.\n\n## Dependency\nRequires `phpoffice/phpspreadsheet` (`composer require phpoffice/phpspreadsheet:^1.29`).\n\n## Consistency check\n`GET /items/check_consistency` compares `item` rows on master vs each diagnostic DB (missing/extra ids + field diffs). Optional `is_deleted=0|all`.\n\n## Duplicate cleanup\nAfter accidental re-uploads, run `POST /items/cleanup_duplicate_items` to soft-delete extras sharing `(name, description, is_deleted=0)`, keeping `MIN(id)`. Cascades to child tables on master + all diagnostic DBs.\n\n### SQL to inspect duplicates (master)\n```sql\nSELECT i.name, i.description, i.is_deleted, COUNT(*) AS duplicate_count,\n       GROUP_CONCAT(i.id ORDER BY i.id) AS item_ids, MIN(i.id) AS keep_item_id\nFROM item i\nWHERE i.is_deleted = 0\nGROUP BY i.name, i.description, i.is_deleted\nHAVING COUNT(*) > 1\nORDER BY duplicate_count DESC, i.name;\n```\n\n## Save / Send\n- Upload: Body \u2192 form-data \u2192 `file` type **File**; do **not** set `Content-Type` manually\n\n## Fix consistency\n1. Loop `POST /items/cleanup_duplicate_items` (`limit=25`) until `done`\n2. Loop `POST /items/fix_consistency` (`limit=25`) until `done`\n3. `GET /items/check_consistency` to verify\n",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost/cpci-business-ops-api/public"
+    },
+    {
+      "key": "api_key",
+      "value": "clinicaRiKOYqlwdTJ-lNedqS0k-it!395!-6ls1JXM7Vcc"
+    },
+    {
+      "key": "token",
+      "value": "{{token}}"
+    },
+    {
+      "key": "requester",
+      "value": "110"
+    },
+    {
+      "key": "start_row",
+      "value": "3"
+    },
+    {
+      "key": "limit",
+      "value": "25"
+    },
+    {
+      "key": "next_start_row",
+      "value": ""
+    }
+  ],
+  "item": [
+    {
+      "name": "Download inventory template",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/items/download_inventory_template?token={{token}}&requester={{requester}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "items",
+            "download_inventory_template"
+          ],
+          "query": [
+            {
+              "key": "token",
+              "value": "{{token}}"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}"
+            }
+          ]
+        },
+        "description": "## GET `/items/download_inventory_template`\n\nStreams `inventory_list_template.xlsx` with columns A\u2013S matching the INVENTORY LIST encoder layout.\n\n### Success\nBinary body with `Content-Disposition: attachment; filename=\"inventory_list_template.xlsx\"`.\n\nIn Postman: **Send and Download** / Save Response as `.xlsx`."
+      },
+      "response": [
+        {
+          "name": "Success (binary xlsx)",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "text",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+            },
+            {
+              "key": "Content-Disposition",
+              "value": "attachment; filename=\"inventory_list_template.xlsx\""
+            }
+          ],
+          "body": "(binary Excel workbook \u2014 use Send and Download in Postman)"
+        },
+        {
+          "name": "PhpSpreadsheet missing",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "[\n  \"PhpSpreadsheet is not installed. Run: composer require phpoffice/phpspreadsheet:^1.29\"\n]"
+        }
+      ]
+    },
+    {
+      "name": "Upload inventory (chunk)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "description": "Filled INVENTORY LIST workbook (.xlsx). Data starts at row 3.",
+              "type": "file",
+              "src": []
+            },
+            {
+              "key": "token",
+              "value": "{{token}}",
+              "type": "text"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}",
+              "type": "text"
+            },
+            {
+              "key": "start_row",
+              "value": "{{start_row}}",
+              "type": "text",
+              "description": "Excel row number to start from (default 3)"
+            },
+            {
+              "key": "limit",
+              "value": "{{limit}}",
+              "type": "text",
+              "description": "Max rows per request (default 25). Keep low to avoid 504."
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/items/upload_inventory",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "items",
+            "upload_inventory"
+          ]
+        },
+        "description": "## POST `/items/upload_inventory`\n\nProcesses a **chunk** of Excel rows with batched multi-DB inserts.\n\n### Body (multipart form-data)\n| Field | Type | Required | Default |\n|-------|------|----------|--------|\n| `file` | file (`.xlsx` / `.xls`) | yes | \u2014 |\n| `token` | text | yes | \u2014 |\n| `requester` | text | yes | \u2014 |\n| `start_row` | text | no | `3` |\n| `limit` | text | no | `25` |\n\nDo **not** set `Content-Type` manually.\n\n### How to finish a full workbook\n1. Call with `start_row=3`, `limit=25`\n2. Read `next_start_row` from the response\n3. Call again with the same file and `start_row={{next_start_row}}`\n4. Repeat until `done=true` (`next_start_row` is null)\n\n### Success response (more chunks remain)\n```json\n{\n  \"total_rows\": 537,\n  \"processed_rows\": 25,\n  \"success_count\": 25,\n  \"failed_count\": 0,\n  \"created\": [{ \"row\": 3, \"item_id\": 101, \"name\": \"Mouse\" }],\n  \"errors\": [],\n  \"next_start_row\": 28,\n  \"done\": false\n}\n```\n\n### Final chunk\n```json\n{\n  \"total_rows\": 537,\n  \"processed_rows\": 12,\n  \"success_count\": 12,\n  \"failed_count\": 0,\n  \"created\": [...],\n  \"errors\": [],\n  \"next_start_row\": null,\n  \"done\": true\n}\n```"
+      },
+      "response": [
+        {
+          "name": "Success (more chunks)",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"total_rows\": 537,\n  \"processed_rows\": 25,\n  \"success_count\": 25,\n  \"failed_count\": 0,\n  \"created\": [\n    {\n      \"row\": 3,\n      \"item_id\": 101,\n      \"name\": \"Mouse\"\n    }\n  ],\n  \"errors\": [],\n  \"next_start_row\": 28,\n  \"done\": false\n}"
+        },
+        {
+          "name": "Success (done)",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"total_rows\": 537,\n  \"processed_rows\": 12,\n  \"success_count\": 12,\n  \"failed_count\": 0,\n  \"created\": [],\n  \"errors\": [],\n  \"next_start_row\": null,\n  \"done\": true\n}"
+        },
+        {
+          "name": "Partial validation failure in chunk",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"total_rows\": 537,\n  \"processed_rows\": 25,\n  \"success_count\": 24,\n  \"failed_count\": 1,\n  \"created\": [\n    {\n      \"row\": 3,\n      \"item_id\": 101,\n      \"name\": \"Mouse\"\n    }\n  ],\n  \"errors\": [\n    {\n      \"row\": 10,\n      \"item_code\": \"IT-00020\",\n      \"name\": \"Toner\",\n      \"errors\": [\n        \"Account Type not found: OFFICE SUPPLIES (INVALID)\"\n      ]\n    }\n  ],\n  \"next_start_row\": 28,\n  \"done\": false\n}"
+        },
+        {
+          "name": "Missing file",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "[\n  \"Valid Excel file (.xlsx) is required in field \\\"file\\\".\"\n]"
+        }
+      ]
+    },
+    {
+      "name": "Cleanup duplicate items",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "token",
+              "value": "{{token}}",
+              "type": "text"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}",
+              "type": "text"
+            },
+            {
+              "key": "limit",
+              "value": "25",
+              "type": "text",
+              "description": "Max duplicate item ids to soft-delete per call (default 25)"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/items/cleanup_duplicate_items",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "items",
+            "cleanup_duplicate_items"
+          ]
+        },
+        "description": "## POST `/items/cleanup_duplicate_items`\n\nSoft-deletes duplicate active items sharing `(name, description, is_deleted=0)`, keeping `MIN(id)`. Cascades to child tables on master + diagnostic DBs.\n\n### Chunking\n| Field | Default | Purpose |\n|-------|---------|--------|\n| `limit` | `25` | Max **item ids** soft-deleted per call |\n\nRe-call until `done=true` / message `all databases rows is consistent`.\n\n### Success (more remain)\n```json\n{\n  \"groups_cleaned\": 5,\n  \"deleted_count\": 25,\n  \"deleted\": [...],\n  \"remaining_delete_count\": 40,\n  \"done\": false,\n  \"message\": \"Processed 25 duplicate item(s). Call again until done.\"\n}\n```\n\n### Done\n```json\n{\n  \"groups_cleaned\": 0,\n  \"deleted_count\": 0,\n  \"deleted\": [],\n  \"remaining_delete_count\": 0,\n  \"done\": true,\n  \"message\": \"all databases rows is consistent\"\n}\n```"
+      },
+      "response": [
+        {
+          "name": "Chunk processed",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"groups_cleaned\": 5,\n  \"deleted_count\": 25,\n  \"deleted\": [\n    {\n      \"name\": \"Mouse\",\n      \"description\": \"MOUSE WIRED\",\n      \"is_deleted\": 0,\n      \"keep_item_id\": 101,\n      \"deleted_item_ids\": [102, 103]\n    }\n  ],\n  \"remaining_delete_count\": 40,\n  \"done\": false,\n  \"message\": \"Processed 25 duplicate item(s). Call again until done.\"\n}"
+        },
+        {
+          "name": "Done",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"groups_cleaned\": 0,\n  \"deleted_count\": 0,\n  \"deleted\": [],\n  \"remaining_delete_count\": 0,\n  \"done\": true,\n  \"message\": \"all databases rows is consistent\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Check item consistency",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/items/check_consistency?token={{token}}&requester={{requester}}&is_deleted=0",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "items",
+            "check_consistency"
+          ],
+          "query": [
+            {
+              "key": "token",
+              "value": "{{token}}"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}"
+            },
+            {
+              "key": "is_deleted",
+              "value": "0",
+              "description": "0 = active only (default); all = include soft-deleted"
+            }
+          ]
+        },
+        "description": "## GET `/items/check_consistency`\n\nCompares `item` rows between **master** and each diagnostic DB (`mobile`, `oakridge`, `mactan`, `consolacion`, `mantlewood`, `pharmacy`).\n\n### Query params\n| Param | Default | Purpose |\n|-------|---------|--------|\n| `token` | required | Auth |\n| `requester` | required | Auth |\n| `is_deleted` | `0` | `0` active only; `all` include soft-deleted |\n\n### Checks per DB\n- `missing_on_branch` \u2014 ids on master not on branch\n- `extra_on_branch` \u2014 ids on branch not on master\n- `field_diffs` \u2014 same id, different columns (`name`, `description`, `is_deleted`, `type`, `kind`, `cost`, `brand`, `vat_type`, `account_type_id`, `vat_account_type_id`)\n\n### Status\n- SUCCESS when `consistent=true`\n- FAIL when any DB has diffs (full report still returned)\n\nAlso works as POST with form-data."
+      },
+      "response": [
+        {
+          "name": "Consistent",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"consistent\": true,\n  \"filter\": { \"is_deleted\": 0 },\n  \"master_count\": 1200,\n  \"databases\": [\n    {\n      \"branch_id\": 1,\n      \"db\": \"mobile\",\n      \"branch_count\": 1200,\n      \"consistent\": true,\n      \"missing_on_branch\": [],\n      \"extra_on_branch\": [],\n      \"field_diffs\": []\n    }\n  ],\n  \"message\": \"All diagnostic databases are consistent with master.\"\n}"
+        },
+        {
+          "name": "Inconsistent",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"consistent\": false,\n  \"filter\": { \"is_deleted\": 0 },\n  \"master_count\": 1200,\n  \"databases\": [\n    {\n      \"branch_id\": 1,\n      \"db\": \"mobile\",\n      \"branch_count\": 1198,\n      \"consistent\": false,\n      \"missing_on_branch\": [\n        { \"id\": 501, \"name\": \"Mouse\", \"description\": \"MOUSE WIRED\" }\n      ],\n      \"extra_on_branch\": [],\n      \"field_diffs\": [\n        {\n          \"id\": 101,\n          \"name\": \"Toner\",\n          \"differences\": {\n            \"cost\": { \"master\": \"200.00\", \"branch\": \"250.00\" }\n          }\n        }\n      ]\n    }\n  ],\n  \"message\": \"Data inconsistency detected between master and one or more diagnostic databases.\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Fix consistency",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "token",
+              "value": "{{token}}",
+              "type": "text"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}",
+              "type": "text"
+            },
+            {
+              "key": "limit",
+              "value": "25",
+              "type": "text",
+              "description": "Max fixes per call (default 25)"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/items/fix_consistency",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "items",
+            "fix_consistency"
+          ]
+        },
+        "description": "## POST `/items/fix_consistency`\n\nRepairs `item` row inconsistencies between master and diagnostic DBs (chunks of `limit`, default 25).\n\n### Rules (chunk order)\n1. **Soft-delete (2.1)** — master `is_deleted=0` and **any** diagnostic has `is_deleted=1` for the same id \u2192 soft-delete on **all** DBs (cascade to child tables).\n2. **Insert from diagnostic (2.2)** — diagnostic has an item id missing on master \u2192 `INSERT` that row onto master and any other DBs missing it (same explicit id).\n3. **Push from master (2.3)** — master has an item id missing on any diagnostic \u2192 `INSERT` from master onto every DB missing that id.\n\n**Item row only** (no child tables). **Field diffs are not auto-fixed** (except `is_deleted` via 2.1).\n\n### Suggested order\n1. Loop `cleanup_duplicate_items` until `done`\n2. Loop `fix_consistency` until `done`\n3. `check_consistency` to verify (remaining issues are usually `field_diffs`)\n\n### Done messages\n- `all databases rows is consistent` — only when an active-row `check_consistency`-equivalent compare would pass (no missing/extra/field_diffs).\n- `No more supported consistency fixes remaining. Run check_consistency for remaining field_diffs.` — supported fixes exhausted; see `unsupported_field_diff_count` (and optional `remaining_missing_count` / `remaining_extra_count`)."
+      },
+      "response": [
+        {
+          "name": "Chunk processed",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"fixed_count\": 25,\n  \"soft_deleted\": [{ \"id\": 101, \"name\": \"Toner\" }],\n  \"inserted\": [{ \"id\": 999, \"name\": \"Orphan\", \"source_db\": \"mobile\" }],\n  \"pushed\": [{ \"id\": 50, \"name\": \"Master only\", \"source_db\": \"master\" }],\n  \"remaining_count\": 12,\n  \"done\": false,\n  \"message\": \"Processed 25 consistency fix(es). Call again until done.\"\n}"
+        },
+        {
+          "name": "Done — fully consistent",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"fixed_count\": 0,\n  \"soft_deleted\": [],\n  \"inserted\": [],\n  \"pushed\": [],\n  \"remaining_count\": 0,\n  \"done\": true,\n  \"message\": \"all databases rows is consistent\",\n  \"unsupported_field_diff_count\": 0\n}"
+        },
+        {
+          "name": "Done — field diffs remain",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"fixed_count\": 0,\n  \"soft_deleted\": [],\n  \"inserted\": [],\n  \"pushed\": [],\n  \"remaining_count\": 0,\n  \"done\": true,\n  \"message\": \"No more supported consistency fixes remaining. Run check_consistency for remaining field_diffs.\",\n  \"unsupported_field_diff_count\": 42,\n  \"remaining_missing_count\": 0,\n  \"remaining_extra_count\": 0\n}"
+        }
+      ]
+    }
+  ]
+}

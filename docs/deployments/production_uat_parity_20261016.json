@@ -1,0 +1,507 @@
+{
+  "environment": "prod",
+  "backup_root": "/root/prod_uat_parity_20261016_010730/prod",
+  "ok": true,
+  "changed_application_files": 43,
+  "files": {
+    "app/Common.php": {
+      "before_sha256": "c33fdf826a618901138e0fa65916af66a7b34fabf557f34126eedf1329b580a6",
+      "installed_sha256": "59a7a05559b651f638f900478573611098661f6f13abb5daf0ed7125729fc5ed",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Config/Format.php": {
+      "before_sha256": "bfb0f7e42e09ae833fccd7786f4bebfd7373d94b6a51a133fb875c91469ea289",
+      "installed_sha256": "fd9d15faeaeb41e46e4dc68011652e803e7829d218ad64284f8f8b312c1c3fa5",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Config/Routing.php": {
+      "before_sha256": null,
+      "installed_sha256": "32d15467a45b1d29491e2e9975bf1f2561ed1e3b1f7f5b36bde81b638f3b84f6",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Config/Cookie.php": {
+      "before_sha256": "a8bb21e750354b2829db9175d94e40b92aa300e244729f3f890e5f1da08f4292",
+      "installed_sha256": "4cb57c80ecd7ae447cadf521b2344e73279ee3f92a5c059ad0a726da37f73a81",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Config/Constants.php": {
+      "before_sha256": "eef1c0335d33f8e4edb15d1988682c5fb2dd3ab5d9710990dd32f17a56b6fa80",
+      "installed_sha256": "fcdacf35646997c7a832eeaa1272d948b1031e56d0b26981fcf904a5719d8697",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Config/Logger.php": {
+      "before_sha256": "1a6a5b5e424b4066fc9e43563a13fd884423d12e1cda56773e2dd2f76fcb4cb0",
+      "installed_sha256": "5f05dc3ccb1b67b8c8749c7d561ac5b2deffbe0c6abb4ab62f24094a05c507c8",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Config/Kint.php": {
+      "before_sha256": "02714b8e6094f8666c22a84ac242c43d51c4990bef9c7319c0c75447a3618b5c",
+      "installed_sha256": "e9515a9bef75f6731f41418ce12fadc0414da21c1d7126cd680351f416b852aa",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Config/Modules.php": {
+      "before_sha256": "0b003a10c319d049f40c337beb93bf394fe6492f7469e3b8b6a195a32bd4f8a6",
+      "installed_sha256": "ae880b25f9d7af1445deedb958fe7487694337a7bee79f68cf9b1134aeb4bb13",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Config/Feature.php": {
+      "before_sha256": "9b7f5d61cd7fbb6af2a7c0dc4cdd210449cab6fc1232345d0255c068424caa04",
+      "installed_sha256": "9fb820e7540516a33ebe0bb49568c2043d980522ca01429d38099ade5aa0833e",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Config/Database.php": {
+      "before_sha256": "3387fed5a2ade75630b125c5c6a1ffd0ba7e7a4f58f5be13c1cc562c65bd9a1e",
+      "installed_sha256": "b9fbc26176ac85fae19a4ac1db57316ab0937d9edbc48f0fa52526e1b22d50fd",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Config/Exceptions.php": {
+      "before_sha256": "7ce08d007da27b2cc16999320fa46ae319bb9480286411d4c838fa8a4398a6b7",
+      "installed_sha256": "0284004fc302ba0b0df90b7038eda879a36025de392638283108eca9ce42f77d",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Config/Optimize.php": {
+      "before_sha256": null,
+      "installed_sha256": "249dbe21b7b7fc24bd42654553a486c14a2ed97077d0ae6d9a02b22459a97f5c",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Config/Session.php": {
+      "before_sha256": null,
+      "installed_sha256": "09cfddf850da00770f0b61f4f6a4de77f78c8fd73c57a5ab4b52c1735931d422",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Config/Validation.php": {
+      "before_sha256": "e66fb76a9c022d7319e41e9f7da87bafc53d6342c5dd219c73efaf0d0a7c946e",
+      "installed_sha256": "1644e13c1f4458ff3301ac42f36a04dda5c0fa8f5aa78d775a543e2beda4aed3",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Config/Autoload.php": {
+      "before_sha256": "afd73bbbcd75dceabefd9c7c0db346df001ebf561fd20014bf7c6d86f8548946",
+      "installed_sha256": "f6a49e9f6b950b3f023ac3b2c47a38a8f01bb034795c6947864bfef4a612d27e",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Config/Encryption.php": {
+      "before_sha256": "67ec4fdb2184b072a6ec3c8210ae445a129fa1a8f644c5e3041152cd7cec575b",
+      "installed_sha256": "31ccdb5f9231b6ed276ef9c2642bb2ec309544bfca2d93256cd9a5b1f9c8c0c8",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Config/BootstrapGuard.php": {
+      "before_sha256": null,
+      "installed_sha256": "9b35a8152efadc7d682703d0907744cbb846269c33cdfd491f7ed55cb7b5a207",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Config/App.php": {
+      "before_sha256": "29a3ea4b0795bd403582781fb4228d8b612d09dd147c6b4fcbc25881e920f6f0",
+      "installed_sha256": "a851cde0c0d7e65f82f1bc7cce9b2eb900e4670debcc40b6deeef7c02b51185d",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Config/Filters.php": {
+      "before_sha256": "63f884351c347070742f99292f8ea27e637d562d72fb3f27e3becacab5049873",
+      "installed_sha256": "52faa9e85d30df9a052d120b0deaa1c9849c377f41ab40b139a75fadaff29c25",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Core/MYT_Controller.php": {
+      "before_sha256": "65a52b7098a50c56524d14f805e0d23ac66835c8b1e08319e056af3f28e6e6b2",
+      "installed_sha256": "0eb699245607b51b41d8b720c2e6792f7f400499f0b80510e46b86ede4059989",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Controllers/Files.php": {
+      "before_sha256": "41985d5b29e1884784dd2f9f43353fb9b3190781a228514c527fd5110c575d6d",
+      "installed_sha256": "d157fa8ef5b1e6ea5d06b0ad2e65c7352d24a087db436ac346d0c2970c86e5b5",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Controllers/Pages.php": {
+      "before_sha256": "7881f82d833e08b0eca7df5dbcdaae84648dd62b7b07935a972e34fee017ec87",
+      "installed_sha256": "b2b9e3fcffdd13d25368348ef6e0ca7f23144a9825ba342a6250e4d35ea0add7",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Controllers/User_portals.php": {
+      "before_sha256": "a5c5389fcc19c5588b547f3738946e049fa96958b1d5281c4f15ab9ae504e9bf",
+      "installed_sha256": "8153f28a54e732494c88c1870a0d8dc378cbf20e4ca1acdeff6c2a7378e1d97f",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Controllers/Login.php": {
+      "before_sha256": "0c0bf018872c448e7b26f307d2267d73d5342f7fadb8d36536fece92c7144b72",
+      "installed_sha256": "639cf05308603cd3a2ca336762fb346189ea3345faa2a57fe71fc15627003e9f",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Controllers/Prints.php": {
+      "before_sha256": "ec35979c84f72cb913c889cbeceaf1d0a854f85c5230398ac043eea17cfa466c",
+      "installed_sha256": "5c95df38600c38b934c61570664909197a5c855a8f52eb2f1e462c46cd224d2d",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Controllers/Permissions.php": {
+      "before_sha256": "b11c8787917d84548390506efb0db387549a5d2d5c73b3f9fc1ea99a222ad7b2",
+      "installed_sha256": "2d68ddab2e8e732afadca7aaac514928fbd6e845fd2bcb3c313f3adf2d6e2bb6",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Controllers/Roles.php": {
+      "before_sha256": "5b6da18cbd03fdedcc4ff7e99a32ae34d7ff3d70a7deefeed744533b330a50d2",
+      "installed_sha256": "9d957a7632d342dfb88c70d06c4d642f4403190ae2957a6ec64e4d0e7dcbb588",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Libraries/PageInventory.php": {
+      "before_sha256": null,
+      "installed_sha256": "32f91cdb084af6436b95f829b491fd105ba6408b54e2893b91eddf13e4c7e12f",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Libraries/CorsExceptionHandler.php": {
+      "before_sha256": null,
+      "installed_sha256": "58f1dd2b931f39060795efc0c2054638daee03c1621df44214f6f20026d64c3a",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Filters/SecurityHeaders.php": {
+      "before_sha256": null,
+      "installed_sha256": "e082184a2e77a65ba68137925a19595d63edaec471ef71996b7c499d911369cb",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "index.php": {
+      "before_sha256": "c8b9c031c3150703a92848449c7e9a85cef7838ca2ac227386c81e4fe8751da2",
+      "installed_sha256": "6ee7aa54e483dde47ea01b9bbffd6fc181c7f7e5f4edcab1bbb04fbcd19f2c41",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "spark": {
+      "before_sha256": "7ccc156a2e6c49ef027fa78bc6947cfbff6e25724d6b4d3aeac1b62740d14b5c",
+      "installed_sha256": "e81c0e9b6289bc5becce80cff59ea145120861ae50e3806c22971ef2eae17af9",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    ".htaccess": {
+      "before_sha256": "e25aaa36e1164f70befb9ca97daf2c0320e2e7885fcbbad7cc98ada09405ab33",
+      "installed_sha256": "e763f010cb4b20f070746d421cbb03bf4c7ad363eceb44d5efdca569b806b01f",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "composer.json": {
+      "before_sha256": "1ba9cea8bad7e6df99287bce0a67486d7b1e391938436d47b6c0bdf8c64c535f",
+      "installed_sha256": "de6384cc34a7f3674bf031badefa95ca66a9c5d7b7cbbcce89d4829ab14439b0",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "composer.lock": {
+      "before_sha256": "5eaaac2bf27d3d4e13beecbe423d14b25d743ca83d60f4cc9e77dd0dd44438e7",
+      "installed_sha256": "ecbda48f164171024439da8c23fbf637010594635dc8f3b65d74c46146cacb66",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Views/emails/forgot_password.php": {
+      "before_sha256": "e9af8abe621b66439df3be334db9b78f3f62d3d776c539750f2d19f35aa4adb5",
+      "installed_sha256": "63072b68e7cb3e23af13d1cc4884ec0b9096e4b5abdceed6c1dcb916cb91c708",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Views/emails/assessment_result.php": {
+      "before_sha256": "e655e1b4e73ee7944fbc180ad96f41d5a0cfddd926fcbde43683d05ae16153d9",
+      "installed_sha256": "e3c579b4b8e0090223f2d32b25377e7b6f6ecc1201a69fb02f7bd804d46a31b7",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Views/emails/enrollment_payment_failed.php": {
+      "before_sha256": "e10db4d065d540fc5c40fe1aa4ac22f420ba4375150cfd0f2fb0465bd87ee655",
+      "installed_sha256": "eed56f496fe9e057df7684a2b52f9e4d8043ae1bc6d95870ada41bc3aca59245",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Views/emails/parent_sign_up.php": {
+      "before_sha256": "1b26873d0ff9e51b3f6b3a83e334f27e16b3e2fa23875b6d8fdd93926bdd8554",
+      "installed_sha256": "d766218d78125b3f0dd70684bb7bac17018af4f16e7bf9ce11aaf0f00a0bb7ee",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o644"
+    },
+    "app/Models/Wallet.php": {
+      "before_sha256": "10df27ff6d2f1bb4aecf8beea4632b781774ad14c9db91185d76b0f70dcb270a",
+      "installed_sha256": "dbb44123ef6b30b7e89f066c58454119c5fff92174cb1ab619c50ce6a42940d3",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o664"
+    },
+    "app/Models/Patient_emr.php": {
+      "before_sha256": "89eca9f80349d130047a4f9e907587ddc5f9d6df65cc3317c292af25516c8da1",
+      "installed_sha256": "6b2899639ee8c55847bdd3f72af67809092e48d8c9db76b58f2718ca6b1bdd63",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o664"
+    },
+    "app/Models/Booking_doctors_fee.php": {
+      "before_sha256": "65784a00e28b2a0b88c4b5aba45e42536bb63b7096b449d0d98932fdb02c5ad8",
+      "installed_sha256": "bf09838f5307b5c7782cb0b2b51d46cfd4eb8eccf55441fa720c87d778991544",
+      "owner_uid": 1004,
+      "group_gid": 1004,
+      "mode": "0o664"
+    }
+  },
+  "versions": {
+    "codeigniter4/framework": "v4.7.4",
+    "phpmailer/phpmailer": "v7.0.2",
+    "laminas/laminas-escaper": "2.18.0",
+    "psr/log": "3.0.2"
+  },
+  "vendor_sha256": {
+    "before": "c494c35a3fa36d4395401387f15d7a9e18dd6dad1aa0ee49e07b81e716959a5e",
+    "installed": "bc036d27aee147d009befac1f758c9510558d3ad1968951a73bd9553713e12b0"
+  },
+  "final_checks": {
+    "uat_unchanged": true,
+    "installed_hashes_match": true,
+    "vendor_hash_match": true,
+    "maintenance_removed": true,
+    "unrelated_cron_jobs_preserved": true,
+    "cli_schedules_preserved": true,
+    "nginx_denial_snippets": true,
+    "staged_hashes_match": true
+  },
+  "configured_secret_literal_count": 0,
+  "env_mode": "0o600",
+  "services_active": {
+    "nginx": true,
+    "apache2": true,
+    "php8.3-fpm": true,
+    "php8.2-fpm": true,
+    "cron": true
+  },
+  "http": {
+    "invalid_normal_key": {
+      "status": 401,
+      "cors_passed": true,
+      "json_passed": true,
+      "passed": true
+    },
+    "invalid_origin_key": {
+      "status": 401,
+      "cors_passed": true,
+      "json_passed": true,
+      "passed": true
+    },
+    "ordinary_auth_without_origin_key": {
+      "status": 401,
+      "cors_passed": true,
+      "json_passed": true,
+      "passed": true
+    },
+    "configured_keys": {
+      "status": 200,
+      "cors_passed": true,
+      "json_passed": true,
+      "passed": true
+    }
+  },
+  "preflight_status": 204,
+  "sensitive_paths": {
+    "/.env": 404,
+    "/composer.json": 404,
+    "/composer.lock": 404,
+    "/vendor/composer/installed.json": 404,
+    "/tests/": 404,
+    "/scripts/": 404,
+    "/docs/": 404
+  },
+  "database_groups_verified": 15,
+  "cors_origins": 60,
+  "authenticated_http_cron_jobs": 11,
+  "configuration_preservation": {
+    "DB_USERNAME": true,
+    "DB_PASSWORD": true,
+    "MASTER_DB": true,
+    "MOBILE_DB": true,
+    "OAKRIDGE_DB": true,
+    "MAC_DB": true,
+    "CONSO_DB": true,
+    "MANTLEWOOD_DB": true,
+    "WAREHOUSE_DB": true,
+    "PHARMACY_DB": true,
+    "REPORT_DB": true,
+    "OAKRIDGE_EMR_DB": true,
+    "MAC_EMR_DB": true,
+    "CONSO_EMR_DB": true,
+    "MANTLEWOOD_EMR_DB": true,
+    "MOBILE_EMR_DB": true,
+    "ENCRYPTION_KEY": true,
+    "API_KEY": true,
+    "CSR_API_KEY": true,
+    "MYT_EMAIL": true,
+    "MYT_PASSWORD": true,
+    "MYT_NAME": true,
+    "OUTLOOK_EMAIL": true,
+    "OUTLOOK_EMAIL_PASSWORD": true,
+    "VM4_ENDPOINT": true,
+    "VM4_SECRET_TOKEN": true,
+    "DICOM_API_KEY": true,
+    "DICOM_UPLOAD_WORKLIST_URL": true,
+    "DICOM_STATION_AET": true,
+    "FRONT_END_URL": true,
+    "PAYLOAD_AES_KEY": true,
+    "PAYLOAD_AES_IV": true
+  },
+  "existing_permission_rows": 25064,
+  "existing_denied_permission_rows": 0,
+  "model_query_equivalence": {
+    "passed": true,
+    "methods": 9,
+    "queries_compared": 9,
+    "queries_executed": 0
+  },
+  "runtime_checks": {
+    "framework": true,
+    "mailer": true,
+    "environment": true,
+    "detail_flag": true,
+    "urls": true,
+    "tls": true,
+    "encryption_keys": true,
+    "api_keys": true,
+    "csr_key": true,
+    "cors_origins": true,
+    "cron_secret": true,
+    "roles": true,
+    "password_hash": true,
+    "legacy_password_hash": true,
+    "sensitive_fields": true,
+    "input_safety": true,
+    "database_groups": true,
+    "preflight": true,
+    "security_headers": true,
+    "denied_origin": true,
+    "error_details": true,
+    "print_helper_protected": true,
+    "email_escaping": true,
+    "legacy_routes": true,
+    "session": true
+  },
+  "mocked_security_checks": {
+    "valid_token": true,
+    "permission_allowed": true,
+    "branch_ids": true,
+    "self_allowed": true,
+    "other_user_denied": true,
+    "non_admin_denied": true,
+    "permission_denied": true,
+    "remap_stops_denied": true,
+    "missing_page_allowed": true,
+    "missing_permission_allowed": true,
+    "admin_bypass": true,
+    "invalid_key": true,
+    "invalid_token": true,
+    "expired_token": true,
+    "invalid_origin_key": true,
+    "csr_compatibility": true,
+    "cron_denied": true,
+    "cron_header": true,
+    "cron_cli": true,
+    "login_success": true,
+    "rehash_mocked": true,
+    "uniform_login_error": true,
+    "login_throttle": true
+  },
+  "private_error_renderer_passed": true,
+  "recovered_attempts": {
+    "first_proxy_preflight": true,
+    "second_public_readiness": true
+  },
+  "local_validation": {
+    "tests": 33,
+    "assertions": 222,
+    "passed": true,
+    "dependency_audit_passed": true,
+    "composer_validation_passed": true,
+    "php_syntax_passed": true,
+    "diff_checks_passed": true
+  },
+  "final_public_http": {
+    "ok": true,
+    "cases": {
+      "invalid_normal_key": {
+        "status": 401,
+        "cors_passed": true,
+        "json_passed": true,
+        "passed": true
+      },
+      "invalid_origin_key": {
+        "status": 401,
+        "cors_passed": true,
+        "json_passed": true,
+        "passed": true
+      },
+      "ordinary_auth_without_origin_key": {
+        "status": 401,
+        "cors_passed": true,
+        "json_passed": true,
+        "passed": true
+      },
+      "configured_keys": {
+        "status": 200,
+        "cors_passed": true,
+        "json_passed": true,
+        "passed": true
+      }
+    }
+  }
+}

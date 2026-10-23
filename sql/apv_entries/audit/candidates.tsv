@@ -1,0 +1,10 @@
+schema	apv_id	action	type	type_id	amount	status
+mytemr_diagnostic_uat	1	backfill	receipt_note	12	495.0000	approved
+mytemr_diagnostic_uat	2	backfill	receipt_note	15	742.5000	approved
+mytemr_diagnostic_uat	6	backfill	receipt_note	17	85.1200	approved
+mytemr_diagnostic_uat	8	backfill	receipt_note	20	7000.0000	approved
+mytemr_diagnostic_mactan_uat	6	backfill	receipt_note	1	360000.0000	approved
+mytemr_diagnostic_mactan_uat	9	backfill	receipt_note	3	345.0000	approved
+mytemr_diagnostic	1	backfill	receipt_note	12	495.0000	approved
+mytemr_diagnostic	2	backfill	receipt_note	15	742.5000	approved
+mytemr_diagnostic	3	backfill	receipt_note	16	99512.1937	approved

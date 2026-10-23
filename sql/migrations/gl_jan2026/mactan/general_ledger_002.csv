@@ -1,0 +1,501 @@
+branch_id,source,source_id,account_type_id,date,debit,credit,remark,is_migrated,added_by,added_on,is_deleted
+3,journal_entry,58,65,2026-01-06,0.0000,600.0000,"Maxicare Healthcare Corporation - EBRADA, MARIA LATHANIA GAYLE CASQUEJO | 12/29/2025 |Maxicare Healthcare Corporation| 600- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,600.0000,"Maxicare Healthcare Corporation - COLASITO, CHRISTINE AUGUSTO | 12/29/2025 |Maxicare Healthcare Corporation| 600- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,600.0000,"Maxicare Healthcare Corporation - ARGUELLES, ROGELIO RAIT | 12/29/2025 |Maxicare Healthcare Corporation| 600- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,600.0000,"Maxicare Healthcare Corporation - YUCARAN, MARVIN ANTOJADO | 12/29/2025 |Maxicare Healthcare Corporation| 600- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,600.0000,"Maxicare Healthcare Corporation - CASQUEJO, MA. DELIA ERZANDO | 12/29/2025 |Maxicare Healthcare Corporation| 600- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,600.0000,"Maxicare Healthcare Corporation - DIAZ, LUCILLE MAY TUMULAK | 12/29/2025 |Maxicare Healthcare Corporation| 600- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,48,65,2026-01-06,0.0000,600.0000,"Medicard Philippines Inc - BUSCATO, JOVELYN PELARETE | 12/27/2025 |Medicard Philippines Inc| 600- — M1942",1,0,2026-01-31 23:59:59,0
+3,journal_entry,48,65,2026-01-06,0.0000,600.0000,"Medicard Philippines Inc - AÑOSA, CYNTHIA IMPERIAL | 12/29/2025 |Medicard Philippines Inc| 600- — M1942",1,0,2026-01-31 23:59:59,0
+3,journal_entry,52,65,2026-01-06,0.0000,600.0000,"Health Plan Philippines, Inc - CASAS, JAN TYLER DICHOSA | 12/27/2025 |Health Plan Philippines, Inc| 600- — M1946",1,0,2026-01-31 23:59:59,0
+3,journal_entry,59,65,2026-01-06,0.0000,600.0000,"Asalus Corporation - YU, MA. CHRISTINE PACHECO | 12/26/2025 |Asalus Corporation| 600- — M1981",1,0,2026-01-31 23:59:59,0
+3,journal_entry,60,65,2026-01-06,0.0000,600.0000,"Philhealthcare, Inc - MOISES, CZARINA LHANCE - | 12/26/2025 |Philhealthcare, Inc| 600- — M1985",1,0,2026-01-31 23:59:59,0
+3,journal_entry,60,65,2026-01-06,0.0000,600.0000,"Philhealthcare, Inc - AMPO, REGINE LUMBO | 12/27/2025 |Philhealthcare, Inc| 600- — M1985",1,0,2026-01-31 23:59:59,0
+3,journal_entry,60,65,2026-01-06,0.0000,600.0000,"Philhealthcare, Inc - PABINGUIT, BREANA OCHEA | 12/27/2025 |Philhealthcare, Inc| 600- — M1985",1,0,2026-01-31 23:59:59,0
+3,journal_entry,60,65,2026-01-06,0.0000,600.0000,"Philhealthcare, Inc - ESPINOZA, YVANN LOU DAVIE PALMA | 12/27/2025 |Philhealthcare, Inc| 600- — M1985",1,0,2026-01-31 23:59:59,0
+3,journal_entry,60,65,2026-01-06,0.0000,600.0000,"Philhealthcare, Inc - ESTOQUE, MIKKA SAMILLANO | 12/27/2025 |Philhealthcare, Inc| 600- — M1985",1,0,2026-01-31 23:59:59,0
+3,journal_entry,59,65,2026-01-06,0.0000,620.0000,"Asalus Corporation - GARCIA, LADY LOVE MAZHALAH RODIMO | 12/23/2025 |Asalus Corporation| 620- — M1981",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,650.0000,"Maxicare Healthcare Corporation - TAKAHASHI, YOSHIO PALAMINE | 12/29/2025 |Maxicare Healthcare Corporation| 650- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,670.0000,"Life & Health Hmp Inc - ALIPAO, RINGO BARIL | 12/29/2025 |Life & Health Hmp Inc| 670- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,60,65,2026-01-06,0.0000,670.0000,"Philhealthcare, Inc - ESPINOZA, YVANN LOU DAVIE PALMA | 12/27/2025 |Philhealthcare, Inc| 670- — M1985",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,687.0000,"Maxicare Healthcare Corporation - YAGONG, MARY ANN ZAFRA | 12/29/2025 |Maxicare Healthcare Corporation| 687- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,735.0000,"Life & Health Hmp Inc - BRIGOLI, JOY ZAFRA | 12/23/2025 |Life & Health Hmp Inc| 735- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,735.0000,"Life & Health Hmp Inc - BRIGOLI, JOY ZAFRA | 12/23/2025 |Life & Health Hmp Inc| 735- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,735.0000,"Life & Health Hmp Inc - BUNAOS, LEAH PEÑALOSA | 12/29/2025 |Life & Health Hmp Inc| 735- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,735.0000,"Life & Health Hmp Inc - BUNAOS, LEAH PEÑALOSA | 12/29/2025 |Life & Health Hmp Inc| 735- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,57,65,2026-01-06,0.0000,750.0000,"Cooperative Health Management Federation - LANGE, JUDELYNE TACOLOY | 12/29/2025 |Cooperative Health Management Federation| 750- — M1973",1,0,2026-01-31 23:59:59,0
+3,journal_entry,52,65,2026-01-06,0.0000,750.0000,"Health Plan Philippines, Inc - CASAS, JAN TYLER DICHOSA | 12/27/2025 |Health Plan Philippines, Inc| 750- — M1946",1,0,2026-01-31 23:59:59,0
+3,journal_entry,59,65,2026-01-06,0.0000,750.0000,"Asalus Corporation - ANCOT, JOCELYN MENDIETA | 12/26/2025 |Asalus Corporation| 750- — M1981",1,0,2026-01-31 23:59:59,0
+3,journal_entry,59,65,2026-01-06,0.0000,750.0000,"Asalus Corporation - CARCOSA, ZEKE ZAYDEN LU-AR | 12/29/2025 |Asalus Corporation| 750- — M1981",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,820.0000,"Maxicare Healthcare Corporation - CAÑO, JAYCIL CUENCA | 12/26/2025 |Maxicare Healthcare Corporation| 820- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,820.0000,"Maxicare Healthcare Corporation - FORMENTERA, REZDIL ANTINERO | 12/27/2025 |Maxicare Healthcare Corporation| 820- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,56,65,2026-01-06,0.0000,840.0000,"Insular Healthcare Inc - REGULACION, SHEILA BARDOS | 12/23/2025 |Insular Healthcare Inc| 840- — M1972",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,850.0000,"Maxicare Healthcare Corporation - SALUMAG, CHESTER BRYAN ANGCO | 12/23/2025 |Maxicare Healthcare Corporation| 850- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,850.0000,"Maxicare Healthcare Corporation - TRADIO, JOANA YBANEZ | 12/23/2025 |Maxicare Healthcare Corporation| 850- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,850.0000,"Maxicare Healthcare Corporation - MAÑACAP, JOHN JAVE SABANG | 12/26/2025 |Maxicare Healthcare Corporation| 850- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,850.0000,"Maxicare Healthcare Corporation - GUINO-O, REGINE GARCIA | 12/27/2025 |Maxicare Healthcare Corporation| 850- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,850.0000,"Maxicare Healthcare Corporation - VALENCIA, AIVY ABAD | 12/29/2025 |Maxicare Healthcare Corporation| 850- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,850.0000,"Maxicare Healthcare Corporation - PENDANG, KISSHA MONIQUE MAYUMAN | 12/29/2025 |Maxicare Healthcare Corporation| 850- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,850.0000,"Maxicare Healthcare Corporation - LEDESMA, JERIC CARPIO | 12/29/2025 |Maxicare Healthcare Corporation| 850- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,900.0000,"Life & Health Hmp Inc - DIGNOS, BABY JEANET SON | 12/23/2025 |Life & Health Hmp Inc| 900- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,915.0000,"Maxicare Healthcare Corporation - FORMENTERA, REZDIL ANTINERO | 12/27/2025 |Maxicare Healthcare Corporation| 915- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,56,65,2026-01-06,0.0000,920.0000,"Insular Healthcare Inc - NOYNAY, WINSEL JAMES CANETE | 12/23/2025 |Insular Healthcare Inc| 920- — M1972",1,0,2026-01-31 23:59:59,0
+3,journal_entry,56,65,2026-01-06,0.0000,920.0000,"Insular Healthcare Inc - CATUIZA, HELMER LARAYOS | 12/29/2025 |Insular Healthcare Inc| 920- — M1972",1,0,2026-01-31 23:59:59,0
+3,journal_entry,56,65,2026-01-06,0.0000,940.0000,"Insular Healthcare Inc - SATAM, ROSEMARIE NAVA | 12/29/2025 |Insular Healthcare Inc| 940- — M1972",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,950.0000,"Maxicare Healthcare Corporation - REDULLA, KHALEEZI JASHIN APOR | 12/23/2025 |Maxicare Healthcare Corporation| 950- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,49,65,2026-01-06,0.0000,950.0000,"DIS Tech Phils, Inc - ALABA, KIMBER IAN CORTES | 12/26/2025 |DIS TECH PHILS, INC| 950- — M1943",1,0,2026-01-31 23:59:59,0
+3,journal_entry,53,65,2026-01-06,0.0000,950.0000,"Taskpro Outsourcing OPC - IGOT JR, GEORGE GUMAHAD | 12/23/2025 |Taskpro Outsourcing OPC| 950- — M1947",1,0,2026-01-31 23:59:59,0
+3,journal_entry,53,65,2026-01-06,0.0000,950.0000,"Taskpro Outsourcing OPC - AGUSTIN, MONICA ROSE CUYOS | 12/27/2025 |Taskpro Outsourcing OPC| 950- — M1947",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,1090.0000,"Maxicare Healthcare Corporation - BARTE, REY MART GUBAC | 12/26/2025 |Maxicare Healthcare Corporation| 1090- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,50,65,2026-01-06,0.0000,1100.0000,"Value Care Health Systems, Inc. - GOMEZ, JANINE GRACE CAINGLET | 12/29/2025 |Value Care Health Systems, Inc.| 1100- — M1944",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,1130.0000,"Life & Health Hmp Inc - SUMAYANG, ANECITA MONTECILLO | 12/23/2025 |Life & Health Hmp Inc| 1130- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,59,65,2026-01-06,0.0000,1210.0000,"Asalus Corporation - SERRANO JR, JEREMIAS LACSAMANA | 12/29/2025 |Asalus Corporation| 1210- — M1981",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,1225.0000,"Maxicare Healthcare Corporation - UBALDO, LITA MOSCOSA | 12/27/2025 |Maxicare Healthcare Corporation| 1225- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,1225.0000,"Maxicare Healthcare Corporation - UBALDO, ALBERTO CASILLANO | 12/27/2025 |Maxicare Healthcare Corporation| 1225- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,48,65,2026-01-06,0.0000,1225.0000,"Medicard Philippines Inc - BUSCATO, JOVELYN PELARETE | 12/27/2025 |Medicard Philippines Inc| 1225- — M1942",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,1400.0000,"Maxicare Healthcare Corporation - MINOZA, ABBRYLLE YUHAN PIDO | 12/26/2025 |Maxicare Healthcare Corporation| 1400- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,1430.0000,"Maxicare Healthcare Corporation - CAÑETE, GREGGY ZARAGOZA | 12/26/2025 |Maxicare Healthcare Corporation| 1430- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,1450.0000,"Maxicare Healthcare Corporation - AGUIRRE, EMMA ENCISO | 12/23/2025 |Generali Life Assurance Philippines Inc| 1450- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,59,65,2026-01-06,0.0000,1470.0000,"Asalus Corporation - ANCHETA, LILIAN AMANTE | 12/26/2025 |Asalus Corporation| 1470- — M1981",1,0,2026-01-31 23:59:59,0
+3,journal_entry,56,65,2026-01-06,0.0000,1475.0000,"Insular Healthcare Inc - LAUDIANA, ANGELME ASEROA | 12/23/2025 |Insular Healthcare Inc| 1475- — M1972",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,1500.0000,"Life & Health Hmp Inc - PULGO, JENNIFER CABIJE | 12/23/2025 |Life & Health Hmp Inc| 1500- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,1550.0000,"Life & Health Hmp Inc - AREJOLA, SANTIAGO JORQUIA | 12/26/2025 |Life & Health Hmp Inc| 1550- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,1555.0000,"Life & Health Hmp Inc - CHUA, RAYMOND UY | 12/26/2025 |Life & Health Hmp Inc| 1555- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,1555.0000,"Life & Health Hmp Inc - LUSPO, GERALD TAMPON | 12/26/2025 |Life & Health Hmp Inc| 1555- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,56,65,2026-01-06,0.0000,1570.0000,"Insular Healthcare Inc - ADINA, GELON KARL DESCALLAR | 12/27/2025 |Insular Healthcare Inc| 1570- — M1972",1,0,2026-01-31 23:59:59,0
+3,journal_entry,59,65,2026-01-06,0.0000,1630.0000,"Asalus Corporation - HERMITA, MARIDEL MONTEBON | 12/27/2025 |Asalus Corporation| 1630- — M1981",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,1740.0000,"Life & Health Hmp Inc - CABAHUG, ROWENA DUNGOG | 12/23/2025 |Life & Health Hmp Inc| 1740- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,59,65,2026-01-06,0.0000,1750.0000,"Asalus Corporation - FRIGO, CHRISTIAN . | 12/29/2025 |Asalus Corporation| 1750- — M1981",1,0,2026-01-31 23:59:59,0
+3,journal_entry,56,65,2026-01-06,0.0000,1780.0000,"Insular Healthcare Inc - NECESARIO, LESLIE PINOTE | 12/26/2025 |Insular Healthcare Inc| 1780- — M1972",1,0,2026-01-31 23:59:59,0
+3,journal_entry,56,65,2026-01-06,0.0000,1780.0000,"Insular Healthcare Inc - TABUYOC, KENO TIANGSON | 12/26/2025 |Insular Healthcare Inc| 1780- — M1972",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,1830.0000,"Maxicare Healthcare Corporation - VEQUIZO, PETCHIE BAYLOSIS | 12/23/2025 |Maxicare Healthcare Corporation| 1830- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,1850.0000,"Life & Health Hmp Inc - COMILANG, ROSLYN MOLLENA | 12/29/2025 |Life & Health Hmp Inc| 1850- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,48,65,2026-01-06,0.0000,1880.0000,"Medicard Philippines Inc - MAGAT, MICHELLE LOU BOLIMA | 12/23/2025 |Medicard Philippines Inc| 1880- — M1942",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,1935.0000,"Maxicare Healthcare Corporation - FORMENTERA, REZDIL ANTINERO | 12/27/2025 |Maxicare Healthcare Corporation| 1935- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,1950.0000,"Life & Health Hmp Inc - SULLANO, MIRADAEL IBRAHIM | 12/26/2025 |Life & Health Hmp Inc| 1950- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,1990.0000,"Life & Health Hmp Inc - LANGUIDO, ALFREDA YONGCO | 12/23/2025 |Life & Health Hmp Inc| 1990- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,2024.0000,"Maxicare Healthcare Corporation - CABAÑERO, BELINDA INSO | 12/27/2025 |Maxicare Healthcare Corporation| 2024- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,57,65,2026-01-06,0.0000,2050.0000,"Cooperative Health Management Federation - EMPERADO, MERIAM LOQUIAS | 12/29/2025 |Cooperative Health Management Federation| 2050- — M1973",1,0,2026-01-31 23:59:59,0
+3,journal_entry,56,65,2026-01-06,0.0000,2080.0000,"Insular Healthcare Inc - REGIDOR, ELYMAR SUBONG | 12/27/2025 |Insular Healthcare Inc| 2080- — M1972",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,2250.0000,"Maxicare Healthcare Corporation - DABON, MAUDE ANTIGUA | 12/27/2025 |Maxicare Healthcare Corporation| 2250- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,60,65,2026-01-06,0.0000,2250.0000,"Philhealthcare, Inc - PAMALARAN, LIGAYA CRUZ | 12/23/2025 |Philhealthcare, Inc| 2250- — M1985",1,0,2026-01-31 23:59:59,0
+3,journal_entry,59,65,2026-01-06,0.0000,2300.0000,"Asalus Corporation - SERRANO JR, JEREMIAS LACSAMANA | 12/29/2025 |Asalus Corporation| 2300- — M1981",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,2390.0000,"Life & Health Hmp Inc - PULGO, JENNIFER CABIJE | 12/23/2025 |Life & Health Hmp Inc| 2390- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,2390.0000,"Life & Health Hmp Inc - BACUS, ROSALIA C | 12/23/2025 |Life & Health Hmp Inc| 2390- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,60,65,2026-01-06,0.0000,2500.0000,"Philhealthcare, Inc - IGOT, PERLA CARILLAS | 12/27/2025 |Philhealthcare, Inc| 2500- — M1985",1,0,2026-01-31 23:59:59,0
+3,journal_entry,50,65,2026-01-06,0.0000,2510.0000,"Value Care Health Systems, Inc. - GOMEZ, JANINE GRACE CAINGLET | 12/29/2025 |Value Care Health Systems, Inc.| 2510- — M1944",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,2520.0000,"Maxicare Healthcare Corporation - TAKAHASHI, YOSHIO PALAMINE | 12/29/2025 |Maxicare Healthcare Corporation| 2520- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,2590.0000,"Maxicare Healthcare Corporation - SULLANO, MICHAEL PAQUIBOT | 12/27/2025 |Maxicare Healthcare Corporation| 2590- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,2650.0000,"Life & Health Hmp Inc - LOAYON, NANCY SABRIDO | 12/26/2025 |Life & Health Hmp Inc| 2650- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,59,65,2026-01-06,0.0000,2650.0000,"Asalus Corporation - CATINDOY, JELLY CRIS CERNO | 12/27/2025 |Asalus Corporation| 2650- — M1981",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,2670.0000,"Maxicare Healthcare Corporation - ANACTA, JANNETE MACALISANG | 12/29/2025 |Maxicare Healthcare Corporation| 2670- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,2700.0000,"Life & Health Hmp Inc - SULLANO, DARIELLE MICHAELLA IBRAHIM | 12/26/2025 |Life & Health Hmp Inc| 2700- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,2781.0000,"Maxicare Healthcare Corporation - GENSON, DEBIE VON ALBER | 12/29/2025 |Maxicare Healthcare Corporation| 2781- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,2840.0000,"Maxicare Healthcare Corporation - HIPOLITO, EVA TAGUIBOLOS | 12/23/2025 |Maxicare Healthcare Corporation| 2840- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,2920.0000,"Life & Health Hmp Inc - MARANGA, MARY DOSDOS | 12/29/2025 |Life & Health Hmp Inc| 2920- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,56,65,2026-01-06,0.0000,2950.0000,"Insular Healthcare Inc - CANO, VIRGILIO DELA CERNA | 12/26/2025 |Insular Healthcare Inc| 2950- — M1972",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,2950.0000,"Life & Health Hmp Inc - NOTARTE, NANCY PARAJES | 12/23/2025 |Life & Health Hmp Inc| 2950- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,3050.0000,"Life & Health Hmp Inc - ATON, JEMBOY SUMALINOG | 12/26/2025 |Life & Health Hmp Inc| 3050- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,3100.0000,"Life & Health Hmp Inc - ALBARDONIDO, SARAH MAE VAÑO | 12/29/2025 |Life & Health Hmp Inc| 3100- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,56,65,2026-01-06,0.0000,3180.0000,"Insular Healthcare Inc - LAUDIANA, ANGELME ASEROA | 12/23/2025 |Insular Healthcare Inc| 3180- — M1972",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,3200.0000,"Life & Health Hmp Inc - JARDIN, JIMELYN GONZAGA | 12/27/2025 |Life & Health Hmp Inc| 3200- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,3210.0000,"Life & Health Hmp Inc - DAÑO, MA. LYCA AMORIN | 12/26/2025 |Life & Health Hmp Inc| 3210- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,3260.0000,"Life & Health Hmp Inc - SANCHEZ, CHRISTOPHER SANCHEZ | 12/26/2025 |Life & Health Hmp Inc| 3260- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,3280.0000,"Life & Health Hmp Inc - BRIGOLI, JOY ZAFRA | 12/23/2025 |Life & Health Hmp Inc| 3280- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,3280.0000,"Life & Health Hmp Inc - BUNAOS, LEAH PEÑALOSA | 12/29/2025 |Life & Health Hmp Inc| 3280- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,3300.0000,"Life & Health Hmp Inc - ALIM, GELLAINE DINOPOL | 12/29/2025 |Life & Health Hmp Inc| 3300- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,3470.0000,"Life & Health Hmp Inc - MARANGA, ROSEMARIE DOSDOS | 12/27/2025 |Life & Health Hmp Inc| 3470- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,3550.0000,"Life & Health Hmp Inc - MALAZARTE, ISIV BATIANCILA | 12/26/2025 |Life & Health Hmp Inc| 3550- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,56,65,2026-01-06,0.0000,3780.0000,"Insular Healthcare Inc - BALDO, DANILO CELESTE | 12/26/2025 |Insular Healthcare Inc| 3780- — M1972",1,0,2026-01-31 23:59:59,0
+3,journal_entry,59,65,2026-01-06,0.0000,3930.0000,"Asalus Corporation - CATINDOY, JELLY CRIS CERNO | 12/27/2025 |Asalus Corporation| 3930- — M1981",1,0,2026-01-31 23:59:59,0
+3,journal_entry,60,65,2026-01-06,0.0000,4100.0000,"Philhealthcare, Inc - BALBUENA, SHAIRAH MYRISH PASUQUIN | 12/23/2025 |Philhealthcare, Inc| 4100- — M1985",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,4200.0000,"Life & Health Hmp Inc - ATON, JEMBOY SUMALINOG | 12/26/2025 |Life & Health Hmp Inc| 4200- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,4660.0000,"Life & Health Hmp Inc - SONGCUAN, ALEXANDER VILLANUEVA | 12/23/2025 |Life & Health Hmp Inc| 4660- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,4678.0000,"Maxicare Healthcare Corporation - CASQUEJO, MA. DELIA ERZANDO | 12/26/2025 |Maxicare Healthcare Corporation| 4678- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,4740.0000,"Maxicare Healthcare Corporation - UBALDO, LITA MOSCOSA | 12/27/2025 |Maxicare Healthcare Corporation| 4740- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,4880.0000,"Maxicare Healthcare Corporation - UBALDO, ALBERTO CASILLANO | 12/27/2025 |Maxicare Healthcare Corporation| 4880- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,56,65,2026-01-06,0.0000,4975.0000,"Insular Healthcare Inc - LAWAS, APRIL ROSE MANIGOS | 12/23/2025 |Insular Healthcare Inc| 4975- — M1972",1,0,2026-01-31 23:59:59,0
+3,journal_entry,56,65,2026-01-06,0.0000,4980.0000,"Insular Healthcare Inc - HERBIETO, MIKO MENGUITO | 12/29/2025 |Insular Healthcare Inc| 4980- — M1972",1,0,2026-01-31 23:59:59,0
+3,journal_entry,56,65,2026-01-06,0.0000,5230.0000,"Insular Healthcare Inc - BALDO, VICTORIA GODINEZ | 12/26/2025 |Insular Healthcare Inc| 5230- — M1972",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,5950.0000,"Life & Health Hmp Inc - SONGCUAN, MICHELLE CANALES | 12/23/2025 |Life & Health Hmp Inc| 5950- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,6030.0000,"Life & Health Hmp Inc - BACUS, ROSALIA C | 12/23/2025 |Life & Health Hmp Inc| 6030- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,6580.0000,"Life & Health Hmp Inc - CHAVEZ, DENNIS SR. NEPOMUCENO | 12/26/2025 |Life & Health Hmp Inc| 6580- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,56,65,2026-01-06,0.0000,6920.0000,"Insular Healthcare Inc - CANO, VIRGILIO DELA CERNA | 12/26/2025 |Insular Healthcare Inc| 6920- — M1972",1,0,2026-01-31 23:59:59,0
+3,journal_entry,48,65,2026-01-06,0.0000,8170.0000,"Medicard Philippines Inc - BUSCATO, JOVELYN PELARETE | 12/27/2025 |Medicard Philippines Inc| 8170- — M1942",1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,65,2026-01-06,0.0000,8458.0000,"Maxicare Healthcare Corporation - PROS, RAYMUNDO TOLEDO | 12/23/2025 |Maxicare Healthcare Corporation| 8458- — M1980",1,0,2026-01-31 23:59:59,0
+3,journal_entry,56,65,2026-01-06,0.0000,10990.0000,"Insular Healthcare Inc - CAÑAMO, KATHLYN SOLIVA | 12/27/2025 |Insular Healthcare Inc| 10990- — M1972",1,0,2026-01-31 23:59:59,0
+3,journal_entry,56,65,2026-01-06,0.0000,13075.0000,"Insular Healthcare Inc - TOMAGAN, MARILOU ORDONIA | 12/23/2025 |Insular Healthcare Inc| 13075- — M1972",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,65,2026-01-06,0.0000,13830.0000,"Life & Health Hmp Inc - CABAHUG, ROWENA DUNGOG | 12/23/2025 |Life & Health Hmp Inc| 13830- — M1941",1,0,2026-01-31 23:59:59,0
+3,journal_entry,47,57,2026-01-06,128700.0000,0.0000,Life & Health Hmp Inc — M1941,1,0,2026-01-31 23:59:59,0
+3,journal_entry,48,57,2026-01-06,12475.0000,0.0000,Medicard Philippines Inc — M1942,1,0,2026-01-31 23:59:59,0
+3,journal_entry,49,57,2026-01-06,950.0000,0.0000,"DIS Tech Phils, Inc — M1943",1,0,2026-01-31 23:59:59,0
+3,journal_entry,50,57,2026-01-06,5410.0000,0.0000,"Value Care Health Systems, Inc. — M1944",1,0,2026-01-31 23:59:59,0
+3,journal_entry,51,57,2026-01-06,500.0000,0.0000,Results Manila Inc. — M1945,1,0,2026-01-31 23:59:59,0
+3,journal_entry,54,57,2026-01-06,300.0000,0.0000,"PACIFIC CROSS INSURANCE, INC. — M1948",1,0,2026-01-31 23:59:59,0
+3,journal_entry,56,57,2026-01-06,104280.0000,0.0000,Insular Healthcare Inc — M1972,1,0,2026-01-31 23:59:59,0
+3,journal_entry,57,57,2026-01-06,3650.0000,0.0000,Cooperative Health Management Federation — M1973,1,0,2026-01-31 23:59:59,0
+3,journal_entry,58,57,2026-01-06,102398.0000,0.0000,Maxicare Healthcare Corporation — M1980,1,0,2026-01-31 23:59:59,0
+3,journal_entry,60,57,2026-01-06,15680.0000,0.0000,"Philhealthcare, Inc — M1985",1,0,2026-01-31 23:59:59,0
+3,journal_entry,52,57,2026-01-06,1350.0000,0.0000,"Health Plan Philippines, Inc — M1946",1,0,2026-01-31 23:59:59,0
+3,journal_entry,53,57,2026-01-06,1900.0000,0.0000,Taskpro Outsourcing OPC — M1947,1,0,2026-01-31 23:59:59,0
+3,journal_entry,55,57,2026-01-06,480.0000,0.0000,Knowles Electronics Philippines — M1949,1,0,2026-01-31 23:59:59,0
+3,journal_entry,59,57,2026-01-06,33300.0000,0.0000,Asalus Corporation — M1981,1,0,2026-01-31 23:59:59,0
+3,journal_entry,71,57,2026-01-06,0.0000,392.0000,Payment: Life & Health Hmp Inc — M1604,1,0,2026-01-31 23:59:59,0
+3,journal_entry,66,57,2026-01-06,0.0000,400.0000,Payment: Life & Health Hmp Inc — M0804,1,0,2026-01-31 23:59:59,0
+3,journal_entry,80,57,2026-01-06,0.0000,490.0000,Payment: Insular Healthcare Inc — M1757,1,0,2026-01-31 23:59:59,0
+3,journal_entry,75,57,2026-01-06,0.0000,2050.0000,Payment: Life & Health Hmp Inc — M1666,1,0,2026-01-31 23:59:59,0
+3,journal_entry,70,57,2026-01-06,0.0000,2891.0000,Payment: Life & Health Hmp Inc — M1590,1,0,2026-01-31 23:59:59,0
+3,journal_entry,75,57,2026-01-06,0.0000,3557.4000,Payment: Life & Health Hmp Inc — M1666,1,0,2026-01-31 23:59:59,0
+3,journal_entry,73,57,2026-01-06,0.0000,4802.0000,Payment: Life & Health Hmp Inc — M1631,1,0,2026-01-31 23:59:59,0
+3,journal_entry,73,57,2026-01-06,0.0000,5920.0000,Payment: Life & Health Hmp Inc — M1631,1,0,2026-01-31 23:59:59,0
+3,journal_entry,74,57,2026-01-06,0.0000,6154.4000,Payment: Life & Health Hmp Inc — M1649,1,0,2026-01-31 23:59:59,0
+3,journal_entry,68,57,2026-01-06,0.0000,7232.4000,Payment: Life & Health Hmp Inc — M1557,1,0,2026-01-31 23:59:59,0
+3,journal_entry,69,57,2026-01-06,0.0000,8937.6000,Payment: Life & Health Hmp Inc — M1574,1,0,2026-01-31 23:59:59,0
+3,journal_entry,72,57,2026-01-06,0.0000,12651.8000,Payment: Life & Health Hmp Inc — M1618,1,0,2026-01-31 23:59:59,0
+3,journal_entry,74,57,2026-01-06,0.0000,12720.0000,Payment: Life & Health Hmp Inc — M1649,1,0,2026-01-31 23:59:59,0
+3,journal_entry,69,57,2026-01-06,0.0000,14396.2000,Payment: Life & Health Hmp Inc — M1574,1,0,2026-01-31 23:59:59,0
+3,journal_entry,67,57,2026-01-06,0.0000,18664.1000,Payment: Life & Health Hmp Inc — M1540,1,0,2026-01-31 23:59:59,0
+3,journal_entry,76,57,2026-01-06,0.0000,58564.8000,Payment: Insular Healthcare Inc — M1679,1,0,2026-01-31 23:59:59,0
+3,journal_entry,81,57,2026-01-06,0.0000,86088.1000,Payment: Insular Healthcare Inc — M1777,1,0,2026-01-31 23:59:59,0
+3,journal_entry,78,57,2026-01-06,0.0000,86117.5000,Payment: Insular Healthcare Inc — M1739,1,0,2026-01-31 23:59:59,0
+3,journal_entry,79,57,2026-01-06,0.0000,158691.4000,Payment: Insular Healthcare Inc — M1754,1,0,2026-01-31 23:59:59,0
+3,journal_entry,77,57,2026-01-06,0.0000,175331.8000,Payment: Insular Healthcare Inc — M1712,1,0,2026-01-31 23:59:59,0
+3,journal_entry,46,13,2026-01-06,25264.0000,0.0000,"Sales Branches January 06, 2026 - Cash Sales - January, 06 — #48413",1,0,2026-01-31 23:59:59,0
+3,journal_entry,45,13,2026-01-06,0.0000,24396.0000,"To Record Cash Sales Branches January 05, 2025 - To Record Cash Sales Branches January 05, 2025 — #43364",1,0,2026-01-31 23:59:59,0
+3,journal_entry,46,1613,2026-01-06,0.0000,48120.0000,"Sales Branches January 06, 2026 - Consultations — #48413",1,0,2026-01-31 23:59:59,0
+3,journal_entry,46,1625,2026-01-06,1776.0000,0.0000,"Sales Branches January 06, 2026 - Sales Discounts - January, 06 — #48413",1,0,2026-01-31 23:59:59,0
+3,journal_entry,46,1633,2026-01-06,0.0000,8475.0000,"Sales Branches January 06, 2026 - Health services — #48413",1,0,2026-01-31 23:59:59,0
+3,journal_entry,46,1645,2026-01-06,0.0000,24141.0000,"Sales Branches January 06, 2026 - Laboratory/Diagnostics — #48413",1,0,2026-01-31 23:59:59,0
+3,journal_entry,46,1645,2026-01-06,0.0000,40960.0000,"Sales Branches January 06, 2026 - Laboratory/Diagnostics — #48413",1,0,2026-01-31 23:59:59,0
+3,journal_entry,46,1645,2026-01-06,0.0000,41520.0000,"Sales Branches January 06, 2026 - Laboratory/Diagnostics — #48413",1,0,2026-01-31 23:59:59,0
+3,journal_entry,46,1657,2026-01-06,0.0000,75.0000,"Sales Branches January 06, 2026 - Laboratory/Diagnostics - Send Outs — #48413",1,0,2026-01-31 23:59:59,0
+3,journal_entry,46,1713,2026-01-06,0.0000,17300.0000,"Sales Branches January 06, 2026 - Third-Party Partnership — #48413",1,0,2026-01-31 23:59:59,0
+3,journal_entry,83,77,2026-01-07,450.0000,0.0000,"Sales Branches January 07, 2026 - Gcash Sales - January, 07 — #48415",1,0,2026-01-31 23:59:59,0
+3,journal_entry,62,61,2026-01-07,5684.0000,0.0000,Payment: Life & Health Hmp Inc — 002000027819,1,0,2026-01-31 23:59:59,0
+3,journal_entry,63,61,2026-01-07,7480.0000,0.0000,Payment: Life & Health Hmp Inc — 002000027820,1,0,2026-01-31 23:59:59,0
+3,journal_entry,83,61,2026-01-07,10903.0000,0.0000,"Sales Branches January 07, 2026 - Credit Card Sales - January, 07 — #48415",1,0,2026-01-31 23:59:59,0
+3,journal_entry,83,61,2026-01-07,5255.0000,0.0000,"Sales Branches January 07, 2026 - Debit Card Sales - January, 07 — #48415",1,0,2026-01-31 23:59:59,0
+3,journal_entry,83,65,2026-01-07,148190.0000,0.0000,"Sales Branches January 07, 2026 - Term Sales - January, 07 — #48415",1,0,2026-01-31 23:59:59,0
+3,journal_entry,128,65,2026-01-07,0.0000,500.0000,"Insular Healthcare Inc - BORBAJO, MARY JANE BONTUYAN | 12/19/2025 |Insular Healthcare Inc| 500- — M1982",1,0,2026-01-31 23:59:59,0
+3,journal_entry,130,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - ENARIO, CHASNEY SIMENE | 12/20/2025 |Tamiya Philippines, Inc| 700- — M1984",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - ESPINOSA, JESSIE LUMOKSO | 12/23/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - LASTIMOSA, STEFFIE MAE CANDOL | 12/23/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - MANIGSASA, WENDEL DALIGDIG | 12/23/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - REPUNTE, JUN ALE HELLACONI | 12/23/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - SARAUM, JORALDINE MANALOP | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - REVALES, GEMMA HORTELANO | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - BOCOG, VERONICA PAMAOS | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - BASERGO, JEDE COMBISTRA | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - ROSATASE, MARICEL LANUTAN | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - PEDOCHE, NIEL AÑAVEZA | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - SALINGAY, ANGELICA MACALAM | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - BARTIDO, VIOLETA CURAY | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - COMARGO, JASON PAUL VILLACERAN | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - COMARGO, CERELINA GEQUILLO | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - CASTRO, JAY MARLON INGENTE | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - OROYAN, ROLDAN SABIOR | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - QUINDAO, MARICEL GOPONG | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - AMISTAD, ANNA MARIE TAMPUS | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - MADURA, NESTOR EMPAZ | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - PACULANANG, MARIBETH ABRANICA | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - ASARES, MELBERT DELA PEÑA | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - GARA, FLORDELIS ALINDAO | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - LATASA, RAYMUND ALQUISOLA | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - CABAÑERO, VICENTE CASES | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - DUMAMA, SANDY BULILAN | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - ARMACIN, ARCHIE CANICON | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - TIROL, BELLA INTOC | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - TELESPORO, BENJO MATUS | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - CABUSAS, EDWIN CANSANCIO | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - MONSELIEL, BEN ROSE ESTELA | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - ALICANTE, MARIA KC CABANES | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - ELAN, MERRY PATH GOTINGA | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - GUIDO, ARLINA VILLA | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - OLIAMOT, JENNIBETH SARCENA | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - DE LA CERNA, ARNEL MARINAY | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - NEGAPATAN, CRYSTAL - | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - MONISIT, JOHN ROWEN - | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - ORDEÑIZA, PEDRITO ZAMORA | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - OMEGA, JEZL GUIÑETA | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - OMEGA, MARTIN HUERA | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - PIANGCO JR., ROLANDO JUGAN | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - AMANTE, DOLORES PALMITOS | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - GEMPESO, IRENE ALEJADO | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - BENTAZAL, GERMILISA LIMPANGOG | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - PITOGO, CHARINA MARIE PEPITO | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - ORILLO, JOSE MORALES | 12/26/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - EMBUDO, ARNEL DELAS PIÑAS | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - FLORES, HYREN RINKLER DORIA | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - REDOBLADO, AMADO RICAMORA | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - PAJARON, ARNOLD LACSON | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - BANTON, CATHY TAGALOG | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - GETUABAN, JOHN MCKYLE SARTE | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - FAJARDO, ALVIN MONCEDA | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - REAMBONANZA, ARIEL MAYORDO | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - SIALONGO, MERASOL TUBIN | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - PARAGOSO, ROLDAN PAQUIT | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - BRIGOLA, HERO SOCO | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - WAHING, RAMIL TALINGTING | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - KILESTE, CARINA OBLIGADO | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - BURGOS, JHOAN SAGA | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - DALAGUETE, JERALYN LIMPANGOG | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - COSTAÑAS, ELMER ARDIZA | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - BAROTAG, MARK HAROLD CENIZA | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - SUANSING, JAMES ANTHONY ENGASCA | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - DELOS REYES, KEAN MONTEZON | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - EDAÑO, JOEBERT SENILONG | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - BAYUTAS, JIMBO JR. REQUIRON | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - VILLABLANCA, VINCENT IGOT | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - CATALAN, JOVELYN CASINILLO | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - GIMENA, FELIX LUGAY | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - AGUILAR, NADIA LUMBACA | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - ANCOT, MANNY METANTE | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - SABANAL, LESLEE-ANN PALABRICA | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - MONTEGRANDE, WELFREDO JR LAGAHIT | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - COMABIG, MARICHEL VILLEGAS | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - DELA CRUZ, IRISH TORREON | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - JAVELLANA, DOLORES ANCIANO | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - DENULAN, YENYEN TUNDAG | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - ARENZA, SENANDO TEVES | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - EPHAN, CRESENCIANO WENCESLAO | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - REPOLIDO, GERALD SUMAGANG | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - DUMANGCAS, SHEILA MALOLOY-ON | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - ELIAS, ARGIE SONIO | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - AMIGABLE, JASON SEGUROS | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - GEPIGA, LIEZL AGOSTO | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - OSABEL, NICO AMOREN | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - TANJAY, CINDERILLA ANO-OS | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - AUNZO, TEODORO - | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - WAGAS, LINIEL MALAZARTE | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - DEVERA, MARK LAWRENCE SASING | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - HIPOLAN, MERCY LABRADO | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - YRAY, MARY ROSE CABRERA | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - PILAPIL, MARITES TAGALOG | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - CAMPOS, ROSANNA SORESO | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - JAVIER, JEMBOY REBUSQUILLO | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - ARELA, CRESENCIO MISIAS | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - SALUNDAGUIT, DEREK ERMAC | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - BUGAHOD, ARLANIE FUELLAS | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - BENSI, ARGIE - | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - BIONG, ROSSIEL SABIGAN | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - TARAN, MARITES HUERTE | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - LAMBIA, WILMER PERATER | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - TAPANG, AJ BOY ONGOS | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - JUMAO-AS, JUNIÑO JOSE BAGUIO | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - ANDOLERO, KIMBERLY ROSE SAMBAAN | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - CENIZA, EUGENE IMPERIAL | 12/27/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - JEMINEZ, ROSIELYN LEGASPINO | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - CABUNGCAL, KHIR AJ BARCASTIQUE | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - GULFAN, ARNOLD ROSAS | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - SALIGAN, MA. GLICEL UAYEN | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - LATO, CHONA MARIE MARTEL | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - MIÑOZA, JOHNNY BERDIN | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - CAÑETE, KEVIN MATIDIOS | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - ALIMOREN, CHRISTINE FAT | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - CUADRA, JUANA MARIE CABABARROS | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - ARREGLO JR., PATROCENIO SERICON | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - BONTIA, MARVIN MONTECALVO | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - BODIONGAN, ROGER LEPARTO | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - PEREGRINO, JOSEPH MANDAUE | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - SENERPIDA, ASHLY KATE BERDON | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - DIANA, GINA ABREA | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - MANGCO, DEXTER LLEMOS | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - NAZ, MARIA AWING | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - MEJALA, LOURDES TENTATIVA | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - UNABIA, SERINO JR QUIJANO | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - CAHIGAS, FELIX JR. NIQUE | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - BRION, DARWIN RUIZ | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - MANSANADEZ, ROBIE JINO CUPAS | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - MENDEZ, MIRASOL ESCUADRO | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - PASTOR, MARILYN REVILLA | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - CASTRO, HAZEL JOY BARABAD | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - VITERBO, SHANNEN ABELITA | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - PABON, IRENEO JR. COMODAS | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - YCOT, NOCHE ARCHE | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - ARMERO, RUSSEL GULBIN | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - FLORES, LEONEL PANER | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - PAUNIL, LUZ JUMAO-AS | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - SALADAGA, REBOY HORTELANO | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - WAGWAG, ERICKA - | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - BUTALID, JOLITO SAGARINO | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - AMOR, SWEETY ALINGASA | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - DUTERTE, RODELIO AMION | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - AMOIN, JERAMY RECATE | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - RABO, CLINT JUDE DIEZ | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - LLORATA, GUALBERTO JR. QUIJADA | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - CASINILLO, AGNES PACINIO | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - BRACERO, REY PROSIA | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - CATIPAY, RUEL GENERALE | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - GARCIA, JENNALYN ALAURA | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - PABLIO, JEMAR CABANSAG | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - PENECIOS, CARLOS EDGAR ROFEROS | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - BANDILAO, MARGIE YMBONG | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - BANDILAO, ABNER ASENDIENTE | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - POLVOS, DARINE SABANG | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - BOOC, JEFFREY GODINEZ | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - MONTE JR., JAIMELITO REALES | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - INOC, ZACH MOSES DELGADO | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - PUERTO, JOSE MICHAEL MESIAS | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - BURGOS, SANROSE . | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - SUMERAN, RAMIL CAPAREDA | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - TERO, CHARMAE AMORES | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - NUÑEZ, MELUNA SUMALINOG | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - LERIOS, JEFFERSON CRUZ | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - DUNGOG, RONALD CAÑETE | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - OCAMPO, WELBERT MAHILUM | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - GERRA, CLAUSEN MARTIN CAÑETE | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,65,2026-01-07,0.0000,700.0000,"Tamiya Philippines, Inc - NANOY, RENE POGOY | 12/29/2025 |Tamiya Philippines, Inc| 700- — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,129,65,2026-01-07,0.0000,920.0000,"Generali Life Assurance Philippines Inc - BOLIVAR, JONARLY OYAO | 12/20/2025 |Generali Life Assurance Philippines Inc| 920- — M1983",1,0,2026-01-31 23:59:59,0
+3,journal_entry,100,57,2026-01-07,8.0000,0.0000,Life & Health Hmp Inc — CN-4166,1,0,2026-01-31 23:59:59,0
+3,journal_entry,101,57,2026-01-07,293.8000,0.0000,Life & Health Hmp Inc — CN-4167,1,0,2026-01-31 23:59:59,0
+3,journal_entry,102,57,2026-01-07,59.0000,0.0000,Life & Health Hmp Inc — CN-4168,1,0,2026-01-31 23:59:59,0
+3,journal_entry,103,57,2026-01-07,147.6000,0.0000,Life & Health Hmp Inc — CN-4169,1,0,2026-01-31 23:59:59,0
+3,journal_entry,104,57,2026-01-07,380.9000,0.0000,Life & Health Hmp Inc — CN-4170,1,0,2026-01-31 23:59:59,0
+3,journal_entry,105,57,2026-01-07,258.2000,0.0000,Life & Health Hmp Inc — CN-4171,1,0,2026-01-31 23:59:59,0
+3,journal_entry,106,57,2026-01-07,98.0000,0.0000,Life & Health Hmp Inc — CN-4172,1,0,2026-01-31 23:59:59,0
+3,journal_entry,107,57,2026-01-07,72.6000,0.0000,Life & Health Hmp Inc — CN-4173,1,0,2026-01-31 23:59:59,0
+3,journal_entry,108,57,2026-01-07,125.6000,0.0000,Life & Health Hmp Inc — CN-4174,1,0,2026-01-31 23:59:59,0
+3,journal_entry,109,57,2026-01-07,116.0000,0.0000,Life & Health Hmp Inc — CN-4175,1,0,2026-01-31 23:59:59,0
+3,journal_entry,110,57,2026-01-07,182.4000,0.0000,Life & Health Hmp Inc — CN-4176,1,0,2026-01-31 23:59:59,0
+3,journal_entry,111,57,2026-01-07,1690.1000,0.0000,Life & Health Hmp Inc — CN-4185,1,0,2026-01-31 23:59:59,0
+3,journal_entry,112,57,2026-01-07,1152.8000,0.0000,Life & Health Hmp Inc — CN-4186,1,0,2026-01-31 23:59:59,0
+3,journal_entry,113,57,2026-01-07,6603.6200,0.0000,Life & Health Hmp Inc — CN-4187,1,0,2026-01-31 23:59:59,0
+3,journal_entry,114,57,2026-01-07,2021.7000,0.0000,Life & Health Hmp Inc — CN-4189,1,0,2026-01-31 23:59:59,0
+3,journal_entry,115,57,2026-01-07,19.6000,0.0000,"Avega Managed Care, Inc — CN-4190",1,0,2026-01-31 23:59:59,0
+3,journal_entry,128,57,2026-01-07,500.0000,0.0000,Insular Healthcare Inc — M1982,1,0,2026-01-31 23:59:59,0
+3,journal_entry,129,57,2026-01-07,920.0000,0.0000,Generali Life Assurance Philippines Inc — M1983,1,0,2026-01-31 23:59:59,0
+3,journal_entry,130,57,2026-01-07,700.0000,0.0000,"Tamiya Philippines, Inc — M1984",1,0,2026-01-31 23:59:59,0
+3,journal_entry,131,57,2026-01-07,116900.0000,0.0000,"Tamiya Philippines, Inc — M1988",1,0,2026-01-31 23:59:59,0
+3,journal_entry,84,57,2026-01-07,0.0000,8.0000,Life & Health Hmp Inc — CN-4166,1,0,2026-01-31 23:59:59,0
+3,journal_entry,120,57,2026-01-07,0.0000,8.0000,Life & Health Hmp Inc — M1604,1,0,2026-01-31 23:59:59,0
+3,journal_entry,99,57,2026-01-07,0.0000,19.6000,"Avega Managed Care, Inc — CN-4190",1,0,2026-01-31 23:59:59,0
+3,journal_entry,125,57,2026-01-07,0.0000,19.6000,"Avega Managed Care, Inc — M1674",1,0,2026-01-31 23:59:59,0
+3,journal_entry,86,57,2026-01-07,0.0000,59.0000,Life & Health Hmp Inc — CN-4168,1,0,2026-01-31 23:59:59,0
+3,journal_entry,119,57,2026-01-07,0.0000,59.0000,Life & Health Hmp Inc — M1590,1,0,2026-01-31 23:59:59,0
+3,journal_entry,91,57,2026-01-07,0.0000,72.6000,Life & Health Hmp Inc — CN-4173,1,0,2026-01-31 23:59:59,0
+3,journal_entry,124,57,2026-01-07,0.0000,72.6000,Life & Health Hmp Inc — M1666,1,0,2026-01-31 23:59:59,0
+3,journal_entry,90,57,2026-01-07,0.0000,98.0000,Life & Health Hmp Inc — CN-4172,1,0,2026-01-31 23:59:59,0
+3,journal_entry,122,57,2026-01-07,0.0000,98.0000,Life & Health Hmp Inc — M1631,1,0,2026-01-31 23:59:59,0
+3,journal_entry,93,57,2026-01-07,0.0000,116.0000,Life & Health Hmp Inc — CN-4175,1,0,2026-01-31 23:59:59,0
+3,journal_entry,120,57,2026-01-07,0.0000,116.0000,Life & Health Hmp Inc — M1604,1,0,2026-01-31 23:59:59,0
+3,journal_entry,92,57,2026-01-07,0.0000,125.6000,Life & Health Hmp Inc — CN-4174,1,0,2026-01-31 23:59:59,0
+3,journal_entry,123,57,2026-01-07,0.0000,125.6000,Life & Health Hmp Inc — M1649,1,0,2026-01-31 23:59:59,0
+3,journal_entry,87,57,2026-01-07,0.0000,147.6000,Life & Health Hmp Inc — CN-4169,1,0,2026-01-31 23:59:59,0
+3,journal_entry,117,57,2026-01-07,0.0000,147.6000,Life & Health Hmp Inc — M1557,1,0,2026-01-31 23:59:59,0
+3,journal_entry,94,57,2026-01-07,0.0000,182.4000,Life & Health Hmp Inc — CN-4176,1,0,2026-01-31 23:59:59,0
+3,journal_entry,118,57,2026-01-07,0.0000,182.4000,Life & Health Hmp Inc — M1574,1,0,2026-01-31 23:59:59,0
+3,journal_entry,89,57,2026-01-07,0.0000,258.2000,Life & Health Hmp Inc — CN-4171,1,0,2026-01-31 23:59:59,0
+3,journal_entry,121,57,2026-01-07,0.0000,258.2000,Life & Health Hmp Inc — M1618,1,0,2026-01-31 23:59:59,0
+3,journal_entry,85,57,2026-01-07,0.0000,293.8000,Life & Health Hmp Inc — CN-4167,1,0,2026-01-31 23:59:59,0
+3,journal_entry,118,57,2026-01-07,0.0000,293.8000,Life & Health Hmp Inc — M1574,1,0,2026-01-31 23:59:59,0
+3,journal_entry,88,57,2026-01-07,0.0000,380.9000,Life & Health Hmp Inc — CN-4170,1,0,2026-01-31 23:59:59,0
+3,journal_entry,116,57,2026-01-07,0.0000,380.9000,Life & Health Hmp Inc — M1540,1,0,2026-01-31 23:59:59,0
+3,journal_entry,132,57,2026-01-07,0.0000,980.0000,"Payment: Avega Managed Care, Inc — M1674",1,0,2026-01-31 23:59:59,0
+3,journal_entry,96,57,2026-01-07,0.0000,1152.8000,Life & Health Hmp Inc — CN-4186,1,0,2026-01-31 23:59:59,0
+3,journal_entry,123,57,2026-01-07,0.0000,1152.8000,Life & Health Hmp Inc — M1649,1,0,2026-01-31 23:59:59,0
+3,journal_entry,95,57,2026-01-07,0.0000,1690.1000,Life & Health Hmp Inc — CN-4185,1,0,2026-01-31 23:59:59,0
+3,journal_entry,124,57,2026-01-07,0.0000,1690.1000,Life & Health Hmp Inc — M1666,1,0,2026-01-31 23:59:59,0
+3,journal_entry,98,57,2026-01-07,0.0000,2021.7000,Life & Health Hmp Inc — CN-4189,1,0,2026-01-31 23:59:59,0
+3,journal_entry,126,57,2026-01-07,0.0000,2021.7000,Life & Health Hmp Inc — M1682,1,0,2026-01-31 23:59:59,0
+3,journal_entry,71,57,2026-01-07,0.0000,5684.0000,Payment: Life & Health Hmp Inc — M1604,1,0,2026-01-31 23:59:59,0
+3,journal_entry,97,57,2026-01-07,0.0000,6603.6200,Life & Health Hmp Inc — CN-4187,1,0,2026-01-31 23:59:59,0
+3,journal_entry,127,57,2026-01-07,0.0000,6603.6200,Life & Health Hmp Inc — M1709,1,0,2026-01-31 23:59:59,0
+3,journal_entry,72,57,2026-01-07,0.0000,7480.0000,Payment: Life & Health Hmp Inc — M1618,1,0,2026-01-31 23:59:59,0
+3,journal_entry,132,101,2026-01-07,980.0000,0.0000,"Payment: Avega Managed Care, Inc — M1674",1,0,2026-01-31 23:59:59,0
+3,journal_entry,83,13,2026-01-07,36424.0000,0.0000,"Sales Branches January 07, 2026 - Cash Sales - January, 07 — #48415",1,0,2026-01-31 23:59:59,0
+3,journal_entry,82,13,2026-01-07,0.0000,25264.0000,"To Record Cash Sales Branches January 06, 2025 - To Record Cash Sales Branches January 06, 2025 — #43598",1,0,2026-01-31 23:59:59,0
+3,journal_entry,83,1613,2026-01-07,0.0000,68370.0000,"Sales Branches January 07, 2026 - Consultations — #48415",1,0,2026-01-31 23:59:59,0
+3,journal_entry,85,165,2026-01-07,293.8000,0.0000,Life & Health Hmp Inc - CWT-2% |Life & Health Hmp Inc — CN-4167,1,0,2026-01-31 23:59:59,0
+3,journal_entry,94,165,2026-01-07,182.4000,0.0000,Life & Health Hmp Inc - CWT-2% |Life & Health Hmp Inc — CN-4176,1,0,2026-01-31 23:59:59,0
+3,journal_entry,97,165,2026-01-07,6603.6200,0.0000,Life & Health Hmp Inc - CWT-2% |Life & Health Hmp Inc — CN-4187,1,0,2026-01-31 23:59:59,0
+3,journal_entry,86,165,2026-01-07,59.0000,0.0000,Life & Health Hmp Inc - CWT-2% |Life & Health Hmp Inc| — CN-4168,1,0,2026-01-31 23:59:59,0
+3,journal_entry,84,165,2026-01-07,8.0000,0.0000,Life & Health Hmp Inc - CWT-2% |Life & Health Hmp Inc — CN-4166,1,0,2026-01-31 23:59:59,0
+3,journal_entry,87,165,2026-01-07,147.6000,0.0000,Life & Health Hmp Inc - CWT-2% |Life & Health Hmp Inc — CN-4169,1,0,2026-01-31 23:59:59,0
+3,journal_entry,95,165,2026-01-07,1690.1000,0.0000,Life & Health Hmp Inc - CWT-2%|Life & Health Hmp Inc — CN-4185,1,0,2026-01-31 23:59:59,0
+3,journal_entry,96,165,2026-01-07,1152.8000,0.0000,Life & Health Hmp Inc - CWT-2% |Life & Health Hmp Inc — CN-4186,1,0,2026-01-31 23:59:59,0
+3,journal_entry,99,165,2026-01-07,19.6000,0.0000,"Avega Managed Care, Inc - CWT-2% |Avega Managed Care, Inc — CN-4190",1,0,2026-01-31 23:59:59,0
+3,journal_entry,88,165,2026-01-07,380.9000,0.0000,Life & Health Hmp Inc - CWT-2% |Life & Health Hmp Inc — CN-4170,1,0,2026-01-31 23:59:59,0
+3,journal_entry,89,165,2026-01-07,258.2000,0.0000,Life & Health Hmp Inc - CWT-2%|Life & Health Hmp Inc — CN-4171,1,0,2026-01-31 23:59:59,0
+3,journal_entry,90,165,2026-01-07,98.0000,0.0000,Life & Health Hmp Inc - CWT-2% |Life & Health Hmp Inc — CN-4172,1,0,2026-01-31 23:59:59,0
+3,journal_entry,91,165,2026-01-07,72.6000,0.0000,Life & Health Hmp Inc - CWT-2% |Life & Health Hmp Inc — CN-4173,1,0,2026-01-31 23:59:59,0
+3,journal_entry,92,165,2026-01-07,125.6000,0.0000,Life & Health Hmp Inc - CWT-2%|Life & Health Hmp Inc| — CN-4174,1,0,2026-01-31 23:59:59,0
+3,journal_entry,93,165,2026-01-07,116.0000,0.0000,Life & Health Hmp Inc - CWT-2% |Life & Health Hmp Inc — CN-4175,1,0,2026-01-31 23:59:59,0
+3,journal_entry,98,165,2026-01-07,2021.7000,0.0000,Life & Health Hmp Inc - CWT-2% |Life & Health Hmp Inc — CN-4189,1,0,2026-01-31 23:59:59,0
+3,journal_entry,83,1625,2026-01-07,958.0000,0.0000,"Sales Branches January 07, 2026 - Sales Discounts - January, 07 — #48415",1,0,2026-01-31 23:59:59,0
+3,journal_entry,83,1633,2026-01-07,0.0000,4550.0000,"Sales Branches January 07, 2026 - Health services — #48415",1,0,2026-01-31 23:59:59,0
+3,journal_entry,83,1645,2026-01-07,0.0000,35425.0000,"Sales Branches January 07, 2026 - Laboratory/Diagnostics — #48415",1,0,2026-01-31 23:59:59,0
+3,journal_entry,83,1645,2026-01-07,0.0000,41400.0000,"Sales Branches January 07, 2026 - Laboratory/Diagnostics — #48415",1,0,2026-01-31 23:59:59,0
+3,journal_entry,83,1645,2026-01-07,0.0000,43260.0000,"Sales Branches January 07, 2026 - Laboratory/Diagnostics — #48415",1,0,2026-01-31 23:59:59,0
+3,journal_entry,83,1657,2026-01-07,0.0000,4975.0000,"Sales Branches January 07, 2026 - Laboratory/Diagnostics - Send Outs — #48415",1,0,2026-01-31 23:59:59,0
+3,journal_entry,83,1713,2026-01-07,0.0000,4200.0000,"Sales Branches January 07, 2026 - Third-Party Partnership — #48415",1,0,2026-01-31 23:59:59,0
+3,journal_entry,137,217,2026-01-08,21942.3200,0.0000,Payment: NEW KEEN'S TRADING — 1225-000520,1,0,2026-01-31 23:59:59,0
+3,journal_entry,139,217,2026-01-08,53309.7300,0.0000,"Payment: BEROVAN MARKETING, INC. — 1225-000541",1,0,2026-01-31 23:59:59,0
+3,journal_entry,138,217,2026-01-08,46729.0200,0.0000,"Payment: BEROVAN MARKETING, INC. — 1225-000540",1,0,2026-01-31 23:59:59,0
+3,journal_entry,134,77,2026-01-08,3100.0000,0.0000,"Sales Branches January 08, 2026 - Gcash Sales - January, 08 — #48417",1,0,2026-01-31 23:59:59,0
+3,journal_entry,143,61,2026-01-08,500.0000,0.0000,"Asalus Corporation - REYES, DOREN GRACE OMPAD,, | 04/14/2025 | Asalus Corporation| Consultation-ANG-ANGAN, HARVEY — CN-4192",1,0,2026-01-31 23:59:59,0
+3,journal_entry,134,61,2026-01-08,10100.0000,0.0000,"Sales Branches January 08, 2026 - Credit Card Sales - January, 08 — #48417",1,0,2026-01-31 23:59:59,0
+3,journal_entry,134,61,2026-01-08,12130.0000,0.0000,"Sales Branches January 08, 2026 - Debit Card Sales - January, 08 — #48417",1,0,2026-01-31 23:59:59,0
+3,journal_entry,134,65,2026-01-08,147255.0000,0.0000,"Sales Branches January 08, 2026 - Term Sales - January, 08 — #48417",1,0,2026-01-31 23:59:59,0
+3,journal_entry,155,65,2026-01-08,0.0000,100.0000,"Insular Healthcare Inc - ABAÑO, ELIANA LOUISE ABIGAIL APIZAN | 01/03/2026 |Insular Healthcare Inc| 100- — M1939",1,0,2026-01-31 23:59:59,0
+3,journal_entry,154,65,2026-01-08,0.0000,150.0000,"Maxicare Healthcare Corporation - BOQUIREN, MA. NATASHA DIY | 01/05/2026 |Maxicare Healthcare Corporation| 150- — M1938",1,0,2026-01-31 23:59:59,0
+3,journal_entry,154,65,2026-01-08,0.0000,170.0000,"Maxicare Healthcare Corporation - DIAZ, LUCILLE MAY TUMULAK | 01/03/2026 |Maxicare Healthcare Corporation| 170- — M1938",1,0,2026-01-31 23:59:59,0
+3,journal_entry,155,65,2026-01-08,0.0000,180.0000,"Insular Healthcare Inc - ORTEGA, GWYN DE LOS ANGELES | 01/03/2026 |Insular Healthcare Inc| 180- — M1939",1,0,2026-01-31 23:59:59,0
+3,journal_entry,154,65,2026-01-08,0.0000,250.0000,"Maxicare Healthcare Corporation - HERMOSO, LYLE GAITAN | 01/02/2026 |Maxicare Healthcare Corporation| 250- — M1938",1,0,2026-01-31 23:59:59,0
+3,journal_entry,154,65,2026-01-08,0.0000,250.0000,"Maxicare Healthcare Corporation - TORING, STEPHEN ESCALONA | 01/02/2026 |Maxicare Healthcare Corporation| 250- — M1938",1,0,2026-01-31 23:59:59,0
+3,journal_entry,154,65,2026-01-08,0.0000,250.0000,"Maxicare Healthcare Corporation - VILLANUEVA, ALMA FE ABATAYO | 01/02/2026 |Maxicare Healthcare Corporation| 250- — M1938",1,0,2026-01-31 23:59:59,0
+3,journal_entry,154,65,2026-01-08,0.0000,250.0000,"Maxicare Healthcare Corporation - ANUNCIADO, JUDITH BORLADO | 01/02/2026 |Maxicare Healthcare Corporation| 250- — M1938",1,0,2026-01-31 23:59:59,0
+3,journal_entry,155,65,2026-01-08,0.0000,270.0000,"Insular Healthcare Inc - COCA, NEIL ABRAM LANGGAM | 01/05/2026 |Insular Healthcare Inc| 270- — M1939",1,0,2026-01-31 23:59:59,0
+3,journal_entry,152,65,2026-01-08,0.0000,300.0000,"Cooperative Health Management Federation - TORREJOS, NELGINA CAÑAS | 01/02/2026 |Cooperative Health Management Federation| 300- — M1936",1,0,2026-01-31 23:59:59,0
+3,journal_entry,152,65,2026-01-08,0.0000,300.0000,"Cooperative Health Management Federation - TORREJOS, NELGINA CAÑAS | 01/03/2026 |Cooperative Health Management Federation| 300- — M1936",1,0,2026-01-31 23:59:59,0
+3,journal_entry,152,65,2026-01-08,0.0000,300.0000,"Cooperative Health Management Federation - EMPERADO, MERIAM LOQUIAS | 01/03/2026 |Cooperative Health Management Federation| 300- — M1936",1,0,2026-01-31 23:59:59,0
+3,journal_entry,152,65,2026-01-08,0.0000,300.0000,"Cooperative Health Management Federation - COSTE, EMELDA VERSALEZ | 01/05/2026 |Cooperative Health Management Federation| 300- — M1936",1,0,2026-01-31 23:59:59,0
+3,journal_entry,152,65,2026-01-08,0.0000,300.0000,"Cooperative Health Management Federation - CABALHUG, MATET PAQUIBOT | 01/05/2026 |Cooperative Health Management Federation| 300- — M1936",1,0,2026-01-31 23:59:59,0
+3,journal_entry,152,65,2026-01-08,0.0000,300.0000,"Cooperative Health Management Federation - GODINEZ, CHONA CORAGE | 01/05/2026 |Cooperative Health Management Federation| 300- — M1936",1,0,2026-01-31 23:59:59,0
+3,journal_entry,154,65,2026-01-08,0.0000,320.0000,"Maxicare Healthcare Corporation - SUMALINOG, PERLITA IGOT | 01/02/2026 |Maxicare Healthcare Corporation| 320- — M1938",1,0,2026-01-31 23:59:59,0
+3,journal_entry,154,65,2026-01-08,0.0000,320.0000,"Maxicare Healthcare Corporation - SAGARINO, ANABEL - | 01/03/2026 |Maxicare Healthcare Corporation| 320- — M1938",1,0,2026-01-31 23:59:59,0
+3,journal_entry,154,65,2026-01-08,0.0000,320.0000,"Maxicare Healthcare Corporation - MORDENO, ZARAH AMARI CONCHAS | 01/03/2026 |Maxicare Healthcare Corporation| 320- — M1938",1,0,2026-01-31 23:59:59,0
+3,journal_entry,154,65,2026-01-08,0.0000,320.0000,"Maxicare Healthcare Corporation - CASABAHAN, JYROSYL NIMA - | 01/05/2026 |Maxicare Healthcare Corporation| 320- — M1938",1,0,2026-01-31 23:59:59,0
+3,journal_entry,154,65,2026-01-08,0.0000,368.0000,"Maxicare Healthcare Corporation - CUBA, RUBY SISON | 01/05/2026 |Maxicare Healthcare Corporation| 368- — M1938",1,0,2026-01-31 23:59:59,0
+3,journal_entry,155,65,2026-01-08,0.0000,390.0000,"Insular Healthcare Inc - LUNGAY, RAY OWEEN CORBITA | 01/05/2026 |Insular Healthcare Inc| 390- — M1939",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,390.0000,"Life & Health Hmp Inc - POGOY, ROSYL CAÑETE | 01/02/2026 |Life & Health Hmp Inc| 390- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,146,65,2026-01-08,0.0000,400.0000,"IMS Wellth Care, Inc. - GIBANIM, CARMELA ANN VILBAR | 01/05/2026 |IMS Wellth Care, Inc.| 400- — M1900",1,0,2026-01-31 23:59:59,0
+3,journal_entry,147,65,2026-01-08,0.0000,400.0000,"United Coconut Planters Life Assurance Corporation - BONGHANOY, HANNAH GRACE DAMPIL | 01/05/2026 |United Coconut Planters Life Assurance Corporation| 400- — M1904",1,0,2026-01-31 23:59:59,0
+3,journal_entry,160,65,2026-01-08,0.0000,400.0000,"Value Care Health Systems, Inc. - HERNANDEZ, JENNIFER AMISTAD | 01/05/2026 |Value Care Health Systems, Inc.| 400- — M1987",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - ALIPAO, AMBER CABATINGAN | 01/02/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - ALIPAO, RINGO BARIL | 01/02/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - DELES, BERNADETTE PALMA | 01/02/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - PEREZ, JOLLIBEE DABON | 01/02/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - LLOREN, GUENDOLYN PELESCO | 01/02/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - TRAPILA, MARELYN CIATA | 01/02/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - BAGUIO, KRISTAL SOROÑO | 01/02/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - POGOY, ROSYL CAÑETE | 01/02/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - ANDRIN, EVELYN RODADO | 01/02/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - BUTALID, MA. NIÑA AUBREY - | 01/02/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - TAGOD, BERNADETTE BACULI | 01/02/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - CABILINO, DAYLYN CAÑAVERAL | 01/02/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - CENERA, MERIAN LASCUÑA | 01/02/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - PAQUIBOT, LAURO TAHANLANGIT | 01/02/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - SANCHEZ, CHRISTOPHER SANCHEZ | 01/03/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - MORALES, VENUS BOOC | 01/03/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - CAGOROL, SEAN XAVIER LIMPANGOG | 01/03/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - ATON, JEMBOY SUMALINOG | 01/03/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - YCONG, MARGARETTE GENIO | 01/03/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - GARBO, ROY BRIOSO | 01/03/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - CASTOR, GLADISH BACUS | 01/03/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - CAGADAS, RICA - | 01/05/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - NEGRE, ROGELIO GILTENDEZ | 01/05/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - NEGRE, JONICA MARIE ROSALEJOS | 01/05/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - BARRO, JOVANIE SINANGOTE | 01/05/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - ESTEMBER, APRIL ROSE MILANCOLICO | 01/05/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - CHAVEZ, MARY JUNE LINAO | 01/05/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - CASTOR, GLADISH BACUS | 01/05/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - ARCADIO, LEONIL FLANDEZ | 01/05/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - GUIGAYOMA, JOSSIE LIBETARIO | 01/05/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - DARO, ROBELYN MORALES | 01/05/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - BERDIN, KAREN RUELAN | 01/05/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - CABRILLAS, NALDO EGANO | 01/05/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - TABONTABON, MARISTEL LABUTIN | 01/05/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - FORMENTERA, MERGYL RAMONEDA | 01/05/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - SENCIO, LANI-LEI BOOC | 01/05/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - NARBOADA, EARL JHARREN ESPINOSA | 01/05/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0
+3,journal_entry,162,65,2026-01-08,0.0000,400.0000,"Life & Health Hmp Inc - PIAÑAR, HAZIEL QUINAIN | 01/05/2026 |Life & Health Hmp Inc| 400- — M1990",1,0,2026-01-31 23:59:59,0

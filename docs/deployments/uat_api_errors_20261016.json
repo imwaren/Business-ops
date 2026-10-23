@@ -1,0 +1,130 @@
+{
+  "manifest.json": {
+    "app/Config/BootstrapGuard.php": {
+      "before": "0a97f8b40ef2f3ff31dbdee31eef99ccd030d600e7b16c127e1bef45062c2c23",
+      "after": "9b35a8152efadc7d682703d0907744cbb846269c33cdfd491f7ed55cb7b5a207",
+      "uid": 1004,
+      "gid": 1004,
+      "mode": 436
+    },
+    "app/Libraries/CorsExceptionHandler.php": {
+      "before": "a079e33694cd3cc7895118f052655083cad36c4e85860a7cb5ff5725128b8c21",
+      "after": "58f1dd2b931f39060795efc0c2054638daee03c1621df44214f6f20026d64c3a",
+      "uid": 1004,
+      "gid": 1004,
+      "mode": 436
+    },
+    "index.php": {
+      "before": "01e3acd152d06c8f975c3b706d9a92c03cab0b826fa42e881f8915984d30ce0a",
+      "after": "6ee7aa54e483dde47ea01b9bbffd6fc181c7f7e5f4edcab1bbb04fbcd19f2c41",
+      "uid": 1004,
+      "gid": 1004,
+      "mode": 436
+    }
+  },
+  "verified.json": {
+    "ok": true,
+    "environment": "uat",
+    "cli": {
+      "ok": true,
+      "checks": {
+        "early_flag_enabled": true,
+        "daily_manila_filename": true,
+        "redacted_formatter": true,
+        "bounded_details": true,
+        "production_mode_handler": true
+      }
+    },
+    "preflight": {
+      "status": 204,
+      "headers": {
+        "access-control-allow-origin": [
+          "http://192.168.1.11:3001"
+        ],
+        "vary": [
+          "Origin"
+        ],
+        "access-control-allow-methods": [
+          "GET, POST, OPTIONS, PUT, PATCH, DELETE"
+        ],
+        "access-control-allow-headers": [
+          "Content-Type, Authorization, X-Requested-With, api-key, Origin-API-Key, API-KEY, latitude, longitude, X-Cron-Secret"
+        ],
+        "access-control-max-age": [
+          "86400"
+        ]
+      }
+    },
+    "http": {
+      "ok": true,
+      "environment": "uat",
+      "cases": {
+        "invalid_normal_key": {
+          "status": 401,
+          "expected_status": 401,
+          "cors": true,
+          "json": true,
+          "matches": true
+        },
+        "invalid_origin_key": {
+          "status": 401,
+          "expected_status": 401,
+          "cors": true,
+          "json": true,
+          "matches": true
+        },
+        "ordinary_auth_without_origin_key": {
+          "status": 401,
+          "expected_status": 401,
+          "cors": true,
+          "json": true,
+          "matches": true
+        },
+        "configured_keys": {
+          "status": 200,
+          "expected_status": 200,
+          "cors": true,
+          "json": true,
+          "matches": true,
+          "size": 50,
+          "returned_rows": 1
+        }
+      },
+      "configured_keys_available": true,
+      "requests": "GET only; normal API audit logging preserved; no business writes"
+    },
+    "production_unchanged": true,
+    "unrelated_files_unchanged": true,
+    "historical_boot_log_unchanged": true,
+    "maintenance_settings_changed": false,
+    "opcode_caches_refreshed": true
+  },
+  "final_checks.json": {
+    "services_restored": true,
+    "cron_unchanged": true,
+    "private_backup_mode": "0o700",
+    "recent_changed_file_errors": 0
+  },
+  "backup": "/root/uat_api_errors_20261016_004417/uat",
+  "tests": {
+    "suites": [
+      "ErrorHandlingTest",
+      "CorsHeadersTest"
+    ],
+    "tests": 17,
+    "assertions": 163,
+    "passed": true
+  },
+  "local_sources": {
+    "app/Config/BootstrapGuard.php": "0f126c83406be3e6ba42d82ee7aa8e755bed692cc32aece4ccff806aea7cdbf3",
+    "app/Libraries/CorsExceptionHandler.php": "58f1dd2b931f39060795efc0c2054638daee03c1621df44214f6f20026d64c3a",
+    "index.php": "f69623ff616ec354b279c3881392431f5dbc407afd7a468596ee73ae0664dbfc"
+  },
+  "boundaries": {
+    "production_deployed": false,
+    "database_changes": false,
+    "business_writes": false,
+    "live_failure_endpoint": false,
+    "historical_logs_modified": false
+  }
+}

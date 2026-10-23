@@ -1,0 +1,734 @@
+[
+  {
+    "schema": "mytemr_master",
+    "table": "billing",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "billing",
+    "column": "charge_to",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "billing_entry",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "billing_payment",
+    "column": "charge_to",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "company_attachment",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "company_package",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "company_validity_date",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "costing",
+    "column": "customer_account_id",
+    "mode": "csv"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "costing",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "costing_consultation",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "costing_consultation",
+    "column": "charge_to_ids",
+    "mode": "csv"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "costing_service",
+    "column": "charge_to_ids",
+    "mode": "csv"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "daily_compliance_snapshot",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "doctor_hmo",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "endorsement",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "endorsement_consultation",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "endorsement_consultation",
+    "column": "charge_to_ids",
+    "mode": "csv"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "endorsement_patient",
+    "column": "charge_to_ids",
+    "mode": "csv"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "endorsement_service",
+    "column": "charge_to_ids",
+    "mode": "csv"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "lab_test_hmo",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "quotation",
+    "column": "customer_account_id",
+    "mode": "csv"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "quotation",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "quotation_consultation",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "quotation_consultation",
+    "column": "charge_to_ids",
+    "mode": "csv"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "quotation_service",
+    "column": "charge_to_ids",
+    "mode": "csv"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "request",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "request",
+    "column": "customer_account_id",
+    "mode": "csv"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "request_consultation",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "request_consultation",
+    "column": "charge_to_ids",
+    "mode": "csv"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "request_service",
+    "column": "charge_to_ids",
+    "mode": "csv"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "soa_clinic_booking",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "soa_clinic_booking",
+    "column": "charge_tos",
+    "mode": "csv"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "soa_company_map",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "soa_line",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "user_portal",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "wallet",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_master",
+    "table": "wallet_history",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mobile",
+    "table": "billing",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mobile",
+    "table": "billing",
+    "column": "charge_to",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mobile",
+    "table": "billing_entry",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mobile",
+    "table": "billing_payment",
+    "column": "charge_to",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mobile",
+    "table": "booking",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mobile",
+    "table": "booking",
+    "column": "hmo_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mobile",
+    "table": "booking",
+    "column": "charge_to",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mobile",
+    "table": "booking_details",
+    "column": "hmo_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mobile",
+    "table": "booking_details",
+    "column": "charge_to",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mobile",
+    "table": "booking_medicine",
+    "column": "charge_to",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mobile",
+    "table": "company_invoice",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mobile",
+    "table": "discount",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mobile",
+    "table": "doctor_hmo",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mobile",
+    "table": "invoice",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mobile",
+    "table": "lab_test_hmo",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mobile",
+    "table": "payment",
+    "column": "charge_to",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mobile",
+    "table": "transaction",
+    "column": "hmo_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic",
+    "table": "billing",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic",
+    "table": "billing",
+    "column": "charge_to",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic",
+    "table": "billing_entry",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic",
+    "table": "billing_payment",
+    "column": "charge_to",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic",
+    "table": "booking",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic",
+    "table": "booking",
+    "column": "hmo_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic",
+    "table": "booking",
+    "column": "charge_to",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic",
+    "table": "booking_details",
+    "column": "hmo_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic",
+    "table": "booking_details",
+    "column": "charge_to",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic",
+    "table": "booking_medicine",
+    "column": "charge_to",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic",
+    "table": "company_invoice",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic",
+    "table": "discount",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic",
+    "table": "doctor_hmo",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic",
+    "table": "invoice",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic",
+    "table": "lab_test_hmo",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic",
+    "table": "payment",
+    "column": "charge_to",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic",
+    "table": "transaction",
+    "column": "hmo_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mactan",
+    "table": "billing",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mactan",
+    "table": "billing",
+    "column": "charge_to",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mactan",
+    "table": "billing_entry",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mactan",
+    "table": "billing_payment",
+    "column": "charge_to",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mactan",
+    "table": "booking",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mactan",
+    "table": "booking",
+    "column": "hmo_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mactan",
+    "table": "booking",
+    "column": "charge_to",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mactan",
+    "table": "booking_details",
+    "column": "hmo_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mactan",
+    "table": "booking_details",
+    "column": "charge_to",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mactan",
+    "table": "booking_medicine",
+    "column": "charge_to",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mactan",
+    "table": "company_invoice",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mactan",
+    "table": "discount",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mactan",
+    "table": "doctor_hmo",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mactan",
+    "table": "invoice",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mactan",
+    "table": "lab_test_hmo",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mactan",
+    "table": "payment",
+    "column": "charge_to",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mactan",
+    "table": "transaction",
+    "column": "hmo_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_conso",
+    "table": "billing",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_conso",
+    "table": "billing",
+    "column": "charge_to",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_conso",
+    "table": "billing_entry",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_conso",
+    "table": "billing_payment",
+    "column": "charge_to",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_conso",
+    "table": "booking",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_conso",
+    "table": "booking",
+    "column": "hmo_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_conso",
+    "table": "booking",
+    "column": "charge_to",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_conso",
+    "table": "booking_details",
+    "column": "hmo_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_conso",
+    "table": "booking_details",
+    "column": "charge_to",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_conso",
+    "table": "booking_medicine",
+    "column": "charge_to",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_conso",
+    "table": "company_invoice",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_conso",
+    "table": "discount",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_conso",
+    "table": "doctor_hmo",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_conso",
+    "table": "invoice",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_conso",
+    "table": "lab_test_hmo",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_conso",
+    "table": "payment",
+    "column": "charge_to",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_conso",
+    "table": "transaction",
+    "column": "hmo_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mantlewood",
+    "table": "billing",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mantlewood",
+    "table": "billing",
+    "column": "charge_to",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mantlewood",
+    "table": "billing_entry",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mantlewood",
+    "table": "billing_payment",
+    "column": "charge_to",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mantlewood",
+    "table": "booking",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mantlewood",
+    "table": "booking",
+    "column": "hmo_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mantlewood",
+    "table": "booking",
+    "column": "charge_to",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mantlewood",
+    "table": "booking_details",
+    "column": "hmo_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mantlewood",
+    "table": "booking_details",
+    "column": "charge_to",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mantlewood",
+    "table": "booking_medicine",
+    "column": "charge_to",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mantlewood",
+    "table": "company_invoice",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mantlewood",
+    "table": "discount",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mantlewood",
+    "table": "doctor_hmo",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mantlewood",
+    "table": "invoice",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mantlewood",
+    "table": "lab_test_hmo",
+    "column": "company_id",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mantlewood",
+    "table": "payment",
+    "column": "charge_to",
+    "mode": "scalar"
+  },
+  {
+    "schema": "mytemr_diagnostic_mantlewood",
+    "table": "transaction",
+    "column": "hmo_id",
+    "mode": "scalar"
+  }
+]

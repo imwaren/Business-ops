@@ -1,0 +1,6 @@
+branch_id,source,source_id,account_type_id,date,debit,credit,remark,is_migrated,added_by,added_on,is_deleted
+7,journal_entry,1,217,2026-01-21,0.0000,425000.0000,CG.IM ARCHITECTURAL DESIGN SERVICES — 0126-000041,1,0,2026-01-31 23:59:59,0
+7,journal_entry,1,457,2026-01-21,379464.2900,0.0000,CG.IM ARCHITECTURAL DESIGN SERVICES - Vatable: 50% Downpayment for Architectural interior and Engineering Design of CPCI-Mantle Wood PO no. CAPEX-26-0010 — 0126-000041,1,0,2026-01-31 23:59:59,0
+7,journal_entry,1,521,2026-01-21,45535.7100,0.0000,CG.IM ARCHITECTURAL DESIGN SERVICES - Vat: 50% Downpayment for Architectural interior and Engineering Design of CPCI-Mantle Wood PO no. CAPEX-26-0010 — 0126-000041,1,0,2026-01-31 23:59:59,0
+7,journal_entry,2,217,2026-01-22,425000.0000,0.0000,Payment: CG.IM ARCHITECTURAL DESIGN SERVICES — 0126-000041,1,0,2026-01-31 23:59:59,0
+7,journal_entry,3,9,2026-01-22,0.0000,425000.0000,Payment: CG.IM ARCHITECTURAL DESIGN SERVICES — 420718,1,0,2026-01-31 23:59:59,0

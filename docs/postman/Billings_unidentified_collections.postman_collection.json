@@ -1,0 +1,284 @@
+{
+  "info": {
+    "_postman_id": "c8e1f2a3-b4d5-6789-0abc-def123456789",
+    "name": "Billings Unidentified Collections",
+    "description": "# Unidentified Collections API\n\nMaster `billing_payment` can be recorded before Finance knows the payer. `collect_unidentified` stores `charge_to = null` and `is_unidentified = 1` (no `billing_payment_entry`). `identify_collection` later sets `charge_to` and applies the **full** `grand_total` to billing entries, then flips `is_unidentified` to `0`.\n\n## Auth\n- Header: `API-KEY` (required)\n- Query/body: `token`, `requester` (required on all endpoints)\n\n## Schema (mytemr_master)\n```sql\nALTER TABLE billing_payment\n  MODIFY charge_to int(11) DEFAULT NULL,\n  ADD COLUMN is_unidentified tinyint(1) NOT NULL DEFAULT 0 AFTER charge_to;\n```\n\n## GL\n- Unidentified: DR MOP / `account_type_id` (CWT `105-000` if any) / CR **102-250** AR-unidentified, `branch_id = 0`\n- After identify: `gl_clear` then DR MOP / CR **102-113** (same as 4.4–4.6)\n\n## Request body format\n- **GET** — query params\n- **POST** — multipart form-data\n\n`deposit` GL still needs payment entries. Use it after identify, not on an unidentified bank row.\n",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "base_url", "value": "http://localhost/cpci-business-ops-api" },
+    { "key": "api_key", "value": "clinicaRiKOYqlwdTJ-lNedqS0k-it!395!-6ls1JXM7Vcc" },
+    { "key": "token", "value": "{{token}}" },
+    { "key": "requester", "value": "1" },
+    { "key": "billing_payment_id", "value": "1" },
+    { "key": "billing_id", "value": "1" },
+    { "key": "billing_entry_id", "value": "1" },
+    { "key": "charge_to", "value": "2" },
+    { "key": "collection_id", "value": "1" },
+    { "key": "account_type_id", "value": "1" }
+  ],
+  "item": [
+    {
+      "name": "Get collections",
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "url": {
+          "raw": "{{base_url}}/billings/get_collection?token={{token}}&requester={{requester}}&is_unidentified=1",
+          "host": ["{{base_url}}"],
+          "path": ["billings", "get_collection"],
+          "query": [
+            { "key": "token", "value": "{{token}}" },
+            { "key": "requester", "value": "{{requester}}" },
+            { "key": "billing_payment_id", "value": "{{billing_payment_id}}", "disabled": true },
+            { "key": "mop", "value": "bank", "disabled": true, "description": "cash | bank | check | online_payment | others" },
+            { "key": "date", "value": "2026-09-28", "disabled": true },
+            { "key": "charge_to", "value": "{{charge_to}}", "disabled": true },
+            { "key": "is_unidentified", "value": "1", "description": "1 = unidentified only, 0 = identified only" },
+            { "key": "page", "value": "1", "disabled": true },
+            { "key": "data_size", "value": "20", "disabled": true }
+          ]
+        },
+        "description": "## GET `/billings/get_collection`\n\nList master `billing_payment` rows. Unidentified rows have `charge_to_name = null` and empty `entries`.\n\n### Query params\n| Param | Required | Notes |\n|-------|----------|-------|\n| `token` / `requester` | yes | Auth |\n| `billing_payment_id` | no | Filter by id |\n| `mop` | no | `cash` / `bank` / `check` / `online_payment` / `others` |\n| `date` | no | Collection date |\n| `charge_to` | no | Payer company id |\n| `is_unidentified` | no | `1` unidentified only, `0` identified only |\n| `page` / `data_size` | no | Pagination |\n"
+      },
+      "response": [
+        {
+          "name": "Unidentified list",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"size\": 1,\n  \"data\": [\n    {\n      \"id\": 1,\n      \"charge_to\": null,\n      \"is_unidentified\": 1,\n      \"mop\": \"bank\",\n      \"date\": \"2026-09-28\",\n      \"paid_date\": \"2026-09-28\",\n      \"reference_no\": \"BNK-001\",\n      \"grand_total\": \"5000.0000\",\n      \"charge_to_name\": null,\n      \"sub_total\": 0,\n      \"entries\": [],\n      \"deposits\": [],\n      \"deposited_amount\": 0,\n      \"remaining_to_deposit\": 5000\n    }\n  ]\n}"
+        },
+        {
+          "name": "Not Found",
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"error_messages\": [\"No billing_payments found.\"]\n}"
+        }
+      ]
+    },
+    {
+      "name": "Collect unidentified",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "token", "value": "{{token}}", "type": "text" },
+            { "key": "requester", "value": "{{requester}}", "type": "text" },
+            { "key": "mop", "value": "bank", "type": "text", "description": "cash | bank | check | online_payment | others" },
+            { "key": "date", "value": "2026-09-28", "type": "text" },
+            { "key": "paid_date", "value": "2026-09-28", "type": "text", "description": "Defaults to date if omitted" },
+            { "key": "grand_total", "value": "5000.00", "type": "text" },
+            { "key": "reference_no", "value": "BNK-001", "type": "text" },
+            { "key": "bank_name", "value": "BDO", "type": "text" },
+            { "key": "account_type_id", "value": "{{account_type_id}}", "type": "text", "disabled": true },
+            { "key": "check_no", "value": "", "type": "text", "disabled": true },
+            { "key": "check_date", "value": "", "type": "text", "disabled": true },
+            { "key": "wht_amount", "value": "0", "type": "text", "disabled": true },
+            { "key": "remarks", "value": "Bank credit, payer unknown", "type": "text" }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/billings/collect_unidentified",
+          "host": ["{{base_url}}"],
+          "path": ["billings", "collect_unidentified"]
+        },
+        "description": "## POST `/billings/collect_unidentified`\n\nRecord a bank (or other) collection before `charge_to` / billing entries are known.\n\nRequired: `mop`, `date`, `grand_total` (> 0).\n\nOptional: `paid_date` (defaults to `date`), `reference_no`, `check_no`, `check_date`, `bank_name`, `account_type_id`, `wht_amount`, `wht_percent`, `wht_account`, `remarks`.\n\nDo **not** send `charge_to` or `entries`. Server forces `charge_to = null` and `is_unidentified = 1`.\n"
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"billing_payment_id\": 1,\n  \"message\": \"unidentified collection added successfully.\"\n}"
+        },
+        {
+          "name": "charge_to not allowed",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"error_messages\": [\"charge_to must not be sent for an unidentified collection.\"]\n}"
+        },
+        {
+          "name": "entries not allowed",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"error_messages\": [\"entries must not be sent for an unidentified collection.\"]\n}"
+        }
+      ]
+    },
+    {
+      "name": "Identify collection",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "token", "value": "{{token}}", "type": "text" },
+            { "key": "requester", "value": "{{requester}}", "type": "text" },
+            { "key": "billing_payment_id", "value": "{{billing_payment_id}}", "type": "text" },
+            { "key": "charge_to", "value": "{{charge_to}}", "type": "text" },
+            { "key": "entries[0][billing_entry_id]", "value": "{{billing_entry_id}}", "type": "text" },
+            { "key": "entries[0][amount]", "value": "5000.00", "type": "text", "description": "Sum of all entry amounts must equal grand_total" },
+            { "key": "entries[1][billing_entry_id]", "value": "2", "type": "text", "disabled": true },
+            { "key": "entries[1][amount]", "value": "0.00", "type": "text", "disabled": true }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/billings/identify_collection",
+          "host": ["{{base_url}}"],
+          "path": ["billings", "identify_collection"]
+        },
+        "description": "## POST `/billings/identify_collection`\n\nFull apply only. Payment must already be `is_unidentified = 1`.\n\nRequired: `billing_payment_id`, `charge_to`, `entries[]` (`billing_entry_id` + `amount` > 0).\n\nEach entry must belong to a billing with that `charge_to`. `SUM(amount)` must equal the collection `grand_total`.\n\nSets `charge_to`, `is_unidentified = 0`, writes `billing_payment_entry`, and updates billing / entry balances (same as `collect`).\n"
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"billing_payment_id\": 1,\n  \"message\": \"collection identified successfully.\"\n}"
+        },
+        {
+          "name": "Not unidentified",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"error_messages\": [\"collection is not unidentified.\"]\n}"
+        },
+        {
+          "name": "Amount mismatch",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"error_messages\": [\"entry amounts must equal the collection grand_total.\"]\n}"
+        },
+        {
+          "name": "Not Found",
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"error_messages\": [\"collection not found.\"]\n}"
+        }
+      ]
+    },
+    {
+      "name": "Collect (identified)",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "token", "value": "{{token}}", "type": "text" },
+            { "key": "requester", "value": "{{requester}}", "type": "text" },
+            { "key": "billing_id", "value": "{{billing_id}}", "type": "text" },
+            { "key": "charge_to", "value": "{{charge_to}}", "type": "text" },
+            { "key": "mop", "value": "bank", "type": "text" },
+            { "key": "date", "value": "2026-09-28", "type": "text" },
+            { "key": "paid_date", "value": "2026-09-28", "type": "text" },
+            { "key": "grand_total", "value": "5000.00", "type": "text" },
+            { "key": "reference_no", "value": "BNK-002", "type": "text" },
+            { "key": "entries[0][billing_entry_id]", "value": "{{billing_entry_id}}", "type": "text" },
+            { "key": "entries[0][amount]", "value": "5000.00", "type": "text" }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/billings/collect",
+          "host": ["{{base_url}}"],
+          "path": ["billings", "collect"]
+        },
+        "description": "## POST `/billings/collect`\n\nExisting identified collect (payer already known). Requires `billing_id`, `charge_to`, `grand_total` > 0, and `entries`.\n\nBilling must exist for that `charge_to`. Contrast with `collect_unidentified`, which rejects `charge_to` / `entries`.\n"
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"message\": \"collection added successfully.\"\n}"
+        },
+        {
+          "name": "Billing not found",
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"error_messages\": [\"billing that is associated with the charge_to is not found.\"]\n}"
+        }
+      ]
+    },
+    {
+      "name": "Deposit collection",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "token", "value": "{{token}}", "type": "text" },
+            { "key": "requester", "value": "{{requester}}", "type": "text" },
+            { "key": "collection_id", "value": "{{collection_id}}", "type": "text" },
+            { "key": "account_type_id", "value": "{{account_type_id}}", "type": "text" },
+            { "key": "amount", "value": "5000.00", "type": "text" }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/billings/deposit",
+          "host": ["{{base_url}}"],
+          "path": ["billings", "deposit"]
+        },
+        "description": "## POST `/billings/deposit`\n\nDeposit a cash/check collection to an account type. Partial deposits are allowed; sum cannot exceed `grand_total`.\n\nRequired: `collection_id`, `account_type_id`, `amount` > 0.\n\nDeposit GL still splits by `billing_payment_entry` branch. Use **after identify**, not on an unidentified bank row (bank unidentified collections do not need deposit).\n"
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"deposit_id\": 1,\n  \"remaining\": 0,\n  \"message\": \"deposit added successfully.\"\n}"
+        },
+        {
+          "name": "Not Found",
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"error_messages\": [\"collection not found.\"]\n}"
+        }
+      ]
+    }
+  ]
+}

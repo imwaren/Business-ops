@@ -1,0 +1,501 @@
+branch_id,source,source_id,account_type_id,date,debit,credit,remark,is_migrated,added_by,added_on,is_deleted
+\N,journal_entry,14547,57,2026-09-03,626.0000,0.0000,CEBU CARRAGEENAN CORPORATION ( W LANDMARK INC) — CN-7274,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14503,57,2026-09-03,0.0000,780.0000,Virginia Food Inc — CN-7275,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14532,57,2026-09-03,0.0000,780.0000,Virginia Food Inc — C1945,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14548,57,2026-09-03,780.0000,0.0000,Virginia Food Inc — CN-7275,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14504,57,2026-09-03,0.0000,162.0000,"ATOMED CEBU, INC. — CN-7276",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14584,57,2026-09-03,0.0000,162.0000,"ATOMED CEBU, INC. — O4513",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14549,57,2026-09-03,162.0000,0.0000,"ATOMED CEBU, INC. — CN-7276",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14603,57,2026-09-03,0.0000,7938.0000,"Payment: ATOMED CEBU, INC. — O4513",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14505,57,2026-09-03,0.0000,1560.0000,Virginia Food Inc — CN-7277,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14528,57,2026-09-03,0.0000,1560.0000,Virginia Food Inc — C1835,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14550,57,2026-09-03,1560.0000,0.0000,Virginia Food Inc — CN-7277,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14506,57,2026-09-03,0.0000,1560.0000,Virginia Food Inc — CN-7278,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14529,57,2026-09-03,0.0000,1560.0000,Virginia Food Inc — C1864,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14551,57,2026-09-03,1560.0000,0.0000,Virginia Food Inc — CN-7278,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14507,57,2026-09-03,0.0000,1560.0000,Virginia Food Inc — CN-7279,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14531,57,2026-09-03,0.0000,1560.0000,Virginia Food Inc — C1924,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14552,57,2026-09-03,1560.0000,0.0000,Virginia Food Inc — CN-7279,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14508,57,2026-09-03,0.0000,22.0000,"Avega Managed Care, Inc — CN-7280",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14537,57,2026-09-03,0.0000,22.0000,"Avega Managed Care, Inc — C3279",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14553,57,2026-09-03,22.0000,0.0000,"Avega Managed Care, Inc — CN-7280",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14591,57,2026-09-03,0.0000,1078.0000,"Payment: Avega Managed Care, Inc — C3279",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14509,57,2026-09-03,0.0000,1560.0000,Virginia Food Inc — CN-7281,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14530,57,2026-09-03,0.0000,1560.0000,Virginia Food Inc — C1903,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14554,57,2026-09-03,1560.0000,0.0000,Virginia Food Inc — CN-7281,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14510,57,2026-09-03,0.0000,187.5000,"Avega Managed Care, Inc — CN-7282",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14536,57,2026-09-03,0.0000,187.5000,"Avega Managed Care, Inc — C3256",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14555,57,2026-09-03,187.5000,0.0000,"Avega Managed Care, Inc — CN-7282",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14590,57,2026-09-03,0.0000,9187.5000,"Payment: Avega Managed Care, Inc — C3256",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14511,57,2026-09-03,0.0000,153.4000,"Avega Managed Care, Inc — CN-7283",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14535,57,2026-09-03,0.0000,153.4000,"Avega Managed Care, Inc — C3229",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14556,57,2026-09-03,153.4000,0.0000,"Avega Managed Care, Inc — CN-7283",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14589,57,2026-09-03,0.0000,7516.6000,"Payment: Avega Managed Care, Inc — C3229",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14512,57,2026-09-03,0.0000,164.7000,"Avega Managed Care, Inc — CN-7284",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14574,57,2026-09-03,0.0000,164.7000,"Avega Managed Care, Inc — M3015",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14557,57,2026-09-03,164.7000,0.0000,"Avega Managed Care, Inc — CN-7284",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14593,57,2026-09-03,0.0000,8070.3000,"Payment: Avega Managed Care, Inc — M3015",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14513,57,2026-09-03,0.0000,46.0000,"Avega Managed Care, Inc — CN-7285",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14577,57,2026-09-03,0.0000,46.0000,"Avega Managed Care, Inc — M3085",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14558,57,2026-09-03,46.0000,0.0000,"Avega Managed Care, Inc — CN-7285",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14596,57,2026-09-03,0.0000,2254.0000,"Payment: Avega Managed Care, Inc — M3085",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14514,57,2026-09-03,0.0000,68.1000,"Avega Managed Care, Inc — CN-7286",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14581,57,2026-09-03,0.0000,68.1000,"Avega Managed Care, Inc — M3228",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14559,57,2026-09-03,68.1000,0.0000,"Avega Managed Care, Inc — CN-7286",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14600,57,2026-09-03,0.0000,3336.9000,"Payment: Avega Managed Care, Inc — M3228",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14515,57,2026-09-03,0.0000,153.3400,"Avega Managed Care, Inc — CN-7287",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14583,57,2026-09-03,0.0000,153.3400,"Avega Managed Care, Inc — M3264",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14560,57,2026-09-03,153.3400,0.0000,"Avega Managed Care, Inc — CN-7287",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14602,57,2026-09-03,0.0000,7513.6600,"Payment: Avega Managed Care, Inc — M3264",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14516,57,2026-09-03,0.0000,1043.2000,"Avega Managed Care, Inc — CN-7288",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14585,57,2026-09-03,0.0000,1043.2000,"Avega Managed Care, Inc — O4858",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14561,57,2026-09-03,1043.2000,0.0000,"Avega Managed Care, Inc — CN-7288",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14604,57,2026-09-03,0.0000,51116.8000,"Payment: Avega Managed Care, Inc — O4858",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14517,57,2026-09-03,0.0000,182.8400,"Avega Managed Care, Inc — CN-7289",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14582,57,2026-09-03,0.0000,182.8400,"Avega Managed Care, Inc — M3251",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14562,57,2026-09-03,182.8400,0.0000,"Avega Managed Care, Inc — CN-7289",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14601,57,2026-09-03,0.0000,8959.1600,"Payment: Avega Managed Care, Inc — M3251",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14518,57,2026-09-03,0.0000,80.4000,"Avega Managed Care, Inc — CN-7290",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14575,57,2026-09-03,0.0000,80.4000,"Avega Managed Care, Inc — M3061",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14563,57,2026-09-03,80.4000,0.0000,"Avega Managed Care, Inc — CN-7290",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14594,57,2026-09-03,0.0000,3939.6000,"Payment: Avega Managed Care, Inc — M3061",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14519,57,2026-09-03,0.0000,20.0000,Asalus Corporation — CN-7291,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14573,57,2026-09-03,0.0000,20.0000,Asalus Corporation — M2909,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14564,57,2026-09-03,20.0000,0.0000,Asalus Corporation — CN-7291,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14592,57,2026-09-03,0.0000,980.0000,Payment: Asalus Corporation — M2909,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14520,57,2026-09-03,0.0000,10.0000,Asalus Corporation — CN-7292,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14576,57,2026-09-03,0.0000,10.0000,Asalus Corporation — M3076,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14565,57,2026-09-03,10.0000,0.0000,Asalus Corporation — CN-7292,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14595,57,2026-09-03,0.0000,490.0000,Payment: Asalus Corporation — M3076,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14521,57,2026-09-03,0.0000,56.0000,"Avega Managed Care, Inc — CN-7293",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14579,57,2026-09-03,0.0000,56.0000,"Avega Managed Care, Inc — M3159",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14566,57,2026-09-03,56.0000,0.0000,"Avega Managed Care, Inc — CN-7293",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14598,57,2026-09-03,0.0000,2744.0000,"Payment: Avega Managed Care, Inc — M3159",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14522,57,2026-09-03,0.0000,10.0000,"Avega Managed Care, Inc — CN-7294",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14578,57,2026-09-03,0.0000,10.0000,"Avega Managed Care, Inc — M3146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14567,57,2026-09-03,10.0000,0.0000,"Avega Managed Care, Inc — CN-7294",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14523,57,2026-09-03,0.0000,3900.0000,Virginia Food Inc — CN-7295,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14533,57,2026-09-03,0.0000,3900.0000,Virginia Food Inc — C1974,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14568,57,2026-09-03,3900.0000,0.0000,Virginia Food Inc — CN-7295,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14597,57,2026-09-03,0.0000,490.0000,"Payment: Avega Managed Care, Inc — M3146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14524,57,2026-09-03,0.0000,10.0000,"Avega Managed Care, Inc — CN-7296",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14586,57,2026-09-03,0.0000,10.0000,"Avega Managed Care, Inc — O4913",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14569,57,2026-09-03,10.0000,0.0000,"Avega Managed Care, Inc — CN-7296",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14605,57,2026-09-03,0.0000,490.0000,"Payment: Avega Managed Care, Inc — O4913",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14525,57,2026-09-03,0.0000,2735.3400,"Avega Managed Care, Inc — CN-7297",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14587,57,2026-09-03,0.0000,2735.3400,"Avega Managed Care, Inc — O4960",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14570,57,2026-09-03,2735.3400,0.0000,"Avega Managed Care, Inc — CN-7297",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14606,57,2026-09-03,0.0000,134031.6600,"Payment: Avega Managed Care, Inc — O4960",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14526,57,2026-09-03,0.0000,21.9000,"Avega Managed Care, Inc — CN-7298",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14580,57,2026-09-03,0.0000,21.9000,"Avega Managed Care, Inc — M3177",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14571,57,2026-09-03,21.9000,0.0000,"Avega Managed Care, Inc — CN-7298",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14599,57,2026-09-03,0.0000,1073.1000,"Payment: Avega Managed Care, Inc — M3177",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14527,57,2026-09-03,0.0000,103.0000,"Avega Managed Care, Inc — CN-7299",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14534,57,2026-09-03,0.0000,103.0000,"Avega Managed Care, Inc — C2435",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14572,57,2026-09-03,103.0000,0.0000,"Avega Managed Care, Inc — CN-7299",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14588,57,2026-09-03,0.0000,5047.0000,"Payment: Avega Managed Care, Inc — C2435",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14476,605,2026-09-03,383.2000,0.0000,SBC OPEX Remittance charge — #78581,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14478,605,2026-09-03,2877.5600,0.0000,To record Credit Cards bank charge mbtc — #81780,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14468,53,2026-09-03,71422.4000,0.0000,AR-Cebu check deposit BDO OPEX  PHILHEALTHCARE INC. — #78570,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14469,53,2026-09-03,248318.2800,0.0000,AR-Cebu check deposit BDO OPEX AVEGA MANAGED CARE INC. — #78571,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14470,53,2026-09-03,7840.0000,0.0000,AR-Cebu check deposit BDO OPEX Fast Autoworld Philippines Corporation — #78572,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14470,53,2026-09-03,7644.0000,0.0000,AR-Cebu check deposit BDO OPEX Fast Autoworld Philippines Corporation — #78572,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14457,1,2026-09-03,898.8400,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit — #78557,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14458,1,2026-09-03,138630.8000,0.0000,To record receipts sales BPI AR-Cebu ETIQA — #78558,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14459,1,2026-09-03,6472.0000,0.0000,to record cash sales sept 2 — #78559,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14459,1,2026-09-03,36432.0000,0.0000,to record cash sales sept 2 — #78559,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14459,1,2026-09-03,55699.0000,0.0000,to record cash sales sept 2 — #78559,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14474,1,2026-09-03,0.0000,311181.0000,To record payroll payout august 16-31 -Mancom — #78578,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14475,1,2026-09-03,0.0000,130612.4000,"To record Executive Fees for the period august 16-31, 2026 to LH Paragon Inc. — #78579",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14473,49,2026-09-03,463814.4000,0.0000,to record collection received from PHIC PHILHEALTH YAKAP/KONSULTA — #78576,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14471,41,2026-09-03,60849.0000,0.0000,to record cash sales Oakridge SEPT 1 — #78573,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14472,41,2026-09-03,82215.9600,0.0000,To record Credit Cards mbtc — #78575,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14478,41,2026-09-03,0.0000,2877.5600,To record Credit Cards bank charge mbtc — #81780,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14460,5,2026-09-03,4310.0000,0.0000,Cash - Security Bank CPCI - OPEX Gcash — #78560,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14461,5,2026-09-03,8036.0000,0.0000,To record receipts of SBC OPEX Debit Card — #78561,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14462,5,2026-09-03,81662.8400,0.0000,To record receipts of SBC CREDIT CARD — #78562,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14463,5,2026-09-03,26995.0000,0.0000,To record receipts of SBC AR-Terms for ADVANCED MEDICAL ACCESS PHILIPPINES — #78563,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14464,5,2026-09-03,17700.0000,0.0000,To record receipts sales sbc LACSON AND LACSON INSURANCE BROKERS — #78564,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14465,5,2026-09-03,12428.8500,0.0000,To record receipts sales sbc GROUP INC OPERATIONS ACCOUNT — #78565,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14466,5,2026-09-03,588.0000,0.0000,"To record receipts of SBC AR-Terms MEDICARD PHILIPPINES, INC. — #78566",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14467,5,2026-09-03,2293.2000,0.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP — #78568,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14467,5,2026-09-03,1363.1800,0.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP — #78568,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14467,5,2026-09-03,5150.8800,0.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP — #78568,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14476,5,2026-09-03,0.0000,37.8000,SBC OPEX Remittance charge — #78581,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14476,5,2026-09-03,0.0000,345.4000,SBC OPEX Remittance charge — #78581,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14459,13,2026-09-03,0.0000,6472.0000,to record cash sales sept 2 — #78559,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14459,13,2026-09-03,0.0000,36432.0000,to record cash sales sept 2 — #78559,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14459,13,2026-09-03,0.0000,55699.0000,to record cash sales sept 2 — #78559,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14471,13,2026-09-03,0.0000,60849.0000,to record cash sales Oakridge SEPT 1 — #78573,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,13,2026-09-03,53184.0000,0.0000,"Sales Branches September 03, 2026 - Cash Sales - September, 03 — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,13,2026-09-03,36382.0000,0.0000,"Sales Branches September 03, 2026 - Cash Sales - September, 03 — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,13,2026-09-03,48500.0000,0.0000,"Sales Branches September 03, 2026 - Cash Sales - September, 03 — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,13,2026-09-03,14618.0000,0.0000,"Sales Branches September 03, 2026 - Cash Sales - September, 03 — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,1613,2026-09-03,0.0000,70590.0000,"Sales Branches September 03, 2026 - Consultations — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,1613,2026-09-03,0.0000,41800.0000,"Sales Branches September 03, 2026 - Consultations — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,1613,2026-09-03,0.0000,72960.0000,"Sales Branches September 03, 2026 - Consultations — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,1613,2026-09-03,0.0000,2650.0000,"Sales Branches September 03, 2026 - Consultations — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14500,165,2026-09-03,456.7000,0.0000,CEBU CARRAGEENAN CORPORATION ( W LANDMARK INC) - CWT-2% CARRAGEENAN — CN-7272,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14501,165,2026-09-03,432.7000,0.0000,CEBU CARRAGEENAN CORPORATION ( W LANDMARK INC) - CWT-2% CARRAGEENAN — CN-7273,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14510,165,2026-09-03,187.5000,0.0000,"Avega Managed Care, Inc - CWT-2% AVEGA — CN-7282",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14511,165,2026-09-03,153.4000,0.0000,"Avega Managed Care, Inc - CWT-2% AVEGA — CN-7283",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14512,165,2026-09-03,164.7000,0.0000,"Avega Managed Care, Inc - CWT-2% AVEGA — CN-7284",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14513,165,2026-09-03,46.0000,0.0000,"Avega Managed Care, Inc - CWT-2% AVEGA — CN-7285",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14514,165,2026-09-03,68.1000,0.0000,"Avega Managed Care, Inc - CWT-2% AVEGA — CN-7286",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14515,165,2026-09-03,153.3400,0.0000,"Avega Managed Care, Inc - CWT-2% AVEGA — CN-7287",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14516,165,2026-09-03,1043.2000,0.0000,"Avega Managed Care, Inc - CWT-2% AVEGA — CN-7288",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14518,165,2026-09-03,80.4000,0.0000,"Avega Managed Care, Inc - CWT-2% AVEGA — CN-7290",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14519,165,2026-09-03,20.0000,0.0000,Asalus Corporation - CWT-2% AVEGA — CN-7291,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14520,165,2026-09-03,10.0000,0.0000,Asalus Corporation - CWT-2% AVEGA — CN-7292,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14521,165,2026-09-03,56.0000,0.0000,"Avega Managed Care, Inc - CWT-2% AVEGA — CN-7293",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14522,165,2026-09-03,10.0000,0.0000,"Avega Managed Care, Inc - CWT-2% AVEGA — CN-7294",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14524,165,2026-09-03,10.0000,0.0000,"Avega Managed Care, Inc - CWT-2% AVEGA — CN-7296",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14526,165,2026-09-03,21.9000,0.0000,"Avega Managed Care, Inc - CWT-2% AVEGA — CN-7298",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14527,165,2026-09-03,103.0000,0.0000,"Avega Managed Care, Inc - CWT-2% AVEGA — CN-7299",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14498,165,2026-09-03,543.0000,0.0000,CEBU CARRAGEENAN CORPORATION ( W LANDMARK INC) - CWT-2% CARRAGEENAN — CN-7270,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14499,165,2026-09-03,456.7000,0.0000,CEBU CARRAGEENAN CORPORATION ( W LANDMARK INC) - CWT-2% CARRAGEENAN — CN-7271,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14502,165,2026-09-03,626.0000,0.0000,CEBU CARRAGEENAN CORPORATION ( W LANDMARK INC) - CWT-2% CARRAGEENAN — CN-7274,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14504,165,2026-09-03,162.0000,0.0000,"ATOMED CEBU, INC. - CWT-2% ATOMED — CN-7276",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14508,165,2026-09-03,22.0000,0.0000,"Avega Managed Care, Inc - CWT-2% AVEGA — CN-7280",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14517,165,2026-09-03,182.8400,0.0000,"Avega Managed Care, Inc - CWT-2% AVEGA — CN-7289",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14525,165,2026-09-03,2735.3400,0.0000,"Avega Managed Care, Inc - CWT-2% AVEGA — CN-7297",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,1625,2026-09-03,7898.0000,0.0000,"Sales Branches September 03, 2026 - Sales Discounts - September, 03 — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,1625,2026-09-03,3687.0000,0.0000,"Sales Branches September 03, 2026 - Sales Discounts - September, 03 — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,1625,2026-09-03,8085.0000,0.0000,"Sales Branches September 03, 2026 - Sales Discounts - September, 03 — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,1625,2026-09-03,1847.0000,0.0000,"Sales Branches September 03, 2026 - Sales Discounts - September, 03 — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14495,245,2026-09-03,0.0000,2768.1000,LUCAS EMIR SHEIKH SATURINAS - 5% EWT on: Payment for Doctor's PF (Consultations & Cardiosource) for the month of August 2026 — RFP No.# 6959-9,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14494,245,2026-09-03,0.0000,6594.7500,"ADRIANN NINO LONGAKIT - 5% EWT on Payment for Doctor's PF (Consultation, Procedure & Cardiosource) for the month of August 2026 — RFP No.# 6959-8",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14493,245,2026-09-03,0.0000,2730.6000,RANDOLF DYLAN CABAHUG - 10% EWT on: Payment for Doctor's PF (Consultations) for the month of August 2026 — RFP No.# 6959-7,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14492,245,2026-09-03,0.0000,8064.9000,WYNROSE BITOON - 5% EWT on: Payment for Doctor's PF (Consultations) for the month of August 2026 — RFP No.# 6959-6,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14491,245,2026-09-03,0.0000,1312.2900,APRIL CANDY KONG - 5% EWT on: Payment for Doctor's PF (Procedure) for the Month of August 2026 — RFP No.# 6959-5,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14490,245,2026-09-03,0.0000,283.2200,MARY MAMETTE NOVAL - 5% EWT on: Payment for Doctor's PF (Consultations & Procedure) for the month of August 2026 — RFP No.# 6959-4,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14488,245,2026-09-03,0.0000,3591.0000,MARI CHRIS MAHINAY - 5% EWT on Payment for Doctor's PF (Consultations) for the month of August 2026 — RFP No.# 6959-2,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14487,245,2026-09-03,0.0000,1037.8000,Alessandra Kamille Mallari - 10% EWT on: Payment for Doctor's PF (Procedure) for the Month of August 2026 — RFP No.# 6959-16,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14486,245,2026-09-03,0.0000,2553.8600,JEE DOMAEL - 5% EWT on: Payment for Doctor's PF (Procedure) for the Month of August 2026 — RFP No.# 6959-15,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14485,245,2026-09-03,0.0000,35.0000,SEAN SINDO - 10% EWT on Payment for Doctor's PF (Reading) for the month of August 2026 — RFP No.# 6959-14,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14484,245,2026-09-03,0.0000,9886.9800,JONATHAN SARTE - 10% EWT on: Payment for Doctor's PF (Procedure) for the Month of July 2026 — RFP No.# 6959-13,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14483,245,2026-09-03,0.0000,3661.0400,GEMELSON CADIZ - 10% EWT on Payment for Doctor's PF (Procedure) for the Month of August 2026 — RFP No.# 6959-12,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14482,245,2026-09-03,0.0000,2626.2000,ELPIDIO MADRIO - 5% EWT on: Payment for Doctor's PF (Consultations) for the month of August 2026 — RFP No.# 6959-11,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14481,245,2026-09-03,0.0000,3014.1000,Joyce Gayle Santos - 5% EWT on Payment for Doctor's PF (Consultations) for the month of August 2026 — RFP No.# 6959-10,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14480,245,2026-09-03,0.0000,7537.0500,MA. MARGARITA TINGSON - 5% EWT on Payment for Doctor's PF (Consultations) for the month of August 2026 — RFP No.# 6959-1,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14489,245,2026-09-03,0.0000,5225.4100,MELINDA ANUTA - 5% EWT on: Payment for Doctor's PF (Consultations & Procedure) for the month of August 2026 — RFP No.# 6959-3,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14479,245,2026-09-03,0.0000,241.0700,AO BIOMED & INDUSTRIAL MARKETING - 1% EWT on Payment for Lab Supplies - Syringe 10cc | OPEX-26-0456 SI no. A5351 — 0926-001077,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,1633,2026-09-03,0.0000,17625.0000,"Sales Branches September 03, 2026 - Health services — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,1633,2026-09-03,0.0000,9600.0000,"Sales Branches September 03, 2026 - Health services — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,1633,2026-09-03,0.0000,6200.0000,"Sales Branches September 03, 2026 - Health services — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,1633,2026-09-03,0.0000,300.0000,"Sales Branches September 03, 2026 - Health services — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14497,721,2026-09-03,78735.3300,0.0000,"Bank of the Philippine Islands - Payment for Microsoft Subscription (G173468239, G174946266, G177796871, G178109644, G178325581, G178710476) — RFP No.# 6972",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14479,197,2026-09-03,2892.8600,0.0000,AO BIOMED & INDUSTRIAL MARKETING - Vat: Payment for Lab Supplies - Syringe 10cc | OPEX-26-0456 SI no. A5351 — 0926-001077,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14497,809,2026-09-03,6299.0700,0.0000,Bank of the Philippine Islands - Payment for Xero Subscription for the month of August & July 2026 — RFP No.# 6972,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14479,141,2026-09-03,24107.1400,0.0000,AO BIOMED & INDUSTRIAL MARKETING - Vatable: Payment for Lab Supplies - Syringe 10cc | OPEX-26-0456 SI no. A5351 — 0926-001077,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,1645,2026-09-03,0.0000,73245.0000,"Sales Branches September 03, 2026 - Laboratory/Diagnostics — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,1645,2026-09-03,0.0000,51595.0000,"Sales Branches September 03, 2026 - Laboratory/Diagnostics — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,1645,2026-09-03,0.0000,27948.0000,"Sales Branches September 03, 2026 - Laboratory/Diagnostics — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,1645,2026-09-03,0.0000,18760.0000,"Sales Branches September 03, 2026 - Laboratory/Diagnostics — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,1645,2026-09-03,0.0000,22060.0000,"Sales Branches September 03, 2026 - Laboratory/Diagnostics — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,1645,2026-09-03,0.0000,8360.0000,"Sales Branches September 03, 2026 - Laboratory/Diagnostics — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,1645,2026-09-03,0.0000,38100.0000,"Sales Branches September 03, 2026 - Laboratory/Diagnostics — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,1645,2026-09-03,0.0000,59270.0000,"Sales Branches September 03, 2026 - Laboratory/Diagnostics — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,1645,2026-09-03,0.0000,35936.0000,"Sales Branches September 03, 2026 - Laboratory/Diagnostics — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,1645,2026-09-03,0.0000,15750.0000,"Sales Branches September 03, 2026 - Laboratory/Diagnostics — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,1645,2026-09-03,0.0000,1810.0000,"Sales Branches September 03, 2026 - Laboratory/Diagnostics — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,1645,2026-09-03,0.0000,950.0000,"Sales Branches September 03, 2026 - Laboratory/Diagnostics — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,1657,2026-09-03,0.0000,7640.0000,"Sales Branches September 03, 2026 - Laboratory/Diagnostics - Send Outs — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,1657,2026-09-03,0.0000,11905.0000,"Sales Branches September 03, 2026 - Laboratory/Diagnostics - Send Outs — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,1657,2026-09-03,0.0000,39970.0000,"Sales Branches September 03, 2026 - Laboratory/Diagnostics - Send Outs — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14497,369,2026-09-03,108000.0000,0.0000,Bank of the Philippine Islands - Payment for Nel Mar Auto Works (Glass Tint Installation) — RFP No.# 6972,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14495,1193,2026-09-03,55062.0000,0.0000,LUCAS EMIR SHEIKH SATURINAS - Nonvat: Payment for Doctor's PF (Consultation) for the Month of August 2026 — RFP No.# 6959-9,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14494,1193,2026-09-03,74655.0000,0.0000,ADRIANN NINO LONGAKIT - Non-vat: Payment for Doctor's PF (Consultation) for the month of August 2026 — RFP No.# 6959-8,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14493,1193,2026-09-03,27306.0000,0.0000,RANDOLF DYLAN CABAHUG - Nonvat: Payment for Doctor's PF (Consultations) for the month of August 2026 — RFP No.# 6959-7,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14492,1193,2026-09-03,161298.0000,0.0000,WYNROSE BITOON - Nonvat: Payment for Doctor's PF (Consultations) for the month of August 2026 — RFP No.# 6959-6,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14490,1193,2026-09-03,5157.0000,0.0000,MARY MAMETTE NOVAL - Nonvat: Payment for Doctor's PF (Consultations) for the month of August 2026 — RFP No.# 6959-4,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14488,1193,2026-09-03,71820.0000,0.0000,MARI CHRIS MAHINAY - Non-Vat: Payment for Doctor's PF (Consultations) for the month of August 2026 — RFP No.# 6959-2,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14482,1193,2026-09-03,52524.0000,0.0000,ELPIDIO MADRIO - Nonvat: Payment for Doctor's PF (Consultations) for the month of August 2026 — RFP No.# 6959-11,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14481,1193,2026-09-03,60282.0000,0.0000,Joyce Gayle Santos - Non-vat: Payment for Doctor's PF (Consultations) for the month of August 2026 — RFP No.# 6959-10,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14480,1193,2026-09-03,150741.0000,0.0000,MA. MARGARITA TINGSON - Non-Vat: Payment for Doctor's PF (Consultations) for the month of August 2026 — RFP No.# 6959-1,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14489,1193,2026-09-03,97931.2500,0.0000,MELINDA ANUTA - Vat: Payment for Doctor's PF (Consultation ) for the Month of August 2026 — RFP No.# 6959-3,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14489,1193,2026-09-03,11751.7500,0.0000,MELINDA ANUTA - Vat Portion: Payment for Doctor's PF (Consultation ) for the Month of August 2026 — RFP No.# 6959-3,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14495,1197,2026-09-03,300.0000,0.0000,LUCAS EMIR SHEIKH SATURINAS - Nonvat:  Payment for Doctor's PF (Cardiosource) for the Month of August 2026 — RFP No.# 6959-9,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14494,1197,2026-09-03,57240.0000,0.0000,ADRIANN NINO LONGAKIT - Non-vat: Payment for Doctor's PF (Procedure & Cardiosource) for the month of August 2026 — RFP No.# 6959-8,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14491,1197,2026-09-03,26245.8000,0.0000,APRIL CANDY KONG - Nonvat:  Payment for Doctor's PF (Procedure) for the Month of August 2026 — RFP No.# 6959-5,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14490,1197,2026-09-03,507.5000,0.0000,MARY MAMETTE NOVAL - Nonvat:  Payment for Doctor's PF (Procedure) for the month of August 2026 — RFP No.# 6959-4,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14487,1197,2026-09-03,10378.0000,0.0000,Alessandra Kamille Mallari - Nonvat: Payment for Doctor's PF (Procedure) for the Month of August 2026 — RFP No.# 6959-16,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14486,1197,2026-09-03,51077.2500,0.0000,JEE DOMAEL - Nonvat: Payment for Doctor's PF (Procedure) for the Month of August 2026 — RFP No.# 6959-15,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14485,1197,2026-09-03,350.0000,0.0000,SEAN SINDO - Non-vat: Payment for Doctor's PF (Reading) for the month of August 2026 — RFP No.# 6959-14,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14484,1197,2026-09-03,98869.8000,0.0000,JONATHAN SARTE - Nonvat: Payment for Doctor's PF (Procedure) for the Month of July 2026 — RFP No.# 6959-13,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14483,1197,2026-09-03,36610.4000,0.0000,GEMELSON CADIZ - Non-Vat: Payment for Doctor's PF (Procedure) for the Month of August 2026 — RFP No.# 6959-12,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14489,1197,2026-09-03,6576.8500,0.0000,MELINDA ANUTA - Nonvat: Payment for Doctor's PF (Procedure) for the Month of August 2026 — RFP No.# 6959-3,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14496,1201,2026-09-03,7200.0000,0.0000,"KIMBERLY JOYCE MANUBAG - Payment of PCP Reliever for Sep 1-2, 2026 — RFP No.# 6970",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,1713,2026-09-03,0.0000,17800.0000,"Sales Branches September 03, 2026 - Third-Party Partnership — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,1713,2026-09-03,0.0000,8400.0000,"Sales Branches September 03, 2026 - Third-Party Partnership — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,1713,2026-09-03,0.0000,13100.0000,"Sales Branches September 03, 2026 - Third-Party Partnership — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14459,1777,2026-09-03,0.0000,98603.0000,to record cash sales sept 2 — #78559,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14459,1777,2026-09-03,98603.0000,0.0000,to record cash sales sept 2 — #78559,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14476,1777,2026-09-03,383.2000,0.0000,SBC OPEX Remittance charge — #78581,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14476,1777,2026-09-03,0.0000,383.2000,SBC OPEX Remittance charge — #78581,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,1777,2026-09-03,0.0000,674324.0000,"Sales Branches September 03, 2026 - Cash Sales - September, 03 — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14477,1777,2026-09-03,674324.0000,0.0000,"Sales Branches September 03, 2026 - Laboratory/Diagnostics — #79146",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14478,1777,2026-09-03,0.0000,2877.5600,To record Credit Cards bank charge mbtc — #81780,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14478,1777,2026-09-03,2877.5600,0.0000,To record Credit Cards bank charge mbtc — #81780,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14497,953,2026-09-03,7600.0000,0.0000,Bank of the Philippine Islands - Payment for Maayo Hotel Room Accomodation — RFP No.# 6972,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14703,217,2026-09-04,3600.0000,0.0000,"Payment: BELCINA, IRNANI JULIUS — RFP No.# 6940",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14702,217,2026-09-04,2000.0000,0.0000,Payment: GABRIEL VINCENT ZOSA — RFP No.# 6939,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14691,217,2026-09-04,7200.0000,0.0000,Payment: KIMBERLY JOYCE MANUBAG — RFP No.# 6923,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14695,217,2026-09-04,3000.0000,0.0000,Payment: JONAS CLYDE ALMOCERA — RFP No.# 6929,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14698,217,2026-09-04,2000.0000,0.0000,Payment: DAN CRISPOLO TUAZON — RFP No.# 6935,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14717,217,2026-09-04,9107.0800,0.0000,Payment: STEFANIE B. BERNAS — RFP No.# 6960,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14689,217,2026-09-04,7200.0000,0.0000,Payment: ELAINE AUSTRIA — RFP No.# 6919,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14692,217,2026-09-04,12800.0000,0.0000,Payment: ALISSAH SIGAYA — RFP No.# 6924,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14697,217,2026-09-04,7200.0000,0.0000,Payment: Rhevy Jerald Vistal — RFP No.# 6934,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14701,217,2026-09-04,3600.0000,0.0000,Payment: CHRISTINE D. PODIOTAN — RFP No.# 6938,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14706,217,2026-09-04,3600.0000,0.0000,Payment: KAYE DOMINIQUE UY — RFP No.# 6943,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14711,217,2026-09-04,7200.0000,0.0000,Payment: MIKHAELA ALESNA — RFP No.# 6948,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14712,217,2026-09-04,700.0000,0.0000,Payment: AXEL WALLY BORDARIO — RFP No.# 6950,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14722,217,2026-09-04,2310.0000,0.0000,Payment: ARBIE AGUSTIN REDONA JR. — RFP No.# 6966,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14688,217,2026-09-04,55000.0000,0.0000,"Payment: MYT SOFTDEV SOLUTIONS, INC. — RFP No.# 6909",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14682,217,2026-09-04,3600.0000,0.0000,Payment: AUDREY MAE DINGAL — RFP No.# 6901,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14685,217,2026-09-04,3600.0000,0.0000,Payment: JUSTIN ANDRE MAHINAY — RFP No.# 6905,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14686,217,2026-09-04,4800.0000,0.0000,Payment: JUSTIN ANDRE MAHINAY — RFP No.# 6907,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14694,217,2026-09-04,7200.0000,0.0000,Payment: IRNANI JULIUS BELCIÑA — RFP No.# 6927,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14690,217,2026-09-04,8253.0000,0.0000,Payment: Angeline Muñoz — RFP No.# 6921,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14696,217,2026-09-04,3750.0000,0.0000,"Payment: YBAÑEZ, KAPPORET QUAY — RFP No.# 6933",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14700,217,2026-09-04,3600.0000,0.0000,Payment: CATHERINE NAOKET — RFP No.# 6937,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14705,217,2026-09-04,7200.0000,0.0000,Payment: Jade Cloie Tul-id — RFP No.# 6942,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14707,217,2026-09-04,3600.0000,0.0000,Payment: LLOYD DELINA — RFP No.# 6944,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14708,217,2026-09-04,3600.0000,0.0000,Payment: LLOYD DELINA — RFP No.# 6945,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14710,217,2026-09-04,7200.0000,0.0000,Payment: Gerardine P. Paculanang — RFP No.# 6947,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14716,217,2026-09-04,7003.0000,0.0000,"Payment: BEBITA, CHERYL ESTRELLA — RFP No.# 6954",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14719,217,2026-09-04,7200.0000,0.0000,Payment: KAYE DOMINIQUE UY — RFP No.# 6962,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14720,217,2026-09-04,16400.0000,0.0000,Payment: JHOANNA KRISSIAH MAYO — RFP No.# 6963,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14723,217,2026-09-04,900.0000,0.0000,"Payment: SABERON, THERESA ROSE — RFP No.# 6969",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14683,217,2026-09-04,3600.0000,0.0000,"Payment: BELCINA, IRNANI JULIUS — RFP No.# 6903",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14684,217,2026-09-04,2400.0000,0.0000,Payment: CARLYLE F. ABINUMAN — RFP No.# 6904,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14693,217,2026-09-04,3600.0000,0.0000,"Payment: BONTIA, MARGAUX KATE — RFP No.# 6925",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14699,217,2026-09-04,1600.0000,0.0000,Payment: Dan Samuel Burgos — RFP No.# 6936,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14709,217,2026-09-04,10800.0000,0.0000,Payment: Kim Marie Capilitan — RFP No.# 6946,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14721,217,2026-09-04,2700.0000,0.0000,"Payment: SALAMANES,FLORIANN — RFP No.# 6964",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14718,217,2026-09-04,9901.5000,0.0000,Payment: VIRLEN T. MAHINAY — RFP No.# 6961,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14651,217,2026-09-04,1783.9300,0.0000,Payment: DG'S INK TRADING — 0626-000713,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14674,217,2026-09-04,33696.4300,0.0000,Payment: DG'S INK TRADING — 0826-000879,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14652,217,2026-09-04,44598.2100,0.0000,Payment: MEDGISTIX CORPORATION — 0626-000722,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14656,217,2026-09-04,19271.3800,0.0000,Payment: MEDGISTIX CORPORATION — 0626-000726,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14653,217,2026-09-04,36796.5000,0.0000,Payment: MEDGISTIX CORPORATION — 0626-000723,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14654,217,2026-09-04,7865.1400,0.0000,Payment: MEDGISTIX CORPORATION — 0626-000724,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14655,217,2026-09-04,11797.7100,0.0000,Payment: MEDGISTIX CORPORATION — 0626-000725,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14663,217,2026-09-04,99373.7400,0.0000,Payment: MEDGISTIX CORPORATION — 0726-000784,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14660,217,2026-09-04,7433.0400,0.0000,Payment: MEDGISTIX CORPORATION — 0726-000779,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14661,217,2026-09-04,67392.8600,0.0000,Payment: MEDGISTIX CORPORATION — 0726-000781,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14662,217,2026-09-04,71843.7600,0.0000,Payment: MEDGISTIX CORPORATION — 0726-000782,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14670,217,2026-09-04,980.0000,0.0000,Payment: ENA COMMERCIAL AND PRINTING SERVICES — 0726-000808,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14657,217,2026-09-04,99151.5000,0.0000,Payment: ENA COMMERCIAL AND PRINTING SERVICES — 0726-000735,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14659,217,2026-09-04,4950.0000,0.0000,Payment: TONERPRO TRADING — 0726-000758,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14668,217,2026-09-04,3564.0000,0.0000,Payment: TONERPRO TRADING — 0726-000798,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14658,217,2026-09-04,14850.0000,0.0000,Payment: TONERPRO TRADING — 0726-000757,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14669,217,2026-09-04,27225.0000,0.0000,Payment: TONERPRO TRADING — 0726-000805,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14671,217,2026-09-04,7425.0000,0.0000,Payment: TONERPRO TRADING — 0726-000833,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14672,217,2026-09-04,17820.0000,0.0000,Payment: TONERPRO TRADING — 0826-000851,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14673,217,2026-09-04,7425.0000,0.0000,Payment: TONERPRO TRADING — 0826-000855,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14664,217,2026-09-04,999.0000,0.0000,Payment: TRULABORATORIES CORPORATION — 0726-000791,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14666,217,2026-09-04,4202.1400,0.0000,Payment: TRULABORATORIES CORPORATION — 0726-000793,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14665,217,2026-09-04,388.5000,0.0000,Payment: TRULABORATORIES CORPORATION — 0726-000792,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14667,217,2026-09-04,5454.8600,0.0000,Payment: TRULABORATORIES CORPORATION — 0726-000794,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14679,217,2026-09-04,51422.9400,0.0000,Payment: VALERO PAMATMAT DEVELOPMENT CORP. — RFP No.# 6748,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14680,217,2026-09-04,33665.4700,0.0000,Payment: VALERO PAMATMAT DEVELOPMENT CORP. — RFP No.# 6749,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14704,217,2026-09-04,20315.4300,0.0000,Payment: EASY SERVICES INC. — RFP No.# 6941,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14681,217,2026-09-04,16170.0000,0.0000,Payment: SKY MEDICAL SUPPLY — RFP No.# 6842,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14675,217,2026-09-04,15758.0400,0.0000,Payment: ZRNBIOCORE INC — 0826-000925,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14676,217,2026-09-04,100990.1800,0.0000,Payment: ZRNBIOCORE INC — 0826-000926,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14677,217,2026-09-04,86718.7500,0.0000,Payment: ZRNBIOCORE INC — 0826-000985,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14678,217,2026-09-04,89214.2700,0.0000,Payment: ZRNBIOCORE INC — 0826-000986,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14687,217,2026-09-04,21502.5300,0.0000,Payment: KATHLEEN ANN F. ABAQUITA — RFP No.# 6908,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14715,217,2026-09-04,30380.0000,0.0000,Payment: Far East Noble House Inc. — RFP No.# 6953,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14725,217,2026-09-04,5757.0000,0.0000,Payment: JOHN MARL M. ABAPO — RFP No.# 6975,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14713,217,2026-09-04,53500.0000,0.0000,"Payment: Golden Great Value Properties, Inc. — RFP No.# 6951",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14714,217,2026-09-04,53232.0000,0.0000,Payment: Pacific Mall Corporation — RFP No.# 6952,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14724,217,2026-09-04,7200.0000,0.0000,Payment: KIMBERLY JOYCE MANUBAG — RFP No.# 6970,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14647,217,2026-09-04,0.0000,33969.2000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6999,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14647,217,2026-09-04,679.3800,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6999,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14646,217,2026-09-04,0.0000,50012.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6997,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14646,217,2026-09-04,1000.2400,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6997,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14645,217,2026-09-04,0.0000,18337.6000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6996,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14645,217,2026-09-04,366.7500,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6996,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14644,217,2026-09-04,0.0000,23807.4000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6995,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14644,217,2026-09-04,476.1500,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6995,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14643,217,2026-09-04,0.0000,59049.8000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6994,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14643,217,2026-09-04,1181.0000,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6994,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14642,217,2026-09-04,0.0000,24931.2000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6993,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14642,217,2026-09-04,498.6200,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6993,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14641,217,2026-09-04,0.0000,18263.6000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6992,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14641,217,2026-09-04,365.2700,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6992,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14640,217,2026-09-04,0.0000,38974.6000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6991,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14640,217,2026-09-04,779.4900,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6991,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14639,217,2026-09-04,0.0000,42007.3500,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6990,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14639,217,2026-09-04,840.1500,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6990,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14638,217,2026-09-04,0.0000,40503.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6989,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14638,217,2026-09-04,810.0600,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6989,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14637,217,2026-09-04,0.0000,25028.2000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6988,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14637,217,2026-09-04,500.5600,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6988,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14636,217,2026-09-04,0.0000,34878.6000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6987,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14636,217,2026-09-04,697.5700,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6987,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14635,217,2026-09-04,0.0000,47475.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6986,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14635,217,2026-09-04,949.5000,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6986,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14634,217,2026-09-04,0.0000,25086.8000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6985,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14634,217,2026-09-04,501.7400,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6985,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14633,217,2026-09-04,0.0000,38928.2000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6984,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14633,217,2026-09-04,778.5600,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6984,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14632,217,2026-09-04,0.0000,27117.6000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6983,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14632,217,2026-09-04,542.3500,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6983,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14631,217,2026-09-04,0.0000,31885.4000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6982,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14631,217,2026-09-04,637.7100,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6982,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14630,217,2026-09-04,0.0000,48747.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6981,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14630,217,2026-09-04,974.9400,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6981,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14629,217,2026-09-04,0.0000,28038.4000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6980,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14629,217,2026-09-04,560.7700,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6980,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14628,217,2026-09-04,0.0000,39410.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6979,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14628,217,2026-09-04,788.2000,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6979,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14627,217,2026-09-04,0.0000,23330.6000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6978,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14627,217,2026-09-04,466.6100,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6978,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14626,217,2026-09-04,0.0000,43211.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6977,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14626,217,2026-09-04,864.2200,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6977,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14625,217,2026-09-04,0.0000,21163.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6976,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14625,217,2026-09-04,423.2600,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6976,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14624,217,2026-09-04,0.0000,13994.6000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6973,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14624,217,2026-09-04,279.8900,0.0000,CHONG HUA HOSPITAL MANDAUE — RFP No.# 6973,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14650,217,2026-09-04,0.0000,8207.0900,Lh Paragon Inc — RFP No.# 7006,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14648,217,2026-09-04,0.0000,6000.0000,June Suzette O. Rabin — RFP No.# 7000,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14623,217,2026-09-04,0.0000,9900.0000,ADULT AND CHILD EYEWEAR CENTER — RFP No.# 6971,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14649,217,2026-09-04,0.0000,8975.7100,Lh Paragon Inc — RFP No.# 7005,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14622,217,2026-09-04,0.0000,26709.3700,MEDGISTIX CORPORATION — 0926-001050,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14620,217,2026-09-04,0.0000,239343.7500,MEDGISTIX CORPORATION — 0926-001032,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14621,217,2026-09-04,0.0000,17056.3400,MEDGISTIX CORPORATION — 0926-001033,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14618,237,2026-09-04,2370389.5000,0.0000,to record Payroll payout sept 4 — #78596,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14618,237,2026-09-04,237618.0400,0.0000,to record Payroll payout sept 4 — #78596,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14609,77,2026-09-04,0.0000,2540.0000,Cash - Security Bank CPCI - OPEX Gcash — #78584,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14619,77,2026-09-04,15979.0000,0.0000,"Sales Branches September 04, 2026 - Gcash Sales - September, 04 — #79145",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14619,77,2026-09-04,4960.0000,0.0000,"Sales Branches September 04, 2026 - Gcash Sales - September, 04 — #79145",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14619,77,2026-09-04,5927.0000,0.0000,"Sales Branches September 04, 2026 - Gcash Sales - September, 04 — #79145",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14952,61,2026-09-04,588.0000,0.0000,"Payment: Cooperative Health Management Federation — PD: JULY 17,2025",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14949,61,2026-09-04,61965.4000,0.0000,"Payment: Generali Life Assurance Philippines Inc — PD: DECEMBER 17, 2025",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14950,61,2026-09-04,224.0000,0.0000,"Payment: Lh Foundation, Inc — PD: JANUARY 6",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14950,61,2026-09-04,14179.0000,0.0000,"Payment: Lh Foundation, Inc — PD: JANUARY 6",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14954,61,2026-09-04,1156.4000,0.0000,Payment: Medicard Philippines Inc — PD: MAY 26,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14953,61,2026-09-04,3165.4000,0.0000,Payment: Medicard Philippines Inc — PD: MAY 20,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14953,61,2026-09-04,19805.8000,0.0000,Payment: Medicard Philippines Inc — PD: MAY 20,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14956,61,2026-09-04,7214.9600,0.0000,Payment: Medicard Philippines Inc — PD: MAY 7,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14956,61,2026-09-04,2783.2000,0.0000,Payment: Medicard Philippines Inc — PD: MAY 7,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14957,61,2026-09-04,9084.6000,0.0000,Payment: Medicard Philippines Inc — PD: MAY 8,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14956,61,2026-09-04,3449.6000,0.0000,Payment: Medicard Philippines Inc — PD: MAY 7,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14956,61,2026-09-04,1548.4000,0.0000,Payment: Medicard Philippines Inc — PD: MAY 7,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14955,61,2026-09-04,1308.3000,0.0000,Payment: Medicard Philippines Inc — PD: MAY 5,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14955,61,2026-09-04,1176.0000,0.0000,Payment: Medicard Philippines Inc — PD: MAY 5,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14955,61,2026-09-04,3021.5400,0.0000,Payment: Medicard Philippines Inc — PD: MAY 5,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14948,61,2026-09-04,17336.2000,0.0000,Payment: Medicard Philippines Inc — PD: APRIL 30,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14948,61,2026-09-04,19511.8000,0.0000,Payment: Medicard Philippines Inc — PD: APRIL 30,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14947,61,2026-09-04,3196.5600,0.0000,Payment: Medicard Philippines Inc — PD: APRIL 14,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14947,61,2026-09-04,294.0000,0.0000,Payment: Medicard Philippines Inc — PD: APRIL 14,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14947,61,2026-09-04,6290.6200,0.0000,Payment: Medicard Philippines Inc — PD: APRIL 14,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14947,61,2026-09-04,4542.6900,0.0000,Payment: Medicard Philippines Inc — PD: APRIL 14,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14916,61,2026-09-04,14569.5600,0.0000,Payment: Medicard Philippines Inc — DP: MAR 31,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14916,61,2026-09-04,6013.6700,0.0000,Payment: Medicard Philippines Inc — DP: MAR 31,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14916,61,2026-09-04,23691.3000,0.0000,Payment: Medicard Philippines Inc — DP: MAR 31,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14915,61,2026-09-04,10422.5000,0.0000,Payment: Medicard Philippines Inc — DP: MAR 30,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14915,61,2026-09-04,49046.1600,0.0000,Payment: Medicard Philippines Inc — DP: MAR 30,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14915,61,2026-09-04,2246.3600,0.0000,Payment: Medicard Philippines Inc — DP: MAR 30,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14915,61,2026-09-04,7022.6800,0.0000,Payment: Medicard Philippines Inc — DP: MAR 30,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14915,61,2026-09-04,11823.7000,0.0000,Payment: Medicard Philippines Inc — DP: MAR 30,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14915,61,2026-09-04,12026.7600,0.0000,Payment: Medicard Philippines Inc — DP: MAR 30,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14930,61,2026-09-04,14778.4000,0.0000,Payment: Life & Health Hmp Inc — O24317,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14931,61,2026-09-04,1568.0000,0.0000,Payment: Life & Health Hmp Inc — O24414,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14924,61,2026-09-04,3528.0000,0.0000,Payment: Life & Health Hmp Inc — MO-1678-1,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14926,61,2026-09-04,113876.0000,0.0000,Payment: Life & Health Hmp Inc — MO-3286,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14927,61,2026-09-04,151860.8000,0.0000,Payment: Life & Health Hmp Inc — MO-3734,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14923,61,2026-09-04,8085.0000,0.0000,Payment: Life & Health Hmp Inc — MO-1085,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14922,61,2026-09-04,980.0000,0.0000,Payment: Life & Health Hmp Inc — M3287,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14610,61,2026-09-04,0.0000,5845.0000,To record receipts of SBC OPEX Debit Card — #78585,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14611,61,2026-09-04,0.0000,33561.8800,To record receipts of SBC CREDIT CARD — #78586,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14612,61,2026-09-04,0.0000,67500.0000,To record receipts of SBC AR-Terms for LH FOUNDATION INC — #78587,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14613,61,2026-09-04,0.0000,4949.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP — #78588,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14614,61,2026-09-04,0.0000,397092.9000,AR-Cebu BDO OPEX Life and Health HMP Inc — #78591,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14616,61,2026-09-04,0.0000,56648.0000,To record Credit Cards mbtc — #78594,1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14619,61,2026-09-04,31438.0000,0.0000,"Sales Branches September 04, 2026 - Credit Card Sales - September, 04 — #79145",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14619,61,2026-09-04,6275.0000,0.0000,"Sales Branches September 04, 2026 - Credit Card Sales - September, 04 — #79145",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14619,61,2026-09-04,6014.0000,0.0000,"Sales Branches September 04, 2026 - Credit Card Sales - September, 04 — #79145",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14619,61,2026-09-04,2228.0000,0.0000,"Sales Branches September 04, 2026 - Credit Card Sales - September, 04 — #79145",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14619,61,2026-09-04,9530.0000,0.0000,"Sales Branches September 04, 2026 - Debit Card Sales - September, 04 — #79145",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14844,65,2026-09-04,0.0000,1750.0000,"Avega Managed Care, Inc - CAPARAL, EDITO TAMAYO | 09/01/2026 |Avega Managed Care, Inc| 1750- — M4098",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14844,65,2026-09-04,0.0000,2530.0000,"Avega Managed Care, Inc - CAPARAL, GINA ESTRERA | 09/01/2026 |Avega Managed Care, Inc| 2530- — M4098",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14845,65,2026-09-04,0.0000,1450.0000,"Cooperative Health Management Federation - NOYNAY, AIDA CANETE | 09/01/2026 |Cooperative Health Management Federation| 1450- — M4099",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14845,65,2026-09-04,0.0000,300.0000,"Cooperative Health Management Federation - NOYNAY, AIDA CANETE | 09/01/2026 |FICCO| 300- — M4099",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14845,65,2026-09-04,0.0000,6050.0000,"Cooperative Health Management Federation - NOYNAY, AIDA CANETE | 09/01/2026 |FICCO| 6050- — M4099",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14845,65,2026-09-04,0.0000,300.0000,"Cooperative Health Management Federation - NOYNAY, NESTOR GODINEZ | 09/01/2026 |FICCO| 300- — M4099",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14845,65,2026-09-04,0.0000,300.0000,"Cooperative Health Management Federation - BABANTO, ROGEN PIKIT | 09/01/2026 |Cooperative Health Management Federation| 300- — M4099",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14846,65,2026-09-04,0.0000,500.0000,"Etiqa Life and General Assurance Phillipines, Inc - CO, ARACELI INOC | 09/01/2026 |Etiqa Life and General Assurance Phillipines, Inc| 500- — M4100",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14847,65,2026-09-04,0.0000,2755.0000,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) - ALQUIZA, MARICAR ONTONG | 09/01/2026 |INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS)| 2755- — M4101",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14872,65,2026-09-04,0.0000,6050.0000,"VETERANS EVALUATION SERVICES (VES)-A MAXIMUS COMPANY - JACKSON JR., TURNER JAMES | 09/01/2026 |VETERANS EVALUATION SERVICES (VES)-A MAXIMUS COMPANY| 750- — O20149",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14848,65,2026-09-04,0.0000,500.0000,"Insular Healthcare Inc - AUGUSTO, LENETH MASAPEQUENA | 09/01/2026 |FOUNDEVER PHILS. CORPORATION & FOUNDEVER ASIA, INC.| 500- — M4102",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14848,65,2026-09-04,0.0000,500.0000,"Insular Healthcare Inc - BANIEL, HENRIETTE BELVESTRE | 09/01/2026 |Insular Healthcare Inc| 500- — M4102",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14848,65,2026-09-04,0.0000,500.0000,"Insular Healthcare Inc - BATIANCILA, JOHNREY SUSON | 09/01/2026 |CONCENTRIX DAKSH SERVICES PHILIPPINES CORPORATION| 500- — M4102",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14848,65,2026-09-04,0.0000,4100.0000,"Insular Healthcare Inc - CARREON, SHANTAL KAY TANGCALAGAN | 09/01/2026 |CONCENTRIX DAKSH SERVICES PHILIPPINES CORPORATION| 4100- — M4102",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14848,65,2026-09-04,0.0000,500.0000,"Insular Healthcare Inc - CASANES, MICHELLE ABASOLO | 09/01/2026 |Insular Healthcare Inc| 500- — M4102",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14848,65,2026-09-04,0.0000,500.0000,"Insular Healthcare Inc - CASQUEJO, SANDRA MAE PACALDO | 09/01/2026 |Insular Healthcare Inc| 500- — M4102",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14848,65,2026-09-04,0.0000,500.0000,"Insular Healthcare Inc - CONCHAS, ASHLEY MARIE MARANGA | 09/01/2026 |Insular Healthcare Inc| 500- — M4102",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14848,65,2026-09-04,0.0000,500.0000,"Insular Healthcare Inc - DOMINISE, GEMMA GALANO | 09/01/2026 |Insular Healthcare Inc| 500- — M4102",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14848,65,2026-09-04,0.0000,7570.0000,"Insular Healthcare Inc - DOMINISE, GEMMA GALANO | 09/01/2026 |Insular Healthcare Inc| 7570- — M4102",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14848,65,2026-09-04,0.0000,4330.0000,"Insular Healthcare Inc - DOMINISE, JOEMAR CA-ACO | 09/01/2026 |Insular Healthcare Inc| 4330- — M4102",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14848,65,2026-09-04,0.0000,6300.0000,"Insular Healthcare Inc - DOMINISE, JOEMAR CA-ACO | 09/01/2026 |Insular Healthcare Inc| 6300- — M4102",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14848,65,2026-09-04,0.0000,500.0000,"Insular Healthcare Inc - FLORES, ANA MARIE ZAMORA | 09/01/2026 |CONCENTRIX DAKSH SERVICES PHILIPPINES CORPORATION| 500- — M4102",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14848,65,2026-09-04,0.0000,500.0000,"Insular Healthcare Inc - GENITA, AMYRIE SELYSE MONTERO | 09/01/2026 |CONCENTRIX DAKSH SERVICES PHILIPPINES CORPORATION| 500- — M4102",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14848,65,2026-09-04,0.0000,500.0000,"Insular Healthcare Inc - GENITA, BLAKE ASHER MONTERO | 09/01/2026 |CONCENTRIX DAKSH SERVICES PHILIPPINES CORPORATION| 500- — M4102",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14848,65,2026-09-04,0.0000,3180.0000,"Insular Healthcare Inc - GENITA, MELOU GLEAN LAPINED | 09/01/2026 |CONCENTRIX DAKSH SERVICES PHILIPPINES CORPORATION| 3180- — M4102",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14848,65,2026-09-04,0.0000,270.0000,"Insular Healthcare Inc - INOSANTO, LORAINE JOY CAÑETE | 09/01/2026 |FOUNDEVER PHILS. CORPORATION & FOUNDEVER ASIA, INC.| 270- — M4102",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14848,65,2026-09-04,0.0000,500.0000,"Insular Healthcare Inc - INOSANTO, LORAINE JOY CAÑETE | 09/01/2026 |FOUNDEVER PHILS. CORPORATION & FOUNDEVER ASIA, INC.| 500- — M4102",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14848,65,2026-09-04,0.0000,500.0000,"Insular Healthcare Inc - JUCDONG, MILVIE GRACE . | 09/01/2026 |Insular Healthcare Inc| 500- — M4102",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14848,65,2026-09-04,0.0000,840.0000,"Insular Healthcare Inc - LUCHAVEZ, MA. ELOISA FLORES | 09/01/2026 |Insular Healthcare Inc| 840- — M4102",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14848,65,2026-09-04,0.0000,500.0000,"Insular Healthcare Inc - MONTERO, RECHEL CARMELOTES | 09/01/2026 |CONCENTRIX DAKSH SERVICES PHILIPPINES CORPORATION| 500- — M4102",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14848,65,2026-09-04,0.0000,6000.0000,"Insular Healthcare Inc - MONTERO, RECHEL CARMELOTES | 09/01/2026 |Insular Healthcare Inc| 6000- — M4102",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14848,65,2026-09-04,0.0000,450.0000,"Insular Healthcare Inc - OMPAD, JOEMAR KYLO UTRERA | 09/01/2026 |Insular Healthcare Inc| 450- — M4102",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14848,65,2026-09-04,0.0000,500.0000,"Insular Healthcare Inc - OMPAD, JOEMAR KYLO UTRERA | 09/01/2026 |Insular Healthcare Inc| 500- — M4102",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14848,65,2026-09-04,0.0000,9150.0000,"Insular Healthcare Inc - PALOMPON, GENNA DEKIT | 09/01/2026 |Insular Healthcare Inc| 4950- — M4102",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14848,65,2026-09-04,0.0000,500.0000,"Insular Healthcare Inc - REMOLADOR, TEOFANES JR. TABEROS | 09/01/2026 |Insular Healthcare Inc| 500- — M4102",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14848,65,2026-09-04,0.0000,2270.0000,"Insular Healthcare Inc - REMOLADOR, TEOFANES JR. TABEROS | 09/01/2026 |Insular Healthcare Inc| 2270- — M4102",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14848,65,2026-09-04,0.0000,900.0000,"Insular Healthcare Inc - SIATON, NELIA MONTESEVEN | 09/01/2026 |COTIVITI PHILS.| 900- — M4102",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14848,65,2026-09-04,0.0000,1450.0000,"Insular Healthcare Inc - SUMALINOG, ANELYNN DAÑO | 09/01/2026 |CONCENTRIX DAKSH SERVICES PHILIPPINES CORPORATION| 1450- — M4102",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14848,65,2026-09-04,0.0000,500.0000,"Insular Healthcare Inc - SUMALINOG, ANELYNN DAÑO | 09/01/2026 |CONCENTRIX DAKSH SERVICES PHILIPPINES CORPORATION| 500- — M4102",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14848,65,2026-09-04,0.0000,500.0000,"Insular Healthcare Inc - TORRES, NIKKA SHATARA VENTURA | 09/01/2026 |Insular Healthcare Inc| 500- — M4102",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14848,65,2026-09-04,0.0000,450.0000,"Insular Healthcare Inc - VIAGEDOR, CELINA CONCHA GULIP | 09/01/2026 |CONCENTRIX DAKSH SERVICES PHILIPPINES CORPORATION| 450- — M4102",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14848,65,2026-09-04,0.0000,500.0000,"Insular Healthcare Inc - YAUN, DENISE MARIE ROSQUILLO | 09/01/2026 |CONCENTRIX DAKSH SERVICES PHILIPPINES CORPORATION| 500- — M4102",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14819,65,2026-09-04,0.0000,300.0000,"Health Plan Philippines, Inc - ALVARADO, JESSEL OCHEA | 09/01/2026 | HEALTH PLAN PHILIPPINES, INC | 300- — C3908",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14819,65,2026-09-04,0.0000,660.0000,"Health Plan Philippines, Inc - ALVARADO, JESSEL OCHEA | 09/01/2026 | HEALTH PLAN PHILIPPINES, INC | 660- — C3908",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14849,65,2026-09-04,0.0000,500.0000,"Asalus Corporation - BARIMBAO, FLAIRGENN CAJOTOR | 09/01/2026 |Asalus Corporation| 500- — M4103",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14849,65,2026-09-04,0.0000,500.0000,"Asalus Corporation - CABAHUG, CRISTIANO TIMOTHY MOREÑO | 09/01/2026 |Asalus Corporation| 500- — M4103",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14849,65,2026-09-04,0.0000,337.0000,"Asalus Corporation - CABAHUG, CRISTIANO TIMOTHY MOREÑO | 09/01/2026 |Asalus Corporation| 337- — M4103",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14849,65,2026-09-04,0.0000,1750.0000,"Asalus Corporation - CABAHUG, RODALYN ROMERO | 09/01/2026 |Asalus Corporation| 1750- — M4103",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14849,65,2026-09-04,0.0000,3460.0000,"Asalus Corporation - CABIGAS, KAREN FAITH JUSTINIANI | 09/01/2026 |Asalus Corporation| 3460- — M4103",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14849,65,2026-09-04,0.0000,8087.0000,"Asalus Corporation - DAÑO, KATHRINA PAQUIBOT | 09/01/2026 |RESULT MANILA, INC.| 6612- — M4103",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14849,65,2026-09-04,0.0000,500.0000,"Asalus Corporation - MAGADAN, MARY CLARETH SINGCULAN | 09/01/2026 |Asalus Corporation| 500- — M4103",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14849,65,2026-09-04,0.0000,500.0000,"Asalus Corporation - MANTUHAC, REYLHIZA ARCELO | 09/01/2026 |Asalus Corporation| 500- — M4103",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14849,65,2026-09-04,0.0000,187.0000,"Asalus Corporation - MANTUHAC, REYLHIZA ARCELO | 09/01/2026 |Asalus Corporation| 187- — M4103",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14849,65,2026-09-04,0.0000,500.0000,"Asalus Corporation - PANILAGA, LORETA CUTAMORA | 09/01/2026 |TERADYNE PHILIPPINES LIMITED| 500- — M4103",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14849,65,2026-09-04,0.0000,500.0000,"Asalus Corporation - PIOQUINTO, KHLOE GEM GILLAMAC | 09/01/2026 |Asalus Corporation| 500- — M4103",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14849,65,2026-09-04,0.0000,500.0000,"Asalus Corporation - REVILLA, AYEISHA KION MINOZA | 09/01/2026 |Asalus Corporation| 500- — M4103",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14849,65,2026-09-04,0.0000,500.0000,"Asalus Corporation - SAAVEDRA, ERNEST JR DRAGON | 09/01/2026 |Asalus Corporation| 500- — M4103",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14849,65,2026-09-04,0.0000,187.0000,"Asalus Corporation - SAAVEDRA, ERNEST JR DRAGON | 09/01/2026 |Asalus Corporation| 187- — M4103",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14849,65,2026-09-04,0.0000,500.0000,"Asalus Corporation - SIACOR, IVY MAUREEN SAPIO | 09/01/2026 |Asalus Corporation| 500- — M4103",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14850,65,2026-09-04,0.0000,400.0000,"Life & Health Hmp Inc - AGBANG, VINCENT JAMES ANDILAO | 09/01/2026 |Life & Health Hmp Inc| 400- — M4104",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14850,65,2026-09-04,0.0000,450.0000,"Life & Health Hmp Inc - AGBANG, VINCENT JAMES ANDILAO | 09/01/2026 |Life & Health Hmp Inc| 450- — M4104",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14850,65,2026-09-04,0.0000,400.0000,"Life & Health Hmp Inc - BARING, GENELDA LABAJO | 09/01/2026 |Life & Health Hmp Inc| 400- — M4104",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14850,65,2026-09-04,0.0000,1450.0000,"Life & Health Hmp Inc - BERNALES, DENISE ISABELLA BUENVIAJE | 09/01/2026 |Life & Health Hmp Inc| 1450- — M4104",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14850,65,2026-09-04,0.0000,270.0000,"Life & Health Hmp Inc - COLINARES, SARRY UGBINADA | 09/01/2026 |Life & Health Hmp Inc| 270- — M4104",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14850,65,2026-09-04,0.0000,400.0000,"Life & Health Hmp Inc - DE CASTRO, CHERRY LYN LAPASARAN | 09/01/2026 |Life & Health Hmp Inc| 400- — M4104",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14850,65,2026-09-04,0.0000,20000.0000,"Life & Health Hmp Inc - EYAS, PETER PAUL SILAWAN | 09/01/2026 |Life & Health Hmp Inc| 20000- — M4104",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14850,65,2026-09-04,0.0000,2500.0000,"Life & Health Hmp Inc - FLOR, HILARIA RECAMADAS | 09/01/2026 |Life & Health Hmp Inc| 2500- — M4104",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14850,65,2026-09-04,0.0000,400.0000,"Life & Health Hmp Inc - FLORES, ALLIAH CABARLES | 09/01/2026 |Life & Health Hmp Inc| 400- — M4104",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14850,65,2026-09-04,0.0000,3860.0000,"Life & Health Hmp Inc - FLORES, ALLIAH CABARLES | 09/01/2026 |Life & Health Hmp Inc| 3860- — M4104",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14850,65,2026-09-04,0.0000,1040.0000,"Life & Health Hmp Inc - GESTOPA, ALLIANNA MHAY INCABO | 09/01/2026 |Life & Health Hmp Inc| 1040- — M4104",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14850,65,2026-09-04,0.0000,180.0000,"Life & Health Hmp Inc - INDOG, RECA MICAH MADRIGAL | 09/01/2026 |Life & Health Hmp Inc| 180- — M4104",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14850,65,2026-09-04,0.0000,2400.0000,"Life & Health Hmp Inc - LAROGA, MILDRED LUPIAN | 09/01/2026 |Life & Health Hmp Inc| 2400- — M4104",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14850,65,2026-09-04,0.0000,400.0000,"Life & Health Hmp Inc - MANSUETO, FRANCIS MONDEJAR | 09/01/2026 |Life & Health Hmp Inc| 400- — M4104",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14850,65,2026-09-04,0.0000,400.0000,"Life & Health Hmp Inc - MONTEBON, MARIA JANETH BRAJEN | 09/01/2026 |Life & Health Hmp Inc| 400- — M4104",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14850,65,2026-09-04,0.0000,1150.0000,"Life & Health Hmp Inc - MONTEBON, MARIA JANETH BRAJEN | 09/01/2026 |Life & Health Hmp Inc| 1150- — M4104",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14850,65,2026-09-04,0.0000,180.0000,"Life & Health Hmp Inc - NADELA, BERNADITH OMBAO | 09/01/2026 |Life & Health Hmp Inc| 180- — M4104",1,0,2026-09-30 23:59:59,0
+\N,journal_entry,14850,65,2026-09-04,0.0000,400.0000,"Life & Health Hmp Inc - PAGOBO, DESSEIN ALMADEN | 09/01/2026 |Life & Health Hmp Inc| 400- — M4104",1,0,2026-09-30 23:59:59,0

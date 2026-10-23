@@ -1,0 +1,22 @@
+-- Restore exact prior definitions after removing release helpers/hooks. Retain additive schema.
+DROP TRIGGER IF EXISTS trg_gl_shared_purchase_request_ai;
+DROP TRIGGER IF EXISTS trg_gl_shared_purchase_request_au;
+DROP TRIGGER IF EXISTS trg_gl_shared_purchase_order_ai;
+DROP TRIGGER IF EXISTS trg_gl_shared_purchase_order_au;
+DROP TRIGGER IF EXISTS trg_gl_shared_receipt_note_ai;
+DROP TRIGGER IF EXISTS trg_gl_shared_receipt_note_au;
+DROP TRIGGER IF EXISTS trg_gl_shared_purchase_request_item_ai;
+DROP TRIGGER IF EXISTS trg_gl_shared_purchase_request_item_au;
+DROP TRIGGER IF EXISTS trg_gl_shared_purchase_request_item_ad;
+DROP TRIGGER IF EXISTS trg_gl_shared_purchase_order_item_ai;
+DROP TRIGGER IF EXISTS trg_gl_shared_purchase_order_item_au;
+DROP TRIGGER IF EXISTS trg_gl_shared_purchase_order_item_ad;
+DROP TRIGGER IF EXISTS trg_gl_shared_receipt_note_item_ai;
+DROP TRIGGER IF EXISTS trg_gl_shared_receipt_note_item_au;
+DROP TRIGGER IF EXISTS trg_gl_shared_receipt_note_item_ad;
+DROP PROCEDURE IF EXISTS gl_shared_post_purchase_request;
+DROP PROCEDURE IF EXISTS gl_shared_post_purchase_order;
+DROP PROCEDURE IF EXISTS gl_shared_post_receipt_note;
+DROP FUNCTION IF EXISTS gl_rn_vat_type;
+DROP FUNCTION IF EXISTS gl_rn_net;
+DROP FUNCTION IF EXISTS gl_rn_vat_amt;

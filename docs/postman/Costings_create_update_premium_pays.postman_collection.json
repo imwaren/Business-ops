@@ -1,0 +1,162 @@
+{
+  "info": {
+    "_postman_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "name": "Costings - Manpower Premium Pays",
+    "description": "# Costings create / update — `manpower_costs[].premium_pays[]`\n\nDocuments the nested **premium_pays** array under each **manpower_costs** item for Costings create and update.\n\n## Auth\nAll requests expect `token` and `requester` in the JSON body (MYT CI4 API style).\n\n## Nested payload\nEach `manpower_costs` item may include `premium_pays[]` with:\n- `premium_pay`\n- `premium_pay_amount`\n- `premium_hrs`\n- `ingress_hrs`\n- `total_premium_pay`\n- `total`\n\nServer-owned FKs (`costing_id`, `costing_manpower_cost_id`) are set by the API — do not send them as client-owned fields.\n\nLegacy flat premium fields on the parent `manpower_costs` row (`premium_pay`, `premium_pay_amount`, etc.) remain supported alongside the nested `premium_pays` collection.\n\n## GET note\n`GET /costings/get` returns each manpower cost with nested `premium_pays` loaded from `costing_manpower_cost_premium_pay`.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost/cpci-business-ops-api/public"
+    },
+    {
+      "key": "token",
+      "value": "{{token}}"
+    },
+    {
+      "key": "requester",
+      "value": "1"
+    }
+  ],
+  "item": [
+    {
+      "name": "Create Costing (with premium_pays)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": {{requester}},\n  \"request_id\": 100,\n  \"manpower_costs\": [\n    {\n      \"description\": \"RN - Day Shift\",\n      \"shift_no\": 1,\n      \"basic_pay\": 800,\n      \"premium_pay\": 0,\n      \"premium_pay_amount\": 0,\n      \"premium_hrs\": 0,\n      \"ingress_hrs\": 0,\n      \"total_premium_pay\": 0,\n      \"total\": 800,\n      \"premium_pays\": [\n        {\n          \"premium_pay\": 1.25,\n          \"premium_pay_amount\": 100,\n          \"premium_hrs\": 2,\n          \"ingress_hrs\": 0,\n          \"total_premium_pay\": 250,\n          \"total\": 250\n        },\n        {\n          \"premium_pay\": 1.5,\n          \"premium_pay_amount\": 120,\n          \"premium_hrs\": 1,\n          \"ingress_hrs\": 0,\n          \"total_premium_pay\": 180,\n          \"total\": 180\n        }\n      ]\n    }\n  ]\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/costings/create",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "costings",
+            "create"
+          ]
+        },
+        "description": "## POST `/costings/create`\n\nCreates a costing and optionally inserts nested **premium_pays** under each **manpower_costs** item.\n\n### Required\n- `token`, `requester`\n- `request_id` — required; create fails without it\n\n### `manpower_costs` (optional)\nIf missing or empty, manpower costs are skipped.\n\nParent fields (empty string → null for description, `0` for numerics):\n| Field | Type |\n|-------|------|\n| `description` | string\\|null |\n| `shift_no` | number |\n| `basic_pay` | number |\n| `premium_pay` | number |\n| `premium_pay_amount` | number |\n| `premium_hrs` | number |\n| `ingress_hrs` | number |\n| `total_premium_pay` | number |\n| `total` | number |\n\n### `premium_pays` (optional, nested)\nInserted only when the key is present, is an array, and `count > 0`.\n\n| Field | Type | Notes |\n|-------|------|-------|\n| `premium_pay` | number | Required on each item when present |\n| `premium_pay_amount` | number | Required on each item when present |\n| `premium_hrs` | number | Required on each item when present |\n| `ingress_hrs` | number | Required on each item when present |\n| `total_premium_pay` | number | Required on each item when present |\n| `total` | number | Required on each item when present |\n\nDo **not** send `id`, `costing_id`, or `costing_manpower_cost_id` on create — FKs are set server-side after the parent manpower cost is inserted.\n\n### Success response\nReturns `costing_id` and a success message (does not echo nested arrays)."
+      },
+      "response": [
+        {
+          "name": "Success",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": {{requester}},\n  \"request_id\": 100,\n  \"manpower_costs\": [\n    {\n      \"description\": \"RN - Day Shift\",\n      \"shift_no\": 1,\n      \"basic_pay\": 800,\n      \"premium_pay\": 0,\n      \"premium_pay_amount\": 0,\n      \"premium_hrs\": 0,\n      \"ingress_hrs\": 0,\n      \"total_premium_pay\": 0,\n      \"total\": 800,\n      \"premium_pays\": [\n        {\n          \"premium_pay\": 1.25,\n          \"premium_pay_amount\": 100,\n          \"premium_hrs\": 2,\n          \"ingress_hrs\": 0,\n          \"total_premium_pay\": 250,\n          \"total\": 250\n        }\n      ]\n    }\n  ]\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/costings/create",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "costings",
+                "create"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"costing_id\": 501,\n  \"message\": \"costing added successfully.\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Update Costing (with premium_pays)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": {{requester}},\n  \"costing_id\": 501,\n  \"manpower_costs\": [\n    {\n      \"id\": 12,\n      \"description\": \"RN - Day Shift\",\n      \"shift_no\": 1,\n      \"basic_pay\": 850,\n      \"premium_pay\": 0,\n      \"premium_pay_amount\": 0,\n      \"premium_hrs\": 0,\n      \"ingress_hrs\": 0,\n      \"total_premium_pay\": 0,\n      \"total\": 850,\n      \"premium_pays\": [\n        {\n          \"id\": 30,\n          \"premium_pay\": 1.25,\n          \"premium_pay_amount\": 100,\n          \"premium_hrs\": 3,\n          \"ingress_hrs\": 0,\n          \"total_premium_pay\": 375,\n          \"total\": 375\n        },\n        {\n          \"premium_pay\": 1.5,\n          \"premium_pay_amount\": 120,\n          \"premium_hrs\": 1,\n          \"ingress_hrs\": 0,\n          \"total_premium_pay\": 180,\n          \"total\": 180\n        }\n      ]\n    },\n    {\n      \"description\": \"RN - Night Shift (new)\",\n      \"shift_no\": 2,\n      \"basic_pay\": 900,\n      \"premium_pay\": 0,\n      \"premium_pay_amount\": 0,\n      \"premium_hrs\": 0,\n      \"ingress_hrs\": 0,\n      \"total_premium_pay\": 0,\n      \"total\": 900,\n      \"premium_pays\": [\n        {\n          \"premium_pay\": 1.3,\n          \"premium_pay_amount\": 110,\n          \"premium_hrs\": 2,\n          \"ingress_hrs\": 0,\n          \"total_premium_pay\": 286,\n          \"total\": 286\n        }\n      ]\n    }\n  ]\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/costings/update",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "costings",
+            "update"
+          ]
+        },
+        "description": "## POST `/costings/update`\n\nUpdates a costing and syncs nested **premium_pays** under each **manpower_costs** item.\n\n### Required\n- `token`, `requester`\n- `costing_id`\n\n### `manpower_costs` sync\n- Item with `id` → update existing row\n- Item without `id` → insert new row\n- Existing rows whose `id` is omitted from the payload → soft-deleted\n- If `manpower_costs` key is missing → existing manpower costs are soft-deleted (payload IDs treated as empty)\n\nParent fields same as create (`description`, `shift_no`, `basic_pay`, flat premium fields, `total`).\n\n### `premium_pays` sync (per manpower cost)\nSync runs **only when** `premium_pays` is present, is an array, and `count > 0`:\n- Item with `id` → update\n- Item without `id` → insert\n- Existing premium pay rows for that manpower cost whose `id` is omitted → soft-deleted\n\n**Important:** If `premium_pays` is omitted or is an empty array on update, existing premium pay rows are **left unchanged** (no clear-out).\n\n| Field | Type | Notes |\n|-------|------|-------|\n| `id` | number | Optional; present = update, absent = insert |\n| `premium_pay` | number | Expected on each item |\n| `premium_pay_amount` | number | Expected on each item |\n| `premium_hrs` | number | Expected on each item |\n| `ingress_hrs` | number | Expected on each item |\n| `total_premium_pay` | number | Expected on each item |\n| `total` | number | Expected on each item |\n\nDo **not** send `costing_id` or `costing_manpower_cost_id` on nested items — set server-side.\n\n### Success response\nReturns `costing_id` and a success message (does not echo nested arrays). Use `GET /costings/get` to read back nested `premium_pays`."
+      },
+      "response": [
+        {
+          "name": "Success",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": {{requester}},\n  \"costing_id\": 501,\n  \"manpower_costs\": [\n    {\n      \"id\": 12,\n      \"description\": \"RN - Day Shift\",\n      \"shift_no\": 1,\n      \"basic_pay\": 850,\n      \"premium_pay\": 0,\n      \"premium_pay_amount\": 0,\n      \"premium_hrs\": 0,\n      \"ingress_hrs\": 0,\n      \"total_premium_pay\": 0,\n      \"total\": 850,\n      \"premium_pays\": [\n        {\n          \"id\": 30,\n          \"premium_pay\": 1.25,\n          \"premium_pay_amount\": 100,\n          \"premium_hrs\": 3,\n          \"ingress_hrs\": 0,\n          \"total_premium_pay\": 375,\n          \"total\": 375\n        }\n      ]\n    }\n  ]\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/costings/update",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "costings",
+                "update"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"costing_id\": 501,\n  \"message\": \"costing updated successfully.\"\n}"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+branch_id,source,source_id,account_type_id,date,debit,credit,remark,is_migrated,added_by,added_on,is_deleted
+4,journal_entry,141346,261,2026-04-30,0.0000,3687.5000,"CPCI Payroll for April 16-30, 2026 - Consolacion Medical Affairs — #58433",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141347,261,2026-04-30,0.0000,1225.0000,"CPCI Payroll for APRIL 16-30, 2026 - Consolacion - Finance — #58435",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141348,261,2026-04-30,0.0000,13200.0000,"CPCI Payroll for April 16-30, 2026 - Consolacion Operations — #58436",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141353,1217,2026-04-30,43032.0000,0.0000,To accrue TPP cost for the month of 2026 April — #58613,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141346,1777,2026-04-30,0.0000,92920.4500,"CPCI Payroll for April 16-30, 2026 - Consolacion Medical Affairs — #58433",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141346,1777,2026-04-30,92920.4500,0.0000,"CPCI Payroll for April 16-30, 2026 - Consolacion Medical Affairs — #58433",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141347,1777,2026-04-30,0.0000,23536.9900,"CPCI Payroll for APRIL 16-30, 2026 - Consolacion - Finance — #58435",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141347,1777,2026-04-30,23536.9900,0.0000,"CPCI Payroll for APRIL 16-30, 2026 - Consolacion - Finance — #58435",1,0,2026-04-30 23:59:59,0
+4,journal_entry,141352,1777,2026-04-30,0.0000,792967.9100,To accrue Doctors PF Consolacion for the period April — #58596,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141360,945,2026-04-30,223.2900,0.0000,Angeline Muñoz - Vatable: Gasoline (Replenishment) — RFP No.# 5822,1,0,2026-04-30 23:59:59,0
+4,journal_entry,141360,945,2026-04-30,1525.0000,0.0000,Angeline Muñoz - Nondeductible: Transportation expenses (Replenishment) — RFP No.# 5822,1,0,2026-04-30 23:59:59,0

@@ -1,0 +1,32 @@
+{
+  "mytemr_diagnostic_mobile_uat": {
+    "cutover": "0\t0\t2026-10-08 21:51:10",
+    "historical_fingerprints": "unchanged",
+    "definitions": "match",
+    "legacy_table": "retained"
+  },
+  "mytemr_diagnostic_uat": {
+    "cutover": "8\t11\t2026-10-08 21:51:10",
+    "historical_fingerprints": "unchanged",
+    "definitions": "match",
+    "legacy_table": "retained"
+  },
+  "mytemr_diagnostic_mactan_uat": {
+    "cutover": "9\t2\t2026-10-08 21:51:11",
+    "historical_fingerprints": "unchanged",
+    "definitions": "match",
+    "legacy_table": "retained"
+  },
+  "mytemr_diagnostic_conso_uat": {
+    "cutover": "2\t2\t2026-10-08 21:51:11",
+    "historical_fingerprints": "unchanged",
+    "definitions": "match",
+    "legacy_table": "retained"
+  },
+  "mytemr_diagnostic_mantlewood_uat": {
+    "cutover": "0\t0\t2026-10-08 21:51:12",
+    "historical_fingerprints": "unchanged",
+    "definitions": "match",
+    "legacy_table": "retained"
+  }
+}

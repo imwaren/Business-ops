@@ -1,0 +1,31 @@
+Action,Description,Debit,Credit,Source table,Trigger / notes,Posted?
+1.1 Goods Received & AP Recognition,Approved RN item. Net inventory + Input VAT if vatable; CR AP at gross (net+VAT). vat_in uses stored vat or amount/1.12. Exempt/zero-rated: no VAT. Empty vat_type: no VAT unless stored vat.,104-030 or item/RN account; 106-000 or item.vat_account_type_id,201-111 (gross),receipt_note_item,gl_post_receipt_note / trg_gl_receipt_note_* / trg_gl_receipt_note_item_*,Yes
+1.1 APV of Receipt Note (WHT),If APV.type=receipt_note and withholding_tax>0: DR AP CR 202-120. Does not credit AP again.,201-111 (withholding_tax),202-120,accounts_payable_voucher,gl_post_apv extra inserts when type=receipt_note,Yes
+1.1 PO/PR stand-in,Approved PO/PR inventory debit only if no later approved RN/PO,104-030 or item account,—,purchase_order_item / purchase_request_item,gl_post_purchase_order / gl_post_purchase_request,Yes
+1.2 Supplier Payment,DR AP CR payment bank/cash,201-111,payment.account_type_id or 100-004,accounts_payable_voucher_payment_detail,gl_post_apv_payment_detail,Yes
+1.3 / 6.3 Return,returned adjustment: DR 201-111 CR inventory. Other adj: item expense / 500-205. No chosen-account column on branch_item_adjustment.,201-111 or item expense / 500-205,104-030 or 104-020B,item_history,gl_post_item_history adjustment_type=returned,Yes
+2.1–2.7 CSR walk-in,DR MOP asset CR revenue. Pharmacy stays MOP-based (not 102-113B).,gl_mop_code (100-004 / 102-192 / 102-193),gl_revenue_code including 420-000 pharmacy,payment_multiple_method,gl_post_csr_mop,Yes
+2.8 Discount,DR 440-000 CR same revenue,440-000,gl_revenue_code,payment,gl_post_csr_discount,Yes
+2.10 CSR refund,Keep original PMM GL. DR revenue CR MOP. Full (no new_payment_id): each original PMM. Partial: refund.amount pro-rated; skip new_payment_id collection. refund is on mytemr_master (branch_id); clinic gl_post_refund writes clinic GL.,gl_revenue_code,gl_mop_code,mytemr_master.refund,gl_post_refund (clinic) / trg_gl_refund_* (master CALL),Yes
+2.9 Unbilled charge-to,DR 102-113B CR revenue for HMO/corp/Yakap remainder,102-113B,gl_revenue_code,transaction,gl_post_unbilled (called from CSR MOP),Yes
+3.1–3.4 Billing,DR 102-113 CR 102-113B per billing_entry.branch_id,102-113,102-113B,billing_entry (master),gl_post_billing_entry,Yes — master GL
+3.5 Credit memo,Approved credit_memo: DR chosen account CR 102-113,debit_account_type_id,102-113,credit_memo (master),gl_post_credit_memo / trg_gl_credit_memo_*,Yes — master GL
+3.5 Debit memo,Approved debit_memo: DR 102-113 CR chosen account,102-113,credit_account_type_id,debit_memo (master),gl_post_debit_memo / trg_gl_debit_memo_*,Yes — master GL
+4.1–4.3 Collection MOP,Same as 2.x walk-in asset side,100-004 / 102-192 / 102-193,Revenue from 2.x,payment_multiple_method,gl_post_csr_mop,Yes
+4.4–4.6 HMO/Corp/Yakap collection,Branch share of payment; CWT DR 105-000 from billing_payment.wht_amount,MOP or 105-000,102-113,billing_payment (master),gl_post_billing_payment,Yes — master GL
+4.7 Collection adjustments,Manual JE only,—,—,journal_entry,gl_post_journal_entry,Manual
+4.8 / 9.1 Cash deposit,Posted cash_deposit: DR first bank.account_type_ids CR 100-004. No bank charges. Skip if bank unmapped.,gl_bank_account_id(bank.account_type_ids),100-004,cash_deposit,gl_post_cash_deposit / trg_gl_cash_deposit_*,Yes — status=posted
+4.9 / 9.2 Non-cash deposit,Posted non_cash_deposit: DR bank (amount-charges) + DR 600-158 charges; CR 102-192 or 102-193 (or 100-004 if check/cash mop = no charges). Bank from bank_service_fee.bank_id.,bank account + 600-158,gl_ncd_mop_code(mop),non_cash_deposit,gl_post_non_cash_deposit / trg_gl_non_cash_deposit_*,Yes — status=posted
+5.1 Sales return,No CSR sales-return table/screen,Sales return (code TBD),Cash in bank,—,Out of scope,No
+5.2 Void,No CSR void table/screen,Sales return (code TBD),Cash in bank,—,Out of scope,No
+6.1 Consumption,DR item expense CR inventory,item.account_type_id or 500-205,104-030 / 104-020B,item_history,gl_post_item_history perform/pharmacy/lab,Yes
+6.2 Transfer,One-sided until in-transit account is given,104-030 / 104-020B (in only),104-030 / 104-020B (out only),item_history,Transfer Out credit only; Transfer In debit only,Yes — one-sided
+8.1 APV type receipt_note,Skip full AP credit (already on 1.1 RN). WHT only.,— / 201-111 WHT,202-120 WHT,accounts_payable_voucher,gl_post_apv type<>receipt_note skip; WHT if type=receipt_note,Yes
+8.2 Non-trade APV,CR 201-111 for APV.amount,Expense on source document,201-111,accounts_payable_voucher,gl_post_apv,Yes
+8.3 AP payment,Same as 1.2,201-111,bank / 100-004,accounts_payable_voucher_payment_detail,gl_post_apv_payment_detail,Yes
+12.1 Input VAT,Automatic on RN if item is VAT. Output VAT remittance manual.,106-000,—,receipt_note_item + journal_entry,gl_rn_vat_amt / gl_post_receipt_note,Partial
+12.2 Expanded WHT / CWT,APV-of-RN → 202-120. Billing collection CWT → 105-000.,201-111 or 105-000,202-120 (APV of RN),accounts_payable_voucher / billing_payment,gl_post_apv + gl_post_billing_payment,Yes
+15 Manual journal,Approved journal_entry_item lines,Chosen debit,Chosen credit,journal_entry_item,gl_post_journal_entry,Yes
+17 Financial reporting,Reports read posted general_ledger (clinic UNION master billing/memos),—,—,general_ledger,General_ledger::get_posted_entries,Read-only
+Bank seed API,POST /reports/insert_bank truncates and re-seeds bank from CASH IN BANK account_type leaves on 5 clinics + master,—,—,bank,Reports::insert_bank,N/A
+Bank service fee,Clinic CRUD. Required on cash/non-cash deposit change_status=posted. Percentage snapshotted.,—,—,bank_service_fee,Bank_service_fees + deposit change_status,N/A

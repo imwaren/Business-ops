@@ -1,0 +1,501 @@
+branch_id,source,source_id,account_type_id,date,debit,credit,remark,is_migrated,added_by,added_on,is_deleted
+3,journal_entry,181821,57,2026-07-29,0.0000,16.0000,Life & Health Hmp Inc — M2641,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182233,57,2026-07-29,16.0000,0.0000,Life & Health Hmp Inc — CN-6123,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180997,57,2026-07-29,0.0000,784.0000,Payment: Life & Health Hmp Inc — M2641,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182184,57,2026-07-29,0.0000,88.0000,Life & Health Hmp Inc — CN-6124,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182287,57,2026-07-29,0.0000,88.0000,Life & Health Hmp Inc — M2749,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182234,57,2026-07-29,88.0000,0.0000,Life & Health Hmp Inc — CN-6124,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182322,57,2026-07-29,0.0000,4312.0000,Payment: Life & Health Hmp Inc — M2749,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182185,57,2026-07-29,0.0000,28.2000,Life & Health Hmp Inc — CN-6125,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181824,57,2026-07-29,0.0000,28.2000,Life & Health Hmp Inc — M2728,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182235,57,2026-07-29,28.2000,0.0000,Life & Health Hmp Inc — CN-6125,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181003,57,2026-07-29,0.0000,1381.8000,Payment: Life & Health Hmp Inc — M2728,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182186,57,2026-07-29,0.0000,154.7000,Life & Health Hmp Inc — CN-6126,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181825,57,2026-07-29,0.0000,154.7000,Life & Health Hmp Inc — M2738,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182236,57,2026-07-29,154.7000,0.0000,Life & Health Hmp Inc — CN-6126,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181004,57,2026-07-29,0.0000,7580.3000,Payment: Life & Health Hmp Inc — M2738,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182187,57,2026-07-29,0.0000,138.0000,Life & Health Hmp Inc — CN-6127,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181960,57,2026-07-29,0.0000,138.0000,Life & Health Hmp Inc — M2705,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182237,57,2026-07-29,138.0000,0.0000,Life & Health Hmp Inc — CN-6127,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181001,57,2026-07-29,0.0000,6762.0000,Payment: Life & Health Hmp Inc — M2705,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182188,57,2026-07-29,0.0000,45.4000,Life & Health Hmp Inc — CN-6128,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181823,57,2026-07-29,0.0000,45.4000,Life & Health Hmp Inc — M2716,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182238,57,2026-07-29,45.4000,0.0000,Life & Health Hmp Inc — CN-6128,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181002,57,2026-07-29,0.0000,2224.6000,Payment: Life & Health Hmp Inc — M2716,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182189,57,2026-07-29,0.0000,390.4000,Life & Health Hmp Inc — CN-6129,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181953,57,2026-07-29,0.0000,390.4000,Life & Health Hmp Inc — M2541,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182239,57,2026-07-29,390.4000,0.0000,Life & Health Hmp Inc — CN-6129,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180990,57,2026-07-29,0.0000,19129.6000,Payment: Life & Health Hmp Inc — M2541,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182190,57,2026-07-29,0.0000,515.6000,Life & Health Hmp Inc — CN-6130,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181952,57,2026-07-29,0.0000,515.6000,Life & Health Hmp Inc — M2508,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182240,57,2026-07-29,515.6000,0.0000,Life & Health Hmp Inc — CN-6130,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180987,57,2026-07-29,0.0000,25264.4000,Payment: Life & Health Hmp Inc — M2508,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182191,57,2026-07-29,0.0000,130.2000,Life & Health Hmp Inc — CN-6131,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181826,57,2026-07-29,0.0000,130.2000,Life & Health Hmp Inc — M2762,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182241,57,2026-07-29,130.2000,0.0000,Life & Health Hmp Inc — CN-6131,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181005,57,2026-07-29,0.0000,6379.8000,Payment: Life & Health Hmp Inc — M2762,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182192,57,2026-07-29,0.0000,24.4000,Life & Health Hmp Inc — CN-6132,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181827,57,2026-07-29,0.0000,24.4000,Life & Health Hmp Inc — M2778,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182242,57,2026-07-29,24.4000,0.0000,Life & Health Hmp Inc — CN-6132,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181006,57,2026-07-29,0.0000,1195.6000,Payment: Life & Health Hmp Inc — M2778,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182193,57,2026-07-29,0.0000,43.6000,Life & Health Hmp Inc — CN-6133,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182286,57,2026-07-29,0.0000,43.6000,Life & Health Hmp Inc — M2670,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182243,57,2026-07-29,43.6000,0.0000,Life & Health Hmp Inc — CN-6133,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182091,57,2026-07-29,0.0000,2136.4000,Payment: Life & Health Hmp Inc — M2670,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182194,57,2026-07-29,0.0000,5.4000,Life & Health Hmp Inc — CN-6134,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181959,57,2026-07-29,0.0000,5.4000,Life & Health Hmp Inc — M2692,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182244,57,2026-07-29,5.4000,0.0000,Life & Health Hmp Inc — CN-6134,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181000,57,2026-07-29,0.0000,264.6000,Payment: Life & Health Hmp Inc — M2692,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182195,57,2026-07-29,0.0000,48.0000,"LIFE & HEALTH HMP, INC. — CN-6135",1,0,2026-07-31 23:59:59,0
+3,journal_entry,181818,57,2026-07-29,0.0000,48.0000,"LIFE & HEALTH HMP, INC. — M2555",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182245,57,2026-07-29,48.0000,0.0000,"LIFE & HEALTH HMP, INC. — CN-6135",1,0,2026-07-31 23:59:59,0
+3,journal_entry,180991,57,2026-07-29,0.0000,2352.0000,"Payment: LIFE & HEALTH HMP, INC. — M2555",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182196,57,2026-07-29,0.0000,16.0000,Life & Health Hmp Inc — CN-6136,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181820,57,2026-07-29,0.0000,16.0000,Life & Health Hmp Inc — M2629,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182246,57,2026-07-29,16.0000,0.0000,Life & Health Hmp Inc — CN-6136,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180996,57,2026-07-29,0.0000,784.0000,Payment: Life & Health Hmp Inc — M2629,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182197,57,2026-07-29,0.0000,8.0000,Life & Health Hmp Inc — CN-6137,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181956,57,2026-07-29,0.0000,8.0000,Life & Health Hmp Inc — M2598,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182247,57,2026-07-29,8.0000,0.0000,Life & Health Hmp Inc — CN-6137,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180994,57,2026-07-29,0.0000,392.0000,Payment: Life & Health Hmp Inc — M2598,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182198,57,2026-07-29,0.0000,8.0000,Life & Health Hmp Inc — CN-6138,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181955,57,2026-07-29,0.0000,8.0000,Life & Health Hmp Inc — M2583,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182248,57,2026-07-29,8.0000,0.0000,Life & Health Hmp Inc — CN-6138,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180993,57,2026-07-29,0.0000,392.0000,Payment: Life & Health Hmp Inc — M2583,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182199,57,2026-07-29,0.0000,66.4000,Life & Health Hmp Inc — CN-6139,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181954,57,2026-07-29,0.0000,66.4000,Life & Health Hmp Inc — M2570,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182249,57,2026-07-29,66.4000,0.0000,Life & Health Hmp Inc — CN-6139,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180992,57,2026-07-29,0.0000,3253.6000,Payment: Life & Health Hmp Inc — M2570,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182200,57,2026-07-29,0.0000,119.2000,Life & Health Hmp Inc — CN-6140,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182285,57,2026-07-29,0.0000,119.2000,Life & Health Hmp Inc — M2520,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182250,57,2026-07-29,119.2000,0.0000,Life & Health Hmp Inc — CN-6140,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181355,57,2026-07-29,0.0000,5840.8000,Payment: Life & Health Hmp Inc — M2520,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182201,57,2026-07-29,0.0000,32.0000,Life & Health Hmp Inc — CN-6141,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182284,57,2026-07-29,0.0000,32.0000,Life & Health Hmp Inc — M2495,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182251,57,2026-07-29,32.0000,0.0000,Life & Health Hmp Inc — CN-6141,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182321,57,2026-07-29,0.0000,1568.0000,Payment: Life & Health Hmp Inc — M2495,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182202,57,2026-07-29,0.0000,45.2000,"LIFE & HEALTH HMP, INC. — CN-6142",1,0,2026-07-31 23:59:59,0
+3,journal_entry,181817,57,2026-07-29,0.0000,45.2000,"LIFE & HEALTH HMP, INC. — M2476",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182252,57,2026-07-29,45.2000,0.0000,"LIFE & HEALTH HMP, INC. — CN-6142",1,0,2026-07-31 23:59:59,0
+3,journal_entry,180986,57,2026-07-29,0.0000,2214.8000,"Payment: LIFE & HEALTH HMP, INC. — M2476",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182203,57,2026-07-29,0.0000,1736.4000,Life & Health Hmp Inc — CN-6143,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182288,57,2026-07-29,0.0000,1736.4000,Life & Health Hmp Inc — M3020,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182253,57,2026-07-29,1736.4000,0.0000,Life & Health Hmp Inc — CN-6143,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182204,57,2026-07-29,0.0000,2067.0000,Life & Health Hmp Inc — CN-6144,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182289,57,2026-07-29,0.0000,2067.0000,Life & Health Hmp Inc — M3078,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182254,57,2026-07-29,2067.0000,0.0000,Life & Health Hmp Inc — CN-6144,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182320,57,2026-07-29,0.0000,2180.0000,Payment: Life & Health Hmp Inc — M2436,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182290,57,2026-07-29,400.0000,0.0000,Life & Health Hmp Inc — M3653,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182291,57,2026-07-29,1465.0000,0.0000,"Etiqa Life and General Assurance Phillipines, Inc — M3654",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182292,57,2026-07-29,500.0000,0.0000,Insular Healthcare Inc — M3655,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182293,57,2026-07-29,500.0000,0.0000,Maxicare Healthcare Corporation — M3656,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180980,57,2026-07-29,0.0000,8850.0000,Payment: Life & Health Hmp Inc — M2383,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182294,57,2026-07-29,500.0000,0.0000,Insular Healthcare Inc — M3657,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180985,57,2026-07-29,0.0000,5300.0000,Payment: Life & Health Hmp Inc — M2457,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180976,57,2026-07-29,0.0000,3500.0000,Payment: Life & Health Hmp Inc — M2335,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180978,57,2026-07-29,0.0000,2250.0000,Payment: Life & Health Hmp Inc — M2358,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180975,57,2026-07-29,0.0000,400.0000,Payment: Life & Health Hmp Inc — M2313,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180974,57,2026-07-29,0.0000,4220.0000,Payment: Life & Health Hmp Inc — M2304,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182295,57,2026-07-29,500.0000,0.0000,Insular Healthcare Inc — M3658,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182205,57,2026-07-29,0.0000,8.0000,Life & Health Hmp Inc — CN-6146,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182059,57,2026-07-29,0.0000,8.0000,Life & Health Hmp Inc — M2198,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182255,57,2026-07-29,8.0000,0.0000,Life & Health Hmp Inc — CN-6146,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182090,57,2026-07-29,0.0000,392.0000,Payment: Life & Health Hmp Inc — M2198,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182296,57,2026-07-29,1200.0000,0.0000,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — M3659",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182206,57,2026-07-29,0.0000,8.0000,Life & Health Hmp Inc — CN-6147,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182283,57,2026-07-29,0.0000,8.0000,Life & Health Hmp Inc — M2436,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182256,57,2026-07-29,8.0000,0.0000,Life & Health Hmp Inc — CN-6147,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182320,57,2026-07-29,0.0000,392.0000,Payment: Life & Health Hmp Inc — M2436,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182207,57,2026-07-29,0.0000,1408.2000,Life & Health Hmp Inc — CN-6148,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182283,57,2026-07-29,0.0000,1408.2000,Life & Health Hmp Inc — M2436,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182257,57,2026-07-29,1408.2000,0.0000,Life & Health Hmp Inc — CN-6148,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182297,57,2026-07-29,500.0000,0.0000,"Etiqa Life and General Assurance Phillipines, Inc — M3660",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182320,57,2026-07-29,0.0000,69001.8000,Payment: Life & Health Hmp Inc — M2436,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182298,57,2026-07-29,2730.0000,0.0000,Amaphil-FAO Lawina Company Limited Inc — M3661,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182299,57,2026-07-29,4330.0000,0.0000,Cooperative Health Management Federation — M3662,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182300,57,2026-07-29,950.0000,0.0000,"DIS Tech Phils, Inc — M3663",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182301,57,2026-07-29,3200.0000,0.0000,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — M3664",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182208,57,2026-07-29,0.0000,627.8000,Life & Health Hmp Inc — CN-6152,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181814,57,2026-07-29,0.0000,627.8000,Life & Health Hmp Inc — M2401,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182258,57,2026-07-29,627.8000,0.0000,Life & Health Hmp Inc — CN-6152,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180982,57,2026-07-29,0.0000,30762.2000,Payment: Life & Health Hmp Inc — M2401,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182209,57,2026-07-29,0.0000,1049.8000,Life & Health Hmp Inc — CN-6153,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181813,57,2026-07-29,0.0000,1049.8000,Life & Health Hmp Inc — M2383,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182259,57,2026-07-29,1049.8000,0.0000,Life & Health Hmp Inc — CN-6153,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180980,57,2026-07-29,0.0000,51440.2000,Payment: Life & Health Hmp Inc — M2383,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182210,57,2026-07-29,0.0000,2969.3000,Life & Health Hmp Inc — CN-6154,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181812,57,2026-07-29,0.0000,2969.3000,Life & Health Hmp Inc — M2358,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182260,57,2026-07-29,2969.3000,0.0000,Life & Health Hmp Inc — CN-6154,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180978,57,2026-07-29,0.0000,145495.7000,Payment: Life & Health Hmp Inc — M2358,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182302,57,2026-07-29,27105.0000,0.0000,Insular Healthcare Inc — M3665,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182303,57,2026-07-29,20166.0000,0.0000,Asalus Corporation — M3666,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182304,57,2026-07-29,4915.0000,0.0000,Lacson & Lacson Insurance Brokers Inc — M3667,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182305,57,2026-07-29,17250.0000,0.0000,Life & Health Hmp Inc — M3668,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182211,57,2026-07-29,0.0000,795.5000,"LIFE & HEALTH HMP, INC. — CN-6163",1,0,2026-07-31 23:59:59,0
+3,journal_entry,181817,57,2026-07-29,0.0000,795.5000,"LIFE & HEALTH HMP, INC. — M2476",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182261,57,2026-07-29,795.5000,0.0000,"LIFE & HEALTH HMP, INC. — CN-6163",1,0,2026-07-31 23:59:59,0
+3,journal_entry,180986,57,2026-07-29,0.0000,38979.5000,"Payment: LIFE & HEALTH HMP, INC. — M2476",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182212,57,2026-07-29,0.0000,269.2000,Life & Health Hmp Inc — CN-6164,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181816,57,2026-07-29,0.0000,269.2000,Life & Health Hmp Inc — M2457,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182262,57,2026-07-29,269.2000,0.0000,Life & Health Hmp Inc — CN-6164,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180985,57,2026-07-29,0.0000,13190.8000,Payment: Life & Health Hmp Inc — M2457,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182213,57,2026-07-29,0.0000,129.8000,Life & Health Hmp Inc — CN-6165,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181813,57,2026-07-29,0.0000,129.8000,Life & Health Hmp Inc — M2383,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182263,57,2026-07-29,129.8000,0.0000,Life & Health Hmp Inc — CN-6165,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180980,57,2026-07-29,0.0000,6360.2000,Payment: Life & Health Hmp Inc — M2383,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182306,57,2026-07-29,34056.0000,0.0000,Maxicare Healthcare Corporation — M3669,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182214,57,2026-07-29,0.0000,441.4000,Life & Health Hmp Inc — CN-6168,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181809,57,2026-07-29,0.0000,441.4000,Life & Health Hmp Inc — M2313,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182264,57,2026-07-29,441.4000,0.0000,Life & Health Hmp Inc — CN-6168,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180975,57,2026-07-29,0.0000,21628.6000,Payment: Life & Health Hmp Inc — M2313,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182215,57,2026-07-29,0.0000,793.7000,Life & Health Hmp Inc — CN-6169,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181810,57,2026-07-29,0.0000,793.7000,Life & Health Hmp Inc — M2335,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182265,57,2026-07-29,793.7000,0.0000,Life & Health Hmp Inc — CN-6169,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180976,57,2026-07-29,0.0000,38891.3000,Payment: Life & Health Hmp Inc — M2335,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182307,57,2026-07-29,11975.0000,0.0000,Medicard Philippines Inc — M3670,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182216,57,2026-07-29,0.0000,472.8000,Life & Health Hmp Inc — CN-6170,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181811,57,2026-07-29,0.0000,472.8000,Life & Health Hmp Inc — M2344,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182266,57,2026-07-29,472.8000,0.0000,Life & Health Hmp Inc — CN-6170,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180977,57,2026-07-29,0.0000,23167.2000,Payment: Life & Health Hmp Inc — M2344,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182217,57,2026-07-29,0.0000,1320.5000,Life & Health Hmp Inc — CN-6171,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181815,57,2026-07-29,0.0000,1320.5000,Life & Health Hmp Inc — M2424,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182267,57,2026-07-29,1320.5000,0.0000,Life & Health Hmp Inc — CN-6171,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180984,57,2026-07-29,0.0000,64704.5000,Payment: Life & Health Hmp Inc — M2424,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182308,57,2026-07-29,2840.0000,0.0000,"Philhealthcare, Inc — M3671",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182309,57,2026-07-29,13300.0000,0.0000,Results Manila Inc. — M3672,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182218,57,2026-07-29,0.0000,542.9000,Life & Health Hmp Inc — CN-6179,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182282,57,2026-07-29,0.0000,542.9000,Life & Health Hmp Inc — M2058,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182268,57,2026-07-29,542.9000,0.0000,Life & Health Hmp Inc — CN-6179,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182319,57,2026-07-29,0.0000,26602.1000,Payment: Life & Health Hmp Inc — M2058,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182219,57,2026-07-29,0.0000,81.6000,Life & Health Hmp Inc — CN-6180,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181802,57,2026-07-29,0.0000,81.6000,Life & Health Hmp Inc — M1992,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182269,57,2026-07-29,81.6000,0.0000,Life & Health Hmp Inc — CN-6180,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181337,57,2026-07-29,0.0000,3998.4000,Payment: Life & Health Hmp Inc — M1992,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182220,57,2026-07-29,0.0000,40.0000,Life & Health Hmp Inc — CN-6181,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181804,57,2026-07-29,0.0000,40.0000,Life & Health Hmp Inc — M2165,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182270,57,2026-07-29,40.0000,0.0000,Life & Health Hmp Inc — CN-6181,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180968,57,2026-07-29,0.0000,1960.0000,Payment: Life & Health Hmp Inc — M2165,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182221,57,2026-07-29,0.0000,18.0000,Life & Health Hmp Inc — CN-6182,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182057,57,2026-07-29,0.0000,18.0000,Life & Health Hmp Inc — M2079,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182271,57,2026-07-29,18.0000,0.0000,Life & Health Hmp Inc — CN-6182,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182088,57,2026-07-29,0.0000,882.0000,Payment: Life & Health Hmp Inc — M2079,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182222,57,2026-07-29,0.0000,53.0000,Life & Health Hmp Inc — CN-6183,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182056,57,2026-07-29,0.0000,53.0000,Life & Health Hmp Inc — M2026,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182272,57,2026-07-29,53.0000,0.0000,Life & Health Hmp Inc — CN-6183,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182087,57,2026-07-29,0.0000,2597.0000,Payment: Life & Health Hmp Inc — M2026,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182223,57,2026-07-29,0.0000,82.0000,Life & Health Hmp Inc — CN-6186,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182057,57,2026-07-29,0.0000,82.0000,Life & Health Hmp Inc — M2079,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182273,57,2026-07-29,82.0000,0.0000,Life & Health Hmp Inc — CN-6186,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182088,57,2026-07-29,0.0000,4018.0000,Payment: Life & Health Hmp Inc — M2079,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182224,57,2026-07-29,0.0000,80.0000,Life & Health Hmp Inc — CN-6187,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182282,57,2026-07-29,0.0000,80.0000,Life & Health Hmp Inc — M2058,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182274,57,2026-07-29,80.0000,0.0000,Life & Health Hmp Inc — CN-6187,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182319,57,2026-07-29,0.0000,3920.0000,Payment: Life & Health Hmp Inc — M2058,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182174,45,2026-07-29,0.0000,60356.2500,"Payment: CEBU OVERSEA HARDWARE CO., INC. — 0726-000734",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182167,13,2026-07-29,41350.0000,0.0000,"Sales Branches July 29, 2026 - Cash Sales - July, 29 — #71194",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182167,1613,2026-07-29,0.0000,62710.0000,"Sales Branches July 29, 2026 - Consultations — #71194",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182175,165,2026-07-29,8.0000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6115,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182176,165,2026-07-29,16.0000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6116,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182177,165,2026-07-29,8.0000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6117,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182178,165,2026-07-29,59.0000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6118,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182179,165,2026-07-29,8.0000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6119,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182180,165,2026-07-29,41.0000,0.0000,Life & Health Hmp Inc - CWT-2% life&health — CN-6120,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182181,165,2026-07-29,8.0000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6121,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182182,165,2026-07-29,16.0000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6122,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182183,165,2026-07-29,16.0000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6123,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182184,165,2026-07-29,88.0000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6124,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182185,165,2026-07-29,28.2000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6125,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182186,165,2026-07-29,154.7000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6126,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182187,165,2026-07-29,138.0000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6127,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182188,165,2026-07-29,45.4000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6128,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182189,165,2026-07-29,390.4000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6129,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182190,165,2026-07-29,515.6000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6130,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182191,165,2026-07-29,130.2000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6131,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182192,165,2026-07-29,24.4000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6132,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182193,165,2026-07-29,43.6000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6133,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182194,165,2026-07-29,5.4000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6134,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182195,165,2026-07-29,48.0000,0.0000,"LIFE & HEALTH HMP, INC. - CWT-2% LIFE&HEALTH — CN-6135",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182196,165,2026-07-29,16.0000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6136,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182197,165,2026-07-29,8.0000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6137,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182198,165,2026-07-29,8.0000,0.0000,Life & Health Hmp Inc - CTW-2% LIFE&HEALTH — CN-6138,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182199,165,2026-07-29,66.4000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6139,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182200,165,2026-07-29,119.2000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6140,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182201,165,2026-07-29,32.0000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6141,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182202,165,2026-07-29,45.2000,0.0000,"LIFE & HEALTH HMP, INC. - CWT-2% LIFE&HEALTH — CN-6142",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182203,165,2026-07-29,1736.4000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6143,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182204,165,2026-07-29,2067.0000,0.0000,Life & Health Hmp Inc - CW-2% LIFE&HEALTH — CN-6144,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182205,165,2026-07-29,8.0000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6146,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182206,165,2026-07-29,8.0000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6147,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182207,165,2026-07-29,1408.2000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6148,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182208,165,2026-07-29,627.8000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6152,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182209,165,2026-07-29,1049.8000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6153,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182210,165,2026-07-29,2969.3000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6154,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182211,165,2026-07-29,795.5000,0.0000,"LIFE & HEALTH HMP, INC. - CWT-2% LIFE&HEALTH — CN-6163",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182212,165,2026-07-29,269.2000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6164,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182213,165,2026-07-29,129.8000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6165,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182214,165,2026-07-29,441.4000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6168,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182215,165,2026-07-29,793.7000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6169,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182216,165,2026-07-29,472.8000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6170,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182217,165,2026-07-29,1320.5000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6171,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182218,165,2026-07-29,542.9000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6179,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182219,165,2026-07-29,81.6000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6180,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182220,165,2026-07-29,40.0000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6181,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182221,165,2026-07-29,18.0000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6182,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182222,165,2026-07-29,53.0000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6183,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182223,165,2026-07-29,82.0000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6186,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182224,165,2026-07-29,80.0000,0.0000,Life & Health Hmp Inc - CWT-2% LIFE&HEALTH — CN-6187,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182166,613,2026-07-29,15700.0000,0.0000,to accrue Converge flexibiz 200mbps with static — #70377,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182168,617,2026-07-29,33.0500,0.0000,to record depreciation expense for july 2026 - Mactan — #71849,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182168,617,2026-07-29,28.1500,0.0000,to record depreciation expense for july 2026 - Mactan — #71849,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182168,621,2026-07-29,2249.7900,0.0000,to record depreciation expense for july 2026 - Mactan — #71849,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182168,621,2026-07-29,3323.3600,0.0000,to record depreciation expense for july 2026 - Mactan — #71849,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182168,1001,2026-07-29,2869.9900,0.0000,to record depreciation expense for july 2026 - Mactan — #71849,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182168,1005,2026-07-29,178.3100,0.0000,to record depreciation expense for july 2026 - Mactan — #71849,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182168,625,2026-07-29,525.4900,0.0000,to record depreciation expense for july 2026 - Mactan — #71849,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182167,1625,2026-07-29,3648.0000,0.0000,"Sales Branches July 29, 2026 - Sales Discounts - July, 29 — #71194",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182173,641,2026-07-29,204528.0000,0.0000,"LAPU LAPU GRAND REALTY VENTURES, INC. - Vatable: Payment for electricity ftp June 21- July 20, 2026 — RFP No.# 6608",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182165,653,2026-07-29,8086.0700,0.0000,to record accrual of the SL sick leave conversion JULY — #70322,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182173,245,2026-07-29,0.0000,4287.4400,"LAPU LAPU GRAND REALTY VENTURES, INC. - 2% EWT on Payment for electricity, water and pest control ftp June 21- July 20, 2026 — RFP No.# 6608",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182167,1633,2026-07-29,0.0000,4950.0000,"Sales Branches July 29, 2026 - Health services — #71194",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182173,713,2026-07-29,24543.3600,0.0000,"LAPU LAPU GRAND REALTY VENTURES, INC. - Vat: Payment for electricity ftp June 21- July 20, 2026 — RFP No.# 6608",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182173,781,2026-07-29,423.6000,0.0000,"LAPU LAPU GRAND REALTY VENTURES, INC. - Vat: Payment for pest control ftp June 21- July 20, 2026 — RFP No.# 6608",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182173,785,2026-07-29,757.6800,0.0000,"LAPU LAPU GRAND REALTY VENTURES, INC. - Vat: Payment for water ftp June 21- July 20, 2026 — RFP No.# 6608",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182168,805,2026-07-29,34851.5700,0.0000,to record depreciation expense for july 2026 - Mactan — #71849,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182167,1645,2026-07-29,0.0000,48000.0000,"Sales Branches July 29, 2026 - Laboratory/Diagnostics — #71194",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182167,1645,2026-07-29,0.0000,51610.0000,"Sales Branches July 29, 2026 - Laboratory/Diagnostics — #71194",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182167,1645,2026-07-29,0.0000,37353.0000,"Sales Branches July 29, 2026 - Laboratory/Diagnostics — #71194",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182167,1657,2026-07-29,0.0000,8655.0000,"Sales Branches July 29, 2026 - Laboratory/Diagnostics - Send Outs — #71194",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182168,821,2026-07-29,82247.9300,0.0000,to record depreciation expense for july 2026 - Mactan — #71849,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182168,821,2026-07-29,632538.5600,0.0000,to record depreciation expense for july 2026 - Mactan — #71849,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182168,1125,2026-07-29,161041.5200,0.0000,to record depreciation expense for july 2026 - Mactan — #71849,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182168,1133,2026-07-29,3718.4500,0.0000,to record depreciation expense for july 2026 - Mactan — #71849,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182168,845,2026-07-29,23371.9900,0.0000,to record depreciation expense for july 2026 - Mactan — #71849,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182168,845,2026-07-29,19180.2500,0.0000,to record depreciation expense for july 2026 - Mactan — #71849,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182172,1201,2026-07-29,7800.0000,0.0000,"GABRIEL VINCENT ZOSA - PCP Reliever for July 22 & 24, 2026 — RFP No.# 6607",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182171,1201,2026-07-29,7200.0000,0.0000,"Kim Marie Capilitan - PCP Reliever for July 20 & 22, 2026 — RFP No.# 6606",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182170,1201,2026-07-29,7200.0000,0.0000,"MIKHAELA ALESNA - PCP Reliever for July 20 & 24, 2026 — RFP No.# 6605",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182169,1201,2026-07-29,3600.0000,0.0000,"Jade Cloie Tul-id - PCP Reliever for July 23, 2026 — RFP No.# 6604",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182167,1713,2026-07-29,0.0000,4200.0000,"Sales Branches July 29, 2026 - Third-Party Partnership — #71194",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182173,957,2026-07-29,3530.0000,0.0000,"LAPU LAPU GRAND REALTY VENTURES, INC. - Vatable: Payment for pest control ftp  June 21- July 20, 2026 — RFP No.# 6608",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182173,961,2026-07-29,6314.0000,0.0000,"LAPU LAPU GRAND REALTY VENTURES, INC. - Vatable: Payment for Water ftp June 21- July 20, 2026 — RFP No.# 6608",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182326,217,2026-07-30,19577.6200,0.0000,Payment: MEDGISTIX CORPORATION — 0526-000590,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182327,217,2026-07-30,98215.1800,0.0000,Payment: MEDGISTIX CORPORATION — 0526-000591,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182325,217,2026-07-30,751761.3700,0.0000,Payment: MEDGISTIX CORPORATION — 0526-000589,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182328,217,2026-07-30,76407.6400,0.0000,Payment: MEDGISTIX CORPORATION — 0526-000592,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182324,77,2026-07-30,3942.0000,0.0000,"Sales Branches July 30, 2026 - Gcash Sales - July, 30 — #71195",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182310,61,2026-07-30,30071.3000,0.0000,Payment: Life & Health Hmp Inc — 5-15-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182310,61,2026-07-30,1715.0000,0.0000,Payment: Life & Health Hmp Inc — 5-15-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182310,61,2026-07-30,7815.5000,0.0000,Payment: Life & Health Hmp Inc — 5-15-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182310,61,2026-07-30,656.6000,0.0000,Payment: Life & Health Hmp Inc — 5-15-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182310,61,2026-07-30,392.0000,0.0000,Payment: Life & Health Hmp Inc — 5-15-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182310,61,2026-07-30,1568.0000,0.0000,Payment: Life & Health Hmp Inc — 5-15-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182310,61,2026-07-30,6085.8000,0.0000,Payment: Life & Health Hmp Inc — 5-15-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182310,61,2026-07-30,6027.0000,0.0000,Payment: Life & Health Hmp Inc — 5-15-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182310,61,2026-07-30,11309.2000,0.0000,Payment: Life & Health Hmp Inc — 5-15-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182310,61,2026-07-30,392.0000,0.0000,Payment: Life & Health Hmp Inc — 5-15-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182310,61,2026-07-30,8153.6000,0.0000,Payment: Life & Health Hmp Inc — 5-15-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182428,61,2026-07-30,55762.0000,0.0000,Payment: Life & Health Hmp Inc — 6-5-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182428,61,2026-07-30,117805.8000,0.0000,Payment: Life & Health Hmp Inc — 6-5-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182428,61,2026-07-30,33492.4800,0.0000,Payment: Life & Health Hmp Inc — 6-5-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182428,61,2026-07-30,164022.6000,0.0000,Payment: Life & Health Hmp Inc — 6-5-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182428,61,2026-07-30,15047.9000,0.0000,"Payment: LIFE & HEALTH HMP, INC. — 6-5-26",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182428,61,2026-07-30,29096.2000,0.0000,Payment: Life & Health Hmp Inc — 6-5-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182428,61,2026-07-30,54012.7000,0.0000,Payment: Life & Health Hmp Inc — 6-5-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182428,61,2026-07-30,842.8000,0.0000,Payment: Life & Health Hmp Inc — 6-5-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182428,61,2026-07-30,784.0000,0.0000,Payment: Life & Health Hmp Inc — 6-5-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182428,61,2026-07-30,4748.5900,0.0000,Payment: Life & Health Hmp Inc — 6-5-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182428,61,2026-07-30,3675.0000,0.0000,Payment: Life & Health Hmp Inc — 6-5-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182428,61,2026-07-30,1813.0000,0.0000,Payment: Life & Health Hmp Inc — 6-5-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182428,61,2026-07-30,29645.0000,0.0000,Payment: Life & Health Hmp Inc — 6-5-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182428,61,2026-07-30,50146.6000,0.0000,Payment: Life & Health Hmp Inc — 6-5-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182428,61,2026-07-30,25823.0000,0.0000,Payment: Life & Health Hmp Inc — 6-5-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182428,61,2026-07-30,42042.0000,0.0000,Payment: Life & Health Hmp Inc — 6-5-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182428,61,2026-07-30,24215.8000,0.0000,Payment: Life & Health Hmp Inc — 6-5-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182428,61,2026-07-30,1421.0000,0.0000,Payment: Life & Health Hmp Inc — 6-5-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182428,61,2026-07-30,91159.6000,0.0000,Payment: Life & Health Hmp Inc — 6-5-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182426,61,2026-07-30,3350.0000,0.0000,Payment: Life & Health Hmp Inc — 6-11-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182426,61,2026-07-30,4500.0000,0.0000,Payment: Life & Health Hmp Inc — 6-11-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182426,61,2026-07-30,2800.0000,0.0000,Payment: Life & Health Hmp Inc — 6-11-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182426,61,2026-07-30,5400.0000,0.0000,Payment: Life & Health Hmp Inc — 6-11-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182426,61,2026-07-30,4230.0000,0.0000,Payment: Life & Health Hmp Inc — 6-11-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182426,61,2026-07-30,2180.0000,0.0000,Payment: Life & Health Hmp Inc — 6-11-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182435,61,2026-07-30,5862.8500,0.0000,"Payment: Tytans Leisure and Resort, Inc — M2949",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182433,61,2026-07-30,2658.7400,0.0000,"Payment: Tytans Leisure and Resort, Inc — M2644",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182432,61,2026-07-30,2406.3900,0.0000,"Payment: TYTANS LEISURE AND RESORTS, INC. — M2428",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182434,61,2026-07-30,5196.9400,0.0000,"Payment: Tytans Leisure and Resort, Inc — M2660",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182430,61,2026-07-30,4489.8700,0.0000,"Payment: TYTANS LEISURE AND RESORTS, INC. — M2017",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182431,61,2026-07-30,3322.6900,0.0000,"Payment: TYTANS LEISURE AND RESORTS, INC. — M2375",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182427,61,2026-07-30,17693.9000,0.0000,Payment: Life & Health Hmp Inc — 6-22-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182427,61,2026-07-30,39219.6000,0.0000,Payment: Life & Health Hmp Inc — 6-22-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182427,61,2026-07-30,15082.2000,0.0000,Payment: Life & Health Hmp Inc — 6-22-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182427,61,2026-07-30,19609.8000,0.0000,Payment: Life & Health Hmp Inc — 6-22-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182427,61,2026-07-30,54703.6000,0.0000,Payment: Life & Health Hmp Inc — 6-22-26,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182324,61,2026-07-30,670.0000,0.0000,"Sales Branches July 30, 2026 - Credit Card Sales - July, 30 — #71195",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182324,61,2026-07-30,4640.0000,0.0000,"Sales Branches July 30, 2026 - Debit Card Sales - July, 30 — #71195",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182418,65,2026-07-30,0.0000,500.0000,"Avega Managed Care, Inc - ALEGRES, KID AMBRIEL THUNDER JALLORES | 07/29/2026 |Avega Managed Care, Inc| 500- — M3673",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182419,65,2026-07-30,0.0000,300.0000,"Cooperative Health Management Federation - MONTANA, LEA RODRIGO | 07/29/2026 |FICCO| 300- — M3674",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182419,65,2026-07-30,0.0000,300.0000,"Cooperative Health Management Federation - MOSQUEDA, JENEVETH BAGA-AN | 07/29/2026 |FICCO| 300- — M3674",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182419,65,2026-07-30,0.0000,300.0000,"Cooperative Health Management Federation - AMISTAD, ELVAGA GULBIN | 07/29/2026 |Cooperative Health Management Federation| 300- — M3674",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182419,65,2026-07-30,0.0000,3460.0000,"Cooperative Health Management Federation - AMISTAD, ELVAGA GULBIN | 07/29/2026 |FICCO| 3460- — M3674",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182419,65,2026-07-30,0.0000,270.0000,"Cooperative Health Management Federation - MONTILLA, LIAM JAKE CASINILLO | 07/29/2026 |Cooperative Health Management Federation| 270- — M3674",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182419,65,2026-07-30,0.0000,300.0000,"Cooperative Health Management Federation - NUÑEZ, JOE DENNIS ARIAS | 07/29/2026 |Cooperative Health Management Federation| 300- — M3674",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182419,65,2026-07-30,0.0000,300.0000,"Cooperative Health Management Federation - PINO, QUEENIE TENEBROSO | 07/29/2026 |FICCO| 300- — M3674",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182419,65,2026-07-30,0.0000,300.0000,"Cooperative Health Management Federation - YUSA, KAJORI RETUBADO | 07/29/2026 |FICCO| 300- — M3674",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182419,65,2026-07-30,0.0000,390.0000,"Cooperative Health Management Federation - YUSA, KAJORI RETUBADO | 07/29/2026 |FICCO| 390- — M3674",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182420,65,2026-07-30,0.0000,2100.0000,"Etiqa Life and General Assurance Phillipines, Inc - FERRER, DEMETRIO DE LEON | 07/29/2026 |Etiqa Life and General Assurance Phillipines, Inc| 2100- — M3675",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182420,65,2026-07-30,0.0000,500.0000,"Etiqa Life and General Assurance Phillipines, Inc - FERRER, DEMETRIO DE LEON | 07/29/2026 |Etiqa Life and General Assurance Phillipines, Inc| 500- — M3675",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182420,65,2026-07-30,0.0000,4820.0000,"Etiqa Life and General Assurance Phillipines, Inc - FERRER, DEMETRIO DE LEON | 07/29/2026 |Etiqa Life and General Assurance Phillipines, Inc| 4820- — M3675",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182421,65,2026-07-30,0.0000,2650.0000,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) - ELENTORIO, ANNEL RECUPELACION | 07/29/2026 |TAMIYA PHILIPPINES, INC.| 2650- — M3676",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182422,65,2026-07-30,0.0000,500.0000,"Insular Healthcare Inc - ABUYABOR, SHYNAMAE BARO | 07/29/2026 |CONCENTRIX DAKSH SERVICES PHILIPPINES CORPORATION| 500- — M3677",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182422,65,2026-07-30,0.0000,500.0000,"Insular Healthcare Inc - ALLEGO, EL GRECO LOBITAÑA | 07/29/2026 |Insular Healthcare Inc| 500- — M3677",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182422,65,2026-07-30,0.0000,500.0000,"Insular Healthcare Inc - AMISTOSO, JERACIL GAKO | 07/29/2026 |Insular Healthcare Inc| 500- — M3677",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182422,65,2026-07-30,0.0000,500.0000,"Insular Healthcare Inc - ARNADO, JUFY CUALQUIERA | 07/29/2026 |Insular Healthcare Inc| 500- — M3677",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182422,65,2026-07-30,0.0000,4350.0000,"Insular Healthcare Inc - CATIPAN, VERA THERESA CASIÑO | 07/29/2026 |Insular Healthcare Inc| 4350- — M3677",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182422,65,2026-07-30,0.0000,500.0000,"Insular Healthcare Inc - DAÑO, TRICIA MARIE - | 07/29/2026 |Insular Healthcare Inc| 500- — M3677",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182422,65,2026-07-30,0.0000,500.0000,"Insular Healthcare Inc - FABILLAR, NINOTCHA IMARI BANEZ | 07/29/2026 |FOUNDEVER PHILS. CORPORATION & FOUNDEVER ASIA, INC.| 500- — M3677",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182422,65,2026-07-30,0.0000,500.0000,"Insular Healthcare Inc - HERNANDEZ, EZEKIEL LAGAS | 07/29/2026 |Insular Healthcare Inc| 500- — M3677",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182422,65,2026-07-30,0.0000,500.0000,"Insular Healthcare Inc - IGOT, KENT RYLE BELLEZA | 07/29/2026 |FOUNDEVER PHILS. CORPORATION & FOUNDEVER ASIA, INC.| 500- — M3677",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182422,65,2026-07-30,0.0000,500.0000,"Insular Healthcare Inc - MALINAO, JHON LORENCE QUINANOLA | 07/29/2026 |Insular Healthcare Inc| 500- — M3677",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182422,65,2026-07-30,0.0000,500.0000,"Insular Healthcare Inc - RANAS, JAZEN BLAIR DAÑO | 07/29/2026 |Insular Healthcare Inc| 500- — M3677",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182422,65,2026-07-30,0.0000,500.0000,"Insular Healthcare Inc - SAAVEDRA, ZOHAN ZACCHAEUS JARED DAGONDON | 07/29/2026 |MODER SOLUTIONS, INC.| 500- — M3677",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182422,65,2026-07-30,0.0000,500.0000,"Insular Healthcare Inc - SAYSON, DANNY BULAHAN | 07/29/2026 |CONCENTRIX DAKSH SERVICES PHILIPPINES CORPORATION| 500- — M3677",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182422,65,2026-07-30,0.0000,500.0000,"Insular Healthcare Inc - SEGUIRRA, MIRA MAE CAÑETE | 07/29/2026 |CONCENTRIX DAKSH SERVICES PHILIPPINES CORPORATION| 500- — M3677",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182422,65,2026-07-30,0.0000,500.0000,"Insular Healthcare Inc - TANEO, SACHZNA MIA ATON | 07/29/2026 |CONCENTRIX DAKSH SERVICES PHILIPPINES CORPORATION| 500- — M3677",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182422,65,2026-07-30,0.0000,550.0000,"Insular Healthcare Inc - TANEO, SACHZNA MIA ATON | 07/29/2026 |Insular Healthcare Inc| 550- — M3677",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182422,65,2026-07-30,0.0000,500.0000,"Insular Healthcare Inc - TARIAO, MARIA DAVINA REGIDOR | 07/29/2026 |CONCENTRIX DAKSH SERVICES PHILIPPINES CORPORATION| 500- — M3677",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182422,65,2026-07-30,0.0000,500.0000,"Insular Healthcare Inc - UY, JANNO ROYCE LAVISTE | 07/29/2026 |Insular Healthcare Inc| 500- — M3677",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182422,65,2026-07-30,0.0000,550.0000,"Insular Healthcare Inc - UY, JANNO ROYCE LAVISTE | 07/29/2026 |Insular Healthcare Inc| 550- — M3677",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182423,65,2026-07-30,0.0000,500.0000,"Asalus Corporation - ALEGARME, JOHN REY CABILES | 07/29/2026 |Asalus Corporation| 500- — M3678",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182423,65,2026-07-30,0.0000,1550.0000,"Asalus Corporation - ALEGARME, JOHN REY CABILES | 07/29/2026 |RESULT MANILA, INC.| 1550- — M3678",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182423,65,2026-07-30,0.0000,500.0000,"Asalus Corporation - BAGUIO, LUIS MATTEO RUSIANA | 07/29/2026 |Asalus Corporation| 500- — M3678",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182423,65,2026-07-30,0.0000,500.0000,"Asalus Corporation - BERDIN, MAXELL BERING | 07/29/2026 |Asalus Corporation| 500- — M3678",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182423,65,2026-07-30,0.0000,500.0000,"Asalus Corporation - BOTICARIO, MARY JUNE SAGUIPED | 07/29/2026 |Asalus Corporation| 500- — M3678",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182423,65,2026-07-30,0.0000,500.0000,"Asalus Corporation - DIGAMO, STEPHEN JHON ARCA | 07/29/2026 |RESULT MANILA, INC.| 500- — M3678",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182423,65,2026-07-30,0.0000,2192.0000,"Asalus Corporation - FUENTES, CHIMMY LOU EPE | 07/29/2026 |DYNATA CEBU| 2192- — M3678",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182423,65,2026-07-30,0.0000,1637.0000,"Asalus Corporation - MAATA, JAHARRA LEE - | 07/29/2026 |Asalus Corporation| 1637- — M3678",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182423,65,2026-07-30,0.0000,5300.0000,"Asalus Corporation - MARQUEZ, MARILYN COLON | 07/29/2026 |Asalus Corporation| 5300- — M3678",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182423,65,2026-07-30,0.0000,750.0000,"Asalus Corporation - PALOMARES, MLA PENINSULA LIGAD | 07/29/2026 |Asalus Corporation| 750- — M3678",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182423,65,2026-07-30,0.0000,500.0000,"Asalus Corporation - PARAGOSO, MARY I J ALISON | 07/29/2026 |Asalus Corporation| 500- — M3678",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182423,65,2026-07-30,0.0000,2952.0000,"Asalus Corporation - PARAGOSO, MARY I J ALISON | 07/29/2026 |Asalus Corporation| 2952- — M3678",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182423,65,2026-07-30,0.0000,500.0000,"Asalus Corporation - SANSON, RACQUELLE CONCEPCION RILLERA | 07/29/2026 |Asalus Corporation| 500- — M3678",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182423,65,2026-07-30,0.0000,500.0000,"Asalus Corporation - SEGUMALI-AN, LIDA NIEBLA | 07/29/2026 |Asalus Corporation| 500- — M3678",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182423,65,2026-07-30,0.0000,275.0000,"Asalus Corporation - SUPREMO, JAN MICHAEL LARONA | 07/29/2026 |Asalus Corporation| 275- — M3678",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182423,65,2026-07-30,0.0000,500.0000,"Asalus Corporation - TURA, EMERITA SALDUA | 07/29/2026 |TERADYNE PHILIPPINES LIMITED| 500- — M3678",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182423,65,2026-07-30,0.0000,435.0000,"Asalus Corporation - VALENCIA, ANNA LIBODLIBOD | 07/29/2026 |RESULT MANILA, INC.| 435- — M3678",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182424,65,2026-07-30,0.0000,480.0000,"Knowles Electronics Philippines - ARIQUEZ, JOYCE PINTOR | 07/29/2026 |KNOWLES ELECTRONICS PHILIPPINES| 480- — M3679",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182425,65,2026-07-30,0.0000,400.0000,"Life & Health Hmp Inc - BUNAL, MARY GRACE CAVALIDA | 07/29/2026 |Life & Health Hmp Inc| 400- — M3680",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182425,65,2026-07-30,0.0000,400.0000,"Life & Health Hmp Inc - CABARDO, ANGELA OSIAL | 07/29/2026 |Life & Health Hmp Inc| 400- — M3680",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182425,65,2026-07-30,0.0000,400.0000,"Life & Health Hmp Inc - CREO, REYNIEL ESTELLORE | 07/29/2026 |Life & Health Hmp Inc| 400- — M3680",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182425,65,2026-07-30,0.0000,270.0000,"Life & Health Hmp Inc - CREO, REYNIEL ESTELLORE | 07/29/2026 |Life & Health Hmp Inc| 270- — M3680",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182425,65,2026-07-30,0.0000,180.0000,"Life & Health Hmp Inc - DAHIL DAHIL, EVELYN PA | 07/29/2026 |Life & Health Hmp Inc| 180- — M3680",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182425,65,2026-07-30,0.0000,270.0000,"Life & Health Hmp Inc - GUIGAYOMA, JOSSIE LIBETARIO | 07/29/2026 |Life & Health Hmp Inc| 270- — M3680",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182425,65,2026-07-30,0.0000,400.0000,"Life & Health Hmp Inc - JABIEN, RIZALINA GARIALDO | 07/29/2026 |Life & Health Hmp Inc| 400- — M3680",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182425,65,2026-07-30,0.0000,7910.0000,"Life & Health Hmp Inc - JABIEN, RIZALINA GARIALDO | 07/29/2026 |Life & Health Hmp Inc| 3710- — M3680",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182425,65,2026-07-30,0.0000,550.0000,"Life & Health Hmp Inc - LADA, KARISH MAE REAMBONANZA | 07/29/2026 |Life & Health Hmp Inc| 550- — M3680",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182425,65,2026-07-30,0.0000,400.0000,"Life & Health Hmp Inc - LOGATIMAN, MARY ANN BENSING | 07/29/2026 |Life & Health Hmp Inc| 400- — M3680",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182425,65,2026-07-30,0.0000,400.0000,"Life & Health Hmp Inc - MOLINA, JANINE BAUTISTA | 07/29/2026 |Life & Health Hmp Inc| 400- — M3680",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182425,65,2026-07-30,0.0000,2665.0000,"Life & Health Hmp Inc - OMAR, YASIR BIN | 07/29/2026 |Life & Health Hmp Inc| 1570- — M3680",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182425,65,2026-07-30,0.0000,3950.0000,"Life & Health Hmp Inc - OMAR, YASIR BIN | 07/29/2026 |Life & Health Hmp Inc| 3950- — M3680",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182425,65,2026-07-30,0.0000,400.0000,"Life & Health Hmp Inc - PARAÑAL, BERNADETTE PILARI | 07/29/2026 |Life & Health Hmp Inc| 400- — M3680",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182425,65,2026-07-30,0.0000,400.0000,"Life & Health Hmp Inc - VILLEGAS, KAYE JASMINE MAITUM | 07/29/2026 |Life & Health Hmp Inc| 400- — M3680",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182425,65,2026-07-30,0.0000,450.0000,"Life & Health Hmp Inc - VILLEGAS, KAYE JASMINE MAITUM | 07/29/2026 |Life & Health Hmp Inc| 450- — M3680",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182425,65,2026-07-30,0.0000,400.0000,"Life & Health Hmp Inc - VISCARA, ELOISA JANE DAMPAS | 07/29/2026 |Life & Health Hmp Inc| 400- — M3680",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182425,65,2026-07-30,0.0000,400.0000,"Life & Health Hmp Inc - YBAÑEZ, MANUEL JR FLORES | 07/29/2026 |Life & Health Hmp Inc| 400- — M3680",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182324,65,2026-07-30,178936.0000,0.0000,"Sales Branches July 30, 2026 - Term Sales - July, 30 — #71195",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182329,57,2026-07-30,0.0000,613.7000,Life & Health Hmp Inc — CN-6188,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182060,57,2026-07-30,0.0000,613.7000,Life & Health Hmp Inc — M2232,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182370,57,2026-07-30,613.7000,0.0000,Life & Health Hmp Inc — CN-6188,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181343,57,2026-07-30,0.0000,30071.3000,Payment: Life & Health Hmp Inc — M2232,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182330,57,2026-07-30,0.0000,35.0000,Life & Health Hmp Inc — CN-6189,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182282,57,2026-07-30,0.0000,35.0000,Life & Health Hmp Inc — M2058,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182371,57,2026-07-30,35.0000,0.0000,Life & Health Hmp Inc — CN-6189,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182319,57,2026-07-30,0.0000,1715.0000,Payment: Life & Health Hmp Inc — M2058,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182331,57,2026-07-30,0.0000,159.5000,Life & Health Hmp Inc — CN-6190,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181808,57,2026-07-30,0.0000,159.5000,Life & Health Hmp Inc — M2304,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182372,57,2026-07-30,159.5000,0.0000,Life & Health Hmp Inc — CN-6190,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180974,57,2026-07-30,0.0000,7815.5000,Payment: Life & Health Hmp Inc — M2304,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182332,57,2026-07-30,0.0000,13.4000,Life & Health Hmp Inc — CN-6191,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181809,57,2026-07-30,0.0000,13.4000,Life & Health Hmp Inc — M2313,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182373,57,2026-07-30,13.4000,0.0000,Life & Health Hmp Inc — CN-6191,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180975,57,2026-07-30,0.0000,656.6000,Payment: Life & Health Hmp Inc — M2313,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182333,57,2026-07-30,0.0000,8.0000,Life & Health Hmp Inc — CN-6192,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181811,57,2026-07-30,0.0000,8.0000,Life & Health Hmp Inc — M2344,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182374,57,2026-07-30,8.0000,0.0000,Life & Health Hmp Inc — CN-6192,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180977,57,2026-07-30,0.0000,392.0000,Payment: Life & Health Hmp Inc — M2344,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182334,57,2026-07-30,0.0000,32.0000,Life & Health Hmp Inc — CN-6193,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181810,57,2026-07-30,0.0000,32.0000,Life & Health Hmp Inc — M2335,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182375,57,2026-07-30,32.0000,0.0000,Life & Health Hmp Inc — CN-6193,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180976,57,2026-07-30,0.0000,1568.0000,Payment: Life & Health Hmp Inc — M2335,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182335,57,2026-07-30,0.0000,124.2000,Life & Health Hmp Inc — CN-6194,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182059,57,2026-07-30,0.0000,124.2000,Life & Health Hmp Inc — M2198,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182376,57,2026-07-30,124.2000,0.0000,Life & Health Hmp Inc — CN-6194,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182090,57,2026-07-30,0.0000,6085.8000,Payment: Life & Health Hmp Inc — M2198,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182336,57,2026-07-30,0.0000,123.0000,Life & Health Hmp Inc — CN-6195,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181804,57,2026-07-30,0.0000,123.0000,Life & Health Hmp Inc — M2165,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182377,57,2026-07-30,123.0000,0.0000,Life & Health Hmp Inc — CN-6195,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180968,57,2026-07-30,0.0000,6027.0000,Payment: Life & Health Hmp Inc — M2165,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182337,57,2026-07-30,0.0000,230.8000,Life & Health Hmp Inc — CN-6196,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182411,57,2026-07-30,0.0000,230.8000,Life & Health Hmp Inc — M1590,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182378,57,2026-07-30,230.8000,0.0000,Life & Health Hmp Inc — CN-6196,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182429,57,2026-07-30,0.0000,11309.2000,Payment: Life & Health Hmp Inc — M1590,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182338,57,2026-07-30,0.0000,8.0000,Life & Health Hmp Inc — CN-6197,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181800,57,2026-07-30,0.0000,8.0000,Life & Health Hmp Inc — M1795,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182379,57,2026-07-30,8.0000,0.0000,Life & Health Hmp Inc — CN-6197,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181335,57,2026-07-30,0.0000,392.0000,Payment: Life & Health Hmp Inc — M1795,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182339,57,2026-07-30,0.0000,166.4000,Life & Health Hmp Inc — CN-6198,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182054,57,2026-07-30,0.0000,166.4000,Life & Health Hmp Inc — M1827,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182380,57,2026-07-30,166.4000,0.0000,Life & Health Hmp Inc — CN-6198,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182085,57,2026-07-30,0.0000,8153.6000,Payment: Life & Health Hmp Inc — M1827,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182340,57,2026-07-30,0.0000,1138.0000,Life & Health Hmp Inc — CN-6225,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182284,57,2026-07-30,0.0000,1138.0000,Life & Health Hmp Inc — M2495,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182381,57,2026-07-30,1138.0000,0.0000,Life & Health Hmp Inc — CN-6225,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182321,57,2026-07-30,0.0000,55762.0000,Payment: Life & Health Hmp Inc — M2495,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182341,57,2026-07-30,0.0000,2404.2000,Life & Health Hmp Inc — CN-6226,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182285,57,2026-07-30,0.0000,2404.2000,Life & Health Hmp Inc — M2520,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182382,57,2026-07-30,2404.2000,0.0000,Life & Health Hmp Inc — CN-6226,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181355,57,2026-07-30,0.0000,117805.8000,Payment: Life & Health Hmp Inc — M2520,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182342,57,2026-07-30,0.0000,683.5200,Life & Health Hmp Inc — CN-6227,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181952,57,2026-07-30,0.0000,683.5200,Life & Health Hmp Inc — M2508,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182383,57,2026-07-30,683.5200,0.0000,Life & Health Hmp Inc — CN-6227,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180987,57,2026-07-30,0.0000,33492.4800,Payment: Life & Health Hmp Inc — M2508,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182343,57,2026-07-30,0.0000,3347.4000,Life & Health Hmp Inc — CN-6228,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181816,57,2026-07-30,0.0000,3347.4000,Life & Health Hmp Inc — M2457,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182384,57,2026-07-30,3347.4000,0.0000,Life & Health Hmp Inc — CN-6228,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180985,57,2026-07-30,0.0000,164022.6000,Payment: Life & Health Hmp Inc — M2457,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182344,57,2026-07-30,0.0000,307.1000,"LIFE & HEALTH HMP, INC. — CN-6240",1,0,2026-07-31 23:59:59,0
+3,journal_entry,181818,57,2026-07-30,0.0000,307.1000,"LIFE & HEALTH HMP, INC. — M2555",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182385,57,2026-07-30,307.1000,0.0000,"LIFE & HEALTH HMP, INC. — CN-6240",1,0,2026-07-31 23:59:59,0
+3,journal_entry,180991,57,2026-07-30,0.0000,15047.9000,"Payment: LIFE & HEALTH HMP, INC. — M2555",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182345,57,2026-07-30,0.0000,593.8000,Life & Health Hmp Inc — CN-6242,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181820,57,2026-07-30,0.0000,593.8000,Life & Health Hmp Inc — M2629,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182386,57,2026-07-30,593.8000,0.0000,Life & Health Hmp Inc — CN-6242,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180996,57,2026-07-30,0.0000,29096.2000,Payment: Life & Health Hmp Inc — M2629,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182346,57,2026-07-30,0.0000,1102.3000,Life & Health Hmp Inc — CN-6243,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181954,57,2026-07-30,0.0000,1102.3000,Life & Health Hmp Inc — M2570,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182387,57,2026-07-30,1102.3000,0.0000,Life & Health Hmp Inc — CN-6243,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180992,57,2026-07-30,0.0000,54012.7000,Payment: Life & Health Hmp Inc — M2570,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182347,57,2026-07-30,0.0000,17.2000,Life & Health Hmp Inc — CN-6244,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181800,57,2026-07-30,0.0000,17.2000,Life & Health Hmp Inc — M1795,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182388,57,2026-07-30,17.2000,0.0000,Life & Health Hmp Inc — CN-6244,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181335,57,2026-07-30,0.0000,842.8000,Payment: Life & Health Hmp Inc — M1795,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182348,57,2026-07-30,0.0000,16.0000,Life & Health Hmp Inc — CN-6245,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182060,57,2026-07-30,0.0000,16.0000,Life & Health Hmp Inc — M2232,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182389,57,2026-07-30,16.0000,0.0000,Life & Health Hmp Inc — CN-6245,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181343,57,2026-07-30,0.0000,784.0000,Payment: Life & Health Hmp Inc — M2232,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182418,57,2026-07-30,500.0000,0.0000,"Avega Managed Care, Inc — M3673",1,0,2026-07-31 23:59:59,0
+3,journal_entry,182349,57,2026-07-30,0.0000,96.9100,Life & Health Hmp Inc — CN-6246,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182284,57,2026-07-30,0.0000,96.9100,Life & Health Hmp Inc — M2495,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182390,57,2026-07-30,96.9100,0.0000,Life & Health Hmp Inc — CN-6246,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182321,57,2026-07-30,0.0000,4748.5900,Payment: Life & Health Hmp Inc — M2495,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182350,57,2026-07-30,0.0000,75.0000,Life & Health Hmp Inc — CN-6247,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181955,57,2026-07-30,0.0000,75.0000,Life & Health Hmp Inc — M2583,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182391,57,2026-07-30,75.0000,0.0000,Life & Health Hmp Inc — CN-6247,1,0,2026-07-31 23:59:59,0
+3,journal_entry,180993,57,2026-07-30,0.0000,3675.0000,Payment: Life & Health Hmp Inc — M2583,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182351,57,2026-07-30,0.0000,37.0000,Life & Health Hmp Inc — CN-6248,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181805,57,2026-07-30,0.0000,37.0000,Life & Health Hmp Inc — M2223,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182392,57,2026-07-30,37.0000,0.0000,Life & Health Hmp Inc — CN-6248,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181341,57,2026-07-30,0.0000,1813.0000,Payment: Life & Health Hmp Inc — M2223,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182419,57,2026-07-30,5920.0000,0.0000,Cooperative Health Management Federation — M3674,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182352,57,2026-07-30,0.0000,605.0000,Life & Health Hmp Inc — CN-6249,1,0,2026-07-31 23:59:59,0
+3,journal_entry,181956,57,2026-07-30,0.0000,605.0000,Life & Health Hmp Inc — M2598,1,0,2026-07-31 23:59:59,0
+3,journal_entry,182393,57,2026-07-30,605.0000,0.0000,Life & Health Hmp Inc — CN-6249,1,0,2026-07-31 23:59:59,0

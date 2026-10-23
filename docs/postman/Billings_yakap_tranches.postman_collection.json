@@ -1,0 +1,1992 @@
+{
+  "info": {
+    "_postman_id": "8b717e90-4e46-4a77-b3ba-0f922ecdce99",
+    "name": "Billings — YAKAP Tranches",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "# YAKAP period billing API\n\nImport this Collection v2.1 into Postman. Set `base_url`, `api_key`, `token`, and `requester` for your environment. Credential variables are intentionally blank.\n\n- UAT: https://zuat-accounting-back.myt-emr.com\n- Production: https://accounting-back.myt-emr.com\n\nDefault branch is 2 (Oakridge), year 2025, month 12. Adjust these to the actual period before sending requests. All saved response examples are illustrative and are not captured production data. Bills use company 3210, gross amounts, existing approval thresholds, and existing GL/JE/collection behavior.\n\nThe two preview requests are read-only. The two creation examples call the same POST endpoint with different tranche_number values. No API calls were executed to generate this document. No automatic workflow scripts are included.\n\nSuccessful responses are plain JSON objects, without an extra data/status wrapper. Validation failures use status/error/messages.error_messages. Source failures use the existing server-error response (500), never silently zero counts. Preview date eligibility changes with current Asia/Manila time. Existing prior-year carryover and submission-deadline rules are outside this version."
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "https://zuat-accounting-back.myt-emr.com",
+      "type": "string"
+    },
+    {
+      "key": "api_key",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "token",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "requester",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "branch_id",
+      "value": "2",
+      "type": "string"
+    },
+    {
+      "key": "year",
+      "value": "2025",
+      "type": "string"
+    },
+    {
+      "key": "month",
+      "value": "12",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "Get tranche 1 — monthly preview",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}",
+            "type": "text"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/billings/get_tranche1?token={{token}}&requester={{requester}}&branch_id={{branch_id}}&year={{year}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "billings",
+            "get_tranche1"
+          ],
+          "query": [
+            {
+              "key": "token",
+              "value": "{{token}}",
+              "description": "Required valid environment token."
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}",
+              "description": "Required authenticated user ID."
+            },
+            {
+              "key": "branch_id",
+              "value": "{{branch_id}}",
+              "description": "Required supported clinic branch ID."
+            },
+            {
+              "key": "year",
+              "value": "{{year}}",
+              "description": "Required calendar year."
+            }
+          ]
+        },
+        "description": "## Monthly FPE billing preview\n\nAuthentication: `API-KEY` header plus `token` and `requester` query/form fields. Permissions follow existing billing transaction-read/create permissions. All examples are illustrative, not captured from production.\n\nBranch IDs: 1 Mobile, 2 Oakridge, 3 Mactan, 4 Consolacion, 7 Mantlewood. `year` must be an integer from 1900 through 9998. Each endpoint handles one branch; no branchless union or pagination parameters are used.\n\nReturns all 12 months. `fpe_count` counts unique active patients, assigned to the month of their earliest active FPE **within this year**. Repeated FPE records do not increase the annual cohort. Amount = FPE count × ₱680.\n\nEach month returns `is_completed`, `is_billed`, `can_bill`, and nullable `billing` (saved billing reference and snapshot). A month is complete from the first day of its following month, Asia/Manila. Zero-value or already billed months cannot be created.\n\n`totals` has `total`, `billed`, `unbilled`, and `completed_unbilled`; each contains live `fpe_count` and `calculated_amount`. Root `billed_amount` sums actual saved amounts. Live source changes can make calculated amounts differ from saved snapshots; existing bills are not silently recalculated."
+      },
+      "response": [
+        {
+          "name": "Illustrative — 12 months with billed and unbilled periods",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/billings/get_tranche1?token={{token}}&requester={{requester}}&branch_id={{branch_id}}&year={{year}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "billings",
+                "get_tranche1"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "description": "Required valid environment token."
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "description": "Required authenticated user ID."
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "description": "Required supported clinic branch ID."
+                },
+                {
+                  "key": "year",
+                  "value": "{{year}}",
+                  "description": "Required calendar year."
+                }
+              ]
+            },
+            "description": "## Monthly FPE billing preview\n\nAuthentication: `API-KEY` header plus `token` and `requester` query/form fields. Permissions follow existing billing transaction-read/create permissions. All examples are illustrative, not captured from production.\n\nBranch IDs: 1 Mobile, 2 Oakridge, 3 Mactan, 4 Consolacion, 7 Mantlewood. `year` must be an integer from 1900 through 9998. Each endpoint handles one branch; no branchless union or pagination parameters are used.\n\nReturns all 12 months. `fpe_count` counts unique active patients, assigned to the month of their earliest active FPE **within this year**. Repeated FPE records do not increase the annual cohort. Amount = FPE count × ₱680.\n\nEach month returns `is_completed`, `is_billed`, `can_bill`, and nullable `billing` (saved billing reference and snapshot). A month is complete from the first day of its following month, Asia/Manila. Zero-value or already billed months cannot be created.\n\n`totals` has `total`, `billed`, `unbilled`, and `completed_unbilled`; each contains live `fpe_count` and `calculated_amount`. Root `billed_amount` sums actual saved amounts. Live source changes can make calculated amounts differ from saved snapshots; existing bills are not silently recalculated."
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"company_id\": 3210,\n  \"branch_id\": 2,\n  \"branch_name\": \"Oakridge\",\n  \"year\": 2025,\n  \"tranche_number\": 1,\n  \"months\": [\n    {\n      \"month\": 1,\n      \"fpe_count\": 1500,\n      \"rate\": 680,\n      \"calculated_amount\": 1020000,\n      \"is_completed\": true,\n      \"is_billed\": true,\n      \"can_bill\": false,\n      \"billing\": {\n        \"billing_entry_id\": \"801\",\n        \"billing_id\": \"501\",\n        \"yakap_tranche\": \"1\",\n        \"yakap_year\": \"2025\",\n        \"yakap_month\": \"1\",\n        \"billed_amount\": \"1020000.0000\",\n        \"status\": \"pending\",\n        \"calculation_snapshot\": {\n          \"month\": 1,\n          \"fpe_count\": 1500,\n          \"rate\": 680,\n          \"calculated_amount\": 1020000,\n          \"is_completed\": true,\n          \"is_billed\": false,\n          \"can_bill\": true,\n          \"billing\": null,\n          \"calculated_on\": \"2026-01-15 09:00:00\",\n          \"calculation_version\": 1\n        }\n      }\n    },\n    {\n      \"month\": 2,\n      \"fpe_count\": 2000,\n      \"rate\": 680,\n      \"calculated_amount\": 1360000,\n      \"is_completed\": true,\n      \"is_billed\": true,\n      \"can_bill\": false,\n      \"billing\": {\n        \"billing_entry_id\": \"802\",\n        \"billing_id\": \"502\",\n        \"yakap_tranche\": \"1\",\n        \"yakap_year\": \"2025\",\n        \"yakap_month\": \"2\",\n        \"billed_amount\": \"1360000.0000\",\n        \"status\": \"pending\",\n        \"calculation_snapshot\": {\n          \"month\": 2,\n          \"fpe_count\": 2000,\n          \"rate\": 680,\n          \"calculated_amount\": 1360000,\n          \"is_completed\": true,\n          \"is_billed\": false,\n          \"can_bill\": true,\n          \"billing\": null,\n          \"calculated_on\": \"2026-01-15 09:00:00\",\n          \"calculation_version\": 1\n        }\n      }\n    },\n    {\n      \"month\": 3,\n      \"fpe_count\": 500,\n      \"rate\": 680,\n      \"calculated_amount\": 340000,\n      \"is_completed\": true,\n      \"is_billed\": false,\n      \"can_bill\": true,\n      \"billing\": null\n    },\n    {\n      \"month\": 4,\n      \"fpe_count\": 3000,\n      \"rate\": 680,\n      \"calculated_amount\": 2040000,\n      \"is_completed\": true,\n      \"is_billed\": false,\n      \"can_bill\": true,\n      \"billing\": null\n    },\n    {\n      \"month\": 5,\n      \"fpe_count\": 600,\n      \"rate\": 680,\n      \"calculated_amount\": 408000,\n      \"is_completed\": true,\n      \"is_billed\": false,\n      \"can_bill\": true,\n      \"billing\": null\n    },\n    {\n      \"month\": 6,\n      \"fpe_count\": 1500,\n      \"rate\": 680,\n      \"calculated_amount\": 1020000,\n      \"is_completed\": true,\n      \"is_billed\": false,\n      \"can_bill\": true,\n      \"billing\": null\n    },\n    {\n      \"month\": 7,\n      \"fpe_count\": 1000,\n      \"rate\": 680,\n      \"calculated_amount\": 680000,\n      \"is_completed\": true,\n      \"is_billed\": false,\n      \"can_bill\": true,\n      \"billing\": null\n    },\n    {\n      \"month\": 8,\n      \"fpe_count\": 750,\n      \"rate\": 680,\n      \"calculated_amount\": 510000,\n      \"is_completed\": true,\n      \"is_billed\": false,\n      \"can_bill\": true,\n      \"billing\": null\n    },\n    {\n      \"month\": 9,\n      \"fpe_count\": 1300,\n      \"rate\": 680,\n      \"calculated_amount\": 884000,\n      \"is_completed\": true,\n      \"is_billed\": false,\n      \"can_bill\": true,\n      \"billing\": null\n    },\n    {\n      \"month\": 10,\n      \"fpe_count\": 800,\n      \"rate\": 680,\n      \"calculated_amount\": 544000,\n      \"is_completed\": true,\n      \"is_billed\": false,\n      \"can_bill\": true,\n      \"billing\": null\n    },\n    {\n      \"month\": 11,\n      \"fpe_count\": 1000,\n      \"rate\": 680,\n      \"calculated_amount\": 680000,\n      \"is_completed\": true,\n      \"is_billed\": false,\n      \"can_bill\": true,\n      \"billing\": null\n    },\n    {\n      \"month\": 12,\n      \"fpe_count\": 900,\n      \"rate\": 680,\n      \"calculated_amount\": 612000,\n      \"is_completed\": true,\n      \"is_billed\": false,\n      \"can_bill\": true,\n      \"billing\": null\n    }\n  ],\n  \"totals\": {\n    \"total\": {\n      \"fpe_count\": 14850,\n      \"calculated_amount\": 10098000\n    },\n    \"billed\": {\n      \"fpe_count\": 3500,\n      \"calculated_amount\": 2380000\n    },\n    \"unbilled\": {\n      \"fpe_count\": 11350,\n      \"calculated_amount\": 7718000\n    },\n    \"completed_unbilled\": {\n      \"fpe_count\": 11350,\n      \"calculated_amount\": 7718000\n    }\n  },\n  \"billed_amount\": 2380000\n}"
+        },
+        {
+          "name": "Illustrative — missing branch_id",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/billings/get_tranche1?token={{token}}&requester={{requester}}&year={{year}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "billings",
+                "get_tranche1"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "description": "Required valid environment token."
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "description": "Required authenticated user ID."
+                },
+                {
+                  "key": "year",
+                  "value": "{{year}}",
+                  "description": "Required calendar year."
+                }
+              ]
+            },
+            "description": "## Monthly FPE billing preview\n\nAuthentication: `API-KEY` header plus `token` and `requester` query/form fields. Permissions follow existing billing transaction-read/create permissions. All examples are illustrative, not captured from production.\n\nBranch IDs: 1 Mobile, 2 Oakridge, 3 Mactan, 4 Consolacion, 7 Mantlewood. `year` must be an integer from 1900 through 9998. Each endpoint handles one branch; no branchless union or pagination parameters are used.\n\nReturns all 12 months. `fpe_count` counts unique active patients, assigned to the month of their earliest active FPE **within this year**. Repeated FPE records do not increase the annual cohort. Amount = FPE count × ₱680.\n\nEach month returns `is_completed`, `is_billed`, `can_bill`, and nullable `billing` (saved billing reference and snapshot). A month is complete from the first day of its following month, Asia/Manila. Zero-value or already billed months cannot be created.\n\n`totals` has `total`, `billed`, `unbilled`, and `completed_unbilled`; each contains live `fpe_count` and `calculated_amount`. Root `billed_amount` sums actual saved amounts. Live source changes can make calculated amounts differ from saved snapshots; existing bills are not silently recalculated."
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"branch_id must be a positive integer.\"\n    ]\n  }\n}"
+        },
+        {
+          "name": "Illustrative — unsupported branch",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/billings/get_tranche1?token={{token}}&requester={{requester}}&year={{year}}&branch_id=5",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "billings",
+                "get_tranche1"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "description": "Required valid environment token."
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "description": "Required authenticated user ID."
+                },
+                {
+                  "key": "year",
+                  "value": "{{year}}",
+                  "description": "Required calendar year."
+                },
+                {
+                  "key": "branch_id",
+                  "value": "5"
+                }
+              ]
+            },
+            "description": "## Monthly FPE billing preview\n\nAuthentication: `API-KEY` header plus `token` and `requester` query/form fields. Permissions follow existing billing transaction-read/create permissions. All examples are illustrative, not captured from production.\n\nBranch IDs: 1 Mobile, 2 Oakridge, 3 Mactan, 4 Consolacion, 7 Mantlewood. `year` must be an integer from 1900 through 9998. Each endpoint handles one branch; no branchless union or pagination parameters are used.\n\nReturns all 12 months. `fpe_count` counts unique active patients, assigned to the month of their earliest active FPE **within this year**. Repeated FPE records do not increase the annual cohort. Amount = FPE count × ₱680.\n\nEach month returns `is_completed`, `is_billed`, `can_bill`, and nullable `billing` (saved billing reference and snapshot). A month is complete from the first day of its following month, Asia/Manila. Zero-value or already billed months cannot be created.\n\n`totals` has `total`, `billed`, `unbilled`, and `completed_unbilled`; each contains live `fpe_count` and `calculated_amount`. Root `billed_amount` sums actual saved amounts. Live source changes can make calculated amounts differ from saved snapshots; existing bills are not silently recalculated."
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"Unsupported branch_id or year.\"\n    ]\n  }\n}"
+        }
+      ]
+    },
+    {
+      "name": "Get tranche 2 — annual preview",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}",
+            "type": "text"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/billings/get_tranche2?token={{token}}&requester={{requester}}&branch_id={{branch_id}}&year={{year}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "billings",
+            "get_tranche2"
+          ],
+          "query": [
+            {
+              "key": "token",
+              "value": "{{token}}",
+              "description": "Required valid environment token."
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}",
+              "description": "Required authenticated user ID."
+            },
+            {
+              "key": "branch_id",
+              "value": "{{branch_id}}",
+              "description": "Required supported clinic branch ID."
+            },
+            {
+              "key": "year",
+              "value": "{{year}}",
+              "description": "Required calendar year."
+            }
+          ]
+        },
+        "description": "## Annual performance billing preview\n\nAuthentication: `API-KEY` header plus `token` and `requester` query/form fields. Permissions follow existing billing transaction-read/create permissions. All examples are illustrative, not captured from production.\n\nBranch IDs: 1 Mobile, 2 Oakridge, 3 Mactan, 4 Consolacion, 7 Mantlewood. `year` must be an integer from 1900 through 9998. Each endpoint handles one branch; no branchless union or pagination parameters are used.\n\nThe denominator is the unique active FPE cohort for the year. Annual KPIs count unique beneficiaries within that cohort: active ekonsulta assessments, active laboratory results (no is_sent requirement), and therapeutic prescriptions linked to active ekonsulta assessments and active master items. Antibiotics use is_antibiotic=1; NCD uses is_antibiotic=0 with a non-null philhealth_medicine_type. Therapeutic records indicate prescriptions, not verified dispensing.\n\nTargets/weights: consultation 1/0.30; laboratory 0.50/0.30; antibiotic 0.15/0.10; NCD 0.20/0.30. For each KPI: actual_score = round(count/FPE, 2); computation = round(min(actual_score/target, 1), 2); resultant_score = round(computation×weight, 2). All rounding is half up. Sum resultant scores, then gross amount = round(FPE×performance_factor×₱1,020, 2). Zero FPE gives zero scores/amount.\n\nAn annual period is complete from January 1 of the next year, Asia/Manila. Previews remain available for unfinished years; `can_bill` is false. The sample shows 14,850 FPEs and 8,000/3,000/2,000/1,500 KPI beneficiaries producing 52% and ₱7,876,440. `billing` is null when unbilled; otherwise it contains the immutable saved snapshot. `billed_amount` is the saved gross amount and `unbilled_amount` is zero when billed."
+      },
+      "response": [
+        {
+          "name": "Illustrative — 52% sample — unbilled completed year",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/billings/get_tranche2?token={{token}}&requester={{requester}}&branch_id={{branch_id}}&year={{year}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "billings",
+                "get_tranche2"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "description": "Required valid environment token."
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "description": "Required authenticated user ID."
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "description": "Required supported clinic branch ID."
+                },
+                {
+                  "key": "year",
+                  "value": "{{year}}",
+                  "description": "Required calendar year."
+                }
+              ]
+            },
+            "description": "## Annual performance billing preview\n\nAuthentication: `API-KEY` header plus `token` and `requester` query/form fields. Permissions follow existing billing transaction-read/create permissions. All examples are illustrative, not captured from production.\n\nBranch IDs: 1 Mobile, 2 Oakridge, 3 Mactan, 4 Consolacion, 7 Mantlewood. `year` must be an integer from 1900 through 9998. Each endpoint handles one branch; no branchless union or pagination parameters are used.\n\nThe denominator is the unique active FPE cohort for the year. Annual KPIs count unique beneficiaries within that cohort: active ekonsulta assessments, active laboratory results (no is_sent requirement), and therapeutic prescriptions linked to active ekonsulta assessments and active master items. Antibiotics use is_antibiotic=1; NCD uses is_antibiotic=0 with a non-null philhealth_medicine_type. Therapeutic records indicate prescriptions, not verified dispensing.\n\nTargets/weights: consultation 1/0.30; laboratory 0.50/0.30; antibiotic 0.15/0.10; NCD 0.20/0.30. For each KPI: actual_score = round(count/FPE, 2); computation = round(min(actual_score/target, 1), 2); resultant_score = round(computation×weight, 2). All rounding is half up. Sum resultant scores, then gross amount = round(FPE×performance_factor×₱1,020, 2). Zero FPE gives zero scores/amount.\n\nAn annual period is complete from January 1 of the next year, Asia/Manila. Previews remain available for unfinished years; `can_bill` is false. The sample shows 14,850 FPEs and 8,000/3,000/2,000/1,500 KPI beneficiaries producing 52% and ₱7,876,440. `billing` is null when unbilled; otherwise it contains the immutable saved snapshot. `billed_amount` is the saved gross amount and `unbilled_amount` is zero when billed."
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"company_id\": 3210,\n  \"branch_id\": 2,\n  \"branch_name\": \"Oakridge\",\n  \"year\": 2025,\n  \"tranche_number\": 2,\n  \"fpe_count\": 14850,\n  \"rate\": 1020,\n  \"breakdown\": {\n    \"consultation\": {\n      \"count\": 8000,\n      \"target\": 1,\n      \"weight\": 0.3,\n      \"actual_score\": 0.54,\n      \"computation\": 0.54,\n      \"resultant_score\": 0.16\n    },\n    \"laboratory\": {\n      \"count\": 3000,\n      \"target\": 0.5,\n      \"weight\": 0.3,\n      \"actual_score\": 0.2,\n      \"computation\": 0.4,\n      \"resultant_score\": 0.12\n    },\n    \"antibiotic\": {\n      \"count\": 2000,\n      \"target\": 0.15,\n      \"weight\": 0.1,\n      \"actual_score\": 0.13,\n      \"computation\": 0.87,\n      \"resultant_score\": 0.09\n    },\n    \"ncd\": {\n      \"count\": 1500,\n      \"target\": 0.2,\n      \"weight\": 0.3,\n      \"actual_score\": 0.1,\n      \"computation\": 0.5,\n      \"resultant_score\": 0.15\n    }\n  },\n  \"performance_factor\": 0.52,\n  \"calculated_amount\": 7876440,\n  \"is_completed\": true,\n  \"is_billed\": false,\n  \"can_bill\": true,\n  \"billing\": null,\n  \"billed_amount\": 0,\n  \"unbilled_amount\": 7876440\n}"
+        },
+        {
+          "name": "Illustrative — billed year with saved snapshot",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/billings/get_tranche2?token={{token}}&requester={{requester}}&branch_id={{branch_id}}&year={{year}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "billings",
+                "get_tranche2"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "description": "Required valid environment token."
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "description": "Required authenticated user ID."
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "description": "Required supported clinic branch ID."
+                },
+                {
+                  "key": "year",
+                  "value": "{{year}}",
+                  "description": "Required calendar year."
+                }
+              ]
+            },
+            "description": "## Annual performance billing preview\n\nAuthentication: `API-KEY` header plus `token` and `requester` query/form fields. Permissions follow existing billing transaction-read/create permissions. All examples are illustrative, not captured from production.\n\nBranch IDs: 1 Mobile, 2 Oakridge, 3 Mactan, 4 Consolacion, 7 Mantlewood. `year` must be an integer from 1900 through 9998. Each endpoint handles one branch; no branchless union or pagination parameters are used.\n\nThe denominator is the unique active FPE cohort for the year. Annual KPIs count unique beneficiaries within that cohort: active ekonsulta assessments, active laboratory results (no is_sent requirement), and therapeutic prescriptions linked to active ekonsulta assessments and active master items. Antibiotics use is_antibiotic=1; NCD uses is_antibiotic=0 with a non-null philhealth_medicine_type. Therapeutic records indicate prescriptions, not verified dispensing.\n\nTargets/weights: consultation 1/0.30; laboratory 0.50/0.30; antibiotic 0.15/0.10; NCD 0.20/0.30. For each KPI: actual_score = round(count/FPE, 2); computation = round(min(actual_score/target, 1), 2); resultant_score = round(computation×weight, 2). All rounding is half up. Sum resultant scores, then gross amount = round(FPE×performance_factor×₱1,020, 2). Zero FPE gives zero scores/amount.\n\nAn annual period is complete from January 1 of the next year, Asia/Manila. Previews remain available for unfinished years; `can_bill` is false. The sample shows 14,850 FPEs and 8,000/3,000/2,000/1,500 KPI beneficiaries producing 52% and ₱7,876,440. `billing` is null when unbilled; otherwise it contains the immutable saved snapshot. `billed_amount` is the saved gross amount and `unbilled_amount` is zero when billed."
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"company_id\": 3210,\n  \"branch_id\": 2,\n  \"branch_name\": \"Oakridge\",\n  \"year\": 2025,\n  \"tranche_number\": 2,\n  \"fpe_count\": 14850,\n  \"rate\": 1020,\n  \"breakdown\": {\n    \"consultation\": {\n      \"count\": 8000,\n      \"target\": 1,\n      \"weight\": 0.3,\n      \"actual_score\": 0.54,\n      \"computation\": 0.54,\n      \"resultant_score\": 0.16\n    },\n    \"laboratory\": {\n      \"count\": 3000,\n      \"target\": 0.5,\n      \"weight\": 0.3,\n      \"actual_score\": 0.2,\n      \"computation\": 0.4,\n      \"resultant_score\": 0.12\n    },\n    \"antibiotic\": {\n      \"count\": 2000,\n      \"target\": 0.15,\n      \"weight\": 0.1,\n      \"actual_score\": 0.13,\n      \"computation\": 0.87,\n      \"resultant_score\": 0.09\n    },\n    \"ncd\": {\n      \"count\": 1500,\n      \"target\": 0.2,\n      \"weight\": 0.3,\n      \"actual_score\": 0.1,\n      \"computation\": 0.5,\n      \"resultant_score\": 0.15\n    }\n  },\n  \"performance_factor\": 0.52,\n  \"calculated_amount\": 7876440,\n  \"is_completed\": true,\n  \"is_billed\": true,\n  \"can_bill\": false,\n  \"billing\": {\n    \"billing_entry_id\": \"800\",\n    \"billing_id\": \"500\",\n    \"yakap_tranche\": \"2\",\n    \"yakap_year\": \"2025\",\n    \"yakap_month\": \"0\",\n    \"billed_amount\": \"7876440.0000\",\n    \"status\": \"pending\",\n    \"calculation_snapshot\": {\n      \"company_id\": 3210,\n      \"branch_id\": 2,\n      \"branch_name\": \"Oakridge\",\n      \"year\": 2025,\n      \"tranche_number\": 2,\n      \"fpe_count\": 14850,\n      \"rate\": 1020,\n      \"breakdown\": {\n        \"consultation\": {\n          \"count\": 8000,\n          \"target\": 1,\n          \"weight\": 0.3,\n          \"actual_score\": 0.54,\n          \"computation\": 0.54,\n          \"resultant_score\": 0.16\n        },\n        \"laboratory\": {\n          \"count\": 3000,\n          \"target\": 0.5,\n          \"weight\": 0.3,\n          \"actual_score\": 0.2,\n          \"computation\": 0.4,\n          \"resultant_score\": 0.12\n        },\n        \"antibiotic\": {\n          \"count\": 2000,\n          \"target\": 0.15,\n          \"weight\": 0.1,\n          \"actual_score\": 0.13,\n          \"computation\": 0.87,\n          \"resultant_score\": 0.09\n        },\n        \"ncd\": {\n          \"count\": 1500,\n          \"target\": 0.2,\n          \"weight\": 0.3,\n          \"actual_score\": 0.1,\n          \"computation\": 0.5,\n          \"resultant_score\": 0.15\n        }\n      },\n      \"performance_factor\": 0.52,\n      \"calculated_amount\": 7876440,\n      \"is_completed\": true,\n      \"is_billed\": false,\n      \"can_bill\": true,\n      \"billing\": null,\n      \"billed_amount\": 0,\n      \"unbilled_amount\": 7876440,\n      \"calculated_on\": \"2026-01-15 09:00:00\",\n      \"calculation_version\": 1\n    }\n  },\n  \"billed_amount\": 7876440,\n  \"unbilled_amount\": 0\n}"
+        },
+        {
+          "name": "Illustrative — missing year",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/billings/get_tranche2?token={{token}}&requester={{requester}}&branch_id={{branch_id}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "billings",
+                "get_tranche2"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "description": "Required valid environment token."
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "description": "Required authenticated user ID."
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "description": "Required supported clinic branch ID."
+                }
+              ]
+            },
+            "description": "## Annual performance billing preview\n\nAuthentication: `API-KEY` header plus `token` and `requester` query/form fields. Permissions follow existing billing transaction-read/create permissions. All examples are illustrative, not captured from production.\n\nBranch IDs: 1 Mobile, 2 Oakridge, 3 Mactan, 4 Consolacion, 7 Mantlewood. `year` must be an integer from 1900 through 9998. Each endpoint handles one branch; no branchless union or pagination parameters are used.\n\nThe denominator is the unique active FPE cohort for the year. Annual KPIs count unique beneficiaries within that cohort: active ekonsulta assessments, active laboratory results (no is_sent requirement), and therapeutic prescriptions linked to active ekonsulta assessments and active master items. Antibiotics use is_antibiotic=1; NCD uses is_antibiotic=0 with a non-null philhealth_medicine_type. Therapeutic records indicate prescriptions, not verified dispensing.\n\nTargets/weights: consultation 1/0.30; laboratory 0.50/0.30; antibiotic 0.15/0.10; NCD 0.20/0.30. For each KPI: actual_score = round(count/FPE, 2); computation = round(min(actual_score/target, 1), 2); resultant_score = round(computation×weight, 2). All rounding is half up. Sum resultant scores, then gross amount = round(FPE×performance_factor×₱1,020, 2). Zero FPE gives zero scores/amount.\n\nAn annual period is complete from January 1 of the next year, Asia/Manila. Previews remain available for unfinished years; `can_bill` is false. The sample shows 14,850 FPEs and 8,000/3,000/2,000/1,500 KPI beneficiaries producing 52% and ₱7,876,440. `billing` is null when unbilled; otherwise it contains the immutable saved snapshot. `billed_amount` is the saved gross amount and `unbilled_amount` is zero when billed."
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"year must be a positive integer.\"\n    ]\n  }\n}"
+        }
+      ]
+    },
+    {
+      "name": "Create tranche 1 — one completed month",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}",
+            "type": "text"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/billings/create_yakap_billing",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "billings",
+            "create_yakap_billing"
+          ]
+        },
+        "description": "## Create one YAKAP billing period\n\nAuthentication: `API-KEY` header plus `token` and `requester` query/form fields. Permissions follow existing billing transaction-read/create permissions. All examples are illustrative, not captured from production.\n\nBranch IDs: 1 Mobile, 2 Oakridge, 3 Mactan, 4 Consolacion, 7 Mantlewood. `year` must be an integer from 1900 through 9998. Each endpoint handles one branch; no branchless union or pagination parameters are used.\n\nRequired multipart text fields: token, requester, branch_id, year, tranche_number; month is additionally required for tranche 1 (1–12). For tranche 2 omit month (0 is also accepted). Do not set multipart Content-Type manually: Postman generates the boundary.\n\nOne successful request creates one master billing header and one aggregate entry, with saved calculation timestamp/version. Company and charge-to are fixed to **3210 PHILHEALTH - YAKAP**, not 2032. No `entries` or financial total is needed; the server calculates gross amounts. If company_id/charge_to/charge_to_id or grand_total/amount/balance/subtotal/total_amount are supplied, conflicting values are rejected. Withholding is applied by existing collection workflows.\n\nCompletion rules apply in Asia/Manila: tranche 1 after month-end, tranche 2 after year-end. The locked period registry prevents concurrent duplicate active bills. Pending, approved, open, and closed bills reserve the period. Cancellation/deletion permits replacement while retaining history. Unfinished, already billed, or zero-value periods are rejected.\n\nAmounts ≥₱50,000 are pending; lower amounts are automatically approved with creator/time recorded. The response includes IDs, grand_total, and the pre-creation calculation snapshot; snapshot is_billed=false/can_bill=true describes the calculation before insertion. Subsequent previews show the period as billed. Generic billing creation cannot create YAKAP tranches. Existing invoice metadata updates, approvals, and collections remain available; financial/period edits require cancellation and recreation.\n\nCreation requests write accounting records when sent. This collection contains saved examples only and does not auto-run requests or depend on response scripts.",
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "token",
+              "value": "{{token}}",
+              "type": "text",
+              "description": "Required valid environment token."
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}",
+              "type": "text",
+              "description": "Required authenticated user ID."
+            },
+            {
+              "key": "branch_id",
+              "value": "{{branch_id}}",
+              "type": "text",
+              "description": "Required branch ID."
+            },
+            {
+              "key": "year",
+              "value": "{{year}}",
+              "type": "text",
+              "description": "Required completed-period year."
+            },
+            {
+              "key": "tranche_number",
+              "value": "1",
+              "type": "text",
+              "description": "Monthly FPE tranche."
+            },
+            {
+              "key": "month",
+              "value": "{{month}}",
+              "type": "text",
+              "description": "Required integer 1–12."
+            },
+            {
+              "key": "due_date",
+              "value": "2026-01-31",
+              "type": "text",
+              "description": "Optional real YYYY-MM-DD date; defaults to creation date in Asia/Manila.",
+              "disabled": true
+            },
+            {
+              "key": "invoice_no",
+              "value": "YAKAP-2025-EXAMPLE",
+              "type": "text",
+              "description": "Optional, at most 64 characters; empty becomes null. Must respect the existing unique invoice number constraint.",
+              "disabled": true
+            },
+            {
+              "key": "invoice_date",
+              "value": "2026-01-15",
+              "type": "text",
+              "description": "Optional real YYYY-MM-DD date; empty becomes null.",
+              "disabled": true
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Illustrative — December 2025 — gross ₱612,000",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/billings/create_yakap_billing",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "billings",
+                "create_yakap_billing"
+              ]
+            },
+            "description": "## Create one YAKAP billing period\n\nAuthentication: `API-KEY` header plus `token` and `requester` query/form fields. Permissions follow existing billing transaction-read/create permissions. All examples are illustrative, not captured from production.\n\nBranch IDs: 1 Mobile, 2 Oakridge, 3 Mactan, 4 Consolacion, 7 Mantlewood. `year` must be an integer from 1900 through 9998. Each endpoint handles one branch; no branchless union or pagination parameters are used.\n\nRequired multipart text fields: token, requester, branch_id, year, tranche_number; month is additionally required for tranche 1 (1–12). For tranche 2 omit month (0 is also accepted). Do not set multipart Content-Type manually: Postman generates the boundary.\n\nOne successful request creates one master billing header and one aggregate entry, with saved calculation timestamp/version. Company and charge-to are fixed to **3210 PHILHEALTH - YAKAP**, not 2032. No `entries` or financial total is needed; the server calculates gross amounts. If company_id/charge_to/charge_to_id or grand_total/amount/balance/subtotal/total_amount are supplied, conflicting values are rejected. Withholding is applied by existing collection workflows.\n\nCompletion rules apply in Asia/Manila: tranche 1 after month-end, tranche 2 after year-end. The locked period registry prevents concurrent duplicate active bills. Pending, approved, open, and closed bills reserve the period. Cancellation/deletion permits replacement while retaining history. Unfinished, already billed, or zero-value periods are rejected.\n\nAmounts ≥₱50,000 are pending; lower amounts are automatically approved with creator/time recorded. The response includes IDs, grand_total, and the pre-creation calculation snapshot; snapshot is_billed=false/can_bill=true describes the calculation before insertion. Subsequent previews show the period as billed. Generic billing creation cannot create YAKAP tranches. Existing invoice metadata updates, approvals, and collections remain available; financial/period edits require cancellation and recreation.\n\nCreation requests write accounting records when sent. This collection contains saved examples only and does not auto-run requests or depend on response scripts.",
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text",
+                  "description": "Required valid environment token."
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text",
+                  "description": "Required authenticated user ID."
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "type": "text",
+                  "description": "Required branch ID."
+                },
+                {
+                  "key": "year",
+                  "value": "{{year}}",
+                  "type": "text",
+                  "description": "Required completed-period year."
+                },
+                {
+                  "key": "tranche_number",
+                  "value": "1",
+                  "type": "text",
+                  "description": "Monthly FPE tranche."
+                },
+                {
+                  "key": "month",
+                  "value": "{{month}}",
+                  "type": "text",
+                  "description": "Required integer 1–12."
+                },
+                {
+                  "key": "due_date",
+                  "value": "2026-01-31",
+                  "type": "text",
+                  "description": "Optional real YYYY-MM-DD date; defaults to creation date in Asia/Manila.",
+                  "disabled": true
+                },
+                {
+                  "key": "invoice_no",
+                  "value": "YAKAP-2025-EXAMPLE",
+                  "type": "text",
+                  "description": "Optional, at most 64 characters; empty becomes null. Must respect the existing unique invoice number constraint.",
+                  "disabled": true
+                },
+                {
+                  "key": "invoice_date",
+                  "value": "2026-01-15",
+                  "type": "text",
+                  "description": "Optional real YYYY-MM-DD date; empty becomes null.",
+                  "disabled": true
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"billing_id\": 512,\n  \"billing_entry_id\": 812,\n  \"grand_total\": 612000,\n  \"calculation\": {\n    \"month\": 12,\n    \"fpe_count\": 900,\n    \"rate\": 680,\n    \"calculated_amount\": 612000,\n    \"is_completed\": true,\n    \"is_billed\": false,\n    \"can_bill\": true,\n    \"billing\": null,\n    \"calculated_on\": \"2026-01-15 09:00:00\",\n    \"calculation_version\": 1\n  }\n}"
+        },
+        {
+          "name": "Illustrative — missing month",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/billings/create_yakap_billing",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "billings",
+                "create_yakap_billing"
+              ]
+            },
+            "description": "## Create one YAKAP billing period\n\nAuthentication: `API-KEY` header plus `token` and `requester` query/form fields. Permissions follow existing billing transaction-read/create permissions. All examples are illustrative, not captured from production.\n\nBranch IDs: 1 Mobile, 2 Oakridge, 3 Mactan, 4 Consolacion, 7 Mantlewood. `year` must be an integer from 1900 through 9998. Each endpoint handles one branch; no branchless union or pagination parameters are used.\n\nRequired multipart text fields: token, requester, branch_id, year, tranche_number; month is additionally required for tranche 1 (1–12). For tranche 2 omit month (0 is also accepted). Do not set multipart Content-Type manually: Postman generates the boundary.\n\nOne successful request creates one master billing header and one aggregate entry, with saved calculation timestamp/version. Company and charge-to are fixed to **3210 PHILHEALTH - YAKAP**, not 2032. No `entries` or financial total is needed; the server calculates gross amounts. If company_id/charge_to/charge_to_id or grand_total/amount/balance/subtotal/total_amount are supplied, conflicting values are rejected. Withholding is applied by existing collection workflows.\n\nCompletion rules apply in Asia/Manila: tranche 1 after month-end, tranche 2 after year-end. The locked period registry prevents concurrent duplicate active bills. Pending, approved, open, and closed bills reserve the period. Cancellation/deletion permits replacement while retaining history. Unfinished, already billed, or zero-value periods are rejected.\n\nAmounts ≥₱50,000 are pending; lower amounts are automatically approved with creator/time recorded. The response includes IDs, grand_total, and the pre-creation calculation snapshot; snapshot is_billed=false/can_bill=true describes the calculation before insertion. Subsequent previews show the period as billed. Generic billing creation cannot create YAKAP tranches. Existing invoice metadata updates, approvals, and collections remain available; financial/period edits require cancellation and recreation.\n\nCreation requests write accounting records when sent. This collection contains saved examples only and does not auto-run requests or depend on response scripts.",
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text",
+                  "description": "Required valid environment token."
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text",
+                  "description": "Required authenticated user ID."
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "type": "text",
+                  "description": "Required branch ID."
+                },
+                {
+                  "key": "year",
+                  "value": "{{year}}",
+                  "type": "text",
+                  "description": "Required completed-period year."
+                },
+                {
+                  "key": "tranche_number",
+                  "value": "1",
+                  "type": "text",
+                  "description": "Monthly FPE tranche."
+                },
+                {
+                  "key": "due_date",
+                  "value": "2026-01-31",
+                  "type": "text",
+                  "description": "Optional real YYYY-MM-DD date; defaults to creation date in Asia/Manila.",
+                  "disabled": true
+                },
+                {
+                  "key": "invoice_no",
+                  "value": "YAKAP-2025-EXAMPLE",
+                  "type": "text",
+                  "description": "Optional, at most 64 characters; empty becomes null. Must respect the existing unique invoice number constraint.",
+                  "disabled": true
+                },
+                {
+                  "key": "invoice_date",
+                  "value": "2026-01-15",
+                  "type": "text",
+                  "description": "Optional real YYYY-MM-DD date; empty becomes null.",
+                  "disabled": true
+                }
+              ]
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"month must be a positive integer.\"\n    ]\n  }\n}"
+        },
+        {
+          "name": "Illustrative — unfinished month",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/billings/create_yakap_billing",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "billings",
+                "create_yakap_billing"
+              ]
+            },
+            "description": "## Create one YAKAP billing period\n\nAuthentication: `API-KEY` header plus `token` and `requester` query/form fields. Permissions follow existing billing transaction-read/create permissions. All examples are illustrative, not captured from production.\n\nBranch IDs: 1 Mobile, 2 Oakridge, 3 Mactan, 4 Consolacion, 7 Mantlewood. `year` must be an integer from 1900 through 9998. Each endpoint handles one branch; no branchless union or pagination parameters are used.\n\nRequired multipart text fields: token, requester, branch_id, year, tranche_number; month is additionally required for tranche 1 (1–12). For tranche 2 omit month (0 is also accepted). Do not set multipart Content-Type manually: Postman generates the boundary.\n\nOne successful request creates one master billing header and one aggregate entry, with saved calculation timestamp/version. Company and charge-to are fixed to **3210 PHILHEALTH - YAKAP**, not 2032. No `entries` or financial total is needed; the server calculates gross amounts. If company_id/charge_to/charge_to_id or grand_total/amount/balance/subtotal/total_amount are supplied, conflicting values are rejected. Withholding is applied by existing collection workflows.\n\nCompletion rules apply in Asia/Manila: tranche 1 after month-end, tranche 2 after year-end. The locked period registry prevents concurrent duplicate active bills. Pending, approved, open, and closed bills reserve the period. Cancellation/deletion permits replacement while retaining history. Unfinished, already billed, or zero-value periods are rejected.\n\nAmounts ≥₱50,000 are pending; lower amounts are automatically approved with creator/time recorded. The response includes IDs, grand_total, and the pre-creation calculation snapshot; snapshot is_billed=false/can_bill=true describes the calculation before insertion. Subsequent previews show the period as billed. Generic billing creation cannot create YAKAP tranches. Existing invoice metadata updates, approvals, and collections remain available; financial/period edits require cancellation and recreation.\n\nCreation requests write accounting records when sent. This collection contains saved examples only and does not auto-run requests or depend on response scripts.",
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text",
+                  "description": "Required valid environment token."
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text",
+                  "description": "Required authenticated user ID."
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "type": "text",
+                  "description": "Required branch ID."
+                },
+                {
+                  "key": "tranche_number",
+                  "value": "1",
+                  "type": "text",
+                  "description": "Monthly FPE tranche."
+                },
+                {
+                  "key": "due_date",
+                  "value": "2026-01-31",
+                  "type": "text",
+                  "description": "Optional real YYYY-MM-DD date; defaults to creation date in Asia/Manila.",
+                  "disabled": true
+                },
+                {
+                  "key": "invoice_no",
+                  "value": "YAKAP-2025-EXAMPLE",
+                  "type": "text",
+                  "description": "Optional, at most 64 characters; empty becomes null. Must respect the existing unique invoice number constraint.",
+                  "disabled": true
+                },
+                {
+                  "key": "invoice_date",
+                  "value": "2026-01-15",
+                  "type": "text",
+                  "description": "Optional real YYYY-MM-DD date; empty becomes null.",
+                  "disabled": true
+                },
+                {
+                  "key": "year",
+                  "value": "2090",
+                  "type": "text"
+                },
+                {
+                  "key": "month",
+                  "value": "1",
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"The selected billing period is not complete.\"\n    ]\n  }\n}"
+        },
+        {
+          "name": "Illustrative — already billed month",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/billings/create_yakap_billing",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "billings",
+                "create_yakap_billing"
+              ]
+            },
+            "description": "## Create one YAKAP billing period\n\nAuthentication: `API-KEY` header plus `token` and `requester` query/form fields. Permissions follow existing billing transaction-read/create permissions. All examples are illustrative, not captured from production.\n\nBranch IDs: 1 Mobile, 2 Oakridge, 3 Mactan, 4 Consolacion, 7 Mantlewood. `year` must be an integer from 1900 through 9998. Each endpoint handles one branch; no branchless union or pagination parameters are used.\n\nRequired multipart text fields: token, requester, branch_id, year, tranche_number; month is additionally required for tranche 1 (1–12). For tranche 2 omit month (0 is also accepted). Do not set multipart Content-Type manually: Postman generates the boundary.\n\nOne successful request creates one master billing header and one aggregate entry, with saved calculation timestamp/version. Company and charge-to are fixed to **3210 PHILHEALTH - YAKAP**, not 2032. No `entries` or financial total is needed; the server calculates gross amounts. If company_id/charge_to/charge_to_id or grand_total/amount/balance/subtotal/total_amount are supplied, conflicting values are rejected. Withholding is applied by existing collection workflows.\n\nCompletion rules apply in Asia/Manila: tranche 1 after month-end, tranche 2 after year-end. The locked period registry prevents concurrent duplicate active bills. Pending, approved, open, and closed bills reserve the period. Cancellation/deletion permits replacement while retaining history. Unfinished, already billed, or zero-value periods are rejected.\n\nAmounts ≥₱50,000 are pending; lower amounts are automatically approved with creator/time recorded. The response includes IDs, grand_total, and the pre-creation calculation snapshot; snapshot is_billed=false/can_bill=true describes the calculation before insertion. Subsequent previews show the period as billed. Generic billing creation cannot create YAKAP tranches. Existing invoice metadata updates, approvals, and collections remain available; financial/period edits require cancellation and recreation.\n\nCreation requests write accounting records when sent. This collection contains saved examples only and does not auto-run requests or depend on response scripts.",
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text",
+                  "description": "Required valid environment token."
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text",
+                  "description": "Required authenticated user ID."
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "type": "text",
+                  "description": "Required branch ID."
+                },
+                {
+                  "key": "year",
+                  "value": "{{year}}",
+                  "type": "text",
+                  "description": "Required completed-period year."
+                },
+                {
+                  "key": "tranche_number",
+                  "value": "1",
+                  "type": "text",
+                  "description": "Monthly FPE tranche."
+                },
+                {
+                  "key": "month",
+                  "value": "{{month}}",
+                  "type": "text",
+                  "description": "Required integer 1–12."
+                },
+                {
+                  "key": "due_date",
+                  "value": "2026-01-31",
+                  "type": "text",
+                  "description": "Optional real YYYY-MM-DD date; defaults to creation date in Asia/Manila.",
+                  "disabled": true
+                },
+                {
+                  "key": "invoice_no",
+                  "value": "YAKAP-2025-EXAMPLE",
+                  "type": "text",
+                  "description": "Optional, at most 64 characters; empty becomes null. Must respect the existing unique invoice number constraint.",
+                  "disabled": true
+                },
+                {
+                  "key": "invoice_date",
+                  "value": "2026-01-15",
+                  "type": "text",
+                  "description": "Optional real YYYY-MM-DD date; empty becomes null.",
+                  "disabled": true
+                }
+              ]
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"Period is already billed or has no billable amount.\"\n    ]\n  }\n}"
+        },
+        {
+          "name": "Illustrative — zero-value month",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/billings/create_yakap_billing",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "billings",
+                "create_yakap_billing"
+              ]
+            },
+            "description": "## Create one YAKAP billing period\n\nAuthentication: `API-KEY` header plus `token` and `requester` query/form fields. Permissions follow existing billing transaction-read/create permissions. All examples are illustrative, not captured from production.\n\nBranch IDs: 1 Mobile, 2 Oakridge, 3 Mactan, 4 Consolacion, 7 Mantlewood. `year` must be an integer from 1900 through 9998. Each endpoint handles one branch; no branchless union or pagination parameters are used.\n\nRequired multipart text fields: token, requester, branch_id, year, tranche_number; month is additionally required for tranche 1 (1–12). For tranche 2 omit month (0 is also accepted). Do not set multipart Content-Type manually: Postman generates the boundary.\n\nOne successful request creates one master billing header and one aggregate entry, with saved calculation timestamp/version. Company and charge-to are fixed to **3210 PHILHEALTH - YAKAP**, not 2032. No `entries` or financial total is needed; the server calculates gross amounts. If company_id/charge_to/charge_to_id or grand_total/amount/balance/subtotal/total_amount are supplied, conflicting values are rejected. Withholding is applied by existing collection workflows.\n\nCompletion rules apply in Asia/Manila: tranche 1 after month-end, tranche 2 after year-end. The locked period registry prevents concurrent duplicate active bills. Pending, approved, open, and closed bills reserve the period. Cancellation/deletion permits replacement while retaining history. Unfinished, already billed, or zero-value periods are rejected.\n\nAmounts ≥₱50,000 are pending; lower amounts are automatically approved with creator/time recorded. The response includes IDs, grand_total, and the pre-creation calculation snapshot; snapshot is_billed=false/can_bill=true describes the calculation before insertion. Subsequent previews show the period as billed. Generic billing creation cannot create YAKAP tranches. Existing invoice metadata updates, approvals, and collections remain available; financial/period edits require cancellation and recreation.\n\nCreation requests write accounting records when sent. This collection contains saved examples only and does not auto-run requests or depend on response scripts.",
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text",
+                  "description": "Required valid environment token."
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text",
+                  "description": "Required authenticated user ID."
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "type": "text",
+                  "description": "Required branch ID."
+                },
+                {
+                  "key": "year",
+                  "value": "{{year}}",
+                  "type": "text",
+                  "description": "Required completed-period year."
+                },
+                {
+                  "key": "tranche_number",
+                  "value": "1",
+                  "type": "text",
+                  "description": "Monthly FPE tranche."
+                },
+                {
+                  "key": "month",
+                  "value": "{{month}}",
+                  "type": "text",
+                  "description": "Required integer 1–12."
+                },
+                {
+                  "key": "due_date",
+                  "value": "2026-01-31",
+                  "type": "text",
+                  "description": "Optional real YYYY-MM-DD date; defaults to creation date in Asia/Manila.",
+                  "disabled": true
+                },
+                {
+                  "key": "invoice_no",
+                  "value": "YAKAP-2025-EXAMPLE",
+                  "type": "text",
+                  "description": "Optional, at most 64 characters; empty becomes null. Must respect the existing unique invoice number constraint.",
+                  "disabled": true
+                },
+                {
+                  "key": "invoice_date",
+                  "value": "2026-01-15",
+                  "type": "text",
+                  "description": "Optional real YYYY-MM-DD date; empty becomes null.",
+                  "disabled": true
+                }
+              ]
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"Period is already billed or has no billable amount.\"\n    ]\n  }\n}"
+        },
+        {
+          "name": "Illustrative — conflicting client total",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/billings/create_yakap_billing",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "billings",
+                "create_yakap_billing"
+              ]
+            },
+            "description": "## Create one YAKAP billing period\n\nAuthentication: `API-KEY` header plus `token` and `requester` query/form fields. Permissions follow existing billing transaction-read/create permissions. All examples are illustrative, not captured from production.\n\nBranch IDs: 1 Mobile, 2 Oakridge, 3 Mactan, 4 Consolacion, 7 Mantlewood. `year` must be an integer from 1900 through 9998. Each endpoint handles one branch; no branchless union or pagination parameters are used.\n\nRequired multipart text fields: token, requester, branch_id, year, tranche_number; month is additionally required for tranche 1 (1–12). For tranche 2 omit month (0 is also accepted). Do not set multipart Content-Type manually: Postman generates the boundary.\n\nOne successful request creates one master billing header and one aggregate entry, with saved calculation timestamp/version. Company and charge-to are fixed to **3210 PHILHEALTH - YAKAP**, not 2032. No `entries` or financial total is needed; the server calculates gross amounts. If company_id/charge_to/charge_to_id or grand_total/amount/balance/subtotal/total_amount are supplied, conflicting values are rejected. Withholding is applied by existing collection workflows.\n\nCompletion rules apply in Asia/Manila: tranche 1 after month-end, tranche 2 after year-end. The locked period registry prevents concurrent duplicate active bills. Pending, approved, open, and closed bills reserve the period. Cancellation/deletion permits replacement while retaining history. Unfinished, already billed, or zero-value periods are rejected.\n\nAmounts ≥₱50,000 are pending; lower amounts are automatically approved with creator/time recorded. The response includes IDs, grand_total, and the pre-creation calculation snapshot; snapshot is_billed=false/can_bill=true describes the calculation before insertion. Subsequent previews show the period as billed. Generic billing creation cannot create YAKAP tranches. Existing invoice metadata updates, approvals, and collections remain available; financial/period edits require cancellation and recreation.\n\nCreation requests write accounting records when sent. This collection contains saved examples only and does not auto-run requests or depend on response scripts.",
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text",
+                  "description": "Required valid environment token."
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text",
+                  "description": "Required authenticated user ID."
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "type": "text",
+                  "description": "Required branch ID."
+                },
+                {
+                  "key": "year",
+                  "value": "{{year}}",
+                  "type": "text",
+                  "description": "Required completed-period year."
+                },
+                {
+                  "key": "tranche_number",
+                  "value": "1",
+                  "type": "text",
+                  "description": "Monthly FPE tranche."
+                },
+                {
+                  "key": "month",
+                  "value": "{{month}}",
+                  "type": "text",
+                  "description": "Required integer 1–12."
+                },
+                {
+                  "key": "due_date",
+                  "value": "2026-01-31",
+                  "type": "text",
+                  "description": "Optional real YYYY-MM-DD date; defaults to creation date in Asia/Manila.",
+                  "disabled": true
+                },
+                {
+                  "key": "invoice_no",
+                  "value": "YAKAP-2025-EXAMPLE",
+                  "type": "text",
+                  "description": "Optional, at most 64 characters; empty becomes null. Must respect the existing unique invoice number constraint.",
+                  "disabled": true
+                },
+                {
+                  "key": "invoice_date",
+                  "value": "2026-01-15",
+                  "type": "text",
+                  "description": "Optional real YYYY-MM-DD date; empty becomes null.",
+                  "disabled": true
+                },
+                {
+                  "key": "grand_total",
+                  "value": "1",
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"grand_total conflicts with the calculated amount.\"\n    ]\n  }\n}"
+        },
+        {
+          "name": "Illustrative — wrong company",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/billings/create_yakap_billing",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "billings",
+                "create_yakap_billing"
+              ]
+            },
+            "description": "## Create one YAKAP billing period\n\nAuthentication: `API-KEY` header plus `token` and `requester` query/form fields. Permissions follow existing billing transaction-read/create permissions. All examples are illustrative, not captured from production.\n\nBranch IDs: 1 Mobile, 2 Oakridge, 3 Mactan, 4 Consolacion, 7 Mantlewood. `year` must be an integer from 1900 through 9998. Each endpoint handles one branch; no branchless union or pagination parameters are used.\n\nRequired multipart text fields: token, requester, branch_id, year, tranche_number; month is additionally required for tranche 1 (1–12). For tranche 2 omit month (0 is also accepted). Do not set multipart Content-Type manually: Postman generates the boundary.\n\nOne successful request creates one master billing header and one aggregate entry, with saved calculation timestamp/version. Company and charge-to are fixed to **3210 PHILHEALTH - YAKAP**, not 2032. No `entries` or financial total is needed; the server calculates gross amounts. If company_id/charge_to/charge_to_id or grand_total/amount/balance/subtotal/total_amount are supplied, conflicting values are rejected. Withholding is applied by existing collection workflows.\n\nCompletion rules apply in Asia/Manila: tranche 1 after month-end, tranche 2 after year-end. The locked period registry prevents concurrent duplicate active bills. Pending, approved, open, and closed bills reserve the period. Cancellation/deletion permits replacement while retaining history. Unfinished, already billed, or zero-value periods are rejected.\n\nAmounts ≥₱50,000 are pending; lower amounts are automatically approved with creator/time recorded. The response includes IDs, grand_total, and the pre-creation calculation snapshot; snapshot is_billed=false/can_bill=true describes the calculation before insertion. Subsequent previews show the period as billed. Generic billing creation cannot create YAKAP tranches. Existing invoice metadata updates, approvals, and collections remain available; financial/period edits require cancellation and recreation.\n\nCreation requests write accounting records when sent. This collection contains saved examples only and does not auto-run requests or depend on response scripts.",
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text",
+                  "description": "Required valid environment token."
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text",
+                  "description": "Required authenticated user ID."
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "type": "text",
+                  "description": "Required branch ID."
+                },
+                {
+                  "key": "year",
+                  "value": "{{year}}",
+                  "type": "text",
+                  "description": "Required completed-period year."
+                },
+                {
+                  "key": "tranche_number",
+                  "value": "1",
+                  "type": "text",
+                  "description": "Monthly FPE tranche."
+                },
+                {
+                  "key": "month",
+                  "value": "{{month}}",
+                  "type": "text",
+                  "description": "Required integer 1–12."
+                },
+                {
+                  "key": "due_date",
+                  "value": "2026-01-31",
+                  "type": "text",
+                  "description": "Optional real YYYY-MM-DD date; defaults to creation date in Asia/Manila.",
+                  "disabled": true
+                },
+                {
+                  "key": "invoice_no",
+                  "value": "YAKAP-2025-EXAMPLE",
+                  "type": "text",
+                  "description": "Optional, at most 64 characters; empty becomes null. Must respect the existing unique invoice number constraint.",
+                  "disabled": true
+                },
+                {
+                  "key": "invoice_date",
+                  "value": "2026-01-15",
+                  "type": "text",
+                  "description": "Optional real YYYY-MM-DD date; empty becomes null.",
+                  "disabled": true
+                },
+                {
+                  "key": "company_id",
+                  "value": "2032",
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"company_id must be 3210.\"\n    ]\n  }\n}"
+        },
+        {
+          "name": "Illustrative — invalid due date",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/billings/create_yakap_billing",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "billings",
+                "create_yakap_billing"
+              ]
+            },
+            "description": "## Create one YAKAP billing period\n\nAuthentication: `API-KEY` header plus `token` and `requester` query/form fields. Permissions follow existing billing transaction-read/create permissions. All examples are illustrative, not captured from production.\n\nBranch IDs: 1 Mobile, 2 Oakridge, 3 Mactan, 4 Consolacion, 7 Mantlewood. `year` must be an integer from 1900 through 9998. Each endpoint handles one branch; no branchless union or pagination parameters are used.\n\nRequired multipart text fields: token, requester, branch_id, year, tranche_number; month is additionally required for tranche 1 (1–12). For tranche 2 omit month (0 is also accepted). Do not set multipart Content-Type manually: Postman generates the boundary.\n\nOne successful request creates one master billing header and one aggregate entry, with saved calculation timestamp/version. Company and charge-to are fixed to **3210 PHILHEALTH - YAKAP**, not 2032. No `entries` or financial total is needed; the server calculates gross amounts. If company_id/charge_to/charge_to_id or grand_total/amount/balance/subtotal/total_amount are supplied, conflicting values are rejected. Withholding is applied by existing collection workflows.\n\nCompletion rules apply in Asia/Manila: tranche 1 after month-end, tranche 2 after year-end. The locked period registry prevents concurrent duplicate active bills. Pending, approved, open, and closed bills reserve the period. Cancellation/deletion permits replacement while retaining history. Unfinished, already billed, or zero-value periods are rejected.\n\nAmounts ≥₱50,000 are pending; lower amounts are automatically approved with creator/time recorded. The response includes IDs, grand_total, and the pre-creation calculation snapshot; snapshot is_billed=false/can_bill=true describes the calculation before insertion. Subsequent previews show the period as billed. Generic billing creation cannot create YAKAP tranches. Existing invoice metadata updates, approvals, and collections remain available; financial/period edits require cancellation and recreation.\n\nCreation requests write accounting records when sent. This collection contains saved examples only and does not auto-run requests or depend on response scripts.",
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text",
+                  "description": "Required valid environment token."
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text",
+                  "description": "Required authenticated user ID."
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "type": "text",
+                  "description": "Required branch ID."
+                },
+                {
+                  "key": "year",
+                  "value": "{{year}}",
+                  "type": "text",
+                  "description": "Required completed-period year."
+                },
+                {
+                  "key": "tranche_number",
+                  "value": "1",
+                  "type": "text",
+                  "description": "Monthly FPE tranche."
+                },
+                {
+                  "key": "month",
+                  "value": "{{month}}",
+                  "type": "text",
+                  "description": "Required integer 1–12."
+                },
+                {
+                  "key": "invoice_no",
+                  "value": "YAKAP-2025-EXAMPLE",
+                  "type": "text",
+                  "description": "Optional, at most 64 characters; empty becomes null. Must respect the existing unique invoice number constraint.",
+                  "disabled": true
+                },
+                {
+                  "key": "invoice_date",
+                  "value": "2026-01-15",
+                  "type": "text",
+                  "description": "Optional real YYYY-MM-DD date; empty becomes null.",
+                  "disabled": true
+                },
+                {
+                  "key": "due_date",
+                  "value": "2026-02-30",
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"due_date must be a valid YYYY-MM-DD date.\"\n    ]\n  }\n}"
+        }
+      ]
+    },
+    {
+      "name": "Create tranche 2 — one completed year",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}",
+            "type": "text"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/billings/create_yakap_billing",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "billings",
+            "create_yakap_billing"
+          ]
+        },
+        "description": "## Create one YAKAP billing period\n\nAuthentication: `API-KEY` header plus `token` and `requester` query/form fields. Permissions follow existing billing transaction-read/create permissions. All examples are illustrative, not captured from production.\n\nBranch IDs: 1 Mobile, 2 Oakridge, 3 Mactan, 4 Consolacion, 7 Mantlewood. `year` must be an integer from 1900 through 9998. Each endpoint handles one branch; no branchless union or pagination parameters are used.\n\nRequired multipart text fields: token, requester, branch_id, year, tranche_number; month is additionally required for tranche 1 (1–12). For tranche 2 omit month (0 is also accepted). Do not set multipart Content-Type manually: Postman generates the boundary.\n\nOne successful request creates one master billing header and one aggregate entry, with saved calculation timestamp/version. Company and charge-to are fixed to **3210 PHILHEALTH - YAKAP**, not 2032. No `entries` or financial total is needed; the server calculates gross amounts. If company_id/charge_to/charge_to_id or grand_total/amount/balance/subtotal/total_amount are supplied, conflicting values are rejected. Withholding is applied by existing collection workflows.\n\nCompletion rules apply in Asia/Manila: tranche 1 after month-end, tranche 2 after year-end. The locked period registry prevents concurrent duplicate active bills. Pending, approved, open, and closed bills reserve the period. Cancellation/deletion permits replacement while retaining history. Unfinished, already billed, or zero-value periods are rejected.\n\nAmounts ≥₱50,000 are pending; lower amounts are automatically approved with creator/time recorded. The response includes IDs, grand_total, and the pre-creation calculation snapshot; snapshot is_billed=false/can_bill=true describes the calculation before insertion. Subsequent previews show the period as billed. Generic billing creation cannot create YAKAP tranches. Existing invoice metadata updates, approvals, and collections remain available; financial/period edits require cancellation and recreation.\n\nCreation requests write accounting records when sent. This collection contains saved examples only and does not auto-run requests or depend on response scripts.",
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "token",
+              "value": "{{token}}",
+              "type": "text",
+              "description": "Required valid environment token."
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}",
+              "type": "text",
+              "description": "Required authenticated user ID."
+            },
+            {
+              "key": "branch_id",
+              "value": "{{branch_id}}",
+              "type": "text",
+              "description": "Required branch ID."
+            },
+            {
+              "key": "year",
+              "value": "{{year}}",
+              "type": "text",
+              "description": "Required completed year."
+            },
+            {
+              "key": "tranche_number",
+              "value": "2",
+              "type": "text",
+              "description": "Annual performance tranche; omit month."
+            },
+            {
+              "key": "due_date",
+              "value": "2026-01-31",
+              "type": "text",
+              "description": "Optional real YYYY-MM-DD date; defaults to creation date in Asia/Manila.",
+              "disabled": true
+            },
+            {
+              "key": "invoice_no",
+              "value": "YAKAP-2025-EXAMPLE",
+              "type": "text",
+              "description": "Optional, at most 64 characters; empty becomes null. Must respect the existing unique invoice number constraint.",
+              "disabled": true
+            },
+            {
+              "key": "invoice_date",
+              "value": "2026-01-15",
+              "type": "text",
+              "description": "Optional real YYYY-MM-DD date; empty becomes null.",
+              "disabled": true
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Illustrative — 2025 performance — gross ₱7,876,440",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/billings/create_yakap_billing",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "billings",
+                "create_yakap_billing"
+              ]
+            },
+            "description": "## Create one YAKAP billing period\n\nAuthentication: `API-KEY` header plus `token` and `requester` query/form fields. Permissions follow existing billing transaction-read/create permissions. All examples are illustrative, not captured from production.\n\nBranch IDs: 1 Mobile, 2 Oakridge, 3 Mactan, 4 Consolacion, 7 Mantlewood. `year` must be an integer from 1900 through 9998. Each endpoint handles one branch; no branchless union or pagination parameters are used.\n\nRequired multipart text fields: token, requester, branch_id, year, tranche_number; month is additionally required for tranche 1 (1–12). For tranche 2 omit month (0 is also accepted). Do not set multipart Content-Type manually: Postman generates the boundary.\n\nOne successful request creates one master billing header and one aggregate entry, with saved calculation timestamp/version. Company and charge-to are fixed to **3210 PHILHEALTH - YAKAP**, not 2032. No `entries` or financial total is needed; the server calculates gross amounts. If company_id/charge_to/charge_to_id or grand_total/amount/balance/subtotal/total_amount are supplied, conflicting values are rejected. Withholding is applied by existing collection workflows.\n\nCompletion rules apply in Asia/Manila: tranche 1 after month-end, tranche 2 after year-end. The locked period registry prevents concurrent duplicate active bills. Pending, approved, open, and closed bills reserve the period. Cancellation/deletion permits replacement while retaining history. Unfinished, already billed, or zero-value periods are rejected.\n\nAmounts ≥₱50,000 are pending; lower amounts are automatically approved with creator/time recorded. The response includes IDs, grand_total, and the pre-creation calculation snapshot; snapshot is_billed=false/can_bill=true describes the calculation before insertion. Subsequent previews show the period as billed. Generic billing creation cannot create YAKAP tranches. Existing invoice metadata updates, approvals, and collections remain available; financial/period edits require cancellation and recreation.\n\nCreation requests write accounting records when sent. This collection contains saved examples only and does not auto-run requests or depend on response scripts.",
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text",
+                  "description": "Required valid environment token."
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text",
+                  "description": "Required authenticated user ID."
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "type": "text",
+                  "description": "Required branch ID."
+                },
+                {
+                  "key": "year",
+                  "value": "{{year}}",
+                  "type": "text",
+                  "description": "Required completed year."
+                },
+                {
+                  "key": "tranche_number",
+                  "value": "2",
+                  "type": "text",
+                  "description": "Annual performance tranche; omit month."
+                },
+                {
+                  "key": "due_date",
+                  "value": "2026-01-31",
+                  "type": "text",
+                  "description": "Optional real YYYY-MM-DD date; defaults to creation date in Asia/Manila.",
+                  "disabled": true
+                },
+                {
+                  "key": "invoice_no",
+                  "value": "YAKAP-2025-EXAMPLE",
+                  "type": "text",
+                  "description": "Optional, at most 64 characters; empty becomes null. Must respect the existing unique invoice number constraint.",
+                  "disabled": true
+                },
+                {
+                  "key": "invoice_date",
+                  "value": "2026-01-15",
+                  "type": "text",
+                  "description": "Optional real YYYY-MM-DD date; empty becomes null.",
+                  "disabled": true
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"billing_id\": 600,\n  \"billing_entry_id\": 900,\n  \"grand_total\": 7876440,\n  \"calculation\": {\n    \"company_id\": 3210,\n    \"branch_id\": 2,\n    \"branch_name\": \"Oakridge\",\n    \"year\": 2025,\n    \"tranche_number\": 2,\n    \"fpe_count\": 14850,\n    \"rate\": 1020,\n    \"breakdown\": {\n      \"consultation\": {\n        \"count\": 8000,\n        \"target\": 1,\n        \"weight\": 0.3,\n        \"actual_score\": 0.54,\n        \"computation\": 0.54,\n        \"resultant_score\": 0.16\n      },\n      \"laboratory\": {\n        \"count\": 3000,\n        \"target\": 0.5,\n        \"weight\": 0.3,\n        \"actual_score\": 0.2,\n        \"computation\": 0.4,\n        \"resultant_score\": 0.12\n      },\n      \"antibiotic\": {\n        \"count\": 2000,\n        \"target\": 0.15,\n        \"weight\": 0.1,\n        \"actual_score\": 0.13,\n        \"computation\": 0.87,\n        \"resultant_score\": 0.09\n      },\n      \"ncd\": {\n        \"count\": 1500,\n        \"target\": 0.2,\n        \"weight\": 0.3,\n        \"actual_score\": 0.1,\n        \"computation\": 0.5,\n        \"resultant_score\": 0.15\n      }\n    },\n    \"performance_factor\": 0.52,\n    \"calculated_amount\": 7876440,\n    \"is_completed\": true,\n    \"is_billed\": false,\n    \"can_bill\": true,\n    \"billing\": null,\n    \"billed_amount\": 0,\n    \"unbilled_amount\": 7876440,\n    \"calculated_on\": \"2026-01-15 09:00:00\",\n    \"calculation_version\": 1\n  }\n}"
+        },
+        {
+          "name": "Illustrative — unfinished year",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/billings/create_yakap_billing",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "billings",
+                "create_yakap_billing"
+              ]
+            },
+            "description": "## Create one YAKAP billing period\n\nAuthentication: `API-KEY` header plus `token` and `requester` query/form fields. Permissions follow existing billing transaction-read/create permissions. All examples are illustrative, not captured from production.\n\nBranch IDs: 1 Mobile, 2 Oakridge, 3 Mactan, 4 Consolacion, 7 Mantlewood. `year` must be an integer from 1900 through 9998. Each endpoint handles one branch; no branchless union or pagination parameters are used.\n\nRequired multipart text fields: token, requester, branch_id, year, tranche_number; month is additionally required for tranche 1 (1–12). For tranche 2 omit month (0 is also accepted). Do not set multipart Content-Type manually: Postman generates the boundary.\n\nOne successful request creates one master billing header and one aggregate entry, with saved calculation timestamp/version. Company and charge-to are fixed to **3210 PHILHEALTH - YAKAP**, not 2032. No `entries` or financial total is needed; the server calculates gross amounts. If company_id/charge_to/charge_to_id or grand_total/amount/balance/subtotal/total_amount are supplied, conflicting values are rejected. Withholding is applied by existing collection workflows.\n\nCompletion rules apply in Asia/Manila: tranche 1 after month-end, tranche 2 after year-end. The locked period registry prevents concurrent duplicate active bills. Pending, approved, open, and closed bills reserve the period. Cancellation/deletion permits replacement while retaining history. Unfinished, already billed, or zero-value periods are rejected.\n\nAmounts ≥₱50,000 are pending; lower amounts are automatically approved with creator/time recorded. The response includes IDs, grand_total, and the pre-creation calculation snapshot; snapshot is_billed=false/can_bill=true describes the calculation before insertion. Subsequent previews show the period as billed. Generic billing creation cannot create YAKAP tranches. Existing invoice metadata updates, approvals, and collections remain available; financial/period edits require cancellation and recreation.\n\nCreation requests write accounting records when sent. This collection contains saved examples only and does not auto-run requests or depend on response scripts.",
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text",
+                  "description": "Required valid environment token."
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text",
+                  "description": "Required authenticated user ID."
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "type": "text",
+                  "description": "Required branch ID."
+                },
+                {
+                  "key": "tranche_number",
+                  "value": "2",
+                  "type": "text",
+                  "description": "Annual performance tranche; omit month."
+                },
+                {
+                  "key": "due_date",
+                  "value": "2026-01-31",
+                  "type": "text",
+                  "description": "Optional real YYYY-MM-DD date; defaults to creation date in Asia/Manila.",
+                  "disabled": true
+                },
+                {
+                  "key": "invoice_no",
+                  "value": "YAKAP-2025-EXAMPLE",
+                  "type": "text",
+                  "description": "Optional, at most 64 characters; empty becomes null. Must respect the existing unique invoice number constraint.",
+                  "disabled": true
+                },
+                {
+                  "key": "invoice_date",
+                  "value": "2026-01-15",
+                  "type": "text",
+                  "description": "Optional real YYYY-MM-DD date; empty becomes null.",
+                  "disabled": true
+                },
+                {
+                  "key": "year",
+                  "value": "2090",
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"The selected billing period is not complete.\"\n    ]\n  }\n}"
+        },
+        {
+          "name": "Illustrative — month not applicable",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/billings/create_yakap_billing",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "billings",
+                "create_yakap_billing"
+              ]
+            },
+            "description": "## Create one YAKAP billing period\n\nAuthentication: `API-KEY` header plus `token` and `requester` query/form fields. Permissions follow existing billing transaction-read/create permissions. All examples are illustrative, not captured from production.\n\nBranch IDs: 1 Mobile, 2 Oakridge, 3 Mactan, 4 Consolacion, 7 Mantlewood. `year` must be an integer from 1900 through 9998. Each endpoint handles one branch; no branchless union or pagination parameters are used.\n\nRequired multipart text fields: token, requester, branch_id, year, tranche_number; month is additionally required for tranche 1 (1–12). For tranche 2 omit month (0 is also accepted). Do not set multipart Content-Type manually: Postman generates the boundary.\n\nOne successful request creates one master billing header and one aggregate entry, with saved calculation timestamp/version. Company and charge-to are fixed to **3210 PHILHEALTH - YAKAP**, not 2032. No `entries` or financial total is needed; the server calculates gross amounts. If company_id/charge_to/charge_to_id or grand_total/amount/balance/subtotal/total_amount are supplied, conflicting values are rejected. Withholding is applied by existing collection workflows.\n\nCompletion rules apply in Asia/Manila: tranche 1 after month-end, tranche 2 after year-end. The locked period registry prevents concurrent duplicate active bills. Pending, approved, open, and closed bills reserve the period. Cancellation/deletion permits replacement while retaining history. Unfinished, already billed, or zero-value periods are rejected.\n\nAmounts ≥₱50,000 are pending; lower amounts are automatically approved with creator/time recorded. The response includes IDs, grand_total, and the pre-creation calculation snapshot; snapshot is_billed=false/can_bill=true describes the calculation before insertion. Subsequent previews show the period as billed. Generic billing creation cannot create YAKAP tranches. Existing invoice metadata updates, approvals, and collections remain available; financial/period edits require cancellation and recreation.\n\nCreation requests write accounting records when sent. This collection contains saved examples only and does not auto-run requests or depend on response scripts.",
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text",
+                  "description": "Required valid environment token."
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text",
+                  "description": "Required authenticated user ID."
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "type": "text",
+                  "description": "Required branch ID."
+                },
+                {
+                  "key": "year",
+                  "value": "{{year}}",
+                  "type": "text",
+                  "description": "Required completed year."
+                },
+                {
+                  "key": "tranche_number",
+                  "value": "2",
+                  "type": "text",
+                  "description": "Annual performance tranche; omit month."
+                },
+                {
+                  "key": "due_date",
+                  "value": "2026-01-31",
+                  "type": "text",
+                  "description": "Optional real YYYY-MM-DD date; defaults to creation date in Asia/Manila.",
+                  "disabled": true
+                },
+                {
+                  "key": "invoice_no",
+                  "value": "YAKAP-2025-EXAMPLE",
+                  "type": "text",
+                  "description": "Optional, at most 64 characters; empty becomes null. Must respect the existing unique invoice number constraint.",
+                  "disabled": true
+                },
+                {
+                  "key": "invoice_date",
+                  "value": "2026-01-15",
+                  "type": "text",
+                  "description": "Optional real YYYY-MM-DD date; empty becomes null.",
+                  "disabled": true
+                },
+                {
+                  "key": "month",
+                  "value": "1",
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"month is not applicable to tranche 2.\"\n    ]\n  }\n}"
+        },
+        {
+          "name": "Illustrative — already billed or zero-value year",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/billings/create_yakap_billing",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "billings",
+                "create_yakap_billing"
+              ]
+            },
+            "description": "## Create one YAKAP billing period\n\nAuthentication: `API-KEY` header plus `token` and `requester` query/form fields. Permissions follow existing billing transaction-read/create permissions. All examples are illustrative, not captured from production.\n\nBranch IDs: 1 Mobile, 2 Oakridge, 3 Mactan, 4 Consolacion, 7 Mantlewood. `year` must be an integer from 1900 through 9998. Each endpoint handles one branch; no branchless union or pagination parameters are used.\n\nRequired multipart text fields: token, requester, branch_id, year, tranche_number; month is additionally required for tranche 1 (1–12). For tranche 2 omit month (0 is also accepted). Do not set multipart Content-Type manually: Postman generates the boundary.\n\nOne successful request creates one master billing header and one aggregate entry, with saved calculation timestamp/version. Company and charge-to are fixed to **3210 PHILHEALTH - YAKAP**, not 2032. No `entries` or financial total is needed; the server calculates gross amounts. If company_id/charge_to/charge_to_id or grand_total/amount/balance/subtotal/total_amount are supplied, conflicting values are rejected. Withholding is applied by existing collection workflows.\n\nCompletion rules apply in Asia/Manila: tranche 1 after month-end, tranche 2 after year-end. The locked period registry prevents concurrent duplicate active bills. Pending, approved, open, and closed bills reserve the period. Cancellation/deletion permits replacement while retaining history. Unfinished, already billed, or zero-value periods are rejected.\n\nAmounts ≥₱50,000 are pending; lower amounts are automatically approved with creator/time recorded. The response includes IDs, grand_total, and the pre-creation calculation snapshot; snapshot is_billed=false/can_bill=true describes the calculation before insertion. Subsequent previews show the period as billed. Generic billing creation cannot create YAKAP tranches. Existing invoice metadata updates, approvals, and collections remain available; financial/period edits require cancellation and recreation.\n\nCreation requests write accounting records when sent. This collection contains saved examples only and does not auto-run requests or depend on response scripts.",
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text",
+                  "description": "Required valid environment token."
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text",
+                  "description": "Required authenticated user ID."
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "type": "text",
+                  "description": "Required branch ID."
+                },
+                {
+                  "key": "year",
+                  "value": "{{year}}",
+                  "type": "text",
+                  "description": "Required completed year."
+                },
+                {
+                  "key": "tranche_number",
+                  "value": "2",
+                  "type": "text",
+                  "description": "Annual performance tranche; omit month."
+                },
+                {
+                  "key": "due_date",
+                  "value": "2026-01-31",
+                  "type": "text",
+                  "description": "Optional real YYYY-MM-DD date; defaults to creation date in Asia/Manila.",
+                  "disabled": true
+                },
+                {
+                  "key": "invoice_no",
+                  "value": "YAKAP-2025-EXAMPLE",
+                  "type": "text",
+                  "description": "Optional, at most 64 characters; empty becomes null. Must respect the existing unique invoice number constraint.",
+                  "disabled": true
+                },
+                {
+                  "key": "invoice_date",
+                  "value": "2026-01-15",
+                  "type": "text",
+                  "description": "Optional real YYYY-MM-DD date; empty becomes null.",
+                  "disabled": true
+                }
+              ]
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"Period is already billed or has no billable amount.\"\n    ]\n  }\n}"
+        },
+        {
+          "name": "Illustrative — invalid invoice date",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}",
+                "type": "text"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/billings/create_yakap_billing",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "billings",
+                "create_yakap_billing"
+              ]
+            },
+            "description": "## Create one YAKAP billing period\n\nAuthentication: `API-KEY` header plus `token` and `requester` query/form fields. Permissions follow existing billing transaction-read/create permissions. All examples are illustrative, not captured from production.\n\nBranch IDs: 1 Mobile, 2 Oakridge, 3 Mactan, 4 Consolacion, 7 Mantlewood. `year` must be an integer from 1900 through 9998. Each endpoint handles one branch; no branchless union or pagination parameters are used.\n\nRequired multipart text fields: token, requester, branch_id, year, tranche_number; month is additionally required for tranche 1 (1–12). For tranche 2 omit month (0 is also accepted). Do not set multipart Content-Type manually: Postman generates the boundary.\n\nOne successful request creates one master billing header and one aggregate entry, with saved calculation timestamp/version. Company and charge-to are fixed to **3210 PHILHEALTH - YAKAP**, not 2032. No `entries` or financial total is needed; the server calculates gross amounts. If company_id/charge_to/charge_to_id or grand_total/amount/balance/subtotal/total_amount are supplied, conflicting values are rejected. Withholding is applied by existing collection workflows.\n\nCompletion rules apply in Asia/Manila: tranche 1 after month-end, tranche 2 after year-end. The locked period registry prevents concurrent duplicate active bills. Pending, approved, open, and closed bills reserve the period. Cancellation/deletion permits replacement while retaining history. Unfinished, already billed, or zero-value periods are rejected.\n\nAmounts ≥₱50,000 are pending; lower amounts are automatically approved with creator/time recorded. The response includes IDs, grand_total, and the pre-creation calculation snapshot; snapshot is_billed=false/can_bill=true describes the calculation before insertion. Subsequent previews show the period as billed. Generic billing creation cannot create YAKAP tranches. Existing invoice metadata updates, approvals, and collections remain available; financial/period edits require cancellation and recreation.\n\nCreation requests write accounting records when sent. This collection contains saved examples only and does not auto-run requests or depend on response scripts.",
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text",
+                  "description": "Required valid environment token."
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text",
+                  "description": "Required authenticated user ID."
+                },
+                {
+                  "key": "branch_id",
+                  "value": "{{branch_id}}",
+                  "type": "text",
+                  "description": "Required branch ID."
+                },
+                {
+                  "key": "year",
+                  "value": "{{year}}",
+                  "type": "text",
+                  "description": "Required completed year."
+                },
+                {
+                  "key": "tranche_number",
+                  "value": "2",
+                  "type": "text",
+                  "description": "Annual performance tranche; omit month."
+                },
+                {
+                  "key": "due_date",
+                  "value": "2026-01-31",
+                  "type": "text",
+                  "description": "Optional real YYYY-MM-DD date; defaults to creation date in Asia/Manila.",
+                  "disabled": true
+                },
+                {
+                  "key": "invoice_no",
+                  "value": "YAKAP-2025-EXAMPLE",
+                  "type": "text",
+                  "description": "Optional, at most 64 characters; empty becomes null. Must respect the existing unique invoice number constraint.",
+                  "disabled": true
+                },
+                {
+                  "key": "invoice_date",
+                  "value": "2026-13-01",
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"invoice_date must be a valid YYYY-MM-DD date.\"\n    ]\n  }\n}"
+        }
+      ]
+    }
+  ]
+}

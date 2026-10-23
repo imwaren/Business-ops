@@ -1,0 +1,47 @@
+branch_id,source,source_id,account_type_id,date,debit,credit,remark,is_migrated,added_by,added_on,is_deleted
+1,journal_entry,20197,1745,2026-05-31,7724.4400,0.0000,To reclass PhilHealth PHIC contributions to COGS Bill RFP No.# 5934 — #62630,1,0,2026-05-31 23:59:59,0
+1,journal_entry,20198,1745,2026-05-31,0.0000,7724.4400,Reversal of: To reclass PhilHealth PHIC contributions to COGS Bill RFP No.# 5934 — #62631,1,0,2026-05-31 23:59:59,0
+1,journal_entry,20218,1201,2026-05-31,1950.0000,0.0000,Shanesse Angelee Cortes - Meal allowance- KA's (Replenishment) — RFP No.# 6143,1,0,2026-05-31 23:59:59,0
+1,journal_entry,20217,1201,2026-05-31,4500.0000,0.0000,Shanesse Angelee Cortes - Meal allowance- Employee (Replenishment) — RFP No.# 6142,1,0,2026-05-31 23:59:59,0
+1,journal_entry,20216,1201,2026-05-31,5600.0000,0.0000,Shanesse Angelee Cortes - PCP Relievers (Replenishment) — RFP No.# 6141,1,0,2026-05-31 23:59:59,0
+1,journal_entry,20211,921,2026-05-31,657.5400,0.0000,GEZSHA JANELLE C. CORTES - Payment for last and final pay for resigned employee — RFP No.# 6123,1,0,2026-05-31 23:59:59,0
+1,journal_entry,20192,921,2026-05-31,103209.9700,0.0000,"CPCI Payroll for May 16-31, 2026 - Mobile Medical Affairs — #62623",1,0,2026-05-31 23:59:59,0
+1,journal_entry,20193,921,2026-05-31,104855.8600,0.0000,"CPCI Payroll for May 16-31, 2026 - Mobile Operations — #62624",1,0,2026-05-31 23:59:59,0
+1,journal_entry,20201,921,2026-05-31,13975.8800,0.0000,to record KA/YA payroll Operations -Mobile Sales and Services (Admin Support) May 16-31 — #62634,1,0,2026-05-31 23:59:59,0
+1,journal_entry,20202,921,2026-05-31,155788.0100,0.0000,to record KA/YA payroll Operations -Mobile Sales and Services May 16-31 — #62635,1,0,2026-05-31 23:59:59,0
+1,journal_entry,20194,1725,2026-05-31,68182.2200,0.0000,"CPCI Payroll for May 16-31, 2026 - Project Based Mobile Operations SR — #62625",1,0,2026-05-31 23:59:59,0
+1,journal_entry,20215,1733,2026-05-31,1140.0000,0.0000,Mary Grace Baula - Payment for last and final pay for resigned KA's — RFP No.# 6134,1,0,2026-05-31 23:59:59,0
+1,journal_entry,20214,1733,2026-05-31,2700.0000,0.0000,Marc Angelo Gibo - Payment for last and final pay for resigned KA's — RFP No.# 6133,1,0,2026-05-31 23:59:59,0
+1,journal_entry,20213,1733,2026-05-31,3370.7800,0.0000,"Cabatingan, Antonette J. - Payment for last and final pay for resigned KA's — RFP No.# 6132",1,0,2026-05-31 23:59:59,0
+1,journal_entry,20212,1733,2026-05-31,2160.0000,0.0000,Johanna Enoy - Payment for last and final pay for resigned KA's — RFP No.# 6131,1,0,2026-05-31 23:59:59,0
+1,journal_entry,20195,1733,2026-05-31,59084.7900,0.0000,to record KA/YA payroll Operations - Mobile mAY 16-31 — #62627,1,0,2026-05-31 23:59:59,0
+1,journal_entry,20196,1733,2026-05-31,13223.2500,0.0000,to record KA/YA payroll Operations - Mobile (Logistics) May 16-31 — #62628,1,0,2026-05-31 23:59:59,0
+1,journal_entry,20200,1733,2026-05-31,9711.2300,0.0000,to record KA/YA payroll Operations -Mobile (FT-support) May 16-31 — #62633,1,0,2026-05-31 23:59:59,0
+1,journal_entry,20193,253,2026-05-31,0.0000,922.9000,"CPCI Payroll for May 16-31, 2026 - Mobile Operations — #62624",1,0,2026-05-31 23:59:59,0
+1,journal_entry,20195,253,2026-05-31,0.0000,500.0000,to record KA/YA payroll Operations - Mobile mAY 16-31 — #62627,1,0,2026-05-31 23:59:59,0
+1,journal_entry,20192,261,2026-05-31,0.0000,3962.5000,"CPCI Payroll for May 16-31, 2026 - Mobile Medical Affairs — #62623",1,0,2026-05-31 23:59:59,0
+1,journal_entry,20193,261,2026-05-31,0.0000,5287.5000,"CPCI Payroll for May 16-31, 2026 - Mobile Operations — #62624",1,0,2026-05-31 23:59:59,0
+1,journal_entry,20194,261,2026-05-31,0.0000,3312.5000,"CPCI Payroll for May 16-31, 2026 - Project Based Mobile Operations SR — #62625",1,0,2026-05-31 23:59:59,0
+1,journal_entry,20195,261,2026-05-31,0.0000,2250.0000,to record KA/YA payroll Operations - Mobile mAY 16-31 — #62627,1,0,2026-05-31 23:59:59,0
+1,journal_entry,20196,261,2026-05-31,0.0000,600.0000,to record KA/YA payroll Operations - Mobile (Logistics) May 16-31 — #62628,1,0,2026-05-31 23:59:59,0
+1,journal_entry,20200,261,2026-05-31,0.0000,450.0000,to record KA/YA payroll Operations -Mobile (FT-support) May 16-31 — #62633,1,0,2026-05-31 23:59:59,0
+1,journal_entry,20201,261,2026-05-31,0.0000,625.0000,to record KA/YA payroll Operations -Mobile Sales and Services (Admin Support) May 16-31 — #62634,1,0,2026-05-31 23:59:59,0
+1,journal_entry,20202,261,2026-05-31,0.0000,6762.5000,to record KA/YA payroll Operations -Mobile Sales and Services May 16-31 — #62635,1,0,2026-05-31 23:59:59,0
+1,journal_entry,20185,1777,2026-05-31,299149.4300,0.0000,Reversal of: to accrue medicines - konsulta La Nueva 2026 April — #62027,1,0,2026-05-31 23:59:59,0
+1,journal_entry,20192,1777,2026-05-31,0.0000,121003.4700,"CPCI Payroll for May 16-31, 2026 - Mobile Medical Affairs — #62623",1,0,2026-05-31 23:59:59,0
+1,journal_entry,20192,1777,2026-05-31,121003.4700,0.0000,"CPCI Payroll for May 16-31, 2026 - Mobile Medical Affairs — #62623",1,0,2026-05-31 23:59:59,0
+1,journal_entry,20193,1777,2026-05-31,0.0000,126765.9400,"CPCI Payroll for May 16-31, 2026 - Mobile Operations — #62624",1,0,2026-05-31 23:59:59,0
+1,journal_entry,20193,1777,2026-05-31,126765.9400,0.0000,"CPCI Payroll for May 16-31, 2026 - Mobile Operations — #62624",1,0,2026-05-31 23:59:59,0
+1,journal_entry,20194,1777,2026-05-31,0.0000,75957.4800,"CPCI Payroll for May 16-31, 2026 - Project Based Mobile Operations SR — #62625",1,0,2026-05-31 23:59:59,0
+1,journal_entry,20194,1777,2026-05-31,75957.4800,0.0000,"CPCI Payroll for May 16-31, 2026 - Project Based Mobile Operations SR — #62625",1,0,2026-05-31 23:59:59,0
+1,journal_entry,20195,1777,2026-05-31,0.0000,65298.1700,to record KA/YA payroll Operations - Mobile mAY 16-31 — #62627,1,0,2026-05-31 23:59:59,0
+1,journal_entry,20195,1777,2026-05-31,65298.1700,0.0000,to record KA/YA payroll Operations - Mobile mAY 16-31 — #62627,1,0,2026-05-31 23:59:59,0
+1,journal_entry,20196,1777,2026-05-31,0.0000,14742.0000,to record KA/YA payroll Operations - Mobile (Logistics) May 16-31 — #62628,1,0,2026-05-31 23:59:59,0
+1,journal_entry,20196,1777,2026-05-31,14742.0000,0.0000,to record KA/YA payroll Operations - Mobile (Logistics) May 16-31 — #62628,1,0,2026-05-31 23:59:59,0
+1,journal_entry,20200,1777,2026-05-31,0.0000,11483.1100,to record KA/YA payroll Operations -Mobile (FT-support) May 16-31 — #62633,1,0,2026-05-31 23:59:59,0
+1,journal_entry,20200,1777,2026-05-31,11483.1100,0.0000,to record KA/YA payroll Operations -Mobile (FT-support) May 16-31 — #62633,1,0,2026-05-31 23:59:59,0
+1,journal_entry,20201,1777,2026-05-31,0.0000,14904.0100,to record KA/YA payroll Operations -Mobile Sales and Services (Admin Support) May 16-31 — #62634,1,0,2026-05-31 23:59:59,0
+1,journal_entry,20201,1777,2026-05-31,14904.0100,0.0000,to record KA/YA payroll Operations -Mobile Sales and Services (Admin Support) May 16-31 — #62634,1,0,2026-05-31 23:59:59,0
+1,journal_entry,20202,1777,2026-05-31,0.0000,170460.8500,to record KA/YA payroll Operations -Mobile Sales and Services May 16-31 — #62635,1,0,2026-05-31 23:59:59,0
+1,journal_entry,20202,1777,2026-05-31,170460.8500,0.0000,to record KA/YA payroll Operations -Mobile Sales and Services May 16-31 — #62635,1,0,2026-05-31 23:59:59,0
+1,journal_entry,20217,945,2026-05-31,179.0000,0.0000,Shanesse Angelee Cortes - Nondeductible: Transportation expenses (Replenishment) — RFP No.# 6142,1,0,2026-05-31 23:59:59,0

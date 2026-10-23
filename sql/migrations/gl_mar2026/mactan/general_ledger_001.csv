@@ -1,0 +1,501 @@
+branch_id,source,source_id,account_type_id,date,debit,credit,remark,is_migrated,added_by,added_on,is_deleted
+3,journal_entry,7,217,2026-03-01,317276.4000,0.0000,"Payment: LAPU LAPU GRAND REALTY VENTURES, INC. — RFP No.# 3845-6",1,0,2026-03-31 23:59:59,0
+3,journal_entry,6,217,2026-03-01,69957.2500,0.0000,"Payment: LAPU LAPU GRAND REALTY VENTURES, INC. — RFP No.# 3845-18",1,0,2026-03-31 23:59:59,0
+3,journal_entry,2,217,2026-03-01,0.0000,69957.2500,"LAPU LAPU GRAND REALTY VENTURES, INC. — RFP No.# 3845-18",1,0,2026-03-31 23:59:59,0
+3,journal_entry,1,217,2026-03-01,0.0000,126361.6100,"NPK MEDICAL TRADING, INC. — 0326-000003",1,0,2026-03-31 23:59:59,0
+3,journal_entry,3,217,2026-03-01,0.0000,317276.4000,"LAPU LAPU GRAND REALTY VENTURES, INC. — RFP No.# 3845-6",1,0,2026-03-31 23:59:59,0
+3,journal_entry,1,229,2026-03-01,113839.2900,0.0000,"NPK MEDICAL TRADING, INC. - Vatable: Payment for 27th Installment of ultrasound machine CAPEX PO no. 119 — 0326-000003",1,0,2026-03-31 23:59:59,0
+3,journal_entry,5,1,2026-03-01,0.0000,69957.2500,"Payment: LAPU LAPU GRAND REALTY VENTURES, INC. — 6000396841",1,0,2026-03-31 23:59:59,0
+3,journal_entry,4,1,2026-03-01,0.0000,317276.4000,"Payment: LAPU LAPU GRAND REALTY VENTURES, INC. — 6000396816",1,0,2026-03-31 23:59:59,0
+3,journal_entry,2,609,2026-03-01,59597.5000,0.0000,"LAPU LAPU GRAND REALTY VENTURES, INC. - Vatable: Payment for CUSA and pylon signage for the month of March 2026 — RFP No.# 3845-18",1,0,2026-03-31 23:59:59,0
+3,journal_entry,1,245,2026-03-01,0.0000,1138.3900,"NPK MEDICAL TRADING, INC. - 1% EWT on Payment for 27th Installment of ultrasound machine CAPEX PO no. 119 — 0326-000003",1,0,2026-03-31 23:59:59,0
+3,journal_entry,2,245,2026-03-01,0.0000,1271.9500,"LAPU LAPU GRAND REALTY VENTURES, INC. - 2% EWT on Payment for CUSA, Pylon signage and Parking fee for the month of March 2026 — RFP No.# 3845-18",1,0,2026-03-31 23:59:59,0
+3,journal_entry,3,245,2026-03-01,0.0000,14826.0000,"LAPU LAPU GRAND REALTY VENTURES, INC. - 5% EWT on Payment for clinic rental for the month of March 2026 — RFP No.# 3845-6",1,0,2026-03-31 23:59:59,0
+3,journal_entry,2,697,2026-03-01,7151.7000,0.0000,"LAPU LAPU GRAND REALTY VENTURES, INC. - Vat: Payment for CUSA and pylon signage for the month of March 2026 — RFP No.# 3845-18",1,0,2026-03-31 23:59:59,0
+3,journal_entry,1,529,2026-03-01,13660.7100,0.0000,"NPK MEDICAL TRADING, INC. - Vat: Payment for 27th Installment of ultrasound machine CAPEX PO no. 119 — 0326-000003",1,0,2026-03-31 23:59:59,0
+3,journal_entry,2,777,2026-03-01,480.0000,0.0000,"LAPU LAPU GRAND REALTY VENTURES, INC. - Vat: Payment for Parking fee for the month of March 2026 — RFP No.# 3845-18",1,0,2026-03-31 23:59:59,0
+3,journal_entry,3,793,2026-03-01,35582.4000,0.0000,"LAPU LAPU GRAND REALTY VENTURES, INC. - Vat: Payment for clinic rental for the month of March 2026 — RFP No.# 3845-6",1,0,2026-03-31 23:59:59,0
+3,journal_entry,3,889,2026-03-01,296520.0000,0.0000,"LAPU LAPU GRAND REALTY VENTURES, INC. - Vatable: Payment for clinic rental for the month of March 2026 — RFP No.# 3845-6",1,0,2026-03-31 23:59:59,0
+3,journal_entry,2,945,2026-03-01,4000.0000,0.0000,"LAPU LAPU GRAND REALTY VENTURES, INC. - Vatable: Payment for Parking fee for the month of March 2026 — RFP No.# 3845-18",1,0,2026-03-31 23:59:59,0
+3,journal_entry,11,217,2026-03-02,0.0000,6600.0000,"LAPU LAPU GRAND REALTY VENTURES, INC. — RFP No.# 5274",1,0,2026-03-31 23:59:59,0
+3,journal_entry,10,77,2026-03-02,1405.0000,0.0000,"Sales Branches March 02, 2026 - Gcash Sales - March, 02 — #51687",1,0,2026-03-31 23:59:59,0
+3,journal_entry,28,61,2026-03-02,490.0000,0.0000,"Payment: Avega Managed Care, Inc — M1923",1,0,2026-03-31 23:59:59,0
+3,journal_entry,26,61,2026-03-02,32645.0000,0.0000,Payment: Life & Health Hmp Inc — M1795,1,0,2026-03-31 23:59:59,0
+3,journal_entry,27,61,2026-03-02,148568.0000,0.0000,Payment: Life & Health Hmp Inc — M1827,1,0,2026-03-31 23:59:59,0
+3,journal_entry,27,61,2026-03-02,95736.2000,0.0000,Payment: Life & Health Hmp Inc — M1827,1,0,2026-03-31 23:59:59,0
+3,journal_entry,10,61,2026-03-02,5840.0000,0.0000,"Sales Branches March 02, 2026 - Credit Card Sales - March, 02 — #51687",1,0,2026-03-31 23:59:59,0
+3,journal_entry,10,61,2026-03-02,5540.0000,0.0000,"Sales Branches March 02, 2026 - Debit Card Sales - March, 02 — #51687",1,0,2026-03-31 23:59:59,0
+3,journal_entry,10,65,2026-03-02,165183.0000,0.0000,"Sales Branches March 02, 2026 - Term Sales - March, 02 — #51687",1,0,2026-03-31 23:59:59,0
+3,journal_entry,17,57,2026-03-02,10.0000,0.0000,"Avega Managed Care, Inc — CN-4530",1,0,2026-03-31 23:59:59,0
+3,journal_entry,18,57,2026-03-02,3032.0000,0.0000,Life & Health Hmp Inc — CN-4532,1,0,2026-03-31 23:59:59,0
+3,journal_entry,19,57,2026-03-02,1953.8000,0.0000,Life & Health Hmp Inc — CN-4533,1,0,2026-03-31 23:59:59,0
+3,journal_entry,20,57,2026-03-02,28.4000,0.0000,"PAGES HOLDINGS, INC. — CN-4553",1,0,2026-03-31 23:59:59,0
+3,journal_entry,21,57,2026-03-02,16.0000,0.0000,Toyota LapuLapu — CN-4557,1,0,2026-03-31 23:59:59,0
+3,journal_entry,12,57,2026-03-02,0.0000,10.0000,"Avega Managed Care, Inc — CN-4530",1,0,2026-03-31 23:59:59,0
+3,journal_entry,23,57,2026-03-02,0.0000,10.0000,"Avega Managed Care, Inc — M1923",1,0,2026-03-31 23:59:59,0
+3,journal_entry,16,57,2026-03-02,0.0000,16.0000,Toyota LapuLapu — CN-4557,1,0,2026-03-31 23:59:59,0
+3,journal_entry,24,57,2026-03-02,0.0000,16.0000,Toyota LapuLapu — M2091,1,0,2026-03-31 23:59:59,0
+3,journal_entry,15,57,2026-03-02,0.0000,28.4000,"PAGES HOLDINGS, INC. — CN-4553",1,0,2026-03-31 23:59:59,0
+3,journal_entry,25,57,2026-03-02,0.0000,28.4000,"PAGES HOLDINGS, INC. — M2185",1,0,2026-03-31 23:59:59,0
+3,journal_entry,28,57,2026-03-02,0.0000,490.0000,"Payment: Avega Managed Care, Inc — M1923",1,0,2026-03-31 23:59:59,0
+3,journal_entry,14,57,2026-03-02,0.0000,1953.8000,Life & Health Hmp Inc — CN-4533,1,0,2026-03-31 23:59:59,0
+3,journal_entry,22,57,2026-03-02,0.0000,1953.8000,Life & Health Hmp Inc — M1827,1,0,2026-03-31 23:59:59,0
+3,journal_entry,13,57,2026-03-02,0.0000,3032.0000,Life & Health Hmp Inc — CN-4532,1,0,2026-03-31 23:59:59,0
+3,journal_entry,22,57,2026-03-02,0.0000,3032.0000,Life & Health Hmp Inc — M1827,1,0,2026-03-31 23:59:59,0
+3,journal_entry,26,57,2026-03-02,0.0000,32645.0000,Payment: Life & Health Hmp Inc — M1795,1,0,2026-03-31 23:59:59,0
+3,journal_entry,27,57,2026-03-02,0.0000,95736.2000,Payment: Life & Health Hmp Inc — M1827,1,0,2026-03-31 23:59:59,0
+3,journal_entry,27,57,2026-03-02,0.0000,148568.0000,Payment: Life & Health Hmp Inc — M1827,1,0,2026-03-31 23:59:59,0
+3,journal_entry,8,1,2026-03-02,28738.0000,0.0000,"To Record Cash Sales Branches feb 27, 2026 — #50978",1,0,2026-03-31 23:59:59,0
+3,journal_entry,9,1,2026-03-02,33880.0000,0.0000,"To Record Cash Sales Branches feb 28, 2026 — #50979",1,0,2026-03-31 23:59:59,0
+3,journal_entry,10,13,2026-03-02,34829.0000,0.0000,"Sales Branches March 02, 2026 - Cash Sales - March, 02 — #51687",1,0,2026-03-31 23:59:59,0
+3,journal_entry,8,13,2026-03-02,0.0000,28738.0000,"To Record Cash Sales Branches feb 27, 2026 — #50978",1,0,2026-03-31 23:59:59,0
+3,journal_entry,9,13,2026-03-02,0.0000,33880.0000,"To Record Cash Sales Branches feb 28, 2026 — #50979",1,0,2026-03-31 23:59:59,0
+3,journal_entry,11,609,2026-03-02,6000.0000,0.0000,"LAPU LAPU GRAND REALTY VENTURES, INC. - Vatable: Payment for additional pylon signage for the month of March 2026 — RFP No.# 5274",1,0,2026-03-31 23:59:59,0
+3,journal_entry,10,1613,2026-03-02,0.0000,55880.0000,"Sales Branches March 02, 2026 - Consultations — #51687",1,0,2026-03-31 23:59:59,0
+3,journal_entry,13,165,2026-03-02,3032.0000,0.0000,Life & Health Hmp Inc - CWT-2% | LIFE & HEALTH — CN-4532,1,0,2026-03-31 23:59:59,0
+3,journal_entry,12,165,2026-03-02,10.0000,0.0000,"Avega Managed Care, Inc - CWT-2% | AVEGA — CN-4530",1,0,2026-03-31 23:59:59,0
+3,journal_entry,14,165,2026-03-02,1953.8000,0.0000,Life & Health Hmp Inc - CWT-2% | LIFE & HEALTH — CN-4533,1,0,2026-03-31 23:59:59,0
+3,journal_entry,15,165,2026-03-02,28.4000,0.0000,"PAGES HOLDINGS, INC. - CWT-2% | PAGES HOLDINGS — CN-4553",1,0,2026-03-31 23:59:59,0
+3,journal_entry,16,165,2026-03-02,16.0000,0.0000,Toyota LapuLapu - CWT-2% | TOYOTA LAPU2 — CN-4557,1,0,2026-03-31 23:59:59,0
+3,journal_entry,10,1625,2026-03-02,2066.0000,0.0000,"Sales Branches March 02, 2026 - Sales Discounts - March, 02 — #51687",1,0,2026-03-31 23:59:59,0
+3,journal_entry,11,245,2026-03-02,0.0000,120.0000,"LAPU LAPU GRAND REALTY VENTURES, INC. - 2% EWT on Payment for additional pylon signage for the month of March 2026 — RFP No.# 5274",1,0,2026-03-31 23:59:59,0
+3,journal_entry,10,1633,2026-03-02,0.0000,4600.0000,"Sales Branches March 02, 2026 - Health services — #51687",1,0,2026-03-31 23:59:59,0
+3,journal_entry,11,697,2026-03-02,720.0000,0.0000,"LAPU LAPU GRAND REALTY VENTURES, INC. - Vat: Payment for additional pylon signage for the month of March 2026 — RFP No.# 5274",1,0,2026-03-31 23:59:59,0
+3,journal_entry,10,1645,2026-03-02,0.0000,41420.0000,"Sales Branches March 02, 2026 - Laboratory/Diagnostics — #51687",1,0,2026-03-31 23:59:59,0
+3,journal_entry,10,1645,2026-03-02,0.0000,47710.0000,"Sales Branches March 02, 2026 - Laboratory/Diagnostics — #51687",1,0,2026-03-31 23:59:59,0
+3,journal_entry,10,1645,2026-03-02,0.0000,55498.0000,"Sales Branches March 02, 2026 - Laboratory/Diagnostics — #51687",1,0,2026-03-31 23:59:59,0
+3,journal_entry,10,1657,2026-03-02,0.0000,9755.0000,"Sales Branches March 02, 2026 - Laboratory/Diagnostics - Send Outs — #51687",1,0,2026-03-31 23:59:59,0
+3,journal_entry,32,217,2026-03-03,241787.8100,0.0000,"Payment: LAPU LAPU GRAND REALTY VENTURES, INC. — RFP No.# 5271",1,0,2026-03-31 23:59:59,0
+3,journal_entry,33,217,2026-03-03,6600.0000,0.0000,"Payment: LAPU LAPU GRAND REALTY VENTURES, INC. — RFP No.# 5274",1,0,2026-03-31 23:59:59,0
+3,journal_entry,30,77,2026-03-03,16395.0000,0.0000,"Sales Branches March 03, 2026 - Gcash Sales - March, 03 — #54429",1,0,2026-03-31 23:59:59,0
+3,journal_entry,30,61,2026-03-03,2200.0000,0.0000,"Sales Branches March 03, 2026 - Credit Card Sales - March, 03 — #54429",1,0,2026-03-31 23:59:59,0
+3,journal_entry,30,61,2026-03-03,17683.0000,0.0000,"Sales Branches March 03, 2026 - Debit Card Sales - March, 03 — #54429",1,0,2026-03-31 23:59:59,0
+3,journal_entry,30,65,2026-03-03,208423.0000,0.0000,"Sales Branches March 03, 2026 - Term Sales - March, 03 — #54429",1,0,2026-03-31 23:59:59,0
+3,journal_entry,49,57,2026-03-03,100.0000,0.0000,Greentree Food Solutions Inc — CN-4561,1,0,2026-03-31 23:59:59,0
+3,journal_entry,50,57,2026-03-03,100.0000,0.0000,Greentree Food Solutions Inc — CN-4563,1,0,2026-03-31 23:59:59,0
+3,journal_entry,51,57,2026-03-03,200.0000,0.0000,Greentree Food Solutions Inc — CN-4564,1,0,2026-03-31 23:59:59,0
+3,journal_entry,52,57,2026-03-03,666.0000,0.0000,Asalus Corporation — CN-4566,1,0,2026-03-31 23:59:59,0
+3,journal_entry,53,57,2026-03-03,471.5000,0.0000,Asalus Corporation — CN-4567,1,0,2026-03-31 23:59:59,0
+3,journal_entry,54,57,2026-03-03,1013.1000,0.0000,Asalus Corporation — CN-4568,1,0,2026-03-31 23:59:59,0
+3,journal_entry,55,57,2026-03-03,420.1000,0.0000,"Avega Managed Care, Inc — CN-4577",1,0,2026-03-31 23:59:59,0
+3,journal_entry,56,57,2026-03-03,177.2000,0.0000,"Avega Managed Care, Inc — CN-4578",1,0,2026-03-31 23:59:59,0
+3,journal_entry,57,57,2026-03-03,10.0000,0.0000,"Avega Managed Care, Inc — CN-4579",1,0,2026-03-31 23:59:59,0
+3,journal_entry,58,57,2026-03-03,235.0200,0.0000,"Avega Managed Care, Inc — CN-4581",1,0,2026-03-31 23:59:59,0
+3,journal_entry,59,57,2026-03-03,1378.7200,0.0000,Life & Health Hmp Inc — CN-4587,1,0,2026-03-31 23:59:59,0
+3,journal_entry,60,57,2026-03-03,1041.5000,0.0000,Life & Health Hmp Inc — CN-4588,1,0,2026-03-31 23:59:59,0
+3,journal_entry,61,57,2026-03-03,421.2000,0.0000,Life & Health Hmp Inc — CN-4589,1,0,2026-03-31 23:59:59,0
+3,journal_entry,62,57,2026-03-03,29.0000,0.0000,Life & Health Hmp Inc — CN-4593,1,0,2026-03-31 23:59:59,0
+3,journal_entry,63,57,2026-03-03,62.0000,0.0000,Life & Health Hmp Inc — CN-4594,1,0,2026-03-31 23:59:59,0
+3,journal_entry,42,57,2026-03-03,0.0000,10.0000,"Avega Managed Care, Inc — CN-4579",1,0,2026-03-31 23:59:59,0
+3,journal_entry,74,57,2026-03-03,0.0000,10.0000,"Avega Managed Care, Inc — M2006",1,0,2026-03-31 23:59:59,0
+3,journal_entry,47,57,2026-03-03,0.0000,29.0000,Life & Health Hmp Inc — CN-4593,1,0,2026-03-31 23:59:59,0
+3,journal_entry,64,57,2026-03-03,0.0000,29.0000,Life & Health Hmp Inc — M1351,1,0,2026-03-31 23:59:59,0
+3,journal_entry,48,57,2026-03-03,0.0000,62.0000,Life & Health Hmp Inc — CN-4594,1,0,2026-03-31 23:59:59,0
+3,journal_entry,22,57,2026-03-03,0.0000,62.0000,Life & Health Hmp Inc — M1827,1,0,2026-03-31 23:59:59,0
+3,journal_entry,34,57,2026-03-03,0.0000,100.0000,Greentree Food Solutions Inc — CN-4561,1,0,2026-03-31 23:59:59,0
+3,journal_entry,75,57,2026-03-03,0.0000,100.0000,Greentree Food Solutions Inc — M2087,1,0,2026-03-31 23:59:59,0
+3,journal_entry,35,57,2026-03-03,0.0000,100.0000,Greentree Food Solutions Inc — CN-4563,1,0,2026-03-31 23:59:59,0
+3,journal_entry,77,57,2026-03-03,0.0000,100.0000,Greentree Food Solutions Inc — M2128,1,0,2026-03-31 23:59:59,0
+3,journal_entry,41,57,2026-03-03,0.0000,177.2000,"Avega Managed Care, Inc — CN-4578",1,0,2026-03-31 23:59:59,0
+3,journal_entry,70,57,2026-03-03,0.0000,177.2000,"Avega Managed Care, Inc — M1950",1,0,2026-03-31 23:59:59,0
+3,journal_entry,36,57,2026-03-03,0.0000,200.0000,Greentree Food Solutions Inc — CN-4564,1,0,2026-03-31 23:59:59,0
+3,journal_entry,76,57,2026-03-03,0.0000,200.0000,Greentree Food Solutions Inc — M2114,1,0,2026-03-31 23:59:59,0
+3,journal_entry,43,57,2026-03-03,0.0000,235.0200,"Avega Managed Care, Inc — CN-4581",1,0,2026-03-31 23:59:59,0
+3,journal_entry,66,57,2026-03-03,0.0000,235.0200,"Avega Managed Care, Inc — M1911",1,0,2026-03-31 23:59:59,0
+3,journal_entry,40,57,2026-03-03,0.0000,420.1000,"Avega Managed Care, Inc — CN-4577",1,0,2026-03-31 23:59:59,0
+3,journal_entry,65,57,2026-03-03,0.0000,420.1000,"Avega Managed Care, Inc — M1906",1,0,2026-03-31 23:59:59,0
+3,journal_entry,46,57,2026-03-03,0.0000,421.2000,Life & Health Hmp Inc — CN-4589,1,0,2026-03-31 23:59:59,0
+3,journal_entry,68,57,2026-03-03,0.0000,421.2000,Life & Health Hmp Inc — M1930,1,0,2026-03-31 23:59:59,0
+3,journal_entry,38,57,2026-03-03,0.0000,471.5000,Asalus Corporation — CN-4567,1,0,2026-03-31 23:59:59,0
+3,journal_entry,69,57,2026-03-03,0.0000,471.5000,Asalus Corporation — M1932,1,0,2026-03-31 23:59:59,0
+3,journal_entry,37,57,2026-03-03,0.0000,666.0000,Asalus Corporation — CN-4566,1,0,2026-03-31 23:59:59,0
+3,journal_entry,71,57,2026-03-03,0.0000,666.0000,Asalus Corporation — M1981,1,0,2026-03-31 23:59:59,0
+3,journal_entry,39,57,2026-03-03,0.0000,1013.1000,Asalus Corporation — CN-4568,1,0,2026-03-31 23:59:59,0
+3,journal_entry,73,57,2026-03-03,0.0000,1013.1000,Asalus Corporation — M1994,1,0,2026-03-31 23:59:59,0
+3,journal_entry,45,57,2026-03-03,0.0000,1041.5000,Life & Health Hmp Inc — CN-4588,1,0,2026-03-31 23:59:59,0
+3,journal_entry,67,57,2026-03-03,0.0000,1041.5000,Life & Health Hmp Inc — M1928,1,0,2026-03-31 23:59:59,0
+3,journal_entry,44,57,2026-03-03,0.0000,1378.7200,Life & Health Hmp Inc — CN-4587,1,0,2026-03-31 23:59:59,0
+3,journal_entry,72,57,2026-03-03,0.0000,1378.7200,Life & Health Hmp Inc — M1990,1,0,2026-03-31 23:59:59,0
+3,journal_entry,29,1,2026-03-03,34829.0000,0.0000,To Record Cash Sales Branches March 3 — #51282,1,0,2026-03-31 23:59:59,0
+3,journal_entry,31,1,2026-03-03,0.0000,6600.0000,"Payment: LAPU LAPU GRAND REALTY VENTURES, INC. — Online-030326",1,0,2026-03-31 23:59:59,0
+3,journal_entry,31,1,2026-03-03,0.0000,241787.8100,"Payment: LAPU LAPU GRAND REALTY VENTURES, INC. — Online-030326",1,0,2026-03-31 23:59:59,0
+3,journal_entry,30,13,2026-03-03,44073.0000,0.0000,"Sales Branches March 03, 2026 - Cash Sales - March, 03 — #54429",1,0,2026-03-31 23:59:59,0
+3,journal_entry,29,13,2026-03-03,0.0000,34829.0000,To Record Cash Sales Branches March 3 — #51282,1,0,2026-03-31 23:59:59,0
+3,journal_entry,30,1613,2026-03-03,0.0000,51690.0000,"Sales Branches March 03, 2026 - Consultations — #54429",1,0,2026-03-31 23:59:59,0
+3,journal_entry,38,165,2026-03-03,471.5000,0.0000,Asalus Corporation - CWT-2% | ASALUS — CN-4567,1,0,2026-03-31 23:59:59,0
+3,journal_entry,34,165,2026-03-03,100.0000,0.0000,Greentree Food Solutions Inc - CWT-2% | GFS — CN-4561,1,0,2026-03-31 23:59:59,0
+3,journal_entry,35,165,2026-03-03,100.0000,0.0000,Greentree Food Solutions Inc - CWT-2% | GFS — CN-4563,1,0,2026-03-31 23:59:59,0
+3,journal_entry,36,165,2026-03-03,200.0000,0.0000,Greentree Food Solutions Inc - CWT-2% | GFS — CN-4564,1,0,2026-03-31 23:59:59,0
+3,journal_entry,37,165,2026-03-03,666.0000,0.0000,Asalus Corporation - CWT-2% | ASALUS — CN-4566,1,0,2026-03-31 23:59:59,0
+3,journal_entry,39,165,2026-03-03,1013.1000,0.0000,Asalus Corporation - CWT-2% | ASALUS — CN-4568,1,0,2026-03-31 23:59:59,0
+3,journal_entry,40,165,2026-03-03,420.1000,0.0000,"Avega Managed Care, Inc - CTW-2% | AVEGA — CN-4577",1,0,2026-03-31 23:59:59,0
+3,journal_entry,41,165,2026-03-03,177.2000,0.0000,"Avega Managed Care, Inc - CWT-2% | AVEGA — CN-4578",1,0,2026-03-31 23:59:59,0
+3,journal_entry,42,165,2026-03-03,10.0000,0.0000,"Avega Managed Care, Inc - CWT-2% | AVEGA — CN-4579",1,0,2026-03-31 23:59:59,0
+3,journal_entry,43,165,2026-03-03,235.0200,0.0000,"Avega Managed Care, Inc - CWT-2% | AVEGA — CN-4581",1,0,2026-03-31 23:59:59,0
+3,journal_entry,44,165,2026-03-03,1378.7200,0.0000,Life & Health Hmp Inc - CWT-2% | LIFE & HEALTH — CN-4587,1,0,2026-03-31 23:59:59,0
+3,journal_entry,45,165,2026-03-03,1041.5000,0.0000,Life & Health Hmp Inc - CWT-2% | LIFE & HEALTH — CN-4588,1,0,2026-03-31 23:59:59,0
+3,journal_entry,46,165,2026-03-03,421.2000,0.0000,Life & Health Hmp Inc - CWT-2% | LIFE & HEALTH — CN-4589,1,0,2026-03-31 23:59:59,0
+3,journal_entry,47,165,2026-03-03,29.0000,0.0000,Life & Health Hmp Inc - CWT-2% | LIFE & HEALTH — CN-4593,1,0,2026-03-31 23:59:59,0
+3,journal_entry,48,165,2026-03-03,62.0000,0.0000,Life & Health Hmp Inc - CWT-2% | LIFE & HEALTH — CN-4594,1,0,2026-03-31 23:59:59,0
+3,journal_entry,30,1625,2026-03-03,8511.0000,0.0000,"Sales Branches March 03, 2026 - Sales Discounts - March, 03 — #54429",1,0,2026-03-31 23:59:59,0
+3,journal_entry,30,1633,2026-03-03,0.0000,3150.0000,"Sales Branches March 03, 2026 - Health services — #54429",1,0,2026-03-31 23:59:59,0
+3,journal_entry,30,1645,2026-03-03,0.0000,32160.0000,"Sales Branches March 03, 2026 - Laboratory/Diagnostics — #54429",1,0,2026-03-31 23:59:59,0
+3,journal_entry,30,1645,2026-03-03,0.0000,90140.0000,"Sales Branches March 03, 2026 - Laboratory/Diagnostics — #54429",1,0,2026-03-31 23:59:59,0
+3,journal_entry,30,1645,2026-03-03,0.0000,90935.0000,"Sales Branches March 03, 2026 - Laboratory/Diagnostics — #54429",1,0,2026-03-31 23:59:59,0
+3,journal_entry,30,1657,2026-03-03,0.0000,6710.0000,"Sales Branches March 03, 2026 - Laboratory/Diagnostics - Send Outs — #54429",1,0,2026-03-31 23:59:59,0
+3,journal_entry,30,1713,2026-03-03,0.0000,22500.0000,"Sales Branches March 03, 2026 - Third-Party Partnership — #54429",1,0,2026-03-31 23:59:59,0
+3,journal_entry,80,217,2026-03-04,0.0000,2200.0000,MARY ANN VILLONES — RFP No.# 5307,1,0,2026-03-31 23:59:59,0
+3,journal_entry,79,77,2026-03-04,4076.0000,0.0000,"Sales Branches March 04, 2026 - Gcash Sales - March, 04 — #51689",1,0,2026-03-31 23:59:59,0
+3,journal_entry,79,61,2026-03-04,3975.0000,0.0000,"Sales Branches March 04, 2026 - Credit Card Sales - March, 04 — #51689",1,0,2026-03-31 23:59:59,0
+3,journal_entry,79,61,2026-03-04,15471.0000,0.0000,"Sales Branches March 04, 2026 - Debit Card Sales - March, 04 — #51689",1,0,2026-03-31 23:59:59,0
+3,journal_entry,81,61,2026-03-04,167090.0000,0.0000,Payment: Insular Healthcare Inc — M1794,1,0,2026-03-31 23:59:59,0
+3,journal_entry,79,65,2026-03-04,147187.0000,0.0000,"Sales Branches March 04, 2026 - Term Sales - March, 04 — #51689",1,0,2026-03-31 23:59:59,0
+3,journal_entry,81,57,2026-03-04,0.0000,167090.0000,Payment: Insular Healthcare Inc — M1794,1,0,2026-03-31 23:59:59,0
+3,journal_entry,78,1,2026-03-04,44073.0000,0.0000,To Record Cash Sales Branches March 4 — #51437,1,0,2026-03-31 23:59:59,0
+3,journal_entry,79,13,2026-03-04,30245.0000,0.0000,"Sales Branches March 04, 2026 - Cash Sales - March, 04 — #51689",1,0,2026-03-31 23:59:59,0
+3,journal_entry,78,13,2026-03-04,0.0000,44073.0000,To Record Cash Sales Branches March 4 — #51437,1,0,2026-03-31 23:59:59,0
+3,journal_entry,79,1613,2026-03-04,0.0000,52140.0000,"Sales Branches March 04, 2026 - Consultations — #51689",1,0,2026-03-31 23:59:59,0
+3,journal_entry,79,1625,2026-03-04,4254.0000,0.0000,"Sales Branches March 04, 2026 - Sales Discounts - March, 04 — #51689",1,0,2026-03-31 23:59:59,0
+3,journal_entry,79,1633,2026-03-04,0.0000,3350.0000,"Sales Branches March 04, 2026 - Health services — #51689",1,0,2026-03-31 23:59:59,0
+3,journal_entry,79,1645,2026-03-04,0.0000,32928.0000,"Sales Branches March 04, 2026 - Laboratory/Diagnostics — #51689",1,0,2026-03-31 23:59:59,0
+3,journal_entry,79,1645,2026-03-04,0.0000,35140.0000,"Sales Branches March 04, 2026 - Laboratory/Diagnostics — #51689",1,0,2026-03-31 23:59:59,0
+3,journal_entry,79,1645,2026-03-04,0.0000,62085.0000,"Sales Branches March 04, 2026 - Laboratory/Diagnostics — #51689",1,0,2026-03-31 23:59:59,0
+3,journal_entry,79,1657,2026-03-04,0.0000,10665.0000,"Sales Branches March 04, 2026 - Laboratory/Diagnostics - Send Outs — #51689",1,0,2026-03-31 23:59:59,0
+3,journal_entry,80,1201,2026-03-04,2200.0000,0.0000,"MARY ANN VILLONES - Reliever fee for March 02, 2026 — RFP No.# 5307",1,0,2026-03-31 23:59:59,0
+3,journal_entry,79,1713,2026-03-04,0.0000,8900.0000,"Sales Branches March 04, 2026 - Third-Party Partnership — #51689",1,0,2026-03-31 23:59:59,0
+3,journal_entry,84,217,2026-03-05,0.0000,1062.2100,CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 5309,1,0,2026-03-31 23:59:59,0
+3,journal_entry,85,217,2026-03-05,0.0000,6160.0000,VIRLEN T. MAHINAY — RFP No.# 5316,1,0,2026-03-31 23:59:59,0
+3,journal_entry,83,77,2026-03-05,8558.0000,0.0000,"Sales Branches March 05, 2026 - Gcash Sales - March, 05 — #55073",1,0,2026-03-31 23:59:59,0
+3,journal_entry,89,61,2026-03-05,18634.7000,0.0000,"Payment: Avega Managed Care, Inc — Jan 14, 2026 Payment",1,0,2026-03-31 23:59:59,0
+3,journal_entry,91,61,2026-03-05,1568.0000,0.0000,"Payment: TAMIYA PHILIPPINES, INC. — M2049",1,0,2026-03-31 23:59:59,0
+3,journal_entry,92,61,2026-03-05,784.0000,0.0000,"Payment: TAMIYA PHILIPPINES, INC. — M2089",1,0,2026-03-31 23:59:59,0
+3,journal_entry,93,61,2026-03-05,3136.0000,0.0000,"Payment: TAMIYA PHILIPPINES, INC. — M2173",1,0,2026-03-31 23:59:59,0
+3,journal_entry,83,61,2026-03-05,5728.0000,0.0000,"Sales Branches March 05, 2026 - Credit Card Sales - March, 05 — #55073",1,0,2026-03-31 23:59:59,0
+3,journal_entry,83,61,2026-03-05,500.0000,0.0000,"Sales Branches March 05, 2026 - Debit Card Sales - March, 05 — #55073",1,0,2026-03-31 23:59:59,0
+3,journal_entry,83,65,2026-03-05,119492.5000,0.0000,"Sales Branches March 05, 2026 - Term Sales - March, 05 — #55073",1,0,2026-03-31 23:59:59,0
+3,journal_entry,87,57,2026-03-05,380.3000,0.0000,"Avega Managed Care, Inc — CN-4613",1,0,2026-03-31 23:59:59,0
+3,journal_entry,86,57,2026-03-05,0.0000,380.3000,"Avega Managed Care, Inc — CN-4613",1,0,2026-03-31 23:59:59,0
+3,journal_entry,88,57,2026-03-05,0.0000,380.3000,"Avega Managed Care, Inc — M1772",1,0,2026-03-31 23:59:59,0
+3,journal_entry,92,57,2026-03-05,0.0000,784.0000,"Payment: TAMIYA PHILIPPINES, INC. — M2089",1,0,2026-03-31 23:59:59,0
+3,journal_entry,91,57,2026-03-05,0.0000,1568.0000,"Payment: TAMIYA PHILIPPINES, INC. — M2049",1,0,2026-03-31 23:59:59,0
+3,journal_entry,93,57,2026-03-05,0.0000,3136.0000,"Payment: TAMIYA PHILIPPINES, INC. — M2173",1,0,2026-03-31 23:59:59,0
+3,journal_entry,90,57,2026-03-05,0.0000,18634.7000,"Payment: Avega Managed Care, Inc — M1772",1,0,2026-03-31 23:59:59,0
+3,journal_entry,82,1,2026-03-05,30245.0000,0.0000,To Record Cash Sales Branches March 5 — #51496,1,0,2026-03-31 23:59:59,0
+3,journal_entry,83,13,2026-03-05,37939.0000,0.0000,"Sales Branches March 05, 2026 - Cash Sales - March, 05 — #55073",1,0,2026-03-31 23:59:59,0
+3,journal_entry,82,13,2026-03-05,0.0000,30245.0000,To Record Cash Sales Branches March 5 — #51496,1,0,2026-03-31 23:59:59,0
+3,journal_entry,83,1613,2026-03-05,0.0000,48800.0000,"Sales Branches March 05, 2026 - Consultations — #55073",1,0,2026-03-31 23:59:59,0
+3,journal_entry,86,165,2026-03-05,380.3000,0.0000,"Avega Managed Care, Inc - CWT-2% | AVEGA — CN-4613",1,0,2026-03-31 23:59:59,0
+3,journal_entry,83,1625,2026-03-05,4049.5000,0.0000,"Sales Branches March 05, 2026 - Sales Discounts - March, 05 — #55073",1,0,2026-03-31 23:59:59,0
+3,journal_entry,84,245,2026-03-05,0.0000,19.3100,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - 2% EWT on Payment for janitorial services (Benaro, Lina Borga) ftp February 1-15, 2026 SI no. 2963 — RFP No.# 5309",1,0,2026-03-31 23:59:59,0
+3,journal_entry,83,1633,2026-03-05,0.0000,9660.0000,"Sales Branches March 05, 2026 - Health services — #55073",1,0,2026-03-31 23:59:59,0
+3,journal_entry,84,725,2026-03-05,115.8800,0.0000,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - Vat: Payment for janitorial services (Benaro, Lina Borga) ftp February 1-15, 2026 SI no. 2963 — RFP No.# 5309",1,0,2026-03-31 23:59:59,0
+3,journal_entry,85,1057,2026-03-05,167.8900,0.0000,VIRLEN T. MAHINAY - Vat: Distilled water (Replenishment) — RFP No.# 5316,1,0,2026-03-31 23:59:59,0
+3,journal_entry,85,741,2026-03-05,183.9600,0.0000,VIRLEN T. MAHINAY - Vat: various office supplies (Replenishment) — RFP No.# 5316,1,0,2026-03-31 23:59:59,0
+3,journal_entry,85,749,2026-03-05,12.5900,0.0000,VIRLEN T. MAHINAY - Vat: Patient meals (Replenishment) — RFP No.# 5316,1,0,2026-03-31 23:59:59,0
+3,journal_entry,85,777,2026-03-05,28.9300,0.0000,VIRLEN T. MAHINAY - Vat: Gasoline and parking fee (Replenishment) — RFP No.# 5316,1,0,2026-03-31 23:59:59,0
+3,journal_entry,84,813,2026-03-05,965.6400,0.0000,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - Vatable: Payment for janitorial services (Benaro, Lina Borga) ftp February 1-15, 2026 SI no. 2963 — RFP No.# 5309",1,0,2026-03-31 23:59:59,0
+3,journal_entry,85,1109,2026-03-05,1399.1100,0.0000,VIRLEN T. MAHINAY - Vatable: Distilled water (Replenishment) — RFP No.# 5316,1,0,2026-03-31 23:59:59,0
+3,journal_entry,83,1645,2026-03-05,0.0000,22290.0000,"Sales Branches March 05, 2026 - Laboratory/Diagnostics — #55073",1,0,2026-03-31 23:59:59,0
+3,journal_entry,83,1645,2026-03-05,0.0000,30582.0000,"Sales Branches March 05, 2026 - Laboratory/Diagnostics — #55073",1,0,2026-03-31 23:59:59,0
+3,journal_entry,83,1645,2026-03-05,0.0000,40515.0000,"Sales Branches March 05, 2026 - Laboratory/Diagnostics — #55073",1,0,2026-03-31 23:59:59,0
+3,journal_entry,83,1657,2026-03-05,0.0000,6620.0000,"Sales Branches March 05, 2026 - Laboratory/Diagnostics - Send Outs — #55073",1,0,2026-03-31 23:59:59,0
+3,journal_entry,85,841,2026-03-05,100.0000,0.0000,VIRLEN T. MAHINAY - Nondeductible: Load for messenger (Replenishment) — RFP No.# 5316,1,0,2026-03-31 23:59:59,0
+3,journal_entry,85,849,2026-03-05,1533.0400,0.0000,VIRLEN T. MAHINAY - Vatable: various office supplies (Replenishment) — RFP No.# 5316,1,0,2026-03-31 23:59:59,0
+3,journal_entry,85,849,2026-03-05,360.0000,0.0000,VIRLEN T. MAHINAY - Non-vat: Drinking water (Replenishment) — RFP No.# 5316,1,0,2026-03-31 23:59:59,0
+3,journal_entry,85,873,2026-03-05,104.9100,0.0000,VIRLEN T. MAHINAY - Vatable: Patient meals (Replenishment) — RFP No.# 5316,1,0,2026-03-31 23:59:59,0
+3,journal_entry,85,873,2026-03-05,1150.0000,0.0000,VIRLEN T. MAHINAY - Nondeductible: Patient meals (Replenishment) — RFP No.# 5316,1,0,2026-03-31 23:59:59,0
+3,journal_entry,83,1713,2026-03-05,0.0000,17800.0000,"Sales Branches March 05, 2026 - Third-Party Partnership — #55073",1,0,2026-03-31 23:59:59,0
+3,journal_entry,85,945,2026-03-05,241.0700,0.0000,VIRLEN T. MAHINAY - Vatable: Gasoline and parking fee (Replenishment) — RFP No.# 5316,1,0,2026-03-31 23:59:59,0
+3,journal_entry,85,945,2026-03-05,878.5000,0.0000,VIRLEN T. MAHINAY - Nondeductible: Transportation expenses (Replenishment) — RFP No.# 5316,1,0,2026-03-31 23:59:59,0
+3,journal_entry,98,217,2026-03-06,29400.0000,0.0000,Payment: SKY MEDICAL SUPPLY — RFP No.# 5134,1,0,2026-03-31 23:59:59,0
+3,journal_entry,100,217,2026-03-06,11400.0000,0.0000,Payment: Kim Marie Capilitan — RFP No.# 5305,1,0,2026-03-31 23:59:59,0
+3,journal_entry,101,217,2026-03-06,2200.0000,0.0000,Payment: MARY ANN VILLONES — RFP No.# 5307,1,0,2026-03-31 23:59:59,0
+3,journal_entry,102,217,2026-03-06,10800.0000,0.0000,Payment: VINCE ARDEL LOCAYLOCAY — RFP No.# 5308,1,0,2026-03-31 23:59:59,0
+3,journal_entry,103,217,2026-03-06,10800.0000,0.0000,"Payment: Trinidad, Kyll Joseph — RFP No.# 5310",1,0,2026-03-31 23:59:59,0
+3,journal_entry,104,217,2026-03-06,6160.0000,0.0000,Payment: VIRLEN T. MAHINAY — RFP No.# 5316,1,0,2026-03-31 23:59:59,0
+3,journal_entry,99,217,2026-03-06,3800.0000,0.0000,Payment: Mikhaela R. Alesna — RFP No.# 5304,1,0,2026-03-31 23:59:59,0
+3,journal_entry,95,77,2026-03-06,5950.0000,0.0000,"Sales Branches March 06, 2026 - Gcash Sales - March, 06 — #51691",1,0,2026-03-31 23:59:59,0
+3,journal_entry,95,61,2026-03-06,16888.0000,0.0000,"Sales Branches March 06, 2026 - Credit Card Sales - March, 06 — #51691",1,0,2026-03-31 23:59:59,0
+3,journal_entry,95,61,2026-03-06,13824.0000,0.0000,"Sales Branches March 06, 2026 - Debit Card Sales - March, 06 — #51691",1,0,2026-03-31 23:59:59,0
+3,journal_entry,111,61,2026-03-06,47280.1000,0.0000,Payment: Asalus Corporation — M2059,1,0,2026-03-31 23:59:59,0
+3,journal_entry,110,61,2026-03-06,64302.7000,0.0000,Payment: Life & Health Hmp Inc — M2026,1,0,2026-03-31 23:59:59,0
+3,journal_entry,105,61,2026-03-06,114802.1000,0.0000,Payment: Life & Health Hmp Inc — M1941,1,0,2026-03-31 23:59:59,0
+3,journal_entry,109,61,2026-03-06,89493.6000,0.0000,Payment: Life & Health Hmp Inc — M2023,1,0,2026-03-31 23:59:59,0
+3,journal_entry,107,61,2026-03-06,67090.8000,0.0000,Payment: Life & Health Hmp Inc — M1992,1,0,2026-03-31 23:59:59,0
+3,journal_entry,106,61,2026-03-06,950.0000,0.0000,"Payment: DIS Tech Phils, Inc — M1986",1,0,2026-03-31 23:59:59,0
+3,journal_entry,112,61,2026-03-06,950.0000,0.0000,"Payment: DIS Tech Phils, Inc — M2216",1,0,2026-03-31 23:59:59,0
+3,journal_entry,108,61,2026-03-06,950.0000,0.0000,"Payment: DIS Tech Phils, Inc — M1998",1,0,2026-03-31 23:59:59,0
+3,journal_entry,95,65,2026-03-06,174920.0000,0.0000,"Sales Branches March 06, 2026 - Term Sales - March, 06 — #51691",1,0,2026-03-31 23:59:59,0
+3,journal_entry,106,57,2026-03-06,0.0000,950.0000,"Payment: DIS Tech Phils, Inc — M1986",1,0,2026-03-31 23:59:59,0
+3,journal_entry,112,57,2026-03-06,0.0000,950.0000,"Payment: DIS Tech Phils, Inc — M2216",1,0,2026-03-31 23:59:59,0
+3,journal_entry,108,57,2026-03-06,0.0000,950.0000,"Payment: DIS Tech Phils, Inc — M1998",1,0,2026-03-31 23:59:59,0
+3,journal_entry,111,57,2026-03-06,0.0000,47280.1000,Payment: Asalus Corporation — M2059,1,0,2026-03-31 23:59:59,0
+3,journal_entry,110,57,2026-03-06,0.0000,64302.7000,Payment: Life & Health Hmp Inc — M2026,1,0,2026-03-31 23:59:59,0
+3,journal_entry,107,57,2026-03-06,0.0000,67090.8000,Payment: Life & Health Hmp Inc — M1992,1,0,2026-03-31 23:59:59,0
+3,journal_entry,109,57,2026-03-06,0.0000,89493.6000,Payment: Life & Health Hmp Inc — M2023,1,0,2026-03-31 23:59:59,0
+3,journal_entry,105,57,2026-03-06,0.0000,114802.1000,Payment: Life & Health Hmp Inc — M1941,1,0,2026-03-31 23:59:59,0
+3,journal_entry,96,53,2026-03-06,0.0000,29400.0000,Payment: SKY MEDICAL SUPPLY — 1292742,1,0,2026-03-31 23:59:59,0
+3,journal_entry,94,1,2026-03-06,37939.0000,0.0000,To Record Cash Sales Branches March 5 — #51654,1,0,2026-03-31 23:59:59,0
+3,journal_entry,97,1,2026-03-06,0.0000,2200.0000,Payment: MARY ANN VILLONES — Online-030626,1,0,2026-03-31 23:59:59,0
+3,journal_entry,97,1,2026-03-06,0.0000,3800.0000,Payment: Mikhaela R. Alesna — Online-030626,1,0,2026-03-31 23:59:59,0
+3,journal_entry,97,1,2026-03-06,0.0000,6160.0000,Payment: VIRLEN T. MAHINAY — Online-030626,1,0,2026-03-31 23:59:59,0
+3,journal_entry,97,1,2026-03-06,0.0000,10800.0000,Payment: VINCE ARDEL LOCAYLOCAY — Online-030626,1,0,2026-03-31 23:59:59,0
+3,journal_entry,97,1,2026-03-06,0.0000,10800.0000,"Payment: Trinidad, Kyll Joseph — Online-030626",1,0,2026-03-31 23:59:59,0
+3,journal_entry,97,1,2026-03-06,0.0000,11400.0000,Payment: Kim Marie Capilitan — Online-030626,1,0,2026-03-31 23:59:59,0
+3,journal_entry,95,13,2026-03-06,29800.0000,0.0000,"Sales Branches March 06, 2026 - Cash Sales - March, 06 — #51691",1,0,2026-03-31 23:59:59,0
+3,journal_entry,94,13,2026-03-06,0.0000,37939.0000,To Record Cash Sales Branches March 5 — #51654,1,0,2026-03-31 23:59:59,0
+3,journal_entry,95,1613,2026-03-06,0.0000,52600.0000,"Sales Branches March 06, 2026 - Consultations — #51691",1,0,2026-03-31 23:59:59,0
+3,journal_entry,95,1625,2026-03-06,5658.0000,0.0000,"Sales Branches March 06, 2026 - Sales Discounts - March, 06 — #51691",1,0,2026-03-31 23:59:59,0
+3,journal_entry,95,1633,2026-03-06,0.0000,4300.0000,"Sales Branches March 06, 2026 - Health services — #51691",1,0,2026-03-31 23:59:59,0
+3,journal_entry,95,1645,2026-03-06,0.0000,45685.0000,"Sales Branches March 06, 2026 - Laboratory/Diagnostics — #51691",1,0,2026-03-31 23:59:59,0
+3,journal_entry,95,1645,2026-03-06,0.0000,54910.0000,"Sales Branches March 06, 2026 - Laboratory/Diagnostics — #51691",1,0,2026-03-31 23:59:59,0
+3,journal_entry,95,1645,2026-03-06,0.0000,55900.0000,"Sales Branches March 06, 2026 - Laboratory/Diagnostics — #51691",1,0,2026-03-31 23:59:59,0
+3,journal_entry,95,1657,2026-03-06,0.0000,25245.0000,"Sales Branches March 06, 2026 - Laboratory/Diagnostics - Send Outs — #51691",1,0,2026-03-31 23:59:59,0
+3,journal_entry,95,1713,2026-03-06,0.0000,8400.0000,"Sales Branches March 06, 2026 - Third-Party Partnership — #51691",1,0,2026-03-31 23:59:59,0
+3,journal_entry,113,77,2026-03-07,1050.0000,0.0000,"Sales Branches March 07, 2026 - Gcash Sales - March, 07 — #54425",1,0,2026-03-31 23:59:59,0
+3,journal_entry,113,61,2026-03-07,17960.0000,0.0000,"Sales Branches March 07, 2026 - Credit Card Sales - March, 07 — #54425",1,0,2026-03-31 23:59:59,0
+3,journal_entry,113,61,2026-03-07,23575.0000,0.0000,"Sales Branches March 07, 2026 - Debit Card Sales - March, 07 — #54425",1,0,2026-03-31 23:59:59,0
+3,journal_entry,113,65,2026-03-07,206063.5000,0.0000,"Sales Branches March 07, 2026 - Term Sales - March, 07 — #54425",1,0,2026-03-31 23:59:59,0
+3,journal_entry,113,13,2026-03-07,21088.0000,0.0000,"Sales Branches March 07, 2026 - Cash Sales - March, 07 — #54425",1,0,2026-03-31 23:59:59,0
+3,journal_entry,113,1613,2026-03-07,0.0000,60070.0000,"Sales Branches March 07, 2026 - Consultations — #54425",1,0,2026-03-31 23:59:59,0
+3,journal_entry,113,1625,2026-03-07,2166.5000,0.0000,"Sales Branches March 07, 2026 - Sales Discounts - March, 07 — #54425",1,0,2026-03-31 23:59:59,0
+3,journal_entry,113,1633,2026-03-07,0.0000,2900.0000,"Sales Branches March 07, 2026 - Health services — #54425",1,0,2026-03-31 23:59:59,0
+3,journal_entry,113,1645,2026-03-07,0.0000,47490.0000,"Sales Branches March 07, 2026 - Laboratory/Diagnostics — #54425",1,0,2026-03-31 23:59:59,0
+3,journal_entry,113,1645,2026-03-07,0.0000,63295.0000,"Sales Branches March 07, 2026 - Laboratory/Diagnostics — #54425",1,0,2026-03-31 23:59:59,0
+3,journal_entry,113,1645,2026-03-07,0.0000,73943.0000,"Sales Branches March 07, 2026 - Laboratory/Diagnostics — #54425",1,0,2026-03-31 23:59:59,0
+3,journal_entry,113,1657,2026-03-07,0.0000,6405.0000,"Sales Branches March 07, 2026 - Laboratory/Diagnostics - Send Outs — #54425",1,0,2026-03-31 23:59:59,0
+3,journal_entry,113,1713,2026-03-07,0.0000,17800.0000,"Sales Branches March 07, 2026 - Third-Party Partnership — #54425",1,0,2026-03-31 23:59:59,0
+3,journal_entry,118,217,2026-03-09,0.0000,15419.6400,"CONVERGE INFORMATION AND COMMUNICATIONS TECHNOLOGY SOLUTIONS, INC. — RFP No.# 5337",1,0,2026-03-31 23:59:59,0
+3,journal_entry,117,77,2026-03-09,150.0000,0.0000,"Sales Branches March 09, 2026 - Gcash Sales - March, 09 — #54423",1,0,2026-03-31 23:59:59,0
+3,journal_entry,139,61,2026-03-09,3390.0000,0.0000,"Payment: Lacson & Lacson Insurance Brokers Inc — Payment Date: Jan 7, 2026",1,0,2026-03-31 23:59:59,0
+3,journal_entry,117,61,2026-03-09,4480.0000,0.0000,"Sales Branches March 09, 2026 - Credit Card Sales - March, 09 — #54423",1,0,2026-03-31 23:59:59,0
+3,journal_entry,117,61,2026-03-09,2350.0000,0.0000,"Sales Branches March 09, 2026 - Debit Card Sales - March, 09 — #54423",1,0,2026-03-31 23:59:59,0
+3,journal_entry,117,65,2026-03-09,152393.0000,0.0000,"Sales Branches March 09, 2026 - Term Sales - March, 09 — #54423",1,0,2026-03-31 23:59:59,0
+3,journal_entry,114,65,2026-03-09,0.0000,3000.0000,"to record Cost of CPCI availment on CLinic DSMR January, as advised — #51703",1,0,2026-03-31 23:59:59,0
+3,journal_entry,114,65,2026-03-09,0.0000,3050.0000,"to record Cost of CPCI availment on CLinic DSMR January, as advised — #51703",1,0,2026-03-31 23:59:59,0
+3,journal_entry,138,57,2026-03-09,0.0000,3390.0000,Payment: Lacson & Lacson Insurance Brokers Inc — M1718,1,0,2026-03-31 23:59:59,0
+3,journal_entry,115,1,2026-03-09,21088.0000,0.0000,To Record Cash Sales Branches March 7 — #51729,1,0,2026-03-31 23:59:59,0
+3,journal_entry,116,1,2026-03-09,29800.0000,0.0000,To Record Cash Sales Branches March 6 — #51731,1,0,2026-03-31 23:59:59,0
+3,journal_entry,117,13,2026-03-09,18171.0000,0.0000,"Sales Branches March 09, 2026 - Cash Sales - March, 09 — #54423",1,0,2026-03-31 23:59:59,0
+3,journal_entry,115,13,2026-03-09,0.0000,21088.0000,To Record Cash Sales Branches March 7 — #51729,1,0,2026-03-31 23:59:59,0
+3,journal_entry,116,13,2026-03-09,0.0000,29800.0000,To Record Cash Sales Branches March 6 — #51731,1,0,2026-03-31 23:59:59,0
+3,journal_entry,117,1613,2026-03-09,0.0000,46090.0000,"Sales Branches March 09, 2026 - Consultations — #54423",1,0,2026-03-31 23:59:59,0
+3,journal_entry,114,985,2026-03-09,3000.0000,0.0000,"to record Cost of CPCI availment on CLinic DSMR January, as advised — #51703",1,0,2026-03-31 23:59:59,0
+3,journal_entry,118,613,2026-03-09,14017.8600,0.0000,"CONVERGE INFORMATION AND COMMUNICATIONS TECHNOLOGY SOLUTIONS, INC. - Vatable: Payment for flexibiz 200mbps with static for the month of March 2026 (Account no. 1393902114757) — RFP No.# 5337",1,0,2026-03-31 23:59:59,0
+3,journal_entry,117,1625,2026-03-09,2376.0000,0.0000,"Sales Branches March 09, 2026 - Sales Discounts - March, 09 — #54423",1,0,2026-03-31 23:59:59,0
+3,journal_entry,118,245,2026-03-09,0.0000,280.3600,"CONVERGE INFORMATION AND COMMUNICATIONS TECHNOLOGY SOLUTIONS, INC. - 2% EWT on Payment for flexibiz 200mbps with static for the month of March 2026 (Account no. 1393902114757) — RFP No.# 5337",1,0,2026-03-31 23:59:59,0
+3,journal_entry,117,1633,2026-03-09,0.0000,1300.0000,"Sales Branches March 09, 2026 - Health services — #54423",1,0,2026-03-31 23:59:59,0
+3,journal_entry,118,709,2026-03-09,1682.1400,0.0000,"CONVERGE INFORMATION AND COMMUNICATIONS TECHNOLOGY SOLUTIONS, INC. - Vat: Payment for flexibiz 200mbps with static for the month of March 2026 (Account no. 1393902114757) — RFP No.# 5337",1,0,2026-03-31 23:59:59,0
+3,journal_entry,135,1105,2026-03-09,26545.6000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of February 18, 2026 Reference no. 0200008905 — RFP No.# 5378",1,0,2026-03-31 23:59:59,0
+3,journal_entry,134,1105,2026-03-09,22279.0000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of February 14, 2026 Reference no. 0200008707 — RFP No.# 5377",1,0,2026-03-31 23:59:59,0
+3,journal_entry,133,1105,2026-03-09,20075.0000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of February 13, 2026 Reference no. 0200008682 — RFP No.# 5376",1,0,2026-03-31 23:59:59,0
+3,journal_entry,132,1105,2026-03-09,13056.0000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of February 12, 2026 Reference no. 0200008644 — RFP No.# 5375",1,0,2026-03-31 23:59:59,0
+3,journal_entry,131,1105,2026-03-09,5266.0000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of February 11, 2026 Reference no. 0200008584 — RFP No.# 5374",1,0,2026-03-31 23:59:59,0
+3,journal_entry,130,1105,2026-03-09,22619.6000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of February 10, 2026 Reference no. 0200008528 — RFP No.# 5373",1,0,2026-03-31 23:59:59,0
+3,journal_entry,129,1105,2026-03-09,16002.8000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of February 07, 2026 Reference no. 0200008419 — RFP No.# 5372",1,0,2026-03-31 23:59:59,0
+3,journal_entry,128,1105,2026-03-09,24091.6000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of February 06, 2026 Reference no. 0200008360 — RFP No.# 5371",1,0,2026-03-31 23:59:59,0
+3,journal_entry,127,1105,2026-03-09,4391.8000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of February 05, 2026 Reference no. 0200008331 — RFP No.# 5370",1,0,2026-03-31 23:59:59,0
+3,journal_entry,126,1105,2026-03-09,7056.0000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of February 04, 2026 Reference no. 0200008286 — RFP No.# 5369",1,0,2026-03-31 23:59:59,0
+3,journal_entry,125,1105,2026-03-09,1801.0000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of January 31, 2026 Reference no. 0100007571 — RFP No.# 5368",1,0,2026-03-31 23:59:59,0
+3,journal_entry,124,1105,2026-03-09,27455.8000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of February 02, 2026 Reference no. 0200008185 — RFP No.# 5367",1,0,2026-03-31 23:59:59,0
+3,journal_entry,123,1105,2026-03-09,16962.6000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of January 17, 2026 Reference no. 0200007415 — RFP No.# 5366",1,0,2026-03-31 23:59:59,0
+3,journal_entry,122,1105,2026-03-09,7500.6000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of December 27, 2025 Reference no. 0200006677 — RFP No.# 5365",1,0,2026-03-31 23:59:59,0
+3,journal_entry,121,1105,2026-03-09,4071.8000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of December 17, 2025 Reference no. 0200006341 — RFP No.# 5364",1,0,2026-03-31 23:59:59,0
+3,journal_entry,120,1105,2026-03-09,4951.8000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of December 06, 2025 Reference no. 0200005847 — RFP No.# 5363",1,0,2026-03-31 23:59:59,0
+3,journal_entry,119,1105,2026-03-09,9732.0000,0.0000,"CHONG HUA HOSPITAL MANDAUE - Vat Exempt: Payment for laboratory send outs as of October 08, 2025 Reference no. 0200003210 — RFP No.# 5362",1,0,2026-03-31 23:59:59,0
+3,journal_entry,114,1109,2026-03-09,3050.0000,0.0000,"to record Cost of CPCI availment on CLinic DSMR January, as advised — #51703",1,0,2026-03-31 23:59:59,0
+3,journal_entry,117,1645,2026-03-09,0.0000,24595.0000,"Sales Branches March 09, 2026 - Laboratory/Diagnostics — #54423",1,0,2026-03-31 23:59:59,0
+3,journal_entry,117,1645,2026-03-09,0.0000,44080.0000,"Sales Branches March 09, 2026 - Laboratory/Diagnostics — #54423",1,0,2026-03-31 23:59:59,0
+3,journal_entry,117,1645,2026-03-09,0.0000,54030.0000,"Sales Branches March 09, 2026 - Laboratory/Diagnostics — #54423",1,0,2026-03-31 23:59:59,0
+3,journal_entry,117,1657,2026-03-09,0.0000,9825.0000,"Sales Branches March 09, 2026 - Laboratory/Diagnostics - Send Outs — #54423",1,0,2026-03-31 23:59:59,0
+3,journal_entry,137,869,2026-03-09,6100.0000,0.0000,HOME DEVELOPMENT MUTUAL FUND - Payment for HDMF mandatory contribution for the month of February 2026 (employer share) — RFP No.# 5382,1,0,2026-03-31 23:59:59,0
+3,journal_entry,136,877,2026-03-09,17637.5000,0.0000,PHILIPPINE HEALTH INSURANCE CORPORATION - Payment for PHIC Contribution for the month of February 2026 (Employer Share) — RFP No.# 5381,1,0,2026-03-31 23:59:59,0
+3,journal_entry,147,217,2026-03-10,126361.6100,0.0000,"Payment: NPK MEDICAL TRADING, INC. — 0326-000003",1,0,2026-03-31 23:59:59,0
+3,journal_entry,146,217,2026-03-10,0.0000,2200.0000,MARY ANN VILLONES — RFP No.# 5397,1,0,2026-03-31 23:59:59,0
+3,journal_entry,142,217,2026-03-10,0.0000,3800.0000,Mikhaela R. Alesna — RFP No.# 5392,1,0,2026-03-31 23:59:59,0
+3,journal_entry,145,217,2026-03-10,0.0000,8600.0000,Kim Marie Capilitan — RFP No.# 5395,1,0,2026-03-31 23:59:59,0
+3,journal_entry,143,217,2026-03-10,0.0000,9400.0000,"Trinidad, Kyll Joseph — RFP No.# 5393",1,0,2026-03-31 23:59:59,0
+3,journal_entry,144,217,2026-03-10,0.0000,14400.0000,Kaithlene Marrielle-Rose Y. Alfar — RFP No.# 5394,1,0,2026-03-31 23:59:59,0
+3,journal_entry,141,77,2026-03-10,10606.0000,0.0000,"Sales Branches March 10, 2026 - Gcash Sales - March, 10 — #52644",1,0,2026-03-31 23:59:59,0
+3,journal_entry,141,61,2026-03-10,13490.0000,0.0000,"Sales Branches March 10, 2026 - Credit Card Sales - March, 10 — #52644",1,0,2026-03-31 23:59:59,0
+3,journal_entry,141,61,2026-03-10,20050.0000,0.0000,"Sales Branches March 10, 2026 - Debit Card Sales - March, 10 — #52644",1,0,2026-03-31 23:59:59,0
+3,journal_entry,141,65,2026-03-10,164177.0000,0.0000,"Sales Branches March 10, 2026 - Term Sales - March, 10 — #52644",1,0,2026-03-31 23:59:59,0
+3,journal_entry,156,65,2026-03-10,0.0000,90.0000,"Asalus Corporation - MAHUSAY, JUDY-ANN BRIGOLE | 03/02/2026 |Asalus Corporation| 90- — M2365",1,0,2026-03-31 23:59:59,0
+3,journal_entry,156,65,2026-03-10,0.0000,90.0000,"Asalus Corporation - MAHUSAY, JUDY-ANN BRIGOLE | 03/02/2026 |Asalus Corporation| 90- — M2365",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,100.0000,"Life & Health Hmp Inc - ALI, ANALEE FIROLINO | 03/06/2026 |Life & Health Hmp Inc| 100- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,100.0000,"Life & Health Hmp Inc - ALI, ANALEE FIROLINO | 03/06/2026 |Life & Health Hmp Inc| 100- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,156,65,2026-03-10,0.0000,140.0000,"Asalus Corporation - BANTIGUE, LORNA APOLENCIA | 03/05/2026 |Asalus Corporation| 140- — M2365",1,0,2026-03-31 23:59:59,0
+3,journal_entry,156,65,2026-03-10,0.0000,140.0000,"Asalus Corporation - TAGALOG, CHERRY ANN HERMOSO | 03/06/2026 |Asalus Corporation| 140- — M2365",1,0,2026-03-31 23:59:59,0
+3,journal_entry,156,65,2026-03-10,0.0000,140.0000,"Asalus Corporation - HEYROSA, KEN EDAÑO | 03/07/2026 |Asalus Corporation| 140- — M2365",1,0,2026-03-31 23:59:59,0
+3,journal_entry,156,65,2026-03-10,0.0000,170.0000,"Asalus Corporation - INOT, KIETH EDMAR - | 03/04/2026 |Asalus Corporation| 170- — M2365",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,180.0000,"Insular Healthcare Inc - MAMAC, GEBEL ALAINA ENTIENZA | 03/04/2026 |Insular Healthcare Inc| 180- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,180.0000,"Insular Healthcare Inc - PATALINJUG, ROWENA KRIS VILLAREAL | 03/07/2026 |Insular Healthcare Inc| 180- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,180.0000,"Life & Health Hmp Inc - TEMPLA, LEAH VERONICA PALLER | 03/02/2026 |Life & Health Hmp Inc| 180- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,180.0000,"Life & Health Hmp Inc - VAILOCES, IMELDA BOTO | 03/04/2026 |Life & Health Hmp Inc| 180- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,180.0000,"Life & Health Hmp Inc - SABANAL, MARIFE BAYNO | 03/05/2026 |Life & Health Hmp Inc| 180- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,156,65,2026-03-10,0.0000,180.0000,"Asalus Corporation - ANGCO, BRIELLA FAITH BATULAT | 03/05/2026 |Asalus Corporation| 180- — M2365",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,220.0000,"Insular Healthcare Inc - KUMAR, SUMANT - | 03/06/2026 |Insular Healthcare Inc| 220- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,150,65,2026-03-10,0.0000,250.0000,"Philhealthcare, Inc - COLINARES, IAN JASPER SANTARITA | 03/05/2026 |Philhealthcare, Inc| 250- — M2359",1,0,2026-03-31 23:59:59,0
+3,journal_entry,150,65,2026-03-10,0.0000,250.0000,"Philhealthcare, Inc - MOISES, CZARINA LHANCE - | 03/05/2026 |Philhealthcare, Inc| 250- — M2359",1,0,2026-03-31 23:59:59,0
+3,journal_entry,150,65,2026-03-10,0.0000,250.0000,"Philhealthcare, Inc - CASTILLO, MAITEE GO | 03/06/2026 |Philhealthcare, Inc| 250- — M2359",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,270.0000,"Insular Healthcare Inc - GONZAGA, KATHLYN MAE BATULAN | 03/05/2026 |Insular Healthcare Inc| 270- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,270.0000,"Life & Health Hmp Inc - COQUILLA, ANGELITO CUTAS | 03/04/2026 |Life & Health Hmp Inc| 270- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,270.0000,"Life & Health Hmp Inc - PARBA, STEFAN JAMES SAJULGA | 03/05/2026 |Life & Health Hmp Inc| 270- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,270.0000,"Life & Health Hmp Inc - JACULBE, ALBERT STEVE FERNANDEZ | 03/07/2026 |Life & Health Hmp Inc| 270- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,156,65,2026-03-10,0.0000,270.0000,"Asalus Corporation - CLARIN, JOHN RAY OLIVERIO | 03/05/2026 |Asalus Corporation| 270- — M2365",1,0,2026-03-31 23:59:59,0
+3,journal_entry,155,65,2026-03-10,0.0000,300.0000,"Cooperative Health Management Federation - BECERIL, ANGELA MAE ZANORIA | 03/02/2026 |Cooperative Health Management Federation| 300- — M2364",1,0,2026-03-31 23:59:59,0
+3,journal_entry,155,65,2026-03-10,0.0000,300.0000,"Cooperative Health Management Federation - INAHID, PAMELA LOURDES ABELLANO | 03/04/2026 |Cooperative Health Management Federation| 300- — M2364",1,0,2026-03-31 23:59:59,0
+3,journal_entry,155,65,2026-03-10,0.0000,300.0000,"Cooperative Health Management Federation - CABALHUG, MATET PAQUIBOT | 03/04/2026 |Cooperative Health Management Federation| 300- — M2364",1,0,2026-03-31 23:59:59,0
+3,journal_entry,155,65,2026-03-10,0.0000,300.0000,"Cooperative Health Management Federation - ABELLA, NELFA LOMOLJO | 03/05/2026 |Cooperative Health Management Federation| 300- — M2364",1,0,2026-03-31 23:59:59,0
+3,journal_entry,155,65,2026-03-10,0.0000,300.0000,"Cooperative Health Management Federation - DUNGOG, LAARNI TANO | 03/05/2026 |Cooperative Health Management Federation| 300- — M2364",1,0,2026-03-31 23:59:59,0
+3,journal_entry,157,65,2026-03-10,0.0000,300.0000,"Medicard Philippines Inc - SABANDO, GAIA FAYE ALIÑO | 03/04/2026 |Medicard Philippines Inc| 300- — M2366",1,0,2026-03-31 23:59:59,0
+3,journal_entry,157,65,2026-03-10,0.0000,300.0000,"Medicard Philippines Inc - AZUELO, NEIL APRIL JAMES SAMSON | 03/05/2026 |Medicard Philippines Inc| 300- — M2366",1,0,2026-03-31 23:59:59,0
+3,journal_entry,157,65,2026-03-10,0.0000,300.0000,"Medicard Philippines Inc - BORROMEO, BRYAN BARNACIA | 03/05/2026 |Medicard Philippines Inc| 300- — M2366",1,0,2026-03-31 23:59:59,0
+3,journal_entry,156,65,2026-03-10,0.0000,310.0000,"Asalus Corporation - COUCH, GLEZE CAMAONGAY | 03/05/2026 |Asalus Corporation| 310- — M2365",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,380.0000,"Life & Health Hmp Inc - OPENIA, JOHANNES LUGOD | 03/06/2026 |Life & Health Hmp Inc| 380- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,390.0000,"Life & Health Hmp Inc - YCONG, NADIA GENIO | 03/07/2026 |Life & Health Hmp Inc| 390- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - TRASONA, MICHELLE CABALLERO | 03/02/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - BACAYO, ELENA TANGALIN | 03/02/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - DAG-UMAN, TERESITA TEORIMA | 03/02/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - JACULBE, ALBERT STEVE FERNANDEZ | 03/02/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - JOVEN, EMILY GULANGAYAN | 03/02/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - MAGALLANO, RANIL OMANDAC | 03/02/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - PATES, MELISSA DIOCAMPO | 03/02/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - PATES, MELISSA DIOCAMPO | 03/02/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - RUELO, SHAWN PUNAY | 03/02/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - SEBIAL, GUADA ROSE MONTERAS | 03/02/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - USOG, CRIS - | 03/02/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - WAHING, CHARISH CANIBAN | 03/02/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - TRASONA, MICHELLE CABALLERO | 03/04/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - DAG-UMAN, TERESITA TEORIMA | 03/04/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - DIAMANTE, ZABELLE MARIE CABALLES | 03/04/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - DIDORO, ANGELIE RABADON | 03/04/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - FLORES, CHERRY ANN TABANAO | 03/04/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - FORMENTERA, MERGYL RAMONEDA | 03/04/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - GO, MATEO JAY GILIG | 03/04/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - IGOT, JEA TORRES | 03/04/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - LUMACTOD, JOAQUIN JR OLIVERIO | 03/04/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - MARANGA, MERVIN DACULAN | 03/04/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - MONTEBON, SHIANIN MONTAÑEZ | 03/04/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - PINOTE, REGINE MAE YONGCO | 03/04/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - SELGAS, ROLAND BARIGA | 03/04/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - TRAZO, MARIA FE SHAIHEN JAVAR | 03/04/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - VALIENTE, ANGELA KAYE YBAÑEZ | 03/04/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - YBAÑEZ, JAEHYUN CALEB PEJANA | 03/04/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - YCONG, CASSIDY GENIO | 03/04/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - TRUMPETA, JANET CODILLA | 03/05/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - IGOT, JEA TORRES | 03/05/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - PINOTE, REGINE MAE YONGCO | 03/05/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - DAAN, LUCINA BUMOTAD | 03/05/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - LABUCA, DAISY BALANE | 03/05/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - SAMSON, RANEL LUMOKSO | 03/05/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - TORREON, TANYA LARA COSEP | 03/05/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - TORREON, TRISTAN LARS COSEP | 03/05/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - BARRETE, JOSE EMMANUEL USARAGA | 03/06/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - BOC, RANDEL MAHUSAY | 03/06/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - GOC-ONG, MARRYBETH ENOT | 03/06/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - GODINEZ, ARIEL YBAÑEZ | 03/06/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - OYANGOREN, MARY ANN GEYROZAGA | 03/06/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - POGOY, ESMER CASINILLO | 03/06/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - POLMENTERA, GIERLY GONTIÑAS | 03/06/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - QUILANTANG, JOVEN YBAÑEZ | 03/06/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - SELGAS, ROLAND BARIGA | 03/06/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - SHIMOTOSO, LILIBETH RAMIREZ | 03/06/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - VELASCO, RONALDO MARIÑAS | 03/06/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - BRANZUELA, JOHN FRANCO . | 03/07/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - CAÑETE, KAY VONNE LOFRANCO | 03/07/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - ESTILLORE, STEPHANIE ANINIPOK | 03/07/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - LACEA, OCEAN SORA SIMON . | 03/07/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - MARQUILLA, GLADYS TORRES | 03/07/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - NATAÑO, GLICEROME SAM CABILES | 03/07/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - PATINTES, LORDBLESMINDA TIZON | 03/07/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - RESUERA, JIVS MICHAEL PRADILLA | 03/07/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - REYES, CHRISTINE BONGO | 03/07/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - SINGCULAN, CHERRY LYN MARAGUINOT | 03/07/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - TAGSIP, JOHN LUCAS - | 03/07/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - TAMBIS, DANIELITO RAMIREZ | 03/07/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - YCONG, MARGARETTE GENIO | 03/07/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,400.0000,"Life & Health Hmp Inc - YCONG, NADIA GENIO | 03/07/2026 |Life & Health Hmp Inc| 400- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,450.0000,"Insular Healthcare Inc - SABELLO, MEBELLE DALUT | 03/02/2026 |Insular Healthcare Inc| 450- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,450.0000,"Insular Healthcare Inc - KONDO, KYLYN KHATE GOLISAO | 03/02/2026 |Insular Healthcare Inc| 450- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,450.0000,"Life & Health Hmp Inc - IGOT, JEA TORRES | 03/04/2026 |Life & Health Hmp Inc| 450- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,149,65,2026-03-10,0.0000,450.0000,"Life & Health Hmp Inc - ARONG, AMBER JAZMIN TADLE | 03/05/2026 |Life & Health Hmp Inc| 450- — M2358",1,0,2026-03-31 23:59:59,0
+3,journal_entry,155,65,2026-03-10,0.0000,450.0000,"Cooperative Health Management Federation - MOSQUEDA, MA. THELMA BARONG | 03/06/2026 |Cooperative Health Management Federation| 450- — M2364",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - JAMILI JR., JOSE HERNANI ALIBANGO | 03/02/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - JAMILI, NERA ANN TOMAS | 03/02/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - SABELLO, MEBELLE DALUT | 03/02/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - ANGCO, FELICITAS OMPAD | 03/02/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - ARELLANO, APRIL ROSE ORBISO | 03/02/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - CASQUEJO, LAEL ROLAND GUMBAN | 03/02/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - CATIPAY, JUANITO RUSIANA | 03/02/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - HIDALGO, APRIL DEJITO | 03/02/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - ISRAEL, JUSTINE FRANCES ANGELA UY | 03/02/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - KONDO, KYLYN KHATE GOLISAO | 03/02/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - OMOLON, BOURSTNEIL JASSIM LIMPANGUG | 03/02/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - PASTRANO, JUNREY GORNEZ | 03/02/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - TORRES, MA. LORRAINE GONZALES | 03/02/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - RIZALA, GLEZIEL SUPRADER | 03/04/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - ANDALES, ABUNDIO LOAYON | 03/04/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - ANDALES, DIVINA SOMERA | 03/04/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - BANCALE, JOHN CLARK GODINEZ | 03/04/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - CASQUEJO, SANDRA MAE PACALDO | 03/04/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - ENCABO, MARIELLA OCHON | 03/04/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - GAVIOLA, BRENDA DAGONDON | 03/04/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - GOM-OS, CROWE GIL PANINSORO | 03/04/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - HOMECILLO, MACY BLISS SOTILLEZA | 03/04/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - KONDO, KYLYN KHATE GOLISAO | 03/04/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - MAMAC, GEBEL ALAINA ENTIENZA | 03/04/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - PACALDO, ANDRIE VICTOR CASQUEJO | 03/04/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - PACALDO, ATHENNA PRINCESS CASQUEJO | 03/04/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - PINO, ETHAN NICHOLAS MARIÑAS | 03/04/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - PINO, LEONCIO JR. LINAO | 03/04/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - QUIAL-QUIAL, ANA JOY CARITOS | 03/04/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - GAVIOLA, BRENDA DAGONDON | 03/05/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - AMIL, ADELINA DIHAYCO | 03/05/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - AMIL, ELIAZAR JAPAY | 03/05/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - ARGUELLES, DJANEVER LORRIANE MIRAS | 03/05/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - AYING, KAREN MAGSANOC | 03/05/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - BALIDO, JOSE MARIE ILIGA | 03/05/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - BANZON, GIRLY CAYANONG | 03/05/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - CLARK, ARLENE TABLO | 03/05/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - ESPINOSA, ANGEL DELA ROSA | 03/05/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - GALLA, HERSHEY ARABELLA VILLARUEL | 03/05/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - GONZAGA, KATHLYN MAE BATULAN | 03/05/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - JAMILI JR., JOSE HERNANI ALIBANGO | 03/05/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - JAMILI, NERA ANN TOMAS | 03/05/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - MORADA, RHIZA NITA BELTRAN | 03/05/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - OMPAD, JEZELLA FRANZILLE - | 03/05/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - OMPAD, JIA MARIES MAGSUCANG | 03/05/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - PAGOBO, BARTOLOME JR TANEO | 03/05/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - QUINONES, AILEEN GRACE H. | 03/05/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - REMETICADO, JEZAIA FAVE OMPAD | 03/05/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - TAMPUS, ROSEMARIE DUNGOG | 03/05/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - TRADIO, FELIX PAUL LUGASIP | 03/05/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - TUÑACAO, METCHY ELLAH LUBAS | 03/05/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - ARGUELLES, DJANEVER LORRIANE MIRAS | 03/06/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - MORADA, RHIZA NITA BELTRAN | 03/06/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - ARMENION, SHANIAH TRIXIE MARIE FLORES | 03/06/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - ARRIESGADO, NINA HEZIKEAH MISA | 03/06/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - BONGCO, JENNIFER . | 03/06/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - CANO, KAREN SELERIO | 03/06/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - CASQUEJO, LAEL ROLAND GUMBAN | 03/06/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - CUIZON, QAZHIA AMORY SELERIO | 03/06/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - ELBANBUENA, JAZZ BENSON TUNDAG | 03/06/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - IGOT, ERICA MACABODBOD | 03/06/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - IMPERIAL, JOSE RICKY MAROLLANO | 03/06/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - ISRAEL, JUSTINE FRANCES ANGELA UY | 03/06/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - NANOL, XIERL ANDY MERCADO | 03/06/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - PINO, LEONCIO JR LINAO | 03/06/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - RAFAYLA, ZYLFA QUIMADA | 03/06/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - RIZALA, SHIRLY SUPRADER | 03/06/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - SASTRILLAS, DAISY LOU DAITOL | 03/06/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - SEMBLANTE, ALTHEA HANGAD | 03/06/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - MORADA, RHIZA NITA BELTRAN | 03/07/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - ELBANBUENA, JAZZ BENSON TUNDAG | 03/07/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - KUMAR, SUMANT - | 03/07/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - BANCALE, JOHN CLARK GODINEZ | 03/07/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - DONDON, JORIEFE DAMAYO | 03/07/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - FEDERICO, ROBERT GIMONGALA | 03/07/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - LEPON, JOJIE TABARNO | 03/07/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - LIMPANGOG, ARNOLD BABA | 03/07/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0
+3,journal_entry,148,65,2026-03-10,0.0000,500.0000,"Insular Healthcare Inc - OMOLON, BOURSTNEIL JASSIM LIMPANGUG | 03/07/2026 |Insular Healthcare Inc| 500- — M2357",1,0,2026-03-31 23:59:59,0

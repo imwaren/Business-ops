@@ -1,0 +1,4 @@
+schema	direct_payment_id	entry_id	account_type_id	debit	credit	is_deleted	account_code	currently_active_account
+mytemr_diagnostic_uat	9	1	5	100.00	0.00	0	100-002	1
+mytemr_diagnostic_uat	10	2	5	100.00	0.00	0	100-002	1
+mytemr_diagnostic_mantlewood	1	1	677	384371.40	0.00	0	600-720	1

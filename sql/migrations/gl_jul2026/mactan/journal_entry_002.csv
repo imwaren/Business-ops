@@ -1,0 +1,501 @@
+id,cost_center_id,date,type,remarks,total_debit,total_credit,status,is_migrated,added_by,added_on,is_deleted
+181019,3,2026-07-11,journal_entry,"Sales Branches JuLY 11, 2026 - Gcash Sales - July, 11 — #69628",351165.0000,351165.0000,approved,1,0,2026-07-31 23:59:59,0
+181020,3,2026-07-13,journal_entry,to record cash sales July 10 - — #68256,52348.0000,52348.0000,approved,1,0,2026-07-31 23:59:59,0
+181021,3,2026-07-13,journal_entry,to record cash sales July 11 - — #68257,54646.0000,54646.0000,approved,1,0,2026-07-31 23:59:59,0
+181022,3,2026-07-13,journal_entry,"Sales Branches JuLY 13, 2026 - Gcash Sales - July, 13 — #69629",326240.0000,326240.0000,approved,1,0,2026-07-31 23:59:59,0
+181023,3,2026-07-13,payable_invoice,Medclean Management Solutions Inc. — RFP No.# 6490,5672.6000,5672.6000,approved,1,0,2026-07-31 23:59:59,0
+181024,3,2026-07-13,payable_invoice,HOME DEVELOPMENT MUTUAL FUND - Payment for HDMF mandatory contribution for the month of June 2026 (employer share) — RFP No.# 6496,6800.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181025,3,2026-07-13,payable_invoice,SOCIAL SECURITY SYSTEM - Payment for SSS Contribution for the month of June 2026 (Employeer Share) — RFP No.# 6497,73900.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181026,3,2026-07-13,payable_invoice,SSEGARINO AIRCONDITIONING TRADING — RFP No.# 6502,10000.0000,10000.0000,approved,1,0,2026-07-31 23:59:59,0
+181027,3,2026-07-13,payable_invoice,City Treasurer of Lapu-Lapu City — RFP No.# 6506,77426.4000,77426.4000,approved,1,0,2026-07-31 23:59:59,0
+181028,3,2026-07-13,payable_invoice,PHILIPPINE HEALTH INSURANCE CORPORATION - Payment for PHIC Contribution for the month of June 2026  (Employer Share) — RFP No.# 6515,18102.7000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181029,3,2026-07-13,receivable_invoice,"Cooperative Health Management Federation - CASTANTE, MELISSA SAMPINIT | 07/10/2026 |Cooperative Health Management Federation| 300- — M3450",3660.0000,3660.0000,approved,1,0,2026-07-31 23:59:59,0
+181030,3,2026-07-13,receivable_invoice,"Etiqa Life and General Assurance Phillipines, Inc - SARAGOSA, MARCIANO PLATAN | 07/10/2026 |Etiqa Life and General Assurance Phillipines, Inc| 500- — M3451",10650.0000,10650.0000,approved,1,0,2026-07-31 23:59:59,0
+181031,3,2026-07-13,receivable_invoice,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) - DIANO, ALLIANA LEXINE ERES | 07/10/2026 |INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS)| 180- — M3452",1380.0000,1380.0000,approved,1,0,2026-07-31 23:59:59,0
+181032,3,2026-07-13,receivable_invoice,"IMS Wellth Care, Inc. - BOCTOT, JENALYN BACUS | 07/10/2026 |IMS Wellth Care, Inc.| 3710- — M3453",5520.0000,5520.0000,approved,1,0,2026-07-31 23:59:59,0
+181033,3,2026-07-13,receivable_invoice,"Insular Healthcare Inc - GILIG, HERMELLY TABURA | 07/10/2026 |CONCENTRIX DAKSH SERVICES PHILIPPINES CORPORATION| 500- — M3454",90480.0000,90480.0000,approved,1,0,2026-07-31 23:59:59,0
+181034,3,2026-07-14,journal_entry,to record cash sales July 13 - — #68288,43014.0000,43014.0000,approved,1,0,2026-07-31 23:59:59,0
+181035,3,2026-07-14,journal_entry,"Sales Branches JuLY 14, 2026 - Gcash Sales - July, 14 — #72350",268120.0000,268120.0000,approved,1,0,2026-07-31 23:59:59,0
+181036,3,2026-07-14,payable_invoice,"GLOBE TELECOM, INC. - VAT: Globe bill FTP 05/24-06/23/2026; Mactan — RFP No.# 6517",2897.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181037,3,2026-07-14,payable_payment,Payment: HOME DEVELOPMENT MUTUAL FUND — RFP No.# 6496,0.0000,6800.0000,approved,1,0,2026-07-31 23:59:59,0
+181038,3,2026-07-14,payable_payment,Payment: PHILIPPINE HEALTH INSURANCE CORPORATION — RFP No.# 6515,0.0000,18102.7000,approved,1,0,2026-07-31 23:59:59,0
+181039,3,2026-07-14,payable_payment,"Payment: GLOBE TELECOM, INC. — RFP No.# 6517",0.0000,2897.0000,approved,1,0,2026-07-31 23:59:59,0
+181040,3,2026-07-14,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5591,76.5000,76.5000,approved,1,0,2026-07-31 23:59:59,0
+181041,3,2026-07-14,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5592,24.0000,24.0000,approved,1,0,2026-07-31 23:59:59,0
+181042,3,2026-07-14,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5593,325.6000,325.6000,approved,1,0,2026-07-31 23:59:59,0
+181043,3,2026-07-14,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5600,400.9000,400.9000,approved,1,0,2026-07-31 23:59:59,0
+181044,3,2026-07-14,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5601,54.6000,54.6000,approved,1,0,2026-07-31 23:59:59,0
+181045,3,2026-07-14,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5602,64.8000,64.8000,approved,1,0,2026-07-31 23:59:59,0
+181046,3,2026-07-14,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5606,756.6000,756.6000,approved,1,0,2026-07-31 23:59:59,0
+181047,3,2026-07-14,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5607,373.0000,373.0000,approved,1,0,2026-07-31 23:59:59,0
+181048,3,2026-07-14,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5608,12.0000,12.0000,approved,1,0,2026-07-31 23:59:59,0
+181049,3,2026-07-14,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5617,132.6000,132.6000,approved,1,0,2026-07-31 23:59:59,0
+181050,3,2026-07-14,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5618,53.8000,53.8000,approved,1,0,2026-07-31 23:59:59,0
+181051,3,2026-07-14,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5627,18.4000,18.4000,approved,1,0,2026-07-31 23:59:59,0
+181052,3,2026-07-14,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5630,11.0000,11.0000,approved,1,0,2026-07-31 23:59:59,0
+181053,3,2026-07-14,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5591,76.5000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181054,3,2026-07-14,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5592,24.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181055,3,2026-07-14,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5593,325.6000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181056,3,2026-07-14,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5600,400.9000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181057,3,2026-07-14,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5601,54.6000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181058,3,2026-07-14,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5602,64.8000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181059,3,2026-07-14,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5606,756.6000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181060,3,2026-07-14,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5607,373.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181061,3,2026-07-14,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5608,12.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181062,3,2026-07-14,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5617,132.6000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181063,3,2026-07-14,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5618,53.8000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181064,3,2026-07-14,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5627,18.4000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181065,3,2026-07-14,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5630,11.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181066,3,2026-07-14,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M0860,0.0000,64.8000,approved,1,0,2026-07-31 23:59:59,0
+181067,3,2026-07-14,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M0976,0.0000,54.6000,approved,1,0,2026-07-31 23:59:59,0
+181068,3,2026-07-14,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M1678-1,12.0000,327.7200,approved,1,0,2026-07-31 23:59:59,0
+181069,3,2026-07-14,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M1776,0.0000,397.0000,approved,1,0,2026-07-31 23:59:59,0
+181070,3,2026-07-14,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M1802,0.0000,1093.2000,approved,1,0,2026-07-31 23:59:59,0
+181071,3,2026-07-14,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M1816,0.0000,477.4000,approved,1,0,2026-07-31 23:59:59,0
+181072,3,2026-07-14,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M1922,0.0000,12.0000,approved,1,0,2026-07-31 23:59:59,0
+181073,3,2026-07-14,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M1983,0.0000,18.4000,approved,1,0,2026-07-31 23:59:59,0
+181074,3,2026-07-14,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M1997,0.0000,132.6000,approved,1,0,2026-07-31 23:59:59,0
+181075,3,2026-07-14,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M2019,0.0000,53.8000,approved,1,0,2026-07-31 23:59:59,0
+181076,3,2026-07-14,receivable_invoice,"Asalus Corporation - TANCINCO, FREDAH-LEN OYAO | 07/10/2026 |a| 500- — M3455",98557.0000,98557.0000,approved,1,0,2026-07-31 23:59:59,0
+181077,3,2026-07-14,receivable_invoice,"Life & Health Hmp Inc - CHICA, MAE CARIN LAGUMBAY | 07/10/2026 |Life & Health Hmp Inc| 400- — M3456",79960.0000,79960.0000,approved,1,0,2026-07-31 23:59:59,0
+181078,3,2026-07-14,receivable_invoice,"Maxicare Healthcare Corporation - ABAD, MARYSOL AÑOC | 07/10/2026 |Maxicare Healthcare Corporation| 600- — M3457",68863.0000,68863.0000,approved,1,0,2026-07-31 23:59:59,0
+181079,3,2026-07-14,receivable_invoice,"Medicard Philippines Inc - VENCI JR, ERNESTO JOSE | 07/10/2026 |Medicard Philippines Inc| 600- — M3458",5060.0000,5060.0000,approved,1,0,2026-07-31 23:59:59,0
+181080,3,2026-07-14,receivable_invoice,"Pages Holdings Inc., - MALUBAY, ALLEN NGUJO | 07/10/2026 |PAGES HOLDINGS, INC.| 1580- — M3459",1580.0000,1580.0000,approved,1,0,2026-07-31 23:59:59,0
+181081,3,2026-07-14,receivable_invoice,"Philhealthcare, Inc - FUENTES, TESALONICA VITOR | 07/10/2026 |Philhealthcare, Inc| 600- — M3460",8810.0000,8810.0000,approved,1,0,2026-07-31 23:59:59,0
+181082,3,2026-07-14,receivable_invoice,"Sunlife Grepa Financial Inc - HARBAY, HARVEY AMATONG | 07/10/2026 |AAI WORLDWIDE LOGISTICS INC.| 400- — M3461",9350.0000,9350.0000,approved,1,0,2026-07-31 23:59:59,0
+181083,3,2026-07-14,receivable_invoice,"AAI WORLDWIDE LOGISTICS INC. - ABARCAS, ANGELIQUE CASIO | 07/11/2026 |AAI WORLDWIDE LOGISTICS INC.| 10000- — M3462",10000.0000,10000.0000,approved,1,0,2026-07-31 23:59:59,0
+181084,3,2026-07-14,receivable_invoice,"Avega Managed Care, Inc - ENRIQUEZ, SUNSHINE PATALINGHUG | 07/11/2026 |SSP-MACTAN CEBU CORPORATION| 500- — M3463",11889.0000,11889.0000,approved,1,0,2026-07-31 23:59:59,0
+181085,3,2026-07-14,receivable_invoice,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) - BASUBAS, ALIETA IGOT | 07/11/2026 |INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS)| 3190- — M3464",12055.0000,12055.0000,approved,1,0,2026-07-31 23:59:59,0
+181086,3,2026-07-14,receivable_invoice,"Knowles Electronics Philippines - JACA, LILLIBETH SIROY | 07/11/2026 |KNOWLES ELECTRONICS PHILIPPINES| 5800- — M3465",5800.0000,5800.0000,approved,1,0,2026-07-31 23:59:59,0
+181087,3,2026-07-14,receivable_invoice,"Skygo Marketing Corporation - SILVESTRE, ARTEMIO SALVADOR | 07/11/2026 |SKYGO MARKETING CORPORATION| 300- — M3466",300.0000,300.0000,approved,1,0,2026-07-31 23:59:59,0
+181088,3,2026-07-14,receivable_invoice,"Tytans Leisure and Resort, Inc - AUGUSTO, IRISH RISAS | 07/11/2026 |Tytans Leisure and Resort, Inc| 331.5- — M3467",331.5000,331.5000,approved,1,0,2026-07-31 23:59:59,0
+181089,3,2026-07-14,receivable_payment,Payment: Generali Life Assurance Philippines Inc — DP: FEB 12,23784.6000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181090,3,2026-07-14,receivable_payment,Payment: Generali Life Assurance Philippines Inc — DP: FEB 3,588.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181091,3,2026-07-14,receivable_payment,Payment: Generali Life Assurance Philippines Inc — DP: JAN 21,28679.7000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181092,3,2026-07-14,receivable_payment,Payment: Generali Life Assurance Philippines Inc — DP: JAN 31,55938.4000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181093,3,2026-07-14,receivable_payment,Payment: Generali Life Assurance Philippines Inc — DP: JAN. 14,15954.4000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181094,3,2026-07-14,receivable_payment,Payment: Generali Life Assurance Philippines Inc — DP: JAN.14,4924.5000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181095,3,2026-07-14,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M0860,0.0000,3175.2000,approved,1,0,2026-07-31 23:59:59,0
+181096,3,2026-07-14,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M0976,0.0000,2675.4000,approved,1,0,2026-07-31 23:59:59,0
+181097,3,2026-07-14,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M1678-1,0.0000,16058.2800,approved,1,0,2026-07-31 23:59:59,0
+181098,3,2026-07-14,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M1776,0.0000,19453.0000,approved,1,0,2026-07-31 23:59:59,0
+181099,3,2026-07-14,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M1802,0.0000,53566.8000,approved,1,0,2026-07-31 23:59:59,0
+181100,3,2026-07-14,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M1816,0.0000,23392.6000,approved,1,0,2026-07-31 23:59:59,0
+181101,3,2026-07-14,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M1922,0.0000,588.0000,approved,1,0,2026-07-31 23:59:59,0
+181102,3,2026-07-14,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M1983,0.0000,901.6000,approved,1,0,2026-07-31 23:59:59,0
+181103,3,2026-07-14,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M1997,0.0000,6497.4000,approved,1,0,2026-07-31 23:59:59,0
+181104,3,2026-07-14,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M2019,0.0000,2636.2000,approved,1,0,2026-07-31 23:59:59,0
+181105,3,2026-07-14,receivable_payment,Payment: Cooperative Health Management Federation — M2636,1950.2000,1950.2000,approved,1,0,2026-07-31 23:59:59,0
+181106,3,2026-07-14,receivable_payment,Payment: Cooperative Health Management Federation — M2648,6203.4000,6203.4000,approved,1,0,2026-07-31 23:59:59,0
+181107,3,2026-07-14,receivable_payment,Payment: Cooperative Health Management Federation — M2662,11064.2000,11064.2000,approved,1,0,2026-07-31 23:59:59,0
+181108,3,2026-07-14,receivable_payment,Payment: Cooperative Health Management Federation — M2672,294.0000,294.0000,approved,1,0,2026-07-31 23:59:59,0
+181109,3,2026-07-14,receivable_payment,Payment: Cooperative Health Management Federation — M2687,1999.2000,1999.2000,approved,1,0,2026-07-31 23:59:59,0
+181110,3,2026-07-15,journal_entry,to record cash sales July 14 - — #68327,45018.0000,45018.0000,approved,1,0,2026-07-31 23:59:59,0
+181111,3,2026-07-15,journal_entry,"Sales Branches JuLY 15, 2026 - Gcash Sales - July, 15 — #72352",236799.0000,236799.0000,approved,1,0,2026-07-31 23:59:59,0
+181112,3,2026-07-15,payable_invoice,Jade Cloie Tul-id — RFP No.# 6534,2600.0000,2600.0000,approved,1,0,2026-07-31 23:59:59,0
+181113,3,2026-07-15,payable_invoice,MIKHAELA ALESNA — RFP No.# 6535,3600.0000,3600.0000,approved,1,0,2026-07-31 23:59:59,0
+181114,3,2026-07-15,payable_invoice,Kim Marie Capilitan — RFP No.# 6536,10800.0000,10800.0000,approved,1,0,2026-07-31 23:59:59,0
+181115,3,2026-07-15,payable_invoice,CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 6537,1081.5200,1081.5200,approved,1,0,2026-07-31 23:59:59,0
+181116,3,2026-07-15,payable_payment,Payment: JONATHAN SARTE — RFP No.# 6447-13,101482.1200,101482.1200,approved,1,0,2026-07-31 23:59:59,0
+181117,3,2026-07-15,payable_payment,Payment: DUANE AGUILAR — RFP No.# 6478-1,159237.9000,159237.9000,approved,1,0,2026-07-31 23:59:59,0
+181118,3,2026-07-15,payable_payment,Payment: CELESTE E. QUIJANO — RFP No.# 6478-10,11664.7700,11664.7700,approved,1,0,2026-07-31 23:59:59,0
+181119,3,2026-07-15,payable_payment,Payment: LEMUELA EVA A. ABECIA — RFP No.# 6478-11,19132.1600,19132.1600,approved,1,0,2026-07-31 23:59:59,0
+181120,3,2026-07-15,payable_payment,Payment: MARIA SOCORRO PINO LAMOSTE — RFP No.# 6478-12,224331.9800,224331.9800,approved,1,0,2026-07-31 23:59:59,0
+181121,3,2026-07-15,payable_payment,Payment: DIVINE GRACE BALITE — RFP No.# 6478-13,123000.2600,123000.2600,approved,1,0,2026-07-31 23:59:59,0
+181122,3,2026-07-15,payable_payment,Payment: JENNIFER DEL CASTILLO — RFP No.# 6478-14,15938.2800,15938.2800,approved,1,0,2026-07-31 23:59:59,0
+181123,3,2026-07-15,payable_payment,Payment: ADRIAN GODORNES — RFP No.# 6478-16,5373.0000,5373.0000,approved,1,0,2026-07-31 23:59:59,0
+181124,3,2026-07-15,payable_payment,Payment: BERNADETTE S. TABON — RFP No.# 6478-17,6498.0000,6498.0000,approved,1,0,2026-07-31 23:59:59,0
+181125,3,2026-07-15,payable_payment,Payment: ROSE MAY CAMALONGAY — RFP No.# 6478-18,77760.0000,77760.0000,approved,1,0,2026-07-31 23:59:59,0
+181126,3,2026-07-15,payable_payment,Payment: Kathrina Aseanne Acapulco Gomez — RFP No.# 6478-19,29479.8300,29479.8300,approved,1,0,2026-07-31 23:59:59,0
+181127,3,2026-07-15,payable_payment,Payment: LICILLE S. KILANTANG — RFP No.# 6478-2,45657.0000,45657.0000,approved,1,0,2026-07-31 23:59:59,0
+181128,3,2026-07-15,payable_payment,Payment: John Neslie M. Habajab — RFP No.# 6478-20,112860.1800,112860.1800,approved,1,0,2026-07-31 23:59:59,0
+181129,3,2026-07-15,payable_payment,Payment: PIERRE OUANO — RFP No.# 6478-21,27020.3800,27020.3800,approved,1,0,2026-07-31 23:59:59,0
+181130,3,2026-07-15,payable_payment,Payment: HAROLD JAMES ESTRADA — RFP No.# 6478-23,56570.4000,56570.4000,approved,1,0,2026-07-31 23:59:59,0
+181131,3,2026-07-15,payable_payment,Payment: JONATHAN SARTE — RFP No.# 6478-24,41678.2800,41678.2800,approved,1,0,2026-07-31 23:59:59,0
+181132,3,2026-07-15,payable_payment,Payment: LLOYD VINCENT M. BASS — RFP No.# 6478-25,57231.1400,57231.1400,approved,1,0,2026-07-31 23:59:59,0
+181133,3,2026-07-15,payable_payment,Payment: CATHLEEN BUSTRILLOS IWAY — RFP No.# 6478-26,73085.4000,73085.4000,approved,1,0,2026-07-31 23:59:59,0
+181134,3,2026-07-15,payable_payment,Payment: JAN LOUIE GATILLO — RFP No.# 6478-27,48743.5500,48743.5500,approved,1,0,2026-07-31 23:59:59,0
+181135,3,2026-07-15,payable_payment,Payment: HARVEY ANGA-ANGAN — RFP No.# 6478-28,34408.8000,34408.8000,approved,1,0,2026-07-31 23:59:59,0
+181136,3,2026-07-15,payable_payment,Payment: CYRIL VILLANUEVA — RFP No.# 6478-29,31874.4000,31874.4000,approved,1,0,2026-07-31 23:59:59,0
+181137,3,2026-07-15,payable_payment,Payment: ANGELI MONTEMOR — RFP No.# 6478-3,25308.0000,25308.0000,approved,1,0,2026-07-31 23:59:59,0
+181138,3,2026-07-15,payable_payment,Payment: Ma. Claudine Gresa L Dela Peña — RFP No.# 6478-30,48551.4000,48551.4000,approved,1,0,2026-07-31 23:59:59,0
+181139,3,2026-07-15,payable_payment,Payment: VIENNA LUZ P. CUBILLAN — RFP No.# 6478-31,7011.0000,7011.0000,approved,1,0,2026-07-31 23:59:59,0
+181140,3,2026-07-15,payable_payment,Payment: CINDY S. SOLIS — RFP No.# 6478-32,15808.9500,15808.9500,approved,1,0,2026-07-31 23:59:59,0
+181141,3,2026-07-15,payable_payment,Payment: ANDRE LUIS E. NATAVIO — RFP No.# 6478-33,7986.6000,7986.6000,approved,1,0,2026-07-31 23:59:59,0
+181142,3,2026-07-15,payable_payment,Payment: MARIA PAULINA A. DIMPAS — RFP No.# 6478-5,23384.2500,23384.2500,approved,1,0,2026-07-31 23:59:59,0
+181143,3,2026-07-15,payable_payment,Payment: MARINI T. ESGUERRA — RFP No.# 6478-6,1215.0000,1215.0000,approved,1,0,2026-07-31 23:59:59,0
+181144,3,2026-07-15,payable_payment,"Payment: CANUBAS, GWENYLYN NIKKA MAE — RFP No.# 6478-7",7017.7500,7017.7500,approved,1,0,2026-07-31 23:59:59,0
+181145,3,2026-07-15,payable_payment,Payment: JENNIFER L. CAMALONGAY — RFP No.# 6478-8,36443.2500,36443.2500,approved,1,0,2026-07-31 23:59:59,0
+181146,3,2026-07-15,payable_payment,Payment: JEANETTE BALAGA — RFP No.# 6478-9,50812.0300,50812.0300,approved,1,0,2026-07-31 23:59:59,0
+181147,3,2026-07-15,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5648,36.0000,36.0000,approved,1,0,2026-07-31 23:59:59,0
+181148,3,2026-07-15,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5649,29.0000,29.0000,approved,1,0,2026-07-31 23:59:59,0
+181149,3,2026-07-15,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5650,131.8000,131.8000,approved,1,0,2026-07-31 23:59:59,0
+181150,3,2026-07-15,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5651,137.8000,137.8000,approved,1,0,2026-07-31 23:59:59,0
+181151,3,2026-07-15,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5662,41.4000,41.4000,approved,1,0,2026-07-31 23:59:59,0
+181152,3,2026-07-15,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5664,32.4000,32.4000,approved,1,0,2026-07-31 23:59:59,0
+181153,3,2026-07-15,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5665,36.0000,36.0000,approved,1,0,2026-07-31 23:59:59,0
+181154,3,2026-07-15,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5668,12.0000,12.0000,approved,1,0,2026-07-31 23:59:59,0
+181155,3,2026-07-15,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5669,36.0000,36.0000,approved,1,0,2026-07-31 23:59:59,0
+181156,3,2026-07-15,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5671,80.8000,80.8000,approved,1,0,2026-07-31 23:59:59,0
+181157,3,2026-07-15,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5648,36.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181158,3,2026-07-15,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5649,29.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181159,3,2026-07-15,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5650,131.8000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181160,3,2026-07-15,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5651,137.8000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181161,3,2026-07-15,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5662,41.4000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181162,3,2026-07-15,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5664,32.4000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181163,3,2026-07-15,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5665,36.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181164,3,2026-07-15,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5668,12.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181165,3,2026-07-15,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5669,36.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181166,3,2026-07-15,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5671,80.8000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181167,3,2026-07-15,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M1937,0.0000,173.8000,approved,1,0,2026-07-31 23:59:59,0
+181168,3,2026-07-15,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M1974,0.0000,160.8000,approved,1,0,2026-07-31 23:59:59,0
+181169,3,2026-07-15,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M2031,0.0000,41.4000,approved,1,0,2026-07-31 23:59:59,0
+181170,3,2026-07-15,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M2098,0.0000,36.0000,approved,1,0,2026-07-31 23:59:59,0
+181171,3,2026-07-15,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M2117,0.0000,12.0000,approved,1,0,2026-07-31 23:59:59,0
+181172,3,2026-07-15,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M2126,0.0000,80.8000,approved,1,0,2026-07-31 23:59:59,0
+181173,3,2026-07-15,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M2203,0.0000,36.0000,approved,1,0,2026-07-31 23:59:59,0
+181174,3,2026-07-15,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M2217,0.0000,32.4000,approved,1,0,2026-07-31 23:59:59,0
+181175,3,2026-07-15,receivable_invoice,"Cooperative Health Management Federation - GESULGON, EDNA CASPE | 07/13/2026 |Cooperative Health Management Federation| 300- — M3468",20095.0000,20095.0000,approved,1,0,2026-07-31 23:59:59,0
+181176,3,2026-07-15,receivable_invoice,"Etiqa Life and General Assurance Phillipines, Inc - AVILA, MERIAM TUMARONG | 07/13/2026 |Etiqa Life and General Assurance Phillipines, Inc| 500- — M3469",1000.0000,1000.0000,approved,1,0,2026-07-31 23:59:59,0
+181177,3,2026-07-15,receivable_invoice,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) - ALIBANGO, JORELYN GAMOSARAN | 07/13/2026 |INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS)| 1450- — M3470",12800.0000,12800.0000,approved,1,0,2026-07-31 23:59:59,0
+181178,3,2026-07-15,receivable_invoice,"Insular Healthcare Inc - ARANIEGO, KRISH HANNAH ASUMBRADO | 07/13/2026 |CONCENTRIX DAKSH SERVICES PHILIPPINES CORPORATION| 500- — M3471",40020.0000,40020.0000,approved,1,0,2026-07-31 23:59:59,0
+181179,3,2026-07-15,receivable_invoice,"Asalus Corporation - ARTIZO, MARIAN SOLLESTRE | 07/13/2026 |Asalus Corporation| 500- — M3472",59607.0000,59607.0000,approved,1,0,2026-07-31 23:59:59,0
+181180,3,2026-07-15,receivable_invoice,"Life & Health Hmp Inc - ARNAIZ, ALVIN CANALES | 07/13/2026 |Life & Health Hmp Inc| 250- — M3473",56170.0000,56170.0000,approved,1,0,2026-07-31 23:59:59,0
+181181,3,2026-07-15,receivable_invoice,"Maxicare Healthcare Corporation - ALONZO, RUSSELL JANNIE AYING | 07/13/2026 |MANULIFE DATA SERVICES, INC.| 2120- — M3474",27368.0000,27368.0000,approved,1,0,2026-07-31 23:59:59,0
+181182,3,2026-07-15,receivable_invoice,"Philhealthcare, Inc - BASANAL, RACHEL ALMENTO | 07/13/2026 |Philhealthcare, Inc| 3600- — M3475",4200.0000,4200.0000,approved,1,0,2026-07-31 23:59:59,0
+181183,3,2026-07-15,receivable_invoice,"Tamiya Philippines, Inc - ARMASA, CRIS SEGOVIA | 07/13/2026 |Tamiya Philippines, Inc| 2830- — M3476",3630.0000,3630.0000,approved,1,0,2026-07-31 23:59:59,0
+181184,3,2026-07-15,receivable_invoice,"VFI-MALACHITE VALUE BUILDERS INC. - TAPIA, CHRISTIAN MANCO | 07/13/2026 |VFI-MALACHITE VALUE BUILDERS INC.| 780- — M3477",780.0000,780.0000,approved,1,0,2026-07-31 23:59:59,0
+181185,3,2026-07-15,receivable_payment,Payment: Generali Life Assurance Philippines Inc — DP: FEB 16,4547.2000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181186,3,2026-07-15,receivable_payment,Payment: Generali Life Assurance Philippines Inc — DP: FEB 19,2028.6000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181187,3,2026-07-15,receivable_payment,Payment: Generali Life Assurance Philippines Inc — DP: MAR 24,1764.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181188,3,2026-07-15,receivable_payment,Payment: Generali Life Assurance Philippines Inc — DP; FEB 16,1764.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181189,3,2026-07-15,receivable_payment,Payment: Generali Life Assurance Philippines Inc — DP; MAR 24,1587.6000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181190,3,2026-07-15,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M1937,0.0000,8516.2000,approved,1,0,2026-07-31 23:59:59,0
+181191,3,2026-07-15,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M1974,0.0000,7879.2000,approved,1,0,2026-07-31 23:59:59,0
+181192,3,2026-07-15,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M2031,0.0000,2028.6000,approved,1,0,2026-07-31 23:59:59,0
+181193,3,2026-07-15,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M2098,0.0000,1764.0000,approved,1,0,2026-07-31 23:59:59,0
+181194,3,2026-07-15,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M2117,0.0000,588.0000,approved,1,0,2026-07-31 23:59:59,0
+181195,3,2026-07-15,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M2126,0.0000,3959.2000,approved,1,0,2026-07-31 23:59:59,0
+181196,3,2026-07-15,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M2203,0.0000,1764.0000,approved,1,0,2026-07-31 23:59:59,0
+181197,3,2026-07-15,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M2217,0.0000,1587.6000,approved,1,0,2026-07-31 23:59:59,0
+181198,3,2026-07-16,journal_entry,to record cash sales July 15 - — #68374,38196.0000,38196.0000,approved,1,0,2026-07-31 23:59:59,0
+181199,3,2026-07-16,journal_entry,"Sales Branches JuLY 16, 2026 - Gcash Sales - July, 16 — #69632",195215.0000,195215.0000,approved,1,0,2026-07-31 23:59:59,0
+181200,3,2026-07-16,payable_invoice,TONERPRO TRADING — 0726-000757,15000.0000,15000.0000,approved,1,0,2026-07-31 23:59:59,0
+181201,3,2026-07-16,payable_invoice,MEDGISTIX CORPORATION — 0726-000779,7500.0000,7500.0000,approved,1,0,2026-07-31 23:59:59,0
+181202,3,2026-07-16,payable_invoice,MEDGISTIX CORPORATION — 0726-000780,34000.0000,34000.0000,approved,1,0,2026-07-31 23:59:59,0
+181203,3,2026-07-16,payable_invoice,MEDGISTIX CORPORATION — 0726-000781,68000.0000,68000.0000,approved,1,0,2026-07-31 23:59:59,0
+181204,3,2026-07-16,payable_invoice,MEDGISTIX CORPORATION — 0726-000782,72491.0000,72491.0000,approved,1,0,2026-07-31 23:59:59,0
+181205,3,2026-07-16,payable_invoice,MEDGISTIX CORPORATION — 0726-000783,23808.0000,23808.0000,approved,1,0,2026-07-31 23:59:59,0
+181206,3,2026-07-16,payable_invoice,MEDGISTIX CORPORATION — 0726-000784,100269.0000,100269.0000,approved,1,0,2026-07-31 23:59:59,0
+181207,3,2026-07-16,payable_invoice,MEDGISTIX CORPORATION — 0726-000785,4076.0000,4076.0000,approved,1,0,2026-07-31 23:59:59,0
+181208,3,2026-07-16,payable_invoice,MEDGISTIX CORPORATION — 0726-000786,45000.0000,45000.0000,approved,1,0,2026-07-31 23:59:59,0
+181209,3,2026-07-16,payable_invoice,MEDGISTIX CORPORATION — 0726-000788,6735.0000,6735.0000,approved,1,0,2026-07-31 23:59:59,0
+181210,3,2026-07-16,payable_payment,Payment: City Treasurer of Lapu-Lapu City — RFP No.# 6506,77426.4000,77426.4000,approved,1,0,2026-07-31 23:59:59,0
+181211,3,2026-07-16,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5674,67.0000,67.0000,approved,1,0,2026-07-31 23:59:59,0
+181212,3,2026-07-16,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5675,82.0000,82.0000,approved,1,0,2026-07-31 23:59:59,0
+181213,3,2026-07-16,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5676,582.2000,582.2000,approved,1,0,2026-07-31 23:59:59,0
+181214,3,2026-07-16,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5680,256.8000,256.8000,approved,1,0,2026-07-31 23:59:59,0
+181215,3,2026-07-16,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5681,589.5000,589.5000,approved,1,0,2026-07-31 23:59:59,0
+181216,3,2026-07-16,receivable_credit_note,"Avega Managed Care, Inc — CN-5684",127.6000,127.6000,approved,1,0,2026-07-31 23:59:59,0
+181217,3,2026-07-16,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5674,67.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181218,3,2026-07-16,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5675,82.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181219,3,2026-07-16,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5676,582.2000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181220,3,2026-07-16,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5680,256.8000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181221,3,2026-07-16,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5681,589.5000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181222,3,2026-07-16,receivable_credit_note_allocation,"Avega Managed Care, Inc — CN-5684",127.6000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181223,3,2026-07-16,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M2043,0.0000,82.0000,approved,1,0,2026-07-31 23:59:59,0
+181224,3,2026-07-16,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M2067,0.0000,79.0000,approved,1,0,2026-07-31 23:59:59,0
+181225,3,2026-07-16,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M2075,0.0000,582.2000,approved,1,0,2026-07-31 23:59:59,0
+181226,3,2026-07-16,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M2137,0.0000,589.5000,approved,1,0,2026-07-31 23:59:59,0
+181227,3,2026-07-16,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M2150,0.0000,256.8000,approved,1,0,2026-07-31 23:59:59,0
+181228,3,2026-07-16,receivable_credit_note_allocation,"Avega Managed Care, Inc — M2517",0.0000,127.6000,approved,1,0,2026-07-31 23:59:59,0
+181229,3,2026-07-16,receivable_invoice,"Avega Managed Care, Inc - SABILLO, ELGEN CANOY | 07/14/2026 |Avega Managed Care, Inc| 3272- — M3478",3772.0000,3772.0000,approved,1,0,2026-07-31 23:59:59,0
+181230,3,2026-07-16,receivable_invoice,"Cooperative Health Management Federation - SANCHA, JUNITO GAPOL | 07/14/2026 |Cooperative Health Management Federation| 300- — M3479",1380.0000,1380.0000,approved,1,0,2026-07-31 23:59:59,0
+181231,3,2026-07-16,receivable_invoice,"Etiqa Life and General Assurance Phillipines, Inc - COLINA, TERESITA LLANTO | 07/14/2026 |WINBERG HOSPITALITY LLC| 3000- — M3480",3500.0000,3500.0000,approved,1,0,2026-07-31 23:59:59,0
+181232,3,2026-07-16,receivable_invoice,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) - DECIPULO, JOEMAR BAYLON | 07/14/2026 |a| 3100- — M3481",3700.0000,3700.0000,approved,1,0,2026-07-31 23:59:59,0
+181233,3,2026-07-16,receivable_invoice,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) - CUMAHIG, RACHELLE CAPIO | 07/14/2026 |INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS)| 1450- — M3482",21675.0000,21675.0000,approved,1,0,2026-07-31 23:59:59,0
+181234,3,2026-07-16,receivable_invoice,"Insular Healthcare Inc - LAPUZ, NORA CUPANG | 07/14/2026 |CONCENTRIX DAKSH SERVICES PHILIPPINES CORPORATION| 500- — M3483",18755.0000,18755.0000,approved,1,0,2026-07-31 23:59:59,0
+181235,3,2026-07-16,receivable_invoice,"Asalus Corporation - FALINCHAO, JOSE ASAG | 07/14/2026 |Asalus Corporation| 1137- — M3484",15893.0000,15893.0000,approved,1,0,2026-07-31 23:59:59,0
+181236,3,2026-07-16,receivable_invoice,"Knowles Electronics Philippines - LONTABO JR., EDGAR ARCUENO | 07/14/2026 |KNOWLES ELECTRONICS PHILIPPINES| 495- — M3485",495.0000,495.0000,approved,1,0,2026-07-31 23:59:59,0
+181237,3,2026-07-16,receivable_invoice,"Life & Health Hmp Inc - BAYLOSIS, JUNALEN ALESNA | 07/14/2026 |Life & Health Hmp Inc| 400- — M3486",38515.0000,38515.0000,approved,1,0,2026-07-31 23:59:59,0
+181238,3,2026-07-16,receivable_invoice,"Maxicare Healthcare Corporation - ALVARADO, ELSIE TILLOR | 07/14/2026 |Maxicare Healthcare Corporation| 550- — M3487",48920.0000,48920.0000,approved,1,0,2026-07-31 23:59:59,0
+181239,3,2026-07-16,receivable_invoice,"Medicard Philippines Inc - MONTA, MARY JEAN RIVERA | 07/14/2026 |Medicard Philippines Inc| 840- — M3488",840.0000,840.0000,approved,1,0,2026-07-31 23:59:59,0
+181240,3,2026-07-16,receivable_invoice,"Philhealthcare, Inc - YBAÑEZ, LESLIE MAE TUMULAK | 07/14/2026 |Philhealthcare, Inc| 500- — M3489",4710.0000,4710.0000,approved,1,0,2026-07-31 23:59:59,0
+181241,3,2026-07-16,receivable_invoice,"Sunlife Grepa Financial Inc - GARCIA, JENYN ROSALES | 07/14/2026 |AAI WORLDWIDE LOGISTICS INC.| 2500- — M3490",2500.0000,2500.0000,approved,1,0,2026-07-31 23:59:59,0
+181242,3,2026-07-16,receivable_invoice,"Tytans Leisure and Resort, Inc - AUGUSTO, IRISH RISAS | 07/14/2026 |Tytans Leisure and Resort, Inc| 1232.5- — M3491",1232.5000,1232.5000,approved,1,0,2026-07-31 23:59:59,0
+181243,3,2026-07-16,receivable_payment,Payment: Generali Life Assurance Philippines Inc — DP: MAR 25,41468.7000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181244,3,2026-07-16,receivable_payment,Payment: Generali Life Assurance Philippines Inc — DP: MAR 3,35828.8000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181245,3,2026-07-16,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M2043,0.0000,4018.0000,approved,1,0,2026-07-31 23:59:59,0
+181246,3,2026-07-16,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M2067,0.0000,3871.0000,approved,1,0,2026-07-31 23:59:59,0
+181247,3,2026-07-16,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M2075,0.0000,28527.8000,approved,1,0,2026-07-31 23:59:59,0
+181248,3,2026-07-16,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M2137,0.0000,28885.5000,approved,1,0,2026-07-31 23:59:59,0
+181249,3,2026-07-16,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M2150,0.0000,12583.2000,approved,1,0,2026-07-31 23:59:59,0
+181250,3,2026-07-17,journal_entry,to record cash sales July 16 - — #68392,25071.0000,25071.0000,approved,1,0,2026-07-31 23:59:59,0
+181251,3,2026-07-17,journal_entry,"Sales Branches JuLY 17, 2026 - Gcash Sales - July, 17 — #69633",254430.0000,254430.0000,approved,1,0,2026-07-31 23:59:59,0
+181252,3,2026-07-17,payable_payment,Payment: LYNOLDS MARKETING — 0226-000231,1684.8200,1684.8200,approved,1,0,2026-07-31 23:59:59,0
+181253,3,2026-07-17,payable_payment,Payment: LYNOLDS MARKETING — 0326-000296,1684.8200,1684.8200,approved,1,0,2026-07-31 23:59:59,0
+181254,3,2026-07-17,payable_payment,Payment: MEDGISTIX CORPORATION — 0426-000436,401383.9300,401383.9300,approved,1,0,2026-07-31 23:59:59,0
+181255,3,2026-07-17,payable_payment,Payment: LYNOLDS MARKETING — 0526-000479,1684.8200,1684.8200,approved,1,0,2026-07-31 23:59:59,0
+181256,3,2026-07-17,payable_payment,Payment: MEDGISTIX CORPORATION — 0526-000488,110176.4200,110176.4200,approved,1,0,2026-07-31 23:59:59,0
+181257,3,2026-07-17,payable_payment,Payment: Jade Cloie Tul-id — RFP No.# 6534,2600.0000,2600.0000,approved,1,0,2026-07-31 23:59:59,0
+181258,3,2026-07-17,payable_payment,Payment: MIKHAELA ALESNA — RFP No.# 6535,3600.0000,3600.0000,approved,1,0,2026-07-31 23:59:59,0
+181259,3,2026-07-17,payable_payment,Payment: Kim Marie Capilitan — RFP No.# 6536,10800.0000,10800.0000,approved,1,0,2026-07-31 23:59:59,0
+181260,3,2026-07-17,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5696,356.8000,356.8000,approved,1,0,2026-07-31 23:59:59,0
+181261,3,2026-07-17,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5697,21.0000,21.0000,approved,1,0,2026-07-31 23:59:59,0
+181262,3,2026-07-17,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5698,195.4000,195.4000,approved,1,0,2026-07-31 23:59:59,0
+181263,3,2026-07-17,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5700,12.0000,12.0000,approved,1,0,2026-07-31 23:59:59,0
+181264,3,2026-07-17,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5701,745.8000,745.8000,approved,1,0,2026-07-31 23:59:59,0
+181265,3,2026-07-17,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5707,77.0000,77.0000,approved,1,0,2026-07-31 23:59:59,0
+181266,3,2026-07-17,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5708,274.6000,274.6000,approved,1,0,2026-07-31 23:59:59,0
+181267,3,2026-07-17,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5709,137.8000,137.8000,approved,1,0,2026-07-31 23:59:59,0
+181268,3,2026-07-17,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5710,53.0000,53.0000,approved,1,0,2026-07-31 23:59:59,0
+181269,3,2026-07-17,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5711,223.2000,223.2000,approved,1,0,2026-07-31 23:59:59,0
+181270,3,2026-07-17,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5718,419.4000,419.4000,approved,1,0,2026-07-31 23:59:59,0
+181271,3,2026-07-17,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5719,150.4000,150.4000,approved,1,0,2026-07-31 23:59:59,0
+181272,3,2026-07-17,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5724,33.0000,33.0000,approved,1,0,2026-07-31 23:59:59,0
+181273,3,2026-07-17,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5725,193.6000,193.6000,approved,1,0,2026-07-31 23:59:59,0
+181274,3,2026-07-17,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5729,35.6000,35.6000,approved,1,0,2026-07-31 23:59:59,0
+181275,3,2026-07-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5696,356.8000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181276,3,2026-07-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5697,21.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181277,3,2026-07-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5698,195.4000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181278,3,2026-07-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5700,12.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181279,3,2026-07-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5701,745.8000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181280,3,2026-07-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5707,77.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181281,3,2026-07-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5708,274.6000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181282,3,2026-07-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5709,137.8000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181283,3,2026-07-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5710,53.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181284,3,2026-07-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5711,223.2000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181285,3,2026-07-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5718,419.4000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181286,3,2026-07-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5719,150.4000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181287,3,2026-07-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5724,33.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181288,3,2026-07-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5725,193.6000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181289,3,2026-07-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5729,35.6000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181290,3,2026-07-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M2167,0.0000,150.4000,approved,1,0,2026-07-31 23:59:59,0
+181291,3,2026-07-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M2183,0.0000,419.4000,approved,1,0,2026-07-31 23:59:59,0
+181292,3,2026-07-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M2229,0.0000,356.8000,approved,1,0,2026-07-31 23:59:59,0
+181293,3,2026-07-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M2266,0.0000,21.0000,approved,1,0,2026-07-31 23:59:59,0
+181294,3,2026-07-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M2276,0.0000,745.8000,approved,1,0,2026-07-31 23:59:59,0
+181295,3,2026-07-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M2299,0.0000,195.4000,approved,1,0,2026-07-31 23:59:59,0
+181296,3,2026-07-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M2318,0.0000,137.8000,approved,1,0,2026-07-31 23:59:59,0
+181297,3,2026-07-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M2327,0.0000,223.2000,approved,1,0,2026-07-31 23:59:59,0
+181298,3,2026-07-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M2342,0.0000,53.0000,approved,1,0,2026-07-31 23:59:59,0
+181299,3,2026-07-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M2363,0.0000,77.0000,approved,1,0,2026-07-31 23:59:59,0
+181300,3,2026-07-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M2380,0.0000,274.6000,approved,1,0,2026-07-31 23:59:59,0
+181301,3,2026-07-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M2396,0.0000,193.6000,approved,1,0,2026-07-31 23:59:59,0
+181302,3,2026-07-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M2419,0.0000,33.0000,approved,1,0,2026-07-31 23:59:59,0
+181303,3,2026-07-17,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M2514,0.0000,35.6000,approved,1,0,2026-07-31 23:59:59,0
+181304,3,2026-07-17,receivable_invoice,"Avega Managed Care, Inc - SABILLO, ELGEN CANOY | 07/15/2026 |Avega Managed Care, Inc| 500- — M3492",1000.0000,1000.0000,approved,1,0,2026-07-31 23:59:59,0
+181305,3,2026-07-17,receivable_invoice,"Cooperative Health Management Federation - SANCHA, JUNITO GAPOL | 07/15/2026 |FICCO| 300- — M3493",600.0000,600.0000,approved,1,0,2026-07-31 23:59:59,0
+181306,3,2026-07-17,receivable_invoice,"Etiqa Life and General Assurance Phillipines, Inc - AVILA, MERIAM TUMARONG | 07/15/2026 |Etiqa Life and General Assurance Phillipines, Inc| 4100- — M3494",8700.0000,8700.0000,approved,1,0,2026-07-31 23:59:59,0
+181307,3,2026-07-17,receivable_invoice,"Insular Healthcare Inc - ANDALES, DIVINA SOMERA | 07/15/2026 |CONCENTRIX DAKSH SERVICES PHILIPPINES CORPORATION| 500- — M3495",38580.0000,38580.0000,approved,1,0,2026-07-31 23:59:59,0
+181308,3,2026-07-17,receivable_invoice,"Asalus Corporation - ARRIOLA, KANESHCA CHARLOTTE SABADO | 07/15/2026 |Asalus Corporation| 500- — M3496",13502.0000,13502.0000,approved,1,0,2026-07-31 23:59:59,0
+181309,3,2026-07-17,receivable_invoice,"Life & Health Hmp Inc - COSEP, NYM OMPAD | 07/15/2026 |Life & Health Hmp Inc| 400- — M3497",27350.0000,27350.0000,approved,1,0,2026-07-31 23:59:59,0
+181310,3,2026-07-17,receivable_invoice,"Maxicare Healthcare Corporation - DEMAPE, ANALYN CARACAS | 07/15/2026 |Maxicare Healthcare Corporation| 500- — M3498",28172.0000,28172.0000,approved,1,0,2026-07-31 23:59:59,0
+181311,3,2026-07-17,receivable_invoice,"Medicard Philippines Inc - MONTA, MARY JEAN RIVERA | 07/15/2026 |Medicard Philippines Inc| 300- — M3499",7000.0000,7000.0000,approved,1,0,2026-07-31 23:59:59,0
+181312,3,2026-07-17,receivable_invoice,"Philhealthcare, Inc - BROCE, JULIA YCONG | 07/15/2026 |Philhealthcare, Inc| 600- — M3500",16515.0000,16515.0000,approved,1,0,2026-07-31 23:59:59,0
+181313,3,2026-07-17,receivable_invoice,"Results Manila Inc. - IMPERIAL, MISSY BLIDE . | 07/15/2026 |RESULT MANILA, INC.| 700- — M3501",1400.0000,1400.0000,approved,1,0,2026-07-31 23:59:59,0
+181314,3,2026-07-17,receivable_invoice,"Sunlife Grepa Financial Inc - ELEVERA, JAYSON PAPALID | 07/15/2026 |AAI WORLDWIDE LOGISTICS INC.| 400- — M3502",400.0000,400.0000,approved,1,0,2026-07-31 23:59:59,0
+181315,3,2026-07-17,receivable_invoice,"Avega Managed Care, Inc - BAGUIO, JUMEL GONZALES | 07/16/2026 |Avega Managed Care, Inc| 3600- — M3503",10024.0000,10024.0000,approved,1,0,2026-07-31 23:59:59,0
+181316,3,2026-07-17,receivable_invoice,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) - GALAMITON, JAEREN TANTE | 07/16/2026 |INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS)| 3580- — M3504",3580.0000,3580.0000,approved,1,0,2026-07-31 23:59:59,0
+181317,3,2026-07-17,receivable_invoice,"Insular Healthcare Inc - BAGUIO, EUCARAH ALIÑABO | 07/16/2026 |Insular Healthcare Inc| 500- — M3505",35075.0000,35075.0000,approved,1,0,2026-07-31 23:59:59,0
+181318,3,2026-07-17,receivable_invoice,"Asalus Corporation - REDELOSA, CRIS SUQUIB | 07/16/2026 |Asalus Corporation| 500- — M3506",8100.0000,8100.0000,approved,1,0,2026-07-31 23:59:59,0
+181319,3,2026-07-17,receivable_invoice,"Knowles Electronics Philippines - CAÑETE, LOU BERDIN | 07/16/2026 |KNOWLES ELECTRONICS PHILIPPINES| 5800- — M3507",5800.0000,5800.0000,approved,1,0,2026-07-31 23:59:59,0
+181320,3,2026-07-17,receivable_invoice,"Life & Health Hmp Inc - BARIÑAN, KOKI ANGELU ARANETA | 07/16/2026 |Life & Health Hmp Inc| 550- — M3508",9430.0000,9430.0000,approved,1,0,2026-07-31 23:59:59,0
+181321,3,2026-07-17,receivable_invoice,"Maxicare Healthcare Corporation - CUIZON, FERNANDO SANCHEZ | 07/16/2026 |Maxicare Healthcare Corporation| 2940- — M3509",28511.0000,28511.0000,approved,1,0,2026-07-31 23:59:59,0
+181322,3,2026-07-17,receivable_invoice,"Medicard Philippines Inc - PITOGO, DANILO JR DE LOS ANGELES | 07/16/2026 |GLOBAL ONE INTEGRATED BUSINESS SERVICES, INC.| 300- — M3510",2730.0000,2730.0000,approved,1,0,2026-07-31 23:59:59,0
+181323,3,2026-07-17,receivable_invoice,"Philhealthcare, Inc - BASANAL, RACHEL ALMENTO | 07/16/2026 |Philhealthcare, Inc| 3600- — M3511",24990.0000,24990.0000,approved,1,0,2026-07-31 23:59:59,0
+181324,3,2026-07-17,receivable_invoice,"Sunlife Grepa Financial Inc - ARO, JEBVED BON ROJAS | 07/16/2026 |Sunlife Grepa Financial Inc| 250- — M3512",650.0000,650.0000,approved,1,0,2026-07-31 23:59:59,0
+181325,3,2026-07-17,receivable_invoice,"Tamiya Philippines, Inc - HOMECILLO, TRESHA MARIE PEPITO | 07/16/2026 |Tamiya Philippines, Inc| 800- — M3513",1600.0000,1600.0000,approved,1,0,2026-07-31 23:59:59,0
+181326,3,2026-07-17,receivable_payment,Payment: Generali Life Assurance Philippines Inc — DP: APR 1,17483.2000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181327,3,2026-07-17,receivable_payment,Payment: Generali Life Assurance Philippines Inc — DP: APR 15,34917.4000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181328,3,2026-07-17,receivable_payment,Payment: Generali Life Assurance Philippines Inc — DP: APR 16,27920.2000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181329,3,2026-07-17,receivable_payment,Payment: Generali Life Assurance Philippines Inc — DP: APR 17,1617.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181330,3,2026-07-17,receivable_payment,Payment: Generali Life Assurance Philippines Inc — DP: APR 30,1744.4000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181331,3,2026-07-17,receivable_payment,Payment: Generali Life Assurance Philippines Inc — DP: APR 7,47735.8000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181332,3,2026-07-17,receivable_payment,Payment: Generali Life Assurance Philippines Inc — DP; APR 15,2597.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181333,3,2026-07-17,receivable_payment,Payment: Generali Life Assurance Philippines Inc — DP; APR 17,9486.4000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181334,3,2026-07-17,receivable_payment,Payment: Life & Health Hmp Inc — M1557,1744.4000,2136.4000,approved,1,0,2026-07-31 23:59:59,0
+181335,3,2026-07-17,receivable_payment,Payment: Life & Health Hmp Inc — M1795,2347.1000,3581.9000,approved,1,0,2026-07-31 23:59:59,0
+181336,3,2026-07-17,receivable_payment,Payment: Life & Health Hmp Inc — M1990,1038.8000,1038.8000,approved,1,0,2026-07-31 23:59:59,0
+181337,3,2026-07-17,receivable_payment,Payment: Life & Health Hmp Inc — M1992,392.0000,4390.4000,approved,1,0,2026-07-31 23:59:59,0
+181338,3,2026-07-17,receivable_payment,Payment: Life & Health Hmp Inc — M2127,3645.6000,3645.6000,approved,1,0,2026-07-31 23:59:59,0
+181339,3,2026-07-17,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M2167,0.0000,7369.6000,approved,1,0,2026-07-31 23:59:59,0
+181340,3,2026-07-17,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M2183,0.0000,20550.6000,approved,1,0,2026-07-31 23:59:59,0
+181341,3,2026-07-17,receivable_payment,Payment: Life & Health Hmp Inc — M2223,392.0000,17973.2000,approved,1,0,2026-07-31 23:59:59,0
+181342,3,2026-07-17,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M2229,0.0000,17483.2000,approved,1,0,2026-07-31 23:59:59,0
+181343,3,2026-07-17,receivable_payment,Payment: Life & Health Hmp Inc — M2232,1170.0000,63543.3000,approved,1,0,2026-07-31 23:59:59,0
+181344,3,2026-07-17,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M2266,0.0000,1029.0000,approved,1,0,2026-07-31 23:59:59,0
+181345,3,2026-07-17,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M2276,0.0000,36544.2000,approved,1,0,2026-07-31 23:59:59,0
+181346,3,2026-07-17,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M2299,0.0000,9574.6000,approved,1,0,2026-07-31 23:59:59,0
+181347,3,2026-07-17,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M2318,0.0000,6752.2000,approved,1,0,2026-07-31 23:59:59,0
+181348,3,2026-07-17,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M2327,0.0000,10936.8000,approved,1,0,2026-07-31 23:59:59,0
+181349,3,2026-07-17,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M2342,0.0000,2597.0000,approved,1,0,2026-07-31 23:59:59,0
+181350,3,2026-07-17,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M2363,0.0000,3773.0000,approved,1,0,2026-07-31 23:59:59,0
+181351,3,2026-07-17,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M2380,0.0000,13455.4000,approved,1,0,2026-07-31 23:59:59,0
+181352,3,2026-07-17,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M2396,0.0000,9486.4000,approved,1,0,2026-07-31 23:59:59,0
+181353,3,2026-07-17,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M2419,0.0000,1617.0000,approved,1,0,2026-07-31 23:59:59,0
+181354,3,2026-07-17,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M2514,0.0000,1744.4000,approved,1,0,2026-07-31 23:59:59,0
+181355,3,2026-07-17,receivable_payment,Payment: Life & Health Hmp Inc — M2520,3423.3000,129869.9000,approved,1,0,2026-07-31 23:59:59,0
+181356,3,2026-07-17,receivable_payment,Payment: Asalus Corporation — M2554,50327.9000,50327.9000,approved,1,0,2026-07-31 23:59:59,0
+181357,3,2026-07-17,receivable_payment,Payment: Asalus Corporation — M2582,13185.9000,13185.9000,approved,1,0,2026-07-31 23:59:59,0
+181358,3,2026-07-17,receivable_payment,Payment: Asalus Corporation — M2628,29120.7000,29120.7000,approved,1,0,2026-07-31 23:59:59,0
+181359,3,2026-07-17,receivable_payment,Payment: Asalus Corporation — M2640,14935.2000,14935.2000,approved,1,0,2026-07-31 23:59:59,0
+181360,3,2026-07-17,receivable_payment,Payment: Asalus Corporation — M2652,8908.2000,8908.2000,approved,1,0,2026-07-31 23:59:59,0
+181361,3,2026-07-17,receivable_payment,Payment: Asalus Corporation — M2666,11564.0000,11564.0000,approved,1,0,2026-07-31 23:59:59,0
+181362,3,2026-07-17,receivable_payment,Payment: Asalus Corporation — M2676,25735.0000,25735.0000,approved,1,0,2026-07-31 23:59:59,0
+181363,3,2026-07-17,receivable_payment,Payment: Asalus Corporation — M2691,10980.9000,10980.9000,approved,1,0,2026-07-31 23:59:59,0
+181364,3,2026-07-17,receivable_payment,Payment: Life & Health Hmp Inc — M2863,46173.6000,46173.6000,approved,1,0,2026-07-31 23:59:59,0
+181365,3,2026-07-17,receivable_payment,Payment: Life & Health Hmp Inc — M2945,31944.4000,31944.4000,approved,1,0,2026-07-31 23:59:59,0
+181366,3,2026-07-17,receivable_payment,Payment: Life & Health Hmp Inc — M2960,61842.8000,61842.8000,approved,1,0,2026-07-31 23:59:59,0
+181367,3,2026-07-17,receivable_payment,Payment: Life & Health Hmp Inc — M2972,42535.2000,42535.2000,approved,1,0,2026-07-31 23:59:59,0
+181368,3,2026-07-17,receivable_payment,Payment: Life & Health Hmp Inc — M2983,23843.0000,23843.0000,approved,1,0,2026-07-31 23:59:59,0
+181369,3,2026-07-17,receivable_payment,Payment: Life & Health Hmp Inc — M2995,41888.9000,41888.9000,approved,1,0,2026-07-31 23:59:59,0
+181370,3,2026-07-18,journal_entry,"Sales Branches JuLY 18, 2026 - Gcash Sales - July, 18 — #69634",282156.0000,282156.0000,approved,1,0,2026-07-31 23:59:59,0
+181371,3,2026-07-20,journal_entry,to record cash sales July 17 - — #68427,39364.0000,39364.0000,approved,1,0,2026-07-31 23:59:59,0
+181372,3,2026-07-20,journal_entry,to record cash sales July 18 - — #68428,40724.0000,40724.0000,approved,1,0,2026-07-31 23:59:59,0
+181373,3,2026-07-20,journal_entry,"CPCI Payroll for July 1-15, 2026 - Mactan - Finance — #68808",10004.2400,10004.2400,approved,1,0,2026-07-31 23:59:59,0
+181374,3,2026-07-20,journal_entry,"CPCI Payroll for July 1-15, 2026 - Mactan Medical Affairs — #68809",269914.8600,269914.8600,approved,1,0,2026-07-31 23:59:59,0
+181375,3,2026-07-20,journal_entry,"CPCI Payroll for July 1-15, 2026 - Mactan  Operations — #68811",565682.3200,565682.3200,approved,1,0,2026-07-31 23:59:59,0
+181376,3,2026-07-20,journal_entry,"Sales Branches JuLY 20, 2026 - Gcash Sales - July, 20 — #69635",310920.0000,310920.0000,approved,1,0,2026-07-31 23:59:59,0
+181377,3,2026-07-20,journal_entry,Reversal of: Globe -To accrue mobile all for the month of June — #69806,3244.6400,3244.6400,approved,1,0,2026-07-31 23:59:59,0
+181378,3,2026-07-20,payable_invoice,AILEEN COTEJO — RFP No.# 6553,20000.0000,20000.0000,approved,1,0,2026-07-31 23:59:59,0
+181379,3,2026-07-20,payable_invoice,Kathrina Aseanne Acapulco Gomez — RFP No.# 6554,15000.0000,15000.0000,approved,1,0,2026-07-31 23:59:59,0
+181380,3,2026-07-20,payable_invoice,"APEX MEDICAL DEVICES AND DIAGNOSTICS, INC. — RFP No.# 6555",184260.0000,184260.0000,approved,1,0,2026-07-31 23:59:59,0
+181381,3,2026-07-20,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5732,12.0000,12.0000,approved,1,0,2026-07-31 23:59:59,0
+181382,3,2026-07-20,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5735,97.8000,97.8000,approved,1,0,2026-07-31 23:59:59,0
+181383,3,2026-07-20,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5741,165.6000,165.6000,approved,1,0,2026-07-31 23:59:59,0
+181384,3,2026-07-20,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5743,12.0000,12.0000,approved,1,0,2026-07-31 23:59:59,0
+181385,3,2026-07-20,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5744,12.0000,12.0000,approved,1,0,2026-07-31 23:59:59,0
+181386,3,2026-07-20,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5745,32.0000,32.0000,approved,1,0,2026-07-31 23:59:59,0
+181387,3,2026-07-20,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5746,98.4000,98.4000,approved,1,0,2026-07-31 23:59:59,0
+181388,3,2026-07-20,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5747,163.4000,163.4000,approved,1,0,2026-07-31 23:59:59,0
+181389,3,2026-07-20,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5748,70.0000,70.0000,approved,1,0,2026-07-31 23:59:59,0
+181390,3,2026-07-20,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5749,43.6000,43.6000,approved,1,0,2026-07-31 23:59:59,0
+181391,3,2026-07-20,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5750,19.6000,19.6000,approved,1,0,2026-07-31 23:59:59,0
+181392,3,2026-07-20,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5751,267.2000,267.2000,approved,1,0,2026-07-31 23:59:59,0
+181393,3,2026-07-20,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5756,27.0000,27.0000,approved,1,0,2026-07-31 23:59:59,0
+181394,3,2026-07-20,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5762,30.0000,30.0000,approved,1,0,2026-07-31 23:59:59,0
+181395,3,2026-07-20,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5763,153.6000,153.6000,approved,1,0,2026-07-31 23:59:59,0
+181396,3,2026-07-20,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5764,72.8000,72.8000,approved,1,0,2026-07-31 23:59:59,0
+181397,3,2026-07-20,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5765,12.0000,12.0000,approved,1,0,2026-07-31 23:59:59,0
+181398,3,2026-07-20,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5732,12.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181399,3,2026-07-20,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5735,97.8000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181400,3,2026-07-20,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5741,165.6000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181401,3,2026-07-20,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5743,12.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181402,3,2026-07-20,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5744,12.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181403,3,2026-07-20,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5745,32.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181404,3,2026-07-20,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5746,98.4000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181405,3,2026-07-20,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5747,163.4000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181406,3,2026-07-20,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5748,70.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181407,3,2026-07-20,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5749,43.6000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181408,3,2026-07-20,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5750,19.6000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181409,3,2026-07-20,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5751,267.2000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181410,3,2026-07-20,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5756,27.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181411,3,2026-07-20,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5762,30.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181412,3,2026-07-20,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5763,153.6000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181413,3,2026-07-20,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5764,72.8000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181414,3,2026-07-20,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5765,12.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181415,3,2026-07-20,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M0784,0.0000,165.6000,approved,1,0,2026-07-31 23:59:59,0
+181416,3,2026-07-20,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M0790,0.0000,109.8000,approved,1,0,2026-07-31 23:59:59,0
+181417,3,2026-07-20,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M0939,0.0000,175.4000,approved,1,0,2026-07-31 23:59:59,0
+181418,3,2026-07-20,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M0946,0.0000,211.6000,approved,1,0,2026-07-31 23:59:59,0
+181419,3,2026-07-20,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M0958,0.0000,42.0000,approved,1,0,2026-07-31 23:59:59,0
+181420,3,2026-07-20,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M0987-1,0.0000,51.6000,approved,1,0,2026-07-31 23:59:59,0
+181421,3,2026-07-20,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M1024,0.0000,43.6000,approved,1,0,2026-07-31 23:59:59,0
+181422,3,2026-07-20,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M1036,0.0000,70.0000,approved,1,0,2026-07-31 23:59:59,0
+181423,3,2026-07-20,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M1095,0.0000,98.4000,approved,1,0,2026-07-31 23:59:59,0
+181424,3,2026-07-20,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M1107,0.0000,72.8000,approved,1,0,2026-07-31 23:59:59,0
+181425,3,2026-07-20,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M1119,0.0000,267.2000,approved,1,0,2026-07-31 23:59:59,0
+181426,3,2026-07-20,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M1129,0.0000,12.0000,approved,1,0,2026-07-31 23:59:59,0
+181427,3,2026-07-20,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M1426,0.0000,12.0000,approved,1,0,2026-07-31 23:59:59,0
+181428,3,2026-07-20,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M1466,0.0000,12.0000,approved,1,0,2026-07-31 23:59:59,0
+181429,3,2026-07-20,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M1644,0.0000,102.8000,approved,1,0,2026-07-31 23:59:59,0
+181430,3,2026-07-20,receivable_invoice,"Avega Managed Care, Inc - GAITAN, REGINE MARIE OLIS | 07/17/2026 |CLINICA PRIME CEBU, INC.| 500- — M3514",500.0000,500.0000,approved,1,0,2026-07-31 23:59:59,0
+181431,3,2026-07-20,receivable_invoice,"Cooperative Health Management Federation - EWICAN, MIGUELA RICAFORT | 07/17/2026 |Cooperative Health Management Federation| 1450- — M3515",4120.0000,4120.0000,approved,1,0,2026-07-31 23:59:59,0
+181432,3,2026-07-20,receivable_invoice,"Etiqa Life and General Assurance Phillipines, Inc - AMAYA, JODY LYN SAYSON | 07/17/2026 |Etiqa Life and General Assurance Phillipines, Inc| 500- — M3516",1000.0000,1000.0000,approved,1,0,2026-07-31 23:59:59,0
+181433,3,2026-07-20,receivable_invoice,"IMS Wellth Care, Inc. - LUSICA, JUNIEL BAJA | 07/17/2026 |IMS Wellth Care, Inc.| 400- — M3517",2570.0000,2570.0000,approved,1,0,2026-07-31 23:59:59,0
+181434,3,2026-07-20,receivable_invoice,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) - MADRIAGA, MA. NELLIE TRAYVILLA | 07/17/2026 |INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS)| 600- — M3518",600.0000,600.0000,approved,1,0,2026-07-31 23:59:59,0
+181435,3,2026-07-20,receivable_invoice,"Insular Healthcare Inc - DIHAYCO, GLENN BAGUIO | 07/17/2026 |Insular Healthcare Inc| 2880- — M3519",31970.0000,31970.0000,approved,1,0,2026-07-31 23:59:59,0
+181436,3,2026-07-20,receivable_invoice,"Asalus Corporation - AMPARO, CELINE DELIRIO | 07/17/2026 |Asalus Corporation| 500- — M3520",47972.0000,47972.0000,approved,1,0,2026-07-31 23:59:59,0
+181437,3,2026-07-20,receivable_invoice,"Knowles Electronics Philippines - FAMADOR, JANE MARPHIE BARDAGO | 07/17/2026 |KNOWLES ELECTRONICS PHILIPPINES| 4350- — M3521",4350.0000,4350.0000,approved,1,0,2026-07-31 23:59:59,0
+181438,3,2026-07-20,receivable_invoice,"Life & Health Hmp Inc - ABELLA, CHRISTA JOY INOC | 07/17/2026 |Life & Health Hmp Inc| 400- — M3522",16260.0000,16260.0000,approved,1,0,2026-07-31 23:59:59,0
+181439,3,2026-07-20,receivable_invoice,"Maxicare Healthcare Corporation - CALAQUE, CHARIMIE SUYMAN | 07/17/2026 |Maxicare Healthcare Corporation| 250- — M3523",36714.0000,36714.0000,approved,1,0,2026-07-31 23:59:59,0
+181440,3,2026-07-20,receivable_invoice,"Medicard Philippines Inc - LACSON, DANTE JR. TAGHOY | 07/17/2026 |Medicard Philippines Inc| 300- — M3524",14580.0000,14580.0000,approved,1,0,2026-07-31 23:59:59,0
+181441,3,2026-07-20,receivable_invoice,"Philhealthcare, Inc - ANTIG, COLIN THOMAS TONG | 07/17/2026 |Philhealthcare, Inc| 5290- — M3525",5890.0000,5890.0000,approved,1,0,2026-07-31 23:59:59,0
+181442,3,2026-07-20,receivable_invoice,"Results Manila Inc. - SALAMAÑA, ANNE KRIEZL SUBONG | 07/17/2026 |RESULT MANILA, INC.| 700- — M3526",700.0000,700.0000,approved,1,0,2026-07-31 23:59:59,0
+181443,3,2026-07-20,receivable_invoice,"Skygo Marketing Corporation - DAÑO, JOSEPH GAVIOLA | 07/17/2026 |SKYGO MARKETING CORPORATION| 300- — M3527",300.0000,300.0000,approved,1,0,2026-07-31 23:59:59,0
+181444,3,2026-07-20,receivable_payment,Payment: Generali Life Assurance Philippines Inc — DP: 09-16-25,588.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181445,3,2026-07-20,receivable_payment,Payment: Generali Life Assurance Philippines Inc — DP: 10-13-25,1323.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181446,3,2026-07-20,receivable_payment,Payment: Generali Life Assurance Philippines Inc — DP: 5-29-25,9290.4000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181447,3,2026-07-20,receivable_payment,Payment: Generali Life Assurance Philippines Inc — DP: 5-5-25,4792.2000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181448,3,2026-07-20,receivable_payment,Payment: Generali Life Assurance Philippines Inc — DP: 6-13-25,8996.4000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181449,3,2026-07-20,receivable_payment,Payment: Generali Life Assurance Philippines Inc — DP: 6-26-25,1568.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181450,3,2026-07-20,receivable_payment,Payment: Generali Life Assurance Philippines Inc — DP: 7-1-25,19355.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181451,3,2026-07-20,receivable_payment,Payment: Generali Life Assurance Philippines Inc — DP: 7-15-25,588.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181452,3,2026-07-20,receivable_payment,Payment: Generali Life Assurance Philippines Inc — DP: 7-4-25,13092.8000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181453,3,2026-07-20,receivable_payment,Payment: Generali Life Assurance Philippines Inc — DP; 7-15-25,3567.2000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181454,3,2026-07-20,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M0784,0.0000,8114.4000,approved,1,0,2026-07-31 23:59:59,0
+181455,3,2026-07-20,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M0790,0.0000,5380.2000,approved,1,0,2026-07-31 23:59:59,0
+181456,3,2026-07-20,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M0939,0.0000,8594.6000,approved,1,0,2026-07-31 23:59:59,0
+181457,3,2026-07-20,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M0946,0.0000,10368.4000,approved,1,0,2026-07-31 23:59:59,0
+181458,3,2026-07-20,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M0958,0.0000,2058.0000,approved,1,0,2026-07-31 23:59:59,0
+181459,3,2026-07-20,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M0987-1,0.0000,2528.4000,approved,1,0,2026-07-31 23:59:59,0
+181460,3,2026-07-20,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M1024,0.0000,2136.4000,approved,1,0,2026-07-31 23:59:59,0
+181461,3,2026-07-20,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M1036,0.0000,3430.0000,approved,1,0,2026-07-31 23:59:59,0
+181462,3,2026-07-20,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M1095,0.0000,4821.6000,approved,1,0,2026-07-31 23:59:59,0
+181463,3,2026-07-20,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M1107,0.0000,3567.2000,approved,1,0,2026-07-31 23:59:59,0
+181464,3,2026-07-20,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M1119,0.0000,13092.8000,approved,1,0,2026-07-31 23:59:59,0
+181465,3,2026-07-20,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M1129,0.0000,588.0000,approved,1,0,2026-07-31 23:59:59,0
+181466,3,2026-07-20,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M1426,0.0000,588.0000,approved,1,0,2026-07-31 23:59:59,0
+181467,3,2026-07-20,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M1466,0.0000,588.0000,approved,1,0,2026-07-31 23:59:59,0
+181468,3,2026-07-20,receivable_payment,Payment: Generali Life Assurance Philippines Inc — M1644,0.0000,5037.2000,approved,1,0,2026-07-31 23:59:59,0
+181469,3,2026-07-21,journal_entry,"Sales Branches JuLY 21, 2026 - Gcash Sales - July, 21 — #69636",230927.0000,230927.0000,approved,1,0,2026-07-31 23:59:59,0
+181470,3,2026-07-21,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5782,12.0000,12.0000,approved,1,0,2026-07-31 23:59:59,0
+181471,3,2026-07-21,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5784,12.0000,12.0000,approved,1,0,2026-07-31 23:59:59,0
+181472,3,2026-07-21,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5785,58.0000,58.0000,approved,1,0,2026-07-31 23:59:59,0
+181473,3,2026-07-21,receivable_credit_note,"Tamiya Philippines, Inc - BILAGANTOL, NEIL PATRICK OLIS | 04/27/2026 |TAMIYA PHILIPPINES, INC.| 3230- VOIDED DUE TO INCORRECT CHARGING/TAGGING — CN-5787",3230.0000,3230.0000,approved,1,0,2026-07-31 23:59:59,0
+181474,3,2026-07-21,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5796,25.4000,25.4000,approved,1,0,2026-07-31 23:59:59,0
+181475,3,2026-07-21,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5797,542.5000,542.5000,approved,1,0,2026-07-31 23:59:59,0
+181476,3,2026-07-21,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5798,243.2000,243.2000,approved,1,0,2026-07-31 23:59:59,0
+181477,3,2026-07-21,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5799,83.4000,83.4000,approved,1,0,2026-07-31 23:59:59,0
+181478,3,2026-07-21,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5800,119.0000,119.0000,approved,1,0,2026-07-31 23:59:59,0
+181479,3,2026-07-21,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5801,12.0000,12.0000,approved,1,0,2026-07-31 23:59:59,0
+181480,3,2026-07-21,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5808,65.0000,65.0000,approved,1,0,2026-07-31 23:59:59,0
+181481,3,2026-07-21,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5809,99.0000,99.0000,approved,1,0,2026-07-31 23:59:59,0
+181482,3,2026-07-21,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5810,397.6000,397.6000,approved,1,0,2026-07-31 23:59:59,0
+181483,3,2026-07-21,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5811,24.0000,24.0000,approved,1,0,2026-07-31 23:59:59,0
+181484,3,2026-07-21,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5812,36.0000,36.0000,approved,1,0,2026-07-31 23:59:59,0
+181485,3,2026-07-21,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5813,36.0000,36.0000,approved,1,0,2026-07-31 23:59:59,0
+181486,3,2026-07-21,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5815,75.8000,75.8000,approved,1,0,2026-07-31 23:59:59,0
+181487,3,2026-07-21,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5817,36.0000,36.0000,approved,1,0,2026-07-31 23:59:59,0
+181488,3,2026-07-21,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5818,291.7200,291.7200,approved,1,0,2026-07-31 23:59:59,0
+181489,3,2026-07-21,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5820,3.6000,3.6000,approved,1,0,2026-07-31 23:59:59,0
+181490,3,2026-07-21,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5821,24.0000,24.0000,approved,1,0,2026-07-31 23:59:59,0
+181491,3,2026-07-21,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5827,12.0000,12.0000,approved,1,0,2026-07-31 23:59:59,0
+181492,3,2026-07-21,receivable_credit_note,Generali Life Assurance Philippines Inc — CN-5828,12.0000,12.0000,approved,1,0,2026-07-31 23:59:59,0
+181493,3,2026-07-21,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5782,12.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181494,3,2026-07-21,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5784,12.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181495,3,2026-07-21,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5785,58.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181496,3,2026-07-21,receivable_credit_note_allocation,"Tamiya Philippines, Inc — CN-5787",3230.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181497,3,2026-07-21,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5796,25.4000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181498,3,2026-07-21,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5797,542.5000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181499,3,2026-07-21,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5798,243.2000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181500,3,2026-07-21,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5799,83.4000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181501,3,2026-07-21,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5800,119.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181502,3,2026-07-21,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5801,12.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181503,3,2026-07-21,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5808,65.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181504,3,2026-07-21,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5809,99.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181505,3,2026-07-21,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5810,397.6000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181506,3,2026-07-21,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5811,24.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181507,3,2026-07-21,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5812,36.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181508,3,2026-07-21,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5813,36.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181509,3,2026-07-21,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5815,75.8000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181510,3,2026-07-21,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5817,36.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181511,3,2026-07-21,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5818,291.7200,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181512,3,2026-07-21,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5820,3.6000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181513,3,2026-07-21,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5821,24.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181514,3,2026-07-21,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5827,12.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181515,3,2026-07-21,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — CN-5828,12.0000,0.0000,approved,1,0,2026-07-31 23:59:59,0
+181516,3,2026-07-21,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M0441,0.0000,83.4000,approved,1,0,2026-07-31 23:59:59,0
+181517,3,2026-07-21,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M0563,0.0000,397.6000,approved,1,0,2026-07-31 23:59:59,0
+181518,3,2026-07-21,receivable_credit_note_allocation,Generali Life Assurance Philippines Inc — M0577,0.0000,36.0000,approved,1,0,2026-07-31 23:59:59,0

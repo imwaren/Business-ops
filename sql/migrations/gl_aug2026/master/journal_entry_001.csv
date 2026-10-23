@@ -1,0 +1,501 @@
+id,cost_center_id,date,type,remarks,total_debit,total_credit,status,is_migrated,added_by,added_on,is_deleted
+12596,\N,2026-08-01,journal_entry,"Sales Branches August 1, 2026 - Cash Sales - August, 01 — #72905",751668.0000,751668.0000,approved,1,0,2026-08-31 23:59:59,0
+12597,\N,2026-08-01,payable_invoice,"SMART COMMUNICATIONS, INC. — RFP No.# 6631",26069.5700,33019.5700,approved,1,0,2026-08-31 23:59:59,0
+12598,\N,2026-08-01,payable_invoice,Gilliane Marrei P. Dayan - Payment for last and final pay for resigned employee (13th month) — RFP No.# 6634,20186.8200,20186.8200,approved,1,0,2026-08-31 23:59:59,0
+12599,\N,2026-08-03,journal_entry,"to record cash sales July 31, august 1 - 1 — #71961",194534.0000,194534.0000,approved,1,0,2026-08-31 23:59:59,0
+12600,\N,2026-08-03,journal_entry,Cash - Security Bank CPCI - OPEX Gcash — #71962,4735.0000,4735.0000,approved,1,0,2026-08-31 23:59:59,0
+12601,\N,2026-08-03,journal_entry,To record receipts of SBC OPEX Debit Card — #71963,10050.0000,10050.0000,approved,1,0,2026-08-31 23:59:59,0
+12602,\N,2026-08-03,journal_entry,To record receipts of SBC CREDIT CARD — #71966,94064.4900,94064.4900,approved,1,0,2026-08-31 23:59:59,0
+12603,\N,2026-08-03,journal_entry,"To record receipts of SBC AR-Terms for PACIFIC CROSS INSURANCE, INC august 3 — #71968",392.0000,392.0000,approved,1,0,2026-08-31 23:59:59,0
+12604,\N,2026-08-03,journal_entry,To record receipts sales sbc ValueCare — #71969,206285.1000,206285.1000,approved,1,0,2026-08-31 23:59:59,0
+12605,\N,2026-08-03,journal_entry,To record receipts sales sbc LACSON AND LACSON INSURANCE BROKERS — #71970,20540.0000,20540.0000,approved,1,0,2026-08-31 23:59:59,0
+12606,\N,2026-08-03,journal_entry,To record receipts of SBC AR-Terms for LH FOUNDATION INC august 3 — #71972,70000.0000,70000.0000,approved,1,0,2026-08-31 23:59:59,0
+12607,\N,2026-08-03,journal_entry,To record receipts sales SBC Unidentified check deposit august 3 — #71974,59700.0000,59700.0000,approved,1,0,2026-08-31 23:59:59,0
+12608,\N,2026-08-03,journal_entry,To record Credit Cards mbtc — #71976,20628.9900,20628.9900,approved,1,0,2026-08-31 23:59:59,0
+12609,\N,2026-08-03,journal_entry,To record Credit Cards bank charge mbtc — #71977,1444.0200,1444.0200,approved,1,0,2026-08-31 23:59:59,0
+12610,\N,2026-08-03,journal_entry,to record Payroll payout august 3 for july 16-31 - BPI Payroll mancom — #71984,441793.4000,441793.4000,approved,1,0,2026-08-31 23:59:59,0
+12611,\N,2026-08-03,journal_entry,"Sales Branches August 3, 2026 - Cash Sales - August, 03 — #77845",849763.0000,849763.0000,approved,1,0,2026-08-31 23:59:59,0
+12612,\N,2026-08-03,payable_invoice,Ivy Grace B. Baricuatro — RFP No.# 6646,7600.0000,7600.0000,approved,1,0,2026-08-31 23:59:59,0
+12613,\N,2026-08-03,receivable_credit_note,INSYTIC CORP. — CN-6453,114.4000,114.4000,approved,1,0,2026-08-31 23:59:59,0
+12614,\N,2026-08-03,receivable_credit_note_allocation,INSYTIC CORP. — CN-6453,114.4000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+12615,\N,2026-08-03,receivable_credit_note_allocation,INSYTIC CORP. — O3271,0.0000,114.4000,approved,1,0,2026-08-31 23:59:59,0
+12616,\N,2026-08-03,receivable_payment,Payment: INSYTIC CORP. — DP: FEB. 2,5605.6000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+12617,\N,2026-08-03,receivable_payment,Payment: INSYTIC CORP. — O3271,0.0000,5605.6000,approved,1,0,2026-08-31 23:59:59,0
+12618,\N,2026-08-04,journal_entry,Transfer of Funds from BDO (CapEx) to BPI OpEx as payment for various CapEx related purchases of Office Furniture & Equipment through the use of BPI Corporate Credit card — #71847,260302.5000,260302.5000,approved,1,0,2026-08-31 23:59:59,0
+12619,\N,2026-08-04,journal_entry,Fund transfer from LBP to BPI Opex - Fund transfer from LBP to BPI Opex — #71867,970000.0000,970000.0000,approved,1,0,2026-08-31 23:59:59,0
+12620,\N,2026-08-04,journal_entry,Fund transfer from SBC Opex to BPI Opex - Fund transfer from SBC Opex to BPI Opex — #71868,1000000.0000,1000000.0000,approved,1,0,2026-08-31 23:59:59,0
+12621,\N,2026-08-04,journal_entry,To record receipts sales BPI AR-Cebu Unidentified deposit — #73032,19786.2000,19786.2000,approved,1,0,2026-08-31 23:59:59,0
+12622,\N,2026-08-04,journal_entry,AR-Cebu check deposit BPI OPEX INSYSTIC CORPORATION august 4 — #73033,12397.0000,12397.0000,approved,1,0,2026-08-31 23:59:59,0
+12623,\N,2026-08-04,journal_entry,to record cash sales august 3 — #73034,111033.0000,111033.0000,approved,1,0,2026-08-31 23:59:59,0
+12624,\N,2026-08-04,journal_entry,Cash - Security Bank CPCI - OPEX Gcash — #73036,1380.0000,1380.0000,approved,1,0,2026-08-31 23:59:59,0
+12625,\N,2026-08-04,journal_entry,To record receipts of SBC OPEX Debit Card — #73037,1800.0000,1800.0000,approved,1,0,2026-08-31 23:59:59,0
+12626,\N,2026-08-04,journal_entry,To record receipts of SBC CREDIT CARD — #73038,53743.3000,53743.3000,approved,1,0,2026-08-31 23:59:59,0
+12627,\N,2026-08-04,journal_entry,"To record receipts of SBC AR-Terms for PACIFIC CROSS INSURANCE, INC august 4 — #73039",2949.8000,2949.8000,approved,1,0,2026-08-31 23:59:59,0
+12628,\N,2026-08-04,journal_entry,To record receipts of SBC AR-Terms august 4 - PHILIPPINE BRITISH LIFE AND GENERAL — #73040,31801.4000,31801.4000,approved,1,0,2026-08-31 23:59:59,0
+12629,\N,2026-08-04,journal_entry,To record Credit Cards mbtc — #73042,86534.9800,86534.9800,approved,1,0,2026-08-31 23:59:59,0
+12630,\N,2026-08-04,journal_entry,To record Credit Cards bank charge mbtc — #73043,6057.4400,6057.4400,approved,1,0,2026-08-31 23:59:59,0
+12631,\N,2026-08-04,journal_entry,"Sales Branches August 4, 2026 - Cash Sales - August, 04 — #77857",776794.0000,776794.0000,approved,1,0,2026-08-31 23:59:59,0
+12632,\N,2026-08-04,payable_payment,Payment: Red iCenter Technologies Corp. — 0726-000807,104062.5000,104062.5000,approved,1,0,2026-08-31 23:59:59,0
+12633,\N,2026-08-04,payable_payment,Payment: Ivy Grace B. Baricuatro — RFP No.# 6641,9833.0000,9833.0000,approved,1,0,2026-08-31 23:59:59,0
+12634,\N,2026-08-04,payable_payment,Payment: Ivy Grace B. Baricuatro — RFP No.# 6646,7600.0000,7600.0000,approved,1,0,2026-08-31 23:59:59,0
+12635,\N,2026-08-04,payable_payment,Payment: Rhea Mae Gesulga — RFP No.# 6663,19368.4100,17402.6600,approved,1,0,2026-08-31 23:59:59,0
+12636,\N,2026-08-04,receivable_credit_note,Cooperative Health Management Federation — CN-6488,288.2000,288.2000,approved,1,0,2026-08-31 23:59:59,0
+12637,\N,2026-08-04,receivable_credit_note_allocation,Cooperative Health Management Federation — CN-6488,288.2000,288.2000,approved,1,0,2026-08-31 23:59:59,0
+12638,\N,2026-08-05,journal_entry,AR-Cebu check deposit BPI AVEGA MANAGED CARE INC august 5 - AVEGA MANAGED CARE INC — #73023,373090.9000,373090.9000,approved,1,0,2026-08-31 23:59:59,0
+12639,\N,2026-08-05,journal_entry,to record cash sales august 4 — #73024,99990.0000,99990.0000,approved,1,0,2026-08-31 23:59:59,0
+12640,\N,2026-08-05,journal_entry,Cash - Security Bank CPCI - OPEX Gcash — #73025,500.0000,500.0000,approved,1,0,2026-08-31 23:59:59,0
+12641,\N,2026-08-05,journal_entry,To record receipts of SBC OPEX Debit Card — #73026,6025.0000,6025.0000,approved,1,0,2026-08-31 23:59:59,0
+12642,\N,2026-08-05,journal_entry,To record receipts of SBC CREDIT CARD — #73027,70149.3500,70149.3500,approved,1,0,2026-08-31 23:59:59,0
+12643,\N,2026-08-05,journal_entry,To record receipts of SBC  BROADWATER MARINE INC — #73028,5880.0000,5880.0000,approved,1,0,2026-08-31 23:59:59,0
+12644,\N,2026-08-05,journal_entry,To record Credit Cards mbtc — #73029,77160.9800,77160.9800,approved,1,0,2026-08-31 23:59:59,0
+12645,\N,2026-08-05,journal_entry,To record Credit Cards bank charge mbtc — #73030,5401.2600,5401.2600,approved,1,0,2026-08-31 23:59:59,0
+12646,\N,2026-08-05,journal_entry,to record Payroll payout august 5 — #73031,2489225.3200,2489225.3200,approved,1,0,2026-08-31 23:59:59,0
+12647,\N,2026-08-05,journal_entry,"Sales Branches August 5, 2026 - Cash Sales - August, 05 — #77991",657786.0000,657786.0000,approved,1,0,2026-08-31 23:59:59,0
+12648,\N,2026-08-05,payable_invoice,DG'S INK TRADING — 0826-000879,34000.0000,34000.0000,approved,1,0,2026-08-31 23:59:59,0
+12649,\N,2026-08-05,payable_invoice,ENA COMMERCIAL AND PRINTING SERVICES — 0826-000880,19000.0000,19000.0000,approved,1,0,2026-08-31 23:59:59,0
+12650,\N,2026-08-05,payable_invoice,JOHN MARL M. ABAPO — RFP No.# 6666,5411.0000,5411.0000,approved,1,0,2026-08-31 23:59:59,0
+12651,\N,2026-08-05,payable_invoice,Gayle Ruth Palermo — RFP No.# 6669,25928.0000,25928.0000,approved,1,0,2026-08-31 23:59:59,0
+12652,\N,2026-08-05,payable_invoice,Gayle Ruth Palermo — RFP No.# 6670,7600.0000,7600.0000,approved,1,0,2026-08-31 23:59:59,0
+12653,\N,2026-08-05,payable_invoice,Jeramel Llaban — RFP No.# 6671,6426.5000,6426.5000,approved,1,0,2026-08-31 23:59:59,0
+12654,\N,2026-08-05,payable_invoice,June Suzette O. Rabin — RFP No.# 6672,25000.0000,25000.0000,approved,1,0,2026-08-31 23:59:59,0
+12655,\N,2026-08-05,payable_invoice,ROCSAN G. BACALAN — RFP No.# 6673,25980.1600,25980.1600,approved,1,0,2026-08-31 23:59:59,0
+12656,\N,2026-08-05,receivable_overpayment,Overpayment: Life & Health Hmp Inc - OVERPAYMENT,0.0000,2410.0000,approved,1,0,2026-08-31 23:59:59,0
+12657,\N,2026-08-05,receivable_overpayment,Overpayment: Life & Health Hmp Inc,2410.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+12658,\N,2026-08-06,journal_entry,"Sales Branches August 6, 2026 - Cash Sales - August, 06 — #77923",818522.0000,818522.0000,approved,1,0,2026-08-31 23:59:59,0
+12659,\N,2026-08-07,journal_entry,AR-Cebu BPI Life and Health HMP Inc august 7 — #72991,614248.0000,614248.0000,approved,1,0,2026-08-31 23:59:59,0
+12660,\N,2026-08-07,journal_entry,"to record cash sales august 5, 6 - 5 — #72994",166687.0000,166687.0000,approved,1,0,2026-08-31 23:59:59,0
+12661,\N,2026-08-07,journal_entry,Cash - Security Bank CPCI - OPEX Gcash — #72995,3655.0000,3655.0000,approved,1,0,2026-08-31 23:59:59,0
+12662,\N,2026-08-07,journal_entry,To record receipts of SBC OPEX Debit Card — #72996,14822.0000,14822.0000,approved,1,0,2026-08-31 23:59:59,0
+12663,\N,2026-08-07,journal_entry,To record receipts of SBC CREDIT CARD — #72997,131285.1000,131285.1000,approved,1,0,2026-08-31 23:59:59,0
+12664,\N,2026-08-07,journal_entry,To record receipts of SBC AR-Terms for INLIFE BENEFITS INSURANCE COMPANY august 7 — #73000,182069.3000,182069.3000,approved,1,0,2026-08-31 23:59:59,0
+12665,\N,2026-08-07,journal_entry,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP august 7 — #73002,2940.0000,2940.0000,approved,1,0,2026-08-31 23:59:59,0
+12666,\N,2026-08-07,journal_entry,To record receipts of SBC AR-Terms for HEALTH PLAN PHILIPPINES INC august 7 — #73003,15861.3000,15861.3000,approved,1,0,2026-08-31 23:59:59,0
+12667,\N,2026-08-07,journal_entry,To record receipts of SBC AR-Terms Unidentified Cash Deposit 08/07/2026 — #73007,10000.0000,10000.0000,approved,1,0,2026-08-31 23:59:59,0
+12668,\N,2026-08-07,journal_entry,"Security Bank CPCI - OPEX To record a refund fr ASPIREE, INC  august 7 — #73008",141570.0000,141570.0000,approved,1,0,2026-08-31 23:59:59,0
+12669,\N,2026-08-07,journal_entry,To record Credit Cards mbtc — #73010,87949.9900,87949.9900,approved,1,0,2026-08-31 23:59:59,0
+12670,\N,2026-08-07,journal_entry,To record Credit Cards bank charge mbtc — #73011,6156.5000,6156.5000,approved,1,0,2026-08-31 23:59:59,0
+12671,\N,2026-08-07,journal_entry,"Sales Branches August 7, 2026 - Cash Sales - August, 07 — #77989",704019.0000,704019.0000,approved,1,0,2026-08-31 23:59:59,0
+12672,\N,2026-08-07,payable_invoice,Gayle Ruth Palermo — RFP No.# 6689,3687.0000,3687.0000,approved,1,0,2026-08-31 23:59:59,0
+12673,\N,2026-08-07,payable_invoice,OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 6694,7000.0000,7000.0000,approved,1,0,2026-08-31 23:59:59,0
+12674,\N,2026-08-07,payable_invoice,OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 6696,25760.0000,25760.0000,approved,1,0,2026-08-31 23:59:59,0
+12675,\N,2026-08-07,payable_invoice,OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 6701,6244.7400,6244.7400,approved,1,0,2026-08-31 23:59:59,0
+12676,\N,2026-08-07,payable_invoice,ALEJANDRO DE LA CRUZ III — RFP No.# 6702,5600.0000,5600.0000,approved,1,0,2026-08-31 23:59:59,0
+12677,\N,2026-08-07,payable_invoice,IRISH F. BURNASAL — RFP No.# 6703,13986.3100,13986.3100,approved,1,0,2026-08-31 23:59:59,0
+12678,\N,2026-08-07,payable_invoice,Gayle Ruth Palermo — RFP No.# 6704,1400.0000,1400.0000,approved,1,0,2026-08-31 23:59:59,0
+12679,\N,2026-08-07,payable_invoice,STEFANIE B. BERNAS — RFP No.# 6707,8997.5000,8997.5000,approved,1,0,2026-08-31 23:59:59,0
+12680,\N,2026-08-07,payable_payment,Payment: MEDGISTIX CORPORATION — 0526-000601,9435.0000,9435.0000,approved,1,0,2026-08-31 23:59:59,0
+12681,\N,2026-08-07,payable_payment,Payment: MEDGISTIX CORPORATION — 0526-000602,32348.5700,32348.5700,approved,1,0,2026-08-31 23:59:59,0
+12682,\N,2026-08-07,payable_payment,Payment: SUREBRIGHT MANUFACTURING INDUSTRIES INCORPORATED — 0626-000657,9216.9600,9216.9600,approved,1,0,2026-08-31 23:59:59,0
+12683,\N,2026-08-07,payable_payment,Payment: ENA COMMERCIAL AND PRINTING SERVICES — 0626-000688,145505.5000,145505.5000,approved,1,0,2026-08-31 23:59:59,0
+12684,\N,2026-08-07,payable_payment,Payment: ENA COMMERCIAL AND PRINTING SERVICES — 0626-000689,6615.0000,6615.0000,approved,1,0,2026-08-31 23:59:59,0
+12685,\N,2026-08-07,payable_payment,Payment: ENA COMMERCIAL AND PRINTING SERVICES — 0626-000690,71699.2500,71699.2500,approved,1,0,2026-08-31 23:59:59,0
+12686,\N,2026-08-07,payable_payment,Payment: SUREBRIGHT MANUFACTURING INDUSTRIES INCORPORATED — 0726-000778,28245.5400,28245.5400,approved,1,0,2026-08-31 23:59:59,0
+12687,\N,2026-08-07,payable_payment,"Payment: MYT SOFTDEV SOLUTIONS, INC. — RFP No.# 6540",55000.0000,55000.0000,approved,1,0,2026-08-31 23:59:59,0
+12688,\N,2026-08-07,payable_payment,Payment: EASY SERVICES INC. — RFP No.# 6600,13799.3500,13799.3500,approved,1,0,2026-08-31 23:59:59,0
+12689,\N,2026-08-07,payable_payment,Payment: Gilliane Marrei P. Dayan — RFP No.# 6634,20186.8200,20186.8200,approved,1,0,2026-08-31 23:59:59,0
+12690,\N,2026-08-07,payable_payment,Payment: MARICHU VILLENO — RFP No.# 6652,4606.0000,4606.0000,approved,1,0,2026-08-31 23:59:59,0
+12691,\N,2026-08-07,payable_payment,Payment: JOHN MARL M. ABAPO — RFP No.# 6666,5411.0000,5411.0000,approved,1,0,2026-08-31 23:59:59,0
+12692,\N,2026-08-07,payable_payment,Payment: Gayle Ruth Palermo — RFP No.# 6669,25928.0000,25928.0000,approved,1,0,2026-08-31 23:59:59,0
+12693,\N,2026-08-07,payable_payment,Payment: Gayle Ruth Palermo — RFP No.# 6670,7600.0000,7600.0000,approved,1,0,2026-08-31 23:59:59,0
+12694,\N,2026-08-07,payable_payment,Payment: Jeramel Llaban — RFP No.# 6671,6426.5000,6426.5000,approved,1,0,2026-08-31 23:59:59,0
+12695,\N,2026-08-07,payable_payment,Payment: June Suzette O. Rabin — RFP No.# 6672,25000.0000,25000.0000,approved,1,0,2026-08-31 23:59:59,0
+12696,\N,2026-08-07,payable_payment,Payment: ROCSAN G. BACALAN — RFP No.# 6673,25980.1600,25980.1600,approved,1,0,2026-08-31 23:59:59,0
+12697,\N,2026-08-07,payable_payment,Payment: Gayle Ruth Palermo — RFP No.# 6689,3687.0000,3687.0000,approved,1,0,2026-08-31 23:59:59,0
+12698,\N,2026-08-07,payable_payment,Payment: ALEJANDRO DE LA CRUZ III — RFP No.# 6702,5600.0000,5600.0000,approved,1,0,2026-08-31 23:59:59,0
+12699,\N,2026-08-07,payable_payment,Payment: IRISH F. BURNASAL — RFP No.# 6703,13986.3100,13986.3100,approved,1,0,2026-08-31 23:59:59,0
+12700,\N,2026-08-07,payable_payment,Payment: Gayle Ruth Palermo — RFP No.# 6704,1400.0000,1400.0000,approved,1,0,2026-08-31 23:59:59,0
+12701,\N,2026-08-07,payable_payment,Payment: STEFANIE B. BERNAS — RFP No.# 6707,8997.5000,8997.5000,approved,1,0,2026-08-31 23:59:59,0
+12702,\N,2026-08-08,journal_entry,"Sales Branches August 8, 2026 - Cash Sales - August, 08 — #77993",783849.0000,783849.0000,approved,1,0,2026-08-31 23:59:59,0
+12703,\N,2026-08-10,journal_entry,To record receipts sales BPI AR-Cebu Unidentified deposit — #73012,25000.0000,25000.0000,approved,1,0,2026-08-31 23:59:59,0
+12704,\N,2026-08-10,journal_entry,"to record cash sales august 7,8 - 7 — #73013",180589.0000,180589.0000,approved,1,0,2026-08-31 23:59:59,0
+12705,\N,2026-08-10,journal_entry,Cash - Security Bank CPCI - OPEX Gcash — #73014,11608.0000,11608.0000,approved,1,0,2026-08-31 23:59:59,0
+12706,\N,2026-08-10,journal_entry,To record receipts of SBC OPEX Debit Card — #73015,6480.0000,6480.0000,approved,1,0,2026-08-31 23:59:59,0
+12707,\N,2026-08-10,journal_entry,To record receipts of SBC CREDIT CARD — #73016,104248.9300,104248.9300,approved,1,0,2026-08-31 23:59:59,0
+12708,\N,2026-08-10,journal_entry,"To record receipts of SBC AR-Terms AUGUST 10 - VALUE CARE HEALTH SYSTEMS, INC. — #73017",83695.9200,83695.9200,approved,1,0,2026-08-31 23:59:59,0
+12709,\N,2026-08-10,journal_entry,To record Credit Cards mbtc — #73019,62742.9300,62742.9300,approved,1,0,2026-08-31 23:59:59,0
+12710,\N,2026-08-10,journal_entry,To record Credit Cards bank charge mbtc — #73020,4392.0000,4392.0000,approved,1,0,2026-08-31 23:59:59,0
+12711,\N,2026-08-10,journal_entry,Fund transfer from MBTC Opex to BPI — #73021,1350000.0000,1350000.0000,approved,1,0,2026-08-31 23:59:59,0
+12712,\N,2026-08-10,journal_entry,Fund transfer from SBC Opex to BPI Opex — #73022,800000.0000,800000.0000,approved,1,0,2026-08-31 23:59:59,0
+12713,\N,2026-08-10,journal_entry,"Sales Branches August 10, 2026 - Cash Sales - August, 10 — #77996",782290.0000,782290.0000,approved,1,0,2026-08-31 23:59:59,0
+12714,\N,2026-08-10,payable_invoice,EASY SERVICES INC. — RFP No.# 6717,22135.8200,22135.8200,approved,1,0,2026-08-31 23:59:59,0
+12715,\N,2026-08-10,payable_invoice,Bank of the Philippine Islands — RFP No.# 6727,177479.4600,437781.9600,approved,1,0,2026-08-31 23:59:59,0
+12716,\N,2026-08-10,payable_invoice,BUREAU OF INTERNAL REVENUE — RFP No.# 6735,792142.8200,792142.8200,approved,1,0,2026-08-31 23:59:59,0
+12717,\N,2026-08-10,payable_invoice,BUREAU OF INTERNAL REVENUE — RFP No.# 6736,322470.0500,322470.0500,approved,1,0,2026-08-31 23:59:59,0
+12718,\N,2026-08-11,journal_entry,Reversal of: To accrue Doctors PF Oakridge for the period 2026 july — #72983,1591837.4700,1591837.4700,approved,1,0,2026-08-31 23:59:59,0
+12719,\N,2026-08-11,journal_entry,Reversal of: To accrue Doctors PF Mactan for the period 2026 JULY — #72984,1688378.8100,1688378.8100,approved,1,0,2026-08-31 23:59:59,0
+12720,\N,2026-08-11,journal_entry,Reversal of: To accrue Doctors PF Consolacion for the period JULY — #72985,1023018.5200,1023018.5200,approved,1,0,2026-08-31 23:59:59,0
+12721,\N,2026-08-11,journal_entry,Reversal of: to accrue 80% under health services OPTA JULY — #72987,47120.0000,47120.0000,approved,1,0,2026-08-31 23:59:59,0
+12722,\N,2026-08-11,journal_entry,Reversal of: to accrue relievers clinic for JULY 2026 — #72988,106000.0000,53000.0000,approved,1,0,2026-08-31 23:59:59,0
+12723,\N,2026-08-11,journal_entry,To record receipts sales BPI AR-Cebu UAGUST 11 - Philippine British Life and General Insurance CO INC — #73582,19208.0000,19208.0000,approved,1,0,2026-08-31 23:59:59,0
+12724,\N,2026-08-11,journal_entry,to record cash sales august 10 — #73583,101789.0000,101789.0000,approved,1,0,2026-08-31 23:59:59,0
+12725,\N,2026-08-11,journal_entry,Cash - Security Bank CPCI - OPEX Gcash — #73584,7585.0000,7585.0000,approved,1,0,2026-08-31 23:59:59,0
+12726,\N,2026-08-11,journal_entry,To record receipts of SBC OPEX Debit Card — #73585,1680.0000,1680.0000,approved,1,0,2026-08-31 23:59:59,0
+12727,\N,2026-08-11,journal_entry,To record receipts of SBC CREDIT CARD — #73586,56255.9000,56255.9000,approved,1,0,2026-08-31 23:59:59,0
+12728,\N,2026-08-11,journal_entry,"To record receipts of SBC AR-Terms LF Philippines, Inc. — #73589",28200.0000,28200.0000,approved,1,0,2026-08-31 23:59:59,0
+12729,\N,2026-08-11,journal_entry,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP AUG 11 — #73590,277991.9400,277991.9400,approved,1,0,2026-08-31 23:59:59,0
+12730,\N,2026-08-11,journal_entry,To record receipts of SBC AR-Terms Unidentified Check Deposit 08/11/2026 — #73591,205280.6000,205280.6000,approved,1,0,2026-08-31 23:59:59,0
+12731,\N,2026-08-11,journal_entry,To record Credit Cards mbtc — #73592,30005.9700,30005.9700,approved,1,0,2026-08-31 23:59:59,0
+12732,\N,2026-08-11,journal_entry,To record Credit Cards bank charge mbtc — #73593,2100.4200,2100.4200,approved,1,0,2026-08-31 23:59:59,0
+12733,\N,2026-08-11,journal_entry,"Sales Branches August 11, 2026 - Gcash Sales - August, 11 — #73941",651834.0000,651434.0000,approved,1,0,2026-08-31 23:59:59,0
+12734,\N,2026-08-11,payable_invoice,Ivy Grace B. Baricuatro — RFP No.# 6741,4400.0000,4400.0000,approved,1,0,2026-08-31 23:59:59,0
+12735,\N,2026-08-11,payable_invoice,Danilo Gallardo Jr — RFP No.# 6742,5000.0000,5000.0000,approved,1,0,2026-08-31 23:59:59,0
+12736,\N,2026-08-11,payable_invoice,KRISTINE VELARDE — RFP No.# 6743,5000.0000,5000.0000,approved,1,0,2026-08-31 23:59:59,0
+12737,\N,2026-08-11,payable_invoice,Ramon Earl Laude Labrada — RFP No.# 6757,5000.0000,5000.0000,approved,1,0,2026-08-31 23:59:59,0
+12738,\N,2026-08-11,payable_payment,Payment: Bank of the Philippine Islands — RFP No.# 6727,437781.9600,177479.4600,approved,1,0,2026-08-31 23:59:59,0
+12739,\N,2026-08-11,payable_payment,Payment: BUREAU OF INTERNAL REVENUE — RFP No.# 6735,792142.8200,792142.8200,approved,1,0,2026-08-31 23:59:59,0
+12740,\N,2026-08-11,payable_payment,Payment: BUREAU OF INTERNAL REVENUE — RFP No.# 6736,322470.0500,322470.0500,approved,1,0,2026-08-31 23:59:59,0
+12741,\N,2026-08-12,journal_entry,Fund transfer from BDOOpex to BPI Opex — #73460,3000000.0000,3000000.0000,approved,1,0,2026-08-31 23:59:59,0
+12742,\N,2026-08-12,journal_entry,"to record cash sales august 10,11 - 10 — #73597",95394.0000,95394.0000,approved,1,0,2026-08-31 23:59:59,0
+12743,\N,2026-08-12,journal_entry,Cash - Security Bank CPCI - OPEX Gcash — #73598,2050.0000,2050.0000,approved,1,0,2026-08-31 23:59:59,0
+12744,\N,2026-08-12,journal_entry,To record receipts of SBC OPEX Debit Card — #73599,1260.0000,1260.0000,approved,1,0,2026-08-31 23:59:59,0
+12745,\N,2026-08-12,journal_entry,To record receipts of SBC CREDIT CARD — #73600,20683.1300,20683.1300,approved,1,0,2026-08-31 23:59:59,0
+12746,\N,2026-08-12,journal_entry,"To record receipts of SBC TERADYNE PHILIPPINES, LTD. — #73601",81932.9000,81932.9000,approved,1,0,2026-08-31 23:59:59,0
+12747,\N,2026-08-12,journal_entry,To record Credit Cards mbtc — #73606,53750.9900,53750.9900,approved,1,0,2026-08-31 23:59:59,0
+12748,\N,2026-08-12,journal_entry,To record Credit Cards bank charge mbtc — #73607,3762.5600,3762.5600,approved,1,0,2026-08-31 23:59:59,0
+12749,\N,2026-08-12,journal_entry,cash advances CA Mary Ann G. Emphasis RFP 6645 — #73618,495.5200,495.5200,approved,1,0,2026-08-31 23:59:59,0
+12750,\N,2026-08-12,journal_entry,"to record BDO MTL interest expense payment for july 11 - august 11, 2026 — #73680",764383.5600,764383.5600,approved,1,0,2026-08-31 23:59:59,0
+12751,\N,2026-08-12,journal_entry,"Sales Branches August 12, 2026 - Cash Sales - August, 12 — #78003",629022.0000,629022.0000,approved,1,0,2026-08-31 23:59:59,0
+12752,\N,2026-08-12,payable_invoice,PHILIPPINE HEALTH INSURANCE CORPORATION — RFP No.# 6750,172776.0700,266127.1500,approved,1,0,2026-08-31 23:59:59,0
+12753,\N,2026-08-12,payable_invoice,HOME DEVELOPMENT MUTUAL FUND — RFP No.# 6751,16033.2200,16033.2200,approved,1,0,2026-08-31 23:59:59,0
+12754,\N,2026-08-12,payable_invoice,HOME DEVELOPMENT MUTUAL FUND — RFP No.# 6752,3529.6600,3529.6600,approved,1,0,2026-08-31 23:59:59,0
+12755,\N,2026-08-12,payable_invoice,HOME DEVELOPMENT MUTUAL FUND — RFP No.# 6753,51800.0000,85900.0000,approved,1,0,2026-08-31 23:59:59,0
+12756,\N,2026-08-12,payable_invoice,SOCIAL SECURITY SYSTEM — RFP No.# 6759,354840.0000,713140.0000,approved,1,0,2026-08-31 23:59:59,0
+12757,\N,2026-08-12,payable_invoice,SOCIAL SECURITY SYSTEM — RFP No.# 6760,46082.7300,46082.7300,approved,1,0,2026-08-31 23:59:59,0
+12758,\N,2026-08-12,payable_invoice,Gayle Ruth Palermo — RFP No.# 6766,75000.0000,75000.0000,approved,1,0,2026-08-31 23:59:59,0
+12759,\N,2026-08-12,payable_invoice,ADULT AND CHILD EYEWEAR CENTER — RFP No.# 6767,8300.0000,8300.0000,approved,1,0,2026-08-31 23:59:59,0
+12760,\N,2026-08-12,payable_payment,Payment: Asly Jane U. Tumala — RFP No.# 6635,5729.7300,5729.7300,approved,1,0,2026-08-31 23:59:59,0
+12761,\N,2026-08-12,payable_payment,Payment: ANDREA EVETTE G. ANTEPUESTO — RFP No.# 6636,4213.1100,4213.1100,approved,1,0,2026-08-31 23:59:59,0
+12762,\N,2026-08-12,payable_payment,Payment: George Erwin T. Reyes — RFP No.# 6637,13371.2400,13371.2400,approved,1,0,2026-08-31 23:59:59,0
+12763,\N,2026-08-12,payable_payment,Payment: EASY SERVICES INC. — RFP No.# 6717,21938.1800,21938.1800,approved,1,0,2026-08-31 23:59:59,0
+12764,\N,2026-08-12,payable_payment,Payment: Gayle Ruth Palermo — RFP No.# 6766,75000.0000,75000.0000,approved,1,0,2026-08-31 23:59:59,0
+12765,\N,2026-08-13,journal_entry,Reversal of: to record accrual of interest expense BDO MTL Loan July 12-30 — #73613,468493.1500,468493.1500,approved,1,0,2026-08-31 23:59:59,0
+12766,\N,2026-08-13,journal_entry,"to reclass Rio, Mae - Payment for SSS Maternity Benefit (Start of MAT Leave: May 15, 2025) excess shouldered by employer — #73721",17500.0000,17500.0000,approved,1,0,2026-08-31 23:59:59,0
+12767,\N,2026-08-13,journal_entry,"Reversal of: To accrue: CENTURION SECURITY AGENCY, INC Oakridge ftp 2026 June — #73840",42382.9800,42382.9800,approved,1,0,2026-08-31 23:59:59,0
+12768,\N,2026-08-13,journal_entry,"Reversal of: To accrue: CENTURION SECURITY AGENCY, INC Oakridge ftp 2026 july — #73841",42809.9600,42809.9600,approved,1,0,2026-08-31 23:59:59,0
+12769,\N,2026-08-13,journal_entry,Reversal of: to record accrual of gasoline Fuel consumption july — #73873,13923.6700,13923.6700,approved,1,0,2026-08-31 23:59:59,0
+12770,\N,2026-08-13,journal_entry,Reversal of: to accrue medicines - konsulta La Nueva 2026 May — #73878,140835.4600,140835.4600,approved,1,0,2026-08-31 23:59:59,0
+12771,\N,2026-08-13,journal_entry,Reversal of: to accrue medicines - konsulta La Nueva 2026 JUNE — #73879,103720.7500,103720.7500,approved,1,0,2026-08-31 23:59:59,0
+12772,\N,2026-08-13,journal_entry,Reversal of: Smart Comm - To accrue payment for Smart all 2026 June — #73883,53674.1800,53674.1800,approved,1,0,2026-08-31 23:59:59,0
+12773,\N,2026-08-13,journal_entry,Reversal of: To accrue ORDC:  Payment for IT services for the month of 2026 June — #73890,51520.0000,51520.0000,approved,1,0,2026-08-31 23:59:59,0
+12774,\N,2026-08-13,journal_entry,Reversal of: to accrue ORDC board rental — #73893,13000.0000,13000.0000,approved,1,0,2026-08-31 23:59:59,0
+12775,\N,2026-08-13,journal_entry,"Reversal of: to accrue Reimbursement Doc Bry CC for Microsoft, Xero, Canva, Fb, ftp June 2026 — #73913",273392.8000,273392.8000,approved,1,0,2026-08-31 23:59:59,0
+12776,\N,2026-08-13,journal_entry,"Reversal of: to accrue Reimbursement Doc Bry CC for Microsoft, Xero, Canva, Fb, travel ftp 2026 july — #73914",49158.0000,49158.0000,approved,1,0,2026-08-31 23:59:59,0
+12777,\N,2026-08-13,journal_entry,Reversal of: Globe -To accrue mobile all for the month of july — #73922,55164.1000,55164.1000,approved,1,0,2026-08-31 23:59:59,0
+12778,\N,2026-08-13,journal_entry,Reversal of: to accrue Converge FIBER BROADBAND PEAK 500MBPS WITH STATIC IP Account no. 0030300307684 july — #73925,11700.0000,11700.0000,approved,1,0,2026-08-31 23:59:59,0
+12779,\N,2026-08-13,journal_entry,To record receipts sales BPI AR-Cebu check deposit ASALUS CORPORATION august 13 — #74179,235590.0400,235590.0400,approved,1,0,2026-08-31 23:59:59,0
+12780,\N,2026-08-13,journal_entry,To record receipts sales BPI AR-Cebu RESULTS MANILA INC — #74180,36946.0000,36946.0000,approved,1,0,2026-08-31 23:59:59,0
+12781,\N,2026-08-13,journal_entry,To record receipts sales BPI AR-Cebu RUSLEY SALES CORPORATION — #74181,17973.2100,17973.2100,approved,1,0,2026-08-31 23:59:59,0
+12782,\N,2026-08-13,journal_entry,to record cash sales august 12 — #74183,104012.0000,104012.0000,approved,1,0,2026-08-31 23:59:59,0
+12783,\N,2026-08-13,journal_entry,Miscellaneous Income august 13 - Miscellaneous Income — #74184,200.0000,200.0000,approved,1,0,2026-08-31 23:59:59,0
+12784,\N,2026-08-13,journal_entry,Cash - Security Bank CPCI - OPEX Gcash — #74185,800.0000,800.0000,approved,1,0,2026-08-31 23:59:59,0
+12785,\N,2026-08-13,journal_entry,To record receipts of SBC OPEX Debit Card — #74186,225.0000,225.0000,approved,1,0,2026-08-31 23:59:59,0
+12786,\N,2026-08-13,journal_entry,To record receipts of SBC CREDIT CARD — #74187,43019.3300,43019.3300,approved,1,0,2026-08-31 23:59:59,0
+12787,\N,2026-08-13,journal_entry,To record receipts sales sbc LACSON AND LACSON INSURANCE BROKERS — #74188,13350.0000,13350.0000,approved,1,0,2026-08-31 23:59:59,0
+12788,\N,2026-08-13,journal_entry,To record receipts sales sbc INLIFE BENEFITS INSURANCE COMPANY — #74189,588.0000,588.0000,approved,1,0,2026-08-31 23:59:59,0
+12789,\N,2026-08-13,journal_entry,To record receipts of SBC AR-Terms for ADVANCED MEDICAL ACCESS PHILIPPINES august 13 — #74190,2830.0000,2830.0000,approved,1,0,2026-08-31 23:59:59,0
+12790,\N,2026-08-13,journal_entry,To record receipts of SBC AR-Terms august 13 - Topline Logistics and Development Cor — #74191,30000.0000,30000.0000,approved,1,0,2026-08-31 23:59:59,0
+12791,\N,2026-08-13,journal_entry,To record Credit Cards mbtc — #74193,68850.9700,68850.9700,approved,1,0,2026-08-31 23:59:59,0
+12792,\N,2026-08-13,journal_entry,To record Credit Cards bank charge mbtc — #74194,4819.5600,4819.5600,approved,1,0,2026-08-31 23:59:59,0
+12793,\N,2026-08-13,journal_entry,"Sales Branches August 13, 2026 - Cash Sales - August, 13 — #78029",654248.0000,654248.0000,approved,1,0,2026-08-31 23:59:59,0
+12794,\N,2026-08-13,payable_invoice,RAQUELINE M. TARONA — RFP No.# 6775,2534.9500,2534.9500,approved,1,0,2026-08-31 23:59:59,0
+12795,\N,2026-08-13,payable_invoice,NELSIE RITA MARIE M. SON — RFP No.# 6781,2243.5700,2243.5700,approved,1,0,2026-08-31 23:59:59,0
+12796,\N,2026-08-13,payable_invoice,"GLOBE TELECOM, INC. — RFP No.# 6786",21707.1000,33902.6500,approved,1,0,2026-08-31 23:59:59,0
+12797,\N,2026-08-13,payable_invoice,"CONVERGE INFORMATION AND COMMUNICATIONS TECHNOLOGY SOLUTIONS, INC. — RFP No.# 6789",11700.0000,11700.0000,approved,1,0,2026-08-31 23:59:59,0
+12798,\N,2026-08-13,payable_invoice,STEFANIE B. BERNAS — RFP No.# 6794,6286.9700,8333.9700,approved,1,0,2026-08-31 23:59:59,0
+12799,\N,2026-08-13,payable_payment,"Payment: GLOBE TELECOM, INC. — RFP No.# 6786",33902.6500,21707.1000,approved,1,0,2026-08-31 23:59:59,0
+12800,\N,2026-08-13,payable_payment,"Payment: CONVERGE INFORMATION AND COMMUNICATIONS TECHNOLOGY SOLUTIONS, INC. — RFP No.# 6789",11491.0700,11491.0700,approved,1,0,2026-08-31 23:59:59,0
+12801,\N,2026-08-14,journal_entry,to record creditable withholding 2307 received from Philhealth Yakap / Konsulta 2ndQ 2026 — #74168,374998.4400,374998.4400,approved,1,0,2026-08-31 23:59:59,0
+12802,\N,2026-08-14,journal_entry,To record receipts sales BPI AR-Cebu Unidentified deposit — #74195,18050.0000,18050.0000,approved,1,0,2026-08-31 23:59:59,0
+12803,\N,2026-08-14,journal_entry,AR-Cebu BPI Life and Health HMP Inc august 14 — #74196,373159.5000,373159.5000,approved,1,0,2026-08-31 23:59:59,0
+12804,\N,2026-08-14,journal_entry,To record receipts sales BPI AR-Cebu  PAGES HOLDINGS INC august 14 — #74197,8854.3600,8854.3600,approved,1,0,2026-08-31 23:59:59,0
+12805,\N,2026-08-14,journal_entry,To record receipts sales BPI AR-Cebu DEPOSIT Knowles Electronic Philippines august 14 — #74198,7448.0000,7448.0000,approved,1,0,2026-08-31 23:59:59,0
+12806,\N,2026-08-14,journal_entry,to record cash sales august 13 — #74199,82494.0000,82494.0000,approved,1,0,2026-08-31 23:59:59,0
+12807,\N,2026-08-14,journal_entry,Cash - Security Bank CPCI - OPEX Gcash — #74200,5840.0000,5840.0000,approved,1,0,2026-08-31 23:59:59,0
+12808,\N,2026-08-14,journal_entry,To record receipts of SBC OPEX Debit Card — #74201,600.0000,600.0000,approved,1,0,2026-08-31 23:59:59,0
+12809,\N,2026-08-14,journal_entry,To record receipts of SBC CREDIT CARD — #74202,43481.8000,43481.8000,approved,1,0,2026-08-31 23:59:59,0
+12810,\N,2026-08-14,journal_entry,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP AUG 14 — #74203,254956.6600,254956.6600,approved,1,0,2026-08-31 23:59:59,0
+12811,\N,2026-08-14,journal_entry,To record receipts of SBC AR-Terms for COOPERATIVE HEALTH MANAGEMENT FEDER — #74204,5448.8000,5448.8000,approved,1,0,2026-08-31 23:59:59,0
+12812,\N,2026-08-14,journal_entry,"To record receipts of SBC AR-Terms MEDICARD PHILIPPINES, INC. JULY 28 — #74205",25947.5600,25947.5600,approved,1,0,2026-08-31 23:59:59,0
+12813,\N,2026-08-14,journal_entry,To record receipts sales sbc INLIFE BENEFITS INSURANCE COMPANY — #74206,35887.6000,35887.6000,approved,1,0,2026-08-31 23:59:59,0
+12814,\N,2026-08-14,journal_entry,To record receipts of SBC AR-Terms for LH PARAGON INC — #74207,1176.0000,1176.0000,approved,1,0,2026-08-31 23:59:59,0
+12815,\N,2026-08-14,journal_entry,To record receipts of SBC AR-Terms for HEALTH DELIVERY SYS INC — #74208,7200.0000,7200.0000,approved,1,0,2026-08-31 23:59:59,0
+12816,\N,2026-08-14,journal_entry,To record Credit Cards mbtc — #74210,37192.9900,37192.9900,approved,1,0,2026-08-31 23:59:59,0
+12817,\N,2026-08-14,journal_entry,To record Credit Cards bank charge mbtc — #74211,2603.5000,2603.5000,approved,1,0,2026-08-31 23:59:59,0
+12818,\N,2026-08-14,journal_entry,"Sales Branches August 14, 2026 - Cash Sales - August, 14 — #78092",897451.0000,897451.0000,approved,1,0,2026-08-31 23:59:59,0
+12819,\N,2026-08-14,payable_payment,Payment: Ivy Grace B. Baricuatro — RFP No.# 6741,4400.0000,4400.0000,approved,1,0,2026-08-31 23:59:59,0
+12820,\N,2026-08-14,payable_payment,Payment: Danilo Gallardo Jr — RFP No.# 6742,5000.0000,5000.0000,approved,1,0,2026-08-31 23:59:59,0
+12821,\N,2026-08-14,payable_payment,Payment: KRISTINE VELARDE — RFP No.# 6743,5000.0000,5000.0000,approved,1,0,2026-08-31 23:59:59,0
+12822,\N,2026-08-14,payable_payment,Payment: PHILIPPINE HEALTH INSURANCE CORPORATION — RFP No.# 6750,266127.1500,172776.0700,approved,1,0,2026-08-31 23:59:59,0
+12823,\N,2026-08-14,payable_payment,Payment: HOME DEVELOPMENT MUTUAL FUND — RFP No.# 6751,16033.2200,16033.2200,approved,1,0,2026-08-31 23:59:59,0
+12824,\N,2026-08-14,payable_payment,Payment: HOME DEVELOPMENT MUTUAL FUND — RFP No.# 6752,3529.6600,3529.6600,approved,1,0,2026-08-31 23:59:59,0
+12825,\N,2026-08-14,payable_payment,Payment: HOME DEVELOPMENT MUTUAL FUND — RFP No.# 6753,85900.0000,51800.0000,approved,1,0,2026-08-31 23:59:59,0
+12826,\N,2026-08-14,payable_payment,Payment: ADULT AND CHILD EYEWEAR CENTER — RFP No.# 6767,8300.0000,8300.0000,approved,1,0,2026-08-31 23:59:59,0
+12827,\N,2026-08-14,payable_payment,Payment: RAQUELINE M. TARONA — RFP No.# 6775,2534.9500,2534.9500,approved,1,0,2026-08-31 23:59:59,0
+12828,\N,2026-08-14,payable_payment,Payment: NELSIE RITA MARIE M. SON — RFP No.# 6781,2243.5700,2243.5700,approved,1,0,2026-08-31 23:59:59,0
+12829,\N,2026-08-14,payable_payment,Payment: STEFANIE B. BERNAS — RFP No.# 6794,8333.9700,6286.9700,approved,1,0,2026-08-31 23:59:59,0
+12830,\N,2026-08-14,receivable_overpayment,Overpayment: Medicard Philippines Inc - OVERPAYMENT,0.0000,2520.0000,approved,1,0,2026-08-31 23:59:59,0
+12831,\N,2026-08-14,receivable_overpayment,Overpayment: Medicard Philippines Inc,2520.0000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+12832,\N,2026-08-15,journal_entry,"Sales Branches August 15, 2026 - Cash Sales - August, 15 — #78093",801945.0000,801945.0000,approved,1,0,2026-08-31 23:59:59,0
+12833,\N,2026-08-17,journal_entry,Cash deposits to BPI - Aug 17 - AR-Terms collection — #76323,752388.6600,752388.6600,approved,1,0,2026-08-31 23:59:59,0
+12834,\N,2026-08-17,journal_entry,Credit card transaction and bank charge 8/17/2026 - Credit card transaction and bank charge 8/17/2026 — #76324,12152.5000,12152.5000,approved,1,0,2026-08-31 23:59:59,0
+12835,\N,2026-08-17,journal_entry,"SBC Aug 17, 2026 transactions - SBC Aug 17, 2026 transactions- Debit card — #76325",111332.4100,111332.4100,approved,1,0,2026-08-31 23:59:59,0
+12836,\N,2026-08-17,journal_entry,BANK REC: Interest payment on SBC loan — #77025,2325000.0000,2325000.0000,approved,1,0,2026-08-31 23:59:59,0
+12837,\N,2026-08-17,journal_entry,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP AUG 17 — #77103,164255.3500,164255.3500,approved,1,0,2026-08-31 23:59:59,0
+12838,\N,2026-08-17,journal_entry,To record receipts sales sbc ValueCare August 17 — #77104,56938.0000,56938.0000,approved,1,0,2026-08-31 23:59:59,0
+12839,\N,2026-08-17,journal_entry,"To record receipts of SBC AR-Terms for PACIFIC CROSS INSURANCE, INC august 17 — #77105",12720.4000,12720.4000,approved,1,0,2026-08-31 23:59:59,0
+12840,\N,2026-08-17,journal_entry,"To record receipts of SBC AR-Terms MEDICARD PHILIPPINES, INC. aug 17 — #77106",15610.4200,15610.4200,approved,1,0,2026-08-31 23:59:59,0
+12841,\N,2026-08-17,journal_entry,"Sales Branches August 17, 2026 - Cash Sales - August, 17 — #78095",747949.0000,747949.0000,approved,1,0,2026-08-31 23:59:59,0
+12842,\N,2026-08-17,payable_invoice,Sharlene Mae Elarcosa — RFP No.# 6802,48613.5700,48613.5700,approved,1,0,2026-08-31 23:59:59,0
+12843,\N,2026-08-17,payable_invoice,Robinson Uy — RFP No.# 6806,6000.0000,6000.0000,approved,1,0,2026-08-31 23:59:59,0
+12844,\N,2026-08-17,payable_invoice,Responsible Internet Sustainability Effort Inc. (RISE) — RFP No.# 6807,42384.1600,42384.1600,approved,1,0,2026-08-31 23:59:59,0
+12845,\N,2026-08-17,receivable_invoice,Montebello Hotel Inc. - RANDOM DRUG TESTING | 08/10/2026 |Montebello Hotel Inc. |RANDOM DRUG TESTING | 55PAX|300 | — MO-24330,16500.0000,16500.0000,approved,1,0,2026-08-31 23:59:59,0
+12846,\N,2026-08-17,receivable_overpayment,"Overpayment: Insular Healthcare Inc - OVERPAYMENT (PD:MAY 12, 2026)",0.0000,998.2500,approved,1,0,2026-08-31 23:59:59,0
+12847,\N,2026-08-17,receivable_overpayment,Overpayment: Insular Healthcare Inc,998.2500,0.0000,approved,1,0,2026-08-31 23:59:59,0
+12848,\N,2026-08-18,journal_entry,Fund transfer from SBC OPEX to BPI - Fund transfer from SBC OPEX to BPI — #74604,1950000.0000,1950000.0000,approved,1,0,2026-08-31 23:59:59,0
+12849,\N,2026-08-18,journal_entry,Fund transfer from MBTC OPEX to BPI - Fund transfer from MBTC OPEX to BPI — #74607,650000.0000,650000.0000,approved,1,0,2026-08-31 23:59:59,0
+12850,\N,2026-08-18,journal_entry,AR-Cebu term BPI OPEX august 18 - MCPI CORPORATION — #77107,986176.3100,986176.3100,approved,1,0,2026-08-31 23:59:59,0
+12851,\N,2026-08-18,journal_entry,To Record deposit sales Branches AR-Cebu Etiqa Life Assurance august 18 — #77108,136259.2000,136259.2000,approved,1,0,2026-08-31 23:59:59,0
+12852,\N,2026-08-18,journal_entry,to record cash sales august 17 — #77109,88163.0000,88163.0000,approved,1,0,2026-08-31 23:59:59,0
+12853,\N,2026-08-18,journal_entry,Cash - Security Bank CPCI - OPEX Gcash — #77110,7495.0000,7495.0000,approved,1,0,2026-08-31 23:59:59,0
+12854,\N,2026-08-18,journal_entry,To record receipts of SBC OPEX Debit Card — #77111,14830.0000,14830.0000,approved,1,0,2026-08-31 23:59:59,0
+12855,\N,2026-08-18,journal_entry,To record receipts of SBC CREDIT CARD — #77112,22886.7700,22886.7700,approved,1,0,2026-08-31 23:59:59,0
+12856,\N,2026-08-18,journal_entry,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP AUG 18 — #77113,71866.8700,71866.8700,approved,1,0,2026-08-31 23:59:59,0
+12857,\N,2026-08-18,journal_entry,To record receipts of SBC AR-Terms for COOPERATIVE HEALTH MANAGEMENT FEDER aug 18 — #77115,196180.8000,196180.8000,approved,1,0,2026-08-31 23:59:59,0
+12858,\N,2026-08-18,journal_entry,"To record receipts of SBC AR-Terms MEDICARD PHILIPPINES, INC. aug 18 — #77116",5016.6200,5016.6200,approved,1,0,2026-08-31 23:59:59,0
+12859,\N,2026-08-18,journal_entry,To record receipts sales sbc ValueCare August 18 — #77118,398139.7000,398139.7000,approved,1,0,2026-08-31 23:59:59,0
+12860,\N,2026-08-18,journal_entry,To record receipts sales sbc INLIFE BENEFITS INSURANCE COMPANY — #77119,34216.7000,34216.7000,approved,1,0,2026-08-31 23:59:59,0
+12861,\N,2026-08-18,journal_entry,To record receipts of SBC AR-Terms for FREMONT ENGINEERING DESIGN SERVICES   aug 18 — #77120,15240.0000,15240.0000,approved,1,0,2026-08-31 23:59:59,0
+12862,\N,2026-08-18,journal_entry,To record Credit Cards mbtc — #77122,116622.9800,116622.9800,approved,1,0,2026-08-31 23:59:59,0
+12863,\N,2026-08-18,journal_entry,To record Credit Cards bank charge mbtc — #77123,8163.6000,8163.6000,approved,1,0,2026-08-31 23:59:59,0
+12864,\N,2026-08-18,journal_entry,"To record Executive Fees for the period august 1-15, 2026 to LH Paragon Inc. — #77456",130612.4000,130612.4000,approved,1,0,2026-08-31 23:59:59,0
+12865,\N,2026-08-18,journal_entry,to record payroll of EO mancom payroll august 1-15 payout august 18 — #77472,400000.0000,400000.0000,approved,1,0,2026-08-31 23:59:59,0
+12866,\N,2026-08-18,journal_entry,"Sales Branches August 18, 2026 - Cash Sales - August, 18 — #78101",667983.0000,667983.0000,approved,1,0,2026-08-31 23:59:59,0
+12867,\N,2026-08-18,payable_payment,Payment: Ramon Earl Laude Labrada — RFP No.# 6757,5000.0000,5000.0000,approved,1,0,2026-08-31 23:59:59,0
+12868,\N,2026-08-18,payable_payment,Payment: Robinson Uy — RFP No.# 6806,6000.0000,6000.0000,approved,1,0,2026-08-31 23:59:59,0
+12869,\N,2026-08-18,receivable_invoice,Maxicare Healthcare Corporation - DRUG TEST 2PANEL | 08/14/2026 |Arch Global Services (Philippines) Inc. |DRUG TEST 2PANEL | 15PAX|1000 | — MO-24517,145130.0000,15000.0000,approved,1,0,2026-08-31 23:59:59,0
+12870,\N,2026-08-19,journal_entry,to record Excess liquidation of From Mary Ann Emphasis rfp 6667 — #77138,6431.0000,6431.0000,approved,1,0,2026-08-31 23:59:59,0
+12871,\N,2026-08-19,journal_entry,To record receipts sales AR-Cebu fr Cebu General Services Inc august 19 — #77140,73970.4000,73970.4000,approved,1,0,2026-08-31 23:59:59,0
+12872,\N,2026-08-19,journal_entry,To record receipts sales BPI AR-Cebu  PAGES HOLDINGS INC august 19 — #77142,12337.2200,12337.2200,approved,1,0,2026-08-31 23:59:59,0
+12873,\N,2026-08-19,journal_entry,"to record cash sales august 17, 18 - aug 17 — #77143",103729.0000,103729.0000,approved,1,0,2026-08-31 23:59:59,0
+12874,\N,2026-08-19,journal_entry,Cash - Security Bank CPCI - OPEX Gcash — #77144,800.0000,800.0000,approved,1,0,2026-08-31 23:59:59,0
+12875,\N,2026-08-19,journal_entry,To record receipts of SBC OPEX Debit Card — #77145,8298.0000,8298.0000,approved,1,0,2026-08-31 23:59:59,0
+12876,\N,2026-08-19,journal_entry,To record receipts of SBC CREDIT CARD — #77146,58741.5800,58741.5800,approved,1,0,2026-08-31 23:59:59,0
+12877,\N,2026-08-19,journal_entry,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP AUG 19 — #77147,61413.0700,61413.0700,approved,1,0,2026-08-31 23:59:59,0
+12878,\N,2026-08-19,journal_entry,"To record receipts of SBC AR-Terms MEDICARD PHILIPPINES, INC. aug 19 — #77148",11828.6000,11828.6000,approved,1,0,2026-08-31 23:59:59,0
+12879,\N,2026-08-19,journal_entry,To record receipts sales BPI AR-Cebu Tamiya august 19 — #77149,18110.4000,18110.4000,approved,1,0,2026-08-31 23:59:59,0
+12880,\N,2026-08-19,journal_entry,To record Credit Cards mbtc — #77151,62994.6900,62994.6900,approved,1,0,2026-08-31 23:59:59,0
+12881,\N,2026-08-19,journal_entry,To record Credit Cards bank charge mbtc — #77152,4409.6200,4409.6200,approved,1,0,2026-08-31 23:59:59,0
+12882,\N,2026-08-19,journal_entry,To record payroll payout august 1-15 -Mancom — #77153,311181.0000,311181.0000,approved,1,0,2026-08-31 23:59:59,0
+12883,\N,2026-08-19,journal_entry,"Sales Branches August 19, 2026 - Cash Sales - August, 19 — #78102",723347.0000,723347.0000,approved,1,0,2026-08-31 23:59:59,0
+12884,\N,2026-08-19,payable_invoice,ZEPHANIAH MEDLAB SUPPLIES AND EQUIPMENT INC. — 0826-000913,12000.0000,12000.0000,approved,1,0,2026-08-31 23:59:59,0
+12885,\N,2026-08-19,payable_invoice,ZEPHANIAH MEDLAB SUPPLIES AND EQUIPMENT INC. — 0826-000914,37440.0000,37440.0000,approved,1,0,2026-08-31 23:59:59,0
+12886,\N,2026-08-19,payable_invoice,BIOLAB MEDICAL SUPPLIES — 0826-000915,75000.0000,75000.0000,approved,1,0,2026-08-31 23:59:59,0
+12887,\N,2026-08-19,payable_invoice,BIOLAB MEDICAL SUPPLIES — 0826-000917,159100.0000,159100.0000,approved,1,0,2026-08-31 23:59:59,0
+12888,\N,2026-08-19,payable_invoice,LYNOLDS MARKETING — 0826-000921,32000.0000,32000.0000,approved,1,0,2026-08-31 23:59:59,0
+12889,\N,2026-08-19,payable_invoice,LYNOLDS MARKETING — 0826-000922,76000.0000,76000.0000,approved,1,0,2026-08-31 23:59:59,0
+12890,\N,2026-08-19,payable_invoice,AO BIOMED & INDUSTRIAL MARKETING — 0826-000923,94200.0000,94200.0000,approved,1,0,2026-08-31 23:59:59,0
+12891,\N,2026-08-19,payable_invoice,AO BIOMED & INDUSTRIAL MARKETING — 0826-000924,46000.0000,46000.0000,approved,1,0,2026-08-31 23:59:59,0
+12892,\N,2026-08-19,payable_invoice,DG'S INK TRADING — 0826-000927,19000.0000,19000.0000,approved,1,0,2026-08-31 23:59:59,0
+12893,\N,2026-08-19,payable_invoice,NELLU TRADING INC. — 0826-000928,13000.0000,13000.0000,approved,1,0,2026-08-31 23:59:59,0
+12894,\N,2026-08-19,payable_invoice,NEW KEEN'S TRADING — 0826-000929,7625.0000,7625.0000,approved,1,0,2026-08-31 23:59:59,0
+12895,\N,2026-08-19,payable_invoice,NEW KEEN'S TRADING — 0826-000930,23200.0000,23200.0000,approved,1,0,2026-08-31 23:59:59,0
+12896,\N,2026-08-19,payable_invoice,NEW KEEN'S TRADING — 0826-000931,18930.0000,18930.0000,approved,1,0,2026-08-31 23:59:59,0
+12897,\N,2026-08-19,payable_invoice,"BEROVAN MARKETING, INC. — 0826-000932",19200.0000,19200.0000,approved,1,0,2026-08-31 23:59:59,0
+12898,\N,2026-08-19,payable_invoice,GALAXY TRADERS — 0826-000933,30013.5000,30013.5000,approved,1,0,2026-08-31 23:59:59,0
+12899,\N,2026-08-19,payable_invoice,STEFANIE B. BERNAS — RFP No.# 6835,6859.2900,7042.2900,approved,1,0,2026-08-31 23:59:59,0
+12900,\N,2026-08-19,payable_invoice,"Jobstreet.com Philippines, Inc. — RFP No.# 6845",33600.0000,33600.0000,approved,1,0,2026-08-31 23:59:59,0
+12901,\N,2026-08-19,payable_invoice,"Jobstreet.com Philippines, Inc. — RFP No.# 6846",5540.0800,5540.0800,approved,1,0,2026-08-31 23:59:59,0
+12902,\N,2026-08-19,payable_payment,Payment: ALEDAN MKTG CORP — 0726-000731,491.0700,491.0700,approved,1,0,2026-08-31 23:59:59,0
+12903,\N,2026-08-19,payable_payment,Payment: MARDAM SIGN ADS — 0726-000746,3256.0000,3256.0000,approved,1,0,2026-08-31 23:59:59,0
+12904,\N,2026-08-19,payable_payment,Payment: MARDAM SIGN ADS — 0826-000896,407.0000,407.0000,approved,1,0,2026-08-31 23:59:59,0
+12905,\N,2026-08-19,payable_payment,Payment: ALEDAN MKTG CORP — 0826-000897,9163.7500,9163.7500,approved,1,0,2026-08-31 23:59:59,0
+12906,\N,2026-08-20,journal_entry,To record receipts of collections Cocolife  BPI august 20 — #77155,11853.1000,11853.1000,approved,1,0,2026-08-31 23:59:59,0
+12907,\N,2026-08-20,journal_entry,to record cash sales august 19 — #77156,121399.0000,121399.0000,approved,1,0,2026-08-31 23:59:59,0
+12908,\N,2026-08-20,journal_entry,"AR-Cebu cash deposit BDO OPEX AVEGA MANAGED CARE, INC — #77157",87236.6600,87236.6600,approved,1,0,2026-08-31 23:59:59,0
+12909,\N,2026-08-20,journal_entry,AR-Cebu BDO OPEX Life and Health HMP Inc august 20 — #77158,478066.7000,478066.7000,approved,1,0,2026-08-31 23:59:59,0
+12910,\N,2026-08-20,journal_entry,Cash - Security Bank CPCI - OPEX Gcash — #77159,4550.0000,4550.0000,approved,1,0,2026-08-31 23:59:59,0
+12911,\N,2026-08-20,journal_entry,To record receipts of SBC OPEX Debit Card — #77160,8794.0000,8794.0000,approved,1,0,2026-08-31 23:59:59,0
+12912,\N,2026-08-20,journal_entry,To record receipts of SBC CREDIT CARD — #77161,22354.8200,22354.8200,approved,1,0,2026-08-31 23:59:59,0
+12913,\N,2026-08-20,journal_entry,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP AUG 20 — #77162,93667.6000,93667.6000,approved,1,0,2026-08-31 23:59:59,0
+12914,\N,2026-08-20,journal_entry,"To record receipts of SBC AR-Terms MEDICARD PHILIPPINES, INC. aug 20 — #77163",19674.4800,19674.4800,approved,1,0,2026-08-31 23:59:59,0
+12915,\N,2026-08-20,journal_entry,To record receipts of SBC AR-Terms PHILIPPINE BRITISH LIFE AND GENERAL august 20 — #77165,3210.0000,3210.0000,approved,1,0,2026-08-31 23:59:59,0
+12916,\N,2026-08-20,journal_entry,To record receipts of SBC AR-Terms for GENERALI1 august 20 — #77167,4910.7100,4910.7100,approved,1,0,2026-08-31 23:59:59,0
+12917,\N,2026-08-20,journal_entry,To record Credit Cards mbtc — #77169,18384.0000,18384.0000,approved,1,0,2026-08-31 23:59:59,0
+12918,\N,2026-08-20,journal_entry,To record Credit Cards bank charge mbtc — #77170,1286.8800,1286.8800,approved,1,0,2026-08-31 23:59:59,0
+12919,\N,2026-08-20,journal_entry,Reversal of: To record receipts sales BPI AR-Cebu Unidentified deposit. (To Remove Manual Journal #73012 - Subsequently identified as a bounced payment rather than collection). Repaid — #77172,25000.0000,25000.0000,approved,1,0,2026-08-31 23:59:59,0
+12920,\N,2026-08-20,journal_entry,to record Payroll payout august 20 — #77173,2350598.9400,2350598.9400,approved,1,0,2026-08-31 23:59:59,0
+12921,\N,2026-08-20,journal_entry,"CPCI Payroll for AUGUST 1-15, 2026 - KA/YA - Shared finance — #77496",11110.5000,11110.5000,approved,1,0,2026-08-31 23:59:59,0
+12922,\N,2026-08-20,journal_entry,"CPCI Payroll for august 1-15, 2026 - Shared finance — #77516",128402.2900,128402.2900,approved,1,0,2026-08-31 23:59:59,0
+12923,\N,2026-08-20,journal_entry,"CPCI Payroll for august 1-15, 2026 - Shared IT — #77517",97910.4200,97910.4200,approved,1,0,2026-08-31 23:59:59,0
+12924,\N,2026-08-20,journal_entry,"CPCI Payroll for august 1-15, 2026 - Shared - LHRA — #77518",344866.2600,344866.2600,approved,1,0,2026-08-31 23:59:59,0
+12925,\N,2026-08-20,journal_entry,"CPCI Payroll for August 1-15, 2026 - Shared Sales Services — #77519",515374.8000,515374.8000,approved,1,0,2026-08-31 23:59:59,0
+12926,\N,2026-08-20,journal_entry,"Sales Branches August 20, 2026 - Cash Sales - August, 20 — #78097",891352.0000,891352.0000,approved,1,0,2026-08-31 23:59:59,0
+12927,\N,2026-08-20,payable_payment,Payment: Responsible Internet Sustainability Effort Inc. (RISE) — RFP No.# 6807,41627.3000,41627.3000,approved,1,0,2026-08-31 23:59:59,0
+12928,\N,2026-08-20,payable_payment,Payment: STEFANIE B. BERNAS — RFP No.# 6835,7042.2900,6859.2900,approved,1,0,2026-08-31 23:59:59,0
+12929,\N,2026-08-20,payable_payment,"Payment: Jobstreet.com Philippines, Inc. — RFP No.# 6845",33600.0000,33600.0000,approved,1,0,2026-08-31 23:59:59,0
+12930,\N,2026-08-20,payable_payment,"Payment: Jobstreet.com Philippines, Inc. — RFP No.# 6846",5540.0800,5540.0800,approved,1,0,2026-08-31 23:59:59,0
+12931,\N,2026-08-20,receivable_overpayment,Overpayment: Medicard Philippines Inc - OVERPAYMENT,0.0000,294.6000,approved,1,0,2026-08-31 23:59:59,0
+12932,\N,2026-08-20,receivable_overpayment,Overpayment: Medicard Philippines Inc,294.6000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+12933,\N,2026-08-21,journal_entry,"Sales Branches August 21, 2026 - Cash Sales - August, 21 — #78104",950965.0000,950965.0000,approved,1,0,2026-08-31 23:59:59,0
+12934,\N,2026-08-22,journal_entry,"Sales Branches August 22, 2026 - Cash Sales - August, 22 — #78105",1275542.0000,1275542.0000,approved,1,0,2026-08-31 23:59:59,0
+12935,\N,2026-08-24,journal_entry,Cash - Security Bank CPCI - OPEX Gcash — #77175,17485.0000,17485.0000,approved,1,0,2026-08-31 23:59:59,0
+12936,\N,2026-08-24,journal_entry,To record receipts of SBC OPEX Debit Card — #77176,23043.0000,23043.0000,approved,1,0,2026-08-31 23:59:59,0
+12937,\N,2026-08-24,journal_entry,To record receipts of SBC CREDIT CARD — #77177,125847.2200,125847.2200,approved,1,0,2026-08-31 23:59:59,0
+12938,\N,2026-08-24,journal_entry,To record receipts of SBC AR-Terms august 24 - INLIFE BENEFITS INSURANCE COMPANY I — #77178,31458.4000,31458.4000,approved,1,0,2026-08-31 23:59:59,0
+12939,\N,2026-08-24,journal_entry,AR-Cebu cash deposit BDO OPEX august 24 - AVEGA MANAGED CARE INC — #77179,79582.8600,79582.8600,approved,1,0,2026-08-31 23:59:59,0
+12940,\N,2026-08-24,journal_entry,To record Credit Cards mbtc — #77181,122523.9800,122523.9800,approved,1,0,2026-08-31 23:59:59,0
+12941,\N,2026-08-24,journal_entry,To record Credit Cards bank charge mbtc — #77182,8576.6800,8576.6800,approved,1,0,2026-08-31 23:59:59,0
+12942,\N,2026-08-24,journal_entry,"Sales Branches August 24, 2026 - Cash Sales - August, 24 — #78106",788881.0000,788881.0000,approved,1,0,2026-08-31 23:59:59,0
+12943,\N,2026-08-25,journal_entry,"to record cash sales august 20,21,22,24 - aug 20 — #77183",167199.0000,167199.0000,approved,1,0,2026-08-31 23:59:59,0
+12944,\N,2026-08-25,journal_entry,Cash - Security Bank CPCI - OPEX Gcash — #77184,3130.0000,3130.0000,approved,1,0,2026-08-31 23:59:59,0
+12945,\N,2026-08-25,journal_entry,To record receipts of SBC OPEX Debit Card — #77185,6720.0000,6720.0000,approved,1,0,2026-08-31 23:59:59,0
+12946,\N,2026-08-25,journal_entry,To record receipts of SBC CREDIT CARD — #77186,43613.4400,43613.4400,approved,1,0,2026-08-31 23:59:59,0
+12947,\N,2026-08-25,journal_entry,"To record receipts of SBC AR-Terms MEDICARD PHILIPPINES, INC. aug 25 — #77189",33197.5000,33197.5000,approved,1,0,2026-08-31 23:59:59,0
+12948,\N,2026-08-25,journal_entry,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP AUG 25 — #77190,80793.0600,80793.0600,approved,1,0,2026-08-31 23:59:59,0
+12949,\N,2026-08-25,journal_entry,To record receipts of SBC AR-Terms for LH PARAGON INC — #77191,4277.7000,4277.7000,approved,1,0,2026-08-31 23:59:59,0
+12950,\N,2026-08-25,journal_entry,To record receipts of SBC AR-Terms for HEALTH PLAN PHILIPPINES INC — #77193,35216.3000,35216.3000,approved,1,0,2026-08-31 23:59:59,0
+12951,\N,2026-08-25,journal_entry,AR-Cebu term BDO OPEX ASALUS CORPORATION — #77194,875547.6400,875547.6400,approved,1,0,2026-08-31 23:59:59,0
+12952,\N,2026-08-25,journal_entry,To record Credit Cards mbtc — #77196,80660.9700,80660.9700,approved,1,0,2026-08-31 23:59:59,0
+12953,\N,2026-08-25,journal_entry,To record Credit Cards bank charge mbtc — #77197,5646.2600,5646.2600,approved,1,0,2026-08-31 23:59:59,0
+12954,\N,2026-08-25,journal_entry,To record Short-term Borrowing fr LH Paragon Inc — #77341,5000000.0000,5000000.0000,approved,1,0,2026-08-31 23:59:59,0
+12955,\N,2026-08-25,journal_entry,"Sales Branches August 25, 2026 - Cash Sales - August, 25 — #78115",716708.0000,716708.0000,approved,1,0,2026-08-31 23:59:59,0
+12956,\N,2026-08-25,payable_payment,Payment: Sharlene Mae Elarcosa — RFP No.# 6802,48613.5700,48613.5700,approved,1,0,2026-08-31 23:59:59,0
+12957,\N,2026-08-26,journal_entry,Fund transfer from BDO (OpEx) to BDO (CapEx) - Fund transfer from BDO (OpEx) to BDO (CapEx) — #75709,8000000.0000,8000000.0000,approved,1,0,2026-08-31 23:59:59,0
+12958,\N,2026-08-26,journal_entry,Fund transfer from BDO (OpEx) to SBC (CapEx) - Fund transfer from BDO (OpEx) to SBC (CapEx) — #75710,2000000.0000,2000000.0000,approved,1,0,2026-08-31 23:59:59,0
+12959,\N,2026-08-26,journal_entry,to record cash sales august 20-25 - 20 — #77200,131167.0000,131167.0000,approved,1,0,2026-08-31 23:59:59,0
+12960,\N,2026-08-26,journal_entry,Cash - Security Bank CPCI - OPEX Gcash — #77201,13920.0000,13920.0000,approved,1,0,2026-08-31 23:59:59,0
+12961,\N,2026-08-26,journal_entry,To record receipts of SBC OPEX Debit Card — #77202,6225.0000,6225.0000,approved,1,0,2026-08-31 23:59:59,0
+12962,\N,2026-08-26,journal_entry,To record receipts of SBC CREDIT CARD — #77203,60873.9700,60873.9700,approved,1,0,2026-08-31 23:59:59,0
+12963,\N,2026-08-26,journal_entry,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP AUG 26 — #77204,257310.4500,257310.4500,approved,1,0,2026-08-31 23:59:59,0
+12964,\N,2026-08-26,journal_entry,"To record receipts of SBC AR-Terms MEDICARD PHILIPPINES, INC. aug 26 — #77205",33030.9000,33030.9000,approved,1,0,2026-08-31 23:59:59,0
+12965,\N,2026-08-26,journal_entry,To record receipts sales sbc LACSON AND LACSON INSURANCE BROKERS — #77206,1300.0000,1300.0000,approved,1,0,2026-08-31 23:59:59,0
+12966,\N,2026-08-26,journal_entry,To record receipts of SBC AR-Terms for HEALTH PLAN PHILIPPINES INC — #77207,4527.6000,4527.6000,approved,1,0,2026-08-31 23:59:59,0
+12967,\N,2026-08-26,journal_entry,To record receipts of SBC AR-Terms Unidentified Check Deposit - 08/26/2026 — #77208,5704.0000,5704.0000,approved,1,0,2026-08-31 23:59:59,0
+12968,\N,2026-08-26,journal_entry,To record receipts of BDO OPEX Unidentified Deposit - 08/25/2026 — #77209,62726.0000,62726.0000,approved,1,0,2026-08-31 23:59:59,0
+12969,\N,2026-08-26,journal_entry,To record receipts of BDO OPEX Malachite Values Builders Inc. — #77210,66646.0000,66646.0000,approved,1,0,2026-08-31 23:59:59,0
+12970,\N,2026-08-26,journal_entry,To record Credit Cards mbtc — #77212,60722.9800,60722.9800,approved,1,0,2026-08-31 23:59:59,0
+12971,\N,2026-08-26,journal_entry,To record Credit Cards bank charge mbtc — #77213,4250.6000,4250.6000,approved,1,0,2026-08-31 23:59:59,0
+12972,\N,2026-08-26,journal_entry,Cash - Security Bank CPCI - OPEX Gcash — #77215,1640.0000,1640.0000,approved,1,0,2026-08-31 23:59:59,0
+12973,\N,2026-08-26,journal_entry,To record receipts of SBC OPEX Debit Card — #77216,4880.0000,4880.0000,approved,1,0,2026-08-31 23:59:59,0
+12974,\N,2026-08-26,journal_entry,To record receipts of SBC CREDIT CARD — #77217,58918.9800,58918.9800,approved,1,0,2026-08-31 23:59:59,0
+12975,\N,2026-08-26,journal_entry,"Sales Branches August 26, 2026 - Cash Sales - August, 26 — #78110",605907.0000,605907.0000,approved,1,0,2026-08-31 23:59:59,0
+12976,\N,2026-08-26,payable_invoice,AUGUST LIZER MALATE — RFP No.# 6857,16800.0000,16800.0000,approved,1,0,2026-08-31 23:59:59,0
+12977,\N,2026-08-26,payable_invoice,EUGENE TIO — RFP No.# 6867,0.0000,8892.8600,approved,1,0,2026-08-31 23:59:59,0
+12978,\N,2026-08-26,payable_invoice,Rhea Mae Gesulga — RFP No.# 6868,13182.1600,19909.1600,approved,1,0,2026-08-31 23:59:59,0
+12979,\N,2026-08-26,payable_invoice,BIGSEED PUBLIC RELATIONS & EVENTS INC. — RFP No.# 6871,29120.0000,70200.0000,approved,1,0,2026-08-31 23:59:59,0
+12980,\N,2026-08-26,payable_invoice,ROCSAN G. BACALAN — RFP No.# 6872,39755.0000,39755.0000,approved,1,0,2026-08-31 23:59:59,0
+12981,\N,2026-08-26,payable_invoice,STEFANIE B. BERNAS — RFP No.# 6891,6280.0000,7591.6900,approved,1,0,2026-08-31 23:59:59,0
+12982,\N,2026-08-27,journal_entry,To record Loan Interest Payment Toyota Autoloan * 2 autoloan 2026 July — #77023,73804.0000,73804.0000,approved,1,0,2026-08-31 23:59:59,0
+12983,\N,2026-08-27,journal_entry,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP AUG 27 — #77218,3773.0000,3773.0000,approved,1,0,2026-08-31 23:59:59,0
+12984,\N,2026-08-27,journal_entry,To record receipts sales sbc LACSON AND LACSON INSURANCE BROKERS — #77219,2720.0000,2720.0000,approved,1,0,2026-08-31 23:59:59,0
+12985,\N,2026-08-27,journal_entry,to record cash sales august 25-26 - 26 — #77221,126935.0000,126935.0000,approved,1,0,2026-08-31 23:59:59,0
+12986,\N,2026-08-27,journal_entry,To record receipts of SBC AR-Terms for ADVANCED MEDICAL ACCESS PHILIPPINES august 27 — #77222,9260.0000,9260.0000,approved,1,0,2026-08-31 23:59:59,0
+12987,\N,2026-08-27,journal_entry,To record receipts of SBC AR-Terms for COOPERATIVE HEALTH MANAGEMENT FEDER aug 27 — #77223,126429.8000,126429.8000,approved,1,0,2026-08-31 23:59:59,0
+12988,\N,2026-08-27,journal_entry,To record receipts of SBC AR-Terms Unidentified Deposit - 08/27/2026 — #77225,283617.1000,283617.1000,approved,1,0,2026-08-31 23:59:59,0
+12989,\N,2026-08-27,journal_entry,AR-Cebu AR-Terms metrobank opex august 27 — #77227,7500.0000,7500.0000,approved,1,0,2026-08-31 23:59:59,0
+12990,\N,2026-08-27,journal_entry,To record Credit Cards mbtc — #77230,53502.0000,53502.0000,approved,1,0,2026-08-31 23:59:59,0
+12991,\N,2026-08-27,journal_entry,to record collection received from PHIC PHILHEALTH YAKAP/KONSULTA aug 27 — #77231,565773.6000,565773.6000,approved,1,0,2026-08-31 23:59:59,0
+12992,\N,2026-08-27,journal_entry,To record Credit Cards bank charge mbtc — #77232,3745.1400,3745.1400,approved,1,0,2026-08-31 23:59:59,0
+12993,\N,2026-08-27,journal_entry,"Sales Branches August 27, 2026 - Cash Sales - August, 27 — #78112",734630.0000,734630.0000,approved,1,0,2026-08-31 23:59:59,0
+12994,\N,2026-08-27,payable_invoice,MEDGISTIX CORPORATION — 0826-000940,7150.0000,7150.0000,approved,1,0,2026-08-31 23:59:59,0
+12995,\N,2026-08-27,payable_invoice,MEDGISTIX CORPORATION — 0826-000941,6600.0000,6600.0000,approved,1,0,2026-08-31 23:59:59,0
+12996,\N,2026-08-27,payable_invoice,MEDGISTIX CORPORATION — 0826-000943,35200.0000,35200.0000,approved,1,0,2026-08-31 23:59:59,0
+12997,\N,2026-08-27,payable_invoice,ENA COMMERCIAL AND PRINTING SERVICES — 0826-000944,43000.0000,43000.0000,approved,1,0,2026-08-31 23:59:59,0
+12998,\N,2026-08-27,payable_invoice,BARCOTECH PHILIPPINES INC. — 0826-000945,72000.0000,72000.0000,approved,1,0,2026-08-31 23:59:59,0
+12999,\N,2026-08-27,payable_invoice,JAV MARKETING — 0826-000947,10760.0000,10760.0000,approved,1,0,2026-08-31 23:59:59,0
+13000,\N,2026-08-27,payable_invoice,JAV MARKETING — 0826-000948,8300.0000,8300.0000,approved,1,0,2026-08-31 23:59:59,0
+13001,\N,2026-08-27,payable_invoice,BETTERFIT ALTERATION SEWING SERVICES — 0826-000949,116600.0000,116600.0000,approved,1,0,2026-08-31 23:59:59,0
+13002,\N,2026-08-27,payable_invoice,GALAXY TRADERS — 0826-000952,11100.0000,11100.0000,approved,1,0,2026-08-31 23:59:59,0
+13003,\N,2026-08-27,payable_invoice,BIOLAB MEDICAL SUPPLIES — 0826-000954,99090.0000,99090.0000,approved,1,0,2026-08-31 23:59:59,0
+13004,\N,2026-08-27,payable_invoice,TONERPRO TRADING — 0826-000955,17500.0000,17500.0000,approved,1,0,2026-08-31 23:59:59,0
+13005,\N,2026-08-27,payable_invoice,TONERPRO TRADING — 0826-000956,3600.0000,3600.0000,approved,1,0,2026-08-31 23:59:59,0
+13006,\N,2026-08-27,payable_invoice,BIOLAB MEDICAL SUPPLIES — 0826-000958,39000.0000,39000.0000,approved,1,0,2026-08-31 23:59:59,0
+13007,\N,2026-08-27,payable_invoice,NEW KEEN'S TRADING — 0826-000959,2500.0000,2500.0000,approved,1,0,2026-08-31 23:59:59,0
+13008,\N,2026-08-27,payable_invoice,NEW KEEN'S TRADING — 0826-000964,23490.0000,23490.0000,approved,1,0,2026-08-31 23:59:59,0
+13009,\N,2026-08-27,payable_invoice,NEW KEEN'S TRADING — 0826-000965,18900.0000,18900.0000,approved,1,0,2026-08-31 23:59:59,0
+13010,\N,2026-08-27,payable_invoice,NEW KEEN'S TRADING — 0826-000966,4600.0000,4600.0000,approved,1,0,2026-08-31 23:59:59,0
+13011,\N,2026-08-27,payable_payment,Payment: SS7 SECURITY SERVICES CORPORATION — RFP No.# 5726,87069.0100,5224.1000,approved,1,0,2026-08-31 23:59:59,0
+13012,\N,2026-08-27,receivable_credit_note,Medicard Philippines Inc — CN-7140,415.3000,415.3000,approved,1,0,2026-08-31 23:59:59,0
+13013,\N,2026-08-27,receivable_credit_note_allocation,Medicard Philippines Inc — CN-7140,415.3000,415.3000,approved,1,0,2026-08-31 23:59:59,0
+13014,\N,2026-08-27,receivable_overpayment,Overpayment: Medicard Philippines Inc — PD: JULY 10,100.0000,100.0000,approved,1,0,2026-08-31 23:59:59,0
+13015,\N,2026-08-27,receivable_overpayment,Overpayment: Medicard Philippines Inc — PD: JULY 13,50.0000,50.0000,approved,1,0,2026-08-31 23:59:59,0
+13016,\N,2026-08-27,receivable_overpayment,"Overpayment: Medicard Philippines Inc - OVERPAYMENT (JULY 28,2026)",0.0000,586.8000,approved,1,0,2026-08-31 23:59:59,0
+13017,\N,2026-08-27,receivable_overpayment,Overpayment: Medicard Philippines Inc,586.8000,0.0000,approved,1,0,2026-08-31 23:59:59,0
+13018,\N,2026-08-28,journal_entry,CUSA and taxes incurred construction of MWTC reclass to leasehold improvement instead of pre operating expense - CUSA and taxes incurred construction of MWTC reclass to leasehold improvement instead of pre operating expense (business permits) — #76610,730393.5700,730393.5700,approved,1,0,2026-08-31 23:59:59,0
+13019,\N,2026-08-28,journal_entry,To Record deposit sales Branches AR-Cebu Etiqa Life Assurance — #77233,539.0000,539.0000,approved,1,0,2026-08-31 23:59:59,0
+13020,\N,2026-08-28,journal_entry,to record cash sales august 27 — #77234,114212.0000,114212.0000,approved,1,0,2026-08-31 23:59:59,0
+13021,\N,2026-08-28,journal_entry,Cash - Security Bank CPCI - OPEX Gcash — #77235,3080.0000,3080.0000,approved,1,0,2026-08-31 23:59:59,0
+13022,\N,2026-08-28,journal_entry,To record receipts of SBC OPEX Debit Card — #77236,4060.0000,4060.0000,approved,1,0,2026-08-31 23:59:59,0
+13023,\N,2026-08-28,journal_entry,To record receipts of SBC CREDIT CARD — #77237,30982.0100,30982.0100,approved,1,0,2026-08-31 23:59:59,0
+13024,\N,2026-08-28,journal_entry,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP AUG 28 — #77238,69981.1100,69981.1100,approved,1,0,2026-08-31 23:59:59,0
+13025,\N,2026-08-28,journal_entry,To record receipts of SBC AR-Terms for LH FOUNDATION INC — #77239,14236.0000,14236.0000,approved,1,0,2026-08-31 23:59:59,0
+13026,\N,2026-08-28,journal_entry,To record receipts of SBC AR-Terms PHILIPPINE BRITISH LIFE AND GENERAL — #77240,11295.0000,11295.0000,approved,1,0,2026-08-31 23:59:59,0
+13027,\N,2026-08-28,journal_entry,To record receipts of SBC AR-Terms V.Cutamora Construction Inc. — #77241,21010.0000,21010.0000,approved,1,0,2026-08-31 23:59:59,0
+13028,\N,2026-08-28,journal_entry,To record receipts of BDO OPEX august 28 — #77242,217936.3200,217936.3200,approved,1,0,2026-08-31 23:59:59,0
+13029,\N,2026-08-28,journal_entry,AR-Cebu BDO OPEX Life and Health HMP Inc august 28 — #77243,554084.5000,554084.5000,approved,1,0,2026-08-31 23:59:59,0
+13030,\N,2026-08-28,journal_entry,To record Credit Cards mbtc — #77245,11270.0000,11270.0000,approved,1,0,2026-08-31 23:59:59,0
+13031,\N,2026-08-28,journal_entry,To record Credit Cards bank charge mbtc — #77247,788.9000,788.9000,approved,1,0,2026-08-31 23:59:59,0
+13032,\N,2026-08-28,journal_entry,"Sales Branches August 28, 2026 - Cash Sales - August, 28 — #78116",628932.0000,628932.0000,approved,1,0,2026-08-31 23:59:59,0
+13033,\N,2026-08-28,payable_invoice,"BEROVAN MARKETING, INC. — 0826-000967",2580.0000,2580.0000,approved,1,0,2026-08-31 23:59:59,0
+13034,\N,2026-08-28,payable_invoice,"BEROVAN MARKETING, INC. — 0826-000968",8340.0000,8340.0000,approved,1,0,2026-08-31 23:59:59,0
+13035,\N,2026-08-28,payable_invoice,BIOLAB MEDICAL SUPPLIES — 0826-000969,27000.0000,27000.0000,approved,1,0,2026-08-31 23:59:59,0
+13036,\N,2026-08-28,payable_invoice,ENA COMMERCIAL AND PRINTING SERVICES — 0826-000975,65800.0000,65800.0000,approved,1,0,2026-08-31 23:59:59,0
+13037,\N,2026-08-28,payable_invoice,ENA COMMERCIAL AND PRINTING SERVICES — 0826-000976,34390.0000,34390.0000,approved,1,0,2026-08-31 23:59:59,0
+13038,\N,2026-08-28,payable_invoice,GALAXY TRADERS — 0826-000977,12960.0000,12960.0000,approved,1,0,2026-08-31 23:59:59,0
+13039,\N,2026-08-28,payable_invoice,GALAXY TRADERS — 0826-000978,28000.0000,28000.0000,approved,1,0,2026-08-31 23:59:59,0
+13040,\N,2026-08-28,payable_invoice,BIOLAB MEDICAL SUPPLIES — 0826-000979,114000.0000,114000.0000,approved,1,0,2026-08-31 23:59:59,0
+13041,\N,2026-08-28,payable_invoice,BIOLAB MEDICAL SUPPLIES — 0826-000981,11530.0000,11530.0000,approved,1,0,2026-08-31 23:59:59,0
+13042,\N,2026-08-28,payable_invoice,SUREBRIGHT MANUFACTURING INDUSTRIES INCORPORATED — 0826-000982,3100.0000,3100.0000,approved,1,0,2026-08-31 23:59:59,0
+13043,\N,2026-08-28,payable_invoice,TWIN-BEE PRINT ADS CORPORATION — 0826-000987,23968.0000,23968.0000,approved,1,0,2026-08-31 23:59:59,0
+13044,\N,2026-08-28,payable_invoice,RA ESSENTIALS MARKETING — 0826-000988,48960.0000,48960.0000,approved,1,0,2026-08-31 23:59:59,0
+13045,\N,2026-08-28,payable_invoice,BIOLAB MEDICAL SUPPLIES — 0826-000990,86800.0000,86800.0000,approved,1,0,2026-08-31 23:59:59,0
+13046,\N,2026-08-28,payable_invoice,Angelica F. Garcia — RFP No.# 6894,28787.5000,28787.5000,approved,1,0,2026-08-31 23:59:59,0
+13047,\N,2026-08-28,payable_invoice,"SMART COMMUNICATIONS, INC. — RFP No.# 6896",20650.0000,28300.0000,approved,1,0,2026-08-31 23:59:59,0
+13048,\N,2026-08-28,payable_invoice,Jules Nathan I. Castro - Payment for last and final pay for resigned employee (13th month) — RFP No.# 6902,4233.1600,4233.1600,approved,1,0,2026-08-31 23:59:59,0
+13049,\N,2026-08-28,payable_invoice,John Mark A. Robles - Payment for last and final pay for resigned employee (13th month) — RFP No.# 6906,21062.7100,21062.7100,approved,1,0,2026-08-31 23:59:59,0
+13050,\N,2026-08-28,payable_invoice,KATHLEEN ANN F. ABAQUITA - Payment for last and final pay for resigned employee (13th month) — RFP No.# 6908,21502.5300,21502.5300,approved,1,0,2026-08-31 23:59:59,0
+13051,\N,2026-08-28,payable_invoice,"MYT SOFTDEV SOLUTIONS, INC. — RFP No.# 6909",56000.0000,56000.0000,approved,1,0,2026-08-31 23:59:59,0
+13052,\N,2026-08-28,payable_invoice,Lh Paragon Inc — RFP No.# 6911,10858.3400,10858.3400,approved,1,0,2026-08-31 23:59:59,0
+13053,\N,2026-08-28,payable_invoice,Lh Paragon Inc — RFP No.# 6912,82029.0200,82029.0200,approved,1,0,2026-08-31 23:59:59,0
+13054,\N,2026-08-28,payable_invoice,Lh Paragon Inc — RFP No.# 6913,261001.4400,261001.4400,approved,1,0,2026-08-31 23:59:59,0
+13055,\N,2026-08-28,payable_invoice,Lh Paragon Inc — RFP No.# 6915,102359.0000,102359.0000,approved,1,0,2026-08-31 23:59:59,0
+13056,\N,2026-08-28,payable_invoice,Lh Paragon Inc — RFP No.# 6916,83932.3100,83932.3100,approved,1,0,2026-08-31 23:59:59,0
+13057,\N,2026-08-28,payable_invoice,MANUEL MAURICE D. GATELA - Payment for last and final pay for resigned employee (13th month) — RFP No.# 6917,15267.9500,15267.9500,approved,1,0,2026-08-31 23:59:59,0
+13058,\N,2026-08-28,payable_invoice,"SIMPLE WISHES FLOWER SHOP, INC. — RFP No.# 6918",11200.0000,11200.0000,approved,1,0,2026-08-31 23:59:59,0
+13059,\N,2026-08-28,payable_payment,Payment: AO BIOMED & INDUSTRIAL MARKETING — 0526-000541,21407.1400,21407.1400,approved,1,0,2026-08-31 23:59:59,0
+13060,\N,2026-08-28,payable_payment,Payment: AO BIOMED & INDUSTRIAL MARKETING — 0526-000570,71357.1400,71357.1400,approved,1,0,2026-08-31 23:59:59,0
+13061,\N,2026-08-28,payable_payment,Payment: NEW KEEN'S TRADING — 0626-000661,19197.0500,19197.0500,approved,1,0,2026-08-31 23:59:59,0
+13062,\N,2026-08-28,payable_payment,Payment: NEW KEEN'S TRADING — 0626-000662,6481.6100,6481.6100,approved,1,0,2026-08-31 23:59:59,0
+13063,\N,2026-08-28,payable_payment,Payment: NEW KEEN'S TRADING — 0626-000664,35183.0400,35183.0400,approved,1,0,2026-08-31 23:59:59,0
+13064,\N,2026-08-28,payable_payment,Payment: BIOLAB MEDICAL SUPPLIES — 0626-000677,23463.0000,23463.0000,approved,1,0,2026-08-31 23:59:59,0
+13065,\N,2026-08-28,payable_payment,Payment: BIOLAB MEDICAL SUPPLIES — 0626-000678,14850.0000,14850.0000,approved,1,0,2026-08-31 23:59:59,0
+13066,\N,2026-08-28,payable_payment,Payment: BIOLAB MEDICAL SUPPLIES — 0626-000679,114345.0000,114345.0000,approved,1,0,2026-08-31 23:59:59,0
+13067,\N,2026-08-28,payable_payment,Payment: TWIN-BEE PRINT ADS CORPORATION — 0726-000744,22972.9500,22972.9500,approved,1,0,2026-08-31 23:59:59,0
+13068,\N,2026-08-28,payable_payment,Payment: TWIN-BEE PRINT ADS CORPORATION — 0726-000745,2630.1000,2630.1000,approved,1,0,2026-08-31 23:59:59,0
+13069,\N,2026-08-28,payable_payment,"Payment: BEROVAN MARKETING, INC. — 0726-000759",9043.5300,9043.5300,approved,1,0,2026-08-31 23:59:59,0
+13070,\N,2026-08-28,payable_payment,"Payment: BEROVAN MARKETING, INC. — 0726-000760",11496.4300,11496.4300,approved,1,0,2026-08-31 23:59:59,0
+13071,\N,2026-08-28,payable_payment,"Payment: BEROVAN MARKETING, INC. — 0726-000761",1982.1400,1982.1400,approved,1,0,2026-08-31 23:59:59,0
+13072,\N,2026-08-28,payable_payment,"Payment: BEROVAN MARKETING, INC. — 0726-000762",991.0700,991.0700,approved,1,0,2026-08-31 23:59:59,0
+13073,\N,2026-08-28,payable_payment,Payment: JAV MARKETING — 0726-000813,38879.7300,38879.7300,approved,1,0,2026-08-31 23:59:59,0
+13074,\N,2026-08-28,payable_payment,Payment: SOCIAL SECURITY SYSTEM — RFP No.# 6759,713140.0000,354840.0000,approved,1,0,2026-08-31 23:59:59,0
+13075,\N,2026-08-28,payable_payment,Payment: SOCIAL SECURITY SYSTEM — RFP No.# 6760,46082.7300,46082.7300,approved,1,0,2026-08-31 23:59:59,0
+13076,\N,2026-08-28,payable_payment,Payment: AUGUST LIZER MALATE — RFP No.# 6857,16800.0000,16800.0000,approved,1,0,2026-08-31 23:59:59,0
+13077,\N,2026-08-28,payable_payment,Payment: EUGENE TIO — RFP No.# 6867,8892.8600,0.0000,approved,1,0,2026-08-31 23:59:59,0
+13078,\N,2026-08-28,payable_payment,Payment: Rhea Mae Gesulga — RFP No.# 6868,19909.1600,13182.1600,approved,1,0,2026-08-31 23:59:59,0
+13079,\N,2026-08-28,payable_payment,Payment: BIGSEED PUBLIC RELATIONS & EVENTS INC. — RFP No.# 6871,70200.0000,29120.0000,approved,1,0,2026-08-31 23:59:59,0
+13080,\N,2026-08-28,payable_payment,Payment: ROCSAN G. BACALAN — RFP No.# 6872,39755.0000,39755.0000,approved,1,0,2026-08-31 23:59:59,0
+13081,\N,2026-08-28,payable_payment,Payment: STEFANIE B. BERNAS — RFP No.# 6891,7591.6900,6280.0000,approved,1,0,2026-08-31 23:59:59,0
+13082,\N,2026-08-28,payable_payment,"Payment: SMART COMMUNICATIONS, INC. — RFP No.# 6896",28300.0000,20650.0000,approved,1,0,2026-08-31 23:59:59,0
+13083,\N,2026-08-29,journal_entry,"Sales Branches August 29, 2026 - Cash Sales - August, 29 — #78119",783075.0000,783075.0000,approved,1,0,2026-08-31 23:59:59,0
+13084,\N,2026-08-31,journal_entry,to record depreciation expense for depreciation Shared - LHRA 2026 August - to record depreciation expense for depreciation Shared - LHRA 2026 August — #76328,320966.5400,320966.5400,approved,1,0,2026-08-31 23:59:59,0
+13085,\N,2026-08-31,journal_entry,to record depreciation expense for depreciation Shared - IT August 2026 — #76329,143097.0100,143097.0100,approved,1,0,2026-08-31 23:59:59,0
+13086,\N,2026-08-31,journal_entry,to record depreciation expense for depreciation Shared - Marketing 2026 August — #76334,7474.4800,7474.4800,approved,1,0,2026-08-31 23:59:59,0
+13087,\N,2026-08-31,journal_entry,to record depreciation expense for depreciation Shared - Finance 2026 August — #76335,4139.5800,4139.5800,approved,1,0,2026-08-31 23:59:59,0
+13088,\N,2026-08-31,journal_entry,to record depreciation expense for depreciation Central warehouse 2026 August — #76336,544.8700,544.8700,approved,1,0,2026-08-31 23:59:59,0
+13089,\N,2026-08-31,journal_entry,to record depreciation expense for depreciation Shared Sales and SErvices 2026 August — #76337,832.5000,832.5000,approved,1,0,2026-08-31 23:59:59,0
+13090,\N,2026-08-31,journal_entry,To record amortization of prepayments for the month of August 2026 - To record amortization of prepayments for the month of August 2026 — #76629,1130982.2900,1566923.0400,approved,1,0,2026-08-31 23:59:59,0
+13091,\N,2026-08-31,journal_entry,Reversal of: to accrue medicines - konsulta La Nueva 2026 JUNE — #76868,413308.1900,413308.1900,approved,1,0,2026-08-31 23:59:59,0
+13092,\N,2026-08-31,journal_entry,Reversal of: to accrue ORDC board rental June 2026 — #76869,14000.0000,14000.0000,approved,1,0,2026-08-31 23:59:59,0
+13093,\N,2026-08-31,journal_entry,Reversal of: to accrue ORDC board rental JULY 2026 — #76870,12489.4800,12489.4800,approved,1,0,2026-08-31 23:59:59,0
+13094,\N,2026-08-31,journal_entry,"Reversal of: To accrue ORDC: OAKRIDGE clinic utilities (Electricity) 2026 JULY add: Additional, meter1, 2, ACU 3f, mwtc -  ADDITIONAL — #76901",12141.3600,12141.3600,approved,1,0,2026-08-31 23:59:59,0
+13095,\N,2026-08-31,journal_entry,Reversal of: To accrue send out cost for the period 2026 JULY — #76908,1553285.8000,776642.9000,approved,1,0,2026-08-31 23:59:59,0

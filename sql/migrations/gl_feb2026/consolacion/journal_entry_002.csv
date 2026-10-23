@@ -1,0 +1,84 @@
+id,cost_center_id,date,type,remarks,total_debit,total_credit,status,is_migrated,added_by,added_on,is_deleted
+501,4,2026-02-26,receivable_payment,"Payment: PAGES HOLDINGS, INC. — C2211",432.1800,432.1800,approved,1,0,2026-02-28 23:59:59,0
+502,4,2026-02-26,receivable_payment,"Payment: PAGES HOLDINGS, INC. — C2228",432.1800,432.1800,approved,1,0,2026-02-28 23:59:59,0
+503,4,2026-02-26,receivable_payment,"Payment: PAGES HOLDINGS, INC. — C2241",864.3600,864.3600,approved,1,0,2026-02-28 23:59:59,0
+504,4,2026-02-26,receivable_payment,"Payment: PAGES HOLDINGS, INC. — C2260",432.1800,432.1800,approved,1,0,2026-02-28 23:59:59,0
+505,4,2026-02-26,receivable_payment,"Payment: PAGES HOLDINGS, INC. — C2276",1296.5400,1296.5400,approved,1,0,2026-02-28 23:59:59,0
+506,4,2026-02-27,journal_entry,"To Record Cash Sales Branches feb 26, 2026 — #50795",45071.0000,45071.0000,approved,1,0,2026-02-28 23:59:59,0
+507,4,2026-02-27,journal_entry,"Sales Branches February 27, 2026 - Gcash Sales - February, 27 — #50826",178605.0000,178605.0000,approved,1,0,2026-02-28 23:59:59,0
+508,4,2026-02-27,payable_invoice,MEDGISTIX CORPORATION — 0226-000226,166249.0000,166249.0000,approved,1,0,2026-02-28 23:59:59,0
+509,4,2026-02-27,payable_payment,"Payment: SMART COMMUNICATIONS, INC. — Online-022726",0.0000,125844.1400,approved,1,0,2026-02-28 23:59:59,0
+510,4,2026-02-27,payable_payment,Payment: Alessandra Kamille Mallari — RFP No.# 4821,15000.0000,0.0000,approved,1,0,2026-02-28 23:59:59,0
+511,4,2026-02-27,payable_payment,Payment: Alessandra Kamille Mallari — RFP No.# 5201,15000.0000,0.0000,approved,1,0,2026-02-28 23:59:59,0
+512,4,2026-02-27,payable_payment,Payment: IRNANI JULIUS BELCIÑA — RFP No.# 5204,7200.0000,0.0000,approved,1,0,2026-02-28 23:59:59,0
+513,4,2026-02-27,payable_payment,Payment: Dan Samuel Burgos — RFP No.# 5241,4000.0000,0.0000,approved,1,0,2026-02-28 23:59:59,0
+514,4,2026-02-27,payable_payment,Payment: Rhevy Jerald Vistal — RFP No.# 5242,2400.0000,0.0000,approved,1,0,2026-02-28 23:59:59,0
+515,4,2026-02-27,payable_payment,Payment: QUEENSTIENE BALTONADO — RFP No.# 5243,4000.0000,0.0000,approved,1,0,2026-02-28 23:59:59,0
+516,4,2026-02-27,payable_payment,Payment: Vince Ardel A. Locaylocay — RFP No.# 5244,4000.0000,0.0000,approved,1,0,2026-02-28 23:59:59,0
+517,4,2026-02-27,payable_payment,Payment: PLDT INC — RFP No.# 5249,3221.0300,0.0000,approved,1,0,2026-02-28 23:59:59,0
+518,4,2026-02-27,receivable_credit_note,Asalus Corporation — CN-4526,473.0000,473.0000,approved,1,0,2026-02-28 23:59:59,0
+519,4,2026-02-27,receivable_credit_note_allocation,Asalus Corporation — C2064,0.0000,473.0000,approved,1,0,2026-02-28 23:59:59,0
+520,4,2026-02-27,receivable_credit_note_allocation,Asalus Corporation — CN-4526,473.0000,0.0000,approved,1,0,2026-02-28 23:59:59,0
+521,4,2026-02-27,receivable_invoice,"Brady Philippines Services, INC. - TAPAN, EDWIN DIMPAS | 02/18/2026 | BRADY PHILIPPINES SERVICES, INC. | 1450- — C2364",1450.0000,1450.0000,approved,1,0,2026-02-28 23:59:59,0
+522,4,2026-02-27,receivable_invoice,"Avega Managed Care, Inc - JUNTAR, ZAMIRA JOY EVANGELISTA | 02/26/2026 | Avega Managed Care, Inc | 500- — C2366",2570.0000,2570.0000,approved,1,0,2026-02-28 23:59:59,0
+523,4,2026-02-27,receivable_invoice,"Cooperative Health Management Federation - SOLITAS, AIDA MORATA | 02/26/2026 | Cooperative Health Management Federation | 300- — C2367",2340.0000,2340.0000,approved,1,0,2026-02-28 23:59:59,0
+524,4,2026-02-27,receivable_invoice,"Etiqa Life and General Assurance Phillipines, Inc - LLEVE, ZEUS THEODORE CABISON | 02/26/2026 | Etiqa Life and General Assurance Phillipines, Inc | 500- — C2368",9400.0000,9400.0000,approved,1,0,2026-02-28 23:59:59,0
+525,4,2026-02-27,receivable_invoice,"Generali Life Assurance Philippines Inc - CASIONG, ISABEL GARCIA | 02/26/2026 | Generali Life Assurance Philippines Inc | 600- — C2369",1800.0000,1800.0000,approved,1,0,2026-02-28 23:59:59,0
+526,4,2026-02-27,receivable_invoice,"Health Plan Philippines, Inc - POBLETE, JESSAH MAE N/A | 02/26/2026 | Health Plan Philippines, Inc | 600- — C2370",600.0000,600.0000,approved,1,0,2026-02-28 23:59:59,0
+527,4,2026-02-27,receivable_invoice,"Insular Healthcare Inc - MAGCAWAS, ED MAX COCAMAS | 02/26/2026 | Insular Healthcare Inc | 500- — C2371",16800.0000,16800.0000,approved,1,0,2026-02-28 23:59:59,0
+528,4,2026-02-27,receivable_invoice,"Asalus Corporation - TEJERO, ROGELYN - | 02/26/2026 | Asalus Corporation | 140- — C2372",46775.0000,46775.0000,approved,1,0,2026-02-28 23:59:59,0
+529,4,2026-02-27,receivable_invoice,"Life & Health Hmp Inc - DUCAY, JULIE ANN LIM | 02/26/2026 | Life & Health Hmp Inc | 400- — C2373",2000.0000,2000.0000,approved,1,0,2026-02-28 23:59:59,0
+530,4,2026-02-27,receivable_invoice,"Maxicare Healthcare Corporation - LIGAS JR., ROLANDO SAYAHON | 02/26/2026 | MAXICARE HEALTHCARE CORPORATION | 180- — C2374",17190.0000,17190.0000,approved,1,0,2026-02-28 23:59:59,0
+531,4,2026-02-27,receivable_invoice,"Medicard Philippines Inc - ARNADO, MARY BLANZ ECOBEN | 02/26/2026 | Medicard Philippines Inc | 300- — C2375",3030.0000,3030.0000,approved,1,0,2026-02-28 23:59:59,0
+532,4,2026-02-27,receivable_invoice,"Philhealthcare, Inc - SALADO, SHERYL MACAPOBRE | 02/26/2026 | Philhealthcare, Inc | 550- — C2376",4960.0000,4960.0000,approved,1,0,2026-02-28 23:59:59,0
+533,4,2026-02-27,receivable_invoice,"Sunlife Grepa Financial Inc - BONIOL, LYNRY FAILMA | 02/26/2026 | Sunlife Grepa Financial Inc | 210- — C2377",660.0000,660.0000,approved,1,0,2026-02-28 23:59:59,0
+534,4,2026-02-27,receivable_invoice,"VFI-CEBU GENERAL SERVICES INC. - CAÑETA, CEDRICK SILAWAN | 02/26/2026 | VFI-CEBU GENERAL SERVICES INC. | 780- — C2378",1560.0000,1560.0000,approved,1,0,2026-02-28 23:59:59,0
+535,4,2026-02-27,receivable_invoice,"VFI-CEBU LABOR LINK MANPOWER - CASONA, PAUL ALBERT VASQUEZ | 02/26/2026 | VFI-CEBU LABOR LINK MANPOWER | 252- — C2379",5712.0000,5712.0000,approved,1,0,2026-02-28 23:59:59,0
+536,4,2026-02-27,receivable_invoice,"Virginia Food Inc - NAVARRO, RHYNA JEANNE BAYNOS | 02/26/2026 | VIRGINIA FOOD INC | 780- — C2380",780.0000,780.0000,approved,1,0,2026-02-28 23:59:59,0
+537,4,2026-02-27,receivable_invoice,"Avega Managed Care, Inc - BALDERAMA, GINALYN TELEN | 02/27/2026 | Avega Managed Care, Inc | 440- — C2381",11360.0000,11360.0000,approved,1,0,2026-02-28 23:59:59,0
+538,4,2026-02-27,receivable_invoice,"Amaphil-FAO Lawina Company Limited Inc - ERMAC, MARIECEN MAGLASANG | 02/27/2026 | Amaphil-FAO Lawina Company Limited Inc | 600- — C2382",1200.0000,1200.0000,approved,1,0,2026-02-28 23:59:59,0
+539,4,2026-02-27,receivable_invoice,"Cooperative Health Management Federation - BARROSA, MARK JUNRIF RIVERA | 02/27/2026 | Cooperative Health Management Federation | 100- — C2383",1480.0000,1480.0000,approved,1,0,2026-02-28 23:59:59,0
+540,4,2026-02-27,receivable_invoice,"Etiqa Life and General Assurance Phillipines, Inc - LLEVE, ZEUS THEODORE CABISON | 02/27/2026 | Etiqa Life and General Assurance Phillipines, Inc | 500- — C2384",10700.0000,10700.0000,approved,1,0,2026-02-28 23:59:59,0
+541,4,2026-02-27,receivable_invoice,"Generali Life Assurance Philippines Inc - ENCABO, ROSE ANN FUENTES | 02/27/2026 | Generali Life Assurance Philippines Inc | 600- — C2385",14195.0000,14195.0000,approved,1,0,2026-02-28 23:59:59,0
+542,4,2026-02-27,receivable_invoice,"Health Delivery Sytem Inc (Flexicare) - TAMOR, JESSIE MAGALLANO | 02/27/2026 | Health Delivery Sytem Inc (Flexicare) | 600- — C2386",600.0000,600.0000,approved,1,0,2026-02-28 23:59:59,0
+543,4,2026-02-27,receivable_invoice,"Insular Healthcare Inc - SINAHON, CRISJAY PALANAS | 02/28/2026 | Insular Healthcare Inc | 270- — C2387",71495.0000,71495.0000,approved,1,0,2026-02-28 23:59:59,0
+544,4,2026-02-27,receivable_invoice,"Asalus Corporation - CAMPUGAN, SHERLLY AGON | 02/28/2026 | Asalus Corporation | 170- — C2388",17380.0000,17380.0000,approved,1,0,2026-02-28 23:59:59,0
+545,4,2026-02-27,receivable_invoice,"Life & Health Hmp Inc - JUGAN, THEA KLAUIE MANTUHAC | 02/28/2026 | Life & Health Hmp Inc | 180- — C2389",16150.0000,16150.0000,approved,1,0,2026-02-28 23:59:59,0
+546,4,2026-02-27,receivable_invoice,"Maxicare Healthcare Corporation - LLEVE, ESTELA CABISON | 02/28/2026 | MAXICARE HEALTHCARE CORPORATION | 150- — C2390",32438.0000,32438.0000,approved,1,0,2026-02-28 23:59:59,0
+547,4,2026-02-27,receivable_invoice,"Philhealthcare, Inc - CAPAO, MELBERT BACATAN | 02/27/2026 | Philhealthcare, Inc | 250- — C2391",13840.0000,13840.0000,approved,1,0,2026-02-28 23:59:59,0
+548,4,2026-02-27,receivable_invoice,"Medicard Philippines Inc - PONCE, GERALD PENDO | 02/28/2026 | Medicard Philippines Inc | 580- — C2392",13550.0000,13550.0000,approved,1,0,2026-02-28 23:59:59,0
+549,4,2026-02-27,receivable_invoice,"Sunlife Grepa Financial Inc - IBARITA, MERVI JARALES | 02/27/2026 | Sunlife Grepa Financial Inc | 250- — C2393",2100.0000,2100.0000,approved,1,0,2026-02-28 23:59:59,0
+550,4,2026-02-27,receivable_invoice,"Value Care Health Systems, Inc. - ARNADO, GERONIMO CAÑAR | 02/28/2026 | Value Care Health Systems, Inc. | 300- — C2394",21985.0000,21985.0000,approved,1,0,2026-02-28 23:59:59,0
+551,4,2026-02-27,receivable_invoice,"United Coconut Planters Life Assurance Corporation - TUNDAG, AIRA CALZADA | 02/28/2026 | United Coconut Planters Life Assurance Corporation | 400- — C2395",400.0000,400.0000,approved,1,0,2026-02-28 23:59:59,0
+552,4,2026-02-27,receivable_invoice,"Virginia Food Inc - TORRENTIRA, ARNEL HITAROLLAS | 02/27/2026 | VIRGINIA FOOD INC | 624- — C2396",624.0000,624.0000,approved,1,0,2026-02-28 23:59:59,0
+553,4,2026-02-27,receivable_invoice,"VFI-CEBU LABOR LINK MANPOWER - ACASO, ERIC CANE | 02/27/2026 | VFI-CEBU LABOR LINK MANPOWER | 780- — C2397",24960.0000,24960.0000,approved,1,0,2026-02-28 23:59:59,0
+554,4,2026-02-27,receivable_invoice,"VFI-CEBU GENERAL SERVICES INC. - ARNADO, VICTOR JR. MONIVA | 02/27/2026 | VFI-CEBU GENERAL SERVICES INC. | 780- — C2398",21060.0000,21060.0000,approved,1,0,2026-02-28 23:59:59,0
+555,4,2026-02-27,receivable_invoice,"VFI-MALACHITE VALUE BUILDERS INC. - BACLEA-AN, BOBBY CAJES | 02/28/2026 | VFI-MALACHITE VALUE BUILDERS INC. | 180- — C2399",3465.0000,3465.0000,approved,1,0,2026-02-28 23:59:59,0
+556,4,2026-02-27,receivable_invoice,"NORTH STAR MEAT MERCHANTS INC. - CURVA, BENJIE LANQUINO | 01/23/2026 | NORTH STAR MEAT MERCHANTS INC. | 300- — C2400",5675.0000,5675.0000,approved,1,0,2026-02-28 23:59:59,0
+557,4,2026-02-27,receivable_invoice,"HIVEMIND, INC - POBLETE, JESSAH MAE N/A | 02/18/2026 | HIVEMIND, INC | 600- — C2401",600.0000,600.0000,approved,1,0,2026-02-28 23:59:59,0
+558,4,2026-02-28,journal_entry,To accrue TPP cost for the month of 2026 February — #51048,63546.0000,0.0000,approved,1,0,2026-02-28 23:59:59,0
+559,4,2026-02-28,journal_entry,Reversal of: To accrue utilities (water) for the month of DECEMBER MCWD Consolacion - To accrue utilities (water) for the month of DECEMBER MCWD Consolacion — #51212,1590.7600,1590.7600,approved,1,0,2026-02-28 23:59:59,0
+560,4,2026-02-28,journal_entry,Reversal of: To accrue utilities (water) for the month of JANUARY MCWD Consolacion - To accrue utilities (water) for the month of JANUARY MCWD Consolacion — #51213,1590.7600,1590.7600,approved,1,0,2026-02-28 23:59:59,0
+561,4,2026-02-28,journal_entry,"Sales Branches February 28, 2026 - Gcash Sales - February, 28 — #51429",208695.0000,208695.0000,approved,1,0,2026-02-28 23:59:59,0
+562,4,2026-02-28,journal_entry,To accrue Doctors PF Consolacion for the period February 2026 — #51511,917006.0100,917006.0100,approved,1,0,2026-02-28 23:59:59,0
+563,4,2026-02-28,journal_entry,To record inventory variance for the month of 2026 February — #51623,15.0000,15.0000,approved,1,0,2026-02-28 23:59:59,0
+564,4,2026-02-28,journal_entry,"CPCI Payroll for February 16-28, 2026 - Consolacion Operations — #51629",303233.2900,303233.2900,approved,1,0,2026-02-28 23:59:59,0
+565,4,2026-02-28,journal_entry,"CPCI Payroll for february 16-28, 2026 - Consolacion Medical Affairs — #51630",70500.0000,70500.0000,approved,1,0,2026-02-28 23:59:59,0
+566,4,2026-02-28,journal_entry,To record the accrual of the 13th Month Pay for 2026 february — #51643,52545.3300,52545.3300,approved,1,0,2026-02-28 23:59:59,0
+567,4,2026-02-28,journal_entry,"to record Cost of CPCI availment on CLinic DSMR February, as advised — #51651",4941.0000,4941.0000,approved,1,0,2026-02-28 23:59:59,0
+568,4,2026-02-28,journal_entry,To record inventory consumption 2026 February — #51694,642725.2600,642725.2600,approved,1,0,2026-02-28 23:59:59,0
+569,4,2026-02-28,journal_entry,To reclassify Konsulta FPE revenue 2026 February - To reclassify Konsulta FPE revenue January 2026 — #51705,213520.0000,213520.0000,approved,1,0,2026-02-28 23:59:59,0
+570,4,2026-02-28,payable_invoice,DG'S INK TRADING — 0226-000239,2300.0000,2300.0000,approved,1,0,2026-02-28 23:59:59,0
+571,4,2026-02-28,payable_invoice,NEW KEEN'S TRADING — 0226-000248,19880.0000,19880.0000,approved,1,0,2026-02-28 23:59:59,0
+572,4,2026-02-28,payable_invoice,NEW KEEN'S TRADING — 0226-000249,1517.0000,1517.0000,approved,1,0,2026-02-28 23:59:59,0
+573,4,2026-02-28,payable_invoice,NEW KEEN'S TRADING — 0226-000251,2200.0000,2200.0000,approved,1,0,2026-02-28 23:59:59,0
+574,4,2026-02-28,payable_invoice,TONERPRO TRADING — 0226-000253,2500.0000,2500.0000,approved,1,0,2026-02-28 23:59:59,0
+575,4,2026-02-28,payable_invoice,MEDGISTIX CORPORATION — 0226-000268,51000.0000,51000.0000,approved,1,0,2026-02-28 23:59:59,0
+576,4,2026-02-28,payable_invoice,SKY MEDICAL SUPPLY — RFP No.# 5272,25000.0000,25000.0000,approved,1,0,2026-02-28 23:59:59,0
+577,4,2026-02-28,payable_invoice,Rhevy Jerald Vistal — RFP No.# 5273,8000.0000,8000.0000,approved,1,0,2026-02-28 23:59:59,0
+578,4,2026-02-28,payable_invoice,QUEENSTIENE BALTONADO — RFP No.# 5275,7200.0000,7200.0000,approved,1,0,2026-02-28 23:59:59,0
+579,4,2026-02-28,payable_invoice,EUGENE TIO - Vatable: Payment for signage directory (pylon) for the month of February 2026 — RFP No.# 5282,1500.0000,26.7900,approved,1,0,2026-02-28 23:59:59,0
+580,4,2026-02-28,payable_invoice,Angeline Muñoz — RFP No.# 5284,17730.8900,17730.8900,approved,1,0,2026-02-28 23:59:59,0
+581,4,2026-02-28,payable_invoice,MARIA ANGELICA ROSE A. SACRIS — RFP No.# 5298,3600.0000,3600.0000,approved,1,0,2026-02-28 23:59:59,0
+582,4,2026-02-28,payable_invoice,Dan Samuel Burgos — RFP No.# 5299,3200.0000,3200.0000,approved,1,0,2026-02-28 23:59:59,0
+583,4,2026-02-28,payable_invoice,QUEENSTIENE BALTONADO — RFP No.# 5300,3600.0000,3600.0000,approved,1,0,2026-02-28 23:59:59,0

@@ -1,0 +1,231 @@
+{
+  "info": {
+    "_postman_id": "a7b8c9d0-e1f2-3456-0123-678901234567",
+    "name": "Purchase Returns",
+    "description": "# Purchase Returns API\n\nClinic-DB CRUD for returning items against an **approved receipt note** (and its purchase order).\n\n## Auth\n- Header: `API-KEY` (required)\n- Query/body: `token`, `requester` (required)\n\n## Branch (required on every request)\nClinic DBs only:\n\n| branch_id | Clinic |\n|-----------|--------|\n| 1 | Mobile |\n| 2 | Oakridge |\n| 3 | Mactan |\n| 4 | Consolacion |\n| 7 | Mantlewood |\n\n## Links\n- `receipt_note_id` — source RN must be `approved`\n- `purchase_order_id` — must equal `receipt_note.purchase_order_id`\n- Each item: `receipt_note_item_id`, **`account_type_id`**, `qty`\n- Return qty cannot exceed RN item qty minus other non-disapproved returns\n\n## Status\n`pending` (default) → `approved` or `disapproved`. Update/delete only while pending. Approval deducts `branch_item` (`latest_activity = Purchase Return`).\n\n## Request body format\n- **GET** — query params\n- **POST** — multipart form-data (`items` as JSON string if sending form-data, or JSON body)\n",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "base_url", "value": "http://localhost/cpci-business-ops-api" },
+    { "key": "api_key", "value": "clinicaRiKOYqlwdTJ-lNedqS0k-it!395!-6ls1JXM7Vcc" },
+    { "key": "token", "value": "{{token}}" },
+    { "key": "requester", "value": "1" },
+    { "key": "branch_id", "value": "2" },
+    { "key": "purchase_return_id", "value": "1" },
+    { "key": "receipt_note_id", "value": "1" },
+    { "key": "purchase_order_id", "value": "1" }
+  ],
+  "item": [
+    {
+      "name": "Get purchase returns",
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "url": {
+          "raw": "{{base_url}}/purchase_returns/get?token={{token}}&requester={{requester}}&branch_id={{branch_id}}",
+          "host": ["{{base_url}}"],
+          "path": ["purchase_returns", "get"],
+          "query": [
+            { "key": "token", "value": "{{token}}" },
+            { "key": "requester", "value": "{{requester}}" },
+            { "key": "branch_id", "value": "{{branch_id}}" },
+            { "key": "purchase_return_id", "value": "{{purchase_return_id}}", "disabled": true },
+            { "key": "receipt_note_id", "value": "{{receipt_note_id}}", "disabled": true },
+            { "key": "purchase_order_id", "value": "{{purchase_order_id}}", "disabled": true },
+            { "key": "status", "value": "pending", "disabled": true, "description": "pending | approved | disapproved" },
+            { "key": "page", "value": "1", "disabled": true },
+            { "key": "data_size", "value": "20", "disabled": true }
+          ]
+        },
+        "description": "## GET `/purchase_returns/get`\n\nRequired: `branch_id`. Optional filters: `purchase_return_id`, `receipt_note_id`, `purchase_order_id`, `status`, pagination.\n\nEach row includes `items` with `account_type_name` and `item_name`."
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"size\": 1,\n  \"data\": [\n    {\n      \"id\": 1,\n      \"receipt_note_id\": 1,\n      \"purchase_order_id\": 1,\n      \"po_number\": \"0220260825000001\",\n      \"delivery_receipt_no\": \"DR-100\",\n      \"sales_invoice_no\": \"SI-200\",\n      \"branch_id\": 2,\n      \"branch_name\": \"Oakridge\",\n      \"supplier_id\": 10,\n      \"supplier_name\": \"ABC Supplies\",\n      \"return_date\": \"2026-08-25\",\n      \"reason\": \"Damaged goods\",\n      \"grand_total\": \"500.00\",\n      \"status\": \"pending\",\n      \"items\": [\n        {\n          \"id\": 1,\n          \"receipt_note_item_id\": 5,\n          \"account_type_id\": 80,\n          \"account_type_name\": \"Medical supplies inventory\",\n          \"account_type_code\": \"104-030\",\n          \"item_id\": 12,\n          \"item_name\": \"Syringe 5ml\",\n          \"qty\": \"10.00\",\n          \"amount\": \"500.00\"\n        }\n      ]\n    }\n  ]\n}"
+        },
+        {
+          "name": "Not Found",
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"error_messages\": [\"No purchase_returns found.\"]\n}"
+        }
+      ]
+    },
+    {
+      "name": "Create purchase return",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" },
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": {{requester}},\n  \"branch_id\": {{branch_id}},\n  \"receipt_note_id\": {{receipt_note_id}},\n  \"purchase_order_id\": {{purchase_order_id}},\n  \"return_date\": \"2026-08-25\",\n  \"reason\": \"Damaged goods\",\n  \"remarks\": \"\",\n  \"items\": [\n    {\n      \"receipt_note_item_id\": 5,\n      \"account_type_id\": 80,\n      \"qty\": 10,\n      \"amount\": 500\n    }\n  ]\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/purchase_returns/create",
+          "host": ["{{base_url}}"],
+          "path": ["purchase_returns", "create"]
+        },
+        "description": "## POST `/purchase_returns/create`\n\nRequired: `branch_id`, `receipt_note_id`, `purchase_order_id`, `items[]`.\nEach item required: `receipt_note_item_id`, `account_type_id`, `qty`.\nOptional item fields (filled from RN item if omitted): `item_id`, `unit`, `price`, `amount`, `cost_center_id`, etc.\n\nRN must be approved. PO must match the RN."
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"purchase_return_id\": 1,\n  \"message\": \"purchase_return added successfully.\"\n}"
+        },
+        {
+          "name": "PO mismatch",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"error_messages\": [\"Purchase order does not belong to the given receipt note.\"]\n}"
+        },
+        {
+          "name": "Qty exceeded",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"error_messages\": [\"One or more item quantities exceed the received quantity.\"]\n}"
+        }
+      ]
+    },
+    {
+      "name": "Update purchase return",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" },
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"token\": \"{{token}}\",\n  \"requester\": {{requester}},\n  \"branch_id\": {{branch_id}},\n  \"purchase_return_id\": {{purchase_return_id}},\n  \"receipt_note_id\": {{receipt_note_id}},\n  \"purchase_order_id\": {{purchase_order_id}},\n  \"reason\": \"Damaged goods\",\n  \"items\": [\n    {\n      \"id\": 1,\n      \"receipt_note_item_id\": 5,\n      \"account_type_id\": 80,\n      \"qty\": 8,\n      \"amount\": 400\n    }\n  ]\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/purchase_returns/update",
+          "host": ["{{base_url}}"],
+          "path": ["purchase_returns", "update"]
+        },
+        "description": "## POST `/purchase_returns/update`\n\nOnly while `pending`. Include `id` on existing items; omit `id` to insert; omitted existing rows are soft-deleted."
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"purchase_return_id\": 1,\n  \"message\": \"purchase_return updated successfully.\"\n}"
+        },
+        {
+          "name": "Not pending",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"error_messages\": [\"Cannot update a purchase_return that is not pending.\"]\n}"
+        }
+      ]
+    },
+    {
+      "name": "Change status",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "token", "value": "{{token}}", "type": "text" },
+            { "key": "requester", "value": "{{requester}}", "type": "text" },
+            { "key": "branch_id", "value": "{{branch_id}}", "type": "text" },
+            { "key": "purchase_return_id", "value": "{{purchase_return_id}}", "type": "text" },
+            { "key": "status", "value": "approved", "type": "text", "description": "approved | disapproved" },
+            { "key": "disapproved_reason", "value": "", "type": "text" }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/purchase_returns/change_status",
+          "host": ["{{base_url}}"],
+          "path": ["purchase_returns", "change_status"]
+        },
+        "description": "## POST `/purchase_returns/change_status`\n\nFrom `pending` only. `approved` deducts inventory. `disapproved` accepts optional `disapproved_reason`."
+      },
+      "response": [
+        {
+          "name": "Approved",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"purchase_return_id\": 1,\n  \"message\": \"purchase_return approved successfully.\"\n}"
+        },
+        {
+          "name": "Already decided",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"error_messages\": [\"purchase_return is already approved. \"]\n}"
+        }
+      ]
+    },
+    {
+      "name": "Delete purchase return",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "token", "value": "{{token}}", "type": "text" },
+            { "key": "requester", "value": "{{requester}}", "type": "text" },
+            { "key": "branch_id", "value": "{{branch_id}}", "type": "text" },
+            { "key": "purchase_return_id", "value": "{{purchase_return_id}}", "type": "text" }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/purchase_returns/delete",
+          "host": ["{{base_url}}"],
+          "path": ["purchase_returns", "delete"]
+        },
+        "description": "## POST `/purchase_returns/delete`\n\nSoft-delete header and items. Only while `pending`."
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"message\": \"purchase_return is deleted.\"\n}"
+        }
+      ]
+    }
+  ]
+}

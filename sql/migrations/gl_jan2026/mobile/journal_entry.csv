@@ -1,0 +1,360 @@
+id,cost_center_id,date,type,remarks,total_debit,total_credit,status,is_migrated,added_by,added_on,is_deleted
+1,1,2026-01-02,payable_payment,"Payment: SMART COMMUNICATIONS, INC. — Online-010226",0.0000,2424.9400,approved,1,0,2026-01-31 23:59:59,0
+2,1,2026-01-05,journal_entry,"Sales Branches January 05, 2026 - Term Sales - January, 05 — #48411",313990.0000,313990.0000,approved,1,0,2026-01-31 23:59:59,0
+3,1,2026-01-06,journal_entry,"Sales Branches January 06, 2026 - Term Sales - January, 06 — #48413",189962.0000,189962.0000,approved,1,0,2026-01-31 23:59:59,0
+4,1,2026-01-06,receivable_invoice,Cebu Home and Builders Centre - BASIC 4 | 12/22/2025 |Cebu Home and Builders Centre |BASIC 4 | 59PAX|650 | — MO-2044,0.0000,38350.0000,approved,1,0,2026-01-31 23:59:59,0
+5,1,2026-01-06,receivable_invoice,"Philhealthcare, Inc - BASIC 5 | 12/17/2025 |Philhealthcare, Inc |BASIC 5 | 23PAX|620 | — MO-3215",77010.0000,77010.0000,approved,1,0,2026-01-31 23:59:59,0
+6,1,2026-01-06,receivable_invoice,Knowles Electronics Philippines - DRUGTEST | 12/11/2025 |Knowles Electronics Philippines |DRUGTEST | 100PAX|250 | — MO-3217,25000.0000,25000.0000,approved,1,0,2026-01-31 23:59:59,0
+7,1,2026-01-07,journal_entry,"Sales Branches January 07, 2026 - Term Sales - January, 07 — #48415",235012.0000,235012.0000,approved,1,0,2026-01-31 23:59:59,0
+8,1,2026-01-07,receivable_invoice,Asalus Corporation - BASIC 5+ECG+PS | 12/17/2025 |Asalus Corporation |BASIC 5+ECG+PS | 21PAX|1830 | — MO-3216,171330.0000,171330.0000,approved,1,0,2026-01-31 23:59:59,0
+9,1,2026-01-07,receivable_invoice,"Appleone Mactan Inc, - BASIC 5+ECG+PS | 01/03/1905 |Appleone Mactan Inc, |BASIC 5+ECG+PS | 1PAX|1830 | — MO-3218",9670.0000,9670.0000,approved,1,0,2026-01-31 23:59:59,0
+10,1,2026-01-08,journal_entry,"Liquidation RFP No.# 4600 Advances to employee for Mobile activities ftp December 17, 2025- January 04, 2025 CA- 0264 (For January 2026 only) - Liquidation RFP No.# 4600 Advances to employee for Mobile activities ftp December 17, 2025- January 04, 2025 CA- 0264 (For January 2026 only) — #43749",31866.1900,31866.1900,approved,1,0,2026-01-31 23:59:59,0
+11,1,2026-01-08,journal_entry,"Sales Branches January 08, 2026 - Term Sales - January, 08 — #48417",282586.0000,282586.0000,approved,1,0,2026-01-31 23:59:59,0
+12,1,2026-01-08,payable_invoice,PHILIPPINE HEALTH INSURANCE CORPORATION - Payment for PHIC Contribution for the month of December 2025  (Employer Share) — RFP No.# 4664,9500.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+13,1,2026-01-08,payable_invoice,HOME DEVELOPMENT MUTUAL FUND - Payment for HDMF mandatory contribution for the month of December 2025 (employer share) — RFP No.# 4666,2800.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+14,1,2026-01-08,payable_invoice,RHEA LONZAGA — RFP No.# 4670,1650.0000,1650.0000,approved,1,0,2026-01-31 23:59:59,0
+15,1,2026-01-08,payable_invoice,HANNAH MALAIT — RFP No.# 4671,5100.0000,5100.0000,approved,1,0,2026-01-31 23:59:59,0
+16,1,2026-01-08,payable_invoice,JAY ANNE CELINA LIM — RFP No.# 4672,14850.0000,14850.0000,approved,1,0,2026-01-31 23:59:59,0
+17,1,2026-01-08,payable_invoice,REX YNAN PATALINGHUG — RFP No.# 4673,19800.0000,19800.0000,approved,1,0,2026-01-31 23:59:59,0
+18,1,2026-01-08,payable_invoice,JACK RYAN CABAGNOT — RFP No.# 4674,5775.0000,5775.0000,approved,1,0,2026-01-31 23:59:59,0
+19,1,2026-01-08,payable_invoice,MARY CHRIS SHIVANII GARGAR — RFP No.# 4675,19800.0000,19800.0000,approved,1,0,2026-01-31 23:59:59,0
+20,1,2026-01-08,payable_invoice,KYLL JOSEPH TRINIDAD — RFP No.# 4676,19800.0000,19800.0000,approved,1,0,2026-01-31 23:59:59,0
+21,1,2026-01-08,payable_invoice,JHOANNA KRISSIAH MAYO — RFP No.# 4677,4950.0000,4950.0000,approved,1,0,2026-01-31 23:59:59,0
+22,1,2026-01-08,payable_invoice,CLAVEL LUCERO — RFP No.# 4678,4950.0000,4950.0000,approved,1,0,2026-01-31 23:59:59,0
+23,1,2026-01-08,payable_invoice,ERIC VINCENT AMISOLA — RFP No.# 4680,5600.0000,5600.0000,approved,1,0,2026-01-31 23:59:59,0
+24,1,2026-01-08,payable_invoice,DAN CLIFFORD PALANG — RFP No.# 4682,3300.0000,3300.0000,approved,1,0,2026-01-31 23:59:59,0
+25,1,2026-01-08,payable_invoice,RICA MAE ARIATE — RFP No.# 4684,5600.0000,5600.0000,approved,1,0,2026-01-31 23:59:59,0
+26,1,2026-01-08,payable_invoice,MARY ANN RELLIN — RFP No.# 4685,5600.0000,5600.0000,approved,1,0,2026-01-31 23:59:59,0
+27,1,2026-01-08,payable_invoice,ANN MONIQUE AMAZONA — RFP No.# 4686,6600.0000,6600.0000,approved,1,0,2026-01-31 23:59:59,0
+28,1,2026-01-08,payable_invoice,ANDREA EVETTE ANTEPUESTO — RFP No.# 4687,6000.0000,6000.0000,approved,1,0,2026-01-31 23:59:59,0
+29,1,2026-01-08,payable_invoice,JESSA MEL SINGSON — RFP No.# 4688,6600.0000,6600.0000,approved,1,0,2026-01-31 23:59:59,0
+30,1,2026-01-08,payable_payment,"Payment: BEROVAN MARKETING, INC. — 1225-000539",43785.5400,0.0000,approved,1,0,2026-01-31 23:59:59,0
+31,1,2026-01-08,payable_payment,"Payment: BEROVAN MARKETING, INC. — 420658",0.0000,43785.5400,approved,1,0,2026-01-31 23:59:59,0
+32,1,2026-01-09,journal_entry,"Sales Branches January 09, 2026 - Term Sales - January, 09 — #48419",231300.0000,231300.0000,approved,1,0,2026-01-31 23:59:59,0
+33,1,2026-01-09,payable_payment,Payment: RHEA LONZAGA — Online-010926,0.0000,215367.0000,approved,1,0,2026-01-31 23:59:59,0
+34,1,2026-01-09,payable_payment,Payment: DITO Telecommunity Corporation — RFP No.# 4620,16392.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+35,1,2026-01-09,payable_payment,Payment: RHEA LONZAGA — RFP No.# 4670,1650.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+36,1,2026-01-09,payable_payment,Payment: HANNAH MALAIT — RFP No.# 4671,5100.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+37,1,2026-01-09,payable_payment,Payment: JAY ANNE CELINA LIM — RFP No.# 4672,14850.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+38,1,2026-01-09,payable_payment,Payment: REX YNAN PATALINGHUG — RFP No.# 4673,19800.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+39,1,2026-01-09,payable_payment,Payment: JACK RYAN CABAGNOT — RFP No.# 4674,5775.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+40,1,2026-01-09,payable_payment,Payment: MARY CHRIS SHIVANII GARGAR — RFP No.# 4675,19800.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+41,1,2026-01-09,payable_payment,Payment: KYLL JOSEPH TRINIDAD — RFP No.# 4676,19800.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+42,1,2026-01-09,payable_payment,Payment: JHOANNA KRISSIAH MAYO — RFP No.# 4677,4950.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+43,1,2026-01-09,payable_payment,Payment: CLAVEL LUCERO — RFP No.# 4678,4950.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+44,1,2026-01-09,payable_payment,Payment: ERIC VINCENT AMISOLA — RFP No.# 4680,5600.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+45,1,2026-01-09,payable_payment,Payment: DAN CLIFFORD PALANG — RFP No.# 4682,3300.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+46,1,2026-01-09,payable_payment,Payment: RICA MAE ARIATE — RFP No.# 4684,5600.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+47,1,2026-01-09,payable_payment,Payment: MARY ANN RELLIN — RFP No.# 4685,5600.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+48,1,2026-01-09,payable_payment,Payment: ANN MONIQUE AMAZONA — RFP No.# 4686,6600.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+49,1,2026-01-09,payable_payment,Payment: ANDREA EVETTE ANTEPUESTO — RFP No.# 4687,6000.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+50,1,2026-01-09,payable_payment,Payment: JESSA MEL SINGSON — RFP No.# 4688,6600.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+51,1,2026-01-09,receivable_payment,Payment: ABOITIZ POWER CORPORATION — 0235386235,14994.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+52,1,2026-01-09,receivable_payment,Payment: Arch Global Services (Philippines) Inc. — MO-2629,168459.0000,168459.0000,approved,1,0,2026-01-31 23:59:59,0
+53,1,2026-01-09,receivable_payment,Payment: ABOITIZ POWER CORPORATION — MO-3124,0.0000,14994.0000,approved,1,0,2026-01-31 23:59:59,0
+54,1,2026-01-10,journal_entry,"Sales Branches January 10, 2026 — #48421",123609.0000,123609.0000,approved,1,0,2026-01-31 23:59:59,0
+55,1,2026-01-12,journal_entry,"Sales Branches January 12, 2026 - Term Sales - January, 12 — #48424",316947.0000,316947.0000,approved,1,0,2026-01-31 23:59:59,0
+56,1,2026-01-12,payable_invoice,CEBU PROGRESS COMMERCIAL — 0126-000003,14040.0000,14040.0000,approved,1,0,2026-01-31 23:59:59,0
+57,1,2026-01-12,payable_payment,Payment: CEBU PROGRESS COMMERCIAL — 0126-000003,13914.6400,0.0000,approved,1,0,2026-01-31 23:59:59,0
+58,1,2026-01-12,payable_payment,Payment: CEBU PROGRESS COMMERCIAL — 4012635205,0.0000,13914.6400,approved,1,0,2026-01-31 23:59:59,0
+59,1,2026-01-12,payable_payment,Payment: MAUREEN LICYAYO — RFP No.# 4712,60000.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+60,1,2026-01-12,receivable_invoice,Insular Healthcare Inc - PAP SMEAR | 10/17/2025 |Microsourcing |PAP SMEAR | 21PAX|1450 | — MO- 3257,434180.0000,434180.0000,approved,1,0,2026-01-31 23:59:59,0
+61,1,2026-01-12,receivable_invoice,"Knowles Electronics Philippines - CBC, UA, XRAY, ECG | 10/08/2025 |Knowles Electronics Philippines |CBC, UA, XRAY, ECG | 8PAX|680 | — MO- 3258",45610.0000,45610.0000,approved,1,0,2026-01-31 23:59:59,0
+62,1,2026-01-12,receivable_invoice,Maxicare Healthcare Corporation - BASIC 5 + ECG + PAP SMEAR | 01/07/2025 |Guesty Philippines Corporation |BASIC 5 + ECG + PAP SMEAR | 6PAX|1830 | — MO-3254,54010.0000,54010.0000,approved,1,0,2026-01-31 23:59:59,0
+63,1,2026-01-12,receivable_invoice,"Philhealthcare, Inc - BASIC 5 + ECG + CHEM (FBS, CREATININE, BUA, BUN, TOTAL CHOLE) | 10/16/2025 |Ttec |BASIC 5 + ECG + CHEM (FBS, CREATININE, BUA, BUN, TOTAL CHOLE) | 1PAX|2170 | — MO-3255",664350.0000,664350.0000,approved,1,0,2026-01-31 23:59:59,0
+64,1,2026-01-12,receivable_invoice,"Philhealthcare, Inc - BASIC 5 | 10/23/2025 |Ttec |BASIC 5 | 1PAX|630 | — MO-3256",313500.0000,313500.0000,approved,1,0,2026-01-31 23:59:59,0
+65,1,2026-01-12,receivable_invoice,Cebu Home and Builders Centre - DRUG TEST | 09/01/2025 |Cebu Home and Builders Centre |DRUG TEST | 61PAX|300 | — MO-3259,18300.0000,18300.0000,approved,1,0,2026-01-31 23:59:59,0
+66,1,2026-01-13,journal_entry,Excess Cash Liquidation from Shannese RFP No. 4600 - Excess Cash Liquidation from Shannese RFP No. 4600 — #44317,4564.3100,4564.3100,approved,1,0,2026-01-31 23:59:59,0
+67,1,2026-01-13,journal_entry,"Sales Branches January 13, 2026 - Term Sales - January, 13 — #48426",327414.0000,327414.0000,approved,1,0,2026-01-31 23:59:59,0
+68,1,2026-01-13,payable_invoice,Shanesse Angelee Cortes — RFP No.# 4655,40000.0000,40000.0000,approved,1,0,2026-01-31 23:59:59,0
+69,1,2026-01-13,payable_invoice,Shanesse Angelee Cortes — RFP No.# 4696,59450.5000,59450.5000,approved,1,0,2026-01-31 23:59:59,0
+70,1,2026-01-13,payable_invoice,MAUREEN LICYAYO — RFP No.# 4712,60000.0000,60000.0000,approved,1,0,2026-01-31 23:59:59,0
+71,1,2026-01-13,payable_payment,Payment: HOME DEVELOPMENT MUTUAL FUND — Online-011326,0.0000,111750.5000,approved,1,0,2026-01-31 23:59:59,0
+72,1,2026-01-13,payable_payment,Payment: Shanesse Angelee Cortes — RFP No.# 4655,40000.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+73,1,2026-01-13,payable_payment,Payment: Shanesse Angelee Cortes — RFP No.# 4696,59450.5000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+74,1,2026-01-13,receivable_credit_note,ABOITIZ POWER CORPORATION — CN-4196,306.0000,306.0000,approved,1,0,2026-01-31 23:59:59,0
+75,1,2026-01-13,receivable_credit_note_allocation,ABOITIZ POWER CORPORATION — CN-4196,306.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+76,1,2026-01-13,receivable_credit_note_allocation,ABOITIZ POWER CORPORATION — MO-3124,0.0000,306.0000,approved,1,0,2026-01-31 23:59:59,0
+77,1,2026-01-13,receivable_invoice,"Royal Algaculture Corp - LIPID PANEL, CREATININE | 01/06/2026 |Royal Algaculture Corp |LIPID PANEL, CREATININE | 2PAX|1120 | — MO-3260",46830.0000,46830.0000,approved,1,0,2026-01-31 23:59:59,0
+78,1,2026-01-13,receivable_invoice,Maxicare Healthcare Corporation - BASIC 5 + ECG | 01/06/2026 |Sound Connection |BASIC 5 + ECG | 56PAX|1130 | — MO-3261,292930.0000,292930.0000,approved,1,0,2026-01-31 23:59:59,0
+79,1,2026-01-13,receivable_invoice,Asalus Corporation - BASIC 5 + ECG + PAP SMEAR | 01/08/2026 |Avensia Philippines Corp |BASIC 5 + ECG + PAP SMEAR | 6PAX|1764 | — MO-3262,43344.0000,43344.0000,approved,1,0,2026-01-31 23:59:59,0
+80,1,2026-01-14,journal_entry,"Sales Branches January 14, 2026 - Term Sales - January, 14 — #48428",244871.0000,244871.0000,approved,1,0,2026-01-31 23:59:59,0
+81,1,2026-01-14,receivable_invoice,Generali Life Assurance Philippines Inc - BASIC 5 | 09/19/2026 |Cebu Logitem Inc. |BASIC 5 | 30PAX|650 | — MO-3263,44580.0000,44580.0000,approved,1,0,2026-01-31 23:59:59,0
+82,1,2026-01-14,receivable_invoice,Security & Systems Monitoring Inc - DRUG TEST | 01/06/2026 |SSMI |DRUG TEST | 87PAX|300 | — MO-3266,26100.0000,26100.0000,approved,1,0,2026-01-31 23:59:59,0
+83,1,2026-01-15,journal_entry,to record the SL sick leave conversion - to record the SL sick leave conversion — #45828,55078.6500,0.0000,approved,1,0,2026-01-31 23:59:59,0
+84,1,2026-01-15,journal_entry,"Sales Branches January 15, 2026 - Term Sales - January, 15 — #48430",257264.0000,257264.0000,approved,1,0,2026-01-31 23:59:59,0
+85,1,2026-01-15,payable_invoice,"GLOBE TELECOM, INC. - VAT: Globe bill FTP 11/24-12/23/2025; Mobile — RFP No.# 4731",1198.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+86,1,2026-01-15,payable_invoice,"EUGENE TIO - Payment for Mobile van parking fee ftp December 13, 2025- January 13, 2026 — RFP No.# 4739",3000.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+87,1,2026-01-15,payable_invoice,Shanesse Angelee Cortes — RFP No.# 4762,96842.0000,96842.0000,approved,1,0,2026-01-31 23:59:59,0
+88,1,2026-01-15,payable_invoice,REX YNAN PATALINGHUG — RFP No.# 4765,8700.0000,8700.0000,approved,1,0,2026-01-31 23:59:59,0
+89,1,2026-01-15,payable_invoice,JHOANNA KRISSIAH MAYO — RFP No.# 4766,8700.0000,8700.0000,approved,1,0,2026-01-31 23:59:59,0
+90,1,2026-01-15,payable_invoice,PATRICIA MAE GUMBAN — RFP No.# 4767,3750.0000,3750.0000,approved,1,0,2026-01-31 23:59:59,0
+91,1,2026-01-15,payable_invoice,CLAVEL LUCERO — RFP No.# 4768,7875.0000,7875.0000,approved,1,0,2026-01-31 23:59:59,0
+92,1,2026-01-15,payable_invoice,ANDREA EVETTE ANTEPUESTO — RFP No.# 4769,4162.5000,4162.5000,approved,1,0,2026-01-31 23:59:59,0
+93,1,2026-01-15,payable_invoice,HANNAH MALAIT — RFP No.# 4770,4987.5000,4987.5000,approved,1,0,2026-01-31 23:59:59,0
+94,1,2026-01-15,payable_invoice,JESSA MEL SINGSON — RFP No.# 4771,6225.0000,6225.0000,approved,1,0,2026-01-31 23:59:59,0
+95,1,2026-01-15,payable_invoice,LEAVILLE KAYE FLORES — RFP No.# 4772,2925.0000,2925.0000,approved,1,0,2026-01-31 23:59:59,0
+96,1,2026-01-15,payable_invoice,ERIC VINCENT AMISOLA — RFP No.# 4773,6750.0000,6750.0000,approved,1,0,2026-01-31 23:59:59,0
+97,1,2026-01-15,payable_invoice,RICA MAE ARIATE — RFP No.# 4774,6750.0000,6750.0000,approved,1,0,2026-01-31 23:59:59,0
+98,1,2026-01-15,payable_invoice,MARY ANN RELLIN — RFP No.# 4775,6750.0000,6750.0000,approved,1,0,2026-01-31 23:59:59,0
+99,1,2026-01-15,payable_invoice,JACK RYAN CABAGNOT — RFP No.# 4776,1050.0000,1050.0000,approved,1,0,2026-01-31 23:59:59,0
+100,1,2026-01-15,payable_invoice,MARIAN BIA BLANCO — RFP No.# 4777,5662.5000,5662.5000,approved,1,0,2026-01-31 23:59:59,0
+101,1,2026-01-15,payable_invoice,JAY ANNE CELINA LIM — RFP No.# 4778,19800.0000,19800.0000,approved,1,0,2026-01-31 23:59:59,0
+102,1,2026-01-15,payable_invoice,KYLL JOSEPH TRINIDAD — RFP No.# 4779,19800.0000,19800.0000,approved,1,0,2026-01-31 23:59:59,0
+103,1,2026-01-15,payable_invoice,VINCE ARDEL LOCAYLOCAY — RFP No.# 4780,4950.0000,4950.0000,approved,1,0,2026-01-31 23:59:59,0
+104,1,2026-01-15,payable_invoice,LARA THERESE DELICA — RFP No.# 4781,6100.0000,6100.0000,approved,1,0,2026-01-31 23:59:59,0
+105,1,2026-01-15,payable_invoice,ANN MONIQUE AMAZONA — RFP No.# 4782,4950.0000,4950.0000,approved,1,0,2026-01-31 23:59:59,0
+106,1,2026-01-15,payable_invoice,MAURIE BETH GAMUTAN — RFP No.# 4783,4950.0000,4950.0000,approved,1,0,2026-01-31 23:59:59,0
+107,1,2026-01-15,payable_invoice,MARY CHRIS GARGAR — RFP No.# 4784,14850.0000,14850.0000,approved,1,0,2026-01-31 23:59:59,0
+108,1,2026-01-16,journal_entry,Reversal of: Globe -To accrue mobile for the month of december 2025 mobile - Globe -To accrue mobile for the month of december 2025 mobile — #45140,11184.0000,11184.0000,approved,1,0,2026-01-31 23:59:59,0
+109,1,2026-01-16,journal_entry,Reversal of: Globe -To accrue mobile for the month of october 2025 mobile - Globe -To accrue mobile for the month of october 2025 mobile — #45148,11184.0000,11184.0000,approved,1,0,2026-01-31 23:59:59,0
+110,1,2026-01-16,journal_entry,"Sales Branches January 16, 2026 - Term Sales - January, 16 — #48432",656362.0000,656362.0000,approved,1,0,2026-01-31 23:59:59,0
+111,1,2026-01-16,payable_invoice,"BEROVAN MARKETING, INC. — 0126-000007",10500.0000,10500.0000,approved,1,0,2026-01-31 23:59:59,0
+112,1,2026-01-16,payable_invoice,SKY MEDICAL SUPPLY — RFP No.# 4755,35100.0000,35100.0000,approved,1,0,2026-01-31 23:59:59,0
+113,1,2026-01-16,payable_payment,Payment: JACK RYAN CABAGNOT — Oniline-011626,0.0000,242027.5000,approved,1,0,2026-01-31 23:59:59,0
+114,1,2026-01-16,payable_payment,Payment: Shanesse Angelee Cortes — RFP No.# 4762,96842.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+115,1,2026-01-16,payable_payment,Payment: JHOANNA KRISSIAH MAYO — RFP No.# 4766,8700.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+116,1,2026-01-16,payable_payment,Payment: PATRICIA MAE GUMBAN — RFP No.# 4767,3750.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+117,1,2026-01-16,payable_payment,Payment: CLAVEL LUCERO — RFP No.# 4768,7875.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+118,1,2026-01-16,payable_payment,Payment: ANDREA EVETTE ANTEPUESTO — RFP No.# 4769,4162.5000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+119,1,2026-01-16,payable_payment,Payment: HANNAH MALAIT — RFP No.# 4770,4987.5000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+120,1,2026-01-16,payable_payment,Payment: JESSA MEL SINGSON — RFP No.# 4771,6225.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+121,1,2026-01-16,payable_payment,Payment: LEAVILLE KAYE FLORES — RFP No.# 4772,2925.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+122,1,2026-01-16,payable_payment,Payment: ERIC VINCENT AMISOLA — RFP No.# 4773,6750.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+123,1,2026-01-16,payable_payment,Payment: RICA MAE ARIATE — RFP No.# 4774,6750.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+124,1,2026-01-16,payable_payment,Payment: MARY ANN RELLIN — RFP No.# 4775,6750.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+125,1,2026-01-16,payable_payment,Payment: JACK RYAN CABAGNOT — RFP No.# 4776,1050.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+126,1,2026-01-16,payable_payment,Payment: MARIAN BIA BLANCO — RFP No.# 4777,5662.5000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+127,1,2026-01-16,payable_payment,Payment: JAY ANNE CELINA LIM — RFP No.# 4778,19800.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+128,1,2026-01-16,payable_payment,Payment: KYLL JOSEPH TRINIDAD — RFP No.# 4779,19800.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+129,1,2026-01-16,payable_payment,Payment: VINCE ARDEL LOCAYLOCAY — RFP No.# 4780,4950.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+130,1,2026-01-16,payable_payment,Payment: LARA THERESE DELICA — RFP No.# 4781,6100.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+131,1,2026-01-16,payable_payment,Payment: ANN MONIQUE AMAZONA — RFP No.# 4782,4950.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+132,1,2026-01-16,payable_payment,Payment: MAURIE BETH GAMUTAN — RFP No.# 4783,4950.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+133,1,2026-01-16,payable_payment,Payment: MARY CHRIS GARGAR — RFP No.# 4784,14850.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+134,1,2026-01-17,journal_entry,"Sales Branches January 17, 2026 — #48434",236300.0000,236300.0000,approved,1,0,2026-01-31 23:59:59,0
+135,1,2026-01-19,journal_entry,"Sales Branches January 19, 2026 - Term Sales - January, 19 — #48436",305494.0000,305494.0000,approved,1,0,2026-01-31 23:59:59,0
+136,1,2026-01-19,receivable_invoice,"Cebuogawa Philippines, Inc. - DRUG TESTING | 12/22/2025 |CEBUOGAWA PHILS. INC. |DRUG TESTING | 50PAX|300 | — MO-3278",15000.0000,15000.0000,approved,1,0,2026-01-31 23:59:59,0
+137,1,2026-01-20,journal_entry,"CPCI Payroll for January 1-15, 2026 - Mobile Medical Affairs - CPCI Payroll for January 1-15, 2026 - Mobile Medical Affairs — #46340",134138.6100,134138.6100,approved,1,0,2026-01-31 23:59:59,0
+138,1,2026-01-20,journal_entry,"CPCI Payroll for January 1-15, 2026 - Mobile Operations - CPCI Payroll for January 1-15, 2026 - Mobile Operations TTHE LOAN Rio, Mae — #46346",194398.5300,194398.5300,approved,1,0,2026-01-31 23:59:59,0
+139,1,2026-01-20,journal_entry,"Sales Branches January 20, 2026 - Term Sales - January, 20 — #48438",349518.0000,349518.0000,approved,1,0,2026-01-31 23:59:59,0
+140,1,2026-01-20,payable_invoice,DG'S INK TRADING — 0126-000025,2300.0000,2300.0000,approved,1,0,2026-01-31 23:59:59,0
+141,1,2026-01-20,payable_invoice,Shanesse Angelee Cortes — RFP No.# 4812,97549.0000,97549.0000,approved,1,0,2026-01-31 23:59:59,0
+142,1,2026-01-20,payable_payment,Payment: REX YNAN PATALINGHUG — Online-012026,0.0000,106249.0000,approved,1,0,2026-01-31 23:59:59,0
+143,1,2026-01-20,payable_payment,Payment: REX YNAN PATALINGHUG — RFP No.# 4765,8700.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+144,1,2026-01-20,payable_payment,Payment: Shanesse Angelee Cortes — RFP No.# 4812,97549.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+145,1,2026-01-20,receivable_credit_note,Arch Global Services (Philippines) Inc. — CN-4281,3441.0000,3441.0000,approved,1,0,2026-01-31 23:59:59,0
+146,1,2026-01-20,receivable_credit_note_allocation,Arch Global Services (Philippines) Inc. — CN-4281,3441.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+147,1,2026-01-20,receivable_credit_note_allocation,Arch Global Services (Philippines) Inc. — MO-2629,0.0000,3441.0000,approved,1,0,2026-01-31 23:59:59,0
+148,1,2026-01-20,receivable_invoice,Life & Health Hmp Inc - BASIC 5+ECG | 01/12/2026 | Coast Pacific - Mc Donalds  |BASIC 5+ECG | 7PAX|1000 | — MO-3279,36400.0000,36400.0000,approved,1,0,2026-01-31 23:59:59,0
+149,1,2026-01-21,journal_entry,"Sales Branches January 21, 2026 - Term Sales - January, 21 — #48440",415212.0000,415212.0000,approved,1,0,2026-01-31 23:59:59,0
+150,1,2026-01-21,payable_payment,"Payment: BEROVAN MARKETING, INC. — 0126-000007",10406.2500,0.0000,approved,1,0,2026-01-31 23:59:59,0
+151,1,2026-01-21,payable_payment,"Payment: BEROVAN MARKETING, INC. — 420711",0.0000,10406.2500,approved,1,0,2026-01-31 23:59:59,0
+152,1,2026-01-21,receivable_invoice,MCPI Corporation - DRUG TEST | 12/05/2025 |MCPI Corporation |DRUG TEST | 60PAX|300 | — MO-3280,18000.0000,18000.0000,approved,1,0,2026-01-31 23:59:59,0
+153,1,2026-01-21,receivable_invoice,Coast Pacific Golden Milestone Corporation - BASIC 5 | 01/12/2026 |Coast Pacific - Mc Donalds |BASIC 5 ) | 20PAX|650 | — MO-3281,13000.0000,13000.0000,approved,1,0,2026-01-31 23:59:59,0
+154,1,2026-01-22,journal_entry,to record depreciation expense for  January 2026 - Mobile — #45918,211324.0300,211324.0300,approved,1,0,2026-01-31 23:59:59,0
+155,1,2026-01-22,journal_entry,"Sales Branches January 22, 2026 - Term Sales - January, 22 — #48442",540202.0000,540202.0000,approved,1,0,2026-01-31 23:59:59,0
+156,1,2026-01-22,payable_invoice,LA NUEVA DRUGSTORE CHAINS INC. — RFP No.# 4791,119395.5400,119395.5400,approved,1,0,2026-01-31 23:59:59,0
+157,1,2026-01-22,payable_invoice,"SMART COMMUNICATIONS, INC. - VAT: Smart Communications Inc. FTP 12/01-12/31/2025; Mobile — RFP No.# 4834",2224.9600,0.0000,approved,1,0,2026-01-31 23:59:59,0
+158,1,2026-01-22,payable_invoice,Shanesse Angelee Cortes — RFP No.# 4837,24310.0000,24310.0000,approved,1,0,2026-01-31 23:59:59,0
+159,1,2026-01-22,payable_invoice,Shanesse Angelee Cortes — RFP No.# 4838,74477.5000,74477.5000,approved,1,0,2026-01-31 23:59:59,0
+160,1,2026-01-22,payable_invoice,MARY CHRIS GARGAR — RFP No.# 4839,19800.0000,19800.0000,approved,1,0,2026-01-31 23:59:59,0
+161,1,2026-01-22,payable_invoice,JAY ANNE CELINA LIM — RFP No.# 4840,19800.0000,19800.0000,approved,1,0,2026-01-31 23:59:59,0
+162,1,2026-01-22,payable_invoice,REX YNAN PATALINGHUG — RFP No.# 4841,9900.0000,9900.0000,approved,1,0,2026-01-31 23:59:59,0
+163,1,2026-01-22,payable_invoice,MA. ANGELA LARIZ LLAMES — RFP No.# 4842,4950.0000,4950.0000,approved,1,0,2026-01-31 23:59:59,0
+164,1,2026-01-22,payable_invoice,JHOANNA KRISSIAH MAYO — RFP No.# 4844,19800.0000,19800.0000,approved,1,0,2026-01-31 23:59:59,0
+165,1,2026-01-22,payable_invoice,MEL CLAIRE DOLORES MONTEJO — RFP No.# 4845,4950.0000,4950.0000,approved,1,0,2026-01-31 23:59:59,0
+166,1,2026-01-22,payable_invoice,KYLL JOSEPH TRINIDAD — RFP No.# 4846,24750.0000,24750.0000,approved,1,0,2026-01-31 23:59:59,0
+167,1,2026-01-22,payable_invoice,JACK RYAN CABAGNOT — RFP No.# 4847,5550.0000,5550.0000,approved,1,0,2026-01-31 23:59:59,0
+168,1,2026-01-22,payable_invoice,LARA THERESE DELICA — RFP No.# 4848,1525.0000,1525.0000,approved,1,0,2026-01-31 23:59:59,0
+169,1,2026-01-22,payable_invoice,RICA MAE ARIATE — RFP No.# 4849,8250.0000,8250.0000,approved,1,0,2026-01-31 23:59:59,0
+170,1,2026-01-22,payable_invoice,ERIC VINCENT AMISOLA — RFP No.# 4850,8250.0000,8250.0000,approved,1,0,2026-01-31 23:59:59,0
+171,1,2026-01-22,payable_invoice,MARIAN BIA BLANCO — RFP No.# 4851,6000.0000,6000.0000,approved,1,0,2026-01-31 23:59:59,0
+172,1,2026-01-22,payable_invoice,ANDREA EVETTE ANTEPUESTO — RFP No.# 4852,7500.0000,7500.0000,approved,1,0,2026-01-31 23:59:59,0
+173,1,2026-01-22,payable_invoice,CLAVEL LUCERO — RFP No.# 4853,6600.0000,6600.0000,approved,1,0,2026-01-31 23:59:59,0
+174,1,2026-01-22,payable_invoice,SHAINA MARIE DOCOG — RFP No.# 4855,6000.0000,6000.0000,approved,1,0,2026-01-31 23:59:59,0
+175,1,2026-01-22,payable_invoice,LEAVILLE KAYE FLORES — RFP No.# 4856,4950.0000,4950.0000,approved,1,0,2026-01-31 23:59:59,0
+176,1,2026-01-22,payable_invoice,JESSA MEL SINGSON — RFP No.# 4857,4950.0000,4950.0000,approved,1,0,2026-01-31 23:59:59,0
+177,1,2026-01-22,payable_invoice,ANN MONIQUE AMAZONA — RFP No.# 4858,4950.0000,4950.0000,approved,1,0,2026-01-31 23:59:59,0
+178,1,2026-01-22,payable_invoice,MARY ANN RELLIN — RFP No.# 4859,7000.0000,7000.0000,approved,1,0,2026-01-31 23:59:59,0
+179,1,2026-01-22,payable_invoice,HANNAH MALAIT — RFP No.# 4860,1525.0000,1525.0000,approved,1,0,2026-01-31 23:59:59,0
+180,1,2026-01-22,payable_invoice,CORA ALIVIADO — RFP No.# 4861,1500.0000,1500.0000,approved,1,0,2026-01-31 23:59:59,0
+181,1,2026-01-22,payable_invoice,ALEXANDRA MARIE SAN MARTE — RFP No.# 4862,8250.0000,8250.0000,approved,1,0,2026-01-31 23:59:59,0
+182,1,2026-01-22,receivable_invoice,"Asalus Corporation - Additional Test | SGPT |  | 01/12/2026 |Cebu General Services, Inc. |Additional Test | SGPT |  | 2PAX|250 | — MO-3283",96410.0000,96410.0000,approved,1,0,2026-01-31 23:59:59,0
+183,1,2026-01-22,receivable_invoice,Life & Health Hmp Inc - Basic 5 | 01/13/2026 |Coast Pacific -Head Office |Basic 5 | 42PAX|600 | — MO-3286,118200.0000,118200.0000,approved,1,0,2026-01-31 23:59:59,0
+184,1,2026-01-22,receivable_invoice,"Toyota Cebu City, Inc - DRUG TESTING | 08/26/2025 |Toyota Cebu City |DRUG TESTING | — MO-3309",18300.0000,18300.0000,approved,1,0,2026-01-31 23:59:59,0
+185,1,2026-01-22,receivable_invoice,Toyota Mandaue South - DRUG TESTING | 08/26/2025 |Toyota Mandaue South — MO-3312,16200.0000,16200.0000,approved,1,0,2026-01-31 23:59:59,0
+186,1,2026-01-22,receivable_invoice,Toyota Mandaue North - DRUG TESTING | 08/26/2025 |Toyota Mandaue North | | — MO-3316,15000.0000,15000.0000,approved,1,0,2026-01-31 23:59:59,0
+187,1,2026-01-22,receivable_payment,Payment: Security & Systems Monitoring Inc — MO-3266,0.0000,26100.0000,approved,1,0,2026-01-31 23:59:59,0
+188,1,2026-01-22,receivable_payment,Payment: Security & Systems Monitoring Inc — Online Payment,26100.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+189,1,2026-01-23,journal_entry,Reversal of: Smart Comm - To accrue payment for Smart december 2025 mobile - Smart Comm - To accrue payment for Smart december 2025 mobile — #45954,1550.0000,1550.0000,approved,1,0,2026-01-31 23:59:59,0
+190,1,2026-01-23,journal_entry,"Sales Branches January 23, 2026 - Term Sales - January, 23 — #48444",381514.0000,381514.0000,approved,1,0,2026-01-31 23:59:59,0
+191,1,2026-01-23,payable_payment,Payment: CORA ALIVIADO — Online-012326,0.0000,407158.0000,approved,1,0,2026-01-31 23:59:59,0
+192,1,2026-01-23,payable_payment,Payment: LA NUEVA DRUGSTORE CHAINS INC. — RFP No.# 4791,119395.5400,0.0000,approved,1,0,2026-01-31 23:59:59,0
+193,1,2026-01-23,payable_payment,Payment: Shanesse Angelee Cortes — RFP No.# 4837,24310.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+194,1,2026-01-23,payable_payment,Payment: Shanesse Angelee Cortes — RFP No.# 4838,74477.5000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+195,1,2026-01-23,payable_payment,Payment: MARY CHRIS GARGAR — RFP No.# 4839,19800.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+196,1,2026-01-23,payable_payment,Payment: JAY ANNE CELINA LIM — RFP No.# 4840,19800.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+197,1,2026-01-23,payable_payment,Payment: REX YNAN PATALINGHUG — RFP No.# 4841,9900.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+198,1,2026-01-23,payable_payment,Payment: MA. ANGELA LARIZ LLAMES — RFP No.# 4842,4950.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+199,1,2026-01-23,payable_payment,Payment: JHOANNA KRISSIAH MAYO — RFP No.# 4844,19800.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+200,1,2026-01-23,payable_payment,Payment: MEL CLAIRE DOLORES MONTEJO — RFP No.# 4845,4950.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+201,1,2026-01-23,payable_payment,Payment: KYLL JOSEPH TRINIDAD — RFP No.# 4846,24750.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+202,1,2026-01-23,payable_payment,Payment: JACK RYAN CABAGNOT — RFP No.# 4847,5550.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+203,1,2026-01-23,payable_payment,Payment: LARA THERESE DELICA — RFP No.# 4848,1525.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+204,1,2026-01-23,payable_payment,Payment: RICA MAE ARIATE — RFP No.# 4849,8250.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+205,1,2026-01-23,payable_payment,Payment: ERIC VINCENT AMISOLA — RFP No.# 4850,8250.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+206,1,2026-01-23,payable_payment,Payment: MARIAN BIA BLANCO — RFP No.# 4851,6000.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+207,1,2026-01-23,payable_payment,Payment: ANDREA EVETTE ANTEPUESTO — RFP No.# 4852,7500.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+208,1,2026-01-23,payable_payment,Payment: CLAVEL LUCERO — RFP No.# 4853,6600.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+209,1,2026-01-23,payable_payment,Payment: SHAINA MARIE DOCOG — RFP No.# 4855,6000.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+210,1,2026-01-23,payable_payment,Payment: LEAVILLE KAYE FLORES — RFP No.# 4856,4950.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+211,1,2026-01-23,payable_payment,Payment: JESSA MEL SINGSON — RFP No.# 4857,4950.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+212,1,2026-01-23,payable_payment,Payment: ANN MONIQUE AMAZONA — RFP No.# 4858,4950.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+213,1,2026-01-23,payable_payment,Payment: MARY ANN RELLIN — RFP No.# 4859,7000.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+214,1,2026-01-23,payable_payment,Payment: HANNAH MALAIT — RFP No.# 4860,1525.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+215,1,2026-01-23,payable_payment,Payment: CORA ALIVIADO — RFP No.# 4861,1500.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+216,1,2026-01-23,payable_payment,Payment: ALEXANDRA MARIE SAN MARTE — RFP No.# 4862,8250.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+217,1,2026-01-24,journal_entry,"Sales Branches January 24, 2026 — #48446",139318.0000,139318.0000,approved,1,0,2026-01-31 23:59:59,0
+218,1,2026-01-26,journal_entry,Smart Comm - To accrue payment for Smart January 2026 all — #46113,2224.9600,2224.9600,approved,1,0,2026-01-31 23:59:59,0
+219,1,2026-01-26,journal_entry,To accrue: DITO Telecommunity Corporation - Payment for DITO WiFive plan monthly service fee January 2026 - To accrue: DITO Telecommunity Corporation - Payment for DITO WiFive plan monthly service fee January 2026 — #46114,16392.0000,16392.0000,approved,1,0,2026-01-31 23:59:59,0
+220,1,2026-01-26,journal_entry,Globe -To accrue mobile for the month of January 2026 all — #46115,2197.0000,2197.0000,approved,1,0,2026-01-31 23:59:59,0
+221,1,2026-01-26,journal_entry,"Sales Branches January 26, 2026 - Term Sales - January, 26 — #48448",340052.0000,340052.0000,approved,1,0,2026-01-31 23:59:59,0
+222,1,2026-01-27,journal_entry,Reversal of: To accrue: DITO Telecommunity Corporation - Payment for DITO WiFive plan monthly service fee december - To accrue: DITO Telecommunity Corporation - Payment for DITO WiFive plan monthly service fee december — #46426,16392.0000,16392.0000,approved,1,0,2026-01-31 23:59:59,0
+223,1,2026-01-27,journal_entry,Reversal of: To accrue: DITO Telecommunity Corporation - Payment for DITO WiFive plan monthly service fee september - To accrue: DITO Telecommunity Corporation - Payment for DITO WiFive plan monthly service fee september — #46430,11904.0000,11904.0000,approved,1,0,2026-01-31 23:59:59,0
+224,1,2026-01-27,journal_entry,"Sales Branches January 27, 2026 - Term Sales - January, 27 — #48450",229600.0000,229600.0000,approved,1,0,2026-01-31 23:59:59,0
+225,1,2026-01-27,payable_invoice,SOCIAL SECURITY SYSTEM - Payment for SSS Contribution for the month of December 2025 (Employer Share) — RFP No.# 4668,38250.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+226,1,2026-01-27,payable_invoice,DITO Telecommunity Corporation — RFP No.# 4835,16392.0000,16392.0000,approved,1,0,2026-01-31 23:59:59,0
+227,1,2026-01-27,payable_invoice,Shanesse Angelee Cortes — RFP No.# 4931,15763.0000,15763.0000,approved,1,0,2026-01-31 23:59:59,0
+228,1,2026-01-27,payable_invoice,Shanesse Angelee Cortes — RFP No.# 4932,83293.0000,83293.0000,approved,1,0,2026-01-31 23:59:59,0
+229,1,2026-01-27,payable_payment,Payment: EUGENE TIO — Online-012726,0.0000,140306.0000,approved,1,0,2026-01-31 23:59:59,0
+230,1,2026-01-27,payable_payment,Payment: Shanesse Angelee Cortes — RFP No.# 4931,15763.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+231,1,2026-01-27,payable_payment,Payment: Shanesse Angelee Cortes — RFP No.# 4932,83293.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+232,1,2026-01-27,receivable_invoice,RGE AGRIDEV CORP. - RGE AGRIDEV - HEPATITIS - ANTI-HAV IGM | 01/17/2026 — MO-3317,236300.0000,236300.0000,approved,1,0,2026-01-31 23:59:59,0
+233,1,2026-01-28,journal_entry,"Sales Branches January 28, 2026 - Term Sales - January, 28 — #48452",417912.0000,417912.0000,approved,1,0,2026-01-31 23:59:59,0
+234,1,2026-01-28,receivable_invoice,Maxicare Healthcare Corporation - MAXICARE - PACKAGE 1 | 01/15/2026 — MO-3318,130790.0000,130790.0000,approved,1,0,2026-01-31 23:59:59,0
+235,1,2026-01-28,receivable_invoice,Sunlife Grepa Financial Inc - ERYTHROCYTE SEDIMENTATION RATE (ESR) | 01/14/2026 |CENAPRO CHEMICAL CORP. — MO-3319,94730.0000,94730.0000,approved,1,0,2026-01-31 23:59:59,0
+236,1,2026-01-28,receivable_invoice,GSK Realtech Corporation - FECALYSIS | 01/14/2026 |CENAPRO CHEMICAL CORP. — MO-3320,29326.0000,29326.0000,approved,1,0,2026-01-31 23:59:59,0
+237,1,2026-01-28,receivable_invoice,CENAPRO CHEMICAL CORP. - BASIC5 | 01/14/2026 |CENAPRO CHEMICAL CORP. — MO-3321,1585.0000,1585.0000,approved,1,0,2026-01-31 23:59:59,0
+238,1,2026-01-28,receivable_invoice,"PELICAN DISTRIBUTION, INC. - WEEK 1 |Malachite Values Builders Inc. |BASIC 5 | — MO-3326",2200.0000,2200.0000,approved,1,0,2026-01-31 23:59:59,0
+239,1,2026-01-28,receivable_invoice,"PELICAN DISTRIBUTION, INC. - WEEK 3 |PELICAN DISTRIBUTION, INC.   |BASIC 5 — MO-3327",1500.0000,1500.0000,approved,1,0,2026-01-31 23:59:59,0
+240,1,2026-01-28,receivable_invoice,Malachite Values Builders Inc. - WEEK 1 |Malachite Values Builders Inc. |BASIC 5 — MO-3328,52460.0000,52460.0000,approved,1,0,2026-01-31 23:59:59,0
+241,1,2026-01-28,receivable_invoice,Malachite Values Builders Inc. - WEEK 2 |Malachite Values Builders Inc. |BASIC 5 + SGPT — MO-3329,67048.0000,67048.0000,approved,1,0,2026-01-31 23:59:59,0
+242,1,2026-01-28,receivable_invoice,Malachite Values Builders Inc. - WEEK 3 |Malachite Values Builders Inc. |BASIC 5 + ECG — MO-3330,47188.0000,47188.0000,approved,1,0,2026-01-31 23:59:59,0
+243,1,2026-01-28,receivable_invoice,Cebu Labor Link Manpower - WEEK 1 |Cebu Labor Link Manpower |BASIC 5 + SGPT — MO-3331,172930.0000,172930.0000,approved,1,0,2026-01-31 23:59:59,0
+244,1,2026-01-28,receivable_invoice,Cebu Labor Link Manpower - WEEK 2 |Cebu Labor Link Manpower |BASIC 5 + SGPT — MO-3332,119446.0000,119446.0000,approved,1,0,2026-01-31 23:59:59,0
+245,1,2026-01-28,receivable_invoice,Cebu Labor Link Manpower - WEEK 3 |Cebu Labor Link Manpower |BASIC 5 + SGPT — MO-3333,187778.0000,187778.0000,approved,1,0,2026-01-31 23:59:59,0
+246,1,2026-01-29,journal_entry,"To Record deposit sales Branches Unidentified January 29, 2026 - excess liquiddation fr SHANESSE ANGELEE ALERIA CORTES — #47498",0.0000,267.0000,approved,1,0,2026-01-31 23:59:59,0
+247,1,2026-01-29,journal_entry,"Sales Branches January 29, 2026 - Term Sales - January, 29 — #48454",216981.0000,216981.0000,approved,1,0,2026-01-31 23:59:59,0
+248,1,2026-01-29,payable_invoice,JHOANNA KRISSIAH MAYO — RFP No.# 4963,24750.0000,24750.0000,approved,1,0,2026-01-31 23:59:59,0
+249,1,2026-01-29,payable_invoice,REX YNAN PATALINGHUG — RFP No.# 4964,4950.0000,4950.0000,approved,1,0,2026-01-31 23:59:59,0
+250,1,2026-01-29,payable_invoice,PAUL MCLIN LEPITEN — RFP No.# 4965,3300.0000,3300.0000,approved,1,0,2026-01-31 23:59:59,0
+251,1,2026-01-29,payable_invoice,CLAVEL LUCERO — RFP No.# 4966,6600.0000,6600.0000,approved,1,0,2026-01-31 23:59:59,0
+252,1,2026-01-29,payable_invoice,MARY CHRIS SHIVANI GARGAR — RFP No.# 4967,19800.0000,19800.0000,approved,1,0,2026-01-31 23:59:59,0
+253,1,2026-01-29,payable_invoice,HANNAH MALAIT — RFP No.# 4968,4162.5000,4162.5000,approved,1,0,2026-01-31 23:59:59,0
+254,1,2026-01-29,payable_invoice,SHAINA MARIE DOCOG — RFP No.# 4969,6000.0000,6000.0000,approved,1,0,2026-01-31 23:59:59,0
+255,1,2026-01-29,payable_invoice,MARIAN BIA BLANCO — RFP No.# 4970,7500.0000,7500.0000,approved,1,0,2026-01-31 23:59:59,0
+256,1,2026-01-29,payable_invoice,LEAVILLE KAYE FLORES — RFP No.# 4972,4950.0000,4950.0000,approved,1,0,2026-01-31 23:59:59,0
+257,1,2026-01-29,payable_invoice,MARY ANN RELLIN — RFP No.# 4973,7000.0000,7000.0000,approved,1,0,2026-01-31 23:59:59,0
+258,1,2026-01-29,payable_invoice,RICA MAE ARIATE — RFP No.# 4974,7000.0000,7000.0000,approved,1,0,2026-01-31 23:59:59,0
+259,1,2026-01-29,payable_invoice,ERIC VINCENT AMISOLA — RFP No.# 4975,7000.0000,7000.0000,approved,1,0,2026-01-31 23:59:59,0
+260,1,2026-01-29,payable_invoice,LARA THERESE DELICA — RFP No.# 4976,3300.0000,3300.0000,approved,1,0,2026-01-31 23:59:59,0
+261,1,2026-01-29,payable_invoice,MEL CLAIRE DOLORES MONTEJO — RFP No.# 4977,4950.0000,4950.0000,approved,1,0,2026-01-31 23:59:59,0
+262,1,2026-01-29,payable_invoice,VINCE ARDEL LOCAYLOCAY — RFP No.# 4978,4950.0000,4950.0000,approved,1,0,2026-01-31 23:59:59,0
+263,1,2026-01-29,payable_invoice,CORA ALIVIADO — RFP No.# 4979,1500.0000,1500.0000,approved,1,0,2026-01-31 23:59:59,0
+264,1,2026-01-29,payable_invoice,ANN MONIQUE AMAZONA — RFP No.# 4980,4950.0000,4950.0000,approved,1,0,2026-01-31 23:59:59,0
+265,1,2026-01-29,payable_invoice,JESSA MEL SINGSON — RFP No.# 4981,3300.0000,3300.0000,approved,1,0,2026-01-31 23:59:59,0
+266,1,2026-01-29,payable_invoice,ALEXANDRA MARIE SAN MARTE — RFP No.# 4982,6600.0000,6600.0000,approved,1,0,2026-01-31 23:59:59,0
+267,1,2026-01-29,payable_invoice,JACK RYAN CABAGNOT — RFP No.# 4983,1500.0000,1500.0000,approved,1,0,2026-01-31 23:59:59,0
+268,1,2026-01-29,payable_invoice,PATRICIA MAE GUMBAN — RFP No.# 4984,4950.0000,4950.0000,approved,1,0,2026-01-31 23:59:59,0
+269,1,2026-01-29,payable_invoice,KYLL JOSEPH TRINIDAD — RFP No.# 4986,14850.0000,14850.0000,approved,1,0,2026-01-31 23:59:59,0
+270,1,2026-01-29,payable_invoice,JAY ANNE CELINA LIM — RFP No.# 4987,14850.0000,14850.0000,approved,1,0,2026-01-31 23:59:59,0
+271,1,2026-01-29,payable_invoice,Shanesse Angelee Cortes — RFP No.# 4994,72026.0000,72026.0000,approved,1,0,2026-01-31 23:59:59,0
+272,1,2026-01-29,payable_invoice,Shanesse Angelee Cortes — RFP No.# 4995,16984.0000,16984.0000,approved,1,0,2026-01-31 23:59:59,0
+273,1,2026-01-29,payable_payment,Payment: ALEXI ANN S. ONG — RFP No.# 2655,1000.0000,1000.0000,approved,1,0,2026-01-31 23:59:59,0
+274,1,2026-01-29,payable_payment,Payment: CHARLS ANN BARANG — RFP No.# 2656,1000.0000,1000.0000,approved,1,0,2026-01-31 23:59:59,0
+275,1,2026-01-29,payable_payment,Payment: DITO Telecommunity Corporation — RFP No.# 4835,16392.0000,16392.0000,approved,1,0,2026-01-31 23:59:59,0
+276,1,2026-01-30,journal_entry,"accrual for liquidation Advances to employee for KA's Payroll December 26, 2025- January 10, 2026 CA- 0268; January 11-25,2026 CA- 0274 - accrual for liquidation Advances to employee for KA's Payroll December 26, 2025- January 10, 2026 CA- 0268; January 11-25,2026 CA- 0274 — #47456",1736211.6600,870265.8300,approved,1,0,2026-01-31 23:59:59,0
+277,1,2026-01-30,journal_entry,"Sales Branches January 30, 2026 - Term Sales - January, 30 — #48456",136009.0000,136009.0000,approved,1,0,2026-01-31 23:59:59,0
+278,1,2026-01-30,payable_payment,Payment: CORA ALIVIADO — Online-013026,0.0000,257722.5000,approved,1,0,2026-01-31 23:59:59,0
+279,1,2026-01-30,payable_payment,Payment: JHOANNA KRISSIAH MAYO — RFP No.# 4963,24750.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+280,1,2026-01-30,payable_payment,Payment: REX YNAN PATALINGHUG — RFP No.# 4964,4950.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+281,1,2026-01-30,payable_payment,Payment: PAUL MCLIN LEPITEN — RFP No.# 4965,3300.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+282,1,2026-01-30,payable_payment,Payment: CLAVEL LUCERO — RFP No.# 4966,6600.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+283,1,2026-01-30,payable_payment,Payment: MARY CHRIS SHIVANI GARGAR — RFP No.# 4967,19800.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+284,1,2026-01-30,payable_payment,Payment: HANNAH MALAIT — RFP No.# 4968,4162.5000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+285,1,2026-01-30,payable_payment,Payment: SHAINA MARIE DOCOG — RFP No.# 4969,6000.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+286,1,2026-01-30,payable_payment,Payment: MARIAN BIA BLANCO — RFP No.# 4970,7500.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+287,1,2026-01-30,payable_payment,Payment: LEAVILLE KAYE FLORES — RFP No.# 4972,4950.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+288,1,2026-01-30,payable_payment,Payment: MARY ANN RELLIN — RFP No.# 4973,7000.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+289,1,2026-01-30,payable_payment,Payment: RICA MAE ARIATE — RFP No.# 4974,7000.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+290,1,2026-01-30,payable_payment,Payment: ERIC VINCENT AMISOLA — RFP No.# 4975,7000.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+291,1,2026-01-30,payable_payment,Payment: LARA THERESE DELICA — RFP No.# 4976,3300.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+292,1,2026-01-30,payable_payment,Payment: MEL CLAIRE DOLORES MONTEJO — RFP No.# 4977,4950.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+293,1,2026-01-30,payable_payment,Payment: VINCE ARDEL LOCAYLOCAY — RFP No.# 4978,4950.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+294,1,2026-01-30,payable_payment,Payment: CORA ALIVIADO — RFP No.# 4979,1500.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+295,1,2026-01-30,payable_payment,Payment: ANN MONIQUE AMAZONA — RFP No.# 4980,4950.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+296,1,2026-01-30,payable_payment,Payment: JESSA MEL SINGSON — RFP No.# 4981,3300.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+297,1,2026-01-30,payable_payment,Payment: ALEXANDRA MARIE SAN MARTE — RFP No.# 4982,6600.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+298,1,2026-01-30,payable_payment,Payment: JACK RYAN CABAGNOT — RFP No.# 4983,1500.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+299,1,2026-01-30,payable_payment,Payment: PATRICIA MAE GUMBAN — RFP No.# 4984,4950.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+300,1,2026-01-30,payable_payment,Payment: KYLL JOSEPH TRINIDAD — RFP No.# 4986,14850.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+301,1,2026-01-30,payable_payment,Payment: JAY ANNE CELINA LIM — RFP No.# 4987,14850.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+302,1,2026-01-30,payable_payment,Payment: Shanesse Angelee Cortes — RFP No.# 4994,72026.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+303,1,2026-01-30,payable_payment,Payment: Shanesse Angelee Cortes — RFP No.# 4995,16984.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+304,1,2026-01-30,receivable_invoice,Virginia Food Inc - WEEK 1 |VIRGINIA FOOD INC |BASIC5 — MO-3323,119396.0000,119396.0000,approved,1,0,2026-01-31 23:59:59,0
+305,1,2026-01-30,receivable_invoice,Virginia Food Inc - WEEK 2 | VIRGINIA FOOD INC |BASIC 5 + ECG — MO-3324,141570.0000,141570.0000,approved,1,0,2026-01-31 23:59:59,0
+306,1,2026-01-30,receivable_invoice,Virginia Food Inc - WEEK 3 |VIRGINIA FOOD INC |BASIC 5 + SGPT — MO-3325,140732.0000,140732.0000,approved,1,0,2026-01-31 23:59:59,0
+307,1,2026-01-31,journal_entry,CPCI Employee benefits silver + 5k + dependents (15000+5000+(1200*3))/12 = 2k per EE per month - CPCI Employee benefits silver + 5k + dependents (15000+5000+(1200*3))/12 = 2k per EE per month — #47688,28000.0000,0.0000,approved,1,0,2026-01-31 23:59:59,0
+308,1,2026-01-31,journal_entry,Advances to employee for meal allowance and reliever fees CA- 0267 MAUREEN LICYAYO -  Advances to employee for meal allowance and reliever fees CA- 0267 MAUREEN LICYAYO — #47783,60000.0000,60000.0000,approved,1,0,2026-01-31 23:59:59,0
+309,1,2026-01-31,journal_entry,"CPCI Payroll for January 16-31, 2026 - Mobile Operations - CPCI Payroll for January 16-31, 2026 - Mobile Operations — #48147",221173.9200,221173.9200,approved,1,0,2026-01-31 23:59:59,0
+310,1,2026-01-31,journal_entry,"CPCI Payroll for January 16-31, 2026 - Mobile Medical Affairs - CPCI Payroll for January 16-31, 2026 - Mobile Medical Affairs — #48148",113020.8300,113020.8300,approved,1,0,2026-01-31 23:59:59,0
+311,1,2026-01-31,journal_entry,To record the accrual of the 13th Month Pay for January 2026 - To record the accrual of the 13th Month Pay for JAnuary 2026 — #48273,27981.0400,27981.0400,approved,1,0,2026-01-31 23:59:59,0
+312,1,2026-01-31,journal_entry,to record accrual of the SL sick leave conversion january 2026 - to record accrual of the SL sick leave conversion january 2026 — #48275,4589.8900,0.0000,approved,1,0,2026-01-31 23:59:59,0
+313,1,2026-01-31,journal_entry,To record inventory consumption January 2026 — #48289,602221.0000,602221.0000,approved,1,0,2026-01-31 23:59:59,0
+314,1,2026-01-31,journal_entry,To record inventory variance for the month of January 2026 - To record inventory variance for the month of January 2026 — #48290,321.0000,321.0000,approved,1,0,2026-01-31 23:59:59,0
+315,1,2026-01-31,journal_entry,"Sales Branches January 31, 2026 - Term Sales - January, 31 — #48458",2991540.0000,2991540.0000,approved,1,0,2026-01-31 23:59:59,0
+316,1,2026-01-31,journal_entry,To reclassify Konsulta FPE revenue January 2026 - To reclassify Konsulta FPE revenue January 2026 — #48475,1845520.0000,1845520.0000,approved,1,0,2026-01-31 23:59:59,0
+317,1,2026-01-31,payable_invoice,Shanesse Angelee Cortes — RFP No.# 5004,6450.0000,6450.0000,approved,1,0,2026-01-31 23:59:59,0
+318,1,2026-01-31,payable_invoice,Shanesse Angelee Cortes — RFP No.# 5005,93587.5000,93587.5000,approved,1,0,2026-01-31 23:59:59,0
+319,1,2026-01-31,payable_invoice,MARY ANN RELLIN — RFP No.# 5022,1400.0000,1400.0000,approved,1,0,2026-01-31 23:59:59,0
+320,1,2026-01-31,payable_invoice,RICA MAE ARIATE — RFP No.# 5023,1400.0000,1400.0000,approved,1,0,2026-01-31 23:59:59,0
+321,1,2026-01-31,payable_invoice,ERIC VINCENT AMISOLA — RFP No.# 5024,1400.0000,1400.0000,approved,1,0,2026-01-31 23:59:59,0
+322,1,2026-01-31,payable_invoice,MARIAN BIA BLANCO — RFP No.# 5025,1500.0000,1500.0000,approved,1,0,2026-01-31 23:59:59,0
+323,1,2026-01-31,payable_invoice,MEL CLAIRE DOLORES MONTEJO — RFP No.# 5026,4950.0000,4950.0000,approved,1,0,2026-01-31 23:59:59,0
+324,1,2026-01-31,payable_invoice,PATRICIA MAE GUMBAN — RFP No.# 5027,4950.0000,4950.0000,approved,1,0,2026-01-31 23:59:59,0
+325,1,2026-01-31,payable_invoice,REX YNAN PATALINGHUG — RFP No.# 5028,4950.0000,4950.0000,approved,1,0,2026-01-31 23:59:59,0
+326,1,2026-01-31,payable_invoice,JHOANNA KRISSIAH MAYO — RFP No.# 5029,4950.0000,4950.0000,approved,1,0,2026-01-31 23:59:59,0
+327,1,2026-01-31,payable_invoice,CELESTINE DAMOLO — RFP No.# 5030,1500.0000,1500.0000,approved,1,0,2026-01-31 23:59:59,0
+328,1,2026-01-31,payable_invoice,HANNAH MALAIT — RFP No.# 5031,2775.0000,2775.0000,approved,1,0,2026-01-31 23:59:59,0
+329,1,2026-01-31,payable_invoice,LARA THERESE DELICA — RFP No.# 5032,1650.0000,1650.0000,approved,1,0,2026-01-31 23:59:59,0
+330,1,2026-01-31,payable_invoice,JESSA MEL SINGSON — RFP No.# 5033,1650.0000,1650.0000,approved,1,0,2026-01-31 23:59:59,0
+331,1,2026-01-31,payable_invoice,CLAVEL LUCERO — RFP No.# 5034,1650.0000,1650.0000,approved,1,0,2026-01-31 23:59:59,0
+332,1,2026-01-31,payable_invoice,CORA ALIVIADO — RFP No.# 5035,1500.0000,1500.0000,approved,1,0,2026-01-31 23:59:59,0
+333,1,2026-01-31,payable_invoice,LEAVILLE KAYE FLORES — RFP No.# 5036,1650.0000,1650.0000,approved,1,0,2026-01-31 23:59:59,0
+334,1,2026-01-31,payable_invoice,SHAINA MARIE DOCOG — RFP No.# 5037,1500.0000,1500.0000,approved,1,0,2026-01-31 23:59:59,0
+335,1,2026-01-31,payable_invoice,Shanesse Angelee Cortes — RFP No.# 5052,73838.5000,73838.5000,approved,1,0,2026-01-31 23:59:59,0
+336,1,2026-01-31,payable_invoice,Shanesse Angelee Cortes — RFP No.# 5053,26101.0000,26101.0000,approved,1,0,2026-01-31 23:59:59,0
+337,1,2026-01-31,receivable_invoice,Fast Autoworld Philippines Corporation - BASIC 5 + FBS | 01/10/2026 |Fast Autoworld Philippines Corporation |BASIC 5 + FBS | 1PAX|930 | — MO-3335,98505.0000,98505.0000,approved,1,0,2026-01-31 23:59:59,0
+338,1,2026-01-31,receivable_invoice,Fast Autoworld Philippines Corporation - BASIC 5 (STOOL OPTIONAL)+FBS+CREA | 01/10/2026 |NAMP-C MANDAUE |BASIC 5 (STOOL OPTIONAL)+FBS+CREA | 1PAX|1128 | — MO-3336,14628.0000,14628.0000,approved,1,0,2026-01-31 23:59:59,0
+339,1,2026-01-31,receivable_invoice,"VISEO BPO PHILS, INC. - MAXICARE - PACKAGE 1 | 1/15/2026| — MO-3337",1200.0000,1200.0000,approved,1,0,2026-01-31 23:59:59,0
+340,1,2026-01-31,receivable_invoice,Life & Health Hmp Inc - BASIC 5 + ECG + PAPSMEAR | 01/05/2026 |Montebello Villa Hotel — MO-3338,101520.0000,101520.0000,approved,1,0,2026-01-31 23:59:59,0
+341,1,2026-01-31,receivable_invoice,Montebello Villa Hotel - BASIC 5 + ECG | 01/05/2026 |Montebello Villa Hotel — MO-3491,95300.0000,95300.0000,approved,1,0,2026-01-31 23:59:59,0
+342,1,2026-01-31,receivable_invoice,"Mactan Shangri-la Hotel & Resort, Inc. - URINALYSIS, CBC, FECALYSIS, HEP A, HEP B | 01/23/2026 |Mactan Shangri-la Hotel & Resort, Inc. — MO-3494",220190.0000,220190.0000,approved,1,0,2026-01-31 23:59:59,0
+343,1,2026-01-31,receivable_invoice,Life & Health Hmp Inc - Basic 5 | 01/24/2026 |Coast Pacific-Black Diamond Infinite Motors Corp. — MO-3495,58600.0000,58600.0000,approved,1,0,2026-01-31 23:59:59,0
+344,1,2026-01-31,receivable_invoice,"Onitsuka Multi Products, Inc. - PE, CBC, UA, XRAY | 01/21/2026 |Onitsuka Multi Products, Inc. — MO-3496",113500.0000,113500.0000,approved,1,0,2026-01-31 23:59:59,0
+345,1,2026-01-31,receivable_invoice,"Toyota Cebu City, Inc - PACKAGE B | 01/22/2026 |Toyota Cebu City, Inc — MO-3497",149370.0000,149370.0000,approved,1,0,2026-01-31 23:59:59,0
+346,1,2026-01-31,receivable_invoice,Toyota Mandaue North - PACKAGE B | 01/20/2026 |Toyota Mandaue North — MO-3498,118350.0000,118350.0000,approved,1,0,2026-01-31 23:59:59,0
+347,1,2026-01-31,receivable_invoice,Softouch Property Development Corporation - PACKAGE 2 | 01/27/2026 |Softouch Property Development Corporation — MO-3499,48900.0000,48900.0000,approved,1,0,2026-01-31 23:59:59,0
+348,1,2026-01-31,receivable_invoice,Maxicare Healthcare Corporation - LIPID PANEL | 01/27/2026 |Softouch Property Development Corporation — MO-3500,4440.0000,4440.0000,approved,1,0,2026-01-31 23:59:59,0
+349,1,2026-01-31,receivable_invoice,"Rafanan, Jean Liao - PACKAGE 1 | 01/27/2026 |Softouch Property Development Corporation |PACKAGE 1 | 1PAX|650 | — MO-3501",6650.0000,6650.0000,approved,1,0,2026-01-31 23:59:59,0
+350,1,2026-01-31,receivable_invoice,Maxicare Healthcare Corporation - PACKAGE B | 01/28/2026 |Radiant BPO Services Inc. — MO-3502,93100.0000,93100.0000,approved,1,0,2026-01-31 23:59:59,0
+351,1,2026-01-31,receivable_invoice,Radiant BPO Services Inc. - PACKAGE A | 01/28/2026 |Radiant BPO Services Inc. — MO-3503,1830.0000,1830.0000,approved,1,0,2026-01-31 23:59:59,0
+352,1,2026-01-31,receivable_invoice,Generali Life Assurance Philippines Inc - BASIC 5 | 01/20/2026 |Cozo Filter Philippines Corp. — MO-3504,82310.0000,82310.0000,approved,1,0,2026-01-31 23:59:59,0
+353,1,2026-01-31,receivable_invoice,Maxicare Healthcare Corporation - BASIC 5 | 01/31/2026 |Neovia Philippines Inc. — MO-3505,107400.0000,107400.0000,approved,1,0,2026-01-31 23:59:59,0
+354,1,2026-01-31,receivable_invoice,Life & Health Hmp Inc - XRAY | 01/31/2026 |CFG Trading — MO-3506,17160.0000,17160.0000,approved,1,0,2026-01-31 23:59:59,0
+355,1,2026-01-31,receivable_invoice,CFG Trading - XRAY | 01/31/2026 |CFG Trading |XRAY | 25PAX|390 | — MO-3507,9750.0000,9750.0000,approved,1,0,2026-01-31 23:59:59,0
+356,1,2026-01-31,receivable_invoice,"Knowles Electronics Philippines - CBC, UA, XRAY, FBS | 01/23/2026 |Knowles Electronics Philippines — MO-3508",59330.0000,59330.0000,approved,1,0,2026-01-31 23:59:59,0
+357,1,2026-01-31,receivable_invoice,Softouch Property Construction Corporation - PACKAGE 1 | 01/27/2026 |Softouch Property Development Corporation — MO-3509,33040.0000,33040.0000,approved,1,0,2026-01-31 23:59:59,0
+358,1,2026-01-31,receivable_invoice,Cebu Home and Builders Centre - Admin & Mobilization Fee | 01/19/2026 |Cebu Home and Builders Centre -Mactan — MO-3512,40000.0000,40000.0000,approved,1,0,2026-01-31 23:59:59,0
+359,1,2026-01-31,receivable_invoice,Cebu Home and Builders Centre - Admin & Mobilization Fee | 01/19/2026 |Cebu Home and Builders Centre -Tingub — MO-3513,24400.0000,24400.0000,approved,1,0,2026-01-31 23:59:59,0

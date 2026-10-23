@@ -1,0 +1,384 @@
+{
+  "info": {
+    "_postman_id": "c4d5e6f7-8901-abcd-ef12-34567890abcd",
+    "name": "Send Outs (Census + APV)",
+    "description": "# Send Outs API\n\nCensus-backed send-out generate/delete. Source lines come from `mytemr_reports.sendout_census`. GET endpoints omit `branch_id` to union all diagnostic DBs. Generate groups `entries[]` by `branch_id` and writes one header per branch.\n\n## Auth\n- Header: `API-KEY` (required)\n- Body/query: `token`, `requester` (required on all endpoints)\n\n## Request body format\n- **GET** — query params\n- **POST** (generate / upload_attachment / delete) — **multipart form-data** (do not set `Content-Type` manually; Postman sets the boundary)\n- Nested `entries` use PHP-style bracket keys so `getVar()` receives an array\n\n## Branch map (diagnostic DBs)\n- `1` mobile\n- `2` oakridge (`mytemr_diagnostic`)\n- `3` mactan\n- `4` consolacion\n- `7` mantlewood\n\n## Methods\n`get`, `get_all_transaction`, `get_transaction`, `generate`, `upload_attachment`, `delete`\n\n## Attachments\nGenerate accepts optional multipart `attachments[]`. `upload_attachment` adds files to an existing send_out. Files are uploaded to VM4 under `assets/send_outs/{send_out_id}/`. GET returns nested `attachments`. Delete soft-deletes them with the header.\n\n## `facility_id` on generate\nHeader `facility_id` is optional. Default is the unique facility IDs from that branch group, comma-separated.\n\n## APV\n`accounts_payable_vouchers/get_all_for_apv` includes type `send_out`.\n- `amount` = `send_out.total_expense`\n- `supplier_type` = `supplier`\n- Eligible rows are live send_outs with no APV (`type=send_out`, `type_id=send_out.id`)\n",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost/cpci-business-ops-api"
+    },
+    {
+      "key": "api_key",
+      "value": "clinicaRiKOYqlwdTJ-lNedqS0k-it!395!-6ls1JXM7Vcc"
+    },
+    {
+      "key": "token",
+      "value": "{{token}}"
+    },
+    {
+      "key": "requester",
+      "value": "1"
+    }
+  ],
+  "item": [
+    {
+      "name": "Get send outs",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/send_outs/get?token={{token}}&requester={{requester}}&status=for_apv",
+          "host": ["{{base_url}}"],
+          "path": ["send_outs", "get"],
+          "query": [
+            { "key": "token", "value": "{{token}}" },
+            { "key": "requester", "value": "{{requester}}" },
+            { "key": "branch_id", "value": "2", "disabled": true, "description": "Omit to UNION ALL five diagnostic send_out tables" },
+            { "key": "send_out_id", "value": "", "disabled": true },
+            { "key": "supplier_id", "value": "", "disabled": true },
+            { "key": "status", "value": "for_apv", "description": "for_apv = no APV yet; apv = has accounts_payable_voucher type=send_out" },
+            { "key": "page", "value": "1", "disabled": true },
+            { "key": "data_size", "value": "10", "disabled": true }
+          ]
+        },
+        "description": "## GET `/send_outs/get`\n\nReads `send_out` from the diagnostic DB for `branch_id`. If `branch_id` is omitted, unions all five diagnostic databases.\n\n### Status\n- `for_apv` — send_out rows with **no** `accounts_payable_voucher` (`type=send_out`, `type_id=send_out.id`, `is_deleted=0`)\n- `apv` — send_out rows that **have** that APV\n\n### Optional filters\n- `send_out_id`, `supplier_id`, `page` + `data_size`\n\nEach row includes nested `entries`, `attachments`, and `facility_names` (resolved from the comma-separated header `facility_id`).\n\n### Success\n```json\n{\n  \"size\": 1,\n  \"data\": [{\n    \"id\": 1,\n    \"branch_id\": 2,\n    \"facility_id\": \"3,5\",\n    \"supplier_id\": 94,\n    \"due_date\": \"2026-09-30\",\n    \"total_sales\": \"1500.0000\",\n    \"total_expense\": \"900.0000\",\n    \"status\": \"for_apv\",\n    \"accounts_payable_voucher_id\": null,\n    \"supplier_name\": \"Chong Hua Hospital\",\n    \"facility_names\": \"CHONG HUA HOSPITAL CEBU, Other Facility\",\n    \"entries\": []\n  }]\n}\n```"
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"size\": 1,\n  \"data\": [\n    {\n      \"id\": 1,\n      \"branch_id\": 2,\n      \"facility_id\": \"3,5\",\n      \"supplier_id\": 94,\n      \"due_date\": \"2026-09-30\",\n      \"total_sales\": \"1500.0000\",\n      \"total_expense\": \"900.0000\",\n      \"status\": \"for_apv\",\n      \"accounts_payable_voucher_id\": null,\n      \"supplier_name\": \"Chong Hua Hospital\",\n      \"branch_name\": \"Oakridge\",\n      \"facility_names\": \"CHONG HUA HOSPITAL CEBU, Other Facility\",\n      \"entries\": [\n        {\n          \"id\": 1,\n          \"send_out_id\": 1,\n          \"sendout_census_id\": 10,\n          \"date\": \"2026-09-17\",\n          \"facility_id\": 3,\n          \"transaction_id\": 100,\n          \"patient_id\": 50,\n          \"service_id\": 460,\n          \"total_sales\": \"800.0000\",\n          \"total_expense\": \"500.0000\",\n          \"patient_name\": \"Dela Cruz, Juan\",\n          \"lab_test_name\": \"CBC\",\n          \"facility_name\": \"CHONG HUA HOSPITAL CEBU\"\n        }\n      ],\n      \"attachments\": [\n        {\n          \"id\": 1,\n          \"send_out_id\": 1,\n          \"file_name\": \"invoice.pdf\",\n          \"file_path\": \"uploads/assets/send_outs/1/invoice.pdf\",\n          \"file_url\": \"https://vm4.example/uploads/assets/send_outs/1/invoice.pdf\",\n          \"mime\": \"application/pdf\"\n        }\n      ]\n    }\n  ]\n}"
+        },
+        {
+          "name": "Not Found",
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "[\n  \"No send_outs found.\"\n]"
+        }
+      ]
+    },
+    {
+      "name": "Get all unused census transactions",
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "url": {
+          "raw": "{{base_url}}/send_outs/get_all_transaction?token={{token}}&requester={{requester}}",
+          "host": ["{{base_url}}"],
+          "path": ["send_outs", "get_all_transaction"],
+          "query": [
+            { "key": "token", "value": "{{token}}" },
+            { "key": "requester", "value": "{{requester}}" },
+            { "key": "branch_id", "value": "2", "disabled": true },
+            { "key": "date", "value": "2026-09-17", "disabled": true },
+            { "key": "date_from", "value": "2026-09-01", "disabled": true, "description": "Filter sendout_census.date from" },
+            { "key": "date_to", "value": "2026-09-30", "disabled": true, "description": "Filter sendout_census.date to" },
+            { "key": "facility_id", "value": "", "disabled": true },
+            { "key": "supplier_id", "value": "", "disabled": true },
+            { "key": "term", "value": "", "disabled": true, "description": "Patient name or patient_id" },
+            { "key": "page", "value": "1", "disabled": true },
+            { "key": "data_size", "value": "10", "disabled": true }
+          ]
+        },
+        "description": "## GET `/send_outs/get_all_transaction`\n\nReads `{REPORTS_DB}.sendout_census` (same joins as `reports/get_sendout_census`: patient_name, facility, supplier_id, lab_test).\n\nExcludes rows whose `id` is already on a live `send_out_entry.sendout_census_id` in **any** of the five diagnostic DBs.\n\nAll filters optional: `branch_id`, `date`, `date_from` + `date_to` (`sendout_census.date`), `facility_id`, `supplier_id`, `term`, pagination. Each row includes `transaction_no`."
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"size\": 1,\n  \"data\": [\n    {\n      \"id\": 10,\n      \"date\": \"2026-09-17\",\n      \"branch_id\": 2,\n      \"branch_name\": \"Oakridge\",\n      \"facility_id\": 3,\n      \"facility_name\": \"CHONG HUA HOSPITAL CEBU\",\n      \"supplier_id\": 94,\n      \"transaction_id\": 100,\n      \"transaction_no\": \"OR-100\",\n      \"service_id\": 460,\n      \"lab_test_id\": 460,\n      \"lab_test_name\": \"CBC\",\n      \"patient_id\": 50,\n      \"patient_name\": \"Dela Cruz, Juan\",\n      \"total_sales\": \"800.00\",\n      \"total_expense\": \"500.00\"\n    }\n  ]\n}"
+        },
+        {
+          "name": "Not Found",
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "[\n  \"No transactions found.\"\n]"
+        }
+      ]
+    },
+    {
+      "name": "Get unused census transactions (branch + supplier)",
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "url": {
+          "raw": "{{base_url}}/send_outs/get_transaction?token={{token}}&requester={{requester}}&supplier_id=94",
+          "host": ["{{base_url}}"],
+          "path": ["send_outs", "get_transaction"],
+          "query": [
+            { "key": "token", "value": "{{token}}" },
+            { "key": "requester", "value": "{{requester}}" },
+            { "key": "branch_id", "value": "2", "disabled": true, "description": "Optional. Omit to union unused census across all diagnostic DBs." },
+            { "key": "supplier_id", "value": "94", "description": "Required (facility.supplier_id)" },
+            { "key": "facility_id", "value": "", "disabled": true, "description": "Optional. Omit to return all unused lines for the branch+supplier so FE can collect facility IDs for generate." },
+            { "key": "date", "value": "2026-09-17", "disabled": true },
+            { "key": "date_from", "value": "2026-09-01", "disabled": true, "description": "Filter sendout_census.date from" },
+            { "key": "date_to", "value": "2026-09-30", "disabled": true, "description": "Filter sendout_census.date to" },
+            { "key": "term", "value": "", "disabled": true },
+            { "key": "page", "value": "1", "disabled": true },
+            { "key": "data_size", "value": "10", "disabled": true }
+          ]
+        },
+        "description": "## GET `/send_outs/get_transaction`\n\nSame unused-census query as `get_all_transaction`, then filters:\n- `supplier_id` **required**\n- `branch_id` optional (omit to union all diagnostic DBs)\n- `facility_id` optional\n- `date_from` + `date_to` optional (`sendout_census.date`)\n\nIf `facility_id` is omitted, unused lines for the supplier (and optional branch) are returned so FE can collect facility IDs and pass `entries[n][branch_id]` on generate."
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"size\": 2,\n  \"data\": [\n    {\n      \"id\": 10,\n      \"date\": \"2026-09-17\",\n      \"branch_id\": 2,\n      \"facility_id\": 3,\n      \"supplier_id\": 94,\n      \"transaction_id\": 100,\n      \"transaction_no\": \"OR-100\",\n      \"patient_id\": 50,\n      \"lab_test_id\": 460,\n      \"total_sales\": \"800.00\",\n      \"total_expense\": \"500.00\"\n    },\n    {\n      \"id\": 11,\n      \"date\": \"2026-09-17\",\n      \"branch_id\": 2,\n      \"facility_id\": 5,\n      \"supplier_id\": 94,\n      \"transaction_id\": 101,\n      \"patient_id\": 51,\n      \"lab_test_id\": 457,\n      \"total_sales\": \"700.00\",\n      \"total_expense\": \"400.00\"\n    }\n  ]\n}"
+        },
+        {
+          "name": "Missing supplier_id",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "[\n  \"Supplier ID is required.\"\n]"
+        }
+      ]
+    },
+    {
+      "name": "Generate send out",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "token", "value": "{{token}}", "type": "text" },
+            { "key": "requester", "value": "{{requester}}", "type": "text" },
+            { "key": "supplier_id", "value": "94", "type": "text" },
+            { "key": "due_date", "value": "2026-09-30", "type": "text" },
+            { "key": "invoice_no", "value": "INV-001", "type": "text" },
+            { "key": "invoice_date", "value": "2026-09-17", "type": "text" },
+            { "key": "facility_id", "value": "3,5", "type": "text", "description": "Optional override. Default is unique facility_ids from each branch group." },
+            { "key": "entries[0][branch_id]", "value": "2", "type": "text" },
+            { "key": "entries[0][sendout_census_id]", "value": "10", "type": "text" },
+            { "key": "entries[0][date]", "value": "2026-09-17", "type": "text" },
+            { "key": "entries[0][facility_id]", "value": "3", "type": "text" },
+            { "key": "entries[0][transaction_id]", "value": "100", "type": "text" },
+            { "key": "entries[0][patient_id]", "value": "50", "type": "text" },
+            { "key": "entries[0][service_id]", "value": "460", "type": "text" },
+            { "key": "entries[0][total_sales]", "value": "800.0000", "type": "text" },
+            { "key": "entries[0][total_expense]", "value": "500.0000", "type": "text" },
+            { "key": "entries[1][branch_id]", "value": "3", "type": "text" },
+            { "key": "entries[1][sendout_census_id]", "value": "11", "type": "text" },
+            { "key": "entries[1][date]", "value": "2026-09-17", "type": "text" },
+            { "key": "entries[1][facility_id]", "value": "5", "type": "text" },
+            { "key": "entries[1][transaction_id]", "value": "101", "type": "text" },
+            { "key": "entries[1][patient_id]", "value": "51", "type": "text" },
+            { "key": "entries[1][service_id]", "value": "457", "type": "text" },
+            { "key": "entries[1][total_sales]", "value": "700.0000", "type": "text" },
+            { "key": "entries[1][total_expense]", "value": "400.0000", "type": "text" },
+            { "key": "attachments[]", "type": "file", "src": [], "description": "Optional. Uploaded to VM4 at assets/send_outs/{send_out_id}/. pdf, png, jpeg, jpg." }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/send_outs/generate",
+          "host": ["{{base_url}}"],
+          "path": ["send_outs", "generate"]
+        },
+        "description": "## POST `/send_outs/generate`\n\nBody: **form-data** (multipart). Header `branch_id` is **not** used. Entries are grouped by `entries[n][branch_id]`; one `send_out` is written on each diagnostic DB.\n\n### Required header\n- `supplier_id`, `due_date`, `invoice_no`, `invoice_date`\n- `facility_id` optional override (otherwise unique facility IDs from that branch group)\n- Header `total_sales` / `total_expense` are not stored per branch; each header uses the sum of its group entries\n- `entries[]`\n\n### Required per entry\n`branch_id`, `sendout_census_id`, `date`, `facility_id`, `transaction_id`, `patient_id`, `service_id`  \nOptional: `total_sales`, `total_expense` (default 0).\n\nRejects if any `sendout_census_id` is already on a live `send_out_entry`.\nOptional `attachments[]` files are uploaded to VM4 for **each** created header.\n\n### Success\n```json\n{ \"send_out_ids\": [{ \"branch_id\": 2, \"send_out_id\": 15 }], \"message\": \"send_out generated successfully.\" }\n```"
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"send_out_ids\": [\n    { \"branch_id\": 2, \"send_out_id\": 15 },\n    { \"branch_id\": 3, \"send_out_id\": 8 }\n  ],\n  \"message\": \"send_out generated successfully.\"\n}"
+        },
+        {
+          "name": "Missing entry branch_id",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "[\n  \"entries[0][branch_id] is required.\"\n]"
+        },
+        {
+          "name": "Census already saved",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "[\n  \"sendout_census_id 10 is already saved in a send out entry.\"\n]"
+        }
+      ]
+    },
+    {
+      "name": "Upload send out attachments",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "token", "value": "{{token}}", "type": "text" },
+            { "key": "requester", "value": "{{requester}}", "type": "text" },
+            { "key": "branch_id", "value": "2", "type": "text" },
+            { "key": "send_out_id", "value": "1", "type": "text" },
+            { "key": "attachments[]", "type": "file", "src": [], "description": "Required. Uploaded to VM4 at assets/send_outs/{send_out_id}/. pdf, png, jpeg, jpg." }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/send_outs/upload_attachment",
+          "host": ["{{base_url}}"],
+          "path": ["send_outs", "upload_attachment"]
+        },
+        "description": "## POST `/send_outs/upload_attachment`\n\nAdds files to an **existing** send_out. Required: `branch_id`, `send_out_id`, `attachments[]`.\n\nUploads to VM4 (`assets/send_outs/{send_out_id}/`). Allowed: pdf, png, jpeg, jpg. Returns the full live attachments list."
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"send_out_id\": 1,\n  \"attachments\": [\n    {\n      \"id\": 1,\n      \"send_out_id\": 1,\n      \"file_name\": \"invoice.pdf\",\n      \"file_path\": \"uploads/assets/send_outs/1/invoice.pdf\",\n      \"file_url\": \"https://vm4.example/uploads/assets/send_outs/1/invoice.pdf\",\n      \"mime\": \"application/pdf\"\n    }\n  ],\n  \"message\": \"attachments uploaded successfully.\"\n}"
+        },
+        {
+          "name": "Missing files",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "[\n  \"attachments[] is required.\"\n]"
+        },
+        {
+          "name": "Not Found",
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "[\n  \"send_out is not found.\"\n]"
+        }
+      ]
+    },
+    {
+      "name": "Delete send out",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            { "key": "token", "value": "{{token}}", "type": "text" },
+            { "key": "requester", "value": "{{requester}}", "type": "text" },
+            { "key": "branch_id", "value": "2", "type": "text" },
+            { "key": "send_out_id", "value": "1", "type": "text" }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/send_outs/delete",
+          "host": ["{{base_url}}"],
+          "path": ["send_outs", "delete"]
+        },
+        "description": "## POST `/send_outs/delete`\n\nSoft-deletes the `send_out` header **and** its `send_out_entry` rows (`is_deleted = 1`) on the diagnostic DB for `branch_id`.\n\nRefuses if a live APV exists (`type=send_out`, `type_id=send_out_id`)."
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"message\": \"send_out is deleted.\"\n}"
+        },
+        {
+          "name": "Has APV",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "[\n  \"send_out has an accounts payable voucher and cannot be deleted.\"\n]"
+        },
+        {
+          "name": "Not Found",
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "[\n  \"send_out is not found.\"\n]"
+        }
+      ]
+    },
+    {
+      "name": "APV get_all_for_apv (send_out)",
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "API-KEY", "value": "{{api_key}}" },
+          { "key": "Accept", "value": "application/json" }
+        ],
+        "url": {
+          "raw": "{{base_url}}/accounts_payable_vouchers/get_all_for_apv?token={{token}}&requester={{requester}}&type=send_out",
+          "host": ["{{base_url}}"],
+          "path": ["accounts_payable_vouchers", "get_all_for_apv"],
+          "query": [
+            { "key": "token", "value": "{{token}}" },
+            { "key": "requester", "value": "{{requester}}" },
+            { "key": "type", "value": "send_out" },
+            { "key": "branch_id", "value": "2", "disabled": true },
+            { "key": "supplier_id", "value": "94", "disabled": true },
+            { "key": "supplier_type", "value": "supplier", "disabled": true },
+            { "key": "page", "value": "1", "disabled": true },
+            { "key": "data_size", "value": "10", "disabled": true }
+          ]
+        },
+        "description": "## GET `/accounts_payable_vouchers/get_all_for_apv`\n\nNow includes send outs that have not yet generated an APV.\n\n- `type` = `send_out`\n- `type_id` = `send_out.id`\n- `amount` = `send_out.total_expense`\n- `supplier_type` = `supplier`\n- `supplier_id` = `send_out.supplier_id`\n- `due_date` = `send_out.due_date`\n\nCreate the APV with `type=send_out` and `type_id` from this list."
+      },
+      "response": [
+        {
+          "name": "Success",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [{ "key": "Content-Type", "value": "application/json" }],
+          "body": "{\n  \"size\": 1,\n  \"data\": [\n    {\n      \"type_id\": 1,\n      \"type\": \"send_out\",\n      \"branch_id\": 2,\n      \"date\": \"2026-09-17\",\n      \"due_date\": \"2026-09-30\",\n      \"supplier_id\": 94,\n      \"supplier_type\": \"supplier\",\n      \"supplier_name\": \"Chong Hua Hospital\",\n      \"amount\": \"900.0000\"\n    }\n  ]\n}"
+        }
+      ]
+    }
+  ]
+}

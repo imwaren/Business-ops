@@ -1,0 +1,5632 @@
+{
+  "info": {
+    "_postman_id": "c3d4e5f6-a7b8-9012-cdef-234567890123",
+    "name": "Doctors CRUD (Multi-DB + Consultations)",
+    "description": "# Doctors API — consultations and share fields\n\nImport this Collection v2.1 into Postman and fill its variables. All saved responses are **illustrative documentation**, not captured UAT or production responses. Synthetic IDs in saved responses do not identify live records. No automatic execution scripts are included.\n\n## Environments and availability\n- Local default: `http://localhost/cpci-business-ops-api`\n- UAT: `https://zuat-accounting-back.myt-emr.com`\n- Production: `https://accounting-back.myt-emr.com`\n\nSet `base_url` without a trailing slash. The new consultation share implementation is currently **local only**; documentation of an environment URL does not mean the feature has been deployed there.\n\n## Authentication and variables\n- Header: `API-KEY: {{api_key}}`.\n- GET query / POST form fields: `token={{token}}`, `requester={{requester}}`.\n- `api_key`, `token`, requester, doctor ID, consultation row ID and doctor login variables are blank. Fill them yourself; no live credentials are embedded.\n- `doctor_id` is the master doctor ID. `consultation_doctor_id` is an existing consultation selection ID from `doctors/get`, not a consultation catalog ID.\n- `doctor_username` / `doctor_password` are example doctor login values; create requires a suitable new username/password. Choose actual lookup IDs for type/specialization.\n\n## Request bodies and signature\nUse multipart form-data for writes. Let Postman generate Content-Type and the multipart boundary; do not add a manual Content-Type header.\n\nThe `signature` file is optional on both create and update in the current controller. If supplied, attach PNG/JPEG/JPG/PDF up to 5 MB. It is uploaded to VM4 under `assets/doctors/{id}/`; GET exposes the stored URL as `signature` and `signature_url`. File fields start disabled and contain no local file path.\n\n## Diagnostic synchronization\nDoctor and consultation rows synchronize to master (0) plus the diagnostic branches in `branch_in`. When `branch_in` is absent or blank, the consultation/doctor sync helper targets 0, 1, 2, 3, 4 and 7. Named clinic connections are Mobile (1), Oakridge (2), Mactan (3), Consolacion (4), and Mantlewood (7).\n\n`branch_in` also controls existing EMR-user synchronization. Existing master-user behavior, permissions, lookups and response fields are unchanged. The consistency check in the current create/update flow is commented out; it is not an active validation step.\n\n## Existing endpoints\nGET `doctors/get`, `doctors/get_type`, `doctors/get_specilization` (existing spelling), and multipart create/update/delete/status/password requests remain included. GET doctors uses master records and decorates consultation, HMO, type/specialization and signature data.\n\n## Consultation share fields\nEach `consultations[index]` accepts:\n- `fee_name` and the existing `amount` field.\n- `doctor_share`: percentage share, e.g. `90`.\n- `doctor_share_amount`: fixed share amount, e.g. `125.50`.\n- `discount_percentage`: optional stored discount, e.g. `10`. This change adds no discount calculation.\n\nOnly one share may be populated on a row. Omit the unused share key; alternatively send null in JSON or an empty/whitespace-only multipart text value. Null and blank values become null. `0`, `\"0\"`, and `\"0.00\"` count as populated values. If neither share is populated, both columns are saved as null.\n\nSupplying both populated shares returns HTTP 400 before doctor/user/catalog/mirror writes, even if the conflict occurs after an otherwise valid row:\n```json\n{\"status\":400,\"error\":400,\"messages\":{\"error_messages\":[\"consultations[1]: doctor_share and doctor_share_amount cannot both be provided.\"]}}\n```\nThe index is the submitted array key (zero-based for ordinary arrays). Existing numeric handling remains unchanged; this feature does not introduce new numeric range rules or share calculations.\n\nCreate and update save both share columns explicitly. A percentage selection clears `doctor_share_amount`; a fixed amount clears `doctor_share`. Missing/blank discount is saved as null for a supplied row. Switching share types therefore clears the previously saved alternative.\n\nFor multipart requests use PHP bracket keys, not a JSON string in a `consultations` form field:\n```\nconsultations[0][fee_name] = Consultation\nconsultations[0][amount] = 500\nconsultations[0][doctor_share] = 90\nconsultations[0][discount_percentage] = 10\nconsultations[1][fee_name] = Follow-up\nconsultations[1][amount] = 300\nconsultations[1][doctor_share_amount] = 125.50\nconsultations[1][discount_percentage] = 0\n```\n\nOn update:\n- Omit the entire `consultations` payload to leave its existing rows unchanged.\n- A supplied list is a replacement selection: preserve the `id` of every existing row you want to retain; omitted existing IDs are soft-deleted.\n- A supplied row with `id` updates it; a row without `id` inserts a new selection.\n- Sending neither share on a retained row clears both share columns.\n- GET returns `doctor_share`, `doctor_share_amount`, and `discount_percentage` with decimal values normally serialized as strings, or null.\n",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost/cpci-business-ops-api",
+      "type": "string"
+    },
+    {
+      "key": "api_key",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "token",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "requester",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "doctor_id",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "consultation_doctor_id",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "doctor_username",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "doctor_password",
+      "value": "",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "Get doctors",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/doctors/get?token={{token}}&requester={{requester}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "doctors",
+            "get"
+          ],
+          "query": [
+            {
+              "key": "token",
+              "value": "{{token}}"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}"
+            },
+            {
+              "key": "doctor_id",
+              "value": "",
+              "disabled": true
+            },
+            {
+              "key": "term",
+              "value": "",
+              "disabled": true
+            },
+            {
+              "key": "page",
+              "value": "1",
+              "disabled": true
+            },
+            {
+              "key": "data_size",
+              "value": "10",
+              "disabled": true
+            }
+          ]
+        },
+        "description": "## GET `/doctors/get`\nReturns `{size, data}` from master, including nested consultation fields. Optional existing filters include doctor_id, branch_id, term, status, specialization_id, role_id/type_id/type, page, and data_size.\n\nThe two saved consultation rows illustrate percentage and fixed-amount shares with the unused column set to null. They are synthetic response examples, not live data.\n"
+      },
+      "response": [
+        {
+          "name": "Success (illustrative)",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"size\": 1,\n  \"data\": [\n    {\n      \"id\": 1,\n      \"first_name\": \"Juan\",\n      \"middle_name\": \"Santos\",\n      \"last_name\": \"Dela Cruz\",\n      \"username\": \"jdelacruz\",\n      \"email\": \"juan@example.com\",\n      \"contact_no\": \"09171234567\",\n      \"branch_in\": \"1,2,4\",\n      \"type\": 5,\n      \"type_name\": \"Specialist\",\n      \"specializations\": 3,\n      \"specialization_name\": \"Cardiology\",\n      \"vat_type\": \"vat\",\n      \"wht_percentage\": \"10\",\n      \"signature\": \"https://file.myt-emr.com/assets/doctors/1/67890abc_1234567890.png\",\n      \"signature_url\": \"https://file.myt-emr.com/assets/doctors/1/67890abc_1234567890.png\",\n      \"consultations\": [\n        {\n          \"id\": 12,\n          \"consultation_id\": 1,\n          \"doctor_id\": 1,\n          \"fee_name\": \"Consultation\",\n          \"amount\": \"500.00\",\n          \"doctor_share\": \"90.00\",\n          \"doctor_share_amount\": null,\n          \"discount_percentage\": \"10.00\",\n          \"consultation_name\": \"Consultation\"\n        },\n        {\n          \"id\": 13,\n          \"consultation_id\": 2,\n          \"doctor_id\": 1,\n          \"fee_name\": \"Follow-up\",\n          \"amount\": \"300.00\",\n          \"doctor_share\": null,\n          \"doctor_share_amount\": \"125.50\",\n          \"discount_percentage\": \"0.00\",\n          \"consultation_name\": \"Follow-up\"\n        }\n      ]\n    }\n  ]\n}",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/doctors/get?token={{token}}&requester={{requester}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "doctors",
+                "get"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}"
+                },
+                {
+                  "key": "doctor_id",
+                  "value": "",
+                  "disabled": true
+                },
+                {
+                  "key": "term",
+                  "value": "",
+                  "disabled": true
+                },
+                {
+                  "key": "page",
+                  "value": "1",
+                  "disabled": true
+                },
+                {
+                  "key": "data_size",
+                  "value": "10",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Not Found (illustrative)",
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": 404,\n  \"error\": 404,\n  \"messages\": {\n    \"error_messages\": [\n      \"No doctors found\"\n    ]\n  }\n}",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/doctors/get?token={{token}}&requester={{requester}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "doctors",
+                "get"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}"
+                },
+                {
+                  "key": "doctor_id",
+                  "value": "",
+                  "disabled": true
+                },
+                {
+                  "key": "term",
+                  "value": "",
+                  "disabled": true
+                },
+                {
+                  "key": "page",
+                  "value": "1",
+                  "disabled": true
+                },
+                {
+                  "key": "data_size",
+                  "value": "10",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Get specializations (get_specilization)",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/doctors/get_specilization?token={{token}}&requester={{requester}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "doctors",
+            "get_specilization"
+          ],
+          "query": [
+            {
+              "key": "token",
+              "value": "{{token}}"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}"
+            },
+            {
+              "key": "specialization_id",
+              "value": "",
+              "disabled": true
+            },
+            {
+              "key": "term",
+              "value": "",
+              "disabled": true
+            },
+            {
+              "key": "page",
+              "value": "1",
+              "disabled": true
+            },
+            {
+              "key": "data_size",
+              "value": "50",
+              "disabled": true
+            }
+          ]
+        },
+        "description": "## GET `/doctors/get_specilization`\n\nLists specializations from **oakridge_emr**. Use returned `id` as doctor `specializations`."
+      },
+      "response": [
+        {
+          "name": "Success (illustrative)",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"size\": 2,\n  \"data\": [\n    { \"id\": 3, \"name\": \"Cardiology\" },\n    { \"id\": 8, \"name\": \"Internal Medicine\" }\n  ]\n}",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/doctors/get_specilization?token={{token}}&requester={{requester}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "doctors",
+                "get_specilization"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}"
+                },
+                {
+                  "key": "specialization_id",
+                  "value": "",
+                  "disabled": true
+                },
+                {
+                  "key": "term",
+                  "value": "",
+                  "disabled": true
+                },
+                {
+                  "key": "page",
+                  "value": "1",
+                  "disabled": true
+                },
+                {
+                  "key": "data_size",
+                  "value": "50",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Get types (get_type)",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/doctors/get_type?token={{token}}&requester={{requester}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "doctors",
+            "get_type"
+          ],
+          "query": [
+            {
+              "key": "token",
+              "value": "{{token}}"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}"
+            },
+            {
+              "key": "role_id",
+              "value": "",
+              "disabled": true
+            },
+            {
+              "key": "term",
+              "value": "",
+              "disabled": true
+            },
+            {
+              "key": "page",
+              "value": "1",
+              "disabled": true
+            },
+            {
+              "key": "data_size",
+              "value": "50",
+              "disabled": true
+            }
+          ]
+        },
+        "description": "## GET `/doctors/get_type`\n\nLists roles from **oakridge_emr**. Use returned `id` as doctor `type`."
+      },
+      "response": [
+        {
+          "name": "Success (illustrative)",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"size\": 2,\n  \"data\": [\n    { \"id\": 5, \"name\": \"Specialist\" },\n    { \"id\": 6, \"name\": \"General Practitioner\" }\n  ]\n}",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/doctors/get_type?token={{token}}&requester={{requester}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "doctors",
+                "get_type"
+              ],
+              "query": [
+                {
+                  "key": "token",
+                  "value": "{{token}}"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}"
+                },
+                {
+                  "key": "role_id",
+                  "value": "",
+                  "disabled": true
+                },
+                {
+                  "key": "term",
+                  "value": "",
+                  "disabled": true
+                },
+                {
+                  "key": "page",
+                  "value": "1",
+                  "disabled": true
+                },
+                {
+                  "key": "data_size",
+                  "value": "50",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Create doctor",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "token",
+              "value": "{{token}}",
+              "type": "text"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}",
+              "type": "text"
+            },
+            {
+              "key": "first_name",
+              "value": "Juan",
+              "type": "text"
+            },
+            {
+              "key": "middle_name",
+              "value": "Santos",
+              "type": "text"
+            },
+            {
+              "key": "last_name",
+              "value": "Dela Cruz",
+              "type": "text"
+            },
+            {
+              "key": "full_name",
+              "value": "Juan Santos Dela Cruz",
+              "type": "text"
+            },
+            {
+              "key": "username",
+              "value": "{{doctor_username}}",
+              "type": "text"
+            },
+            {
+              "key": "password",
+              "value": "{{doctor_password}}",
+              "type": "text"
+            },
+            {
+              "key": "password_reset",
+              "value": "",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "branch_in",
+              "value": "1,2,4",
+              "type": "text",
+              "description": "Comma-separated branch IDs (1,2,3,4,7)"
+            },
+            {
+              "key": "license_no",
+              "value": "1234567",
+              "type": "text"
+            },
+            {
+              "key": "ptr_no",
+              "value": "PTR-001",
+              "type": "text"
+            },
+            {
+              "key": "s2_no",
+              "value": "S2-001",
+              "type": "text"
+            },
+            {
+              "key": "type",
+              "value": "5",
+              "type": "text"
+            },
+            {
+              "key": "specializations",
+              "value": "3",
+              "type": "text"
+            },
+            {
+              "key": "other_services",
+              "value": "",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "affiliated",
+              "value": "",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "doctor_fee",
+              "value": "500",
+              "type": "text"
+            },
+            {
+              "key": "doctor_percentage",
+              "value": "90",
+              "type": "text"
+            },
+            {
+              "key": "vat_type",
+              "value": "vat",
+              "type": "text",
+              "description": "vat | nvat"
+            },
+            {
+              "key": "wht_percentage",
+              "value": "10",
+              "type": "text",
+              "description": "5 | 10"
+            },
+            {
+              "key": "contact_no",
+              "value": "09171234567",
+              "type": "text"
+            },
+            {
+              "key": "email",
+              "value": "juan@example.com",
+              "type": "text",
+              "description": "Doctor contact email (not master login)"
+            },
+            {
+              "key": "signature",
+              "description": "Optional. Attach PNG/JPEG/JPG/PDF up to 5 MB if needed; otherwise leave disabled.",
+              "type": "file",
+              "src": [],
+              "disabled": true
+            },
+            {
+              "key": "consultations[0][fee_name]",
+              "value": "Consultation",
+              "type": "text"
+            },
+            {
+              "key": "consultations[0][amount]",
+              "value": "500",
+              "type": "text"
+            },
+            {
+              "key": "consultations[0][doctor_share]",
+              "value": "90",
+              "type": "text"
+            },
+            {
+              "key": "consultations[0][discount_percentage]",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "consultations[1][fee_name]",
+              "value": "Follow-up",
+              "type": "text"
+            },
+            {
+              "key": "consultations[1][amount]",
+              "value": "300",
+              "type": "text"
+            },
+            {
+              "key": "consultations[1][doctor_share_amount]",
+              "value": "125.50",
+              "type": "text"
+            },
+            {
+              "key": "consultations[1][discount_percentage]",
+              "value": "0",
+              "type": "text"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/doctors/create",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "doctors",
+            "create"
+          ]
+        },
+        "description": "## POST `/doctors/create`\nMultipart form-data. These share examples require the locally implemented feature.\n\nShare validation runs after authentication and before doctor/user/consultation/mirror writes. Existing type/specialization and duplicate validations remain. Doctor rows synchronize to master plus selected diagnostic branches; existing master and EMR user provisioning remains.\n\nSignature is optional; attach a valid file only when desired. All example lookup IDs and doctor profile values must be adjusted for the target environment.\n\n## Consultation share fields\nEach `consultations[index]` accepts:\n- `fee_name` and the existing `amount` field.\n- `doctor_share`: percentage share, e.g. `90`.\n- `doctor_share_amount`: fixed share amount, e.g. `125.50`.\n- `discount_percentage`: optional stored discount, e.g. `10`. This change adds no discount calculation.\n\nOnly one share may be populated on a row. Omit the unused share key; alternatively send null in JSON or an empty/whitespace-only multipart text value. Null and blank values become null. `0`, `\"0\"`, and `\"0.00\"` count as populated values. If neither share is populated, both columns are saved as null.\n\nSupplying both populated shares returns HTTP 400 before doctor/user/catalog/mirror writes, even if the conflict occurs after an otherwise valid row:\n```json\n{\"status\":400,\"error\":400,\"messages\":{\"error_messages\":[\"consultations[1]: doctor_share and doctor_share_amount cannot both be provided.\"]}}\n```\nThe index is the submitted array key (zero-based for ordinary arrays). Existing numeric handling remains unchanged; this feature does not introduce new numeric range rules or share calculations.\n\nCreate and update save both share columns explicitly. A percentage selection clears `doctor_share_amount`; a fixed amount clears `doctor_share`. Missing/blank discount is saved as null for a supplied row. Switching share types therefore clears the previously saved alternative.\n\nFor multipart requests use PHP bracket keys, not a JSON string in a `consultations` form field:\n```\nconsultations[0][fee_name] = Consultation\nconsultations[0][amount] = 500\nconsultations[0][doctor_share] = 90\nconsultations[0][discount_percentage] = 10\nconsultations[1][fee_name] = Follow-up\nconsultations[1][amount] = 300\nconsultations[1][doctor_share_amount] = 125.50\nconsultations[1][discount_percentage] = 0\n```\n\nOn update:\n- Omit the entire `consultations` payload to leave its existing rows unchanged.\n- A supplied list is a replacement selection: preserve the `id` of every existing row you want to retain; omitted existing IDs are soft-deleted.\n- A supplied row with `id` updates it; a row without `id` inserts a new selection.\n- Sending neither share on a retained row clears both share columns.\n- GET returns `doctor_share`, `doctor_share_amount`, and `discount_percentage` with decimal values normally serialized as strings, or null.\n"
+      },
+      "response": [
+        {
+          "name": "Success (illustrative)",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"doctor_id\": 1,\n  \"message\": \"doctor created successfully.\"\n}",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "first_name",
+                  "value": "Juan",
+                  "type": "text"
+                },
+                {
+                  "key": "middle_name",
+                  "value": "Santos",
+                  "type": "text"
+                },
+                {
+                  "key": "last_name",
+                  "value": "Dela Cruz",
+                  "type": "text"
+                },
+                {
+                  "key": "full_name",
+                  "value": "Juan Santos Dela Cruz",
+                  "type": "text"
+                },
+                {
+                  "key": "username",
+                  "value": "{{doctor_username}}",
+                  "type": "text"
+                },
+                {
+                  "key": "password",
+                  "value": "{{doctor_password}}",
+                  "type": "text"
+                },
+                {
+                  "key": "password_reset",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "branch_in",
+                  "value": "1,2,4",
+                  "type": "text",
+                  "description": "Comma-separated branch IDs (1,2,3,4,7)"
+                },
+                {
+                  "key": "license_no",
+                  "value": "1234567",
+                  "type": "text"
+                },
+                {
+                  "key": "ptr_no",
+                  "value": "PTR-001",
+                  "type": "text"
+                },
+                {
+                  "key": "s2_no",
+                  "value": "S2-001",
+                  "type": "text"
+                },
+                {
+                  "key": "type",
+                  "value": "5",
+                  "type": "text"
+                },
+                {
+                  "key": "specializations",
+                  "value": "3",
+                  "type": "text"
+                },
+                {
+                  "key": "other_services",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "affiliated",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "doctor_fee",
+                  "value": "500",
+                  "type": "text"
+                },
+                {
+                  "key": "doctor_percentage",
+                  "value": "90",
+                  "type": "text"
+                },
+                {
+                  "key": "vat_type",
+                  "value": "vat",
+                  "type": "text",
+                  "description": "vat | nvat"
+                },
+                {
+                  "key": "wht_percentage",
+                  "value": "10",
+                  "type": "text",
+                  "description": "5 | 10"
+                },
+                {
+                  "key": "contact_no",
+                  "value": "09171234567",
+                  "type": "text"
+                },
+                {
+                  "key": "email",
+                  "value": "juan@example.com",
+                  "type": "text",
+                  "description": "Doctor contact email (not master login)"
+                },
+                {
+                  "key": "signature",
+                  "description": "Optional. Attach PNG/JPEG/JPG/PDF up to 5 MB if needed; otherwise leave disabled.",
+                  "type": "file",
+                  "src": [],
+                  "disabled": true
+                },
+                {
+                  "key": "consultations[0][fee_name]",
+                  "value": "Consultation",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][amount]",
+                  "value": "500",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][doctor_share]",
+                  "value": "90",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][discount_percentage]",
+                  "value": "10",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[1][fee_name]",
+                  "value": "Follow-up",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[1][amount]",
+                  "value": "300",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[1][doctor_share_amount]",
+                  "value": "125.50",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[1][discount_percentage]",
+                  "value": "0",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{base_url}}/doctors/create",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "doctors",
+                "create"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Invalid supplied signature (illustrative)",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"Failed to upload signature. Make sure you have the correct file type, and file does not exceed 5 megabytes.\"\n    ]\n  }\n}",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "first_name",
+                  "value": "Juan",
+                  "type": "text"
+                },
+                {
+                  "key": "middle_name",
+                  "value": "Santos",
+                  "type": "text"
+                },
+                {
+                  "key": "last_name",
+                  "value": "Dela Cruz",
+                  "type": "text"
+                },
+                {
+                  "key": "full_name",
+                  "value": "Juan Santos Dela Cruz",
+                  "type": "text"
+                },
+                {
+                  "key": "username",
+                  "value": "{{doctor_username}}",
+                  "type": "text"
+                },
+                {
+                  "key": "password",
+                  "value": "{{doctor_password}}",
+                  "type": "text"
+                },
+                {
+                  "key": "password_reset",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "branch_in",
+                  "value": "1,2,4",
+                  "type": "text",
+                  "description": "Comma-separated branch IDs (1,2,3,4,7)"
+                },
+                {
+                  "key": "license_no",
+                  "value": "1234567",
+                  "type": "text"
+                },
+                {
+                  "key": "ptr_no",
+                  "value": "PTR-001",
+                  "type": "text"
+                },
+                {
+                  "key": "s2_no",
+                  "value": "S2-001",
+                  "type": "text"
+                },
+                {
+                  "key": "type",
+                  "value": "5",
+                  "type": "text"
+                },
+                {
+                  "key": "specializations",
+                  "value": "3",
+                  "type": "text"
+                },
+                {
+                  "key": "other_services",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "affiliated",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "doctor_fee",
+                  "value": "500",
+                  "type": "text"
+                },
+                {
+                  "key": "doctor_percentage",
+                  "value": "90",
+                  "type": "text"
+                },
+                {
+                  "key": "vat_type",
+                  "value": "vat",
+                  "type": "text",
+                  "description": "vat | nvat"
+                },
+                {
+                  "key": "wht_percentage",
+                  "value": "10",
+                  "type": "text",
+                  "description": "5 | 10"
+                },
+                {
+                  "key": "contact_no",
+                  "value": "09171234567",
+                  "type": "text"
+                },
+                {
+                  "key": "email",
+                  "value": "juan@example.com",
+                  "type": "text",
+                  "description": "Doctor contact email (not master login)"
+                },
+                {
+                  "key": "signature",
+                  "description": "Illustrative error scenario: select an invalid/unsupported signature file; do not send as a successful-create example.",
+                  "type": "file",
+                  "src": [],
+                  "disabled": false
+                },
+                {
+                  "key": "consultations[0][fee_name]",
+                  "value": "Consultation",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][amount]",
+                  "value": "500",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][doctor_share]",
+                  "value": "90",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][discount_percentage]",
+                  "value": "10",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[1][fee_name]",
+                  "value": "Follow-up",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[1][amount]",
+                  "value": "300",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[1][doctor_share_amount]",
+                  "value": "125.50",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[1][discount_percentage]",
+                  "value": "0",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{base_url}}/doctors/create",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "doctors",
+                "create"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Invalid type (illustrative)",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"Invalid type. Role not found in EMR.\"\n    ]\n  }\n}",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "first_name",
+                  "value": "Juan",
+                  "type": "text"
+                },
+                {
+                  "key": "middle_name",
+                  "value": "Santos",
+                  "type": "text"
+                },
+                {
+                  "key": "last_name",
+                  "value": "Dela Cruz",
+                  "type": "text"
+                },
+                {
+                  "key": "full_name",
+                  "value": "Juan Santos Dela Cruz",
+                  "type": "text"
+                },
+                {
+                  "key": "username",
+                  "value": "{{doctor_username}}",
+                  "type": "text"
+                },
+                {
+                  "key": "password",
+                  "value": "{{doctor_password}}",
+                  "type": "text"
+                },
+                {
+                  "key": "password_reset",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "branch_in",
+                  "value": "1,2,4",
+                  "type": "text",
+                  "description": "Comma-separated branch IDs (1,2,3,4,7)"
+                },
+                {
+                  "key": "license_no",
+                  "value": "1234567",
+                  "type": "text"
+                },
+                {
+                  "key": "ptr_no",
+                  "value": "PTR-001",
+                  "type": "text"
+                },
+                {
+                  "key": "s2_no",
+                  "value": "S2-001",
+                  "type": "text"
+                },
+                {
+                  "key": "type",
+                  "value": "5",
+                  "type": "text"
+                },
+                {
+                  "key": "specializations",
+                  "value": "3",
+                  "type": "text"
+                },
+                {
+                  "key": "other_services",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "affiliated",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "doctor_fee",
+                  "value": "500",
+                  "type": "text"
+                },
+                {
+                  "key": "doctor_percentage",
+                  "value": "90",
+                  "type": "text"
+                },
+                {
+                  "key": "vat_type",
+                  "value": "vat",
+                  "type": "text",
+                  "description": "vat | nvat"
+                },
+                {
+                  "key": "wht_percentage",
+                  "value": "10",
+                  "type": "text",
+                  "description": "5 | 10"
+                },
+                {
+                  "key": "contact_no",
+                  "value": "09171234567",
+                  "type": "text"
+                },
+                {
+                  "key": "email",
+                  "value": "juan@example.com",
+                  "type": "text",
+                  "description": "Doctor contact email (not master login)"
+                },
+                {
+                  "key": "signature",
+                  "description": "Optional. Attach PNG/JPEG/JPG/PDF up to 5 MB if needed; otherwise leave disabled.",
+                  "type": "file",
+                  "src": [],
+                  "disabled": true
+                },
+                {
+                  "key": "consultations[0][fee_name]",
+                  "value": "Consultation",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][amount]",
+                  "value": "500",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][doctor_share]",
+                  "value": "90",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][discount_percentage]",
+                  "value": "10",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[1][fee_name]",
+                  "value": "Follow-up",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[1][amount]",
+                  "value": "300",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[1][doctor_share_amount]",
+                  "value": "125.50",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[1][discount_percentage]",
+                  "value": "0",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{base_url}}/doctors/create",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "doctors",
+                "create"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Both shares populated on consultations[1] (illustrative)",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "first_name",
+                  "value": "Juan",
+                  "type": "text"
+                },
+                {
+                  "key": "middle_name",
+                  "value": "Santos",
+                  "type": "text"
+                },
+                {
+                  "key": "last_name",
+                  "value": "Dela Cruz",
+                  "type": "text"
+                },
+                {
+                  "key": "full_name",
+                  "value": "Juan Santos Dela Cruz",
+                  "type": "text"
+                },
+                {
+                  "key": "username",
+                  "value": "{{doctor_username}}",
+                  "type": "text"
+                },
+                {
+                  "key": "password",
+                  "value": "{{doctor_password}}",
+                  "type": "text"
+                },
+                {
+                  "key": "password_reset",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "branch_in",
+                  "value": "1,2,4",
+                  "type": "text",
+                  "description": "Comma-separated branch IDs (1,2,3,4,7)"
+                },
+                {
+                  "key": "license_no",
+                  "value": "1234567",
+                  "type": "text"
+                },
+                {
+                  "key": "ptr_no",
+                  "value": "PTR-001",
+                  "type": "text"
+                },
+                {
+                  "key": "s2_no",
+                  "value": "S2-001",
+                  "type": "text"
+                },
+                {
+                  "key": "type",
+                  "value": "5",
+                  "type": "text"
+                },
+                {
+                  "key": "specializations",
+                  "value": "3",
+                  "type": "text"
+                },
+                {
+                  "key": "other_services",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "affiliated",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "doctor_fee",
+                  "value": "500",
+                  "type": "text"
+                },
+                {
+                  "key": "doctor_percentage",
+                  "value": "90",
+                  "type": "text"
+                },
+                {
+                  "key": "vat_type",
+                  "value": "vat",
+                  "type": "text",
+                  "description": "vat | nvat"
+                },
+                {
+                  "key": "wht_percentage",
+                  "value": "10",
+                  "type": "text",
+                  "description": "5 | 10"
+                },
+                {
+                  "key": "contact_no",
+                  "value": "09171234567",
+                  "type": "text"
+                },
+                {
+                  "key": "email",
+                  "value": "juan@example.com",
+                  "type": "text",
+                  "description": "Doctor contact email (not master login)"
+                },
+                {
+                  "key": "signature",
+                  "description": "Optional. Attach PNG/JPEG/JPG/PDF up to 5 MB if needed; otherwise leave disabled.",
+                  "type": "file",
+                  "src": [],
+                  "disabled": true
+                },
+                {
+                  "key": "consultations[0][fee_name]",
+                  "value": "Consultation",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][amount]",
+                  "value": "500",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][doctor_share]",
+                  "value": "90",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][discount_percentage]",
+                  "value": "10",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[1][fee_name]",
+                  "value": "Follow-up",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[1][amount]",
+                  "value": "300",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[1][doctor_share_amount]",
+                  "value": "125.50",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[1][discount_percentage]",
+                  "value": "0",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[1][doctor_share]",
+                  "value": "80",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{base_url}}/doctors/create",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "doctors",
+                "create"
+              ]
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"consultations[1]: doctor_share and doctor_share_amount cannot both be provided.\"\n    ]\n  }\n}"
+        }
+      ]
+    },
+    {
+      "name": "Update doctor",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "token",
+              "value": "{{token}}",
+              "type": "text"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}",
+              "type": "text"
+            },
+            {
+              "key": "doctor_id",
+              "value": "{{doctor_id}}",
+              "type": "text"
+            },
+            {
+              "key": "first_name",
+              "value": "Juan",
+              "type": "text"
+            },
+            {
+              "key": "middle_name",
+              "value": "Santos",
+              "type": "text"
+            },
+            {
+              "key": "last_name",
+              "value": "Dela Cruz",
+              "type": "text"
+            },
+            {
+              "key": "full_name",
+              "value": "Juan Santos Dela Cruz",
+              "type": "text"
+            },
+            {
+              "key": "username",
+              "value": "{{doctor_username}}",
+              "type": "text"
+            },
+            {
+              "key": "password_reset",
+              "value": "",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "branch_in",
+              "value": "1,2,4",
+              "type": "text",
+              "description": "Comma-separated branch IDs (1,2,3,4,7)"
+            },
+            {
+              "key": "license_no",
+              "value": "1234567",
+              "type": "text"
+            },
+            {
+              "key": "ptr_no",
+              "value": "PTR-001",
+              "type": "text"
+            },
+            {
+              "key": "s2_no",
+              "value": "S2-001",
+              "type": "text"
+            },
+            {
+              "key": "type",
+              "value": "5",
+              "type": "text"
+            },
+            {
+              "key": "specializations",
+              "value": "3",
+              "type": "text"
+            },
+            {
+              "key": "other_services",
+              "value": "",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "affiliated",
+              "value": "",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "doctor_fee",
+              "value": "550",
+              "type": "text"
+            },
+            {
+              "key": "doctor_percentage",
+              "value": "90",
+              "type": "text"
+            },
+            {
+              "key": "vat_type",
+              "value": "vat",
+              "type": "text",
+              "description": "vat | nvat"
+            },
+            {
+              "key": "wht_percentage",
+              "value": "10",
+              "type": "text",
+              "description": "5 | 10"
+            },
+            {
+              "key": "contact_no",
+              "value": "09171234567",
+              "type": "text"
+            },
+            {
+              "key": "email",
+              "value": "juan@example.com",
+              "type": "text"
+            },
+            {
+              "key": "signature",
+              "description": "Optional. Attach PNG/JPEG/JPG/PDF up to 5 MB if needed; otherwise leave disabled.",
+              "type": "file",
+              "src": [],
+              "disabled": true
+            },
+            {
+              "key": "consultations[0][id]",
+              "value": "{{consultation_doctor_id}}",
+              "type": "text"
+            },
+            {
+              "key": "consultations[0][fee_name]",
+              "value": "Consultation",
+              "type": "text"
+            },
+            {
+              "key": "consultations[0][amount]",
+              "value": "550",
+              "type": "text"
+            },
+            {
+              "key": "consultations[0][doctor_share_amount]",
+              "value": "200",
+              "type": "text"
+            },
+            {
+              "key": "consultations[0][discount_percentage]",
+              "value": "5",
+              "type": "text"
+            },
+            {
+              "key": "consultations[1][fee_name]",
+              "value": "Procedure",
+              "type": "text"
+            },
+            {
+              "key": "consultations[1][amount]",
+              "value": "1000",
+              "type": "text"
+            },
+            {
+              "key": "consultations[1][doctor_share]",
+              "value": "85",
+              "type": "text"
+            },
+            {
+              "key": "consultations[1][discount_percentage]",
+              "value": "10",
+              "type": "text"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/doctors/update",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "doctors",
+            "update"
+          ]
+        },
+        "description": "## POST `/doctors/update`\nMultipart form-data. Set `doctor_id` and an existing `consultation_doctor_id` from GET.\n\nShare validation precedes writes. Existing doctor/master-user/EMR-user behavior remains. Signature is optional. **A supplied consultation list soft-deletes existing selections whose IDs you omit. Include every selection you intend to retain.**\n\nThe existing request demonstrates a retained selection and a newly inserted selection. The examples folder also contains an update that omits all consultation fields and leaves selections unchanged.\n\n## Consultation share fields\nEach `consultations[index]` accepts:\n- `fee_name` and the existing `amount` field.\n- `doctor_share`: percentage share, e.g. `90`.\n- `doctor_share_amount`: fixed share amount, e.g. `125.50`.\n- `discount_percentage`: optional stored discount, e.g. `10`. This change adds no discount calculation.\n\nOnly one share may be populated on a row. Omit the unused share key; alternatively send null in JSON or an empty/whitespace-only multipart text value. Null and blank values become null. `0`, `\"0\"`, and `\"0.00\"` count as populated values. If neither share is populated, both columns are saved as null.\n\nSupplying both populated shares returns HTTP 400 before doctor/user/catalog/mirror writes, even if the conflict occurs after an otherwise valid row:\n```json\n{\"status\":400,\"error\":400,\"messages\":{\"error_messages\":[\"consultations[1]: doctor_share and doctor_share_amount cannot both be provided.\"]}}\n```\nThe index is the submitted array key (zero-based for ordinary arrays). Existing numeric handling remains unchanged; this feature does not introduce new numeric range rules or share calculations.\n\nCreate and update save both share columns explicitly. A percentage selection clears `doctor_share_amount`; a fixed amount clears `doctor_share`. Missing/blank discount is saved as null for a supplied row. Switching share types therefore clears the previously saved alternative.\n\nFor multipart requests use PHP bracket keys, not a JSON string in a `consultations` form field:\n```\nconsultations[0][fee_name] = Consultation\nconsultations[0][amount] = 500\nconsultations[0][doctor_share] = 90\nconsultations[0][discount_percentage] = 10\nconsultations[1][fee_name] = Follow-up\nconsultations[1][amount] = 300\nconsultations[1][doctor_share_amount] = 125.50\nconsultations[1][discount_percentage] = 0\n```\n\nOn update:\n- Omit the entire `consultations` payload to leave its existing rows unchanged.\n- A supplied list is a replacement selection: preserve the `id` of every existing row you want to retain; omitted existing IDs are soft-deleted.\n- A supplied row with `id` updates it; a row without `id` inserts a new selection.\n- Sending neither share on a retained row clears both share columns.\n- GET returns `doctor_share`, `doctor_share_amount`, and `discount_percentage` with decimal values normally serialized as strings, or null.\n"
+      },
+      "response": [
+        {
+          "name": "Success (illustrative)",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"doctor_id\": 1,\n  \"message\": \"doctor updated successfully.\"\n}",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "doctor_id",
+                  "value": "{{doctor_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "first_name",
+                  "value": "Juan",
+                  "type": "text"
+                },
+                {
+                  "key": "middle_name",
+                  "value": "Santos",
+                  "type": "text"
+                },
+                {
+                  "key": "last_name",
+                  "value": "Dela Cruz",
+                  "type": "text"
+                },
+                {
+                  "key": "full_name",
+                  "value": "Juan Santos Dela Cruz",
+                  "type": "text"
+                },
+                {
+                  "key": "username",
+                  "value": "{{doctor_username}}",
+                  "type": "text"
+                },
+                {
+                  "key": "password_reset",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "branch_in",
+                  "value": "1,2,4",
+                  "type": "text",
+                  "description": "Comma-separated branch IDs (1,2,3,4,7)"
+                },
+                {
+                  "key": "license_no",
+                  "value": "1234567",
+                  "type": "text"
+                },
+                {
+                  "key": "ptr_no",
+                  "value": "PTR-001",
+                  "type": "text"
+                },
+                {
+                  "key": "s2_no",
+                  "value": "S2-001",
+                  "type": "text"
+                },
+                {
+                  "key": "type",
+                  "value": "5",
+                  "type": "text"
+                },
+                {
+                  "key": "specializations",
+                  "value": "3",
+                  "type": "text"
+                },
+                {
+                  "key": "other_services",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "affiliated",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "doctor_fee",
+                  "value": "550",
+                  "type": "text"
+                },
+                {
+                  "key": "doctor_percentage",
+                  "value": "90",
+                  "type": "text"
+                },
+                {
+                  "key": "vat_type",
+                  "value": "vat",
+                  "type": "text",
+                  "description": "vat | nvat"
+                },
+                {
+                  "key": "wht_percentage",
+                  "value": "10",
+                  "type": "text",
+                  "description": "5 | 10"
+                },
+                {
+                  "key": "contact_no",
+                  "value": "09171234567",
+                  "type": "text"
+                },
+                {
+                  "key": "email",
+                  "value": "juan@example.com",
+                  "type": "text"
+                },
+                {
+                  "key": "signature",
+                  "description": "Optional. Attach PNG/JPEG/JPG/PDF up to 5 MB if needed; otherwise leave disabled.",
+                  "type": "file",
+                  "src": [],
+                  "disabled": true
+                },
+                {
+                  "key": "consultations[0][id]",
+                  "value": "{{consultation_doctor_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][fee_name]",
+                  "value": "Consultation",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][amount]",
+                  "value": "550",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][doctor_share_amount]",
+                  "value": "200",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][discount_percentage]",
+                  "value": "5",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[1][fee_name]",
+                  "value": "Procedure",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[1][amount]",
+                  "value": "1000",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[1][doctor_share]",
+                  "value": "85",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[1][discount_percentage]",
+                  "value": "10",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{base_url}}/doctors/update",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "doctors",
+                "update"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Both shares populated on consultations[0] (illustrative)",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "doctor_id",
+                  "value": "{{doctor_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "first_name",
+                  "value": "Juan",
+                  "type": "text"
+                },
+                {
+                  "key": "middle_name",
+                  "value": "Santos",
+                  "type": "text"
+                },
+                {
+                  "key": "last_name",
+                  "value": "Dela Cruz",
+                  "type": "text"
+                },
+                {
+                  "key": "full_name",
+                  "value": "Juan Santos Dela Cruz",
+                  "type": "text"
+                },
+                {
+                  "key": "username",
+                  "value": "{{doctor_username}}",
+                  "type": "text"
+                },
+                {
+                  "key": "password_reset",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "branch_in",
+                  "value": "1,2,4",
+                  "type": "text",
+                  "description": "Comma-separated branch IDs (1,2,3,4,7)"
+                },
+                {
+                  "key": "license_no",
+                  "value": "1234567",
+                  "type": "text"
+                },
+                {
+                  "key": "ptr_no",
+                  "value": "PTR-001",
+                  "type": "text"
+                },
+                {
+                  "key": "s2_no",
+                  "value": "S2-001",
+                  "type": "text"
+                },
+                {
+                  "key": "type",
+                  "value": "5",
+                  "type": "text"
+                },
+                {
+                  "key": "specializations",
+                  "value": "3",
+                  "type": "text"
+                },
+                {
+                  "key": "other_services",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "affiliated",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "doctor_fee",
+                  "value": "550",
+                  "type": "text"
+                },
+                {
+                  "key": "doctor_percentage",
+                  "value": "90",
+                  "type": "text"
+                },
+                {
+                  "key": "vat_type",
+                  "value": "vat",
+                  "type": "text",
+                  "description": "vat | nvat"
+                },
+                {
+                  "key": "wht_percentage",
+                  "value": "10",
+                  "type": "text",
+                  "description": "5 | 10"
+                },
+                {
+                  "key": "contact_no",
+                  "value": "09171234567",
+                  "type": "text"
+                },
+                {
+                  "key": "email",
+                  "value": "juan@example.com",
+                  "type": "text"
+                },
+                {
+                  "key": "signature",
+                  "description": "Optional. Attach PNG/JPEG/JPG/PDF up to 5 MB if needed; otherwise leave disabled.",
+                  "type": "file",
+                  "src": [],
+                  "disabled": true
+                },
+                {
+                  "key": "consultations[0][id]",
+                  "value": "{{consultation_doctor_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][fee_name]",
+                  "value": "Consultation",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][amount]",
+                  "value": "550",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][doctor_share_amount]",
+                  "value": "200",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][discount_percentage]",
+                  "value": "5",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[1][fee_name]",
+                  "value": "Procedure",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[1][amount]",
+                  "value": "1000",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[1][doctor_share]",
+                  "value": "85",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[1][discount_percentage]",
+                  "value": "10",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][doctor_share]",
+                  "value": "80",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{base_url}}/doctors/update",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "doctors",
+                "update"
+              ]
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"consultations[0]: doctor_share and doctor_share_amount cannot both be provided.\"\n    ]\n  }\n}"
+        }
+      ]
+    },
+    {
+      "name": "Delete doctor",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "token",
+              "value": "{{token}}",
+              "type": "text"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}",
+              "type": "text"
+            },
+            {
+              "key": "doctor_id",
+              "value": "{{doctor_id}}",
+              "type": "text"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/doctors/delete",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "doctors",
+            "delete"
+          ]
+        },
+        "description": "## POST `/doctors/delete`\n\nBody: **form-data** (multipart).\n\nSoft-deletes dependencies across databases:\n- `doctor` on all diagnostic DBs (`master`, `mobile`, `oakridge`, `mactan`, `consolacion`, `mantlewood`) — uniquifies `username`\n- `consultation_doctor` rows for that doctor on all diagnostic DBs\n- master `user` where `email` = doctor.username — uniquifies `email`\n- EMR `user` where `master_doctor_id` = doctor.id on **all** EMR DBs (`mobile_emr`, `oakridge_emr`, `mactan_emr`, `consolacion_emr`, `mantlewood_emr`) — uniquifies `username` when present"
+      },
+      "response": [
+        {
+          "name": "Success (illustrative)",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": 200,\n  \"message\": \"doctor deleted.\"\n}",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "doctor_id",
+                  "value": "{{doctor_id}}",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{base_url}}/doctors/delete",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "doctors",
+                "delete"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Change status",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "token",
+              "value": "{{token}}",
+              "type": "text"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}",
+              "type": "text"
+            },
+            {
+              "key": "doctor_id",
+              "value": "{{doctor_id}}",
+              "type": "text"
+            },
+            {
+              "key": "status",
+              "value": "inactive",
+              "type": "text",
+              "description": "active | inactive"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/doctors/change_status",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "doctors",
+            "change_status"
+          ]
+        },
+        "description": "## POST `/doctors/change_status`\n\nBody: **form-data** (multipart).\n\nToggles doctor `status` between `active` and `inactive`.\n\n### Sync\n- Updates `doctor` on all diagnostic DBs (`master`, `mobile`, `oakridge`, `mactan`, `consolacion`, `mantlewood`)\n- Updates EMR `user` (by `master_doctor_id`) on each EMR DB mapped from doctor `branch_in`\n\n### Audit fields\n- `active` → sets `activated_by`, `activated_on`\n- `inactive` → sets `inactivated_by`, `inactivated_on`\n\nFails if the doctor is already that status."
+      },
+      "response": [
+        {
+          "name": "Success (illustrative)",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"doctor_id\": 1,\n  \"message\": \"doctor inactive successfully.\"\n}",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "doctor_id",
+                  "value": "{{doctor_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "status",
+                  "value": "inactive",
+                  "type": "text",
+                  "description": "active | inactive"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{base_url}}/doctors/change_status",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "doctors",
+                "change_status"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Already status (illustrative)",
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"Doctor is already inactive.\"\n    ]\n  }\n}",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "doctor_id",
+                  "value": "{{doctor_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "status",
+                  "value": "inactive",
+                  "type": "text",
+                  "description": "active | inactive"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{base_url}}/doctors/change_status",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "doctors",
+                "change_status"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Change password",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "API-KEY",
+            "value": "{{api_key}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "token",
+              "value": "{{token}}",
+              "type": "text"
+            },
+            {
+              "key": "requester",
+              "value": "{{requester}}",
+              "type": "text"
+            },
+            {
+              "key": "doctor_id",
+              "value": "{{doctor_id}}",
+              "type": "text"
+            },
+            {
+              "key": "password",
+              "value": "{{doctor_password}}",
+              "type": "text"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}/doctors/change_password",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "doctors",
+            "change_password"
+          ]
+        },
+        "description": "## POST `/doctors/change_password`\n\nBody: **form-data** (multipart).\n\nUpdates password on all diagnostic doctor rows, master user, and EMR user."
+      },
+      "response": [
+        {
+          "name": "Success (illustrative)",
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"doctor_id\": 1,\n  \"message\": \"Password changed successfully.\"\n}",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "doctor_id",
+                  "value": "{{doctor_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "password",
+                  "value": "{{doctor_password}}",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{base_url}}/doctors/change_password",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "doctors",
+                "change_password"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Consultation share examples",
+      "description": "Manual multipart examples. The feature remains local. Saved responses are illustrative; fill blank variables before sending. No scripts execute these requests.",
+      "item": [
+        {
+          "name": "Create — percentage share",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "first_name",
+                  "value": "Juan",
+                  "type": "text"
+                },
+                {
+                  "key": "middle_name",
+                  "value": "Santos",
+                  "type": "text"
+                },
+                {
+                  "key": "last_name",
+                  "value": "Dela Cruz",
+                  "type": "text"
+                },
+                {
+                  "key": "full_name",
+                  "value": "Juan Santos Dela Cruz",
+                  "type": "text"
+                },
+                {
+                  "key": "username",
+                  "value": "{{doctor_username}}",
+                  "type": "text"
+                },
+                {
+                  "key": "password",
+                  "value": "{{doctor_password}}",
+                  "type": "text"
+                },
+                {
+                  "key": "password_reset",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "branch_in",
+                  "value": "1,2,4",
+                  "type": "text",
+                  "description": "Comma-separated branch IDs (1,2,3,4,7)"
+                },
+                {
+                  "key": "license_no",
+                  "value": "1234567",
+                  "type": "text"
+                },
+                {
+                  "key": "ptr_no",
+                  "value": "PTR-001",
+                  "type": "text"
+                },
+                {
+                  "key": "s2_no",
+                  "value": "S2-001",
+                  "type": "text"
+                },
+                {
+                  "key": "type",
+                  "value": "5",
+                  "type": "text"
+                },
+                {
+                  "key": "specializations",
+                  "value": "3",
+                  "type": "text"
+                },
+                {
+                  "key": "other_services",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "affiliated",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "doctor_fee",
+                  "value": "500",
+                  "type": "text"
+                },
+                {
+                  "key": "doctor_percentage",
+                  "value": "90",
+                  "type": "text"
+                },
+                {
+                  "key": "vat_type",
+                  "value": "vat",
+                  "type": "text",
+                  "description": "vat | nvat"
+                },
+                {
+                  "key": "wht_percentage",
+                  "value": "10",
+                  "type": "text",
+                  "description": "5 | 10"
+                },
+                {
+                  "key": "contact_no",
+                  "value": "09171234567",
+                  "type": "text"
+                },
+                {
+                  "key": "email",
+                  "value": "juan@example.com",
+                  "type": "text",
+                  "description": "Doctor contact email (not master login)"
+                },
+                {
+                  "key": "signature",
+                  "description": "Optional. Attach PNG/JPEG/JPG/PDF up to 5 MB if needed; otherwise leave disabled.",
+                  "type": "file",
+                  "src": [],
+                  "disabled": true
+                },
+                {
+                  "key": "consultations[0][fee_name]",
+                  "value": "Consultation",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][amount]",
+                  "value": "500",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][doctor_share]",
+                  "value": "90",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][discount_percentage]",
+                  "value": "10",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{base_url}}/doctors/create",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "doctors",
+                "create"
+              ]
+            },
+            "description": "Set doctor_share=90 and omit doctor_share_amount. The saved amount alternative is null.\n\nThis write request is not executed by importing the collection. Sending it changes business records; use suitable data and review the request yourself.\n\nSee the collection-level Consultation share fields guide for null/blank normalization and mirrored storage rules."
+          },
+          "response": [
+            {
+              "name": "Success (illustrative)",
+              "originalRequest": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "API-KEY",
+                    "value": "{{api_key}}"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "requester",
+                      "value": "{{requester}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "first_name",
+                      "value": "Juan",
+                      "type": "text"
+                    },
+                    {
+                      "key": "middle_name",
+                      "value": "Santos",
+                      "type": "text"
+                    },
+                    {
+                      "key": "last_name",
+                      "value": "Dela Cruz",
+                      "type": "text"
+                    },
+                    {
+                      "key": "full_name",
+                      "value": "Juan Santos Dela Cruz",
+                      "type": "text"
+                    },
+                    {
+                      "key": "username",
+                      "value": "{{doctor_username}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "password",
+                      "value": "{{doctor_password}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "password_reset",
+                      "value": "",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "branch_in",
+                      "value": "1,2,4",
+                      "type": "text",
+                      "description": "Comma-separated branch IDs (1,2,3,4,7)"
+                    },
+                    {
+                      "key": "license_no",
+                      "value": "1234567",
+                      "type": "text"
+                    },
+                    {
+                      "key": "ptr_no",
+                      "value": "PTR-001",
+                      "type": "text"
+                    },
+                    {
+                      "key": "s2_no",
+                      "value": "S2-001",
+                      "type": "text"
+                    },
+                    {
+                      "key": "type",
+                      "value": "5",
+                      "type": "text"
+                    },
+                    {
+                      "key": "specializations",
+                      "value": "3",
+                      "type": "text"
+                    },
+                    {
+                      "key": "other_services",
+                      "value": "",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "affiliated",
+                      "value": "",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "doctor_fee",
+                      "value": "500",
+                      "type": "text"
+                    },
+                    {
+                      "key": "doctor_percentage",
+                      "value": "90",
+                      "type": "text"
+                    },
+                    {
+                      "key": "vat_type",
+                      "value": "vat",
+                      "type": "text",
+                      "description": "vat | nvat"
+                    },
+                    {
+                      "key": "wht_percentage",
+                      "value": "10",
+                      "type": "text",
+                      "description": "5 | 10"
+                    },
+                    {
+                      "key": "contact_no",
+                      "value": "09171234567",
+                      "type": "text"
+                    },
+                    {
+                      "key": "email",
+                      "value": "juan@example.com",
+                      "type": "text",
+                      "description": "Doctor contact email (not master login)"
+                    },
+                    {
+                      "key": "signature",
+                      "description": "Optional. Attach PNG/JPEG/JPG/PDF up to 5 MB if needed; otherwise leave disabled.",
+                      "type": "file",
+                      "src": [],
+                      "disabled": true
+                    },
+                    {
+                      "key": "consultations[0][fee_name]",
+                      "value": "Consultation",
+                      "type": "text"
+                    },
+                    {
+                      "key": "consultations[0][amount]",
+                      "value": "500",
+                      "type": "text"
+                    },
+                    {
+                      "key": "consultations[0][doctor_share]",
+                      "value": "90",
+                      "type": "text"
+                    },
+                    {
+                      "key": "consultations[0][discount_percentage]",
+                      "value": "10",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{base_url}}/doctors/create",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "doctors",
+                    "create"
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"doctor_id\": 1,\n  \"message\": \"doctor created successfully.\"\n}"
+            }
+          ]
+        },
+        {
+          "name": "Create — fixed amount share",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "first_name",
+                  "value": "Juan",
+                  "type": "text"
+                },
+                {
+                  "key": "middle_name",
+                  "value": "Santos",
+                  "type": "text"
+                },
+                {
+                  "key": "last_name",
+                  "value": "Dela Cruz",
+                  "type": "text"
+                },
+                {
+                  "key": "full_name",
+                  "value": "Juan Santos Dela Cruz",
+                  "type": "text"
+                },
+                {
+                  "key": "username",
+                  "value": "{{doctor_username}}",
+                  "type": "text"
+                },
+                {
+                  "key": "password",
+                  "value": "{{doctor_password}}",
+                  "type": "text"
+                },
+                {
+                  "key": "password_reset",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "branch_in",
+                  "value": "1,2,4",
+                  "type": "text",
+                  "description": "Comma-separated branch IDs (1,2,3,4,7)"
+                },
+                {
+                  "key": "license_no",
+                  "value": "1234567",
+                  "type": "text"
+                },
+                {
+                  "key": "ptr_no",
+                  "value": "PTR-001",
+                  "type": "text"
+                },
+                {
+                  "key": "s2_no",
+                  "value": "S2-001",
+                  "type": "text"
+                },
+                {
+                  "key": "type",
+                  "value": "5",
+                  "type": "text"
+                },
+                {
+                  "key": "specializations",
+                  "value": "3",
+                  "type": "text"
+                },
+                {
+                  "key": "other_services",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "affiliated",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "doctor_fee",
+                  "value": "500",
+                  "type": "text"
+                },
+                {
+                  "key": "doctor_percentage",
+                  "value": "90",
+                  "type": "text"
+                },
+                {
+                  "key": "vat_type",
+                  "value": "vat",
+                  "type": "text",
+                  "description": "vat | nvat"
+                },
+                {
+                  "key": "wht_percentage",
+                  "value": "10",
+                  "type": "text",
+                  "description": "5 | 10"
+                },
+                {
+                  "key": "contact_no",
+                  "value": "09171234567",
+                  "type": "text"
+                },
+                {
+                  "key": "email",
+                  "value": "juan@example.com",
+                  "type": "text",
+                  "description": "Doctor contact email (not master login)"
+                },
+                {
+                  "key": "signature",
+                  "description": "Optional. Attach PNG/JPEG/JPG/PDF up to 5 MB if needed; otherwise leave disabled.",
+                  "type": "file",
+                  "src": [],
+                  "disabled": true
+                },
+                {
+                  "key": "consultations[0][fee_name]",
+                  "value": "Consultation",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][amount]",
+                  "value": "500",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][doctor_share_amount]",
+                  "value": "125.50",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][discount_percentage]",
+                  "value": "5",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{base_url}}/doctors/create",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "doctors",
+                "create"
+              ]
+            },
+            "description": "Set doctor_share_amount=125.50 and omit doctor_share. The saved percentage alternative is null.\n\nThis write request is not executed by importing the collection. Sending it changes business records; use suitable data and review the request yourself.\n\nSee the collection-level Consultation share fields guide for null/blank normalization and mirrored storage rules."
+          },
+          "response": [
+            {
+              "name": "Success (illustrative)",
+              "originalRequest": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "API-KEY",
+                    "value": "{{api_key}}"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "requester",
+                      "value": "{{requester}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "first_name",
+                      "value": "Juan",
+                      "type": "text"
+                    },
+                    {
+                      "key": "middle_name",
+                      "value": "Santos",
+                      "type": "text"
+                    },
+                    {
+                      "key": "last_name",
+                      "value": "Dela Cruz",
+                      "type": "text"
+                    },
+                    {
+                      "key": "full_name",
+                      "value": "Juan Santos Dela Cruz",
+                      "type": "text"
+                    },
+                    {
+                      "key": "username",
+                      "value": "{{doctor_username}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "password",
+                      "value": "{{doctor_password}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "password_reset",
+                      "value": "",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "branch_in",
+                      "value": "1,2,4",
+                      "type": "text",
+                      "description": "Comma-separated branch IDs (1,2,3,4,7)"
+                    },
+                    {
+                      "key": "license_no",
+                      "value": "1234567",
+                      "type": "text"
+                    },
+                    {
+                      "key": "ptr_no",
+                      "value": "PTR-001",
+                      "type": "text"
+                    },
+                    {
+                      "key": "s2_no",
+                      "value": "S2-001",
+                      "type": "text"
+                    },
+                    {
+                      "key": "type",
+                      "value": "5",
+                      "type": "text"
+                    },
+                    {
+                      "key": "specializations",
+                      "value": "3",
+                      "type": "text"
+                    },
+                    {
+                      "key": "other_services",
+                      "value": "",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "affiliated",
+                      "value": "",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "doctor_fee",
+                      "value": "500",
+                      "type": "text"
+                    },
+                    {
+                      "key": "doctor_percentage",
+                      "value": "90",
+                      "type": "text"
+                    },
+                    {
+                      "key": "vat_type",
+                      "value": "vat",
+                      "type": "text",
+                      "description": "vat | nvat"
+                    },
+                    {
+                      "key": "wht_percentage",
+                      "value": "10",
+                      "type": "text",
+                      "description": "5 | 10"
+                    },
+                    {
+                      "key": "contact_no",
+                      "value": "09171234567",
+                      "type": "text"
+                    },
+                    {
+                      "key": "email",
+                      "value": "juan@example.com",
+                      "type": "text",
+                      "description": "Doctor contact email (not master login)"
+                    },
+                    {
+                      "key": "signature",
+                      "description": "Optional. Attach PNG/JPEG/JPG/PDF up to 5 MB if needed; otherwise leave disabled.",
+                      "type": "file",
+                      "src": [],
+                      "disabled": true
+                    },
+                    {
+                      "key": "consultations[0][fee_name]",
+                      "value": "Consultation",
+                      "type": "text"
+                    },
+                    {
+                      "key": "consultations[0][amount]",
+                      "value": "500",
+                      "type": "text"
+                    },
+                    {
+                      "key": "consultations[0][doctor_share_amount]",
+                      "value": "125.50",
+                      "type": "text"
+                    },
+                    {
+                      "key": "consultations[0][discount_percentage]",
+                      "value": "5",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{base_url}}/doctors/create",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "doctors",
+                    "create"
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"doctor_id\": 1,\n  \"message\": \"doctor created successfully.\"\n}"
+            }
+          ]
+        },
+        {
+          "name": "Create — zero share values",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "first_name",
+                  "value": "Juan",
+                  "type": "text"
+                },
+                {
+                  "key": "middle_name",
+                  "value": "Santos",
+                  "type": "text"
+                },
+                {
+                  "key": "last_name",
+                  "value": "Dela Cruz",
+                  "type": "text"
+                },
+                {
+                  "key": "full_name",
+                  "value": "Juan Santos Dela Cruz",
+                  "type": "text"
+                },
+                {
+                  "key": "username",
+                  "value": "{{doctor_username}}",
+                  "type": "text"
+                },
+                {
+                  "key": "password",
+                  "value": "{{doctor_password}}",
+                  "type": "text"
+                },
+                {
+                  "key": "password_reset",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "branch_in",
+                  "value": "1,2,4",
+                  "type": "text",
+                  "description": "Comma-separated branch IDs (1,2,3,4,7)"
+                },
+                {
+                  "key": "license_no",
+                  "value": "1234567",
+                  "type": "text"
+                },
+                {
+                  "key": "ptr_no",
+                  "value": "PTR-001",
+                  "type": "text"
+                },
+                {
+                  "key": "s2_no",
+                  "value": "S2-001",
+                  "type": "text"
+                },
+                {
+                  "key": "type",
+                  "value": "5",
+                  "type": "text"
+                },
+                {
+                  "key": "specializations",
+                  "value": "3",
+                  "type": "text"
+                },
+                {
+                  "key": "other_services",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "affiliated",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "doctor_fee",
+                  "value": "500",
+                  "type": "text"
+                },
+                {
+                  "key": "doctor_percentage",
+                  "value": "90",
+                  "type": "text"
+                },
+                {
+                  "key": "vat_type",
+                  "value": "vat",
+                  "type": "text",
+                  "description": "vat | nvat"
+                },
+                {
+                  "key": "wht_percentage",
+                  "value": "10",
+                  "type": "text",
+                  "description": "5 | 10"
+                },
+                {
+                  "key": "contact_no",
+                  "value": "09171234567",
+                  "type": "text"
+                },
+                {
+                  "key": "email",
+                  "value": "juan@example.com",
+                  "type": "text",
+                  "description": "Doctor contact email (not master login)"
+                },
+                {
+                  "key": "signature",
+                  "description": "Optional. Attach PNG/JPEG/JPG/PDF up to 5 MB if needed; otherwise leave disabled.",
+                  "type": "file",
+                  "src": [],
+                  "disabled": true
+                },
+                {
+                  "key": "consultations[0][fee_name]",
+                  "value": "Zero percentage",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][amount]",
+                  "value": "500",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][doctor_share]",
+                  "value": "0",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][doctor_share_amount]",
+                  "value": "",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][discount_percentage]",
+                  "value": "0",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[1][fee_name]",
+                  "value": "Zero fixed amount",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[1][amount]",
+                  "value": "300",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[1][doctor_share]",
+                  "value": "   ",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[1][doctor_share_amount]",
+                  "value": "0",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{base_url}}/doctors/create",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "doctors",
+                "create"
+              ]
+            },
+            "description": "Zero is a populated share. Empty/whitespace unused alternatives are allowed and saved as null.\n\nThis write request is not executed by importing the collection. Sending it changes business records; use suitable data and review the request yourself.\n\nSee the collection-level Consultation share fields guide for null/blank normalization and mirrored storage rules."
+          },
+          "response": [
+            {
+              "name": "Success (illustrative)",
+              "originalRequest": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "API-KEY",
+                    "value": "{{api_key}}"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "requester",
+                      "value": "{{requester}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "first_name",
+                      "value": "Juan",
+                      "type": "text"
+                    },
+                    {
+                      "key": "middle_name",
+                      "value": "Santos",
+                      "type": "text"
+                    },
+                    {
+                      "key": "last_name",
+                      "value": "Dela Cruz",
+                      "type": "text"
+                    },
+                    {
+                      "key": "full_name",
+                      "value": "Juan Santos Dela Cruz",
+                      "type": "text"
+                    },
+                    {
+                      "key": "username",
+                      "value": "{{doctor_username}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "password",
+                      "value": "{{doctor_password}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "password_reset",
+                      "value": "",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "branch_in",
+                      "value": "1,2,4",
+                      "type": "text",
+                      "description": "Comma-separated branch IDs (1,2,3,4,7)"
+                    },
+                    {
+                      "key": "license_no",
+                      "value": "1234567",
+                      "type": "text"
+                    },
+                    {
+                      "key": "ptr_no",
+                      "value": "PTR-001",
+                      "type": "text"
+                    },
+                    {
+                      "key": "s2_no",
+                      "value": "S2-001",
+                      "type": "text"
+                    },
+                    {
+                      "key": "type",
+                      "value": "5",
+                      "type": "text"
+                    },
+                    {
+                      "key": "specializations",
+                      "value": "3",
+                      "type": "text"
+                    },
+                    {
+                      "key": "other_services",
+                      "value": "",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "affiliated",
+                      "value": "",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "doctor_fee",
+                      "value": "500",
+                      "type": "text"
+                    },
+                    {
+                      "key": "doctor_percentage",
+                      "value": "90",
+                      "type": "text"
+                    },
+                    {
+                      "key": "vat_type",
+                      "value": "vat",
+                      "type": "text",
+                      "description": "vat | nvat"
+                    },
+                    {
+                      "key": "wht_percentage",
+                      "value": "10",
+                      "type": "text",
+                      "description": "5 | 10"
+                    },
+                    {
+                      "key": "contact_no",
+                      "value": "09171234567",
+                      "type": "text"
+                    },
+                    {
+                      "key": "email",
+                      "value": "juan@example.com",
+                      "type": "text",
+                      "description": "Doctor contact email (not master login)"
+                    },
+                    {
+                      "key": "signature",
+                      "description": "Optional. Attach PNG/JPEG/JPG/PDF up to 5 MB if needed; otherwise leave disabled.",
+                      "type": "file",
+                      "src": [],
+                      "disabled": true
+                    },
+                    {
+                      "key": "consultations[0][fee_name]",
+                      "value": "Zero percentage",
+                      "type": "text"
+                    },
+                    {
+                      "key": "consultations[0][amount]",
+                      "value": "500",
+                      "type": "text"
+                    },
+                    {
+                      "key": "consultations[0][doctor_share]",
+                      "value": "0",
+                      "type": "text"
+                    },
+                    {
+                      "key": "consultations[0][doctor_share_amount]",
+                      "value": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "consultations[0][discount_percentage]",
+                      "value": "0",
+                      "type": "text"
+                    },
+                    {
+                      "key": "consultations[1][fee_name]",
+                      "value": "Zero fixed amount",
+                      "type": "text"
+                    },
+                    {
+                      "key": "consultations[1][amount]",
+                      "value": "300",
+                      "type": "text"
+                    },
+                    {
+                      "key": "consultations[1][doctor_share]",
+                      "value": "   ",
+                      "type": "text"
+                    },
+                    {
+                      "key": "consultations[1][doctor_share_amount]",
+                      "value": "0",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{base_url}}/doctors/create",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "doctors",
+                    "create"
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"doctor_id\": 1,\n  \"message\": \"doctor created successfully.\"\n}"
+            }
+          ]
+        },
+        {
+          "name": "Update — percentage to fixed amount",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "doctor_id",
+                  "value": "{{doctor_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "first_name",
+                  "value": "Juan",
+                  "type": "text"
+                },
+                {
+                  "key": "middle_name",
+                  "value": "Santos",
+                  "type": "text"
+                },
+                {
+                  "key": "last_name",
+                  "value": "Dela Cruz",
+                  "type": "text"
+                },
+                {
+                  "key": "full_name",
+                  "value": "Juan Santos Dela Cruz",
+                  "type": "text"
+                },
+                {
+                  "key": "username",
+                  "value": "{{doctor_username}}",
+                  "type": "text"
+                },
+                {
+                  "key": "password_reset",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "branch_in",
+                  "value": "1,2,4",
+                  "type": "text",
+                  "description": "Comma-separated branch IDs (1,2,3,4,7)"
+                },
+                {
+                  "key": "license_no",
+                  "value": "1234567",
+                  "type": "text"
+                },
+                {
+                  "key": "ptr_no",
+                  "value": "PTR-001",
+                  "type": "text"
+                },
+                {
+                  "key": "s2_no",
+                  "value": "S2-001",
+                  "type": "text"
+                },
+                {
+                  "key": "type",
+                  "value": "5",
+                  "type": "text"
+                },
+                {
+                  "key": "specializations",
+                  "value": "3",
+                  "type": "text"
+                },
+                {
+                  "key": "other_services",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "affiliated",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "doctor_fee",
+                  "value": "550",
+                  "type": "text"
+                },
+                {
+                  "key": "doctor_percentage",
+                  "value": "90",
+                  "type": "text"
+                },
+                {
+                  "key": "vat_type",
+                  "value": "vat",
+                  "type": "text",
+                  "description": "vat | nvat"
+                },
+                {
+                  "key": "wht_percentage",
+                  "value": "10",
+                  "type": "text",
+                  "description": "5 | 10"
+                },
+                {
+                  "key": "contact_no",
+                  "value": "09171234567",
+                  "type": "text"
+                },
+                {
+                  "key": "email",
+                  "value": "juan@example.com",
+                  "type": "text"
+                },
+                {
+                  "key": "signature",
+                  "description": "Optional. Attach PNG/JPEG/JPG/PDF up to 5 MB if needed; otherwise leave disabled.",
+                  "type": "file",
+                  "src": [],
+                  "disabled": true
+                },
+                {
+                  "key": "consultations[0][id]",
+                  "value": "{{consultation_doctor_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][fee_name]",
+                  "value": "Consultation",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][amount]",
+                  "value": "500",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][doctor_share_amount]",
+                  "value": "200",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][discount_percentage]",
+                  "value": "10",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{base_url}}/doctors/update",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "doctors",
+                "update"
+              ]
+            },
+            "description": "Switch a retained selection to fixed amount. Its previous percentage is cleared. Include any additional existing selections you intend to retain.\n\nThis write request is not executed by importing the collection. Sending it changes business records; use suitable data and review the request yourself.\n\nA supplied consultation list replaces selections and soft-deletes omitted existing IDs. Include every existing selection you intend to retain.\n\nSee the collection-level Consultation share fields guide for null/blank normalization and mirrored storage rules."
+          },
+          "response": [
+            {
+              "name": "Success (illustrative)",
+              "originalRequest": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "API-KEY",
+                    "value": "{{api_key}}"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "requester",
+                      "value": "{{requester}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "doctor_id",
+                      "value": "{{doctor_id}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "first_name",
+                      "value": "Juan",
+                      "type": "text"
+                    },
+                    {
+                      "key": "middle_name",
+                      "value": "Santos",
+                      "type": "text"
+                    },
+                    {
+                      "key": "last_name",
+                      "value": "Dela Cruz",
+                      "type": "text"
+                    },
+                    {
+                      "key": "full_name",
+                      "value": "Juan Santos Dela Cruz",
+                      "type": "text"
+                    },
+                    {
+                      "key": "username",
+                      "value": "{{doctor_username}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "password_reset",
+                      "value": "",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "branch_in",
+                      "value": "1,2,4",
+                      "type": "text",
+                      "description": "Comma-separated branch IDs (1,2,3,4,7)"
+                    },
+                    {
+                      "key": "license_no",
+                      "value": "1234567",
+                      "type": "text"
+                    },
+                    {
+                      "key": "ptr_no",
+                      "value": "PTR-001",
+                      "type": "text"
+                    },
+                    {
+                      "key": "s2_no",
+                      "value": "S2-001",
+                      "type": "text"
+                    },
+                    {
+                      "key": "type",
+                      "value": "5",
+                      "type": "text"
+                    },
+                    {
+                      "key": "specializations",
+                      "value": "3",
+                      "type": "text"
+                    },
+                    {
+                      "key": "other_services",
+                      "value": "",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "affiliated",
+                      "value": "",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "doctor_fee",
+                      "value": "550",
+                      "type": "text"
+                    },
+                    {
+                      "key": "doctor_percentage",
+                      "value": "90",
+                      "type": "text"
+                    },
+                    {
+                      "key": "vat_type",
+                      "value": "vat",
+                      "type": "text",
+                      "description": "vat | nvat"
+                    },
+                    {
+                      "key": "wht_percentage",
+                      "value": "10",
+                      "type": "text",
+                      "description": "5 | 10"
+                    },
+                    {
+                      "key": "contact_no",
+                      "value": "09171234567",
+                      "type": "text"
+                    },
+                    {
+                      "key": "email",
+                      "value": "juan@example.com",
+                      "type": "text"
+                    },
+                    {
+                      "key": "signature",
+                      "description": "Optional. Attach PNG/JPEG/JPG/PDF up to 5 MB if needed; otherwise leave disabled.",
+                      "type": "file",
+                      "src": [],
+                      "disabled": true
+                    },
+                    {
+                      "key": "consultations[0][id]",
+                      "value": "{{consultation_doctor_id}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "consultations[0][fee_name]",
+                      "value": "Consultation",
+                      "type": "text"
+                    },
+                    {
+                      "key": "consultations[0][amount]",
+                      "value": "500",
+                      "type": "text"
+                    },
+                    {
+                      "key": "consultations[0][doctor_share_amount]",
+                      "value": "200",
+                      "type": "text"
+                    },
+                    {
+                      "key": "consultations[0][discount_percentage]",
+                      "value": "10",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{base_url}}/doctors/update",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "doctors",
+                    "update"
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"doctor_id\": 1,\n  \"message\": \"doctor updated successfully.\"\n}"
+            }
+          ]
+        },
+        {
+          "name": "Update — fixed amount to percentage",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "doctor_id",
+                  "value": "{{doctor_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "first_name",
+                  "value": "Juan",
+                  "type": "text"
+                },
+                {
+                  "key": "middle_name",
+                  "value": "Santos",
+                  "type": "text"
+                },
+                {
+                  "key": "last_name",
+                  "value": "Dela Cruz",
+                  "type": "text"
+                },
+                {
+                  "key": "full_name",
+                  "value": "Juan Santos Dela Cruz",
+                  "type": "text"
+                },
+                {
+                  "key": "username",
+                  "value": "{{doctor_username}}",
+                  "type": "text"
+                },
+                {
+                  "key": "password_reset",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "branch_in",
+                  "value": "1,2,4",
+                  "type": "text",
+                  "description": "Comma-separated branch IDs (1,2,3,4,7)"
+                },
+                {
+                  "key": "license_no",
+                  "value": "1234567",
+                  "type": "text"
+                },
+                {
+                  "key": "ptr_no",
+                  "value": "PTR-001",
+                  "type": "text"
+                },
+                {
+                  "key": "s2_no",
+                  "value": "S2-001",
+                  "type": "text"
+                },
+                {
+                  "key": "type",
+                  "value": "5",
+                  "type": "text"
+                },
+                {
+                  "key": "specializations",
+                  "value": "3",
+                  "type": "text"
+                },
+                {
+                  "key": "other_services",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "affiliated",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "doctor_fee",
+                  "value": "550",
+                  "type": "text"
+                },
+                {
+                  "key": "doctor_percentage",
+                  "value": "90",
+                  "type": "text"
+                },
+                {
+                  "key": "vat_type",
+                  "value": "vat",
+                  "type": "text",
+                  "description": "vat | nvat"
+                },
+                {
+                  "key": "wht_percentage",
+                  "value": "10",
+                  "type": "text",
+                  "description": "5 | 10"
+                },
+                {
+                  "key": "contact_no",
+                  "value": "09171234567",
+                  "type": "text"
+                },
+                {
+                  "key": "email",
+                  "value": "juan@example.com",
+                  "type": "text"
+                },
+                {
+                  "key": "signature",
+                  "description": "Optional. Attach PNG/JPEG/JPG/PDF up to 5 MB if needed; otherwise leave disabled.",
+                  "type": "file",
+                  "src": [],
+                  "disabled": true
+                },
+                {
+                  "key": "consultations[0][id]",
+                  "value": "{{consultation_doctor_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][fee_name]",
+                  "value": "Consultation",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][amount]",
+                  "value": "500",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][doctor_share]",
+                  "value": "80",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][discount_percentage]",
+                  "value": "5",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{base_url}}/doctors/update",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "doctors",
+                "update"
+              ]
+            },
+            "description": "Switch a retained selection to percentage. Its previous fixed amount is cleared. Include any additional existing selections you intend to retain.\n\nThis write request is not executed by importing the collection. Sending it changes business records; use suitable data and review the request yourself.\n\nA supplied consultation list replaces selections and soft-deletes omitted existing IDs. Include every existing selection you intend to retain.\n\nSee the collection-level Consultation share fields guide for null/blank normalization and mirrored storage rules."
+          },
+          "response": [
+            {
+              "name": "Success (illustrative)",
+              "originalRequest": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "API-KEY",
+                    "value": "{{api_key}}"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "requester",
+                      "value": "{{requester}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "doctor_id",
+                      "value": "{{doctor_id}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "first_name",
+                      "value": "Juan",
+                      "type": "text"
+                    },
+                    {
+                      "key": "middle_name",
+                      "value": "Santos",
+                      "type": "text"
+                    },
+                    {
+                      "key": "last_name",
+                      "value": "Dela Cruz",
+                      "type": "text"
+                    },
+                    {
+                      "key": "full_name",
+                      "value": "Juan Santos Dela Cruz",
+                      "type": "text"
+                    },
+                    {
+                      "key": "username",
+                      "value": "{{doctor_username}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "password_reset",
+                      "value": "",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "branch_in",
+                      "value": "1,2,4",
+                      "type": "text",
+                      "description": "Comma-separated branch IDs (1,2,3,4,7)"
+                    },
+                    {
+                      "key": "license_no",
+                      "value": "1234567",
+                      "type": "text"
+                    },
+                    {
+                      "key": "ptr_no",
+                      "value": "PTR-001",
+                      "type": "text"
+                    },
+                    {
+                      "key": "s2_no",
+                      "value": "S2-001",
+                      "type": "text"
+                    },
+                    {
+                      "key": "type",
+                      "value": "5",
+                      "type": "text"
+                    },
+                    {
+                      "key": "specializations",
+                      "value": "3",
+                      "type": "text"
+                    },
+                    {
+                      "key": "other_services",
+                      "value": "",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "affiliated",
+                      "value": "",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "doctor_fee",
+                      "value": "550",
+                      "type": "text"
+                    },
+                    {
+                      "key": "doctor_percentage",
+                      "value": "90",
+                      "type": "text"
+                    },
+                    {
+                      "key": "vat_type",
+                      "value": "vat",
+                      "type": "text",
+                      "description": "vat | nvat"
+                    },
+                    {
+                      "key": "wht_percentage",
+                      "value": "10",
+                      "type": "text",
+                      "description": "5 | 10"
+                    },
+                    {
+                      "key": "contact_no",
+                      "value": "09171234567",
+                      "type": "text"
+                    },
+                    {
+                      "key": "email",
+                      "value": "juan@example.com",
+                      "type": "text"
+                    },
+                    {
+                      "key": "signature",
+                      "description": "Optional. Attach PNG/JPEG/JPG/PDF up to 5 MB if needed; otherwise leave disabled.",
+                      "type": "file",
+                      "src": [],
+                      "disabled": true
+                    },
+                    {
+                      "key": "consultations[0][id]",
+                      "value": "{{consultation_doctor_id}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "consultations[0][fee_name]",
+                      "value": "Consultation",
+                      "type": "text"
+                    },
+                    {
+                      "key": "consultations[0][amount]",
+                      "value": "500",
+                      "type": "text"
+                    },
+                    {
+                      "key": "consultations[0][doctor_share]",
+                      "value": "80",
+                      "type": "text"
+                    },
+                    {
+                      "key": "consultations[0][discount_percentage]",
+                      "value": "5",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{base_url}}/doctors/update",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "doctors",
+                    "update"
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"doctor_id\": 1,\n  \"message\": \"doctor updated successfully.\"\n}"
+            }
+          ]
+        },
+        {
+          "name": "Update — omit consultations",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "doctor_id",
+                  "value": "{{doctor_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "first_name",
+                  "value": "Juan",
+                  "type": "text"
+                },
+                {
+                  "key": "middle_name",
+                  "value": "Santos",
+                  "type": "text"
+                },
+                {
+                  "key": "last_name",
+                  "value": "Dela Cruz",
+                  "type": "text"
+                },
+                {
+                  "key": "full_name",
+                  "value": "Juan Santos Dela Cruz",
+                  "type": "text"
+                },
+                {
+                  "key": "username",
+                  "value": "{{doctor_username}}",
+                  "type": "text"
+                },
+                {
+                  "key": "password_reset",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "branch_in",
+                  "value": "1,2,4",
+                  "type": "text",
+                  "description": "Comma-separated branch IDs (1,2,3,4,7)"
+                },
+                {
+                  "key": "license_no",
+                  "value": "1234567",
+                  "type": "text"
+                },
+                {
+                  "key": "ptr_no",
+                  "value": "PTR-001",
+                  "type": "text"
+                },
+                {
+                  "key": "s2_no",
+                  "value": "S2-001",
+                  "type": "text"
+                },
+                {
+                  "key": "type",
+                  "value": "5",
+                  "type": "text"
+                },
+                {
+                  "key": "specializations",
+                  "value": "3",
+                  "type": "text"
+                },
+                {
+                  "key": "other_services",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "affiliated",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "doctor_fee",
+                  "value": "550",
+                  "type": "text"
+                },
+                {
+                  "key": "doctor_percentage",
+                  "value": "90",
+                  "type": "text"
+                },
+                {
+                  "key": "vat_type",
+                  "value": "vat",
+                  "type": "text",
+                  "description": "vat | nvat"
+                },
+                {
+                  "key": "wht_percentage",
+                  "value": "10",
+                  "type": "text",
+                  "description": "5 | 10"
+                },
+                {
+                  "key": "contact_no",
+                  "value": "09171234567",
+                  "type": "text"
+                },
+                {
+                  "key": "email",
+                  "value": "juan@example.com",
+                  "type": "text"
+                },
+                {
+                  "key": "signature",
+                  "description": "Optional. Attach PNG/JPEG/JPG/PDF up to 5 MB if needed; otherwise leave disabled.",
+                  "type": "file",
+                  "src": [],
+                  "disabled": true
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{base_url}}/doctors/update",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "doctors",
+                "update"
+              ]
+            },
+            "description": "This request has no consultation fields. Existing consultation selections and share/discount values stay unchanged. Other supplied doctor profile fields remain subject to normal update behavior.\n\nThis write request is not executed by importing the collection. Sending it changes business records; use suitable data and review the request yourself.\n\nSee the collection-level Consultation share fields guide for null/blank normalization and mirrored storage rules."
+          },
+          "response": [
+            {
+              "name": "Success (illustrative)",
+              "originalRequest": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "API-KEY",
+                    "value": "{{api_key}}"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "requester",
+                      "value": "{{requester}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "doctor_id",
+                      "value": "{{doctor_id}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "first_name",
+                      "value": "Juan",
+                      "type": "text"
+                    },
+                    {
+                      "key": "middle_name",
+                      "value": "Santos",
+                      "type": "text"
+                    },
+                    {
+                      "key": "last_name",
+                      "value": "Dela Cruz",
+                      "type": "text"
+                    },
+                    {
+                      "key": "full_name",
+                      "value": "Juan Santos Dela Cruz",
+                      "type": "text"
+                    },
+                    {
+                      "key": "username",
+                      "value": "{{doctor_username}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "password_reset",
+                      "value": "",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "branch_in",
+                      "value": "1,2,4",
+                      "type": "text",
+                      "description": "Comma-separated branch IDs (1,2,3,4,7)"
+                    },
+                    {
+                      "key": "license_no",
+                      "value": "1234567",
+                      "type": "text"
+                    },
+                    {
+                      "key": "ptr_no",
+                      "value": "PTR-001",
+                      "type": "text"
+                    },
+                    {
+                      "key": "s2_no",
+                      "value": "S2-001",
+                      "type": "text"
+                    },
+                    {
+                      "key": "type",
+                      "value": "5",
+                      "type": "text"
+                    },
+                    {
+                      "key": "specializations",
+                      "value": "3",
+                      "type": "text"
+                    },
+                    {
+                      "key": "other_services",
+                      "value": "",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "affiliated",
+                      "value": "",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "doctor_fee",
+                      "value": "550",
+                      "type": "text"
+                    },
+                    {
+                      "key": "doctor_percentage",
+                      "value": "90",
+                      "type": "text"
+                    },
+                    {
+                      "key": "vat_type",
+                      "value": "vat",
+                      "type": "text",
+                      "description": "vat | nvat"
+                    },
+                    {
+                      "key": "wht_percentage",
+                      "value": "10",
+                      "type": "text",
+                      "description": "5 | 10"
+                    },
+                    {
+                      "key": "contact_no",
+                      "value": "09171234567",
+                      "type": "text"
+                    },
+                    {
+                      "key": "email",
+                      "value": "juan@example.com",
+                      "type": "text"
+                    },
+                    {
+                      "key": "signature",
+                      "description": "Optional. Attach PNG/JPEG/JPG/PDF up to 5 MB if needed; otherwise leave disabled.",
+                      "type": "file",
+                      "src": [],
+                      "disabled": true
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{base_url}}/doctors/update",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "doctors",
+                    "update"
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"doctor_id\": 1,\n  \"message\": \"doctor updated successfully.\"\n}"
+            }
+          ]
+        },
+        {
+          "name": "Invalid create — both populated shares",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "first_name",
+                  "value": "Juan",
+                  "type": "text"
+                },
+                {
+                  "key": "middle_name",
+                  "value": "Santos",
+                  "type": "text"
+                },
+                {
+                  "key": "last_name",
+                  "value": "Dela Cruz",
+                  "type": "text"
+                },
+                {
+                  "key": "full_name",
+                  "value": "Juan Santos Dela Cruz",
+                  "type": "text"
+                },
+                {
+                  "key": "username",
+                  "value": "{{doctor_username}}",
+                  "type": "text"
+                },
+                {
+                  "key": "password",
+                  "value": "{{doctor_password}}",
+                  "type": "text"
+                },
+                {
+                  "key": "password_reset",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "branch_in",
+                  "value": "1,2,4",
+                  "type": "text",
+                  "description": "Comma-separated branch IDs (1,2,3,4,7)"
+                },
+                {
+                  "key": "license_no",
+                  "value": "1234567",
+                  "type": "text"
+                },
+                {
+                  "key": "ptr_no",
+                  "value": "PTR-001",
+                  "type": "text"
+                },
+                {
+                  "key": "s2_no",
+                  "value": "S2-001",
+                  "type": "text"
+                },
+                {
+                  "key": "type",
+                  "value": "5",
+                  "type": "text"
+                },
+                {
+                  "key": "specializations",
+                  "value": "3",
+                  "type": "text"
+                },
+                {
+                  "key": "other_services",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "affiliated",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "doctor_fee",
+                  "value": "500",
+                  "type": "text"
+                },
+                {
+                  "key": "doctor_percentage",
+                  "value": "90",
+                  "type": "text"
+                },
+                {
+                  "key": "vat_type",
+                  "value": "vat",
+                  "type": "text",
+                  "description": "vat | nvat"
+                },
+                {
+                  "key": "wht_percentage",
+                  "value": "10",
+                  "type": "text",
+                  "description": "5 | 10"
+                },
+                {
+                  "key": "contact_no",
+                  "value": "09171234567",
+                  "type": "text"
+                },
+                {
+                  "key": "email",
+                  "value": "juan@example.com",
+                  "type": "text",
+                  "description": "Doctor contact email (not master login)"
+                },
+                {
+                  "key": "signature",
+                  "description": "Optional. Attach PNG/JPEG/JPG/PDF up to 5 MB if needed; otherwise leave disabled.",
+                  "type": "file",
+                  "src": [],
+                  "disabled": true
+                },
+                {
+                  "key": "consultations[0][fee_name]",
+                  "value": "Valid earlier row",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][amount]",
+                  "value": "500",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][doctor_share]",
+                  "value": "90",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[1][fee_name]",
+                  "value": "Conflicting row",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[1][amount]",
+                  "value": "300",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[1][doctor_share]",
+                  "value": "80",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[1][doctor_share_amount]",
+                  "value": "125.50",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{base_url}}/doctors/create",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "doctors",
+                "create"
+              ]
+            },
+            "description": "The conflict on index 1 returns HTTP 400 before either row or any doctor/user/mirror changes are written.\n\nThis is an illustrative invalid request. Its share conflict is rejected before business writes.\n\nSee the collection-level Consultation share fields guide for null/blank normalization and mirrored storage rules."
+          },
+          "response": [
+            {
+              "name": "Validation error (illustrative)",
+              "originalRequest": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "API-KEY",
+                    "value": "{{api_key}}"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "requester",
+                      "value": "{{requester}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "first_name",
+                      "value": "Juan",
+                      "type": "text"
+                    },
+                    {
+                      "key": "middle_name",
+                      "value": "Santos",
+                      "type": "text"
+                    },
+                    {
+                      "key": "last_name",
+                      "value": "Dela Cruz",
+                      "type": "text"
+                    },
+                    {
+                      "key": "full_name",
+                      "value": "Juan Santos Dela Cruz",
+                      "type": "text"
+                    },
+                    {
+                      "key": "username",
+                      "value": "{{doctor_username}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "password",
+                      "value": "{{doctor_password}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "password_reset",
+                      "value": "",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "branch_in",
+                      "value": "1,2,4",
+                      "type": "text",
+                      "description": "Comma-separated branch IDs (1,2,3,4,7)"
+                    },
+                    {
+                      "key": "license_no",
+                      "value": "1234567",
+                      "type": "text"
+                    },
+                    {
+                      "key": "ptr_no",
+                      "value": "PTR-001",
+                      "type": "text"
+                    },
+                    {
+                      "key": "s2_no",
+                      "value": "S2-001",
+                      "type": "text"
+                    },
+                    {
+                      "key": "type",
+                      "value": "5",
+                      "type": "text"
+                    },
+                    {
+                      "key": "specializations",
+                      "value": "3",
+                      "type": "text"
+                    },
+                    {
+                      "key": "other_services",
+                      "value": "",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "affiliated",
+                      "value": "",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "doctor_fee",
+                      "value": "500",
+                      "type": "text"
+                    },
+                    {
+                      "key": "doctor_percentage",
+                      "value": "90",
+                      "type": "text"
+                    },
+                    {
+                      "key": "vat_type",
+                      "value": "vat",
+                      "type": "text",
+                      "description": "vat | nvat"
+                    },
+                    {
+                      "key": "wht_percentage",
+                      "value": "10",
+                      "type": "text",
+                      "description": "5 | 10"
+                    },
+                    {
+                      "key": "contact_no",
+                      "value": "09171234567",
+                      "type": "text"
+                    },
+                    {
+                      "key": "email",
+                      "value": "juan@example.com",
+                      "type": "text",
+                      "description": "Doctor contact email (not master login)"
+                    },
+                    {
+                      "key": "signature",
+                      "description": "Optional. Attach PNG/JPEG/JPG/PDF up to 5 MB if needed; otherwise leave disabled.",
+                      "type": "file",
+                      "src": [],
+                      "disabled": true
+                    },
+                    {
+                      "key": "consultations[0][fee_name]",
+                      "value": "Valid earlier row",
+                      "type": "text"
+                    },
+                    {
+                      "key": "consultations[0][amount]",
+                      "value": "500",
+                      "type": "text"
+                    },
+                    {
+                      "key": "consultations[0][doctor_share]",
+                      "value": "90",
+                      "type": "text"
+                    },
+                    {
+                      "key": "consultations[1][fee_name]",
+                      "value": "Conflicting row",
+                      "type": "text"
+                    },
+                    {
+                      "key": "consultations[1][amount]",
+                      "value": "300",
+                      "type": "text"
+                    },
+                    {
+                      "key": "consultations[1][doctor_share]",
+                      "value": "80",
+                      "type": "text"
+                    },
+                    {
+                      "key": "consultations[1][doctor_share_amount]",
+                      "value": "125.50",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{base_url}}/doctors/create",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "doctors",
+                    "create"
+                  ]
+                }
+              },
+              "status": "Bad Request",
+              "code": 400,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"consultations[1]: doctor_share and doctor_share_amount cannot both be provided.\"\n    ]\n  }\n}"
+            }
+          ]
+        },
+        {
+          "name": "Invalid update — both zero shares",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "API-KEY",
+                "value": "{{api_key}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "text"
+                },
+                {
+                  "key": "requester",
+                  "value": "{{requester}}",
+                  "type": "text"
+                },
+                {
+                  "key": "doctor_id",
+                  "value": "{{doctor_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "first_name",
+                  "value": "Juan",
+                  "type": "text"
+                },
+                {
+                  "key": "middle_name",
+                  "value": "Santos",
+                  "type": "text"
+                },
+                {
+                  "key": "last_name",
+                  "value": "Dela Cruz",
+                  "type": "text"
+                },
+                {
+                  "key": "full_name",
+                  "value": "Juan Santos Dela Cruz",
+                  "type": "text"
+                },
+                {
+                  "key": "username",
+                  "value": "{{doctor_username}}",
+                  "type": "text"
+                },
+                {
+                  "key": "password_reset",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "branch_in",
+                  "value": "1,2,4",
+                  "type": "text",
+                  "description": "Comma-separated branch IDs (1,2,3,4,7)"
+                },
+                {
+                  "key": "license_no",
+                  "value": "1234567",
+                  "type": "text"
+                },
+                {
+                  "key": "ptr_no",
+                  "value": "PTR-001",
+                  "type": "text"
+                },
+                {
+                  "key": "s2_no",
+                  "value": "S2-001",
+                  "type": "text"
+                },
+                {
+                  "key": "type",
+                  "value": "5",
+                  "type": "text"
+                },
+                {
+                  "key": "specializations",
+                  "value": "3",
+                  "type": "text"
+                },
+                {
+                  "key": "other_services",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "affiliated",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "doctor_fee",
+                  "value": "550",
+                  "type": "text"
+                },
+                {
+                  "key": "doctor_percentage",
+                  "value": "90",
+                  "type": "text"
+                },
+                {
+                  "key": "vat_type",
+                  "value": "vat",
+                  "type": "text",
+                  "description": "vat | nvat"
+                },
+                {
+                  "key": "wht_percentage",
+                  "value": "10",
+                  "type": "text",
+                  "description": "5 | 10"
+                },
+                {
+                  "key": "contact_no",
+                  "value": "09171234567",
+                  "type": "text"
+                },
+                {
+                  "key": "email",
+                  "value": "juan@example.com",
+                  "type": "text"
+                },
+                {
+                  "key": "signature",
+                  "description": "Optional. Attach PNG/JPEG/JPG/PDF up to 5 MB if needed; otherwise leave disabled.",
+                  "type": "file",
+                  "src": [],
+                  "disabled": true
+                },
+                {
+                  "key": "consultations[0][id]",
+                  "value": "{{consultation_doctor_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][fee_name]",
+                  "value": "Consultation",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][amount]",
+                  "value": "500",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][doctor_share]",
+                  "value": "0",
+                  "type": "text"
+                },
+                {
+                  "key": "consultations[0][doctor_share_amount]",
+                  "value": "0",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{base_url}}/doctors/update",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "doctors",
+                "update"
+              ]
+            },
+            "description": "Both zeros are populated values and conflict. The existing selection remains unchanged.\n\nThis is an illustrative invalid request. Its share conflict is rejected before business writes.\n\nA supplied consultation list replaces selections and soft-deletes omitted existing IDs. Include every existing selection you intend to retain.\n\nSee the collection-level Consultation share fields guide for null/blank normalization and mirrored storage rules."
+          },
+          "response": [
+            {
+              "name": "Validation error (illustrative)",
+              "originalRequest": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "API-KEY",
+                    "value": "{{api_key}}"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "token",
+                      "value": "{{token}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "requester",
+                      "value": "{{requester}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "doctor_id",
+                      "value": "{{doctor_id}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "first_name",
+                      "value": "Juan",
+                      "type": "text"
+                    },
+                    {
+                      "key": "middle_name",
+                      "value": "Santos",
+                      "type": "text"
+                    },
+                    {
+                      "key": "last_name",
+                      "value": "Dela Cruz",
+                      "type": "text"
+                    },
+                    {
+                      "key": "full_name",
+                      "value": "Juan Santos Dela Cruz",
+                      "type": "text"
+                    },
+                    {
+                      "key": "username",
+                      "value": "{{doctor_username}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "password_reset",
+                      "value": "",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "branch_in",
+                      "value": "1,2,4",
+                      "type": "text",
+                      "description": "Comma-separated branch IDs (1,2,3,4,7)"
+                    },
+                    {
+                      "key": "license_no",
+                      "value": "1234567",
+                      "type": "text"
+                    },
+                    {
+                      "key": "ptr_no",
+                      "value": "PTR-001",
+                      "type": "text"
+                    },
+                    {
+                      "key": "s2_no",
+                      "value": "S2-001",
+                      "type": "text"
+                    },
+                    {
+                      "key": "type",
+                      "value": "5",
+                      "type": "text"
+                    },
+                    {
+                      "key": "specializations",
+                      "value": "3",
+                      "type": "text"
+                    },
+                    {
+                      "key": "other_services",
+                      "value": "",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "affiliated",
+                      "value": "",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "doctor_fee",
+                      "value": "550",
+                      "type": "text"
+                    },
+                    {
+                      "key": "doctor_percentage",
+                      "value": "90",
+                      "type": "text"
+                    },
+                    {
+                      "key": "vat_type",
+                      "value": "vat",
+                      "type": "text",
+                      "description": "vat | nvat"
+                    },
+                    {
+                      "key": "wht_percentage",
+                      "value": "10",
+                      "type": "text",
+                      "description": "5 | 10"
+                    },
+                    {
+                      "key": "contact_no",
+                      "value": "09171234567",
+                      "type": "text"
+                    },
+                    {
+                      "key": "email",
+                      "value": "juan@example.com",
+                      "type": "text"
+                    },
+                    {
+                      "key": "signature",
+                      "description": "Optional. Attach PNG/JPEG/JPG/PDF up to 5 MB if needed; otherwise leave disabled.",
+                      "type": "file",
+                      "src": [],
+                      "disabled": true
+                    },
+                    {
+                      "key": "consultations[0][id]",
+                      "value": "{{consultation_doctor_id}}",
+                      "type": "text"
+                    },
+                    {
+                      "key": "consultations[0][fee_name]",
+                      "value": "Consultation",
+                      "type": "text"
+                    },
+                    {
+                      "key": "consultations[0][amount]",
+                      "value": "500",
+                      "type": "text"
+                    },
+                    {
+                      "key": "consultations[0][doctor_share]",
+                      "value": "0",
+                      "type": "text"
+                    },
+                    {
+                      "key": "consultations[0][doctor_share_amount]",
+                      "value": "0",
+                      "type": "text"
+                    }
+                  ]
+                },
+                "url": {
+                  "raw": "{{base_url}}/doctors/update",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "doctors",
+                    "update"
+                  ]
+                }
+              },
+              "status": "Bad Request",
+              "code": 400,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"status\": 400,\n  \"error\": 400,\n  \"messages\": {\n    \"error_messages\": [\n      \"consultations[0]: doctor_share and doctor_share_amount cannot both be provided.\"\n    ]\n  }\n}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

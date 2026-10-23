@@ -1,0 +1,501 @@
+branch_id,source,source_id,account_type_id,date,debit,credit,remark,is_migrated,added_by,added_on,is_deleted
+\N,journal_entry,10609,1777,2026-05-18,66218.0000,0.0000,to record cash sales May 18 — #60324,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10609,1777,2026-05-18,0.0000,66218.0000,to record cash sales May 18 — #60324,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10615,1777,2026-05-18,0.0000,80425.0000,to record cash sales Oakridge May 18 - — #60330,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10615,1777,2026-05-18,80425.0000,0.0000,to record cash sales Oakridge May 18 - — #60330,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10617,1777,2026-05-18,0.0000,1943.9700,To record Credit Cards bank charge mbtc may 18 — #60332,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10617,1777,2026-05-18,1943.9700,0.0000,To record Credit Cards bank charge mbtc may 18 — #60332,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10622,1777,2026-05-18,0.0000,1743.1000,To record Credit Cards bank charge mbtc may 18 — #60526,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10622,1777,2026-05-18,1743.1000,0.0000,To record Credit Cards bank charge mbtc may 18 — #60526,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10624,1777,2026-05-18,0.0000,847018.0000,"Sales Branches May 18, 2026 - Cash Sales - May, 18 — #62144",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10624,1777,2026-05-18,847018.0000,0.0000,"Sales Branches May 18, 2026 - Laboratory/Diagnostics — #62144",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10685,217,2026-05-19,0.0000,2431.5700,OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 5915,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10687,217,2026-05-19,0.0000,236991.0900,Lh Paragon Inc — RFP No.# 6022,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10686,217,2026-05-19,0.0000,76571.2200,Lh Paragon Inc — RFP No.# 6021,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10688,217,2026-05-19,0.0000,11326.5000,Lh Paragon Inc — RFP No.# 6023,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10689,217,2026-05-19,0.0000,12131.0800,Lh Paragon Inc — RFP No.# 6024,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10684,217,2026-05-19,0.0000,126000.0000,GRETHEL FURNITURE SUB-CONTRACTING SERVICES — 0526-000509,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10664,237,2026-05-19,25890.4100,0.0000,TO RECORD REVERSAL OF MANCOM SL SICK LEAVE CONVERSION RESIGNED LAST PAY — #60337,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10664,237,2026-05-19,24480.0000,0.0000,TO RECORD REVERSAL OF MANCOM SL SICK LEAVE CONVERSION RESIGNED LAST PAY — #60337,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10671,237,2026-05-19,33374.4600,0.0000,"Reversal of: To accrue: CENTURION SECURITY AGENCY, INC ftp 2026 march — #60551",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10672,237,2026-05-19,42382.9800,0.0000,"Reversal of: To accrue: CENTURION SECURITY AGENCY, INC Oakridge ftp 2026 April — #60554",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10674,237,2026-05-19,213770.2000,0.0000,Reversal of: To accrue send out cost for the period 2026 APRIL — #60573,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10668,77,2026-05-19,0.0000,3596.0000,Cash - Security Bank CPCI - OPEX Gcash May 19 — #60531,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10677,77,2026-05-19,0.0000,300.0000,Cash - Security Bank CPCI - OPEX Gcash May 19 — #60867,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10665,61,2026-05-19,0.0000,516.9900,GLOBAL PAYMENTS ASIA-PACIFIC PHILIPPINES INC. CWT WC 830 January - Q1 1st month — #60520,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10666,61,2026-05-19,0.0000,133324.1000,To record receipts sales BPI AR-Cebu check AVEGA MANAGED CARE INC May 19 — #60529,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10667,61,2026-05-19,0.0000,2601.0000,To record receipts of SBC OPEX Debit Card May 19 — #60530,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10669,61,2026-05-19,0.0000,600.0000,To record receipts of SBC AR-Terms for ADVANCED MEDICAL ACCESS PHILIPPINES May 19 — #60532,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10669,61,2026-05-19,0.0000,7570.0000,To record receipts of SBC AR-Terms for ADVANCED MEDICAL ACCESS PHILIPPINES May 19 — #60532,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10670,61,2026-05-19,0.0000,43109.6100,"To record receipts of SBC for May 19, 2026, CREDIT CARD — #60533",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10673,61,2026-05-19,22794.0000,0.0000,"Bounced Payment - Far East Noble House Inc, recorded as part of collections thus reverse - Bounced Payment - Far East Noble House Inc. - Manual Journal #54650 — #60566",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10673,61,2026-05-19,30380.0000,0.0000,"Bounced Payment - Far East Noble House Inc, recorded as part of collections thus reverse - Bounced Payment - Far East Noble House Inc. - Manual Journal #52684 — #60566",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10675,61,2026-05-19,0.0000,36000.0000,To record receipts sales BPI AR-Cebu Unidentified deposit May 19 — #60865,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10676,61,2026-05-19,0.0000,57310.4000,To record receipts sales BPI AR-Cebu PHILHEALTHCARE May 19 — #60866,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10676,61,2026-05-19,0.0000,42473.2000,To record receipts sales BPI AR-Cebu PHILHEALTHCARE May 19 — #60866,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10678,61,2026-05-19,0.0000,400.0000,To record receipts of SBC OPEX Debit Card May 19 — #60868,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10679,61,2026-05-19,0.0000,22971.2000,"To record receipts of SBC AR-Terms for MEDICARD PHILIPPINES, INC. MAy 19 — #60869",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10680,61,2026-05-19,0.0000,112630.9500,To record Credit Cards mbtc May 19 — #60871,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10682,605,2026-05-19,3942.0800,0.0000,To record Credit Cards bank charge mbtc may 19 — #60874,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10666,1,2026-05-19,133324.1000,0.0000,To record receipts sales BPI AR-Cebu check AVEGA MANAGED CARE INC May 19 — #60529,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10673,1,2026-05-19,0.0000,22794.0000,"Bounced Payment - Far East Noble House Inc, recorded as part of collections thus reverse - Bounced Payment - Far East Noble House Inc. - Manual Journal #54650 — #60566",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10673,1,2026-05-19,0.0000,30380.0000,"Bounced Payment - Far East Noble House Inc, recorded as part of collections thus reverse - Bounced Payment - Far East Noble House Inc. - Manual Journal #52684 — #60566",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10675,1,2026-05-19,36000.0000,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit May 19 — #60865,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10676,1,2026-05-19,57310.4000,0.0000,To record receipts sales BPI AR-Cebu PHILHEALTHCARE May 19 — #60866,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10676,1,2026-05-19,42473.2000,0.0000,To record receipts sales BPI AR-Cebu PHILHEALTHCARE May 19 — #60866,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10680,41,2026-05-19,112630.9500,0.0000,To record Credit Cards mbtc May 19 — #60871,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10682,41,2026-05-19,0.0000,3942.0800,To record Credit Cards bank charge mbtc may 19 — #60874,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10667,5,2026-05-19,2601.0000,0.0000,To record receipts of SBC OPEX Debit Card May 19 — #60530,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10668,5,2026-05-19,3596.0000,0.0000,Cash - Security Bank CPCI - OPEX Gcash May 19 — #60531,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10669,5,2026-05-19,600.0000,0.0000,To record receipts of SBC AR-Terms for ADVANCED MEDICAL ACCESS PHILIPPINES May 19 — #60532,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10669,5,2026-05-19,7570.0000,0.0000,To record receipts of SBC AR-Terms for ADVANCED MEDICAL ACCESS PHILIPPINES May 19 — #60532,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10670,5,2026-05-19,43109.6100,0.0000,"To record receipts of SBC for May 19, 2026, CREDIT CARD — #60533",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10677,5,2026-05-19,300.0000,0.0000,Cash - Security Bank CPCI - OPEX Gcash May 19 — #60867,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10678,5,2026-05-19,400.0000,0.0000,To record receipts of SBC OPEX Debit Card May 19 — #60868,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10679,5,2026-05-19,22971.2000,0.0000,"To record receipts of SBC AR-Terms for MEDICARD PHILIPPINES, INC. MAy 19 — #60869",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10686,609,2026-05-19,69610.2000,0.0000,Lh Paragon Inc - Vatable: Payment for CPCI CUSA for May 2026 BS no. 1001366 — RFP No.# 6021,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10688,609,2026-05-19,11326.5000,0.0000,"Lh Paragon Inc - Payment for CPCI Utilities (GF Lobby and 4th floor pantry) ftp of March 27- April 26, 2026 1001344 — RFP No.# 6023",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10689,609,2026-05-19,12131.0800,0.0000,"Lh Paragon Inc - Payment for CPCI Utilities (GF Lobby and 4th floor pantry) ftp of February 27 to March 26,  2026 1001339 — RFP No.# 6024",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10665,165,2026-05-19,516.9900,0.0000,GLOBAL PAYMENTS ASIA-PACIFIC PHILIPPINES INC. CWT WC 830 January - Q1 1st month - 1st month Q1 — #60520,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10664,653,2026-05-19,0.0000,25890.4100,TO RECORD REVERSAL OF MANCOM SL SICK LEAVE CONVERSION RESIGNED LAST PAY — #60337,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10664,653,2026-05-19,0.0000,24480.0000,TO RECORD REVERSAL OF MANCOM SL SICK LEAVE CONVERSION RESIGNED LAST PAY — #60337,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10685,245,2026-05-19,0.0000,40.1300,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - 2% EWT on Payment for meals and beverages during philhealth meeting on April 22, 2026 SI no. 004464-32252 — RFP No.# 5915",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10687,245,2026-05-19,0.0000,11074.3500,Lh Paragon Inc - 5% EWT on Payment for CPCI Rental for May 2026 BS no. 1001367 — RFP No.# 6022,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10686,245,2026-05-19,0.0000,1392.2000,Lh Paragon Inc - 2% EWT on Payment for CPCI CUSA for May 2026 BS no. 1001366 — RFP No.# 6021,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10686,697,2026-05-19,8353.2200,0.0000,Lh Paragon Inc - Vat: Payment for CPCI CUSA for May 2026 BS no. 1001366 — RFP No.# 6021,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10685,761,2026-05-19,240.7500,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat: Payment for meals and beverages during philhealth meeting on April 22, 2026 SI no. 004464-32252 — RFP No.# 5915",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10687,793,2026-05-19,26578.4400,0.0000,Lh Paragon Inc - Vat: Payment for CPCI Rental for May 2026 BS no. 1001367 — RFP No.# 6022,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10687,889,2026-05-19,221487.0000,0.0000,Lh Paragon Inc - Vatable: Payment for CPCI Rental for May 2026 BS no. 1001367 — RFP No.# 6022,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10685,913,2026-05-19,2006.2500,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vatable: Payment for meals and beverages during philhealth meeting on April 22, 2026 SI no. 004464-32252 — RFP No.# 5915",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10685,913,2026-05-19,224.7000,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat exempt: Payment for meals and beverages during philhealth meeting on April 22, 2026 SI no. 004464-32252 — RFP No.# 5915",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10671,1777,2026-05-19,0.0000,33374.4600,"Reversal of: To accrue: CENTURION SECURITY AGENCY, INC ftp 2026 march — #60551",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10672,1777,2026-05-19,0.0000,42382.9800,"Reversal of: To accrue: CENTURION SECURITY AGENCY, INC Oakridge ftp 2026 April — #60554",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10674,1777,2026-05-19,0.0000,213770.2000,Reversal of: To accrue send out cost for the period 2026 APRIL — #60573,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10681,1777,2026-05-19,0.0000,92531.0000,to record cash sales May 18 - — #60873,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10681,1777,2026-05-19,92531.0000,0.0000,to record cash sales May 18 - — #60873,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10682,1777,2026-05-19,0.0000,3942.0800,To record Credit Cards bank charge mbtc may 19 — #60874,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10682,1777,2026-05-19,3942.0800,0.0000,To record Credit Cards bank charge mbtc may 19 — #60874,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10683,1777,2026-05-19,0.0000,767186.0000,"Sales Branches May 19, 2026 - Cash Sales - May, 19 — #62688",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10683,1777,2026-05-19,767186.0000,0.0000,"Sales Branches May 19, 2026 - Laboratory/Diagnostics — #62688",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10728,217,2026-05-20,0.0000,7348.0000,ELLEN ROSE L. SIMBULAAN — RFP No.# 6058,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10726,217,2026-05-20,0.0000,55000.0000,"Philippine Council on Accreditation of Healthcare Organizations, Inc. — RFP No.# 6050",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10721,217,2026-05-20,0.0000,182750.0000,"Philippine Council on Accreditation of Healthcare Organizations, Inc. — RFP No.# 5943",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10725,217,2026-05-20,0.0000,883.9800,IRISH F. BURNASAL — RFP No.# 6048,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10717,217,2026-05-20,0.0000,1486.6100,BLUEARM COMPUTER STORE — 0526-000510,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10718,217,2026-05-20,0.0000,22000.0000,TWIN-BEE PRINT ADS CORPORATION — 0526-000511,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10719,217,2026-05-20,0.0000,7556.9200,NEW KEEN'S TRADING — 0526-000514,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10722,217,2026-05-20,0.0000,6017.5000,Mary Ann Emphasis — RFP No.# 5944,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10723,217,2026-05-20,0.0000,33807.6200,"GLOBE TELECOM, INC. — RFP No.# 6009",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10724,217,2026-05-20,0.0000,6700.0000,ALEJANDRO DE LA CRUZ III — RFP No.# 6046,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10720,217,2026-05-20,0.0000,2279.4600,DG'S INK TRADING — 0526-000517,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10727,217,2026-05-20,0.0000,86368.8900,BRYAN ALBERT LIM — RFP No.# 6051,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10730,217,2026-05-20,86368.8900,0.0000,Payment: BRYAN ALBERT LIM — RFP No.# 6051,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10691,85,2026-05-20,0.0000,3474.8800,"CPCI Payroll for May 1-15, 2026 - Shared finance — #60738",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10692,85,2026-05-20,0.0000,50000.0000,Liquidation of Advances to employee for Psychological Test CA- 0271 - Advances to employee for Psychological Test CA- 0271 — #60761,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10696,85,2026-05-20,0.0000,5260.5900,"CPCI Payroll for May 1-15, 2026 - Shared - LHRA — #60879",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10698,85,2026-05-20,0.0000,745.5000,"CPCI Payroll for May 1-15, 2026 - Shared IT — #60887",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10699,85,2026-05-20,0.0000,8800.6700,"CPCI Payroll for May 1-15, 2026 - Shared Sales Services — #60893",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10699,85,2026-05-20,0.0000,833.3400,"CPCI Payroll for May 1-15, 2026 - Shared Sales Services -  tthe Loan, May 1-15, Tarona, Raqueline — #60893",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10725,85,2026-05-20,0.0000,50000.0000,"IRISH F. BURNASAL - Liquidation of Advances to employee for Christmas giveways (Client Solicitation) for AAI, VFI, Philcare, Aventus, Intellicare, and Maxicare. CA- 0260 — RFP No.# 6048",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10702,77,2026-05-20,0.0000,1522.0000,Cash - Security Bank CPCI - OPEX Gcash May 20 — #60902,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10711,77,2026-05-20,0.0000,200.0000,Cash - Security Bank CPCI - OPEX Gcash May 20 — #61065,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10695,109,2026-05-20,0.0000,6600.0000,"to reclass AR SSS credited oct 30, 2025 Rochelle Christa Bianca P. Mendoza - Payment for Approved SSS Sickness September 29 to October 9, 2025 (11 Days). — #60838",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10690,61,2026-05-20,0.0000,3713.8900,GLOBAL PAYMENTS ASIA-PACIFIC PHILIPPINES INC. CWT WC 830 February - Q1 2nd month — #60596,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10700,61,2026-05-20,0.0000,140786.8000,To record receipts sales BPI AR-Cebu Unidentified deposit May 20 — #60898,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10700,61,2026-05-20,0.0000,37857.4000,To record receipts sales BPI AR-Cebu Unidentified deposit May 20 — #60898,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10703,61,2026-05-20,0.0000,16710.0000,To record receipts of SBC AR-Terms LACSON AND LACSON INSURANCE BROKERS May 20 — #60904,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10704,61,2026-05-20,0.0000,23631.1400,"To record receipts of SBC for May 20, 2026, CREDIT CARD — #60905",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10706,61,2026-05-20,0.0000,10495.8000,To record receipts of SBC AR-Terms for check TOYOTA TALISAY May 20 — #60909,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10707,61,2026-05-20,0.0000,14866.6000,"To Record deposit sales Branches AR-Terms check deposit Greentree Food Solutions, Inc. May 20 — #60912",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10708,61,2026-05-20,0.0000,2000.0000,AR-Cebu cash deposit fr ANDY GO may 20 — #60914,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10709,61,2026-05-20,0.0000,2904447.7600,to record collection received from PHIC PHILHEALTH YAKAP/KONSULTA May 20 — #60915,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10710,61,2026-05-20,0.0000,9163.0000,To record receipts sales BPI AR-Cebu Unidentified deposit May 20 — #61064,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10710,61,2026-05-20,0.0000,7056.0000,To record receipts sales BPI AR-Cebu Unidentified deposit May 20 — #61064,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10710,61,2026-05-20,0.0000,4606.0000,To record receipts sales BPI AR-Cebu Unidentified deposit May 20 — #61064,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10710,61,2026-05-20,0.0000,4200.0000,To record receipts sales BPI AR-Cebu Unidentified deposit May 20 — #61064,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10712,61,2026-05-20,0.0000,3959.2000,"To record receipts of SBC AR-Terms for SUN LIFE GREPA FINANCIAL, INC. May 20 — #61066",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10713,61,2026-05-20,0.0000,833.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP May 20 — #61067,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10714,61,2026-05-20,0.0000,56180.9900,To record Credit Cards mbtc May 20 — #61069,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10731,57,2026-05-20,0.0000,10.0000,Asalus Corporation — CN-5330,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10732,57,2026-05-20,10.0000,0.0000,Asalus Corporation — CN-5330,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10695,101,2026-05-20,6600.0000,0.0000,"to reclass AR SSS credited oct 30, 2025 Rochelle Christa Bianca P. Mendoza - Payment for Approved SSS Sickness September 29 to October 9, 2025 (11 Days). — #60838",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10715,605,2026-05-20,1966.3300,0.0000,To record Credit Cards bank charge mbtc may 20 — #61070,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10693,53,2026-05-20,650000.0000,0.0000,Fund transfer FT from MBTC OPEX TO BDO-OPEX May 20 — #60824,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10694,53,2026-05-20,600000.0000,0.0000,Fund transfer FT from SBC-OpEx TO BDO-OPEX May 20 — #60829,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10705,53,2026-05-20,20000.0000,0.0000,"RFP No.# 5805 - Blue Wolf Solutions - Incorrect Cash in Bank Account - Paid In Xero April 30, 2026 — #60907",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10707,53,2026-05-20,14866.6000,0.0000,"To Record deposit sales Branches AR-Terms check deposit Greentree Food Solutions, Inc. May 20 — #60912",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10708,53,2026-05-20,2000.0000,0.0000,AR-Cebu cash deposit fr ANDY GO may 20 — #60914,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10691,1,2026-05-20,0.0000,117250.5600,"CPCI Payroll for May 1-15, 2026 - Shared finance — #60738",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10696,1,2026-05-20,0.0000,164111.4800,"CPCI Payroll for May 1-15, 2026 - Shared - LHRA — #60879",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10698,1,2026-05-20,0.0000,48284.5700,"CPCI Payroll for May 1-15, 2026 - Shared IT — #60887",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10699,1,2026-05-20,0.0000,227139.5500,"CPCI Payroll for May 1-15, 2026 - Shared Sales Services — #60893",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10700,1,2026-05-20,140786.8000,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit May 20 — #60898,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10700,1,2026-05-20,37857.4000,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit May 20 — #60898,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10710,1,2026-05-20,9163.0000,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit May 20 — #61064,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10710,1,2026-05-20,7056.0000,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit May 20 — #61064,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10710,1,2026-05-20,4606.0000,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit May 20 — #61064,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10710,1,2026-05-20,4200.0000,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit May 20 — #61064,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10729,1,2026-05-20,0.0000,76028.8900,Payment: BRYAN ALBERT LIM — Online-05202026,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10709,49,2026-05-20,1424230.0800,0.0000,to record collection received from PHIC PHILHEALTH YAKAP/KONSULTA May 20 — #60915,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10709,49,2026-05-20,847460.8800,0.0000,to record collection received from PHIC PHILHEALTH YAKAP/KONSULTA May 20 — #60915,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10709,49,2026-05-20,632756.8000,0.0000,to record collection received from PHIC PHILHEALTH YAKAP/KONSULTA May 20 — #60915,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10693,41,2026-05-20,0.0000,650000.0000,Fund transfer FT from MBTC OPEX TO BDO-OPEX May 20 — #60824,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10714,41,2026-05-20,56180.9900,0.0000,To record Credit Cards mbtc May 20 — #61069,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10715,41,2026-05-20,0.0000,1966.3300,To record Credit Cards bank charge mbtc may 20 — #61070,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10705,9,2026-05-20,0.0000,20000.0000,"RFP No.# 5805 - Blue Wolf Solutions - Incorrect Cash in Bank Account - Paid In Xero April 30, 2026 — #60907",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10694,5,2026-05-20,0.0000,600000.0000,Fund transfer FT from SBC-OpEx TO BDO-OPEX May 20 — #60829,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10702,5,2026-05-20,1522.0000,0.0000,Cash - Security Bank CPCI - OPEX Gcash May 20 — #60902,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10703,5,2026-05-20,16710.0000,0.0000,To record receipts of SBC AR-Terms LACSON AND LACSON INSURANCE BROKERS May 20 — #60904,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10704,5,2026-05-20,23631.1400,0.0000,"To record receipts of SBC for May 20, 2026, CREDIT CARD — #60905",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10706,5,2026-05-20,10495.8000,0.0000,To record receipts of SBC AR-Terms for check TOYOTA TALISAY May 20 — #60909,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10711,5,2026-05-20,200.0000,0.0000,Cash - Security Bank CPCI - OPEX Gcash May 20 — #61065,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10712,5,2026-05-20,3959.2000,0.0000,"To record receipts of SBC AR-Terms for SUN LIFE GREPA FINANCIAL, INC. May 20 — #61066",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10713,5,2026-05-20,833.0000,0.0000,To record receipts of SBC AR-Terms for MAXICARE HEALTHCARE CORP May 20 — #61067,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10691,249,2026-05-20,0.0000,6842.2800,"CPCI Payroll for May 1-15, 2026 - Shared finance — #60738",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10696,249,2026-05-20,0.0000,8907.6800,"CPCI Payroll for May 1-15, 2026 - Shared - LHRA — #60879",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10698,249,2026-05-20,0.0000,575.4900,"CPCI Payroll for May 1-15, 2026 - Shared IT — #60887",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10699,249,2026-05-20,0.0000,13187.7600,"CPCI Payroll for May 1-15, 2026 - Shared Sales Services — #60893",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10690,165,2026-05-20,3713.8900,0.0000,GLOBAL PAYMENTS ASIA-PACIFIC PHILIPPINES INC. CWT WC 830 February - Q1 2nd month - 2nd month Q1 — #60596,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10731,165,2026-05-20,10.0000,0.0000,Asalus Corporation - CWT-2% | ASALUS — CN-5330,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10691,665,2026-05-20,19827.0000,0.0000,"CPCI Payroll for May 1-15, 2026 - Shared finance — #60738",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10696,665,2026-05-20,24647.0000,0.0000,"CPCI Payroll for May 1-15, 2026 - Shared - LHRA — #60879",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10698,665,2026-05-20,4670.0000,0.0000,"CPCI Payroll for May 1-15, 2026 - Shared IT — #60887",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10699,665,2026-05-20,49974.0000,0.0000,"CPCI Payroll for May 1-15, 2026 - Shared Sales Services — #60893",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10722,669,2026-05-20,1899.0000,0.0000,Mary Ann Emphasis - blue jacket (Replenishment) — RFP No.# 5944,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10717,245,2026-05-20,0.0000,13.3900,BLUEARM COMPUTER STORE - 1% EWT on Payment for 2 pcs wireless mouse PO no. OPEX-26-0241 SI no. 3397 — 0526-000510,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10718,245,2026-05-20,0.0000,400.0000,TWIN-BEE PRINT ADS CORPORATION - 2% EWT on Payment for 1000 pcs profile panel package brochure PO no. OPEX-26-0222 SI no. 2492 — 0526-000511,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10719,245,2026-05-20,0.0000,68.0800,NEW KEEN'S TRADING - 1% EWT on Payment for distilled water PO no. OPEX-26-0252 SI no. 87905 — 0526-000514,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10720,245,2026-05-20,0.0000,20.5400,DG'S INK TRADING - 1% EWT on Payment for monthly service printer ink supply SI no. 0763 — 0526-000517,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10691,269,2026-05-20,0.0000,800.0000,"CPCI Payroll for May 1-15, 2026 - Shared finance — #60738",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10696,269,2026-05-20,0.0000,1100.0000,"CPCI Payroll for May 1-15, 2026 - Shared - LHRA — #60879",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10698,269,2026-05-20,0.0000,400.0000,"CPCI Payroll for May 1-15, 2026 - Shared IT — #60887",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10699,269,2026-05-20,0.0000,1450.0000,"CPCI Payroll for May 1-15, 2026 - Shared Sales Services — #60893",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10719,197,2026-05-20,816.9600,0.0000,NEW KEEN'S TRADING - Vat: Payment for distilled water PO no. OPEX-26-0252 SI no. 87905 — 0526-000514,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10723,737,2026-05-20,2311.7100,0.0000,"GLOBE TELECOM, INC. - VAT: Globe bill FTP 03/24-04/23/2026; Shared — RFP No.# 6009",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10722,741,2026-05-20,7.9300,0.0000,Mary Ann Emphasis - Vat: Drinking water (Replenishment) — RFP No.# 5944,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10717,193,2026-05-20,160.7100,0.0000,BLUEARM COMPUTER STORE - Vat: Payment for 2 pcs wireless mouse PO no. OPEX-26-0241 SI no. 3397 — 0526-000510,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10718,193,2026-05-20,2400.0000,0.0000,TWIN-BEE PRINT ADS CORPORATION - Vat: Payment for 1000 pcs profile panel package brochure PO no. OPEX-26-0222 SI no. 2492 — 0526-000511,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10720,193,2026-05-20,246.4300,0.0000,DG'S INK TRADING - Vat: Payment for monthly service printer ink supply SI no. 0763 — 0526-000517,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10692,205,2026-05-20,5357.1400,0.0000,Liquidation of Advances to employee for Psychological Test CA- 0271 - Liquidation of Advances to employee for Psychological Test CA- 0271 — #60761,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10722,761,2026-05-20,169.8200,0.0000,Mary Ann Emphasis - Vat: Meals during meeting with ORDC (Replenishment) — RFP No.# 5944,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10722,769,2026-05-20,32.2500,0.0000,Mary Ann Emphasis - Vat: Tokens (Replenishment) — RFP No.# 5944,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10724,777,2026-05-20,717.8600,0.0000,ALEJANDRO DE LA CRUZ III - Vat: Gasoline (Replenishment) — RFP No.# 6046,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10727,809,2026-05-20,76028.8900,0.0000,BRYAN ALBERT LIM - Microsoft subscription — RFP No.# 6051,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10719,141,2026-05-20,6808.0400,0.0000,NEW KEEN'S TRADING - Vatable: Payment for distilled water PO no. OPEX-26-0252 SI no. 87905 — 0526-000514,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10722,841,2026-05-20,350.0000,0.0000,Mary Ann Emphasis - Load for Dr. Gayle (Replenishment) — RFP No.# 5944,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10723,841,2026-05-20,19264.2900,0.0000,"GLOBE TELECOM, INC. - VATABLE: Globe bill FTP 03/24-04/23/2026; Shared — RFP No.# 6009",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10717,149,2026-05-20,1339.2900,0.0000,BLUEARM COMPUTER STORE - Vatable: Payment for 2 pcs wireless mouse PO no. OPEX-26-0241 SI no. 3397 — 0526-000510,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10718,149,2026-05-20,20000.0000,0.0000,TWIN-BEE PRINT ADS CORPORATION - Vatable: Payment for 1000 pcs profile panel package brochure PO no. OPEX-26-0222 SI no. 2492 — 0526-000511,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10720,149,2026-05-20,2053.5700,0.0000,DG'S INK TRADING - Vatable: Payment for monthly service printer ink supply SI no. 0763 — 0526-000517,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10728,849,2026-05-20,7348.0000,0.0000,ELLEN ROSE L. SIMBULAAN - Nondeductible: TP Links and webcam (Replenishment) — RFP No.# 6058,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10722,849,2026-05-20,66.0700,0.0000,Mary Ann Emphasis - Vatable: Drinking water (Replenishment) — RFP No.# 5944,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10722,849,2026-05-20,1225.0000,0.0000,Mary Ann Emphasis - Non-vat: Drinking water (Replenishment) — RFP No.# 5944,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10696,865,2026-05-20,4289.1200,0.0000,"CPCI Payroll for May 1-15, 2026 - Shared - LHRA — #60879",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10698,865,2026-05-20,5600.4000,0.0000,"CPCI Payroll for May 1-15, 2026 - Shared IT — #60887",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10699,865,2026-05-20,1186.8500,0.0000,"CPCI Payroll for May 1-15, 2026 - Shared Sales Services — #60893",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10691,257,2026-05-20,0.0000,1269.7600,"CPCI Payroll for May 1-15, 2026 - Shared finance — #60738",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10699,257,2026-05-20,0.0000,273.6100,"CPCI Payroll for May 1-15, 2026 - Shared Sales Services — #60893",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10691,265,2026-05-20,0.0000,2979.3200,"CPCI Payroll for May 1-15, 2026 - Shared finance — #60738",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10696,265,2026-05-20,0.0000,3888.0700,"CPCI Payroll for May 1-15, 2026 - Shared - LHRA — #60879",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10698,265,2026-05-20,0.0000,1077.0000,"CPCI Payroll for May 1-15, 2026 - Shared IT — #60887",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10699,265,2026-05-20,0.0000,5413.1400,"CPCI Payroll for May 1-15, 2026 - Shared Sales Services — #60893",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10692,173,2026-05-20,44642.8600,0.0000,Liquidation of Advances to employee for Psychological Test CA- 0271 - Liquidation of Advances to employee for Psychological Test CA- 0271 — #60761,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10726,173,2026-05-20,55000.0000,0.0000,"Philippine Council on Accreditation of Healthcare Organizations, Inc. - Payment for Audit Fee & Accreditation Fee (Permanent) — RFP No.# 6050",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10721,173,2026-05-20,182750.0000,0.0000,"Philippine Council on Accreditation of Healthcare Organizations, Inc. - Payment for QSS Certification for OFW clinics, MFOWS Training Fees (12 months) — RFP No.# 5943",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10725,173,2026-05-20,18467.8400,0.0000,"IRISH F. BURNASAL - Vatable: Liquidation of Advances to employee for Christmas giveways (Client Solicitation) for AAI, VFI, Philcare, Aventus, Intellicare, and Maxicare. CA- 0260 (Reimbursement). 12months — RFP No.# 6048",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10725,173,2026-05-20,2216.1400,0.0000,"IRISH F. BURNASAL - Vat: Liquidation of Advances to employee for Christmas giveways (Client Solicitation) for AAI, VFI, Philcare, Aventus, Intellicare, and Maxicare. CA- 0260 (Reimbursement) 12months — RFP No.# 6048",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10725,173,2026-05-20,30200.0000,0.0000,"IRISH F. BURNASAL - Non-vat:  Liquidation of Advances to employee for Christmas giveways (Client Solicitation) for AAI, VFI, Philcare, Aventus, Intellicare, and Maxicare. CA- 0260 (Reimbursement) 12months — RFP No.# 6048",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10722,913,2026-05-20,1415.1800,0.0000,Mary Ann Emphasis - Vatable: Meals during meeting with ORDC (Replenishment) — RFP No.# 5944,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10691,921,2026-05-20,119929.7500,0.0000,"CPCI Payroll for May 1-15, 2026 - Shared finance — #60738",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10696,921,2026-05-20,161775.0500,0.0000,"CPCI Payroll for May 1-15, 2026 - Shared - LHRA — #60879",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10698,921,2026-05-20,43074.6600,0.0000,"CPCI Payroll for May 1-15, 2026 - Shared IT — #60887",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10699,921,2026-05-20,217303.8600,0.0000,"CPCI Payroll for May 1-15, 2026 - Shared Sales Services — #60893",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10722,929,2026-05-20,268.7500,0.0000,Mary Ann Emphasis - Vatable: Tokens (Replenishment) — RFP No.# 5944,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10691,253,2026-05-20,0.0000,1827.4500,"CPCI Payroll for May 1-15, 2026 - Shared finance — #60738",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10696,253,2026-05-20,0.0000,418.3500,"CPCI Payroll for May 1-15, 2026 - Shared - LHRA — #60879",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10699,253,2026-05-20,0.0000,1529.1400,"CPCI Payroll for May 1-15, 2026 - Shared Sales Services — #60893",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10691,261,2026-05-20,0.0000,5312.5000,"CPCI Payroll for May 1-15, 2026 - Shared finance — #60738",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10696,261,2026-05-20,0.0000,7025.0000,"CPCI Payroll for May 1-15, 2026 - Shared - LHRA — #60879",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10698,261,2026-05-20,0.0000,2262.5000,"CPCI Payroll for May 1-15, 2026 - Shared IT — #60887",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10699,261,2026-05-20,0.0000,9837.5000,"CPCI Payroll for May 1-15, 2026 - Shared Sales Services — #60893",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10732,1777,2026-05-20,0.0000,10.0000,Asalus Corporation — CN-5330,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10696,1777,2026-05-20,0.0000,190711.1700,"CPCI Payroll for May 1-15, 2026 - Shared - LHRA — #60879",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10696,1777,2026-05-20,190711.1700,0.0000,"CPCI Payroll for May 1-15, 2026 - Shared - LHRA — #60879",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10697,1777,2026-05-20,0.0000,17453.1800,to reclass mobile related overtime per branches to COGS May 1-15 — #60885,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10697,1777,2026-05-20,17453.1800,0.0000,to reclass mobile related overtime per branches to COGS May 1-15 — #60885,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10698,1777,2026-05-20,0.0000,53345.0600,"CPCI Payroll for May 1-15, 2026 - Shared IT — #60887",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10698,1777,2026-05-20,53345.0600,0.0000,"CPCI Payroll for May 1-15, 2026 - Shared IT — #60887",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10699,1777,2026-05-20,0.0000,268464.7100,"CPCI Payroll for May 1-15, 2026 - Shared Sales Services — #60893",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10699,1777,2026-05-20,268464.7100,0.0000,"CPCI Payroll for May 1-15, 2026 - Shared Sales Services — #60893",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10701,1777,2026-05-20,0.0000,86570.0000,to record cash sales May 19 - — #60899,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10701,1777,2026-05-20,86570.0000,0.0000,to record cash sales May 19 - — #60899,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10715,1777,2026-05-20,0.0000,1966.3300,To record Credit Cards bank charge mbtc may 20 — #61070,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10715,1777,2026-05-20,1966.3300,0.0000,To record Credit Cards bank charge mbtc may 20 — #61070,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10716,1777,2026-05-20,0.0000,669382.0000,"Sales Branches May 20, 2026 - Cash Sales - May, 20 — #62691",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10716,1777,2026-05-20,669382.0000,0.0000,"Sales Branches May 20, 2026 - Laboratory/Diagnostics — #62691",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10722,945,2026-05-20,583.5000,0.0000,Mary Ann Emphasis - Nondeductible: Transportation expenses (Replenishment) — RFP No.# 5944,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10724,945,2026-05-20,5982.1400,0.0000,ALEJANDRO DE LA CRUZ III - Vatable: Gasoline (Replenishment) — RFP No.# 6046,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10737,581,2026-05-21,0.0000,64438.3600,"TO RECORD REVERSAL OF MANCOM 13th month recorded catch up April, RESIGNED LAST PAY — #61054",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10737,581,2026-05-21,0.0000,54706.6200,"TO RECORD REVERSAL OF MANCOM 13th month recorded catch up April, RESIGNED LAST PAY — #61054",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10763,217,2026-05-21,0.0000,15064.2900,LYNOLDS MARKETING — 0526-000524,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10764,217,2026-05-21,0.0000,33660.0000,TONERPRO TRADING — 0526-000525,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10765,217,2026-05-21,0.0000,166082.4000,BIOLAB MEDICAL SUPPLIES — 0526-000526,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10766,217,2026-05-21,0.0000,16174.2900,RA ESSENTIALS MARKETING — 0526-000527,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10767,217,2026-05-21,0.0000,15851.2000,GALAXY TRADERS — 0526-000528,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10768,217,2026-05-21,0.0000,18558.7100,GALAXY TRADERS — 0526-000529,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10769,217,2026-05-21,0.0000,25688.5700,GALAXY TRADERS — 0526-000530,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10770,217,2026-05-21,0.0000,4624.3400,GALAXY TRADERS — 0526-000531,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10771,217,2026-05-21,0.0000,74825.8900,"BEROVAN MARKETING, INC. — 0526-000533",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10734,237,2026-05-21,0.0000,16385.8800,to accrue mancom flight RJ Manila May 31 - June 2 — #61010,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10735,237,2026-05-21,22579.0000,0.0000,Reversal of: Globe -To accrue mobile for the month of April — #61030,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10736,237,2026-05-21,0.0000,25760.0000,To accrue ORDC:  Payment for IT services for the month of 2026 May — #61046,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10737,237,2026-05-21,64438.3600,0.0000,"TO RECORD REVERSAL OF MANCOM 13th month recorded catch up April, RESIGNED LAST PAY — #61054",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10737,237,2026-05-21,54706.6200,0.0000,"TO RECORD REVERSAL OF MANCOM 13th month recorded catch up April, RESIGNED LAST PAY — #61054",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10738,237,2026-05-21,0.0000,38879.6900,to record accrual of the SL sick leave conversion May — #61055,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10739,237,2026-05-21,0.0000,25500.0000,TO RECORD SL SICK LEAVE CONVERSION 2026 May — #61056,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10740,237,2026-05-21,0.0000,30471.4700,to record audit Fee of KPMG for 2025 audit May — #61057,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10741,237,2026-05-21,0.0000,100000.0000,To record accrual of LHPI Dr. Kenneth Y. Hartigan-Go - Per diem as CPCI Board Advisor for the month of 2026 May — #61058,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10742,237,2026-05-21,0.0000,5000.0000,"to record accrual of Avega availment 2026, May — #61059",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10744,77,2026-05-21,0.0000,1862.0000,Cash - Security Bank CPCI - OPEX Gcash May 21 — #61072,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10758,77,2026-05-21,0.0000,600.0000,Cash - Security Bank CPCI - OPEX Gcash May 21 — #61281,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10745,61,2026-05-21,0.0000,200.0000,To record receipts of SBC OPEX Debit Card May 21 — #61073,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10746,61,2026-05-21,0.0000,950.0000,To record receipts of SBC AR-Terms for TASKPRO OUTSOURCING OPC may 21 — #61074,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10746,61,2026-05-21,0.0000,1900.0000,To record receipts of SBC AR-Terms for TASKPRO OUTSOURCING OPC may 21 — #61074,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10747,61,2026-05-21,0.0000,2871.4000,To record receipts of SBC AR-Terms for GENERALI LIFE ASSURANCE PHILIPPINES May 21 — #61075,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10748,61,2026-05-21,0.0000,29120.3600,"To record receipts of SBC for May 21, 2026, CREDIT CARD — #61076",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10749,61,2026-05-21,0.0000,36804.9900,To record Credit Cards mbtc May 21 — #61078,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10753,61,2026-05-21,0.0000,28219.1000,AR-Cebu check deposit BDO OPEX ASALUS CORPORATION May 21 — #61100,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10753,61,2026-05-21,0.0000,161386.3000,AR-Cebu check deposit BDO OPEX ASALUS CORPORATION May 21 — #61100,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10753,61,2026-05-21,0.0000,76587.0000,AR-Cebu check deposit BDO OPEX ASALUS CORPORATION May 21 — #61100,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10754,61,2026-05-21,0.0000,13274.1000,AR-Cebu check deposit BDO OPEX AVEGA MANAGED CARE INC May 21 — #61101,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10754,61,2026-05-21,0.0000,11034.8000,AR-Cebu check deposit BDO OPEX AVEGA MANAGED CARE INC May 21 — #61101,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10755,61,2026-05-21,0.0000,7911.5400,AR-Cebu check deposit BDO OPEX Pages Holdings Inc May 21 — #61102,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10756,61,2026-05-21,0.0000,5341.0000,To record receipts sales BPI AR-Cebu Unidentified deposit May 21 — #61278,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10756,61,2026-05-21,0.0000,2891.0000,To record receipts sales BPI AR-Cebu Unidentified deposit May 21 — #61278,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10756,61,2026-05-21,0.0000,1470.0000,To record receipts sales BPI AR-Cebu Unidentified deposit May 21 — #61278,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10757,61,2026-05-21,0.0000,651063.0000,To record receipts sales BPI AR-Cebu PHILHEALTHCARE May 21 — #61280,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10757,61,2026-05-21,0.0000,67090.8000,To record receipts sales BPI AR-Cebu PHILHEALTHCARE May 21 — #61280,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10757,61,2026-05-21,0.0000,39778.2000,To record receipts sales BPI AR-Cebu PHILHEALTHCARE May 21 — #61280,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10757,61,2026-05-21,0.0000,1587.6000,To record receipts sales BPI AR-Cebu PHILHEALTHCARE May 21 — #61280,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10759,61,2026-05-21,0.0000,200.0000,To record receipts of SBC OPEX Debit Card May 21 — #61282,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10760,61,2026-05-21,0.0000,45584.9900,To record Credit Cards mbtc May 21 — #61283,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10740,601,2026-05-21,27206.6700,0.0000,to record audit Fee of KPMG for 2025 audit May — #61057,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10752,605,2026-05-21,1288.1700,0.0000,To record Credit Cards bank charge mbtc may 21 — #61099,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10761,605,2026-05-21,1595.4700,0.0000,To record Credit Cards bank charge mbtc may 21 — #61285,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10753,53,2026-05-21,28219.1000,0.0000,AR-Cebu check deposit BDO OPEX ASALUS CORPORATION May 21 — #61100,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10753,53,2026-05-21,161386.3000,0.0000,AR-Cebu check deposit BDO OPEX ASALUS CORPORATION May 21 — #61100,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10753,53,2026-05-21,76587.0000,0.0000,AR-Cebu check deposit BDO OPEX ASALUS CORPORATION May 21 — #61100,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10754,53,2026-05-21,13274.1000,0.0000,AR-Cebu check deposit BDO OPEX AVEGA MANAGED CARE INC May 21 — #61101,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10754,53,2026-05-21,11034.8000,0.0000,AR-Cebu check deposit BDO OPEX AVEGA MANAGED CARE INC May 21 — #61101,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10755,53,2026-05-21,7911.5400,0.0000,AR-Cebu check deposit BDO OPEX Pages Holdings Inc May 21 — #61102,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10733,1,2026-05-21,2900000.0000,0.0000,Transfer of Funds from LBP OpEx to BPI OpEx — #60969,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10756,1,2026-05-21,5341.0000,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit May 21 — #61278,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10756,1,2026-05-21,2891.0000,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit May 21 — #61278,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10756,1,2026-05-21,1470.0000,0.0000,To record receipts sales BPI AR-Cebu Unidentified deposit May 21 — #61278,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10757,1,2026-05-21,651063.0000,0.0000,To record receipts sales BPI AR-Cebu PHILHEALTHCARE May 21 — #61280,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10757,1,2026-05-21,67090.8000,0.0000,To record receipts sales BPI AR-Cebu PHILHEALTHCARE May 21 — #61280,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10757,1,2026-05-21,39778.2000,0.0000,To record receipts sales BPI AR-Cebu PHILHEALTHCARE May 21 — #61280,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10757,1,2026-05-21,1587.6000,0.0000,To record receipts sales BPI AR-Cebu PHILHEALTHCARE May 21 — #61280,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10733,49,2026-05-21,0.0000,2900000.0000,Transfer of Funds from LBP OpEx to BPI OpEx — #60969,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10749,41,2026-05-21,36804.9900,0.0000,To record Credit Cards mbtc May 21 — #61078,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10752,41,2026-05-21,0.0000,1288.1700,To record Credit Cards bank charge mbtc may 21 — #61099,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10760,41,2026-05-21,45584.9900,0.0000,To record Credit Cards mbtc May 21 — #61283,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10761,41,2026-05-21,0.0000,1595.4700,To record Credit Cards bank charge mbtc may 21 — #61285,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10744,5,2026-05-21,1862.0000,0.0000,Cash - Security Bank CPCI - OPEX Gcash May 21 — #61072,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10745,5,2026-05-21,200.0000,0.0000,To record receipts of SBC OPEX Debit Card May 21 — #61073,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10746,5,2026-05-21,950.0000,0.0000,To record receipts of SBC AR-Terms for TASKPRO OUTSOURCING OPC may 21 — #61074,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10746,5,2026-05-21,1900.0000,0.0000,To record receipts of SBC AR-Terms for TASKPRO OUTSOURCING OPC may 21 — #61074,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10747,5,2026-05-21,2871.4000,0.0000,To record receipts of SBC AR-Terms for GENERALI LIFE ASSURANCE PHILIPPINES May 21 — #61075,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10748,5,2026-05-21,29120.3600,0.0000,"To record receipts of SBC for May 21, 2026, CREDIT CARD — #61076",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10758,5,2026-05-21,600.0000,0.0000,Cash - Security Bank CPCI - OPEX Gcash May 21 — #61281,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10759,5,2026-05-21,200.0000,0.0000,To record receipts of SBC OPEX Debit Card May 21 — #61282,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10750,1761,2026-05-21,14359.2400,0.0000,Cash and Cash Equivalents Transactions Time Deposit - Interest Income May 21 — #61097,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10751,1761,2026-05-21,10016925.9000,0.0000,Cash and Cash Equivalents Transactions Time Deposit Placement - Rollover of Principal and Interest - Maturity Date is 06/05/2026 — #61098,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10751,1761,2026-05-21,0.0000,10016925.9000,Cash and Cash Equivalents Transactions Time Deposit Placement - Rollover of Principal and Interest - Maturity Date is 06/05/2026 — #61098,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10738,653,2026-05-21,671.2300,0.0000,to record accrual of the SL sick leave conversion May — #61055,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10738,653,2026-05-21,1012.3300,0.0000,to record accrual of the SL sick leave conversion May — #61055,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10738,653,2026-05-21,493.1500,0.0000,to record accrual of the SL sick leave conversion May — #61055,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10738,653,2026-05-21,1041.1000,0.0000,to record accrual of the SL sick leave conversion May — #61055,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10738,653,2026-05-21,5580.8200,0.0000,to record accrual of the SL sick leave conversion May — #61055,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10738,653,2026-05-21,2265.7500,0.0000,to record accrual of the SL sick leave conversion May — #61055,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10739,653,2026-05-21,25500.0000,0.0000,TO RECORD SL SICK LEAVE CONVERSION 2026 May — #61056,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10763,245,2026-05-21,0.0000,135.7100,LYNOLDS MARKETING - 1% EWT on Payment for urine container PO no. OPEX-26-0232 SI no. A4769 — 0526-000524,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10764,245,2026-05-21,0.0000,340.0000,TONERPRO TRADING - 1% EWT on Payment for Toner cartridge PO no. OPEX-26-0262 SI no. 009548 — 0526-000525,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10765,245,2026-05-21,0.0000,1677.6000,BIOLAB MEDICAL SUPPLIES - 1% EWT on Payment for various medical supplies PO no. OPEX-26-0273 SI no. 001387 — 0526-000526,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10766,245,2026-05-21,0.0000,145.7100,RA ESSENTIALS MARKETING - 1% EWT on Payment for blood collection tube PO no. OPEX-26-0258 SI no. 4212 — 0526-000527,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10767,245,2026-05-21,0.0000,142.8000,GALAXY TRADERS - 1% EWT on Payment for bond paper PO no. OPEX-26-0277 SI no. 84091 — 0526-000528,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10768,245,2026-05-21,0.0000,167.1900,GALAXY TRADERS - 1% EWT on Payment for various office supplies PO no. OPEX-26-0247 SI no. 83991 — 0526-000529,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10769,245,2026-05-21,0.0000,231.4300,GALAXY TRADERS - 1% EWT on Payment for various office supplies PO no. OPEX-26-0264 SI no. 83992 — 0526-000530,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10770,245,2026-05-21,0.0000,41.6600,GALAXY TRADERS - 1% EWT on Payment for various office supplies PO no. OPEX-26-0248 SI no. 83993 — 0526-000531,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10771,245,2026-05-21,0.0000,674.1100,"BEROVAN MARKETING, INC. - 1% EWT on Payment for medical supplies PO no. OPEX-26-0243 SI no. 390476 — 0526-000533",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10740,689,2026-05-21,3264.8000,0.0000,to record audit Fee of KPMG for 2025 audit May — #61057,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10736,721,2026-05-21,2760.0000,0.0000,To accrue ORDC:  Payment for IT services for the month of 2026 May — #61046,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10763,197,2026-05-21,1628.5700,0.0000,LYNOLDS MARKETING - Vat: Payment for urine container PO no. OPEX-26-0232 SI no. A4769 — 0526-000524,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10766,197,2026-05-21,1748.5700,0.0000,RA ESSENTIALS MARKETING - Vat: Payment for blood collection tube PO no. OPEX-26-0258 SI no. 4212 — 0526-000527,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10771,201,2026-05-21,8089.2900,0.0000,"BEROVAN MARKETING, INC. - Vat: Payment for medical supplies PO no. OPEX-26-0243 SI no. 390476 — 0526-000533",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10735,737,2026-05-21,0.0000,2419.2300,Reversal of: Globe -To accrue mobile for the month of April — #61030,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10767,193,2026-05-21,1713.6400,0.0000,GALAXY TRADERS - Vat: Payment for bond paper PO no. OPEX-26-0277 SI no. 84091 — 0526-000528,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10768,193,2026-05-21,2006.3500,0.0000,GALAXY TRADERS - Vat: Payment for various office supplies PO no. OPEX-26-0247 SI no. 83991 — 0526-000529,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10769,193,2026-05-21,2777.1400,0.0000,GALAXY TRADERS - Vat: Payment for various office supplies PO no. OPEX-26-0264 SI no. 83992 — 0526-000530,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10770,193,2026-05-21,499.9300,0.0000,GALAXY TRADERS - Vat: Payment for various office supplies PO no. OPEX-26-0248 SI no. 83993 — 0526-000531,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10742,801,2026-05-21,5000.0000,0.0000,"to record accrual of Avega availment 2026, May — #61059",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10750,1589,2026-05-21,0.0000,14359.2400,Cash and Cash Equivalents Transactions Time Deposit - Interest Income May 21 — #61097,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10736,809,2026-05-21,23000.0000,0.0000,To accrue ORDC:  Payment for IT services for the month of 2026 May — #61046,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10763,141,2026-05-21,13571.4300,0.0000,LYNOLDS MARKETING - Vatable: Payment for urine container PO no. OPEX-26-0232 SI no. A4769 — 0526-000524,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10766,141,2026-05-21,14571.4300,0.0000,RA ESSENTIALS MARKETING - Vatable: Payment for blood collection tube PO no. OPEX-26-0258 SI no. 4212 — 0526-000527,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10741,1773,2026-05-21,100000.0000,0.0000,To record accrual of LHPI Dr. Kenneth Y. Hartigan-Go - Per diem as CPCI Board Advisor for the month of 2026 May — #61058,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10765,133,2026-05-21,167760.0000,0.0000,BIOLAB MEDICAL SUPPLIES - Non-vat: Payment for various medical supplies PO no. OPEX-26-0273 SI no. 001387 — 0526-000526,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10771,133,2026-05-21,67410.7100,0.0000,"BEROVAN MARKETING, INC. - Vatable: Payment for medical supplies PO no. OPEX-26-0243 SI no. 390476 — 0526-000533",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10735,841,2026-05-21,0.0000,20159.7700,Reversal of: Globe -To accrue mobile for the month of April — #61030,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10764,149,2026-05-21,34000.0000,0.0000,TONERPRO TRADING - Non-vat: Payment for Toner cartridge PO no. OPEX-26-0262 SI no. 009548 — 0526-000525,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10767,149,2026-05-21,14280.3600,0.0000,GALAXY TRADERS - Vatable: Payment for bond paper PO no. OPEX-26-0277 SI no. 84091 — 0526-000528,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10768,149,2026-05-21,16719.5500,0.0000,GALAXY TRADERS - Vatable: Payment for various office supplies PO no. OPEX-26-0247 SI no. 83991 — 0526-000529,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10769,149,2026-05-21,23142.8600,0.0000,GALAXY TRADERS - Vatable: Payment for various office supplies PO no. OPEX-26-0264 SI no. 83992 — 0526-000530,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10770,149,2026-05-21,4166.0700,0.0000,GALAXY TRADERS - Vatable: Payment for various office supplies PO no. OPEX-26-0248 SI no. 83993 — 0526-000531,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10735,1777,2026-05-21,34764.0000,0.0000,Reversal of: Globe -To accrue mobile for the month of April — #61030,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10735,1777,2026-05-21,0.0000,34764.0000,Reversal of: Globe -To accrue mobile for the month of April — #61030,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10736,1777,2026-05-21,0.0000,25760.0000,To accrue ORDC:  Payment for IT services for the month of 2026 May — #61046,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10736,1777,2026-05-21,25760.0000,0.0000,To accrue ORDC:  Payment for IT services for the month of 2026 May — #61046,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10738,1777,2026-05-21,0.0000,38879.6900,to record accrual of the SL sick leave conversion May — #61055,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10738,1777,2026-05-21,38879.6900,0.0000,to record accrual of the SL sick leave conversion May — #61055,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10741,1777,2026-05-21,0.0000,100000.0000,To record accrual of LHPI Dr. Kenneth Y. Hartigan-Go - Per diem as CPCI Board Advisor for the month of 2026 May — #61058,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10741,1777,2026-05-21,100000.0000,0.0000,To record accrual of LHPI Dr. Kenneth Y. Hartigan-Go - Per diem as CPCI Board Advisor for the month of 2026 May — #61058,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10743,1777,2026-05-21,0.0000,103270.0000,to record cash sales May 20 - — #61071,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10743,1777,2026-05-21,103270.0000,0.0000,to record cash sales May 20 - — #61071,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10752,1777,2026-05-21,0.0000,1288.1700,To record Credit Cards bank charge mbtc may 21 — #61099,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10752,1777,2026-05-21,1288.1700,0.0000,To record Credit Cards bank charge mbtc may 21 — #61099,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10761,1777,2026-05-21,0.0000,1595.4700,To record Credit Cards bank charge mbtc may 21 — #61285,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10761,1777,2026-05-21,1595.4700,0.0000,To record Credit Cards bank charge mbtc may 21 — #61285,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10762,1777,2026-05-21,0.0000,676514.0000,"Sales Branches May 21, 2026 - Cash Sales - May, 21 — #62150",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10762,1777,2026-05-21,676514.0000,0.0000,"Sales Branches May 21, 2026 - Laboratory/Diagnostics — #62150",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10734,953,2026-05-21,10082.0000,0.0000,to accrue mancom flight RJ Manila May 31 - June 2 — #61010,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10734,953,2026-05-21,6303.8800,0.0000,to accrue mancom flight RJ Manila May 31 - June 2 — #61010,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10813,217,2026-05-22,126000.0000,0.0000,Payment: GRETHEL FURNITURE SUB-CONTRACTING SERVICES — 0526-000509,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10826,217,2026-05-22,14179.0000,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4894,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10826,217,2026-05-22,0.0000,283.5800,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4894,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10815,217,2026-05-22,27213.1500,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4478,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10815,217,2026-05-22,0.0000,544.2600,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4478,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10818,217,2026-05-22,23792.6000,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4485,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10818,217,2026-05-22,0.0000,475.8500,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4485,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10822,217,2026-05-22,19574.0000,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4490,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10822,217,2026-05-22,0.0000,391.4800,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4490,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10820,217,2026-05-22,20658.6000,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4488,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10820,217,2026-05-22,0.0000,413.1700,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4488,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10816,217,2026-05-22,17269.0000,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4481,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10816,217,2026-05-22,0.0000,345.3800,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4481,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10817,217,2026-05-22,8046.0000,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4483,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10817,217,2026-05-22,0.0000,160.9200,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4483,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10819,217,2026-05-22,25762.0000,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4486,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10819,217,2026-05-22,0.0000,515.2400,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4486,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10823,217,2026-05-22,10051.0000,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4889,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10823,217,2026-05-22,0.0000,201.0200,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4889,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10825,217,2026-05-22,14596.8000,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4892,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10825,217,2026-05-22,0.0000,291.9400,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4892,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10828,217,2026-05-22,23235.4000,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4896,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10828,217,2026-05-22,0.0000,464.7100,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4896,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10821,217,2026-05-22,14363.0000,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4489,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10821,217,2026-05-22,0.0000,287.2600,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4489,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10824,217,2026-05-22,15478.6000,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4890,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10824,217,2026-05-22,0.0000,309.5700,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4890,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10827,217,2026-05-22,23250.6000,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4895,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10827,217,2026-05-22,0.0000,465.0100,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4895,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10829,217,2026-05-22,10727.6000,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4897,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10829,217,2026-05-22,0.0000,214.5500,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4897,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10830,217,2026-05-22,10978.0000,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4898,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10830,217,2026-05-22,0.0000,219.5600,Payment: CHONG HUA HOSPITAL MANDAUE — RFP No.# 4898,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10804,217,2026-05-22,59741.7900,0.0000,Payment: MEDGISTIX CORPORATION — 0226-000260,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10805,217,2026-05-22,8176.3400,0.0000,Payment: MEDGISTIX CORPORATION — 0226-000261,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10800,217,2026-05-22,15857.1400,0.0000,Payment: DG'S INK TRADING — 0126-000094,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10802,217,2026-05-22,47620.9800,0.0000,Payment: DG'S INK TRADING — 0226-000182,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10812,217,2026-05-22,54439.5500,0.0000,Payment: JAV MARKETING — 0526-000474,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10810,217,2026-05-22,8360.0000,0.0000,Payment: TWIN-BEE PRINT ADS CORPORATION — 0326-000380,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10801,217,2026-05-22,6413.0000,0.0000,Payment: TWIN-BEE PRINT ADS CORPORATION — 0226-000181,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10809,217,2026-05-22,42345.8000,0.0000,Payment: ENA COMMERCIAL AND PRINTING SERVICES — 0326-000328,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10807,217,2026-05-22,54140.1000,0.0000,Payment: ENA COMMERCIAL AND PRINTING SERVICES — 0326-000294,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10806,217,2026-05-22,8140.6200,0.0000,Payment: ENA COMMERCIAL AND PRINTING SERVICES — 0326-000293,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10808,217,2026-05-22,43982.4000,0.0000,Payment: ENA COMMERCIAL AND PRINTING SERVICES — 0326-000295,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10803,217,2026-05-22,47571.4300,0.0000,Payment: BARCOTECH PHILIPPINES INC. — 0226-000233,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10811,217,2026-05-22,47571.4300,0.0000,Payment: BARCOTECH PHILIPPINES INC. — 0526-000473,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10832,217,2026-05-22,13280.8400,0.0000,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 4955,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10831,217,2026-05-22,39350.6500,0.0000,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 4954,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10837,217,2026-05-22,369943.2000,0.0000,"Payment: SPROUT SOLUTIONS PHIL.,INC. — RFP No.# 5883",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10833,217,2026-05-22,13090.0000,0.0000,"Payment: Avega Managed Care, Inc — RFP No.# 5678",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10842,217,2026-05-22,11326.5000,0.0000,Payment: Lh Paragon Inc — RFP No.# 6023,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10843,217,2026-05-22,12131.0800,0.0000,Payment: Lh Paragon Inc — RFP No.# 6024,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10839,217,2026-05-22,182750.0000,0.0000,"Payment: Philippine Council on Accreditation of Healthcare Organizations, Inc. — RFP No.# 5943",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10845,217,2026-05-22,883.9800,0.0000,Payment: IRISH F. BURNASAL — RFP No.# 6048,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10835,217,2026-05-22,236991.0900,0.0000,Payment: Lh Paragon Inc — RFP No.# 5687,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10841,217,2026-05-22,33807.6200,0.0000,"Payment: GLOBE TELECOM, INC. — RFP No.# 6009",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10840,217,2026-05-22,6017.5000,0.0000,Payment: Mary Ann Emphasis — RFP No.# 5944,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10844,217,2026-05-22,6700.0000,0.0000,Payment: ALEJANDRO DE LA CRUZ III — RFP No.# 6046,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10846,217,2026-05-22,55000.0000,0.0000,"Payment: Philippine Council on Accreditation of Healthcare Organizations, Inc. — RFP No.# 6050",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10834,217,2026-05-22,76571.2200,0.0000,Payment: Lh Paragon Inc — RFP No.# 5686,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10836,217,2026-05-22,14330.0000,0.0000,Payment: Lh Paragon Inc — RFP No.# 5688,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10838,217,2026-05-22,4624.1300,0.0000,Payment: MICHAEL DANDIE FRASCO — RFP No.# 5941,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10847,217,2026-05-22,7348.0000,0.0000,Payment: ELLEN ROSE L. SIMBULAAN — RFP No.# 6058,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10791,217,2026-05-22,0.0000,15093.9200,EASY SERVICES INC. — RFP No.# 6061,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10790,217,2026-05-22,0.0000,8892.8600,EUGENE TIO — RFP No.# 6060,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10772,237,2026-05-22,421643.8400,0.0000,Reversal of: to record accrual of interest expense BDO MTL Loan April 12-30 — #61182,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10773,237,2026-05-22,0.0000,234246.5800,to record accrual of interest expense BPI Loan for May 2026 — #61253,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10789,237,2026-05-22,0.0000,468493.1500,to record accrual of interest expense BDO MTL Loan May 12-31 — #62165,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10776,77,2026-05-22,0.0000,1070.0000,Cash - Security Bank CPCI - OPEX Gcash May 22 — #61287,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10777,61,2026-05-22,0.0000,1000.0000,To record receipts of SBC OPEX Debit Card May 22 — #61288,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10778,61,2026-05-22,0.0000,4905.0000,To record receipts of SBC AR-Terms for LH FOUNDATION INC May 22 — #61289,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10778,61,2026-05-22,0.0000,38902.5000,To record receipts of SBC AR-Terms for LH FOUNDATION INC May 22 — #61289,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10779,61,2026-05-22,0.0000,588.0000,To record receipts of SBC AR-Terms for GENERALI LIFE ASSURANCE PHILIPPINES May 22 — #61290,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10779,61,2026-05-22,0.0000,105340.2000,To record receipts of SBC AR-Terms for GENERALI LIFE ASSURANCE PHILIPPINES May 22 — #61290,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10779,61,2026-05-22,0.0000,15488.9000,To record receipts of SBC AR-Terms for GENERALI LIFE ASSURANCE PHILIPPINES May 22 — #61290,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10779,61,2026-05-22,0.0000,47461.4000,To record receipts of SBC AR-Terms for GENERALI LIFE ASSURANCE PHILIPPINES May 22 — #61290,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10779,61,2026-05-22,0.0000,55546.4000,To record receipts of SBC AR-Terms for GENERALI LIFE ASSURANCE PHILIPPINES May 22 — #61290,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10780,61,2026-05-22,0.0000,10898.3100,"To record receipts of SBC for May 22, 2026, CREDIT CARD — #61291",1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10781,61,2026-05-22,0.0000,931.0000,AR-Cebu check deposit BDO OPEX INSYSTIC CORPORATION May 22 — #61292,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10782,61,2026-05-22,0.0000,2180.0000,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc May 22 — #61293,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10782,61,2026-05-22,0.0000,8220.0000,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc May 22 — #61293,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10782,61,2026-05-22,0.0000,24520.0000,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc May 22 — #61293,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10782,61,2026-05-22,0.0000,830.0000,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc May 22 — #61293,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10782,61,2026-05-22,0.0000,145495.7000,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc May 22 — #61293,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10782,61,2026-05-22,0.0000,79767.1000,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc May 22 — #61293,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10782,61,2026-05-22,0.0000,69001.8000,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc May 22 — #61293,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10782,61,2026-05-22,0.0000,82202.4000,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc May 22 — #61293,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10782,61,2026-05-22,0.0000,784.0000,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc May 22 — #61293,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10783,61,2026-05-22,0.0000,11691.4000,To record receipts sales BPI AR-Cebu DEPOSIT Knowles Electronic Philippines May 22 — #61337,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10784,61,2026-05-22,0.0000,43938.3000,To record receipts sales BPI AR-Cebu Unidentified deposit May 22 — #61338,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10785,61,2026-05-22,0.0000,614.0000,To record receipts of SBC AR-Terms for LH FOUNDATION INC May 22 — #61339,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10786,61,2026-05-22,0.0000,100.0000,To record receipts of SBC OPEX Debit Card May 22 — #61340,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10787,61,2026-05-22,0.0000,82271.9800,To record Credit Cards mbtc May 22 — #61342,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10848,57,2026-05-22,0.0000,10.0000,Asalus Corporation — CN-5332,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10849,57,2026-05-22,10.0000,0.0000,Asalus Corporation — CN-5332,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10788,605,2026-05-22,2879.5200,0.0000,To record Credit Cards bank charge mbtc may 22 — #61343,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10792,53,2026-05-22,283.5800,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 0001340052,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10792,53,2026-05-22,544.2600,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 0001340052,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10792,53,2026-05-22,475.8500,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 0001340052,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10792,53,2026-05-22,391.4800,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 0001340052,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10792,53,2026-05-22,413.1700,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 0001340052,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10792,53,2026-05-22,345.3800,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 0001340052,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10792,53,2026-05-22,160.9200,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 0001340052,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10792,53,2026-05-22,515.2400,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 0001340052,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10792,53,2026-05-22,201.0200,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 0001340052,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10792,53,2026-05-22,291.9400,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 0001340052,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10792,53,2026-05-22,464.7100,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 0001340052,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10792,53,2026-05-22,287.2600,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 0001340052,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10792,53,2026-05-22,309.5700,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 0001340052,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10792,53,2026-05-22,465.0100,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 0001340052,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10792,53,2026-05-22,214.5500,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 0001340052,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10792,53,2026-05-22,219.5600,0.0000,Payment: CHONG HUA HOSPITAL MANDAUE — 0001340052,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10793,53,2026-05-22,0.0000,59741.7900,Payment: MEDGISTIX CORPORATION — 0001340054,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10793,53,2026-05-22,0.0000,8176.3400,Payment: MEDGISTIX CORPORATION — 0001340054,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10794,53,2026-05-22,0.0000,15857.1400,Payment: DG'S INK TRADING — 0001340055,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10794,53,2026-05-22,0.0000,47620.9800,Payment: DG'S INK TRADING — 0001340055,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10795,53,2026-05-22,0.0000,54439.5500,Payment: JAV MARKETING — 0001340056,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10796,53,2026-05-22,0.0000,8360.0000,Payment: TWIN-BEE PRINT ADS CORPORATION — 0001340058,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10796,53,2026-05-22,0.0000,6413.0000,Payment: TWIN-BEE PRINT ADS CORPORATION — 0001340058,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10797,53,2026-05-22,0.0000,42345.8000,Payment: ENA COMMERCIAL AND PRINTING SERVICES — 0001340060,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10797,53,2026-05-22,0.0000,54140.1000,Payment: ENA COMMERCIAL AND PRINTING SERVICES — 0001340060,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10797,53,2026-05-22,0.0000,8140.6200,Payment: ENA COMMERCIAL AND PRINTING SERVICES — 0001340060,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10797,53,2026-05-22,0.0000,43982.4000,Payment: ENA COMMERCIAL AND PRINTING SERVICES — 0001340060,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10798,53,2026-05-22,0.0000,47571.4300,Payment: BARCOTECH PHILIPPINES INC. — 0001340061,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10798,53,2026-05-22,0.0000,47571.4300,Payment: BARCOTECH PHILIPPINES INC. — 0001340061,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10799,53,2026-05-22,0.0000,13280.8400,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — 0001340062,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10799,53,2026-05-22,0.0000,39350.6500,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — 0001340062,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10781,53,2026-05-22,931.0000,0.0000,AR-Cebu check deposit BDO OPEX INSYSTIC CORPORATION May 22 — #61292,1,0,2026-05-31 23:59:59,0
+\N,journal_entry,10782,53,2026-05-22,2180.0000,0.0000,AR-Cebu check deposit BDO OPEX Life and Health HMP Inc May 22 — #61293,1,0,2026-05-31 23:59:59,0

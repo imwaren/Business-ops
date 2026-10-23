@@ -1,0 +1,501 @@
+branch_id,source,source_id,account_type_id,date,debit,credit,remark,is_migrated,added_by,added_on,is_deleted
+1,journal_entry,139,65,2026-02-18,0.0000,2480.0000,Asalus Corporation - WEEK 2| BASIC 5 | 01/12/2026 |GAPROTEC — MO-3639,1,0,2026-02-28 23:59:59,0
+1,journal_entry,138,65,2026-02-18,0.0000,2610.0000,Asalus Corporation - WEEK 1|BASIC 5 + SGPT | 01/05/2026 |GAPROTEC — MO-3638,1,0,2026-02-28 23:59:59,0
+1,journal_entry,138,65,2026-02-18,0.0000,3100.0000,Asalus Corporation - WEEK 1| BASIC 5 | 01/05/2026 |GAPROTEC | — MO-3638,1,0,2026-02-28 23:59:59,0
+1,journal_entry,140,65,2026-02-18,0.0000,3100.0000,Asalus Corporation - WEEK 3| BASIC 5 | 01/19/2026 |GAPROTEC — MO-3640,1,0,2026-02-28 23:59:59,0
+1,journal_entry,135,65,2026-02-18,0.0000,3310.0000,"Misa, Rutchie Quinapondan - WEEK 1 BASIC 5 + SGPT | 01/05/2026 |Misa, Rutchie Quinapondan — MO-3635",1,0,2026-02-28 23:59:59,0
+1,journal_entry,140,65,2026-02-18,0.0000,3390.0000,Asalus Corporation - WEEK 3| BASIC 5 + ECG | 01/19/2026 |GAPROTEC — MO-3640,1,0,2026-02-28 23:59:59,0
+1,journal_entry,141,65,2026-02-18,0.0000,3480.0000,Asalus Corporation - WEEK 4| BASIC 5 + SGPT | 01/26/2026 |GAPROTEC — MO-3641,1,0,2026-02-28 23:59:59,0
+1,journal_entry,139,65,2026-02-18,0.0000,4520.0000,Asalus Corporation - WEEK 2| BASIC 5 + ECG | 01/12/2026 |GAPROTEC — MO-3639,1,0,2026-02-28 23:59:59,0
+1,journal_entry,132,65,2026-02-18,0.0000,4634.0000,Cebu Labor Link Manpower - BASIC 5 + SGPT | 01/26/2026 | WEEK 4| Cebu Labor Link Manpower — MO-3632,1,0,2026-02-28 23:59:59,0
+1,journal_entry,140,65,2026-02-18,0.0000,5220.0000,Asalus Corporation - WEEK 3| BASIC 5 + SGPT | 01/19/2026 |GAPROTEC — MO-3640,1,0,2026-02-28 23:59:59,0
+1,journal_entry,141,65,2026-02-18,0.0000,7910.0000,Asalus Corporation - WEEK 4| BASIC 5 + ECG | 01/26/2026 |GAPROTEC — MO-3641,1,0,2026-02-28 23:59:59,0
+1,journal_entry,141,65,2026-02-18,0.0000,8680.0000,Asalus Corporation - WEEK 4| BASIC 5 | 01/26/2026 |GAPROTEC — MO-3641,1,0,2026-02-28 23:59:59,0
+1,journal_entry,127,65,2026-02-18,0.0000,11500.0000,Malachite Values Builders Inc. - BASIC 5 | 01/05/2026 |WEEK 1 |Malachite Values Builders Inc. — MO-3627,1,0,2026-02-28 23:59:59,0
+1,journal_entry,130,65,2026-02-18,0.0000,11900.0000,Malachite Values Builders Inc. - BASIC 5 + ECG | 01/26/2026 | WEEK 4| Malachite Values Builders Inc. — MO-3630,1,0,2026-02-28 23:59:59,0
+1,journal_entry,131,65,2026-02-18,0.0000,12578.0000,Cebu Labor Link Manpower - BASIC 5 + SGPT | 01/19/2026 | WEEK 3| Cebu Labor Link Manpower — MO-3631,1,0,2026-02-28 23:59:59,0
+1,journal_entry,138,65,2026-02-18,0.0000,13560.0000,Asalus Corporation - WEEK 1|BASIC 5 + ECG | 01/05/2026 |GAPROTEC — MO-3638,1,0,2026-02-28 23:59:59,0
+1,journal_entry,132,65,2026-02-18,0.0000,13600.0000,Cebu Labor Link Manpower - BASIC 5 + ECG | 01/26/2026 | WEEK 4| Cebu Labor Link Manpower — MO-3632,1,0,2026-02-28 23:59:59,0
+1,journal_entry,141,65,2026-02-18,0.0000,14000.0000,"Asalus Corporation - WEEK 4| ADDITIONAL TEST| LIPID, FBS, HBA1C, CREA, SGPT, ECG | 01/26/2026 |GAPROTEC — MO-3641",1,0,2026-02-28 23:59:59,0
+1,journal_entry,130,65,2026-02-18,0.0000,14564.0000,Malachite Values Builders Inc. - BASIC 5 + SGPT | 01/26/2026 | WEEK 4| Malachite Values Builders Inc. — MO-3630,1,0,2026-02-28 23:59:59,0
+1,journal_entry,126,65,2026-02-18,0.0000,15240.0000,Toyota LapuLapu - PACKAGE B | 01/19/2026 |Toyota LapuLapu — MO-3624,1,0,2026-02-28 23:59:59,0
+1,journal_entry,125,65,2026-02-18,0.0000,15300.0000,Fast Autoworld Philippines Corporation - DRUG TEST | 01/27/2026 |Fast Autoworld Phils Corp- South — MO-3623,1,0,2026-02-28 23:59:59,0
+1,journal_entry,129,65,2026-02-18,0.0000,15300.0000,Malachite Values Builders Inc. - BASIC 5 + ECG | 1/192026 |WEEK 3| |Malachite Values Builders Inc. — MO-3629,1,0,2026-02-28 23:59:59,0
+1,journal_entry,129,65,2026-02-18,0.0000,16000.0000,Malachite Values Builders Inc. - BASIC 5 | 1/192026 | WEEK 3| Malachite Values Builders Inc. — MO-3629,1,0,2026-02-28 23:59:59,0
+1,journal_entry,129,65,2026-02-18,0.0000,16550.0000,Malachite Values Builders Inc. - BASIC 5 + SGPT | 1/192026 |WEEK 3| Malachite Values Builders Inc. — MO-3629,1,0,2026-02-28 23:59:59,0
+1,journal_entry,139,65,2026-02-18,0.0000,19140.0000,Asalus Corporation - WEEK 2| BASIC 5 + SGPT | 01/12/2026 |GAPROTEC — MO-3639,1,0,2026-02-28 23:59:59,0
+1,journal_entry,128,65,2026-02-18,0.0000,19198.0000,Malachite Values Builders Inc. - BASIC 5 + SGPT | 01/12/2026 WEEK 2| |Malachite Values Builders Inc. — MO-3628,1,0,2026-02-28 23:59:59,0
+1,journal_entry,130,65,2026-02-18,0.0000,20000.0000,Malachite Values Builders Inc. - BASIC 5 | 01/26/2026 | WEEK 4| Malachite Values Builders Inc. — MO-3630,1,0,2026-02-28 23:59:59,0
+1,journal_entry,127,65,2026-02-18,0.0000,20400.0000,Malachite Values Builders Inc. - BASIC 5 + ECG | 01/05/2026 WEEK 1 |Malachite Values Builders Inc. — MO-3627,1,0,2026-02-28 23:59:59,0
+1,journal_entry,128,65,2026-02-18,0.0000,21500.0000,Malachite Values Builders Inc. - BASIC 5 | 01/12/2026 | WEEK 2| Malachite Values Builders Inc. — MO-3628,1,0,2026-02-28 23:59:59,0
+1,journal_entry,127,65,2026-02-18,0.0000,24494.0000,Malachite Values Builders Inc. - BASIC 5 + SGPT | 01/05/2026 |WEEK 1 |Malachite Values Builders Inc. — MO-3627,1,0,2026-02-28 23:59:59,0
+1,journal_entry,128,65,2026-02-18,0.0000,25500.0000,Malachite Values Builders Inc. - BASIC 5 + ECG | 01/12/2026 | WEEK 2| Malachite Values Builders Inc. — MO-3628,1,0,2026-02-28 23:59:59,0
+1,journal_entry,131,65,2026-02-18,0.0000,27200.0000,Cebu Labor Link Manpower - BASIC 5 + ECG | 01/19/2026 | WEEK 3| Cebu Labor Link Manpower — MO-3631,1,0,2026-02-28 23:59:59,0
+1,journal_entry,132,65,2026-02-18,0.0000,76000.0000,Cebu Labor Link Manpower - BASIC 5 | 01/26/2026 | WEEK 4| Cebu Labor Link Manpower — MO-3632,1,0,2026-02-28 23:59:59,0
+1,journal_entry,126,65,2026-02-18,0.0000,98400.0000,Toyota LapuLapu - PACKAGE A | 01/19/2026 |Toyota LapuLapu — MO-3624,1,0,2026-02-28 23:59:59,0
+1,journal_entry,131,65,2026-02-18,0.0000,148500.0000,Cebu Labor Link Manpower - BASIC 5 | 01/19/2026 | WEEK 3| Cebu Labor Link Manpower — MO-3631,1,0,2026-02-28 23:59:59,0
+1,journal_entry,125,57,2026-02-18,15300.0000,0.0000,Fast Autoworld Philippines Corporation — MO-3623,1,0,2026-02-28 23:59:59,0
+1,journal_entry,126,57,2026-02-18,113640.0000,0.0000,Toyota LapuLapu — MO-3624,1,0,2026-02-28 23:59:59,0
+1,journal_entry,127,57,2026-02-18,57406.0000,0.0000,Malachite Values Builders Inc. — MO-3627,1,0,2026-02-28 23:59:59,0
+1,journal_entry,129,57,2026-02-18,47850.0000,0.0000,Malachite Values Builders Inc. — MO-3629,1,0,2026-02-28 23:59:59,0
+1,journal_entry,130,57,2026-02-18,46464.0000,0.0000,Malachite Values Builders Inc. — MO-3630,1,0,2026-02-28 23:59:59,0
+1,journal_entry,147,57,2026-02-18,145520.0000,0.0000,PHILHEALTH - KONSULTA — MO-PK0007-6,1,0,2026-02-28 23:59:59,0
+1,journal_entry,146,57,2026-02-18,340000.0000,0.0000,PHILHEALTH - KONSULTA — MO-PK0007-5,1,0,2026-02-28 23:59:59,0
+1,journal_entry,145,57,2026-02-18,340000.0000,0.0000,PHILHEALTH - KONSULTA — MO-PK0007-4,1,0,2026-02-28 23:59:59,0
+1,journal_entry,144,57,2026-02-18,340000.0000,0.0000,PHILHEALTH - KONSULTA — MO-PK0007-3,1,0,2026-02-28 23:59:59,0
+1,journal_entry,143,57,2026-02-18,340000.0000,0.0000,PHILHEALTH - KONSULTA — MO-PK0007-2,1,0,2026-02-28 23:59:59,0
+1,journal_entry,142,57,2026-02-18,340000.0000,0.0000,PHILHEALTH - KONSULTA — MO-PK0007-1,1,0,2026-02-28 23:59:59,0
+1,journal_entry,131,57,2026-02-18,188278.0000,0.0000,Cebu Labor Link Manpower — MO-3631,1,0,2026-02-28 23:59:59,0
+1,journal_entry,132,57,2026-02-18,94234.0000,0.0000,Cebu Labor Link Manpower — MO-3632,1,0,2026-02-28 23:59:59,0
+1,journal_entry,133,57,2026-02-18,1350.0000,0.0000,Godspeed Megamerchants Co Inc — MO-3633,1,0,2026-02-28 23:59:59,0
+1,journal_entry,134,57,2026-02-18,1324.0000,0.0000,Godspeed Megamerchants Co Inc — MO-3634,1,0,2026-02-28 23:59:59,0
+1,journal_entry,135,57,2026-02-18,6010.0000,0.0000,"Misa, Rutchie Quinapondan — MO-3635",1,0,2026-02-28 23:59:59,0
+1,journal_entry,136,57,2026-02-18,2862.0000,0.0000,"Misa, Rutchie Quinapondan — MO-3636",1,0,2026-02-28 23:59:59,0
+1,journal_entry,137,57,2026-02-18,2674.0000,0.0000,"Misa, Rutchie Quinapondan — MO-3637",1,0,2026-02-28 23:59:59,0
+1,journal_entry,138,57,2026-02-18,20650.0000,0.0000,Asalus Corporation — MO-3638,1,0,2026-02-28 23:59:59,0
+1,journal_entry,139,57,2026-02-18,26140.0000,0.0000,Asalus Corporation — MO-3639,1,0,2026-02-28 23:59:59,0
+1,journal_entry,140,57,2026-02-18,13710.0000,0.0000,Asalus Corporation — MO-3640,1,0,2026-02-28 23:59:59,0
+1,journal_entry,141,57,2026-02-18,34070.0000,0.0000,Asalus Corporation — MO-3641,1,0,2026-02-28 23:59:59,0
+1,journal_entry,124,1645,2026-02-18,0.0000,564355.0000,"Sales Branches February 18, 2026 - Laboratory/Diagnostics — #50003",1,0,2026-02-28 23:59:59,0
+1,journal_entry,154,217,2026-02-19,0.0000,24600.0000,Shanesse Angelee Cortes — RFP No.# 5199,1,0,2026-02-28 23:59:59,0
+1,journal_entry,155,217,2026-02-19,0.0000,75772.5000,Shanesse Angelee Cortes — RFP No.# 5200,1,0,2026-02-28 23:59:59,0
+1,journal_entry,152,217,2026-02-19,0.0000,95256.0000,ISLAND FLEET TRANSPORT SERVICES — RFP No.# 5110,1,0,2026-02-28 23:59:59,0
+1,journal_entry,153,217,2026-02-19,0.0000,153443.2700,LA NUEVA DRUGSTORE CHAINS INC. — RFP No.# 5190,1,0,2026-02-28 23:59:59,0
+1,journal_entry,150,237,2026-02-19,20991.5700,0.0000,Reversal of: to accrue medicines - konsulta La Nueva January 2026 - to accrue medicines - konsulta La Nueva January 2026 — #49747,1,0,2026-02-28 23:59:59,0
+1,journal_entry,148,409,2026-02-19,0.0000,223.8800,to record depreciation expense for  february 2026 - Mobile — #49706,1,0,2026-02-28 23:59:59,0
+1,journal_entry,148,445,2026-02-19,0.0000,3173.7800,to record depreciation expense for  february 2026 - Mobile — #49706,1,0,2026-02-28 23:59:59,0
+1,journal_entry,148,453,2026-02-19,0.0000,62.0100,to record depreciation expense for  february 2026 - Mobile — #49706,1,0,2026-02-28 23:59:59,0
+1,journal_entry,148,389,2026-02-19,0.0000,34.4300,to record depreciation expense for  february 2026 - Mobile — #49706,1,0,2026-02-28 23:59:59,0
+1,journal_entry,148,437,2026-02-19,0.0000,158.1400,to record depreciation expense for  february 2026 - Mobile — #49706,1,0,2026-02-28 23:59:59,0
+1,journal_entry,148,405,2026-02-19,0.0000,20933.0100,to record depreciation expense for  february 2026 - Mobile — #49706,1,0,2026-02-28 23:59:59,0
+1,journal_entry,148,441,2026-02-19,0.0000,47670.8700,to record depreciation expense for  february 2026 - Mobile — #49706,1,0,2026-02-28 23:59:59,0
+1,journal_entry,148,449,2026-02-19,0.0000,1546.8500,to record depreciation expense for  february 2026 - Mobile — #49706,1,0,2026-02-28 23:59:59,0
+1,journal_entry,148,385,2026-02-19,0.0000,4210.7800,to record depreciation expense for  february 2026 - Mobile — #49706,1,0,2026-02-28 23:59:59,0
+1,journal_entry,148,433,2026-02-19,0.0000,133597.3400,to record depreciation expense for  february 2026 - Mobile — #49706,1,0,2026-02-28 23:59:59,0
+1,journal_entry,151,65,2026-02-19,245210.0000,0.0000,"Sales Branches February 19, 2026 - Term Sales - February, 19 — #49996",1,0,2026-02-28 23:59:59,0
+1,journal_entry,164,65,2026-02-19,0.0000,250.0000,"Asalus Corporation - ADDITIONAL TEST| SGPT | 01/26/2026 |Cebu General Services, Inc. — MO-3650",1,0,2026-02-28 23:59:59,0
+1,journal_entry,165,65,2026-02-19,0.0000,500.0000,"Asalus Corporation - ADDITIONAL TEST| SGPT | 01/05/2026 |Cebu General Services, Inc. — MO-3651",1,0,2026-02-28 23:59:59,0
+1,journal_entry,167,65,2026-02-19,0.0000,850.0000,Cebu Labor Link Manpower - BASIC 5 + ECG | 01/05/2026 |Cebu Labor Link Manpower — MO-3653,1,0,2026-02-28 23:59:59,0
+1,journal_entry,167,65,2026-02-19,0.0000,1324.0000,Cebu Labor Link Manpower - BASIC 5 + SGPT | 01/05/2026 |Cebu Labor Link Manpower — MO-3653,1,0,2026-02-28 23:59:59,0
+1,journal_entry,161,65,2026-02-19,0.0000,1450.0000,"Asalus Corporation - ADDITIONAL TEST| PAPSMEAR | 01/05/2026 |Cebu General Services, Inc. — MO-3647",1,0,2026-02-28 23:59:59,0
+1,journal_entry,163,65,2026-02-19,0.0000,1750.0000,"Asalus Corporation - ADDITIONAL TEST| SGPT | 01/19/2026 |Cebu General Services, Inc. — MO-3649",1,0,2026-02-28 23:59:59,0
+1,journal_entry,161,65,2026-02-19,0.0000,2520.0000,"Asalus Corporation - ADDITIONAL TEST| LIPID, CREA, HBA1C, FBS, SGPT | 01/05/2026 |Cebu General Services, Inc. — MO-3647",1,0,2026-02-28 23:59:59,0
+1,journal_entry,164,65,2026-02-19,0.0000,2520.0000,"Asalus Corporation - ADDITIONAL TEST| LIPID, CREA, HBA1C, FBS, SGPT | 01/26/2026 |Cebu General Services, Inc. — MO-3650",1,0,2026-02-28 23:59:59,0
+1,journal_entry,165,65,2026-02-19,0.0000,2520.0000,"Asalus Corporation - ADDITIONAL TEST|LIPID, CREA, HBA1C, FBS, SGPT | 01/05/2026 |Cebu General Services, Inc. — MO-3651",1,0,2026-02-28 23:59:59,0
+1,journal_entry,161,65,2026-02-19,0.0000,2750.0000,"Asalus Corporation - ADDITIONAL TEST| SGPT | 01/05/2026 |Cebu General Services, Inc. — MO-3647",1,0,2026-02-28 23:59:59,0
+1,journal_entry,162,65,2026-02-19,0.0000,3250.0000,"Asalus Corporation - ADDITIONAL TEST| SGPT | 01/12/2026 |Cebu General Services, Inc. — MO-3648",1,0,2026-02-28 23:59:59,0
+1,journal_entry,165,65,2026-02-19,0.0000,6780.0000,"Asalus Corporation - Basic 5 (CBC,UA,Chest X-Ray,Stool Exam,PE) + ECG 12L | 01/05/2026 |Cebu General Services, Inc. — MO-3651",1,0,2026-02-28 23:59:59,0
+1,journal_entry,164,65,2026-02-19,0.0000,11300.0000,"Asalus Corporation - WEEK 4| Basic 5 (CBC,UA,Chest X-Ray,Stool Exam,PE) + ECG 12L | 01/26/2026 |Cebu General Services, Inc. — MO-3650",1,0,2026-02-28 23:59:59,0
+1,journal_entry,167,65,2026-02-19,0.0000,12500.0000,Cebu Labor Link Manpower - BASIC 5 | 01/05/2026 |Cebu Labor Link Manpower — MO-3653,1,0,2026-02-28 23:59:59,0
+1,journal_entry,166,65,2026-02-19,0.0000,12900.0000,Software Expert Systems Inc. - DRUG TESTING | 02/06/2026 |Software Expert Systems Inc. — MO-3652,1,0,2026-02-28 23:59:59,0
+1,journal_entry,159,65,2026-02-19,0.0000,14450.0000,Virginia Food Inc - WEEK 4| BASIC 5 + ECG | 01/26/2026 |VIRGINIA FOOD INC - PLANT — MO-3645,1,0,2026-02-28 23:59:59,0
+1,journal_entry,160,65,2026-02-19,0.0000,15300.0000,Virginia Food Inc - BASIC 5 + ECG | 01/12-13/2026 |VIRGINIA FOOD INC — MO-3646,1,0,2026-02-28 23:59:59,0
+1,journal_entry,165,65,2026-02-19,0.0000,18600.0000,"Asalus Corporation - Basic 5 (CBC,UA,Chest X-Ray,Stool Exam,PE) | 01/05/2026 |Cebu General Services, Inc. — MO-3651",1,0,2026-02-28 23:59:59,0
+1,journal_entry,159,65,2026-02-19,0.0000,20000.0000,Virginia Food Inc - WEEK 4| BASIC 5 | 01/26/2026 |VIRGINIA FOOD INC - PLANT — MO-3645,1,0,2026-02-28 23:59:59,0
+1,journal_entry,159,65,2026-02-19,0.0000,26480.0000,Virginia Food Inc - WEEK 4| BASIC 5 + SGPT | 01/26/2026 |VIRGINIA FOOD INC - PLANT — MO-3645,1,0,2026-02-28 23:59:59,0
+1,journal_entry,163,65,2026-02-19,0.0000,32770.0000,"Asalus Corporation - WEEK 3| Basic 5 (CBC,UA,Chest X-Ray,Stool Exam,PE) + ECG 12L | 01/19/2026 |Cebu General Services, Inc. — MO-3649",1,0,2026-02-28 23:59:59,0
+1,journal_entry,157,65,2026-02-19,0.0000,33150.0000,Virginia Food Inc - WEEK 2| BASIC 5 + ECG | 01/12/2026 |VIRGINIA FOOD INC - PLANT — MO-3643,1,0,2026-02-28 23:59:59,0
+1,journal_entry,156,65,2026-02-19,0.0000,33500.0000,Virginia Food Inc - WEEK 1| BASIC 5 | 01/05/2026 |VIRGINIA FOOD INC - PLANT — MO-3642,1,0,2026-02-28 23:59:59,0
+1,journal_entry,160,65,2026-02-19,0.0000,36410.0000,Virginia Food Inc - BASIC 5 + SGPT | 01/12-13/2026 |VIRGINIA FOOD INC — MO-3646,1,0,2026-02-28 23:59:59,0
+1,journal_entry,157,65,2026-02-19,0.0000,37072.0000,Virginia Food Inc - WEEK 2| BASIC 5 + SGPT | 01/12/2026 |VIRGINIA FOOD INC - PLANT — MO-3643,1,0,2026-02-28 23:59:59,0
+1,journal_entry,158,65,2026-02-19,0.0000,42500.0000,Virginia Food Inc - WEEK 3| BASIC 5 + ECG | 01/19/2026 |VIRGINIA FOOD INC - PLANT — MO-3644,1,0,2026-02-28 23:59:59,0
+1,journal_entry,156,65,2026-02-19,0.0000,43030.0000,Virginia Food Inc - WEEK 1| BASIC 5 + SGPT | 01/05/2026 |VIRGINIA FOOD INC - PLANT — MO-3642,1,0,2026-02-28 23:59:59,0
+1,journal_entry,158,65,2026-02-19,0.0000,43030.0000,Virginia Food Inc - WEEK 3| BASIC 5 + SGPT | 01/19/2026 |VIRGINIA FOOD INC - PLANT — MO-3644,1,0,2026-02-28 23:59:59,0
+1,journal_entry,161,65,2026-02-19,0.0000,49720.0000,"Asalus Corporation - WEEK 1|Basic 5 (CBC,UA,Chest X-Ray,Stool Exam,PE) + ECG 12L | 01/05/2026 |Cebu General Services, Inc. — MO-3647",1,0,2026-02-28 23:59:59,0
+1,journal_entry,156,65,2026-02-19,0.0000,52700.0000,Virginia Food Inc - WEEK 1| BASIC 5 + ECG | 01/05/2026 |VIRGINIA FOOD INC - PLANT — MO-3642,1,0,2026-02-28 23:59:59,0
+1,journal_entry,158,65,2026-02-19,0.0000,55500.0000,Virginia Food Inc - WEEK 3| BASIC 5 | 01/19/2026 |VIRGINIA FOOD INC - PLANT — MO-3644,1,0,2026-02-28 23:59:59,0
+1,journal_entry,162,65,2026-02-19,0.0000,62150.0000,"Asalus Corporation - WEEK 2| Basic 5 (CBC,UA,Chest X-Ray,Stool Exam,PE) + ECG 12L | 01/12/2026 |Cebu General Services, Inc. — MO-3648",1,0,2026-02-28 23:59:59,0
+1,journal_entry,157,65,2026-02-19,0.0000,64000.0000,Virginia Food Inc - WEEK 2| BASIC 5 | 01/12/2026 |VIRGINIA FOOD INC - PLANT — MO-3643,1,0,2026-02-28 23:59:59,0
+1,journal_entry,160,65,2026-02-19,0.0000,87000.0000,Virginia Food Inc - BASIC 5 | 01/12-13/2026 |VIRGINIA FOOD INC — MO-3646,1,0,2026-02-28 23:59:59,0
+1,journal_entry,164,65,2026-02-19,0.0000,102920.0000,"Asalus Corporation - WEEK 4| Basic 5 (CBC,UA,Chest X-Ray,Stool Exam,PE) | 01/26/2026 |Cebu General Services, Inc. — MO-3650",1,0,2026-02-28 23:59:59,0
+1,journal_entry,163,65,2026-02-19,0.0000,197780.0000,"Asalus Corporation - WEEK 3| Basic 5 (CBC,UA,Chest X-Ray,Stool Exam,PE) | 01/19/2026 |Cebu General Services, Inc. — MO-3649",1,0,2026-02-28 23:59:59,0
+1,journal_entry,161,65,2026-02-19,0.0000,230020.0000,"Asalus Corporation - WEEK 1| Basic 5 (CBC,UA,Chest X-Ray,Stool Exam,PE) | 01/05/2026 |Cebu General Services, Inc. — MO-3647",1,0,2026-02-28 23:59:59,0
+1,journal_entry,162,65,2026-02-19,0.0000,231260.0000,"Asalus Corporation - WEEK 2| Basic 5 (CBC,UA,Chest X-Ray,Stool Exam,PE) | 01/12/2026 |Cebu General Services, Inc. — MO-3648",1,0,2026-02-28 23:59:59,0
+1,journal_entry,156,57,2026-02-19,129230.0000,0.0000,Virginia Food Inc — MO-3642,1,0,2026-02-28 23:59:59,0
+1,journal_entry,157,57,2026-02-19,134222.0000,0.0000,Virginia Food Inc — MO-3643,1,0,2026-02-28 23:59:59,0
+1,journal_entry,158,57,2026-02-19,141030.0000,0.0000,Virginia Food Inc — MO-3644,1,0,2026-02-28 23:59:59,0
+1,journal_entry,159,57,2026-02-19,60930.0000,0.0000,Virginia Food Inc — MO-3645,1,0,2026-02-28 23:59:59,0
+1,journal_entry,160,57,2026-02-19,138710.0000,0.0000,Virginia Food Inc — MO-3646,1,0,2026-02-28 23:59:59,0
+1,journal_entry,161,57,2026-02-19,286460.0000,0.0000,Asalus Corporation — MO-3647,1,0,2026-02-28 23:59:59,0
+1,journal_entry,162,57,2026-02-19,296660.0000,0.0000,Asalus Corporation — MO-3648,1,0,2026-02-28 23:59:59,0
+1,journal_entry,163,57,2026-02-19,232300.0000,0.0000,Asalus Corporation — MO-3649,1,0,2026-02-28 23:59:59,0
+1,journal_entry,164,57,2026-02-19,116990.0000,0.0000,Asalus Corporation — MO-3650,1,0,2026-02-28 23:59:59,0
+1,journal_entry,165,57,2026-02-19,28400.0000,0.0000,Asalus Corporation — MO-3651,1,0,2026-02-28 23:59:59,0
+1,journal_entry,166,57,2026-02-19,12900.0000,0.0000,Software Expert Systems Inc. — MO-3652,1,0,2026-02-28 23:59:59,0
+1,journal_entry,167,57,2026-02-19,14674.0000,0.0000,Cebu Labor Link Manpower — MO-3653,1,0,2026-02-28 23:59:59,0
+1,journal_entry,155,605,2026-02-19,10.0000,0.0000,Shanesse Angelee Cortes - Bank charge (Replenishment) — RFP No.# 5200,1,0,2026-02-28 23:59:59,0
+1,journal_entry,153,989,2026-02-19,153443.2700,0.0000,"LA NUEVA DRUGSTORE CHAINS INC. - Payment for konsulta medicines ftp October 29- January 27, 2026 — RFP No.# 5190",1,0,2026-02-28 23:59:59,0
+1,journal_entry,150,989,2026-02-19,0.0000,20991.5700,Reversal of: to accrue medicines - konsulta La Nueva January 2026 - to accrue medicines - konsulta La Nueva January 2026 — #49747,1,0,2026-02-28 23:59:59,0
+1,journal_entry,149,989,2026-02-19,0.0000,33524.8000,Reversal of: to accrue medicines - konsulta December 2025 - to accrue medicines - konsulta December 2025 — #49746,1,0,2026-02-28 23:59:59,0
+1,journal_entry,149,989,2026-02-19,0.0000,36439.1500,Reversal of: to accrue medicines - konsulta December 2025 - to accrue medicines - konsulta December 2025 — #49746,1,0,2026-02-28 23:59:59,0
+1,journal_entry,149,989,2026-02-19,0.0000,62487.7500,Reversal of: to accrue medicines - konsulta December 2025 - to accrue medicines - konsulta December 2025 — #49746,1,0,2026-02-28 23:59:59,0
+1,journal_entry,148,617,2026-02-19,223.8800,0.0000,to record depreciation expense for  february 2026 - Mobile — #49706,1,0,2026-02-28 23:59:59,0
+1,journal_entry,148,1001,2026-02-19,3173.7800,0.0000,to record depreciation expense for  february 2026 - Mobile — #49706,1,0,2026-02-28 23:59:59,0
+1,journal_entry,148,1005,2026-02-19,62.0100,0.0000,to record depreciation expense for  february 2026 - Mobile — #49706,1,0,2026-02-28 23:59:59,0
+1,journal_entry,148,625,2026-02-19,34.4300,0.0000,to record depreciation expense for  february 2026 - Mobile — #49706,1,0,2026-02-28 23:59:59,0
+1,journal_entry,148,629,2026-02-19,158.1400,0.0000,to record depreciation expense for  february 2026 - Mobile — #49706,1,0,2026-02-28 23:59:59,0
+1,journal_entry,152,245,2026-02-19,0.0000,1944.0000,"ISLAND FLEET TRANSPORT SERVICES - 2% EWT on Payment for mobile transportation for the month of January 2026 SI no. 002665, 002662, 002664 — RFP No.# 5110",1,0,2026-02-28 23:59:59,0
+1,journal_entry,148,805,2026-02-19,20933.0100,0.0000,to record depreciation expense for  february 2026 - Mobile — #49706,1,0,2026-02-28 23:59:59,0
+1,journal_entry,151,1645,2026-02-19,0.0000,245210.0000,"Sales Branches February 19, 2026 - Laboratory/Diagnostics — #49996",1,0,2026-02-28 23:59:59,0
+1,journal_entry,148,1125,2026-02-19,47670.8700,0.0000,to record depreciation expense for  february 2026 - Mobile — #49706,1,0,2026-02-28 23:59:59,0
+1,journal_entry,148,1133,2026-02-19,1546.8500,0.0000,to record depreciation expense for  february 2026 - Mobile — #49706,1,0,2026-02-28 23:59:59,0
+1,journal_entry,148,845,2026-02-19,4210.7800,0.0000,to record depreciation expense for  february 2026 - Mobile — #49706,1,0,2026-02-28 23:59:59,0
+1,journal_entry,154,1229,2026-02-19,24600.0000,0.0000,Shanesse Angelee Cortes - Meal allowance- Konsulta (Replenishment) — RFP No.# 5199,1,0,2026-02-28 23:59:59,0
+1,journal_entry,155,1201,2026-02-19,62562.5000,0.0000,Shanesse Angelee Cortes - Reliever fee (Replenishment) — RFP No.# 5200,1,0,2026-02-28 23:59:59,0
+1,journal_entry,155,1201,2026-02-19,4350.0000,0.0000,Shanesse Angelee Cortes - Meal allowance- Relievers (Replenishment) — RFP No.# 5200,1,0,2026-02-28 23:59:59,0
+1,journal_entry,155,913,2026-02-19,8850.0000,0.0000,Shanesse Angelee Cortes - Meal allowance- Employee (Replenishment) — RFP No.# 5200,1,0,2026-02-28 23:59:59,0
+1,journal_entry,149,1777,2026-02-19,132451.7000,0.0000,Reversal of: to accrue medicines - konsulta December 2025 - to accrue medicines - konsulta December 2025 — #49746,1,0,2026-02-28 23:59:59,0
+1,journal_entry,152,945,2026-02-19,97200.0000,0.0000,"ISLAND FLEET TRANSPORT SERVICES - Non-vat: Payment for mobile transportation for the month of January 2026 SI no. 002665, 002662, 002664 — RFP No.# 5110",1,0,2026-02-28 23:59:59,0
+1,journal_entry,148,949,2026-02-19,133597.3400,0.0000,to record depreciation expense for  february 2026 - Mobile — #49706,1,0,2026-02-28 23:59:59,0
+1,journal_entry,174,217,2026-02-20,153443.2700,0.0000,Payment: LA NUEVA DRUGSTORE CHAINS INC. — RFP No.# 5190,1,0,2026-02-28 23:59:59,0
+1,journal_entry,175,217,2026-02-20,24600.0000,0.0000,Payment: Shanesse Angelee Cortes — RFP No.# 5199,1,0,2026-02-28 23:59:59,0
+1,journal_entry,176,217,2026-02-20,75772.5000,0.0000,Payment: Shanesse Angelee Cortes — RFP No.# 5200,1,0,2026-02-28 23:59:59,0
+1,journal_entry,169,85,2026-02-20,0.0000,678.7500,"CPCI Payroll for February 1-15, 2026 - Mobile Medical Affairs — #49734",1,0,2026-02-28 23:59:59,0
+1,journal_entry,168,85,2026-02-20,0.0000,2083.3400,"CPCI Payroll for February 1-15, 2026 - Mobile Operations - February 1-15, 2026 TTHE LOAN Rio, Mae — #49733",1,0,2026-02-28 23:59:59,0
+1,journal_entry,168,85,2026-02-20,0.0000,2988.3400,"CPCI Payroll for February 1-15, 2026 - Mobile Operations — #49733",1,0,2026-02-28 23:59:59,0
+1,journal_entry,170,65,2026-02-20,544740.0000,0.0000,"Sales Branches February 20, 2026 - Term Sales - February, 20 — #50010",1,0,2026-02-28 23:59:59,0
+1,journal_entry,177,65,2026-02-20,0.0000,250.0000,"Life & Health Hmp Inc - ADDITIONAL TEST| SGPT | 01/05/2026 |Cebu General Services, Inc. — MO-3654",1,0,2026-02-28 23:59:59,0
+1,journal_entry,179,65,2026-02-20,0.0000,250.0000,"Life & Health Hmp Inc - ADDITIONAL TEST| SGPT | 01/19/2026 |Cebu General Services, Inc. — MO-3656",1,0,2026-02-28 23:59:59,0
+1,journal_entry,180,65,2026-02-20,0.0000,250.0000,"Life & Health Hmp Inc - ADDITIONAL TEST| SGPT | 01/26/2026 |Cebu General Services, Inc. — MO-3657",1,0,2026-02-28 23:59:59,0
+1,journal_entry,177,65,2026-02-20,0.0000,1000.0000,"Life & Health Hmp Inc - WEEK 1| Basic 5 (CBC,UA,Chest X-Ray,Stool Exam,PE) + ECG 12L | 01/05/2026 |Cebu General Services, Inc. — MO-3654",1,0,2026-02-28 23:59:59,0
+1,journal_entry,177,65,2026-02-20,0.0000,1200.0000,"Life & Health Hmp Inc - WEEK 1| Basic 5 (CBC,UA,Chest X-Ray,Stool Exam,PE) | 01/05/2026 |Cebu General Services, Inc. — MO-3654",1,0,2026-02-28 23:59:59,0
+1,journal_entry,180,65,2026-02-20,0.0000,2000.0000,"Life & Health Hmp Inc - WEEK 4| Basic 5 (CBC,UA,Chest X-Ray,Stool Exam,PE) + ECG 12L | 01/26/2026 |Cebu General Services, Inc. — MO-3657",1,0,2026-02-28 23:59:59,0
+1,journal_entry,178,65,2026-02-20,0.0000,2400.0000,"Life & Health Hmp Inc - WEEK 2| Basic 5 (CBC,UA,Chest X-Ray,Stool Exam,PE) | 01/12/2026 |Cebu General Services, Inc. — MO-3655",1,0,2026-02-28 23:59:59,0
+1,journal_entry,179,65,2026-02-20,0.0000,4800.0000,"Life & Health Hmp Inc - WEEK 3| Basic 5 (CBC,UA,Chest X-Ray,Stool Exam,PE) | 01/19/2026 |Cebu General Services, Inc. — MO-3656",1,0,2026-02-28 23:59:59,0
+1,journal_entry,180,65,2026-02-20,0.0000,4800.0000,"Life & Health Hmp Inc - WEEK 4| Basic 5 (CBC,UA,Chest X-Ray,Stool Exam,PE) | 01/26/2026 |Cebu General Services, Inc. — MO-3657",1,0,2026-02-28 23:59:59,0
+1,journal_entry,180,65,2026-02-20,0.0000,10000.0000,"Life & Health Hmp Inc - ADDITIONAL TEST| LIPID, CREA, HBA1C, FBS, SGPT, ECG | 01/26/2026 |Cebu General Services, Inc. — MO-3657",1,0,2026-02-28 23:59:59,0
+1,journal_entry,177,57,2026-02-20,2450.0000,0.0000,Life & Health Hmp Inc — MO-3654,1,0,2026-02-28 23:59:59,0
+1,journal_entry,178,57,2026-02-20,2400.0000,0.0000,Life & Health Hmp Inc — MO-3655,1,0,2026-02-28 23:59:59,0
+1,journal_entry,179,57,2026-02-20,5050.0000,0.0000,Life & Health Hmp Inc — MO-3656,1,0,2026-02-28 23:59:59,0
+1,journal_entry,180,57,2026-02-20,17050.0000,0.0000,Life & Health Hmp Inc — MO-3657,1,0,2026-02-28 23:59:59,0
+1,journal_entry,172,53,2026-02-20,0.0000,153443.2700,Payment: LA NUEVA DRUGSTORE CHAINS INC. — 1292707,1,0,2026-02-28 23:59:59,0
+1,journal_entry,173,1,2026-02-20,0.0000,2497.0000,"Payment: GLOBE TELECOM, INC. — Online-022026",1,0,2026-02-28 23:59:59,0
+1,journal_entry,173,1,2026-02-20,0.0000,24600.0000,Payment: Shanesse Angelee Cortes — Online-022026,1,0,2026-02-28 23:59:59,0
+1,journal_entry,173,1,2026-02-20,0.0000,75772.5000,Payment: Shanesse Angelee Cortes — Online-022026,1,0,2026-02-28 23:59:59,0
+1,journal_entry,169,1,2026-02-20,0.0000,85010.8600,"CPCI Payroll for February 1-15, 2026 - Mobile Medical Affairs — #49734",1,0,2026-02-28 23:59:59,0
+1,journal_entry,168,1,2026-02-20,0.0000,158234.0800,"CPCI Payroll for February 1-15, 2026 - Mobile Operations — #49733",1,0,2026-02-28 23:59:59,0
+1,journal_entry,169,249,2026-02-20,0.0000,8434.0000,"CPCI Payroll for February 1-15, 2026 - Mobile Medical Affairs — #49734",1,0,2026-02-28 23:59:59,0
+1,journal_entry,168,249,2026-02-20,0.0000,8435.7600,"CPCI Payroll for February 1-15, 2026 - Mobile Operations — #49733",1,0,2026-02-28 23:59:59,0
+1,journal_entry,168,665,2026-02-20,4583.3400,0.0000,"CPCI Payroll for February 1-15, 2026 - Mobile Operations — #49733",1,0,2026-02-28 23:59:59,0
+1,journal_entry,169,665,2026-02-20,8750.0000,0.0000,"CPCI Payroll for February 1-15, 2026 - Mobile Medical Affairs — #49734",1,0,2026-02-28 23:59:59,0
+1,journal_entry,169,269,2026-02-20,0.0000,400.0000,"CPCI Payroll for February 1-15, 2026 - Mobile Medical Affairs — #49734",1,0,2026-02-28 23:59:59,0
+1,journal_entry,168,269,2026-02-20,0.0000,1200.0000,"CPCI Payroll for February 1-15, 2026 - Mobile Operations — #49733",1,0,2026-02-28 23:59:59,0
+1,journal_entry,171,737,2026-02-20,267.5400,0.0000,"GLOBE TELECOM, INC. - VAT: Globe bill FTP 12/24, 2025-01/23/2026; Mobile — RFP No.# 5202",1,0,2026-02-28 23:59:59,0
+1,journal_entry,170,1645,2026-02-20,0.0000,544740.0000,"Sales Branches February 20, 2026 - Laboratory/Diagnostics — #50010",1,0,2026-02-28 23:59:59,0
+1,journal_entry,171,841,2026-02-20,2229.4600,0.0000,"GLOBE TELECOM, INC. - VATABLE: Globe bill FTP 12/24, 2025-01/23/2026; Mobile — RFP No.# 5202",1,0,2026-02-28 23:59:59,0
+1,journal_entry,168,865,2026-02-20,60782.9900,0.0000,"CPCI Payroll for February 1-15, 2026 - Mobile Operations — #49733",1,0,2026-02-28 23:59:59,0
+1,journal_entry,168,257,2026-02-20,0.0000,855.8200,"CPCI Payroll for February 1-15, 2026 - Mobile Operations — #49733",1,0,2026-02-28 23:59:59,0
+1,journal_entry,169,265,2026-02-20,0.0000,2187.5000,"CPCI Payroll for February 1-15, 2026 - Mobile Medical Affairs — #49734",1,0,2026-02-28 23:59:59,0
+1,journal_entry,168,265,2026-02-20,0.0000,3012.5000,"CPCI Payroll for February 1-15, 2026 - Mobile Operations — #49733",1,0,2026-02-28 23:59:59,0
+1,journal_entry,168,921,2026-02-20,119791.4100,0.0000,"CPCI Payroll for February 1-15, 2026 - Mobile Operations — #49733",1,0,2026-02-28 23:59:59,0
+1,journal_entry,169,921,2026-02-20,91298.6100,0.0000,"CPCI Payroll for February 1-15, 2026 - Mobile Medical Affairs — #49734",1,0,2026-02-28 23:59:59,0
+1,journal_entry,168,253,2026-02-20,0.0000,922.9000,"CPCI Payroll for February 1-15, 2026 - Mobile Operations — #49733",1,0,2026-02-28 23:59:59,0
+1,journal_entry,169,261,2026-02-20,0.0000,3337.5000,"CPCI Payroll for February 1-15, 2026 - Mobile Medical Affairs — #49734",1,0,2026-02-28 23:59:59,0
+1,journal_entry,168,261,2026-02-20,0.0000,7425.0000,"CPCI Payroll for February 1-15, 2026 - Mobile Operations — #49733",1,0,2026-02-28 23:59:59,0
+1,journal_entry,181,237,2026-02-21,2197.0000,0.0000,Reversal of: Globe -To accrue mobile for the month of January 2026 all — #49954,1,0,2026-02-28 23:59:59,0
+1,journal_entry,183,65,2026-02-21,292320.0000,0.0000,"Sales Branches February 21, 2026 - Term Sales - February, 21 — #50822",1,0,2026-02-28 23:59:59,0
+1,journal_entry,182,653,2026-02-21,4589.8900,0.0000,to record accrual of the SL sick leave conversion february 2026 - to record accrual of the SL sick leave conversion february 2026 — #50414,1,0,2026-02-28 23:59:59,0
+1,journal_entry,181,737,2026-02-21,0.0000,235.3900,Reversal of: Globe -To accrue mobile for the month of January 2026 all — #49954,1,0,2026-02-28 23:59:59,0
+1,journal_entry,183,1645,2026-02-21,0.0000,292320.0000,"Sales Branches February 21, 2026 - Laboratory/Diagnostics — #50822",1,0,2026-02-28 23:59:59,0
+1,journal_entry,181,841,2026-02-21,0.0000,1961.6100,Reversal of: Globe -To accrue mobile for the month of January 2026 all — #49954,1,0,2026-02-28 23:59:59,0
+1,journal_entry,184,65,2026-02-22,38100.0000,0.0000,"Sales Branches February 22, 2026 - Sales Branches February 22, 2026 — #50824",1,0,2026-02-28 23:59:59,0
+1,journal_entry,184,1645,2026-02-22,0.0000,38100.0000,"Sales Branches February 22, 2026 - Laboratory/Diagnostics — #50824",1,0,2026-02-28 23:59:59,0
+1,journal_entry,187,217,2026-02-23,0.0000,32679.5900,Shanesse Angelee Cortes — RFP No.# 5240,1,0,2026-02-28 23:59:59,0
+1,journal_entry,186,217,2026-02-23,0.0000,67350.0000,Shanesse Angelee Cortes — RFP No.# 5239,1,0,2026-02-28 23:59:59,0
+1,journal_entry,185,65,2026-02-23,26180.0000,0.0000,"Sales Branches February 23, 2026 - Term Sales - February, 23 — #50232",1,0,2026-02-28 23:59:59,0
+1,journal_entry,188,65,2026-02-23,0.0000,600.0000,Blu Sky General Insurance Agency Inc - BASIC 5 | 01/30/2026 |Skygo Marketing Corporation — MO-3658,1,0,2026-02-28 23:59:59,0
+1,journal_entry,189,65,2026-02-23,0.0000,1570.0000,"Castle Keep Holdings, Inc. - BASIC 5 + ECG + PAPS | 01/30/2026 |Skygo Marketing Corporation — MO-3659",1,0,2026-02-28 23:59:59,0
+1,journal_entry,190,65,2026-02-23,0.0000,1570.0000,Esperanza Guadalupe Finance Inc - BASIC 5 + ECG + PAPS | 02/02/2026 |Skygo Group of Companies — MO-3660,1,0,2026-02-28 23:59:59,0
+1,journal_entry,192,65,2026-02-23,0.0000,1570.0000,HIGH LEAP SHARED SERVICES CORPORATION - BASIC 5 + ECG + PAPS | 01/31/2026 |Skygo Group of Companies — MO-3721,1,0,2026-02-28 23:59:59,0
+1,journal_entry,194,65,2026-02-23,0.0000,1570.0000,Recon Masters OPC - BASIC 5 + ECG + PAPS | 01/31/2026 |Skygo Group of Companies — MO-3723,1,0,2026-02-28 23:59:59,0
+1,journal_entry,190,65,2026-02-23,0.0000,1800.0000,Esperanza Guadalupe Finance Inc - BASIC 5 | 02/02/2026 |Skygo Group of Companies — MO-3660,1,0,2026-02-28 23:59:59,0
+1,journal_entry,191,65,2026-02-23,0.0000,1800.0000,Esperanza Loyola Finance Corporation - BASIC 5 | 01/30/2026 |Skygo Group of Companies — MO-3720,1,0,2026-02-28 23:59:59,0
+1,journal_entry,190,65,2026-02-23,0.0000,1870.0000,Esperanza Guadalupe Finance Inc - BASIC 5 + ECG | 02/02/2026 |Skygo Group of Companies — MO-3660,1,0,2026-02-28 23:59:59,0
+1,journal_entry,190,65,2026-02-23,0.0000,1950.0000,Esperanza Guadalupe Finance Inc - MANAGER PACKAGE 2 | 02/02/2026 |Skygo Group of Companies — MO-3660,1,0,2026-02-28 23:59:59,0
+1,journal_entry,191,65,2026-02-23,0.0000,1950.0000,Esperanza Loyola Finance Corporation - MANAGER PACKAGE 2 | 01/30/2026 |Skygo Group of Companies — MO-3720,1,0,2026-02-28 23:59:59,0
+1,journal_entry,192,65,2026-02-23,0.0000,1950.0000,HIGH LEAP SHARED SERVICES CORPORATION - MANAGER PACKAGE 2 | 01/29/2026 |Skygo Group of Companies — MO-3721,1,0,2026-02-28 23:59:59,0
+1,journal_entry,195,65,2026-02-23,0.0000,1950.0000,Skygo Marketing Corporation - MANAGER PACKAGE 2 | 01/31/2026 |Skygo Group of Companies | — MO-3724,1,0,2026-02-28 23:59:59,0
+1,journal_entry,188,65,2026-02-23,0.0000,2750.0000,Blu Sky General Insurance Agency Inc - MANAGER PACKAGE 3 | 01/30/2026 |Skygo Marketing Corporation — MO-3658,1,0,2026-02-28 23:59:59,0
+1,journal_entry,192,65,2026-02-23,0.0000,2750.0000,HIGH LEAP SHARED SERVICES CORPORATION - MANAGER PACKAGE 3 | 01/30/2026 |Skygo Group of Companies — MO-3721,1,0,2026-02-28 23:59:59,0
+1,journal_entry,192,65,2026-02-23,0.0000,2805.0000,HIGH LEAP SHARED SERVICES CORPORATION - BASIC 5 + ECG | 01/30/2026 |Skygo Group of Companies — MO-3721,1,0,2026-02-28 23:59:59,0
+1,journal_entry,188,65,2026-02-23,0.0000,3900.0000,Blu Sky General Insurance Agency Inc - MANAGER PACKAGE 2 | 01/30/2026 |Skygo Marketing Corporation — MO-3658,1,0,2026-02-28 23:59:59,0
+1,journal_entry,192,65,2026-02-23,0.0000,5400.0000,HIGH LEAP SHARED SERVICES CORPORATION - BASIC 5 | 01/29/2026 |Skygo Group of Companies — MO-3721,1,0,2026-02-28 23:59:59,0
+1,journal_entry,195,65,2026-02-23,0.0000,5400.0000,Skygo Marketing Corporation - BASIC 5 | 01/29/2026 |Skygo Group of Companies | — MO-3724,1,0,2026-02-28 23:59:59,0
+1,journal_entry,195,65,2026-02-23,0.0000,5610.0000,Skygo Marketing Corporation - BASIC 5 + ECG | 01/30/2026 |Skygo Group of Companies — MO-3724,1,0,2026-02-28 23:59:59,0
+1,journal_entry,194,65,2026-02-23,0.0000,6800.0000,Recon Masters OPC - EXECUTIVE PACKAGE 2 | 01/29/2026 |Skygo Group of Companies — MO-3723,1,0,2026-02-28 23:59:59,0
+1,journal_entry,193,65,2026-02-23,0.0000,7800.0000,Nito's International Ventures Inc - MANAGER PACKAGE 2 | 01/29/2026 |Skygo Group of Companies — MO-3722,1,0,2026-02-28 23:59:59,0
+1,journal_entry,193,65,2026-02-23,0.0000,8250.0000,Nito's International Ventures Inc - MANAGER PACKAGE 3 | 01/30/2026 |Skygo Group of Companies — MO-3722,1,0,2026-02-28 23:59:59,0
+1,journal_entry,196,65,2026-02-23,0.0000,8750.0000,Sto. Niño De Cebu Finance - MANAGER PACKAGE 1 | 01/30/2026 |Skygo Group of Companies — MO-3725,1,0,2026-02-28 23:59:59,0
+1,journal_entry,196,65,2026-02-23,0.0000,13650.0000,Sto. Niño De Cebu Finance - MANAGER PACKAGE 2 | 01/31/2026 |Skygo Group of Companies — MO-3725,1,0,2026-02-28 23:59:59,0
+1,journal_entry,194,65,2026-02-23,0.0000,14400.0000,Recon Masters OPC - BASIC 5 | 01/29/2026 |Skygo Group of Companies — MO-3723,1,0,2026-02-28 23:59:59,0
+1,journal_entry,194,65,2026-02-23,0.0000,14960.0000,Recon Masters OPC - BASIC 5 + ECG | 01/30/2026 |Skygo Group of Companies — MO-3723,1,0,2026-02-28 23:59:59,0
+1,journal_entry,193,65,2026-02-23,0.0000,17270.0000,Nito's International Ventures Inc - BASIC 5 + ECG + PAPS | 01/31/2026 |Skygo Group of Companies — MO-3722,1,0,2026-02-28 23:59:59,0
+1,journal_entry,196,65,2026-02-23,0.0000,17765.0000,Sto. Niño De Cebu Finance - BASIC 5 + ECG | 01/29/2026 |Skygo Group of Companies — MO-3725,1,0,2026-02-28 23:59:59,0
+1,journal_entry,196,65,2026-02-23,0.0000,27500.0000,Sto. Niño De Cebu Finance - MANAGER PACKAGE 3 | 01/29/2026 |Skygo Group of Companies — MO-3725,1,0,2026-02-28 23:59:59,0
+1,journal_entry,196,65,2026-02-23,0.0000,32970.0000,Sto. Niño De Cebu Finance - BASIC 5 + ECG + PAPS | 01/29/2026 |Skygo Group of Companies — MO-3725,1,0,2026-02-28 23:59:59,0
+1,journal_entry,196,65,2026-02-23,0.0000,53400.0000,Sto. Niño De Cebu Finance - BASIC 5 | 01/31/2026 |Skygo Group of Companies — MO-3725,1,0,2026-02-28 23:59:59,0
+1,journal_entry,193,65,2026-02-23,0.0000,69600.0000,Nito's International Ventures Inc - BASIC 5 | 01/29/2026 |Skygo Group of Companies — MO-3722,1,0,2026-02-28 23:59:59,0
+1,journal_entry,193,65,2026-02-23,0.0000,73865.0000,Nito's International Ventures Inc - BASIC 5 + ECG | 01/30/2026 |Skygo Group of Companies — MO-3722,1,0,2026-02-28 23:59:59,0
+1,journal_entry,188,57,2026-02-23,7250.0000,0.0000,Blu Sky General Insurance Agency Inc — MO-3658,1,0,2026-02-28 23:59:59,0
+1,journal_entry,189,57,2026-02-23,1570.0000,0.0000,"Castle Keep Holdings, Inc. — MO-3659",1,0,2026-02-28 23:59:59,0
+1,journal_entry,190,57,2026-02-23,7190.0000,0.0000,Esperanza Guadalupe Finance Inc — MO-3660,1,0,2026-02-28 23:59:59,0
+1,journal_entry,191,57,2026-02-23,3750.0000,0.0000,Esperanza Loyola Finance Corporation — MO-3720,1,0,2026-02-28 23:59:59,0
+1,journal_entry,192,57,2026-02-23,14475.0000,0.0000,HIGH LEAP SHARED SERVICES CORPORATION — MO-3721,1,0,2026-02-28 23:59:59,0
+1,journal_entry,193,57,2026-02-23,176785.0000,0.0000,Nito's International Ventures Inc — MO-3722,1,0,2026-02-28 23:59:59,0
+1,journal_entry,194,57,2026-02-23,37730.0000,0.0000,Recon Masters OPC — MO-3723,1,0,2026-02-28 23:59:59,0
+1,journal_entry,195,57,2026-02-23,12960.0000,0.0000,Skygo Marketing Corporation — MO-3724,1,0,2026-02-28 23:59:59,0
+1,journal_entry,196,57,2026-02-23,154035.0000,0.0000,Sto. Niño De Cebu Finance — MO-3725,1,0,2026-02-28 23:59:59,0
+1,journal_entry,187,605,2026-02-23,10.0000,0.0000,Shanesse Angelee Cortes - Bank charge (Replenishment) — RFP No.# 5240,1,0,2026-02-28 23:59:59,0
+1,journal_entry,185,1645,2026-02-23,0.0000,26180.0000,"Sales Branches February 23, 2026 - Laboratory/Diagnostics — #50232",1,0,2026-02-28 23:59:59,0
+1,journal_entry,187,841,2026-02-23,102.0000,0.0000,Shanesse Angelee Cortes - Nondeductible: Load for wifi (Replenishment) — RFP No.# 5240,1,0,2026-02-28 23:59:59,0
+1,journal_entry,186,1229,2026-02-23,67350.0000,0.0000,Shanesse Angelee Cortes - Meal allowance- Konsulta (Replenishment) — RFP No.# 5239,1,0,2026-02-28 23:59:59,0
+1,journal_entry,187,1201,2026-02-23,5347.5900,0.0000,Shanesse Angelee Cortes - Reliever fee (Replenishment) — RFP No.# 5240,1,0,2026-02-28 23:59:59,0
+1,journal_entry,187,1201,2026-02-23,6000.0000,0.0000,Shanesse Angelee Cortes - Meal Allowance- Relievers (Replenishment) — RFP No.# 5240,1,0,2026-02-28 23:59:59,0
+1,journal_entry,187,913,2026-02-23,21150.0000,0.0000,Shanesse Angelee Cortes - Meal Allowance- Employee (Replenishment) — RFP No.# 5240,1,0,2026-02-28 23:59:59,0
+1,journal_entry,187,945,2026-02-23,70.0000,0.0000,Shanesse Angelee Cortes - Nondeductible: Transportation expenses (Replenishment) — RFP No.# 5240,1,0,2026-02-28 23:59:59,0
+1,journal_entry,201,217,2026-02-24,95256.0000,0.0000,Payment: ISLAND FLEET TRANSPORT SERVICES — RFP No.# 5110,1,0,2026-02-28 23:59:59,0
+1,journal_entry,202,217,2026-02-24,67350.0000,0.0000,Payment: Shanesse Angelee Cortes — RFP No.# 5239,1,0,2026-02-28 23:59:59,0
+1,journal_entry,203,217,2026-02-24,32679.5900,0.0000,Payment: Shanesse Angelee Cortes — RFP No.# 5240,1,0,2026-02-28 23:59:59,0
+1,journal_entry,199,217,2026-02-24,0.0000,14917.5200,MAE RIO — RFP No.# 5247,1,0,2026-02-28 23:59:59,0
+1,journal_entry,198,65,2026-02-24,18965.0000,0.0000,"Sales Branches February 24, 2026 - Term Sales - February, 24 — #50587",1,0,2026-02-28 23:59:59,0
+1,journal_entry,204,65,2026-02-24,47188.0000,0.0000,Malachite Values Builders Inc. - VOIDED INVOICE — CN-4518,1,0,2026-02-28 23:59:59,0
+1,journal_entry,205,65,2026-02-24,67048.0000,0.0000,Malachite Values Builders Inc. - VOIDED INVOICE — CN-4519,1,0,2026-02-28 23:59:59,0
+1,journal_entry,206,65,2026-02-24,52460.0000,0.0000,Malachite Values Builders Inc. - VOIDED INVOICE — CN-4520,1,0,2026-02-28 23:59:59,0
+1,journal_entry,207,65,2026-02-24,119396.0000,0.0000,Virginia Food Inc - VOIDED INVOICES — CN-4521,1,0,2026-02-28 23:59:59,0
+1,journal_entry,208,65,2026-02-24,140732.0000,0.0000,Virginia Food Inc - VOIDED INVOICES — CN-4522,1,0,2026-02-28 23:59:59,0
+1,journal_entry,209,65,2026-02-24,141570.0000,0.0000,Virginia Food Inc - VOIDED INVOICE — CN-4523,1,0,2026-02-28 23:59:59,0
+1,journal_entry,210,65,2026-02-24,187778.0000,0.0000,Cebu Labor Link Manpower - VOIDED INVOICES — CN-4524,1,0,2026-02-28 23:59:59,0
+1,journal_entry,230,65,2026-02-24,0.0000,500.0000,Marquiel Trading & Hauling Services - WEEK 3| BASIC 5 | 01/05/2026 |VFI-Marquiel — MO-3732,1,0,2026-02-28 23:59:59,0
+1,journal_entry,229,65,2026-02-24,0.0000,1700.0000,Marquiel Trading & Hauling Services - WEEK 2| BASIC 5 + ECG | 01/05/2026 |VFI-Marquiel — MO-3731,1,0,2026-02-28 23:59:59,0
+1,journal_entry,231,65,2026-02-24,0.0000,2648.0000,Marquiel Trading & Hauling Services - WEEK 4| BASIC 5 + SGPT | 01/19/2026 |VFI-Marquiel — MO-3733,1,0,2026-02-28 23:59:59,0
+1,journal_entry,231,65,2026-02-24,0.0000,3000.0000,Marquiel Trading & Hauling Services - WEEK 4| BASIC 5 | 01/05/2026 |VFI-Marquiel — MO-3733,1,0,2026-02-28 23:59:59,0
+1,journal_entry,231,65,2026-02-24,0.0000,3400.0000,Marquiel Trading & Hauling Services - WEEK 4| BASIC 5 + ECG | 01/12/2026 |VFI-Marquiel| — MO-3733,1,0,2026-02-28 23:59:59,0
+1,journal_entry,227,65,2026-02-24,0.0000,11220.0000,"Life & Health Hmp Inc - B5/ECG/PAPSMEAR >: CBC, CXRAY, U/A, STOOL EXAM, PHYSICAL EVALUATION, | 02/10/2026 |Abejo Water Corp. — MO-3729",1,0,2026-02-28 23:59:59,0
+1,journal_entry,227,65,2026-02-24,0.0000,12600.0000,"Life & Health Hmp Inc - BASIC 5 >: CBC, CXRAY, U/A, STOOL EXAM, PHYSICAL EVALUATION | 02/10/2026 |Abejo Water Corp. — MO-3729",1,0,2026-02-28 23:59:59,0
+1,journal_entry,226,65,2026-02-24,0.0000,14300.0000,Abejo Water Corp. - BASIC 5 | 02/10/2026 |Abejo Water Corp. — MO-3728,1,0,2026-02-28 23:59:59,0
+1,journal_entry,226,65,2026-02-24,0.0000,18240.0000,Abejo Water Corp. - BASIC 5+ ECG | 02/10/2026 |Abejo Water Corp. — MO-3728,1,0,2026-02-28 23:59:59,0
+1,journal_entry,227,65,2026-02-24,0.0000,20000.0000,"Life & Health Hmp Inc - B5/ECG >: CBC, CXRAY, U/A, STOOL EXAM, PHYSICAL EVALUATION, ECG | 02/10/2026 |Abejo Water Corp. — MO-3729",1,0,2026-02-28 23:59:59,0
+1,journal_entry,225,65,2026-02-24,0.0000,53760.0000,Universal Robina Corporation - HBsAg (Quali) | 02/16/2026 |Universal Robina Corporation — MO-3726,1,0,2026-02-28 23:59:59,0
+1,journal_entry,228,65,2026-02-24,0.0000,84000.0000,"Synergy Experts Labor Service Cooperative - PE, CBC, UA, SE, XRAY, HBSAG, DT | 02/13/2026 |Synergy Experts Labor Service Cooperative — MO-3730",1,0,2026-02-28 23:59:59,0
+1,journal_entry,225,57,2026-02-24,53760.0000,0.0000,Universal Robina Corporation — MO-3726,1,0,2026-02-28 23:59:59,0
+1,journal_entry,226,57,2026-02-24,32540.0000,0.0000,Abejo Water Corp. — MO-3728,1,0,2026-02-28 23:59:59,0
+1,journal_entry,227,57,2026-02-24,43820.0000,0.0000,Life & Health Hmp Inc — MO-3729,1,0,2026-02-28 23:59:59,0
+1,journal_entry,228,57,2026-02-24,84000.0000,0.0000,Synergy Experts Labor Service Cooperative — MO-3730,1,0,2026-02-28 23:59:59,0
+1,journal_entry,211,57,2026-02-24,47188.0000,0.0000,Malachite Values Builders Inc. — CN-4518,1,0,2026-02-28 23:59:59,0
+1,journal_entry,212,57,2026-02-24,67048.0000,0.0000,Malachite Values Builders Inc. — CN-4519,1,0,2026-02-28 23:59:59,0
+1,journal_entry,213,57,2026-02-24,52460.0000,0.0000,Malachite Values Builders Inc. — CN-4520,1,0,2026-02-28 23:59:59,0
+1,journal_entry,214,57,2026-02-24,119396.0000,0.0000,Virginia Food Inc — CN-4521,1,0,2026-02-28 23:59:59,0
+1,journal_entry,215,57,2026-02-24,140732.0000,0.0000,Virginia Food Inc — CN-4522,1,0,2026-02-28 23:59:59,0
+1,journal_entry,216,57,2026-02-24,141570.0000,0.0000,Virginia Food Inc — CN-4523,1,0,2026-02-28 23:59:59,0
+1,journal_entry,217,57,2026-02-24,187778.0000,0.0000,Cebu Labor Link Manpower — CN-4524,1,0,2026-02-28 23:59:59,0
+1,journal_entry,229,57,2026-02-24,1700.0000,0.0000,Marquiel Trading & Hauling Services — MO-3731,1,0,2026-02-28 23:59:59,0
+1,journal_entry,230,57,2026-02-24,500.0000,0.0000,Marquiel Trading & Hauling Services — MO-3732,1,0,2026-02-28 23:59:59,0
+1,journal_entry,231,57,2026-02-24,9048.0000,0.0000,Marquiel Trading & Hauling Services — MO-3733,1,0,2026-02-28 23:59:59,0
+1,journal_entry,204,57,2026-02-24,0.0000,47188.0000,Malachite Values Builders Inc. — CN-4518,1,0,2026-02-28 23:59:59,0
+1,journal_entry,223,57,2026-02-24,0.0000,47188.0000,Malachite Values Builders Inc. — MO-3330,1,0,2026-02-28 23:59:59,0
+1,journal_entry,206,57,2026-02-24,0.0000,52460.0000,Malachite Values Builders Inc. — CN-4520,1,0,2026-02-28 23:59:59,0
+1,journal_entry,221,57,2026-02-24,0.0000,52460.0000,Malachite Values Builders Inc. — MO-3328,1,0,2026-02-28 23:59:59,0
+1,journal_entry,205,57,2026-02-24,0.0000,67048.0000,Malachite Values Builders Inc. — CN-4519,1,0,2026-02-28 23:59:59,0
+1,journal_entry,222,57,2026-02-24,0.0000,67048.0000,Malachite Values Builders Inc. — MO-3329,1,0,2026-02-28 23:59:59,0
+1,journal_entry,207,57,2026-02-24,0.0000,119396.0000,Virginia Food Inc — CN-4521,1,0,2026-02-28 23:59:59,0
+1,journal_entry,218,57,2026-02-24,0.0000,119396.0000,Virginia Food Inc — MO-3323,1,0,2026-02-28 23:59:59,0
+1,journal_entry,208,57,2026-02-24,0.0000,140732.0000,Virginia Food Inc — CN-4522,1,0,2026-02-28 23:59:59,0
+1,journal_entry,220,57,2026-02-24,0.0000,140732.0000,Virginia Food Inc — MO-3325,1,0,2026-02-28 23:59:59,0
+1,journal_entry,209,57,2026-02-24,0.0000,141570.0000,Virginia Food Inc — CN-4523,1,0,2026-02-28 23:59:59,0
+1,journal_entry,219,57,2026-02-24,0.0000,141570.0000,Virginia Food Inc — MO-3324,1,0,2026-02-28 23:59:59,0
+1,journal_entry,210,57,2026-02-24,0.0000,187778.0000,Cebu Labor Link Manpower — CN-4524,1,0,2026-02-28 23:59:59,0
+1,journal_entry,224,57,2026-02-24,0.0000,187778.0000,Cebu Labor Link Manpower — MO-3333,1,0,2026-02-28 23:59:59,0
+1,journal_entry,197,1,2026-02-24,2365.5100,0.0000,to record Excess liquidation of Sharlene Elarcosa - to record Excess liquidation of Sharlene Elarcosa — #50265,1,0,2026-02-28 23:59:59,0
+1,journal_entry,200,1,2026-02-24,0.0000,32679.5900,Payment: Shanesse Angelee Cortes — Online-022426,1,0,2026-02-28 23:59:59,0
+1,journal_entry,200,1,2026-02-24,0.0000,67350.0000,Payment: Shanesse Angelee Cortes — Online-022426,1,0,2026-02-28 23:59:59,0
+1,journal_entry,200,1,2026-02-24,0.0000,95256.0000,Payment: ISLAND FLEET TRANSPORT SERVICES — Online-022426,1,0,2026-02-28 23:59:59,0
+1,journal_entry,199,813,2026-02-24,14917.5200,0.0000,"MAE RIO - Reimbursement for employee expenses for messenger reliever fee ftp January 16- February 19, 2026 — RFP No.# 5247",1,0,2026-02-28 23:59:59,0
+1,journal_entry,198,1645,2026-02-24,0.0000,18965.0000,"Sales Branches February 24, 2026 - Laboratory/Diagnostics — #50587",1,0,2026-02-28 23:59:59,0
+1,journal_entry,197,1777,2026-02-24,0.0000,2365.5100,to record Excess liquidation of Sharlene Elarcosa - to record Excess liquidation of Sharlene Elarcosa — #50265,1,0,2026-02-28 23:59:59,0
+1,journal_entry,239,217,2026-02-25,0.0000,16392.0000,DITO Telecommunity Corporation — RFP No.# 5263,1,0,2026-02-28 23:59:59,0
+1,journal_entry,234,237,2026-02-25,2224.9600,0.0000,Reversal of: Smart Comm - To accrue payment for Smart January 2026 all — #50457,1,0,2026-02-28 23:59:59,0
+1,journal_entry,235,237,2026-02-25,0.0000,1650.0000,Smart Comm - To accrue payment for Smart all 2026 February — #50460,1,0,2026-02-28 23:59:59,0
+1,journal_entry,236,65,2026-02-25,88990.0000,0.0000,"Sales Branches February 25, 2026 - Term Sales - February, 25 — #50588",1,0,2026-02-28 23:59:59,0
+1,journal_entry,241,65,2026-02-25,0.0000,1400.0000,"Tytans Leisure and Resort, Inc - ANTI-HAV IGM | 02/03/2026 |Tytans Leisure and Resort, Inc — MO-3735",1,0,2026-02-28 23:59:59,0
+1,journal_entry,245,65,2026-02-25,0.0000,7910.0000,Asalus Corporation - BASIC 5 + ECG | 02/06/2026 |Software Expert Systems Inc. — MO-3739,1,0,2026-02-28 23:59:59,0
+1,journal_entry,243,65,2026-02-25,0.0000,8160.0000,"Knowles Electronics Philippines - CBC, UA, XRAY, ECG | 02/05/2026 |Knowles Electronics Philippines — MO-3737",1,0,2026-02-28 23:59:59,0
+1,journal_entry,245,65,2026-02-25,0.0000,13090.0000,Asalus Corporation - BASIC 5 + ECG + PAP SMEAR | 02/06/2026 |Software Expert Systems Inc. — MO-3739,1,0,2026-02-28 23:59:59,0
+1,journal_entry,243,65,2026-02-25,0.0000,13860.0000,"Knowles Electronics Philippines - CBC, UA, XRAY | 02/05/2026 |Knowles Electronics Philippines — MO-3737",1,0,2026-02-28 23:59:59,0
+1,journal_entry,243,65,2026-02-25,0.0000,17670.0000,"Knowles Electronics Philippines - CBC, UA, XRAY, ECG, PAPS | 02/05/2026 |Knowles Electronics Philippines — MO-3737",1,0,2026-02-28 23:59:59,0
+1,journal_entry,245,65,2026-02-25,0.0000,17980.0000,Asalus Corporation - BASIC 5 | 02/06/2026 |Software Expert Systems Inc. — MO-3739,1,0,2026-02-28 23:59:59,0
+1,journal_entry,241,65,2026-02-25,0.0000,20640.0000,"Tytans Leisure and Resort, Inc - PACKAGE 5 (BASIC 5+ECG+ ANTI HAV) | 02/03/2026 |Tytans Leisure and Resort, Inc — MO-3735",1,0,2026-02-28 23:59:59,0
+1,journal_entry,241,65,2026-02-25,0.0000,22320.0000,"Tytans Leisure and Resort, Inc - PACKAGE 4 (BASIC 5+ANTI HAV | 02/03/2026 |Tytans Leisure and Resort, Inc — MO-3735",1,0,2026-02-28 23:59:59,0
+1,journal_entry,243,65,2026-02-25,0.0000,33200.0000,"Knowles Electronics Philippines - CBC, UA, XRAY, ECG, FBS | 02/05/2026 |Knowles Electronics Philippines — MO-3737",1,0,2026-02-28 23:59:59,0
+1,journal_entry,241,65,2026-02-25,0.0000,40300.0000,"Tytans Leisure and Resort, Inc - PACKAGE 1 (BASIC 5) | 02/03/2026 |Tytans Leisure and Resort, Inc — MO-3735",1,0,2026-02-28 23:59:59,0
+1,journal_entry,240,65,2026-02-25,0.0000,48600.0000,Life & Health Hmp Inc - BASIC 5 | 02/03/2026 |Needink Sales Services — MO-3734,1,0,2026-02-28 23:59:59,0
+1,journal_entry,242,65,2026-02-25,0.0000,50400.0000,"Philhealthcare, Inc - BASIC 5 + ECG | 02/04/2026 |Titay's Liloan Rosquillos & delicacies, Inc. — MO-3736",1,0,2026-02-28 23:59:59,0
+1,journal_entry,240,65,2026-02-25,0.0000,54000.0000,Life & Health Hmp Inc - BASIC 5 + ECG | 02/03/2026 |Needink Sales Services — MO-3734,1,0,2026-02-28 23:59:59,0
+1,journal_entry,240,65,2026-02-25,0.0000,54230.0000,Life & Health Hmp Inc - BASIC 5 + ECG + PAPSMEAR | 02/03/2026 |Needink Sales Services — MO-3734,1,0,2026-02-28 23:59:59,0
+1,journal_entry,242,65,2026-02-25,0.0000,58200.0000,"Philhealthcare, Inc - BASIC 5 | 02/04/2026 |Titay's Liloan Rosquillos & delicacies, Inc. — MO-3736",1,0,2026-02-28 23:59:59,0
+1,journal_entry,244,65,2026-02-25,0.0000,73100.0000,"Philhealthcare, Inc - BASIC 5 + FBS + LIPID + ECG | 02/05/2026 |Innoland — MO-3738",1,0,2026-02-28 23:59:59,0
+1,journal_entry,241,65,2026-02-25,0.0000,83220.0000,"Tytans Leisure and Resort, Inc - PACKAGE 2 (BASIC 5 + ECG) | 02/03/2026 |Tytans Leisure and Resort, Inc — MO-3735",1,0,2026-02-28 23:59:59,0
+1,journal_entry,244,65,2026-02-25,0.0000,87100.0000,"Philhealthcare, Inc - BASIC 5 + FBS + LIPID + ECG + PAPS | 02/05/2026 |Innoland — MO-3738",1,0,2026-02-28 23:59:59,0
+1,journal_entry,244,65,2026-02-25,0.0000,110500.0000,"Philhealthcare, Inc - BASIC 5 + FBS + LIPID | 02/05/2026 |Innoland — MO-3738",1,0,2026-02-28 23:59:59,0
+1,journal_entry,242,65,2026-02-25,0.0000,175500.0000,"Philhealthcare, Inc - BASIC 5 + ECG + PAPS | 02/04/2026 |Titay's Liloan Rosquillos & delicacies, Inc. — MO-3736",1,0,2026-02-28 23:59:59,0
+1,journal_entry,241,57,2026-02-25,167880.0000,0.0000,"Tytans Leisure and Resort, Inc — MO-3735",1,0,2026-02-28 23:59:59,0
+1,journal_entry,242,57,2026-02-25,284100.0000,0.0000,"Philhealthcare, Inc — MO-3736",1,0,2026-02-28 23:59:59,0
+1,journal_entry,240,57,2026-02-25,156830.0000,0.0000,Life & Health Hmp Inc — MO-3734,1,0,2026-02-28 23:59:59,0
+1,journal_entry,243,57,2026-02-25,72890.0000,0.0000,Knowles Electronics Philippines — MO-3737,1,0,2026-02-28 23:59:59,0
+1,journal_entry,244,57,2026-02-25,270700.0000,0.0000,"Philhealthcare, Inc — MO-3738",1,0,2026-02-28 23:59:59,0
+1,journal_entry,245,57,2026-02-25,38980.0000,0.0000,Asalus Corporation — MO-3739,1,0,2026-02-28 23:59:59,0
+1,journal_entry,232,613,2026-02-25,14635.7100,0.0000,To accrue: DITO Telecommunity Corporation - Payment for DITO WiFive plan monthly service fee 2026 February — #50450,1,0,2026-02-28 23:59:59,0
+1,journal_entry,239,613,2026-02-25,14635.7100,0.0000,DITO Telecommunity Corporation - Vatable: Payment for 9 units of WiFive plan monthly service fee for the month of January 2026 — RFP No.# 5263,1,0,2026-02-28 23:59:59,0
+1,journal_entry,233,613,2026-02-25,0.0000,14635.7100,Reversal of: To accrue: DITO Telecommunity Corporation - Payment for DITO WiFive plan monthly service fee January 2026 - To accrue: DITO Telecommunity Corporation - Payment for DITO WiFive plan monthly service fee January 2026 — #50452,1,0,2026-02-28 23:59:59,0
+1,journal_entry,232,709,2026-02-25,1756.2900,0.0000,To accrue: DITO Telecommunity Corporation - Payment for DITO WiFive plan monthly service fee 2026 February — #50450,1,0,2026-02-28 23:59:59,0
+1,journal_entry,239,709,2026-02-25,1756.2900,0.0000,DITO Telecommunity Corporation - Vat: Payment for 9 units of WiFive plan monthly service fee for the month of January 2026 — RFP No.# 5263,1,0,2026-02-28 23:59:59,0
+1,journal_entry,233,709,2026-02-25,0.0000,1756.2900,Reversal of: To accrue: DITO Telecommunity Corporation - Payment for DITO WiFive plan monthly service fee January 2026 - To accrue: DITO Telecommunity Corporation - Payment for DITO WiFive plan monthly service fee January 2026 — #50452,1,0,2026-02-28 23:59:59,0
+1,journal_entry,238,737,2026-02-25,176.7800,0.0000,"SMART COMMUNICATIONS, INC. -  VAT: Smart Communications Inc. FTP 01/01-01/31/2026; Mobile — RFP No.# 5260",1,0,2026-02-28 23:59:59,0
+1,journal_entry,235,737,2026-02-25,176.7900,0.0000,Smart Comm - To accrue payment for Smart all 2026 February — #50460,1,0,2026-02-28 23:59:59,0
+1,journal_entry,234,737,2026-02-25,0.0000,238.3900,Reversal of: Smart Comm - To accrue payment for Smart January 2026 all — #50457,1,0,2026-02-28 23:59:59,0
+1,journal_entry,236,1645,2026-02-25,0.0000,88990.0000,"Sales Branches February 25, 2026 - Laboratory/Diagnostics — #50588",1,0,2026-02-28 23:59:59,0
+1,journal_entry,238,841,2026-02-25,1473.2100,0.0000,"SMART COMMUNICATIONS, INC. -  VATABLE: Smart Communications Inc. FTP 01/01-01/31/2026; Mobile — RFP No.# 5260",1,0,2026-02-28 23:59:59,0
+1,journal_entry,235,841,2026-02-25,1473.2100,0.0000,Smart Comm - To accrue payment for Smart all 2026 February — #50460,1,0,2026-02-28 23:59:59,0
+1,journal_entry,234,841,2026-02-25,0.0000,1986.5700,Reversal of: Smart Comm - To accrue payment for Smart January 2026 all — #50457,1,0,2026-02-28 23:59:59,0
+1,journal_entry,237,933,2026-02-25,48250.0000,0.0000,SOCIAL SECURITY SYSTEM - Payment for SSS Contribution for the month of January 2026 (Employer Share) — RFP No.# 5069,1,0,2026-02-28 23:59:59,0
+1,journal_entry,233,1777,2026-02-25,16392.0000,0.0000,Reversal of: To accrue: DITO Telecommunity Corporation - Payment for DITO WiFive plan monthly service fee January 2026 - To accrue: DITO Telecommunity Corporation - Payment for DITO WiFive plan monthly service fee January 2026 — #50452,1,0,2026-02-28 23:59:59,0
+1,journal_entry,232,1777,2026-02-25,0.0000,16392.0000,To accrue: DITO Telecommunity Corporation - Payment for DITO WiFive plan monthly service fee 2026 February — #50450,1,0,2026-02-28 23:59:59,0
+1,journal_entry,247,217,2026-02-26,0.0000,25350.0000,Shanesse Angelee Cortes — RFP No.# 5266,1,0,2026-02-28 23:59:59,0
+1,journal_entry,248,217,2026-02-26,0.0000,74612.5000,Shanesse Angelee Cortes — RFP No.# 5267,1,0,2026-02-28 23:59:59,0
+1,journal_entry,272,61,2026-02-26,111367.2000,0.0000,Payment: Toyota LapuLapu — MO-3624,1,0,2026-02-28 23:59:59,0
+1,journal_entry,271,61,2026-02-26,374896.0000,0.0000,Payment: Arch Global Services (Philippines) Inc. — MO-2867,1,0,2026-02-28 23:59:59,0
+1,journal_entry,246,65,2026-02-26,107134.0000,0.0000,"Sales Branches February 26, 2026 - Term Sales - February, 26 — #50825",1,0,2026-02-28 23:59:59,0
+1,journal_entry,268,65,2026-02-26,0.0000,210.0000,"Etiqa Life and General Assurance Phillipines, Inc - URIC | 02/18/2026 |Brady Philippines Services, Inc. | — MO-3778",1,0,2026-02-28 23:59:59,0
+1,journal_entry,268,65,2026-02-26,0.0000,250.0000,"Etiqa Life and General Assurance Phillipines, Inc - TOTAL CALCIUM | 02/18/2026 |Brady Philippines Services, Inc. | — MO-3778",1,0,2026-02-28 23:59:59,0
+1,journal_entry,256,65,2026-02-26,0.0000,300.0000,Sto. Niño De Cebu Finance Corp. - DRUG TEST | 01/29/2026 |Sto. Niño De Cebu Finance Corp. — MO-3747,1,0,2026-02-28 23:59:59,0
+1,journal_entry,266,65,2026-02-26,0.0000,360.0000,Toyota Talisay Cebu - BLOOD TYPING | 01/21/2026 |Toyota Talisay Cebu | — MO-3776,1,0,2026-02-28 23:59:59,0
+1,journal_entry,266,65,2026-02-26,0.0000,410.0000,"Toyota Talisay Cebu - FBS, BUA | 01/21/2026 |Toyota Talisay Cebu | — MO-3776",1,0,2026-02-28 23:59:59,0
+1,journal_entry,266,65,2026-02-26,0.0000,420.0000,Toyota Talisay Cebu - BUA | 01/21/2026 |Toyota Talisay Cebu | — MO-3776,1,0,2026-02-28 23:59:59,0
+1,journal_entry,266,65,2026-02-26,0.0000,430.0000,"Toyota Talisay Cebu - BUA, CREA | 01/21/2026 |Toyota Talisay Cebu | — MO-3776",1,0,2026-02-28 23:59:59,0
+1,journal_entry,268,65,2026-02-26,0.0000,430.0000,"Etiqa Life and General Assurance Phillipines, Inc - CREA, URIC | 02/18/2026 |Brady Philippines Services, Inc. | — MO-3778",1,0,2026-02-28 23:59:59,0
+1,journal_entry,266,65,2026-02-26,0.0000,440.0000,Toyota Talisay Cebu - CREA | 01/21/2026 |Toyota Talisay Cebu | — MO-3776,1,0,2026-02-28 23:59:59,0
+1,journal_entry,252,65,2026-02-26,0.0000,600.0000,Esperanza Loyola Finance Corporation - DRUG TEST | 01/29/2026 |Esperanza Loyola Finance Corporation — MO-3743,1,0,2026-02-28 23:59:59,0
+1,journal_entry,266,65,2026-02-26,0.0000,600.0000,Toyota Talisay Cebu - FBS | 01/21/2026 |Toyota Talisay Cebu | — MO-3776,1,0,2026-02-28 23:59:59,0
+1,journal_entry,268,65,2026-02-26,0.0000,660.0000,"Etiqa Life and General Assurance Phillipines, Inc - CREA | 02/18/2026 |Brady Philippines Services, Inc. | — MO-3778",1,0,2026-02-28 23:59:59,0
+1,journal_entry,268,65,2026-02-26,0.0000,680.0000,"Etiqa Life and General Assurance Phillipines, Inc - CREA, SGPT, URIC | 02/18/2026 |Brady Philippines Services, Inc. | — MO-3778",1,0,2026-02-28 23:59:59,0
+1,journal_entry,268,65,2026-02-26,0.0000,680.0000,"Etiqa Life and General Assurance Phillipines, Inc - CREA, SGPT, URIC ACID | 02/18/2026 |Brady Philippines Services, Inc. | — MO-3778",1,0,2026-02-28 23:59:59,0
+1,journal_entry,268,65,2026-02-26,0.0000,680.0000,"Etiqa Life and General Assurance Phillipines, Inc - URIC, SGPT, CREA | 02/18/2026 |Brady Philippines Services, Inc. | — MO-3778",1,0,2026-02-28 23:59:59,0
+1,journal_entry,268,65,2026-02-26,0.0000,1170.0000,"Etiqa Life and General Assurance Phillipines, Inc - HBA1C, CREA | 02/18/2026 |Brady Philippines Services, Inc. | — MO-3778",1,0,2026-02-28 23:59:59,0
+1,journal_entry,268,65,2026-02-26,0.0000,1360.0000,"Etiqa Life and General Assurance Phillipines, Inc - CREA, SGPT, BUA | 02/18/2026 |Brady Philippines Services, Inc. | — MO-3778",1,0,2026-02-28 23:59:59,0
+1,journal_entry,269,65,2026-02-26,0.0000,1370.0000,"Etiqa Life and General Assurance Phillipines, Inc - ADDITIONAL TEST| Lipid Profile (LDL, HDL, Triglycerides, Total Cholesterol, VLDL), Creatinine (Serum), ALT/SGPT (Alanine Aminotransferase) | 02/09/2026 |CEBU INTERNATIONAL SCHOOL — MO-3876",1,0,2026-02-28 23:59:59,0
+1,journal_entry,268,65,2026-02-26,0.0000,1420.0000,"Etiqa Life and General Assurance Phillipines, Inc - CREA, HBA1C, SGPT | 02/18/2026 |Brady Philippines Services, Inc. | — MO-3778",1,0,2026-02-28 23:59:59,0
+1,journal_entry,266,65,2026-02-26,0.0000,1530.0000,"Toyota Talisay Cebu - LIPID, FBS, BUA, CREA | 01/21/2026 |Toyota Talisay Cebu | — MO-3776",1,0,2026-02-28 23:59:59,0
+1,journal_entry,268,65,2026-02-26,0.0000,1580.0000,"Etiqa Life and General Assurance Phillipines, Inc - LIPID, CREA, SGPT, URIC | 02/18/2026 |Brady Philippines Services, Inc. | — MO-3778",1,0,2026-02-28 23:59:59,0
+1,journal_entry,269,65,2026-02-26,0.0000,1600.0000,"Etiqa Life and General Assurance Phillipines, Inc - ADDITIONAL TEST| FBS, Lipid panel, SGPT/SGOT | 02/09/2026 |CEBU INTERNATIONAL SCHOOL — MO-3876",1,0,2026-02-28 23:59:59,0
+1,journal_entry,268,65,2026-02-26,0.0000,1630.0000,"Etiqa Life and General Assurance Phillipines, Inc - HBA1C, SGPT, CREA, BUA | 02/18/2026 |Brady Philippines Services, Inc. | — MO-3778",1,0,2026-02-28 23:59:59,0
+1,journal_entry,268,65,2026-02-26,0.0000,1630.0000,"Etiqa Life and General Assurance Phillipines, Inc - HBA1C, SGPT, CREA, URIC | 02/18/2026 |Brady Philippines Services, Inc. | — MO-3778",1,0,2026-02-28 23:59:59,0
+1,journal_entry,268,65,2026-02-26,0.0000,1630.0000,"Etiqa Life and General Assurance Phillipines, Inc - HBA1C, SGPT, URIC , CREA | 02/18/2026 |Brady Philippines Services, Inc. | — MO-3778",1,0,2026-02-28 23:59:59,0
+1,journal_entry,268,65,2026-02-26,0.0000,1630.0000,"Etiqa Life and General Assurance Phillipines, Inc - TSH, SGPT, CREA, URIC | 02/18/2026 | — MO-3778",1,0,2026-02-28 23:59:59,0
+1,journal_entry,268,65,2026-02-26,0.0000,1635.0000,"Etiqa Life and General Assurance Phillipines, Inc - CREA, URIC, SGPT, Na, K, Mg | 02/18/2026 |Brady Philippines Services, Inc. | — MO-3778",1,0,2026-02-28 23:59:59,0
+1,journal_entry,268,65,2026-02-26,0.0000,1750.0000,"Etiqa Life and General Assurance Phillipines, Inc - TSH, FT4 | 02/18/2026 |Brady Philippines Services, Inc. | — MO-3778",1,0,2026-02-28 23:59:59,0
+1,journal_entry,251,65,2026-02-26,0.0000,1800.0000,"Castle Keep Holdings, Inc. - DRUG TEST | 01/29/2026 |Castle Keep Holdings, Inc. — MO-3742",1,0,2026-02-28 23:59:59,0
+1,journal_entry,270,65,2026-02-26,0.0000,1800.0000,CEBU INTERNATIONAL SCHOOL - PACKAGE 1 | 02/09/2026 |CEBU INTERNATIONAL SCHOOL — MO-3877,1,0,2026-02-28 23:59:59,0
+1,journal_entry,268,65,2026-02-26,0.0000,1880.0000,"Etiqa Life and General Assurance Phillipines, Inc - URIC, CALCIUM, SGPT, CREA, HBA1C | 02/18/2026 |Brady Philippines Services, Inc. | — MO-3778",1,0,2026-02-28 23:59:59,0
+1,journal_entry,268,65,2026-02-26,0.0000,1900.0000,"Etiqa Life and General Assurance Phillipines, Inc - HBA1C | 02/18/2026 |Brady Philippines Services, Inc. | — MO-3778",1,0,2026-02-28 23:59:59,0
+1,journal_entry,268,65,2026-02-26,0.0000,2000.0000,"Etiqa Life and General Assurance Phillipines, Inc - TSH, FT4, SGPT | 02/18/2026 |Brady Philippines Services, Inc. | — MO-3778",1,0,2026-02-28 23:59:59,0
+1,journal_entry,258,65,2026-02-26,0.0000,2100.0000,Nito's International Ventures Inc - DRUG TEST | 01/29/2026 |Nito's International Ventures Inc (Runner) — MO-3749,1,0,2026-02-28 23:59:59,0
+1,journal_entry,269,65,2026-02-26,0.0000,2110.0000,"Etiqa Life and General Assurance Phillipines, Inc - PACKAGE 3 + BLOOD TYPING | 02/09/2026 |CEBU INTERNATIONAL SCHOOL — MO-3876",1,0,2026-02-28 23:59:59,0
+1,journal_entry,268,65,2026-02-26,0.0000,2210.0000,"Etiqa Life and General Assurance Phillipines, Inc - PSA, SGPT, CEA | 02/18/2026 |Brady Philippines Services, Inc. | — MO-3778",1,0,2026-02-28 23:59:59,0
+1,journal_entry,268,65,2026-02-26,0.0000,2290.0000,"Etiqa Life and General Assurance Phillipines, Inc - TSH, FT4, URINE CREA, URIC | 02/18/2026 |Brady Philippines Services, Inc. | — MO-3778",1,0,2026-02-28 23:59:59,0
+1,journal_entry,249,65,2026-02-26,0.0000,2320.0000,"Life & Health Hmp Inc - LIPID, CREA, HBA1C, SGPT | 02/07/2026 |Juanito and Sons Inc. — MO-3740",1,0,2026-02-28 23:59:59,0
+1,journal_entry,268,65,2026-02-26,0.0000,2350.0000,"Etiqa Life and General Assurance Phillipines, Inc - PSA-TOTAL, SGPT, CREA, URIC (BUA) | 02/18/2026 |Brady Philippines Services, Inc. | — MO-3778",1,0,2026-02-28 23:59:59,0
+1,journal_entry,268,65,2026-02-26,0.0000,2420.0000,"Etiqa Life and General Assurance Phillipines, Inc - CREA, SGPT, URIC, PSA | 02/18/2026 |Brady Philippines Services, Inc. | — MO-3778",1,0,2026-02-28 23:59:59,0
+1,journal_entry,268,65,2026-02-26,0.0000,2420.0000,"Etiqa Life and General Assurance Phillipines, Inc - PSA, SGPT, CREA, URIC | 02/18/2026 |Brady Philippines Services, Inc. | — MO-3778",1,0,2026-02-28 23:59:59,0
+1,journal_entry,268,65,2026-02-26,0.0000,2420.0000,"Etiqa Life and General Assurance Phillipines, Inc - PSA-TOTAL, SGPT, CREA, URIC | 02/18/2026 |Brady Philippines Services, Inc. | — MO-3778",1,0,2026-02-28 23:59:59,0
+1,journal_entry,268,65,2026-02-26,0.0000,2730.0000,"Etiqa Life and General Assurance Phillipines, Inc - HBA1C, CHOLESTEROL LDL & HDL, TRIGLYCERIDES, CHOLESTEROL TOTAL, SGPT, CREA, FBS, URIC | 02/18/2026 |Brady Philippines Services, Inc. | — MO-3778",1,0,2026-02-28 23:59:59,0
+1,journal_entry,255,65,2026-02-26,0.0000,3000.0000,Recon Masters OPC - DRUG TEST | 01/29/2026 |Recon Masters OPC — MO-3746,1,0,2026-02-28 23:59:59,0
+1,journal_entry,249,65,2026-02-26,0.0000,3230.0000,"Life & Health Hmp Inc - LIPID, CREA, HBA1C, SGPT, BUA, TSH | 02/07/2026 |Juanito and Sons Inc. — MO-3740",1,0,2026-02-28 23:59:59,0
+1,journal_entry,269,65,2026-02-26,0.0000,3470.0000,"Etiqa Life and General Assurance Phillipines, Inc - ADDITIONAL TEST| FBS, Creatinine, Lipid Profile, SGPT/ALT, HbA1-c, TSH | 02/09/2026 |CEBU INTERNATIONAL SCHOOL — MO-3876",1,0,2026-02-28 23:59:59,0
+1,journal_entry,250,65,2026-02-26,0.0000,3480.0000,"Juanito King and Sons Inc. - LIPID, CREA, HBA1C, SGPT, BUA, TSH | 02/07/2026 |Juanito and Sons Inc. |LIPID, CREA, HBA1C, SGPT, BUA, TSH | 1PAX|3480 | — MO-3741",1,0,2026-02-28 23:59:59,0
+1,journal_entry,253,65,2026-02-26,0.0000,3600.0000,HIGH LEAP SHARED SERVICES CORPORATION - DRUG TEST | 01/29/2026 |High Leap Shared Services Corporation — MO-3744,1,0,2026-02-28 23:59:59,0
+1,journal_entry,268,65,2026-02-26,0.0000,4080.0000,"Etiqa Life and General Assurance Phillipines, Inc - SGPT, CREA, URIC | 02/18/2026 |Brady Philippines Services, Inc. | — MO-3778",1,0,2026-02-28 23:59:59,0
+1,journal_entry,268,65,2026-02-26,0.0000,4230.0000,"Etiqa Life and General Assurance Phillipines, Inc - SGPT, CREA | 02/18/2026 |Brady Philippines Services, Inc. | — MO-3778",1,0,2026-02-28 23:59:59,0
+1,journal_entry,269,65,2026-02-26,0.0000,4540.0000,"Etiqa Life and General Assurance Phillipines, Inc - ADDITIONAL TEST| FBS, Lipid panel, HbA1-c, SGPT/SGOT, Creatinine | 02/09/2026 |CEBU INTERNATIONAL SCHOOL — MO-3876",1,0,2026-02-28 23:59:59,0
+1,journal_entry,266,65,2026-02-26,0.0000,4960.0000,"Toyota Talisay Cebu - LIPID, HBA1C, BUA, CREA, FBS | 01/21/2026 |Toyota Talisay Cebu | — MO-3776",1,0,2026-02-28 23:59:59,0
+1,journal_entry,268,65,2026-02-26,0.0000,5680.0000,"Etiqa Life and General Assurance Phillipines, Inc - HBA1C, SGPT, CREA | 02/18/2026 |Brady Philippines Services, Inc. | — MO-3778",1,0,2026-02-28 23:59:59,0
+1,journal_entry,254,65,2026-02-26,0.0000,5700.0000,Nito's International Ventures Inc - DRUG TEST | 01/29/2026 |Nito's International Ventures Inc — MO-3745,1,0,2026-02-28 23:59:59,0
+1,journal_entry,269,65,2026-02-26,0.0000,5700.0000,"Etiqa Life and General Assurance Phillipines, Inc - PACKAGE 3 + LIPID AND FBS | 02/09/2026 |CEBU INTERNATIONAL SCHOOL — MO-3876",1,0,2026-02-28 23:59:59,0
+1,journal_entry,269,65,2026-02-26,0.0000,6160.0000,"Etiqa Life and General Assurance Phillipines, Inc - PACKAGE 2 | 02/09/2026 |CEBU INTERNATIONAL SCHOOL — MO-3876",1,0,2026-02-28 23:59:59,0
+1,journal_entry,270,65,2026-02-26,0.0000,7040.0000,CEBU INTERNATIONAL SCHOOL - PACKAGE 2 | 02/09/2026 |CEBU INTERNATIONAL SCHOOL — MO-3877,1,0,2026-02-28 23:59:59,0
+1,journal_entry,261,65,2026-02-26,0.0000,7120.0000,Insular Healthcare Inc - BASIC 5 + ECG + DRUG TEST | 02/04/2026 |KMC Mag Solutions — MO-3771,1,0,2026-02-28 23:59:59,0
+1,journal_entry,259,65,2026-02-26,0.0000,7200.0000,Homesourced Inc - DRUG TEST | 02/23/2026 |Homesourced Inc. — MO-3750,1,0,2026-02-28 23:59:59,0
+1,journal_entry,261,65,2026-02-26,0.0000,7400.0000,Insular Healthcare Inc - BASIC 5 + ECG | 02/04/2026 |KMC Mag Solutions — MO-3771,1,0,2026-02-28 23:59:59,0
+1,journal_entry,249,65,2026-02-26,0.0000,7590.0000,"Life & Health Hmp Inc - LIPID, CREA, HBA1C, SGPT, BUA | 02/07/2026 |Juanito and Sons Inc. — MO-3740",1,0,2026-02-28 23:59:59,0
+1,journal_entry,259,65,2026-02-26,0.0000,7800.0000,Homesourced Inc - Additional 26pax to cover the guaranteed pax | 02/23/2026 |Homesourced Inc. — MO-3750,1,0,2026-02-28 23:59:59,0
+1,journal_entry,262,65,2026-02-26,0.0000,8320.0000,Maxicare Healthcare Corporation - BASIC 5 + FBS + ECG + PAP SMEAR + MOBILE FEE | 02/16/2026 |Universal Robina Corporation — MO-3772,1,0,2026-02-28 23:59:59,0
+1,journal_entry,261,65,2026-02-26,0.0000,8790.0000,Insular Healthcare Inc - BASIC 5 + ECG + PAP SMEAR | 02/04/2026 |KMC Mag Solutions — MO-3771,1,0,2026-02-28 23:59:59,0
+1,journal_entry,269,65,2026-02-26,0.0000,10800.0000,"Etiqa Life and General Assurance Phillipines, Inc - PACKAGE 1 | 02/09/2026 |CEBU INTERNATIONAL SCHOOL — MO-3876",1,0,2026-02-28 23:59:59,0
+1,journal_entry,270,65,2026-02-26,0.0000,12250.0000,CEBU INTERNATIONAL SCHOOL - PACKAGE 3 | 02/09/2026 |CEBU INTERNATIONAL SCHOOL — MO-3877,1,0,2026-02-28 23:59:59,0
+1,journal_entry,264,65,2026-02-26,0.0000,13760.0000,"Life & Health Hmp Inc - B4/DT >: CBC, CXRAY, U/A, PHYSICAL EVALUATION, DRUG TEST | 02/19/2026 |Dedon Manufacturing Inc, — MO-3774",1,0,2026-02-28 23:59:59,0
+1,journal_entry,261,65,2026-02-26,0.0000,16150.0000,Insular Healthcare Inc - BASIC 5 + ECG + PAP SMEAR + DRUG TEST | 02/04/2026 |KMC Mag Solutions — MO-3771,1,0,2026-02-28 23:59:59,0
+1,journal_entry,261,65,2026-02-26,0.0000,20000.0000,Insular Healthcare Inc - BASIC 5 + DRUG TEST | 02/04/2026 |KMC Mag Solutions — MO-3771,1,0,2026-02-28 23:59:59,0
+1,journal_entry,257,65,2026-02-26,0.0000,21700.0000,"PACIFIC CROSS INSURANCE, INC. - BASIC 5 | 02/07/2026 |Sea Olympus Marketing — MO-3748",1,0,2026-02-28 23:59:59,0
+1,journal_entry,260,65,2026-02-26,0.0000,22600.0000,Maxicare Healthcare Corporation - BASIC 5 + ECG | 02/04/2026 |KMC Mag Solutions — MO-3770,1,0,2026-02-28 23:59:59,0
+1,journal_entry,257,65,2026-02-26,0.0000,23520.0000,"PACIFIC CROSS INSURANCE, INC. - BASIC 5 + ECG | 02/07/2026 |Sea Olympus Marketing — MO-3748",1,0,2026-02-28 23:59:59,0
+1,journal_entry,257,65,2026-02-26,0.0000,28280.0000,"PACIFIC CROSS INSURANCE, INC. - BASIC 5 + ECG/PAPSMEAR | 02/07/2026 |Sea Olympus Marketing — MO-3748",1,0,2026-02-28 23:59:59,0
+1,journal_entry,267,65,2026-02-26,0.0000,28600.0000,"Brady Philippines Services, INC. - BASIC 5 | 02/18/2026 |Brady Philippines Services, Inc. — MO-3777",1,0,2026-02-28 23:59:59,0
+1,journal_entry,261,65,2026-02-26,0.0000,31350.0000,Insular Healthcare Inc - BASIC 5 | 02/04/2026 |KMC Mag Solutions — MO-3771,1,0,2026-02-28 23:59:59,0
+1,journal_entry,269,65,2026-02-26,0.0000,40250.0000,"Etiqa Life and General Assurance Phillipines, Inc - PACKAGE 3 | 02/09/2026 |CEBU INTERNATIONAL SCHOOL — MO-3876",1,0,2026-02-28 23:59:59,0
+1,journal_entry,249,65,2026-02-26,0.0000,42000.0000,Life & Health Hmp Inc - Package B - Basic 5 with ECG for 35 years old and above | 02/07/2026 |Juanito and Sons Inc. — MO-3740,1,0,2026-02-28 23:59:59,0
+1,journal_entry,260,65,2026-02-26,0.0000,43920.0000,Maxicare Healthcare Corporation - BASIC 5 + ECG + PAP SMEAR | 02/04/2026 |KMC Mag Solutions — MO-3770,1,0,2026-02-28 23:59:59,0
+1,journal_entry,249,65,2026-02-26,0.0000,47400.0000,Life & Health Hmp Inc - Package A Basic 5 | 02/07/2026 |Juanito and Sons Inc. — MO-3740,1,0,2026-02-28 23:59:59,0
+1,journal_entry,260,65,2026-02-26,0.0000,52800.0000,Maxicare Healthcare Corporation - BASIC 5 | 02/04/2026 |KMC Mag Solutions — MO-3770,1,0,2026-02-28 23:59:59,0
+1,journal_entry,263,65,2026-02-26,0.0000,55800.0000,"Life & Health Hmp Inc - BASIC 5 >: CBC, CXRAY, U/A, STOOL EXAM, PHYSICAL EVALUATION | 02/12/2026 |Dedon Manufacturing Inc, | — MO-3773",1,0,2026-02-28 23:59:59,0
+1,journal_entry,249,65,2026-02-26,0.0000,56100.0000,"Life & Health Hmp Inc - Package C- Basic 5, ECG and Pap Smear for Female 35 Years old and above. | 02/07/2026 |Juanito and Sons Inc. — MO-3740",1,0,2026-02-28 23:59:59,0
+1,journal_entry,265,65,2026-02-26,0.0000,67200.0000,PASAJERO MOTORS CORPORATION - BASIC 4 | 02/18/2026 |Pasajero Motors Corporation — MO-3775,1,0,2026-02-28 23:59:59,0
+1,journal_entry,262,65,2026-02-26,0.0000,67620.0000,Maxicare Healthcare Corporation - BASIC 5 + FBS + ECG + MOBILE FEE | 02/16/2026 |Universal Robina Corporation — MO-3772,1,0,2026-02-28 23:59:59,0
+1,journal_entry,263,65,2026-02-26,0.0000,93500.0000,"Life & Health Hmp Inc - B5/ECG/PAPSMEAR >: CBC, CXRAY, U/A, STOOL EXAM, PHYSICAL EVALUATION | 02/12/2026 |Dedon Manufacturing Inc, | — MO-3773",1,0,2026-02-28 23:59:59,0
+1,journal_entry,262,65,2026-02-26,0.0000,120600.0000,Maxicare Healthcare Corporation - BASIC 5 + FBS + MOBILE FEE | 02/16/2026 |Universal Robina Corporation — MO-3772,1,0,2026-02-28 23:59:59,0
+1,journal_entry,267,65,2026-02-26,0.0000,237800.0000,"Brady Philippines Services, INC. - BASIC 5 + LIPID PANEL & FBS | 02/18/2026 |B — MO-3777",1,0,2026-02-28 23:59:59,0
+1,journal_entry,263,65,2026-02-26,0.0000,350000.0000,"Life & Health Hmp Inc - B5/ECG >: CBC, CXRAY, U/A, STOOL EXAM, PHYSICAL EVALUATION, ECG | 02/12/2026 |Dedon Manufacturing Inc, | — MO-3773",1,0,2026-02-28 23:59:59,0
+1,journal_entry,249,57,2026-02-26,158640.0000,0.0000,Life & Health Hmp Inc — MO-3740,1,0,2026-02-28 23:59:59,0
+1,journal_entry,250,57,2026-02-26,3480.0000,0.0000,Juanito King and Sons Inc. — MO-3741,1,0,2026-02-28 23:59:59,0
+1,journal_entry,257,57,2026-02-26,73500.0000,0.0000,"PACIFIC CROSS INSURANCE, INC. — MO-3748",1,0,2026-02-28 23:59:59,0
+1,journal_entry,251,57,2026-02-26,1800.0000,0.0000,"Castle Keep Holdings, Inc. — MO-3742",1,0,2026-02-28 23:59:59,0
+1,journal_entry,252,57,2026-02-26,600.0000,0.0000,Esperanza Loyola Finance Corporation — MO-3743,1,0,2026-02-28 23:59:59,0
+1,journal_entry,253,57,2026-02-26,3600.0000,0.0000,HIGH LEAP SHARED SERVICES CORPORATION — MO-3744,1,0,2026-02-28 23:59:59,0
+1,journal_entry,254,57,2026-02-26,5700.0000,0.0000,Nito's International Ventures Inc — MO-3745,1,0,2026-02-28 23:59:59,0
+1,journal_entry,258,57,2026-02-26,2100.0000,0.0000,Nito's International Ventures Inc — MO-3749,1,0,2026-02-28 23:59:59,0
+1,journal_entry,255,57,2026-02-26,3000.0000,0.0000,Recon Masters OPC — MO-3746,1,0,2026-02-28 23:59:59,0
+1,journal_entry,256,57,2026-02-26,300.0000,0.0000,Sto. Niño De Cebu Finance Corp. — MO-3747,1,0,2026-02-28 23:59:59,0
+1,journal_entry,259,57,2026-02-26,15000.0000,0.0000,Homesourced Inc — MO-3750,1,0,2026-02-28 23:59:59,0
+1,journal_entry,260,57,2026-02-26,119320.0000,0.0000,Maxicare Healthcare Corporation — MO-3770,1,0,2026-02-28 23:59:59,0
+1,journal_entry,261,57,2026-02-26,90810.0000,0.0000,Insular Healthcare Inc — MO-3771,1,0,2026-02-28 23:59:59,0
+1,journal_entry,262,57,2026-02-26,196540.0000,0.0000,Maxicare Healthcare Corporation — MO-3772,1,0,2026-02-28 23:59:59,0
+1,journal_entry,263,57,2026-02-26,499300.0000,0.0000,Life & Health Hmp Inc — MO-3773,1,0,2026-02-28 23:59:59,0
+1,journal_entry,264,57,2026-02-26,13760.0000,0.0000,Life & Health Hmp Inc — MO-3774,1,0,2026-02-28 23:59:59,0
+1,journal_entry,265,57,2026-02-26,67200.0000,0.0000,PASAJERO MOTORS CORPORATION — MO-3775,1,0,2026-02-28 23:59:59,0
+1,journal_entry,266,57,2026-02-26,9150.0000,0.0000,Toyota Talisay Cebu — MO-3776,1,0,2026-02-28 23:59:59,0
+1,journal_entry,268,57,2026-02-26,55635.0000,0.0000,"Etiqa Life and General Assurance Phillipines, Inc — MO-3778",1,0,2026-02-28 23:59:59,0
+1,journal_entry,267,57,2026-02-26,266400.0000,0.0000,"Brady Philippines Services, INC. — MO-3777",1,0,2026-02-28 23:59:59,0
+1,journal_entry,269,57,2026-02-26,76000.0000,0.0000,"Etiqa Life and General Assurance Phillipines, Inc — MO-3876",1,0,2026-02-28 23:59:59,0
+1,journal_entry,270,57,2026-02-26,21090.0000,0.0000,CEBU INTERNATIONAL SCHOOL — MO-3877,1,0,2026-02-28 23:59:59,0
+1,journal_entry,272,57,2026-02-26,0.0000,111367.2000,Payment: Toyota LapuLapu — MO-3624,1,0,2026-02-28 23:59:59,0
+1,journal_entry,271,57,2026-02-26,0.0000,374896.0000,Payment: Arch Global Services (Philippines) Inc. — MO-2867,1,0,2026-02-28 23:59:59,0
+1,journal_entry,246,1645,2026-02-26,0.0000,107134.0000,"Sales Branches February 26, 2026 - Laboratory/Diagnostics — #50825",1,0,2026-02-28 23:59:59,0
+1,journal_entry,247,1229,2026-02-26,25350.0000,0.0000,Shanesse Angelee Cortes - Meal allowance- Konsulta (Replenishment) — RFP No.# 5266,1,0,2026-02-28 23:59:59,0
+1,journal_entry,248,1201,2026-02-26,66962.5000,0.0000,Shanesse Angelee Cortes - Reliever fee (Replenishment) — RFP No.# 5267,1,0,2026-02-28 23:59:59,0
+1,journal_entry,248,1201,2026-02-26,750.0000,0.0000,Shanesse Angelee Cortes - Meal allowance- Relievers (Replenishment) — RFP No.# 5267,1,0,2026-02-28 23:59:59,0
+1,journal_entry,248,913,2026-02-26,6900.0000,0.0000,Shanesse Angelee Cortes - Meal allowance- Employee (Replenishment) — RFP No.# 5267,1,0,2026-02-28 23:59:59,0
+1,journal_entry,277,217,2026-02-27,14917.5200,0.0000,Payment: MAE RIO — RFP No.# 5247,1,0,2026-02-28 23:59:59,0
+1,journal_entry,280,217,2026-02-27,74612.5000,0.0000,Payment: Shanesse Angelee Cortes — RFP No.# 5267,1,0,2026-02-28 23:59:59,0
+1,journal_entry,279,217,2026-02-27,25350.0000,0.0000,Payment: Shanesse Angelee Cortes — RFP No.# 5266,1,0,2026-02-28 23:59:59,0
+1,journal_entry,278,217,2026-02-27,16392.0000,0.0000,Payment: DITO Telecommunity Corporation — RFP No.# 5263,1,0,2026-02-28 23:59:59,0
+1,journal_entry,273,237,2026-02-27,0.0000,3240.0000,accrual for liquidation of Advances to employee for KA's Payroll Feb 11-25 Ivy Baricuatro — #50761,1,0,2026-02-28 23:59:59,0
+1,journal_entry,275,237,2026-02-27,0.0000,34275.0000,to accrue relievers mobile february 2026 — #51311,1,0,2026-02-28 23:59:59,0
+1,journal_entry,273,237,2026-02-27,0.0000,521444.5400,accrual for liquidation of Advances to employee for KA's Payroll Feb 11-25 Ivy Baricuatro — #50761,1,0,2026-02-28 23:59:59,0
+1,journal_entry,274,65,2026-02-27,377850.0000,0.0000,"Sales Branches February 27, 2026 - Term Sales - February, 27 — #50826",1,0,2026-02-28 23:59:59,0
+1,journal_entry,276,1,2026-02-27,0.0000,1649.9900,"Payment: SMART COMMUNICATIONS, INC. — Online-022726",1,0,2026-02-28 23:59:59,0
+1,journal_entry,276,1,2026-02-27,0.0000,14917.5200,Payment: MAE RIO — Online-022726,1,0,2026-02-28 23:59:59,0
+1,journal_entry,276,1,2026-02-27,0.0000,16392.0000,Payment: DITO Telecommunity Corporation — Online-022726,1,0,2026-02-28 23:59:59,0
+1,journal_entry,276,1,2026-02-27,0.0000,25350.0000,Payment: Shanesse Angelee Cortes — Online-022726,1,0,2026-02-28 23:59:59,0
+1,journal_entry,276,1,2026-02-27,0.0000,48250.0000,Payment: SOCIAL SECURITY SYSTEM — Online-022726,1,0,2026-02-28 23:59:59,0
+1,journal_entry,276,1,2026-02-27,0.0000,74612.5000,Payment: Shanesse Angelee Cortes — Online-022726,1,0,2026-02-28 23:59:59,0
+1,journal_entry,274,1645,2026-02-27,0.0000,377850.0000,"Sales Branches February 27, 2026 - Laboratory/Diagnostics — #50826",1,0,2026-02-28 23:59:59,0
+1,journal_entry,273,1229,2026-02-27,521444.5400,0.0000,accrual for liquidation of Advances to employee for KA's Payroll Feb 11-25 Ivy Baricuatro — #50761,1,0,2026-02-28 23:59:59,0
+1,journal_entry,275,1201,2026-02-27,34275.0000,0.0000,to accrue relievers mobile february 2026 — #51311,1,0,2026-02-28 23:59:59,0
+1,journal_entry,273,1777,2026-02-27,524684.5400,0.0000,accrual for liquidation of Advances to employee for KA's Payroll Feb 11-25 Ivy Baricuatro — #50761,1,0,2026-02-28 23:59:59,0

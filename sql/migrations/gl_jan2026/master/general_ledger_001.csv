@@ -1,0 +1,501 @@
+branch_id,source,source_id,account_type_id,date,debit,credit,remark,is_migrated,added_by,added_on,is_deleted
+\N,journal_entry,13,217,2026-01-02,11880.0000,0.0000,Payment: BIOLAB MEDICAL SUPPLIES — 1125-000367,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,23,217,2026-01-02,5127.9600,0.0000,"Payment: Avega Managed Care, Inc — RFP No.# 4611",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,26,217,2026-01-02,33149.4500,0.0000,"Payment: SMART COMMUNICATIONS, INC. — RFP No.# 4634",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,22,217,2026-01-02,10438.6900,0.0000,Payment: CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 4019,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,12,217,2026-01-02,37383.2100,0.0000,Payment: DG'S INK TRADING — 1025-000332,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,14,217,2026-01-02,48609.0000,0.0000,Payment: BIOLAB MEDICAL SUPPLIES — 1125-000405,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,24,217,2026-01-02,213.1800,0.0000,"Payment: Avega Managed Care, Inc — RFP No.# 4612",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,27,217,2026-01-02,12362.6200,0.0000,Payment: ELLEN ROSE L. SIMBULAAN — RFP No.# 4646,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,25,217,2026-01-02,9800.0000,0.0000,Payment: Rhea Mae Gesulga — RFP No.# 4623,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,11,217,2026-01-02,25839.0000,0.0000,Payment: TONERPRO TRADING — 0525-060,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,15,217,2026-01-02,220000.0000,0.0000,Payment: Toyota Mandaue North Cebu — 1225-000468,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,17,217,2026-01-02,21380.0000,0.0000,Payment: Toyota Mandaue North Cebu — 1225-000470,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,16,217,2026-01-02,21380.0000,0.0000,Payment: Toyota Mandaue North Cebu — 1225-000469,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,3,77,2026-01-02,0.0000,4460.0000,"To record receipts of QR and Card sales GCASH for January 02, 2026 - To record receipts of QR and Card sales GCASH for January 02, 2026 — #43090",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,5,61,2026-01-02,0.0000,2769.5500,"To Record Deposit Card Sales MBTC January 02, 2026 - To Record Deposit Card Sales MBTC January 02, 2026 — #43092",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,4,61,2026-01-02,0.0000,64526.5600,"To record receipts of QR and Card sales GCASH for January 02, 2026 - To record receipts of QR and Card sales GCASH for January 02, 2026 — #43091",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,1,61,2026-01-02,0.0000,87107.3000,"To Record deposit sales Branches Unidentified January 02, 2026 - To Record deposit sales Branches Unidentified January 02, 2026 — #43086",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,1,1,2026-01-02,87107.3000,0.0000,"To Record deposit sales Branches Unidentified January 02, 2026 - To Record deposit sales Branches Unidentified January 02, 2026 — #43086",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,2,1,2026-01-02,26837.0000,0.0000,"To Record Cash Sales Branches December 27, 2025 - To Record Cash Sales Branches December 27, 2025 — #43087",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,2,1,2026-01-02,24764.0000,0.0000,"To Record Cash Sales Branches December 27, 2025 - To Record Cash Sales Branches December 27, 2025 — #43087",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,2,1,2026-01-02,27091.0000,0.0000,"To Record Cash Sales Branches December 27, 2025 - To Record Cash Sales Branches December 27, 2025 — #43087",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,6,1,2026-01-02,1800000.0000,0.0000,Fund transfer to BPI FT from LPB acct - Fund transfer to BPI FT from LPB acct — #43093,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,21,1,2026-01-02,0.0000,213.1800,"Payment: Avega Managed Care, Inc — Online-010226",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,21,1,2026-01-02,0.0000,5127.9600,"Payment: Avega Managed Care, Inc — Online-010226",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,21,1,2026-01-02,0.0000,9800.0000,Payment: Rhea Mae Gesulga — Online-010226,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,21,1,2026-01-02,0.0000,10438.6900,Payment: CEBU SPIC & SPAN JANITORIAL SERVICES INC. — Online-010226,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,21,1,2026-01-02,0.0000,11880.0000,Payment: BIOLAB MEDICAL SUPPLIES — Online-010226,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,21,1,2026-01-02,0.0000,12362.6200,Payment: ELLEN ROSE L. SIMBULAAN — Online-010226,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,21,1,2026-01-02,0.0000,22999.6500,"Payment: SMART COMMUNICATIONS, INC. — Online-010226",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,21,1,2026-01-02,0.0000,25839.0000,Payment: TONERPRO TRADING — Online-010226,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,21,1,2026-01-02,0.0000,37383.2100,Payment: DG'S INK TRADING — Online-010226,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,21,1,2026-01-02,0.0000,48609.0000,Payment: BIOLAB MEDICAL SUPPLIES — Online-010226,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,9,1,2026-01-02,0.0000,102267.1200,Interest payment on BPI Loans (23.7M) - Interest payment on BPI Loans (23.7M) — #45756,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,10,1,2026-01-02,0.0000,156636.9900,Interest payment on BPI Loans (36.3M) - Interest payment on BPI Loans (36.3M) — #45768,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,7,49,2026-01-02,0.0000,1000000.0000,Fund transfer to SBC FT from LPB acct - Fund transfer to SBC FT from LPB acct — #43094,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,6,49,2026-01-02,0.0000,1800000.0000,Fund transfer to BPI FT from LPB acct - Fund transfer to BPI FT from LPB acct — #43093,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,5,41,2026-01-02,2769.5500,0.0000,"To Record Deposit Card Sales MBTC January 02, 2026 - To Record Deposit Card Sales MBTC January 02, 2026 — #43092",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,7,9,2026-01-02,1000000.0000,0.0000,Fund transfer to SBC FT from LPB acct - Fund transfer to SBC FT from LPB acct — #43094,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,3,5,2026-01-02,4460.0000,0.0000,"To record receipts of QR and Card sales GCASH for January 02, 2026 - To record receipts of QR and Card sales GCASH for January 02, 2026 — #43090",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,4,5,2026-01-02,64526.5600,0.0000,"To record receipts of QR and Card sales GCASH for January 02, 2026 - To record receipts of QR and Card sales GCASH for January 02, 2026 — #43091",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,19,5,2026-01-02,0.0000,21380.0000,Payment: Toyota Mandaue North Cebu — 407865,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,20,5,2026-01-02,0.0000,21380.0000,Payment: Toyota Mandaue North Cebu — 407866,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,18,5,2026-01-02,0.0000,220000.0000,Payment: Toyota Mandaue North Cebu — 407864,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,9,1585,2026-01-02,102267.1200,0.0000,Interest payment on BPI Loans (23.7M) - Interest payment on BPI Loans (23.7M) — #45756,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,10,1585,2026-01-02,156636.9900,0.0000,Interest payment on BPI Loans (36.3M) - Interest payment on BPI Loans (36.3M) — #45768,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,2,1777,2026-01-02,78692.0000,0.0000,"To Record Cash Sales Branches December 27, 2025 - To Record Cash Sales Branches December 27, 2025 — #43087",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,8,1777,2026-01-02,495790.0000,0.0000,"Sales Branches January 02, 2026 - Laboratory/Diagnostics — #44037",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,9,1777,2026-01-02,102267.1200,0.0000,Interest payment on BPI Loans (23.7M) - Interest payment on BPI Loans (23.7M) — #45756,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,10,1777,2026-01-02,156636.9900,0.0000,Interest payment on BPI Loans (36.3M) - Interest payment on BPI Loans (36.3M) — #45768,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,2,1777,2026-01-02,0.0000,78692.0000,"To Record Cash Sales Branches December 27, 2025 - To Record Cash Sales Branches December 27, 2025 — #43087",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,9,1777,2026-01-02,0.0000,102267.1200,Interest payment on BPI Loans (23.7M) - Interest payment on BPI Loans (23.7M) — #45756,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,10,1777,2026-01-02,0.0000,156636.9900,Interest payment on BPI Loans (36.3M) - Interest payment on BPI Loans (36.3M) — #45768,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,8,1777,2026-01-02,0.0000,495790.0000,"Sales Branches January 02, 2026 - Cash Sales - January, 02 — #44037",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,28,1777,2026-01-03,465198.0000,0.0000,"Sales Branches January 03, 2026 - Laboratory/Diagnostics — #44038",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,28,1777,2026-01-03,0.0000,465198.0000,"Sales Branches January 03, 2026 - Cash Sales - January, 03 — #44038",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,38,217,2026-01-05,245520.0000,0.0000,Payment: KONSEPTEK ELECTRONIC PARTS & EQUIPMENT TRADING — 1225-000474,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,36,237,2026-01-05,1742841.3600,0.0000,"payroll payout January 05, 2026 - payroll payout January 05, 2026 — #43107",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,32,77,2026-01-05,0.0000,3480.0000,"To record receipts of QR and Card sales GCASH for January 05, 2026 - To record receipts of QR and Card sales GCASH for January 05, 2026 — #43103",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,35,61,2026-01-05,0.0000,6000.0000,"To Record deposit sales Branches Unidentified SBC KPCI January 05, 2025 - To Record deposit sales Branches Unidentified SBC KPCI January 05, 2025 — #43106",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,34,61,2026-01-05,0.0000,41196.8000,"To Record Deposit Card Sales MBTC January 05, 2026 - To Record Deposit Card Sales MBTC January 05, 2026 — #43105",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,33,61,2026-01-05,0.0000,60159.9600,"To record receipts of QR and Card sales GCASH for January 05, 2026 - To record receipts of QR and Card sales GCASH for January 05, 2026 — #43104",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,29,61,2026-01-05,0.0000,309707.8500,"To Record deposit sales Branches Unidentified January 05, 2026 - To Record deposit sales Branches Unidentified January 05, 2026 — #43100",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,39,45,2026-01-05,0.0000,245520.0000,Payment: KONSEPTEK ELECTRONIC PARTS & EQUIPMENT TRADING — 1245510,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,29,1,2026-01-05,309707.8500,0.0000,"To Record deposit sales Branches Unidentified January 05, 2026 - To Record deposit sales Branches Unidentified January 05, 2026 — #43100",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,30,1,2026-01-05,39164.0000,0.0000,"To Record Cash Sales Branches January 02, 2025 - To Record Cash Sales Branches January 02, 2025 — #43101",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,30,1,2026-01-05,25462.0000,0.0000,"To Record Cash Sales Branches January 02, 2025 - To Record Cash Sales Branches January 02, 2025 — #43101",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,30,1,2026-01-05,48505.0000,0.0000,"To Record Cash Sales Branches January 02, 2025 - To Record Cash Sales Branches January 02, 2025 — #43101",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,31,1,2026-01-05,34033.0000,0.0000,"To Record Cash Sales Branches January 03, 2025 - To Record Cash Sales Branches January 03, 2025 — #43102",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,31,1,2026-01-05,45948.0000,0.0000,"To Record Cash Sales Branches January 03, 2025 - To Record Cash Sales Branches January 03, 2025 — #43102",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,31,1,2026-01-05,61868.0000,0.0000,"To Record Cash Sales Branches January 03, 2025 - To Record Cash Sales Branches January 03, 2025 — #43102",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,36,1,2026-01-05,0.0000,1742841.3600,"payroll payout January 05, 2026 - payroll payout January 05, 2026 — #43107",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,34,41,2026-01-05,41196.8000,0.0000,"To Record Deposit Card Sales MBTC January 05, 2026 - To Record Deposit Card Sales MBTC January 05, 2026 — #43105",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,32,5,2026-01-05,3480.0000,0.0000,"To record receipts of QR and Card sales GCASH for January 05, 2026 - To record receipts of QR and Card sales GCASH for January 05, 2026 — #43103",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,33,5,2026-01-05,60159.9600,0.0000,"To record receipts of QR and Card sales GCASH for January 05, 2026 - To record receipts of QR and Card sales GCASH for January 05, 2026 — #43104",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,35,5,2026-01-05,6000.0000,0.0000,"To Record deposit sales Branches Unidentified SBC KPCI January 05, 2025 - To Record deposit sales Branches Unidentified SBC KPCI January 05, 2025 — #43106",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,30,1777,2026-01-05,113131.0000,0.0000,"To Record Cash Sales Branches January 02, 2025 - To Record Cash Sales Branches January 02, 2025 — #43101",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,31,1777,2026-01-05,141849.0000,0.0000,"To Record Cash Sales Branches January 03, 2025 - To Record Cash Sales Branches January 03, 2025 — #43102",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,37,1777,2026-01-05,917449.0000,0.0000,"Sales Branches January 05, 2026 - Laboratory/Diagnostics — #48411",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,30,1777,2026-01-05,0.0000,113131.0000,"To Record Cash Sales Branches January 02, 2025 - To Record Cash Sales Branches January 02, 2025 — #43101",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,31,1777,2026-01-05,0.0000,141849.0000,"To Record Cash Sales Branches January 03, 2025 - To Record Cash Sales Branches January 03, 2025 — #43102",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,37,1777,2026-01-05,0.0000,917449.0000,"Sales Branches January 05, 2026 - Cash Sales - January, 05 — #48411",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,45,77,2026-01-06,0.0000,5520.0000,"To record receipts of QR and Card sales GCASH for January 06, 2026 - To record receipts of QR and Card sales GCASH for January 06, 2026 — #43361",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,43,61,2026-01-06,0.0000,9038.0500,"To Record deposit sales Branches  Check Deposit - Home Sourced January 06, 2026 - To Record deposit sales Branches  Check Deposit - Home Sourced January 06, 2026 — #43359",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,44,61,2026-01-06,0.0000,18781.7000,"To Record deposit sales Branches Check Deposit - Avega January 06, 2026 - To Record deposit sales Branches Check Deposit - Avega January 06, 2026 — #43360",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,46,61,2026-01-06,0.0000,37744.7700,"To record receipts of QR and Card sales GCASH for January 06, 2026 - To record receipts of QR and Card sales GCASH for January 06, 2026 — #43362",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,47,61,2026-01-06,0.0000,51385.2400,"To Record Deposit Card Sales MBTC January 06, 2026 - To Record Deposit Card Sales MBTC January 06, 2026 — #43363",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,40,61,2026-01-06,0.0000,142209.0100,"To Record deposit sales Branches Unidentified January 06, 2026 - To Record deposit sales Branches Unidentified January 06, 2026 — #43356",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,42,61,2026-01-06,0.0000,313238.2000,"To Record deposit sales Branches Check Deposit - Life & Health January 06, 2026 - To Record deposit sales Branches Check Deposit - Life & Health January 06, 2026 — #43358",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,41,61,2026-01-06,0.0000,1359475.6000,"To Record deposit sales Branches AR-Term - Icare January 06, 2026 - To Record deposit sales Branches AR-Term - Icare January 06, 2026 — #43357",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,50,65,2026-01-06,0.0000,1000.0000,Cebu Home and Builders Centre - Administration & Mobilization Fee — MO-2044,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,50,57,2026-01-06,39350.0000,0.0000,Cebu Home and Builders Centre — MO-2044,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,40,1,2026-01-06,142209.0100,0.0000,"To Record deposit sales Branches Unidentified January 06, 2026 - To Record deposit sales Branches Unidentified January 06, 2026 — #43356",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,41,1,2026-01-06,1359475.6000,0.0000,"To Record deposit sales Branches AR-Term - Icare January 06, 2026 - To Record deposit sales Branches AR-Term - Icare January 06, 2026 — #43357",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,42,1,2026-01-06,313238.2000,0.0000,"To Record deposit sales Branches Check Deposit - Life & Health January 06, 2026 - To Record deposit sales Branches Check Deposit - Life & Health January 06, 2026 — #43358",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,43,1,2026-01-06,9038.0500,0.0000,"To Record deposit sales Branches  Check Deposit - Home Sourced January 06, 2026 - To Record deposit sales Branches  Check Deposit - Home Sourced January 06, 2026 — #43359",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,44,1,2026-01-06,18781.7000,0.0000,"To Record deposit sales Branches Check Deposit - Avega January 06, 2026 - To Record deposit sales Branches Check Deposit - Avega January 06, 2026 — #43360",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,48,1,2026-01-06,94870.0000,0.0000,"To Record Cash Sales Branches January 05, 2025 - To Record Cash Sales Branches January 05, 2025 — #43364",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,48,1,2026-01-06,24396.0000,0.0000,"To Record Cash Sales Branches January 05, 2025 - To Record Cash Sales Branches January 05, 2025 — #43364",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,48,1,2026-01-06,45672.0000,0.0000,"To Record Cash Sales Branches January 05, 2025 - To Record Cash Sales Branches January 05, 2025 — #43364",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,47,41,2026-01-06,51385.2400,0.0000,"To Record Deposit Card Sales MBTC January 06, 2026 - To Record Deposit Card Sales MBTC January 06, 2026 — #43363",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,45,5,2026-01-06,5520.0000,0.0000,"To record receipts of QR and Card sales GCASH for January 06, 2026 - To record receipts of QR and Card sales GCASH for January 06, 2026 — #43361",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,46,5,2026-01-06,37744.7700,0.0000,"To record receipts of QR and Card sales GCASH for January 06, 2026 - To record receipts of QR and Card sales GCASH for January 06, 2026 — #43362",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,48,1777,2026-01-06,164938.0000,0.0000,"To Record Cash Sales Branches January 05, 2025 - To Record Cash Sales Branches January 05, 2025 — #43364",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,49,1777,2026-01-06,838014.0000,0.0000,"Sales Branches January 06, 2026 - Laboratory/Diagnostics — #48413",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,48,1777,2026-01-06,0.0000,164938.0000,"To Record Cash Sales Branches January 05, 2025 - To Record Cash Sales Branches January 05, 2025 — #43364",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,49,1777,2026-01-06,0.0000,838014.0000,"Sales Branches January 06, 2026 - Cash Sales - January, 06 — #48413",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,58,217,2026-01-07,0.0000,20000.0000,Rhea Mae Gesulga — RFP No.# 4656,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,57,217,2026-01-07,0.0000,114867.5000,OAKRIDGE REALTY DEVELOPMENT CORPORATION — 0126-000002,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,53,77,2026-01-07,0.0000,10892.0000,"To record receipts of QR and Card sales GCASH for January 07, 2026 - To record receipts of QR and Card sales GCASH for January 07, 2026 — #43599",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,51,61,2026-01-07,0.0000,3390.0000,"To Record deposit sales Branches Unidentified January 07, 2026 - To Record deposit sales Branches Unidentified January 07, 2026 — #43597",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,55,61,2026-01-07,0.0000,20940.5000,"To Record Deposit Card Sales MBTC January 07, 2026 - To Record Deposit Card Sales MBTC January 07, 2026 — #43601",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,54,61,2026-01-07,0.0000,49457.6300,"To record receipts of QR and Card sales GCASH for January 07, 2026 - To record receipts of QR and Card sales GCASH for January 07, 2026 — #43600",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,51,1,2026-01-07,3390.0000,0.0000,"To Record deposit sales Branches Unidentified January 07, 2026 - To Record deposit sales Branches Unidentified January 07, 2026 — #43597",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,52,1,2026-01-07,72957.0000,0.0000,"To Record Cash Sales Branches January 06, 2025 - To Record Cash Sales Branches January 06, 2025 — #43598",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,52,1,2026-01-07,25264.0000,0.0000,"To Record Cash Sales Branches January 06, 2025 - To Record Cash Sales Branches January 06, 2025 — #43598",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,52,1,2026-01-07,52196.0000,0.0000,"To Record Cash Sales Branches January 06, 2025 - To Record Cash Sales Branches January 06, 2025 — #43598",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,55,41,2026-01-07,20940.5000,0.0000,"To Record Deposit Card Sales MBTC January 07, 2026 - To Record Deposit Card Sales MBTC January 07, 2026 — #43601",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,53,5,2026-01-07,10892.0000,0.0000,"To record receipts of QR and Card sales GCASH for January 07, 2026 - To record receipts of QR and Card sales GCASH for January 07, 2026 — #43599",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,54,5,2026-01-07,49457.6300,0.0000,"To record receipts of QR and Card sales GCASH for January 07, 2026 - To record receipts of QR and Card sales GCASH for January 07, 2026 — #43600",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,57,245,2026-01-07,0.0000,1897.5800,OAKRIDGE REALTY DEVELOPMENT CORPORATION - 2% EWT on Payment for various invoices BS no.  25961 31652 31653 31660 31677 31682 31696 31697 31700 31730 31738 31739 31743 26912 28105 28200 15530 15634 — 0126-000002,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,57,721,2026-01-07,5520.0000,0.0000,OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat: IT Services ftm Sep & Oct 2025 — 0126-000002,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,57,757,2026-01-07,53.5700,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat: Unit assistance in tapping the power supply of their X-Ray Van. APril 14, 2023 Based On Sales Orders 836.  BS no.25961 — 0126-000002",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,57,781,2026-01-07,109.8700,0.0000,OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat: GARBAGE COLLECTION FTM SEP 2024 |CLINIC — 0126-000002,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,57,797,2026-01-07,6011.6300,0.0000,OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat: OEC charges during meeting BS no. 31652 31653 31660 31677 31682 31696 31697 31700 31730 31738 31739 31743 15530 15634 32163 — 0126-000002,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,57,809,2026-01-07,46000.0000,0.0000,OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vatable: IT Services ftm Sep & Oct 2025 — 0126-000002,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,57,837,2026-01-07,50283.6600,0.0000,OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vatable: OEC charges during meeting BS no. 31652 31653 31660 31677 31682 31696 31697 31700 31730 31738 31739 31743 15530 15634 32163 — 0126-000002,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,57,837,2026-01-07,5424.3500,0.0000,OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat Exempt: OEC charges during meeting BS no. 31652 31653 31660 31677 31682 31696 31697 31700 31730 31738 31739 31743 15530 15634 32163 — 0126-000002,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,57,909,2026-01-07,446.4300,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vatable: Unit assistance in tapping the power supply of their X-Ray Van. APril 14, 2023 Based On Sales Orders 836.  BS no.25961 — 0126-000002",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,58,33,2026-01-07,20000.0000,0.0000,Rhea Mae Gesulga - Payment to establish revolving fund — RFP No.# 4656,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,57,937,2026-01-07,1785.7100,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vatable: Violation on Workplace Guidelines last July 26, 2022 Based On Sales Orders 486. BS no. 25571 — 0126-000002",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,57,937,2026-01-07,214.2900,0.0000,"OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vat: Violation on Workplace Guidelines last July 26, 2022 Based On Sales Orders 486. BS no. 25571 — 0126-000002",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,52,1777,2026-01-07,150417.0000,0.0000,"To Record Cash Sales Branches January 06, 2025 - To Record Cash Sales Branches January 06, 2025 — #43598",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,56,1777,2026-01-07,904649.0000,0.0000,"Sales Branches January 07, 2026 - Laboratory/Diagnostics — #48415",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,52,1777,2026-01-07,0.0000,150417.0000,"To Record Cash Sales Branches January 06, 2025 - To Record Cash Sales Branches January 06, 2025 — #43598",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,56,1777,2026-01-07,0.0000,904649.0000,"Sales Branches January 07, 2026 - Cash Sales - January, 07 — #48415",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,57,957,2026-01-07,915.5700,0.0000,OAKRIDGE REALTY DEVELOPMENT CORPORATION - Vatable: GARBAGE COLLECTION FTM SEP 2024 |CLINIC — 0126-000002,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,68,217,2026-01-08,33192.9600,0.0000,Payment: NEW KEEN'S TRADING — 1225-000490,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,69,217,2026-01-08,91339.2900,0.0000,Payment: ALEDAN MKTG CORP — 1225-000501,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,70,217,2026-01-08,89196.4300,0.0000,Payment: ASIA PACIFIC COMPUTERS OPC — 1225-000543,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,75,217,2026-01-08,21090.5100,0.0000,Payment: Joemar O. Echavez — RFP No.# 4513,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,66,217,2026-01-08,0.0000,7765.2600,HOME DEVELOPMENT MUTUAL FUND — RFP No.# 4665,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,67,217,2026-01-08,0.0000,54000.0000,HOME DEVELOPMENT MUTUAL FUND — RFP No.# 4666,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,65,217,2026-01-08,0.0000,186505.0000,PHILIPPINE HEALTH INSURANCE CORPORATION — RFP No.# 4664,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,61,77,2026-01-08,0.0000,26758.5400,"To record receipts of QR and Card sales GCASH for January 08, 2026 - To record receipts of QR and Card sales GCASH for January 08, 2026 — #44029",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,62,61,2026-01-08,0.0000,1900.0000,"To record receipts of QR and Card sales GCASH for January 08, 2026 - To record receipts of QR and Card sales GCASH for January 08, 2026 — #44030",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,63,61,2026-01-08,0.0000,46406.8500,"To Record Deposit Card Sales MBTC January 08, 2026 - To Record Deposit Card Sales MBTC January 08, 2026 — #44031",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,59,61,2026-01-08,0.0000,161911.3900,"To Record deposit sales Branches Unidentified January 08, 2026 - To Record deposit sales Branches Unidentified January 08, 2026 — #44027",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,77,65,2026-01-08,0.0000,150.0000,"Medicard Philippines Inc - LARONG, LORENZ - | 01/02/2026 |Medicard Philippines Inc |Health Services |150 - — O3231",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,170.0000,"Asalus Corporation - GULLIM, JERIKA CAGASAN | 01/07/2026 |Asalus Corporation |Laboratory/Diagnostics |170 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,170.0000,"Asalus Corporation - PANGILINAN, BRYAN CHRISTOPHER N/A | 01/07/2026 |Asalus Corporation |Laboratory/Diagnostics |170 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,180.0000,"Asalus Corporation - PERMEJO, THYRON - | 01/07/2026 |Asalus Corporation |Laboratory/Diagnostics |180 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,310.0000,"Asalus Corporation - ATIL, FELOMINA ALQUIZAR | 01/05/2026 |Asalus Corporation |Laboratory/Diagnostics |310 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - CARBONILLA, IVY JOYCE MILAGROSA DEL CASTILLO | 01/02/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - YBURAN, GOL BAGUIO | 01/02/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - EAMIGUEL, HUBERT BUYOC | 01/02/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - MONTERDE, DISTANZ DAWN VALERIE NAPIGKIT | 01/02/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - MORALES, JOHN ANDREW GERE | 01/03/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - PADILLA, CHRISTINE MARIE ALBAO | 01/03/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - ZANORIA, ALLEN SALADAGA | 01/03/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - GUTUAL, GIRALYN SAYON | 01/03/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - BABANTO, JOMARI GENOBISA | 01/03/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - GUITGUIT, KIM LOWELL ARCIPE | 01/03/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - FELIZARTA, IMRHAN JAVIERTO | 01/03/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - FERNANDEZ, RAYMUND MODINA | 01/03/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - MERIN, SHERHAINA SAWADJAAN | 01/05/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - GESTOLE, KAI ELI ECLEO | 01/05/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - PEGARIDO, RANDY MATTHEW ARENAS | 01/05/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - ADEVA, LORENZO VILLACORTA | 01/05/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - MACABEO, ERICKA LEDESMA | 01/05/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - LARGADAS, LAUREI LUNA MAGALANG | 01/05/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - PLAZA, KRISTENA MARIE DOY | 01/05/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - ATIL, FELOMINA ALQUIZAR | 01/05/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - ZAMORA, JACQUILINE CANOY | 01/05/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - CARMONA, KATHLEEN JOYCE CUIZON | 01/05/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - ROJO, JOSEPH MOREÑO | 01/06/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - FRANCIS, WINA WENCESLAO | 01/06/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - FRANCIS, JULITO JUGARAP | 01/06/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - LINOGON, MARY ANN VENTIC | 01/06/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - BRILLO, DAYANARA - | 01/06/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - PUJADAS, RONALD ROSAL | 01/06/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - PUJADAS, CATHERINE DUNGOG | 01/06/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - BELOCURA, KRISTA LEIGH RICABO | 01/06/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - PAREJA, MENNIE ANN CUSTODIO | 01/06/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - RUBIN, KENT ALEXANDER LAGARE | 01/06/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - RUBIN, KENT MIGUEL LAGARE | 01/06/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - CHAVEZ, CHEZEL CLOE MINDAÑA | 01/06/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - PANGILINAN, BRYAN CHRISTOPHER N/A | 01/06/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - FLORES, CLEOFE CABARLES | 01/07/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - FLORES, RUBEN BASIGA | 01/07/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - AGAS, RASHELLE CALO | 01/07/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - GEREZ, KENSTEN LUGAYAO | 01/07/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - GULLIM, JERIKA CAGASAN | 01/07/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - MUYARGAS, NOEME RUBIO | 01/07/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - LINOGON, MARY ANN VENTIC | 01/07/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - FUSTER, STEPHANY AMEJAN | 01/07/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - MEJARAN, FRANCIS CLINT ESMA | 01/07/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,500.0000,"Asalus Corporation - MONTERDE, DISTANZ DAWN VALERIE NAPIGKIT | 01/07/2026 |Asalus Corporation |Consultation |500 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,76,65,2026-01-08,0.0000,500.0000,"Philhealthcare, Inc - BOLIGAO, ANGEL MAY N/A | 01/02/2026 |Philhealthcare, Inc |Consultation |500 - — O3230",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,76,65,2026-01-08,0.0000,500.0000,"Philhealthcare, Inc - BOLIGAO, NURIEL GYLFI - | 01/02/2026 |Philhealthcare, Inc |Consultation |500 - — O3230",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,76,65,2026-01-08,0.0000,500.0000,"Philhealthcare, Inc - NAVIDAD, RONNEL LARIOSA | 01/02/2026 |Philhealthcare, Inc |Consultation |500 - — O3230",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,76,65,2026-01-08,0.0000,500.0000,"Philhealthcare, Inc - JACA, JOHN JOE ABELLA | 01/03/2026 |Philhealthcare, Inc |Consultation |500 - — O3230",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,76,65,2026-01-08,0.0000,500.0000,"Philhealthcare, Inc - PAMA, JOANNE LOU BATUCAN | 01/05/2026 |Philhealthcare, Inc |Consultation |500 - — O3230",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,76,65,2026-01-08,0.0000,500.0000,"Philhealthcare, Inc - NAVIDAD, RONNEL LARIOSA | 01/05/2026 |Philhealthcare, Inc |Consultation |500 - — O3230",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,76,65,2026-01-08,0.0000,500.0000,"Philhealthcare, Inc - HERRERA, JUNIE LEONARD BONTOD | 01/06/2026 |Philhealthcare, Inc |Consultation |500 - — O3230",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,76,65,2026-01-08,0.0000,500.0000,"Philhealthcare, Inc - BAYLOSIS, SCHENLY MAE SILVANO | 01/06/2026 |Philhealthcare, Inc |Consultation |500 - — O3230",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,76,65,2026-01-08,0.0000,500.0000,"Philhealthcare, Inc - RUIZ, ANGEL BUTRON | 01/06/2026 |Philhealthcare, Inc |Consultation |500 - — O3230",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,76,65,2026-01-08,0.0000,500.0000,"Philhealthcare, Inc - MONTEJO, JOHN PAUL OYANGORIN | 01/07/2026 |Philhealthcare, Inc |Consultation |500 - — O3230",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,76,65,2026-01-08,0.0000,500.0000,"Philhealthcare, Inc - ABLAY, JOHN KENNETH PAGATPAT | 01/07/2026 |Philhealthcare, Inc |Consultation |500 - — O3230",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,550.0000,"Asalus Corporation - ATIL, FELOMINA ALQUIZAR | 01/05/2026 |Asalus Corporation |Laboratory/Diagnostics |550 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,77,65,2026-01-08,0.0000,600.0000,"Medicard Philippines Inc - ISMA, MA. LHILY LOU REQUILME | 01/02/2026 |Medicard Philippines Inc |Consultation |600 - — O3231",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,77,65,2026-01-08,0.0000,600.0000,"Medicard Philippines Inc - MELGAR, ROY SINOY | 01/06/2026 |Medicard Philippines Inc |Consultation |600 - — O3231",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,76,65,2026-01-08,0.0000,600.0000,"Philhealthcare, Inc - ECLE, CLEA KAISER CABAHIT | 01/03/2026 |Philhealthcare, Inc |Consultation |600 - — O3230",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,76,65,2026-01-08,0.0000,600.0000,"Philhealthcare, Inc - AL SHAMSI, FATIMA ANGELA ACUESTA | 01/03/2026 |Philhealthcare, Inc |Consultation |600 - — O3230",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,76,65,2026-01-08,0.0000,600.0000,"Philhealthcare, Inc - SOTTO, MICHAELA N/A | 01/05/2026 |Philhealthcare, Inc |Consultation |600 - — O3230",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,76,65,2026-01-08,0.0000,600.0000,"Philhealthcare, Inc - MAINIT, HERMELITO JR. IBUÑA | 01/05/2026 |Philhealthcare, Inc |Consultation |600 - — O3230",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,76,65,2026-01-08,0.0000,600.0000,"Philhealthcare, Inc - PABATE, LAIZA MAY SANCHEZ | 01/05/2026 |Philhealthcare, Inc |Consultation |600 - — O3230",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,76,65,2026-01-08,0.0000,600.0000,"Philhealthcare, Inc - MAGABILIN, CORA CEPADA | 01/06/2026 |Philhealthcare, Inc |Consultation |600 - — O3230",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,76,65,2026-01-08,0.0000,600.0000,"Philhealthcare, Inc - DINI-AY, RHEYMHAR NEFIEL | 01/06/2026 |Philhealthcare, Inc |Consultation |600 - — O3230",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,76,65,2026-01-08,0.0000,600.0000,"Philhealthcare, Inc - HERMOSA, MILVEN JOHN BARRIENTOS | 01/07/2026 |Philhealthcare, Inc |Consultation |600 - — O3230",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,77,65,2026-01-08,0.0000,650.0000,"Medicard Philippines Inc - FLORES, THERESE KIMSENG | 01/03/2026 |Medicard Philippines Inc |Laboratory/Diagnostics |650 - — O3231",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,76,65,2026-01-08,0.0000,920.0000,"Philhealthcare, Inc - QUIÑANOLA, BAI HAYDE DELA CALZADA | 01/02/2026 |Philhealthcare, Inc |Laboratory/Diagnostics |920 - — O3230",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,950.0000,"Asalus Corporation - MINSALAN, MIKA ECOY | 01/06/2026 |Asalus Corporation |Laboratory/Diagnostics |950 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,950.0000,"Asalus Corporation - PAREJA, MENNIE ANN CUSTODIO | 01/06/2026 |Asalus Corporation |Laboratory/Diagnostics |950 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,1130.0000,"Asalus Corporation - BANAL, NICHOLAS CAMPAÑA | 01/05/2026 |Asalus Corporation |Laboratory/Diagnostics |1130 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,77,65,2026-01-08,0.0000,1160.0000,"Medicard Philippines Inc - LARONG, LORENZ - | 01/02/2026 |Medicard Philippines Inc |Laboratory/Diagnostics |1160 - — O3231",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,76,65,2026-01-08,0.0000,2050.0000,"Philhealthcare, Inc - JACA, JOHN JOE ABELLA | 01/03/2026 |Philhealthcare, Inc |Laboratory/Diagnostics |2050 - — O3230",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,2120.0000,"Asalus Corporation - MONTERDE, DISTANZ DAWN VALERIE NAPIGKIT | 01/02/2026 |Asalus Corporation |Laboratory/Diagnostics |2120 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,2270.0000,"Asalus Corporation - YBURAN, GOL BAGUIO | 01/02/2026 |Asalus Corporation |Laboratory/Diagnostics |2270 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,2300.0000,"Asalus Corporation - PUJADAS, RONALD ROSAL | 01/06/2026 |Asalus Corporation |Laboratory/Diagnostics |2300 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,2320.0000,"Asalus Corporation - LINOGON, MARY ANN VENTIC | 01/06/2026 |Asalus Corporation |Laboratory/Diagnostics |2320 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,76,65,2026-01-08,0.0000,2400.0000,"Philhealthcare, Inc - SAGUN, OLMA LAURA NAVASQUEZ | 01/06/2026 |Philhealthcare, Inc |Laboratory/Diagnostics |2400 - — O3230",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,77,65,2026-01-08,0.0000,2650.0000,"Medicard Philippines Inc - GORNEZ, ANDREA NICOLE ITAO | 01/02/2026 |Medicard Philippines Inc |Laboratory/Diagnostics |2650 - — O3231",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,76,65,2026-01-08,0.0000,2730.0000,"Philhealthcare, Inc - NAVIDAD, RONNEL LARIOSA | 01/02/2026 |Philhealthcare, Inc |Laboratory/Diagnostics |2730 - — O3230",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,2900.0000,"Asalus Corporation - GUTUAL, GIRALYN SAYON | 01/03/2026 |Asalus Corporation |Laboratory/Diagnostics |2900 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,3000.0000,"Asalus Corporation - ALINSUG, CARMELITA BLANCO | 01/03/2026 |Asalus Corporation |Laboratory/Diagnostics |3000 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,77,65,2026-01-08,0.0000,3140.0000,"Medicard Philippines Inc - MELGAR, ROY SINOY | 01/06/2026 |Medicard Philippines Inc |Health Services |3140 - — O3231",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,3240.0000,"Asalus Corporation - PEGARIDO, RANDY MATTHEW ARENAS | 01/05/2026 |Asalus Corporation |Laboratory/Diagnostics |3240 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,76,65,2026-01-08,0.0000,3360.0000,"Philhealthcare, Inc - SHIH, RIZZEL MAE MAGALSO | 01/07/2026 |Philhealthcare, Inc |Laboratory/Diagnostics |3360 - — O3230",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,3370.0000,"Asalus Corporation - VELOSO, CLAIRE ANN MONDARES | 01/02/2026 |Asalus Corporation |Laboratory/Diagnostics |3370 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,3600.0000,"Asalus Corporation - VALLECERA, JOHNSON JAYOMA | 01/02/2026 |Asalus Corporation |Health Services |3600 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,3600.0000,"Asalus Corporation - VALLECERA, JOHNSON JAYOMA | 01/06/2026 |Asalus Corporation |Health Services |3600 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,4200.0000,"Asalus Corporation - PEGARIDO, RANDY MATTHEW ARENAS | 01/05/2026 |Asalus Corporation |Others |4200 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,4200.0000,"Asalus Corporation - FRANCIS, JULITO JUGARAP | 01/06/2026 |Asalus Corporation |Others |4200 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,4200.0000,"Asalus Corporation - FRANCIS, WINA WENCESLAO | 01/06/2026 |Asalus Corporation |Others |4200 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,76,65,2026-01-08,0.0000,4330.0000,"Philhealthcare, Inc - DOLOGUIN, MELANIE JOY QUIRANTE | 01/07/2026 |Philhealthcare, Inc |Laboratory/Diagnostics |4330 - — O3230",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,4700.0000,"Asalus Corporation - MERIN, SHERHAINA SAWADJAAN | 01/05/2026 |Asalus Corporation |Others |4700 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,5120.0000,"Asalus Corporation - MERIN, SHERHAINA SAWADJAAN | 01/05/2026 |Asalus Corporation |Laboratory/Diagnostics |5120 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,5300.0000,"Asalus Corporation - PUJADAS, CATHERINE DUNGOG | 01/06/2026 |Asalus Corporation |Laboratory/Diagnostics |5300 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,5720.0000,"Asalus Corporation - FRANCIS, JULITO JUGARAP | 01/06/2026 |Asalus Corporation |Laboratory/Diagnostics |5720 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,5720.0000,"Asalus Corporation - FRANCIS, WINA WENCESLAO | 01/06/2026 |Asalus Corporation |Laboratory/Diagnostics |5720 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,7490.0000,"Asalus Corporation - PUJADAS, RONALD ROSAL | 01/06/2026 |Asalus Corporation |Laboratory/Diagnostics |7490 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,76,65,2026-01-08,0.0000,10240.0000,"Philhealthcare, Inc - ABLAY, JOHN KENNETH PAGATPAT | 01/07/2026 |Philhealthcare, Inc |Health Services |10240 - — O3230",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,65,2026-01-08,0.0000,23285.0000,"Asalus Corporation - MACABEO, ERICKA LEDESMA | 01/05/2026 |Asalus Corporation |Others |23285 - — O3233",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,78,57,2026-01-08,125565.0000,0.0000,Asalus Corporation — O3233,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,77,57,2026-01-08,8950.0000,0.0000,Medicard Philippines Inc — O3231,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,76,57,2026-01-08,36330.0000,0.0000,"Philhealthcare, Inc — O3230",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,59,1,2026-01-08,161911.3900,0.0000,"To Record deposit sales Branches Unidentified January 08, 2026 - To Record deposit sales Branches Unidentified January 08, 2026 — #44027",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,60,1,2026-01-08,94048.0000,0.0000,"To Record Cash Sales Branches January 07, 2025 - To Record Cash Sales Branches January 07, 2025 — #44028",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,60,1,2026-01-08,36424.0000,0.0000,"To Record Cash Sales Branches January 07, 2025 - To Record Cash Sales Branches January 07, 2025 — #44028",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,60,1,2026-01-08,77079.0000,0.0000,"To Record Cash Sales Branches January 07, 2025 - To Record Cash Sales Branches January 07, 2025 — #44028",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,74,1,2026-01-08,0.0000,21090.5100,Payment: Joemar O. Echavez — 6000396868,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,63,41,2026-01-08,46406.8500,0.0000,"To Record Deposit Card Sales MBTC January 08, 2026 - To Record Deposit Card Sales MBTC January 08, 2026 — #44031",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,71,9,2026-01-08,0.0000,33192.9600,Payment: NEW KEEN'S TRADING — 420690,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,73,9,2026-01-08,0.0000,89196.4300,Payment: ASIA PACIFIC COMPUTERS OPC — 420696,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,72,9,2026-01-08,0.0000,91339.2900,Payment: ALEDAN MKTG CORP — 420694,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,61,5,2026-01-08,26758.5400,0.0000,"To record receipts of QR and Card sales GCASH for January 08, 2026 - To record receipts of QR and Card sales GCASH for January 08, 2026 — #44029",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,62,5,2026-01-08,1900.0000,0.0000,"To record receipts of QR and Card sales GCASH for January 08, 2026 - To record receipts of QR and Card sales GCASH for January 08, 2026 — #44030",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,67,269,2026-01-08,27000.0000,0.0000,HOME DEVELOPMENT MUTUAL FUND - Payment for HDMF mandatory contribution for the month of December 2025 (employee share) — RFP No.# 4666,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,67,869,2026-01-08,5200.0000,0.0000,HOME DEVELOPMENT MUTUAL FUND - Payment for HDMF mandatory contribution for the month of December 2025 (employer share) — RFP No.# 4666,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,66,257,2026-01-08,7765.2600,0.0000,HOME DEVELOPMENT MUTUAL FUND - Payment for HDMF loans for the month of December 2025 — RFP No.# 4665,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,65,265,2026-01-08,93252.5000,0.0000,PHILIPPINE HEALTH INSURANCE CORPORATION - Payment for PHIC Contribution for the month of December 2025 (Employee Share) — RFP No.# 4664,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,65,877,2026-01-08,21737.5000,0.0000,PHILIPPINE HEALTH INSURANCE CORPORATION - Payment for PHIC Contribution for the month of December 2025  (Employer Share) — RFP No.# 4664,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,60,1777,2026-01-08,207551.0000,0.0000,"To Record Cash Sales Branches January 07, 2025 - To Record Cash Sales Branches January 07, 2025 — #44028",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,64,1777,2026-01-08,999904.0000,0.0000,"Sales Branches January 08, 2026 - Laboratory/Diagnostics — #48417",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,60,1777,2026-01-08,0.0000,207551.0000,"To Record Cash Sales Branches January 07, 2025 - To Record Cash Sales Branches January 07, 2025 — #44028",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,64,1777,2026-01-08,0.0000,999904.0000,"Sales Branches January 08, 2026 - Cash Sales - January, 08 — #48417",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,89,581,2026-01-09,0.0000,1419.4900,Ma. Concepcion Y. Atilano - Payment for last and final pay for resigned employee (13th month) — RFP No.# 4647,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,117,217,2026-01-09,9626.8200,0.0000,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 4556,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,116,217,2026-01-09,25300.0000,0.0000,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 4555,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,112,217,2026-01-09,13280.8400,0.0000,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 2343,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,113,217,2026-01-09,792.0000,0.0000,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 2861,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,114,217,2026-01-09,13665.6400,0.0000,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 2899,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,115,217,2026-01-09,6886.3600,0.0000,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — RFP No.# 4554,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,92,217,2026-01-09,114867.5000,0.0000,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — 0126-000002,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,106,217,2026-01-09,12883.9300,0.0000,"Payment: BEROVAN MARKETING, INC. — 1225-000429",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,95,217,2026-01-09,43857.0000,0.0000,Payment: BIOLAB MEDICAL SUPPLIES — 0825-000145,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,94,217,2026-01-09,25767.8600,0.0000,Payment: ANDUILLER INT'L. SALES CORPORATION — 0825-000144,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,104,217,2026-01-09,5510.3600,0.0000,"Payment: BEROVAN MARKETING, INC. — 1125-000372",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,97,217,2026-01-09,16005.8100,0.0000,Payment: ANDUILLER INT'L. SALES CORPORATION — 0825-000176,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,99,217,2026-01-09,5156.0200,0.0000,Payment: NEW KEEN'S TRADING — 0825-000179,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,102,217,2026-01-09,32375.2800,0.0000,Payment: ENA COMMERCIAL AND PRINTING SERVICES — 1025-000338,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,93,217,2026-01-09,39204.0000,0.0000,Payment: BIOLAB MEDICAL SUPPLIES — 0825-000113,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,96,217,2026-01-09,34650.0000,0.0000,Payment: BIOLAB MEDICAL SUPPLIES — 0825-000147,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,101,217,2026-01-09,43111.6100,0.0000,Payment: DG'S INK TRADING — 1025-000336,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,103,217,2026-01-09,33614.0000,0.0000,Payment: ENA COMMERCIAL AND PRINTING SERVICES — 1125-000368,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,107,217,2026-01-09,10183.2600,0.0000,Payment: MLT MARKETING — 1225-000430,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,108,217,2026-01-09,35782.6300,0.0000,Payment: JAV MARKETING — 1225-000484,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,119,217,2026-01-09,2765.5800,0.0000,Payment: EASY SERVICES INC. — RFP No.# 4652,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,120,217,2026-01-09,4473.2100,0.0000,Payment: EUGENE TIO — RFP No.# 4653,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,98,217,2026-01-09,11892.8600,0.0000,Payment: ANDUILLER INT'L. SALES CORPORATION — 0825-000177,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,100,217,2026-01-09,22592.4600,0.0000,"Payment: BEROVAN MARKETING, INC. — 1025-000310",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,105,217,2026-01-09,30779.7100,0.0000,Payment: MLT MARKETING — 1125-000402,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,118,217,2026-01-09,17655.5500,0.0000,Payment: Ma. Concepcion Y. Atilano — RFP No.# 4647,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,121,217,2026-01-09,41627.3000,0.0000,Payment: Responsible Internet Sustainability Effort Inc. (RISE) — RFP No.# 4657,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,90,217,2026-01-09,0.0000,12867.9000,CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 4654,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,89,217,2026-01-09,0.0000,17655.5500,Ma. Concepcion Y. Atilano — RFP No.# 4647,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,91,217,2026-01-09,0.0000,41627.3000,Responsible Internet Sustainability Effort Inc. (RISE) — RFP No.# 4657,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,87,89,2026-01-09,25000.0000,0.0000,to record advances to smart payment — #46541,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,80,77,2026-01-09,0.0000,4160.0000,"To record receipts of QR and Card sales GCASH for January 09, 2026 - To record receipts of QR and Card sales GCASH for January 09, 2026 — #44075",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,85,61,2026-01-09,0.0000,450.8000,"To Record AR-Terms Insular life January 09, 2026 - To Record AR-Terms Insular life January 09, 2026 — #44125",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,81,61,2026-01-09,0.0000,56595.6600,"To record receipts of QR and Card sales GCASH for January 09, 2026 - To record receipts of QR and Card sales GCASH for January 09, 2026 — #44076",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,82,61,2026-01-09,0.0000,66024.3300,"To Record Deposit Card Sales MBTC January 09, 2026 - To Record Deposit Card Sales MBTC January 09, 2026 — #44078",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,79,61,2026-01-09,0.0000,310689.4000,"To Record AR-Terms Life & Health January 09, 2026 - To Record AR-Terms Life & Health January 09, 2026 — #44074",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,86,61,2026-01-09,0.0000,516526.6700,"To Record deposit sales Branches Unidentified January 09, 2026 - To Record deposit sales Branches Unidentified January 09, 2026 — #46126",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,100.0000,"Life & Health Hmp Inc - SOLON, ZOE ELLERY NIÑAL | 01/03/2026 |Life & Health Hmp Inc |Laboratory/Diagnostics |100 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,100.0000,"Life & Health Hmp Inc - COBARDE, MARICEL DELA PEÑA | 01/07/2026 |Life & Health Hmp Inc |Laboratory/Diagnostics |100 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,180.0000,"Life & Health Hmp Inc - YONTING, ELLAISA MAE DONDOYANO | 01/06/2026 |Life & Health Hmp Inc |Laboratory/Diagnostics |180 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,400.0000,"Life & Health Hmp Inc - BONSUKAN, RODEL GERAGA | 01/02/2026 |Life & Health Hmp Inc |Consultation |400 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,400.0000,"Life & Health Hmp Inc - NALANGAN, JENNY FATE TAGAILO | 01/02/2026 |Life & Health Hmp Inc |Consultation |400 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,400.0000,"Life & Health Hmp Inc - LABUS, RAYNEL DINAMPO | 01/03/2026 |Life & Health Hmp Inc |Consultation |400 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,400.0000,"Life & Health Hmp Inc - ABELLA, ADINA LEONOR UROT | 01/03/2026 |Life & Health Hmp Inc |Consultation |400 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,400.0000,"Life & Health Hmp Inc - SOLON, ZOE ELLERY NIÑAL | 01/03/2026 |Life & Health Hmp Inc |Consultation |400 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,400.0000,"Life & Health Hmp Inc - CEDEÑO, NIÑA JEAN GLINOGO | 01/03/2026 |Life & Health Hmp Inc |Consultation |400 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,400.0000,"Life & Health Hmp Inc - OLIVEROS, CAMILLE FERNANDEZ | 01/05/2026 |Life & Health Hmp Inc |Consultation |400 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,400.0000,"Life & Health Hmp Inc - CORTES, RIZALIE PEPITO | 01/05/2026 |Life & Health Hmp Inc |Consultation |400 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,400.0000,"Life & Health Hmp Inc - PARAN, MA. FARAH AMAYA | 01/05/2026 |Life & Health Hmp Inc |Consultation |400 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,400.0000,"Life & Health Hmp Inc - DAGANI, SURHADA PULALON | 01/05/2026 |Life & Health Hmp Inc |Consultation |400 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,400.0000,"Life & Health Hmp Inc - HORFILLA, BABIELYN VASQUEZ | 01/05/2026 |Life & Health Hmp Inc |Consultation |400 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,400.0000,"Life & Health Hmp Inc - ANGOT, JUVY VILLALON | 01/05/2026 |Life & Health Hmp Inc |Consultation |400 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,400.0000,"Life & Health Hmp Inc - BORGONIA, LEE ANNE RUIZ | 01/05/2026 |Life & Health Hmp Inc |Consultation |400 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,400.0000,"Life & Health Hmp Inc - CEDEÑO, NIÑA JEAN GLINOGO | 01/05/2026 |Life & Health Hmp Inc |Consultation |400 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,400.0000,"Life & Health Hmp Inc - OUANO, MARLOU ROSAL | 01/05/2026 |Life & Health Hmp Inc |Consultation |400 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,400.0000,"Life & Health Hmp Inc - HORFILLA, BABIELYN VASQUEZ | 01/05/2026 |Life & Health Hmp Inc |Consultation |400 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,400.0000,"Life & Health Hmp Inc - PABALAY, JOSEPHINE CAMPOSO | 01/06/2026 |Life & Health Hmp Inc |Consultation |400 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,400.0000,"Life & Health Hmp Inc - YONTING, ELLAISA MAE DONDOYANO | 01/06/2026 |Life & Health Hmp Inc |Consultation |400 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,400.0000,"Life & Health Hmp Inc - HALASAN, DAVEN CLYDE TAGUPA | 01/07/2026 |Life & Health Hmp Inc |Consultation |400 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,400.0000,"Life & Health Hmp Inc - CORTES, RIZALIE PEPITO | 01/07/2026 |Life & Health Hmp Inc |Consultation |400 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,400.0000,"Life & Health Hmp Inc - APOSTOL, CRIXZYL NAQUILA | 01/07/2026 |Life & Health Hmp Inc |Consultation |400 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,400.0000,"Life & Health Hmp Inc - COBARDE, MARICEL DELA PEÑA | 01/07/2026 |Life & Health Hmp Inc |Consultation |400 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,400.0000,"Life & Health Hmp Inc - CABREROS, LEXINE LUCENIO | 01/07/2026 |Life & Health Hmp Inc |Consultation |400 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,400.0000,"Life & Health Hmp Inc - GUALIN, WENCY MARIE S | 01/07/2026 |Life & Health Hmp Inc |Consultation |400 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,400.0000,"Life & Health Hmp Inc - BORGONIA, LEE ANNE RUIZ | 01/07/2026 |Life & Health Hmp Inc |Consultation |400 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,400.0000,"Life & Health Hmp Inc - CAPANGPANGAN, TANYA GERNY ARCAYA | 01/07/2026 |Life & Health Hmp Inc |Consultation |400 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,450.0000,"Life & Health Hmp Inc - OLIVEROS, CAMILLE FERNANDEZ | 01/05/2026 |Life & Health Hmp Inc |Laboratory/Diagnostics |450 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,450.0000,"Life & Health Hmp Inc - HORFILLA, BABIELYN VASQUEZ | 01/05/2026 |Life & Health Hmp Inc |Laboratory/Diagnostics |450 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,450.0000,"Life & Health Hmp Inc - HALASAN, DAVEN CLYDE TAGUPA | 01/07/2026 |Life & Health Hmp Inc |Laboratory/Diagnostics |450 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,470.0000,"Life & Health Hmp Inc - BARREDO, REMY BALLESTEROS | 01/03/2026 |Life & Health Hmp Inc |Laboratory/Diagnostics |470 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,750.0000,"Life & Health Hmp Inc - LABUS, RAYNEL DINAMPO | 01/03/2026 |Life & Health Hmp Inc |Laboratory/Diagnostics |750 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,1450.0000,"Life & Health Hmp Inc - SANDOVAL, JAHZEEL GRACE JANDAYAN | 01/03/2026 |Life & Health Hmp Inc |Laboratory/Diagnostics |1450 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,2970.0000,"Life & Health Hmp Inc - ENGGO, ISIDRA TUBIO | 01/06/2026 |Life & Health Hmp Inc |Laboratory/Diagnostics |2970 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,3330.0000,"Life & Health Hmp Inc - OUANO, PHOEBE GAYLE ABELLA | 01/05/2026 |Life & Health Hmp Inc |Laboratory/Diagnostics |3330 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,3730.0000,"Life & Health Hmp Inc - CORTES, RIZALIE PEPITO | 01/05/2026 |Life & Health Hmp Inc |Laboratory/Diagnostics |3730 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,65,2026-01-09,0.0000,5200.0000,"Life & Health Hmp Inc - DAGANI, SURHADA PULALON | 01/05/2026 |Life & Health Hmp Inc |Laboratory/Diagnostics |5200 - — O3237-1",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,122,65,2026-01-09,0.0000,9750.0000,JIPROP DEVELOMENT CORP - APE | Basic 5 | 15PAX | 650 — O3235,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,122,57,2026-01-09,9750.0000,0.0000,JIPROP DEVELOMENT CORP — O3235,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,123,57,2026-01-09,30030.0000,0.0000,Life & Health Hmp Inc — O3237-1,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,109,45,2026-01-09,0.0000,792.0000,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — 1245513,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,109,45,2026-01-09,0.0000,6886.3600,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — 1245513,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,109,45,2026-01-09,0.0000,9626.8200,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — 1245513,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,109,45,2026-01-09,0.0000,13280.8400,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — 1245513,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,109,45,2026-01-09,0.0000,13665.6400,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — 1245513,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,109,45,2026-01-09,0.0000,25300.0000,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — 1245513,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,109,45,2026-01-09,0.0000,114867.5000,Payment: OAKRIDGE REALTY DEVELOPMENT CORPORATION — 1245513,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,84,45,2026-01-09,0.0000,1600000.0000,FT fund transfer from BDO-OpEx to SBC-CapEx - FT fund transfer from BDO-OpEx to SBC-CapEx — #44124,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,79,1,2026-01-09,310689.4000,0.0000,"To Record AR-Terms Life & Health January 09, 2026 - To Record AR-Terms Life & Health January 09, 2026 — #44074",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,83,1,2026-01-09,68794.0000,0.0000,"To Record Cash Sales Branches January 09, 2025 - To Record Cash Sales Branches January 09, 2025 — #44123",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,83,1,2026-01-09,28331.0000,0.0000,"To Record Cash Sales Branches January 09, 2025 - To Record Cash Sales Branches January 09, 2025 — #44123",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,83,1,2026-01-09,56758.0000,0.0000,"To Record Cash Sales Branches January 09, 2025 - To Record Cash Sales Branches January 09, 2025 — #44123",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,85,1,2026-01-09,450.8000,0.0000,"To Record AR-Terms Insular life January 09, 2026 - To Record AR-Terms Insular life January 09, 2026 — #44125",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,86,1,2026-01-09,516526.6700,0.0000,"To Record deposit sales Branches Unidentified January 09, 2026 - To Record deposit sales Branches Unidentified January 09, 2026 — #46126",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,111,1,2026-01-09,0.0000,2765.5800,Payment: EASY SERVICES INC. — Online-010926,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,111,1,2026-01-09,0.0000,5156.0200,Payment: NEW KEEN'S TRADING — Online-010926,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,111,1,2026-01-09,0.0000,5510.3600,"Payment: BEROVAN MARKETING, INC. — Online-010926",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,111,1,2026-01-09,0.0000,10183.2600,Payment: MLT MARKETING — Online-010926,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,111,1,2026-01-09,0.0000,11892.8600,Payment: ANDUILLER INT'L. SALES CORPORATION — Online-010926,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,111,1,2026-01-09,0.0000,12883.9300,"Payment: BEROVAN MARKETING, INC. — Online-010926",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,111,1,2026-01-09,0.0000,16005.8100,Payment: ANDUILLER INT'L. SALES CORPORATION — Online-010926,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,110,1,2026-01-09,0.0000,17655.5500,Payment: Ma. Concepcion Y. Atilano — 6000396869,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,111,1,2026-01-09,0.0000,22592.4600,"Payment: BEROVAN MARKETING, INC. — Online-010926",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,87,1,2026-01-09,0.0000,25000.0000,to record advances to smart payment — #46541,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,111,1,2026-01-09,0.0000,25767.8600,Payment: ANDUILLER INT'L. SALES CORPORATION — Online-010926,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,111,1,2026-01-09,0.0000,30779.7100,Payment: MLT MARKETING — Online-010926,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,111,1,2026-01-09,0.0000,32375.2800,Payment: ENA COMMERCIAL AND PRINTING SERVICES — Online-010926,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,111,1,2026-01-09,0.0000,33614.0000,Payment: ENA COMMERCIAL AND PRINTING SERVICES — Online-010926,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,111,1,2026-01-09,0.0000,34650.0000,Payment: BIOLAB MEDICAL SUPPLIES — Online-010926,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,111,1,2026-01-09,0.0000,35782.6300,Payment: JAV MARKETING — Online-010926,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,111,1,2026-01-09,0.0000,39204.0000,Payment: BIOLAB MEDICAL SUPPLIES — Online-010926,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,111,1,2026-01-09,0.0000,41627.3000,Payment: Responsible Internet Sustainability Effort Inc. (RISE) — Online-010926,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,111,1,2026-01-09,0.0000,43111.6100,Payment: DG'S INK TRADING — Online-010926,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,111,1,2026-01-09,0.0000,43857.0000,Payment: BIOLAB MEDICAL SUPPLIES — Online-010926,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,82,41,2026-01-09,66024.3300,0.0000,"To Record Deposit Card Sales MBTC January 09, 2026 - To Record Deposit Card Sales MBTC January 09, 2026 — #44078",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,84,9,2026-01-09,1600000.0000,0.0000,FT fund transfer from BDO-OpEx to SBC-CapEx - FT fund transfer from BDO-OpEx to SBC-CapEx — #44124,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,80,5,2026-01-09,4160.0000,0.0000,"To record receipts of QR and Card sales GCASH for January 09, 2026 - To record receipts of QR and Card sales GCASH for January 09, 2026 — #44075",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,81,5,2026-01-09,56595.6600,0.0000,"To record receipts of QR and Card sales GCASH for January 09, 2026 - To record receipts of QR and Card sales GCASH for January 09, 2026 — #44076",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,89,249,2026-01-09,692.1900,0.0000,Ma. Concepcion Y. Atilano - Payment for last and final pay for resigned employee (Withholding tax) — RFP No.# 4647,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,91,613,2026-01-09,37843.0000,0.0000,"Responsible Internet Sustainability Effort Inc. (RISE) - Vatable: Payment for Internet Gold in Shared Office ftp November 15- December 14, 2025 — RFP No.# 4657",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,89,665,2026-01-09,10416.6700,0.0000,Ma. Concepcion Y. Atilano - Payment for last and final pay for resigned employee (Other benefits) — RFP No.# 4647,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,90,245,2026-01-09,0.0000,233.9600,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - 2% EWT on Payment for janitorial services (Glen Pamisa) ftp October 16-30, 2025 SI no. 2236 — RFP No.# 4654",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,91,245,2026-01-09,0.0000,756.8600,"Responsible Internet Sustainability Effort Inc. (RISE) - 2% EWT on Payment for Internet Gold in Shared Office ftp November 15- December 14, 2025 — RFP No.# 4657",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,91,709,2026-01-09,4541.1600,0.0000,"Responsible Internet Sustainability Effort Inc. (RISE) - Vat: Payment for Internet Gold in Shared Office ftp November 15- December 14, 2025 — RFP No.# 4657",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,90,725,2026-01-09,1403.7700,0.0000,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - Vat:Payment for janitorial services (Glen Pamisa) ftp October 16-30, 2025 SI no. 2236 — RFP No.# 4654",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,90,813,2026-01-09,11698.0900,0.0000,"CEBU SPIC & SPAN JANITORIAL SERVICES INC. - Vatable: Payment for janitorial services (Glen Pamisa) ftp October 16-30, 2025 SI no. 2236 — RFP No.# 4654",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,89,921,2026-01-09,7966.1800,0.0000,Ma. Concepcion Y. Atilano - Payment for last and final pay for resigned employee — RFP No.# 4647,1,0,2026-01-31 23:59:59,0
+\N,journal_entry,83,1777,2026-01-09,153883.0000,0.0000,"To Record Cash Sales Branches January 09, 2025 - To Record Cash Sales Branches January 09, 2025 — #44123",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,88,1777,2026-01-09,855444.0000,0.0000,"Sales Branches January 09, 2026 - Laboratory/Diagnostics — #48419",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,83,1777,2026-01-09,0.0000,153883.0000,"To Record Cash Sales Branches January 09, 2025 - To Record Cash Sales Branches January 09, 2025 — #44123",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,88,1777,2026-01-09,0.0000,855444.0000,"Sales Branches January 09, 2026 - Cash Sales - January, 09 — #48419",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,124,1777,2026-01-10,929530.0000,0.0000,"Sales Branches January 10, 2026 - Laboratory/Diagnostics — #48421",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,124,1777,2026-01-10,0.0000,929530.0000,"Sales Branches January 10, 2026 - Cash Sales - January, 10 — #48421",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,135,237,2026-01-12,478356.1600,0.0000,"to record reversal of accrued interest expense and cash payment BDO MTL Loan January 12, 2026 - to record reversal of accrued interest expense and cash payment BDO MTL Loan January 12, 2026 — #46221",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,125,237,2026-01-12,0.0000,263095.8900,"to record interest expense BDO MTL Loan January 1-12, 2026 - to record interest expense BDO MTL Loan January 1-12, 2026 — #44141",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,131,77,2026-01-12,0.0000,11555.0000,"To record receipts of QR and Card sales GCASH for January 12, 2026 - To record receipts of QR and Card sales GCASH for January 12, 2026 — #44188",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,128,61,2026-01-12,0.0000,16464.0000,"To Record deposit sales Branches AR-Terms - Aboitiz January 12, 2026 - To Record deposit sales Branches  AR-Terms - Aboitiz January 12, 2026 — #44180",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,132,61,2026-01-12,0.0000,33525.9200,"To record receipts of QR and Card sales GCASH for January 12, 2026 - To record receipts of QR and Card sales GCASH for January 12, 2026 — #44189",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,134,61,2026-01-12,0.0000,72273.6700,"To Record Deposit Card Sales MBTC January 12, 2026 - To Record Deposit Card Sales MBTC January 12, 2026 — #44191",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,126,61,2026-01-12,0.0000,137495.8200,"To Record deposit sales Branches Unidentified January 12, 2026 - To Record deposit sales Branches Unidentified January 12, 2026 — #44176",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,127,61,2026-01-12,0.0000,470506.0000,"To Record deposit sales Branches AR Terms Unidentified January 12, 2026 - To Record deposit sales Branches AR Terms Unidentified January 12, 2026 — #44179",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,144,65,2026-01-12,0.0000,90.0000,"Pages Holdings Inc., - PAGES, MADDISSON SAMANTHA MANUEL | 01/06/2026 |Pages Holdings Inc.,  |Laboratory/Diagnostics |90 - — O3242",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,150,65,2026-01-12,0.0000,100.0000,"Value Care Health Systems, Inc. - CORTES, MERICAR ABELLA | 01/05/2026 |Value Care Health Systems, Inc. |Laboratory/Diagnostics |100 - — O3249",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,149,65,2026-01-12,0.0000,250.0000,"Avega Managed Care, Inc - MALAYO, RACQUEL GALLO | 01/06/2026 |Avega Managed Care, Inc |Laboratory/Diagnostics |250 - — O3248",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,149,65,2026-01-12,0.0000,270.0000,"Avega Managed Care, Inc - BALSE, MILDRED BALASABAS | 01/02/2026 |Avega Managed Care, Inc |Laboratory/Diagnostics |270 - — O3248",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,149,65,2026-01-12,0.0000,270.0000,"Avega Managed Care, Inc - VILLEGAS, MARCELINO TERO | 01/05/2026 |Avega Managed Care, Inc |Laboratory/Diagnostics |270 - — O3248",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,270.0000,"Insular Healthcare Inc - DELA TORRE, STEVEN MIKING | 01/06/2026 |Insular Healthcare Inc |Laboratory/Diagnostics |270 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,146,65,2026-01-12,0.0000,270.0000,"Cooperative Health Management Federation - BARREDO, ODEZA VILANDO | 01/03/2026 |Cooperative Health Management Federation |Laboratory/Diagnostics |270 - — O3244",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,138,65,2026-01-12,0.0000,290.0000,"Maxicare Healthcare Corporation - AMPO, EMILIE LOZANO | 01/03/2026 |MAXICARE HEALTHCARE CORPORATION |Laboratory/Diagnostics |290 - — O3232",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,146,65,2026-01-12,0.0000,300.0000,"Cooperative Health Management Federation - MANALO, JASMINE GEZELLE S | 01/05/2026 |Cooperative Health Management Federation |Consultation |300 - — O3244",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,146,65,2026-01-12,0.0000,300.0000,"Cooperative Health Management Federation - BANDALAN, GODOFREDO LARIOSA | 01/07/2026 |Cooperative Health Management Federation |Consultation |300 - — O3244",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,150,65,2026-01-12,0.0000,300.0000,"Value Care Health Systems, Inc. - MALATE, JULIA MARIE BEDUYA | 01/03/2026 |Value Care Health Systems, Inc. |Consultation |300 - — O3249",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,150,65,2026-01-12,0.0000,300.0000,"Value Care Health Systems, Inc. - CORTES, MERICAR ABELLA | 01/05/2026 |Value Care Health Systems, Inc. |Consultation |300 - — O3249",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,370.0000,"Insular Healthcare Inc - JOSOL, JAZAEL PORO | 01/07/2026 |Insular Healthcare Inc |Laboratory/Diagnostics |370 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,149,65,2026-01-12,0.0000,390.0000,"Avega Managed Care, Inc - DACER, GEORGETTE SOL SABA | 01/05/2026 |Avega Managed Care, Inc |Laboratory/Diagnostics |390 - — O3248",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,149,65,2026-01-12,0.0000,390.0000,"Avega Managed Care, Inc - SILLO, MARNIE OLITA | 01/07/2026 |Avega Managed Care, Inc |Laboratory/Diagnostics |390 - — O3248",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,390.0000,"Insular Healthcare Inc - MARAÑON, CHRISJUNE LHOWEN OCAÑA | 01/06/2026 |Insular Healthcare Inc |Laboratory/Diagnostics |390 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,390.0000,"Insular Healthcare Inc - JUGALBUT, HEAVEN LEE JONES PILAPIL | 01/07/2026 |Insular Healthcare Inc |Laboratory/Diagnostics |390 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,140,65,2026-01-12,0.0000,400.0000,"United Coconut Planters Life Assurance Corporation - DIAZ, ROWENA G. | 01/08/2026 |United Coconut Planters Life Assurance Corporation| 400- — O3238",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,138,65,2026-01-12,0.0000,400.0000,"Maxicare Healthcare Corporation - ALBURO, LYNDON DAIGDIGAN | 01/07/2026 |MAXICARE HEALTHCARE CORPORATION |Laboratory/Diagnostics |400 - — O3232",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,430.0000,"Insular Healthcare Inc - DELA TORRE, STEVEN MIKING | 01/06/2026 |Insular Healthcare Inc |Laboratory/Diagnostics |430 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,144,65,2026-01-12,0.0000,495.0000,"Pages Holdings Inc., - CAÑETE, IMELDA CAMINADE | 01/07/2026 |Pages Holdings Inc.,  |Laboratory/Diagnostics |495 - — O3242",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,149,65,2026-01-12,0.0000,500.0000,"Avega Managed Care, Inc - BALSE, MILDRED BALASABAS | 01/02/2026 |Avega Managed Care, Inc |Consultation |500 - — O3248",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,149,65,2026-01-12,0.0000,500.0000,"Avega Managed Care, Inc - DEBUAYAN, MIRIAM JIMENEZ | 01/03/2026 |Avega Managed Care, Inc |Consultation |500 - — O3248",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,149,65,2026-01-12,0.0000,500.0000,"Avega Managed Care, Inc - FRASCO, MICHAEL DANDIE TUDTUD | 01/05/2026 |Avega Managed Care, Inc |Consultation |500 - — O3248",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,149,65,2026-01-12,0.0000,500.0000,"Avega Managed Care, Inc - DACER, GEORGETTE SOL SABA | 01/05/2026 |Avega Managed Care, Inc |Consultation |500 - — O3248",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,149,65,2026-01-12,0.0000,500.0000,"Avega Managed Care, Inc - GACRAMA, PRINCE ROBERT N/A | 01/05/2026 |Avega Managed Care, Inc |Consultation |500 - — O3248",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,149,65,2026-01-12,0.0000,500.0000,"Avega Managed Care, Inc - JUMAWAN, ANNABEL DELMO | 01/06/2026 |Avega Managed Care, Inc |Consultation |500 - — O3248",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,149,65,2026-01-12,0.0000,500.0000,"Avega Managed Care, Inc - MATULAC, MARITTES . | 01/06/2026 |Avega Managed Care, Inc |Consultation |500 - — O3248",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,149,65,2026-01-12,0.0000,500.0000,"Avega Managed Care, Inc - VILLEGAS, MARCELINO TERO | 01/06/2026 |Avega Managed Care, Inc |Consultation |500 - — O3248",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,149,65,2026-01-12,0.0000,500.0000,"Avega Managed Care, Inc - ESTEBAN, TRICIA NICOLE FLAUTA | 01/07/2026 |Avega Managed Care, Inc |Consultation |500 - — O3248",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,149,65,2026-01-12,0.0000,500.0000,"Avega Managed Care, Inc - ESTEBAN, TRICIA NICOLE FLAUTA | 01/07/2026 |Avega Managed Care, Inc |Consultation |500 - — O3248",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,149,65,2026-01-12,0.0000,500.0000,"Avega Managed Care, Inc - SILLO, MARNIE OLITA | 01/07/2026 |Avega Managed Care, Inc |Consultation |500 - — O3248",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,149,65,2026-01-12,0.0000,500.0000,"Avega Managed Care, Inc - TORREDES, JANSSEN BOYD UY | 01/07/2026 |Avega Managed Care, Inc |Consultation |500 - — O3248",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - NEIS, KEVIN ACE ABAD | 01/02/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - FABRIGAR, LIEZEL ANN LUMICTIN | 01/02/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - JAGDON, ALODIAH IVY PACILAN | 01/02/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - CABASAN, CHRIS OMPAD | 01/02/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - TIBAY, STELLA REBECCA BARBAC | 01/02/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - MONDOÑEDO, HANNAH ROPAU KADOSH MAGTAAS | 01/02/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - LIM, CLAIRE JANELLE FRANCIS | 01/02/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - LIM, CARA JOLIE FRANCIS | 01/02/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - CABALLES, MICHELLE BACALSO | 01/02/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - PURCA, EFRAIM DUARTE | 01/02/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - DAGONDON, FRANK GARONG | 01/02/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - CATACUTAN, WINSTON KEVIN PANGAN | 01/03/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - DALAGUIT, CRISTEL ARAT | 01/03/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - CATUBIG, ANGELO JOSEPH GELLEGAN | 01/03/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - MONSANTO, JAMES RYAN LUMBAB | 01/03/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - HOYBIA, HALIZA JOY CONDE | 01/03/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - RANIDO, CHRISTINE ANN DINGCONG | 01/03/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - MENANCILLO, JAMES IVAN DURANGO | 01/03/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - BECAMON, LYRA GASID | 01/05/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - PALAS, AIREEN LINGO | 01/05/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - DESCARTIN, DENNIS BANTILAN | 01/05/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - LIM, CHAT FRANCIS | 01/05/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - MIÑOZA, MARIA EDINA ALISER | 01/05/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - TUNDAG, ELLEN ROSE AMIHOY | 01/05/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - MARAÑON, CHRISJUNE LHOWEN OCAÑA | 01/05/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - LANUZA, MA. JANISA MONTIAGODO | 01/05/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - ZAULDA, MA. ETHYL MATUS | 01/05/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - MATUGAS, JAQUELINE LAWAS | 01/05/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - TUALLA, CARL JUNMIEL CAIRO | 01/05/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - REYES, LOURDES RENALY GILA | 01/05/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - SALES, ALYSSA JANE ROSE PANERIO | 01/06/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - LAUDE, KIRBYKHAIL PAHUGOT | 01/06/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - DALAGUIT, CRISTEL ARAT | 01/06/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - MAHINAY, JEREMY BALAT | 01/06/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - FLORES, TRISTINE CASIDSID | 01/06/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - REYES, LOURDES RENALY GILA | 01/06/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - ALBANO, HARON COSARES | 01/06/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - MENDAROS, JOAHNA MAE SUERTO | 01/06/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - ESTRERA, KEISHA MAY TAPALES | 01/06/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - ZANORIA, CARMELLE RETUERTO | 01/06/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - GARQUE, CRYSTAL OLIVAR | 01/07/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - VELEZ, MARIFEL BULIGAN | 01/07/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - BALIDA, MARK ANTHONY N/A | 01/07/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - COMPLETO, ANA MARIE MIRAFLOR | 01/07/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - MARAÑON, CHRISJUNE LHOWEN OCAÑA | 01/07/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - ALLANIC, BEA MARIE TAPALES | 01/07/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - JUGALBUT, HEAVEN LEE JONES PILAPIL | 01/07/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - JOSOL, JAZAEL PORO | 01/07/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,139,65,2026-01-12,0.0000,500.0000,"Insular Healthcare Inc - JUMAG, STEVE BALTEY LLENES | 01/07/2026 |Insular Healthcare Inc |Consultation |500 - — O3234",1,0,2026-01-31 23:59:59,0
+\N,journal_entry,138,65,2026-01-12,0.0000,500.0000,"Maxicare Healthcare Corporation - ESCANER, PERSUS GARCIA | 01/05/2026 |MAXICARE HEALTHCARE CORPORATION |Consultation |500 - — O3232",1,0,2026-01-31 23:59:59,0

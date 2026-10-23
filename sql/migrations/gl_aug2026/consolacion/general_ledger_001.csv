@@ -1,0 +1,501 @@
+branch_id,source,source_id,account_type_id,date,debit,credit,remark,is_migrated,added_by,added_on,is_deleted
+4,journal_entry,144251,217,2026-08-01,0.0000,308707.8400,EUGENE TIO — 0826-000107,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144253,217,2026-08-01,308707.8400,0.0000,Payment: EUGENE TIO — 0826-000107,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144250,77,2026-08-01,3250.0000,0.0000,"Sales Branches August 1, 2026 - Gcash Sales - August, 01 — #72905",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144250,61,2026-08-01,2290.0000,0.0000,"Sales Branches August 1, 2026 - Credit Card Sales - August, 01 — #72905",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144250,65,2026-08-01,101071.0000,0.0000,"Sales Branches August 1, 2026 - Term Sales - August, 01 — #72905",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144255,65,2026-08-01,0.0000,190400.0000,PHILHEALTH - KONSULTA - FPE YAKAP JUNE 2026 CONSOLACION 280 PAX — C-PK0012,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144256,65,2026-08-01,0.0000,224400.0000,PHILHEALTH - KONSULTA - FPE YAKAP JULY 2026 CONSOLACION 330 PAX — C-PK0013,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144255,57,2026-08-01,190400.0000,0.0000,PHILHEALTH - KONSULTA — C-PK0012,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144256,57,2026-08-01,224400.0000,0.0000,PHILHEALTH - KONSULTA — C-PK0013,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144254,1,2026-08-01,0.0000,308707.8400,Payment: EUGENE TIO — 6000396796,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144250,13,2026-08-01,51681.0000,0.0000,"Sales Branches August 1, 2026 - Cash Sales - August, 01 — #72905",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144250,1613,2026-08-01,0.0000,47210.0000,"Sales Branches August 1, 2026 - Consultations — #72905",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144250,1625,2026-08-01,2399.0000,0.0000,"Sales Branches August 1, 2026 - Sales Discounts - August, 01 — #72905",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144251,245,2026-08-01,0.0000,14425.6000,EUGENE TIO - 5% EWT on Payment for building rental for the month of August 2026 — 0826-000107,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144250,1633,2026-08-01,0.0000,1800.0000,"Sales Branches August 1, 2026 - Health services — #72905",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144252,737,2026-08-01,32.1400,0.0000,"SMART COMMUNICATIONS, INC. - VAT: Smart Communications Inc. FTP 06/01-06/30/2026; Consolacion — RFP No.# 6631",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144251,793,2026-08-01,34621.4400,0.0000,EUGENE TIO - Vat: Payment for building rental for the month of August 2026 — 0826-000107,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144250,1645,2026-08-01,0.0000,27320.0000,"Sales Branches August 1, 2026 - Laboratory/Diagnostics — #72905",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144250,1645,2026-08-01,0.0000,40540.0000,"Sales Branches August 1, 2026 - Laboratory/Diagnostics — #72905",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144250,1645,2026-08-01,0.0000,35636.0000,"Sales Branches August 1, 2026 - Laboratory/Diagnostics — #72905",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144250,1657,2026-08-01,0.0000,8185.0000,"Sales Branches August 1, 2026 - Laboratory/Diagnostics - Send Outs — #72905",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144252,841,2026-08-01,267.8600,0.0000,"SMART COMMUNICATIONS, INC. - VATABLE: Smart Communications Inc. FTP 06/01-06/30/2026; Consolacion — RFP No.# 6631",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144251,889,2026-08-01,288512.0000,0.0000,EUGENE TIO - Vatable: Payment for building rental for the month of August 2026 — 0826-000107,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144259,217,2026-08-03,0.0000,2768750.0000,"BIOSYN HEALTHCARE SYSTEMS, INC. — 0826-000842",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144259,213,2026-08-03,2800000.0000,0.0000,"BIOSYN HEALTHCARE SYSTEMS, INC. - Vat: 80% Fullpayment for Versana Balance R2 (cardiac neonate configuration) utz machines | CAPEX 26-0110 SI no.6090 — 0826-000842",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144258,77,2026-08-03,4810.0000,0.0000,"Sales Branches August 3, 2026 - Gcash Sales - August, 03 — #77845",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144326,61,2026-08-03,1000.0000,0.0000,Payment: Lacson & Lacson Insurance Brokers Inc — C2911,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144327,61,2026-08-03,500.0000,0.0000,Payment: Lacson & Lacson Insurance Brokers Inc — C3074,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144258,61,2026-08-03,3612.0000,0.0000,"Sales Branches August 3, 2026 - Credit Card Sales - August, 03 — #77845",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144258,61,2026-08-03,2550.0000,0.0000,"Sales Branches August 3, 2026 - Debit Card Sales - August, 03 — #77845",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144258,65,2026-08-03,95620.0000,0.0000,"Sales Branches August 3, 2026 - Term Sales - August, 03 — #77845",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144260,57,2026-08-03,0.0000,547.9000,Asalus Corporation — CN-6376,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144302,57,2026-08-03,0.0000,547.9000,Asalus Corporation — C3006,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144304,57,2026-08-03,547.9000,0.0000,Asalus Corporation — CN-6376,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144261,57,2026-08-03,0.0000,149.0000,Asalus Corporation — CN-6378,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144303,57,2026-08-03,0.0000,149.0000,Asalus Corporation — C3020,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144305,57,2026-08-03,149.0000,0.0000,Asalus Corporation — CN-6378,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144262,57,2026-08-03,0.0000,615.7000,Asalus Corporation — CN-6382,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144297,57,2026-08-03,0.0000,615.7000,Asalus Corporation — C2942,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144306,57,2026-08-03,615.7000,0.0000,Asalus Corporation — CN-6382,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144263,57,2026-08-03,0.0000,184.9000,Asalus Corporation — CN-6383,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144296,57,2026-08-03,0.0000,184.9000,Asalus Corporation — C2928,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144307,57,2026-08-03,184.9000,0.0000,Asalus Corporation — CN-6383,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144264,57,2026-08-03,0.0000,344.4000,Asalus Corporation — CN-6384,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144300,57,2026-08-03,0.0000,344.4000,Asalus Corporation — C2979,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144308,57,2026-08-03,344.4000,0.0000,Asalus Corporation — CN-6384,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144265,57,2026-08-03,0.0000,104.2000,Asalus Corporation — CN-6387,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144301,57,2026-08-03,0.0000,104.2000,Asalus Corporation — C2993,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144309,57,2026-08-03,104.2000,0.0000,Asalus Corporation — CN-6387,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144266,57,2026-08-03,0.0000,558.9000,Asalus Corporation — CN-6392,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144298,57,2026-08-03,0.0000,558.9000,Asalus Corporation — C2959,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144310,57,2026-08-03,558.9000,0.0000,Asalus Corporation — CN-6392,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144267,57,2026-08-03,0.0000,269.6000,Asalus Corporation — CN-6398,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144299,57,2026-08-03,0.0000,269.6000,Asalus Corporation — C2969,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144311,57,2026-08-03,269.6000,0.0000,Asalus Corporation — CN-6398,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144268,57,2026-08-03,0.0000,206.0000,Asalus Corporation — CN-6399,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144283,57,2026-08-03,0.0000,206.0000,Asalus Corporation — C2748,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144312,57,2026-08-03,206.0000,0.0000,Asalus Corporation — CN-6399,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144269,57,2026-08-03,0.0000,299.3000,Asalus Corporation — CN-6400,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144290,57,2026-08-03,0.0000,299.3000,Asalus Corporation — C2838,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144313,57,2026-08-03,299.3000,0.0000,Asalus Corporation — CN-6400,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144270,57,2026-08-03,0.0000,441.9000,Asalus Corporation — CN-6402,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144295,57,2026-08-03,0.0000,441.9000,Asalus Corporation — C2910,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144314,57,2026-08-03,441.9000,0.0000,Asalus Corporation — CN-6402,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144271,57,2026-08-03,0.0000,193.0000,Asalus Corporation — CN-6404,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144291,57,2026-08-03,0.0000,193.0000,Asalus Corporation — C2853,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144315,57,2026-08-03,193.0000,0.0000,Asalus Corporation — CN-6404,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144272,57,2026-08-03,0.0000,297.4000,Asalus Corporation — CN-6408,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144292,57,2026-08-03,0.0000,297.4000,Asalus Corporation — C2868,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144316,57,2026-08-03,297.4000,0.0000,Asalus Corporation — CN-6408,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144273,57,2026-08-03,0.0000,1091.2000,Asalus Corporation — CN-6409,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144293,57,2026-08-03,0.0000,1091.2000,Asalus Corporation — C2881,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144317,57,2026-08-03,1091.2000,0.0000,Asalus Corporation — CN-6409,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144274,57,2026-08-03,0.0000,231.2000,Asalus Corporation — CN-6422,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144294,57,2026-08-03,0.0000,231.2000,Asalus Corporation — C2898,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144318,57,2026-08-03,231.2000,0.0000,Asalus Corporation — CN-6422,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144275,57,2026-08-03,0.0000,200.8000,Asalus Corporation — CN-6424,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144289,57,2026-08-03,0.0000,200.8000,Asalus Corporation — C2827,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144319,57,2026-08-03,200.8000,0.0000,Asalus Corporation — CN-6424,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144276,57,2026-08-03,0.0000,133.0000,Asalus Corporation — CN-6425,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144287,57,2026-08-03,0.0000,133.0000,Asalus Corporation — C2804,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144320,57,2026-08-03,133.0000,0.0000,Asalus Corporation — CN-6425,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144277,57,2026-08-03,0.0000,184.2000,Asalus Corporation — CN-6426,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144286,57,2026-08-03,0.0000,184.2000,Asalus Corporation — C2791,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144321,57,2026-08-03,184.2000,0.0000,Asalus Corporation — CN-6426,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144278,57,2026-08-03,0.0000,174.2000,Asalus Corporation — CN-6427,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144288,57,2026-08-03,0.0000,174.2000,Asalus Corporation — C2814,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144322,57,2026-08-03,174.2000,0.0000,Asalus Corporation — CN-6427,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144279,57,2026-08-03,0.0000,310.4000,Asalus Corporation — CN-6430,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144284,57,2026-08-03,0.0000,310.4000,Asalus Corporation — C2763,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144323,57,2026-08-03,310.4000,0.0000,Asalus Corporation — CN-6430,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144280,57,2026-08-03,0.0000,140.0000,Asalus Corporation — CN-6438,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144285,57,2026-08-03,0.0000,140.0000,Asalus Corporation — C2779,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144324,57,2026-08-03,140.0000,0.0000,Asalus Corporation — CN-6438,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144281,57,2026-08-03,0.0000,339.7000,Asalus Corporation — CN-6442,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144282,57,2026-08-03,0.0000,339.7000,Asalus Corporation — C2734,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144325,57,2026-08-03,339.7000,0.0000,Asalus Corporation — CN-6442,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144326,57,2026-08-03,0.0000,1000.0000,Payment: Lacson & Lacson Insurance Brokers Inc — C2911,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144327,57,2026-08-03,0.0000,500.0000,Payment: Lacson & Lacson Insurance Brokers Inc — C3074,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144257,1,2026-08-03,65387.0000,0.0000,"to record cash sales July 31, august 1 - 31 — #71961",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144257,1,2026-08-03,51681.0000,0.0000,"to record cash sales July 31, august 1 - 1 — #71961",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144257,13,2026-08-03,0.0000,65387.0000,"to record cash sales July 31, august 1 - 31 — #71961",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144257,13,2026-08-03,0.0000,51681.0000,"to record cash sales July 31, august 1 - 1 — #71961",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144258,13,2026-08-03,68716.0000,0.0000,"Sales Branches August 3, 2026 - Cash Sales - August, 03 — #77845",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144258,1613,2026-08-03,0.0000,45440.0000,"Sales Branches August 3, 2026 - Consultations — #77845",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144260,165,2026-08-03,547.9000,0.0000,Asalus Corporation - CWT-2% ASALUS — CN-6376,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144261,165,2026-08-03,149.0000,0.0000,Asalus Corporation - CWT-2% ASALUS — CN-6378,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144262,165,2026-08-03,615.7000,0.0000,Asalus Corporation - CWT-2% ASALUS — CN-6382,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144263,165,2026-08-03,184.9000,0.0000,Asalus Corporation - CWT-2% ASALUS — CN-6383,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144264,165,2026-08-03,344.4000,0.0000,Asalus Corporation - CWT-2% ASALUS — CN-6384,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144265,165,2026-08-03,104.2000,0.0000,Asalus Corporation - CWT-2% ASALUS — CN-6387,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144266,165,2026-08-03,558.9000,0.0000,Asalus Corporation - CWT-2% asalus — CN-6392,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144267,165,2026-08-03,269.6000,0.0000,Asalus Corporation - CWT-2% ASALUS — CN-6398,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144268,165,2026-08-03,206.0000,0.0000,Asalus Corporation - CWT-2% ASALUS — CN-6399,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144269,165,2026-08-03,299.3000,0.0000,Asalus Corporation - CWT-2% ASALUS — CN-6400,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144270,165,2026-08-03,441.9000,0.0000,Asalus Corporation - CWT-2% ASALUS — CN-6402,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144271,165,2026-08-03,193.0000,0.0000,Asalus Corporation - CWT-2% ASALUS — CN-6404,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144272,165,2026-08-03,297.4000,0.0000,Asalus Corporation - CWT-2% ASALUS — CN-6408,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144273,165,2026-08-03,1091.2000,0.0000,Asalus Corporation - CWT-2% ASALUS — CN-6409,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144274,165,2026-08-03,231.2000,0.0000,Asalus Corporation - CWT-2% ASALUS — CN-6422,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144275,165,2026-08-03,200.8000,0.0000,Asalus Corporation - CWT-2% ASALUS — CN-6424,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144276,165,2026-08-03,133.0000,0.0000,Asalus Corporation - CWT-2% ASALUS — CN-6425,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144277,165,2026-08-03,184.2000,0.0000,Asalus Corporation - CWT-2% ASALUS — CN-6426,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144278,165,2026-08-03,174.2000,0.0000,Asalus Corporation - CWT-2% ASALUS — CN-6427,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144279,165,2026-08-03,310.4000,0.0000,Asalus Corporation - CWT-2% ASALUS — CN-6430,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144280,165,2026-08-03,140.0000,0.0000,Asalus Corporation - CWT-2% ASALUS — CN-6438,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144281,165,2026-08-03,339.7000,0.0000,Asalus Corporation - CWT-2% ASALUS — CN-6442,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144258,1625,2026-08-03,4647.0000,0.0000,"Sales Branches August 3, 2026 - Sales Discounts - August, 03 — #77845",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144259,245,2026-08-03,0.0000,31250.0000,"BIOSYN HEALTHCARE SYSTEMS, INC. - 1% EWT on: 80% Fullpayment for Versana Balance R2 (cardiac neonate configuration) utz machines | CAPEX 26-0110 SI no.6090 — 0826-000842",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144258,1633,2026-08-03,0.0000,5740.0000,"Sales Branches August 3, 2026 - Health services — #77845",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144258,1645,2026-08-03,0.0000,20690.0000,"Sales Branches August 3, 2026 - Laboratory/Diagnostics — #77845",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144258,1645,2026-08-03,0.0000,54585.0000,"Sales Branches August 3, 2026 - Laboratory/Diagnostics — #77845",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144258,1645,2026-08-03,0.0000,37475.0000,"Sales Branches August 3, 2026 - Laboratory/Diagnostics — #77845",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144258,1657,2026-08-03,0.0000,16025.0000,"Sales Branches August 3, 2026 - Laboratory/Diagnostics - Send Outs — #77845",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144329,77,2026-08-04,3780.0000,0.0000,"Sales Branches August 4, 2026 - Gcash Sales - August, 04 — #77857",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144329,61,2026-08-04,450.0000,0.0000,"Sales Branches August 4, 2026 - Credit Card Sales - August, 04 — #77857",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144329,61,2026-08-04,2742.0000,0.0000,"Sales Branches August 4, 2026 - Debit Card Sales - August, 04 — #77857",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144387,65,2026-08-04,0.0000,3095.0000,"Avega Managed Care, Inc - CANILLO, MARY ANN SENO | 08/01/2026 | Avega Managed Care, Inc | 3095- — C3655",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144388,65,2026-08-04,0.0000,300.0000,"Cooperative Health Management Federation - AMOSORA, RODRIGO ADLAWAN | 08/01/2026 | Cooperative Health Management Federation | 300- — C3656",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144388,65,2026-08-04,0.0000,300.0000,"Cooperative Health Management Federation - CHAN, JET ROGER SERRANO | 08/01/2026 | Cooperative Health Management Federation | 300- — C3656",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144389,65,2026-08-04,0.0000,610.0000,"Insular Healthcare Inc - BONSUBRE, SHERILYN PANUGALINOG | 08/01/2026 | Insular Healthcare Inc | 610- — C3657",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144389,65,2026-08-04,0.0000,600.0000,"Insular Healthcare Inc - BONSUBRE, SHERILYN PANUGALINOG | 08/01/2026 | Insular Healthcare Inc | 600- — C3657",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144389,65,2026-08-04,0.0000,600.0000,"Insular Healthcare Inc - CASPE, JERELYN CAPADA | 08/01/2026 | Insular Healthcare Inc | 600- — C3657",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144389,65,2026-08-04,0.0000,500.0000,"Insular Healthcare Inc - JABINEZ, KEITH FRANCIS QUIAPO | 08/01/2026 | Insular Healthcare Inc | 500- — C3657",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144389,65,2026-08-04,0.0000,600.0000,"Insular Healthcare Inc - MALARAS, DIANE - | 08/01/2026 | Insular Healthcare Inc | 600- — C3657",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144389,65,2026-08-04,0.0000,600.0000,"Insular Healthcare Inc - MILLOR, LOUIE CASTILLO | 08/01/2026 | Insular Healthcare Inc | 600- — C3657",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144389,65,2026-08-04,0.0000,620.0000,"Insular Healthcare Inc - PADIZ, CHARMAINE ABLAN | 08/01/2026 | SHEARWATER HEALTH ADVISORS, INC. | 620- — C3657",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144389,65,2026-08-04,0.0000,600.0000,"Insular Healthcare Inc - ROYO, CHAMAE LORAINE BALANDRA | 08/01/2026 | Insular Healthcare Inc | 600- — C3657",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144389,65,2026-08-04,0.0000,1500.0000,"Insular Healthcare Inc - TALANG, MAE ANN GODINEZ | 08/01/2026 | SHEARWATER HEALTH ADVISORS, INC. | 1500- — C3657",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144389,65,2026-08-04,0.0000,1600.0000,"Insular Healthcare Inc - VILLANUEVA, NIÑA MAE LEQUIGAN | 08/01/2026 | Insular Healthcare Inc | 1600- — C3657",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144390,65,2026-08-04,0.0000,400.0000,"Life & Health Hmp Inc - BULOTANO, ANNA VANICKA GORRE | 08/01/2026 | Life & Health Hmp Inc | 400- — C3658",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144390,65,2026-08-04,0.0000,400.0000,"Life & Health Hmp Inc - BULOTANO, NICKIE FLYNN GORRE | 08/01/2026 | Life & Health Hmp Inc | 400- — C3658",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144390,65,2026-08-04,0.0000,400.0000,"Life & Health Hmp Inc - CUYOS, JUSTINE RAM CABALLERO | 08/01/2026 | Life & Health Hmp Inc | 400- — C3658",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144390,65,2026-08-04,0.0000,270.0000,"Life & Health Hmp Inc - CUYOS, JUSTINE RAM CABALLERO | 08/01/2026 | Life & Health Hmp Inc | 270- — C3658",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144390,65,2026-08-04,0.0000,4740.0000,"Life & Health Hmp Inc - FRASCO, MARIFE BAGTENDON | 08/01/2026 | Life & Health Hmp Inc | 4740- — C3658",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144390,65,2026-08-04,0.0000,8185.0000,"Life & Health Hmp Inc - FRASCO, MARIFE BAGTENDON | 08/01/2026 | Life & Health Hmp Inc | 8185- — C3658",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144390,65,2026-08-04,0.0000,2730.0000,"Life & Health Hmp Inc - MANATAD, JOGILYN ABUHAT | 08/01/2026 | Life & Health Hmp Inc | 2730- — C3658",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144390,65,2026-08-04,0.0000,400.0000,"Life & Health Hmp Inc - URSAL, MARIA IVY CABALLERO | 08/01/2026 | Life & Health Hmp Inc | 400- — C3658",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144390,65,2026-08-04,0.0000,400.0000,"Life & Health Hmp Inc - URSAL, MARIA IVY CABALLERO | 08/01/2026 | Life & Health Hmp Inc | 400- — C3658",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144391,65,2026-08-04,0.0000,3210.0000,"Maxicare Healthcare Corporation - ENRIQUEZ JR., RENATO GONZALES | 08/01/2026 | MAXICARE HEALTHCARE CORPORATION | 3210- — C3659",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144391,65,2026-08-04,0.0000,2020.0000,"Maxicare Healthcare Corporation - ENRIQUEZ JR., RENATO GONZALES | 08/01/2026 | MAXICARE HEALTHCARE CORPORATION | 2020- — C3659",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144391,65,2026-08-04,0.0000,600.0000,"Maxicare Healthcare Corporation - ENRIQUEZ, JESSICA SY | 08/01/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C3659",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144391,65,2026-08-04,0.0000,9661.0000,"Maxicare Healthcare Corporation - ENRIQUEZ, JESSICA SY | 08/01/2026 | MAXICARE HEALTHCARE CORPORATION | 9661- — C3659",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144391,65,2026-08-04,0.0000,970.0000,"Maxicare Healthcare Corporation - LABAY, ANAMIE RONDINA | 08/01/2026 | MAXICARE HEALTHCARE CORPORATION | 970- — C3659",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144391,65,2026-08-04,0.0000,600.0000,"Maxicare Healthcare Corporation - OMIPLE, CYNTHIA APOLINAIRE CHIONG | 08/01/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C3659",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144391,65,2026-08-04,0.0000,600.0000,"Maxicare Healthcare Corporation - QUINDAO, ARMANDO JR. BORRES | 08/01/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C3659",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144391,65,2026-08-04,0.0000,170.0000,"Maxicare Healthcare Corporation - QUINDAO, ARMANDO JR. BORRES | 08/01/2026 | MAXICARE HEALTHCARE CORPORATION | 170- — C3659",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144391,65,2026-08-04,0.0000,600.0000,"Maxicare Healthcare Corporation - QUITARA, AKIRA FENDER MORGAN | 08/01/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C3659",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144392,65,2026-08-04,0.0000,600.0000,"Medicard Philippines Inc - CARINGAL, MARJORIE SANCHEZ | 08/01/2026 | Medicard Philippines Inc | 600- — C3660",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144392,65,2026-08-04,0.0000,3100.0000,"Medicard Philippines Inc - CARINGAL, MARJORIE SANCHEZ | 08/01/2026 | Medicard Philippines Inc | 3100- — C3660",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144392,65,2026-08-04,0.0000,270.0000,"Medicard Philippines Inc - MELGAR, MARILOU TOMONGTONG | 08/01/2026 | Medicard Philippines Inc | 270- — C3660",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144393,65,2026-08-04,0.0000,780.0000,"Virginia Food Inc. - CABIGON, REAH KATE CIDOL | 08/01/2026 | VIRGINIA FOOD INC | 780- — C3661",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144329,65,2026-08-04,62022.0000,0.0000,"Sales Branches August 4, 2026 - Term Sales - August, 04 — #77857",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144330,57,2026-08-04,0.0000,6.0000,Cooperative Health Management Federation — CN-6456,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144358,57,2026-08-04,0.0000,6.0000,Cooperative Health Management Federation — C2776,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144368,57,2026-08-04,6.0000,0.0000,Cooperative Health Management Federation — CN-6456,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144331,57,2026-08-04,0.0000,225.2000,Cooperative Health Management Federation — CN-6458,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144361,57,2026-08-04,0.0000,225.2000,Cooperative Health Management Federation — C2824,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144369,57,2026-08-04,225.2000,0.0000,Cooperative Health Management Federation — CN-6458,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144332,57,2026-08-04,0.0000,6.0000,Cooperative Health Management Federation — CN-6459,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144350,57,2026-08-04,0.0000,6.0000,Cooperative Health Management Federation — C2623,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144370,57,2026-08-04,6.0000,0.0000,Cooperative Health Management Federation — CN-6459,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144333,57,2026-08-04,0.0000,6.0000,Cooperative Health Management Federation — CN-6460,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144349,57,2026-08-04,0.0000,6.0000,Cooperative Health Management Federation — C2600,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144371,57,2026-08-04,6.0000,0.0000,Cooperative Health Management Federation — CN-6460,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144334,57,2026-08-04,0.0000,24.0000,Cooperative Health Management Federation — CN-6461,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144351,57,2026-08-04,0.0000,24.0000,Cooperative Health Management Federation — C2636,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144372,57,2026-08-04,24.0000,0.0000,Cooperative Health Management Federation — CN-6461,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144335,57,2026-08-04,0.0000,99.2000,Cooperative Health Management Federation — CN-6463,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144352,57,2026-08-04,0.0000,99.2000,Cooperative Health Management Federation — C2665,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144373,57,2026-08-04,99.2000,0.0000,Cooperative Health Management Federation — CN-6463,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144336,57,2026-08-04,0.0000,147.0000,Cooperative Health Management Federation — CN-6470,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144357,57,2026-08-04,0.0000,147.0000,Cooperative Health Management Federation — C2745,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144374,57,2026-08-04,147.0000,0.0000,Cooperative Health Management Federation — CN-6470,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144337,57,2026-08-04,0.0000,93.2000,Cooperative Health Management Federation — CN-6471,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144353,57,2026-08-04,0.0000,93.2000,Cooperative Health Management Federation — C2677,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144375,57,2026-08-04,93.2000,0.0000,Cooperative Health Management Federation — CN-6471,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144338,57,2026-08-04,0.0000,135.6000,Cooperative Health Management Federation — CN-6473,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144367,57,2026-08-04,0.0000,135.6000,Cooperative Health Management Federation — C3003,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144376,57,2026-08-04,135.6000,0.0000,Cooperative Health Management Federation — CN-6473,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144339,57,2026-08-04,0.0000,35.0000,Cooperative Health Management Federation — CN-6474,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144363,57,2026-08-04,0.0000,35.0000,Cooperative Health Management Federation — C2938,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144377,57,2026-08-04,35.0000,0.0000,Cooperative Health Management Federation — CN-6474,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144340,57,2026-08-04,0.0000,6.0000,Cooperative Health Management Federation — CN-6479,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144362,57,2026-08-04,0.0000,6.0000,Cooperative Health Management Federation — C2924,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144378,57,2026-08-04,6.0000,0.0000,Cooperative Health Management Federation — CN-6479,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144341,57,2026-08-04,0.0000,81.6000,Cooperative Health Management Federation — CN-6484,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144364,57,2026-08-04,0.0000,81.6000,Cooperative Health Management Federation — C2954,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144379,57,2026-08-04,81.6000,0.0000,Cooperative Health Management Federation — CN-6484,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144342,57,2026-08-04,0.0000,44.4000,Cooperative Health Management Federation — CN-6489,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144366,57,2026-08-04,0.0000,44.4000,Cooperative Health Management Federation — C2989,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144380,57,2026-08-04,44.4000,0.0000,Cooperative Health Management Federation — CN-6489,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144343,57,2026-08-04,0.0000,72.0000,Cooperative Health Management Federation — CN-6490,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144365,57,2026-08-04,0.0000,72.0000,Cooperative Health Management Federation — C2977,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144381,57,2026-08-04,72.0000,0.0000,Cooperative Health Management Federation — CN-6490,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144344,57,2026-08-04,0.0000,152.6000,Cooperative Health Management Federation — CN-6495,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144359,57,2026-08-04,0.0000,152.6000,Cooperative Health Management Federation — C2789,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144382,57,2026-08-04,152.6000,0.0000,Cooperative Health Management Federation — CN-6495,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144345,57,2026-08-04,0.0000,12.0000,Cooperative Health Management Federation — CN-6496,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144360,57,2026-08-04,0.0000,12.0000,Cooperative Health Management Federation — C2800,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144383,57,2026-08-04,12.0000,0.0000,Cooperative Health Management Federation — CN-6496,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144346,57,2026-08-04,0.0000,6.0000,Cooperative Health Management Federation — CN-6500,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144354,57,2026-08-04,0.0000,6.0000,Cooperative Health Management Federation — C2706,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144384,57,2026-08-04,6.0000,0.0000,Cooperative Health Management Federation — CN-6500,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144347,57,2026-08-04,0.0000,355.4000,Cooperative Health Management Federation — CN-6501,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144355,57,2026-08-04,0.0000,355.4000,Cooperative Health Management Federation — C2713,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144385,57,2026-08-04,355.4000,0.0000,Cooperative Health Management Federation — CN-6501,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144348,57,2026-08-04,0.0000,271.2000,Cooperative Health Management Federation — CN-6508,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144356,57,2026-08-04,0.0000,271.2000,Cooperative Health Management Federation — C2730,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144386,57,2026-08-04,271.2000,0.0000,Cooperative Health Management Federation — CN-6508,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144387,57,2026-08-04,3095.0000,0.0000,"Avega Managed Care, Inc — C3655",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144388,57,2026-08-04,600.0000,0.0000,Cooperative Health Management Federation — C3656,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144389,57,2026-08-04,7830.0000,0.0000,Insular Healthcare Inc — C3657,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144390,57,2026-08-04,17925.0000,0.0000,Life & Health Hmp Inc — C3658,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144391,57,2026-08-04,18431.0000,0.0000,Maxicare Healthcare Corporation — C3659,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144392,57,2026-08-04,3970.0000,0.0000,Medicard Philippines Inc — C3660,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144393,57,2026-08-04,780.0000,0.0000,Virginia Food Inc. — C3661,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144328,1,2026-08-04,68716.0000,0.0000,to record cash sales august 3 — #73034,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144328,13,2026-08-04,0.0000,68716.0000,to record cash sales august 3 — #73034,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144329,13,2026-08-04,60821.0000,0.0000,"Sales Branches August 4, 2026 - Cash Sales - August, 04 — #77857",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144329,1613,2026-08-04,0.0000,45640.0000,"Sales Branches August 4, 2026 - Consultations — #77857",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144330,165,2026-08-04,6.0000,0.0000,Cooperative Health Management Federation - CWT-2% COOPERATIVE — CN-6456,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144331,165,2026-08-04,225.2000,0.0000,Cooperative Health Management Federation - CWT-2% COOPERATIVE — CN-6458,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144332,165,2026-08-04,6.0000,0.0000,Cooperative Health Management Federation - CWT-2% COOPERATIVE — CN-6459,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144333,165,2026-08-04,6.0000,0.0000,Cooperative Health Management Federation - CWT-2% COOPERATIVE — CN-6460,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144334,165,2026-08-04,24.0000,0.0000,Cooperative Health Management Federation - CWT-2% COOPERATIVE — CN-6461,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144335,165,2026-08-04,99.2000,0.0000,Cooperative Health Management Federation - CWT-2% COOPERATIVE — CN-6463,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144336,165,2026-08-04,147.0000,0.0000,Cooperative Health Management Federation - CWT-2% COOPERATIVE — CN-6470,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144337,165,2026-08-04,93.2000,0.0000,Cooperative Health Management Federation - CWT-2% COOPERATIVE — CN-6471,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144338,165,2026-08-04,135.6000,0.0000,Cooperative Health Management Federation - CWT-2% COOPERATIVE — CN-6473,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144339,165,2026-08-04,35.0000,0.0000,Cooperative Health Management Federation - CWT-2% COOPERATIVE — CN-6474,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144340,165,2026-08-04,6.0000,0.0000,Cooperative Health Management Federation - CWT-2% COOPERATIVE — CN-6479,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144341,165,2026-08-04,81.6000,0.0000,Cooperative Health Management Federation - CWT-2% COOPERATIVE — CN-6484,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144342,165,2026-08-04,44.4000,0.0000,Cooperative Health Management Federation - CWT-2% COOPERATIVE — CN-6489,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144343,165,2026-08-04,72.0000,0.0000,Cooperative Health Management Federation - CWT-2% COOPERATIVE — CN-6490,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144344,165,2026-08-04,152.6000,0.0000,Cooperative Health Management Federation - CWT-2% COOPERATIVE — CN-6495,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144345,165,2026-08-04,12.0000,0.0000,Cooperative Health Management Federation - CWT-2% COOPERATIVE — CN-6496,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144346,165,2026-08-04,6.0000,0.0000,Cooperative Health Management Federation - CWT-2% COOPERATIVE — CN-6500,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144347,165,2026-08-04,355.4000,0.0000,Cooperative Health Management Federation - CWT-2% COOPERATIVE — CN-6501,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144348,165,2026-08-04,271.2000,0.0000,Cooperative Health Management Federation - CWT-2% COOPERATIVE — CN-6508,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144329,1625,2026-08-04,4140.0000,0.0000,"Sales Branches August 4, 2026 - Sales Discounts - August, 04 — #77857",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144329,1633,2026-08-04,0.0000,6340.0000,"Sales Branches August 4, 2026 - Health services — #77857",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144329,1645,2026-08-04,0.0000,17150.0000,"Sales Branches August 4, 2026 - Laboratory/Diagnostics — #77857",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144329,1645,2026-08-04,0.0000,43845.0000,"Sales Branches August 4, 2026 - Laboratory/Diagnostics — #77857",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144329,1645,2026-08-04,0.0000,20980.0000,"Sales Branches August 4, 2026 - Laboratory/Diagnostics — #77857",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144398,217,2026-08-05,0.0000,9951.2500,Angeline Muñoz — RFP No.# 6684,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144397,217,2026-08-05,0.0000,2800.0000,Dan Samuel Burgos — RFP No.# 6683,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144396,217,2026-08-05,0.0000,5600.0000,Rhevy Jerald Vistal — RFP No.# 6682,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144395,77,2026-08-05,5925.0000,0.0000,"Sales Branches August 5, 2026 - Gcash Sales - August, 05 — #77991",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144404,61,2026-08-05,392.0000,0.0000,Payment: Life & Health Hmp Inc — C3022,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144405,61,2026-08-05,392.0000,0.0000,Payment: Life & Health Hmp Inc — C3251,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144406,61,2026-08-05,7359.8000,0.0000,Payment: Life & Health Hmp Inc — C3286,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144395,61,2026-08-05,9310.0000,0.0000,"Sales Branches August 5, 2026 - Credit Card Sales - August, 05 — #77991",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144395,61,2026-08-05,3600.0000,0.0000,"Sales Branches August 5, 2026 - Debit Card Sales - August, 05 — #77991",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144399,65,2026-08-05,0.0000,500.0000,"Avega Managed Care, Inc - BESOYO, KEMUEL LUCKY NIÑO PITOGO | 08/03/2026 | Avega Managed Care, Inc | 500- — C3663",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144399,65,2026-08-05,0.0000,600.0000,"Avega Managed Care, Inc - TIBON, CYNTHIA ISOK | 08/03/2026 | Avega Managed Care, Inc | 600- — C3663",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144399,65,2026-08-05,0.0000,2210.0000,"Avega Managed Care, Inc - TIBON, CYNTHIA ISOK | 08/03/2026 | Avega Managed Care, Inc | 2210- — C3663",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144399,65,2026-08-05,0.0000,500.0000,"Avega Managed Care, Inc - VASQUEZ, MESSYSABEL GOC-ONG | 08/03/2026 | Avega Managed Care, Inc | 500- — C3663",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144400,65,2026-08-05,0.0000,950.0000,"CONNECTIONS OUTSOURCING INC. - POGADO, MA  PATRICIA ABENER | 08/03/2026 | CONNECTIONS OUTSOURCING INC. | 950- — C3664",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144401,65,2026-08-05,0.0000,300.0000,"Cooperative Health Management Federation - COMISO, ELBERT JR QUIVEDO | 08/03/2026 | Cooperative Health Management Federation | 300- — C3665",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144401,65,2026-08-05,0.0000,300.0000,"Cooperative Health Management Federation - COMISO, ROSE ENDEN QUIVEDO | 08/03/2026 | Cooperative Health Management Federation | 300- — C3665",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144401,65,2026-08-05,0.0000,300.0000,"Cooperative Health Management Federation - PONCE, JESSA MAE VELASCO | 08/03/2026 | Cooperative Health Management Federation | 300- — C3665",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144401,65,2026-08-05,0.0000,2550.0000,"Cooperative Health Management Federation - PONCE, JESSA MAE VELASCO | 08/03/2026 | Cooperative Health Management Federation | 2550- — C3665",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144401,65,2026-08-05,0.0000,300.0000,"Cooperative Health Management Federation - ZURBITO, ZOLIMIE GALES | 08/03/2026 | Cooperative Health Management Federation | 300- — C3665",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144402,65,2026-08-05,0.0000,500.0000,"Etiqa Life and General Assurance Phillipines, Inc - LLEVE, ZEUS THEODORE CABISON | 08/03/2026 | Etiqa Life and General Assurance Phillipines, Inc | 500- — C3666",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144402,65,2026-08-05,0.0000,500.0000,"Etiqa Life and General Assurance Phillipines, Inc - OLIVAROS, FATIMA ABUCAY | 08/03/2026 | Etiqa Life and General Assurance Phillipines, Inc | 500- — C3666",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144402,65,2026-08-05,0.0000,3750.0000,"Etiqa Life and General Assurance Phillipines, Inc - OLIVAROS, FATIMA ABUCAY | 08/03/2026 | Etiqa Life and General Assurance Phillipines, Inc | 3750- — C3666",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144403,65,2026-08-05,0.0000,270.0000,"Health Delivery Sytem Inc (Flexicare) - TAMPUS, ROSELYN COSE | 08/03/2026 | Health Delivery Sytem Inc (Flexicare) | 270- — C3667",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144395,65,2026-08-05,100780.0000,0.0000,"Sales Branches August 5, 2026 - Term Sales - August, 05 — #77991",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144399,57,2026-08-05,3810.0000,0.0000,"Avega Managed Care, Inc — C3663",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144400,57,2026-08-05,950.0000,0.0000,CONNECTIONS OUTSOURCING INC. — C3664,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144401,57,2026-08-05,3750.0000,0.0000,Cooperative Health Management Federation — C3665,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144402,57,2026-08-05,4750.0000,0.0000,"Etiqa Life and General Assurance Phillipines, Inc — C3666",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144403,57,2026-08-05,270.0000,0.0000,Health Delivery Sytem Inc (Flexicare) — C3667,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144404,57,2026-08-05,0.0000,392.0000,Payment: Life & Health Hmp Inc — C3022,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144405,57,2026-08-05,0.0000,392.0000,Payment: Life & Health Hmp Inc — C3251,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144406,57,2026-08-05,0.0000,7359.8000,Payment: Life & Health Hmp Inc — C3286,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144394,1,2026-08-05,60821.0000,0.0000,to record cash sales august 4 — #73024,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144394,13,2026-08-05,0.0000,60821.0000,to record cash sales august 4 — #73024,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144395,13,2026-08-05,35727.0000,0.0000,"Sales Branches August 5, 2026 - Cash Sales - August, 05 — #77991",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144398,609,2026-08-05,133.9300,0.0000,Angeline Muñoz - Vatable: Chair Rental (Replenishment) — RFP No.# 6684,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144395,1613,2026-08-05,0.0000,33560.0000,"Sales Branches August 5, 2026 - Consultations — #77991",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144395,1625,2026-08-05,2328.0000,0.0000,"Sales Branches August 5, 2026 - Sales Discounts - August, 05 — #77991",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144395,1633,2026-08-05,0.0000,2600.0000,"Sales Branches August 5, 2026 - Health services — #77991",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144398,697,2026-08-05,16.0700,0.0000,Angeline Muñoz - Vat: 2days Chair Rental (Replenishment) — RFP No.# 6684,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144398,741,2026-08-05,50.8900,0.0000,Angeline Muñoz - Vat: Purchase of Extension Wire & 8packs of Plastics Cups (Replenishment) — RFP No.# 6684,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144398,757,2026-08-05,103.1000,0.0000,Angeline Muñoz - Vat: Purchase of Wire & Multi Seal for Installment of Emergency Light (Replenisment) — RFP No.# 6684,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144398,777,2026-08-05,21.4300,0.0000,Angeline Muñoz - Vat: Gasoline/Parking Fee (Replenishment) — RFP No.# 6684,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144395,1645,2026-08-05,0.0000,27150.0000,"Sales Branches August 5, 2026 - Laboratory/Diagnostics — #77991",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144395,1645,2026-08-05,0.0000,42930.0000,"Sales Branches August 5, 2026 - Laboratory/Diagnostics — #77991",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144395,1645,2026-08-05,0.0000,23675.0000,"Sales Branches August 5, 2026 - Laboratory/Diagnostics — #77991",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144395,1657,2026-08-05,0.0000,27755.0000,"Sales Branches August 5, 2026 - Laboratory/Diagnostics - Send Outs — #77991",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144398,817,2026-08-05,2000.0000,0.0000,Angeline Muñoz - Laundry Fee (Replenishment) — RFP No.# 6684,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144398,849,2026-08-05,424.1100,0.0000,Angeline Muñoz - Vatable: Purchase of Extension Wire & 8packs of Plastics Cups (Replenishment) — RFP No.# 6684,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144398,849,2026-08-05,500.0000,0.0000,Angeline Muñoz - Non-vat: Drinking water (Replenishment) — RFP No.# 6684,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144398,861,2026-08-05,5521.0000,0.0000,Angeline Muñoz - ASC & Messenger Reliever (Replenishment) — RFP No.# 6684,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144397,1201,2026-08-05,2800.0000,0.0000,"Dan Samuel Burgos - PCP Reliever for July 31 & Aug 3, 2026 — RFP No.# 6683",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144396,1201,2026-08-05,5600.0000,0.0000,"Rhevy Jerald Vistal - PCP Reliever for July 29-30, 2026 — RFP No.# 6682",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144398,909,2026-08-05,859.1500,0.0000,Angeline Muñoz - Vatable: Purchase of Wire & Multi Seal for Installment of Emergency Light (Replenisment) — RFP No.# 6684,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144398,945,2026-08-05,178.5700,0.0000,Angeline Muñoz - Vatable: Gasoline/Passenger Fee (Replenishment) — RFP No.# 6684,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144398,945,2026-08-05,143.0000,0.0000,Angeline Muñoz - Nondeductible: Transportation Expenses (Replenihsment) — RFP No.# 6684,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144407,77,2026-08-06,7331.0000,0.0000,"Sales Branches August 6, 2026 - Gcash Sales - August, 06 — #77923",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144409,61,2026-08-06,1200.0000,0.0000,Payment: Life & Health Hmp Inc — C3157,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144408,61,2026-08-06,400.0000,0.0000,Payment: Life & Health Hmp Inc — C3150,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144416,61,2026-08-06,6134.8000,0.0000,Payment: Life & Health Hmp Inc — C3334,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144411,61,2026-08-06,2479.4000,0.0000,Payment: Life & Health Hmp Inc — C3189,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144405,61,2026-08-06,16532.6000,0.0000,Payment: Life & Health Hmp Inc — C3251,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144412,61,2026-08-06,5772.2000,0.0000,Payment: Life & Health Hmp Inc — C3199,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144414,61,2026-08-06,4684.4000,0.0000,Payment: Life & Health Hmp Inc — C3263,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144408,61,2026-08-06,9114.0000,0.0000,Payment: Life & Health Hmp Inc — C3150,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144409,61,2026-08-06,9868.6000,0.0000,Payment: Life & Health Hmp Inc — C3157,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144410,61,2026-08-06,784.0000,0.0000,Payment: Life & Health Hmp Inc — C3170,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144413,61,2026-08-06,4674.6000,0.0000,Payment: Life & Health Hmp Inc — C3210,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144415,61,2026-08-06,3528.0000,0.0000,Payment: Life & Health Hmp Inc — C3303,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144406,61,2026-08-06,19105.1000,0.0000,Payment: Life & Health Hmp Inc — C3286,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144407,61,2026-08-06,4890.0000,0.0000,"Sales Branches August 6, 2026 - Credit Card Sales - August, 06 — #77923",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144407,61,2026-08-06,7105.0000,0.0000,"Sales Branches August 6, 2026 - Debit Card Sales - August, 06 — #77923",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144407,65,2026-08-06,149070.0000,0.0000,"Sales Branches August 6, 2026 - Term Sales - August, 06 — #77923",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144409,57,2026-08-06,0.0000,1200.0000,Payment: Life & Health Hmp Inc — C3157,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144408,57,2026-08-06,0.0000,400.0000,Payment: Life & Health Hmp Inc — C3150,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144416,57,2026-08-06,0.0000,6134.8000,Payment: Life & Health Hmp Inc — C3334,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144411,57,2026-08-06,0.0000,2479.4000,Payment: Life & Health Hmp Inc — C3189,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144405,57,2026-08-06,0.0000,16532.6000,Payment: Life & Health Hmp Inc — C3251,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144412,57,2026-08-06,0.0000,5772.2000,Payment: Life & Health Hmp Inc — C3199,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144414,57,2026-08-06,0.0000,4684.4000,Payment: Life & Health Hmp Inc — C3263,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144408,57,2026-08-06,0.0000,9114.0000,Payment: Life & Health Hmp Inc — C3150,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144409,57,2026-08-06,0.0000,9868.6000,Payment: Life & Health Hmp Inc — C3157,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144410,57,2026-08-06,0.0000,784.0000,Payment: Life & Health Hmp Inc — C3170,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144413,57,2026-08-06,0.0000,4674.6000,Payment: Life & Health Hmp Inc — C3210,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144415,57,2026-08-06,0.0000,3528.0000,Payment: Life & Health Hmp Inc — C3303,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144406,57,2026-08-06,0.0000,19105.1000,Payment: Life & Health Hmp Inc — C3286,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144407,13,2026-08-06,51832.0000,0.0000,"Sales Branches August 6, 2026 - Cash Sales - August, 06 — #77923",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144407,1613,2026-08-06,0.0000,54130.0000,"Sales Branches August 6, 2026 - Consultations — #77923",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144407,1625,2026-08-06,4464.0000,0.0000,"Sales Branches August 6, 2026 - Sales Discounts - August, 06 — #77923",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144407,1633,2026-08-06,0.0000,4375.0000,"Sales Branches August 6, 2026 - Health services — #77923",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144407,1645,2026-08-06,0.0000,37190.0000,"Sales Branches August 6, 2026 - Laboratory/Diagnostics — #77923",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144407,1645,2026-08-06,0.0000,45570.0000,"Sales Branches August 6, 2026 - Laboratory/Diagnostics — #77923",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144407,1645,2026-08-06,0.0000,44162.0000,"Sales Branches August 6, 2026 - Laboratory/Diagnostics — #77923",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144407,1657,2026-08-06,0.0000,30365.0000,"Sales Branches August 6, 2026 - Laboratory/Diagnostics - Send Outs — #77923",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144407,1713,2026-08-06,0.0000,8900.0000,"Sales Branches August 6, 2026 - Third-Party Partnership — #77923",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144425,217,2026-08-07,8820.0000,0.0000,Payment: COOLTEK REFRIGERATION AND AIRCONDITIONING SERVICES — RFP No.# 6569,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144424,217,2026-08-07,14157.7000,0.0000,Payment: CEBU SPIC & SPAN JANITORIAL SERVICES INC. — RFP No.# 6560,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144421,217,2026-08-07,0.0000,3600.0000,IRNANI JULIUS BELCIÑA — RFP No.# 6708,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144420,217,2026-08-07,0.0000,5000.0000,APRIL CANDY KONG — RFP No.# 6691,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144419,217,2026-08-07,0.0000,3000.0000,GEMELSON CADIZ — RFP No.# 6690,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144422,217,2026-08-07,0.0000,3998.0000,"Innove Communications, Inc. — RFP No.# 6712",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144423,217,2026-08-07,0.0000,25872.0000,COOLTEK REFRIGERATION AND AIRCONDITIONING SERVICES — RFP No.# 6716,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144427,217,2026-08-07,2800.0000,0.0000,Payment: Dan Samuel Burgos — RFP No.# 6683,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144426,217,2026-08-07,5600.0000,0.0000,Payment: Rhevy Jerald Vistal — RFP No.# 6682,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144429,217,2026-08-07,5000.0000,0.0000,Payment: APRIL CANDY KONG — RFP No.# 6691,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144428,217,2026-08-07,9951.2500,0.0000,Payment: Angeline Muñoz — RFP No.# 6684,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144430,217,2026-08-07,3600.0000,0.0000,Payment: IRNANI JULIUS BELCIÑA — RFP No.# 6708,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144418,77,2026-08-07,11146.0000,0.0000,"Sales Branches August 7, 2026 - Gcash Sales - August, 07 — #77989",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144457,61,2026-08-07,2214.8000,0.0000,Payment: Life & Health Hmp Inc — C3275,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144459,61,2026-08-07,7918.4000,0.0000,Payment: Life & Health Hmp Inc — C3325,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144458,61,2026-08-07,6321.0000,0.0000,Payment: Life & Health Hmp Inc — C3315,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144460,61,2026-08-07,3498.6000,0.0000,Payment: Life & Health Hmp Inc — C3348,1,0,2026-08-31 23:59:59,0
+4,journal_entry,144463,61,2026-08-07,4949.0000,0.0000,"Payment: INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3536",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144462,61,2026-08-07,8281.0000,0.0000,"Payment: INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3520",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144461,61,2026-08-07,588.0000,0.0000,"Payment: INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3509",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144464,61,2026-08-07,2018.8000,0.0000,"Payment: INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3566",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144466,61,2026-08-07,9368.8000,0.0000,"Payment: INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3596",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144465,61,2026-08-07,44335.2000,0.0000,"Payment: INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) — C3579",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144418,61,2026-08-07,600.0000,0.0000,"Sales Branches August 7, 2026 - Credit Card Sales - August, 07 — #77989",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144418,61,2026-08-07,6755.0000,0.0000,"Sales Branches August 7, 2026 - Debit Card Sales - August, 07 — #77989",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144431,65,2026-08-07,0.0000,500.0000,"Insular Healthcare Inc - MURIO, CHARISSA RULETE | 08/03/2026 | Insular Healthcare Inc | 500- — C3668",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144431,65,2026-08-07,0.0000,180.0000,"Insular Healthcare Inc - MURIO, CHARISSA RULETE | 08/03/2026 | Insular Healthcare Inc | 180- — C3668",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144431,65,2026-08-07,0.0000,500.0000,"Insular Healthcare Inc - TIGOL, DULCE MAY O. | 08/03/2026 | Insular Healthcare Inc | 500- — C3668",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144431,65,2026-08-07,0.0000,2550.0000,"Insular Healthcare Inc - TIGOL, DULCE MAY O. | 08/03/2026 | Insular Healthcare Inc | 2550- — C3668",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144431,65,2026-08-07,0.0000,2930.0000,"Insular Healthcare Inc - ALCOVER, SULPICIA DEDOMO | 08/03/2026 | Insular Healthcare Inc | 2930- — C3668",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144431,65,2026-08-07,0.0000,500.0000,"Insular Healthcare Inc - ALCOVER, SULPICIA DEDOMO | 08/03/2026 | Insular Healthcare Inc | 500- — C3668",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144431,65,2026-08-07,0.0000,500.0000,"Insular Healthcare Inc - ALTAMERA, NEMIA FONTANOZA | 08/03/2026 | Insular Healthcare Inc | 500- — C3668",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144431,65,2026-08-07,0.0000,600.0000,"Insular Healthcare Inc - ARMENTA, JERRY NEL ARCETE | 08/03/2026 | Insular Healthcare Inc | 600- — C3668",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144431,65,2026-08-07,0.0000,2550.0000,"Insular Healthcare Inc - BAYAWA, KRISTINE KAYE FLORES | 08/03/2026 | Insular Healthcare Inc | 2550- — C3668",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144431,65,2026-08-07,0.0000,620.0000,"Insular Healthcare Inc - BRIGOLI, JANINE YGOT | 08/03/2026 | SHEARWATER HEALTH ADVISORS, INC. | 620- — C3668",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144431,65,2026-08-07,0.0000,180.0000,"Insular Healthcare Inc - ELENTO, JOSHUA ZION FABROA | 08/03/2026 | Insular Healthcare Inc | 180- — C3668",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144431,65,2026-08-07,0.0000,500.0000,"Insular Healthcare Inc - ESTRADA, JEFREY ARAÑO | 08/03/2026 | Insular Healthcare Inc | 500- — C3668",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144431,65,2026-08-07,0.0000,2970.0000,"Insular Healthcare Inc - ESTRADA, JEFREY ARAÑO | 08/03/2026 | Insular Healthcare Inc | 2970- — C3668",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144431,65,2026-08-07,0.0000,500.0000,"Insular Healthcare Inc - HORN, GERSHOM PASCUA | 08/03/2026 | Insular Healthcare Inc | 500- — C3668",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144431,65,2026-08-07,0.0000,3140.0000,"Insular Healthcare Inc - HORN, GERSHOM PASCUA | 08/03/2026 | Insular Healthcare Inc | 3140- — C3668",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144431,65,2026-08-07,0.0000,500.0000,"Insular Healthcare Inc - LUAYON, ZOE MARGARETTE ARNIBAL | 08/03/2026 | Insular Healthcare Inc | 500- — C3668",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144431,65,2026-08-07,0.0000,2550.0000,"Insular Healthcare Inc - LUAYON, ZOE MARGARETTE ARNIBAL | 08/03/2026 | Insular Healthcare Inc | 2550- — C3668",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144431,65,2026-08-07,0.0000,600.0000,"Insular Healthcare Inc - MACEREN, JODE-AN GUIBO | 08/03/2026 | Insular Healthcare Inc | 600- — C3668",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144431,65,2026-08-07,0.0000,500.0000,"Insular Healthcare Inc - MANCENIDO, RICHIE BALANE | 08/03/2026 | Insular Healthcare Inc | 500- — C3668",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144431,65,2026-08-07,0.0000,600.0000,"Insular Healthcare Inc - PONCE, SHEN STEPHANE SALVA | 08/03/2026 | Insular Healthcare Inc | 600- — C3668",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144431,65,2026-08-07,0.0000,500.0000,"Insular Healthcare Inc - QUIROS, MAE PAULINE GICA | 08/03/2026 | Insular Healthcare Inc | 500- — C3668",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144431,65,2026-08-07,0.0000,600.0000,"Insular Healthcare Inc - SANTA MARIA, MARIE CHRIS GULBIN | 08/03/2026 | Insular Healthcare Inc | 600- — C3668",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144431,65,2026-08-07,0.0000,1020.0000,"Insular Healthcare Inc - SANTA MARIA, MARIE CHRIS GULBIN | 08/03/2026 | Insular Healthcare Inc | 1020- — C3668",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144431,65,2026-08-07,0.0000,100.0000,"Insular Healthcare Inc - SANTA MARIA, MARIE CHRIS GULBIN | 08/03/2026 | Insular Healthcare Inc | 100- — C3668",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144431,65,2026-08-07,0.0000,100.0000,"Insular Healthcare Inc - SANTA MARIA, MARIE CHRIS GULBIN | 08/03/2026 | Insular Healthcare Inc | 100- — C3668",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144431,65,2026-08-07,0.0000,500.0000,"Insular Healthcare Inc - SANTOS, PIA SCARLETT ADOLFO | 08/03/2026 | Insular Healthcare Inc | 500- — C3668",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144431,65,2026-08-07,0.0000,600.0000,"Insular Healthcare Inc - TANJAY, JORJEL ANN NEDIA | 08/03/2026 | Insular Healthcare Inc | 600- — C3668",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144431,65,2026-08-07,0.0000,1450.0000,"Insular Healthcare Inc - TANJAY, JORJEL ANN NEDIA | 08/03/2026 | Insular Healthcare Inc | 1450- — C3668",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144431,65,2026-08-07,0.0000,500.0000,"Insular Healthcare Inc - TAPDASAN, CRISTEN MAE ANGTUD | 08/03/2026 | Insular Healthcare Inc | 500- — C3668",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144432,65,2026-08-07,0.0000,400.0000,"Asalus Corporation - DAYON, MARY HAILEY AGON | 08/03/2026 | Asalus Corporation | 400- — C3669",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144432,65,2026-08-07,0.0000,500.0000,"Asalus Corporation - DESCARTIN, HANNAH JELAN MAGBANUA | 08/03/2026 | Asalus Corporation | 500- — C3669",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144432,65,2026-08-07,0.0000,820.0000,"Asalus Corporation - ORDIZ, ABEGAEL SOLON | 08/03/2026 | Asalus Corporation | 820- — C3669",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144432,65,2026-08-07,0.0000,500.0000,"Asalus Corporation - REYES, MIKYLE JOHN BOLANTE | 08/03/2026 | Asalus Corporation | 500- — C3669",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144432,65,2026-08-07,0.0000,1510.0000,"Asalus Corporation - REYES, MIKYLE JOHN BOLANTE | 08/03/2026 | Asalus Corporation | 1510- — C3669",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144432,65,2026-08-07,0.0000,3370.0000,"Asalus Corporation - SOLLANO, FREDERICK MADEJA | 08/03/2026 | Asalus Corporation | 3370- — C3669",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144432,65,2026-08-07,0.0000,1095.0000,"Asalus Corporation - SOLLANO, FREDERICK MADEJA | 08/03/2026 | Asalus Corporation | 1095- — C3669",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144432,65,2026-08-07,0.0000,600.0000,"Asalus Corporation - TIDALGO, APRIL ROSE LICARDO | 08/03/2026 | Asalus Corporation | 600- — C3669",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144433,65,2026-08-07,0.0000,400.0000,"Life & Health Hmp Inc - CAGANG, JENY ROS DAGATAN | 08/03/2026 | Life & Health Hmp Inc | 400- — C3670",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144434,65,2026-08-07,0.0000,600.0000,"Maxicare Healthcare Corporation - ROMEO, CLARENCE KERBY MACALDO | 08/03/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C3671",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144434,65,2026-08-07,0.0000,690.0000,"Maxicare Healthcare Corporation - ROMEO, CLARENCE KERBY MACALDO | 08/03/2026 | MAXICARE HEALTHCARE CORPORATION | 690- — C3671",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144434,65,2026-08-07,0.0000,600.0000,"Maxicare Healthcare Corporation - ROMEO, MICHELLE MANAGAY | 08/03/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C3671",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144434,65,2026-08-07,0.0000,600.0000,"Maxicare Healthcare Corporation - CASUL, ADRIEL RUBAS | 08/03/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C3671",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144434,65,2026-08-07,0.0000,320.0000,"Maxicare Healthcare Corporation - CASUL, ADRIEV RUBAS | 08/03/2026 | MAXICARE HEALTHCARE CORPORATION | 320- — C3671",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144434,65,2026-08-07,0.0000,600.0000,"Maxicare Healthcare Corporation - CINCO, EMMAN HEINRICH SOLIANO | 08/03/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C3671",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144434,65,2026-08-07,0.0000,600.0000,"Maxicare Healthcare Corporation - ELEJORDE, EUNICE ABELGAS | 08/03/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C3671",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144434,65,2026-08-07,0.0000,2270.0000,"Maxicare Healthcare Corporation - ELEJORDE, EUNICE ABELGAS | 08/03/2026 | MAXICARE HEALTHCARE CORPORATION | 2270- — C3671",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144434,65,2026-08-07,0.0000,2000.0000,"Maxicare Healthcare Corporation - FLORES, DIONNE ANN GREY | 08/03/2026 | MAXICARE HEALTHCARE CORPORATION | 2000- — C3671",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144434,65,2026-08-07,0.0000,250.0000,"Maxicare Healthcare Corporation - JUMAO-AS, LOUELLA ECOT | 08/03/2026 | MAXICARE HEALTHCARE CORPORATION | 250- — C3671",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144434,65,2026-08-07,0.0000,600.0000,"Maxicare Healthcare Corporation - LACHARON, ZANE ANWYLL MAGALE | 08/03/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C3671",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144434,65,2026-08-07,0.0000,550.0000,"Maxicare Healthcare Corporation - LIM, AGNES MAGDADARO | 08/03/2026 | MAXICARE HEALTHCARE CORPORATION | 550- — C3671",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144434,65,2026-08-07,0.0000,3990.0000,"Maxicare Healthcare Corporation - LIM, AGNES MAGDADARO | 08/03/2026 | MAXICARE HEALTHCARE CORPORATION | 3990- — C3671",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144434,65,2026-08-07,0.0000,890.0000,"Maxicare Healthcare Corporation - PINGKIAN, KEVIN CLINT ROSAL | 08/03/2026 | MAXICARE HEALTHCARE CORPORATION | 890- — C3671",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144434,65,2026-08-07,0.0000,250.0000,"Maxicare Healthcare Corporation - QUITARA, NEUREJY MORGAN | 08/03/2026 | MAXICARE HEALTHCARE CORPORATION | 250- — C3671",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144434,65,2026-08-07,0.0000,250.0000,"Maxicare Healthcare Corporation - QUITARA, VON BRIAN DUPAY | 08/03/2026 | MAXICARE HEALTHCARE CORPORATION | 250- — C3671",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144434,65,2026-08-07,0.0000,250.0000,"Maxicare Healthcare Corporation - SANCHEZ, ERICA MURIEL POLIDO | 08/03/2026 | MAXICARE HEALTHCARE CORPORATION | 250- — C3671",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144434,65,2026-08-07,0.0000,1060.0000,"Maxicare Healthcare Corporation - SANCHEZ, ERICA MURIEL POLIDO | 08/03/2026 | MAXICARE HEALTHCARE CORPORATION | 1060- — C3671",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144434,65,2026-08-07,0.0000,250.0000,"Maxicare Healthcare Corporation - SANCHEZ, EVANGELINE POLIDO | 08/03/2026 | MAXICARE HEALTHCARE CORPORATION | 250- — C3671",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144434,65,2026-08-07,0.0000,4945.0000,"Maxicare Healthcare Corporation - SANCHEZ, EVANGELINE POLIDO | 08/03/2026 | MAXICARE HEALTHCARE CORPORATION | 4945- — C3671",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144434,65,2026-08-07,0.0000,250.0000,"Maxicare Healthcare Corporation - TEIN, GINA CUAMBOT | 08/03/2026 | MAXICARE HEALTHCARE CORPORATION | 250- — C3671",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144434,65,2026-08-07,0.0000,2710.0000,"Maxicare Healthcare Corporation - TEIN, GINA CUAMBOT | 08/03/2026 | MAXICARE HEALTHCARE CORPORATION | 2710- — C3671",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144434,65,2026-08-07,0.0000,250.0000,"Maxicare Healthcare Corporation - VERALLO, LILIBETH VINTA | 08/03/2026 | MAXICARE HEALTHCARE CORPORATION | 250- — C3671",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144435,65,2026-08-07,0.0000,1600.0000,"Onitsuka Multi Products, Inc. - SUMILHIG, JOAN BONTILAO | 08/03/2026 | ONITSUKA MULTI-PRODUCTS INC. | 1600- — C3672",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144436,65,2026-08-07,0.0000,390.0000,"Philhealthcare, Inc - ORAÑO, GERARDO HIBAYA | 08/03/2026 | Philhealthcare, Inc | 390- — C3673",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144436,65,2026-08-07,0.0000,600.0000,"Philhealthcare, Inc - AGUJAR, APRIL KEITH NAINGUE | 08/03/2026 | Philhealthcare, Inc | 600- — C3673",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144436,65,2026-08-07,0.0000,550.0000,"Philhealthcare, Inc - CANATAN, JESSA . | 08/03/2026 | Philhealthcare, Inc | 550- — C3673",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144436,65,2026-08-07,0.0000,600.0000,"Philhealthcare, Inc - DELIGOS, DARRYL PUSOD | 08/03/2026 | Philhealthcare, Inc | 600- — C3673",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144436,65,2026-08-07,0.0000,550.0000,"Philhealthcare, Inc - SICLOT, MARIBEL MORANO | 08/03/2026 | Philhealthcare, Inc | 550- — C3673",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144436,65,2026-08-07,0.0000,1600.0000,"Philhealthcare, Inc - SICLOT, MARIBEL MORANO | 08/03/2026 | Philhealthcare, Inc | 1600- — C3673",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144436,65,2026-08-07,0.0000,600.0000,"Philhealthcare, Inc - SOREÑO, BRENT SUHAYON | 08/03/2026 | Philhealthcare, Inc | 600- — C3673",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144436,65,2026-08-07,0.0000,450.0000,"Philhealthcare, Inc - SOREÑO, BRENT SUHAYON | 08/03/2026 | Philhealthcare, Inc | 450- — C3673",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144437,65,2026-08-07,0.0000,800.0000,"Virginia Food Inc. - CAJES, ALJUNE MARK AUZA | 08/03/2026 | VIRGINIA FOOD INC | 800- — C3674",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144437,65,2026-08-07,0.0000,800.0000,"Virginia Food Inc. - CRISTAL, JOSE JERSON VALMORIA | 08/03/2026 | VIRGINIA FOOD INC | 800- — C3674",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144437,65,2026-08-07,0.0000,800.0000,"Virginia Food Inc. - EVARDONE, MARK NEIL BUTAL | 08/03/2026 | VIRGINIA FOOD INC | 800- — C3674",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144437,65,2026-08-07,0.0000,800.0000,"Virginia Food Inc. - SALIGUMBA, JAMES CLARK PERSIGAS | 08/03/2026 | VIRGINIA FOOD INC | 800- — C3674",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144438,65,2026-08-07,0.0000,170.0000,"Avega Managed Care, Inc - BESOYO, KEMUEL LUCKY NIÑO PITOGO | 08/04/2026 | Avega Managed Care, Inc | 170- — C3675",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144438,65,2026-08-07,0.0000,600.0000,"Avega Managed Care, Inc - TIBON, CYNTHIA ISOK | 08/04/2026 | Avega Managed Care, Inc | 600- — C3675",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144438,65,2026-08-07,0.0000,1900.0000,"Avega Managed Care, Inc - TIBON, CYNTHIA ISOK | 08/04/2026 | Avega Managed Care, Inc | 1900- — C3675",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144438,65,2026-08-07,0.0000,3750.0000,"Avega Managed Care, Inc - NEBRIL, PATRICIA NAOMI LORETO | 08/04/2026 | Avega Managed Care, Inc | 3750- — C3675",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144439,65,2026-08-07,0.0000,300.0000,"Cooperative Health Management Federation - APAS, RAHYAN CAPAROSO | 08/04/2026 | Cooperative Health Management Federation | 300- — C3676",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144439,65,2026-08-07,0.0000,4920.0000,"Cooperative Health Management Federation - CHAN, JET ROGER SERRANO | 08/04/2026 | Cooperative Health Management Federation | 4920- — C3676",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144439,65,2026-08-07,0.0000,300.0000,"Cooperative Health Management Federation - DELOS SANTOS, DARIUS AYUDA | 08/04/2026 | Cooperative Health Management Federation | 300- — C3676",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144439,65,2026-08-07,0.0000,3160.0000,"Cooperative Health Management Federation - DELOS SANTOS, DARIUS AYUDA | 08/04/2026 | Cooperative Health Management Federation | 3160- — C3676",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144440,65,2026-08-07,0.0000,500.0000,"Etiqa Life and General Assurance Phillipines, Inc - LLEVE, ZEUS THEODORE CABISON | 08/04/2026 | Etiqa Life and General Assurance Phillipines, Inc | 500- — C3677",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144441,65,2026-08-07,0.0000,600.0000,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) - LIBOT, MARY GRACE ROSELLOSA | 08/04/2026 | INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) | 600- — C3678",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144441,65,2026-08-07,0.0000,600.0000,"INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) - PEREZ, MARIE GRACE CAPABLANCA | 08/04/2026 | INLIFE BENEFITS INSURANCE COMPANY, INC. (INLIFE BENEFITS) | 600- — C3678",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144442,65,2026-08-07,0.0000,500.0000,"Insular Healthcare Inc - MURIO, CHARISSA RULETE | 08/04/2026 | Insular Healthcare Inc | 500- — C3679",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144442,65,2026-08-07,0.0000,600.0000,"Insular Healthcare Inc - TIGOL, DULCE MAY O. | 08/04/2026 | Insular Healthcare Inc | 600- — C3679",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144442,65,2026-08-07,0.0000,500.0000,"Insular Healthcare Inc - ALVIAR, RALPH NOLAN QUIMOD | 08/04/2026 | Insular Healthcare Inc | 500- — C3679",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144442,65,2026-08-07,0.0000,600.0000,"Insular Healthcare Inc - AMOR, RANELYN ERATO | 08/04/2026 | Insular Healthcare Inc | 600- — C3679",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144442,65,2026-08-07,0.0000,600.0000,"Insular Healthcare Inc - AYALA, CHRISFIL GIN COMAYA | 08/04/2026 | Insular Healthcare Inc | 600- — C3679",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144442,65,2026-08-07,0.0000,500.0000,"Insular Healthcare Inc - CAGATA, REMEDIOS FUENTES | 08/04/2026 | Insular Healthcare Inc | 500- — C3679",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144442,65,2026-08-07,0.0000,500.0000,"Insular Healthcare Inc - ESTRERA, MARIA KATE ABELO | 08/04/2026 | Insular Healthcare Inc | 500- — C3679",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144442,65,2026-08-07,0.0000,600.0000,"Insular Healthcare Inc - GENON, JAYLUNA LAÑOJAN | 08/04/2026 | Insular Healthcare Inc | 600- — C3679",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144442,65,2026-08-07,0.0000,600.0000,"Insular Healthcare Inc - LOPEZ, LEMWEL LANGIDO | 08/04/2026 | Insular Healthcare Inc | 600- — C3679",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144442,65,2026-08-07,0.0000,500.0000,"Insular Healthcare Inc - NARANDAN, REYBELLE SOPHIA ALDIANO | 08/04/2026 | Insular Healthcare Inc | 500- — C3679",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144442,65,2026-08-07,0.0000,450.0000,"Insular Healthcare Inc - NARANDAN, REYBELLE SOPHIA ALDIANO | 08/04/2026 | Insular Healthcare Inc | 450- — C3679",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144442,65,2026-08-07,0.0000,500.0000,"Insular Healthcare Inc - PAPA, JOHN ROMAR ERMAC | 08/04/2026 | Insular Healthcare Inc | 500- — C3679",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144442,65,2026-08-07,0.0000,500.0000,"Insular Healthcare Inc - ROSATACE, BELLA ASTER BRIGOLE | 08/04/2026 | Insular Healthcare Inc | 500- — C3679",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144442,65,2026-08-07,0.0000,500.0000,"Insular Healthcare Inc - TEVES, GEOMELYN GUEVARA | 08/04/2026 | Insular Healthcare Inc | 500- — C3679",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144443,65,2026-08-07,0.0000,600.0000,"Asalus Corporation - BATILLER, ADRIENE LORIE SINGUILLO | 08/04/2026 | Asalus Corporation | 600- — C3680",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144443,65,2026-08-07,0.0000,1570.0000,"Asalus Corporation - DALEON, MARIELYS MANULAT | 08/04/2026 | Asalus Corporation | 1570- — C3680",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144443,65,2026-08-07,0.0000,3460.0000,"Asalus Corporation - DALEON, RONALD CABATINGAN | 08/04/2026 | Asalus Corporation | 3460- — C3680",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144443,65,2026-08-07,0.0000,500.0000,"Asalus Corporation - DOTUSME, JUDE ALICOS | 08/04/2026 | Asalus Corporation | 500- — C3680",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144443,65,2026-08-07,0.0000,500.0000,"Asalus Corporation - MONTER, LYRA MAE LANGOMES | 08/04/2026 | Asalus Corporation | 500- — C3680",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144444,65,2026-08-07,0.0000,400.0000,"Life & Health Hmp Inc - BALAJADIA, ZYANNA AKAIAH ALINSUG | 08/04/2026 | Life & Health Hmp Inc | 400- — C3681",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144444,65,2026-08-07,0.0000,400.0000,"Life & Health Hmp Inc - BUQUIA, JOSH NATHAN APAS | 08/04/2026 | Life & Health Hmp Inc | 400- — C3681",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144444,65,2026-08-07,0.0000,400.0000,"Life & Health Hmp Inc - BUQUIA, JOSH NIÑO APAS | 08/04/2026 | Life & Health Hmp Inc | 400- — C3681",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144444,65,2026-08-07,0.0000,400.0000,"Life & Health Hmp Inc - GARBO, RITCHEL TAGALOG | 08/04/2026 | Life & Health Hmp Inc | 400- — C3681",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144444,65,2026-08-07,0.0000,1350.0000,"Life & Health Hmp Inc - GARBO, RITCHEL TAGALOG | 08/04/2026 | Life & Health Hmp Inc | 1350- — C3681",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144445,65,2026-08-07,0.0000,500.0000,"Maxicare Healthcare Corporation - ROMEO, CLARENCE KERBY MACALDO | 08/04/2026 | MAXICARE HEALTHCARE CORPORATION | 500- — C3682",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144445,65,2026-08-07,0.0000,550.0000,"Maxicare Healthcare Corporation - ROMEO, MICHELLE MANAGAY | 08/04/2026 | MAXICARE HEALTHCARE CORPORATION | 550- — C3682",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144445,65,2026-08-07,0.0000,600.0000,"Maxicare Healthcare Corporation - AGUILAR, REX RYAN PONCE | 08/04/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C3682",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144445,65,2026-08-07,0.0000,150.0000,"Maxicare Healthcare Corporation - DOMINGO, ATHENA MARIE HEYROSA | 08/04/2026 | MAXICARE HEALTHCARE CORPORATION | 150- — C3682",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144445,65,2026-08-07,0.0000,600.0000,"Maxicare Healthcare Corporation - GARCIANO, CHARLIE YAP | 08/04/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C3682",1,0,2026-08-31 23:59:59,0
+4,journal_entry,144445,65,2026-08-07,0.0000,600.0000,"Maxicare Healthcare Corporation - LABE, JAHZARA QUIJANO | 08/04/2026 | MAXICARE HEALTHCARE CORPORATION | 600- — C3682",1,0,2026-08-31 23:59:59,0
